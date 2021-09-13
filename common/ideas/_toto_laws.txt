@@ -1,0 +1,80 @@
+ideas = {
+# State of Country
+	law_type_culture = {
+		culture_placeholder_0 = {
+			allowed = { always = yes }
+		}
+		culture_placeholder_1 = {
+			allowed = { always = yes }
+		}
+	}
+	law_type_religion = {
+		religion_catholic = {
+			allowed = { always = yes }
+		}
+		religion_protestant = {
+			allowed = { always = yes }
+		}
+		religion_sunni = {
+			allowed = { always = yes }
+		}
+		religion_shia = {
+			allowed = { always = yes }
+		}
+		religion_ibadi = {
+			allowed = { always = yes }
+		}
+		religion_animist = {
+			allowed = { always = yes }
+		}
+		religion_sult_of_personality = {
+			allowed = { always = yes }
+		}
+		religion_atheist = {
+			allowed = { always = yes }
+		}
+		religion_secular = {
+			allowed = { always = yes }
+		}
+	}
+	law_type_tech = {
+		tech_tribal = {
+			allowed = { always = yes }
+		}
+		tech_feudal = {
+			allowed = { always = yes }
+		}
+		tech_mercantile = {
+			allowed = { always = yes }
+		}
+		tech_industrial = {
+			allowed = { always = yes }
+		}
+		tech_electrical = {
+			allowed = { always = yes }
+		}
+		tech_post_electrical = {
+			allowed = { always = yes }
+		}
+	}
+	law_type_society = {
+		society_nomadic = {
+			allowed = { always = yes }
+		}
+		society_tribal = {
+			allowed = { always = yes}
+		}
+		society_agrarian = {
+			allowed = { always = yes }
+		}
+		society_mercantile = {
+			allowed = { always = yes }
+		}
+		society_industrial = {
+			allowed = { always = yes }
+		}
+		society_electrical = {
+			allowed = { always = yes }
+		}
+	}
+}

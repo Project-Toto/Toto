@@ -1,0 +1,7 @@
+afr_is_tribal = {
+	always = yes
+}
+
+is_nomadic_nation_state = {
+	always = no
+}
