@@ -21,3 +21,5 @@
  modifier_experience_gain_primitive_rowboat_combat_factor:0 "Rowboat Combat Factor"
  modifier_experience_gain_primitive_sailing_boat_training_factor:0 "Sailing Boat Training Factor"
  modifier_experience_gain_primitive_sailing_boat_combat_factor:0 "Sailing Boat Combat Factor"
+ modifier_experience_gain_torpedo_boat_training_factor:0 "Torpedo Boat Training Factor"
+ modifier_experience_gain_torpedo_boat_combat_factor:0 "Torpedo Boat Combat Factor"

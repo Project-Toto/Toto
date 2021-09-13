@@ -13,17 +13,25 @@ idea_categories = {
 		removal_cost = -1
 	}
 
-	state_country = {
-		slot = head_of_state
-		slot = heir_throne
-		slot = industrialization
-		slot = tech_era
-		slot = army_era
-		slot = major_religion
+	law_country = {
+		slot = law_type_culture
+		slot = law_type_religion
+		slot = law_type_tech
+		slot = law_type_society
+		slot = law_type_government
+		slot = law_type_military
 		cost = 999
 		removal_cost = 0
 		
 		ledger = civilian
+	}
+
+	law_status = {
+		slot = economy
+		slot = trade_laws
+		slot = mobilization_laws
+		slot = economic_mobilization
+		slot = land_property
 	}
 	#
 		# government = {

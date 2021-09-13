@@ -77,4 +77,44 @@ ideas = {
 			allowed = { always = yes }
 		}
 	}
+	law_type_government = {
+		government_nomadic = {
+			allowed = { always = yes }
+		}
+		government_tribe = {
+			allowed = { always = yes }
+		}
+		government_princedom = {
+			allowed = { always = yes }
+		}
+		government_kingdom = {
+			allowed = { always = yes }
+		}
+		government_sultanate = {
+			allowed = { always = yes }
+		}
+		government_merchantile_oligarchy = {
+			allowed = { always = yes }
+		}
+		government_berber_pirate = {
+			allowed = { always = yes }
+		}
+	}
+	law_type_military = {
+		military_nomadic_warriors = {
+			allowed = { always = yes }
+		}
+		military_agrarian_levies = {
+			allowed = { always = yes }
+		}
+		military_traditional = {
+			allowed = { always = yes }
+		}
+		military_line = {
+			allowed = { always = yes }
+		}
+		military_modern = {
+			allowed = { always = yes }
+		}
+	}
 }

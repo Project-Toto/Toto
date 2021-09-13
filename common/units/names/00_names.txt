@@ -244,7 +244,7 @@ generic = {
 # Generic - are used when all unique are used. Those have numbers appended at the end.
 
 #ARG from Vanilla left in as an example
-ARG = {
+TES = {
 	submarine = {
 		prefix = "ARA"
 		generic = { "Submarino" }
