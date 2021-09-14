@@ -4,7 +4,6 @@ state={
 	name="STATE_1"
 
 	history={
-		owner = TES
 		buildings = {
 			infrastructure = 1
 
