@@ -2,8 +2,11 @@ state={
 	id=27
 	name="STATE_27"
 	provinces={
-		7659 10750 
+		7659 10750
 	}
-	manpower=0
+	history={
+		owner=EUR
+	}
+	manpower=1
 	buildings_max_level_factor=1.000
 }

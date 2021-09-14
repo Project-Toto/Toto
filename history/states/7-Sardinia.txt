@@ -2,8 +2,11 @@ state={
 	id=7
 	name="STATE_7"
 	provinces={
-		827 3340 4571 4890 5675 5729 5799 5851 7298 7487 7504 7514 7518 
+		827 3340 4571 4890 5675 5729 5799 5851 7298 7487 7504 7514 7518
 	}
-	manpower=0
+	history={
+		owner=EUR
+	}
+	manpower=1
 	buildings_max_level_factor=1.000
 }

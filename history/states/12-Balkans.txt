@@ -2,8 +2,11 @@ state={
 	id=12
 	name="STATE_12"
 	provinces={
-		44 724 1711 2084 2572 3465 4291 4292 4464 5916 7172 7340 7387 
+		44 724 1711 2084 2572 3465 4291 4292 4464 5916 7172 7340 7387
 	}
-	manpower=0
+	history={
+		owner=OTO
+	}
+	manpower=1
 	buildings_max_level_factor=1.000
 }

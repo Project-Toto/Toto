@@ -2,8 +2,11 @@ state={
 	id=33
 	name="STATE_33"
 	provinces={
-		324 795 2184 5276 5373 6505 6608 7604 7609 7616 7633 7635 
+		324 795 2184 5276 5373 6505 6608 7604 7609 7616 7633 7635
 	}
-	manpower=0
+	history={
+		owner=EUR
+	}
+	manpower=1
 	buildings_max_level_factor=1.000
 }

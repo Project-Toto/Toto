@@ -3,8 +3,11 @@ state={
 	id=6
 	name="STATE_6"
 	provinces={
-		6423 6870 7006 7119 7228 10733 10747 
+		6423 6870 7006 7119 7228 10733 10747
 	}
-	manpower=0
+	history={
+		owner=EUR
+	}
+	manpower=1
 	buildings_max_level_factor=1.000
 }

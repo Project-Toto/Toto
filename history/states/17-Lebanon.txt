@@ -3,8 +3,11 @@ state={
 	id=17
 	name="STATE_17"
 	provinces={
-		2444 2736 4701 6643 7548 7581 
+		2444 2736 4701 6643 7548 7581
 	}
-	manpower=0
+	history={
+		owner=OTO
+	}
+	manpower=1
 	buildings_max_level_factor=1.000
 }

@@ -1,8 +1,9 @@
+
 state={
-	id=5
-	name="STATE_5"
+	id=41
+	name="STATE_41"
 	provinces={
-		1531 3754 5241 7408 7432 7454
+		845 1606 2390 3892 3957 4515 6741 6814 7848 7853
 	}
 	history={
 		owner=EUR

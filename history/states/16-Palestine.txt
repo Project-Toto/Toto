@@ -3,8 +3,11 @@ state={
 	id=16
 	name="STATE_16"
 	provinces={
-		960 1805 2159 2893 3268 3783 3926 4465 4587 6363 7171 7621 7670 7708 
+		960 1805 2159 2893 3268 3783 3926 4465 4587 6363 7171 7621 7670 7708
 	}
-	manpower=0
+	history={
+		owner=OTO
+	}
+	manpower=1
 	buildings_max_level_factor=1.000
 }

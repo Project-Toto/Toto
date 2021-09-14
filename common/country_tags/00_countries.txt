@@ -1,1 +1,3 @@
 TES	= "countries/Test.txt"
+EUR = "countries/Europe.txt"
+OTO = "countries/Ottomans.txt"
