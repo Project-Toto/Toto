@@ -4,8 +4,9 @@ state={
 	provinces={
 		923 4016 5003 7059 7572 7576
 	}
+	state_category=town
 	history={
-		owner=EUR
+		owner=OTO
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

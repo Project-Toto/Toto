@@ -1,9 +1,10 @@
 state={
-	id=12
-	name="STATE_12"
+	id=49
+	name="STATE_49"
 	provinces={
-		44 724 1711 2084 2572 3465 4291 4292 4464 5916 7172 7340 7387
+		2587 4516 4740 5256 7371 7379 7407
 	}
+	state_category=town
 	history={
 		owner=OTO
 	}

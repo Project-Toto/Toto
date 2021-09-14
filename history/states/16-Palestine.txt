@@ -5,6 +5,7 @@ state={
 	provinces={
 		960 1805 2159 2893 3268 3783 3926 4465 4587 6363 7171 7621 7670 7708
 	}
+	state_category=town
 	history={
 		owner=OTO
 	}

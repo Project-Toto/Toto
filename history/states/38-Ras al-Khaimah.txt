@@ -4,6 +4,7 @@ state={
 	provinces={
 		7585
 	}
+	state_category=town
 	history={
 		owner=EUR
 	}

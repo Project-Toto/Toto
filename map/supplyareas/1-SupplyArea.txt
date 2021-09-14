@@ -1,8 +1,90 @@
 supply_area={
 	id=1
 	name="SUPPLYAREA_1"
-	value=0
+	value=6
 	states={
-		1 
+		1 2 3 4
+	}
+}
+supply_area={
+	id=2
+	name="SUPPLYAREA_1"
+	value=6
+	states={
+		6
+	}
+}
+
+supply_area={
+	id=3
+	name="SUPPLYAREA_1"
+	value=6
+	states={
+		5 7 8 9 10
+	}
+}
+
+supply_area={
+	id=4
+	name="SUPPLYAREA_1"
+	value=6
+	states={
+		11 12 48 49 50
+	}
+}
+supply_area={
+	id=5
+	name="SUPPLYAREA_1"
+	value=6
+	states={
+		13
+	}
+}
+supply_area={
+	id=6
+	name="SUPPLYAREA_1"
+	value=6
+	states={
+		14 15
+	}
+}
+supply_area={
+	id=7
+	name="SUPPLYAREA_1"
+	value=6
+	states={
+		16 17 18 19 22 23 24 41
+	}
+}
+supply_area={
+	id=8
+	name="SUPPLYAREA_1"
+	value=6
+	states={
+		25 26 27 42 44
+	}
+}
+supply_area={
+	id=9
+	name="SUPPLYAREA_1"
+	value=6
+	states={
+		28 29 30 31 32 33 34 35 36 37 38 39 40 45 46
+	}
+}
+supply_area={
+	id=10
+	name="SUPPLYAREA_1"
+	value=6
+	states={
+		43 47
+	}
+}
+supply_area={
+	id=11
+	name="SUPPLYAREA_1"
+	value=6
+	states={
+		20 21
 	}
 }
