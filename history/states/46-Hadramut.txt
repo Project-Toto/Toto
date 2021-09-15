@@ -2,13 +2,16 @@
 state={
 	id=46
 	name="STATE_46"
-	provinces={
-		43 1454 1473 1789 2655 2718 2794 3902 4133 4741 4925 6113 6210 6265 6281 6509 7126 7204 7263 8119 8141 8147 8156 8160 8165 8166 8172 8174 8175 8177 8183 8186 8190
-	}
-	state_category=town
+
 	history={
-		owner=KAT
+		owner = KAT
+
+	}
+
+	provinces={
+		662 695 1454 1789 2063 2794 3317 3723 3902 4925 6281 7126 7204 7263 8119 8123 8141 8156 8165 8172 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
+	state_category=town
 }

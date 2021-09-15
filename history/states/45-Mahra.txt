@@ -2,13 +2,16 @@
 state={
 	id=45
 	name="STATE_45"
-	provinces={
-		123 662 695 767 1431 2063 2124 2694 2999 3009 3081 3317 3723 4127 4982 5659 5697 5700 6669 8105 8112 8116 8121 8123 8136 8139 8142 8146 8164
-	}
-	state_category=town
+
 	history={
-		owner=MAH
+		owner = MAH
+
+	}
+
+	provinces={
+		123 767 1431 2124 2694 2999 3009 3081 4127 4982 5659 5697 5700 6669 8105 8112 8116 8121 8136 8139 8142 8146 8164 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
+	state_category=town
 }

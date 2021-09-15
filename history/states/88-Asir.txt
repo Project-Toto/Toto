@@ -1,0 +1,14 @@
+
+state={
+	id=88
+	name="STATE_88"
+	provinces={
+		289 314 432 759 832 964 1219 1678 2813 3738 4175 4233 4566 4751 4973 5096 5959 6088 6184 6192 6872 7152 7216 7286 8053 8056 8078 8083 8104 8111 
+	}
+	history={
+		owner = HJZ
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+}

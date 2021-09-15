@@ -1,0 +1,14 @@
+
+state={
+	id=85
+	name="STATE_85"
+	provinces={
+		248 484 532 598 776 1622 1861 2145 2384 2788 4007 4857 5184 5282 6762 8103 8129 8130 8131 8140 
+	}
+	history={
+		owner = ZAI
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+}
