@@ -2,13 +2,13 @@ bookmarks = {
 	bookmark = {
 		name = "GATHERING_STORM_NAME"
 		desc = "GATHERING_STORM_DESC"
-		date = 2000.1.1.12
+		date = 1857.1.1
 		picture = "GFX_select_date_1936"
-		default_country = "TES"
+		default_country = "OTO"
 		default = yes
 		
-		"TES"={
-			history = "TES_GATHERING_STORM_DESC"
+		"OTO"={
+			history = "OTO_GATHERING_STORM_DESC"
 			ideology = democratic
 			ideas = {
 				
@@ -16,6 +16,28 @@ bookmarks = {
 			}
 			focuses = {
 			
+			}
+		}
+		"OMA"={
+			history = "OMA_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+
+
+			}
+			focuses = {
+
+			}
+		}
+		"EGY"={
+			history = "EGY_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+
+
+			}
+			focuses = {
+
 			}
 		}
 		

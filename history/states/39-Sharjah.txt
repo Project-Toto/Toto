@@ -1,0 +1,13 @@
+state={
+	id=39
+	name="STATE_39"
+	provinces={
+		6463
+	}
+	state_category=town
+	history={
+		owner=SJH
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+}

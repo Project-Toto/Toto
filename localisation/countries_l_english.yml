@@ -1,48 +1,202 @@
 ﻿l_english:
- TES_fascism:0 "Microwave Cooking for One"
- TES_fascism_DEF:0 "Microwave Cooking for One"
- TES_democratic:0 "Microwave Cooking for One"
- TES_democratic_DEF:0 "Microwave Cooking for One"
- TES_neutrality:1 "Microwave Cooking for One"
- TES_neutrality_DEF:1 "Microwave Cooking for One"
- TES_communism:0 "Microwave Cooking for One"
- TES_communism_DEF:0 "Microwave Cooking for One"
- TES_fascism_ADJ:0 "Microwave Cooking for One"
- TES_democratic_ADJ:0 "Microwave Cooking for One"
- TES_neutrality_ADJ:0 "Microwave Cooking for One"
- TES_communism_ADJ:0 "Microwave Cooking for One"
- TES:0 "Microwave Cooking for One"
- TES_DEF:0 "Microwave Cooking for One"
- TES_ADJ:0 "Microwave Cooking for One"
+# Majors
+ TES:0 "Africa"
+ TES_DEF:0 "Africa"
+ TES_ADJ:0 "African"
 
- EUR_fascism:0 "Europe"
- EUR_fascism_DEF:0 "Europe"
- EUR_democratic:0 "Europe"
- EUR_democratic_DEF:0 "Europe"
- EUR_neutrality:1 "Europe"
- EUR_neutrality_DEF:1 "Europe"
- EUR_communism:0 "Europe"
- EUR_communism_DEF:0 "Europe"
- EUR_fascism_ADJ:0 "Europe"
- EUR_democratic_ADJ:0 "Europe"
- EUR_neutrality_ADJ:0 "Europe"
- EUR_communism_ADJ:0 "Europe"
  EUR:0 "Europe"
  EUR_DEF:0 "Europe"
  EUR_ADJ:0 "Europe"
 
- OTO_fascism:0 "Ottomans"
- OTO_fascism_DEF:0 "Ottomans"
- OTO_democratic:0 "Ottomans"
- OTO_democratic_DEF:0 "Ottomans"
- OTO_neutrality:1 "Ottomans"
- OTO_neutrality_DEF:1 "Ottomans"
- OTO_communism:0 "Ottomans"
- OTO_communism_DEF:0 "Ottomans"
- OTO_fascism_ADJ:0 "Ottomans"
- OTO_democratic_ADJ:0 "Ottomans"
- OTO_neutrality_ADJ:0 "Ottomans"
- OTO_communism_ADJ:0 "Ottomans"
  OTO:0 "Ottomans"
  OTO_DEF:0 "Ottomans"
  OTO_ADJ:0 "Ottomans"
+
+ OMA:0 "Oman"
+ OMA_DEF:0 "Oman"
+ OMA_ADJ:0 "Omani"
+# Europe
+ ALB:0 "Albania"
+ ALB_DEF:0 "Albania"
+ ALB_ADJ:0 "Albanian"
+
+ GRE:0 "Greece"
+ GRE_DEF:0 "Greece"
+ GRE_ADJ:0 "Greek"
+
+ CYP:0 "Cyprus"
+ CYP_DEF:0 "Cyprus"
+ CYP_ADJ:0 "Cypriot"
+
+ RUM:0 "Rumelia"
+ RUM_DEF:0 "Rumelia"
+ RUM_ADJ:0 "Rumelian"
+
+# Middle East
+ KUR:0 "Kurdistan"
+ KUR_DEF:0 "Kurdistan"
+ KUR_ADJ:0 "Kurdish"
+
+ PER:0 "Persia"
+ PER_DEF:0 "Persia"
+ PER_ADJ:0 "Persian"
+
+ IRQ:0 "Iraq"
+ IRQ_DEF:0 "Iraq"
+ IRQ_ADJ:0 "Iraqi"
+
+ SYR:0 "Syria"
+ SYR_DEF:0 "Syria"
+ SYR_ADJ:0 "Syrian"
+
+ LEB:0 "Lebanon"
+ LEB_DEF:0 "Lebanon"
+ LEB_ADJ:0 "Lebanese"
+
+ PAL:0 "Palestine"
+ PAL_DEF:0 "Palestine"
+ PAL_ADJ:0 "Palestinean"
+
+ JOR:0 "Jordan"
+ JOR_DEF:0 "Jordan"
+ JOR_ADJ:0 "Jordani"
+
+ KUW:0 "Kuwait"
+ KUW_DEF:0 "Kuwait"
+ KUW_ADJ:0 "Kuwaitean"
+# Arabia
+ BHR:0 "Bahrain"
+ BHR_DEF:0 "Bahrain"
+ BHR_ADJ:0 "Bahraini"
+
+ HIL:0 "Ha'il"
+ HIL_DEF:0 "Ha'il"
+ HIL_ADJ:0 "Rashidi"
+
+ QTR:0 "Qatar"
+ QTR_DEF:0 "Qatar"
+ QTR_ADJ:0 "Qatari"
+
+ SAU:0 "Saudi Arabia"
+ SAU_DEF:0 "Saudi Arabia"
+ SAU_ADJ:0 "Saudi"
+
+ HJZ:0 "Hejaz"
+ HJZ_DEF:0 "Hejaz"
+ HJZ_ADJ:0 "Hejazi"
+
+ AHB:0 "Abu Dhabi"
+ AHB_DEF:0 "Abu Dhabi"
+ AHB_ADJ:0 "Abu Dhabi"
+
+ DBI:0 "Dubai"
+ DBI_DEF:0 "Dubai"
+ DBI_ADJ:0 "Dubai"
+
+ SJH:0 "Sharjah"
+ SJH_DEF:0 "Sharjah"
+ SJH_ADJ:0 "Sharjahi"
+
+ UMM:0 "Umm al-Qaiwain"
+ UMM_DEF:0 "Umm al-Qaiwain"
+ UMM_ADJ:0 "Umma"
+
+ RKH:0 "Ras al-Khaimah"
+ RKH_DEF:0 "Ras al-Khaimah"
+ RKH_ADJ:0 "Ras'a"
+
+ AJM:0 "Ajman"
+ AJM_DEF:0 "Ajman"
+ AJM_ADJ:0 "Ajmani"
+
+ FJR:0 "Fujarah"
+ FJR_DEF:0 "Fujarah"
+ FJR_ADJ:0 "Fujarahi"
+
+ MAH:0 "Mahra"
+ MAH_DEF:0 "Mahra"
+ MAH_ADJ:0 "Mahran"
+
+ KAT:0 "Kathira"
+ KAT_DEF:0 "Kathira"
+ KAT_ADJ:0 "Kathiri"
+
+ QTI:0 "Qu'aiti"
+ QTI_DEF:0 "Qu'aiti"
+ QTI_ADJ:0 "Qu'aiti"
+
+ YEM:0 "Yemen"
+ YEM_DEF:0 "Yemen"
+ YEM_ADJ:0 "Yemeni"
+
+ ADN:0 "Lahej"
+ ADN_DEF:0 "Lahej"
+ ADN_ADJ:0 "Adeni"
+
+ ZAI:0 "Zaidi"
+ ZAI_DEF:0 "Zaidi"
+ ZAI_ADJ:0 "Yemeni"
+# Maghreb
+ EGY:0 "Egypt"
+ EGY_DEF:0 "Egypt"
+ EGY_ADJ:0 "Egyptian"
+
+ LBA:0 "Libya"
+ LBA_DEF:0 "Libya"
+ LBA_ADJ:0 "Libyan"
+
+ SNS:0 "Senussi"
+ SNS_DEF:0 "Senussi"
+ SNS_ADJ:0 "Senussi"
+
+ TUN:0 "Tunisia"
+ TUN_DEF:0 "Tunisia"
+ TUN_ADJ:0 "Tunisian"
+
+ ALG:0 "Algeria"
+ ALG_DEF:0 "Algeria"
+ ALG_ADJ:0 "Algerian"
+
+ MOR:0 "Morocco"
+ MOR_DEF:0 "Morocco"
+ MOR_ADJ:0 "Moroccoan"
+
+ ASS:0 "Awlad Sidi Shaydkh"
+ ASS_DEF:0 "Awlad Sidi Shaydkh"
+ ASS_ADJ:0 "Awladi"
+
+ KGG:0 "Kel Ahaggar"
+ KGG_DEF:0 "Kel Ahaggar"
+ KGG_ADJ:0 "Kel Ahaggai"
+
+ SHW:0 "Saharwi"
+ SHW_DEF:0 "Saharwi"
+ SHW_ADJ:0 "Saharwi"
+
+ MAU:0 "Mauritania"
+ MAU_DEF:0 "Mauritania"
+ MAU_ADJ:0 "Mauritanian"
+
+ ARR:0 "Adrar"
+ ARR_DEF:0 "Adrar"
+ ARR_ADJ:0 "Adrari"
+
+ TRZ:0 "Traza"
+ TRZ_DEF:0 "Traza"
+ TRZ_ADJ:0 "Trazi"
+
+ TGT:0 "Tagant"
+ TGT_DEF:0 "Tagant"
+ TGT_ADJ:0 "Tagant"
+
+ TAG:0 "Name"
+ TAG_DEF:0 "Name"
+ TAG_ADJ:0 "Nameadj"
+
+ TAG:0 "Name"
+ TAG_DEF:0 "Name"
+ TAG_ADJ:0 "Nameadj"
+
+ TAG:0 "Name"
+ TAG_DEF:0 "Name"
+ TAG_ADJ:0 "Nameadj"

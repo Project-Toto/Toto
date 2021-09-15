@@ -1,0 +1,14 @@
+
+state={
+	id=76
+	name="STATE_76"
+	provinces={
+		1540 2491 2900 5859 6051 6295 6711 6949 7996 8003 8006 8014 8034 8035 8040 
+	}
+	history={
+		owner = EUR
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,13 @@
+state={
+	id=79
+	name="STATE_79"
+	provinces={
+		3083 4814 7157 7398 10709 10712 10720 10725 10729 10732 10739 
+	}
+	history={
+		owner = GRE
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+}

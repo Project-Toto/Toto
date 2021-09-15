@@ -1,0 +1,14 @@
+
+state={
+	id=61
+	name="STATE_61"
+	provinces={
+		185 648 1076 1226 1255 1263 1602 1661 1800 1941 2265 2456 2557 2629 2822 2897 3262 3453 3856 4153 4897 5357 6149 6253 6447 6465 7217 8050 8133
+	}
+	history={
+		owner = MOR
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+}

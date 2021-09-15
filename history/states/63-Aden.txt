@@ -1,0 +1,14 @@
+
+state={
+	id=63
+	name="STATE_63"
+	provinces={
+		234 1894 2425 2649 2888 3286 3466 4539 4782 5624 5849 6161 6617 7004 8244 8248 8261 8263 8268 8271 8279 8284 8287 8289 8308 8317 8332 8343 8353
+	}
+	history={
+		owner = ADN
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+}

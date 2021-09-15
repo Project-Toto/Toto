@@ -1,12 +1,12 @@
 state={
-	id=38
-	name="STATE_38"
+	id=54
+	name="STATE_54"
 	provinces={
-		7585
+		12652 
 	}
 	state_category=town
 	history={
-		owner=EUR
+		owner=UMM
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

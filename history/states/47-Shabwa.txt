@@ -7,7 +7,7 @@ state={
 
 	state_category=town
 	history={
-		owner=EUR
+		owner=QTI
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

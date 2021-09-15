@@ -7,7 +7,7 @@ state={
 	}
 	state_category=town
 	history={
-		owner=EUR
+		owner=SAU
 	}
 	impassable=yes
 	manpower=1

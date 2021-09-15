@@ -2,13 +2,16 @@
 state={
 	id=48
 	name="STATE_48"
-	provinces={
-		3008 3029 4064 4292 4464 5642 5989 7305 7306 7335 7348 7398 10708 10709 10712
-	}
-	state_category=town
+
 	history={
-		owner=OTO
+		owner = OTO
+
+	}
+
+	provinces={
+		3008 3029 4064 4292 4464 5642 5989 7305 7306 7335 7348 10708 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
+	state_category=town
 }

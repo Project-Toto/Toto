@@ -1,0 +1,13 @@
+state={
+	id=38
+	name="STATE_38"
+	provinces={
+		7585
+	}
+	state_category=town
+	history={
+		owner=AJM
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+}

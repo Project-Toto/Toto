@@ -1,0 +1,13 @@
+state={
+	id=52
+	name="STATE_52"
+	provinces={
+		12651 
+	}
+	state_category=town
+	history={
+		owner=FJR
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+}
