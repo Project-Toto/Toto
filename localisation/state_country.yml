@@ -1,0 +1,7 @@
+l_english:
+ rank_empire:0 "Great Power"
+ rank_empire_DEF:0 "the [ROOT.GetAdjective] Empire"
+ rank_regional:0 "Secondary Power"
+ rank_regional_DEF:0 "the [ROOT.GetAdjective] [ROOT.GetGovernment]"
+ rank_minor:0 "Minor Power"
+ rank_minor_DEF:0 "the [ROOT.GetGovernment] of [ROOT.GetName]"

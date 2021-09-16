@@ -1,0 +1,13 @@
+add_namespace = oman
+
+country_event = {
+	id = oman.1
+	title = oman.1.t
+	desc = oman.1.d
+	
+	is_triggered_only = yes
+
+	option = {
+		name = oman.1.a
+	}
+}

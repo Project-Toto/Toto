@@ -1,4 +1,4 @@
-# Majors
+# Non-Players
 	TES = {
 		color = rgb { 150 150 150 }
 		color_ui = rgb { 150 150 150 }
@@ -7,9 +7,70 @@
 		color = rgb { 211 181 29 }
 		color_ui = rgb { 211 181 29 }
 	}
+	ENG = {
+		color = rgb { 201 56 93 }
+		color_ui = rgb { 255 73 121 }
+	}
+	HOL = {
+		color = rgb { 203 138 74 }
+		color_ui = rgb { 255 179 96 }
+	}
+	BEL = {
+		color = rgb { 193 171 8 }
+		color_ui = rgb { 251 222 10 }
+	}
+	FRA = {
+		color = rgb { 54 102 168 }
+		color_ui = rgb { 54 102 168 }
+	}
+	SPR = {
+		color = rgb { 242 205 94 }
+		color_ui = rgb { 255 255 122 }
+	}
+	GER = {
+		color = rgb { 0 49 83 }
+		color_ui = rgb { 0 49 83 }
+	}
+	ITA = {
+		color = rgb { 49 136 16 }
+		color_ui = rgb { 76 212 25 }
+	}
+	AUS = {
+		color = rgb { 194 198 215 }
+		color_ui = rgb { 255 255 255 }
+	}
+	DEN = {
+		color = rgb { 153 116 93 }
+		color_ui = rgb { 199 151 121 }
+	}
+	SWE = {
+		color = rgb { 36 132 247 }
+		color_ui = rgb { 47 172 255 }
+	}
+	RUS = {
+		color = rgb { 96 131 80 }
+		color_ui = rgb { 96 131 80 }
+	}
+	USA = {
+		color = rgb { 20 133 237 }
+		color_ui = rgb { 87 160 255 }
+	}
+	CSA = {
+		color = rgb { 180 180 180 }
+		color_ui = rgb { 180 180 180 }
+	}
+	BRA = {
+		color = rgb { 78 96 70 }
+		color_ui = rgb { 78 96 70 }
+	}
+# Majors
 	OTO = {
 		color = rgb { 156 126 97 }
 		color_ui = rgb { 255 153 51 }
+	}
+	POR = {
+		color = rgb { 39 116 70 }
+		color_ui = rgb { 51 151 91 }
 	}
 	OMA = {
 		color = rgb { 54 146 228 }
@@ -40,6 +101,10 @@
 	PER = {
 		color = rgb { 5 105 5 }
 		color_ui = rgb { 5 105 5 }
+	}
+	ABN = {
+		color = rgb { 255 203 203 }
+		color_ui = rgb { 255 203 203 }
 	}
 	IRQ = {
 		color = rgb { 174 110 94 }
@@ -75,8 +140,8 @@
 		color_ui = rgb { 246 189 74 }
 	}
 	QTR = {
-		color = rgb { 203 8 11 }
-		color_ui = rgb { 203 8 11 }
+		color = rgb { 173 8 11 }
+		color_ui = rgb { 173 8 11 }
 	}
 	SAU = {
 		color = rgb { 0 143 23 }
@@ -142,4 +207,28 @@
 	EGY = {
 		color = rgb { 221 239 108 }
 		color_ui = rgb { 221 239 108 }
+	}
+	LBA = {
+		color = rgb { 200 180 90 }
+		color_ui = rgb { 200 180 90 }
+	}
+	SNS = {
+		color = rgb { 220 210 163 }
+		color_ui = rgb { 220 210 163 }
+	}
+	TUN = {
+		color = rgb { 168  138  94 }
+		color_ui = rgb { 168  138  94 }
+	}
+	ALG = {
+		color = rgb { 135  84  84 }
+		color_ui = rgb { 135  84  84 }
+	}
+	MOR = {
+		color = rgb { 150 50 50 }
+		color_ui = rgb { 150 50 50 }
+	}
+	MAU = {
+		color = rgb { 230 83 196 }
+		color_ui = rgb { 230 83 196 }
 	}

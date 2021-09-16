@@ -36,7 +36,7 @@ destroyers = {
 				fixed_ship_battery_slot = ship_light_battery
 				fixed_ship_fire_control_system_slot = ship_fire_control_system
 				fixed_ship_radar_slot = ship_sonar
-				fixed_ship_engine_slot = light_ship_engine
+				fixed_ship_engine_slot = none
 				fixed_ship_torpedo_slot = ship_torpedo
 				rear_1_custom_slot = ship_depth_charge
 			}
@@ -47,7 +47,7 @@ destroyers = {
 			ship_light_battery
 			ship_torpedo
 			ship_anti_air
-			light_ship_engine
+			# light_ship_engine
 			ship_sonar
 			ship_fire_control_system
 			ship_radar

@@ -6,7 +6,9 @@ state={
 	}
 	state_category=town
 	history={
-		owner=AHB
+		owner=QTR
+		add_core_of=QTR
+		add_core_of=BHR
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

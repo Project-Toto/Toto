@@ -1,0 +1,18 @@
+defined_text = {
+	name = GetRankDef
+	text = {
+		trigger = {
+			has_rank_empire = yes
+		}
+		localization_key = "rank_empire_DEF"
+	}
+	text = {
+		trigger = {
+			has_rank_regional = yes
+		}
+		localization_key = "rank_regional_DEF"
+	}
+	text = {
+		localization_key = "rank_minor_DEF"
+	}
+}

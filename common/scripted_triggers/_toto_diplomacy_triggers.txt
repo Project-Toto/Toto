@@ -1,0 +1,96 @@
+is_non_player_tag = {
+	custom_trigger_tooltip = {
+		tooltip = is_non_player_tag_tt
+		OR = {
+			tag = TES
+			tag = EUR
+			tag = ENG
+			tag = FRA
+			tag = SPR
+			tag = GER
+			tag = ITA
+			tag = AUS
+			tag = DEN
+			tag = SWE
+			tag = RUS
+			tag = USA
+			tag = CSA
+			tag = BRA
+			tag = HOL
+		}
+	}
+}
+
+is_possible_colonizer = {
+	custom_trigger_tooltip = {
+		tooltip = is_possible_colonizer_tt
+		OR = {
+			tag = ENG
+			tag = FRA
+			tag = SPR
+			tag = POR
+			tag = GER
+			tag = ITA
+			tag = AUS
+			tag = DEN
+			tag = SWE
+			tag = RUS
+			tag = USA
+			tag = CSA
+			tag = BRA
+			tag = HOL
+			tag = BEL
+		}
+	}
+}
+
+has_rank_empire = {
+	custom_trigger_tooltip = {
+		tooltip = has_rank_empire_tt
+		is_puppet = no
+		OR = {
+			is_possible_colonizer = yes
+			check_variable = { max_manpower_k > 25000 }
+			AND = {
+				check_variable = { max_manpower_k > 20000 }
+				check_variable = {  num_owned_controlled_states > 10 }
+			}
+			AND = {
+				check_variable = { max_manpower_k > 10000 }
+				check_variable = {  num_owned_controlled_states > 20 }
+			}
+			check_variable = { num_owned_controlled_states > 30 }
+		}
+	}
+}
+
+has_rank_regional = {
+	custom_trigger_tooltip = {
+		tooltip = has_rank_regional_tt
+		OR = {
+			NOT = { has_rank_empire = yes }
+			check_variable = { max_manpower_k > 12500 }
+			AND = {
+				check_variable = { max_manpower_k > 7500 }
+				check_variable = { num_owned_controlled_states > 8 }
+			}
+			AND = {
+				check_variable = { max_manpower_k > 5000 }
+				check_variable = { num_owned_controlled_states > 10 }
+			}
+			check_variable = { num_owned_controlled_states > 15 }
+		}
+	}
+}
+
+has_rank_minor = {
+	custom_trigger_tooltip = {
+		tooltip = has_rank_minor_tt
+		trigger = {
+			OR = {
+				NOT = { has_rank_empire = yes }
+				NOT = { has_rank_regional = yes }
+			}
+		}
+	}
+}

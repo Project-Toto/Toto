@@ -164,6 +164,7 @@ technology_categories = {
 	pre_industrial_tech
 	helicopter_tech
 	melee_weapons_tech
+	zeppelin_tech
 }
 
 technology_folders = {

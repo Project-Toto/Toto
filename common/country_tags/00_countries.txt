@@ -1,7 +1,23 @@
-# Majors
+# Non-Players (Test or Colonizers)
  TES	= "countries/Test.txt"
  EUR = "countries/Europe.txt"
+ ENG = "countries/United Kingdom.txt"
+ HOL = "countries/Netherlands.txt"
+ BEL = "countries/Belgium.txt"
+ FRA = "countries/France.txt"
+ SPR = "countries/Spain"
+ ITA = "countries/Italy.txt"
+ AUS = "countries/Austria.txt"
+ GER = "countries/Germany.txt"
+ DEN = "countries/Denmark.txt"
+ SWE = "countries/Sweden.txt"
+ RUS = "countries/Russia.txt"
+ USA = "countries/United States.txt"
+ CSA = "countries/Confederated States.txt"
+ BRA = "countries/Brazil.txt"
+# Majors (Countries on Bookmark or has subjects)
  OTO = "countries/Ottomans.txt"
+ POR = "countries/Portugal.txt"
  OMA = "countries/Oman.txt"
 # Europe
  ALB = "countries/Albania.txt"
@@ -10,6 +26,7 @@
  CYP = "countries/Cyprus.txt"
 # Upper Middle East
  KUR = "countries/Kurdistan.txt"
+ ABN = "countries/Arabistan.txt"
  PER = "countries/Persia.txt"
  IRQ = "countries/Iraq.txt"
  SYR = "countries/Syria.txt"

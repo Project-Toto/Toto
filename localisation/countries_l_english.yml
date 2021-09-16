@@ -12,8 +12,8 @@
  OTO_DEF:0 "Ottomans"
  OTO_ADJ:0 "Ottomans"
 
- OMA:0 "Oman"
- OMA_DEF:0 "Oman"
+ OMA:0 "Muscat and Oman"
+ OMA_DEFA:0 "[OMA.GetRankDef]"
  OMA_ADJ:0 "Omani"
 # Europe
  ALB:0 "Albania"
@@ -36,6 +36,10 @@
  KUR:0 "Kurdistan"
  KUR_DEF:0 "Kurdistan"
  KUR_ADJ:0 "Kurdish"
+
+ ABN:0 "Arabistan"
+ ABN_DEF:0 "Arabistan"
+ ABN_ADJ:0 "Arab"
 
  PER:0 "Persia"
  PER_DEF:0 "Persia"
@@ -114,7 +118,7 @@
  FJR_ADJ:0 "Fujarahi"
 
  MAH:0 "Mahra"
- MAH_DEF:0 "Mahra"
+ MAH_DEF:0 "Mahra Sultanate of Qishn and Socotra"
  MAH_ADJ:0 "Mahran"
 
  KAT:0 "Kathira"
@@ -122,7 +126,7 @@
  KAT_ADJ:0 "Kathiri"
 
  QTI:0 "Qu'aiti"
- QTI_DEF:0 "Qu'aiti"
+ QTI_DEF:0 "Qu'aiti Sultanate of Shihr and Mukalla"
  QTI_ADJ:0 "Qu'aiti"
 
  YEM:0 "Yemen"
