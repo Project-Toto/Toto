@@ -3362,6 +3362,7 @@ technologies = {
 					NOT = { has_tech = tribal_leching }
 				}
 				OR = { has_idea = oral_tradition has_idea = traditional_uluma }
+			}
 		}
 		
 		categories = {

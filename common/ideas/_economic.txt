@@ -5,8 +5,6 @@ ideas = {
 		use_list_view = yes
 		
 		undisturbed_isolation = {
-			
-			
 			allowed = {
 				always = no
 			}
@@ -40,7 +38,6 @@ ideas = {
 		}
 		
 		isolation = {
-						
 			allowed = {
 				always = no
 			}
@@ -64,7 +61,7 @@ ideas = {
 			allowed_to_remove = {
 				OR = {
 					has_war_support > 0.75
-					has_war = yes			
+					has_war = yes
 				}
 			}
 			
@@ -72,8 +69,6 @@ ideas = {
 		}
 		
 		civilian_economy = {
-			
-		
 			cost = 150
 			removal_cost = -1
 			
@@ -111,22 +106,20 @@ ideas = {
 			cancel_if_invalid = no
 
 			ai_will_do = {
-   				factor = 2
+				factor = 2
 
-   				modifier = {
+				modifier = {
 					factor = 20
-					
 					is_major = yes
 				}
 				modifier = {
 					has_war_support > 0.25
 					factor = 0 #don't even look at it if you could be taking partial mob
 				}
-   			}
+			}
 		}
 		
 		partial_economic_mobilisation = {
-			
 			available = {
 				has_war_support > 0.25
 			}
@@ -144,24 +137,20 @@ ideas = {
 			
 			cancel_if_invalid = no
 			ai_will_do = {
-   				factor = 2
+				factor = 2
 
-   				modifier = {
+				modifier = {
 					factor = 20
 					
 					is_major = yes
 				}
-   			}
+			}
 		}
 		
 		war_economy = {
-			
-			
 			available = {
 				has_war_support > 0.5
 				OR = {
-					has_government = fascism
-					has_government = communism
 					custom_trigger_tooltip = { tooltip = or_clarification_tooltip always = no }
 					AND = {
 						has_war = yes
@@ -187,7 +176,7 @@ ideas = {
 			
 			cancel_if_invalid = no
 			ai_will_do = {
-   				factor = 5
+				factor = 5
 
 				modifier = {
 					#High prio on production
@@ -201,7 +190,7 @@ ideas = {
 					# revert from closed_economy if we have large allies
 					has_idea = closed_economy
 				}
-   			}
+			}
 		}
 		
 		tot_economic_mobilisation = {
@@ -218,7 +207,7 @@ ideas = {
 				}
 			}
 			ai_will_do = {
-   				factor = 1
+				factor = 1
 
 				modifier = {
 					factor = 25
@@ -241,7 +230,7 @@ ideas = {
 						has_idea = limited_conscription
 					}
 				}
-   			}
+			}
 			
 			cost = 150
 			removal_cost = -1
@@ -280,8 +269,8 @@ ideas = {
 			cancel_if_invalid = no
 
 			ai_will_do = {
-   				factor = 1
-   			}
+				factor = 1
+			}
 		}
 		
 		export_focus = {
@@ -303,8 +292,8 @@ ideas = {
 			cancel_if_invalid = no
 
 			ai_will_do = {
-   				factor = 1
-   			}
+				factor = 1
+			}
 		}
 		
 		limited_exports = {
@@ -347,9 +336,9 @@ ideas = {
 			cancel_if_invalid = no
 
 			ai_will_do = {
-   				factor = 1
+				factor = 1
 
-   				modifier = {
+				modifier = {
 					add = -1
 					
 					is_major = no
@@ -371,7 +360,7 @@ ideas = {
 					# revert from closed_economy if we have large allies
 					has_idea = closed_economy
 				}
-   			}
+			}
 		}
 		
 		closed_economy = {
@@ -405,9 +394,9 @@ ideas = {
 			cancel_if_invalid = no
 
 			ai_will_do = {
-   				factor = 1
+				factor = 1
 
-   				modifier = {
+				modifier = {
 					factor = 0
 					
 					is_major = no
@@ -426,7 +415,7 @@ ideas = {
 				modifier = {
 					factor = 0
 				}
-   			}
+			}
 		}
 	}
 }

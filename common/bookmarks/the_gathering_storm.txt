@@ -9,7 +9,7 @@ bookmarks = {
 		
 		"OTO"={
 			history = "OTO_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = reformism
 			ideas = {
 				
 				
@@ -20,7 +20,7 @@ bookmarks = {
 		}
 		"OMA"={
 			history = "OMA_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = traditionalism
 			ideas = {
 
 
@@ -31,7 +31,7 @@ bookmarks = {
 		}
 		"EGY"={
 			history = "EGY_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = traditionalism
 			ideas = {
 
 

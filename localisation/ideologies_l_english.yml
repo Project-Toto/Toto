@@ -1,0 +1,160 @@
+﻿l_english:
+ # This localisation folder is explicitly for Ideology, Subideology, Social Reforms and Government Type Descriptions
+ # Please keep this file clean and formatted correctly or I will commit the next Nanjing -V
+
+ # ORDERING:
+ # ideology
+ #   sub_ideology
+ #   sub_ideology
+
+ # DOCUMENTATION:
+ # ideology - Ideology's Adjective (ex: Democratic)
+ # ideology_noun - Ideology's Pronoun (ex: Democracy)
+ # ideology_desc - Ideology's Description (ex: Democratic Regime)
+ # ideology_drift - Ideology Drift Tooltip (ex: Daily Democratic Support)
+ # ideology_acceptance - Ideology Acceptance (ex: Acceptance of Democracy)
+
+# Traditionalism
+ traditionalism:0 "Traditionalist"
+ traditionalism_noun:0 "Traditionalism"
+ traditionalism_desc:0 "Traditionalist Outlook"
+ traditionalism_drift:0 "Traditionalist Fervor"
+ traditionalism_acceptance:0 "Acceptance of Traditionalism"
+  # Absolutism
+   traditionalism_absolutism:0 "Traditionalist Authority"
+   traditionalism_absolutism_noun:0 "Traditionalist Authority"
+   traditionalism_absolutism_desc:0 "Traditional Authority"
+   traditionalism_absolutism_drift:0 "Daily Traditionalist Support"
+  # Council
+   traditionalism_council:0 "Traditionalist Council"
+   traditionalism_council_noun:0 "Traditionalist Council"
+   traditionalism_council_desc:0 "Traditional Council"
+   traditionalism_council_drift:0 "Daily Traditionalist Support"
+  # Federation
+   traditionalism_federation:0 "Traditionalist Federation"
+   traditionalism_federation_noun:0 "Traditionalist Federation"
+   traditionalism_federation_desc:0 "Traditional Federation"
+   traditionalism_federation_drift:0 "Daily Traditionalist Support"
+   # Republic
+   traditionalism_republic:0 "Traditionalist Republic"
+   traditionalism_republic_noun:0 "Traditionalist Republic"
+   traditionalism_republic_desc:0 "Traditional Republic"
+   traditionalism_republic_drift:0 "Daily Traditionalist Support"
+  # Order
+   traditionalism_order:0 "Traditionalist Council"
+   traditionalism_order_noun:0 "Traditionalist Council"
+   traditionalism_order_desc:0 "Traditional Council"
+   traditionalism_order_drift:0 "Daily Traditionalist Support"
+  # Tribe
+   traditionalism_tribal:0 "Traditionalist Tribe"
+   traditionalism_tribal_noun:0 "Traditionalist Tribe"
+   traditionalism_tribal_desc:0 "Traditional Tribe"
+   traditionalism_tribal_drift:0 "Daily Traditionalist Support"
+# Reformism
+ reformism:0 "Reformist"
+ reformism_noun:0 "Reformism"
+ reformism_desc:0 "Reformist Outlook"
+ reformism_drift:0 "Reformist Fervor"
+ reformism_acceptance:0 "Acceptance of Reformism"
+  # Absolutism
+   reformism_absolutism:0 "Reformist Authority"
+   reformism_absolutism_noun:0 "Reformist Authority"
+   reformism_absolutism_desc:0 "Reforming Authority"
+   reformism_absolutism_drift:0 "Daily Reformist Support"
+  # Council
+   reformism_council:0 "Reformist Council"
+   reformism_council_noun:0 "Reformist Council"
+   reformism_council_desc:0 "Reforming Council"
+   reformism_council_drift:0 "Daily Reformist Support"
+  # Federation
+   reformism_federation:0 "Reformist Federation"
+   reformism_federation_noun:0 "Reformist Federation"
+   reformism_federation_desc:0 "Reforming Federation"
+   reformism_federation_drift:0 "Daily Reformist Support"
+   # Republic
+   reformism_republic:0 "Reformist Republic"
+   reformism_republic_noun:0 "Reformist Republic"
+   reformism_republic_desc:0 "Reforming Republic"
+   reformism_republic_drift:0 "Daily Reformist Support"
+  # Order
+   reformism_order:0 "Reformist Council"
+   reformism_order_noun:0 "Reformist Council"
+   reformism_order_desc:0 "Reforming Council"
+   reformism_order_drift:0 "Daily Reformist Support"
+  # Tribe
+   reformism_tribal:0 "Reformist Tribe"
+   reformism_tribal_noun:0 "Reformist Tribe"
+   reformism_tribal_desc:0 "Reforming Tribe"
+   reformism_tribal_drift:0 "Daily Reformist Support"
+# Fundamentalism
+ fundamentalism:0 "Fundamentalist"
+ fundamentalism_noun:0 "Fundamentalism"
+ fundamentalism_desc:0 "Fundamentalist Outlook"
+ fundamentalism_drift:0 "Fundamentalist Fervor"
+ fundamentalism_acceptance:0 "Acceptance of Fundamentalism"
+  # Absolutism
+   fundamentalism_absolutism:0 "Fundamentalist Authority"
+   fundamentalism_absolutism_noun:0 "Fundamentalist Authority"
+   fundamentalism_absolutism_desc:0 "Fundamentalist Authority"
+   fundamentalism_absolutism_drift:0 "Daily Fundamentalist Support"
+  # Council
+   fundamentalism_council:0 "Fundamentalist Council"
+   fundamentalism_council_noun:0 "Fundamentalist Council"
+   fundamentalism_council_desc:0 "Fundamentalist Council"
+   fundamentalism_council_drift:0 "Daily Fundamentalist Support"
+  # Federation
+   fundamentalism_federation:0 "Fundamentalist Federation"
+   fundamentalism_federation_noun:0 "Fundamentalist Federation"
+   fundamentalism_federation_desc:0 "Fundamentalist Federation"
+   fundamentalism_federation_drift:0 "Daily Fundamentalist Support"
+   # Republic
+   fundamentalism_republic:0 "Fundamentalist Republic"
+   fundamentalism_republic_noun:0 "Fundamentalist Republic"
+   fundamentalism_republic_desc:0 "Fundamentalist Republic"
+   fundamentalism_republic_drift:0 "Daily Fundamentalist Support"
+  # Order
+   fundamentalism_order:0 "Fundamentalist Council"
+   fundamentalism_order_noun:0 "Fundamentalist Council"
+   fundamentalism_order_desc:0 "Fundamentalist Council"
+   fundamentalism_order_drift:0 "Daily Fundamentalist Support"
+  # Tribe
+   fundamentalism_tribal:0 "Fundamentalist Tribe"
+   fundamentalism_tribal_noun:0 "Fundamentalist Tribe"
+   fundamentalism_tribal_desc:0 "Fundamentalist Tribe"
+   fundamentalism_tribal_drift:0 "Daily Fundamentalist Support"
+# Imperialism
+ imperialism:0 "Imperialist"
+ imperialism_noun:0 "Imperialism"
+ imperialism_desc:0 "Imperialist Outlook"
+ imperialism_drift:0 "Imperialist Fervor"
+ imperialism_acceptance:0 "Acceptance of Imperialism"
+  # Absolutism
+   imperialism_absolutism:0 "Imperialist Authority"
+   imperialism_absolutism_noun:0 "Imperialist Authority"
+   imperialism_absolutism_desc:0 "Imperialist Authority"
+   imperialism_absolutism_drift:0 "Daily Imperialist Support"
+  # Council
+   imperialism_council:0 "Imperialist Council"
+   imperialism_council_noun:0 "Imperialist Council"
+   imperialism_council_desc:0 "Imperialist Council"
+   imperialism_council_drift:0 "Daily Imperialist Support"
+  # Federation
+   imperialism_federation:0 "Imperialist Federation"
+   imperialism_federation_noun:0 "Imperialist Federation"
+   imperialism_federation_desc:0 "Imperialist Federation"
+   imperialism_federation_drift:0 "Daily Imperialist Support"
+   # Republic
+   imperialism_republic:0 "Imperialist Republic"
+   imperialism_republic_noun:0 "Imperialist Republic"
+   imperialism_republic_desc:0 "Imperialist Republic"
+   imperialism_republic_drift:0 "Daily Imperialist Support"
+  # Order
+   imperialism_order:0 "Imperialist Council"
+   imperialism_order_noun:0 "Imperialist Council"
+   imperialism_order_desc:0 "Imperialist Council"
+   imperialism_order_drift:0 "Daily Imperialist Support"
+  # Tribe
+   imperialism_tribal:0 "Imperialist Tribe"
+   imperialism_tribal_noun:0 "Imperialist Tribe"
+   imperialism_tribal_desc:0 "Imperialist Tribe"
+   imperialism_tribal_drift:0 "Daily Imperialist Support"

@@ -1,0 +1,194 @@
+ideologies = {
+	traditionalism = {
+		types = {
+			traditionalism_absolutism = { }
+
+			traditionalism_council = { }
+
+			traditionalism_federation = { }
+
+			traditionalism_republic = { }
+
+			traditionalism_order = { }
+
+			traditionalism_tribal = { }
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_TRAD_1"
+			"FACTION_NAME_TRAD_2"
+			"FACTION_NAME_TRAD_3"
+			"FACTION_NAME_TRAD_4"
+			"FACTION_NAME_TRAD_5"
+		}
+
+		color = { 67 138 174 }
+
+		rules = {
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = no
+			can_puppet = yes
+			can_lower_tension = no
+			can_only_justify_war_on_threat_country = yes
+			can_guarantee_other_ideologies = yes
+			can_join_factions = no
+			can_create_factions = no
+		}
+
+		modifiers = {
+			send_volunteers_tension = 0.85
+			join_faction_tension = 0.70
+			lend_lease_tension = 0.55
+			guarantee_tension = 0.55
+		}
+
+		war_impact_on_world_tension = 0.65
+		faction_impact_on_world_tension = 1.0
+
+		ai_neutral = yes
+	}
+	reformism = {
+		types = {
+			reformism_absolutism = { }
+
+			reformism_council = { }
+
+			reformism_federation = { }
+
+			reformism_republic = { }
+
+			reformism_order = { }
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_REFO_1"
+			"FACTION_NAME_REFO_2"
+			"FACTION_NAME_REFO_3"
+			"FACTION_NAME_REFO_4"
+			"FACTION_NAME_REFO_5"
+		}
+
+		color = { 215 85 132 }
+
+		rules = {
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = no
+			can_puppet = yes
+			can_lower_tension = no
+			can_only_justify_war_on_threat_country = yes
+			can_guarantee_other_ideologies = yes
+			can_join_factions = no
+			can_create_factions = no
+		}
+
+		modifiers = {
+			send_volunteers_tension = 0.85
+			join_faction_tension = 0.70
+			lend_lease_tension = 0.55
+			guarantee_tension = 0.55
+		}
+
+		war_impact_on_world_tension = 0.65
+		faction_impact_on_world_tension = 1.0
+
+		ai_democratic = yes
+	}
+
+	fundamentalism = {
+		types = {
+			fundamentalism_absolutism = { }
+
+			fundamentalism_council = { }
+
+			fundamentalism_federation = { }
+
+			fundamentalism_republic = { }
+
+			fundamentalism_order = { }
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_FUND_1"
+			"FACTION_NAME_FUND_2"
+			"FACTION_NAME_FUND_3"
+			"FACTION_NAME_FUND_4"
+			"FACTION_NAME_FUND_5"
+		}
+
+		color = { 11 152 30 }
+
+		rules = {
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = no
+			can_puppet = yes
+			can_lower_tension = no
+			can_only_justify_war_on_threat_country = yes
+			can_guarantee_other_ideologies = yes
+			can_join_factions = no
+			can_create_factions = no
+		}
+
+		modifiers = {
+			send_volunteers_tension = 0.85
+			join_faction_tension = 0.70
+			lend_lease_tension = 0.55
+			guarantee_tension = 0.55
+		}
+
+		war_impact_on_world_tension = 0.65
+		faction_impact_on_world_tension = 1.0
+
+		ai_neutral = yes
+	}
+
+	imperialism = {
+		types = {
+			imperialism_absolutism = { }
+
+			imperialism_council = { }
+
+			imperialism_federation = { }
+
+			imperialism_republic = { }
+
+			imperialism_order = { }
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_IMP_1"
+			"FACTION_NAME_IMP_2"
+			"FACTION_NAME_IMP_3"
+			"FACTION_NAME_IMP_4"
+			"FACTION_NAME_IMP_5"
+		}
+
+		color = { 233 219 17 }
+
+		rules = {
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = no
+			can_puppet = yes
+			can_lower_tension = no
+			can_only_justify_war_on_threat_country = yes
+			can_guarantee_other_ideologies = yes
+			can_join_factions = no
+			can_create_factions = no
+		}
+
+		modifiers = {
+			send_volunteers_tension = 0.85
+			join_faction_tension = 0.70
+			lend_lease_tension = 0.55
+			guarantee_tension = 0.55
+		}
+
+		war_impact_on_world_tension = 1.0
+		faction_impact_on_world_tension = 2.0
+
+		ai_fascist = yes
+	}
+}
