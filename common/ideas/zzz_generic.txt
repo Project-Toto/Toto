@@ -155,7 +155,7 @@ ideas = {
 			
 			modifier = {
 				#justify_war_goal_time = -0.25
-				communism_drift = 0.1
+				# communism_drift = 0.1
 			}
 		}
 
@@ -195,8 +195,8 @@ ideas = {
 			picture = generic_communism_drift_bonus
 			
 			modifier = {
-				communism_drift = 0.1
-				communism_acceptance = 85
+				# communism_drift = 0.1
+				# communism_acceptance = 85
 			}
 		}
 		democratic_influence = {
@@ -215,8 +215,8 @@ ideas = {
 			picture = generic_democratic_drift_bonus
 			
 			modifier = {
-				democratic_drift = 0.1
-				democratic_acceptance = 85
+				# democratic_drift = 0.1
+				# democratic_acceptance = 85
 			}
 		}
 		neutrality_influence = {
@@ -233,8 +233,8 @@ ideas = {
 			picture = generic_pp_unity_bonus
 			
 			modifier = {
-				neutrality_drift = 0.1
-				neutrality_acceptance = 85
+				# neutrality_drift = 0.1
+				# neutrality_acceptance = 85
 			}
 		}
 		
@@ -254,7 +254,7 @@ ideas = {
 			picture = generic_communism_drift_bonus
 			
 			modifier = {
-				communism_drift = 0.1
+				# communism_drift = 0.1
 			}
 		}
 		# from decision
@@ -274,7 +274,7 @@ ideas = {
 			picture = generic_communism_drift_bonus
 			
 			modifier = {
-				communism_drift = 0.1
+				# communism_drift = 0.1
 				research_speed_factor = 0.035
 			}
 		}
@@ -315,7 +315,7 @@ ideas = {
 			picture = generic_democratic_drift_bonus
 			
 			modifier = {
-				democratic_drift = 0.1
+				# democratic_drift = 0.1
 				stability_factor = 0.1
 			}
 		}
@@ -334,7 +334,7 @@ ideas = {
 			picture = generic_pp_unity_bonus
 			
 			modifier = {
-				neutrality_drift = 0.1
+				# neutrality_drift = 0.1
 				mobilization_speed = 0.15
 			}
 		}
@@ -374,7 +374,7 @@ ideas = {
 			picture = generic_pp_unity_bonus
 
 			modifier = {
-				democratic_drift = -0.02
+				# democratic_drift = -0.02
 			}
 		}
 	
@@ -671,7 +671,7 @@ ideas = {
 			}
 
 			modifier = {
-				communism_drift = -0.05
+				# communism_drift = -0.05
 			}
 		}
 
