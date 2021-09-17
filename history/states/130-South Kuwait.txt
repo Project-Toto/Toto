@@ -1,0 +1,13 @@
+state={
+	id=130
+	name="STATE_130"
+	provinces={
+		3695 4042 6314 7587 
+	}
+	history={
+		owner = KUW
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+}

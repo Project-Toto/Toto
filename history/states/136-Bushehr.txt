@@ -1,0 +1,14 @@
+
+state={
+	id=136
+	name="STATE_136"
+	provinces={
+		915 2432 2776 3693 3764 3767 4155 4683 5162 5279 6144 6690 7436 7468 7488 7505 7507 7556 10741 
+	}
+	history={
+		owner = PER
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+}

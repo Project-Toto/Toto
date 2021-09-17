@@ -1,0 +1,14 @@
+
+state={
+	id=132
+	name="STATE_132"
+	provinces={
+		990 1636 2687 3786 4028 4335 4399 5212 7498 7522 7538 7552 7560 10740 
+	}
+	history={
+		owner = PER
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+}

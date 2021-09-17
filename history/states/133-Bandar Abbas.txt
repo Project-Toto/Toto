@@ -1,0 +1,13 @@
+state={
+	id=133
+	name="STATE_133"
+	provinces={
+		534 729 801 2445 5313 6256 6259 6881 7376 7433 7442 7462 7489 
+	}
+	history={
+		owner = PER
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+}

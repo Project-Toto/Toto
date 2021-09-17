@@ -1,0 +1,14 @@
+
+state={
+	id=123
+	name="STATE_123"
+	provinces={
+		201 1014 2712 3917 5566 5974 7292 7521 7531 7532 7543 
+	}
+	history={
+		owner = OTO
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+}

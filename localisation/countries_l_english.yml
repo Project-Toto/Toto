@@ -68,6 +68,10 @@
  KUW:0 "Kuwait"
  KUW_DEF:0 "Kuwait"
  KUW_ADJ:0 "Kuwaitean"
+
+ KLT:0 "Balouchistan"
+ KLT_DEF:0 "Balouchistan"
+ KLT_ADJ:0 "Balouchi"
 # Arabia
  BHR:0 "Bahrain"
  BHR_DEF:0 "Bahrain"
@@ -189,9 +193,9 @@
  TRZ_DEF:0 "Traza"
  TRZ_ADJ:0 "Trazi"
 
- TGT:0 "Tagant"
- TGT_DEF:0 "Tagant"
- TGT_ADJ:0 "Tagant"
+ TGN:0 "Tagant"
+ TGN_DEF:0 "Tagant"
+ TGN_ADJ:0 "Tagant"
 
  TAG:0 "Name"
  TAG_DEF:0 "Name"

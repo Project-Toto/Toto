@@ -1,0 +1,17 @@
+
+state={
+	id=23
+	name="STATE_23"
+
+	history={
+		owner = PER
+
+	}
+
+	provinces={
+		333 1063 1110 1508 1647 1720 1756 1839 2818 3045 3068 3206 3407 3557 3662 3719 4256 4694 4713 4835 5048 5561 5654 6935 6937 7326 7353 7354 7361 7388 7389 7406 7416 7440 7461 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+}

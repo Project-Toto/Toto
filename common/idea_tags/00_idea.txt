@@ -4,6 +4,8 @@ idea_categories = {
 
 		cost = 0
 		removal_cost = -1
+
+		ledger = hidden
 	}
 
 	country = {
@@ -11,6 +13,8 @@ idea_categories = {
 
 		cost = 0
 		removal_cost = -1
+
+		ledger = hidden
 	}
 
 	law_country = {
@@ -32,7 +36,27 @@ idea_categories = {
 		slot = mobilization_laws
 		slot = economic_mobilization
 		slot = land_property
+
+		cost = 999
+		removal_cost = 0
+
+		ledger = civilian
 	}
+
+	law_court = {
+		slot = court_advisor
+		slot = court_advisor
+		slot = court_advisor
+		slot = court_advisor
+		slot = court_advisor
+		slot = court_advisor
+
+		cost = 999
+		removal_cost = 0
+
+		ledger = civilian
+	}
+}
 	#
 		# government = {
 		# 	slot = gov_structure
@@ -99,29 +123,29 @@ idea_categories = {
 		# 	ledger = civilian
 		# }
 
-	political_advisor = {
-		slot = political_advisor
-		slot = political_advisor
-		slot = political_advisor
-		slot = political_advisor
-		slot = political_advisor
-		slot = political_advisor
-		cost = 150
-		removal_cost = 0
+	# political_advisor = {
+	# 	slot = political_advisor
+	# 	slot = political_advisor
+	# 	slot = political_advisor
+	# 	slot = political_advisor
+	# 	slot = political_advisor
+	# 	slot = political_advisor
+	# 	cost = 150
+	# 	removal_cost = 0
 		
-		ledger = civilian
-	}
+	# 	ledger = civilian
+	# }
 
-	research_production = {
-		slot = tank_manufacturer
-		slot = naval_manufacturer
-		slot = aircraft_manufacturer
-		slot = materiel_manufacturer
-		slot = industrial_concern
-		slot = theorist
-		cost = 150
-		removal_cost = 0
-	}
+	# research_production = {
+	# 	slot = tank_manufacturer
+	# 	slot = naval_manufacturer
+	# 	slot = aircraft_manufacturer
+	# 	slot = materiel_manufacturer
+	# 	slot = industrial_concern
+	# 	slot = theorist
+	# 	cost = 150
+	# 	removal_cost = 0
+	# }
 
 	#military_staff = {
 	#	slot = army_chief
@@ -133,24 +157,23 @@ idea_categories = {
 	#	cost = 150
 	#	removal_cost = 0
 	#}
-}
 	
-slot_ledgers = {
-    # army_chief = army
-    # navy_chief = navy
-    # air_chief = air
+# slot_ledgers = {
+#     # army_chief = army
+#     # navy_chief = navy
+#     # air_chief = air
     
     
-    military_spendage = army
-    economic_mobilization = army
-    mobilization_laws = army
-    # tank_manufacturer = army
-    # naval_manufacturer = navy
-    # aircraft_manufacturer = air
+#     military_spendage = army
+#     economic_mobilization = army
+#     mobilization_laws = army
+#     # tank_manufacturer = army
+#     # naval_manufacturer = navy
+#     # aircraft_manufacturer = air
     
-    # theorist = invalid # must be overridden
-    # high_command = invalid # must be overridden
+#     # theorist = invalid # must be overridden
+#     # high_command = invalid # must be overridden
     
     
-    # mobilization_laws = civilian
-}
+#     # mobilization_laws = civilian
+# }

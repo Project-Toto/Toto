@@ -226,7 +226,7 @@ sabotage_anti_air_building = {
 sabotage_synthetic_refinery = {
 	available = {
 		non_damaged_building_level = {
-			type = synthetic_refinery
+			building = synthetic_refinery
 			level > 0
 		}
 	}
@@ -237,7 +237,7 @@ sabotage_synthetic_refinery = {
 
 	effect = {
 		damage_building = {
-			type = synthetic_refinery
+			building = synthetic_refinery
 			damage = 0.25
 		}
 	}

@@ -1,0 +1,46 @@
+ideas = {
+	country = {
+		oral_tradition = {
+			allowed = { always = no }
+		}
+		traditional_uluma = {
+			allowed = { always = no }
+		}
+		pre_industrial_era = {
+			allowed = { always = no }
+		}
+		agrarian = {
+			allowed = { always = no }
+		}
+		victorian_era = {
+			allowed = { always = no }
+		}
+		machine_era = {
+			allowed = { always = no }
+		}
+		digital_era = {
+			allowed = { always = no }
+		}
+		post_digital_era = {
+			allowed = { always = no }
+		}
+		afr_reforming_kingdom = {
+			allowed = { always = no }
+		}
+		afr_colonial_malaria_scourge = {
+			allowed = { always = no }
+		}
+		afr_colonial_malaria_scourge_1 = {
+			allowed = { always = no }
+		}
+		afr_colonial_malaria_scourge_2 = {
+			allowed = { always = no }
+		}
+		afr_colonial_malaria_scourge_3 = {
+			allowed = { always = no }
+		}
+		industrializing = {
+			allowed = { always = no }
+		}
+	}
+}

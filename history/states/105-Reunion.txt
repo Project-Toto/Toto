@@ -4,6 +4,10 @@ state={
 	provinces={
 		4227 5354 7096 7156 10676 
 	}
-	manpower=0
+	state_category=town
+	history={
+		owner=TES
+	}
+	manpower=1
 	buildings_max_level_factor=1.000
 }

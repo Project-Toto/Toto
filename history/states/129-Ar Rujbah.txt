@@ -1,0 +1,14 @@
+
+state={
+	id=129
+	name="STATE_129"
+	provinces={
+		679 1848 2274 2367 3425 3630 3941 4099 4326 5583 5869 5950 6251 6378 6696 7549 7553 7557 7562 7567 7577 7578 
+	}
+	history={
+		owner = HIL
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+}

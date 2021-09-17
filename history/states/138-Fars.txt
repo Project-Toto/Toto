@@ -1,0 +1,13 @@
+state={
+	id=138
+	name="STATE_138"
+	provinces={
+		473 545 762 1340 1474 1772 2260 3401 3680 3702 4027 4106 4721 5304 5324 5887 6335 6620 6922 7424 7471 7486 7492 
+	}
+	history={
+		owner = PER
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+}

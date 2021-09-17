@@ -330,7 +330,7 @@ technologies = {
 	tech_humanities_social_stratification = {
 		
 		stability_factor = 0.02
-		political_advisor_cost_factor = -0.1
+		court_advisor_cost_factor = -0.1
 		
 		path = {
 			leads_to_tech = tech_humanities_workers_rights

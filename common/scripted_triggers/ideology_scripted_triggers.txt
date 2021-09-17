@@ -2,30 +2,43 @@
 is_enemy_ideology = {
 	OR = {
 		AND = {
-			has_government = communism
+			has_government = fundamentalism
 			ROOT = {
 				OR = {
-					has_government = fascism
-					has_government = democratic
+					has_government = reformism
+					has_government = imperialism
 				}
 			}
 		}
 		AND = {
-			has_government = democratic
+			has_government = traditionalism
 			ROOT = {
 				OR = {
-					has_government = communism
-					has_government = fascism
+					has_government = reformism
+					has_government = imperialism
 				}
 			}
 		}
 		AND = {
-			has_government = fascism
+			has_government = reformism
 			ROOT = {
 				OR = {
-					has_government = democratic
-					has_government = communism
+					has_government = traditionalism
+					has_government = fundamentalism
+					has_government = imperialism
 				}
+			}
+		}
+		AND = {
+			has_government = imperialism
+			ROOT = {
+				always = yes
+				# OR = {
+				# 	has_government = traditionalism
+				# 	has_government = fundamentalism
+				# 	has_government = reformism
+				# 	has_government = imperialism
+				# }
 			}
 		}
 	}

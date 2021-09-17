@@ -86,11 +86,9 @@ has_rank_regional = {
 has_rank_minor = {
 	custom_trigger_tooltip = {
 		tooltip = has_rank_minor_tt
-		trigger = {
-			OR = {
-				NOT = { has_rank_empire = yes }
-				NOT = { has_rank_regional = yes }
-			}
+		OR = {
+			NOT = { has_rank_empire = yes }
+			NOT = { has_rank_regional = yes }
 		}
 	}
 }

@@ -3,7 +3,7 @@
 #	example_effect = {
 #		add_political_power = 66
 #		add_popularity = {
-#			ideology = fascism
+#			ideology = imperialism
 #			popularity = 0.33
 #		}
 #	}
@@ -124,113 +124,113 @@ ROOT_inherit_current_scope_wars_effect = {
 	}
 }
 
-get_best_alliance_match_fascism_effect = { #arguably a trigger, but it does stuff so we keep it in here. If this is your first time seeing this, welcome to my personal hell.
-	if = {
-		limit = {
-			any_other_country = {
-				is_faction_leader = yes
-				is_major = yes
-				has_government = fascism
-				not = { has_war_with = ROOT }
-				set_temp_variable = { ROOT.best_leader = this }
-				set_temp_variable = { ROOT.best_leader_score = 0 }
-			}
-		}
-	}
-	if = {
-		limit = {
-			all_other_country = {
+# get_best_alliance_match_fascism_effect = { #arguably a trigger, but it does stuff so we keep it in here. If this is your first time seeing this, welcome to my personal hell.
+# 	if = {
+# 		limit = {
+# 			any_other_country = {
+# 				is_faction_leader = yes
+# 				is_major = yes
+# 				has_government = fascism
+# 				not = { has_war_with = ROOT }
+# 				set_temp_variable = { ROOT.best_leader = this }
+# 				set_temp_variable = { ROOT.best_leader_score = 0 }
+# 			}
+# 		}
+# 	}
+# 	if = {
+# 		limit = {
+# 			all_other_country = {
 				
-				is_faction_leader = yes
-				is_major = yes
-				has_government = fascism
-				not = { has_war_with = ROOT }
+# 				is_faction_leader = yes
+# 				is_major = yes
+# 				has_government = fascism
+# 				not = { has_war_with = ROOT }
 				
-				set_temp_variable = { this.leader_score = num_of_factories }
-				add_to_temp_variable = { this.leader_score = num_battalions }
-				all_of_scopes = {
-					array = allies
-					add_to_temp_variable = { PREV.leader_score = num_of_factories }
-					add_to_temp_variable = { PREV.leader_score = num_battalions }
-				}
-				if = {
-					limit = {
-						capital_scope = {
-							is_on_continent = ROOT
-						}
-					}
-					multiply_temp_variable = { this.leader_score = 2 }
-				}
-				if = {
-					limit = {
-						any_neighbor_country = { tag = ROOT }
-					}
-					multiply_temp_variable = { this.leader_score = 1.25 }
-				}
-				if = {
-					limit = {
-						check_variable = { ROOT.best_leader_score < this.leader_score }
-					}
-					set_temp_variable = { ROOT.best_leader = this }
-					set_temp_variable = { ROOT.best_leader_score = this.leader_score }
-				}
-			}
-		}
-	}		
-}
+# 				set_temp_variable = { this.leader_score = num_of_factories }
+# 				add_to_temp_variable = { this.leader_score = num_battalions }
+# 				all_of_scopes = {
+# 					array = allies
+# 					add_to_temp_variable = { PREV.leader_score = num_of_factories }
+# 					add_to_temp_variable = { PREV.leader_score = num_battalions }
+# 				}
+# 				if = {
+# 					limit = {
+# 						capital_scope = {
+# 							is_on_continent = ROOT
+# 						}
+# 					}
+# 					multiply_temp_variable = { this.leader_score = 2 }
+# 				}
+# 				if = {
+# 					limit = {
+# 						any_neighbor_country = { tag = ROOT }
+# 					}
+# 					multiply_temp_variable = { this.leader_score = 1.25 }
+# 				}
+# 				if = {
+# 					limit = {
+# 						check_variable = { ROOT.best_leader_score < this.leader_score }
+# 					}
+# 					set_temp_variable = { ROOT.best_leader = this }
+# 					set_temp_variable = { ROOT.best_leader_score = this.leader_score }
+# 				}
+# 			}
+# 		}
+# 	}
+# }
 
-get_best_alliance_match_communism_effect = { #arguably a trigger, but it does stuff so we keep it in here. If this is your first time seeing this, welcome to my personal hell.
-	if = {
-		limit = {
-			any_other_country = {
-				is_faction_leader = yes
-				is_major = yes
-				has_government = communism
-				not = { has_war_with = ROOT }
-				set_temp_variable = { ROOT.best_leader = this }
-				set_temp_variable = { ROOT.best_leader_score = 0 }
-			}
-		}
-	}
-	if = {
-		limit = {
-			all_other_country = {
-				is_faction_leader = yes
-				is_major = yes
-				has_government = communism
-				not = { has_war_with = ROOT }
-				set_temp_variable = { this.leader_score = num_of_factories }
-				add_to_temp_variable = { this.leader_score = num_battalions }
-				all_of_scopes = {
-					array = allies
-					add_to_temp_variable = { PREV.leader_score = num_of_factories }
-					add_to_temp_variable = { PREV.leader_score = num_battalions }
-				}
-				if = {
-					limit = {
-						capital_scope = {
-							is_on_continent = ROOT
-						}
-					}
-					multiply_temp_variable = { leader_score = 2 }
-				}
-				if = {
-					limit = {
-						any_neighbor_country = { tag = ROOT }
-					}
-					multiply_temp_variable = { leader_score = 1.25 }
-				}
-				if = {
-					limit = {
-						check_variable = { ROOT.best_leader_score < leader_score }
-						set_temp_variable = { ROOT.best_leader = this }
-						set_temp_variable = { ROOT.best_leader_score = leader_score }
-					}
-				}
-			}
-		}
-	}		
-}
+# get_best_alliance_match_communism_effect = { #arguably a trigger, but it does stuff so we keep it in here. If this is your first time seeing this, welcome to my personal hell.
+# 	if = {
+# 		limit = {
+# 			any_other_country = {
+# 				is_faction_leader = yes
+# 				is_major = yes
+# 				has_government = communism
+# 				not = { has_war_with = ROOT }
+# 				set_temp_variable = { ROOT.best_leader = this }
+# 				set_temp_variable = { ROOT.best_leader_score = 0 }
+# 			}
+# 		}
+# 	}
+# 	if = {
+# 		limit = {
+# 			all_other_country = {
+# 				is_faction_leader = yes
+# 				is_major = yes
+# 				has_government = communism
+# 				not = { has_war_with = ROOT }
+# 				set_temp_variable = { this.leader_score = num_of_factories }
+# 				add_to_temp_variable = { this.leader_score = num_battalions }
+# 				all_of_scopes = {
+# 					array = allies
+# 					add_to_temp_variable = { PREV.leader_score = num_of_factories }
+# 					add_to_temp_variable = { PREV.leader_score = num_battalions }
+# 				}
+# 				if = {
+# 					limit = {
+# 						capital_scope = {
+# 							is_on_continent = ROOT
+# 						}
+# 					}
+# 					multiply_temp_variable = { leader_score = 2 }
+# 				}
+# 				if = {
+# 					limit = {
+# 						any_neighbor_country = { tag = ROOT }
+# 					}
+# 					multiply_temp_variable = { leader_score = 1.25 }
+# 				}
+# 				if = {
+# 					limit = {
+# 						check_variable = { ROOT.best_leader_score < leader_score }
+# 						set_temp_variable = { ROOT.best_leader = this }
+# 						set_temp_variable = { ROOT.best_leader_score = leader_score }
+# 					}
+# 				}
+# 			}
+# 		}
+# 	}
+# }
 
 civil_war_anti_exploiter_punitive_action = {
 	# Anti-exploiter punitive brigades! BET YA DIDN'T SEE THAT COMING DID YA?!
@@ -398,20 +398,20 @@ clear_sabotaged_resources_if_necesary = {
 
 remove_from_allowed_party = {
 	if = {
-		limit = { has_government = democratic }
-		set_temp_variable = { allowed_party_democratic = 0 }
+		limit = { has_government = reformism }
+		set_temp_variable = { allowed_party_reformism = 0 }
 	}
 	else_if = {
-		limit = { has_government = fascism }
-		set_temp_variable = { allowed_party_fascism = 0 }
+		limit = { has_government = traditionalism }
+		set_temp_variable = { allowed_party_traditionalism = 0 }
 	}
 	else_if = {
-		limit = { has_government = communism }
-		set_temp_variable = { allowed_party_communism = 0 }
+		limit = { has_government = fundamentalism }
+		set_temp_variable = { allowed_party_fundamentalism = 0 }
 	}
 	else_if = {
-		limit = { has_government = neutrality }
-		set_temp_variable = { allowed_party_neutrality = 0 }
+		limit = { has_government = imperialism }
+		set_temp_variable = { allowed_party_imperialism = 0 }
 	}
 }
 
