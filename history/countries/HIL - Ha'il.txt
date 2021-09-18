@@ -1,4 +1,4 @@
-capital = 1
+capital = 42
 
 # Starting tech
 set_technology = {
@@ -6,14 +6,14 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = traditionalism
+	ruling_party = fundamentalism
 	last_election = "1856.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	traditionalism = 60
-	fundamentalism = 20
+	fundamentalism = 60
+	traditionalism = 20
 	reformism = 15
 	imperialism = 5
 }
@@ -23,7 +23,7 @@ create_country_leader = {
 	desc = "POLITICS_TEMP_DESC"
 	picture = ""
 	expire = "1920.1.1"
-	ideology = traditionalism_absolutism
+	ideology = fundamentalism_absolutism
 	traits = {
 		#
 	}

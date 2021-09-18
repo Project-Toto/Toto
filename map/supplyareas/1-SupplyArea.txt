@@ -29,7 +29,7 @@ supply_area={
 	name="SUPPLYAREA_1"
 	value=6
 	states={
-		11 12 48 49 50 51
+		11 12 48 49 50 51 148 149
 	}
 }
 supply_area={
@@ -45,7 +45,7 @@ supply_area={
 	name="SUPPLYAREA_1"
 	value=6
 	states={
-		14 15
+		14 15 144 145 146 147
 	}
 }
 supply_area={
@@ -53,7 +53,7 @@ supply_area={
 	name="SUPPLYAREA_1"
 	value=6
 	states={
-		16 17 18 19 41 121 122
+		16 17 18 19 41 121 122 140 141 142 143
 	}
 }
 supply_area={
@@ -285,7 +285,7 @@ supply_area={
 	name="SUPPLYAREA_1"
 	value=6
 	states={
-		22 24 91 128 129 130 123 124 125 126 127
+		22 24 91 128 129 130 123 124 125 126 127 139
 	}
 }
 supply_area={
@@ -309,7 +309,7 @@ supply_area={
 	name="SUPPLYAREA_1"
 	value=6
 	states={
-		113 114
+		113 114 154
 	}
 }
 supply_area={
@@ -317,7 +317,7 @@ supply_area={
 	name="SUPPLYAREA_1"
 	value=6
 	states={
-		115 116
+		115 116 151
 	}
 }
 supply_area={
@@ -334,5 +334,29 @@ supply_area={
 	value=6
 	states={
 		108
+	}
+}
+supply_area={
+	id=43
+	name="SUPPLYAREA_1"
+	value=6
+	states={
+		152
+	}
+}
+supply_area={
+	id=44
+	name="SUPPLYAREA_1"
+	value=6
+	states={
+		153
+	}
+}
+supply_area={
+	id=45
+	name="SUPPLYAREA_1"
+	value=6
+	states={
+		150
 	}
 }

@@ -1,0 +1,17 @@
+
+state={
+	id=148
+	name="STATE_148"
+
+	history={
+		owner = OTO
+
+	}
+
+	provinces={
+		724 1711 3465 4291 7172 7340 7387 12135 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+}

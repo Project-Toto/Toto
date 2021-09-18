@@ -68,6 +68,10 @@
  KUW:0 "Kuwait"
  KUW_DEF:0 "Kuwait"
  KUW_ADJ:0 "Kuwaitean"
+ KUW_autonomy_ottoman_eyalet:0 "Kuwait Eyalet"
+ KUW_autonomy_ottoman_eyalet_DEF:0 "Kuwait Eyalet"
+ KUW_autonomy_ottoman_eyalet_ADJ:0 "Kuwaitean"
+
 
  KLT:0 "Balouchistan"
  KLT_DEF:0 "Balouchistan"
@@ -77,9 +81,12 @@
  BHR_DEF:0 "Bahrain"
  BHR_ADJ:0 "Bahraini"
 
- HIL:0 "Ha'il"
- HIL_DEF:0 "Ha'il"
+ HIL:0 "Rashidi Arabia"
+ HIL_DEF:0 "Rashidi Arabia"
  HIL_ADJ:0 "Rashidi"
+ HIL_fundamentalism:0 "Ha'il"
+ HIL_fundamentalism_DEF:0 "Ha'il"
+ HIL_fundamentalism_ADJ:0 "Rashidi"
 
  QTR:0 "Qatar"
  QTR_DEF:0 "Qatar"
@@ -88,10 +95,16 @@
  SAU:0 "Saudi Arabia"
  SAU_DEF:0 "Saudi Arabia"
  SAU_ADJ:0 "Saudi"
+ SAU_fundamentalism:0 "Nejd"
+ SAU_fundamentalism_DEF:0 "Nejd"
+ SAU_fundamentalism_ADJ:0 "Nejd"
 
  HJZ:0 "Hejaz"
  HJZ_DEF:0 "Hejaz"
  HJZ_ADJ:0 "Hejazi"
+ HJZ_autonomy_ottoman_eyalet:0 "Habesh Eyalet"
+ HJZ_autonomy_ottoman_eyalet_DEF:0 "Habesh Eyalet of Medinah"
+ HJZ_autonomy_ottoman_eyalet_ADJ:0 "Hejazi"
 
  AHB:0 "Abu Dhabi"
  AHB_DEF:0 "Abu Dhabi"
@@ -136,6 +149,9 @@
  YEM:0 "Yemen"
  YEM_DEF:0 "Yemen"
  YEM_ADJ:0 "Yemeni"
+ YEM_autonomy_ottoman_eyalet:0 "Yemen Eyalet"
+ YEM_autonomy_ottoman_eyaletDEF:0 "Yemen Eyalet"
+ YEM_autonomy_ottoman_eyaletADJ:0 "Yemeni"
 
  ADN:0 "Lahej"
  ADN_DEF:0 "Lahej"
@@ -160,6 +176,9 @@
  TUN:0 "Tunisia"
  TUN_DEF:0 "Tunisia"
  TUN_ADJ:0 "Tunisian"
+ TUN_autonomy_ottoman_eyalet:0 "Tunis Eyalet"
+ TUN_autonomy_ottoman_eyaletDEF:0 "Tunis Eyalet"
+ TUN_autonomy_ottoman_eyaletADJ:0 "Tunisian"
 
  ALG:0 "Algeria"
  ALG_DEF:0 "Algeria"
@@ -181,9 +200,9 @@
  SHW_DEF:0 "Saharwi"
  SHW_ADJ:0 "Saharwi"
 
- MAU:0 "Mauritania"
- MAU_DEF:0 "Mauritania"
- MAU_ADJ:0 "Mauritanian"
+ MRT:0 "Mauritania"
+ MRT_DEF:0 "Mauritania"
+ MRT_ADJ:0 "Mauritanian"
 
  ARR:0 "Adrar"
  ARR_DEF:0 "Adrar"

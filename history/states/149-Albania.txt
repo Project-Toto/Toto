@@ -1,0 +1,13 @@
+state={
+	id=149
+	name="STATE_149"
+	provinces={
+		44 2084 5916 
+	}
+	state_category=town
+	history={
+		owner=OTO
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+}

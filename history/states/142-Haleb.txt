@@ -1,0 +1,13 @@
+state={
+	id=142
+	name="STATE_142"
+	provinces={
+		852 1932 2232 2249 2606 2772 3161 3588 4409 4920 5219 6117 7043 7232 7402 7403 7441 7456 
+	}
+	state_category=town
+	history={
+		owner=OTO
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+}

@@ -92,3 +92,19 @@ has_rank_minor = {
 		}
 	}
 }
+
+toto_enabled_autonomy = {
+	if = {
+		limit = {
+			OR = {
+				has_dlc = "Together for Victory"
+				has_dlc = "Death or Dishonor"
+				has_dlc = "Waking the Tiger"
+			}
+		}
+		always = yes
+	}
+	else = {
+		always = no
+	}
+}

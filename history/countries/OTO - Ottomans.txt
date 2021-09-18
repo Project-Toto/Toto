@@ -1,4 +1,4 @@
-capital = 14
+capital = 48
 
 # Starting tech
 set_technology = {
@@ -27,4 +27,35 @@ create_country_leader = {
 	traits = {
 		#
 	}
+}
+
+if = {
+	limit = { toto_enabled_autonomy = yes }
+	set_autonomy = {
+		target = EGY
+		autonomy_state = autonomy_ottoman_khedive
+	}
+	set_autonomy = {
+		target = KUW
+		autonomy_state = autonomy_ottoman_eyalet
+	}
+	set_autonomy = {
+		target = YEM
+		autonomy_state = autonomy_ottoman_eyalet
+	}
+	set_autonomy = {
+		target = HJZ
+		autonomy_state = autonomy_ottoman_eyalet
+	}
+	set_autonomy = {
+		target = TUN
+		autonomy_state = autonomy_ottoman_eyalet
+	}
+}
+if = {
+	limit = { toto_enabled_autonomy = no }
+	puppet = KUW
+	puppet = YEM
+	puppet = HJZ
+	puppet = TUN
 }

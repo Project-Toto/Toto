@@ -1,0 +1,14 @@
+
+state={
+	id=145
+	name="STATE_145"
+	provinces={
+		286 637 997 1367 1948 2512 3073 3570 4163 4249 4860 4986 4989 5508 5564 6093 7163 7299 7437 7452 7458 7467 7469 7478 7479 7510 
+	}
+	state_category=town
+	history={
+		owner=OTO
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+}

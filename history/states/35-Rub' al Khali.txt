@@ -3,6 +3,8 @@ state={
 	id=35
 	name="STATE_35"
 
+	impassable = yes
+
 	history={
 		owner = SAU
 

@@ -1,0 +1,13 @@
+state={
+	id=141
+	name="STATE_141"
+	provinces={
+		1469 4135 4496 7174 7499 7525 
+	}
+	state_category=town
+	history={
+		owner=OTO
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+}
