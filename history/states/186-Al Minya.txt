@@ -1,0 +1,13 @@
+state={
+	id=186
+	name="STATE_186"
+	provinces={
+		482 536 1052 2561 4183 4301 5309 5999 7964 
+	}
+	state_category=town
+	history={
+		owner=EGY
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+}

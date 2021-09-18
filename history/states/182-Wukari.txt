@@ -1,0 +1,13 @@
+state={
+	id=182
+	name="STATE_182"
+	provinces={
+		189 1331 1539 1685 2131 2523 2752 2760 3054 3111 3194 3528 4091 4188 4198 4251 4253 4384 6243 6308 6375 6598 6612 6754 6787 7009 7061 7273 9140 9210 9211 9222 9245 9248 
+	}
+	state_category=town
+	history={
+		owner=TES
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+}

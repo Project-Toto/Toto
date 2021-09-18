@@ -1,0 +1,14 @@
+
+state={
+	id=158
+	name="STATE_158"
+	provinces={
+		1990 6729 9542 9545 
+	}
+	state_category=town
+	history={
+		owner=TES
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+}

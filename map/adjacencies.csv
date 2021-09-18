@@ -67,4 +67,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 7370;10711;sea;11807;-1;-1;-1;-1;;Gwadar
 747;552;sea;11370;-1;-1;-1;-1;;Mozambique
 3714;1869;sea;12551;-1;-1;-1;-1;;Syria
+4412;8560;sea;12320;-1;-1;-1;-1;;Niger
+3714;1869;sea;12551;-1;-1;-1;-1;;Niger
+4128;9888;sea;12229;-1;-1;-1;-1;;Congo
 -1;-1;;-1;-1;-1;-1;-1;-1--
