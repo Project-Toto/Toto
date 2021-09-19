@@ -29,6 +29,13 @@ create_country_leader = {
 	}
 }
 
+add_ideas = {
+	law_country_power_great
+	law_country_religion_sunni
+	law_country_culture_turkish
+	government_sultanate
+}
+
 if = {
 	limit = { toto_enabled_autonomy = yes }
 	set_autonomy = {

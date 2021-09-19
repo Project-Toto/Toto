@@ -7,14 +7,36 @@ ideas = {
 			allowed = { always = yes }
 			default = yes
 			level = 0
+			available = {
+				NOT = {
+					OR = {
+						has_idea = law_country_power_minor
+						has_idea = law_country_power_secondary
+						has_idea = law_country_power_great
+					}
+				}
+			}
 		}
 		law_country_power_minor = {
 			allowed = { always = yes }
 			level = 1
+			available = {
+				NOT = {
+					OR = {
+						has_idea = law_country_power_secondary
+						has_idea = law_country_power_great
+					}
+				}
+			}
 		}
 		law_country_power_secondary = {
 			allowed = { always = yes }
 			level = 2
+			available = {
+				NOT = {
+					has_idea = law_country_power_great
+				}
+			}
 		}
 		law_country_power_great = {
 			allowed = { always = yes }
