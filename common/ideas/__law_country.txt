@@ -1,12 +1,117 @@
 ideas = {
 # State of Country
-	law_type_culture = {
+	law_country_power = {
 		law = yes
 		use_list_view = yes
-		culture_placeholder_0 = {
+		law_country_power_irrelevant = {
+			allowed = { always = yes }
+			default = yes
+			level = 0
+		}
+		law_country_power_minor = {
+			allowed = { always = yes }
+			level = 1
+		}
+		law_country_power_secondary = {
+			allowed = { always = yes }
+			level = 2
+		}
+		law_country_power_great = {
+			allowed = { always = yes }
+			level = 3
+		}
+	}
+	law_country_religion = {
+		law = yes
+		cost = 999
+		law_country_religion_animist = {
+			allowed = { always = yes }
+			default = yes
+			level = 0
+		}
+		law_country_religion_catholic = {
+			allowed = { always = yes }
+			level = 1
+		}
+		law_country_religion_protestant = {
+			allowed = { always = yes }
+			level = 1
+		}
+		law_country_religion_orthodox = {
+			allowed = { always = yes }
+			level = 1
+		}
+		law_country_religion_armenian = {
+			allowed = { always = yes }
+			level = 1
+		}
+		law_country_religion_coptic = {
+			allowed = { always = yes }
+			level = 1
+		}
+		law_country_religion_jewish = {
+			allowed = { always = yes }
+			level = 1
+		}
+		law_country_religion_druze = {
+			allowed = { always = yes }
+			level = 1
+		}
+		law_country_religion_sunni = {
+			allowed = { always = yes }
+			level = 1
+		}
+		law_country_religion_shia = {
+			allowed = { always = yes }
+			level = 1
+		}
+		law_country_religion_ibadi = {
+			allowed = { always = yes }
+			level = 1
+		}
+		law_country_religion_zoroastrian = {
+			allowed = { always = yes }
+			level = 1
+		}
+		law_country_religion_cult_of_personality = {
+			allowed = { always = yes }
+			level = 2
+		}
+		law_country_religion_atheist = {
+			allowed = { always = yes }
+			level = 2
+		}
+		law_country_religion_secular = {
+			allowed = { always = yes }
+			level = 2
+		}
+	}
+	law_country_culture = {
+		law = yes
+		cost = 999
+		law_country_culture_uncategorized = {
+			allowed = { always = yes }
+			default = yes
+		}
+		law_country_culture_arabic = {
 			allowed = { always = yes }
 		}
-		culture_placeholder_1 = {
+		law_country_culture_turkish = {
+			allowed = { always = yes }
+		}
+		law_country_culture_persian = {
+			allowed = { always = yes }
+		}
+		law_country_culture_balouch = {
+			allowed = { always = yes }
+		}
+		law_country_culture_kurd = {
+			allowed = { always = yes }
+		}
+		law_country_culture_greek = {
+			allowed = { always = yes }
+		}
+		law_country_culture_albanian = {
 			allowed = { always = yes }
 		}
 	}

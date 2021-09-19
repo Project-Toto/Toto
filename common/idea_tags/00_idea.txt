@@ -18,19 +18,20 @@ idea_categories = {
 	}
 
 	law_country = {
-		slot = law_type_culture
-		slot = law_type_religion
-		slot = law_type_tech
-		slot = law_type_society
-		slot = law_type_government
-		slot = law_type_military
-		cost = 999
+		slot = law_country_power
+		slot = law_country_religion
+		slot = law_country_culture
+		slot = law_country_government
+		slot = law_country_era_society
+		slot = law_country_era_military
+
+		cost = 1000
 		removal_cost = 0
 		
 		ledger = civilian
 	}
 
-	law_status = {
+	law_laws = {
 		slot = economy
 		slot = trade_laws
 		slot = mobilization_laws

@@ -1,98 +1,82 @@
 resources = {
-	##raw
-	oil = {
+	resource_food = {
 		icon_frame = 1
 		cic = 0.125
-		convoys = 0.1
+		convoys = 0.25
 	}
-	aluminium = {
+	resource_spices = {
 		icon_frame = 2
 		cic = 0.125
-		convoys = 0.1
+		convoys = 0.25
 	}
-	rubber = {
+	resource_wood = {
 		icon_frame = 3
 		cic = 0.125
-		convoys = 0.1
+		convoys = 0.25
 	}
-	tungsten = {
+	resource_paper = {
 		icon_frame = 4
-		cic = 0.125
-		convoys = 0.1
+		cic = 0.50
+		convoys = 0.25
 	}
-	steel = {
+	resource_slaves = {
 		icon_frame = 5
 		cic = 0.125
-		convoys = 0.1
+		convoys = 0.25
 	}
-	chromium = {
+	resource_cotton = {
 		icon_frame = 6
 		cic = 0.125
-		convoys = 0.1
+		convoys = 0.25
 	}
-	coal = {
+	resource_fabric = {
 		icon_frame = 7
-		cic = 0.125
-		convoys = 0.1
+		cic = 0.50
+		convoys = 0.25
 	}
-	wood = {
+	resource_gold = {
 		icon_frame = 8
-		cic = 0.125
-		convoys = 0.1
+		cic = 0.25
+		convoys = 0.25
 	}
-	fabric = {
+	resource_ivory = {
 		icon_frame = 9
-		cic = 0.125
-		convoys = 0.1
+		cic = 0.25
+		convoys = 0.25
 	}
-	machine_parts = {
+	resource_jewelery = {
 		icon_frame = 10
-		cic = 0.125
-		convoys = 0.1
+		cic = 1.0
+		convoys = 0.25
 	}
-	eletronics = {
+	resource_iron = {
 		icon_frame = 11
 		cic = 0.125
-		convoys = 0.1
+		convoys = 0.33
 	}
-	plastics = {
+	resource_coal = {
 		icon_frame = 12
 		cic = 0.125
-		convoys = 0.1
+		convoys = 0.33
 	}
-	ceramics = {
+	resource_steel = {
 		icon_frame = 13
-		cic = 0.125
-		convoys = 0.1
+		cic = 0.25
+		convoys = 0.33
 	}
-	portable_power = {
+	resource_oil = {
 		icon_frame = 14
-		cic = 0.125
-		convoys = 0.1
+		cic = 0.25
+		convoys = 0.33
 	}
-	titanium = {
+	resource_rubber = {
 		icon_frame = 15
-		cic = 0.125
-		convoys = 0.1
+		cic = 0.25
+		convoys = 0.33
 	}
-	iron = {
+	resource_electricity = {
 		icon_frame = 16
-		cic = 0.125
-		convoys = 0.1
+		cic = 0.25
+		convoys = 0.0625
 	}
-	cotton = {
-		icon_frame = 17
-		cic = 0.125
-		convoys = 0.1
-	}
-	silicates = {
-		icon_frame = 18
-		cic = 0.125
-		convoys = 0.1
-	}
-	rare_earth_metals = {
-		icon_frame = 19
-		cic = 0.125
-		convoys = 0.1
-	}	
 }
