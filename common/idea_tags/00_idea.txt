@@ -22,8 +22,8 @@ idea_categories = {
 		slot = law_country_religion
 		slot = law_country_culture
 		slot = law_country_government
-		slot = law_country_era_society
-		slot = law_country_era_military
+		slot = law_country_society
+		slot = law_country_military
 
 		cost = 1000
 		removal_cost = 0

@@ -1,18 +1,10 @@
 defined_text = {
-	name = GetRankDef
+	name = GetStateReligion
 	text = {
-		trigger = {
-			has_rank_empire = yes
-		}
-		localization_key = "rank_empire_DEF"
+		trigger = { has_idea = law_country_religion_animist }
+		localization_key = law_country_religion_fetishist
 	}
 	text = {
-		trigger = {
-			has_rank_regional = yes
-		}
-		localization_key = "rank_regional_DEF"
-	}
-	text = {
-		localization_key = "rank_minor_DEF"
+		localization_key = law_country_religion_sunni
 	}
 }

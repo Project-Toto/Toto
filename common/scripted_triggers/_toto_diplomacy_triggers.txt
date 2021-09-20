@@ -21,6 +21,15 @@ is_non_player_tag = {
 	}
 }
 
+is_player_tag = {
+	NOT = {
+		OR = {
+			tag = EUR
+			tag = TES
+		}
+	}
+}
+
 is_possible_colonizer = {
 	custom_trigger_tooltip = {
 		tooltip = is_possible_colonizer_tt
@@ -44,9 +53,9 @@ is_possible_colonizer = {
 	}
 }
 
-has_rank_empire = {
-	custom_trigger_tooltip = {
-		tooltip = has_rank_empire_tt
+is_great_power_eligible = {
+	# custom_trigger_tooltip = {
+	# 	tooltip = is_great_power_eligible_tt
 		is_puppet = no
 		OR = {
 			is_possible_colonizer = yes
@@ -61,14 +70,13 @@ has_rank_empire = {
 			}
 			check_variable = { num_owned_controlled_states > 30 }
 		}
-	}
+	# }
 }
 
-has_rank_regional = {
-	custom_trigger_tooltip = {
-		tooltip = has_rank_regional_tt
+is_secondary_power_eligible = {
+	# custom_trigger_tooltip = {
+	# 	tooltip = is_secondary_power_eligible_tt
 		OR = {
-			NOT = { has_rank_empire = yes }
 			check_variable = { max_manpower_k > 12500 }
 			AND = {
 				check_variable = { max_manpower_k > 7500 }
@@ -80,17 +88,32 @@ has_rank_regional = {
 			}
 			check_variable = { num_owned_controlled_states > 15 }
 		}
-	}
+	# }
 }
 
-has_rank_minor = {
-	custom_trigger_tooltip = {
-		tooltip = has_rank_minor_tt
+is_minor_power_eligible = {
+	# custom_trigger_tooltip = {
+	# 	tooltip = is_minor_power_eligible_tt
 		OR = {
-			NOT = { has_rank_empire = yes }
-			NOT = { has_rank_regional = yes }
+			check_variable = { max_manpower_k > 5000 }
+			AND = {
+				check_variable = { max_manpower_k > 2500 }
+				check_variable = { num_owned_controlled_states > 5 }
+			}
+			AND = {
+				check_variable = { max_manpower_k > 1750 }
+				check_variable = { num_owned_controlled_states > 8 }
+			}
+			check_variable = { num_owned_controlled_states > 10 }
 		}
-	}
+	# }
+}
+
+is_irrelevant_power_eligible = {
+	# custom_trigger_tooltip = {
+	# 	tooltip = is_irrelevant_power_eligible_tt
+		always = yes
+	# }
 }
 
 toto_enabled_autonomy = {

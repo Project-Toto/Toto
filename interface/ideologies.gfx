@@ -1,0 +1,18 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ideology_traditionalism_group"
+		texturefile = "gfx/interface/ideologies/traditionalism.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_fundamentalism_group"
+		texturefile = "gfx/interface/ideologies/fundamentalism.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_imperialism_group"
+		texturefile = "gfx/interface/ideologies/imperialism.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_reformism_group"
+		texturefile = "gfx/interface/ideologies/reformism.dds"
+	}
+}

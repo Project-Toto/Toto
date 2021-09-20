@@ -4,7 +4,8 @@ ideas = {
 		law = yes
 		use_list_view = yes
 		law_country_power_irrelevant = {
-			allowed = { always = yes }
+			picture = power_irrelevant
+			allowed = { is_player_tag = yes }
 			default = yes
 			level = 0
 			available = {
@@ -16,9 +17,11 @@ ideas = {
 					}
 				}
 			}
+			cancel_if_invalid = no
 		}
 		law_country_power_minor = {
-			allowed = { always = yes }
+			picture = power_minor
+			allowed = { is_player_tag = yes }
 			level = 1
 			available = {
 				NOT = {
@@ -27,90 +30,120 @@ ideas = {
 						has_idea = law_country_power_great
 					}
 				}
+				is_minor_power_eligible = yes
 			}
+			cancel_if_invalid = no
 		}
 		law_country_power_secondary = {
-			allowed = { always = yes }
+			picture = power_secondary
+			allowed = { is_player_tag = yes }
 			level = 2
 			available = {
 				NOT = {
 					has_idea = law_country_power_great
 				}
+				is_secondary_power_eligible = yes
 			}
+			cancel_if_invalid = no
 		}
 		law_country_power_great = {
-			allowed = { always = yes }
+			picture = power_great
+			allowed = { is_player_tag = yes }
+
+			available = {
+				is_great_power_eligible = yes
+			}
 			level = 3
+			cancel_if_invalid = no
 		}
 	}
 	law_country_religion = {
 		law = yes
-		cost = 999
 		law_country_religion_animist = {
 			allowed = { always = yes }
 			default = yes
+			picture = religion_animist
 			level = 0
 		}
-		law_country_religion_catholic = {
+		law_country_religion_fetishist = {
 			allowed = { always = yes }
-			level = 1
+			picture = religion_fetishist
+			level = 0
 		}
-		law_country_religion_protestant = {
+		law_country_religion_zoroastrian = {
 			allowed = { always = yes }
-			level = 1
-		}
-		law_country_religion_orthodox = {
-			allowed = { always = yes }
-			level = 1
-		}
-		law_country_religion_armenian = {
-			allowed = { always = yes }
-			level = 1
-		}
-		law_country_religion_coptic = {
-			allowed = { always = yes }
+			picture = religion_zoroastrian
 			level = 1
 		}
 		law_country_religion_jewish = {
 			allowed = { always = yes }
+			picture = religion_jewish
+			level = 1
+		}
+
+		law_country_religion_catholic = {
+			allowed = { always = yes }
+			picture = religion_catholic
+			level = 1
+		}
+		law_country_religion_protestant = {
+			allowed = { always = yes }
+			picture = religion_protestant
+			level = 1
+		}
+		law_country_religion_anglican = {
+			allowed = { always = yes }
+			picture = religion_anglican
+			level = 1
+		}
+		law_country_religion_orthodox = {
+			allowed = { always = yes }
+			picture = religion_orthodox
+			level = 1
+		}
+		law_country_religion_coptic = {
+			allowed = { always = yes }
+			picture = religion_coptic
 			level = 1
 		}
 		law_country_religion_druze = {
 			allowed = { always = yes }
+			picture = religion_druze
 			level = 1
 		}
 		law_country_religion_sunni = {
 			allowed = { always = yes }
+			picture = religion_sunni
 			level = 1
 		}
-		law_country_religion_shia = {
+		law_country_religion_shiite = {
 			allowed = { always = yes }
+			picture = religion_shiite
 			level = 1
 		}
 		law_country_religion_ibadi = {
 			allowed = { always = yes }
-			level = 1
-		}
-		law_country_religion_zoroastrian = {
-			allowed = { always = yes }
+			picture = religion_ibadi
 			level = 1
 		}
 		law_country_religion_cult_of_personality = {
 			allowed = { always = yes }
+			picture = religion_cult_of_personality
 			level = 2
 		}
 		law_country_religion_atheist = {
 			allowed = { always = yes }
+			picture = religion_atheist
 			level = 2
 		}
 		law_country_religion_secular = {
 			allowed = { always = yes }
+			picture = religion_secular
 			level = 2
 		}
 	}
 	law_country_culture = {
 		law = yes
-		cost = 999
 		law_country_culture_uncategorized = {
 			allowed = { always = yes }
 			default = yes
@@ -137,122 +170,149 @@ ideas = {
 			allowed = { always = yes }
 		}
 	}
-	law_type_religion = {
+	law_country_government = {
+		law = yes
+		law_country_government_nomadic = {
+			allowed = { always = yes }
+			level = 0
+			available = {
+				always = no
+			}
+			cancel_if_invalid = no
+		}
+		law_country_government_tribe = {
+			allowed = { always = yes }
+			level = 1
+			default = yes
+		}
+		law_country_government_chiefdom = {
+			allowed = { always = yes }
+			level = 2
+		}
+		law_country_government_pirate = {
+			allowed = { always = yes }
+			level = 2
+			available = {
+				NOT = {
+					has_government = imperialism
+					has_government = fundamentalism
+				}
+				if = {
+					limit = { has_government = reformism }
+					check_variable = { num_owned_controlled_states < 5 }
+				}
+			}
+
+			modifier = {
+				political_power_gain = -0.1
+				war_support_factor = -0.05
+				convoy_raiding_efficiency_factor = 2.0
+				navy_screen_attack_factor = 0.075
+				naval_critical_score_chance_factor = 0.075
+			}
+		}
+		law_country_government_kingdom = {
+			allowed = { always = yes }
+			level = 3
+		}
+		law_country_government_merchantile_oligarchy = {
+			allowed = { always = yes }
+			level = 3
+		}
+		law_country_government_religious_order = {
+			allowed = { always = yes }
+			level = 3
+			available = {
+				has_government = fundamentalism
+			}
+
+			modifier = {
+				fundamentalism_drift = 0.05
+			}
+		}
+		law_country_government_landed_republic = {
+			allowed = { always = yes }
+			level = 3
+
+			available = {
+				NOT = { has_government = fundamentalism }
+			}
+		}
+		law_country_government_sultanate = {
+			allowed = { always = yes }
+			level = 4
+
+			available = {
+				has_idea = law_country_power_great
+				OR = {
+					has_idea = law_country_religion_sunni
+					has_idea = law_country_religion_shiite
+					has_idea = law_country_religion_ibadi
+				}
+			}
+		}
+		law_country_government_democratic_republic = {
+			allowed = { always = yes }
+			level = 4
+			available = {
+				has_government = reformism
+			}
+
+			modifier = {
+				political_power_gain = 0.25
+				war_support_factor = -0.20
+			}
+		}
+		law_country_government_caliphate = {
+			allowed = { always = yes }
+			level = 5
+
+			available = {
+				has_government = fundamentalism
+				has_idea = law_country_power_great
+				OR = {
+					has_idea = law_country_religion_sunni
+					has_idea = law_country_religion_shiite
+					has_idea = law_country_religion_ibadi
+				}
+			}
+		}
+	}
+	law_country_society = {
 		law = yes
 		use_list_view = yes
-		religion_catholic = {
+		law_country_society_nomadic = {
 			allowed = { always = yes }
 		}
-		religion_protestant = {
+		law_country_society_tribal = {
 			allowed = { always = yes }
 		}
-		religion_sunni = {
+		law_country_society_feudal = {
 			allowed = { always = yes }
 		}
-		religion_shia = {
+		law_country_society_state = {
 			allowed = { always = yes }
 		}
-		religion_ibadi = {
-			allowed = { always = yes }
-		}
-		religion_animist = {
-			allowed = { always = yes }
-		}
-		religion_sult_of_personality = {
-			allowed = { always = yes }
-		}
-		religion_atheist = {
-			allowed = { always = yes }
-		}
-		religion_secular = {
+		law_country_society_federation = {
 			allowed = { always = yes }
 		}
 	}
-	law_type_tech = {
+	law_country_military = {
 		law = yes
 		use_list_view = yes
-		tech_tribal = {
+		law_country_military_nomadic_warriors = {
 			allowed = { always = yes }
 		}
-		tech_feudal = {
+		law_country_military_agrarian_levies = {
 			allowed = { always = yes }
 		}
-		tech_mercantile = {
+		law_country_military_traditional = {
 			allowed = { always = yes }
 		}
-		tech_industrial = {
+		law_country_military_line = {
 			allowed = { always = yes }
 		}
-		tech_electrical = {
-			allowed = { always = yes }
-		}
-		tech_post_electrical = {
-			allowed = { always = yes }
-		}
-	}
-	law_type_society = {
-		law = yes
-		use_list_view = yes
-		society_nomadic = {
-			allowed = { always = yes }
-		}
-		society_tribal = {
-			allowed = { always = yes}
-		}
-		society_agrarian = {
-			allowed = { always = yes }
-		}
-		society_mercantile = {
-			allowed = { always = yes }
-		}
-		society_industrial = {
-			allowed = { always = yes }
-		}
-		society_electrical = {
-			allowed = { always = yes }
-		}
-	}
-	law_type_government = {
-		law = yes
-		use_list_view = yes
-		government_nomadic = {
-			allowed = { always = yes }
-		}
-		government_tribe = {
-			allowed = { always = yes }
-		}
-		government_princedom = {
-			allowed = { always = yes }
-		}
-		government_kingdom = {
-			allowed = { always = yes }
-		}
-		government_sultanate = {
-			allowed = { always = yes }
-		}
-		government_merchantile_oligarchy = {
-			allowed = { always = yes }
-		}
-		government_berber_pirate = {
-			allowed = { always = yes }
-		}
-	}
-	law_type_military = {
-		law = yes
-		use_list_view = yes
-		military_nomadic_warriors = {
-			allowed = { always = yes }
-		}
-		military_agrarian_levies = {
-			allowed = { always = yes }
-		}
-		military_traditional = {
-			allowed = { always = yes }
-		}
-		military_line = {
-			allowed = { always = yes }
-		}
-		military_modern = {
+		law_country_military_modern = {
 			allowed = { always = yes }
 		}
 	}

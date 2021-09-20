@@ -44,7 +44,7 @@ technology_categories = {
 	cat_superior_firepower
 	cat_grand_battle_plan
 	cat_mass_assault
-	night_vision 
+	night_vision
 	mot_rockets
 	support_tech
 	engineers_tech
@@ -168,7 +168,10 @@ technology_categories = {
 }
 
 technology_folders = {
-	infantry_folder={
+	humanities_folder = {
+		ledger = civilian
+	}
+	infantry_folder = {
 		ledger = army
 	}
 	support_folder = {
@@ -222,15 +225,15 @@ technology_folders = {
 	electronics_devices_folder = {
 		ledger = civilian
 	}
-	humanities_folder= {
-		available = { NOT={has_idea = oral_tradition} NOT={has_idea = traditional_uluma}}
-		ledger = civilian
-	}
+	# humanities_folder= {
+	# 	available = { NOT={has_idea = oral_tradition} NOT={has_idea = traditional_uluma}}
+	# 	ledger = civilian
+	# }
 	projects_folder={
 		ledger = civilian
 	}
-	pre_industrial_folder= { available = { OR = { has_idea = oral_tradition has_idea = traditional_uluma } } }
-	electronics_folder#= {available = {always = no}}
-	civilian_folder#= {available = {always = no}}
-	industry_folder#= {available = {always = no}}
+	# humanities_folder= { available = { OR = { has_idea = oral_tradition has_idea = traditional_uluma } } }
+	# electronics_devices_folder#= {available = {always = no}}
+	# civilian_folder#= {available = {always = no}}
+	# mechanical_engineering_folder#= {available = {always = no}}
 }
