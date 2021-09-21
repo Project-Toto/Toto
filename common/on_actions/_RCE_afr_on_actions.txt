@@ -117,35 +117,6 @@ on_actions = {
 				limit = {
 					has_start_date < 1858.1.1
 				}
-				# ### Philippines Stuff ###
-				# 327 = {
-				# 	add_colonial_profits_in_state_by_5 = yes
-				# }
-				# 623 = {
-				# 	set_variable = { var = SPH_integration_progress_var value = 78 }
-				# 	set_variable = { var = SPH_establish_town_var value = 1 }
-				# 	add_colonial_profits_in_state_by_5 = yes
-				# }
-				# 624 = {
-				# 	set_state_flag = SPH_catholic_compliance_med
-				# 	set_variable = { var = SPH_integration_progress_var value = 14 }
-				# 	set_variable = { var = SPH_establish_town_var value = 3 }
-				# }
-				# 625 = {
-				# 	set_state_flag = SPH_catholic_compliance_low
-				# 	set_variable = { var = SPH_integration_progress_var value = 03 }
-				# 	set_variable = { var = SPH_establish_town_var value = 3 }
-				# }
-				# 626 = {
-				# 	set_state_flag = SPH_catholic_compliance_low
-				# 	set_variable = { var = SPH_integration_progress_var value = 05 }
-				# 	set_variable = { var = SPH_establish_town_var value = 3 }
-				# }
-				# 628 = {
-				# 	set_state_flag = SPH_catholic_compliance_low
-				# 	set_variable = { var = SPH_integration_progress_var value = 02 }
-				# 	set_variable = { var = SPH_establish_town_var value = 3 }
-				# }
 
 				###############################
 				### afr mechanics and stuff ###
@@ -284,18 +255,7 @@ on_actions = {
 					state_event = { id = afr_empire_mechanic_weekly_pulse_check_event.1 days = 7 trigger_for = controller }
 					state_event = { id = afr_empire_mechanic_monthly_pulse_check_event.1 days = 30 trigger_for = controller }
 				}
-				#Unclaimed Territory Claims
-				# SPR = { 725 = { UCT_add_state_claim_to_THIS_for_PREV = yes } }
-				# 725 = { UCT_add_claim_progress_100 = yes }
-				# 725 = { UCT_add_colonization_progress_07 = yes }
-
-				# SPR = { 633 = { UCT_add_state_claim_to_THIS_for_PREV = yes } }
-				# 633 = { UCT_add_claim_progress_100 = yes }
-				# 633 = { UCT_add_colonization_progress_03 = yes }
-
-				# SPR = { 639 = { UCT_add_state_claim_to_THIS_for_PREV = yes } }
-				# 639 = { UCT_add_claim_progress_100 = yes }
-				# 639 = { UCT_add_colonization_progress_03 = yes }
+				
 
 				#Luxury Goods
 				# 1108 = { set_variable = { afr_empire_politics_state_luxury_gold_acquisition_var = 100 } }
@@ -745,169 +705,6 @@ on_actions = {
 				MSN = {
 					country_event = { id = afr_jihad_repair_ribats.1 days = 100 }
 				}
-				# na stuff
-						# USA = {
-						# 	add_opinion_modifier = {
-						# 		target = CRW
-						# 		modifier = NA_N_cooperative_tribe_opinion_modifier
-						# 	}
-						# 	add_opinion_modifier = {
-						# 		target = NEZ
-						# 		modifier = NA_N_cooperative_tribe_opinion_modifier
-						# 	}
-						# }
-						# SHO = {
-						# 	add_equipment_to_stockpile = { type = cavalry_equipment amount = 200 }
-						# 	add_equipment_to_stockpile = { type = infantry_equipment_rifle_0 amount = 500 }
-						# 	add_equipment_to_stockpile = { type = uniform_equipment_0 amount = 500 }
-						# 	add_ideas = NA_N_buffalo_population_1
-						# 	add_opinion_modifier = {
-						# 		target = SIX
-						# 		modifier = NA_N_history_of_conflict_opinion_modifier
-						# 	}
-						# 	add_opinion_modifier = {
-						# 		target = CHY
-						# 		modifier = NA_N_history_of_conflict_opinion_modifier
-						# 	}
-						# 	add_opinion_modifier = {
-						# 		target = BFT
-						# 		modifier = NA_N_history_of_conflict_opinion_modifier
-						# 	}
-						# 	add_opinion_modifier = {
-						# 		target = CRW
-						# 		modifier = NA_N_history_of_conflict_opinion_modifier
-						# 	}
-						# }
-						# NEZ = {
-						# 	add_equipment_to_stockpile = { type = cavalry_equipment amount = 200 }
-						# 	add_equipment_to_stockpile = { type = infantry_equipment_rifle_0 amount = 500 }
-						# 	add_equipment_to_stockpile = { type = uniform_equipment_0 amount = 500 }
-						# 	add_opinion_modifier = {
-						# 		target = USA
-						# 		modifier = NA_N_cooperative_tribe_opinion_modifier
-						# 	}
-						# }
-						# NAV = {
-						# 	add_equipment_to_stockpile = { type = cavalry_equipment amount = 200 }
-						# 	add_equipment_to_stockpile = { type = infantry_equipment_rifle_0 amount = 500 }
-						# 	add_equipment_to_stockpile = { type = uniform_equipment_0 amount = 500 }
-						# }
-						# CRW = {
-						# 	add_opinion_modifier = {
-						# 		target = USA
-						# 		modifier = NA_N_cooperative_tribe_opinion_modifier
-						# 	}
-						# 	add_opinion_modifier = {
-						# 		target = SIX
-						# 		modifier = NA_N_territory_disputes_opinion_modifier
-						# 	}
-						# 	add_opinion_modifier = {
-						# 		target = SIX
-						# 		modifier = NA_N_history_of_conflict_opinion_modifier
-						# 	}
-						# 	add_opinion_modifier = {
-						# 		target = CHY
-						# 		modifier = NA_N_territory_disputes_opinion_modifier
-						# 	}
-						# 	add_opinion_modifier = {
-						# 		target = CHY
-						# 		modifier = NA_N_history_of_conflict_opinion_modifier
-						# 	}
-						# 	add_opinion_modifier = {
-						# 		target = SHO
-						# 		modifier = NA_N_history_of_conflict_opinion_modifier
-						# 	}
-						# 	add_equipment_to_stockpile = { type = cavalry_equipment amount = 200 }
-						# 	add_equipment_to_stockpile = { type = infantry_equipment_rifle_0 amount = 500 }
-						# 	add_equipment_to_stockpile = { type = uniform_equipment_0 amount = 500 }
-						# 	add_ideas = NA_N_buffalo_population_3
-						# }
-						# COM = {
-						# 	add_equipment_to_stockpile = { type = cavalry_equipment amount = 200 }
-						# 	add_equipment_to_stockpile = { type = infantry_equipment_rifle_0 amount = 500 }
-						# 	add_equipment_to_stockpile = { type = uniform_equipment_0 amount = 500 }
-						# 	add_ideas = NA_N_buffalo_population_3
-						# }
-						# CHY = {
-						# 	add_opinion_modifier = {
-						# 		target = CRW
-						# 		modifier = NA_N_territory_disputes_opinion_modifier
-						# 	}
-						# 	add_opinion_modifier = {
-						# 		target = CRW
-						# 		modifier = NA_N_history_of_conflict_opinion_modifier
-						# 	}
-						# 	add_opinion_modifier = {
-						# 		target = SHO
-						# 		modifier = NA_N_history_of_conflict_opinion_modifier
-						# 	}
-						# 	add_opinion_modifier = {
-						# 		target = SIX
-						# 		modifier = NA_N_history_of_alliances_opinion_modifier
-						# 	}
-						# 	diplomatic_relation = {
-						# 		country = SIX
-						# 		relation = non_aggression_pact
-						# 		active = yes
-						# 	}
-						# 	add_equipment_to_stockpile = { type = cavalry_equipment amount = 200 }
-						# 	add_equipment_to_stockpile = { type = infantry_equipment_rifle_0 amount = 500 }
-						# 	add_equipment_to_stockpile = { type = uniform_equipment_0 amount = 500 }
-						# 	add_ideas = NA_N_buffalo_population_3
-						# }
-						# BFT = {
-						# 	add_equipment_to_stockpile = { type = cavalry_equipment amount = 200 }
-						# 	add_ideas = NA_N_buffalo_population_1
-						# 	add_opinion_modifier = {
-						# 		target = SHO
-						# 		modifier = NA_N_history_of_conflict_opinion_modifier
-						# 	}
-						# }
-						# APA = {
-						# 	add_equipment_to_stockpile = { type = cavalry_equipment amount = 200 }
-						# }
-						# SIX = {
-						# 	add_opinion_modifier = {
-						# 		target = CRW
-						# 		modifier = NA_N_territory_disputes_opinion_modifier
-						# 	}
-						# 	add_opinion_modifier = {
-						# 		target = CRW
-						# 		modifier = NA_N_history_of_conflict_opinion_modifier
-						# 	}
-						# 	add_opinion_modifier = {
-						# 		target = SHO
-						# 		modifier = NA_N_history_of_conflict_opinion_modifier
-						# 	}
-						# 	add_opinion_modifier = {
-						# 		target = CHY
-						# 		modifier = NA_N_history_of_alliances_opinion_modifier
-						# 	}
-						# 	add_equipment_to_stockpile = { type = cavalry_equipment amount = 200 }
-						# 	add_equipment_to_stockpile = { type = infantry_equipment_rifle_0 amount = 500 }
-						# 	add_equipment_to_stockpile = { type = uniform_equipment_0 amount = 500 }
-						# 	add_ideas = NA_N_buffalo_population_3
-						# }
-						# SEM = {
-						# 	add_equipment_to_stockpile = { type = cavalry_equipment amount = 200 }
-						# 	add_equipment_to_stockpile = { type = infantry_equipment_rifle_0 amount = 500 }
-						# 	add_equipment_to_stockpile = { type = uniform_equipment_0 amount = 500 }
-						# 	activate_decision = eoanb_decision_raise_tribal_army
-						# }
-						# YAQ = {
-						# 	add_equipment_to_stockpile = { type = cavalry_equipment amount = 200 }
-						# 	add_equipment_to_stockpile = { type = infantry_equipment_rifle_0 amount = 500 }
-						# 	add_equipment_to_stockpile = { type = uniform_equipment_0 amount = 500 }
-						# }
-						# MAY = {
-						# 	add_equipment_to_stockpile = { type = cavalry_equipment amount = 200 }
-						# 	add_equipment_to_stockpile = { type = infantry_equipment_rifle_1 amount = 500 producer = ENG }
-						# 	add_equipment_to_stockpile = { type = uniform_equipment_1 amount = 500 producer = ENG }
-						# 	set_province_name = {
-						# 		id = 4965
-						# 		name = "Chan Santa Cruz"
-						# 	}
-						# }
 				BAG = {
 					set_popularities = {
 						reformism = 0
@@ -1012,81 +809,81 @@ on_actions = {
 
 	}
 
-	on_capitulation = {
-		effect = {
-			if = {
-				limit = {
-					OR = {
-						ROOT = { has_country_flag = SKT_WDD_Joint_War_KAN }
-						ROOT = { has_country_flag = SKT_WDD_Joint_War_BAG_Buffer }
-					}
-				}
-				if = {
-					limit = {
-						ROOT = { tag = SKT }
-						FROM = { tag = KBO }
-						805 = { is_owned_by = ROOT }
-					}
-					KBO = { puppet = ADM }
-				}
-				ROOT = { clr_country_flag = SKT_WDD_Joint_War_KAN }
-				ROOT = { clr_country_flag = SKT_WDD_Joint_War_BAG_Buffer }
-			}
-			if = {
-				limit = {
-					OR = {
-						ROOT = { has_country_flag = SKT_WDD_Joint_War_Buffer }
-						ROOT = { has_country_flag = SKT_WDD_Joint_War_BAG }
-					}
-				}
-				if = {
-					limit = {
-						ROOT = { tag = WDD }
-						FROM = { tag = KBO }
-						660 = { is_owned_by = ROOT }
-					}
-					KBO = { transfer_state = 660 }
-				}
-				ROOT = { clr_country_flag = SKT_WDD_Joint_War_Buffer }
-				ROOT = { clr_country_flag = SKT_WDD_Joint_War_BAG }
-			}
-		}
-	}
+	#on_capitulation = {
+		#effect = {
+			#if = {
+			#	limit = {
+			#		OR = {
+			#			ROOT = { has_country_flag = SKT_WDD_Joint_War_KAN }
+			#			ROOT = { has_country_flag = SKT_WDD_Joint_War_BAG_Buffer }
+			#		}
+			#	}
+			#	if = {
+			#		limit = {
+			#			ROOT = { tag = SKT }
+			#			FROM = { tag = KBO }
+			#			805 = { is_owned_by = ROOT }
+			#		}
+			#		KBO = { puppet = ADM }
+			#	}
+			#	ROOT = { clr_country_flag = SKT_WDD_Joint_War_KAN }
+			#	ROOT = { clr_country_flag = SKT_WDD_Joint_War_BAG_Buffer }
+			#}
+			#if = {
+			#	limit = {
+			#		OR = {
+			#			ROOT = { has_country_flag = SKT_WDD_Joint_War_Buffer }
+			#			ROOT = { has_country_flag = SKT_WDD_Joint_War_BAG }
+			#		}
+			#	}
+			#	if = {
+			#		limit = {
+			#			ROOT = { tag = WDD }
+			#			FROM = { tag = KBO }
+			#			660 = { is_owned_by = ROOT }
+			#		}
+			#		KBO = { transfer_state = 660 }
+			#	}
+			#	ROOT = { clr_country_flag = SKT_WDD_Joint_War_Buffer }
+			#	ROOT = { clr_country_flag = SKT_WDD_Joint_War_BAG }
+			#}
+		#}
+	#}
 
-	on_capitulation = {
-		effect = {
-			if = {
-				limit = {
-					FROM = { TAG = KBO } #KBO Winner
-					ROOT = {
-						OR = {
-							TAG = SKT
-							has_country_flag = SKT_WDD_Joint_War_KAN
-						}
-					}
-				}
-				SKT = {
-					clr_country_flag = SKT_WDD_Joint_War_KAN
-					clr_country_flag = SKT_WDD_Joint_War_BAG_Buffer
-				}
-			}
-			if = {
-				limit = {
-					FROM = { TAG = KBO } #KBO Winner
-					ROOT = {
-						OR = {
-							TAG = WDD
-							has_country_flag = SKT_WDD_Joint_War_BAG
-						}
-					}
-				}
-				WDD = {
-					clr_country_flag = SKT_WDD_Joint_War_BAG
-					clr_country_flag = SKT_WDD_Joint_War_Buffer
-				}
-			}
-		}
-	}
+	#on_capitulation = {
+		#effect = {
+			#if = {
+			#	limit = {
+			#		FROM = { TAG = KBO } #KBO Winner
+			#		ROOT = {
+			#			OR = {
+			#				TAG = SKT
+			#				has_country_flag = SKT_WDD_Joint_War_KAN
+			#			}
+			#		}
+			#	}
+			#	SKT = {
+			#		clr_country_flag = SKT_WDD_Joint_War_KAN
+			#		clr_country_flag = SKT_WDD_Joint_War_BAG_Buffer
+			#	}
+			#}
+			#if = {
+			#	limit = {
+			#		FROM = { TAG = KBO } #KBO Winner
+			#		ROOT = {
+			#			OR = {
+			#				TAG = WDD
+			#				has_country_flag = SKT_WDD_Joint_War_BAG
+			#			}
+			#		}
+			#	}
+			#	WDD = {
+			#		clr_country_flag = SKT_WDD_Joint_War_BAG
+			#		clr_country_flag = SKT_WDD_Joint_War_Buffer
+			#	}
+			#}
+		#}
+	#}
 
 	# on_state_control_changed = {
 	# 	effect = {
