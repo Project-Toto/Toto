@@ -15,6 +15,10 @@
  OMA:0 "Muscat and Oman"
  OMA_DEFA:0 "[OMA.GetRankDef]"
  OMA_ADJ:0 "Omani"
+
+ FRA:0 "France"
+ FRA_DEF:0 "France"
+ FRA_ADJ:0 "French"
 # Europe
  ALB:0 "Albania"
  ALB_DEF:0 "Albania"

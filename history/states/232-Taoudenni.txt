@@ -1,0 +1,14 @@
+
+state={
+	id=232
+	name="STATE_232"
+	provinces={
+		33 151 356 874 989 1143 2038 2217 2284 2355 2403 2820 4392 5481 8124 
+	}
+	state_category=town
+	history={
+		owner=TES
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+}

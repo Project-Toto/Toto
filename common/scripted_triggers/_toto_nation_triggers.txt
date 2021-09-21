@@ -1,0 +1,16 @@
+is_country_christian = {
+	OR = {
+		has_idea = law_country_religion_catholic
+		has_idea = law_country_religion_anglican
+		has_idea = law_country_religion_protestant
+		has_idea = law_country_religion_orthodox
+		has_idea = law_country_religion_coptic
+	}
+}
+is_country_islamic = {
+	OR = {
+		has_idea = law_country_religion_sunni
+		has_idea = law_country_religion_shiite
+		has_idea = law_country_religion_ibadi
+	}
+}

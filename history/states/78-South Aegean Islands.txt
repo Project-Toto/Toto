@@ -6,7 +6,7 @@ state={
 		597 1703 3470 3541 6473 7579 7617 7624 7625 7637 10746 10749 
 	}
 	history={
-		owner = GRE
+		owner = OTO
 	}
 	manpower=1
 	state_category=town

@@ -1,0 +1,141 @@
+# State Religion
+	defined_text = {
+		name = GetAnglicanType
+		text = {
+			trigger = {
+				tag = HOL
+			}
+			localization_key = law_country_religion_anglican_reformed
+		}
+		text = {
+			localization_key = law_country_religion_anglican_anglican
+		}
+	}
+	defined_text = {
+		name = GetOrthodoxType
+		text = {
+			trigger = {
+				tag = GRE
+			}
+			localization_key = law_country_religion_orthodox_greek
+		}
+		text = {
+			trigger = {
+				OR = {
+					tag = KUR
+					tag = ARM
+					tag = OTO
+				}
+			}
+			localization_key = law_country_religion_orthodox_armeninan
+		}
+		text = {
+			localization_key = law_country_religion_orthodox_orthodox
+		}
+	}
+# State Government
+	defined_text = {
+		name = GetChiefdomType
+		text = {
+			trigger = {
+				has_idea = law_country_culture_arabic
+			}
+			localization_key = law_country_government_chiefdom_sheikhdom
+		}
+		text = {
+			localization_key = law_country_government_chiefdom_chiefdom
+		}
+	}
+	defined_text = {
+		name = GetKingdomType
+		text = {
+			trigger = {
+				is_country_islamic = yes
+			}
+			localization_key = law_country_government_kingdom_emirate
+		}
+		text = {
+			localization_key = law_country_government_kingdom_kingdom
+		}
+	}
+	defined_text = {
+		name = GetColonialOverlordAdjective
+		text = {
+			trigger = {
+				OVERLORD = { tag = ENG }
+			}
+			localization_key = "ENG_ADJ"
+		}
+		text = {
+			trigger = {
+				OVERLORD = { tag = FRA }
+			}
+			localization_key = "FRA_ADJ"
+		}
+		text = {
+			trigger = {
+				OVERLORD = { tag = HOL }
+			}
+			localization_key = "HOL_ADJ"
+		}
+		text = {
+			trigger = {
+				OVERLORD = { tag = BEL }
+			}
+			localization_key = "BEL_ADJ"
+		}
+		text = {
+			trigger = {
+				OVERLORD = { tag = SPR }
+			}
+			localization_key = "SPR_ADJ"
+		}
+		text = {
+			trigger = {
+				OVERLORD = { tag = POR }
+			}
+			localization_key = "POR_ADJ"
+		}
+		text = {
+			trigger = {
+				OVERLORD = { tag = ITA }
+			}
+			localization_key = "ITA_ADJ"
+		}
+		text = {
+			trigger = {
+				OVERLORD = { tag = AUS }
+			}
+			localization_key = "AUS_ADJ"
+		}
+		text = {
+			trigger = {
+				OVERLORD = { tag = GER }
+			}
+			localization_key = "GER_ADJ"
+		}
+		text = {
+			trigger = {
+				OVERLORD = { tag = RUS }
+			}
+			localization_key = "RUS_ADJ"
+		}
+		text = {
+			trigger = {
+				OVERLORD = { tag = USA }
+			}
+			localization_key = "USA_ADJ"
+		}
+		text = {
+			trigger = {
+				OVERLORD = { tag = CSA }
+			}
+			localization_key = "CSA_ADJ"
+		}
+		text = {
+			trigger = {
+				OVERLORD = { tag = BRA }
+			}
+			localization_key = "BRA_ADJ"
+		}
+	}

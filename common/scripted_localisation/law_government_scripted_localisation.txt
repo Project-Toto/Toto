@@ -1,0 +1,243 @@
+# State Power
+	defined_text = {
+		name = GetStatePower
+		text = {
+			trigger = { has_idea = law_country_power_great }
+			localization_key = law_country_power_great
+		}
+		text = {
+			trigger = { has_idea = law_country_power_secondary }
+			localization_key = law_country_power_secondary
+		}
+		text = {
+			trigger = { has_idea = law_country_power_minor }
+			localization_key = law_country_power_minor
+		}
+		text = {
+			localization_key = law_country_power_irrelevant
+		}
+	}
+	defined_text = {
+		name = GetStatePowerDesc
+		text = {
+			trigger = { has_idea = law_country_power_great }
+			localization_key = law_country_power_great_desc
+		}
+		text = {
+			trigger = { has_idea = law_country_power_secondary }
+			localization_key = law_country_power_secondary_desc
+		}
+		text = {
+			trigger = { has_idea = law_country_power_minor }
+			localization_key = law_country_power_minor_desc
+		}
+		text = {
+			localization_key = law_country_power_irrelevant_desc
+		}
+	}
+# State Religion
+	defined_text = {
+		name = GetStateReligion
+		text = {
+			trigger = { has_idea = law_country_religion_animist }
+			localization_key = law_country_religion_animist
+		}
+		text = {
+			trigger = { has_idea = law_country_religion_fetishist }
+			localization_key = law_country_religion_fetishist
+		}
+		text = {
+			trigger = { has_idea = law_country_religion_zoroastrian }
+			localization_key = law_country_religion_zoroastrian
+		}
+		text = {
+			trigger = { has_idea = law_country_religion_jewish }
+			localization_key = law_country_religion_jewish
+		}
+		text = {
+			trigger = { has_idea = law_country_religion_catholic }
+			localization_key = law_country_religion_catholic
+		}
+		text = {
+			trigger = { has_idea = law_country_religion_anglican }
+			localization_key = law_country_religion_anglican
+		}
+		text = {
+			trigger = { has_idea = law_country_religion_protestant }
+			localization_key = law_country_religion_protestant
+		}
+		text = {
+			trigger = { has_idea = law_country_religion_orthodox }
+			localization_key = law_country_religion_orthodox
+		}
+		text = {
+			trigger = { has_idea = law_country_religion_coptic }
+			localization_key = law_country_religion_coptic
+		}
+		text = {
+			trigger = { has_idea = law_country_religion_animist }
+			localization_key = law_country_religion_animist
+		}
+		text = {
+			trigger = { has_idea = law_country_religion_druze }
+			localization_key = law_country_religion_druze
+		}
+		text = {
+			trigger = { has_idea = law_country_religion_sunni }
+			localization_key = law_country_religion_sunni
+		}
+		text = {
+			trigger = { has_idea = law_country_religion_shiite }
+			localization_key = law_country_religion_shiite
+		}
+		text = {
+			trigger = { has_idea = law_country_religion_ibadi }
+			localization_key = law_country_religion_ibadi
+		}
+		text = {
+			trigger = { has_idea = law_country_religion_cult_of_personality }
+			localization_key = law_country_religion_cult_of_personality
+		}
+		text = {
+			trigger = { has_idea = law_country_religion_atheist }
+			localization_key = law_country_religion_atheist
+		}
+		text = {
+			localization_key = law_country_religion_secular
+		}
+	}
+	defined_text = {
+		name = GetStateReligionDesc
+		text = {
+			trigger = { has_idea = law_country_religion_animist }
+			localization_key = law_country_religion_animist_desc
+		}
+		text = {
+			trigger = { has_idea = law_country_religion_fetishist }
+			localization_key = law_country_religion_fetishist_desc
+		}
+		text = {
+			trigger = { has_idea = law_country_religion_zoroastrian }
+			localization_key = law_country_religion_zoroastrian_desc
+		}
+		text = {
+			trigger = { has_idea = law_country_religion_jewish }
+			localization_key = law_country_religion_jewish_desc
+		}
+		text = {
+			trigger = { has_idea = law_country_religion_catholic }
+			localization_key = law_country_religion_catholic_desc
+		}
+		text = {
+			trigger = { has_idea = law_country_religion_anglican }
+			localization_key = law_country_religion_anglican_desc
+		}
+		text = {
+			trigger = { has_idea = law_country_religion_protestant }
+			localization_key = law_country_religion_protestant_desc
+		}
+		text = {
+			trigger = { has_idea = law_country_religion_orthodox }
+			localization_key = law_country_religion_orthodox_desc
+		}
+		text = {
+			trigger = { has_idea = law_country_religion_coptic }
+			localization_key = law_country_religion_coptic_desc
+		}
+		text = {
+			trigger = { has_idea = law_country_religion_animist }
+			localization_key = law_country_religion_animist_desc
+		}
+		text = {
+			trigger = { has_idea = law_country_religion_druze }
+			localization_key = law_country_religion_druze_desc
+		}
+		text = {
+			trigger = { has_idea = law_country_religion_sunni }
+			localization_key = law_country_religion_sunni_desc
+		}
+		text = {
+			trigger = { has_idea = law_country_religion_shiite }
+			localization_key = law_country_religion_shiite_desc
+		}
+		text = {
+			trigger = { has_idea = law_country_religion_ibadi }
+			localization_key = law_country_religion_ibadi_desc
+		}
+		text = {
+			trigger = { has_idea = law_country_religion_cult_of_personality }
+			localization_key = law_country_religion_cult_of_personality_desc
+		}
+		text = {
+			trigger = { has_idea = law_country_religion_atheist }
+			localization_key = law_country_religion_atheist_desc
+		}
+		text = {
+			localization_key = law_country_religion_secular_desc
+		}
+	}
+# State Culture
+	defined_text = {
+		name = GetStateCulture
+		text = {
+			localization_key = law_country_culture_uncategorized
+		}
+	}
+	defined_text = {
+		name = GetStateCultureDesc
+		text = {
+			localization_key = law_country_culture_uncategorized_desc
+		}
+	}
+# State Government
+	defined_text = {
+		name = GetStateGovernment
+		text = {
+			trigger = { has_idea = law_country_government_nomadic }
+			localization_key = law_country_government_nomadic
+		}
+		text = {
+			trigger = { has_idea = law_country_government_tribe }
+			localization_key = law_country_government_tribe
+		}
+		text = {
+			trigger = { has_idea = law_country_government_chiefdom }
+			localization_key = law_country_government_chiefdom
+		}
+		text = {
+			trigger = { has_idea = law_country_government_pirate }
+			localization_key = law_country_government_pirate
+		}
+		text = {
+			trigger = { has_idea = law_country_government_tribal_confederacy }
+			localization_key = law_country_government_tribal_confederacy
+		}
+		text = {
+			trigger = { has_idea = law_country_government_kingdom }
+			localization_key = law_country_government_kingdom
+		}
+		text = {
+			trigger = { has_idea = law_country_government_sultanate }
+			localization_key = law_country_government_sultanate
+		}
+		text = {
+			trigger = { has_idea = law_country_government_merchantile_oligarchy }
+			localization_key = law_country_government_merchantile_oligarchy
+		}
+		text = {
+			trigger = { has_idea = law_country_government_religious_order }
+			localization_key = law_country_government_religious_order
+		}
+		text = {
+			trigger = { has_idea = law_country_government_landed_republic }
+			localization_key = law_country_government_landed_republic
+		}
+		text = {
+			trigger = { has_idea = law_country_government_democratic_republic }
+			localization_key = law_country_government_democratic_republic
+		}
+		text = {
+			trigger = { has_idea = law_country_government_caliphate }
+			localization_key = law_country_government_caliphate
+		}
+	}

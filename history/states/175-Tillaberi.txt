@@ -2,13 +2,16 @@
 state={
 	id=175
 	name="STATE_175"
-	provinces={
-		877 955 1552 2134 2492 3580 3973 3988 4324 4412 4545 5828 6894 6954 8518 8526 8564 8574 8609 8630 8668 
-	}
-	state_category=town
+
 	history={
-		owner=TES
+		owner = TES
+
+	}
+
+	provinces={
+		877 1552 2134 3973 4324 4412 4545 6894 8518 8526 8574 8609 8630 8668 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
+	state_category=town
 }

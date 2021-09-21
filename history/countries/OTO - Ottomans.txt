@@ -19,9 +19,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = ""
+	name = "Abdulmecid"
 	desc = "POLITICS_TEMP_DESC"
-	picture = ""
+	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
 	expire = "1920.1.1"
 	ideology = reformism_absolutism
 	traits = {
@@ -30,10 +30,13 @@ create_country_leader = {
 }
 
 add_ideas = {
-	law_country_power_great
-	law_country_religion_sunni
-	law_country_culture_turkish
-	law_country_government_sultanate
+	# State Attributes
+		law_country_power_great
+		law_country_religion_sunni
+		law_country_culture_turkish
+		law_country_government_caliphate
+		law_country_society_state
+		law_country_military_traditional
 }
 
 if = {

@@ -18,10 +18,24 @@ set_popularities = {
 	imperialism = 5
 }
 
+FRA = {
+	puppet = ALG
+}
+
+add_ideas = {
+	# State Attributes
+		law_country_power_minor
+		law_country_religion_catholic
+		law_country_culture_uncategorized
+		law_country_government_colonial_company
+		law_country_society_state
+		law_country_military_traditional
+}
+
 create_country_leader = {
 	name = ""
 	desc = "POLITICS_TEMP_DESC"
-	picture = ""
+	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
 	expire = "1920.1.1"
 	ideology = traditionalism_absolutism
 	traits = {

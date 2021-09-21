@@ -1,5 +1,5 @@
 ideas = {
-# State of Country
+# State Attributes
 	law_country_power = {
 		law = yes
 		use_list_view = yes
@@ -184,6 +184,25 @@ ideas = {
 			allowed = { always = yes }
 			level = 1
 			default = yes
+			on_add = {
+				if = {
+					limit = { check_variable = { country_score_technology > 25 } }
+					random_list = {
+						2 = {
+							swap_ideas = {
+								remove_idea = law_country_government_tribe
+								add_idea = law_country_government_chiefdom
+							}
+						}
+						1 = {
+							swap_ideas = {
+								remove_idea = law_country_government_tribe
+								add_idea = law_country_government_tribal_confederacy
+							}
+						}
+					}
+				}
+			}
 		}
 		law_country_government_chiefdom = {
 			allowed = { always = yes }
@@ -210,6 +229,10 @@ ideas = {
 				navy_screen_attack_factor = 0.075
 				naval_critical_score_chance_factor = 0.075
 			}
+		}
+		law_country_government_tribal_confederacy = {
+			allowed = { always = yes }
+			level = 3
 		}
 		law_country_government_kingdom = {
 			allowed = { always = yes }
@@ -268,12 +291,23 @@ ideas = {
 			level = 5
 
 			available = {
-				has_government = fundamentalism
+				NOT = {
+					any_other_country = { has_idea = law_country_government_caliphate }
+				}
 				has_idea = law_country_power_great
 				OR = {
 					has_idea = law_country_religion_sunni
 					has_idea = law_country_religion_shiite
 					has_idea = law_country_religion_ibadi
+				}
+			}
+		}
+		law_country_government_colonial_company = {
+			allowed = { always = yes }
+			visible = {
+				is_puppet = yes
+				OVERLORD = {
+					is_possible_colonizer = yes
 				}
 			}
 		}

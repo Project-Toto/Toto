@@ -1,0 +1,752 @@
+sabotage_resource_food = {
+	available = {
+		has_resources_amount = {
+			resource = resource_food
+			amount > 0
+			delivered = yes
+		}
+	}
+
+	weight = {
+		base = 1
+		modifier = {
+			has_variable = targeted_sabotage_resources
+			check_variable = { targeted_sabotage_resources > 0 }
+			add = 4
+		}
+		modifier = {
+			occupation_law = forced_labor_occupation
+			add = -0.25
+		}
+	}
+
+	effect = {
+		clear_sabotaged_resources_if_necesary = yes
+		add_to_variable = { sabotaged_food = -12 }
+		set_temp_variable = { duration = 180 }
+		if = {
+			limit = { occupation_law = forced_labor_occupation }
+			multiply_temp_variable = { duration = 0.75 }
+		}
+		if = {
+			limit = {
+				has_variable = targeted_sabotage_resources
+				check_variable = { targeted_sabotage_resources > 0 }
+			}
+
+			add_to_variable = { sabotaged_food = -8 }
+			subtract_from_variable = { var = targeted_sabotage_resources value = 1 }
+		}
+		add_dynamic_modifier = {
+			modifier = sabotaged_resources
+			days = duration
+		}
+	}
+
+	alert_text = resource_is_sabotaged
+}
+sabotage_resource_spices = {
+	available = {
+		has_resources_amount = {
+			resource = resource_spices
+			amount > 0
+			delivered = yes
+		}
+	}
+
+	weight = {
+		base = 1
+		modifier = {
+			has_variable = targeted_sabotage_resources
+			check_variable = { targeted_sabotage_resources > 0 }
+			add = 4
+		}
+		modifier = {
+			occupation_law = forced_labor_occupation
+			add = -0.25
+		}
+	}
+
+	effect = {
+		clear_sabotaged_resources_if_necesary = yes
+		add_to_variable = { sabotaged_spices = -12 }
+		set_temp_variable = { duration = 180 }
+		if = {
+			limit = { occupation_law = forced_labor_occupation }
+			multiply_temp_variable = { duration = 0.75 }
+		}
+		if = {
+			limit = {
+				has_variable = targeted_sabotage_resources
+				check_variable = { targeted_sabotage_resources > 0 }
+			}
+
+			add_to_variable = { sabotaged_spices = -8 }
+			subtract_from_variable = { var = targeted_sabotage_resources value = 1 }
+		}
+		add_dynamic_modifier = {
+			modifier = sabotaged_resources
+			days = duration
+		}
+	}
+
+	alert_text = resource_is_sabotaged
+}
+sabotage_resource_wood = {
+	available = {
+		has_resources_amount = {
+			resource = resource_wood
+			amount > 0
+			delivered = yes
+		}
+	}
+
+	weight = {
+		base = 1
+		modifier = {
+			has_variable = targeted_sabotage_resources
+			check_variable = { targeted_sabotage_resources > 0 }
+			add = 4
+		}
+		modifier = {
+			occupation_law = forced_labor_occupation
+			add = -0.25
+		}
+	}
+
+	effect = {
+		clear_sabotaged_resources_if_necesary = yes
+		add_to_variable = { sabotaged_wood = -12 }
+		set_temp_variable = { duration = 180 }
+		if = {
+			limit = { occupation_law = forced_labor_occupation }
+			multiply_temp_variable = { duration = 0.75 }
+		}
+		if = {
+			limit = {
+				has_variable = targeted_sabotage_resources
+				check_variable = { targeted_sabotage_resources > 0 }
+			}
+
+			add_to_variable = { sabotaged_wood = -8 }
+			subtract_from_variable = { var = targeted_sabotage_resources value = 1 }
+		}
+		add_dynamic_modifier = {
+			modifier = sabotaged_resources
+			days = duration
+		}
+	}
+
+	alert_text = resource_is_sabotaged
+}
+sabotage_resource_paper = {
+	available = {
+		has_resources_amount = {
+			resource = resource_paper
+			amount > 0
+			delivered = yes
+		}
+	}
+
+	weight = {
+		base = 1
+		modifier = {
+			has_variable = targeted_sabotage_resources
+			check_variable = { targeted_sabotage_resources > 0 }
+			add = 4
+		}
+		modifier = {
+			occupation_law = forced_labor_occupation
+			add = -0.25
+		}
+	}
+
+	effect = {
+		clear_sabotaged_resources_if_necesary = yes
+		add_to_variable = { sabotaged_paper = -12 }
+		set_temp_variable = { duration = 180 }
+		if = {
+			limit = { occupation_law = forced_labor_occupation }
+			multiply_temp_variable = { duration = 0.75 }
+		}
+		if = {
+			limit = {
+				has_variable = targeted_sabotage_resources
+				check_variable = { targeted_sabotage_resources > 0 }
+			}
+
+			add_to_variable = { sabotaged_paper = -8 }
+			subtract_from_variable = { var = targeted_sabotage_resources value = 1 }
+		}
+		add_dynamic_modifier = {
+			modifier = sabotaged_resources
+			days = duration
+		}
+	}
+
+	alert_text = resource_is_sabotaged
+}
+sabotage_resource_slaves = {
+	available = {
+		has_resources_amount = {
+			resource = resource_slaves
+			amount > 0
+			delivered = yes
+		}
+	}
+
+	weight = {
+		base = 1
+		modifier = {
+			has_variable = targeted_sabotage_resources
+			check_variable = { targeted_sabotage_resources > 0 }
+			add = 4
+		}
+		modifier = {
+			occupation_law = forced_labor_occupation
+			add = -0.25
+		}
+	}
+
+	effect = {
+		clear_sabotaged_resources_if_necesary = yes
+		add_to_variable = { sabotaged_slaves = -12 }
+		set_temp_variable = { duration = 180 }
+		if = {
+			limit = { occupation_law = forced_labor_occupation }
+			multiply_temp_variable = { duration = 0.75 }
+		}
+		if = {
+			limit = {
+				has_variable = targeted_sabotage_resources
+				check_variable = { targeted_sabotage_resources > 0 }
+			}
+
+			add_to_variable = { sabotaged_slaves = -8 }
+			subtract_from_variable = { var = targeted_sabotage_resources value = 1 }
+		}
+		add_dynamic_modifier = {
+			modifier = sabotaged_resources
+			days = duration
+		}
+	}
+
+	alert_text = resource_is_sabotaged
+}
+sabotage_resource_cotton = {
+	available = {
+		has_resources_amount = {
+			resource = resource_cotton
+			amount > 0
+			delivered = yes
+		}
+	}
+
+	weight = {
+		base = 1
+		modifier = {
+			has_variable = targeted_sabotage_resources
+			check_variable = { targeted_sabotage_resources > 0 }
+			add = 4
+		}
+		modifier = {
+			occupation_law = forced_labor_occupation
+			add = -0.25
+		}
+	}
+
+	effect = {
+		clear_sabotaged_resources_if_necesary = yes
+		add_to_variable = { sabotaged_cotton = -12 }
+		set_temp_variable = { duration = 180 }
+		if = {
+			limit = { occupation_law = forced_labor_occupation }
+			multiply_temp_variable = { duration = 0.75 }
+		}
+		if = {
+			limit = {
+				has_variable = targeted_sabotage_resources
+				check_variable = { targeted_sabotage_resources > 0 }
+			}
+
+			add_to_variable = { sabotaged_cotton = -8 }
+			subtract_from_variable = { var = targeted_sabotage_resources value = 1 }
+		}
+		add_dynamic_modifier = {
+			modifier = sabotaged_resources
+			days = duration
+		}
+	}
+
+	alert_text = resource_is_sabotaged
+}
+sabotage_resource_fabric = {
+	available = {
+		has_resources_amount = {
+			resource = resource_fabric
+			amount > 0
+			delivered = yes
+		}
+	}
+
+	weight = {
+		base = 1
+		modifier = {
+			has_variable = targeted_sabotage_resources
+			check_variable = { targeted_sabotage_resources > 0 }
+			add = 4
+		}
+		modifier = {
+			occupation_law = forced_labor_occupation
+			add = -0.25
+		}
+	}
+
+	effect = {
+		clear_sabotaged_resources_if_necesary = yes
+		add_to_variable = { sabotaged_fabric = -12 }
+		set_temp_variable = { duration = 180 }
+		if = {
+			limit = { occupation_law = forced_labor_occupation }
+			multiply_temp_variable = { duration = 0.75 }
+		}
+		if = {
+			limit = {
+				has_variable = targeted_sabotage_resources
+				check_variable = { targeted_sabotage_resources > 0 }
+			}
+
+			add_to_variable = { sabotaged_fabric = -8 }
+			subtract_from_variable = { var = targeted_sabotage_resources value = 1 }
+		}
+		add_dynamic_modifier = {
+			modifier = sabotaged_resources
+			days = duration
+		}
+	}
+
+	alert_text = resource_is_sabotaged
+}
+sabotage_resource_gold = {
+	available = {
+		has_resources_amount = {
+			resource = resource_gold
+			amount > 0
+			delivered = yes
+		}
+	}
+
+	weight = {
+		base = 1
+		modifier = {
+			has_variable = targeted_sabotage_resources
+			check_variable = { targeted_sabotage_resources > 0 }
+			add = 4
+		}
+		modifier = {
+			occupation_law = forced_labor_occupation
+			add = -0.25
+		}
+	}
+
+	effect = {
+		clear_sabotaged_resources_if_necesary = yes
+		add_to_variable = { sabotaged_gold = -12 }
+		set_temp_variable = { duration = 180 }
+		if = {
+			limit = { occupation_law = forced_labor_occupation }
+			multiply_temp_variable = { duration = 0.75 }
+		}
+		if = {
+			limit = {
+				has_variable = targeted_sabotage_resources
+				check_variable = { targeted_sabotage_resources > 0 }
+			}
+
+			add_to_variable = { sabotaged_gold = -8 }
+			subtract_from_variable = { var = targeted_sabotage_resources value = 1 }
+		}
+		add_dynamic_modifier = {
+			modifier = sabotaged_resources
+			days = duration
+		}
+	}
+
+	alert_text = resource_is_sabotaged
+}
+sabotage_resource_ivory = {
+	available = {
+		has_resources_amount = {
+			resource = resource_ivory
+			amount > 0
+			delivered = yes
+		}
+	}
+
+	weight = {
+		base = 1
+		modifier = {
+			has_variable = targeted_sabotage_resources
+			check_variable = { targeted_sabotage_resources > 0 }
+			add = 4
+		}
+		modifier = {
+			occupation_law = forced_labor_occupation
+			add = -0.25
+		}
+	}
+
+	effect = {
+		clear_sabotaged_resources_if_necesary = yes
+		add_to_variable = { sabotaged_ivory = -12 }
+		set_temp_variable = { duration = 180 }
+		if = {
+			limit = { occupation_law = forced_labor_occupation }
+			multiply_temp_variable = { duration = 0.75 }
+		}
+		if = {
+			limit = {
+				has_variable = targeted_sabotage_resources
+				check_variable = { targeted_sabotage_resources > 0 }
+			}
+
+			add_to_variable = { sabotaged_ivory = -8 }
+			subtract_from_variable = { var = targeted_sabotage_resources value = 1 }
+		}
+		add_dynamic_modifier = {
+			modifier = sabotaged_resources
+			days = duration
+		}
+	}
+
+	alert_text = resource_is_sabotaged
+}
+sabotage_resource_jewelery = {
+	available = {
+		has_resources_amount = {
+			resource = resource_jewelery
+			amount > 0
+			delivered = yes
+		}
+	}
+
+	weight = {
+		base = 1
+		modifier = {
+			has_variable = targeted_sabotage_resources
+			check_variable = { targeted_sabotage_resources > 0 }
+			add = 4
+		}
+		modifier = {
+			occupation_law = forced_labor_occupation
+			add = -0.25
+		}
+	}
+
+	effect = {
+		clear_sabotaged_resources_if_necesary = yes
+		add_to_variable = { sabotaged_jewelery = -12 }
+		set_temp_variable = { duration = 180 }
+		if = {
+			limit = { occupation_law = forced_labor_occupation }
+			multiply_temp_variable = { duration = 0.75 }
+		}
+		if = {
+			limit = {
+				has_variable = targeted_sabotage_resources
+				check_variable = { targeted_sabotage_resources > 0 }
+			}
+
+			add_to_variable = { sabotaged_jewelery = -8 }
+			subtract_from_variable = { var = targeted_sabotage_resources value = 1 }
+		}
+		add_dynamic_modifier = {
+			modifier = sabotaged_resources
+			days = duration
+		}
+	}
+
+	alert_text = resource_is_sabotaged
+}
+sabotage_resource_iron = {
+	available = {
+		has_resources_amount = {
+			resource = resource_iron
+			amount > 0
+			delivered = yes
+		}
+	}
+
+	weight = {
+		base = 1
+		modifier = {
+			has_variable = targeted_sabotage_resources
+			check_variable = { targeted_sabotage_resources > 0 }
+			add = 4
+		}
+		modifier = {
+			occupation_law = forced_labor_occupation
+			add = -0.25
+		}
+	}
+
+	effect = {
+		clear_sabotaged_resources_if_necesary = yes
+		add_to_variable = { sabotaged_iron = -12 }
+		set_temp_variable = { duration = 180 }
+		if = {
+			limit = { occupation_law = forced_labor_occupation }
+			multiply_temp_variable = { duration = 0.75 }
+		}
+		if = {
+			limit = {
+				has_variable = targeted_sabotage_resources
+				check_variable = { targeted_sabotage_resources > 0 }
+			}
+
+			add_to_variable = { sabotaged_iron = -8 }
+			subtract_from_variable = { var = targeted_sabotage_resources value = 1 }
+		}
+		add_dynamic_modifier = {
+			modifier = sabotaged_resources
+			days = duration
+		}
+	}
+
+	alert_text = resource_is_sabotaged
+}
+sabotage_resource_coal = {
+	available = {
+		has_resources_amount = {
+			resource = resource_coal
+			amount > 0
+			delivered = yes
+		}
+	}
+
+	weight = {
+		base = 1
+		modifier = {
+			has_variable = targeted_sabotage_resources
+			check_variable = { targeted_sabotage_resources > 0 }
+			add = 4
+		}
+		modifier = {
+			occupation_law = forced_labor_occupation
+			add = -0.25
+		}
+	}
+
+	effect = {
+		clear_sabotaged_resources_if_necesary = yes
+		add_to_variable = { sabotaged_coal = -12 }
+		set_temp_variable = { duration = 180 }
+		if = {
+			limit = { occupation_law = forced_labor_occupation }
+			multiply_temp_variable = { duration = 0.75 }
+		}
+		if = {
+			limit = {
+				has_variable = targeted_sabotage_resources
+				check_variable = { targeted_sabotage_resources > 0 }
+			}
+
+			add_to_variable = { sabotaged_coal = -8 }
+			subtract_from_variable = { var = targeted_sabotage_resources value = 1 }
+		}
+		add_dynamic_modifier = {
+			modifier = sabotaged_resources
+			days = duration
+		}
+	}
+
+	alert_text = resource_is_sabotaged
+}
+sabotage_resource_steel = {
+	available = {
+		has_resources_amount = {
+			resource = resource_steel
+			amount > 0
+			delivered = yes
+		}
+	}
+
+	weight = {
+		base = 1
+		modifier = {
+			has_variable = targeted_sabotage_resources
+			check_variable = { targeted_sabotage_resources > 0 }
+			add = 4
+		}
+		modifier = {
+			occupation_law = forced_labor_occupation
+			add = -0.25
+		}
+	}
+
+	effect = {
+		clear_sabotaged_resources_if_necesary = yes
+		add_to_variable = { sabotaged_steel = -12 }
+		set_temp_variable = { duration = 180 }
+		if = {
+			limit = { occupation_law = forced_labor_occupation }
+			multiply_temp_variable = { duration = 0.75 }
+		}
+		if = {
+			limit = {
+				has_variable = targeted_sabotage_resources
+				check_variable = { targeted_sabotage_resources > 0 }
+			}
+
+			add_to_variable = { sabotaged_steel = -8 }
+			subtract_from_variable = { var = targeted_sabotage_resources value = 1 }
+		}
+		add_dynamic_modifier = {
+			modifier = sabotaged_resources
+			days = duration
+		}
+	}
+
+	alert_text = resource_is_sabotaged
+}
+sabotage_resource_oil = {
+	available = {
+		has_resources_amount = {
+			resource = resource_oil
+			amount > 0
+			delivered = yes
+		}
+	}
+
+	weight = {
+		base = 1
+		modifier = {
+			has_variable = targeted_sabotage_resources
+			check_variable = { targeted_sabotage_resources > 0 }
+			add = 4
+		}
+		modifier = {
+			occupation_law = forced_labor_occupation
+			add = -0.25
+		}
+	}
+
+	effect = {
+		clear_sabotaged_resources_if_necesary = yes
+		add_to_variable = { sabotaged_oil = -12 }
+		set_temp_variable = { duration = 180 }
+		if = {
+			limit = { occupation_law = forced_labor_occupation }
+			multiply_temp_variable = { duration = 0.75 }
+		}
+		if = {
+			limit = {
+				has_variable = targeted_sabotage_resources
+				check_variable = { targeted_sabotage_resources > 0 }
+			}
+
+			add_to_variable = { sabotaged_oil = -8 }
+			subtract_from_variable = { var = targeted_sabotage_resources value = 1 }
+		}
+		add_dynamic_modifier = {
+			modifier = sabotaged_resources
+			days = duration
+		}
+	}
+
+	alert_text = resource_is_sabotaged
+}
+sabotage_resource_rubber = {
+	available = {
+		has_resources_amount = {
+			resource = resource_rubber
+			amount > 0
+			delivered = yes
+		}
+	}
+
+	weight = {
+		base = 1
+		modifier = {
+			has_variable = targeted_sabotage_resources
+			check_variable = { targeted_sabotage_resources > 0 }
+			add = 4
+		}
+		modifier = {
+			occupation_law = forced_labor_occupation
+			add = -0.25
+		}
+	}
+
+	effect = {
+		clear_sabotaged_resources_if_necesary = yes
+		add_to_variable = { sabotaged_rubber = -12 }
+		set_temp_variable = { duration = 180 }
+		if = {
+			limit = { occupation_law = forced_labor_occupation }
+			multiply_temp_variable = { duration = 0.75 }
+		}
+		if = {
+			limit = {
+				has_variable = targeted_sabotage_resources
+				check_variable = { targeted_sabotage_resources > 0 }
+			}
+
+			add_to_variable = { sabotaged_rubber = -8 }
+			subtract_from_variable = { var = targeted_sabotage_resources value = 1 }
+		}
+		add_dynamic_modifier = {
+			modifier = sabotaged_resources
+			days = duration
+		}
+	}
+
+	alert_text = resource_is_sabotaged
+}
+sabotage_resource_electricity = {
+	available = {
+		has_resources_amount = {
+			resource = resource_electricity
+			amount > 0
+			delivered = yes
+		}
+	}
+
+	weight = {
+		base = 1
+		modifier = {
+			has_variable = targeted_sabotage_resources
+			check_variable = { targeted_sabotage_resources > 0 }
+			add = 4
+		}
+		modifier = {
+			occupation_law = forced_labor_occupation
+			add = -0.25
+		}
+	}
+
+	effect = {
+		clear_sabotaged_resources_if_necesary = yes
+		add_to_variable = { sabotaged_electricity = -12 }
+		set_temp_variable = { duration = 180 }
+		if = {
+			limit = { occupation_law = forced_labor_occupation }
+			multiply_temp_variable = { duration = 0.75 }
+		}
+		if = {
+			limit = {
+				has_variable = targeted_sabotage_resources
+				check_variable = { targeted_sabotage_resources > 0 }
+			}
+
+			add_to_variable = { sabotaged_electricity = -8 }
+			subtract_from_variable = { var = targeted_sabotage_resources value = 1 }
+		}
+		add_dynamic_modifier = {
+			modifier = sabotaged_resources
+			days = duration
+		}
+	}
+
+	alert_text = resource_is_sabotaged
+}
