@@ -1,0 +1,9 @@
+acw_has_started_scripted_trigger = {
+	has_global_flag = ACW_American_Civil_War_Happened
+}
+has_chosen_USA_side_in_acw_trigger = {
+	has_country_flag = ACW_Union_Alignment
+}
+has_chosen_CSA_side_in_acw_trigger = {
+	has_country_flag = ACW_Confederate_Alignment
+}

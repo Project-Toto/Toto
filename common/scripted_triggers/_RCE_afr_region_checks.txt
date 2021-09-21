@@ -199,12 +199,12 @@ afr_ber_check_if_owns_colonial_state={
 		AND = {
 			OR = {
 				any_owned_state = {
-					is_in_zanzabar = yes
+					is_in_zanzibar = yes
 				}
 				any_country ={
 					is_subject_of = PREV
 					any_owned_state = {
-						is_in_zanzabar = yes
+						is_in_zanzibar = yes
 					}
 				}
 			}
@@ -352,7 +352,7 @@ is_in_colonial_region = {
 		is_in_african_horn = yes
 		is_in_nambia = yes
 		is_in_rhodesia = yes
-		is_in_zanzabar = yes
+		is_in_zanzibar = yes
 		is_in_kenya = yes
 		is_in_uganda = yes
 		is_in_equatorial_africa = yes
@@ -468,7 +468,7 @@ CHI_is_in_china={
 		state = 618
 		state = 945
 	}
-	
+
 }
 
 afr_ber_check_if_already_colonised={

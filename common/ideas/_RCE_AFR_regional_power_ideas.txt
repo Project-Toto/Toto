@@ -25,7 +25,7 @@ ideas = {
 			allowed = {
 				always = yes
 			}
-			
+
 			allowed_civil_war = {
 				always = yes
 			}
@@ -45,7 +45,7 @@ ideas = {
 			allowed = {
 				always = yes
 			}
-			
+
 			allowed_civil_war = {
 				always = yes
 			}
@@ -65,7 +65,7 @@ ideas = {
 			allowed = {
 				always = yes
 			}
-			
+
 			allowed_civil_war = {
 				always = yes
 			}
@@ -94,9 +94,9 @@ ideas = {
 					always = no
 				}
 			}
-			
+
 			allowed = {
-				
+
 			}
 
 			#research_bonus = {
@@ -112,9 +112,9 @@ ideas = {
 					always = no
 				}
 			}
-			
+
 			allowed = {
-				
+
 			}
 
 			#research_bonus = {
@@ -130,9 +130,9 @@ ideas = {
 					always = no
 				}
 			}
-			
+
 			allowed = {
-				
+
 			}
 
 			#research_bonus = {
@@ -148,9 +148,9 @@ ideas = {
 					always = no
 				}
 			}
-			
+
 			allowed = {
-				
+
 			}
 
 			#research_bonus = {
@@ -166,9 +166,9 @@ ideas = {
 					always = no
 				}
 			}
-			
+
 			allowed = {
-				
+
 			}
 
 			#research_bonus = {
@@ -184,9 +184,9 @@ ideas = {
 					always = no
 				}
 			}
-			
+
 			allowed = {
-				
+
 			}
 
 			#research_bonus = {
@@ -202,9 +202,9 @@ ideas = {
 					always = no
 				}
 			}
-			
+
 			allowed = {
-				
+
 			}
 
 			#research_bonus = {
@@ -220,9 +220,9 @@ ideas = {
 					always = no
 				}
 			}
-			
+
 			allowed = {
-				
+
 			}
 
 			#research_bonus = {
@@ -238,9 +238,9 @@ ideas = {
 					always = no
 				}
 			}
-			
+
 			allowed = {
-				
+
 			}
 
 			#research_bonus = {
@@ -249,7 +249,7 @@ ideas = {
 
 			#traits = { afr_empire_politics_trait_theorist_warlord }
 		}
-		
+
 	}
 
 
@@ -266,9 +266,9 @@ ideas = {
 					always = no
 				}
 			}
-			
+
 			allowed = {
-				
+
 			}
 
 			research_bonus = {
@@ -284,9 +284,9 @@ ideas = {
 					always = no
 				}
 			}
-			
+
 			allowed = {
-				
+
 			}
 
 			research_bonus = {
@@ -302,9 +302,9 @@ ideas = {
 					always = no
 				}
 			}
-			
+
 			allowed = {
-				
+
 			}
 
 			research_bonus = {
@@ -313,7 +313,7 @@ ideas = {
 
 			traits = { afr_empire_politics_trait_theorist_warlord }
 		}
-		
+
 		afr_empire_politics_theorist_industrialist_1 = {
 
 			visible = {
@@ -321,9 +321,9 @@ ideas = {
 					always = no
 				}
 			}
-			
+
 			allowed = {
-				
+
 			}
 
 			research_bonus = {
@@ -339,9 +339,9 @@ ideas = {
 					always = no
 				}
 			}
-			
+
 			allowed = {
-				
+
 			}
 
 			research_bonus = {
@@ -357,9 +357,9 @@ ideas = {
 					always = no
 				}
 			}
-			
+
 			allowed = {
-				
+
 			}
 
 			research_bonus = {
@@ -368,7 +368,7 @@ ideas = {
 
 			traits = { afr_empire_politics_trait_theorist_industrialist }
 		}
-		
+
 		afr_empire_politics_theorist_elder_1 = {
 
 			visible = {
@@ -376,9 +376,9 @@ ideas = {
 					always = no
 				}
 			}
-			
+
 			allowed = {
-				
+
 			}
 
 			research_bonus = {
@@ -394,9 +394,9 @@ ideas = {
 					always = no
 				}
 			}
-			
+
 			allowed = {
-				
+
 			}
 
 			research_bonus = {
@@ -412,9 +412,9 @@ ideas = {
 					always = no
 				}
 			}
-			
+
 			allowed = {
-				
+
 			}
 
 			research_bonus = {
@@ -423,61 +423,61 @@ ideas = {
 
 			traits = { afr_empire_politics_trait_theorist_elder }
 		}
-		
+
 	}
-	
-	political_advisor = {
-		
+
+	court_advisor = {
+
 ################
 #########Priest#
 ################
 		afr_empire_politics_advisor_priest_1 = {
-			
+
 			visible = {
 				hidden_trigger = {
 					always = no
 				}
 			}
-			
+
 			allowed = {
 				#NOT = {
 				#	has_available_idea_with_traits = { idea = afr_empire_politics_trait_priest limit = 1 }
 				#}
-				
+
 			}
 			cancel_if_invalid = no
 			traits = { afr_empire_politics_trait_priest }
 		}
 		afr_empire_politics_advisor_priest_2 = {
-			
+
 			visible = {
 				hidden_trigger = {
 					always = no
 				}
 			}
-			
+
 			allowed = {
 				#NOT = {
 				#	has_available_idea_with_traits = { idea = afr_empire_politics_trait_priest limit = 1 }
 				#}
-				
+
 			}
 			cancel_if_invalid = no
 			traits = { afr_empire_politics_trait_priest }
 		}
 		afr_empire_politics_advisor_priest_3 = {
-			
+
 			visible = {
 				hidden_trigger = {
 					always = no
 				}
 			}
-			
+
 			allowed = {
 				#NOT = {
 				#	has_available_idea_with_traits = { idea = afr_empire_politics_trait_priest limit = 1 }
 				#}
-				
+
 			}
 			cancel_if_invalid = no
 			traits = { afr_empire_politics_trait_priest }
@@ -486,52 +486,52 @@ ideas = {
 #########Priest#
 ################
 		afr_empire_politics_advisor_shaman_1 = {
-			
+
 			visible = {
 				hidden_trigger = {
 					always = no
 				}
 			}
-			
+
 			allowed = {
 				#NOT = {
 				#	has_available_idea_with_traits = { idea = afr_empire_politics_trait_shaman limit = 1 }
 				#}
-				
+
 			}
 			cancel_if_invalid = no
 			traits = { afr_empire_politics_trait_shaman }
 		}
 		afr_empire_politics_advisor_shaman_2 = {
-			
+
 			visible = {
 				hidden_trigger = {
 					always = no
 				}
 			}
-			
+
 			allowed = {
 				#NOT = {
 				#	has_available_idea_with_traits = { idea = afr_empire_politics_trait_shaman limit = 1 }
 				#}
-				
+
 			}
 			cancel_if_invalid = no
 			traits = { afr_empire_politics_trait_shaman }
 		}
 		afr_empire_politics_advisor_shaman_3 = {
-			
+
 			visible = {
 				hidden_trigger = {
 					always = no
 				}
 			}
-			
+
 			allowed = {
 				#NOT = {
 				#	has_available_idea_with_traits = { idea = afr_empire_politics_trait_shaman limit = 1 }
 				#}
-				
+
 			}
 			cancel_if_invalid = no
 			traits = { afr_empire_politics_trait_shaman }
@@ -546,12 +546,12 @@ ideas = {
 					always = no
 				}
 			}
-			
+
 			allowed = {
 				#NOT = {
 				#	has_available_idea_with_traits = { idea = afr_empire_politics_trait_warlord limit = 1 }
 				#}
-				
+
 			}
 			cancel_if_invalid = no
 			traits = { afr_empire_politics_trait_warlord }
@@ -563,12 +563,12 @@ ideas = {
 					always = no
 				}
 			}
-			
+
 			allowed = {
 				#NOT = {
 				#	has_available_idea_with_traits = { idea = afr_empire_politics_trait_warlord limit = 1 }
 				#}
-				
+
 			}
 			cancel_if_invalid = no
 			traits = { afr_empire_politics_trait_warlord }
@@ -580,12 +580,12 @@ ideas = {
 					always = no
 				}
 			}
-			
+
 			allowed = {
 				#NOT = {
 				#	has_available_idea_with_traits = { idea = afr_empire_politics_trait_warlord limit = 1 }
 				#}
-				
+
 			}
 			cancel_if_invalid = no
 			traits = { afr_empire_politics_trait_warlord }
@@ -600,12 +600,12 @@ ideas = {
 					always = no
 				}
 			}
-			
+
 			allowed = {
 				#NOT = {
 				#	has_available_idea_with_traits = { idea = afr_empire_politics_trait_noble limit = 1 }
 				#}
-				
+
 			}
 			cancel_if_invalid = no
 			traits = { afr_empire_politics_trait_noble }
@@ -617,12 +617,12 @@ ideas = {
 					always = no
 				}
 			}
-			
+
 			allowed = {
 				#NOT = {
 				#	has_available_idea_with_traits = { idea = afr_empire_politics_trait_noble limit = 1 }
 				#}
-				
+
 			}
 			cancel_if_invalid = no
 			traits = { afr_empire_politics_trait_noble }
@@ -634,12 +634,12 @@ ideas = {
 					always = no
 				}
 			}
-			
+
 			allowed = {
 				#NOT = {
 				#	has_available_idea_with_traits = { idea = afr_empire_politics_trait_noble limit = 1 }
 				#}
-				
+
 			}
 			cancel_if_invalid = no
 			traits = { afr_empire_politics_trait_noble }
@@ -654,12 +654,12 @@ ideas = {
 					always = no
 				}
 			}
-			
+
 			allowed = {
 				#NOT = {
 				#	has_available_idea_with_traits = { idea = afr_empire_politics_trait_merchant limit = 1 }
 				#}
-				
+
 			}
 			cancel_if_invalid = no
 			traits = { afr_empire_politics_trait_merchant afr_empire_politics_trait_inventor }
@@ -671,12 +671,12 @@ ideas = {
 					always = no
 				}
 			}
-			
+
 			allowed = {
 				#NOT = {
 				#	has_available_idea_with_traits = { idea = afr_empire_politics_trait_merchant limit = 1 }
 				#}
-				
+
 			}
 			cancel_if_invalid = no
 			traits = { afr_empire_politics_trait_merchant }
@@ -688,12 +688,12 @@ ideas = {
 					always = no
 				}
 			}
-			
+
 			allowed = {
 				#NOT = {
 				#	has_available_idea_with_traits = { idea = afr_empire_politics_trait_merchant limit = 1 }
 				#}
-				
+
 			}
 			cancel_if_invalid = no
 			traits = { afr_empire_politics_trait_merchant }
@@ -708,12 +708,12 @@ ideas = {
 					always = no
 				}
 			}
-			
+
 			allowed = {
 				#NOT = {
 				#	has_available_idea_with_traits = { idea = afr_empire_politics_trait_jihadist limit = 1 }
 				#}
-				
+
 			}
 			cancel_if_invalid = no
 			traits = { afr_empire_politics_trait_jihadist }
@@ -725,12 +725,12 @@ ideas = {
 					always = no
 				}
 			}
-			
+
 			allowed = {
 				#NOT = {
 				#	has_available_idea_with_traits = { idea = afr_empire_politics_trait_jihadist limit = 1 }
 				#}
-				
+
 			}
 			cancel_if_invalid = no
 			traits = { afr_empire_politics_trait_jihadist }
@@ -742,12 +742,12 @@ ideas = {
 					always = no
 				}
 			}
-			
+
 			allowed = {
 				#NOT = {
 				#	has_available_idea_with_traits = { idea = afr_empire_politics_trait_jihadist limit = 1 }
 				#}
-				
+
 			}
 			cancel_if_invalid = no
 			traits = { afr_empire_politics_trait_jihadist }
@@ -762,12 +762,12 @@ ideas = {
 					always = no
 				}
 			}
-			
+
 			allowed = {
 				#NOT = {
 				#	has_available_idea_with_traits = { idea = afr_empire_politics_trait_dawah limit = 1 }
 				#}
-				
+
 			}
 			cancel_if_invalid = no
 			traits = { afr_empire_politics_trait_dawah }
@@ -779,12 +779,12 @@ ideas = {
 					always = no
 				}
 			}
-			
+
 			allowed = {
 				#NOT = {
 				#	has_available_idea_with_traits = { idea = afr_empire_politics_trait_dawah limit = 1 }
 				#}
-				
+
 			}
 			cancel_if_invalid = no
 			traits = { afr_empire_politics_trait_dawah }
@@ -796,12 +796,12 @@ ideas = {
 					always = no
 				}
 			}
-			
+
 			allowed = {
 				#NOT = {
 				#	has_available_idea_with_traits = { idea = afr_empire_politics_trait_dawah limit = 1 }
 				#}
-				
+
 			}
 			cancel_if_invalid = no
 			traits = { afr_empire_politics_trait_dawah }
@@ -834,11 +834,11 @@ ideas = {
 			allowed_civil_war = {
 				always = yes
 			}
-			
+
 			removal_cost = -1
 
 			picture = chi_war_of_resistance3
-			
+
 			modifier = {
 				subjects_autonomy_gain = 1
 				stability_factor = -0.07
@@ -857,7 +857,7 @@ ideas = {
 			removal_cost = -1
 
 			picture = generic_intel_bonus
-			
+
 			modifier = {
 				max_planning = -0.10
 				army_morale_factor = -0.05

@@ -1,0 +1,95 @@
+store_current_ideologies = {
+	hidden_effect={
+		set_variable = { var_stored_reformism_val = party_popularity@reformism}
+		multiply_variable = { var_stored_reformism_val = 100}
+		set_variable = { var_stored_traditionalism_val = party_popularity@traditionalism}
+		multiply_variable = { var_stored_traditionalism_val = 100}
+		set_variable = { var_stored_imperialism_val = party_popularity@imperialism}
+		multiply_variable = { var_stored_imperialism_val = 100}
+		set_variable = { var_stored_fundamentalism_val = party_popularity@fundamentalism}
+		multiply_variable = { var_stored_fundamentalism_val = 100}
+
+		if = {
+			limit = {
+				has_government = reformism
+			}
+			set_variable = { var_stored_current_party_ideology_group = 1 }
+		}
+		else_if = {
+			limit = {
+				has_government = traditionalism
+			}
+			set_variable = { var_stored_current_party_ideology_group = 2 }
+		}
+		else_if = {
+			limit = {
+				has_government = imperialism
+			}
+			set_variable = {var_stored_current_party_ideology_group = 3 }
+		}
+		else = {
+			# limit = {
+			# 	has_government = fundamentalism
+			# }
+			set_variable = {var_stored_current_party_ideology_group = 4 }
+		}
+	}
+}
+load_previous_ideologies = {
+	hidden_effect = {
+		set_variable = { var_stored_count_var = var_stored_reformism_val }
+		add_to_variable = { var_stored_count_var = var_stored_traditionalism_val }
+		add_to_variable = { var_stored_count_var = var_stored_imperialism_val }
+		add_to_variable = { var_stored_count_var = var_stored_fundamentalism_val }
+		
+		set_variable = {PDX_popularity_fuck_ups_fixer = 100}
+		subtract_from_variable = { PDX_popularity_fuck_ups_fixer = var_stored_count_var }
+		if = {
+			limit = {
+				check_variable = { var_stored_current_party_ideology_group = 1 }
+			}
+			set_politics = {
+				ruling_party = reformism
+			}
+			add_to_variable = { var_stored_reformism_val = PDX_popularity_fuck_ups_fixer }
+		}
+		else_if = {
+			limit = {
+				check_variable = { var_stored_current_party_ideology_group = 2 }
+			}
+			set_politics = {
+				ruling_party = traditionalism
+			}
+			add_to_variable = { var_stored_traditionalism_val = PDX_popularity_fuck_ups_fixer }
+		else_if={
+			limit={
+				check_variable = {var_stored_current_party_ideology_group = 3 }
+			}
+			set_politics = {
+				ruling_party = imperialism
+			}
+			add_to_variable = { var_stored_imperialism_val = PDX_popularity_fuck_ups_fixer }
+		}
+		else = {
+			# limit={
+			# 	check_variable = {var_stored_current_party_ideology_group = 4 }
+			# }
+			set_politics = {
+				ruling_party = fundamentalism
+			}
+			add_to_variable = { var_stored_fundamentalism_val = PDX_popularity_fuck_ups_fixer }
+		}
+		
+		set_popularities = {
+			reformism = var:var_stored_reformism_val
+			traditionalism = var:var_stored_traditionalism_val
+			imperialism = var:var_stored_imperialism_val
+			fundamentalism = var:var_stored_fundamentalism_val
+		}
+		
+		clear_variable = var_stored_reformism_val
+		clear_variable = var_stored_traditionalism_val
+		clear_variable = var_stored_imperialism_val
+		clear_variable = var_stored_fundamentalism_val
+	}
+}

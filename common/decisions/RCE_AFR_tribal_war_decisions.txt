@@ -426,7 +426,7 @@ tribal_decisions_eoanb = {
 				check_variable = { afr_prosperity_mechanic_value < 45 }
 				if = {
 					limit = {
-						all_owned_state = { naval_base < 1 }
+						all_owned_state = { building_port < 1 }
 					}
 					custom_trigger_tooltip = {
 						tooltip = Ocenaia_has_infrastructure_to_support_new_buildings_on_coast
@@ -436,7 +436,7 @@ tribal_decisions_eoanb = {
 				else = {
 					any_owned_state = {
 						is_coastal = yes
-						naval_base > 0
+						building_port > 0
 					}
 				}
 				OR = {
@@ -670,7 +670,7 @@ tribal_decisions_eoanb = {
 				check_variable = { afr_prosperity_mechanic_value < 45 }
 				if = {
 					limit = {
-						all_owned_state = { naval_base < 1 }
+						all_owned_state = { building_port < 1 }
 					}
 					custom_trigger_tooltip = {
 						tooltip = Ocenaia_has_infrastructure_to_support_new_buildings_on_coast
@@ -680,7 +680,7 @@ tribal_decisions_eoanb = {
 				else = {
 					any_owned_state = {
 						is_coastal = yes
-						naval_base > 0
+						building_port > 0
 					}
 				}
 				OR = {
@@ -942,7 +942,7 @@ tribal_decisions_eoanb = {
 				check_variable = { afr_prosperity_mechanic_value < 45 }
 				if = {
 					limit = {
-						all_owned_state = { naval_base < 1 }
+						all_owned_state = { building_port < 1 }
 					}
 					custom_trigger_tooltip = {
 						tooltip = Ocenaia_has_infrastructure_to_support_new_buildings_on_coast
@@ -952,7 +952,7 @@ tribal_decisions_eoanb = {
 				else = {
 					any_owned_state = {
 						is_coastal = yes
-						naval_base > 0
+						building_port > 0
 					}
 				}
 				OR = {
@@ -984,7 +984,6 @@ tribal_decisions_eoanb = {
 				is_first_nations_tribe_allowed = yes
 				is_south_american_tribe_allowed = yes
 			}
-			has_idea = AF_T_Tribal_Army
 		}
 		visible = {
 			if = {
@@ -1063,7 +1062,6 @@ tribal_decisions_eoanb = {
 				is_first_nations_tribe_allowed = yes
 				is_south_american_tribe_allowed = yes
 			}
-			has_idea = AF_T_Tribal_Army
 		}
 		visible = {
 			if = {
@@ -1151,7 +1149,6 @@ tribal_decisions_eoanb = {
 				is_first_nations_tribe_allowed = yes
 				is_south_american_tribe_allowed = yes
 			}
-			has_idea = AF_T_Tribal_Army
 		}
 		visible = {
 			OR = {
@@ -1234,7 +1231,6 @@ tribal_decisions_eoanb = {
 				is_first_nations_tribe_allowed = yes
 				is_south_american_tribe_allowed = yes
 			}
-			has_idea = AF_T_Tribal_Army
 		}
 		visible = {
 			OR = {
@@ -1330,7 +1326,6 @@ tribal_decisions_eoanb = {
 				is_first_nations_tribe_allowed = yes
 				is_south_american_tribe_allowed = yes
 			}
-			has_idea = AF_T_Tribal_Army
 		}
 		visible = {
 			if = {
@@ -1589,7 +1584,6 @@ tribal_decisions_eoanb = {
 				is_first_nations_tribe_allowed = yes
 				is_south_american_tribe_allowed = yes
 			}
-			has_idea = AF_T_Tribal_Army
 		}
 		visible = {
 			if = {
@@ -2534,13 +2528,13 @@ eoanb_category_politics_foreign={
 			FROM={
 				OR={
 					tag = HOL
-					tag = PRS
+					# tag = PRS
 					tag = GER
 					tag = POR
 					tag = USA
-					AND={
+					AND = {
 						tag = BRA
-						BRA = {any_owned_state={is_in_colonial_region = yes}}
+						BRA = { any_owned_state = { is_in_colonial_region = yes } }
 					}
 				}
 				exists = yes
@@ -2714,7 +2708,7 @@ afr_rrp_african_expeditions={
 								ROOT={tag = ZAN}
 								ROOT={tag = OMA}
 							}
-							is_in_zanzabar = yes
+							is_in_zanzibar = yes
 						}
 					}
 					OR={
@@ -2897,7 +2891,7 @@ afr_rrp_african_expeditions={
 			has_manpower > 1999
 			OMA={has_completed_focus= oma_vic_ZAN_expansion}
 		}
-		visible={AFR = {exists = yes}}
+		visible={TES = {exists = yes}}
 		complete_effect = {
 			add_manpower = -2000
 		}
@@ -2924,7 +2918,7 @@ afr_rrp_african_expeditions={
 			has_manpower > 1999
 			OMA={has_completed_focus= oma_vic_KEN_expeditions}
 		}
-		visible={AFR = {exists = yes}}
+		visible={TES = {exists = yes}}
 		complete_effect = {
 			add_manpower = -2000
 		}

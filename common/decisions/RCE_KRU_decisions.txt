@@ -66,7 +66,7 @@ KRU_Request_Gov_Road_Investment_1 = {
 			if={
 				limit = {
 					free_building_slots = {
-						building = logging_camp
+						building = building_logging
 						size > 0
 					}
 					OR = {
@@ -75,7 +75,7 @@ KRU_Request_Gov_Road_Investment_1 = {
 							owner = {
 								any_owned_state = {
 									free_building_slots = {
-										building = logging_camp
+										building = building_logging
 										size > 0
 									}
 									is_in_home_area = yes
@@ -85,7 +85,7 @@ KRU_Request_Gov_Road_Investment_1 = {
 					}
 				}
 				add_building_construction = {
-					type = logging_camp
+					type = building_logging
 					level = 1
 					instant_build = yes
 				}
@@ -127,7 +127,7 @@ KRU_Request_Gov_Road_Investment_2 = {
 			if={
 				limit = {
 					free_building_slots = {
-						building = logging_camp
+						building = building_logging
 						size > 0
 					}
 					OR = {
@@ -136,7 +136,7 @@ KRU_Request_Gov_Road_Investment_2 = {
 							owner = {
 								any_owned_state = {
 									free_building_slots = {
-										building = logging_camp
+										building = building_logging
 										size > 0
 									}
 									is_in_home_area = yes
@@ -146,7 +146,7 @@ KRU_Request_Gov_Road_Investment_2 = {
 					}
 				}
 				add_building_construction = {
-					type = logging_camp
+					type = building_logging
 					level = 1
 					instant_build = yes
 				}
@@ -188,7 +188,7 @@ KRU_Request_Gov_Road_Investment_3 = {
 			if={
 				limit = {
 					free_building_slots = {
-						building = logging_camp
+						building = building_logging
 						size > 0
 					}
 					OR = {
@@ -197,7 +197,7 @@ KRU_Request_Gov_Road_Investment_3 = {
 							owner = {
 								any_owned_state = {
 									free_building_slots = {
-										building = logging_camp
+										building = building_logging
 										size > 0
 									}
 									is_in_home_area = yes
@@ -207,7 +207,7 @@ KRU_Request_Gov_Road_Investment_3 = {
 					}
 				}
 				add_building_construction = {
-					type = logging_camp
+					type = building_logging
 					level = 1
 					instant_build = yes
 				}
@@ -249,7 +249,7 @@ KRU_Request_Gov_Road_Investment_4 = {
 			if={
 				limit = {
 					free_building_slots = {
-						building = logging_camp
+						building = building_logging
 						size > 0
 					}
 					OR = {
@@ -258,7 +258,7 @@ KRU_Request_Gov_Road_Investment_4 = {
 							owner = {
 								any_owned_state = {
 									free_building_slots = {
-										building = logging_camp
+										building = building_logging
 										size > 0
 									}
 									is_in_home_area = yes
@@ -268,7 +268,7 @@ KRU_Request_Gov_Road_Investment_4 = {
 					}
 				}
 				add_building_construction = {
-					type = logging_camp
+					type = building_logging
 					level = 1
 					instant_build = yes
 				}
@@ -310,7 +310,7 @@ KRU_Request_Gov_Road_Investment_5 = {
 			if={
 				limit = {
 					free_building_slots = {
-						building = logging_camp
+						building = building_logging
 						size > 0
 					}
 					OR = {
@@ -319,7 +319,7 @@ KRU_Request_Gov_Road_Investment_5 = {
 							owner = {
 								any_owned_state = {
 									free_building_slots = {
-										building = logging_camp
+										building = building_logging
 										size > 0
 									}
 									is_in_home_area = yes
@@ -329,7 +329,7 @@ KRU_Request_Gov_Road_Investment_5 = {
 					}
 				}
 				add_building_construction = {
-					type = logging_camp
+					type = building_logging
 					level = 1
 					instant_build = yes
 				}
@@ -387,7 +387,7 @@ KRU_Seek_Plantation_Company  = {
 			if={
 				limit = {
 					free_building_slots = {
-						building = cotton_farm
+						building = building_cotton
 						size > 0
 					}
 					OR = {
@@ -396,7 +396,7 @@ KRU_Seek_Plantation_Company  = {
 							owner = {
 								any_owned_state = {
 									free_building_slots = {
-										building = cotton_farm
+										building = building_cotton
 										size > 0
 									}
 									is_in_home_area = yes
@@ -406,7 +406,7 @@ KRU_Seek_Plantation_Company  = {
 					}
 				}
 				add_building_construction = {
-					type = cotton_farm
+					type = building_cotton
 					level = 1
 					instant_build = yes
 				}
@@ -471,7 +471,7 @@ KRU_US_Gov_Port_Investment = {
 			if={
 				limit = {
 					free_building_slots = {
-						building = naval_base
+						building = building_port
 						size > 0
 					}
 					OR = {
@@ -480,7 +480,7 @@ KRU_US_Gov_Port_Investment = {
 							owner = {
 								any_owned_state = {
 									free_building_slots = {
-										building = naval_base
+										building = building_port
 										size > 0
 									}
 									is_in_home_area = yes
@@ -490,7 +490,7 @@ KRU_US_Gov_Port_Investment = {
 					}
 				}
 				add_building_construction = {
-					type = naval_base
+					type = building_port
 					level = 1
 					instant_build = yes
 				}
@@ -506,13 +506,13 @@ KRU_Seek_Textile_Company  = {
     available = {
 		has_stability > 0.7
 		has_idea =  AF_T_small_scale_railways
-		cotton_farm > 1
+		building_cotton > 1
 		num_of_civilian_factories_available_for_projects > 1
 		298 = {
 			infrastructure > 3
 		}
 		298 = {
-			naval_base > 2
+			building_port > 2
 		}
     }
 
@@ -548,7 +548,7 @@ KRU_Seek_Textile_Company  = {
 			if={
 				limit = {
 					free_building_slots = {
-						building = fabric_weavery
+						building = building_weavery
 						size > 0
 					}
 					OR = {
@@ -557,7 +557,7 @@ KRU_Seek_Textile_Company  = {
 							owner = {
 								any_owned_state = {
 									free_building_slots = {
-										building = fabric_weavery
+										building = building_weavery
 										size > 0
 									}
 									is_in_home_area = yes
@@ -567,7 +567,7 @@ KRU_Seek_Textile_Company  = {
 					}
 				}
 				add_building_construction = {
-					type = fabric_weavery
+					type = building_weavery
 					level = 1
 					instant_build = yes
 				}

@@ -1,4 +1,4 @@
-﻿add_namespace = EDC_kongo
+add_namespace = EDC_kongo
 add_namespace = EDC_zulu
 #####Kongo
 country_event = {###POR - Pedro's play
@@ -89,18 +89,12 @@ country_event = {###KON - Pedro's play
 		}
 		hidden_effect={
 			set_politics = {
-				  ruling_party = autocracy
+				  ruling_party = imperialism
 			}
 			set_popularities = {
-				anarchism = 0
-				vanguard_communism = 0
-				collectivist_socialism = 0
-				social_egalitarianism = 0
-				centrism = 0
-				traditional_conservatism = 0
-				radical_democracy = 0
-				chauvinist_populism = 0
-				autocracy = 100
+				reformism = 0
+				traditionalism = 0
+				imperialism = 100
 				fundamentalism = 0
 			}
 		}
@@ -272,7 +266,7 @@ country_event = {###anglo-zulu war finish
 				puppet = ROOT
 			}
 		}
-		load_prevous_ideologies = yes
+		load_previous_ideologies = yes
 		SAF={clr_country_flag = anglo-zulu_war}
 		ENG={
 			country_event={id=EDC_zulu.6}

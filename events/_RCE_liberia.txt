@@ -71,11 +71,11 @@ country_event = {
 			}
 			hidden_effect = {
 				LIB = {
-					if = { 
+					if = {
 						limit = { owns_state = 1347 }
 						start_civil_war = {
-							ruling_party = centrism
-							ideology = traditional_conservatism
+							ruling_party = reformism
+							ideology = traditionalism
 							size = 0.25
 							capital = 1346
 							states = { 1347 }
@@ -83,8 +83,8 @@ country_event = {
 					}
 					else = {
 						start_civil_war = {
-							ruling_party = centrism
-							ideology = traditional_conservatism
+							ruling_party = reformism
+							ideology = traditionalism
 							size = 0.25
 							capital = 1346
 						}
@@ -107,11 +107,11 @@ country_event = {
 			}
 			hidden_effect = {
 				LIB = {
-					if = { 
+					if = {
 						limit = { owns_state = 1347 }
 						start_civil_war = {
-							ruling_party = centrism
-							ideology = traditional_conservatism
+							ruling_party = reformism
+							ideology = traditionalism
 							size = 0.4
 							capital = 1346
 							states = { 1347 }
@@ -119,8 +119,8 @@ country_event = {
 					}
 					else = {
 						start_civil_war = {
-							ruling_party = centrism
-							ideology = traditional_conservatism
+							ruling_party = reformism
+							ideology = traditionalism
 							size = 0.4
 							capital = 1346
 						}
@@ -138,11 +138,11 @@ country_event = {
 			}
 			hidden_effect = {
 				LIB = {
-					if = { 
+					if = {
 						limit = { owns_state = 1347 }
 						start_civil_war = {
-							ruling_party = centrism
-							ideology = traditional_conservatism
+							ruling_party = reformism
+							ideology = traditionalism
 							size = 0.6
 							capital = 1346
 							states = { 1347 }
@@ -150,8 +150,8 @@ country_event = {
 					}
 					else = {
 						start_civil_war = {
-							ruling_party = centrism
-							ideology = traditional_conservatism
+							ruling_party = reformism
+							ideology = traditionalism
 							size = 0.6
 							capital = 1346
 						}
@@ -235,11 +235,11 @@ country_event = {
 
 	option = {
 		name = LIB_it_was_unavoidable.4.a
-		ai_chance = { 
-			factor = 10 
+		ai_chance = {
+			factor = 10
 			modifier = {
 				factor = 3
-				has_government = centrism
+				has_government = reformism
 			}
 			modifier = {
 				factor = 4
@@ -252,10 +252,10 @@ country_event = {
 		}
 		trigger = {
 			OR = {
-				has_government = traditional_conservatism
+				has_government = traditionalism
 				has_government = radical_democracy
-				has_government = autocracy
-				has_government = centrism
+				has_government = imperialism
+				has_government = reformism
 				has_government = chauvinist_populism
 				has_government = fundamentalism
 			}
@@ -265,11 +265,11 @@ country_event = {
 
 	option = {
 		name = LIB_it_was_unavoidable.4.b
-		ai_chance = { 
-			factor = 10 
+		ai_chance = {
+			factor = 10
 			modifier = {
 				factor = 7
-				has_government = centrism
+				has_government = reformism
 			}
 			modifier = {
 				factor = 6
@@ -282,7 +282,7 @@ country_event = {
 		}
 		trigger = {
 			OR = {
-				has_government = centrism
+				has_government = reformism
 				has_government = chauvinist_populism
 				has_government = fundamentalism
 			}
@@ -1009,7 +1009,7 @@ country_event = {
 		if = {
 				limit = {
 					KRU = {
-						has_government = autocracy
+						has_government = imperialism
 					}
 				}
 					create_country_leader = {
@@ -1344,17 +1344,17 @@ country_event = {
 			add_ideas = KRU_underground_kru_resistance
 			hidden_effect = {
 				set_party_name = {
-					ideology = centrism
+					ideology = reformism
 					long_name = AFR_party_republican
 					name = AFR_party_republican
 				}
 				set_party_name = {
-					ideology = traditional_conservatism
+					ideology = traditionalism
 					long_name = AFR_party_democratic
 					name = AFR_party_democratic
 				}
 				set_party_name = {
-					ideology = autocracy
+					ideology = imperialism
 					long_name = AFR_party_monarch
 					name = AFR_party_monarch
 				}
@@ -2364,17 +2364,17 @@ country_event = {
 			add_ideas = KRU_underground_kru_resistance
 			hidden_effect = {
 				set_party_name = {
-					ideology = centrism
+					ideology = reformism
 					long_name = AFR_party_republican
 					name = AFR_party_republican
 				}
 				set_party_name = {
-					ideology = traditional_conservatism
+					ideology = traditionalism
 					long_name = AFR_party_democratic
 					name = AFR_party_democratic
 				}
 				set_party_name = {
-					ideology = autocracy
+					ideology = imperialism
 					long_name = AFR_party_monarch
 					name = AFR_party_monarch
 				}
@@ -3518,7 +3518,7 @@ country_event = {
 		hidden_effect = {
 			complete_national_focus = LIB_adopt_strong_ACS_policies
 			add_popularity = { ideology = chauvinist_populism popularity = 0.05 }
-			add_popularity = { ideology = centrism popularity = -0.05 }
+			add_popularity = { ideology = reformism popularity = -0.05 }
 			add_popularity = { ideology = social_egalitarianism popularity = 0.05 }
 		}
 	}
@@ -3541,7 +3541,7 @@ country_event = {
 		custom_effect_tooltip = LIB_liberia_36_event_tooltip_b
 		hidden_effect = {
 			complete_national_focus = LIB_president_bensons_reforms
-			add_popularity = { ideology = centrism popularity = 0.05 }
+			add_popularity = { ideology = reformism popularity = 0.05 }
 		}
 	}
 
@@ -3558,7 +3558,7 @@ country_event = {
 		custom_effect_tooltip = LIB_liberia_36_event_tooltip_c
 		hidden_effect = {
 			complete_national_focus = LIB_status_quo
-			add_popularity = { ideology = traditional_conservatism popularity = 0.05 }
+			add_popularity = { ideology = traditionalism popularity = 0.05 }
 		}
 	}
 

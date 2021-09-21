@@ -223,8 +223,6 @@ afr_rrp_foreign_diplomacy = {
 					has_country_flag = ETH_ENG_Merchants
 					has_country_flag = ETH_FRA_Merchants
 					has_country_flag = ETH_PRS_Merchants
-					has_country_flag = ETH_HAM_Merchants
-					has_country_flag = ETH_BRE_Merchants
 				}	
 			}
 		}

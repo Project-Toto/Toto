@@ -4212,7 +4212,7 @@ technologies = {
 		#
 		on_research_complete = {
 			modify_building_resources = {
-				building = cotton_farm
+				building = building_cotton
 				resource = cotton
 				amount = 2
 			}
@@ -4470,11 +4470,11 @@ technologies = {
 		production_factory_efficiency_gain_factor = 0.02
 
 		enable_building = {
-			building = farm
+			building =building_farm
 			level = 8
 		}
 		enable_building = {
-			building = cotton_farm
+			building = building_cotton
 			level = 8
 		}
 
@@ -4543,11 +4543,11 @@ technologies = {
 		consumer_goods_factor = -0.01
 
 		enable_building = {
-			building = farm
+			building =building_farm
 			level = 10
 		}
 		enable_building = {
-			building = cotton_farm
+			building = building_cotton
 			level = 10
 		}
 
@@ -5102,7 +5102,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = farming_drones
+			leads_to_tech =building_farming_drones
 			research_cost_coeff = 1
 		}
 		path = {

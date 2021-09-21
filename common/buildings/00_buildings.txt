@@ -38,7 +38,7 @@ buildings = {
 		shares_slots = yes
 		value = 4
 		infrastructure_construction_effect = yes
-		
+
 		military_production = 1
 	}
 
@@ -53,7 +53,7 @@ buildings = {
 		shares_slots = yes
 		value = 4
 		infrastructure_construction_effect = yes
-		
+
 		naval_production = 1
 	}
 
@@ -79,31 +79,31 @@ buildings = {
 	# 	value = 1
 	# }
 
-	# naval_base = {
-	# 	show_on_map = 1
-	# 	show_on_map_meshes = 3
-	# 	always_shown = yes
-	# 	base_cost = 5000
-	# 	provincial = yes
-	# 	only_costal = yes
-	# 	is_port = yes
-	# 	icon_frame = 6
-	# 	max_level = 25
-	# 	value = 1
-	# }
+	building_port = {
+		show_on_map = 1
+		show_on_map_meshes = 3
+		always_shown = yes
+		base_cost = 5000
+		provincial = yes
+		only_costal = yes
+		is_port = yes
+		icon_frame = 6
+		max_level = 25
+		value = 1
+	}
 
-	# bunker = {
-	# 	show_on_map = 1
-	# 	has_destroyed_mesh = yes
-	# 	base_cost = 750
-	# 	per_level_extra_cost = 750
-	# 	provincial = yes
-	# 	disabled_in_dmz = yes
-	# 	icon_frame = 7
-	# 	land_fort = 1
-	# 	max_level = 25
-	# 	value = 1
-	# }
+	bunker = {
+		show_on_map = 1
+		has_destroyed_mesh = yes
+		base_cost = 750
+		per_level_extra_cost = 750
+		provincial = yes
+		disabled_in_dmz = yes
+		icon_frame = 7
+		land_fort = 1
+		max_level = 25
+		value = 1
+	}
 
 	# coastal_bunker = {
 	# 	show_on_map = 1
@@ -142,11 +142,11 @@ buildings = {
 	# 	shares_slots = yes
 	# 	value = 6
 	# 	infrastructure_construction_effect = yes
-		
+
 	# 	show_modifier = yes
 	# 	fuel_gain_from_states = 1.0
 	# }
-	
+
 	# synthetic_refinery_rubber = {
 	# 	show_on_map = 0
 	# 	base_cost = 20000
@@ -158,7 +158,7 @@ buildings = {
 	# 	value = 4
 	# 	infrastructure_construction_effect = yes
 	# }
-	
+
 	# fuel_silo_industrial = {
 	# 	show_on_map = 0
 	# 	base_cost = 15000
@@ -168,7 +168,7 @@ buildings = {
 	# 	infrastructure_construction_effect = yes
 	# 	fuel_silo = yes
 	# 	max_level = 50
-		
+
 	# 	show_modifier = yes
 	# 	max_fuel_building = 50.0
 	# }
@@ -182,7 +182,7 @@ buildings = {
 	# 	infrastructure_construction_effect = yes
 	# 	fuel_silo = yes
 	# 	max_level = 50
-		
+
 	# 	show_modifier = yes
 	# 	max_fuel_building = 100.0
 	# }
@@ -197,41 +197,41 @@ buildings = {
 	# 	value = 3
 	# }
 
-	# coal_mine = {
-	# 	show_on_map = 0
-	# 	base_cost = 8000
-	# 	icon_frame = 14
-	# 	local_resources_coal = 4
-	# 	max_level = 8
-	# 	shares_slots = yes
-	# 	value = 3
-	# 	infrastructure_construction_effect = yes
-	# 	#available = { has_coal_desposits = yes } # TODO: This does not work.
-	# }
-	
-	# cotton_farm = {
-	# 	show_on_map = 0
-	# 	base_cost = 6000
-	# 	icon_frame = 15
-	# 	local_resources_cotton = 6
-	# 	max_level = 20
-	# 	shares_slots = yes
-	# 	value = 2
-	# 	infrastructure_construction_effect = yes
-	# }
-	
-	# fabric_weavery = {
-	# 	show_on_map = 0
-	# 	base_cost = 12000
-	# 	icon_frame = 25
-	# 	country_resource_cost_cotton = 4
-	# 	local_resources_fabric = 6
-	# 	max_level = 20
-	# 	shares_slots = yes
-	# 	value = 2
-	# 	infrastructure_construction_effect = yes
-	# }
-	
+	building_coal = {
+		show_on_map = 0
+		base_cost = 8000
+		icon_frame = 14
+		local_resources_resource_coal = 4
+		max_level = 8
+		shares_slots = yes
+		value = 3
+		infrastructure_construction_effect = yes
+		#available = { has_coal_desposits = yes } # TODO: This does not work.
+	}
+
+	building_cotton = {
+		show_on_map = 0
+		base_cost = 6000
+		icon_frame = 15
+		local_resources_resource_cotton = 6
+		max_level = 20
+		shares_slots = yes
+		value = 2
+		infrastructure_construction_effect = yes
+	}
+
+	building_weavery = {
+		show_on_map = 0
+		base_cost = 12000
+		icon_frame = 25
+		country_resource_cost_resource_cotton = 4
+		local_resources_resource_fabric = 6
+		max_level = 20
+		shares_slots = yes
+		value = 2
+		infrastructure_construction_effect = yes
+	}
+
 	# steel_mill = {
 	# 	show_on_map = 0
 	# 	base_cost = 20000
@@ -244,28 +244,28 @@ buildings = {
 	# 	value = 4
 	# 	infrastructure_construction_effect = yes
 	# }
-	
-	# logging_camp = {
-	# 	show_on_map = 0
-	# 	base_cost = 9000
-	# 	icon_frame = 17
-	# 	local_resources_wood = 5
-	# 	max_level = 20
-	# 	shares_slots = yes
-	# 	value = 3
-	# 	infrastructure_construction_effect = yes
-	# }
-	
-	# farm = {
-	# 	show_on_map = 0
-	# 	base_cost = 6000
-	# 	icon_frame = 19
-	# 	max_level = 25
-	# 	shares_slots = yes
-	# 	value = 3
-	# 	infrastructure_construction_effect = yes
-		
-	# 	show_modifier = yes
-	# 	weekly_manpower = 5
-	# }
+
+	building_logging = {
+		show_on_map = 0
+		base_cost = 9000
+		icon_frame = 17
+		local_resources_resource_wood = 5
+		max_level = 20
+		shares_slots = yes
+		value = 3
+		infrastructure_construction_effect = yes
+	}
+
+	building_farm = {
+		show_on_map = 0
+		base_cost = 6000
+		icon_frame = 19
+		max_level = 25
+		shares_slots = yes
+		value = 3
+		infrastructure_construction_effect = yes
+
+		show_modifier = yes
+		weekly_manpower = 5
+	}
 }

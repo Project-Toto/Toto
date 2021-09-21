@@ -437,7 +437,7 @@ focus_tree = {
 			random_owned_controlled_state = {
 				limit = {
 					free_building_slots = {
-						building = cotton_farm
+						building = building_cotton
 						size > 0
 					}
 					OR = {
@@ -446,7 +446,7 @@ focus_tree = {
 							owner = {
 								any_owned_state = {
 									free_building_slots = {
-										building = cotton_farm
+										building = building_cotton
 										size > 0
 									}
 									is_in_home_area = yes
@@ -456,7 +456,7 @@ focus_tree = {
 					}
 				}
 				add_building_construction = {
-					type = cotton_farm
+					type = building_cotton
 					level = 1
 					instant_build = yes
 				}
@@ -686,7 +686,7 @@ focus_tree = {
 	}
 	focus = {
 		id = afr_expand_our_coal_mining_industry
-		icon = GFX_goal_focus_coal_mines
+		icon = GFX_goal_focus_building_coals
 		cost = 70
 		prerequisite = {
 			focus = afr_encorage_a_military-industrial_complex
@@ -699,7 +699,7 @@ focus_tree = {
 			random_owned_controlled_state = {
 				limit = {
 					free_building_slots = {
-						building = coal_mine
+						building = building_coal
 						size > 0
 					}
 					OR = {
@@ -708,7 +708,7 @@ focus_tree = {
 							owner = {
 								any_owned_state = {
 									free_building_slots = {
-										building = coal_mine
+										building = building_coal
 										size > 0
 									}
 									is_in_home_area = yes
@@ -718,7 +718,7 @@ focus_tree = {
 					}
 				}
 				add_building_construction = {
-					type = coal_mine
+					type = resource_building_coal
 					level = 1
 					instant_build = yes
 				}
@@ -1182,60 +1182,68 @@ focus_tree = {
 			focus = afr_vic_idea_of_a_republic
 		}
 		completion_reward = {
-			if = {
-				limit = {
-					FRA = {
-						OR={
-							has_idea = presidential_republic
-							has_idea = parliamentary_suffrage
-						}
-					}
-				}
-				FRA= {
-					add_opinion_modifier = {
-						target = ROOT
-						modifier = large_increase
-					}
-				}
-				if={
-					limit={
-						FRA={has_government = collectivist_socialism}
-					}
-					add_popularity = {
-						ideology = collectivist_socialism
-						popularity = 0.1
-					}
-				}
-				else_if={
-					limit={
-						FRA={has_government = social_egalitarianism}
-					}
-					add_popularity = {
-						ideology = social_egalitarianism
-						popularity = 0.1
-					}
-				}
-				else_if={
-					limit={
-						FRA={has_government = centrism}
-					}
-					add_popularity = {
-						ideology = centrism
-						popularity = 0.1
-					}
-				}
-				else_if={
-					limit={
-						FRA={has_government = traditional_conservatism}
-					}
-					add_popularity = {
-						ideology = traditional_conservatism
-						popularity = 0.1
-					}
-				}
-				else={
-				}
+			add_popularity = {
+				ideology = reformism
+				popularity = 0.075
 			}
+			add_popularity = {
+				ideology = traditionalism
+				popularity = 0.02
+			}
+			# if = {
+			# 	limit = {
+			# 		FRA = {
+			# 			OR={
+			# 				has_idea = presidential_republic
+			# 				has_idea = parliamentary_suffrage
+			# 			}
+			# 		}
+			# 	}
+			# 	FRA= {
+			# 		add_opinion_modifier = {
+			# 			target = ROOT
+			# 			modifier = large_increase
+			# 		}
+			# 	}
+			# 	if={
+			# 		limit={
+			# 			FRA={has_government = collectivist_socialism}
+			# 		}
+			# 		add_popularity = {
+			# 			ideology = collectivist_socialism
+			# 			popularity = 0.1
+			# 		}
+			# 	}
+			# 	else_if={
+			# 		limit={
+			# 			FRA={has_government = social_egalitarianism}
+			# 		}
+			# 		add_popularity = {
+			# 			ideology = social_egalitarianism
+			# 			popularity = 0.1
+			# 		}
+			# 	}
+			# 	else_if={
+			# 		limit={
+			# 			FRA={has_government = reformism}
+			# 		}
+			# 		add_popularity = {
+			# 			ideology = reformism
+			# 			popularity = 0.1
+			# 		}
+			# 	}
+			# 	else_if={
+			# 		limit={
+			# 			FRA={has_government = traditionalism}
+			# 		}
+			# 		add_popularity = {
+			# 			ideology = traditionalism
+			# 			popularity = 0.1
+			# 		}
+			# 	}
+			# 	else={
+			# 	}
+			# }
 			add_political_power = 95
 		}
 		x = 33
@@ -1289,7 +1297,7 @@ focus_tree = {
 			focus = afr_vic_inspired_by_the_french_republic
 		}
 		available = {
-			autocracy < 0.45
+			imperialism < 0.45
 		}
 		completion_reward = {
 			swap_ideas = {

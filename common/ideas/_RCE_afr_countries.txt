@@ -72,8 +72,7 @@ ideas = {
 			picture = FRA_scw_intervention_republicans_focus
 
 			modifier = {
-				autocracy_drift = 0.15
-				chauvinist_populism_drift = 0.15
+				imperialism_drift = 0.15
 				fundamentalism_drift = 0.15
 				foreign_subversive_activites = 0.25
 				drift_defence_factor = -0.35

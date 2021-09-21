@@ -1,1 +1,37 @@
 #### Zone C Decision Categories ####
+PRS_purchase_brandenburg_colonies_category = {
+	allowed = { tag = GER }
+}
+eoanb_decision_EGY_take_south_sudan = {
+	allowed = { tag = EGY }
+}
+OMA_MAH_War = {
+	allowed = { tag = OMA }
+}
+OMA_ZAN_Brothers_War = {
+	allowed = { tag = OMA }
+}
+afr_sa_unifaction = {
+	allowed = { tag = SAF }
+}
+saf_develop_natal = {
+	allowed = { tag = SAF }
+}
+ETH_unite_ethiopia_category = {
+	allowed = { tag = ETH }
+}
+ETH_global_diplomacy_category = {
+	allowed = { tag = ETH }
+}
+ETH_Company = {
+	allowed = { tag = ETH }
+}
+ETH_proclaim_coalition_against_islam_category = {
+	allowed = { tag = ETH }
+}
+ETH_Internal_Affairs = {
+	allowed = { tag = ETH }
+}
+ETH_RUS_Diplomacy = {
+	allowed = { tag = ETH }
+}

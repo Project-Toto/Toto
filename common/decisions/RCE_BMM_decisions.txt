@@ -36,7 +36,7 @@ eoanb_category_politics_internal = {
 				ROOT = {
 					add_ai_strategy = {
 						type = befriend
-						id = PRS
+						id = GER
 						value = 100
 					}
 				}
@@ -45,7 +45,7 @@ eoanb_category_politics_internal = {
 			kill_country_leader = yes
 
 			if = {
-				limit = { has_government = autocracy }
+				limit = { has_government = imperialism }
 				create_country_leader = {
 					name = "Ibrahim Njoya"
 					desc = "POLITICS_GEORGE_V_DESC"
@@ -91,7 +91,7 @@ eoanb_category_politics_internal = {
 
 		available = {
 			date < 1910.1.1
-			PRS = {
+			GER = {
 				has_completed_focus = PRS_focus_colonial_politics_branch
 			}
 			has_idea = afr_reforming_kingdom
@@ -113,13 +113,7 @@ eoanb_category_politics_internal = {
 		complete_effect = {
 			if = {
 				limit = {
-					OR = {
-						has_cosmetic_tag = GER
-						AND = {
-							NOT = { any_country = { has_cosmetic_tag = GER } }
-							TAG = PRS
-						}
-					}
+					tag = GER
 				}
 				THIS = {
 					if = {
@@ -143,13 +137,7 @@ eoanb_category_politics_internal = {
 			}
 			if = {
 				limit = {
-					OR = {
-						has_cosmetic_tag = GER
-						AND = {
-							NOT = { any_country = { has_cosmetic_tag = GER } }
-							TAG = PRS
-						}
-					}
+					tag = GER
 					NOT = {
 						OR = {
 							has_dlc = "Together for Victory"

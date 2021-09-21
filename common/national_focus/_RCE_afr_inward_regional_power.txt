@@ -38,13 +38,6 @@ focus_tree = {
 		}
 		x = 3
 		y = 2
-		allow_branch = {
-			NOT = {
-				TAG = SUN
-				TAG = SUW
-				TAG = PNG
-			}
-		}
 	}
 	focus = {
 		id = afr_inward_regional_power_prepare_the_drums_of_war
@@ -245,7 +238,7 @@ focus_tree = {
 				limit = { is_core_of = ROOT }
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
-					type = farm
+					type =building_farm
 					level = 1
 					instant_build = yes
 				}
@@ -293,7 +286,7 @@ focus_tree = {
 			random_owned_state={
 				#limit = { has_iron_deposits = yes }
 				add_resource = {
-					type = iron
+					type = resource_iron
 					amount = 2
 				}
 			}
@@ -314,7 +307,7 @@ focus_tree = {
 			random_owned_state={
 				limit = { has_coal_desposits = yes }
 				add_resource = {
-					type = coal
+					type = resource_coal
 					amount = 4
 				}
 			}
@@ -609,7 +602,7 @@ focus_tree = {
 				}
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
-					type = fabric_weavery
+					type = building_weavery
 					level = 1
 					instant_build = yes
 				}
@@ -664,7 +657,7 @@ focus_tree = {
 				}
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
-					type = farm
+					type =building_farm
 					level = 1
 					instant_build = yes
 				}
@@ -681,7 +674,7 @@ focus_tree = {
 				}
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
-					type = cotton_farm
+					type = building_cotton
 					level = 1
 					instant_build = yes
 				}
@@ -753,7 +746,7 @@ focus_tree = {
 					}
 					if = {
 						limit = { OWNER = { has_variable = has_afr_empire_mechanic_system } }
-						hidden_effect = { 
+						hidden_effect = {
 							state_event = { id = afr_empire_politics_regional_development_boom_event.1 days = 120 trigger_for = controller }
 							set_state_flag = afr_empire_politics_has_regional_development_boom_flag
 							afr_empire_politics_state_gain_immigration = yes
@@ -1549,7 +1542,7 @@ focus_tree = {
 		available = {
 			if = {
 				limit = {
-					all_owned_state = { naval_base < 1 }
+					all_owned_state = { building_port < 1 }
 				}
 				custom_trigger_tooltip = {
 					tooltip = Ocenaia_has_infrastructure_to_support_new_buildings_on_coast
@@ -1559,7 +1552,7 @@ focus_tree = {
 			else = {
 				any_owned_state = {
 					is_coastal = yes
-					naval_base > 0
+					building_port > 0
 				}
 			}
 			has_completed_focus = afr_inward_regional_power_expanding_our_regional_power
@@ -1572,7 +1565,7 @@ focus_tree = {
 		completion_reward = {
 			if = {
 				limit = {
-					all_owned_state = { naval_base < 1 }
+					all_owned_state = { building_port < 1 }
 					all_owned_state = { NOT = { has_state_flag = afr_port_town } }
 					capital_scope = { is_coastal = no }
 				}
@@ -1587,7 +1580,7 @@ focus_tree = {
 						add_to_variable = { Oceania_extra_state_shared_building_slots = 1 }
 					}
 					add_extra_state_shared_building_slots = 1
-					afr_add_one_building_naval_base_scripted_effect = yes
+					afr_add_one_building_building_port_scripted_effect = yes
 					add_building_construction = {
 						type = infrastructure
 						level = 1
@@ -1624,7 +1617,7 @@ focus_tree = {
 			else_if = {
 				limit = {
 					all_owned_state = { NOT = { has_state_flag = afr_port_town } }
-					capital_scope = { is_coastal = yes naval_base < 1 }
+					capital_scope = { is_coastal = yes building_port < 1 }
 				}
 				add_political_power = -250
 				random_owned_state = {
@@ -1637,7 +1630,7 @@ focus_tree = {
 						add_to_variable = { Oceania_extra_state_shared_building_slots = 1 }
 					}
 					add_extra_state_shared_building_slots = 1
-					afr_add_one_building_naval_base_scripted_effect = yes
+					afr_add_one_building_building_port_scripted_effect = yes
 					add_building_construction = {
 						type = infrastructure
 						level = 1
@@ -1648,7 +1641,7 @@ focus_tree = {
 			else_if = {
 				limit = {
 					all_owned_state = { NOT = { has_state_flag = afr_port_town } }
-					capital_scope = { is_coastal = yes naval_base > 0 }
+					capital_scope = { is_coastal = yes building_port > 0 }
 				}
 				add_political_power = -100
 				random_owned_state = {
@@ -1668,7 +1661,7 @@ focus_tree = {
 				add_political_power = -100
 				random_owned_controlled_state = {
 					limit = {
-						naval_base > 0
+						building_port > 0
 						is_coastal = yes
 					}
 					set_state_flag = afr_port_town

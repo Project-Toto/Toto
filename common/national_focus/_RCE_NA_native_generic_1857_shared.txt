@@ -8,18 +8,19 @@ focus_tree = {
 
 		modifier = {
 			add = 2
-			OR = {
-				TAG = SHO
-				TAG = NEZ
-				TAG = BFT
-				TAG = CRW
-				TAG = SIX
-				TAG = CHY
-				TAG = COM
-				TAG = APA
-				TAG = NAV
-				TAG = SEM
-			}
+			# OR = {
+			# 	TAG = SHO
+			# 	TAG = NEZ
+			# 	TAG = BFT
+			# 	TAG = CRW
+			# 	TAG = SIX
+			# 	TAG = CHY
+			# 	TAG = COM
+			# 	TAG = APA
+			# 	TAG = NAV
+			# 	TAG = SEM
+			# }
+			always = no
 		}
 	}
 

@@ -10,22 +10,22 @@
  afr_empire_state_industrialized_fully_event.3.d:0 ""
  afr_empire_state_industrialized_fully_event.3.a:0 "The people of [FROM.GetName] must endure industrialization."
  afr_empire_state_industrialized_fully_event.3.b:0 "We will listen to their demands."
- 
+
  afr_songhai_successor:0 "Songhai Empire Successor"
  afr_songhai_successor_desc:0 "[ROOT.GetName] is a successor to the ancient Songhai Empire which ruled over much of west Africa."
- 
+
  afr_fractured_kingdom:0 "Fractured Empire"
  afr_fractured_kingdom_desc:0 "§YInternal Tribal Support:§!§W\nLoyalist Tribes:§! §G[?ROOT.afr_fractured_kingdom_loyalist_support@ROOT]%§!\n§WRival Tribes:§! §R[?ROOT.afr_fractured_kingdom_opposition_support@ROOT]%§!\n\nDue to rebellious coups, inept leadership, or even empire shattering conflicts, [ROOT.GetName] has become a husk of it's former glory. Sometimes the circumstances are so catastrophic it fractures the empire into organized tribes vying for internal power. As long as the tribes within the empire remain fractured or disjointed, [ROOT.GetName] will continue to be stagnant."
  afr_not_fractured_kingdom_tooltip:0 "Is not a §RFractured Empire§!"
  afr_stagnant_kingdom:0 "Stagnant Empire"
  afr_stagnant_kingdom_desc:0 "§YInternal Tribal Support:§!§W\nLoyalist Tribes:§! §G[?ROOT.afr_fractured_kingdom_loyalist_support@ROOT]%§!\n§WRival Tribes:§! §R[?ROOT.afr_fractured_kingdom_opposition_support@ROOT]%§!\n\nDue to rebellious coups, inept leadership, or even empire shattering conflicts, [ROOT.GetName] has stagnated or even begun to regress societally. Sometimes the circumstances are so catastrophic it fractures the empire into organized tribes vying for internal power. As long as the tribes within the empire remain fractured or disjointed, [ROOT.GetName] will continue to be stagnant."
  afr_not_stagnant_kingdom_tooltip:0 "Is not a §RStagnant Empire§!"
- 
+
  afr_fractured_kingdom_is_unified_tooltip:0 "§YLoyalist Tribes§! have over §Y85%§! of influence\n\n§R[?ROOT.afr_fractured_kingdom_opposition_support@ROOT]%§!§g of [ROOT.GetAdjective] tribes have pledged their support to §!§YRival Tribes§!§g within our borders.§!"
  afr_not_imperial_decline_tooltip:0 "Not in §RImperial Decline§!"
- 
+
  afr_fractured_kingdom_unified_tribes:0 "Unify [ROOT.GetAdjective] Tribes"
- 
+
  afr_fractured_kingdom_set_tribal_politics:0 "Tribal Support Fractured!"
  afr_fractured_kingdom_opposition_crushed:0 "Rival Tribe's Influence Suppressed!"
  afr_fractured_kingdom_opposition_crushed_desc:0 "Within our empire's borders resides several tribes that have united to make [ROOT.GetName]. A rival tribe's influence has been hindered, allowing our tribe to rule with authority.\n\n§R[?ROOT.afr_fractured_kingdom_opposition_support@ROOT]%§!§W of [ROOT.GetAdjective] tribes have pledged their support to §!§YRival Tribes§!§W within our borders.§!"
@@ -37,36 +37,36 @@
  afr_fractured_kingdom_opposition_support_prevented_tooltip:0 "The opposition's support will be §Gcrushed§!!"
  afr_fractured_kingdom_opposition_support_increased_tooltip:0 "§RThe opposition's support will increase if this is ignored!§!"
  afr_fractured_kingdom_opposition_support_decreased_tooltip:0 "\n§GThe opposition's support will decrease if this is succeeds!§!"
- 
+
  afr_fractured_kingdom_loyalist_support_increase_tooltip:0 "§GLoyalist Tribal Support increases!§!"
  afr_fractured_kingdom_loyalist_support_more_than_40:0 "§YLoyalist Tribal Support§! is greater than §Y40%§!\n\nCurrently §YLoyalist Support§! is at §G[?ROOT.afr_fractured_kingdom_loyalist_support@ROOT]%§!"
  afr_fractured_kingdom_loyalist_support_more_than_50:0 "§YLoyalist Tribal Support§! is greater than §Y50%§!\n\nCurrently §YLoyalist Support§! is at §G[?ROOT.afr_fractured_kingdom_loyalist_support@ROOT]%§!"
  afr_fractured_kingdom_loyalist_support_more_than_60:0 "§YLoyalist Tribal Support§! is greater than §Y60%§!\n\nCurrently §YLoyalist Support§! is at §G[?ROOT.afr_fractured_kingdom_loyalist_support@ROOT]%§!"
  afr_fractured_kingdom_loyalist_support_more_than_70:0 "§YLoyalist Tribal Support§! is greater than §Y70%§!\n\nCurrently §YLoyalist Support§! is at §G[?ROOT.afr_fractured_kingdom_loyalist_support@ROOT]%§!"
- 
+
  AF_O_K_address_fractured_kingdom_1:0 "Addressing Our Tribal Fracture"
  AF_O_K_address_fractured_kingdom_1_tooltip:0 "§GA family heir to the throne shall be sought out.§!\n"
  AF_O_K_address_fractured_kingdom_2:0 "Rebuilding Tribal Kinship"
  AF_O_K_address_fractured_kingdom_3:0 "A Single Banner Once More"
  AF_O_K_address_fractured_kingdom_4:0 "Solidarity Amongst Tribes"
  AF_O_K_address_fractured_kingdom_4_trigger:0 "Has a §YFamily Heir§! of any kind"
- 
+
  afr_inw_address_stagnant_kingdom_1:0 "Address Our Stagnancy"
  afr_inw_address_stagnant_kingdom_1_tooltip:0 "§GA stronger heir to the throne shall be sought out.§!\n"
  afr_inw_address_stagnant_kingdom_2:0 "Balance Internal Tribal Politics"
  afr_inw_address_stagnant_kingdom_3:0 "Solidify Our Dynasty"
  afr_inw_address_stagnant_kingdom_4:0 "Looking Towards Tomorrow"
  afr_inw_address_stagnant_kingdom_4_trigger:0 "Has a §YStrong Heir§!"
- 
+
  afr_stagnant_kingdom_heir.1.t:0 "Heir to the Throne"
  afr_stagnant_kingdom_heir.1.d:0 "An opposing internal tribe has claimed authority over our land! A coup to dethrone them must be done to restore balance amongst the tribes that reside within our boarders."
  afr_stagnant_kingdom_heir.1.a:0 "We must plan a coup to dethrone the opposing tribe!"
- 
+
  afr_stagnant_kingdom_heir.2.t:0 "Planning the Coup!"
  afr_stagnant_kingdom_heir.2.d:0 "The loyalist warlords are planning the coup to dethrone the opposing tribe. Before the coup can initiate, the loyalist leader must confirm the plan."
  afr_stagnant_kingdom_heir.2.a:0 "Initiate the plan! May the coup end their reign!"
  afr_stagnant_kingdom_heir.2.b:0 "Revise the plan! Organize assassins to take out the opposition."
- 
+
  afr_stagnant_kingdom_heir.3.t:0 "Coup Results!"
  afr_stagnant_kingdom_heir.3.c:0 "The loyalists initiated the coup and deposed the false king with great success! The opposition tribe's political power has been greatly reduced... but at the cost of a isolated civil war amongst the tribes. Many have passed away as a result of the conflict."
  afr_stagnant_kingdom_heir.3.d:0 "The opposition tribe's leader has retained their grasp of power! As a result tension between the tribes has increased and we are no closer to balancing the power amongst the tribes. Even worse, this isolated civil war has damaged the capital's buildings and many have lost their lives due to the conflict."
@@ -78,54 +78,54 @@
  afr_stagnant_kingdom_dethrone_heir_lose_1:0 "From both sides of the conflict, a total of §R1500§! §YWarriors§! died."
  afr_stagnant_kingdom_dethrone_heir_lose_2:0 "From both sides of the conflict, a total of §R1000§! §YWarriors§! died."
  afr_stagnant_kingdom_dethrone_heir_lose_3:0 "From both sides of the conflict, a total of §R500§! §YWarriors§! died."
- 
+
  afr_imperial_decline:0 "Imperial Decline"
  afr_imperial_decline_desc:0 "§YInternal Tribal Support:§!§W\nLoyalist Tribes:§! §G[?ROOT.afr_fractured_kingdom_loyalist_support@ROOT]%§!\n§WRival Tribes:§! §R[?ROOT.afr_fractured_kingdom_opposition_support@ROOT]%§!\n\nDue to rebellious coups, inept leadership, or even empire shattering conflicts, [ROOT.GetName] has become weak as a regional power. As long as the tribes within the empire remain somewhat disjointed, [ROOT.GetName] will continue to be in decline."
  afr_not_imperial_decline_tooltip:0 "Does not have an §RImperial Decline§!"
- 
+
  tribal_cavalry:0 "Tribal Horse Cavalry"
  tribal_pistoleer_cavalry:0 "Tribal Pistoleer Cavalry"
  tribal_camel_cavalry:0 "Tribal Camel Cavalry"
  edc_raid_decision_cancel_trigger:0 "A major §YDiplomatic§! event has happened"
  afr_raid_neighbor_at_peace_trigger:0 "Is not §YRaiding§! or at §YWar§! with anyone"
- 
+
  industrialilzing_power_africa:0 "Industrializing Africa"
- 
+
  oma_vic_MOM_industrialisation_flag:0 "has completed focus §YThe Industrialization of Mombasa§!"
  oma_vic_ZAN_industrialisation_flag:0 "has completed focus §YThe Industrialization of Zanzibar§!"
- 
+
  afr_has_war_of_any_kind_trigger:0 "Has any type of §YWar§!"
  EDC_afr.51.t:0 "Peacetime Prosperity!"
  EDC_afr.51.d:0 "The war is over and our warriors can return to their peaceful lives at home. Now that our economy is no longer focused on war efforts, the [ROOT.GetName] can once again focus on inward prosperity!"
  EDC_afr.51.a:0 "They served the [ROOT.GetName] well!"
  afr_dismiss_warriors_tooltip:0 "All §YPre-Industrial Army§! divisions are §Yremoved§! until they are needed again."
- 
+
  afr_focus_decided_to_switch_branches:0 "An §YEvent§! has changed our §YFocus Path§!"
  afr_jihadist_coup_against_master_tooltip:0 "§GWe will conduct §!§YMissions§!§G to perform a successful §!§YJihadist Coup§!§G in an effort to gain §!§YIndependance§!§G.§!\n\n"
  afr_jihadist_coup_against_western_tooltip:0 "§GWe will perform a §!§YJihadist Coup§!§G to cleanse the corrupting influence of §!§YColonial Powers§!§G.§!\n\n"
  afr_jihadist_coup_against_inward_tooltip:0 "§GWe will perform a §!§YJihadist Coup§!§G to cleanse the corruption within our kingdom and formally establish a §!§YFundamentalist Government§!§G.§!\n\n"
  afr_jihadist_revolution_western_tooltip:0 "§GThe §!§YJihadist Revolution§!§G will assure in a fundamentalist leadership that will mark the beginning of a new §!§YIslamic Renaissance§!§G!§!\n\n"
  afr_jihadist_revolution_inward_tooltip:0 "§GThe §!§YJihadist Revolution§!§G will assure in a fundamentalist leadership that will mark the beginning of a new §!§YIslamic Renaissance§!§G!§!\n\n"
- 
+
  afr_go_with_overlord_jihadist_revolution_trigger:0 "Our §YOverlord§! has pursued the §YJihadist Revolution§!"
- 
+
  EDC_afr_focus_path_jihadist_coup.1.t:0 "The Jihadist Revolution Succedes!"
  EDC_afr_focus_path_jihadist_coup.1.d:0 "This shall mark the beginning of a new era! Through faith in Allah, our Islamic Renaissance shall create reforms to bring stability, security, prosperity, and an end to corruption!"
  EDC_afr_focus_path_jihadist_coup.1.a:0 "May our Golden Era begin! Inshallah!"
  EDC_afr_focus_path_jihadist_coup.2.t:0 "The Jihadist Revolution Succedes!"
  EDC_afr_focus_path_jihadist_coup.2.d:0 "This shall mark the beginning of a new era! Through faith in Allah, our Islamic Renaissance shall create reforms to bring stability, security, prosperity, and an end to corruption!"
  EDC_afr_focus_path_jihadist_coup.2.a:0 "May our Golden Era begin! Inshallah!"
- 
+
  EDC_afr_focus_path_change.1.t:0 "The [OTO.GetName] Rejects The Tanzimat Reforms!"
  EDC_afr_focus_path_change.1.d:0 "The [OTO.GetName] has decided to undo the Tanzimat Reforms that made the Sultan weak and clouded Islamic guidance. We must follow their example and have a Jihadist Revolution to bring stability and fix the corruption within our country!"
  EDC_afr_focus_path_change.1.a:0 "We must follow their example! Mashallah!"
  EDC_afr_focus_path_change.1.b:0 "We will continue our chosen path."
- 
+
  EDC_afr_focus_path_change.2.t:0 "The [FROM.GetName] Declared Jihad!"
  EDC_afr_focus_path_change.2.d:0 ""
  EDC_afr_focus_path_change.2.a:0 "We must follow their example! Mashallah!"
  EDC_afr_focus_path_change.2.b:0 "We will continue our chosen path."
- 
+
  EDC_afr_focus_path_change.3.t:0 "The [OMA.GetName] Questions [ZAN.GetLeader]!"
  EDC_afr_focus_path_change.3.d:0 "The [OMA.GetName] and the [ZAN.GetName] had once been a unified empire, but an agreement brokered by the [ENG.GetName] has split the empire in two. [ZAN.GetLeader]'s brother, [OMA.GetLeader], now questions the legitimancy of the [ZAN.GetName]'s newfound autonomy. [OMA.GetLeader] has plans to keep the two countries unified, but the true power of this unity would remain within the [OMA.GetName]. That leaves a difficult question to be answered, what should be done in response to this?"
  EDC_afr_focus_path_change.3.a:0 "We must shift towards cooperation! We are stronger when brothers unite in cause!"
@@ -134,10 +134,10 @@
  EDC_afr_focus_path_change.3.e:0 "Take advantage of the chaos! Our Jihadist Revolution starts now!"
  EDC_afr_focus_path_change.3.f:0 "We shall continue the status quo."
  EDC_afr_focus_path_change.3.h:0 "A family fued, interesting!"
- 
+
  afr_choose_jihadist_tree_tooltip:0 "\nThis will force the §YJihadist Revolution§! focus path!\n"
- 
- 
+
+
  agatate_for_war_against_tribal_neighbor:0 "Agitate for war against [From.GetName]"
  COLONIAL_POWER_TOOLTIP:0 "§YColonial Power§!\n\nCurrent Colonial Power: §Y[?Root.colonial_power]§!\nDaily Gain:§G +[?Root.colonial_power_rate]§!\nCurrent Max: §G[?root.colonial_power_max]§!"
  COLONIAL_POWER_TOOLTIP_DELAYED:0 "This is your nations §YColonial Power§!, a measure of the political and economic power your country has over the African Continent based on the §YTotal Number of Factories§! you have.\nThis power is used to colonize tribal states in Africa"
@@ -176,7 +176,7 @@
  afr_begin_to_invest_in_railways:0 "Begin to Invest in Railways"
  afr_begin_to_invest_in_railways_desc:0 "The idea filtering down from Europe is about great iron machines running on roads of iron, we should see if we can obtain plans for these"
  afr_western_farming_methods:0 "Western Farming Methods"
- afr_western_farming_methods_desc:0 "We have heard tales of the fertility of European farms, maybe we could find the secret behind it"
+ afr_western_farming_methods_desc:0 "We have heard tales of the fertility of Europeanbuilding_farms, maybe we could find the secret behind it"
  afr_new_production_methods:0 "New Production Methods"
  afr_new_production_methods_desc:0 "in order to progress our country, we will need to develop how we make products in both the civilian and military markets"
  afr_encorage_industrial_introduction:0 "Encourage Industrial Introduction"
@@ -192,7 +192,7 @@
  afr_build_a_main_rail_route:0 "Build a Main Rail Route"
  afr_build_a_main_rail_route_desc:0 "Our next step is to build a connected railway between our major town to our capital"
  afr_acquire_fabric_for_uniforms:0 "Acquire Cotton for Clothes"
- afr_acquire_fabric_for_uniforms_desc:0 "we have heard about cotton production from the colonizers, we should build a cotton farm to clothe our people"
+ afr_acquire_fabric_for_uniforms_desc:0 "we have heard about cotton production from the colonizers, we should build a cottonbuilding_farm to clothe our people"
  afr_introduce_coal_mining:0 "Introduce Coal Mining"
  afr_introduce_coal_mining_desc:0 "In this coming new world, Coal is King. We should obtain our own production of it to maintain our independence"
  afr_mechanical_engineering_research:0 "Mechanical Engineering Research"
@@ -205,8 +205,8 @@
  afr_expand_research_facilities_desc:0 "Our research teams are dispersed and unorganized, building a dedicated facility will increase what we can research and how much we can research at once."
  afr_dedicate_roads_for_farms:0 "Dedicate Roads for Farms"
  afr_dedicate_roads_for_farms_desc:0 "Building dedicated roads from our resource producers will increase our infrastructure and resources, with the lowest cost necessary."
- afr_build_logging_camps:0 "Build Logging Camps"
- afr_build_logging_camps_desc:0 "Build dedicated logging camps to supply our growing economy."
+ afr_build_building_loggings:0 "Build Logging Camps"
+ afr_build_building_loggings_desc:0 "Build dedicated logging camps to supply our growing economy."
  afr_industrialize_further:0 "Industrialize Further"
  afr_industrialize_further_desc:0 "Build even more civilian factories to supply our burgeoning industry."
  afr_an_industral_nation:0 "An Industrial Nation"
@@ -1082,7 +1082,7 @@
  boer_states.91.d:0 "Our war with the South African Republic has gone on long enough. It is time for an armistice, to spare both sides the horrors of war."
  boer_states.91.a:0 "Sure."
  boer_states.91.b:0 "Never!"
- 
+
  boer_states.1.t:0 "An Armistice with [OFS.GetName]"
  boer_states.1.d:0 "Our war with the [OFS.GetNameDef] is going badly, we are badly outnumbered and there are rumors of some of our automonus regions siding with them. Perhaps we should offer peace before it is too late"
  boer_states.1.a:0 "Offer them Peace"
@@ -1483,24 +1483,24 @@
  OMA_decide_future:0 "§YDecide the Future of Omani interaction with the West§!"
  oma_vic_question_of_the_brother:0 "The Question of the Brother"
  oma_vic_question_of_the_brother_desc:0 "After the death of our father §YSaid II bin Sultan§!, a agreement brokered by [ENG.GetNameDef] has split our country between Us and Our Brother,§YSayyid Majid bin Sa'id§! Spliting our Empire in two, with our brother ruling §Ythe [ZAN.GetName]§!. now we must decide what to do about our Brother"
- SOM_OMA_colony_autocracy:0 "Omani Somaliland"
- SOM_OMA_colony_autocracy_DEF:0 "Omani Somaliland"
- SOM_OMA_colony_autocracy_ADJ:0 "Omani Somaliland"
+ SOM_OMA_colony_imperialism:0 "Omani Somaliland"
+ SOM_OMA_colony_imperialism_DEF:0 "Omani Somaliland"
+ SOM_OMA_colony_imperialism_ADJ:0 "Omani Somaliland"
  SOM_OMA_colony_radical_democracy:0 "Omani Somaliland"
  SOM_OMA_colony_radical_democracy_DEF:0 "Omani Somaliland"
  SOM_OMA_colony_radical_democracy_ADJ:0 "Omani Somaliland"
- SOM_OMA_colony_centrism:0 "Omani Somaliland"
- SOM_OMA_colony_centrism_DEF:0 "Omani Somaliland"
- SOM_OMA_colony_centrism_ADJ:0 "Omani Somaliland"
+ SOM_OMA_colony_reformism:0 "Omani Somaliland"
+ SOM_OMA_colony_reformism_DEF:0 "Omani Somaliland"
+ SOM_OMA_colony_reformism_ADJ:0 "Omani Somaliland"
  SOM_OMA_colony_fundamentalism:0 "Omani Somaliland"
  SOM_OMA_colony_fundamentalism_DEF:0 "Omani Somaliland"
  SOM_OMA_colony_fundamentalism_ADJ:0 "Omani Somaliland"
- omani_KEN_autocracy:0 "Omani Kenya"
- omani_KEN_autocracy_DEF:0 "Omani Kenya"
- omani_KEN_autocracy_ADJ:0 "Omani Kenya"
- omani_KEN_centrism:0 "Omani Kenya"
- omani_KEN_centrism_DEF:0 "Omani Kenya"
- omani_KEN_centrism_ADJ:0 "Omani Kenya"
+ omani_KEN_imperialism:0 "Omani Kenya"
+ omani_KEN_imperialism_DEF:0 "Omani Kenya"
+ omani_KEN_imperialism_ADJ:0 "Omani Kenya"
+ omani_KEN_reformism:0 "Omani Kenya"
+ omani_KEN_reformism_DEF:0 "Omani Kenya"
+ omani_KEN_reformism_ADJ:0 "Omani Kenya"
  OMA_economic_irrelevence:0 "Economic Irrelevance"
  OMA_economic_irrelevence_desc:0 ""
  OMA_economic_irrelevence_2:0 "Economic Irrelevance"
@@ -1613,62 +1613,62 @@
  oma_vic_demand_TCS_desc:0 "The British ignored our demand in the past, now we are in a even greater position let us demand the submission of [TCS.GetNameDef] governor directly"
  oma_vic_intergrate_TCS:0 "Integrate [TCS.GetName]"
  oma_vic_intergrate_TCS_desc:0 "The [TCS.GetName] was once under our direct control, let us make it so again"
- SAF_CC_centrism:0 "Cape Colony"
- SAF_CC_traditional_conservatism:0 "Cape Colony"
+ SAF_CC_reformism:0 "Cape Colony"
+ SAF_CC_traditionalism:0 "Cape Colony"
  SAF_CC_social_egalitarianism:0 "Cape Colony"
  SAF_CC_collectivist_socialism:0 "Cape Colony"
  SAF_CC_vanguard_communism:0 "Cape Colony"
- SAF_CC_autocracy:0 "Cape Colony"
+ SAF_CC_imperialism:0 "Cape Colony"
  SAF_CC_radical_democracy:0 "Cape Colony"
  SAF_CC_anarchism:0 "Cape Colony"
  SAF_CC_chauvinist_populism:0 "Cape Colony"
  SAF_CC_fundamentalism:0 "Cape Colony"
- SAF_CC_centrism_DEF:0 "Cape Colony"
- SAF_CC_traditional_conservatism_DEF:0 "Cape Colony"
+ SAF_CC_reformism_DEF:0 "Cape Colony"
+ SAF_CC_traditionalism_DEF:0 "Cape Colony"
  SAF_CC_social_egalitarianism_DEF:0 "Cape Colony"
  SAF_CC_collectivist_socialism_DEF:0 "Cape Colony"
  SAF_CC_vanguard_communism_DEF:0 "Cape Colony"
- SAF_CC_autocracy_DEF:0 "Cape Colony"
+ SAF_CC_imperialism_DEF:0 "Cape Colony"
  SAF_CC_radical_democracy_DEF:0 "Cape Colony"
  SAF_CC_anarchism_DEF:0 "Cape Colony"
  SAF_CC_chauvinist_populism_DEF:0 "Cape Colony"
  SAF_CC_fundamentalism_DEF:0 "Cape Colony"
- SAF_CC_centrism_ADJ:0 "Cape"
- SAF_CC_traditional_conservatism_ADJ:0 "Cape"
+ SAF_CC_reformism_ADJ:0 "Cape"
+ SAF_CC_traditionalism_ADJ:0 "Cape"
  SAF_CC_social_egalitarianism_ADJ:0 "Cape"
  SAF_CC_collectivist_socialism_ADJ:0 "Cape"
  SAF_CC_vanguard_communism_ADJ:0 "Cape"
- SAF_CC_autocracy_ADJ:0 "Cape"
+ SAF_CC_imperialism_ADJ:0 "Cape"
  SAF_CC_radical_democracy_ADJ:0 "Cape"
  SAF_CC_anarchism_ADJ:0 "Cape"
  SAF_CC_chauvinist_populism_ADJ:0 "Cape"
  SAF_CC_fundamentalism_ADJ:0 "Cape"
- OMA_MUS_centrism:0 "Sultanate of Muscat-Oman"
- OMA_MUS_traditional_conservatism:0 "Sultanate of Muscat and Oman"
+ OMA_MUS_reformism:0 "Sultanate of Muscat-Oman"
+ OMA_MUS_traditionalism:0 "Sultanate of Muscat and Oman"
  OMA_MUS_social_egalitarianism:0 "Muscat and Oman"
  OMA_MUS_collectivist_socialism:0 "Muscat and Oman"
  OMA_MUS_vanguard_communism:0 "Muscat and Oman"
- OMA_MUS_autocracy:0 "Sultanate of Muscat and Oman"
+ OMA_MUS_imperialism:0 "Sultanate of Muscat and Oman"
  OMA_MUS_radical_democracy:0 "Muscat and Oman"
  OMA_MUS_anarchism:0 "Muscat and Oman"
  OMA_MUS_chauvinist_populism:0 "Sultanate of Muscat and Oman"
  OMA_MUS_fundamentalism:0 "Sultanate of Muscat and Oman"
- OMA_MUS_centrism_DEF:0 "Sultanate of Muscat and Oman"
- OMA_MUS_traditional_conservatism_DEF:0 "Sultanate of Muscat and Oman"
+ OMA_MUS_reformism_DEF:0 "Sultanate of Muscat and Oman"
+ OMA_MUS_traditionalism_DEF:0 "Sultanate of Muscat and Oman"
  OMA_MUS_social_egalitarianism_DEF:0 "Muscat and Oman"
  OMA_MUS_collectivist_socialism_DEF:0 "Muscat and Oman"
  OMA_MUS_vanguard_communism_DEF:0 "Muscat and Oman"
- OMA_MUS_autocracy_DEF:0 "Sultanate of Muscat and Oman"
+ OMA_MUS_imperialism_DEF:0 "Sultanate of Muscat and Oman"
  OMA_MUS_radical_democracy_DEF:0 "Muscat and Oman"
  OMA_MUS_anarchism_DEF:0 "Muscat and Oman"
  OMA_MUS_chauvinist_populism_DEF:0 "Sultanate of Muscat and Oman"
  OMA_MUS_fundamentalism_DEF:0 "Sultanate of Muscat and Oman"
- OMA_MUS_centrism_ADJ:0 "Omani"
- OMA_MUS_traditional_conservatism_ADJ:0 "Omani"
+ OMA_MUS_reformism_ADJ:0 "Omani"
+ OMA_MUS_traditionalism_ADJ:0 "Omani"
  OMA_MUS_social_egalitarianism_ADJ:0 "Omani"
  OMA_MUS_collectivist_socialism_ADJ:0 "Omani"
  OMA_MUS_vanguard_communism_ADJ:0 "Omani"
- OMA_MUS_autocracy_ADJ:0 "Omani"
+ OMA_MUS_imperialism_ADJ:0 "Omani"
  OMA_MUS_radical_democracy_ADJ:0 "Omani"
  OMA_MUS_anarchism_ADJ:0 "Omani"
  OMA_MUS_chauvinist_populism_ADJ:0 "Omani"
@@ -1956,9 +1956,9 @@
  boer_states.102.d:0 "A party of Envoys from our colonies in South Africa have arrived requesting a Act of Union to transform the bickering colonies of British, Afrikkans and Natives into a Unified Country"
  boer_states.102.a:0 "Issue it"
  boer_states.103.t:0 "[SOT.GetName] Raids us"
- boer_states.103.d:0 "A Raiding Party out of [SOT.GetName] has continued to disrupt our farmers in [779.GetName] dispite reasurances from the them that it would stop. it is time to force them to stop"
+ boer_states.103.d:0 "A Raiding Party out of [SOT.GetName] has continued to disrupt ourbuilding_farmers in [779.GetName] dispite reasurances from the them that it would stop. it is time to force them to stop"
  boer_states.103.a:0 "Just the justification we needed"
- 
+
  walalchian_union.1.t:0 "Romania Calls for fair elections"
  walalchian_union.1.d:0 "Demands have come from Moldavians about §YNicolae Vogoride§! rigging the elections, demanding his resignation and the call for a new vote."
  walalchian_union.1.a:0 "There was no vote rigging"
@@ -1995,12 +1995,12 @@
  walalchian_union.10.t:0 "Romania Calls for Unification"
  walalchian_union.10.d:0 "In a surprising turn of events Alexandru Ioan Cuza has been elected to rule both Wallachia and Moldavia. And now the Romanian principalities are calling for unifaction"
  walalchian_union.10.a:0 "Ok"
- 
+
  eoanb_found_air_command:0 "Found Air Command"
  eoanb_found_naval_command:0 "Found Naval Command"
  egy_naval_reconstruction:0 "Naval Reconstruction"
  EGY_bedouin_cavalry:0 "Bedouin Camelry"
- 
+
  EGY_vic_army_expansion:0 "Army Expansion"
  EGY_vic_new_officer_corps:0 "New Officer Corp"
  EGY_vic_naval_rebuilding:0 "Naval Rebuilding"
@@ -2074,7 +2074,7 @@
  slot_machine:0 "Add Operatives"
  debug_decisions:0 "Debug Decisions"
  eoanb_tt_advance_education:0 "Changes education policy to §YPrivileged Education§!"
- 
+
  eoanb_decision_westernisation:0 "Educational Westernisation"
  eoanb_decision_westernisation_desc:0 "For a long time our knowledge has been passed down through word of mouth. Due to this the europeans, using more advanced education techniques, have dominated the region technologically. The western philosophy of education has its inspirational roots from Athens, Rome and Judeo-Christianity. We must get into a position of knowledge to emulate this educational system."
  eoanb_decision_westernisation_2:0 "Educational Westernisation"
@@ -2087,7 +2087,7 @@
  EDC_eastern_education_system_trigger:0 "Has a system of §YEastern Inspired Education§!"
  EDC_western_education_system_tooltip:0 "\n§GAdopts a §!§YWestern Inspired Education§!§G system.§!\n"
  EDC_eastern_education_system_tooltip:0 "\n§GAdopts an §!§YEastern Inspired Education§!§G system.§!\n"
- 
+
  trv_vic_political_reforms:0 "Political Reforms"
  afr_european_style_militaries:0 "European Style Militaries"
  afr_adopt_limited_constitution:0 "Adopt a Limited Constitution"
@@ -2122,7 +2122,7 @@
  EGY_FRA_controlled_government:0 "French Controlled Government"
  EGY_dual_control:0 "Dual Control"
  baring_report_comissioned:0 "Baring Report Commissioned"
- 
+
  EIC_idea_army_muntinies:0 "Army Muntinies"
  EIC_idea_army_muntinies_2:0 "Army Muntinies"
  EIC_idea_army_muntinies_3:0 "Army Muntinies"
@@ -2147,8 +2147,8 @@
  RAJ_vic_ending_the_revolt_desc:0 ""
  RAJ_vic_development_of_india:0 "Development of India"
  RAJ_vic_development_of_india_desc:0 ""
- RAJ_vic_national_cotton_farms:0 "National Cotton Farms"
- RAJ_vic_national_cotton_farms_desc:0 ""
+ RAJ_vic_national_building_cottons:0 "National Cotton Farms"
+ RAJ_vic_national_building_cottons_desc:0 ""
  RAJ_vic_national_silk_farms:0 "National Silk Farms"
  RAJ_vic_national_silk_farms_desc:0 ""
  RAJ_vic_learn_from_revolt:0 "Learn from the Sepoy Revolt"
@@ -2296,7 +2296,7 @@
  DAK_crush_the_natives:0 "We have chosen to Crush the Natives"
  DAK_placate_the_natives:0 "We have chosen to Placate the Natives"
  DAK_B_placting_the_tribes:0 "Placting the Tribes"
- 
+
  afr_vic_political_innovation:0 "Political Innovation"
  afr_vic_western_constatution:0 "Western Constitution"
  afr_vic_idea_of_a_republic:0 "An Idea of a Republic"
@@ -2313,7 +2313,7 @@
  afr_vic_govern_like_the_west:0 "Govern like the West"
  afr_vic_govern_like_the_east:0 "Govern like the East"
  afr_vic_our_kingdom:0 "Our Kingdom"
- 
+
  BAT_protectorate:0 "Bechuanaland Protectorate"
  britishafrica.4.t:0 "A Bechuanaland Protectorate"
  britishafrica.4.a:0 "Send the Detachment"
@@ -2323,7 +2323,7 @@
  britishafrica.5.b:0 "Refuse"
  britishafrica.7.t:0 "Bechuanaland Protectorate Established"
  britishafrica.7.a:0 "Another fine addition to the Empire"
- 
+
  arab_events.74.t:0 "The Anglo-Zanzibar War"
  arab_events.74.d:0 "At 9:02(local time) on the 27 of August, The newly crowned Sultan of Zanzabar, Khalid bin Barghash had war declared upon him by [ENG.GetName]. \nKhalid had defied the British terms of Zanzabar succession, raised his personal guard and barricaded the palace, ignoring an ultimatum by the british.\n This had lead to the sinking of three ships and around 500 wounded and dead on the zanzabar side. One unlucky British Sailor managed to injure himself and is expected to make a full recovery. over the 38 minutes it took for Khalid to surrender the British ships had fired over 500 shells. \nBritish Naval officials appear very smug over the whole affair, apparently busy fining the new colony for the shells fired"
  arab_events.74.a:0 "Another glorious addition to the empire"
@@ -2339,15 +2339,15 @@
  afr_fund_telegraph_introduction:0 "Fund Telegraph Introduction"
  afr_build_a_main_telegraph_line:0 "Build a Main Telegraph Line"
  afr_encorage_a_military-industrial_complex:0 "Encourage a Military-Industrial Complex"
- 
+
  EDC_zulu.6.t:0 "End of the Anglo-Zulu War"
  britainirishunrest.13.t:0 "Ireland Regains its Independence"
  britainirishunrest.13.d:0 ""
  britainirishunrest.13.a:0 ""
- 
+
  OTO_events.2.a:0 "Save our money"
  OTO_events.2.b:0 "Spend our way out"
- 
+
  oma_mac_towards_a_machine_era:0 "Towards a Machine Era"
  oma_mac_issues_of_the_past:0 "Issues of the Past"
  oma_mac_aftermath_of_the_outbreak:0 "Aftermath of the Outbreak"
@@ -2360,7 +2360,7 @@
  oma_mac_building_modern_economy:0 "Building Modern Economy"
  oma_mac_appoint_regional_admin:0 "Appoint Regional Administrators"
  oma_mac_forging_new_government_systems:0 "Forging New Government Systems"
- 
+
  trv_vic_integration_of_the_OFS:0 "Integration of the Northern [OFS.GetName]s"
  trv_vic_central_OFS_integration:0 "Integration of the Central [OFS.GetName]s"
  trv_vic_southern_OFS_integration:0 "Integration of the Southern [OFS.GetName]s"
@@ -2393,10 +2393,10 @@
  trv_vic_road_east:0 "Roads in the East"
  trv_vic_road_matenence:0 "Road Matenence"
  trv_vic_resource_investments:0 "Resource Investments"
- trv_vic_coal_mine_expansion:0 "Coal Mine Expansions"
+ trv_vic_building_coal_expansion:0 "Coal Mine Expansions"
  trv_vic_diamond_fields:0 "Expansion Diamond Fields"
  trv_vic_riches_of_witwatersrand:0 "The Riches of Witwatersrand"
- 
+
  anglo_afghan_war.1.t:0 "Russia Demands we host their Representative"
  anglo_afghan_war.1.d:0 ""
  anglo_afghan_war.1.a:0 "Reject it"
@@ -2409,41 +2409,41 @@
  anglo_afghan_war.3.d:0 ""
  anglo_afghan_war.3.a:0 "Reject it"
  anglo_afghan_war.3.b:0 "Accept it"
- 
+
  egy_debt_system_managed.1.t:0 "Bankruptcy Worsens!"
  egy_debt_system_managed.1.d:0 "For a while our nation was recovering from bankruptcy, but it seems we're no longer managing it. Things have taken a turn for the worse!"
  egy_debt_system_managed.1.a:0 "This is terrible!"
- 
+
  egy_debt_system_managed.2.t:0 "Bankruptcy Managed!"
  egy_debt_system_managed.2.d:0 "The worst part of the bankruptcy is over and we're slowly able to manage it. Let's hope we things dont turn for a worse and we no longer can manage it..."
  egy_debt_system_managed.2.a:0 "We're slowly recovering..."
- 
+
  egy_debt_system.7.t:0 "Bankruptcy!"
  egy_debt_system.7.d:0 "The nation must declare bankruptcy to the world, as our debt has reached it's limits and we can no longer pay loans back."
  egy_debt_system.7.a:0 "This is terrible!"
  egy_debt_system.7.b:0 "Maybe [ENG.GetName] will forgive our debts if we sell [169.GetName]'s Mining Rights..."
- 
+
  egy_debt_system.9.t:0 "Bankruptcy & Debt Absolved!"
  egy_debt_system.9.d:0 "We are no longer bankrupt and our worries of debt are over!"
  egy_debt_system.9.a:0 "This is great!"
- 
+
  egy_debt_system.10.t:0 "[From.GetName] has Delcared Bankruptcy"
  egy_debt_system.10.d:0 "After years of overspending the treasury of [From.GetName] has officaly declared bankruptcy, the vultures of thier lenders are now circling the quickly failing economy of this unfortunate state."
  egy_debt_system.10.a:0 "Oh"
  egy_debt_system.10.b:0 "This is embarrassing!"
- 
+
  egy_debt_system.11.t:0 "A Debt Payment Has Been Paid!"
  egy_debt_system.11.d:0 "We have paid off part of our debt. Now we must decide if we will continue to pay our debts or pay it off at a later time."
  egy_debt_system.11.a:0 "Continue paying off debt!"
  egy_debt_system.11.b:0 "Let's pay off our debt later..."
- 
+
  EDC_berlin_con.20.t:0 "We have won the region of [Root.GetCurrentberVotingRegion]"
  NMC_RD_tab_status:0 "[MISSILE_GET_TAB_RD_STATUS]"
  NMC_Production_tab_status:0 "[MISSILE_GET_TAB_PRODUCTION_STATUS]"
  NMC_Targeting_tab_status:0 "[MISSILE_GET_TAB_TARGETING_STATUS]"
- 
+
  NMC_command_power_cost_25:0 "25£command_power"
- 
+
  POLITICS_AKAN_COUNCILS_DESC:0 "The Akan people are one meta-ethnicity and consider themselves to be one nation, but are made up of over thirty sub-groups and historically formed political entities on regional scale. These states, known as “Aman” in the Akan (also called Twi) language, would be ruled by kings, (“Ahemfo” in Akan) and territory would be given to various clans who ruled their respective states.\n The Akan are a matrilineal people, and in addition to tracing lineage through mothers, Akan kings would often have female co-rulers known as Queen-mothers who typically served as figureheads but sometimes fulfilled the role of the king themselves. Especially unique, however, was the ability for both noble and non-noble individuals to become sub-chiefs, which were non-hereditary roles granted to people based on their ability to fulfill the job. \n Elements of the Akan people’s unique political organization were often transferred to nations conquered by or allied to the Akan, and even the British attempted to impose the system on some of its West African dominions due to its perceived efficiency."
  #POLITICS_AL_ZUBAYR_RAHMA_MANSUR_DESC:0 "Infamous slave trader turned pasha and Sudanese governor Al-Zubayr Rahma Mansur began his trade empire in 1856, establishing a network of trading forts and engaging heavily in the sale of both ivory and slaves. With his personal army, Rahma gained control over territory spanning much of Southern Sudan (and parts of modern-day Chad and the Central African Republic) at his empire’s peak. Initially coming into conflict with Egypt, Rahma successfully fended off a mercenary invasion ordered by Isma’il Pasha, but agreed to incorporate his domain into the Egyptian Khedivate in exchange for being named Governor of the region and having his control over the territory acknowledged.\n\nRahma would later find himself at odds with the British Empire, which was expanding its control over Sudan and attempting to suppress the slave trade. He gained a reputation as a nemesis of British General Charles Gordon, both militarily supporting Gordon’s enemies and trying to negotiate with him. Rahma would surprisingly receive the title of Governor of Sudan on Gordon’s recommendation, had this title revoked due to his participation in the slave trade, and was finally allowed to return to Sudan for the final years of his life after being imprisoned by the British due to alleged disloyalty."
  POLITICS_DOST_MUHAMMAD_KHAN_DESC:0 "Dost Mohammad Khan, Afghanistan’s first Emir under the Barakzai dynasty, ruled the Emirate of Afghanistan during a characteristically tumultuous period of his country’s history.\nAs a member of the influential Barakzai clan in the Durrani Empire, Dost Mohammad and his brother Wazir Fateh Khan fought and lost to the Sikh Empire at the Battle of Attock. After their loss to the Sikhs, a former Durrani Emir had Wazir assassinated. In response, the Barakzai clan successfully rebelled against the Durranis, and having risen to become the clan’s most powerful member, Khan ascended to the Afghan throne in 1826 after the Barakzai victory.\nBeing caught between British and Russian imperial interests, Khan was forced to engage in political maneuvering to maintain Afghanistan’s independence. Initially trying and failing to cooperate with Russia, he then tried to form an alliance with Great Britain, also to no avail. Wanting to exert influence over Afghanistan, the British captured Kabul and deposed Khan in 1839, triggering the First Anglo-Afghan War. Miraculously, the Afghans won the war and restored Khan to the throne in 1842.\nDuring his second reign, Khan reaffirmed hostility towards the British and allied with his former enemy, the Sikhs. However, the defeat and annexation of the Sikh Empire into British India caused him to again reverse course, joining the British in their invasion of Persia and annexing Herat, and refraining from supporting the Indian Rebellion of 1857."
@@ -2457,10 +2457,10 @@
  G_filler_WWI.1.b:0 "Invade Serbia"
  G_filler_WWI.1.c:0 "We cannot blame Serbia"
  G_filler_WWI.1.e:0 "A Seminal Tragedy"
- 
+
  uct.2.t:0 "Unifaction of Fiji"
  uct.2.d:0 "After Centuries of interal fighting the Kingdom of fiji has risen again in the pacific, forging ties with [END.GetName], [FIJ.GetName] hopes to take its place as a power in the pacific once again."
  boer_states.114.t:0 "Second Boer War"
  boer_states.114.d:0 "Tensions between the boers and the british colonies in south africa have erupted into war. brought to the brink by the disastorus jamestown raid performed by the Natal Administration, the Boers have declared war to assert their independance"
  boer_states.114.a:0 "The Boers again?"
- 
+

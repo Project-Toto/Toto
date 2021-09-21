@@ -355,7 +355,7 @@ focus_tree = {
 					amount = 8
 				}
 				add_resource = {
-					type = iron
+					type = resource_iron
 					amount = 2
 				}
 			}
@@ -1176,7 +1176,7 @@ focus_tree = {
 		completion_reward={
 			random_owned_state={
 				add_resource = {
-					type = iron
+					type = resource_iron
 					amount = 8
 				}
 			}
@@ -1201,7 +1201,7 @@ focus_tree = {
 		completion_reward={
 			random_owned_state={
 				add_resource = {
-					type = iron
+					type = resource_iron
 					amount = 4
 				}
 			}

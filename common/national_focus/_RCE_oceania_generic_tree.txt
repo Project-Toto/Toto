@@ -695,7 +695,7 @@ focus_tree = {
 			set_country_flag = Oceania_generic_french_administrators
 			custom_effect_tooltip = AFR_GENERIC_COLONIAL_ENTER_TOOLTIP
 			hidden_effect = { add_ideas = { Oceania_antoine_dufresne } }
-			custom_effect_tooltip = available_political_advisor
+			custom_effect_tooltip = available_court_advisor
 			show_ideas_tooltip = Oceania_antoine_dufresne
 			custom_effect_tooltip = afr_colonial_effect_tooltip
 			capital_scope = {
@@ -1107,7 +1107,7 @@ focus_tree = {
 			set_country_flag = Oceania_generic_british_administrators
 			custom_effect_tooltip = AFR_GENERIC_COLONIAL_ENTER_TOOLTIP
 			hidden_effect = { add_ideas = { Oceania_theodore_wilkinson } }
-			custom_effect_tooltip = available_political_advisor
+			custom_effect_tooltip = available_court_advisor
 			show_ideas_tooltip = Oceania_theodore_wilkinson
 			custom_effect_tooltip = afr_colonial_effect_tooltip
 			capital_scope = {
@@ -2108,7 +2108,7 @@ focus_tree = {
 
 	focus = {
 		id = Oceania_generic_chinese_mining_practices
-		icon = GFX_goal_focus_coal_mines
+		icon = GFX_goal_focus_building_coals
 		cost = 75
 		prerequisite = {
 			focus = Oceania_generic_chinese_merchants
@@ -2125,7 +2125,7 @@ focus_tree = {
 					is_core_of = ROOT
 					#NOT = { has_state_flag = Oceania_historically_colonized_land  }
 				}
-				add_resource = { type = iron amount = 8 }
+				add_resource = { type = resource_iron amount = 8 }
 			}
 			custom_effect_tooltip = AFR_GENERIC_COLONIAL_ENTER_TOOLTIP
 			custom_effect_tooltip = EDC_afr.5.t
@@ -2256,7 +2256,7 @@ focus_tree = {
 			set_country_flag = Oceania_generic_chinese_administrators
 			custom_effect_tooltip = AFR_GENERIC_COLONIAL_ENTER_TOOLTIP
 			hidden_effect = { add_ideas = { Oceania_zhu_yating } }
-			custom_effect_tooltip = available_political_advisor
+			custom_effect_tooltip = available_court_advisor
 			show_ideas_tooltip = Oceania_zhu_yating
 			custom_effect_tooltip = afr_colonial_effect_tooltip
 			capital_scope = {
@@ -2277,7 +2277,7 @@ focus_tree = {
 		completion_reward = {
 			set_country_flag = Oceania_generic_chinese_military_advisors
 			#hidden_effect = { add_ideas = { Oceania_xiang_ling } }
-			custom_effect_tooltip = available_political_advisor
+			custom_effect_tooltip = available_court_advisor
 			#show_ideas_tooltip = Oceania_xiang_ling
 			custom_effect_tooltip = afr_colonial_effect_tooltip
 			capital_scope = {
@@ -2378,7 +2378,7 @@ focus_tree = {
 				}
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
-					type = logging_camp
+					type = building_logging
 					level = 1
 					instant_build = yes
 				}
@@ -2702,7 +2702,7 @@ focus_tree = {
 			}
 			918 = {
 				add_building_construction = {
-					type = naval_base
+					type = building_port
 					level = 2
 					province = 7658
 					instant_build = yes
@@ -3047,7 +3047,7 @@ focus_tree = {
 				}
 				capital_scope = {
 					add_building_construction = {
-						type = naval_base
+						type = building_port
 						level = 1
 						province = 13764
 						instant_build = yes
@@ -3060,7 +3060,7 @@ focus_tree = {
 				}
 				capital_scope = {
 					add_building_construction = {
-						type = naval_base
+						type = building_port
 						level = 1
 						province = 1404
 						instant_build = yes
@@ -3874,7 +3874,7 @@ focus_tree = {
 					is_core_of = ROOT
 					#NOT = { has_state_flag = Oceania_historically_colonized_land  }
 				}
-				add_resource = { type = iron amount = 8 }
+				add_resource = { type = resource_iron amount = 8 }
 				if = {
 					limit = {
 						THIS = {
@@ -3953,7 +3953,7 @@ focus_tree = {
 				set_country_flag = Oceania_generic_isolationist_promote_our_national_agenda
 				custom_effect_tooltip = AFR_GENERIC_COLONIAL_ENTER_TOOLTIP
 				hidden_effect = { add_ideas = { Oceania_islamic_isolationist_diplomacy_advisor } }
-				custom_effect_tooltip = available_political_advisor
+				custom_effect_tooltip = available_court_advisor
 				custom_effect_tooltip = Oceania_islamic_isolationist_diplomacy_advisor
 			}
 			if = {
@@ -3963,7 +3963,7 @@ focus_tree = {
 				set_country_flag = Oceania_generic_isolationist_promote_our_national_agenda
 				custom_effect_tooltip = AFR_GENERIC_COLONIAL_ENTER_TOOLTIP
 				hidden_effect = { add_ideas = { Oceania_vietnam_isolationist_diplomacy_advisor } }
-				custom_effect_tooltip = available_political_advisor
+				custom_effect_tooltip = available_court_advisor
 				custom_effect_tooltip = Oceania_vietnam_isolationist_diplomacy_advisor
 			}
 			if = {
@@ -3973,7 +3973,7 @@ focus_tree = {
 				set_country_flag = Oceania_generic_isolationist_promote_our_national_agenda
 				custom_effect_tooltip = AFR_GENERIC_COLONIAL_ENTER_TOOLTIP
 				hidden_effect = { add_ideas = { Oceania_cambodia_isolationist_diplomacy_advisor } }
-				custom_effect_tooltip = available_political_advisor
+				custom_effect_tooltip = available_court_advisor
 				custom_effect_tooltip = Oceania_cambodia_isolationist_diplomacy_advisor
 			}
 			if = {
@@ -3983,7 +3983,7 @@ focus_tree = {
 				set_country_flag = Oceania_generic_isolationist_promote_our_national_agenda
 				custom_effect_tooltip = AFR_GENERIC_COLONIAL_ENTER_TOOLTIP
 				hidden_effect = { add_ideas = { Oceania_siam_isolationist_diplomacy_advisor } }
-				custom_effect_tooltip = available_political_advisor
+				custom_effect_tooltip = available_court_advisor
 				custom_effect_tooltip = Oceania_siam_isolationist_diplomacy_advisor
 			}
 			if = {
@@ -4117,7 +4117,7 @@ focus_tree = {
 				set_country_flag = Oceania_generic_isolationist_promote_our_national_agenda
 				custom_effect_tooltip = AFR_GENERIC_COLONIAL_ENTER_TOOLTIP
 				hidden_effect = { add_ideas = { Oceania_islamic_isolationist_industry_advisor } }
-				custom_effect_tooltip = available_political_advisor
+				custom_effect_tooltip = available_court_advisor
 				custom_effect_tooltip = Oceania_islamic_isolationist_industry_advisor
 			}
 			if = {
@@ -4127,7 +4127,7 @@ focus_tree = {
 				set_country_flag = Oceania_generic_isolationist_promote_our_national_agenda
 				custom_effect_tooltip = AFR_GENERIC_COLONIAL_ENTER_TOOLTIP
 				hidden_effect = { add_ideas = { Oceania_vietnam_isolationist_industry_advisor } }
-				custom_effect_tooltip = available_political_advisor
+				custom_effect_tooltip = available_court_advisor
 				custom_effect_tooltip = Oceania_vietnam_isolationist_industry_advisor
 			}
 			if = {
@@ -4137,7 +4137,7 @@ focus_tree = {
 				set_country_flag = Oceania_generic_isolationist_promote_our_national_agenda
 				custom_effect_tooltip = AFR_GENERIC_COLONIAL_ENTER_TOOLTIP
 				hidden_effect = { add_ideas = { Oceania_cambodia_isolationist_industry_advisor } }
-				custom_effect_tooltip = available_political_advisor
+				custom_effect_tooltip = available_court_advisor
 				custom_effect_tooltip = Oceania_cambodia_isolationist_industry_advisor
 			}
 			if = {
@@ -4147,7 +4147,7 @@ focus_tree = {
 				set_country_flag = Oceania_generic_isolationist_promote_our_national_agenda
 				custom_effect_tooltip = AFR_GENERIC_COLONIAL_ENTER_TOOLTIP
 				hidden_effect = { add_ideas = { Oceania_siam_isolationist_industry_advisor } }
-				custom_effect_tooltip = available_political_advisor
+				custom_effect_tooltip = available_court_advisor
 				custom_effect_tooltip = Oceania_siam_isolationist_industry_advisor
 			}
 		}
@@ -5699,7 +5699,7 @@ focus_tree = {
 					}
 					add_extra_state_shared_building_slots = 1
 					add_building_construction = {
-						type = cotton_farm
+						type = building_cotton
 						level = 1
 						instant_build = yes
 					}
@@ -5711,7 +5711,7 @@ focus_tree = {
 					}
 					add_extra_state_shared_building_slots = 1
 					add_building_construction = {
-						type = cotton_farm
+						type = building_cotton
 						level = 1
 						instant_build = yes
 					}
@@ -5725,7 +5725,7 @@ focus_tree = {
 					}
 					add_extra_state_shared_building_slots = 1
 					add_building_construction = {
-						type = cotton_farm
+						type = building_cotton
 						level = 1
 						instant_build = yes
 					}
@@ -5767,7 +5767,7 @@ focus_tree = {
 					}
 					add_extra_state_shared_building_slots = 1
 					add_building_construction = {
-						type = farm
+						type =building_farm
 						level = 1
 						instant_build = yes
 					}
@@ -5779,7 +5779,7 @@ focus_tree = {
 					}
 					add_extra_state_shared_building_slots = 1
 					add_building_construction = {
-						type = farm
+						type =building_farm
 						level = 1
 						instant_build = yes
 					}
@@ -5791,7 +5791,7 @@ focus_tree = {
 					}
 					add_extra_state_shared_building_slots = 1
 					add_building_construction = {
-						type = farm
+						type =building_farm
 						level = 1
 						instant_build = yes
 					}
@@ -5805,7 +5805,7 @@ focus_tree = {
 					}
 					add_extra_state_shared_building_slots = 1
 					add_building_construction = {
-						type = farm
+						type =building_farm
 						level = 1
 						instant_build = yes
 					}
@@ -5817,7 +5817,7 @@ focus_tree = {
 					}
 					add_extra_state_shared_building_slots = 1
 					add_building_construction = {
-						type = farm
+						type =building_farm
 						level = 1
 						instant_build = yes
 					}
@@ -5957,7 +5957,7 @@ focus_tree = {
 						}
 						add_extra_state_shared_building_slots = 1
 						add_building_construction = {
-							type = fabric_weavery
+							type = building_weavery
 							level = 1
 							instant_build = yes
 						}
@@ -6020,7 +6020,7 @@ focus_tree = {
 						}
 						add_extra_state_shared_building_slots = 1
 						add_building_construction = {
-							type = fabric_weavery
+							type = building_weavery
 							level = 1
 							instant_build = yes
 						}

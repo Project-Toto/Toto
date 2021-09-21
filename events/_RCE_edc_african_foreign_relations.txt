@@ -1,6 +1,6 @@
 ﻿add_namespace = EDC_afr							#10%
 add_namespace = EDC_afr_infrastructure 			#5%
-add_namespace = EDC_afr_fabric_weavery 			#5%
+add_namespace = EDC_afr_building_weavery 			#5%
 add_namespace = EDC_afr_dockyard 				#5%
 add_namespace = EDC_afr_arms_factory			#10%
 add_namespace = EDC_afr_steel_mill				#10%
@@ -15,9 +15,9 @@ state_event = {
 	hidden = yes
 	is_triggered_only = yes
 	trigger = { NOT = { has_state_flag = afr_empire_state_industrialized_fully_once_flag } }
-	
-	immediate = { 
-		set_state_flag = afr_empire_state_industrialized_fully_once_flag 
+
+	immediate = {
+		set_state_flag = afr_empire_state_industrialized_fully_once_flag
 		OWNER = {
 			random_state = {
 				limit = { STATE = ROOT }
@@ -31,8 +31,8 @@ state_event = {
 	id = afr_empire_state_industrialized_fully_event.2
 	hidden = yes
 	is_triggered_only = yes
-	
-	immediate = {  
+
+	immediate = {
 		OWNER = { country_event = { id = afr_empire_state_industrialized_fully_event.3 } }
 	}
 }
@@ -43,7 +43,7 @@ country_event = {
 	desc = afr_empire_state_industrialized_fully_event.3.d
 	picture = GFX_report_event_chinese_army_training
 	is_triggered_only = yes
-	
+
 	option = {
 		name = afr_empire_state_industrialized_fully_event.3.a
 		ai_chance = { base = 100 }
@@ -52,11 +52,11 @@ country_event = {
 		}
 		custom_effect_tooltip = EDC_afr.6.t
 	}
-	
+
 	option = {
 		name = afr_empire_state_industrialized_fully_event.3.b
 		ai_chance = { base = 0 }
-		FROM = { 
+		FROM = {
 			afr_empire_state_industrisation_progress_decrease_by_15 = yes
 			hidden_effect = { clr_state_flag = afr_empire_state_industrialized_fully_once_flag }
 		}
@@ -68,9 +68,9 @@ country_event = {
 	title = EDC_afr_focus_path_jihadist_coup.1.t
 	desc = EDC_afr_focus_path_jihadist_coup.1.d
 	picture = GFX_report_event_chinese_army_training
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EDC_afr_focus_path_change.1.a
 		if = {
@@ -90,9 +90,9 @@ country_event = {
 	title = EDC_afr_focus_path_jihadist_coup.2.t
 	desc = EDC_afr_focus_path_jihadist_coup.2.d
 	picture = GFX_report_event_chinese_army_training
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EDC_afr_focus_path_change.2.a
 		if = {
@@ -111,11 +111,11 @@ country_event = {
 	id = EDC_afr_focus_path_change_clr.1
 	hidden = yes
 	is_triggered_only = yes
-	
+
 	immediate = {
 		ROOT = { clr_country_flag = afr_follow_overlord_trigger }
 	}
-	
+
 }
 
 
@@ -124,9 +124,9 @@ country_event = {
 	title = EDC_afr_focus_path_change.1.t
 	desc = EDC_afr_focus_path_change.1.d
 	picture = GFX_report_event_chinese_army_training
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EDC_afr_focus_path_change.1.a
 		trigger = {
@@ -141,7 +141,7 @@ country_event = {
 			}
 		}
 		if = {
-			limit = { 
+			limit = {
 				OR = {
 					AND = {
 						focus_progress = { focus = afr_inw_govermental_westernisation progress < 1 }
@@ -159,10 +159,10 @@ country_event = {
 			hidden_effect = { country_event = { id =  EDC_afr_focus_path_change_clr.1 days = 12 } }
 		}
 	}
-	
+
 	option = {
 		name = EDC_afr_focus_path_change.1.b
-		ai_chance = { 
+		ai_chance = {
 			factor = 50
 		}
 	}
@@ -173,9 +173,9 @@ country_event = {
 	title = EDC_afr_focus_path_change.2.t
 	desc = EDC_afr_focus_path_change.2.d
 	picture = GFX_report_event_chinese_army_training
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		trigger = {
 			NOT = { has_country_flag = afr_progress_tree }
@@ -186,10 +186,10 @@ country_event = {
 		custom_effect_tooltip = afr_choose_jihadist_tree_tooltip
 		hidden_effect = { country_event = { id =  EDC_afr_focus_path_change_clr.1 days = 12 } }
 	}
-	
+
 	option = {
 		name = EDC_afr_focus_path_change.2.b
-		
+
 	}
 }
 
@@ -198,25 +198,25 @@ country_event = {
 	title = EDC_afr_focus_path_change.3.t
 	desc = EDC_afr_focus_path_change.3.d
 	picture = GFX_report_event_chinese_army_training
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EDC_afr_focus_path_change.3.a
 		trigger = {
 			TAG = ZAN
 		}
-		ai_chance = { 
+		ai_chance = {
 			factor = 75
 		}
 	}
-	
+
 	option = {
 		name = EDC_afr_focus_path_change.3.b
 		trigger = {
 			TAG = ZAN
 		}
-		ai_chance = { 
+		ai_chance = {
 			factor = 25
 			modifier = {
 				factor = 0
@@ -224,14 +224,14 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = EDC_afr_focus_path_change.3.c
 		trigger = {
 			TAG = GLD
 		}
 	}
-	
+
 	option = {
 		name = EDC_afr_focus_path_change.3.e
 		trigger = {
@@ -241,7 +241,7 @@ country_event = {
 			NOT = { has_country_flag = afr_western_protection_tree }
 			NOT = { has_country_flag = afr_traditional_western_blend_tree }
 		}
-		ai_chance = { 
+		ai_chance = {
 			factor = 25
 			modifier = {
 				factor = 0
@@ -266,7 +266,7 @@ country_event = {
 			hidden_effect = { country_event = { id =  EDC_afr_focus_path_change_clr.1 days = 12 } }
 		}
 		if = {
-			limit = { 
+			limit = {
 				OR = {
 					AND = {
 						focus_progress = { focus = afr_wes_western_protection progress < 1 }
@@ -286,7 +286,7 @@ country_event = {
 			hidden_effect = { country_event = { id =  EDC_afr_focus_path_change_clr.1 days = 12 } }
 		}
 		if = {
-			limit = { 
+			limit = {
 				OR = {
 					AND = {
 						focus_progress = { focus = afr_wes_traditional_western_blend progress < 1 }
@@ -305,28 +305,28 @@ country_event = {
 			hidden_effect = { country_event = { id =  EDC_afr_focus_path_change_clr.1 days = 12 } }
 		}
 		if = {
-			limit = { 
+			limit = {
 				NOT = { has_country_flag = afr_progress_tree }
 				NOT = { has_country_flag = afr_traditional_tree }
 				NOT = { has_country_flag = afr_western_protection_tree }
 				NOT = { has_country_flag = afr_traditional_western_blend_tree }
 			}
 			set_country_flag = afr_jihadist_tree
-			
+
 		}
 		custom_effect_tooltip = afr_choose_jihadist_tree_tooltip
 	}
-	
+
 	option = {
 		name = EDC_afr_focus_path_change.3.f
 		trigger = {
 			TAG = MOM
 		}
-		ai_chance = { 
+		ai_chance = {
 			factor = 75
 		}
 	}
-	
+
 	option = {
 		name = EDC_afr_focus_path_change.3.h
 		trigger = {
@@ -343,9 +343,9 @@ country_event = {
 	title = EDC_afr.1.t
 	desc = EDC_afr.1.d
 	picture = GFX_report_event_chinese_army_training
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = EDC_afr.1.a
 		#BROKEN
@@ -357,7 +357,7 @@ country_event = {
 		#		}
 		#	}
 		#}
-		#ROOT ={ 
+		#ROOT ={
 			create_wargoal ={ ##try this first, then try dynamic border war if effect not wanted
 				type = take_state_focus
 				target = FROM
@@ -376,10 +376,10 @@ country_event = {
 	title = EDC_afr.2.t
 	desc = EDC_afr.2.d
 	picture = GFX_report_event_chinese_army_training
-	
+
 	is_triggered_only = yes
 	hidden = yes
-	
+
 	immediate = {
 		FROM = { country_event = { id = EDC_afr.1 hours = 6 } }
 	}
@@ -390,10 +390,10 @@ country_event = {#1 industrial point
 	title = EDC_afr.3.t
 	desc = EDC_afr.3.d
 	picture = GFX_report_event_chinese_army_training
-	
+
 	is_triggered_only = yes
 	hidden = yes
-	
+
 	immediate = {
 		add_to_variable = { ROOT.innovation_progress = 1 }
 	}
@@ -403,10 +403,10 @@ country_event = { #0.5 industrial point
 	title = EDC_afr.4.t
 	desc = EDC_afr.3.d
 	picture = GFX_report_event_chinese_army_training
-	
+
 	is_triggered_only = yes
 	hidden = yes
-	
+
 	immediate = {
 		add_to_variable = { ROOT.innovation_progress = 0.5 }
 	}
@@ -416,10 +416,10 @@ country_event = { #5 industrial point
 	title = EDC_afr.5.t
 	desc = EDC_afr.3.d
 	picture = GFX_report_event_chinese_army_training
-	
+
 	is_triggered_only = yes
 	hidden = yes
-	
+
 	immediate = {
 		add_to_variable = { ROOT.innovation_progress = 5 }
 	}
@@ -429,10 +429,10 @@ country_event = { #10 industrial point
 	title = EDC_afr.6.t
 	desc = EDC_afr.3.d
 	picture = GFX_report_event_chinese_army_training
-	
+
 	is_triggered_only = yes
 	hidden = yes
-	
+
 	immediate = {
 		add_to_variable = { ROOT.innovation_progress = 10 }
 	}
@@ -442,10 +442,10 @@ country_event = { #-0.5 industrial point
 	title = EDC_afr.7.t
 	desc = EDC_afr.3.d
 	picture = GFX_report_event_chinese_army_training
-	
+
 	is_triggered_only = yes
 	hidden = yes
-	
+
 	immediate = {
 		add_to_variable = { ROOT.innovation_progress = -0.5 }
 	}
@@ -455,10 +455,10 @@ country_event = { #-1 industrial point
 	title = EDC_afr.8.t
 	desc = EDC_afr.3.d
 	picture = GFX_report_event_chinese_army_training
-	
+
 	is_triggered_only = yes
 	hidden = yes
-	
+
 	immediate = {
 		add_to_variable = { ROOT.innovation_progress = -1 }
 	}
@@ -468,10 +468,10 @@ country_event = { #-5 industrial point
 	title = EDC_afr.9.t
 	desc = EDC_afr.3.d
 	picture = GFX_report_event_chinese_army_training
-	
+
 	is_triggered_only = yes
 	hidden = yes
-	
+
 	immediate = {
 		add_to_variable = { ROOT.innovation_progress = -5 }
 	}
@@ -481,9 +481,9 @@ country_event = {###natives want to buy cannons
 	title = EDC_afr.10.t
 	desc = EDC_afr.10.d
 	picture = GFX_report_event_chinese_army_training
-	
+
 	is_triggered_only = yes
-	
+
 	option = {#yes
 		name = EDC_afr.10.a
 		add_political_power = 15
@@ -513,12 +513,12 @@ country_event = {###natives reached 100% industrialisation
 	title = EDC_afr.11.t
 	desc = EDC_afr.11.d
 	picture = GFX_report_event_chinese_army_training
-	
+
 	#is_triggered_only = yes
 	trigger = {
 		has_war = no
 		check_variable = {ROOT.innovation_progress > 99.9}
-		OR = { 
+		OR = {
 			has_idea = afr_reforming_kingdom
 			has_country_flag = Oceania_industrializing
 			AND = {
@@ -533,13 +533,13 @@ country_event = {###natives reached 100% industrialisation
 	}
 	immediate = {
 		if = {
-			limit = { 
+			limit = {
 				has_idea = afr_reforming_kingdom
 			}
 			set_country_flag = afr_edc_event_is_african_flag
 		}
 	}
-	
+
 	option = {#yes industry ho
 		name = EDC_afr.11.a
 		trigger = {
@@ -549,13 +549,13 @@ country_event = {###natives reached 100% industrialisation
 			factor = 95
 		}
 		if = {
-			limit = { 
+			limit = {
 				has_country_flag = afr_edc_event_is_african_flag
 			}
 			custom_effect_tooltip = afr_become_industrialised
 		}
 		if = {
-			limit = { 
+			limit = {
 				NOT = { has_country_flag = afr_edc_event_is_african_flag }
 			}
 			custom_effect_tooltip = Oceania_become_industrialised
@@ -568,7 +568,7 @@ country_event = {###natives reached 100% industrialisation
 			clr_country_flag = afr_an_african_industrializing
 			add_ideas = industrializing
 			if = {
-				limit = { 
+				limit = {
 					has_country_flag = afr_edc_event_is_african_flag
 				}
 				add_ideas = afr_post_tribal
@@ -612,11 +612,11 @@ country_event = {###natives reached 10 factories
 	title = EDC_afr.12.t
 	desc = EDC_afr.12.d
 	picture = GFX_report_event_chinese_army_training
-	
+
 	#is_triggered_only = yes
 	trigger = {
 		check_variable = {ROOT.innovation_progress < 100}
-		OR = { 
+		OR = {
 			has_idea = afr_reforming_kingdom
 			has_country_flag = Oceania_industrializing
 			has_country_flag = afr_colony_industrializing
@@ -628,14 +628,14 @@ country_event = {###natives reached 10 factories
 	mean_time_to_happen = {
 		days = 30
 	}
-	
+
 	option = {#ok
 		name = EDC_afr.12.a
 		set_country_flag = af_t_10_fac
 		custom_effect_tooltip = EDC_afr.6.t
 		hidden_effect = {
 			country_event = { id = EDC_afr.6 hours = 1 }
-		}	
+		}
 	}
 }
 country_event = {###natives reached 10 infrastructure
@@ -643,11 +643,11 @@ country_event = {###natives reached 10 infrastructure
 	title = EDC_afr.12.t
 	desc = EDC_afr.12.d
 	picture = GFX_report_event_chinese_army_training
-	
+
 	#is_triggered_only = yes
 	trigger = {
 		check_variable = {ROOT.innovation_progress < 100}
-		OR = { 
+		OR = {
 			has_idea = afr_reforming_kingdom
 			has_country_flag = Oceania_industrializing
 			has_country_flag = afr_colony_industrializing
@@ -659,45 +659,45 @@ country_event = {###natives reached 10 infrastructure
 	mean_time_to_happen = {
 		days = 30
 	}
-	
+
 	option = {#ok
 		name = EDC_afr.12.a
 		set_country_flag = af_t_10_infra
 		custom_effect_tooltip = EDC_afr.5.t
 		hidden_effect = {
 			country_event = { id = EDC_afr.5 hours = 1 }
-		}	
+		}
 	}
 }
-country_event = {###natives reached 10 fabric_weavery
-	id = EDC_afr_fabric_weavery.12
+country_event = {###natives reached 10 building_weavery
+	id = EDC_afr_building_weavery.12
 	title = EDC_afr.12.t
 	desc = EDC_afr.12.d
 	picture = GFX_report_event_chinese_army_training
-	
+
 	#is_triggered_only = yes
 	trigger = {
 		check_variable = {ROOT.innovation_progress < 100}
-		OR = { 
+		OR = {
 			has_idea = afr_reforming_kingdom
 			has_country_flag = Oceania_industrializing
 			has_country_flag = afr_colony_industrializing
 			has_country_flag = afr_an_african_industrializing
 		}
-		fabric_weavery > 9
+		building_weavery > 9
 		NOT= {has_country_flag= af_t_10_fabric}
 	}
 	mean_time_to_happen = {
 		days = 30
 	}
-	
+
 	option = {#ok
 		name = EDC_afr.12.a
 		set_country_flag = af_t_10_fabric
 		custom_effect_tooltip = EDC_afr.5.t
 		hidden_effect = {
 			country_event = { id = EDC_afr.5 hours = 1 }
-		}	
+		}
 	}
 }
 country_event = {###natives reached 10 arms_factory
@@ -705,11 +705,11 @@ country_event = {###natives reached 10 arms_factory
 	title = EDC_afr.12.t
 	desc = EDC_afr.12.d
 	picture = GFX_report_event_chinese_army_training
-	
+
 	#is_triggered_only = yes
 	trigger = {
 		check_variable = {ROOT.innovation_progress < 100}
-		OR = { 
+		OR = {
 			has_idea = afr_reforming_kingdom
 			has_country_flag = Oceania_industrializing
 			has_country_flag = afr_colony_industrializing
@@ -721,14 +721,14 @@ country_event = {###natives reached 10 arms_factory
 	mean_time_to_happen = {
 		days = 30
 	}
-	
+
 	option = {#ok
 		name = EDC_afr.12.a
 		set_country_flag = af_t_10_arms
 		custom_effect_tooltip = EDC_afr.6.t
 		hidden_effect = {
 			country_event = { id = EDC_afr.6 hours = 1 }
-		}	
+		}
 	}
 }
 country_event = {###natives reached 10 dockyard
@@ -736,11 +736,11 @@ country_event = {###natives reached 10 dockyard
 	title = EDC_afr.12.t
 	desc = EDC_afr.12.d
 	picture = GFX_report_event_chinese_army_training
-	
+
 	#is_triggered_only = yes
 	trigger = {
 		check_variable = {ROOT.innovation_progress < 100}
-		OR = { 
+		OR = {
 			has_idea = afr_reforming_kingdom
 			has_country_flag = Oceania_industrializing
 			has_country_flag = afr_colony_industrializing
@@ -752,14 +752,14 @@ country_event = {###natives reached 10 dockyard
 	mean_time_to_happen = {
 		days = 30
 	}
-	
+
 	option = {#ok
 		name = EDC_afr.12.a
 		set_country_flag = af_t_10_dockyard
 		custom_effect_tooltip = EDC_afr.5.t
 		hidden_effect = {
 			country_event = { id = EDC_afr.5 hours = 1 }
-		}	
+		}
 	}
 }
 country_event = {###natives reached 10 steel_mill
@@ -767,11 +767,11 @@ country_event = {###natives reached 10 steel_mill
 	title = EDC_afr.12.t
 	desc = EDC_afr.12.d
 	picture = GFX_report_event_chinese_army_training
-	
+
 	#is_triggered_only = yes
 	trigger = {
 		check_variable = {ROOT.innovation_progress < 100}
-		OR = { 
+		OR = {
 			has_idea = afr_reforming_kingdom
 			has_country_flag = Oceania_industrializing
 			has_country_flag = afr_colony_industrializing
@@ -783,14 +783,14 @@ country_event = {###natives reached 10 steel_mill
 	mean_time_to_happen = {
 		days = 30
 	}
-	
+
 	option = {#ok
 		name = EDC_afr.12.a
 		set_country_flag = af_t_10_steel
 		custom_effect_tooltip = EDC_afr.6.t
 		hidden_effect = {
 			country_event = { id = EDC_afr.6 hours = 1 }
-		}	
+		}
 	}
 }
 country_event = {###natives reached 10 machine_parts_factory
@@ -798,11 +798,11 @@ country_event = {###natives reached 10 machine_parts_factory
 	title = EDC_afr.12.t
 	desc = EDC_afr.12.d
 	picture = GFX_report_event_chinese_army_training
-	
+
 	#is_triggered_only = yes
 	trigger = {
 		check_variable = {ROOT.innovation_progress < 100}
-		OR = { 
+		OR = {
 			has_idea = afr_reforming_kingdom
 			has_country_flag = Oceania_industrializing
 			has_country_flag = afr_colony_industrializing
@@ -814,14 +814,14 @@ country_event = {###natives reached 10 machine_parts_factory
 	mean_time_to_happen = {
 		days = 30
 	}
-	
+
 	option = {#ok
 		name = EDC_afr.12.a
 		set_country_flag = af_t_10_machine_parts
 		custom_effect_tooltip = EDC_afr.6.t
 		hidden_effect = {
 			country_event = { id = EDC_afr.6 hours = 1 }
-		}	
+		}
 	}
 }
 country_event = {###populus is adgitated about change
@@ -829,12 +829,12 @@ country_event = {###populus is adgitated about change
 	title = EDC_afr.13.t
 	desc = EDC_afr.13.d
 	picture = GFX_report_event_chinese_army_training
-	
+
 	#is_triggered_only = yes
 	trigger = {
 		check_variable = {ROOT.innovation_progress < 100}
 		check_variable = {ROOT.innovation_progress > 20}
-		OR = { 
+		OR = {
 			has_idea = afr_reforming_kingdom
 			has_country_flag = Oceania_industrializing
 			has_country_flag = afr_colony_industrializing
@@ -848,13 +848,13 @@ country_event = {###populus is adgitated about change
 	mean_time_to_happen = {
 		days = 1000
 	}
-	
+
 	option = {#we must continue
 		name = EDC_afr.13.a
 		custom_effect_tooltip = EDC_afr.4.t
 		ai_chance = { factor = 100 }
 		hidden_effect = {
-			country_event = { id = EDC_afr.4 hours = 1 } 
+			country_event = { id = EDC_afr.4 hours = 1 }
 		}
 		add_stability = -0.025
 	}
@@ -866,7 +866,7 @@ country_event = {###populus is adgitated about change
 		hidden_effect = {
 			country_event = { id = EDC_afr.8 hours = 1 }
 			country_event = { id = EDC_afr.8 hours = 1 }
-		}	
+		}
 		add_stability = 0.05
 	}
 }
@@ -875,12 +875,12 @@ country_event = {###army is pissed about new weapons
 	title = EDC_afr.14.t
 	desc = EDC_afr.14.d
 	picture = GFX_report_event_chinese_army_training
-	
+
 	#is_triggered_only = yes
 	trigger = {
 		check_variable = {ROOT.innovation_progress < 100}
 		check_variable = {ROOT.innovation_progress > 25}
-		OR = { 
+		OR = {
 			has_idea = afr_reforming_kingdom
 			has_country_flag = Oceania_industrializing
 			has_country_flag = afr_colony_industrializing
@@ -890,7 +890,7 @@ country_event = {###army is pissed about new weapons
 	mean_time_to_happen = {
 		days = 1000
 	}
-	
+
 	option = {#no
 		name = EDC_afr.14.a
 		ai_chance = { factor = 100 }
@@ -904,7 +904,7 @@ country_event = {###army is pissed about new weapons
 		custom_effect_tooltip = EDC_afr.9.t
 		hidden_effect = {
 			country_event = { id = EDC_afr.9 hours = 1 }
-		}	
+		}
 		add_war_support = 0.05
 	}
 }
@@ -913,12 +913,12 @@ country_event = {###send a colonisation proposal to you benafactor
 	title = EDC_afr.16.t
 	desc = EDC_afr.16.d
 	picture = GFX_report_event_chinese_army_training
-	
+
 	#is_triggered_only = yes
 	trigger = {
 		check_variable = {ROOT.innovation_progress < 100}
 		check_variable = {ROOT.innovation_progress > 25}
-		OR = { 
+		OR = {
 			has_idea = afr_reforming_kingdom
 			has_country_flag = Oceania_industrializing
 			has_country_flag = afr_colony_industrializing
@@ -928,7 +928,7 @@ country_event = {###send a colonisation proposal to you benafactor
 	mean_time_to_happen = {
 		days = 1000
 	}
-	
+
 	option = {#no
 		name = EDC_afr.16.a
 		ai_chance = { factor = 100 }
@@ -942,7 +942,7 @@ country_event = {###send a colonisation proposal to you benafactor
 		custom_effect_tooltip = EDC_afr.9.t
 		hidden_effect = {
 			country_event = { id = EDC_afr.9 hours = 1 }
-		}	
+		}
 		add_war_support = 0.05
 	}
 }
@@ -951,14 +951,14 @@ country_event = { #add colonal power
 	title = EDC_afr.15.t
 	desc = EDC_afr.15.d
 	picture = GFX_report_event_chinese_army_training
-	
+
 	is_triggered_only = yes
 	hidden = no
-	
+
 	immediate = {
 		set_country_flag = is_historical_colonial_power
 	}
-	
+
 	option = {
 		name = EDC_afr.15.a
 	}
@@ -976,10 +976,10 @@ country_event = { #selecting a colonal "master"
 	title = EDC_afr.17.t
 	desc = EDC_afr.17.desc
 	#picture = GFX_report_event_chinese_army_training
-	
+
 	is_triggered_only = yes
 	hidden = no
-	
+
 	option = {
 		name = EDC_afr.17.a #ENG
 		trigger = {
@@ -1232,7 +1232,7 @@ country_event = { #selecting a colonal "master"
 	title = EDC_afr.17.t
 	desc = EDC_afr.17.desc
 	#picture = GFX_report_event_chinese_army_training
-	
+
 	is_triggered_only = yes
 	hidden = no
 	option = {
@@ -1278,10 +1278,10 @@ country_event = { #selecting a colonal "master"
 	title = EDC_afr.17.t
 	desc = EDC_afr.17.desc
 	#picture = GFX_report_event_chinese_army_training
-	
+
 	is_triggered_only = yes
 	hidden = no
-	
+
 	option = {
 		name = EDC_afr.17.h #AUS
 		trigger = {
@@ -1314,10 +1314,10 @@ country_event = { #selecting a colonal "master"
 	title = EDC_afr.17.t
 	desc = EDC_afr.17.desc
 	#picture = GFX_report_event_chinese_army_training
-	
+
 	is_triggered_only = yes
 	hidden = no
-	
+
 	option = {
 		name = EDC_afr.17.k #ITA
 		trigger = {
@@ -1378,10 +1378,10 @@ country_event = { #tribal nation asks for trade deal
 	title = EDC_afr.18.t
 	desc = EDC_afr.18.d
 	picture = GFX_report_event_chinese_army_training
-	
+
 	is_triggered_only = yes
 	hidden = no
-	
+
 	option = { #yes
 		name = EDC_afr.18.a
 		add_opinion_modifier = {
@@ -1412,10 +1412,10 @@ country_event = { #colonal power asks for fealty
 	title = EDC_afr.19.t
 	desc = EDC_afr.19.d
 	picture = GFX_report_event_chinese_army_training
-	
+
 	is_triggered_only = yes
 	hidden = no
-	
+
 	option = { #yes
 		name = EDC_afr.19.a
 		set_country_flag = colonial_deals@FROM
@@ -1460,10 +1460,10 @@ country_event = { #a colonal power has dominace in a colonal state, shall we int
 	title = EDC_afr.20.t
 	desc = EDC_afr.20.d
 	picture = GFX_report_event_chinese_army_training
-	
+
 	is_triggered_only = yes
 	hidden = no
-	
+
 	option = { #we must contest this
 		name = EDC_afr.20.a
 		declare_war_on = {
@@ -1487,10 +1487,10 @@ country_event = { #A colonal state is in dispute
 	title = EDC_afr.21.t
 	desc = EDC_afr.21.d
 	picture = GFX_report_event_chinese_army_training
-	
+
 	is_triggered_only = yes
 	hidden = no
-	
+
 	option = { #back down
 		name = EDC_afr.21.a
 		white_peace = FROM
@@ -1506,10 +1506,10 @@ country_event = { #A african tribe asks to become a colony
 	title = EDC_afr.22.t
 	desc = EDC_afr.22.d
 	picture = GFX_report_event_chinese_army_training
-	
+
 	is_triggered_only = yes
 	hidden = no
-	
+
 	option = { #yes let us give them the administration in that region
 		name = EDC_afr.22.a
 		puppet = FROM
@@ -1782,12 +1782,12 @@ country_event = { #A african tribe asks to become a colony
 				limit = {
 					any_owned_state = {
 						is_capital = yes
-						is_in_zanzabar = yes
+						is_in_zanzibar = yes
 					}
 				}
 				every_state = {
 					limit ={
-						is_in_zanzabar = yes
+						is_in_zanzibar = yes
 						is_owned_by = ROOT
 					}
 					#add_claim_by = THIS
@@ -1795,7 +1795,7 @@ country_event = { #A african tribe asks to become a colony
 				}
 				every_state = {
 					limit ={
-						is_in_zanzabar = yes
+						is_in_zanzibar = yes
 					}
 					add_claim_by = THIS
 				}
@@ -2000,7 +2000,7 @@ country_event = { #A african tribe asks to become a colony
 			}
 			set_country_flag = colonal_state
 		}
-		
+
 	}
 	option = { #no
 		name = EDC_afr.22.a
@@ -2116,7 +2116,7 @@ country_event = { #A tribal state is in dispute
 	title = EDC_afr.24.t
 	desc = EDC_afr.24.d
 	picture = GFX_report_event_chinese_army_training
-	
+
 	is_triggered_only = yes
 	hidden = yes
 	immediate = {
@@ -2133,7 +2133,7 @@ country_event = { #A border dispute
 	title = EDC_afr.25.t
 	desc = EDC_afr.25.d
 	picture = GFX_report_event_chinese_army_training
-	
+
 	is_triggered_only = yes
 	#hidden = yes
 	immediate={
@@ -2182,7 +2182,7 @@ country_event = { #A tribal state is in dispute
 	title = EDC_afr.26.t
 	desc = EDC_afr.26.d
 	picture = GFX_report_event_chinese_army_training
-	
+
 	is_triggered_only = yes
 	#hidden = yes
 	option = { # flatly refuse to deal
@@ -2245,7 +2245,7 @@ country_event = { #A rival tribe has a claim on a state
 	title = EDC_afr.27.t
 	desc = EDC_afr.27.d
 	picture = GFX_report_event_chinese_army_training
-	
+
 	is_triggered_only = yes
 	#hidden = yes
 	option = { # what
@@ -2257,11 +2257,11 @@ country_event = {###natives reached 20 factories
 	title = EDC_afr.28.t
 	desc = EDC_afr.28.d
 	picture = GFX_report_event_chinese_army_training
-	
+
 	#is_triggered_only = yes
 	trigger = {
 		check_variable = {ROOT.innovation_progress < 100}
-		OR = { 
+		OR = {
 			has_idea = afr_reforming_kingdom
 			has_country_flag = Oceania_industrializing
 			has_country_flag = afr_colony_industrializing
@@ -2275,14 +2275,14 @@ country_event = {###natives reached 20 factories
 	mean_time_to_happen = {
 		days = 30
 	}
-	
+
 	option = {#ok
 		name = EDC_afr.28.a
 		set_country_flag = af_t_20_fac
 		custom_effect_tooltip = EDC_afr.6.t
 		hidden_effect = {
 			country_event = { id = EDC_afr.6 hours = 1 }
-		}	
+		}
 	}
 }
 # country_event = {###natives researched factory_industry_1
@@ -2290,11 +2290,11 @@ country_event = {###natives reached 20 factories
 	# title = EDC_afr.29.t
 	# desc = EDC_afr.29.d
 	# picture = GFX_report_event_chinese_army_training
-	
+
 	# #is_triggered_only = yes
 	# trigger = {
 		# check_variable = {ROOT.innovation_progress < 100}
-		# OR = { 
+		# OR = {
 			# has_idea = afr_reforming_kingdom
 			# has_country_flag = Oceania_industrializing
 			# has_country_flag = afr_colony_industrializing
@@ -2307,14 +2307,14 @@ country_event = {###natives reached 20 factories
 	# mean_time_to_happen = {
 		# days = 30
 	# }
-	
+
 	# option = {#ok
 		# name = EDC_afr.29.a
 		# set_country_flag = af_t_factory_industry_1
 		# custom_effect_tooltip = EDC_afr.5.t
 		# hidden_effect = {
 			# country_event = { id = EDC_afr.5 hours = 1 }
-		# }	
+		# }
 	# }
 # }
 # country_event = {###natives researched dry_puddling_process
@@ -2322,11 +2322,11 @@ country_event = {###natives reached 20 factories
 	# title = EDC_afr.30.t
 	# desc = EDC_afr.30.d
 	# picture = GFX_report_event_chinese_army_training
-	
+
 	# #is_triggered_only = yes
 	# trigger = {
 		# check_variable = {ROOT.innovation_progress < 100}
-		# OR = { 
+		# OR = {
 			# has_idea = afr_reforming_kingdom
 			# has_country_flag = Oceania_industrializing
 			# has_country_flag = afr_colony_industrializing
@@ -2339,14 +2339,14 @@ country_event = {###natives reached 20 factories
 	# mean_time_to_happen = {
 		# days = 30
 	# }
-	
+
 	# option = {#ok
 		# name = EDC_afr.30.a
 		# set_country_flag = af_t_dry_puddling_process
 		# custom_effect_tooltip = EDC_afr.5.t
 		# hidden_effect = {
 			# country_event = { id = EDC_afr.5 hours = 1 }
-		# }	
+		# }
 	# }
 # }
 country_event = {###natives researched early_dynamo_generator
@@ -2354,11 +2354,11 @@ country_event = {###natives researched early_dynamo_generator
 	title = EDC_afr.31.t
 	desc = EDC_afr.31.d
 	picture = GFX_report_event_chinese_army_training
-	
+
 	#is_triggered_only = yes
 	trigger = {
 		check_variable = {ROOT.innovation_progress < 100}
-		OR = { 
+		OR = {
 			has_idea = afr_reforming_kingdom
 			has_country_flag = Oceania_industrializing
 			has_country_flag = afr_colony_industrializing
@@ -2371,14 +2371,14 @@ country_event = {###natives researched early_dynamo_generator
 	mean_time_to_happen = {
 		days = 30
 	}
-	
+
 	option = {#ok
 		name = EDC_afr.31.a
 		set_country_flag = af_t_early_dynamo_generator
 		custom_effect_tooltip = EDC_afr.5.t
 		hidden_effect = {
 			country_event = { id = EDC_afr.5 hours = 1 }
-		}	
+		}
 	}
 }
 country_event = {###natives researched mechanical_production_1
@@ -2386,11 +2386,11 @@ country_event = {###natives researched mechanical_production_1
 	title = EDC_afr.32.t
 	desc = EDC_afr.32.d
 	picture = GFX_report_event_chinese_army_training
-	
+
 	#is_triggered_only = yes
 	trigger = {
 		check_variable = {ROOT.innovation_progress < 100}
-		OR = { 
+		OR = {
 			has_idea = afr_reforming_kingdom
 			has_country_flag = Oceania_industrializing
 			has_country_flag = afr_colony_industrializing
@@ -2403,14 +2403,14 @@ country_event = {###natives researched mechanical_production_1
 	mean_time_to_happen = {
 		days = 30
 	}
-	
+
 	option = {#ok
 		name = EDC_afr.32.a
 		set_country_flag = af_t_mechanical_production_1
 		custom_effect_tooltip = EDC_afr.5.t
 		hidden_effect = {
 			country_event = { id = EDC_afr.5 hours = 1 }
-		}	
+		}
 	}
 }
 country_event = {###natives researched Electrical Telegraph
@@ -2418,11 +2418,11 @@ country_event = {###natives researched Electrical Telegraph
 	title = EDC_afr.33.t
 	desc = EDC_afr.33.d
 	picture = GFX_report_event_chinese_army_training
-	
+
 	#is_triggered_only = yes
 	trigger = {
 		check_variable = {ROOT.innovation_progress < 100}
-		OR = { 
+		OR = {
 			has_idea = afr_reforming_kingdom
 			has_country_flag = Oceania_industrializing
 			has_country_flag = afr_colony_industrializing
@@ -2435,14 +2435,14 @@ country_event = {###natives researched Electrical Telegraph
 	mean_time_to_happen = {
 		days = 30
 	}
-	
+
 	option = {#ok
 		name = EDC_afr.33.a
 		set_country_flag = af_t_electrical_telegraph
 		custom_effect_tooltip = EDC_afr.5.t
 		hidden_effect = {
 			country_event = { id = EDC_afr.5 hours = 1 }
-		}	
+		}
 	}
 }
 country_event = {###natives researched pasteurization
@@ -2450,11 +2450,11 @@ country_event = {###natives researched pasteurization
 	title = EDC_afr.34.t
 	desc = EDC_afr.34.d
 	picture = GFX_report_event_chinese_army_training
-	
+
 	#is_triggered_only = yes
 	trigger = {
 		check_variable = {ROOT.innovation_progress < 100}
-		OR = { 
+		OR = {
 			has_idea = afr_reforming_kingdom
 			has_country_flag = Oceania_industrializing
 			has_country_flag = afr_colony_industrializing
@@ -2467,14 +2467,14 @@ country_event = {###natives researched pasteurization
 	mean_time_to_happen = {
 		days = 30
 	}
-	
+
 	option = {#ok
 		name = EDC_afr.34.a
 		set_country_flag = af_t_tech_biochem_pasteurization
 		custom_effect_tooltip = EDC_afr.5.t
 		hidden_effect = {
 			country_event = { id = EDC_afr.5 hours = 1 }
-		}	
+		}
 	}
 }
 country_event = {###natives reached 30 factories
@@ -2482,11 +2482,11 @@ country_event = {###natives reached 30 factories
 	title = EDC_afr.35.t
 	desc = EDC_afr.35.d
 	picture = GFX_report_event_chinese_army_training
-	
+
 	#is_triggered_only = yes
 	trigger = {
 		check_variable = {ROOT.innovation_progress < 100}
-		OR = { 
+		OR = {
 			has_idea = afr_reforming_kingdom
 			has_country_flag = Oceania_industrializing
 			has_country_flag = afr_colony_industrializing
@@ -2500,14 +2500,14 @@ country_event = {###natives reached 30 factories
 	mean_time_to_happen = {
 		days = 30
 	}
-	
+
 	option = {#ok
 		name = EDC_afr.35.a
 		set_country_flag = af_t_30_fac
 		custom_effect_tooltip = EDC_afr.6.t
 		hidden_effect = {
 			country_event = { id = EDC_afr.6 hours = 1 }
-		}	
+		}
 	}
 }
 country_event = {###natives researched industrial_fertilizers
@@ -2515,11 +2515,11 @@ country_event = {###natives researched industrial_fertilizers
 	title = EDC_afr.47.t
 	desc = EDC_afr.47.d
 	picture = GFX_report_event_chinese_army_training
-	
+
 	#is_triggered_only = yes
 	trigger = {
 		check_variable = {ROOT.innovation_progress < 100}
-		OR = { 
+		OR = {
 			has_idea = afr_reforming_kingdom
 			has_country_flag = Oceania_industrializing
 			has_country_flag = afr_colony_industrializing
@@ -2532,14 +2532,14 @@ country_event = {###natives researched industrial_fertilizers
 	mean_time_to_happen = {
 		days = 30
 	}
-	
+
 	option = {#ok
 		name = EDC_afr.47.a
 		set_country_flag = af_t_tech_industrial_fertilizers
 		custom_effect_tooltip = EDC_afr.5.t
 		hidden_effect = {
 			country_event = { id = EDC_afr.5 hours = 1 }
-		}	
+		}
 	}
 }
 country_event = {###natives researched chemical_structure_model
@@ -2547,11 +2547,11 @@ country_event = {###natives researched chemical_structure_model
 	title = EDC_afr.57.t
 	desc = EDC_afr.57.d
 	picture = GFX_report_event_chinese_army_training
-	
+
 	#is_triggered_only = yes
 	trigger = {
 		check_variable = {ROOT.innovation_progress < 100}
-		OR = { 
+		OR = {
 			has_idea = afr_reforming_kingdom
 			has_country_flag = Oceania_industrializing
 			has_country_flag = afr_colony_industrializing
@@ -2564,14 +2564,14 @@ country_event = {###natives researched chemical_structure_model
 	mean_time_to_happen = {
 		days = 30
 	}
-	
+
 	option = {#ok
 		name = EDC_afr.57.a
 		set_country_flag = af_t_tech_chemical_structure_model
 		custom_effect_tooltip = EDC_afr.5.t
 		hidden_effect = {
 			country_event = { id = EDC_afr.5 hours = 1 }
-		}	
+		}
 	}
 }
 country_event = {###EGY-ETH war, EGY wins
@@ -2579,7 +2579,7 @@ country_event = {###EGY-ETH war, EGY wins
 	title = EDC_afr.40.t
 	desc = EDC_afr.40.d
 	picture = GFX_report_event_chinese_army_training
-	
+
 	#is_triggered_only = yes
 	fire_only_once = yes
 	trigger = {
@@ -2593,7 +2593,7 @@ country_event = {###EGY-ETH war, EGY wins
 	mean_time_to_happen = {
 		days = 3
 	}
-	
+
 	option = {#take what we wanted
 		name = EDC_afr.40.a
 		white_peace = ETH
@@ -2611,9 +2611,9 @@ country_event = {###A African Major offers us protection
 	title = EDC_afr.41.t
 	desc = EDC_afr.41.d
 	picture = GFX_report_event_chinese_army_training
-	
+
 	is_triggered_only = yes
-	
+
 	option = {#agree
 		name = EDC_afr.41.a
 		FROM = {
@@ -2636,12 +2636,12 @@ news_event = { #the scramble begins
 	title = EDC_afr.42.t
 	desc = EDC_afr.42.d
 	picture = GFX_news_event_scramble_africa
-	
+
 	is_triggered_only = yes
 	#hidden = no
 	major = yes
 	#fire_only_once = yes
-	
+
 	option = {#all this effort over africa?
 		name = EDC_afr.42.a
 		trigger={
@@ -2732,12 +2732,12 @@ country_event = {###tribe - raid neighbour
 	title = EDC_afr.43.t
 	desc = EDC_afr.43.d
 	picture = GFX_report_event_chinese_army_training
-	
+
 	is_triggered_only = yes
-	
+
 	option = {#send a small force: 500 - should always be true, minium a country starts with and the required amount to deside to raid
 		name = EDC_afr.43.a
-		ai_chance = { 
+		ai_chance = {
 			base = 25
 		}
 		subtract_from_variable={Tribal_army_num = 500}
@@ -2773,7 +2773,7 @@ country_event = {###tribe - raid neighbour
 		trigger={
 			check_variable = { Tribal_army_num > 999 }
 		}
-		ai_chance = { 
+		ai_chance = {
 			base = 25
 		}
 		subtract_from_variable={Tribal_army_num = 1000}
@@ -2809,7 +2809,7 @@ country_event = {###tribe - raid neighbour
 		trigger={
 			check_variable = { Tribal_army_num > 2499 }
 		}
-		ai_chance = { 
+		ai_chance = {
 			base = 50
 		}
 		subtract_from_variable={Tribal_army_num = 2500}
@@ -2851,7 +2851,7 @@ country_event = {###tribe - raid neighbour
 		ai_chance = {
 			base = 1
 			modifier = {
-				factor = 0 
+				factor = 0
 				AND = {
 					ROOT = {
 						check_variable = {
@@ -2866,7 +2866,7 @@ country_event = {###tribe - raid neighbour
 				}
 			}
 			modifier = {
-				factor = 0 
+				factor = 0
 				AND = {
 					ROOT = {
 						check_variable = {
@@ -2881,7 +2881,7 @@ country_event = {###tribe - raid neighbour
 				}
 			}
 			modifier = {
-				factor = 0 
+				factor = 0
 				AND = {
 					ROOT = {
 						check_variable = {
@@ -2896,7 +2896,7 @@ country_event = {###tribe - raid neighbour
 				}
 			}
 			modifier = {
-				factor = 0 
+				factor = 0
 				AND = {
 					ROOT = {
 						check_variable = {
@@ -2911,7 +2911,7 @@ country_event = {###tribe - raid neighbour
 				}
 			}
 			modifier = {
-				factor = 0 
+				factor = 0
 				AND = {
 					ROOT = {
 						check_variable = {
@@ -2926,7 +2926,7 @@ country_event = {###tribe - raid neighbour
 				}
 			}
 			modifier = {
-				factor = 0 
+				factor = 0
 				AND = {
 					ROOT = {
 						check_variable = {
@@ -2941,7 +2941,7 @@ country_event = {###tribe - raid neighbour
 				}
 			}
 			modifier = {
-				factor = 0 
+				factor = 0
 				AND = {
 					ROOT = {
 						check_variable = {
@@ -2956,7 +2956,7 @@ country_event = {###tribe - raid neighbour
 				}
 			}
 			modifier = {
-				factor = 0 
+				factor = 0
 				AND = {
 					ROOT = {
 						check_variable = {
@@ -2971,7 +2971,7 @@ country_event = {###tribe - raid neighbour
 				}
 			}
 			modifier = {
-				factor = 0 
+				factor = 0
 				AND = {
 					ROOT = {
 						check_variable = {
@@ -2986,7 +2986,7 @@ country_event = {###tribe - raid neighbour
 				}
 			}
 			modifier = {
-				factor = 0 
+				factor = 0
 				AND = {
 					ROOT = {
 						check_variable = {
@@ -3001,7 +3001,7 @@ country_event = {###tribe - raid neighbour
 				}
 			}
 			modifier = {
-				factor = 0 
+				factor = 0
 				AND = {
 					ROOT = {
 						check_variable = {
@@ -3016,7 +3016,7 @@ country_event = {###tribe - raid neighbour
 				}
 			}
 			modifier = {
-				factor = 0 
+				factor = 0
 				AND = {
 					ROOT = {
 						check_variable = {
@@ -3031,7 +3031,7 @@ country_event = {###tribe - raid neighbour
 				}
 			}
 			modifier = {
-				factor = 0 
+				factor = 0
 				AND = {
 					ROOT = {
 						check_variable = {
@@ -3046,7 +3046,7 @@ country_event = {###tribe - raid neighbour
 				}
 			}
 			modifier = {
-				factor = 0 
+				factor = 0
 				AND = {
 					ROOT = {
 						check_variable = {
@@ -3061,7 +3061,7 @@ country_event = {###tribe - raid neighbour
 				}
 			}
 			modifier = {
-				factor = 0 
+				factor = 0
 				AND = {
 					ROOT = {
 						check_variable = {
@@ -3076,7 +3076,7 @@ country_event = {###tribe - raid neighbour
 				}
 			}
 			modifier = {
-				factor = 0 
+				factor = 0
 				AND = {
 					ROOT = {
 						check_variable = {
@@ -3091,7 +3091,7 @@ country_event = {###tribe - raid neighbour
 				}
 			}
 			modifier = {
-				factor = 0 
+				factor = 0
 				AND = {
 					ROOT = {
 						check_variable = {
@@ -3140,9 +3140,9 @@ country_event = {###result of the raid
 	picture = GFX_report_event_chinese_army_training
 	#only one result will be shown, the desc will be dynamic based on troops sent,and  whether they where intercepted successfully
 	#this will only fire if a war did not break out over the raid
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		hidden_effect = {
 			if={
@@ -3151,8 +3151,8 @@ country_event = {###result of the raid
 				}
 				add_to_variable={Tribal_army_num = 500}
 				if = {
-					limit = { has_country_flag = EDC_successful_sortee_flag }	
-				
+					limit = { has_country_flag = EDC_successful_sortee_flag }
+
 				}
 				else = {
 					random_list = {
@@ -3186,8 +3186,8 @@ country_event = {###result of the raid
 				}
 				add_to_variable={Tribal_army_num = 1000}
 				if = {
-					limit = { has_country_flag = EDC_successful_sortee_flag }	
-				
+					limit = { has_country_flag = EDC_successful_sortee_flag }
+
 				}
 				else = {
 					random_list = {
@@ -3221,8 +3221,8 @@ country_event = {###result of the raid
 			else_if={
 				limit={ has_country_flag = sent_2500_troops_on_a_raid }
 				if = {
-					limit = { has_country_flag = EDC_successful_sortee_flag }	
-				
+					limit = { has_country_flag = EDC_successful_sortee_flag }
+
 				}
 				else = {
 					random_list = {
@@ -3255,7 +3255,7 @@ country_event = {###result of the raid
 			}
 		}
 	}
-	
+
 	option = {
 		name = EDC_afr.44.a
 		trigger = { NOT = { has_country_flag = EDC_successful_sortee_flag } }
@@ -3263,7 +3263,7 @@ country_event = {###result of the raid
 			limit = { has_country_flag = sent_500_troops_on_a_raid }
 			clr_country_flag = sent_500_troops_on_a_raid
 			if = {
-				limit = { has_country_flag = EDC_successful_sortee_flag }	
+				limit = { has_country_flag = EDC_successful_sortee_flag }
 				clr_country_flag = EDC_successful_sortee_flag
 			}
 			else_if={
@@ -3472,7 +3472,7 @@ country_event = {###result of the raid
 			limit={ has_country_flag = sent_1000_troops_on_a_raid }
 			clr_country_flag = sent_1000_troops_on_a_raid
 			if = {
-				limit = { has_country_flag = EDC_successful_sortee_flag }	
+				limit = { has_country_flag = EDC_successful_sortee_flag }
 				clr_country_flag = EDC_successful_sortee_flag
 			}
 			else_if={
@@ -3662,7 +3662,7 @@ country_event = {###result of the raid
 			limit={ has_country_flag = sent_2500_troops_on_a_raid }
 			clr_country_flag = sent_2500_troops_on_a_raid
 			if = {
-				limit = { has_country_flag = EDC_successful_sortee_flag }	
+				limit = { has_country_flag = EDC_successful_sortee_flag }
 				clr_country_flag = EDC_successful_sortee_flag
 			}
 			else_if={
@@ -3849,7 +3849,7 @@ country_event = {###result of the raid
 			}
 		}
 	}
-	
+
 	option = {
 		name = EDC_afr.44.b
 		trigger = { has_country_flag = EDC_successful_sortee_flag }
@@ -3857,7 +3857,7 @@ country_event = {###result of the raid
 			limit = { has_country_flag = sent_500_troops_on_a_raid }
 			clr_country_flag = sent_500_troops_on_a_raid
 			if = {
-				limit = { has_country_flag = EDC_successful_sortee_flag }	
+				limit = { has_country_flag = EDC_successful_sortee_flag }
 				clr_country_flag = EDC_successful_sortee_flag
 			}
 		}
@@ -3865,7 +3865,7 @@ country_event = {###result of the raid
 			limit={ has_country_flag = sent_1000_troops_on_a_raid }
 			clr_country_flag = sent_1000_troops_on_a_raid
 			if = {
-				limit = { has_country_flag = EDC_successful_sortee_flag }	
+				limit = { has_country_flag = EDC_successful_sortee_flag }
 				clr_country_flag = EDC_successful_sortee_flag
 			}
 		}
@@ -3873,7 +3873,7 @@ country_event = {###result of the raid
 			limit={ has_country_flag = sent_2500_troops_on_a_raid }
 			clr_country_flag = sent_2500_troops_on_a_raid
 			if = {
-				limit = { has_country_flag = EDC_successful_sortee_flag }	
+				limit = { has_country_flag = EDC_successful_sortee_flag }
 				clr_country_flag = EDC_successful_sortee_flag
 			}
 		}
@@ -3883,7 +3883,7 @@ state_event = {###we are being raided
 	id = EDC_afr.455
 	hidden = yes
 	is_triggered_only = yes
-	
+
 	immediate = {
 		OWNER = { country_event = { id = EDC_afr.45 } }
 	}
@@ -3895,9 +3895,9 @@ country_event = {###we are being raided
 	picture = GFX_report_event_chinese_army_training
 	#only one result will be shown, the desc will be dynamic based on troops sent,and  whether they where intercepted successfully
 	#this will only fire if a war did not break out over the raid
-	
+
 	is_triggered_only = yes
-	
+
 	option = {#send a Sortee after them, cost scaled base on their troop count
 		name = EDC_afr.45.a
 		trigger={
@@ -3921,7 +3921,7 @@ country_event = {###we are being raided
 				FROM.FROM = {has_country_flag = sent_500_troops_on_a_raid}
 			}
 			hidden_effect = {
-				ROOT = { 
+				ROOT = {
 					subtract_from_variable = {Tribal_army_num = 600}
 					set_country_flag = Sent_600_troops_om_sortee
 				}
@@ -3933,7 +3933,7 @@ country_event = {###we are being raided
 				FROM.FROM = {has_country_flag = sent_1000_troops_on_a_raid}
 			}
 			hidden_effect = {
-				ROOT = { 
+				ROOT = {
 					subtract_from_variable = {Tribal_army_num = 1100}
 					set_country_flag = Sent_1100_troops_om_sortee
 				}
@@ -3945,7 +3945,7 @@ country_event = {###we are being raided
 				FROM.FROM = {has_country_flag = sent_2500_troops_on_a_raid}
 			}
 			hidden_effect = {
-				ROOT = { 
+				ROOT = {
 					subtract_from_variable = {Tribal_army_num = 2600}
 					set_country_flag = Sent_2600_troops_om_sortee
 				}
@@ -3963,7 +3963,7 @@ country_event = {###we are being raided
 					if = {
 						limit = { FROM.FROM = {has_country_flag = sent_2500_troops_on_a_raid} }
 						FROM.FROM = { country_event = { id = EDC_afr.466 days = 6 } }
-						
+
 					}
 				}
 			}
@@ -4020,46 +4020,46 @@ country_event = {###we are being invaded
 	title = EDC_afr.46.t
 	desc = EDC_afr.46.d
 	picture = GFX_report_event_chinese_army_training
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		hidden_effect = {
 			if = {
 				limit = { FROM.FROM = { has_state_flag = EDC_successful_warlord_defence_flag } }
 				random_list = {
-					50 = { 
+					50 = {
 						ROOT = { set_country_flag = afr_empire_politics_local_rumor_true_advisor_3 }
 						modifier = {
 							factor = 0
-							FROM.FROM.FROM = { 
+							FROM.FROM.FROM = {
 								OR = {
-									has_country_flag = sent_1000_troops_on_a_raid 
-									has_country_flag = sent_2500_troops_on_a_raid 
+									has_country_flag = sent_1000_troops_on_a_raid
+									has_country_flag = sent_2500_troops_on_a_raid
 								}
 							}
 						}
 					}
-					25 = { 
+					25 = {
 						ROOT = { set_country_flag = afr_empire_politics_local_rumor_true_advisor_2 }
 						modifier = {
 							factor = 2
-							FROM.FROM.FROM = { 
+							FROM.FROM.FROM = {
 								OR = {
-									has_country_flag = sent_1000_troops_on_a_raid 
-									has_country_flag = sent_2500_troops_on_a_raid 
+									has_country_flag = sent_1000_troops_on_a_raid
+									has_country_flag = sent_2500_troops_on_a_raid
 								}
 							}
 						}
 					}
-					25 = { 
+					25 = {
 						ROOT = { set_country_flag = afr_empire_politics_local_rumor_true_advisor_1 }
 						modifier = {
 							factor = 2
-							FROM.FROM.FROM = { 
+							FROM.FROM.FROM = {
 								OR = {
-									has_country_flag = sent_1000_troops_on_a_raid 
-									has_country_flag = sent_2500_troops_on_a_raid 
+									has_country_flag = sent_1000_troops_on_a_raid
+									has_country_flag = sent_2500_troops_on_a_raid
 								}
 							}
 						}
@@ -4082,7 +4082,7 @@ country_event = {###we are being invaded
 			}
 		}
 	}
-	
+
 	option = {#SORTEE Outcome
 		name = EDC_afr.46.a
 		ai_chance = { base = 100 }
@@ -4100,7 +4100,7 @@ country_event = {###we are being invaded
 				custom_effect_tooltip = EDC_afr_46_failure_casualties_600
 				hidden_effect = { add_to_variable = {Tribal_army_num = -400} }
 			}
-			hidden_effect = { 
+			hidden_effect = {
 				clr_country_flag = Sent_600_troops_om_sortee
 			}
 		}
@@ -4117,7 +4117,7 @@ country_event = {###we are being invaded
 				custom_effect_tooltip = EDC_afr_46_failure_casualties_1100
 				hidden_effect = { add_to_variable = {Tribal_army_num = -800} }
 			}
-			hidden_effect = { 
+			hidden_effect = {
 				clr_country_flag = Sent_1100_troops_om_sortee
 			}
 		}
@@ -4134,8 +4134,8 @@ country_event = {###we are being invaded
 				custom_effect_tooltip = EDC_afr_46_failure_casualties_2600
 				hidden_effect = { add_to_variable = {Tribal_army_num = -2000} }
 			}
-			hidden_effect = { 
-				clr_country_flag = Sent_2600_troops_om_sortee 
+			hidden_effect = {
+				clr_country_flag = Sent_2600_troops_om_sortee
 			}
 		}
 		hidden_effect = {
@@ -4148,7 +4148,7 @@ country_event = {###we are being invaded
 	option = {#Warlord Accept
 		name = EDC_afr.46.b
 		ai_chance = {
-			base = 100 
+			base = 100
 			modifier = {
 				factor = 0
 				FROM.FROM = { has_state_flag = EDC_successful_warlord_defence_flag }
@@ -4221,7 +4221,7 @@ country_event = {###we are being invaded
 	id = EDC_afr.466
 	hidden = yes
 	is_triggered_only = yes
-	
+
 	immediate = {
 		FROM = {
 			random_owned_state = {
@@ -4239,7 +4239,7 @@ country_event = {###ping for the scramble
 	desc = EDC_afr.48.d
 	picture = GFX_report_event_chinese_army_training
 	#hidden = yes
-	
+
 	option = {
 		name = EDC_afr.48.a
 		set_global_flag = scramble_for_africa
@@ -4329,9 +4329,9 @@ country_event = {###Raise the army for testing
 	title = EDC_afr.49.t
 	desc = EDC_afr.49.d
 	picture = GFX_report_event_chinese_army_training
-	
+
 	is_triggered_only = yes
-	
+
 	option = {#respond in force
 		name = EDC_afr.49.a
 		afr_call_warriors = yes
@@ -4342,9 +4342,9 @@ country_event = {###free 1000 warriors
 	title = EDC_afr.50.t
 	desc = EDC_afr.50.d
 	picture = GFX_report_event_chinese_army_training
-	
+
 	is_triggered_only = yes
-	
+
 	option = {#respond in force
 		name = EDC_afr.50.a
 		if={
@@ -4362,9 +4362,9 @@ country_event = {###free 1000 warriors
 	title = EDC_afr.500.t
 	desc = EDC_afr.500.d
 	picture = GFX_report_event_chinese_army_training
-	
+
 	is_triggered_only = yes
-	
+
 	option = {#respond in force
 		name = EDC_afr.500.a
 		if={
@@ -4382,9 +4382,9 @@ country_event = {###free 1000 warriors
 	title = EDC_afr.5000.t
 	desc = EDC_afr.5000.d
 	picture = GFX_report_event_chinese_army_training
-	
+
 	is_triggered_only = yes
-	
+
 	option = {#respond in force
 		name = EDC_afr.500.a
 		if={
@@ -4402,18 +4402,18 @@ country_event = {###post war, lower tribal armies again
 	title = EDC_afr.51.t
 	desc = EDC_afr.51.d
 	picture = GFX_report_event_chinese_army_training
-	
+
 	trigger={
 		has_country_flag = Tribal_Army_Raised
 		has_war = no
 		has_border_war = no
 		NOT = { has_country_flag = Tribal_Army_Raised_Due_To_Border_War }
 	}
-	
+
 	mean_time_to_happen = {
 		days = 2
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			ROOT = {
@@ -4425,7 +4425,7 @@ country_event = {###post war, lower tribal armies again
 			}
 		}
 	}
-	
+
 	option = {#Send the Men Home
 		name = EDC_afr.51.a
 		custom_effect_tooltip = afr_dismiss_warriors_tooltip
@@ -4437,7 +4437,7 @@ country_event = {##FRA - purchase of Djibouti
 	title = EDC_afr.100.t
 	desc = EDC_afr.100.d
 	picture = GFX_report_event_chinese_army_training
-	
+
 	#is_triggered_only = yes
 	trigger = {
 		tag = FRA
@@ -4449,7 +4449,7 @@ country_event = {##FRA - purchase of Djibouti
 	mean_time_to_happen = {
 		days = 30
 	}
-	
+
 	option = {#ok
 		name = EDC_afr.100.a
 		transfer_state = 268

@@ -44,7 +44,7 @@ focus_tree = {
 				tag = GWE
 				tag = NYW
 				tag = KAD
-                                tag = TOG                                                                
+                                tag = TOG
                                 tag = IJW
                                 tag = ARR
                                 tag = TGN
@@ -61,7 +61,7 @@ focus_tree = {
 		cost = 75
 		continue_if_invalid = yes
 		available = {
-			
+
 		}
 		allow_branch = {
 			has_idea = afr_fractured_kingdom
@@ -74,8 +74,8 @@ focus_tree = {
 			if = {
 				limit = {
 					OR = {
-						has_idea = weak_heir 
-						has_idea = nonfamily_heir 
+						has_idea = weak_heir
+						has_idea = nonfamily_heir
 						has_idea = dethroned_heir
 						has_idea = no_heir
 					}
@@ -86,7 +86,7 @@ focus_tree = {
 		}
 		x = 34
 		y = 0
-		ai_will_do = { 
+		ai_will_do = {
 			factor = 100
 		}
 	}
@@ -111,7 +111,7 @@ focus_tree = {
 			custom_effect_tooltip = afr_fractured_kingdom_opposition_support_decreased_tooltip
 			hidden_effect = {
 				if = {
-					limit = { 
+					limit = {
 						OR = {
 							has_idea = afr_fractured_kingdom
 							has_idea = afr_stagnant_kingdom
@@ -127,11 +127,11 @@ focus_tree = {
 					set_country_flag = afr_fractured_kingdom_opposition_crushed_flag
 					add_command_power = -75
 					if = {
-						limit = { 
-							ROOT = { 
-								check_variable = { afr_fractured_kingdom_loyalist_support < 90 } 
-								check_variable = { afr_fractured_kingdom_opposition_support < 90 } 
-							} 
+						limit = {
+							ROOT = {
+								check_variable = { afr_fractured_kingdom_loyalist_support < 90 }
+								check_variable = { afr_fractured_kingdom_opposition_support < 90 }
+							}
 						}
 						random_list = {
 							30 = {
@@ -158,7 +158,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = AF_O_K_address_fractured_kingdom_1
-		ai_will_do = { 
+		ai_will_do = {
 			factor = 100
 		}
 	}
@@ -180,12 +180,12 @@ focus_tree = {
 			has_idea = afr_fractured_kingdom
 		}
 		completion_reward = {
-			
+
 		}
 		x = 0
 		y = 2
 		relative_position_id = AF_O_K_address_fractured_kingdom_1
-		ai_will_do = { 
+		ai_will_do = {
 			factor = 100
 		}
 	}
@@ -218,7 +218,7 @@ focus_tree = {
 		x = 0
 		y = 3
 		relative_position_id = AF_O_K_address_fractured_kingdom_1
-		ai_will_do = { 
+		ai_will_do = {
 			factor = 100
 		}
 	}
@@ -396,7 +396,7 @@ focus_tree = {
 			set_country_flag = Oceania_generic_french_administrators
 			custom_effect_tooltip = AFR_GENERIC_COLONIAL_ENTER_TOOLTIP
 			hidden_effect = { add_ideas = { Oceania_antoine_dufresne } }
-			custom_effect_tooltip = available_political_advisor
+			custom_effect_tooltip = available_court_advisor
 			show_ideas_tooltip = Oceania_antoine_dufresne
 			custom_effect_tooltip = afr_colonial_effect_tooltip
 			capital_scope = {
@@ -471,7 +471,7 @@ focus_tree = {
 			capital_scope = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
-					type = farm
+					type =building_farm
 					level = 1
 					instant_build = yes
 				}
@@ -493,7 +493,7 @@ focus_tree = {
 			set_country_flag = Oceania_generic_british_administrators
 			custom_effect_tooltip = AFR_GENERIC_COLONIAL_ENTER_TOOLTIP
 			hidden_effect = { add_ideas = { Oceania_theodore_wilkinson } }
-			custom_effect_tooltip = available_political_advisor
+			custom_effect_tooltip = available_court_advisor
 			show_ideas_tooltip = Oceania_theodore_wilkinson
 			custom_effect_tooltip = afr_colonial_effect_tooltip
 			capital_scope = {
@@ -541,7 +541,7 @@ focus_tree = {
 		x = 7
 		y = 6
 		completion_reward = {
-			
+
 			diplomatic_relation = {
 				country = ENG
 				relation = non_aggression_pact
@@ -553,7 +553,7 @@ focus_tree = {
 				value = 200
 			}
 			ENG = {
-				add_political_power = 100 
+				add_political_power = 100
 			}
 		}
 	}
@@ -619,19 +619,7 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = afr_close_proximity_to_christianity
 				OR = {
-					ROOT = { 
-						OR = {
-							is_in_array = {
-								array = national_religion_array
-								value = global.protestant
-							}
-							is_in_array = {
-								array = national_religion_array
-								value = global.catholicism
-							}
-						}
-					}
-					any_neighbor_country = { 
+					ROOT = {
 						OR = {
 							is_in_array = {
 								array = national_religion_array
@@ -644,7 +632,19 @@ focus_tree = {
 						}
 					}
 					any_neighbor_country = {
-						any_neighbor_country = { 
+						OR = {
+							is_in_array = {
+								array = national_religion_array
+								value = global.protestant
+							}
+							is_in_array = {
+								array = national_religion_array
+								value = global.catholicism
+							}
+						}
+					}
+					any_neighbor_country = {
+						any_neighbor_country = {
 							OR = {
 								is_in_array = {
 									array = national_religion_array
@@ -688,20 +688,20 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = afr_close_proximity_to_coptic_christianity
 				OR = {
-					ROOT = { 
-						is_in_array = {
-							array = national_religion_array
-							value = global.coptic
-						}
-					}
-					any_neighbor_country = { 
+					ROOT = {
 						is_in_array = {
 							array = national_religion_array
 							value = global.coptic
 						}
 					}
 					any_neighbor_country = {
-						any_neighbor_country = { 
+						is_in_array = {
+							array = national_religion_array
+							value = global.coptic
+						}
+					}
+					any_neighbor_country = {
+						any_neighbor_country = {
 							is_in_array = {
 								array = national_religion_array
 								value = global.coptic
@@ -803,7 +803,7 @@ focus_tree = {
 			add_stability = 0.02
 			random_owned_controlled_state ={
 				limit = {
-					is_core_of = ROOT 
+					is_core_of = ROOT
 					Oceania_infrastructure_for_extra_building_slots_trigger = yes
 				}
 				hidden_effect = {
@@ -811,7 +811,7 @@ focus_tree = {
 				}
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
-					type = farm
+					type =building_farm
 					level = 1
 					instant_build = yes
 				}
@@ -911,20 +911,20 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = afr_close_proximity_to_sunni
 				OR = {
-					ROOT = { 
-						is_in_array = {
-							array = national_religion_array
-							value = global.sunni
-						}
-					}
-					any_neighbor_country = { 
+					ROOT = {
 						is_in_array = {
 							array = national_religion_array
 							value = global.sunni
 						}
 					}
 					any_neighbor_country = {
-						any_neighbor_country = { 
+						is_in_array = {
+							array = national_religion_array
+							value = global.sunni
+						}
+					}
+					any_neighbor_country = {
+						any_neighbor_country = {
 							is_in_array = {
 								array = national_religion_array
 								value = global.sunni
@@ -941,7 +941,7 @@ focus_tree = {
 			focus = AF_O_K_western_oriented
 			focus = AF_O_K_adopt_abyssinian_faith
 			focus = AF_O_K_focus_our_culture
-			
+
 		}
 		x = 17
 		y = 5
@@ -1176,7 +1176,7 @@ focus_tree = {
 		y = 5
 		completion_reward = {
 			random_owned_controlled_state = {
-				add_resource = { type = iron amount = 1 }
+				add_resource = { type = resource_iron amount = 1 }
 			}
 		}
 	}
@@ -1436,10 +1436,10 @@ focus_tree = {
 				id = FRA
 				value = 200
 			}
-			FRA = { 
-				add_political_power = 100 
+			FRA = {
+				add_political_power = 100
 			}
-			
+
 		}
 	}
 	focus = {
@@ -1530,7 +1530,7 @@ focus_tree = {
 				afr_tribal_cosmetic_tag_drop_2_scripted_effect = yes
 			}
 		}
-		ai_will_do = { 
+		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1000
@@ -1565,7 +1565,7 @@ focus_tree = {
 				afr_tribal_cosmetic_tag_drop_2_scripted_effect = yes
 			}
 		}
-		ai_will_do = { 
+		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1000
@@ -1616,22 +1616,16 @@ focus_tree = {
 			if = {
 				limit = {
 					NOT = { has_government = fundamentalism }
-					has_government = autocracy
+					has_government = imperialism
 				}
 				set_politics = {
 					  ruling_party = fundamentalism
 				}
 				hidden_effect = {
 					set_popularities = {
-						anarchism = 0
-						vanguard_communism = 0
-						collectivist_socialism = 0
-						social_egalitarianism = 0
-						centrism = 0
-						traditional_conservatism = 0
-						radical_democracy = 0
-						chauvinist_populism = 0
-						autocracy = 73
+						reformism = 0
+						traditionalism = 0
+						imperialism = 73
 						fundamentalism = 27
 					}
 				}
@@ -1646,21 +1640,15 @@ focus_tree = {
 				}
 				hidden_effect = {
 					set_popularities = {
-						anarchism = 0
-						vanguard_communism = 0
-						collectivist_socialism = 0
-						social_egalitarianism = 0
-						centrism = 0
-						traditional_conservatism = 0
-						radical_democracy = 0
-						chauvinist_populism = 73
-						autocracy = 0
+						reformism = 0
+						traditionalism = 0
+						imperialism = 73
 						fundamentalism = 27
 					}
 				}
 			}
 		}
-		ai_will_do = { 
+		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1000

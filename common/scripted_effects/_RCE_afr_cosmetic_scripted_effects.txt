@@ -1,15 +1,15 @@
 
-afr_tribal_cosmetic_tag_switch_1_scripted_effect = {
-	if = { limit = { TAG = APA } set_cosmetic_tag = APA_tribal_cosmetic_1 }
-	if = { limit = { TAG = NAV } set_cosmetic_tag = NAV_tribal_cosmetic_1 }
-	if = { limit = { TAG = COM } set_cosmetic_tag = COM_tribal_cosmetic_1 }
-	if = { limit = { TAG = CHY } set_cosmetic_tag = CHY_tribal_cosmetic_1 }
-	if = { limit = { TAG = SIX } set_cosmetic_tag = SIX_tribal_cosmetic_1 }
-	if = { limit = { TAG = CRW } set_cosmetic_tag = CRW_tribal_cosmetic_1 }
-	if = { limit = { TAG = SHO } set_cosmetic_tag = SHO_tribal_cosmetic_1 }
-	if = { limit = { TAG = BFT } set_cosmetic_tag = BFT_tribal_cosmetic_1 }
-	if = { limit = { TAG = NEZ } set_cosmetic_tag = NEZ_tribal_cosmetic_1 }
-	if = { limit = { TAG = SEM } set_cosmetic_tag = SEM_tribal_cosmetic_1 }
+# afr_tribal_cosmetic_tag_switch_1_scripted_effect = {
+# 	if = { limit = { TAG = APA } set_cosmetic_tag = APA_tribal_cosmetic_1 }
+# 	if = { limit = { TAG = NAV } set_cosmetic_tag = NAV_tribal_cosmetic_1 }
+# 	if = { limit = { TAG = COM } set_cosmetic_tag = COM_tribal_cosmetic_1 }
+# 	if = { limit = { TAG = CHY } set_cosmetic_tag = CHY_tribal_cosmetic_1 }
+# 	if = { limit = { TAG = SIX } set_cosmetic_tag = SIX_tribal_cosmetic_1 }
+# 	if = { limit = { TAG = CRW } set_cosmetic_tag = CRW_tribal_cosmetic_1 }
+# 	if = { limit = { TAG = SHO } set_cosmetic_tag = SHO_tribal_cosmetic_1 }
+# 	if = { limit = { TAG = BFT } set_cosmetic_tag = BFT_tribal_cosmetic_1 }
+# 	if = { limit = { TAG = NEZ } set_cosmetic_tag = NEZ_tribal_cosmetic_1 }
+# 	if = { limit = { TAG = SEM } set_cosmetic_tag = SEM_tribal_cosmetic_1 }
 	if = { limit = { TAG = NOM } set_cosmetic_tag = NOM_tribal_cosmetic_1 }
 	if = { limit = { TAG = TOG } set_cosmetic_tag = TOG_tribal_cosmetic_1 }
 	if = { limit = { TAG = KHI } set_cosmetic_tag = KHI_tribal_cosmetic_1 }
@@ -95,8 +95,8 @@ afr_tribal_cosmetic_tag_switch_1_scripted_effect = {
 	if = { limit = { TAG = TKN } set_cosmetic_tag = TKN_tribal_cosmetic_1 }
 	if = { limit = { TAG = UJJ } set_cosmetic_tag = UJJ_tribal_cosmetic_1 }
 	if = { limit = { TAG = SRW } set_cosmetic_tag = SRW_tribal_cosmetic_1 }
-	if = { limit = { TAG = NEZ } set_cosmetic_tag = NEZ_tribal_cosmetic_1 }
-	if = { limit = { TAG = PNG } set_cosmetic_tag = PNG_tribal_cosmetic_1 }
+	# if = { limit = { TAG = NEZ } set_cosmetic_tag = NEZ_tribal_cosmetic_1 }
+	# if = { limit = { TAG = PNG } set_cosmetic_tag = PNG_tribal_cosmetic_1 }
 	if = { limit = { TAG = AHR } set_cosmetic_tag = AHR_tribal_cosmetic_1 }
 	if = { limit = { TAG = BTS } set_cosmetic_tag = BTS_tribal_cosmetic_1 }
 	if = { limit = { TAG = CKW } set_cosmetic_tag = CKW_tribal_cosmetic_1 }
@@ -107,22 +107,22 @@ afr_tribal_cosmetic_tag_switch_1_scripted_effect = {
 	if = { limit = { TAG = OVD } set_cosmetic_tag = OVD_tribal_cosmetic_1 }
 	if = { limit = { TAG = WYO } set_cosmetic_tag = WYO_tribal_cosmetic_1 }
 	if = { limit = { TAG = HJZ } set_cosmetic_tag = HJZ_tribal_cosmetic_1 }
-        if = { limit = { TAG = ARR } set_cosmetic_tag = ARR_tribal_cosmetic_1 }
+	if = { limit = { TAG = ARR } set_cosmetic_tag = ARR_tribal_cosmetic_1 }
 	if = { limit = { TAG = BRN } set_cosmetic_tag = BRN_tribal_cosmetic_1 }
 	if = { limit = { TAG = TGN } set_cosmetic_tag = TGN_tribal_cosmetic_1 }
 }
 
 afr_tribal_cosmetic_tag_switch_2_scripted_effect = {
-	if = { limit = { TAG = APA } set_cosmetic_tag = APA_tribal_cosmetic_2 }
-	if = { limit = { TAG = NAV } set_cosmetic_tag = NAV_tribal_cosmetic_2 }
-	if = { limit = { TAG = COM } set_cosmetic_tag = COM_tribal_cosmetic_2 }
-	if = { limit = { TAG = CHY } set_cosmetic_tag = CHY_tribal_cosmetic_2 }
-	if = { limit = { TAG = SIX } set_cosmetic_tag = SIX_tribal_cosmetic_2 }
-	if = { limit = { TAG = CRW } set_cosmetic_tag = CRW_tribal_cosmetic_2 }
-	if = { limit = { TAG = SHO } set_cosmetic_tag = SHO_tribal_cosmetic_2 }
-	if = { limit = { TAG = BFT } set_cosmetic_tag = BFT_tribal_cosmetic_2 }
-	if = { limit = { TAG = NEZ } set_cosmetic_tag = NEZ_tribal_cosmetic_2 }
-	if = { limit = { TAG = SEM } set_cosmetic_tag = SEM_tribal_cosmetic_2 }
+	# if = { limit = { TAG = APA } set_cosmetic_tag = APA_tribal_cosmetic_2 }
+	# if = { limit = { TAG = NAV } set_cosmetic_tag = NAV_tribal_cosmetic_2 }
+	# if = { limit = { TAG = COM } set_cosmetic_tag = COM_tribal_cosmetic_2 }
+	# if = { limit = { TAG = CHY } set_cosmetic_tag = CHY_tribal_cosmetic_2 }
+	# if = { limit = { TAG = SIX } set_cosmetic_tag = SIX_tribal_cosmetic_2 }
+	# if = { limit = { TAG = CRW } set_cosmetic_tag = CRW_tribal_cosmetic_2 }
+	# if = { limit = { TAG = SHO } set_cosmetic_tag = SHO_tribal_cosmetic_2 }
+	# if = { limit = { TAG = BFT } set_cosmetic_tag = BFT_tribal_cosmetic_2 }
+	# if = { limit = { TAG = NEZ } set_cosmetic_tag = NEZ_tribal_cosmetic_2 }
+	# if = { limit = { TAG = SEM } set_cosmetic_tag = SEM_tribal_cosmetic_2 }
 	if = { limit = { TAG = NOM } set_cosmetic_tag = NOM_tribal_cosmetic_2 }
 	if = { limit = { TAG = TOG } set_cosmetic_tag = TOG_tribal_cosmetic_2 }
 	if = { limit = { TAG = KHI } set_cosmetic_tag = KHI_tribal_cosmetic_2 }
@@ -209,8 +209,8 @@ afr_tribal_cosmetic_tag_switch_2_scripted_effect = {
 	if = { limit = { TAG = TKN } set_cosmetic_tag = TKN_tribal_cosmetic_2 }
 	if = { limit = { TAG = UJJ } set_cosmetic_tag = UJJ_tribal_cosmetic_2 }
 	if = { limit = { TAG = SRW } set_cosmetic_tag = SRW_tribal_cosmetic_2 }
-	if = { limit = { TAG = NEZ } set_cosmetic_tag = NEZ_tribal_cosmetic_2 }
-	if = { limit = { TAG = PNG } set_cosmetic_tag = PNG_tribal_cosmetic_2 }
+	# if = { limit = { TAG = NEZ } set_cosmetic_tag = NEZ_tribal_cosmetic_2 }
+	# if = { limit = { TAG = PNG } set_cosmetic_tag = PNG_tribal_cosmetic_2 }
 	if = { limit = { TAG = AHR } set_cosmetic_tag = AHR_tribal_cosmetic_2 }
 	if = { limit = { TAG = BTS } set_cosmetic_tag = BTS_tribal_cosmetic_2 }
 	if = { limit = { TAG = CKW } set_cosmetic_tag = CKW_tribal_cosmetic_2 }
@@ -224,16 +224,16 @@ afr_tribal_cosmetic_tag_switch_2_scripted_effect = {
 }
 
 afr_nomad_cosmetic_tag_switch_2_scripted_effect = {
-	if = { limit = { TAG = APA } set_cosmetic_tag = APA_nomad_cosmetic_2 }
-	if = { limit = { TAG = NAV } set_cosmetic_tag = NAV_nomad_cosmetic_2 }
-	if = { limit = { TAG = COM } set_cosmetic_tag = COM_nomad_cosmetic_2 }
-	if = { limit = { TAG = CHY } set_cosmetic_tag = CHY_nomad_cosmetic_2 }
-	if = { limit = { TAG = SIX } set_cosmetic_tag = SIX_nomad_cosmetic_2 }
-	if = { limit = { TAG = CRW } set_cosmetic_tag = CRW_nomad_cosmetic_2 }
-	if = { limit = { TAG = SHO } set_cosmetic_tag = SHO_nomad_cosmetic_2 }
-	if = { limit = { TAG = BFT } set_cosmetic_tag = BFT_nomad_cosmetic_2 }
-	if = { limit = { TAG = NEZ } set_cosmetic_tag = NEZ_nomad_cosmetic_2 }
-	if = { limit = { TAG = SEM } set_cosmetic_tag = SEM_nomad_cosmetic_2 }
+	# if = { limit = { TAG = APA } set_cosmetic_tag = APA_nomad_cosmetic_2 }
+	# if = { limit = { TAG = NAV } set_cosmetic_tag = NAV_nomad_cosmetic_2 }
+	# if = { limit = { TAG = COM } set_cosmetic_tag = COM_nomad_cosmetic_2 }
+	# if = { limit = { TAG = CHY } set_cosmetic_tag = CHY_nomad_cosmetic_2 }
+	# if = { limit = { TAG = SIX } set_cosmetic_tag = SIX_nomad_cosmetic_2 }
+	# if = { limit = { TAG = CRW } set_cosmetic_tag = CRW_nomad_cosmetic_2 }
+	# if = { limit = { TAG = SHO } set_cosmetic_tag = SHO_nomad_cosmetic_2 }
+	# if = { limit = { TAG = BFT } set_cosmetic_tag = BFT_nomad_cosmetic_2 }
+	# if = { limit = { TAG = NEZ } set_cosmetic_tag = NEZ_nomad_cosmetic_2 }
+	# if = { limit = { TAG = SEM } set_cosmetic_tag = SEM_nomad_cosmetic_2 }
 	if = { limit = { TAG = NOM } set_cosmetic_tag = NOM_nomad_cosmetic_2 }
 	if = { limit = { TAG = TOG } set_cosmetic_tag = TOG_nomad_cosmetic_2 }
 	if = { limit = { TAG = KHI } set_cosmetic_tag = KHI_nomad_cosmetic_2 }
@@ -320,8 +320,8 @@ afr_nomad_cosmetic_tag_switch_2_scripted_effect = {
 	if = { limit = { TAG = TKN } set_cosmetic_tag = TKN_nomad_cosmetic_2 }
 	if = { limit = { TAG = UJJ } set_cosmetic_tag = UJJ_nomad_cosmetic_2 }
 	if = { limit = { TAG = SRW } set_cosmetic_tag = SRW_nomad_cosmetic_2 }
-	if = { limit = { TAG = NEZ } set_cosmetic_tag = NEZ_nomad_cosmetic_2 }
-	if = { limit = { TAG = PNG } set_cosmetic_tag = PNG_nomad_cosmetic_2 }
+	# if = { limit = { TAG = NEZ } set_cosmetic_tag = NEZ_nomad_cosmetic_2 }
+	# if = { limit = { TAG = PNG } set_cosmetic_tag = PNG_nomad_cosmetic_2 }
 	if = { limit = { TAG = AHR } set_cosmetic_tag = AHR_nomad_cosmetic_2 }
 	if = { limit = { TAG = BTS } set_cosmetic_tag = BTS_nomad_cosmetic_2 }
 	if = { limit = { TAG = CKW } set_cosmetic_tag = CKW_nomad_cosmetic_2 }
@@ -343,16 +343,16 @@ afr_tribal_cosmetic_tag_drop_2_scripted_effect = {
 	if = {
 		limit = {
 			OR = {
-				has_cosmetic_tag = APA_tribal_cosmetic_2
-				has_cosmetic_tag = NAV_tribal_cosmetic_2
-				has_cosmetic_tag = COM_tribal_cosmetic_2
-				has_cosmetic_tag = CHY_tribal_cosmetic_2
-				has_cosmetic_tag = SIX_tribal_cosmetic_2
-				has_cosmetic_tag = CRW_tribal_cosmetic_2
-				has_cosmetic_tag = SHO_tribal_cosmetic_2
-				has_cosmetic_tag = BFT_tribal_cosmetic_2
-				has_cosmetic_tag = NEZ_tribal_cosmetic_2
-				has_cosmetic_tag = SEM_tribal_cosmetic_2
+				# has_cosmetic_tag = APA_tribal_cosmetic_2
+				# has_cosmetic_tag = NAV_tribal_cosmetic_2
+				# has_cosmetic_tag = COM_tribal_cosmetic_2
+				# has_cosmetic_tag = CHY_tribal_cosmetic_2
+				# has_cosmetic_tag = SIX_tribal_cosmetic_2
+				# has_cosmetic_tag = CRW_tribal_cosmetic_2
+				# has_cosmetic_tag = SHO_tribal_cosmetic_2
+				# has_cosmetic_tag = BFT_tribal_cosmetic_2
+				# has_cosmetic_tag = NEZ_tribal_cosmetic_2
+				# has_cosmetic_tag = SEM_tribal_cosmetic_2
 				has_cosmetic_tag = NOM_tribal_cosmetic_2
 				has_cosmetic_tag = TOG_tribal_cosmetic_2
 				has_cosmetic_tag = KHI_tribal_cosmetic_2
@@ -439,8 +439,8 @@ afr_tribal_cosmetic_tag_drop_2_scripted_effect = {
 				has_cosmetic_tag = TKN_tribal_cosmetic_2
 				has_cosmetic_tag = UJJ_tribal_cosmetic_2
 				has_cosmetic_tag = SRW_tribal_cosmetic_2
-				has_cosmetic_tag = NEZ_tribal_cosmetic_2
-				has_cosmetic_tag = PNG_tribal_cosmetic_2
+				# has_cosmetic_tag = NEZ_tribal_cosmetic_2
+				# has_cosmetic_tag = PNG_tribal_cosmetic_2
 				has_cosmetic_tag = AHR_tribal_cosmetic_2
 				has_cosmetic_tag = BTS_tribal_cosmetic_2
 				has_cosmetic_tag = CKW_tribal_cosmetic_2
@@ -451,7 +451,7 @@ afr_tribal_cosmetic_tag_drop_2_scripted_effect = {
 				has_cosmetic_tag = OVD_tribal_cosmetic_2
 				has_cosmetic_tag = WYO_tribal_cosmetic_2
 				has_cosmetic_tag = HJZ_tribal_cosmetic_2
-                has_cosmetic_tag = ARR_tribal_cosmetic_2
+				has_cosmetic_tag = ARR_tribal_cosmetic_2
 				has_cosmetic_tag = BRN_tribal_cosmetic_2
 				has_cosmetic_tag = TGN_tribal_cosmetic_2
 			}

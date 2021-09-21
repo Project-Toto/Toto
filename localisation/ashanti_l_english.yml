@@ -18,8 +18,8 @@
  ASH_slave_plantations_desc:0 ""
  ASH_cotton_plantations:0 "Cotton Plantations"
  ASH_cotton_plantations_desc:0 ""
- ASH_construct_logging_camps:0 "Construct Logging Camps"
- ASH_construct_logging_camps_desc:0 ""
+ ASH_construct_building_loggings:0 "Construct Logging Camps"
+ ASH_construct_building_loggings_desc:0 ""
  ASH_expanding_our_trade_routes:0 "Expand Our Trade Routes"
  ASH_expanding_our_trade_routes_desc:0 ""
  ASH_trade_with_inland_villages:0 "Trade With Inland Villages"
@@ -31,7 +31,7 @@
  ASH_pave_our_dirt_roads:0 "Pave Our Dirt Roads"
  ASH_pave_our_dirt_roads_desc:0 "We will lay stones on the ancient dirt roads, that have been connecting our people for centuries."
  ASH_communal_horses:0 "Communal Horses"
- ASH_communal_horses_desc:0 "The king has spoken! Every village will receive some state owned horses, that will help our people with their everyday lives, be it farming or travelling."
+ ASH_communal_horses_desc:0 "The king has spoken! Every village will receive some state owned horses, that will help our people with their everyday lives, be itbuilding_farming or travelling."
  ASH_travel_to_the_distant_parts_of_our_empire:0 "Travel To The Distant Parts Of The Empire"
  ASH_travel_to_the_distant_parts_of_our_empire_desc:0 ""
  ASH_asantehenes_rule:0 "Asantehene's Rule"
@@ -167,17 +167,16 @@
  ASH_inward_regional_power_centralized_command_structure:0 "Guided By The King"
  ASH_inward_regional_power_centralized_command_structure_desc:0 ""
  ASH_inward_regional_power_decentralized_command_structure:0 "Trust Our Warchiefs"
- ASH_inward_regional_power_decentralized_command_structure_desc:0 "" 
+ ASH_inward_regional_power_decentralized_command_structure_desc:0 ""
  ASH_inward_regional_power_camel_cavalry_tactics:0 "New Cavalry Roles"
  ASH_inward_regional_power_camel_cavalry_tactics_desc:0 ""
- 
- 
- 
- 
- 
- 
- 
- 
- 
 
- 
+
+
+
+
+
+
+
+
+

@@ -953,7 +953,7 @@
  
  afr_empire_politics_state_manager_market_luxury_event_2_gold_desc:0 "\n\nAt the gold harvesting area, the gold miners can be found searching for small gold nuggets with crude sifting pans. Investing in new gold mining techniques can provide higher gains of gold."
  afr_empire_politics_state_manager_market_luxury_event_2_ivory_desc:0 "\n\nAt the hunting grounds, elephant poachers can be seen unloading ivory tusks from a fresh hunt and purchasing new weapons in exchange. Investing in new weapons can allow poachers to hunt better."
- afr_empire_politics_state_manager_market_luxury_event_2_spice_desc:0 "\n\nVillagers can be seen tilling the fields and harvesting spices that will soon be sold to the marketplace. Investing in new methods of farming can yield better harvesting rates."
+ afr_empire_politics_state_manager_market_luxury_event_2_spice_desc:0 "\n\nVillagers can be seen tilling the fields and harvesting spices that will soon be sold to the marketplace. Investing in new methods ofbuilding_farming can yield better harvesting rates."
  afr_empire_politics_state_manager_market_luxury_event_2_none_desc:0 ""
  
  afr_empire_politics_state_manager_market_luxury_event_gold_stats:0 "Gold Harvesting Efficiency: §Y[?afr_empire_politics_state_luxury_gold_acquisition_var]%§!\n"
@@ -988,7 +988,7 @@
  afr_state_manager_localization_activity_type_tiny_island:0 "purchasing freshly caught fish from sailors and others descaling fish to be cooked and sold"
  afr_state_manager_localization_activity_type_small_island:0 "purchasing freshly caught fish from sailors and fishing boats docked in the harbor"
  afr_state_manager_localization_activity_type_pastoral:0 "herding livestock and tilling the fields on the outskirts of the village"
- afr_state_manager_localization_activity_type_rural:0 "plowing and tilling the farms outside the village"
+ afr_state_manager_localization_activity_type_rural:0 "plowing and tilling thebuilding_farms outside the village"
  afr_state_manager_localization_activity_type_town:0 "haggling with merchants in the marketplace and craftsman construction new additions to the town"
  afr_state_manager_localization_activity_type_large_town:0 "bustling down the busy streets alongside caravans shipping goods to and from the town"
  afr_state_manager_localization_activity_type_city:0 "bustling down the busy streets alongside caravans shipping goods to and from the town"

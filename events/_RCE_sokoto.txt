@@ -242,7 +242,7 @@ country_event = {
 			capital_scope = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
-					type = farm
+					type =building_farm
 					level = 1
 					instant_build = yes
 				}
@@ -590,20 +590,20 @@ country_event = {
 						freedom_level = 0.5
 					}
 				}
-				hidden_effect = { ROOT = { load_prevous_ideologies = yes } }
+				hidden_effect = { ROOT = { load_previous_ideologies = yes } }
 			}
 			else = {
 				hidden_effect = { ROOT = { store_current_ideologies = yes } }
 				FROM = { puppet = ROOT }
-				hidden_effect = { ROOT = { load_prevous_ideologies = yes } }
+				hidden_effect = { ROOT = { load_previous_ideologies = yes } }
 			}
 			if = {
-				limit = { 
+				limit = {
 					FROM = { afr_is_tribal = yes } #OVERLORD
 					ROOT = { afr_is_tribal = yes } #SUBJECT
-					ROOT = { NOT = { has_variable = afr_empire_subject_loyalty_var } } 
+					ROOT = { NOT = { has_variable = afr_empire_subject_loyalty_var } }
 				}
-				ROOT = { 
+				ROOT = {
 					set_variable = { var = afr_empire_subject_overlord value = FROM.id }
 					set_variable = { var = ROOT.afr_empire_subject_loyalty_var value = 6 }
 					clamp_variable = { var = ROOT.afr_empire_subject_loyalty_var min = -1 max = 10 }
@@ -735,7 +735,7 @@ country_event = {
 						freedom_level = 0.3
 					}
 				}
-				hidden_effect = { ROOT = { load_prevous_ideologies = yes } }
+				hidden_effect = { ROOT = { load_previous_ideologies = yes } }
 			}
 			if = {
 				limit = {
@@ -747,15 +747,15 @@ country_event = {
 				}
 				hidden_effect = { ROOT = { store_current_ideologies = yes } }
 				FROM = { puppet = ROOT }
-				hidden_effect = { ROOT = { load_prevous_ideologies = yes } }
+				hidden_effect = { ROOT = { load_previous_ideologies = yes } }
 			}
 			if = {
-				limit = { 
+				limit = {
 					FROM = { afr_is_tribal = yes } #OVERLORD
 					ROOT = { afr_is_tribal = yes } #SUBJECT
-					ROOT = { NOT = { has_variable = afr_empire_subject_loyalty_var } } 
+					ROOT = { NOT = { has_variable = afr_empire_subject_loyalty_var } }
 				}
-				ROOT = { 
+				ROOT = {
 					set_variable = { var = afr_empire_subject_overlord value = FROM.id }
 					set_variable = { var = ROOT.afr_empire_subject_loyalty_var value = 6 }
 					clamp_variable = { var = ROOT.afr_empire_subject_loyalty_var min = -1 max = 10 }
@@ -1147,7 +1147,7 @@ country_event = {
 			name = SKT_joint_invasion_bagirmi.4.a
 			ai_chance = { factor = 100 }
 			if = {
-				limit = { 
+				limit = {
 					any_country = {
 						OR = {
 							TAG = WDD
@@ -1180,7 +1180,7 @@ country_event = {
 			name = SKT_joint_invasion_bagirmi.5.a
 			ai_chance = { factor = 100 }
 			if = {
-				limit = { 
+				limit = {
 					any_country = {
 						OR = {
 							TAG = WDD
@@ -1210,7 +1210,7 @@ country_event = {
 
 		is_triggered_only = yes
 		
-		immediate = { 
+		immediate = {
 			if = {
 				limit = { NOT = { has_global_flag = SKT_joint_invasion_bagirmi_6_flag } }
 				hidden_effect = {
@@ -1230,7 +1230,7 @@ country_event = {
 			ai_chance = { factor = 100 }
 			WDD = {
 				if = {
-					limit = { 
+					limit = {
 						any_country = {
 							OR = {
 								TAG = WDD
@@ -1245,7 +1245,7 @@ country_event = {
 					transfer_state = 789
 				}
 				if = {
-					limit = { 
+					limit = {
 						any_country = {
 							OR = {
 								TAG = WDD
@@ -1276,7 +1276,7 @@ country_event = {
 			ai_chance = { factor = 100 }
 			SKT = {
 				if = {
-					limit = { 
+					limit = {
 						any_country = {
 							OR = {
 								TAG = WDD
@@ -1292,7 +1292,7 @@ country_event = {
 					transfer_state = 805
 				}
 				if = {
-					limit = { 
+					limit = {
 						any_country = {
 							OR = {
 								TAG = WDD
@@ -1331,8 +1331,8 @@ country_event = {
 			trigger = { ADM = { NOT = { is_subject_of = SKT } } }
 		}
 		picture = GFX_report_event_chinese_army_training
-		
-		immediate = { 
+
+		immediate = {
 			if = {
 				limit = { NOT = { has_global_flag = SKT_joint_invasion_bagirmi_7_flag } }
 				hidden_effect = {
@@ -1340,7 +1340,7 @@ country_event = {
 					789 = { set_demilitarized_zone = no }
 					860 = { set_demilitarized_zone = no }
 					1340 = { set_demilitarized_zone = no }
-				} 
+				}
 			}
 		}
 		is_triggered_only = yes
@@ -1350,20 +1350,20 @@ country_event = {
 			trigger = { TAG = WDD }
 			ai_chance = { factor = 100 }
 			if = {
-				limit = { 
+				limit = {
 					OR = {
-						BAG = { NOT = { is_subject_of = WDD } } 
+						BAG = { NOT = { is_subject_of = WDD } }
 						BAG = { exists = no }
 					}
 				}
 				BAG = {
 					transfer_state = 789
 					transfer_state = 860
-				}				
+				}
 				WDD = {
 					hidden_effect = { BAG = { store_current_ideologies = yes } }
 					puppet = BAG
-					hidden_effect = { BAG = { load_prevous_ideologies = yes } }
+					hidden_effect = { BAG = { load_previous_ideologies = yes } }
 				}
 			}
 			if = {
@@ -1379,10 +1379,10 @@ country_event = {
 				WDD = { remove_state_claim = 1340 }
 			}
 			if = {
-				limit = { 
+				limit = {
 					805 = { is_claimed_by = WDD }
-					ADM = { 
-						exists = yes 
+					ADM = {
+						exists = yes
 						is_subject_of = SKT
 					}
 				}
@@ -1405,7 +1405,7 @@ country_event = {
 				clear_variable = rival_country
 			}
 		}
-		
+
 		option = {
 			name = SKT_joint_invasion_bagirmi.7.b
 			trigger = { TAG = SKT }
@@ -1423,19 +1423,19 @@ country_event = {
 				SKT = { remove_state_claim = 1340 }
 			}
 			if = {
-				limit = { 
+				limit = {
 					805 = { is_claimed_by = SKT }
-					ADM = { 
-						exists = yes 
+					ADM = {
+						exists = yes
 						is_subject_of = SKT
 					}
 				}
 				SKT = { remove_state_claim = 805 }
 			}
 			if = {
-				limit = { 
-					ADM = { 
-						exists = yes 
+				limit = {
+					ADM = {
+						exists = yes
 						is_subject_of = SKT
 					}
 				}
@@ -1468,8 +1468,8 @@ country_event = {
 			name = SKT_joint_invasion_bagirmi.8.a
 			ai_chance = { factor = 100 }
 			every_state = {
-				limit = { 
-					OR = { 
+				limit = {
+					OR = {
 						is_owned_by = SKT
 						is_owned_by = WDD
 						is_owned_by = ADM
@@ -1488,7 +1488,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	#ADM Understands Situation
 	country_event = {
 		id = SKT_joint_invasion_bagirmi.11
@@ -1502,8 +1502,8 @@ country_event = {
 			name = SKT_joint_invasion_bagirmi.11.a
 			ai_chance = { factor = 100 }
 			every_state = {
-				limit = { 
-					OR = { 
+				limit = {
+					OR = {
 						is_owned_by = SKT
 						is_owned_by = WDD
 						is_owned_by = BAG

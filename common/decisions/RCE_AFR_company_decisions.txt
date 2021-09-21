@@ -45,15 +45,7 @@ afr_rrp_foreign_company_coup = {
 			}
 			if = {
 				limit = { FROM = { any_owned_state = { has_state_flag = afr_rrp_german_company_headquarters } } }
-				ROOT = { TAG = PRS }
-			}
-			if = {
-				limit = { FROM = { any_owned_state = { has_state_flag = afr_rrp_bremen_company_headquarters } } }
-				ROOT = { TAG = BRE }
-			}
-			if = {
-				limit = { FROM = { any_owned_state = { has_state_flag = afr_rrp_hamburg_company_headquarters } } }
-				ROOT = { TAG = HAM }
+				ROOT = { TAG = GER }
 			}
 			if = {
 				limit = { FROM = { any_owned_state = { has_state_flag = afr_rrp_sweden_company_headquarters } } }

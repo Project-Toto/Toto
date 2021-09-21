@@ -2078,31 +2078,31 @@ ETH_portugal_merchants = {
 ETH_prussian_merchants = {
 
 	ai_will_do = { factor = 1 }
-    available = {
+	available = {
 		has_stability > 0.60
 		OR = { 
 			ROOT = {
 				any_owned_state = { is_coastal = yes }
 			}
-			PRS = { 
+			GER = {
 				is_neighbor_of = ROOT
 			}
 			any_country = {
 				AND = {
-					is_subject_of = PRS
+					is_subject_of = GER
 					is_neighbor_of = ROOT
 				}
 			}
 		}
-		PRS = {
+		GER = {
 			has_completed_focus = PRS_focus_colonial_politics_branch
 		}
-    }
+	}
 		
-		allowed = { TAG = ETH }
-    visible = {
-		country_exists = PRS
-    }
+	allowed = { TAG = ETH }
+	visible = {
+		country_exists = GER
+	}
 	
 	fire_only_once = yes
 
@@ -2110,112 +2110,19 @@ ETH_prussian_merchants = {
 	
 	
 	complete_effect = {
-		PRS = { country_event = { days = 1 id = ethiopia_trade.1 } }
+		GER = { country_event = { days = 1 id = ethiopia_trade.1 } }
 		hidden_effect = {	
 			set_country_flag = ETH_PRS_Merchants
-			add_opinion_modifier = { target = PRS modifier = eoanb_om_africa_trade_focus }
-			reverse_add_opinion_modifier = { target = PRS modifier = eoanb_om_africa_trade_focus }
+			add_opinion_modifier = { target = GER modifier = eoanb_om_africa_trade_focus }
+			reverse_add_opinion_modifier = { target = GER modifier = eoanb_om_africa_trade_focus }
 		}
 	}
-}
-
-ETH_bremen_merchants = {
-
-	ai_will_do = { factor = 1 }
-    available = {
-		has_stability > 0.60
-		OR = { 
-			ROOT = {
-				any_owned_state = { is_coastal = yes }
-			}
-			BRE = { 
-				is_neighbor_of = ROOT
-			}
-			any_country = {
-				AND = {
-					is_subject_of = BRE
-					is_neighbor_of = ROOT
-				}
-			}
-		}
-		BRE = {
-			OR = {
-				has_completed_focus = generic_focus_naval_dockyards_2
-				has_completed_focus = generic_focus_fleet_infrastructure
-			}
-		}
-    }
-		
-		allowed = { TAG = ETH }
-    visible = {
-		country_exists = BRE
-    }
-	
-	fire_only_once = yes
-
-    cost = 0
-	
-	
-	complete_effect = {
-		
-		BRE = { country_event = { days = 1 id = ethiopia_trade.1 } }
-		hidden_effect = {
-			set_country_flag = ETH_BRE_Merchants
-			add_opinion_modifier = { target = BRE modifier = eoanb_om_africa_trade_focus }
-			reverse_add_opinion_modifier = { target = BRE modifier = eoanb_om_africa_trade_focus }
-		}	
-	}
-}
-
-ETH_hamburg_merchants = {
-	
-	ai_will_do = { factor = 1 }
-    available = {
-		has_stability > 0.60
-		OR = { 
-			ROOT = {
-				any_owned_state = { is_coastal = yes }
-			}
-			HAM = { 
-				is_neighbor_of = ROOT
-			}
-			any_country = {
-				AND = {
-					is_subject_of = HAM
-					is_neighbor_of = ROOT
-				}
-			}
-		}		
-		HAM = {
-			has_completed_focus = HAM_focus_professional_merchants	
-		}
-    }
-		
-		allowed = { TAG = ETH }
-    visible = {
-		country_exists = HAM
-    }
-	
-	fire_only_once = yes
-
-    cost = 0
-	
-	
-	complete_effect = {
-		HAM = { country_event = { days = 1 id = ethiopia_trade.1 } }
-		hidden_effect = {
-			set_country_flag = ETH_HAM_Merchants
-			add_opinion_modifier = { target = HAM modifier = eoanb_om_africa_trade_focus }
-			reverse_add_opinion_modifier = { target = HAM modifier = eoanb_om_africa_trade_focus }
-		}
-	}
-	
 }
 
 ETH_greek_merchants = {
 
 	ai_will_do = { factor = 1 }
-    available = {
+		available = {
 		has_stability > 0.60
 		OR = { 
 			ROOT = {
@@ -2565,15 +2472,15 @@ ETH_german_companies = {
 	
 	
 	complete_effect = {
-		PRS = { country_event = { days = 1 id = ethiopia_trade.3 } }
+		GER = { country_event = { days = 1 id = ethiopia_trade.3 } }
 		custom_effect_tooltip = EDC_afr.5.t
 		custom_effect_tooltip = afr_colonial_company_tooltip
 		custom_effect_tooltip = afr_colonial_effect_tooltip
 		custom_effect_tooltip = AFR_Racial_Tension_plus_2
 		swap_ideas = { add_idea = export_focus remove_idea = limited_exports }
 		hidden_effect = {
-			add_opinion_modifier = { target = PRS modifier = eoanb_om_africa_trade_focus }
-			reverse_add_opinion_modifier = { target = PRS modifier = eoanb_om_africa_trade_focus }
+			add_opinion_modifier = { target = GER modifier = eoanb_om_africa_trade_focus }
+			reverse_add_opinion_modifier = { target = GER modifier = eoanb_om_africa_trade_focus }
 			set_country_flag = ETH_company_chosen
 			set_country_flag = afr_rrp_german_company_port
 			ROOT = {
@@ -2583,56 +2490,6 @@ ETH_german_companies = {
 	}
 	
 }
-
-ETH_hamburg_investors = {
-
-	ai_will_do = { factor = 1 }
-    available = {
-		AND = {
-			has_country_leader = { 
-				ruling_only = yes 
-				name = "Tewodros II" 
-			}
-			has_country_flag = afr_colonial_language_german
-			has_completed_focus = ETH_put_down_revolts
-		}
-    }
-    allowed = {
-        tag = ETH
-    }
-    visible = {
-		AND = {
-			has_country_flag = ETH_open_trading_post
-		}
-		NOT = {
-			has_country_flag = ETH_company_chosen
-		}
-    }
-	
-	fire_only_once = yes
-
-    cost = 0
-	
-	
-	complete_effect = {
-		custom_effect_tooltip = EDC_afr.5.t
-		custom_effect_tooltip = afr_colonial_company_tooltip
-		custom_effect_tooltip = afr_colonial_effect_tooltip
-		custom_effect_tooltip = AFR_Racial_Tension_plus_1
-		swap_ideas = { add_idea = export_focus remove_idea = limited_exports }
-		hidden_effect = {
-			add_opinion_modifier = { target = HAM modifier = eoanb_om_africa_trade_focus }
-			reverse_add_opinion_modifier = { target = HAM modifier = eoanb_om_africa_trade_focus }
-			set_country_flag = ETH_company_chosen
-			set_country_flag = afr_rrp_hamburg_company_port
-			ROOT = {
-				capital_scope = { state_event = { id = afr_rrp_racial_tension_increase.1 trigger_for = controller } }
-			}
-		}
-	}
-	
-}
-
 }
 
 ETH_Company = {
@@ -3085,12 +2942,11 @@ ETH_lease_company_port = {
 					else_if = {
 						limit = {
 							OR = {
-								check_variable = { ROOT.company_country_var = PRS }
-								check_variable = { ROOT.company_country_var = BRE }
+								check_variable = { ROOT.company_country_var = GER }
 							}
 						}
-						add_equipment_to_stockpile = { type = infantry_equipment_rifle_0 amount = 1000 producer = PRS }
-						add_equipment_to_stockpile = { type = uniform_equipment_0 amount = 1000 producer = PRS }
+						add_equipment_to_stockpile = { type = infantry_equipment_rifle_0 amount = 1000 producer = GER }
+						add_equipment_to_stockpile = { type = uniform_equipment_0 amount = 1000 producer = GER }
 					}
 				add_manpower = 5000
 				set_country_flag = ETH_company_military_expertise
@@ -3471,19 +3327,18 @@ ETH_Corporate_Coup = {
 			else_if = {
 				limit = {
 					OR = {
-						check_variable = { company_country_var = PRS }
-						check_variable = { company_country_var = BRE }
+						check_variable = { company_country_var = GER }
 					}
 				}
 				add_equipment_to_stockpile = {
 					type = infantry_equipment_rifle_0
 					amount = 500
-					producer = PRS
+					producer = GER
 				}
 				add_equipment_to_stockpile = {
 					type = uniform_equipment_1
 					amount = 500
-					producer = PRS
+					producer = GER
 				}
 			}
 			add_manpower = 5000

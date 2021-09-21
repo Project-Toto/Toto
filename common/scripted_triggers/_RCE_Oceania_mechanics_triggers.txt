@@ -1,6 +1,6 @@
-				
-				
-				
+
+
+
 				Oceania_farm_building_available_slots_for_tech_trigger = {
 					OR = {
 						AND = {
@@ -55,8 +55,8 @@
 						}
 					}
 				}
-					
-				Oceania_cotton_farm_building_available_slots_for_tech_trigger = {
+
+				Oceania_building_cotton_building_available_slots_for_tech_trigger = {
 					OR = {
 						AND = {
 							ROOT = {
@@ -66,7 +66,7 @@
 								NOT = { has_tech = mechanized_farming }
 								NOT = { has_tech = threshing_machine }
 							}
-							cotton_farm < 1
+							building_cotton < 1
 						}
 						AND = {
 							ROOT = {
@@ -76,8 +76,8 @@
 								NOT = { has_tech = mechanized_farming }
 								NOT = { has_tech = threshing_machine }
 							}
-							cotton_farm < 3
-						}							
+							building_cotton < 3
+						}
 						AND = {
 							ROOT = {
 								has_tech = tribal_crop_planting
@@ -86,7 +86,7 @@
 								NOT = { has_tech = mechanized_farming }
 								NOT = { has_tech = threshing_machine }
 							}
-							cotton_farm < 5
+							building_cotton < 5
 						}
 						AND = {
 							ROOT = {
@@ -96,7 +96,7 @@
 								has_tech = mechanized_farming
 								NOT = { has_tech = threshing_machine }
 							}
-							cotton_farm < 8
+							building_cotton < 8
 						}
 						AND = {
 							ROOT = {
@@ -106,45 +106,45 @@
 								has_tech = mechanized_farming
 								has_tech = threshing_machine
 							}
-							cotton_farm < 10
+							building_cotton < 10
 						}
 					}
 				}
-				
-				Oceania_logging_camp_building_available_slots_for_tech_trigger = {
+
+				Oceania_building_logging_building_available_slots_for_tech_trigger = {
 					OR = {
 						AND = {
 							ROOT = { NOT = { has_tech = industrial_era_tools_1 } }
-							logging_camp < 1
+							building_logging < 1
 						}
 						AND = {
 							ROOT = { has_tech = industrial_era_tools_1 }
-							logging_camp < 5
+							building_logging < 5
 						}
 					}
 				}
-				
-				Oceania_coal_mine_building_available_slots_for_tech_trigger = {
+
+				Oceania_building_coal_building_available_slots_for_tech_trigger = {
 					OR = {
 						AND = {
-							ROOT = { 
+							ROOT = {
 								has_tech = refining
-								NOT = { has_tech = mechanized_mining } 
+								NOT = { has_tech = mechanized_mining }
 							}
-							coal_mine < 1
+							building_coal < 1
 						}
 						AND = {
-							ROOT = { 
+							ROOT = {
 								has_tech = refining
-								has_tech = mechanized_mining 
+								has_tech = mechanized_mining
 							}
-							coal_mine < 3
+							building_coal < 3
 						}
 					}
 				}
-				
-				
-				
+
+
+
 				Oceania_infrastructure_for_clearing_building_slots_trigger = {
 					AND = {
 						check_variable = { Oceania_extra_state_shared_building_slots > 0 }
@@ -152,17 +152,17 @@
 							free_building_slots = { building = arms_factory size > 0 include_locked = no }
 							farm > 0
 							dockyard > 0
-							fabric_weavery > 0
+							building_weavery > 0
 							arms_factory > 0
 							industrial_complex > 0
-							cotton_farm > 0
-							logging_camp > 0
-							coal_mine > 0
+							building_cotton > 0
+							building_logging > 0
+							building_coal > 0
 						}
 					}
 				}
-				
-				
+
+
 
 
 				Oceania_infrastructure_for_extra_building_slots_trigger = {
@@ -236,7 +236,7 @@
 						AND = {
 							check_variable = { var = Oceania_extra_state_shared_building_slots value = 13 comapre = less_than_or_equals }
 							infrastructure > 11
-							#infrastructure= 12 --> 14 
+							#infrastructure= 12 --> 14
 							infrastructure < 13
 						}
 						AND = {
@@ -248,19 +248,19 @@
 						AND = {
 							check_variable = { var = Oceania_extra_state_shared_building_slots value = 17 comapre = less_than_or_equals }
 							infrastructure > 13
-							#infrastructure= 14 --> 18 
+							#infrastructure= 14 --> 18
 							infrastructure < 15
 						}
 						AND = {
 							check_variable = { var = Oceania_extra_state_shared_building_slots value = 19 comapre = less_than_or_equals }
 							infrastructure > 14
-							#infrastructure= 15 --> 20 
+							#infrastructure= 15 --> 20
 							infrastructure < 16
 						}
 						AND = {
 							check_variable = { var = Oceania_extra_state_shared_building_slots value = 21 comapre = less_than_or_equals }
 							infrastructure > 15
-							#infrastructure= 16 --> 22 
+							#infrastructure= 16 --> 22
 							infrastructure < 17
 						}
 						AND = {
@@ -272,24 +272,24 @@
 						AND = {
 							check_variable = { var = Oceania_extra_state_shared_building_slots value = 25 comapre = less_than_or_equals }
 							infrastructure > 17
-							#infrastructure= 18 --> 26 
+							#infrastructure= 18 --> 26
 							infrastructure < 19
 						}
 						AND = {
 							check_variable = { var = Oceania_extra_state_shared_building_slots value = 27 comapre = less_than_or_equals }
 							infrastructure > 18
-							#infrastructure= 19 --> 28 
+							#infrastructure= 19 --> 28
 							infrastructure < 20
 						}
 						AND = {
 							check_variable = { var = Oceania_extra_state_shared_building_slots value = 29 comapre = less_than_or_equals }
 							infrastructure > 19
-							#infrastructure= 20 --> 30 
+							#infrastructure= 20 --> 30
 							infrastructure < 21
 						}
 					}
 				}
-				
+
 				Oceania_infrastructure_for_two_extra_building_slots_trigger = {
 					OR = {
 						AND = {
@@ -349,7 +349,7 @@
 						AND = {
 							check_variable = { var = Oceania_extra_state_shared_building_slots value = 12 comapre = less_than_or_equals }
 							infrastructure > 11
-							#infrastructure= 12 --> 14 
+							#infrastructure= 12 --> 14
 							infrastructure < 13
 						}
 						AND = {
@@ -361,19 +361,19 @@
 						AND = {
 							check_variable = { var = Oceania_extra_state_shared_building_slots value = 16 comapre = less_than_or_equals }
 							infrastructure > 13
-							#infrastructure= 14 --> 18 
+							#infrastructure= 14 --> 18
 							infrastructure < 15
 						}
 						AND = {
 							check_variable = { var = Oceania_extra_state_shared_building_slots value = 18 comapre = less_than_or_equals }
 							infrastructure > 14
-							#infrastructure= 15 --> 20 
+							#infrastructure= 15 --> 20
 							infrastructure < 16
 						}
 						AND = {
 							check_variable = { var = Oceania_extra_state_shared_building_slots value = 20 comapre = less_than_or_equals }
 							infrastructure > 15
-							#infrastructure= 16 --> 22 
+							#infrastructure= 16 --> 22
 							infrastructure < 17
 						}
 						AND = {
@@ -385,25 +385,25 @@
 						AND = {
 							check_variable = { var = Oceania_extra_state_shared_building_slots value = 24 comapre = less_than_or_equals }
 							infrastructure > 17
-							#infrastructure= 18 --> 26 
+							#infrastructure= 18 --> 26
 							infrastructure < 19
 						}
 						AND = {
 							check_variable = { var = Oceania_extra_state_shared_building_slots value = 26 comapre = less_than_or_equals }
 							infrastructure > 18
-							#infrastructure= 19 --> 28 
+							#infrastructure= 19 --> 28
 							infrastructure < 20
 						}
 						AND = {
 							check_variable = { var = Oceania_extra_state_shared_building_slots value = 28 comapre = less_than_or_equals }
 							infrastructure > 19
-							#infrastructure= 20 --> 30 
+							#infrastructure= 20 --> 30
 							infrastructure < 21
 						}
 					}
 				}
-				
-				
+
+
 				Oceania_infrastructure_for_three_extra_building_slots_trigger = {
 					OR = {
 						AND = {
@@ -463,7 +463,7 @@
 						AND = {
 							check_variable = { var = Oceania_extra_state_shared_building_slots value = 11 comapre = less_than_or_equals }
 							infrastructure > 11
-							#infrastructure= 12 --> 14 
+							#infrastructure= 12 --> 14
 							infrastructure < 13
 						}
 						AND = {
@@ -475,19 +475,19 @@
 						AND = {
 							check_variable = { var = Oceania_extra_state_shared_building_slots value = 15 comapre = less_than_or_equals }
 							infrastructure > 13
-							#infrastructure= 14 --> 18 
+							#infrastructure= 14 --> 18
 							infrastructure < 15
 						}
 						AND = {
 							check_variable = { var = Oceania_extra_state_shared_building_slots value = 17 comapre = less_than_or_equals }
 							infrastructure > 14
-							#infrastructure= 15 --> 20 
+							#infrastructure= 15 --> 20
 							infrastructure < 16
 						}
 						AND = {
 							check_variable = { var = Oceania_extra_state_shared_building_slots value = 19 comapre = less_than_or_equals }
 							infrastructure > 15
-							#infrastructure= 16 --> 22 
+							#infrastructure= 16 --> 22
 							infrastructure < 17
 						}
 						AND = {
@@ -499,93 +499,93 @@
 						AND = {
 							check_variable = { var = Oceania_extra_state_shared_building_slots value = 23 comapre = less_than_or_equals }
 							infrastructure > 17
-							#infrastructure= 18 --> 26 
+							#infrastructure= 18 --> 26
 							infrastructure < 19
 						}
 						AND = {
 							check_variable = { var = Oceania_extra_state_shared_building_slots value = 25 comapre = less_than_or_equals }
 							infrastructure > 18
-							#infrastructure= 19 --> 28 
+							#infrastructure= 19 --> 28
 							infrastructure < 20
 						}
 						AND = {
 							check_variable = { var = Oceania_extra_state_shared_building_slots value = 27 comapre = less_than_or_equals }
 							infrastructure > 19
-							#infrastructure= 20 --> 30 
+							#infrastructure= 20 --> 30
 							infrastructure < 21
 						}
 					}
 				}
-				
+
 				Oceania_three_extra_building_slots_supported_trigger = {
 					OR = {
 						any_owned_state = {
-							Oceania_infrastructure_for_three_extra_building_slots_trigger = yes 
+							Oceania_infrastructure_for_three_extra_building_slots_trigger = yes
 							is_core_of = ROOT
 						}
 						AND = {
 							capital_scope = {
-								Oceania_infrastructure_for_two_extra_building_slots_trigger = yes 
+								Oceania_infrastructure_for_two_extra_building_slots_trigger = yes
 								is_core_of = ROOT
 							}
 							any_owned_state = {
 								is_capital = no
-								Oceania_infrastructure_for_extra_building_slots_trigger = yes 
+								Oceania_infrastructure_for_extra_building_slots_trigger = yes
 								is_core_of = ROOT
 							}
 						}
 						AND = {
 							capital_scope = {
-								Oceania_infrastructure_for_extra_building_slots_trigger = yes 
+								Oceania_infrastructure_for_extra_building_slots_trigger = yes
 								is_core_of = ROOT
 							}
 							any_owned_state = {
 								is_capital = no
-								Oceania_infrastructure_for_two_extra_building_slots_trigger = yes 
+								Oceania_infrastructure_for_two_extra_building_slots_trigger = yes
 								is_core_of = ROOT
 							}
 						}
 					}
 				}
-					
+
 				Oceania_two_extra_building_slots_supported_trigger = {
 					OR = {
 						any_owned_state = {
-							Oceania_infrastructure_for_two_extra_building_slots_trigger = yes 
+							Oceania_infrastructure_for_two_extra_building_slots_trigger = yes
 							is_core_of = ROOT
 						}
 						AND = {
 							capital_scope = {
-								Oceania_infrastructure_for_extra_building_slots_trigger = yes 
+								Oceania_infrastructure_for_extra_building_slots_trigger = yes
 								is_core_of = ROOT
 							}
 							any_owned_state = {
 								is_capital = no
-								Oceania_infrastructure_for_extra_building_slots_trigger = yes 
+								Oceania_infrastructure_for_extra_building_slots_trigger = yes
 								is_core_of = ROOT
 							}
 						}
 					}
 				}
-				
+
 				Oceania_one_extra_building_slots_supported_trigger = {
 					any_owned_state = {
-						Oceania_infrastructure_for_extra_building_slots_trigger = yes 
+						Oceania_infrastructure_for_extra_building_slots_trigger = yes
 						is_core_of = ROOT
 					}
 				}
-				
+
 				Oceania_one_extra_building_slots_supported_for_coast_trigger = {
 					any_owned_state = {
-						Oceania_infrastructure_for_extra_building_slots_trigger = yes 
+						Oceania_infrastructure_for_extra_building_slots_trigger = yes
 						is_core_of = ROOT
 						is_coastal = yes
 					}
 				}
-				
+
 				Oceania_one_extra_building_slots_supported_for_coast_not_core_trigger = {
 					any_owned_state = {
-						Oceania_infrastructure_for_extra_building_slots_trigger = yes 
+						Oceania_infrastructure_for_extra_building_slots_trigger = yes
 						is_coastal = yes
 					}
 				}

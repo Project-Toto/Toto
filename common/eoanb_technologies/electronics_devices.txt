@@ -1,5 +1,5 @@
 technologies = {
-	
+
 	pyroglycerine_synthesis = {
 		
 		research_speed_factor = 0.01
@@ -44,26 +44,26 @@ technologies = {
 			explosives_tech
 		}
 	}
-	
+
 	nitroglycerine = {
 		
 		local_resources_factor = 0.05
 		category_front_line = {
 			soft_attack = 0.1
 		}
-		
+
 		research_cost = 1.5
 		start_year = 1850
 		folder = {
 			name = electronics_devices_folder
 			position = { x = 30 y = 0 }
 		}
-		
+
 		path = {
 			leads_to_tech = dynamite
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 100
 			modifier = {
@@ -75,7 +75,7 @@ technologies = {
 				date > 1872.1.1
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			chemistry_tech
@@ -106,7 +106,7 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 0
-				OR = { 
+				OR = {
 					NOT = { has_tech = tribal_tatics }
 					NOT = { has_tech = tribal_gunpowder }
 					NOT = { has_tech = tribal_riding }
@@ -148,12 +148,12 @@ technologies = {
 			name = electronics_devices_folder
 			position = { x = 30 y = 24 }
 		}
-		
+
 		path = {
 			leads_to_tech = petn
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -161,130 +161,130 @@ technologies = {
 				date < 1900.1.1
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			explosives_tech
 		}
 	}
 	petn = {
-		
+
 		local_resources_factor = 0.05
 		category_front_line = {
 			soft_attack = 0.05
 		}
-		
+
 		research_cost = 1.5
 		start_year = 1905
 		folder = {
 			name = electronics_devices_folder
 			position = { x = 30 y = 26 }
 		}
-		
+
 		path = {
 			leads_to_tech = rdx
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			explosives_tech
 		}
 	}
 	rdx = {
-		
+
 		local_resources_factor = 0.05
 		category_front_line = {
 			soft_attack = 0.05
 		}
-		
+
 		research_cost = 1.5
 		start_year = 1930
 		folder = {
 			name = electronics_devices_folder
 			position = { x = 30 y = 36 }
 		}
-		
+
 		path = {
 			leads_to_tech = c_4
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			explosives_tech
 		}
 	}
 	c_4 = {
-		
+
 		local_resources_factor = 0.05
 		category_front_line = {
 			soft_attack = 0.075
 		}
-		
+
 		research_cost = 1.5
 		start_year = 1955
 		folder = {
 			name = electronics_devices_folder
 			position = { x = 30 y = 46 }
 		}
-		
+
 		path = {
 			leads_to_tech = semtex
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			explosives_tech
 		}
 	}
 	semtex = {
-		
+
 		local_resources_factor = 0.05
 		category_front_line = {
 			soft_attack = 0.075
 		}
-		
+
 		research_cost = 1.5
 		start_year = 1965
 		folder = {
 			name = electronics_devices_folder
 			position = { x = 30 y = 50 }
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			explosives_tech
@@ -292,7 +292,7 @@ technologies = {
 	}
 	
 	electrical_engineering = {
-	
+
 		production_speed_buildings_factor = 0.05
 		industry_repair_factor = 0.1
 		
@@ -322,16 +322,16 @@ technologies = {
 			leads_to_tech = phonograph
 			research_cost_coeff = 1
 		}
-		
+
 		path = {
 			leads_to_tech = daguerreotype
 			research_cost_coeff = 1
 		}
-		
+
 		dependencies={
 			tribal_electrical_theory = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 10
 			modifier = {
@@ -339,14 +339,14 @@ technologies = {
 				date > 1860.1.1
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 		}
 	}
 	
 	early_incandescent_lightbulb = {
-	
+
 		production_speed_industrial_complex_factor = 0.05
 		
 		research_cost = 1.5
@@ -400,9 +400,9 @@ technologies = {
 			electronics_devices_tech
 		}
 	}
-	
+
 	better_incandescent_lightbulb = {
-	
+
 		production_factory_start_efficiency_factor = 0.05
 		
 		research_cost = 1.5
@@ -415,7 +415,7 @@ technologies = {
 			leads_to_tech = tungsten_filaments
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -433,7 +433,7 @@ technologies = {
 				date > 1880.1.1
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 		}
@@ -470,7 +470,7 @@ technologies = {
 		}
 	}
 	diodes = {
-	
+
 		research_speed_factor = 0.01
 		
 		research_cost = 1.5
@@ -505,7 +505,7 @@ technologies = {
 				date > 1905.1.1
 			}
 		}
-		
+
 		categories = {
 			computing_tech
 			electronics_devices_tech
@@ -530,7 +530,7 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 			modifier = {
 				factor = 0
@@ -550,7 +550,7 @@ technologies = {
 		}
 	}
 	hard_vacuum_triodes = {
-	
+
 		research_speed_factor = 0.01
 		
 		research_cost = 1.5
@@ -568,7 +568,7 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 			modifier = {
 				factor = 0
@@ -606,7 +606,7 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
 		
@@ -616,7 +616,7 @@ technologies = {
 		}
 	}
 	pentodes = {
-	
+
 		research_speed_factor = 0.01
 		
 		research_cost = 1.5
@@ -634,7 +634,7 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
 		
@@ -666,7 +666,7 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
 		
@@ -676,7 +676,7 @@ technologies = {
 		}
 	}
 	turing_machines = {
-	
+
 		research_speed_factor = 0.02
 		
 		research_cost = 1.5
@@ -694,10 +694,10 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			computing_tech
@@ -722,7 +722,7 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
 		
@@ -732,7 +732,7 @@ technologies = {
 		}
 	}
 	programing_languages = {
-	
+
 		research_speed_factor = 0.02
 		
 		research_cost = 1.5
@@ -750,7 +750,7 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
 		
@@ -782,7 +782,7 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
 		
@@ -792,7 +792,7 @@ technologies = {
 		}
 	}
 	tunnel_diodes = {
-	
+
 		research_speed_factor = 0.01
 		
 		research_cost = 1.5
@@ -814,10 +814,10 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			computing_tech
@@ -842,7 +842,7 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
 		
@@ -852,7 +852,7 @@ technologies = {
 		}
 	}
 	point_contact_transistor = {
-	
+
 		research_speed_factor = 0.01
 		
 		research_cost = 1.5
@@ -870,10 +870,10 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			computing_tech
@@ -898,7 +898,7 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
 		
@@ -908,7 +908,7 @@ technologies = {
 		}
 	}
 	integrated_circuits = {
-	
+
 		research_speed_factor = 0.05
 		enable_building = {
 			building = electronics_factory
@@ -938,7 +938,7 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
 		
@@ -969,7 +969,7 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
 		
@@ -979,7 +979,7 @@ technologies = {
 		}
 	}
 	standardized_semiconductor_device_fabrication = {
-	
+
 		enable_building = {
 			building = electronics_factory
 			level = 5
@@ -1012,7 +1012,7 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
 		
@@ -1043,7 +1043,7 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
 		
@@ -1053,7 +1053,7 @@ technologies = {
 		}
 	}
 	mobile_phones = {
-	
+
 		research_speed_factor = 0.02
 		
 		research_cost = 1.5
@@ -1071,10 +1071,10 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			comms_tech
@@ -1099,7 +1099,7 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
 		
@@ -1109,7 +1109,7 @@ technologies = {
 		}
 	}
 	simple_computing_devices = {
-	
+
 		research_speed_factor = 0.02
 		
 		research_cost = 1.5
@@ -1131,10 +1131,10 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			computing_tech
@@ -1159,7 +1159,7 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
 		
@@ -1169,7 +1169,7 @@ technologies = {
 		}
 	}
 	early_computers = {
-	
+
 		research_speed_factor = 0.05
 		
 		research_cost = 1.5
@@ -1187,10 +1187,10 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			computing_tech
@@ -1199,10 +1199,10 @@ technologies = {
 	processors_32bit = {
 	
 		research_speed_factor = 0.02
-		
+
 		research_cost = 1.5
 		start_year = 1980
-		
+
 		dependencies={
 			early_computers = 1
 			standardized_semiconductor_device_fabrication = 1
@@ -1215,15 +1215,15 @@ technologies = {
 			leads_to_tech = micrometer_process_chips
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			computing_tech
@@ -1252,7 +1252,7 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
 		
@@ -1262,7 +1262,7 @@ technologies = {
 		}
 	}
 	internet = {
-	
+
 		research_speed_factor = 0.1
 		drift_defence_factor = -0.2
 		political_power_factor = -0.05
@@ -1277,15 +1277,15 @@ technologies = {
 			leads_to_tech = wi_fi
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			computing_tech
@@ -1311,7 +1311,7 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
 		
@@ -1321,7 +1321,7 @@ technologies = {
 		}
 	}
 	li_fi = {
-	
+
 		research_speed_factor = 0.03
 		drift_defence_factor = -0.1
 		
@@ -1340,7 +1340,7 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
 		
@@ -1368,7 +1368,7 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
 		
@@ -1378,7 +1378,7 @@ technologies = {
 		}
 	}
 	multi-core_processors = {
-	
+
 		research_speed_factor = 0.02
 		
 		research_cost = 1.5
@@ -1400,10 +1400,10 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			computing_tech
@@ -1435,7 +1435,7 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
 		
@@ -1445,7 +1445,7 @@ technologies = {
 		}
 	}
 	quantum_computing = {
-	
+
 		research_speed_factor = 0.05
 		
 		research_cost = 1.5
@@ -1467,10 +1467,10 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			computing_tech
@@ -1491,24 +1491,24 @@ technologies = {
 			leads_to_tech = advanced_quantum_computers
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			computing_tech
 		}
 	}
 	improved_quantum_computers = {
-	
+
 		research_speed_factor = 0.03
-		
+
 		research_cost = 1.5
 		start_year = 2035
 		folder = {
@@ -1519,31 +1519,31 @@ technologies = {
 			leads_to_tech = advanced_quantum_computers
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			computing_tech
 		}
 	}
 	advanced_quantum_computers = {
-	
+
 		research_speed_factor = 0.03
-		
+
 		research_cost = 1.5
 		start_year = 2045
 		folder = {
 			name = electronics_devices_folder
 			position = { x = 12 y = 82 }
 		}
-		
+
 		dependencies={
 			improved_quantum_computers = 1
 			quantum_entangled_communication = 1
@@ -1552,25 +1552,25 @@ technologies = {
 			leads_to_tech = better_than_life
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			computing_tech
 		}
 	}
 	early_intelligent_robotics = {
-	
+
 		production_factory_max_efficiency_factor = 0.075
 		production_factory_efficiency_gain_factor = 0.025
-		
+
 		research_cost = 1.5
 		start_year = 2005
 		folder = {
@@ -1584,24 +1584,24 @@ technologies = {
 			leads_to_tech = simple_ai_systems
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 		}
 	}
 	simple_ai_systems = {
-	
+
 		production_factory_max_efficiency_factor = 0.075
 		production_factory_efficiency_gain_factor = 0.025
-		
+
 		research_cost = 1.5
 		start_year = 2010
 		folder = {
@@ -1612,27 +1612,27 @@ technologies = {
 			leads_to_tech = advanced_ai_systems
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 		}
 	}
 	advanced_ai_systems = {
-	
+
 		production_factory_max_efficiency_factor = 0.075
 		production_factory_efficiency_gain_factor = 0.025
-		
+
 		research_cost = 1.5
 		start_year = 2020
-		
+
 		dependencies={
 			simple_ai_systems = 1
 			low_qubit_quantum_computers = 1
@@ -1645,24 +1645,24 @@ technologies = {
 			leads_to_tech = robotics
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 		}
 	}
 	robotics = {
-	
+
 		production_factory_max_efficiency_factor = 0.075
 		production_factory_efficiency_gain_factor = 0.025
-		
+
 		research_cost = 1.5
 		start_year = 2025
 		folder = {
@@ -1676,23 +1676,23 @@ technologies = {
 		dependencies={
 			walking_cycles = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 		}
 	}
 	long_lasting_tungsten_filaments = {
-	
+
 		production_factory_start_efficiency_factor = 0.05
-		
+
 		research_cost = 1.5
 		start_year = 1910
 		folder = {
@@ -1703,23 +1703,23 @@ technologies = {
 			leads_to_tech = frosted_glass_bulbs
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 		}
 	}
 	frosted_glass_bulbs = {
-	
+
 		production_factory_start_efficiency_factor = 0.05
-		
+
 		research_cost = 1.5
 		start_year = 1920
 		folder = {
@@ -1730,23 +1730,23 @@ technologies = {
 			leads_to_tech = neon_tubes
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 		}
 	}
 	neon_tubes = {
-	
+
 		production_factory_start_efficiency_factor = 0.05
-		
+
 		research_cost = 1.5
 		start_year = 1925
 		folder = {
@@ -1760,23 +1760,23 @@ technologies = {
 		dependencies={
 			noble_gas_discovery = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 		}
 	}
 	fluorescents = {
-	
+
 		production_factory_start_efficiency_factor = 0.05
-		
+
 		research_cost = 1.5
 		start_year = 1930
 		folder = {
@@ -1787,23 +1787,23 @@ technologies = {
 			leads_to_tech = leds
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 		}
 	}
 	leds = {
-	
+
 		production_factory_start_efficiency_factor = 0.05
-		
+
 		research_cost = 1.5
 		start_year = 1960
 		folder = {
@@ -1818,46 +1818,46 @@ technologies = {
 			leads_to_tech = lcd
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 		}
 	}
 	lcd = {
-	
+
 		production_factory_start_efficiency_factor = 0.05
-		
+
 		research_cost = 1.5
 		start_year = 1970
 		folder = {
 			name = electronics_devices_folder
 			position = { x = 10 y = 52 }
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 		}
 	}
 	fluorescent_spiral_bulbs = {
-	
+
 		production_factory_start_efficiency_factor = 0.05
-		
+
 		research_cost = 1.5
 		start_year = 1975
 		folder = {
@@ -1868,59 +1868,59 @@ technologies = {
 			leads_to_tech = coloured_leds
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 		}
 	}
 	coloured_leds = {
-	
+
 		production_factory_start_efficiency_factor = 0.05
-		
+
 		research_cost = 1.5
 		start_year = 1990
 		folder = {
 			name = electronics_devices_folder
 			position = { x = 8 y = 60 }
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 		}
 	}
-	
+
 	geissler_tube = {
-	
+
 		line_change_production_efficiency_factor = 0.02
-		
+
 		research_cost = 1.5
 		start_year = 1855
 		folder = {
 			name = electronics_devices_folder
 			position = { x = 10 y = 4 }
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 			modifier = {
 				factor = 0
@@ -1928,106 +1928,106 @@ technologies = {
 				date < 1875.1.1
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 		}
 	}
-	
+
 	daguerreotype = {
-	
+
 		recon_factor = 0.02
-		
+
 		research_cost = 1.5
 		start_year = 1850
 		folder = {
 			name = electronics_devices_folder
 			position = { x = 26 y = 0 }
 		}
-		
+
 		path = {
 			leads_to_tech = ambrotype
 			research_cost_coeff = 1
 		}
-		
+
 		path = {
 			leads_to_tech = collodion_process
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 			modifier = {
 				factor = 30
 				afr_is_tribal = yes
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 		}
 	}
-	
+
 	collodion_process = {
-	
+
 		recon_factor = 0.04
-		
+
 		research_cost = 1.5
 		start_year = 1850
 		folder = {
 			name = electronics_devices_folder
 			position = { x = 28 y = 2 }
 		}
-		
+
 		path = {
 			leads_to_tech = photographic_glass_plate
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 			modifier = {
 				factor = 45
 				afr_is_tribal = yes
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 		}
 	}
-	
+
 	photographic_glass_plate = {
-	
+
 		recon_factor = 0.02
-		
+
 		research_cost = 1.5
 		start_year = 1860
 		folder = {
 			name = electronics_devices_folder
 			position = { x = 28 y = 8 }
 		}
-		
+
 		path = {
 			leads_to_tech = dry_plate
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 			modifier = {
 				factor = 0
@@ -2040,108 +2040,108 @@ technologies = {
 				date > 1860.1.1
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 		}
 	}
-	
+
 	dry_plate = {
-	
+
 		naval_hit_chance = 0.02
 		naval_strike_targetting_factor = 0.01
-		
+
 		research_cost = 1.5
 		start_year = 1870
 		folder = {
 			name = electronics_devices_folder
 			position = { x = 28 y = 12 }
 		}
-		
+
 		path = {
 			leads_to_tech = photographic_film
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 		}
 	}
-	
+
 	ambrotype = {
-	
+
 		production_factory_efficiency_gain_factor = 0.02
-		
+
 		research_cost = 1.5
 		start_year = 1850
 		folder = {
 			name = electronics_devices_folder
 			position = { x = 24 y = 2 }
 		}
-		
+
 		path = {
 			leads_to_tech = tintype
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 		}
 	}
-	
+
 	tintype = {
-	
+
 		recon_factor = 0.02
 		production_factory_start_efficiency_factor = 0.01
-		
+
 		research_cost = 1.5
 		start_year = 1860
 		folder = {
 			name = electronics_devices_folder
 			position = { x = 24 y = 8 }
 		}
-		
+
 		path = {
 			leads_to_tech = photographic_film
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 		}
 	}
-	
+
 	photographic_film = {
-	
+
 		recon_factor = 0.02
 		production_factory_efficiency_gain_factor = 0.02
 		naval_hit_chance = 0.01
 		army_bonus_air_superiority_factor = 0.01
-		
+
 		research_cost = 1.5
 		start_year = 1875
 		folder = {
@@ -2152,41 +2152,41 @@ technologies = {
 			leads_to_tech = cinematograph
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 		}
 	}
-	
+
 	electrical_telegraph = {
-	
+
 		army_morale_factor = 0.08
-		
+
 		research_cost = 1.5
 		start_year = 1850
 		folder = {
 			name = electronics_devices_folder
 			position = { x = 16 y = 0 }
 		}
-		
+
 		path = {
 			leads_to_tech = telephone
 			research_cost_coeff = 1
 		}
-		
+
 		path = {
 			leads_to_tech = wireless_telegraphy
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -2199,16 +2199,16 @@ technologies = {
 			}
 			modifier = {
 				factor = 1
- 
+
 			}
 			modifier = {
 				factor = 45
 				afr_is_tribal = yes
- 
+
 			}
 			modifier = {
 				factor = 0
-				OR = { 
+				OR = {
 					NOT = { has_tech = tribal_tatics }
 					NOT = { has_tech = tribal_gunpowder }
 					NOT = { has_tech = tribal_riding }
@@ -2227,31 +2227,31 @@ technologies = {
 				OR = { has_idea = oral_tradition has_idea = traditional_uluma }
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			comms_tech
 		}
 	}
-	
+
 	telephone = {
-	
+
 		land_reinforce_rate = 0.03
 		army_morale_factor = 0.04
 		experience_gain_army_factor = 0.1
-		
+
 		research_cost = 1.5
 		start_year = 1875
 		folder = {
 			name = electronics_devices_folder
 			position = { x = 18 y = 14 }
 		}
-		
+
 		path = {
 			leads_to_tech = cinematograph
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -2273,30 +2273,30 @@ technologies = {
 				date > 1880.1.1
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			comms_tech
 		}
 	}
-	
+
 	phonograph = {
-	
+
 		political_power_factor = 0.05
 		recon_factor = 0.02
-		
+
 		research_cost = 1.5
 		start_year = 1875
 		folder = {
 			name = electronics_devices_folder
 			position = { x = 22 y = 14 }
 		}
-		
+
 		path = {
 			leads_to_tech = cinematograph
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 4
 			modifier = {
@@ -2314,19 +2314,19 @@ technologies = {
 				date > 1875.1.1
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 		}
 	}
-	
+
 	cinematograph = {
-	
+
 		drift_defence_factor = 0.1
 		political_power_factor = 0.04
 		naval_hit_chance = 0.01
 		recon_factor = 0.01
-		
+
 		research_cost = 1.5
 		start_year = 1890
 		folder = {
@@ -2342,7 +2342,7 @@ technologies = {
 			phonograph = 1
 			telephone = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -2350,18 +2350,18 @@ technologies = {
 				date < 1885.1.1
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 		}
 	}
 	cathode_tubes = {
-	
+
 		drift_defence_factor = 0.05
 		political_power_factor = 0.04
 		naval_hit_chance = 0.01
 		recon_factor = 0.01
-		
+
 		research_cost = 1.5
 		start_year = 1915
 		folder = {
@@ -2375,7 +2375,7 @@ technologies = {
 			leads_to_tech = iconoscope
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -2383,18 +2383,18 @@ technologies = {
 				date < 1915.1.1
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 		}
 	}
 	iconoscope = {
-	
+
 		drift_defence_factor = 0.05
 		political_power_factor = 0.04
 		naval_hit_chance = 0.01
 		recon_factor = 0.01
-		
+
 		research_cost = 1.5
 		start_year = 1920
 		folder = {
@@ -2405,26 +2405,26 @@ technologies = {
 			leads_to_tech = black_and_white_tv
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 		}
 	}
 	black_and_white_tv = {
-	
+
 		drift_defence_factor = -0.2
 		political_power_factor = 0.08
 		naval_hit_chance = 0.01
 		recon_factor = 0.01
-		
+
 		research_cost = 1.5
 		start_year = 1935
 		folder = {
@@ -2435,26 +2435,26 @@ technologies = {
 			leads_to_tech = vidcon_and_plumdicon_tubes
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 		}
 	}
 	vidcon_and_plumdicon_tubes = {
-	
+
 		drift_defence_factor = 0.05
 		political_power_factor = 0.04
 		naval_hit_chance = 0.01
 		recon_factor = 0.01
-		
+
 		research_cost = 1.5
 		start_year = 1955
 		folder = {
@@ -2465,26 +2465,26 @@ technologies = {
 			leads_to_tech = color_tv
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 		}
 	}
 	color_tv = {
-	
+
 		drift_defence_factor = 0.05
 		political_power_factor = 0.04
 		naval_hit_chance = 0.01
 		recon_factor = 0.01
-		
+
 		research_cost = 1.5
 		start_year = 1960
 		folder = {
@@ -2495,26 +2495,26 @@ technologies = {
 			leads_to_tech = lcd_tv
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 		}
 	}
 	lcd_tv = {
-	
+
 		drift_defence_factor = 0.05
 		political_power_factor = 0.04
 		naval_hit_chance = 0.01
 		recon_factor = 0.01
-		
+
 		research_cost = 1.5
 		start_year = 1975
 		folder = {
@@ -2528,31 +2528,31 @@ technologies = {
 			leads_to_tech = digital_tvs
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 		}
 	}
 	digital_tvs = {
-	
+
 		drift_defence_factor = 0.05
 		political_power_factor = 0.04
 		naval_hit_chance = 0.01
 		recon_factor = 0.01
-		
+
 		dependencies={
 			standardized_semiconductor_device_fabrication = 1
 			lcd_tv = 1
 		}
-		
+
 		research_cost = 1.5
 		start_year = 1990
 		folder = {
@@ -2563,26 +2563,26 @@ technologies = {
 			leads_to_tech = smart_tvs
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 		}
 	}
 	smart_tvs = {
-	
+
 		drift_defence_factor = 0.05
 		political_power_factor = 0.04
 		naval_hit_chance = 0.01
 		recon_factor = 0.01
-		
+
 		research_cost = 1.5
 		start_year = 2005
 		folder = {
@@ -2596,29 +2596,29 @@ technologies = {
 			leads_to_tech = vr
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 		}
 	}
 	vr = {
-	
+
 		drift_defence_factor = -0.1
 		political_power_factor = 0.04
 		naval_hit_chance = 0.01
 		recon_factor = 0.01
-		
+
 		research_cost = 1.5
 		start_year = 2018
-		
+
 		dependencies={
 			smartphones = 1
 			smart_tvs = 1
@@ -2631,26 +2631,26 @@ technologies = {
 			leads_to_tech = full_immersion_vr
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 		}
 	}
 	full_immersion_vr = {
-	
+
 		drift_defence_factor = -0.1
 		political_power_factor = 0.04
 		naval_hit_chance = 0.01
 		recon_factor = 0.01
-		
+
 		research_cost = 1.5
 		start_year = 2035
 		folder = {
@@ -2661,84 +2661,84 @@ technologies = {
 			leads_to_tech = better_than_life
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 		}
 	}
 	better_than_life = {
-	
+
 		research_speed_factor = 0.03
 		drift_defence_factor = -0.1
 		political_power_factor = 0.04
 		naval_hit_chance = 0.01
 		recon_factor = 0.01
-		
+
 		dependencies={
 			full_immersion_vr = 1
 			advanced_quantum_computers = 1
 		}
-		
+
 		research_cost = 1.5
 		start_year = 2050
 		folder = {
 			name = electronics_devices_folder
 			position = { x = 16 y = 84 }
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 		}
 	}
-	
+
 	electromagnetic_radiation_detection = {
-	
+
 		research_speed_factor = 0.01
-		
+
 		dependencies = {
 			alternators = 1
 			periodic_table = 1
 			physical_chemistry = 1
 		}
-		
+
 		research_cost = 1.5
 		start_year = 1890
 		folder = {
 			name = electronics_devices_folder
 			position = { x = 12 y = 20 }
 		}
-		
+
 		path = {
 			leads_to_tech = xray_discovery
 			research_cost_coeff = 1
 		}
-		
+
 		path = {
 			leads_to_tech = radioactivity_discovery
 			research_cost_coeff = 1
 		}
-		
+
 		path = {
 			leads_to_tech = photoelectric_effect
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1000
 			modifier = {
@@ -2750,170 +2750,170 @@ technologies = {
 				date > 1900.1.1
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 		}
 	}
-	
+
 	xray_discovery = {
-	
+
 		MONTHLY_POPULATION = 0.02
 		army_morale_factor = 0.02
-		
+
 		research_cost = 1.5
 		start_year = 1890
 		folder = {
 			name = electronics_devices_folder
 			position = { x = 10 y = 20 }
 		}
-		
+
 		path = {
 			leads_to_tech = early_radiograph
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 		}
 	}
-	
+
 	early_radiograph = {
-	
+
 		MONTHLY_POPULATION = 0.04
 		army_morale_factor = 0.01
-		
+
 		research_cost = 1.5
 		start_year = 1895
 		folder = {
 			name = electronics_devices_folder
 			position = { x = 10 y = 22 }
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 		}
 	}
-	
+
 	radioactivity_discovery = {
-	
+
 		research_speed_factor = 0.01
-		
+
 		research_cost = 1.5
 		start_year = 1895
 		folder = {
 			name = electronics_devices_folder
 			position = { x = 12 y = 22 }
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 		}
 	}
-	
+
 	photoelectric_effect = {
-	
+
 		naval_torpedo_reveal_chance_factor = -0.04
 		navy_max_range_factor = 0.04
-		
+
 		research_cost = 1.5
 		start_year = 1895
 		folder = {
 			name = electronics_devices_folder
 			position = { x = 14 y = 22 }
 		}
-		
+
 		path = {
 			leads_to_tech = radio_wave_generators
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 		}
 	}
-	
+
 	radio_wave_generators = {
-	
+
 		production_speed_radar_station_factor = 0.1
 		research_speed_factor = 0.01
-		
+
 		research_cost = 1.5
 		start_year = 1900
 		folder = {
 			name = electronics_devices_folder
 			position = { x = 14 y = 24 }
 		}
-		
+
 		path = {
 			leads_to_tech = wireless_telegraphy
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			comms_tech
 		}
 	}
-	
+
 	wireless_telegraphy = {
-	
+
 		amphibious_invasion = 0.12
 		army_morale_factor = 0.06
 		land_reinforce_rate = 0.01
-		
+
 		research_cost = 1.5
 		start_year = 1905
 		folder = {
 			name = electronics_devices_folder
 			position = { x = 16 y = 26 }
 		}
-		
+
 		path = {
 			leads_to_tech = early_radio
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -2921,60 +2921,60 @@ technologies = {
 				date < 1905.1.1
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			comms_tech
 		}
 	}
-	
+
 	early_radio = {
-	
+
 		amphibious_invasion = 0.02
 		land_reinforce_rate = 0.02
 		army_bonus_air_superiority_factor = 0.02
 		spotting_chance = 0.02
 		naval_coordination = 0.02
 		production_factory_max_efficiency_factor = 0.02
-		
+
 		path = {
 			leads_to_tech = commercial_radio_broadcasting_equipment
 			research_cost_coeff = 1
 		}
-		
+
 		research_cost = 2
 		start_year = 1910
 		folder = {
 			name = electronics_devices_folder
 			position = { x = 16 y = 28 }
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			comms_tech
 		}
 	}
 	commercial_radio_broadcasting_equipment = {
-	
+
 		amphibious_invasion = 0.02
 		land_reinforce_rate = 0.02
 		army_bonus_air_superiority_factor = 0.02
 		spotting_chance = 0.02
 		naval_coordination = 0.02
 		production_factory_max_efficiency_factor = 0.02
-		
-		enable_equipment_modules = { 
+
+		enable_equipment_modules = {
 			ship_sonar_0
 		}
-		
+
 		research_cost = 2
 		start_year = 1920
 		folder = {
@@ -2985,23 +2985,23 @@ technologies = {
 			leads_to_tech = fm_radio
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			comms_tech
 		}
 	}
 	fm_radio = {
-		
-		enable_equipment_modules = { 
+
+		enable_equipment_modules = {
 			ship_sonar_1
 		}
 		amphibious_invasion = 0.02
@@ -3010,7 +3010,7 @@ technologies = {
 		spotting_chance = 0.02
 		naval_coordination = 0.02
 		production_factory_max_efficiency_factor = 0.02
-		
+
 		research_cost = 2
 		start_year = 1930
 		folder = {
@@ -3021,26 +3021,26 @@ technologies = {
 			leads_to_tech = military_band_radios
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			comms_tech
 		}
 	}
 	military_band_radios = {
-		
-		enable_equipment_modules = { 
+
+		enable_equipment_modules = {
 			ship_sonar_2
 		}
-		enable_equipment_modules = { 
+		enable_equipment_modules = {
 			ship_radar_0
 		}
 		amphibious_invasion = 0.02
@@ -3049,7 +3049,7 @@ technologies = {
 		spotting_chance = 0.02
 		naval_coordination = 0.02
 		production_factory_max_efficiency_factor = 0.02
-		
+
 		research_cost = 2
 		start_year = 1935
 		folder = {
@@ -3060,26 +3060,26 @@ technologies = {
 			leads_to_tech = radar
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			comms_tech
 		}
 	}
 	radar = {
-		
-		enable_equipment_modules = { 
+
+		enable_equipment_modules = {
 			ship_sonar_3
 		}
-		enable_equipment_modules = { 
+		enable_equipment_modules = {
 			ship_radar_1
 		}
 		amphibious_invasion = 0.02
@@ -3088,7 +3088,7 @@ technologies = {
 		spotting_chance = 0.02
 		naval_coordination = 0.02
 		production_factory_max_efficiency_factor = 0.02
-		
+
 		research_cost = 2
 		start_year = 1940
 		folder = {
@@ -3099,26 +3099,26 @@ technologies = {
 			leads_to_tech = slotted_waveguide_radar_system
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			radar_tech
 		}
 	}
 	slotted_waveguide_radar_system = {
-		
-		enable_equipment_modules = { 
+
+		enable_equipment_modules = {
 			ship_sonar_4
 		}
-		enable_equipment_modules = { 
+		enable_equipment_modules = {
 			ship_radar_2
 		}
 		amphibious_invasion = 0.02
@@ -3127,7 +3127,7 @@ technologies = {
 		spotting_chance = 0.02
 		naval_coordination = 0.02
 		production_factory_max_efficiency_factor = 0.02
-		
+
 		research_cost = 2
 		start_year = 1950
 		folder = {
@@ -3138,26 +3138,26 @@ technologies = {
 			leads_to_tech = monopulse_radar
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			radar_tech
 		}
 	}
 	monopulse_radar = {
-		
-		enable_equipment_modules = { 
+
+		enable_equipment_modules = {
 			ship_sonar_5
 		}
-		enable_equipment_modules = { 
+		enable_equipment_modules = {
 			ship_radar_3
 		}
 		amphibious_invasion = 0.02
@@ -3166,7 +3166,7 @@ technologies = {
 		spotting_chance = 0.02
 		naval_coordination = 0.02
 		production_factory_max_efficiency_factor = 0.02
-		
+
 		research_cost = 2
 		start_year = 1960
 		folder = {
@@ -3177,26 +3177,26 @@ technologies = {
 			leads_to_tech = digital_radar_systems
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			radar_tech
 		}
 	}
 	digital_radar_systems = {
-		
-		enable_equipment_modules = { 
+
+		enable_equipment_modules = {
 			ship_sonar_6
 		}
-		enable_equipment_modules = { 
+		enable_equipment_modules = {
 			ship_radar_4
 		}
 		amphibious_invasion = 0.02
@@ -3205,7 +3205,7 @@ technologies = {
 		spotting_chance = 0.02
 		naval_coordination = 0.02
 		production_factory_max_efficiency_factor = 0.02
-		
+
 		research_cost = 2
 		start_year = 1970
 		folder = {
@@ -3216,26 +3216,26 @@ technologies = {
 			leads_to_tech = phased_array_radar_systems
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			radar_tech
 		}
 	}
 	phased_array_radar_systems = {
-		
-		enable_equipment_modules = { 
+
+		enable_equipment_modules = {
 			ship_sonar_7
 		}
-		enable_equipment_modules = { 
+		enable_equipment_modules = {
 			ship_radar_5
 		}
 		amphibious_invasion = 0.02
@@ -3244,12 +3244,12 @@ technologies = {
 		spotting_chance = 0.02
 		naval_coordination = 0.02
 		production_factory_max_efficiency_factor = 0.02
-		
+
 		dependencies={
 			standardized_semiconductor_device_fabrication = 1
 			digital_radar_systems = 1
 		}
-		
+
 		research_cost = 2
 		start_year = 1980
 		folder = {
@@ -3260,26 +3260,26 @@ technologies = {
 			leads_to_tech = synthetic_aperture_radar
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			radar_tech
 		}
 	}
 	synthetic_aperture_radar = {
-		
-		enable_equipment_modules = { 
+
+		enable_equipment_modules = {
 			ship_sonar_8
 		}
-		enable_equipment_modules = { 
+		enable_equipment_modules = {
 			ship_radar_6
 		}
 		amphibious_invasion = 0.02
@@ -3288,64 +3288,64 @@ technologies = {
 		spotting_chance = 0.02
 		naval_coordination = 0.02
 		production_factory_max_efficiency_factor = 0.02
-		
+
 		research_cost = 2
 		start_year = 1985
 		folder = {
 			name = electronics_devices_folder
 			position = { x = 16 y = 58 }
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			radar_tech
 		}
 	}
-	
+
 	voltas_battery = {
-	
+
 		production_factory_start_efficiency_factor = 0.025
 		industrial_capacity_factory = 0.025
 		industrial_capacity_dockyard = 0.025
-		
+
 		research_cost = 1.5
 		start_year = 1850
 		folder = {
 			name = electronics_devices_folder
 			position = { x = 6 y = -2 }
 		}
-		
+
 		path = {
 			leads_to_tech = lead_acid_battery
 			research_cost_coeff = 1
 		}
-		
+
 		dependencies = {
 			tribal_chemistry = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 			modifier = {
 				factor = 25
 				afr_is_tribal = yes
- 
+
 			}
 			modifier = {
 				factor = 0
-				OR = { 
+				OR = {
 					NOT = { has_tech = tribal_tatics }
 					NOT = { has_tech = tribal_gunpowder }
 					NOT = { has_tech = tribal_riding }
@@ -3364,36 +3364,36 @@ technologies = {
 				OR = { has_idea = oral_tradition has_idea = traditional_uluma }
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			energy_production_tech
 		}
 	}
-	
+
 	lead_acid_battery = {
-	
+
 		production_factory_start_efficiency_factor = 0.025
 		industrial_capacity_factory = 0.025
 		industrial_capacity_dockyard = 0.025
-		
+
 		research_cost = 1.5
 		start_year = 1860
 		folder = {
 			name = electronics_devices_folder
 			position = { x = 6 y = 8 }
 		}
-		
+
 		path = {
 			leads_to_tech = zinc_carbon_battery
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 			modifier = {
 				factor = 0
@@ -3406,31 +3406,31 @@ technologies = {
 				date > 1870.1.1
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			energy_production_tech
 		}
 	}
-	
+
 	zinc_carbon_battery = {
-	
+
 		production_factory_start_efficiency_factor = 0.025
 		industrial_capacity_factory = 0.025
 		industrial_capacity_dockyard = 0.025
-		
+
 		research_cost = 1.5
 		start_year = 1885
 		folder = {
 			name = electronics_devices_folder
 			position = { x = 6 y = 18 }
 		}
-		
+
 		path = {
 			leads_to_tech = nickel_cadmium_battery
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -3448,19 +3448,19 @@ technologies = {
 				date > 1885.1.1
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			energy_production_tech
 		}
 	}
-	
+
 	nickel_cadmium_battery = {
-	
+
 		production_factory_start_efficiency_factor = 0.025
 		industrial_capacity_factory = 0.025
 		industrial_capacity_dockyard = 0.025
-		
+
 		research_cost = 1.5
 		start_year = 1900
 		folder = {
@@ -3471,7 +3471,7 @@ technologies = {
 			leads_to_tech = nickel_iron_battery
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -3479,18 +3479,18 @@ technologies = {
 				date < 1900.1.1
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			energy_production_tech
 		}
 	}
 	nickel_iron_battery = {
-	
+
 		production_factory_start_efficiency_factor = 0.025
 		industrial_capacity_factory = 0.025
 		industrial_capacity_dockyard = 0.025
-		
+
 		research_cost = 1.5
 		start_year = 1905
 		folder = {
@@ -3501,26 +3501,26 @@ technologies = {
 			leads_to_tech = alkaline_battery
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			energy_production_tech
 		}
 	}
 	alkaline_battery = {
-	
+
 		production_factory_start_efficiency_factor = 0.025
 		industrial_capacity_factory = 0.025
 		industrial_capacity_dockyard = 0.025
-		
+
 		research_cost = 1.5
 		start_year = 1955
 		folder = {
@@ -3531,7 +3531,7 @@ technologies = {
 			leads_to_tech = nickel_hydrogen_battery
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -3539,18 +3539,18 @@ technologies = {
 				date < 1955.1.1
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			energy_production_tech
 		}
 	}
 	nickel_hydrogen_battery = {
-	
+
 		production_factory_start_efficiency_factor = 0.025
 		industrial_capacity_factory = 0.025
 		industrial_capacity_dockyard = 0.025
-		
+
 		research_cost = 1.5
 		start_year = 1970
 		folder = {
@@ -3561,7 +3561,7 @@ technologies = {
 			leads_to_tech = lithium_ion_battery
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -3569,18 +3569,18 @@ technologies = {
 				date > 1970.1.1
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			energy_production_tech
 		}
 	}
 	lithium_ion_battery = {
-	
+
 		production_factory_start_efficiency_factor = 0.025
 		industrial_capacity_factory = 0.025
 		industrial_capacity_dockyard = 0.025
-		
+
 		research_cost = 1.5
 		start_year = 1985
 		folder = {
@@ -3591,26 +3591,26 @@ technologies = {
 			leads_to_tech = lithium_polymer_battery
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			energy_production_tech
 		}
 	}
 	lithium_polymer_battery = {
-	
+
 		production_factory_start_efficiency_factor = 0.025
 		industrial_capacity_factory = 0.025
 		industrial_capacity_dockyard = 0.025
-		
+
 		research_cost = 1.5
 		start_year = 2000
 		folder = {
@@ -3625,7 +3625,7 @@ technologies = {
 			leads_to_tech = railgun_theory
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -3633,16 +3633,16 @@ technologies = {
 				date < 2000.1.1
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			energy_production_tech
 		}
 	}
 	railgun_theory = {
-	
+
 		research_speed_factor = 0.02
-		
+
 		research_cost = 1.5
 		start_year = 2010
 		folder = {
@@ -3653,25 +3653,25 @@ technologies = {
 			name = infantry_folder
 			position = { x = 2 y = 136}
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 		}
 	}
 	solid_electrolyte_lithium_batteries = {
-	
+
 		production_factory_start_efficiency_factor = 0.025
 		industrial_capacity_factory = 0.025
 		industrial_capacity_dockyard = 0.025
-		
+
 		research_cost = 1.5
 		start_year = 2015
 		folder = {
@@ -3682,26 +3682,26 @@ technologies = {
 			leads_to_tech = plasma_based_storage_units
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			energy_production_tech
 		}
 	}
 	plasma_based_storage_units = {
-	
+
 		production_factory_start_efficiency_factor = 0.025
 		industrial_capacity_factory = 0.025
 		industrial_capacity_dockyard = 0.025
-		
+
 		research_cost = 1.5
 		start_year = 2025
 		folder = {
@@ -3715,46 +3715,46 @@ technologies = {
 		dependencies={
 			plasma_containment_techniques = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			energy_production_tech
 		}
 	}
-	
+
 	early_alternators = {
-	
+
 		consumer_goods_factor = -0.01
-		
+
 		research_cost = 1.5
 		start_year = 1850
 		folder = {
 			name = electronics_devices_folder
 			position = { x = -2 y = -2 }
 		}
-		
+
 		path = {
 			leads_to_tech = early_dynamo_generator
 			research_cost_coeff = 1
 		}
-		
+
 		path = {
 			leads_to_tech = alternators
 			research_cost_coeff = 1
 		}
-		
+
 		dependencies={
 			tribal_electrical_theory = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -3766,11 +3766,11 @@ technologies = {
 			}
 			modifier = {
 				factor = 1
- 
+
 			}
 			modifier = {
 				factor = 0
-				OR = { 
+				OR = {
 					NOT = { has_tech = tribal_tatics }
 					NOT = { has_tech = tribal_gunpowder }
 					NOT = { has_tech = tribal_riding }
@@ -3794,42 +3794,42 @@ technologies = {
 				date > 1860.1.1
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			energy_production_tech
 		}
 	}
-	
+
 	woolrich_electrical_generator = {
-	
+
 		production_factory_max_efficiency_factor = 0.02
-		
+
 		research_cost = 1.5
 		start_year = 1850
 		folder = {
 			name = electronics_devices_folder
 			position = { x = 4 y = -2 }
 		}
-		
+
 		path = {
 			leads_to_tech = early_dynamo_generator
 			research_cost_coeff = 1
 		}
-		
+
 		dependencies={
 			tribal_electrical_theory = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 			modifier = {
 				factor = 0
-				OR = { 
+				OR = {
 					NOT = { has_tech = tribal_tatics }
 					NOT = { has_tech = tribal_gunpowder }
 					NOT = { has_tech = tribal_riding }
@@ -3853,35 +3853,35 @@ technologies = {
 				date > 1860.1.1
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			energy_production_tech
 		}
 	}
-	
+
 	early_dynamo_generator = {
-	
+
 		production_factory_max_efficiency_factor = 0.02
 		production_factory_efficiency_gain_factor = 0.02
-		
+
 		research_cost = 1.5
 		start_year = 1850
 		folder = {
 			name = electronics_devices_folder
 			position = { x = 0 y = 0 }
 		}
-		
+
 		path = {
 			leads_to_tech = theory_of_electromagnetism
 			research_cost_coeff = 1
 		}
-		
+
 		path = {
 			leads_to_tech = jedliks_dynamo
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -3893,11 +3893,11 @@ technologies = {
 			}
 			modifier = {
 				factor = 1
- 
+
 			}
 			modifier = {
 				factor = 0
-				OR = { 
+				OR = {
 					NOT = { has_tech = tribal_tatics }
 					NOT = { has_tech = tribal_gunpowder }
 					NOT = { has_tech = tribal_riding }
@@ -3921,34 +3921,34 @@ technologies = {
 				date > 1860.1.1
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			energy_production_tech
 		}
 	}
-	
+
 	theory_of_electromagnetism = {
-	
+
 		research_speed_factor = 0.01
-		
+
 		research_cost = 1.5
 		start_year = 1860
 		folder = {
 			name = electronics_devices_folder
 			position = { x = 0 y = 8 }
 		}
-		
+
 		path = {
 			leads_to_tech = alternators
 			research_cost_coeff = 1
 		}
-		
+
 		path = {
 			leads_to_tech = hydroelectric_plant
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -3966,29 +3966,29 @@ technologies = {
 				date > 1860.1.1
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			energy_production_tech
 		}
 	}
-	
+
 	jedliks_dynamo = {
-	
+
 		production_speed_buildings_factor = 0.02
-		
+
 		research_cost = 1.5
 		start_year = 1860
 		folder = {
 			name = electronics_devices_folder
 			position = { x = 4 y = 8 }
 		}
-		
+
 		path = {
 			leads_to_tech = dynamo_electric_machine
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -3996,34 +3996,34 @@ technologies = {
 				date < 1860.1.1
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			energy_production_tech
 		}
 	}
-	
+
 	dynamo_electric_machine = {
-	
+
 		production_factory_efficiency_gain_factor = 0.04
-		
+
 		research_cost = 1.5
 		start_year = 1865
 		folder = {
 			name = electronics_devices_folder
 			position = { x = 4 y = 10 }
 		}
-		
+
 		path = {
 			leads_to_tech = hydroelectric_plant
 			research_cost_coeff = 1
 		}
-		
+
 		path = {
 			leads_to_tech = gramme_dynamo
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -4031,30 +4031,30 @@ technologies = {
 				date < 1865.1.1
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			energy_production_tech
 		}
 	}
-	
+
 	hydroelectric_plant = {
-	
+
 		industrial_capacity_factory = 0.05
 		industrial_capacity_dockyard = 0.05
-		
+
 		research_cost = 1.5
 		start_year = 1870
 		folder = {
 			name = electronics_devices_folder
 			position = { x = 0 y = 12 }
 		}
-		
+
 		path = {
 			leads_to_tech = early_power_station
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -4062,114 +4062,114 @@ technologies = {
 				date < 1870.1.1
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			energy_production_tech
 		}
 	}
-	
+
 	gramme_dynamo = {
-	
+
 		production_factory_max_efficiency_factor = 0.04
 		production_speed_buildings_factor = 0.02
-		
+
 		research_cost = 1.5
 		start_year = 1870
 		folder = {
 			name = electronics_devices_folder
 			position = { x = 4 y = 12 }
 		}
-		
+
 		path = {
 			leads_to_tech = early_power_station
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			energy_production_tech
 		}
 	}
-	
+
 	early_power_station = {
-	
+
 		industry_repair_factor = 0.05
 		production_speed_buildings_factor = 0.025
 		global_building_slots_factor = 0.025
 		consumer_goods_factor = 0.02
-		
+
 		research_cost = 1.5
 		start_year = 1875
 		folder = {
 			name = electronics_devices_folder
 			position = { x = 0 y = 14 }
 		}
-		
+
 		path = {
 			leads_to_tech = transformer
 			research_cost_coeff = 1
 		}
-		
+
 		path = {
 			leads_to_tech = power_station_1
 			research_cost_coeff = 1
 		}
-		
+
 		path = {
 			leads_to_tech = thermal_power_station_1
 			research_cost_coeff = 1
 		}
-		
+
 		path = {
 			leads_to_tech = early_wind_turbine
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			energy_production_tech
 		}
 	}
-	
+
 	alternators = {
-	
+
 		industrial_capacity_factory = 0.025
 		industrial_capacity_dockyard = 0.025
-		
+
 		research_cost = 1.5
 		start_year = 1880
 		folder = {
 			name = electronics_devices_folder
 			position = { x = -2 y = 16 }
 		}
-		
+
 		path = {
 			leads_to_tech = transformer
 			research_cost_coeff = 1
 		}
-		
+
 		path = {
 			leads_to_tech = power_station_1
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -4177,123 +4177,123 @@ technologies = {
 				date < 1880.1.1
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			energy_production_tech
 		}
 	}
-	
+
 	thermal_power_station_1 = {
-	
+
 		industrial_capacity_factory = 0.02
 		industrial_capacity_dockyard = 0.02
 		production_speed_buildings_factor = 0.02
-		
+
 		research_cost = 1.5
 		start_year = 1880
 		folder = {
 			name = electronics_devices_folder
 			position = { x = 2 y = 16 }
 		}
-		
+
 		path = {
 			leads_to_tech = thermal_power_station_2
 			research_cost_coeff = 1
 		}
-		
+
 		path = {
 			leads_to_tech = power_station_2
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			energy_production_tech
 		}
 	}
-	
+
 	transformer = {
-	
+
 		line_change_production_efficiency_factor = 0.06
 		consumer_goods_factor = -0.02
-		
+
 		research_cost = 1.5
 		start_year = 1885
 		folder = {
 			name = electronics_devices_folder
 			position = { x = -2 y = 18 }
 		}
-		
+
 		path = {
 			leads_to_tech = polyphase_alternators
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			energy_production_tech
 		}
 	}
-	
+
 	power_station_1 = {
-	
+
 		industry_repair_factor = 0.025
 		production_speed_buildings_factor = 0.025
 		consumer_goods_factor = 0.01
-		
+
 		research_cost = 1.5
 		start_year = 1885
 		folder = {
 			name = electronics_devices_folder
 			position = { x = 0 y = 18 }
 		}
-		
+
 		path = {
 			leads_to_tech = power_station_2
 			research_cost_coeff = 1
 		}
-		
+
 		path = {
 			leads_to_tech = thermal_power_station_2
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			energy_production_tech
 		}
 	}
-	
+
 	early_wind_turbine = {
-	
+
 		production_factory_max_efficiency_factor = 0.03
 		consumer_goods_factor = -0.01
-		
+
 		research_cost = 1.5
 		start_year = 1885
 		folder = {
@@ -4304,25 +4304,25 @@ technologies = {
 			leads_to_tech = vertical_axis_turbine
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			energy_production_tech
 		}
 	}
 	vertical_axis_turbine = {
-	
+
 		production_factory_max_efficiency_factor = 0.03
 		consumer_goods_factor = -0.01
-		
+
 		research_cost = 1.5
 		start_year = 1920
 		folder = {
@@ -4333,25 +4333,25 @@ technologies = {
 			leads_to_tech = giromill_wind_turbine
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			energy_production_tech
 		}
 	}
 	giromill_wind_turbine = {
-	
+
 		production_factory_max_efficiency_factor = 0.03
 		consumer_goods_factor = -0.01
-		
+
 		research_cost = 1.5
 		start_year = 1925
 		folder = {
@@ -4362,7 +4362,7 @@ technologies = {
 			leads_to_tech = darrieus_wind_turbine
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -4370,17 +4370,17 @@ technologies = {
 				date < 1925.1.1
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			energy_production_tech
 		}
 	}
 	darrieus_wind_turbine = {
-	
+
 		production_factory_max_efficiency_factor = 0.03
 		consumer_goods_factor = -0.01
-		
+
 		research_cost = 1.5
 		start_year = 1930
 		folder = {
@@ -4391,25 +4391,25 @@ technologies = {
 			leads_to_tech = smith-putnam_wind_turbine
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			energy_production_tech
 		}
 	}
 	smith-putnam_wind_turbine = {
-	
+
 		production_factory_max_efficiency_factor = 0.03
 		consumer_goods_factor = -0.01
-		
+
 		research_cost = 1.5
 		start_year = 1940
 		folder = {
@@ -4420,25 +4420,25 @@ technologies = {
 			leads_to_tech = wind_turbine_1
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			energy_production_tech
 		}
 	}
 	wind_turbine_1 = {
-	
+
 		production_factory_max_efficiency_factor = 0.03
 		consumer_goods_factor = -0.01
-		
+
 		research_cost = 1.5
 		start_year = 1950
 		folder = {
@@ -4449,25 +4449,25 @@ technologies = {
 			leads_to_tech = wind_turbine_2
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			energy_production_tech
 		}
 	}
 	wind_turbine_2 = {
-	
+
 		production_factory_max_efficiency_factor = 0.03
 		consumer_goods_factor = -0.01
-		
+
 		research_cost = 1.5
 		start_year = 1965
 		folder = {
@@ -4478,25 +4478,25 @@ technologies = {
 			leads_to_tech = wind_turbine_3
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			energy_production_tech
 		}
 	}
 	wind_turbine_3 = {
-	
+
 		production_factory_max_efficiency_factor = 0.03
 		consumer_goods_factor = -0.01
-		
+
 		research_cost = 1.5
 		start_year = 1980
 		folder = {
@@ -4507,25 +4507,25 @@ technologies = {
 			leads_to_tech = wind_turbine_4
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			energy_production_tech
 		}
 	}
 	wind_turbine_4 = {
-	
+
 		production_factory_max_efficiency_factor = 0.03
 		consumer_goods_factor = -0.01
-		
+
 		research_cost = 1.5
 		start_year = 1990
 		folder = {
@@ -4536,25 +4536,25 @@ technologies = {
 			leads_to_tech = offshore_combined_wind-tidal_turbine
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			energy_production_tech
 		}
 	}
 	offshore_combined_wind-tidal_turbine = {
-	
+
 		production_factory_max_efficiency_factor = 0.03
 		consumer_goods_factor = -0.01
-		
+
 		research_cost = 1.5
 		start_year = 2000
 		folder = {
@@ -4565,58 +4565,58 @@ technologies = {
 			leads_to_tech = maglev_turbines
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			energy_production_tech
 		}
 	}
 	maglev_turbines = {
-	
+
 		production_factory_max_efficiency_factor = 0.03
 		consumer_goods_factor = -0.01
-		
+
 		research_cost = 1.5
 		start_year = 2005
 		folder = {
 			name = electronics_devices_folder
 			position = { x = 4 y = 66 }
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			energy_production_tech
 		}
 	}
-	
+
 	polyphase_alternators = {
-	
+
 		industrial_capacity_factory = 0.025
 		industrial_capacity_dockyard = 0.025
-		
+
 		research_cost = 1.5
 		start_year = 1890
 		folder = {
 			name = electronics_devices_folder
 			position = { x = -2 y = 20 }
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -4628,26 +4628,26 @@ technologies = {
 			leads_to_tech = power_station_2
 			research_cost_coeff = 1
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			energy_production_tech
 		}
 	}
-	
+
 	thermal_power_station_2 = {
-	
+
 		industrial_capacity_factory = 0.02
 		industrial_capacity_dockyard = 0.02
 		production_speed_buildings_factor = 0.02
-		
+
 		research_cost = 1.5
 		start_year = 1890
 		folder = {
 			name = electronics_devices_folder
 			position = { x = 2 y = 20 }
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -4655,19 +4655,19 @@ technologies = {
 				date < 1890.1.1
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			energy_production_tech
 		}
 	}
-	
+
 	power_station_2 = {
-	
+
 		industry_repair_factor = 0.025
 		production_speed_buildings_factor = 0.025
 		consumer_goods_factor = 0.01
-		
+
 		research_cost = 1.5
 		start_year = 1895
 		folder = {
@@ -4682,15 +4682,15 @@ technologies = {
 			polyphase_alternators = 1
 			power_station_1 = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			energy_production_tech
@@ -4760,7 +4760,7 @@ technologies = {
 	hydropower_3 = {
 
 		production_speed_farm_factor = 0.05
-		production_speed_logging_camp_factor = 0.05
+		production_speed_building_logging_factor = 0.05
 
 
 		research_cost = 1
@@ -4801,12 +4801,12 @@ technologies = {
 		ai_will_do = {
 			factor = 20
 		}
-		
+
 	}
 	hydropower_5 = {
 
 		local_resources_factor = 0.10
-		production_speed_logging_camp_factor = 0.05
+		production_speed_building_logging_factor = 0.05
 
 		research_cost = 1
 		start_year = 1861
@@ -4823,7 +4823,7 @@ technologies = {
 		ai_will_do = {
 			factor = 20
 		}
-		
+
 	}
 
 	power_station_3 = {
@@ -4851,7 +4851,7 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
 		
@@ -4861,7 +4861,7 @@ technologies = {
 		}
 	}
 	alexanderson_alternator = {
-	
+
 		industrial_capacity_factory = 0.025
 		industrial_capacity_dockyard = 0.025
 		
@@ -4880,10 +4880,10 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			energy_production_tech
@@ -4909,7 +4909,7 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
 		
@@ -4919,7 +4919,7 @@ technologies = {
 		}
 	}
 	power_station_4 = {
-	
+
 		industry_repair_factor = 0.025
 		production_speed_buildings_factor = 0.025
 		consumer_goods_factor = 0.01
@@ -4939,10 +4939,10 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			energy_production_tech
@@ -4969,7 +4969,7 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
 		
@@ -4979,7 +4979,7 @@ technologies = {
 		}
 	}
 	power_station_6 = {
-	
+
 		industry_repair_factor = 0.025
 		production_speed_buildings_factor = 0.025
 		consumer_goods_factor = 0.01
@@ -5003,7 +5003,7 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
 		
@@ -5043,7 +5043,7 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
 		
@@ -5053,7 +5053,7 @@ technologies = {
 		}
 	}
 	RBMK_reactors = {
-	
+
 		production_speed_buildings_factor = 0.025
 		consumer_goods_factor = 0.02
 		
@@ -5072,7 +5072,7 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
 		
@@ -5101,7 +5101,7 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
 		
@@ -5111,7 +5111,7 @@ technologies = {
 		}
 	}
 	fusion_reactor_theory = {
-	
+
 		research_speed_factor = 0.05
 		
 		research_cost = 1.5
@@ -5129,10 +5129,10 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			energy_production_tech
@@ -5159,7 +5159,7 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
 		
@@ -5169,7 +5169,7 @@ technologies = {
 		}
 	}
 	plasma_containment_techniques = {
-	
+
 		research_speed_factor = 0.05
 		
 		research_cost = 1.5
@@ -5191,10 +5191,10 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			energy_production_tech
@@ -5221,7 +5221,7 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
 		
@@ -5231,7 +5231,7 @@ technologies = {
 		}
 	}
 	pratical_fusion_reactors = {
-	
+
 		industry_repair_factor = 0.025
 		production_speed_buildings_factor = 0.025
 		consumer_goods_factor = 0.01
@@ -5255,7 +5255,7 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
 		
@@ -5285,7 +5285,7 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
 		
@@ -5295,7 +5295,7 @@ technologies = {
 		}
 	}
 	power_station_8 = {
-	
+
 		industry_repair_factor = 0.025
 		production_speed_buildings_factor = 0.025
 		consumer_goods_factor = 0.01
@@ -5315,10 +5315,10 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			energy_production_tech
@@ -5345,7 +5345,7 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
 		
@@ -5355,7 +5355,7 @@ technologies = {
 		}
 	}
 	power_station_10 = {
-	
+
 		industry_repair_factor = 0.025
 		production_speed_buildings_factor = 0.025
 		consumer_goods_factor = 0.01
@@ -5375,10 +5375,10 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			energy_production_tech
@@ -5405,7 +5405,7 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
 		
@@ -5415,7 +5415,7 @@ technologies = {
 		}
 	}
 	power_station_12 = {
-	
+
 		industry_repair_factor = 0.025
 		production_speed_buildings_factor = 0.025
 		consumer_goods_factor = 0.01
@@ -5435,10 +5435,10 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			energy_production_tech
@@ -5470,22 +5470,22 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			energy_production_tech
 		}
 	}
 	portable_high_power_generator = {
-	
+
 		enable_building = {
 			building = generator_factory
 			level = 2
 		}
-	
+
 		research_cost = 1.5
 		start_year = 2030
 		dependencies={
@@ -5504,50 +5504,50 @@ technologies = {
 			leads_to_tech = prototype_plasma_based_shields
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			energy_production_tech
 		}
 	}
 	prototype_plasma_based_shields = {
-	
+
 		research_speed_factor = 0.02
-		
+
 		research_cost = 1.5
 		start_year = 2035
 		folder = {
 			name = electronics_devices_folder
 			position = { x = 4 y = 78 }
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 		}
 	}
 	fusion_miniaturization = {
-	
+
 		enable_building = {
 			building = generator_factory
 			level = 5
 		}
-		
+
 		research_cost = 1.5
 		start_year = 2035
 		folder = {
@@ -5558,29 +5558,29 @@ technologies = {
 			leads_to_tech = power_station_14
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			energy_production_tech
 		}
 	}
 	power_station_14 = {
-	
+
 		industry_repair_factor = 0.025
 		production_speed_buildings_factor = 0.05
 		consumer_goods_factor = 0.02
-		
+
 		research_cost = 1.5
 		start_year = 2040
-		
+
 		dependencies={
 			power_station_13 = 1
 			fusion_miniaturization = 1
@@ -5593,54 +5593,54 @@ technologies = {
 			leads_to_tech = power_station_15
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			energy_production_tech
 		}
 	}
 	power_station_15 = {
-	
+
 		industry_repair_factor = 0.025
 		production_speed_buildings_factor = 0.075
 		consumer_goods_factor = -0.05
-		
+
 		research_cost = 1.5
 		start_year = 2050
 		folder = {
 			name = electronics_devices_folder
 			position = { x = 0 y = 84 }
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			energy_production_tech
 		}
 	}
 	early_gps = {
-	
+
 		intel_network_gain_factor = 0.05
 		recon_factor = 0.03
-		
+
 		research_cost = 1.5
 		start_year = 1980
-		
+
 		dependencies={
 			digital_radar_systems = 1
 			tech_projects_unmaned_satellites = 1
@@ -5653,22 +5653,22 @@ technologies = {
 			leads_to_tech = gps_2
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 			
 		}
 	}
 	gps_2 = {
-	
+
 		intel_network_gain_factor = 0.05
 		recon_factor = 0.05
 		
@@ -5682,15 +5682,15 @@ technologies = {
 			leads_to_tech = gps_3
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 		}
@@ -5699,7 +5699,7 @@ technologies = {
 	
 		intel_network_gain_factor = 0.05
 		recon_factor = 0.05
-		
+
 		research_cost = 1.5
 		start_year = 2015
 		folder = {
@@ -5710,24 +5710,24 @@ technologies = {
 			leads_to_tech = gps_4
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 		}
 	}
 	gps_4 = {
-	
+
 		intel_network_gain_factor = 0.05
 		recon_factor = 0.05
-		
+
 		research_cost = 1.5
 		start_year = 2025
 		folder = {
@@ -5738,39 +5738,39 @@ technologies = {
 			leads_to_tech = gps_5
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 		}
 	}
 	gps_5 = {
-	
+
 		intel_network_gain_factor = 0.075
 		recon_factor = 0.075
-		
+
 		research_cost = 1.5
 		start_year = 2040
 		folder = {
 			name = electronics_devices_folder
 			position = { x = 22 y = 80 }
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 1
- 
+
 			}
 		}
-		
+
 		categories = {
 			electronics_devices_tech
 		}

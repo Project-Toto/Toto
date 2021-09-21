@@ -435,7 +435,7 @@ technologies = {
 		}
 
 		enable_building = {
-			building = fabric_weavery
+			building = building_weavery
 			level = 3
 		}
 
@@ -492,11 +492,11 @@ technologies = {
 	tribal_crop_planting = {
 
 		enable_building = {
-			building = cotton_farm
+			building = building_cotton
 			level = 1
 		}
 		enable_building = {
-			building = farm
+			building =building_farm
 			level = 1
 		}
 
@@ -529,11 +529,11 @@ technologies = {
 	tribal_irrigation = {
 
 		enable_building = {
-			building = cotton_farm
+			building = building_cotton
 			level = 3
 		}
 		enable_building = {
-			building = farm
+			building =building_farm
 			level = 3
 		}
 
@@ -573,11 +573,11 @@ technologies = {
 			position = { x = 11 y = 6 }
 		}
 		enable_building = {
-			building = cotton_farm
+			building = building_cotton
 			level = 5
 		}
 		enable_building = {
-			building = farm
+			building =building_farm
 			level = 5
 		}
 

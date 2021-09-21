@@ -27,7 +27,7 @@ idea_categories = {
 
 		cost = 1000
 		removal_cost = 0
-		
+
 		ledger = civilian
 	}
 
@@ -124,16 +124,16 @@ idea_categories = {
 		# 	ledger = civilian
 		# }
 
-	# political_advisor = {
-	# 	slot = political_advisor
-	# 	slot = political_advisor
-	# 	slot = political_advisor
-	# 	slot = political_advisor
-	# 	slot = political_advisor
-	# 	slot = political_advisor
+	# court_advisor = {
+	# 	slot = court_advisor
+	# 	slot = court_advisor
+	# 	slot = court_advisor
+	# 	slot = court_advisor
+	# 	slot = court_advisor
+	# 	slot = court_advisor
 	# 	cost = 150
 	# 	removal_cost = 0
-		
+
 	# 	ledger = civilian
 	# }
 
@@ -158,23 +158,23 @@ idea_categories = {
 	#	cost = 150
 	#	removal_cost = 0
 	#}
-	
+
 # slot_ledgers = {
 #     # army_chief = army
 #     # navy_chief = navy
 #     # air_chief = air
-    
-    
+
+
 #     military_spendage = army
 #     economic_mobilization = army
 #     mobilization_laws = army
 #     # tank_manufacturer = army
 #     # naval_manufacturer = navy
 #     # aircraft_manufacturer = air
-    
+
 #     # theorist = invalid # must be overridden
 #     # high_command = invalid # must be overridden
-    
-    
+
+
 #     # mobilization_laws = civilian
 # }

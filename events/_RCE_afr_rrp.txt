@@ -584,22 +584,6 @@ country_event = {
 		}
 		else_if = {
 			limit = {
-				has_country_flag = afr_rrp_bremen_company_port
-			}
-			hidden_effect = {
-				BRE = { country_event = { days = 7 id = afr_rrp_weapon_contract.6 } }
-			}
-		}
-		else_if = {
-			limit = {
-				has_country_flag = afr_rrp_hamburg_company_port
-			}
-			hidden_effect = {
-				HAM = { country_event = { days = 7 id = afr_rrp_weapon_contract.6 } }
-			}
-		}
-		else_if = {
-			limit = {
 				has_country_flag = afr_rrp_sweden_company_port
 			}
 			hidden_effect = {
@@ -1738,8 +1722,8 @@ country_event = {
 		ROOT = {
 			country_event = { days = 30 id = afr_rrp.21 }
 			add_popularity = {
-				ideology = centrism
-				popularity = .12
+				ideology = reformism
+				popularity = 0.12
 			}
 		}
 	}
@@ -1750,8 +1734,8 @@ country_event = {
 		ROOT = {
 			country_event = { days = 30 id = afr_rrp.21 }
 			add_popularity = {
-				ideology = traditional_conservatism
-				popularity = .12
+				ideology = traditionalism
+				popularity = 0.12
 			}
 		}
 	}
@@ -1762,7 +1746,7 @@ country_event = {
 		ROOT = {
 			country_event = { days = 30 id = afr_rrp.21 }
 			add_popularity = {
-				ideology = autocracy
+				ideology = imperialism
 				popularity = .12
 			}
 		}

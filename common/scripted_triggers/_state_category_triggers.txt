@@ -1,0 +1,15 @@
+has_climate_for_cotton = {
+	always = no
+}
+has_coal_desposits = {
+	always = no
+}
+has_forests = {
+	always = no
+}
+is_in_kenya = {
+	always = no
+}
+is_in_zanzibar = {
+	always = no
+}

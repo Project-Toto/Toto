@@ -8,11 +8,6 @@ focus_tree = {
 				tag = NOM
 				tag = SRA
 				tag = TTL
-				tag = PAW
-				tag = SUW
-				tag = SUN
-				tag = PNG
-				tag = UCT
 				tag = KKO
 				tag = BET
 				tag = WYO
@@ -79,7 +74,7 @@ focus_tree = {
 				is_in_array = {
 					array = national_religion_array
 					value = global.sunni
-				} 
+				}
 			}
 		}
 	}
@@ -161,15 +156,15 @@ focus_tree = {
 			add_political_power = 50
 			custom_effect_tooltip = eoanb_af_t_tt_focus_influence_neighbors
 			hidden_effect = {
-				random_list = { 
-					65 = { 
+				random_list = {
+					65 = {
 						add_political_power = 1
-					} 
-					35 = { 
+					}
+					35 = {
 						random_neighbor_country = {
 							limit = {
 								OR = {
-									has_idea = AF_T_unorganized_tribal_nation 
+									has_idea = AF_T_unorganized_tribal_nation
 									has_idea = AF_T_organized_tribal_nation
 									has_idea = AF_T_small_kingdom
 								}
@@ -209,7 +204,7 @@ focus_tree = {
 		x = 8
 		y = 1
 		completion_reward = {
-			swap_ideas = { remove_idea = tribal_slavery add_idea = slavery }	
+			swap_ideas = { remove_idea = tribal_slavery add_idea = slavery }
 		}
 	}
 	focus = {
@@ -441,9 +436,9 @@ focus_tree = {
 		x = 8
 		y = 9
 		completion_reward = {
-			add_popularity = { ideology = autocracy popularity = 1 }
-			set_politics = { ruling_party = autocracy elections_allowed = no }
-			custom_effect_tooltip = eoanb_af_t_tt_focus_organize_autocracy
+			add_popularity = { ideology = imperialism popularity = 1 }
+			set_politics = { ruling_party = imperialism elections_allowed = no }
+			custom_effect_tooltip = eoanb_af_t_tt_focus_organize_imperialism
 			hidden_effect = {
 				swap_ideas = { remove_idea = AF_T_unorganized_tribal_nation_5 add_idea = AF_T_organized_tribal_nation }
 			}
@@ -502,7 +497,7 @@ focus_tree = {
 			}
 		}
 	}
-	
+
 	focus = {
 		id = AF_T_unite_people
 		icon = GFX_goal_generic_improve_relations
@@ -523,7 +518,7 @@ focus_tree = {
 			}
 		}
 	}
-	
+
 	focus = {
 		id = AF_T_claim_neighboring_lands
 		icon = GFX_goal_generic_major_war
@@ -699,7 +694,7 @@ focus_tree = {
 			add_war_support = 0.02
 		}
 	}
-	
+
 	focus = {
 		id = AF_T_a_settled_society
 		icon = GFX_goal_generic_position_armies
@@ -779,7 +774,7 @@ focus_tree = {
 		relative_position_id = AF_T_end_tribalism
 		completion_reward = {
 			add_stability = 0.05
-			
+
 			every_owned_state = {
 				limit = { OWNER = { check_variable = { var = PREV.afr_empire_politics_decentralized_authority@THIS value = 1 compare = equals } } }
 				afr_empire_politics_decentralized_authority_on_state_clr = yes

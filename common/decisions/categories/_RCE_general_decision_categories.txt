@@ -1,2 +1,16 @@
 #### Generic Decisions Categories ####
-	
+	afr_scourge_of_malaria_category = {
+		allowed = { always = yes }
+	}
+	afr_transatlantic_slave_ban_decisions = {
+		allowed = { always = yes }
+	}
+	afr_colony_generic_colonial_investments_decisions = {
+		allowed = { always = yes }
+	}
+	eoanb_category_politics_foreign = {
+		allowed = { always = yes }
+	}
+	eoanb_category_politics_internal = {
+		allowed = { always = yes }
+	}

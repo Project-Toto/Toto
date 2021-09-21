@@ -1,0 +1,5 @@
+leader_traits = {
+	BMM_likes_germany = {
+		random = no
+	}
+}

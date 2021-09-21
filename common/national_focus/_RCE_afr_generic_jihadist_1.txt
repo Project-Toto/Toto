@@ -280,22 +280,16 @@ focus_tree = {
 			set_country_flag = afr_traditional_tree
 			if = {
 				limit = {
-					NOT = { has_government = autocracy }
+					NOT = { has_government = imperialism }
 				}
 				set_politics = {
-					  ruling_party = autocracy
+					  ruling_party = imperialism
 				}
 				hidden_effect = {
 					set_popularities = {
-						anarchism = 0
-						vanguard_communism = 0
-						collectivist_socialism = 0
-						social_egalitarianism = 0
-						centrism = 0
-						traditional_conservatism = 0
-						radical_democracy = 0
-						chauvinist_populism = 0
-						autocracy = 13
+						reformism = 0
+						traditionalism = 0
+						imperialism = 13
 						fundamentalism = 87
 					}
 				}
@@ -343,22 +337,16 @@ focus_tree = {
 			}
 			if = {
 				limit = {
-					NOT = { has_government = autocracy }
+					NOT = { has_government = imperialism }
 				}
 				set_politics = {
-					  ruling_party = autocracy
+					  ruling_party = imperialism
 				}
 				hidden_effect = {
 					set_popularities = {
-						anarchism = 0
-						vanguard_communism = 0
-						collectivist_socialism = 0
-						social_egalitarianism = 0
-						centrism = 0
-						traditional_conservatism = 0
-						radical_democracy = 0
-						chauvinist_populism = 0
-						autocracy = 13
+						reformism = 0
+						traditionalism = 0
+						imperialism = 13
 						fundamentalism = 87
 					}
 				}
@@ -399,7 +387,7 @@ focus_tree = {
 		completion_reward = {
 			add_stability = -0.05
 			add_popularity = {
-				ideology = autocracy
+				ideology = imperialism
 				popularity = 0.05
 			}
 		}
@@ -456,7 +444,7 @@ focus_tree = {
 		completion_reward = {
 			add_stability = -0.10
 			add_popularity = {
-				ideology = autocracy
+				ideology = imperialism
 				popularity = 0.075
 			}
 			load_focus_tree = inwards_oriented_kingdom
@@ -811,7 +799,7 @@ focus_tree = {
 					instant_build = yes
 				}
 				add_building_construction = {
-					type = farm
+					type =building_farm
 					level = 1
 					instant_build = yes
 				}
@@ -915,7 +903,7 @@ focus_tree = {
 			add_political_power = 15
 			add_stability = -0.075
 			add_popularity = {
-				ideology = autocracy
+				ideology = imperialism
 				popularity = 0.05
 			}
 		}
@@ -933,7 +921,7 @@ focus_tree = {
 		completion_reward = {
 			add_stability = -0.15
 			add_popularity = {
-				ideology = autocracy
+				ideology = imperialism
 				popularity = 0.075
 			}
 			load_focus_tree = western_oriented_small_kingdom
