@@ -1,0 +1,14 @@
+
+state={
+	id=238
+	name="STATE_238"
+	provinces={
+		2895 4236 6299 7134 7201 7209 7721 7764 7778 
+	}
+	history={
+		owner = MOR
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+}

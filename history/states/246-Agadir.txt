@@ -1,0 +1,13 @@
+state={
+	id=246
+	name="STATE_246"
+	provinces={
+		1361 1577 1683 4508 5539 5766 6835 6983 7991 8025 
+	}
+	history={
+		owner = MOR
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+}

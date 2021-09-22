@@ -1,0 +1,13 @@
+state={
+	id=251
+	name="STATE_251"
+	provinces={
+		1129 3148 3158 3213 5215 5600 6194 6520 8330 
+	}
+	history={
+		owner = TRZ
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,0 +1,13 @@
+state={
+	id=247
+	name="STATE_247"
+	provinces={
+		185 648 1255 1602 2265 2557 2629 2822 2897 3453 3856 4153 6149 6253 
+	}
+	history={
+		owner = SPR
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+}

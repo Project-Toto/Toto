@@ -1,15 +1,12 @@
 
 state={
-	id=216
-	name="STATE_216"
-
+	id=270
+	name="STATE_270"
+	provinces={
+		1743 2775 4503 7104 9285 9309 
+	}
 	history={
 		owner = TES
-
-	}
-
-	provinces={
-		1227 2231 3276 3682 4446 5059 7276 8475 8638 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

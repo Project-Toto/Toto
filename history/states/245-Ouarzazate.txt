@@ -1,0 +1,14 @@
+
+state={
+	id=245
+	name="STATE_245"
+	provinces={
+		88 800 1191 2509 2516 4417 4597 4611 5379 6221 6261 7930 7934 7942 7952 7954 7963 7966 7967 7972 7985 
+	}
+	history={
+		owner = MOR
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+}

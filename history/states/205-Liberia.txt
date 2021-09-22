@@ -1,13 +1,17 @@
+
 state={
 	id=205
 	name="STATE_205"
-	provinces={
-		643 958 1490 1677 1743 1952 2322 2369 2775 2957 3946 4448 4503 4613 4667 4992 5012 5260 5805 6731 6904 7104 7211 7289 9199 9256 9260 9271 9285 9309 9318 9344 9364 9389 9409 9427 
-	}
-	state_category=town
+
 	history={
-		owner=TES
+		owner = TES
+
+	}
+
+	provinces={
+		1490 4613 5260 5805 9364 9389 9409 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
+	state_category=town
 }

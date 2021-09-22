@@ -133,7 +133,7 @@ supply_area={
 	name="SUPPLYAREA_1"
 	value=6
 	states={
-		60
+		60 235 236 237 238 239 240 241 242 243 244 245 246
 	}
 }
 supply_area={
@@ -141,7 +141,7 @@ supply_area={
 	name="SUPPLYAREA_1"
 	value=6
 	states={
-		61
+		61 247 248 249 250 277
 	}
 }
 supply_area={
@@ -149,7 +149,7 @@ supply_area={
 	name="SUPPLYAREA_1"
 	value=6
 	states={
-		62
+		62 251 252 253 254
 	}
 }
 supply_area={
@@ -157,7 +157,7 @@ supply_area={
 	name="SUPPLYAREA_1"
 	value=6
 	states={
-		72 73 74 75 213
+		72 73 74 75 213 255 256 257 258 259 260 261 262 263 264 265 266 267 276
 	}
 }
 supply_area={
@@ -453,7 +453,7 @@ supply_area={
 	name="SUPPLYAREA_1"
 	value=6
 	states={
-		200 203 205 206
+		200 203 205 206 268 269 270 271 272 273 274 275
 	}
 }
 supply_area={

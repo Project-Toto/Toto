@@ -1,15 +1,11 @@
-
 state={
-	id=61
-	name="STATE_61"
-
-	history={
-		owner = ARR
-
-	}
-
+	id=277
+	name="STATE_277"
 	provinces={
-		1076 1263 1800 7217 8133 
+		259 707 887 2064 6143 8097 
+	}
+	history={
+		owner = MOR
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
