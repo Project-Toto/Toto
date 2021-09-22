@@ -402,38 +402,38 @@
  SKT_sunni_influence.1.a:0 "Declare Jihad in the name of Allahu!"
  SKT_sunni_influence.1.b:0 "We rather not get entangled in someone else's wars."
 
- SKT_TUG_prepare_border_raid:0 "§GRaid The [515.Owner.GetAdjective] Infidels!§!"
- SKT_TUG_islamic_raid.1.t:0 "Raiding The [515.Owner.GetAdjective] Infidels!"
+#  SKT_TUG_prepare_border_raid:0 "§GRaid The [515.Owner.GetAdjective] Infidels!§!"
+#  SKT_TUG_islamic_raid.1.t:0 "Raiding The [515.Owner.GetAdjective] Infidels!"
  SKT_TUG_islamic_raid.1.a:0 "For the Sokoto Caliphate! Allahu Akbar!"
  SKT_TUG_end_border_raid:0 "§REnds the Raid§!"
 
- SKT_BAG_prepare_border_raid:0 "§GRaid The [805.Owner.GetAdjective] Infidels!§!"
- SKT_BAG_islamic_raid.1.t:0 "Raiding The [805.Owner.GetAdjective] Infidels!"
+#  SKT_BAG_prepare_border_raid:0 "§GRaid The [805.Owner.GetAdjective] Infidels!§!"
+#  SKT_BAG_islamic_raid.1.t:0 "Raiding The [805.Owner.GetAdjective] Infidels!"
  SKT_BAG_islamic_raid.1.a:0 "For the Sokoto Caliphate! Allahu Akbar!"
  SKT_BAG_end_border_raid:0 "§REnds the Raid§!"
 
- SKT_GBG_prepare_border_raid:0 "§GRaid The [558.Owner.GetAdjective] Infidels!§!"
- SKT_GBG_islamic_raid.1.t:0 "Raiding The [558.Owner.GetAdjective] Infidels!"
+#  SKT_GBG_prepare_border_raid:0 "§GRaid The [558.Owner.GetAdjective] Infidels!§!"
+#  SKT_GBG_islamic_raid.1.t:0 "Raiding The [558.Owner.GetAdjective] Infidels!"
  SKT_GBG_islamic_raid.1.a:0 "For the Sokoto Caliphate! Allahu Akbar!"
  SKT_GBG_end_border_raid:0 "§REnds the Raid§!"
 
- SKT_OYO_prepare_border_raid:0 "§GRaid The [871.Owner.GetAdjective] Infidels!§!"
- SKT_OYO_islamic_raid.1.t:0 "Raiding The [871.Owner.GetAdjective] Infidels!"
+#  SKT_OYO_prepare_border_raid:0 "§GRaid The [871.Owner.GetAdjective] Infidels!§!"
+#  SKT_OYO_islamic_raid.1.t:0 "Raiding The [871.Owner.GetAdjective] Infidels!"
  SKT_OYO_islamic_raid.1.a:0 "For the Sokoto Caliphate! Allahu Akbar!"
  SKT_OYO_end_border_raid:0 "§REnds the Raid§!"
 
- SKT_DAH_prepare_border_raid:0 "§GRaid The [769.Owner.GetAdjective] Infidels!§!"
- SKT_DAH_islamic_raid.1.t:0 "Raiding The [769.Owner.GetAdjective] Infidels!"
+#  SKT_DAH_prepare_border_raid:0 "§GRaid The [769.Owner.GetAdjective] Infidels!§!"
+#  SKT_DAH_islamic_raid.1.t:0 "Raiding The [769.Owner.GetAdjective] Infidels!"
  SKT_DAH_islamic_raid.1.a:0 "For the Sokoto Caliphate! Allahu Akbar!"
  SKT_DAH_end_border_raid:0 "§REnds the Raid§!"
 
- SKT_BRG_prepare_border_raid:0 "§GRaid The [872.Owner.GetAdjective] Infidels!§!"
- SKT_BRG_islamic_raid.1.t:0 "Raiding The [872.Owner.GetAdjective] Infidels!"
+#  SKT_BRG_prepare_border_raid:0 "§GRaid The [872.Owner.GetAdjective] Infidels!§!"
+#  SKT_BRG_islamic_raid.1.t:0 "Raiding The [872.Owner.GetAdjective] Infidels!"
  SKT_BRG_islamic_raid.1.a:0 "For the Sokoto Caliphate! Allahu Akbar!"
  SKT_BRG_end_border_raid:0 "§REnds the Raid§!"
 
- SKT_DDI_prepare_border_raid:0 "§GRaid The [770.Owner.GetAdjective] Infidels!§!"
- SKT_DDI_islamic_raid.1.t:0 "Raiding The [770.Owner.GetAdjective] Infidels!"
+#  SKT_DDI_prepare_border_raid:0 "§GRaid The [770.Owner.GetAdjective] Infidels!§!"
+#  SKT_DDI_islamic_raid.1.t:0 "Raiding The [770.Owner.GetAdjective] Infidels!"
  SKT_DDI_islamic_raid.1.a:0 "For the Sokoto Caliphate! Allahu Akbar!"
  SKT_DDI_end_border_raid:0 "§REnds the Raid§!"
 
@@ -479,15 +479,15 @@
  SKT_joint_invasion_bagirmi.3.b:0 "Cancel the invasion."
 
  SKT_joint_invasion_bagirmi.4.t:0 "[WDD.GetAdjective]'s Claims"
- SKT_joint_invasion_bagirmi.4.d:0 "As was agreed in the joint invasion treaty, Waddai had claimed [1339.GetName] and we shall promptly hand it over to them."
+#  SKT_joint_invasion_bagirmi.4.d:0 "As was agreed in the joint invasion treaty, Waddai had claimed [1339.GetName] and we shall promptly hand it over to them."
  SKT_joint_invasion_bagirmi.4.a:0 "We shall honor our agreement."
 
  SKT_joint_invasion_bagirmi.5.t:0 "[SKT.GetAdjective]'s Claims"
- SKT_joint_invasion_bagirmi.5.d:0 "As was agreed in the joint invasion treaty, Sokoto had claimed [1912.GetName] and we shall promptly hand it over to them."
+#  SKT_joint_invasion_bagirmi.5.d:0 "As was agreed in the joint invasion treaty, Sokoto had claimed [1912.GetName] and we shall promptly hand it over to them."
  SKT_joint_invasion_bagirmi.5.a:0 "We shall honor our agreement."
 
  SKT_joint_invasion_bagirmi.6.t:0 "Waddai-Sokoto Demilitarized Zone"
- SKT_joint_invasion_bagirmi.6.d:0 "The joint invasion of [KBO.GetName] gave way to a tentative military alliance. Our ideas do not align theirs and a buffer state was a mutually agreed upon condition within the treaty. [860.GetName] and [789.GetName] are to be under [WDD.GetAdjective] control, while [1340.GetName] is under [SKT.GetAdjective] control. They are to be a temporary demilitarization zone until the occupied lands are ready to have a subject."
+#  SKT_joint_invasion_bagirmi.6.d:0 "The joint invasion of [KBO.GetName] gave way to a tentative military alliance. Our ideas do not align theirs and a buffer state was a mutually agreed upon condition within the treaty. [860.GetName] and [789.GetName] are to be under [WDD.GetAdjective] control, while [1340.GetName] is under [SKT.GetAdjective] control. They are to be a temporary demilitarization zone until the occupied lands are ready to have a subject."
  SKT_joint_invasion_bagirmi.6.a:0 "We cannot trust an empire that does not rule by the tenets of Allah."
  SKT_joint_invasion_bagirmi.6.b:0 "We cant have their Dawah uprooting the legitimacy of our rule."
 

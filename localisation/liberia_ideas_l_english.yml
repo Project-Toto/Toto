@@ -30,7 +30,7 @@
  LIB_ACS_financing_tooltip:0 "\n§GAdopting§! §YStronger ACS Policies§! §Gmay incentivise the§! §Y[USA.GetName]§! §Gto assist with our §!§YDebt§!§G.§!\n\n"
  LIB_debt_less_than_20:0 "§Y[ROOT.GetName]'s Debt Level§! is less than: §Y20§!"
 
- LIB_civil_war_state_requirement_tooltip:0 "§Y[298.GetName]§! and §Y[1346.GetName]§! are unified"
+#  LIB_civil_war_state_requirement_tooltip:0 "§Y[298.GetName]§! and §Y[1346.GetName]§! are unified"
  LIB_civil_war_abolitionists_control_senate_tooltip:0 "§YAbolitionists§! control the §YSenate§!"
  LIB_civil_war_abolitionists_control_house_tooltip:0 "§YAbolitionists§! control the §YHouse of Representatives§!"
  LIB_civil_war_ended_interstate_slave_trade_tooltip:0 "Has banned §YInterstate Slave Trade§!"
@@ -243,9 +243,9 @@
      LIB_repair_kru_relations.1.a:0 "We have peace, for now."
 
      LIB_purchase_kru_land.1.t:0 "Liberia Wishes To Purchase Land"
-     LIB_purchase_kru_land.1.d:0 "Liberia has decided to trade us a large amount of arms for the coast of [761.GetName]. Seeing western weapons are hard to come by, this is an excellent offer! It will also prepare us further for war."
+    #  LIB_purchase_kru_land.1.d:0 "Liberia has decided to trade us a large amount of arms for the coast of [761.GetName]. Seeing western weapons are hard to come by, this is an excellent offer! It will also prepare us further for war."
      LIB_purchase_kru_land.1.a:0 "This weapons will become useful for war!"
-     LIB_purchase_kru_land.1.b:0 "The Coast of [761.GetName] will stay as [KRU.GetAdjective] land!"
+    #  LIB_purchase_kru_land.1.b:0 "The Coast of [761.GetName] will stay as [KRU.GetAdjective] land!"
 
      LIB_purchase_kru_land.2.t:0 "Liberia Demands Land"
      LIB_purchase_kru_land.2.d:0 ""
@@ -327,7 +327,7 @@
     liberia.240.a:0 "Restablish a new Kru Government!"
     liberia.240.b:0 "We shall leave the Kru people alone."
 
-    liberia_240_event_tooltip_a:0 "§Y[KRU.GetName]§! becomes a §YColony§! of §Y[LIB.GetName]§!\n§RThe §!§YKru People§!§R will very angry§!\n§Y[LIB.GetName]§!§G gains a core on and is owner of §!§Y[760.GetName]§!"
+    # liberia_240_event_tooltip_a:0 "§Y[KRU.GetName]§! becomes a §YColony§! of §Y[LIB.GetName]§!\n§RThe §!§YKru People§!§R will very angry§!\n§Y[LIB.GetName]§!§G gains a core on and is owner of §!§Y[760.GetName]§!"
     liberia_240_event_tooltip_b:0 "§GThe §!§YKru People§!§G will not be angry.§!"
 
     liberia.24.t:0 "Establish Kru Government"
@@ -430,8 +430,8 @@
     liberia.37.a:0 "Four Year Plan"
     liberia.37.b:0 "Push For Two Years"
 
-    liberia_37_event_tooltip_a:0 "§Y[761.GetName]§!, §Y[760.GetName]§!, and §Y[298.GetName]§! will gain one §GInfrastructure§! after §Y4 years§!\n\n§R+4§! §YDebt Levels§!"
-    liberia_37_event_tooltip_b:0 "§Y[761.GetName]§!, §Y[760.GetName]§!, and §Y[298.GetName]§! will gain one §GInfrastructure§! after §Y2 years§!\n\n§R+2§! §YDebt Levels§!"
+    # liberia_37_event_tooltip_a:0 "§Y[761.GetName]§!, §Y[760.GetName]§!, and §Y[298.GetName]§! will gain one §GInfrastructure§! after §Y4 years§!\n\n§R+4§! §YDebt Levels§!"
+    # liberia_37_event_tooltip_b:0 "§Y[761.GetName]§!, §Y[760.GetName]§!, and §Y[298.GetName]§! will gain one §GInfrastructure§! after §Y2 years§!\n\n§R+2§! §YDebt Levels§!"
 
     liberia.38.t:0 "Colonial Migration Plan Update"
     liberia.38.d:0 "The Colonists have been traveling to the new land, with many hardships along the way. Sadly, many colonists have died along the journy but that's just life here in the frontier."
@@ -442,7 +442,7 @@
     liberia.380.a:0 "Good to see the project is finished!"
 
     liberia.39.t:0 "Colonists Arrived"
-    liberia.39.d:0 "The Colonists from [298.GetName] have arrived! Infrastructure construction is still underway, and it is quite unsafe. As the colonists arrive they express their worries about the travel to the officials. As a response, what shall we do about all this?"
+    # liberia.39.d:0 "The Colonists from [298.GetName] have arrived! Infrastructure construction is still underway, and it is quite unsafe. As the colonists arrive they express their worries about the travel to the officials. As a response, what shall we do about all this?"
     liberia.39.a:0 "The colonial goverment welcomes them!"
     liberia.39.b:0 "Give them better security"
     liberia.39.c:0 "The Kru will oppose them from the shadows!"

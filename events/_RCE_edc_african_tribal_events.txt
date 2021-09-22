@@ -60,14 +60,14 @@ country_event = {###KON - Pedro's play
 			}
 		}
 		add_political_power = -50
-		1212 = {
-				add_building_construction = {
-				    type = bunker
-				    level = 1
-				    instant_build = yes
-					province = 13787
-				}
-			}
+		# 1212 = {
+		# 		add_building_construction = {
+		# 		    type = bunker
+		# 		    level = 1
+		# 		    instant_build = yes
+		# 			province = 13787
+		# 		}
+		# 	}
 		POR={
 			if = {
 				limit = {

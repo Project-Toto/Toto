@@ -71,24 +71,24 @@ country_event = {
 			}
 			hidden_effect = {
 				LIB = {
-					if = {
-						limit = { owns_state = 1347 }
-						start_civil_war = {
-							ruling_party = reformism
-							ideology = traditionalism
-							size = 0.25
-							capital = 1346
-							states = { 1347 }
-						}
-					}
-					else = {
-						start_civil_war = {
-							ruling_party = reformism
-							ideology = traditionalism
-							size = 0.25
-							capital = 1346
-						}
-					}
+					# if = {
+					# 	limit = { owns_state = 1347 }
+					# 	start_civil_war = {
+					# 		ruling_party = reformism
+					# 		ideology = traditionalism
+					# 		size = 0.25
+					# 		capital = 1346
+					# 		states = { 1347 }
+					# 	}
+					# }
+					# else = {
+					# 	start_civil_war = {
+					# 		ruling_party = reformism
+					# 		ideology = traditionalism
+					# 		size = 0.25
+					# 		capital = 1346
+					# 	}
+					# }
 				}
 			}
 		}
@@ -107,24 +107,24 @@ country_event = {
 			}
 			hidden_effect = {
 				LIB = {
-					if = {
-						limit = { owns_state = 1347 }
-						start_civil_war = {
-							ruling_party = reformism
-							ideology = traditionalism
-							size = 0.4
-							capital = 1346
-							states = { 1347 }
-						}
-					}
-					else = {
-						start_civil_war = {
-							ruling_party = reformism
-							ideology = traditionalism
-							size = 0.4
-							capital = 1346
-						}
-					}
+					# if = {
+					# 	limit = { owns_state = 1347 }
+					# 	start_civil_war = {
+					# 		ruling_party = reformism
+					# 		ideology = traditionalism
+					# 		size = 0.4
+					# 		capital = 1346
+					# 		states = { 1347 }
+					# 	}
+					# }
+					# else = {
+					# 	start_civil_war = {
+					# 		ruling_party = reformism
+					# 		ideology = traditionalism
+					# 		size = 0.4
+					# 		capital = 1346
+					# 	}
+					# }
 				}
 			}
 		}
@@ -138,24 +138,24 @@ country_event = {
 			}
 			hidden_effect = {
 				LIB = {
-					if = {
-						limit = { owns_state = 1347 }
-						start_civil_war = {
-							ruling_party = reformism
-							ideology = traditionalism
-							size = 0.6
-							capital = 1346
-							states = { 1347 }
-						}
-					}
-					else = {
-						start_civil_war = {
-							ruling_party = reformism
-							ideology = traditionalism
-							size = 0.6
-							capital = 1346
-						}
-					}
+					# if = {
+					# 	limit = { owns_state = 1347 }
+					# 	start_civil_war = {
+					# 		ruling_party = reformism
+					# 		ideology = traditionalism
+					# 		size = 0.6
+					# 		capital = 1346
+					# 		states = { 1347 }
+					# 	}
+					# }
+					# else = {
+					# 	start_civil_war = {
+					# 		ruling_party = reformism
+					# 		ideology = traditionalism
+					# 		size = 0.6
+					# 		capital = 1346
+					# 	}
+					# }
 				}
 			}
 		}
@@ -368,28 +368,28 @@ country_event = {
 	option = {
 		name = LIB_purchase_kru_land.1.a
 		ai_chance = { factor = 100 }
-		LIB = {
-			transfer_state = 760
-			add_state_core = 760
-		}
+		# LIB = {
+		# 	transfer_state = 760
+		# 	add_state_core = 760
+		# }
 
-		KRU = {
-			add_state_claim = 760
-			remove_state_core = 760
-			set_capital = 761
-		}
+		# KRU = {
+		# 	add_state_claim = 760
+		# 	remove_state_core = 760
+		# 	set_capital = 761
+		# }
 
-		298 = {
-			remove_claim_by = KRU
-		}
+		# 298 = {
+		# 	remove_claim_by = KRU
+		# }
 
-		760 = {
-			set_state_name = "Upper Liberia"
-		}
+		# 760 = {
+		# 	set_state_name = "Upper Liberia"
+		# }
 
-		761 = {
-			set_state_name = "Kru"
-		}
+		# 761 = {
+		# 	set_state_name = "Kru"
+		# }
 		add_equipment_to_stockpile = {
 			type = infantry_equipment_rifle_0
 			amount = 1000
@@ -403,7 +403,7 @@ country_event = {
 		ai_chance = { factor = 0 }
 		add_political_power = -150
 		LIB = {
-			add_state_claim = 760
+			# add_state_claim = 760
 			create_wargoal = {
 				type = annex_everything
 				target = KRU
@@ -424,28 +424,28 @@ country_event = {
 	option = {
 		name = LIB_purchase_kru_land.2.a
 		ai_chance = { factor = 50 }
-		LIB = {
-			transfer_state = 760
-			add_state_core = 760
-		}
+		# LIB = {
+		# 	transfer_state = 760
+		# 	add_state_core = 760
+		# }
 
-		KRU = {
-			add_state_claim = 760
-			remove_state_core = 760
-			set_capital = 761
-		}
+		# KRU = {
+		# 	add_state_claim = 760
+		# 	remove_state_core = 760
+		# 	set_capital = 761
+		# }
 
-		298 = {
-			remove_claim_by = KRU
-		}
+		# 298 = {
+		# 	remove_claim_by = KRU
+		# }
 
-		760 = {
-			set_state_name = "Upper Liberia"
-		}
+		# 760 = {
+		# 	set_state_name = "Upper Liberia"
+		# }
 
-		761 = {
-			set_state_name = "Kru"
-		}
+		# 761 = {
+		# 	set_state_name = "Kru"
+		# }
 		add_political_power = -50
 	}
 
@@ -454,8 +454,8 @@ country_event = {
 		ai_chance = { factor = 50 }
 		add_political_power = 50
 		LIB = {
-			add_state_claim = 760
-			add_state_claim = 761
+			# add_state_claim = 760
+			# add_state_claim = 761
 			create_wargoal = {
 				type = annex_everything
 				target = KRU
@@ -667,12 +667,8 @@ country_event = {
 			}
 
 			hidden_effect = {
-
 			}
-
 		}
-
-
 	}
 
 	option = {
@@ -756,9 +752,7 @@ country_event = {
 		hidden_effect = {
 			KRU = { country_event = { days = 2190 id = liberia.5 } }
 		}
-
 	}
-
 }
 
 
@@ -798,9 +792,7 @@ country_event = {
 				KRU = { country_event = { days = 7 id = liberia.7 } }
 			}
 		}
-
 	}
-
 }
 
 
@@ -829,35 +821,33 @@ country_event = {
 			if = {
 				limit = {
 					LIB = {
-							NOT = {
-								has_tech = collodion_process
-							}
-					}
-				}
-					LIB = { country_event = { days = 7 id = liberia.8 } }
-			}
-			if = {
-				limit = {
-					LIB = {
+						NOT = {
 							has_tech = collodion_process
+						}
 					}
 				}
-					LIB = { country_event = { days = 7 id = liberia.9 } }
+				LIB = { country_event = { days = 7 id = liberia.8 } }
 			}
 			if = {
 				limit = {
 					LIB = {
-							AND = {
-								has_tech = collodion_process
-								has_tech = photographic_glass_plate
-							}
+						has_tech = collodion_process
 					}
 				}
-					LIB = { country_event = { days = 7 id = liberia.10 } }
+				LIB = { country_event = { days = 7 id = liberia.9 } }
+			}
+			if = {
+				limit = {
+					LIB = {
+						AND = {
+							has_tech = collodion_process
+							has_tech = photographic_glass_plate
+						}
+					}
+				}
+				LIB = { country_event = { days = 7 id = liberia.10 } }
 			}
 		}
-
-
 	}
 
 	option = {
@@ -908,24 +898,24 @@ country_event = {
 		name = liberia.9.a
 		ai_chance = { factor = 100 }
 
-		start_border_war = {
-				change_state_after_war = no
-					attacker = {
-						state = 760
-						num_provinces = 4
-						on_win = liberia.11
-						on_lose = liberia.12
-						on_cancel = lib_border_conflict.4
-					}
+		# start_border_war = {
+		# 	change_state_after_war = no
+		# 		attacker = {
+		# 		state = 760
+		# 		num_provinces = 4
+		# 		on_win = liberia.11
+		# 		on_lose = liberia.12
+		# 		on_cancel = lib_border_conflict.4
+		# 	}
 
-					defender = {
-						state = 298
-						num_provinces = 4
-						on_win = lib_border_conflict.6
-						on_lose = lib_border_conflict.8
-						on_cancel = lib_border_conflict.4
-					}
-		}
+		# 	defender = {
+		# 		state = 298
+		# 		num_provinces = 4
+		# 		on_win = lib_border_conflict.6
+		# 		on_lose = lib_border_conflict.8
+		# 		on_cancel = lib_border_conflict.4
+		# 	}
+		# }
 		set_country_flag = LIB_second_kru_raid
 
 	}
@@ -945,28 +935,26 @@ country_event = {
 		name = liberia.10.a
 		ai_chance = { factor = 100 }
 
-		start_border_war = {
-				change_state_after_war = no
-					attacker = {
-						state = 760
-						num_provinces = 4
-						on_win = liberia.11
-						on_lose = liberia.13
-						on_cancel = lib_border_conflict.4
-					}
+		# start_border_war = {
+		# 	change_state_after_war = no
+		# 	attacker = {
+		# 		state = 760
+		# 		num_provinces = 4
+		# 		on_win = liberia.11
+		# 		on_lose = liberia.13
+		# 		on_cancel = lib_border_conflict.4
+		# 	}
 
-					defender = {
-						state = 298
-						num_provinces = 4
-						on_win = lib_border_conflict.7
-						on_lose = lib_border_conflict.9
-						on_cancel = lib_border_conflict.4
-					}
+		# 	defender = {
+		# 		state = 298
+		# 		num_provinces = 4
+		# 		on_win = lib_border_conflict.7
+		# 		on_lose = lib_border_conflict.9
+		# 		on_cancel = lib_border_conflict.4
+		# 	}
 		}
 		set_country_flag = LIB_second_kru_raid
-
 	}
-
 }
 
 #Kru War Aftermath - Kru Raid - Outcome 1
@@ -1007,20 +995,20 @@ country_event = {
 			kill_country_leader = yes
 		}
 		if = {
-				limit = {
-					KRU = {
-						has_government = imperialism
-					}
+			limit = {
+				KRU = {
+					has_government = imperialism
 				}
-					create_country_leader = {
-						name = "Yakpazuah Zaowolo"
-						desc = ""
-						picture = "gfx/leaders/Europe/Portrait_Europe_Generic_5.dds"
-						expire = "1898.4.7"
-						ideology = tribe
-						traits = {
-						}
-					}
+			}
+			create_country_leader = {
+				name = "Yakpazuah Zaowolo"
+				desc = ""
+				picture = "gfx/leaders/Europe/Portrait_Europe_Generic_5.dds"
+				expire = "1898.4.7"
+				ideology = traditionalism_tribal
+				traits = {
+				}
+			}
 		}
 		if = {
 				limit = {
@@ -1101,12 +1089,12 @@ country_event = {
 
 		add_stability = -0.07
 		add_war_support = 0.05
-		298={
-			damage_building = {
-				type = infrastructure
-				damage = 1
-			}
-		}
+		# 298={
+		# 	damage_building = {
+		# 		type = infrastructure
+		# 		damage = 1
+		# 	}
+		# }
 		set_country_flag = LIB_KRU_raids_stockpile
 	}
 
@@ -1200,33 +1188,33 @@ country_event = {
 		tag = LIB
 		NOT = { has_global_flag = LIB_event_240_executed }
 		OR = {
-			LIB = {
-				owns_state = 760
-				owns_state = 761
-			}
-			KRU = {
-				owns_state = 760
-				owns_state = 761
-				is_subject_of = LIB
-			}
-			AND = {
-				LIB = {
-					owns_state = 760
-				}
-				KRU = {
-					owns_state = 761
-					is_subject_of = LIB
-				}
-			}
-			AND = {
-				LIB = {
-					owns_state = 761
-				}
-				KRU = {
-					owns_state = 760
-					is_subject_of = LIB
-				}
-			}
+			# LIB = {
+			# 	owns_state = 760
+			# 	owns_state = 761
+			# }
+			# KRU = {
+			# 	owns_state = 760
+			# 	owns_state = 761
+			# 	is_subject_of = LIB
+			# }
+			# AND = {
+			# 	LIB = {
+			# 		owns_state = 760
+			# 	}
+			# 	KRU = {
+			# 		owns_state = 761
+			# 		is_subject_of = LIB
+			# 	}
+			# }
+			# AND = {
+			# 	LIB = {
+			# 		owns_state = 761
+			# 	}
+			# 	KRU = {
+			# 		owns_state = 760
+			# 		is_subject_of = LIB
+			# 	}
+			# }
 		}
 		KRU = {
 			OR = {
@@ -1239,9 +1227,9 @@ country_event = {
 	immediate = {
 		set_global_flag = LIB_event_240_executed
 
-		760 = {
-			set_state_name = "Upper Liberia"
-		}
+		# 760 = {
+		# 	set_state_name = "Upper Liberia"
+		# }
 	}
 
 	option = {
@@ -1260,18 +1248,18 @@ country_event = {
 			custom_effect_tooltip = AFR_Racial_Tension_plus_3
 			hidden_effect = { state_event = { id = afr_rrp_racial_tension_increase.3  } }
 		}
-		hidden_effect = {
-			KRU = {
-				set_capital = 761
-				transfer_state = 761
-				remove_state_core = 760
-			}
-			760 = {
-				add_manpower = -6000
-			}
-			761 = {
-				add_manpower = 6000
-			}
+		# hidden_effect = {
+		# 	KRU = {
+		# 		set_capital = 761
+		# 		transfer_state = 761
+		# 		remove_state_core = 760
+		# 	}
+		# 	760 = {
+		# 		add_manpower = -6000
+		# 	}
+		# 	761 = {
+		# 		add_manpower = 6000
+		# 	}
 			LIB = {
 				if = {
 					limit = {
@@ -1292,17 +1280,17 @@ country_event = {
 				}
 			}
 			country_event = {id = liberia.24}
-			LIB = {
-				transfer_state = 760
-				add_state_core = 760
-			}
-			760 = {
-				add_manpower = 1000
+			# LIB = {
+			# 	transfer_state = 760
+			# 	add_state_core = 760
+			# }
+			# 760 = {
+			# 	add_manpower = 1000
 
-			}
-			298 = {
-				add_manpower = -1000
-			}
+			# }
+			# 298 = {
+			# 	add_manpower = -1000
+			# }
 		}
 	}
 
@@ -1334,9 +1322,9 @@ country_event = {
 		ai_chance = {
 			factor = 50
 		}
-		761 = {
-				set_state_name = "Maryland County"
-		}
+		# 761 = {
+		# 		set_state_name = "Maryland County"
+		# }
 
 		KRU = {
 			set_cosmetic_tag = KRU_maryland
@@ -2586,9 +2574,9 @@ country_event = {
 			KRU = {
 				add_stability = -.03
 			}
-			761 = {
-					add_manpower = -157
-			}
+			# 761 = {
+			# 		add_manpower = -157
+			# }
 		}
 		if = {
 			limit = {
@@ -2625,9 +2613,9 @@ country_event = {
 			KRU = {
 				add_stability = -.09
 			}
-			761 = {
-					add_manpower = -753
-			}
+			# 761 = {
+			# 		add_manpower = -753
+			# }
 		}
 		if = {
 			limit = {
@@ -3135,7 +3123,7 @@ country_event = {
 					}
 				}
 			}
-			298 = {
+			random_owned_state = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = dockyard
@@ -3222,7 +3210,7 @@ country_event = {
 					}
 				}
 			}
-			298 = {
+			random_owned_state = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = dockyard
@@ -3304,7 +3292,7 @@ country_event = {
 					}
 				}
 			}
-			298 = {
+			random_owned_state = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = dockyard
@@ -3352,7 +3340,7 @@ country_event = {
 					}
 				}
 			}
-			298 = {
+			random_owned_state = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = dockyard
@@ -3394,7 +3382,7 @@ country_event = {
 					}
 				}
 			}
-			298 = {
+			random_owned_state = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = dockyard
@@ -3483,7 +3471,7 @@ country_event = {
 				subtract_from_variable = {var = debt_level value = 1}
 			}
 		}
-		298 = {
+		random_owned_state = {
 			add_extra_state_shared_building_slots = 1
 			add_building_construction = {
 				type = dockyard
@@ -3579,10 +3567,10 @@ country_event = {
 		add_political_power = -25
 		custom_effect_tooltip = liberia_37_event_tooltip_a
 		hidden_effect = {
-			298 = {
+			random_owned_state = {
 				add_manpower = -1000
 			}
-			761 = {
+			random_owned_state = {
 				add_manpower = 1000
 			}
 		}
@@ -3608,10 +3596,10 @@ country_event = {
 		add_political_power = -50
 		custom_effect_tooltip = liberia_37_event_tooltip_b
 		hidden_effect = {
-			298 = {
+			random_owned_state = {
 				add_manpower = -2000
 			}
-			761 = {
+			random_owned_state = {
 				add_manpower = 2000
 			}
 		}
@@ -3654,10 +3642,10 @@ country_event = {
 					}
 				}
 			}
-			298 = {
+			random_owned_state = {
 				add_manpower = -1000
 			}
-			761 = {
+			random_owned_state = {
 				add_manpower = 1000
 			}
 			hidden_effect = {
@@ -3673,10 +3661,10 @@ country_event = {
 					}
 				}
 			}
-			298 = {
+			random_owned_state = {
 				add_manpower = -1000
 			}
-			761 = {
+			random_owned_state = {
 				add_manpower = 1000
 			}
 			hidden_effect = {
@@ -3694,10 +3682,10 @@ country_event = {
 					}
 				}
 			}
-			298 = {
+			random_owned_state = {
 				add_manpower = -2000
 			}
-			761 = {
+			random_owned_state = {
 				add_manpower = 2000
 			}
 			hidden_effect = {
@@ -3713,10 +3701,10 @@ country_event = {
 					}
 				}
 			}
-			298 = {
+			random_owned_state = {
 				add_manpower = -2000
 			}
-			761 = {
+			random_owned_state = {
 				add_manpower = 2000
 			}
 			hidden_effect = {
@@ -3751,10 +3739,10 @@ country_event = {
 					}
 				}
 			}
-			298 = {
+			random_owned_state = {
 				add_manpower = -1000
 			}
-			761 = {
+			random_owned_state = {
 				add_manpower = 1000
 			}
 			hidden_effect = {
@@ -3770,10 +3758,10 @@ country_event = {
 					}
 				}
 			}
-			298 = {
+			random_owned_state = {
 				add_manpower = -1000
 			}
-			761 = {
+			random_owned_state = {
 				add_manpower = 1000
 			}
 			hidden_effect = {
@@ -3791,10 +3779,10 @@ country_event = {
 					}
 				}
 			}
-			298 = {
+			random_owned_state = {
 				add_manpower = -2000
 			}
-			761 = {
+			random_owned_state = {
 				add_manpower = 2000
 			}
 			hidden_effect = {
@@ -3810,24 +3798,24 @@ country_event = {
 					}
 				}
 			}
-			298 = {
+			random_owned_state = {
 				add_manpower = -2000
 			}
-			761 = {
+			random_owned_state = {
 				add_manpower = 2000
 			}
 			hidden_effect = {
 				clr_country_flag = KRU_migration_security
 			}
 		}
-		760 = {
+		random_owned_state = {
 			add_building_construction = {
 				type = infrastructure
 				level = 1
 				instant_build = yes
 			}
 		}
-		298 = {
+		random_owned_state = {
 			add_building_construction = {
 				type = infrastructure
 				level = 1
@@ -3972,7 +3960,7 @@ country_event = {
 				add_political_power = 30
 			}
 		}
-		761 = {
+		random_owned_state = {
 			add_building_construction = {
 				type = infrastructure
 				level = 1
@@ -4008,7 +3996,7 @@ country_event = {
 				add_political_power = 30
 			}
 		}
-		761 = {
+		random_owned_state = {
 			add_building_construction = {
 				type = infrastructure
 				level = 1

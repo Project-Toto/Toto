@@ -135,12 +135,12 @@ country_event = {
 	option = {
 		name = PRS_german_african_company_event.2.a
 		ai_chance = { factor = 100 }
-		ROOT = { transfer_state = 1109 }
-		hidden_effect = { 1109 = { set_state_flag = PRS_1109_has_been_purchased } }
-		1109 = {
-			custom_effect_tooltip = AFR_Racial_Tension_plus_1
-			hidden_effect = { state_event = { id = afr_rrp_racial_tension_increase.1 } }
-		}
+		# ROOT = { transfer_state = 1109 }
+		# hidden_effect = { 1109 = { set_state_flag = PRS_1109_has_been_purchased } }
+		# 1109 = {
+		# 	custom_effect_tooltip = AFR_Racial_Tension_plus_1
+		# 	hidden_effect = { state_event = { id = afr_rrp_racial_tension_increase.1 } }
+		# }
 		if = {
 			limit = { FROM = { afr_is_tribal = yes } }
 			diplomatic_relation = {
@@ -178,7 +178,7 @@ country_event = {
 		FROM = {
 			give_military_access = ROOT
 			hidden_effect = {
-				1109 = { set_state_flag = PRS_german_african_company_event_town }
+				# 1109 = { set_state_flag = PRS_german_african_company_event_town }
 				set_country_flag = afr_rrp_special_company_partnership_flag
 				activate_decision = afr_rrp_prussian_company_port
 				if = {
@@ -217,7 +217,7 @@ country_event = {
 		name = PRS_german_african_company_event.4.b
 		trigger = {
 			FROM = { afr_is_tribal = yes }
-			1109 = { NOT = { is_claimed_by = ROOT } }
+			# 1109 = { NOT = { is_claimed_by = ROOT } }
 		}
 		ai_chance = { factor = 100 }
 		add_state_claim = 1109
@@ -300,12 +300,12 @@ country_event = {
 				active = yes
 			}
 		}
-		ROOT = { transfer_state = 1111 }
-		hidden_effect = { 1111 = { set_state_flag = PRS_1111_has_been_purchased } }
-		1111 = {
-			custom_effect_tooltip = AFR_Racial_Tension_plus_1
-			hidden_effect = { state_event = { id = afr_rrp_racial_tension_increase.1 } }
-		}
+		# ROOT = { transfer_state = 1111 }
+		# hidden_effect = { 1111 = { set_state_flag = PRS_1111_has_been_purchased } }
+		# 1111 = {
+		# 	custom_effect_tooltip = AFR_Racial_Tension_plus_1
+		# 	hidden_effect = { state_event = { id = afr_rrp_racial_tension_increase.1 } }
+		# }
 	}
 }
 
@@ -332,11 +332,11 @@ country_event = {
 					has_idea = afr_post_tribal
 				}
 			}
-			1111 = { NOT = { is_claimed_by = ROOT } }
+			# 1111 = { NOT = { is_claimed_by = ROOT } }
 			FROM = { NOT = { has_country_flag = PRS_offer_company_deal } }
 		}
 		ai_chance = { factor = 10 }
-		add_state_claim = 1111
+		# add_state_claim = 1111
 	}
 	
 	option = {
@@ -348,7 +348,7 @@ country_event = {
 					has_idea = afr_post_tribal
 				}
 			}
-			1111 = { NOT = { is_claimed_by = ROOT } }
+			# 1111 = { NOT = { is_claimed_by = ROOT } }
 			FROM = { NOT = { has_country_flag = PRS_offer_company_deal } }
 		}
 		ai_chance = { factor = 80 }
@@ -545,26 +545,26 @@ country_event = {
 	option = {
 		name = PRS_GDC_purchase_colony_event.2.a
 		ai_chance = { factor = 100 }
-		if = { 
-			limit = { 1110 = { OWNER = { NOT = { TAG = HOL } } } }
-			1110 = {
-				OWNER = {
-					country_event = { id = PRS_GDC_purchase_colony_event.8 }
-				} 
-				custom_effect_tooltip = AFR_Racial_Tension_plus_1
-			}
-		}
-		else = {
-			ROOT = { transfer_state = 1110 }
-			1110 = {
-				add_manpower = -537
-			}
-			hidden_effect = { 1110 = { set_state_flag = PRS_1110_has_been_purchased } }
-			1111 = {
-				custom_effect_tooltip = AFR_Racial_Tension_plus_1
-				hidden_effect = { state_event = { id = afr_rrp_racial_tension_increase.1 } }
-			}
-		}
+		# if = {
+		# 	limit = { 1110 = { OWNER = { NOT = { TAG = HOL } } } }
+		# 	1110 = {
+		# 		OWNER = {
+		# 			country_event = { id = PRS_GDC_purchase_colony_event.8 }
+		# 		}
+		# 		custom_effect_tooltip = AFR_Racial_Tension_plus_1
+		# 	}
+		# }
+		# else = {
+		# 	ROOT = { transfer_state = 1110 }
+		# 	1110 = {
+		# 		add_manpower = -537
+		# 	}
+		# 	hidden_effect = { 1110 = { set_state_flag = PRS_1110_has_been_purchased } }
+		# 	1111 = {
+		# 		custom_effect_tooltip = AFR_Racial_Tension_plus_1
+		# 		hidden_effect = { state_event = { id = afr_rrp_racial_tension_increase.1 } }
+		# 	}
+		# }
 	}
 }
 
@@ -678,9 +678,9 @@ country_event = {
 	option = {
 		name = PRS_GDC_purchase_colony_event.7.a
 		ai_chance = { factor = 100 }
-		7 = {
-			add_manpower = 537
-		}
+		# 7 = {
+		# 	add_manpower = 537
+		# }
 	}
 }
 
@@ -696,18 +696,18 @@ country_event = {
 	option = {
 		name = PRS_GDC_purchase_colony_event.8.a
 		ai_chance = { factor = 100 }
-		FROM = { transfer_state = 1110 }
-		hidden_effect = { 1110 = { set_state_flag = PRS_1110_has_been_purchased } }
-		1110 = {
-			add_manpower = -537
-		}
-		capital_scope = {
-			add_manpower = 537
-		}
-		1111 = {
-			custom_effect_tooltip = AFR_Racial_Tension_plus_1
-			hidden_effect = { state_event = { id = afr_rrp_racial_tension_increase.1 } }
-		}
+		# FROM = { transfer_state = 1110 }
+		# hidden_effect = { 1110 = { set_state_flag = PRS_1110_has_been_purchased } }
+		# 1110 = {
+		# 	add_manpower = -537
+		# }
+		# capital_scope = {
+		# 	add_manpower = 537
+		# }
+		# 1111 = {
+		# 	custom_effect_tooltip = AFR_Racial_Tension_plus_1
+		# 	hidden_effect = { state_event = { id = afr_rrp_racial_tension_increase.1 } }
+		# }
 	}
 }
 
@@ -812,7 +812,7 @@ country_event = {
 		factor = 0
 	}
 	add_political_power = -500
-	1108 = { add_claim_by = ROOT }
+	# 1108 = { add_claim_by = ROOT }
 	if = {
 		limit = { has_dlc = "Man the Guns" }
 		GDC = { remove_resource_rights = 274 }
@@ -842,7 +842,7 @@ country_event = {
 	ai_chance = {
 		factor = 0
 	}
-	1108 = { add_claim_by = ROOT }
+	# 1108 = { add_claim_by = ROOT }
 	hidden_effect = { 
 		clear_variable = ROOT.afr_has_special_diplomacy@FROM
 		clear_variable = most_favoured_country
@@ -1173,7 +1173,7 @@ country_event = { # The French Government develops bunker in Senegal
 
   option = {
     name = french_senegal_colony_development.2.a
-	272 = { custom_effect_tooltip = french_senegal_colony_development_2_tooltip }
+		# 272 = { custom_effect_tooltip = french_senegal_colony_development_2_tooltip }
   }
 }
 
@@ -1187,7 +1187,7 @@ country_event = { # The French Government develops infrastructure in Senegal
 
   option = {
     name = french_senegal_colony_development.3.a
-	272 = { custom_effect_tooltip = french_senegal_colony_development_3_tooltip }
+		# 272 = { custom_effect_tooltip = french_senegal_colony_development_3_tooltip }
   }
 }
 
@@ -1201,14 +1201,14 @@ country_event = { # The French Government develops docks in Senegal
 
   option = {
     name = french_senegal_colony_development.4.a
-	if = {
-		limit = { SNG = { owns_state = 272 } }
-		272 = { 
-			custom_effect_tooltip = french_senegal_colony_development_4_tooltip
-			set_state_flag = afr_port_town
-			hidden_effect = { SNG = { set_country_flag = FRA_develop_port_dakar_flag } }
-		}
-	}
+		# if = {
+		# 	limit = { SNG = { owns_state = 272 } }
+		# 	272 = {
+		# 		custom_effect_tooltip = french_senegal_colony_development_4_tooltip
+		# 		set_state_flag = afr_port_town
+		# 		hidden_effect = { SNG = { set_country_flag = FRA_develop_port_dakar_flag } }
+		# 	}
+		# }
   }
 }
 

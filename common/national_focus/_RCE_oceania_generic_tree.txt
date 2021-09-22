@@ -2700,14 +2700,14 @@ focus_tree = {
 				}
 				set_country_flag = Oceania_has_dockyard_investment
 			}
-			918 = {
-				add_building_construction = {
-					type = building_port
-					level = 2
-					province = 7658
-					instant_build = yes
-				}
-			}
+			# 918 = {
+			# 	add_building_construction = {
+			# 		type = building_port
+			# 		level = 2
+			# 		province = 7658
+			# 		instant_build = yes
+			# 	}
+			# }
 		}
 		allow_branch = {
 			TAG = ACE

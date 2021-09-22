@@ -3,5 +3,5 @@ afr_is_tribal = {
 }
 
 is_nomadic_nation_state = {
-	always = no
+	has_idea = law_country_society_nomadic
 }

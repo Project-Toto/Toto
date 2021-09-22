@@ -4438,24 +4438,26 @@ country_event = {##FRA - purchase of Djibouti
 	desc = EDC_afr.100.d
 	picture = GFX_report_event_chinese_army_training
 
+	is_triggered_only = yes
+
 	#is_triggered_only = yes
 	trigger = {
 		tag = FRA
 		date > 1885.1.1
-		MED={
-			owns_state = 268
-		}
+		# MED={
+		# 	owns_state = 268
+		# }
 	}
-	mean_time_to_happen = {
-		days = 30
-	}
+	# mean_time_to_happen = {
+	# 	days = 30
+	# }
 
 	option = {#ok
 		name = EDC_afr.100.a
-		transfer_state = 268
-		268={
-			add_core_of = FRA
-			remove_core_of = MED
-		}
+		# transfer_state = 268
+		# random_owned_state ={
+		# 	add_core_of = FRA
+		# 	remove_core_of = MED
+		# }
 	}
 }

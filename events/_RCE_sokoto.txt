@@ -263,14 +263,14 @@ country_event = {
 	option = {
 		name = SKT_TUG_islamic_raid.1.a
 		ai_chance = { factor = 100 }
-		if = {
-			limit = {
-				tag = SKT
-			}
-			SKT = {
-				start_border_war_873_vs_515 = yes
-			}
-		}
+		# if = {
+		# 	limit = {
+		# 		tag = SKT
+		# 	}
+		# 	SKT = {
+		# 		start_border_war_873_vs_515 = yes
+		# 	}
+		# }
 	}
 
 }
@@ -287,14 +287,14 @@ country_event = {
 	option = {
 		name = SKT_BAG_islamic_raid.1.a
 		ai_chance = { factor = 100 }
-		if = {
-			limit = {
-				tag = SKT
-			}
-			SKT = {
-				start_border_war_1219_vs_805 = yes
-			}
-		}
+		# if = {
+		# 	limit = {
+		# 		tag = SKT
+		# 	}
+		# 	SKT = {
+		# 		start_border_war_1219_vs_805 = yes
+		# 	}
+		# }
 	}
 
 }
@@ -336,14 +336,14 @@ country_event = {
 	option = {
 		name = SKT_OYO_islamic_raid.1.a
 		ai_chance = { factor = 100 }
-		if = {
-			limit = {
-				tag = SKT
-			}
-			SKT = {
-				start_border_war_1218_vs_871 = yes
-			}
-		}
+		# if = {
+		# 	limit = {
+		# 		tag = SKT
+		# 	}
+		# 	SKT = {
+		# 		start_border_war_1218_vs_871 = yes
+		# 	}
+		# }
 	}
 
 }
@@ -360,14 +360,14 @@ country_event = {
 	option = {
 		name = SKT_DAH_islamic_raid.1.a
 		ai_chance = { factor = 100 }
-		if = {
-			limit = {
-				tag = SKT
-			}
-			SKT = {
-				start_border_war_1218_vs_769 = yes
-			}
-		}
+		# if = {
+		# 	limit = {
+		# 		tag = SKT
+		# 	}
+		# 	SKT = {
+		# 		start_border_war_1218_vs_769 = yes
+		# 	}
+		# }
 	}
 
 }
@@ -384,14 +384,14 @@ country_event = {
 	option = {
 		name = SKT_BRG_islamic_raid.1.a
 		ai_chance = { factor = 100 }
-		if = {
-			limit = {
-				tag = SKT
-			}
-			SKT = {
-				start_border_war_873_vs_872 = yes
-			}
-		}
+		# if = {
+		# 	limit = {
+		# 		tag = SKT
+		# 	}
+		# 	SKT = {
+		# 		start_border_war_873_vs_872 = yes
+		# 	}
+		# }
 	}
 
 }
@@ -408,16 +408,15 @@ country_event = {
 	option = {
 		name = SKT_DDI_islamic_raid.1.a
 		ai_chance = { factor = 100 }
-		if = {
-			limit = {
-				tag = SKT
-			}
-			SKT = {
-				start_border_war_873_vs_770 = yes
-			}
-		}
+		# if = {
+		# 	limit = {
+		# 		tag = SKT
+		# 	}
+		# 	SKT = {
+		# 		start_border_war_873_vs_770 = yes
+		# 	}
+		# }
 	}
-
 }
 #Win
 country_event = {
@@ -468,7 +467,6 @@ country_event = {
 				hidden_effect = {
 					clr_country_flag = raiding_neighbour
 				}
-
 			}
 		}
 	}
@@ -527,9 +525,7 @@ country_event = {
 	option = {
 		name = skt_islamic_raid_defender.2.a
 		ai_chance = { factor = 100 }
-
 	}
-
 }
 #Loss
 country_event = {
@@ -634,7 +630,6 @@ country_event = {
 				}
 			}
 		}
-
 	}
 
 	country_event = {
@@ -937,14 +932,14 @@ country_event = {
 		option = {
 			name = SKT_joint_invasion_bagirmi.1.a
 			ai_chance = { factor = 100 }
-			if = {
-				limit = { KBO = { owns_state = 838 } }
-				838 = { add_claim_by = WDD }
-			}
-			if = {
-				limit = { KBO = { owns_state = 1042 } }
-				1042 = { add_claim_by = WDD }
-			}
+			# if = {
+			# 	limit = { KBO = { owns_state = 838 } }
+			# 	838 = { add_claim_by = WDD }
+			# }
+			# if = {
+			# 	limit = { KBO = { owns_state = 1042 } }
+			# 	1042 = { add_claim_by = WDD }
+			# }
 			add_war_support = 0.15
 			give_military_access = SKT
 			SKT = { country_event = { id = SKT_joint_invasion_bagirmi.2 } }
@@ -1034,24 +1029,24 @@ country_event = {
 
 		immediate = {
 			hidden_effect = {
-				if = {
-					limit = {
-						AND = {
-							KBO = { owns_state = 838 }
-							838 = { is_claimed_by = SKT }
-						}
-					}
-					838 = { remove_claim_by = SKT }
-				}
-				if = {
-					limit = {
-						AND = {
-							KBO = { owns_state = 1042 }
-							1042 = { is_claimed_by = SKT }
-						}
-					}
-					1042 = { remove_claim_by = SKT }
-				}
+				# if = {
+				# 	limit = {
+				# 		AND = {
+				# 			KBO = { owns_state = 838 }
+				# 			838 = { is_claimed_by = SKT }
+				# 		}
+				# 	}
+				# 	838 = { remove_claim_by = SKT }
+				# }
+				# if = {
+				# 	limit = {
+				# 		AND = {
+				# 			KBO = { owns_state = 1042 }
+				# 			1042 = { is_claimed_by = SKT }
+				# 		}
+				# 	}
+				# 	1042 = { remove_claim_by = SKT }
+				# }
 			}
 		}
 	}
@@ -1093,9 +1088,9 @@ country_event = {
 			name = SKT_sunni_influence.3.b
 			ai_chance = { factor = 0 }
 			add_war_support = -0.30
-			1219 = {
-				remove_claim_by = ROOT
-			}
+			# 1219 = {
+			# 	remove_claim_by = ROOT
+			# }
 			KBO = {
 				add_ai_strategy = {
 					type = prepare_for_war
@@ -1146,25 +1141,25 @@ country_event = {
 		option = {
 			name = SKT_joint_invasion_bagirmi.4.a
 			ai_chance = { factor = 100 }
-			if = {
-				limit = {
-					any_country = {
-						OR = {
-							TAG = WDD
-							TAG = SKT
-							is_subject_of = WDD
-							is_subject_of = SKT
-						}
-						owns_state = 1339
-					}
-					WDD = { NOT = { owns_state = 1339 } }
-				}
-				WDD = { transfer_state = 1339 }
-			}
-			if = {
-				limit = { 1339 = { is_claimed_by = SKT } }
-				SKT = { remove_state_claim = 1339 }
-			}
+			# if = {
+			# 	limit = {
+			# 		any_country = {
+			# 			OR = {
+			# 				TAG = WDD
+			# 				TAG = SKT
+			# 				is_subject_of = WDD
+			# 				is_subject_of = SKT
+			# 			}
+			# 			owns_state = 1339
+			# 		}
+			# 		WDD = { NOT = { owns_state = 1339 } }
+			# 	}
+			# 	WDD = { transfer_state = 1339 }
+			# }
+			# if = {
+			# 	limit = { 1339 = { is_claimed_by = SKT } }
+			# 	SKT = { remove_state_claim = 1339 }
+			# }
 		}
 	}
 
@@ -1179,25 +1174,25 @@ country_event = {
 		option = {
 			name = SKT_joint_invasion_bagirmi.5.a
 			ai_chance = { factor = 100 }
-			if = {
-				limit = {
-					any_country = {
-						OR = {
-							TAG = WDD
-							TAG = SKT
-							is_subject_of = WDD
-							is_subject_of = SKT
-						}
-						owns_state = 1219
-					}
-					SKT = { NOT = { owns_state = 1219 } }
-				}
-				SKT = { transfer_state = 1219 }
-			}
-			if = {
-				limit = { 1219 = { is_claimed_by = WDD } }
-				WDD = { remove_state_claim = 1219 }
-			}
+			# if = {
+			# 	limit = {
+			# 		any_country = {
+			# 			OR = {
+			# 				TAG = WDD
+			# 				TAG = SKT
+			# 				is_subject_of = WDD
+			# 				is_subject_of = SKT
+			# 			}
+			# 			owns_state = 1219
+			# 		}
+			# 		SKT = { NOT = { owns_state = 1219 } }
+			# 	}
+			# 	SKT = { transfer_state = 1219 }
+			# }
+			# if = {
+			# 	limit = { 1219 = { is_claimed_by = WDD } }
+			# 	WDD = { remove_state_claim = 1219 }
+			# }
 		}
 	}
 
@@ -1217,9 +1212,9 @@ country_event = {
 					set_global_flag = SKT_joint_invasion_bagirmi_6_flag
 					WDD = { country_event = { id = SKT_joint_invasion_bagirmi.7 days = 20 } }
 					SKT = { country_event = { id = SKT_joint_invasion_bagirmi.7 days = 20 } }
-					789 = { set_demilitarized_zone = yes }
-					860 = { set_demilitarized_zone = yes }
-					1340 = { set_demilitarized_zone = yes }
+					# 789 = { set_demilitarized_zone = yes }
+					# 860 = { set_demilitarized_zone = yes }
+					# 1340 = { set_demilitarized_zone = yes }
 				}
 			}
 		}
@@ -1228,93 +1223,93 @@ country_event = {
 			name = SKT_joint_invasion_bagirmi.6.a
 			trigger = { TAG = SKT }
 			ai_chance = { factor = 100 }
-			WDD = {
-				if = {
-					limit = {
-						any_country = {
-							OR = {
-								TAG = WDD
-								TAG = SKT
-								is_subject_of = WDD
-								is_subject_of = SKT
-							}
-							owns_state = 789
-						}
-						WDD = { NOT = { owns_state = 789 } }
-					}
-					transfer_state = 789
-				}
-				if = {
-					limit = {
-						any_country = {
-							OR = {
-								TAG = WDD
-								TAG = SKT
-								is_subject_of = WDD
-								is_subject_of = SKT
-							}
-							owns_state = 860
-						}
-						WDD = { NOT = { owns_state = 860 } }
-					}
-					transfer_state = 860
-				}
-			}
-			if = {
-				limit = { 789 = { is_claimed_by = SKT } }
-				SKT = { remove_state_claim = 789 }
-			}
-			if = {
-				limit = { 860 = { is_claimed_by = SKT } }
-				SKT = { remove_state_claim = 860 }
-			}
+			# WDD = {
+			# 	if = {
+			# 		limit = {
+			# 			any_country = {
+			# 				OR = {
+			# 					TAG = WDD
+			# 					TAG = SKT
+			# 					is_subject_of = WDD
+			# 					is_subject_of = SKT
+			# 				}
+			# 				owns_state = 789
+			# 			}
+			# 			WDD = { NOT = { owns_state = 789 } }
+			# 		}
+			# 		transfer_state = 789
+			# 	}
+			# 	if = {
+			# 		limit = {
+			# 			any_country = {
+			# 				OR = {
+			# 					TAG = WDD
+			# 					TAG = SKT
+			# 					is_subject_of = WDD
+			# 					is_subject_of = SKT
+			# 				}
+			# 				owns_state = 860
+			# 			}
+			# 			WDD = { NOT = { owns_state = 860 } }
+			# 		}
+			# 		transfer_state = 860
+			# 	}
+			# }
+			# if = {
+			# 	limit = { 789 = { is_claimed_by = SKT } }
+			# 	SKT = { remove_state_claim = 789 }
+			# }
+			# if = {
+			# 	limit = { 860 = { is_claimed_by = SKT } }
+			# 	SKT = { remove_state_claim = 860 }
+			# }
 		}
 		
 		option = {
 			name = SKT_joint_invasion_bagirmi.6.b
 			trigger = { TAG = WDD }
 			ai_chance = { factor = 100 }
-			SKT = {
-				if = {
-					limit = {
-						any_country = {
-							OR = {
-								TAG = WDD
-								TAG = SKT
-								is_subject_of = WDD
-								is_subject_of = SKT
-							}
-							owns_state = 805
-						}
-						SKT = { NOT = { owns_state = 805 } }
-						ADM = { NOT = { owns_state = 805 } }
-					}
-					transfer_state = 805
-				}
-				if = {
-					limit = {
-						any_country = {
-							OR = {
-								TAG = WDD
-								TAG = SKT
-								is_subject_of = WDD
-								is_subject_of = SKT
-							}
-							owns_state = 1340
-						}
-						SKT = { NOT = { owns_state = 1340 } }
-					}
-					transfer_state = 1340
-				}
-			}
-			if = {
-				limit = { 805 = { is_claimed_by = WDD } }
-				WDD = { remove_state_claim = 805 }
-			}
-			if = {
-				limit = { 1340 = { is_claimed_by = WDD } }
-				WDD = { remove_state_claim = 1340 }
-			}
+			# SKT = {
+			# 	if = {
+			# 		limit = {
+			# 			any_country = {
+			# 				OR = {
+			# 					TAG = WDD
+			# 					TAG = SKT
+			# 					is_subject_of = WDD
+			# 					is_subject_of = SKT
+			# 				}
+			# 				owns_state = 805
+			# 			}
+			# 			SKT = { NOT = { owns_state = 805 } }
+			# 			ADM = { NOT = { owns_state = 805 } }
+			# 		}
+			# 		transfer_state = 805
+			# 	}
+			# 	if = {
+			# 		limit = {
+			# 			any_country = {
+			# 				OR = {
+			# 					TAG = WDD
+			# 					TAG = SKT
+			# 					is_subject_of = WDD
+			# 					is_subject_of = SKT
+			# 				}
+			# 				owns_state = 1340
+			# 			}
+			# 			SKT = { NOT = { owns_state = 1340 } }
+			# 		}
+			# 		transfer_state = 1340
+			# 	}
+			# }
+			# if = {
+			# 	limit = { 805 = { is_claimed_by = WDD } }
+			# 	WDD = { remove_state_claim = 805 }
+			# }
+			# if = {
+			# 	limit = { 1340 = { is_claimed_by = WDD } }
+			# 	WDD = { remove_state_claim = 1340 }
+			# }
 		}
 	}
 
@@ -1337,9 +1332,9 @@ country_event = {
 				limit = { NOT = { has_global_flag = SKT_joint_invasion_bagirmi_7_flag } }
 				hidden_effect = {
 					set_global_flag = SKT_joint_invasion_bagirmi_7_flag
-					789 = { set_demilitarized_zone = no }
-					860 = { set_demilitarized_zone = no }
-					1340 = { set_demilitarized_zone = no }
+					# 789 = { set_demilitarized_zone = no }
+					# 860 = { set_demilitarized_zone = no }
+					# 1340 = { set_demilitarized_zone = no }
 				}
 			}
 		}
@@ -1356,38 +1351,38 @@ country_event = {
 						BAG = { exists = no }
 					}
 				}
-				BAG = {
-					transfer_state = 789
-					transfer_state = 860
-				}
+				# BAG = {
+				# 	transfer_state = 789
+				# 	transfer_state = 860
+				# }
 				WDD = {
 					hidden_effect = { BAG = { store_current_ideologies = yes } }
 					puppet = BAG
 					hidden_effect = { BAG = { load_previous_ideologies = yes } }
 				}
 			}
-			if = {
-				limit = { 789 = { is_claimed_by = WDD } }
-				WDD = { remove_state_claim = 789 }
-			}
-			if = {
-				limit = { 860 = { is_claimed_by = WDD } }
-				WDD = { remove_state_claim = 860 }
-			}
-			if = {
-				limit = { 1340 = { is_claimed_by = WDD } }
-				WDD = { remove_state_claim = 1340 }
-			}
-			if = {
-				limit = {
-					805 = { is_claimed_by = WDD }
-					ADM = {
-						exists = yes
-						is_subject_of = SKT
-					}
-				}
-				WDD = { remove_state_claim = 805 }
-			}
+			# if = {
+			# 	limit = { 789 = { is_claimed_by = WDD } }
+			# 	WDD = { remove_state_claim = 789 }
+			# }
+			# if = {
+			# 	limit = { 860 = { is_claimed_by = WDD } }
+			# 	WDD = { remove_state_claim = 860 }
+			# }
+			# if = {
+			# 	limit = { 1340 = { is_claimed_by = WDD } }
+			# 	WDD = { remove_state_claim = 1340 }
+			# }
+			# if = {
+			# 	limit = {
+			# 		805 = { is_claimed_by = WDD }
+			# 		ADM = {
+			# 			exists = yes
+			# 			is_subject_of = SKT
+			# 		}
+			# 	}
+			# 	WDD = { remove_state_claim = 805 }
+			# }
 			if = {
 				limit = {
 					OR = {
@@ -1410,38 +1405,38 @@ country_event = {
 			name = SKT_joint_invasion_bagirmi.7.b
 			trigger = { TAG = SKT }
 			ai_chance = { factor = 100 }
-			if = {
-				limit = { 789 = { is_claimed_by = SKT } }
-				SKT = { remove_state_claim = 789 }
-			}
-			if = {
-				limit = { 860 = { is_claimed_by = SKT } }
-				SKT = { remove_state_claim = 860 }
-			}
-			if = {
-				limit = { 1340 = { is_claimed_by = SKT } }
-				SKT = { remove_state_claim = 1340 }
-			}
+			# if = {
+			# 	limit = { 789 = { is_claimed_by = SKT } }
+			# 	SKT = { remove_state_claim = 789 }
+			# }
+			# if = {
+			# 	limit = { 860 = { is_claimed_by = SKT } }
+			# 	SKT = { remove_state_claim = 860 }
+			# }
+			# if = {
+			# 	limit = { 1340 = { is_claimed_by = SKT } }
+			# 	SKT = { remove_state_claim = 1340 }
+			# }
+			# if = {
+			# 	limit = {
+			# 		805 = { is_claimed_by = SKT }
+			# 		ADM = {
+			# 			exists = yes
+			# 			is_subject_of = SKT
+			# 		}
+			# 	}
+			# 	SKT = { remove_state_claim = 805 }
+			# }
 			if = {
 				limit = {
-					805 = { is_claimed_by = SKT }
 					ADM = {
 						exists = yes
 						is_subject_of = SKT
 					}
 				}
-				SKT = { remove_state_claim = 805 }
-			}
-			if = {
-				limit = {
-					ADM = {
-						exists = yes
-						is_subject_of = SKT
-					}
-				}
-				1340 = { add_claim_by = ADM }
+				# 1340 = { add_claim_by = ADM }
 				ADM = {
-					transfer_state = 1340
+					# transfer_state = 1340
 					country_event = { id = SKT_joint_invasion_bagirmi.11 days = 1 }
 					set_variable = { most_favoured_country = SKT.id }
 				}
@@ -1646,9 +1641,9 @@ country_event = {
 				type = annex_everything
 			}
 			hidden_effect = {
-				set_province_controller = 7132
-				set_province_controller = 4150
-				set_province_controller = 11923
+				# set_province_controller = 7132
+				# set_province_controller = 4150
+				# set_province_controller = 11923
 				# 459 = {
 				# 	create_unit = {
 				# 		division = "name = \"Beni Abbas Infantry\" division_template = \"Beni Abbas Infantry\" start_experience_factor = 3 "

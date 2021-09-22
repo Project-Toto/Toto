@@ -71,12 +71,12 @@ PRS_purchase_brandenburg_colonies_category = {
 
 	PRS_colonial_company_partnership_koba = {
 		available = {
-			1109 = {
-				OWNER = {
-					exists = yes
-					has_war = no
-				}
-			}
+			# 1109 = {
+			# 	OWNER = {
+			# 		exists = yes
+			# 		has_war = no
+			# 	}
+			# }
 		}
 		visible = {
 			has_country_flag = PRS_focus_cpb_kaabu_koba_pitstop_flag
@@ -95,12 +95,12 @@ PRS_purchase_brandenburg_colonies_category = {
 		}
 		cost = 100
 		complete_effect = {
-			1109 = {
-				OWNER = {
-					country_event = { id = PRS_german_african_company_event.1 }
-					hidden_effect = { set_country_flag = PRS_requested_colonial_company_partnership_koba }
-				}
-			}
+			# 1109 = {
+			# 	OWNER = {
+			# 		country_event = { id = PRS_german_african_company_event.1 }
+			# 		hidden_effect = { set_country_flag = PRS_requested_colonial_company_partnership_koba }
+			# 	}
+			# }
 		}
 	}
 }

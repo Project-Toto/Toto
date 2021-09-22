@@ -57,7 +57,7 @@
 
  afr_colony_generic_french_approval:0 "Faidherbe's Colonial Ambitions"
  afr_colony_generic_french_senegal_trarza_core:0 "Integrate Chemama"
- afr_colony_generic_french_senegal_trarza_core_tooltip:0 "Is not resisting our occupation of §Y[866.GetName]§!."
+#  afr_colony_generic_french_senegal_trarza_core_tooltip:0 "Is not resisting our occupation of §Y[866.GetName]§!."
  afr_colony_generic_french_senegal_prepare_war:0 "French Infantry Tactics"
  afr_colony_generic_french_senegal_war:0 "Futa Toro War"
 
@@ -68,13 +68,13 @@
  afr_colony_generic_french_algeria_war_french_help:0 "\nFrance is currently pursuing §YColonial Ambitions§!. §GWe will be guaranteed French assistance in the invasion!§!\n"
 
 
- french_senegal_colony_development.1:0 "French Assistance With [272.GetName] Development!"
- french_senegal_colony_development.1.t:0 "French Assistance With [272.GetName] Development!"
+#  french_senegal_colony_development.1:0 "French Assistance With [272.GetName] Development!"
+#  french_senegal_colony_development.1.t:0 "French Assistance With [272.GetName] Development!"
  french_senegal_colony_development.1.d:0 "Our colonial masters, the [FRA.GetName] have decided to assist our colonial development!"
  french_senegal_colony_development.1.a:0 "This will put us years ahead of schedule!"
  french_senegal_colony_development_1_tooltip:0 "Completes mission §YRegional Industry§!\nCompletes mission §YResource Extraction§!\nCompletes mission §YRegional Infrastructure§!"
- french_senegal_colony_development.2:0 "[FRA.GetName] Establishes a Fort in [272.GetName]!"
- french_senegal_colony_development.2.t:0 "[FRA.GetName] Establishes a Fort in [272.GetName]!"
+#  french_senegal_colony_development.2:0 "[FRA.GetName] Establishes a Fort in [272.GetName]!"
+#  french_senegal_colony_development.2.t:0 "[FRA.GetName] Establishes a Fort in [272.GetName]!"
  french_senegal_colony_development.2.d:0 "Our colonial masters, the [FRA.GetName] have decided to assist our colonial development! This time by establishing a fort on the Senegal River, which has notoriously been contested by the [TRZ.GetName]."
  french_senegal_colony_development.2.a:0 "This will help defend our colonial hold!"
  french_senegal_colony_development_2_tooltip:0 "Add §Y1 Land Fortification§!"
@@ -256,7 +256,7 @@
  INS_not_in_colonial_expansion_war_trigger:0 "Does not have a §YColonial War§!"
 
  ins_indonesia_wars_category:0 "Indonesian Conflicts"
- INS_ACE_indonesia_colonial_expansion_war:0 "[INS.GetName] Invasion of [918.GetName]"
+#  INS_ACE_indonesia_colonial_expansion_war:0 "[INS.GetName] Invasion of [918.GetName]"
 
  afr_colony_generic_conquer_mdn:0 "Conquer the [MDN.GetName]!"
  afr_colony_generic_integrate_mdn:0 "Integrate [MDN.GetAdjective] Land"

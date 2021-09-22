@@ -2659,18 +2659,12 @@ focus = {
 			}
 			custom_trigger_tooltip = {
 				tooltip = skt_jihad_caliphate_member_in_close_proximity
-				OR = {
-					271 = { OWNER = { is_neighbor_of = SKT } }
-					any_country = {
-						AND = {
-							any_neighbor_country = { owns_state = 271 }
-							is_in_faction_with = SKT
-						}
-					}
-					any_country = {
-						AND = {
-							any_neighbor_country = { owns_state = 271 }
+				any_neighbor_country = {
+					limit = {
+						OR = {
+							tag = SKT
 							is_subject_of = SKT
+							is_in_faction_with = SKT
 						}
 					}
 				}
@@ -2692,7 +2686,6 @@ focus = {
 		relative_position_id = afr_generic_jihadist_skt_islamic_liberation
 		x = -1
 		y = 2
-
 	}
 	focus = {
 		id = afr_generic_jihadist_skt_jihad_in_oromo
@@ -2704,28 +2697,21 @@ focus = {
 				ORO = { exists = no }
 				AND = {
 					ETH = { NOT = { has_government = fundamentalism } }
-					ETH = { owns_state = 271 }
+					# ETH = { owns_state = 271 }
 				}
 			}
 			custom_trigger_tooltip = {
 				tooltip = skt_jihad_caliphate_member_in_close_proximity
-				OR = {
-					271 = { OWNER = { is_neighbor_of = SKT } }
-					any_country = {
-						AND = {
-							any_neighbor_country = { owns_state = 271 }
-							is_in_faction_with = SKT
-						}
-					}
-					any_country = {
-						AND = {
-							any_neighbor_country = { owns_state = 271 }
+				any_neighbor_country = {
+					limit = {
+						OR = {
+							tag = SKT
 							is_subject_of = SKT
+							is_in_faction_with = SKT
 						}
 					}
 				}
 			}
-
 		}
 		mutually_exclusive = {
 			focus = afr_generic_jihadist_skt_jihad_in_ethiopia
@@ -2780,7 +2766,7 @@ focus = {
 							has_government = fundamentalism
 						}
 					}
-					owns_state = 513
+					# owns_state = 513
 				}
 			}
 			custom_trigger_tooltip = {
@@ -2818,24 +2804,24 @@ focus = {
 					}
 				}
 			}
-			custom_trigger_tooltip = {
-				tooltip = skt_jihad_caliphate_member_in_close_proximity
-				OR = {
-					513 = { OWNER = { is_neighbor_of = SKT } }
-					any_country = {
-						AND = {
-							any_neighbor_country = { owns_state = 513 }
-							is_in_faction_with = SKT
-						}
-					}
-					any_country = {
-						AND = {
-							any_neighbor_country = { owns_state = 513 }
-							is_subject_of = SKT
-						}
-					}
-				}
-			}
+			# custom_trigger_tooltip = {
+			# 	tooltip = skt_jihad_caliphate_member_in_close_proximity
+			# 	OR = {
+			# 		513 = { OWNER = { is_neighbor_of = SKT } }
+			# 		any_country = {
+			# 			AND = {
+			# 				any_neighbor_country = { owns_state = 513 }
+			# 				is_in_faction_with = SKT
+			# 			}
+			# 		}
+			# 		any_country = {
+			# 			AND = {
+			# 				any_neighbor_country = { owns_state = 513 }
+			# 				is_subject_of = SKT
+			# 			}
+			# 		}
+			# 	}
+			# }
 		}
 		prerequisite = {
 			focus = afr_generic_jihadist_skt_islamic_liberation
@@ -2893,28 +2879,28 @@ focus = {
 							has_government = fundamentalism
 						}
 					}
-					owns_state = 513
+					# owns_state = 513
 				}
 				ALG = { exists = no }
 				KBY = { exists = no }
 			}
-			custom_trigger_tooltip = {
-				tooltip = skt_jihad_caliphate_member_in_close_proximity
-				OR = {
-					513 = { OWNER = { is_neighbor_of = SKT } }
-					any_country = {
-						AND = {
-							any_neighbor_country = { owns_state = 513 }
-							is_in_faction_with = SKT
-						}
-					}
-					any_country = {
-						AND = {
-							any_neighbor_country = { owns_state = 513 }
-							is_subject_of = SKT
-						}
-					}
-				}
+			# custom_trigger_tooltip = {
+			# 	tooltip = skt_jihad_caliphate_member_in_close_proximity
+			# 	OR = {
+			# 		513 = { OWNER = { is_neighbor_of = SKT } }
+			# 		any_country = {
+			# 			AND = {
+			# 				any_neighbor_country = { owns_state = 513 }
+			# 				is_in_faction_with = SKT
+			# 			}
+			# 		}
+			# 		any_country = {
+			# 			AND = {
+			# 				any_neighbor_country = { owns_state = 513 }
+			# 				is_subject_of = SKT
+			# 			}
+			# 		}
+			# 	}
 			}
 
 		}
@@ -2925,21 +2911,21 @@ focus = {
 			SKT = { add_to_faction = ALG }
 			ALG = {
 				country_event = { id = SKT_BAB_jihad_rebellion.1 days = 1 }
-				if = {
-					limit = {
-						513 = { NOT = { is_core_of = ALG } }
-					}
-					ALG = { add_state_core = 513 }
-				}
+				# if = {
+				# 	limit = {
+				# 		513 = { NOT = { is_core_of = ALG } }
+				# 	}
+				# 	ALG = { add_state_core = 513 }
+				# }
 				#Resistance Pocket
 				hidden_effect = {
-					513 = { add_claim_by = ALG }
+					# 513 = { add_claim_by = ALG }
 					set_war_support = 1.0
 					set_stability = 0.80
 					add_stability = 0.20
 					add_command_power = 100
 					set_political_power = 100
-					transfer_state = 513
+					# transfer_state = 513
 					ALG = {
 						division_template = {
 							name = "Beni Abbas Infantry"
@@ -2951,38 +2937,38 @@ focus = {
 							}
 						}
 					}
-					513 = {
-						create_unit = {
-							division = "name = \"Beni Abbas Infantry\" division_template = \"Beni Abbas Infantry\" start_experience_factor = 3 "
-							owner = ALG
-							prioritize_location = 12711
-						}
-						create_unit = {
-							division = "name = \"Beni Abbas Infantry\" division_template = \"Beni Abbas Infantry\" start_experience_factor = 3 "
-							owner = ALG
-							prioritize_location = 2049
-						}
-						create_unit = {
-							division = "name = \"Beni Abbas Infantry\" division_template = \"Beni Abbas Infantry\" start_experience_factor = 3 "
-							owner = ALG
-							prioritize_location = 12842
-						}
-						create_unit = {
-							division = "name = \"Beni Abbas Infantry\" division_template = \"Beni Abbas Infantry\" start_experience_factor = 3 "
-							owner = ALG
-							prioritize_location = 13206
-						}
-						create_unit = {
-							division = "name = \"Beni Abbas Infantry\" division_template = \"Beni Abbas Infantry\" start_experience_factor = 3 "
-							owner = ALG
-							prioritize_location = 13264
-						}
-						create_unit = {
-							division = "name = \"Beni Abbas Infantry\" division_template = \"Beni Abbas Infantry\" start_experience_factor = 3 "
-							owner = ALG
-							prioritize_location = 13296
-						}
-					}
+					# 513 = {
+					# 	create_unit = {
+					# 		division = "name = \"Beni Abbas Infantry\" division_template = \"Beni Abbas Infantry\" start_experience_factor = 3 "
+					# 		owner = ALG
+					# 		prioritize_location = 12711
+					# 	}
+					# 	create_unit = {
+					# 		division = "name = \"Beni Abbas Infantry\" division_template = \"Beni Abbas Infantry\" start_experience_factor = 3 "
+					# 		owner = ALG
+					# 		prioritize_location = 2049
+					# 	}
+					# 	create_unit = {
+					# 		division = "name = \"Beni Abbas Infantry\" division_template = \"Beni Abbas Infantry\" start_experience_factor = 3 "
+					# 		owner = ALG
+					# 		prioritize_location = 12842
+					# 	}
+					# 	create_unit = {
+					# 		division = "name = \"Beni Abbas Infantry\" division_template = \"Beni Abbas Infantry\" start_experience_factor = 3 "
+					# 		owner = ALG
+					# 		prioritize_location = 13206
+					# 	}
+					# 	create_unit = {
+					# 		division = "name = \"Beni Abbas Infantry\" division_template = \"Beni Abbas Infantry\" start_experience_factor = 3 "
+					# 		owner = ALG
+					# 		prioritize_location = 13264
+					# 	}
+					# 	create_unit = {
+					# 		division = "name = \"Beni Abbas Infantry\" division_template = \"Beni Abbas Infantry\" start_experience_factor = 3 "
+					# 		owner = ALG
+					# 		prioritize_location = 13296
+					# 	}
+					# }
 				}
 			}
 			custom_effect_tooltip = afr_generic_jihadist_skt_jihad_in_french_algeria_tooltip

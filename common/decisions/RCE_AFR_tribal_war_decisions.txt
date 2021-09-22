@@ -1435,7 +1435,6 @@ tribal_decisions_eoanb = {
 				is_first_nations_tribe_allowed = yes
 				is_south_american_tribe_allowed = yes
 			}
-			has_idea = AF_T_Tribal_Army
 		}
 		visible = {
 			if = {
@@ -2944,14 +2943,7 @@ afr_rrp_african_expeditions={
 		available ={
 			OMA={has_completed_focus= oma_vic_ZAN_expansion}
 			ZAN={
-				owns_state = 904
-				owns_state = 929
-				owns_state = 908
-				owns_state = 546
-				owns_state = 907
-				owns_state = 905
-				owns_state = 896
-				owns_state = 825
+				exists = yes
 			}
 		}
 		complete_effect = {
@@ -2977,14 +2969,7 @@ afr_rrp_african_expeditions={
 		available ={
 			OMA={has_completed_focus= oma_vic_KEN_expeditions}
 			MOM={
-				owns_state = 906
-				owns_state = 911
-				owns_state = 912
-				owns_state = 914
-				owns_state = 913
-				owns_state = 915
-				owns_state = 547
-				owns_state = 910
+				exists = yes
 			}
 		}
 		complete_effect = {
@@ -3089,7 +3074,7 @@ afr_sa_unifaction = {
 		complete_effect = {
 		}
 		remove_effect = {
-			719={
+			random_owned_state = {
 				add_building_construction = { type = infrastructure level = 1 instant_build = yes }
 			}
 		}

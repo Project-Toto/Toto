@@ -31,13 +31,6 @@ focus_tree = {
 	shared_focus = afr_colony_generic_focus_social_reforms
 	shared_focus = afr_colony_generic_focus_increase_export_quota
 	shared_focus = afr_colony_generic_focus_pay_tribute
-	# Dutch East Indies
-	shared_focus = afr_colony_generic_respect_treaty
-	shared_focus = afr_colony_generic_ignore_treaty
-	shared_focus = afr_colony_generic_conquer_mdn
-	shared_focus = afr_colony_generic_dutch_gold_coast_diplomacy
-	# Spanish Phillippines
-	shared_focus = afr_colony_generic_conquer_mdn
 	# Dutch Gold Coast
 	shared_focus = afr_colony_generic_ashanti_diplomacy
 	# French Senegal

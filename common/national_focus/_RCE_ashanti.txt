@@ -18,14 +18,14 @@ focus_tree = {
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		completion_reward = {
 				add_political_power = 100
 		}
 	}
-	
+
 	###Ministry of The Public Works
-	
+
 	focus = {
 		id = ASH_imperial_economy
 		icon = GFX_goal_SWE_famine_relief
@@ -36,14 +36,14 @@ focus_tree = {
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		prerequisite = { focus = ASH_the_golden_stool }
-		
+
 		completion_reward = {
 			add_stability = 0.03
 		}
 	}
-	
+
 	focus = {
 		id = ASH_ashanti_gold
 		icon = GFX_focus_usa_reestablish_the_gold_standard
@@ -55,29 +55,29 @@ focus_tree = {
 			factor = 100
 		}
 		available = {
-			274 = { is_owned_and_controlled_by = ROOT }
-			274 = {
-				custom_trigger_tooltip = {
-					tooltip = afr_empire_politics_state_economy_status_investment_none_tooltip
-					NOT = { has_state_flag = afr_empire_politics_state_economy_status_investment_flag }
-				}
-			}
+			# 274 = { is_owned_and_controlled_by = ROOT }
+			# 274 = {
+			# 	custom_trigger_tooltip = {
+			# 		tooltip = afr_empire_politics_state_economy_status_investment_none_tooltip
+			# 		NOT = { has_state_flag = afr_empire_politics_state_economy_status_investment_flag }
+			# 	}
+			# }
 		}
 		prerequisite = { focus = ASH_imperial_economy }
 		completion_reward = {
 			army_experience = 20
-			274 = {
-				hidden_effect = {
-					state_event = { id = afr_empire_politics_regional_development_boom_event.1 days = 120 trigger_for = controller }
-					set_state_flag = afr_empire_politics_has_regional_development_boom_flag
-					afr_empire_politics_state_gain_immigration = yes
-					afr_empire_politics_state_gain_boom = yes
-				}
-				custom_effect_tooltip = afr_empire_politics_state_economy_status_boom_effect
-			}
+			# 274 = {
+			# 	hidden_effect = {
+			# 		state_event = { id = afr_empire_politics_regional_development_boom_event.1 days = 120 trigger_for = controller }
+			# 		set_state_flag = afr_empire_politics_has_regional_development_boom_flag
+			# 		afr_empire_politics_state_gain_immigration = yes
+			# 		afr_empire_politics_state_gain_boom = yes
+			# 	}
+			# 	custom_effect_tooltip = afr_empire_politics_state_economy_status_boom_effect
+			# }
 		}
 	}
-	
+
 	focus = {
 		id = ASH_chirano_gold_deposit
 		icon = GFX_focus_usa_reestablish_the_gold_standard
@@ -85,21 +85,21 @@ focus_tree = {
 		y = 3
 		available = {
 			has_tech = mechanized_mining
-			274 = { is_owned_and_controlled_by = ROOT }
-			274 = {
-				custom_trigger_tooltip = {
-					tooltip = afr_empire_politics_state_economy_status_investment_none_tooltip
-					NOT = { has_state_flag = afr_empire_politics_state_economy_status_investment_flag }
-				}
-			}
+			# 274 = { is_owned_and_controlled_by = ROOT }
+			# 274 = {
+			# 	custom_trigger_tooltip = {
+			# 		tooltip = afr_empire_politics_state_economy_status_investment_none_tooltip
+			# 		NOT = { has_state_flag = afr_empire_politics_state_economy_status_investment_flag }
+			# 	}
+			# }
 		}
 		bypass = {
-			274 = {
-				custom_trigger_tooltip = {
-					tooltip = afr_empire_politics_state_luxury_gold_acquisition_fully_aquired_tooltip
-					check_variable = { var = afr_empire_politics_state_luxury_gold_acquisition_var value = 100 compare = greater_than_or_equals }
-				}
-			}
+			# 274 = {
+			# 	custom_trigger_tooltip = {
+			# 		tooltip = afr_empire_politics_state_luxury_gold_acquisition_fully_aquired_tooltip
+			# 		check_variable = { var = afr_empire_politics_state_luxury_gold_acquisition_var value = 100 compare = greater_than_or_equals }
+			# 	}
+			# }
 		}
 		cost = 60
 		available_if_capitulated = no
@@ -107,17 +107,17 @@ focus_tree = {
 			factor = 100
 		}
 		prerequisite = { focus = ASH_ashanti_gold }
-		
+
 		completion_reward = {
 			custom_effect_tooltip = afr_prosperity_mechanic_plus_20
 			hidden_effect = { add_to_variable = { var = afr_prosperity_mechanic_value value = 20 } }
-			274 = {
-				custom_effect_tooltip = afr_empire_politics_state_manager_market_luxury_event_gold_investments_tooltip
-				hidden_effect = { state_event = { id = afr_empire_politics_state_manager_market_luxury_event.1 } }
-			}
+			# 274 = {
+			# 	custom_effect_tooltip = afr_empire_politics_state_manager_market_luxury_event_gold_investments_tooltip
+			# 	hidden_effect = { state_event = { id = afr_empire_politics_state_manager_market_luxury_event.1 } }
+			# }
 		}
 	}
-	
+
 	focus = {
 		id = ASH_mines_in_bono
 		icon = GFX_focus_usa_reestablish_the_gold_standard
@@ -125,22 +125,22 @@ focus_tree = {
 		y = 4
 		available = {
 			has_tech = mechanized_mining
-			274 = { is_owned_and_controlled_by = ROOT }
-			274 = {
-				custom_trigger_tooltip = {
-					tooltip = afr_empire_politics_state_economy_status_investment_none_tooltip
-					NOT = { has_state_flag = afr_empire_politics_state_economy_status_investment_flag }
-				}
-			}
+			# 274 = { is_owned_and_controlled_by = ROOT }
+			# 274 = {
+			# 	custom_trigger_tooltip = {
+			# 		tooltip = afr_empire_politics_state_economy_status_investment_none_tooltip
+			# 		NOT = { has_state_flag = afr_empire_politics_state_economy_status_investment_flag }
+			# 	}
+			# }
 			has_completed_focus = ASH_connecting_the_isolated_villages
 		}
 		bypass = {
-			274 = {
-				custom_trigger_tooltip = {
-					tooltip = afr_empire_politics_state_luxury_gold_acquisition_fully_aquired_tooltip
-					check_variable = { var = afr_empire_politics_state_luxury_gold_acquisition_var value = 100 compare = greater_than_or_equals }
-				}
-			}
+			# 274 = {
+			# 	custom_trigger_tooltip = {
+			# 		tooltip = afr_empire_politics_state_luxury_gold_acquisition_fully_aquired_tooltip
+			# 		check_variable = { var = afr_empire_politics_state_luxury_gold_acquisition_var value = 100 compare = greater_than_or_equals }
+			# 	}
+			# }
 		}
 		cost = 70
 		available_if_capitulated = no
@@ -153,10 +153,10 @@ focus_tree = {
 		completion_reward = {
 			custom_effect_tooltip = afr_prosperity_mechanic_plus_20
 			hidden_effect = { add_to_variable = { var = afr_prosperity_mechanic_value value = 20 } }
-			274 = {
-				custom_effect_tooltip = afr_empire_politics_state_manager_market_luxury_event_gold_investments_tooltip
-				hidden_effect = { state_event = { id = afr_empire_politics_state_manager_market_luxury_event.1 } }
-			}
+			# 274 = {
+			# 	custom_effect_tooltip = afr_empire_politics_state_manager_market_luxury_event_gold_investments_tooltip
+			# 	hidden_effect = { state_event = { id = afr_empire_politics_state_manager_market_luxury_event.1 } }
+			# }
 		}
 	}
 
@@ -167,22 +167,22 @@ focus_tree = {
 		y = 5
 		available = {
 			has_tech = mechanized_mining
-			274 = { is_owned_and_controlled_by = ROOT }
-			274 = {
-				custom_trigger_tooltip = {
-					tooltip = afr_empire_politics_state_economy_status_investment_none_tooltip
-					NOT = { has_state_flag = afr_empire_politics_state_economy_status_investment_flag }
-				}
-			}
+			# 274 = { is_owned_and_controlled_by = ROOT }
+			# 274 = {
+			# 	custom_trigger_tooltip = {
+			# 		tooltip = afr_empire_politics_state_economy_status_investment_none_tooltip
+			# 		NOT = { has_state_flag = afr_empire_politics_state_economy_status_investment_flag }
+			# 	}
+			# }
 			has_completed_focus = ASH_travel_to_the_distant_parts_of_our_empire
 		}
 		bypass = {
-			274 = {
-				custom_trigger_tooltip = {
-					tooltip = afr_empire_politics_state_luxury_gold_acquisition_fully_aquired_tooltip
-					check_variable = { var = afr_empire_politics_state_luxury_gold_acquisition_var value = 100 compare = greater_than_or_equals }
-				}
-			}
+			# 274 = {
+			# 	custom_trigger_tooltip = {
+			# 		tooltip = afr_empire_politics_state_luxury_gold_acquisition_fully_aquired_tooltip
+			# 		check_variable = { var = afr_empire_politics_state_luxury_gold_acquisition_var value = 100 compare = greater_than_or_equals }
+			# 	}
+			# }
 		}
 		cost = 70
 		available_if_capitulated = no
@@ -195,10 +195,10 @@ focus_tree = {
 		completion_reward = {
 			custom_effect_tooltip = afr_prosperity_mechanic_plus_20
 			hidden_effect = { add_to_variable = { var = afr_prosperity_mechanic_value value = 20 } }
-			274 = {
-				custom_effect_tooltip = afr_empire_politics_state_manager_market_luxury_event_gold_investments_tooltip
-				hidden_effect = { state_event = { id = afr_empire_politics_state_manager_market_luxury_event.1 } }
-			}
+			# 274 = {
+			# 	custom_effect_tooltip = afr_empire_politics_state_manager_market_luxury_event_gold_investments_tooltip
+			# 	hidden_effect = { state_event = { id = afr_empire_politics_state_manager_market_luxury_event.1 } }
+			# }
 		}
 	}
 
@@ -207,18 +207,18 @@ focus_tree = {
 		x = 5
 		y = 6
 		available = {
-			owns_state = 274
+			# owns_state = 274
 		}
 		cost = 60
 		available_if_capitulated = no
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		prerequisite = { focus = ASH_mines_in_ahafo }
-		
+
 		completion_reward = {
-			274 = { add_manpower = 2000 }
+			random_owned_state = { add_manpower = 2000 }
 		}
 	}
 
@@ -228,16 +228,16 @@ focus_tree = {
 		x = 5
 		y = 7
 		available = {
-			owns_state = 274
+			# owns_state = 274
 		}
 		cost = 70
 		available_if_capitulated = no
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		prerequisite = { focus = ASH_from_farmers_to_miners }
-		
+
 		completion_reward = {
 			swap_ideas = { remove_idea = normal_taxes add_idea = high_taxes }
 		}
@@ -248,13 +248,13 @@ focus_tree = {
 		x = 5
 		y = 8
 		available = {
-			274 = { is_owned_and_controlled_by = ROOT }
-			274 = {
-				custom_trigger_tooltip = {
-					tooltip = afr_empire_politics_state_luxury_gold_acquisition_fully_aquired_tooltip
-					check_variable = { var = afr_empire_politics_state_luxury_gold_acquisition_var value = 100 compare = greater_than_or_equals }
-				}
-			}
+			# 274 = { is_owned_and_controlled_by = ROOT }
+			# 274 = {
+			# 	custom_trigger_tooltip = {
+			# 		tooltip = afr_empire_politics_state_luxury_gold_acquisition_fully_aquired_tooltip
+			# 		check_variable = { var = afr_empire_politics_state_luxury_gold_acquisition_var value = 100 compare = greater_than_or_equals }
+			# 	}
+			# }
 		}
 		cost = 70
 		available_if_capitulated = no
@@ -264,15 +264,15 @@ focus_tree = {
 
 		prerequisite = { focus = ASH_gold_mining_taxes }
 		completion_reward = {
-			274 = {
-				hidden_effect = {
-					state_event = { id = afr_empire_politics_regional_development_boom_event.1 days = 120 trigger_for = controller }
-					set_state_flag = afr_empire_politics_has_regional_development_boom_flag
-					afr_empire_politics_state_gain_immigration = yes
-					afr_empire_politics_state_gain_boom = yes
-				}
-				custom_effect_tooltip = afr_empire_politics_state_economy_status_boom_effect
-			}
+			# 274 = {
+			# 	hidden_effect = {
+			# 		state_event = { id = afr_empire_politics_regional_development_boom_event.1 days = 120 trigger_for = controller }
+			# 		set_state_flag = afr_empire_politics_has_regional_development_boom_flag
+			# 		afr_empire_politics_state_gain_immigration = yes
+			# 		afr_empire_politics_state_gain_boom = yes
+			# 	}
+			# 	custom_effect_tooltip = afr_empire_politics_state_economy_status_boom_effect
+			# }
 		}
 	}
 
@@ -283,42 +283,42 @@ focus_tree = {
 		x = 8
 		y = 2
 		available = {
-			owns_state = 274
+			# owns_state = 274
 		}
 		cost = 60
 		available_if_capitulated = no
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		prerequisite = { focus = ASH_imperial_economy }
-		
+
 		completion_reward = {
-												swap_ideas = { remove_idea = tribal_slavery add_idea = slavery }
+			swap_ideas = { remove_idea = tribal_slavery add_idea = slavery }
 		}
 	}
-	
+
 	focus = {
 		id = ASH_expand_slave_labour
 		icon = GFX_goal_focus_tribal_slavery
 		x = 8
 		y = 3
 		available = {
-			owns_state = 274
+			# owns_state = 274
 		}
 		cost = 60
 		available_if_capitulated = no
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		prerequisite = { focus = ASH_adress_the_slavery }
-		
+
 		completion_reward = {
 			add_timed_idea = { idea = AF_T_idea_slave_market_expanded days = 3650 }
 		}
 	}
-	
+
 	focus = {
 		id = ASH_cotton_plantations
 		icon = GFX_goal_focus_cotton
@@ -329,9 +329,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		prerequisite = { focus = ASH_expand_slave_labour }
-		
+
 		completion_reward = {
 		if = {
 				limit = { ROOT = { NOT = { num_of_civilian_factories > 0 } } }
@@ -353,7 +353,7 @@ focus_tree = {
 				}
 								}
 	}
-	
+
 	focus = {
 		id = ASH_construct_building_loggings
 		icon = GFX_focus_FIN_wood
@@ -364,9 +364,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		prerequisite = { focus = ASH_cotton_plantations }
-		
+
 		completion_reward = {
 							if = {
 				limit = { ROOT = { NOT = { num_of_civilian_factories > 0 } } }
@@ -399,9 +399,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		prerequisite = { focus = ASH_construct_building_loggings }
-		
+
 		completion_reward = {
 													add_stability = -0.02
 													add_manpower = 1000
@@ -418,14 +418,14 @@ focus_tree = {
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		prerequisite = { focus = ASH_work_for_your_freedom }
-		
+
 		completion_reward = {
 														add_stability = 0.01
 		}
 	}
-	
+
 				focus = {
 		id = ASH_chiefs_as_landowners
 		icon = GFX_goal_focus_war_gauges
@@ -436,9 +436,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		prerequisite = { focus = ASH_work_for_your_asantehene }
-		
+
 		mutually_exclusive = {
 			focus = ASH_obirempon_as_landowners
 								}
@@ -457,9 +457,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		prerequisite = { focus = ASH_work_for_your_asantehene }
-		
+
 		mutually_exclusive = {
 			focus = ASH_chiefs_as_landowners
 								}
@@ -482,7 +482,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		prerequisite = { focus = ASH_imperial_economy }
 					prerequisite = { focus = ASH_the_golden_stool }
 
@@ -490,23 +490,23 @@ focus_tree = {
 								add_tech_bonus = { bonus = 0.20 uses = 1 category = humanities_tech }
 			}
 	}
-	
+
 	focus = {
 		id = ASH_trade_with_inland_villages
 		icon = GFX_goal_focus_tribal_hut
 		x = 11
 		y = 3
 		available = {
-			owns_state = 274
+			# owns_state = 274
 		}
 		cost = 60
 		available_if_capitulated = no
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		prerequisite = { focus = ASH_expanding_our_trade_routes }
-		
+
 		completion_reward = {
 												add_political_power = 50
 		}
@@ -522,20 +522,20 @@ focus_tree = {
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		prerequisite = { focus = ASH_expanding_our_trade_routes }
-		
+
 		completion_reward = {
-					274 = {
-				add_building_construction = {
-					type =building_farm
-					level = 1
-					instant_build = yes
-				}
-			}
+			# 274 = {
+			# 	add_building_construction = {
+			# 		type =building_farm
+			# 		level = 1
+			# 		instant_build = yes
+			# 	}
+			# }
 		}
 	}
-	
+
 	focus = {
 		id = ASH_connecting_the_isolated_villages
 		icon = GFX_goal_focus_tribal_hut
@@ -546,9 +546,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		prerequisite = { focus = ASH_expanding_our_trade_routes }
-		
+
 		completion_reward = {
 										add_tech_bonus = { bonus = 0.3 uses = 1 category =building_farming_tech }
 		}
@@ -564,17 +564,17 @@ focus_tree = {
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		prerequisite = { focus = ASH_connecting_the_isolated_villages }
-		
+
 		completion_reward = {
-											274 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
-			}
+			# 274 = {
+			# 	add_building_construction = {
+			# 		type = infrastructure
+			# 		level = 1
+			# 		instant_build = yes
+			# 	}
+			# }
 		}
 	}
 
@@ -588,9 +588,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		prerequisite = { focus = ASH_pave_our_dirt_roads }
-		
+
 		completion_reward = {
 												add_political_power = 100
 		}
@@ -606,9 +606,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		prerequisite = { focus = ASH_communal_horses }
-		
+
 		completion_reward = {
 													add_political_power = 100
 		}
@@ -624,9 +624,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		prerequisite = { focus = ASH_the_golden_stool }
-		
+
 		completion_reward = {
 													add_war_support = 0.01
 		}
@@ -642,9 +642,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		prerequisite = { focus = ASH_the_legacy_of_anglo_ashanti_war }
-		
+
 		completion_reward = {
 														add_timed_idea = {
 				idea = afr_jihad_prepare_defence
@@ -653,7 +653,7 @@ focus_tree = {
 											}
 		}
 	}
-	
+
 	focus = {
 		id = ASH_getting_our_hands_on_european_guns
 		x = 15
@@ -663,9 +663,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		prerequisite = { focus = ASH_prepare_our_men_and_villages}
-		
+
 		completion_reward = {
 					add_equipment_to_stockpile = { type = infantry_equipment_pike_and_shot_0 amount = 500 producer = ASH }
 											add_equipment_to_stockpile = { type = uniform_equipment_0 amount = 500 producer = ASH }
@@ -682,9 +682,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		prerequisite = { focus = ASH_getting_our_hands_on_european_guns }
-		
+
 		completion_reward = {
 												army_experience = 20
 		}
@@ -701,13 +701,13 @@ focus_tree = {
 			factor = 100
 		}
 		prerequisite = { focus = ASH_issue_guns_to_hunting_parties }
-		
+
 		completion_reward = {
 											add_equipment_to_stockpile = { type = infantry_equipment_pike_and_shot_0 amount = 500 producer = ASH }
 											add_equipment_to_stockpile = { type = uniform_equipment_0 amount = 500 producer = ASH }
 		}
 	}
-	
+
 	focus = {
 		id = ASH_from_farmer_to_warrior
 		icon = GFX_focus_RAJ_indian_gurkhas
@@ -719,9 +719,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		prerequisite = { focus = ASH_arming_our_villages_with_guns }
-		
+
 		completion_reward = {
 				if = {
 				limit = {
@@ -752,9 +752,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		prerequisite = { focus = ASH_from_farmer_to_warrior }
-		
+
 		completion_reward = {
 													add_timed_idea = {
 				idea = afr_jihad_protect_our_own_land_idea
@@ -777,7 +777,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		prerequisite = { focus = ASH_the_legacy_of_anglo_ashanti_war }
 
 		mutually_exclusive = {
@@ -789,7 +789,7 @@ focus_tree = {
 
 		}
 	}
-	
+
 	focus = {
 		id = ASH_untying_our_hands
 		x = 17
@@ -799,9 +799,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		prerequisite = { focus = ASH_dealing_with_the_british }
-		
+
 		completion_reward = {
 												add_stability = 0.02
 											add_war_support = 0.02
@@ -818,9 +818,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		prerequisite = { focus = ASH_untying_our_hands }
-		
+
 		completion_reward = {
 																add_opinion_modifier = { target = FRA modifier = eoanb_om_ASH_focus_dislike }
 			reverse_add_opinion_modifier = { target = FRA modifier = eoanb_om_ASH_focus_dislike }
@@ -832,7 +832,7 @@ focus_tree = {
 			reverse_add_opinion_modifier = { target = SPR modifier = eoanb_om_ASH_focus_dislike }
 		}
 	}
-	
+
 	focus = {
 		id = ASH_resist_foreign_influence
 		icon = GFX_goal_generic_political_pressure
@@ -843,9 +843,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		prerequisite = { focus = ASH_distrust_the_europeans }
-		
+
 		completion_reward = {
 				add_war_support = 0.03
 		}
@@ -861,15 +861,15 @@ focus_tree = {
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		prerequisite = { focus = ASH_resist_foreign_influence }
-		
+
 		completion_reward = {
 						add_stability = 0.03
 												add_war_support = 0.05
 								}
 				}
-	
+
 	focus = {
 		id = ASH_claim_the_lost_lands
 		icon = GFX_goal_focus_ally_ENG
@@ -880,9 +880,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		prerequisite = { focus = ASH_partial_isolation }
-		
+
 		completion_reward = {
 						add_state_claim = 1108
 			add_state_claim = 847
@@ -900,7 +900,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		prerequisite = { focus = ASH_the_legacy_of_anglo_ashanti_war }
 
 		mutually_exclusive = {
@@ -921,14 +921,14 @@ focus_tree = {
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		prerequisite = { focus = ASH_improve_anglo_ashanti_relations}
-		
+
 		completion_reward = {
 											add_ideas = AF_T_idea_trading_nation
 		}
 	}
-	
+
 	focus = {
 		id = ASH_trust_the_europeans
 		icon =  GFX_goal_focus_continent_west_europe
@@ -939,9 +939,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		prerequisite = { focus = ASH_welcome_the_foreign_merchants }
-		
+
 		completion_reward = {
 																add_opinion_modifier = { target = FRA modifier = eoanb_om_ASH_focus_like }
 			reverse_add_opinion_modifier = { target = FRA modifier = eoanb_om_ASH_focus_like }
@@ -953,7 +953,7 @@ focus_tree = {
 			reverse_add_opinion_modifier = { target = SPR modifier = eoanb_om_ASH_focus_like }
 		}
 	}
-	
+
 	focus = {
 		id = ASH_promises_of_gold
 		icon = GFX_focus_usa_reestablish_the_gold_standard
@@ -964,15 +964,15 @@ focus_tree = {
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		prerequisite = { focus = ASH_trust_the_europeans }
-		
+
 		completion_reward = {
 				add_political_power = 50
 												add_stability = -0.02
 		}
 	}
-	
+
 	focus = {
 		id = ASH_sign_trading_deals
 		icon = GFX_goal_focus_increase_wages
@@ -983,9 +983,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		prerequisite = { focus = ASH_promises_of_gold }
-		
+
 		completion_reward = {
 				add_political_power = -100
 								add_equipment_to_stockpile = { type = infantry_equipment_pike_and_shot_0 amount = 500 producer = ASH }
@@ -993,7 +993,7 @@ focus_tree = {
 											swap_ideas = { remove_idea = AF_T_idea_trading_nation add_idea = AF_T_idea_trading_nation_2 }
 		}
 	}
-	
+
 	focus = {
 		id = ASH_a_trading_empire
 		icon = GFX_goal_focus_ally_ENG
@@ -1004,9 +1004,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		prerequisite = { focus = ASH_sign_trading_deals }
-		
+
 		completion_reward = {
 			add_political_power = -300
 			ENG = { add_political_power = 50 }
@@ -1014,7 +1014,7 @@ focus_tree = {
 		}
 
 	}
-	
+
 	focus = {
 		id = ASH_a_grand_ceremony
 		icon = GFX_focus_usa_reestablish_the_gold_standard
@@ -1031,7 +1031,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		prerequisite = {
 			focus = ASH_a_trading_empire
 			focus = ASH_claim_the_lost_lands
@@ -1042,7 +1042,7 @@ focus_tree = {
 					add_research_slot = 1
 		}
 
-		
+
 	}
 
 	focus = {
@@ -1055,14 +1055,14 @@ focus_tree = {
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		prerequisite = { focus = ASH_the_golden_stool }
-		
+
 		completion_reward = {
 			increase_ps_by_one = yes
 		}
 	}
-		
+
 	focus = {
 		id = ASH_kumasi_palace
 		icon = GFX_goal_SWE_famine_relief
@@ -1073,14 +1073,14 @@ focus_tree = {
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		prerequisite = { focus = ASH_asantehenes_rule }
-		
+
 		completion_reward = {
 				add_political_power = 100
 		}
 	}
-		
+
 	focus = {
 		id = ASH_empires_administration
 		icon = GFX_focus_agriculture_2
@@ -1091,29 +1091,29 @@ focus_tree = {
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		prerequisite = { focus = ASH_kumasi_palace }
-		
+
 		completion_reward = {
 			add_political_power = 25
 			add_stability = 0.01
 		}
 	}
-	
+
 	focus = {
 		id = ASH_all_roads_lead_to_kumasi
 		icon = GFX_focus_usa_reestablish_the_gold_standard
 		x = 22
 		y = 4
 		available = {
-			owns_state = 274
+			# owns_state = 274
 		}
 		cost = 60
 		available_if_capitulated = no
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		prerequisite = { focus = ASH_empires_administration }
 
                 mutually_exclusive = {
@@ -1121,15 +1121,15 @@ focus_tree = {
 								}
 
 		completion_reward = {
-			274 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
-			}
+			# 274 = {
+			# 	add_building_construction = {
+			# 		type = infrastructure
+			# 		level = 1
+			# 		instant_build = yes
+			# 	}
+			# }
 		}
-	
+
 	}
 
 				focus = {
@@ -1138,14 +1138,14 @@ focus_tree = {
 		x = 22
 		y = 5
 		available = {
-			owns_state = 274
+			# owns_state = 274
 		}
 		cost = 60
 		available_if_capitulated = no
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		prerequisite = { focus = ASH_all_roads_lead_to_kumasi }
 
 
@@ -1159,16 +1159,16 @@ focus_tree = {
 		x = 22
 		y = 6
 		available = {
-			owns_state = 274
+			# owns_state = 274
 		}
 		cost = 60
 		available_if_capitulated = no
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		prerequisite = { focus = ASH_invest_in_kumasi }
-		
+
 		completion_reward = {
 			swap_ideas = { remove_idea = oral_tradition  add_idea = privileged_education }
 		}
@@ -1179,22 +1179,22 @@ focus_tree = {
 		x = 22
 		y = 7
 		available = {
-			owns_state = 274
+			# owns_state = 274
 		}
 		cost = 60
 		available_if_capitulated = no
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		prerequisite = { focus = ASH_educate_the_privileged }
-		
+
 		completion_reward = {
 				add_stability = 0.03
 										add_war_support = 0.02
 		}
 	}
-	
+
 	focus = {
 		id = ASH_clans_and_chiefdoms
 		x = 24
@@ -1204,7 +1204,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		prerequisite = { focus = ASH_empires_administration }
 
 		mutually_exclusive = {
@@ -1227,9 +1227,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		prerequisite = { focus = ASH_clans_and_chiefdoms }
-		
+
 		completion_reward = {
 				add_tech_bonus = { bonus = 0.2 uses = 2 category =building_farming_tech }
 		}
@@ -1244,9 +1244,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		prerequisite = { focus = ASH_invest_in_villages }
-		
+
 		completion_reward = {
 													add_tech_bonus = { bonus = 0.3 uses = 2 category = humanities_tech }
 		}
@@ -1261,9 +1261,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		prerequisite = { focus = ASH_education_in_hands_of_priests }
-		
+
 		completion_reward = {
 				add_manpower = 4000
 										add_war_support = 0.03
@@ -1280,9 +1280,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		prerequisite = {                           }
-		
+
 		completion_reward = {
 				add_stability = 0.03
 		}
@@ -1297,9 +1297,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		prerequisite = { focus = ASH_animistic_beliefs }
-		
+
 		completion_reward = {
 				add_ideas = AF_T_idea_ancient_wisdom_3
 		}
@@ -1314,9 +1314,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		prerequisite = { focus = ASH_build_new_shrines }
-		
+
 		completion_reward = {
 				add_stability = 0.02
 		}
@@ -1332,9 +1332,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		prerequisite = { focus = ASH_expanding_our_rituals }
-		
+
 		completion_reward = {
 				add_stability = 0.01
 										swap_ideas = { remove_idea = state_religion add_idea = theocratic_state }
@@ -1351,14 +1351,14 @@ focus_tree = {
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		prerequisite = { focus = ASH_a_strong_theocracy }
-		
+
 		completion_reward = {
 				swap_ideas = { remove_idea = AF_T_idea_ancient_wisdom_3 add_idea = AF_T_idea_ancient_wisdom_4 }
 											add_war_support = 0.01
 								}
-	
+
 				}
 
 				focus = {
@@ -1370,15 +1370,15 @@ focus_tree = {
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		prerequisite = { focus = ASH_united_in_faith }
-		
+
 		completion_reward = {
 				add_war_support = 0.01
 										add_stability = 0.01
 										add_political_power = -100
 								}
-	
+
 				}
 
 				focus = {
@@ -1849,7 +1849,7 @@ focus_tree = {
 		icon = GFX_focus_generic_concessions
 		cost = 75
 		available = {
-			
+
 		}
 		prerequisite = {
 			focus = ASH_inward_regional_power_superior_weaponry

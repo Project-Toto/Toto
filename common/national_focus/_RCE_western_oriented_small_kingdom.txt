@@ -13,7 +13,7 @@ focus_tree = {
 				tag = SOT
 				tag = LOA
 				tag = NKO
-                tag = OYO
+				tag = OYO
 				tag = GAZ
 			}
 		}

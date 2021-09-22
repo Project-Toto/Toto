@@ -5,13 +5,13 @@ ALZ_slave_raid_border_conflict = {
 		available = {
 			has_war_support > 0.45
 			custom_trigger_tooltip = {
-			tooltip = ALZ_slave_raid_does_not_have_non_aggression_pact
-				834 ={
-					owner = {
-						NOT = { has_non_aggression_pact_with = ROOT }
-					}
-				}
-			}
+			# tooltip = ALZ_slave_raid_does_not_have_non_aggression_pact
+			# 	834 ={
+			# 		owner = {
+			# 			NOT = { has_non_aggression_pact_with = ROOT }
+			# 		}
+			# 	}
+			# }
 			NOT = { has_country_flag = raiding_neighbour }
 		}
 		
@@ -25,12 +25,12 @@ ALZ_slave_raid_border_conflict = {
 		allowed = { TAG = ALZ }
 		
 		visible = {
-			ALZ = {
-				owns_state = 833
-			}
-			any_other_country = {
-				owns_state = 834
-			}
+			# ALZ = {
+			# 	owns_state = 833
+			# }
+			# any_other_country = {
+			# 	owns_state = 834
+			# }
 		}
 	
 		fire_only_once = no
@@ -52,36 +52,36 @@ ALZ_slave_raid_border_conflict = {
 			add_command_power = -100
 			set_country_flag = raiding_neighbour
 			hidden_effect = {
-				834 ={
-					owner = {
-						division_template = {
-							name = "Elite Tribal Infantry"
-							priority = 2
-							division_names_group = KRU_TRIBAL_INFANTRY_01
-							regiments = {
-								tribal_infantry = { x = 0 y = 0 }
+				# 834 ={
+				# 	owner = {
+				# 		division_template = {
+				# 			name = "Elite Tribal Infantry"
+				# 			priority = 2
+				# 			division_names_group = KRU_TRIBAL_INFANTRY_01
+				# 			regiments = {
+				# 				tribal_infantry = { x = 0 y = 0 }
 							
-								tribal_infantry = { x = 1 y = 0 }
-							}
-						}
-						set_division_template_lock = {
-							division_template = "Elite Tribal Infantry"
-							is_locked = yes
-						}
-						if = {
-							limit = { afr_is_tribal = yes }
-							add_ideas = ETH_generals_inspire
-						}
-						country_event = { days = 7 id = ALZ_slave_raid_defender.1 }
-						834 = {
-							create_unit = {
-								division = "name = \"Elite Tribal Infantry\" division_template = \"Elite Tribal Infantry\" start_experience_factor = 3.0" 
-								owner = PREV
-							}
-						}
-						clr_country_flag = ALZ_slave_raid_ended
-					}
-				}
+				# 				tribal_infantry = { x = 1 y = 0 }
+				# 			}
+				# 		}
+				# 		set_division_template_lock = {
+				# 			division_template = "Elite Tribal Infantry"
+				# 			is_locked = yes
+				# 		}
+				# 		if = {
+				# 			limit = { afr_is_tribal = yes }
+				# 			add_ideas = ETH_generals_inspire
+				# 		}
+				# 		country_event = { days = 7 id = ALZ_slave_raid_defender.1 }
+				# 		834 = {
+				# 			create_unit = {
+				# 				division = "name = \"Elite Tribal Infantry\" division_template = \"Elite Tribal Infantry\" start_experience_factor = 3.0"
+				# 				owner = PREV
+				# 			}
+				# 		}
+				# 		clr_country_flag = ALZ_slave_raid_ended
+				# 	}
+				# }
 				
 				
 			}
@@ -133,14 +133,14 @@ ALZ_anti_industrialisation_raids = {
 		visible = {
 			AND = {
 				tag = SHK
-				ROOT = {
-					is_neighbor_of = ALZ
-					owns_state = 834
-				}
-				ALZ = {
-					owns_state = 833
-					has_idea = afr_reforming_kingdom
-				}
+				# ROOT = {
+				# 	is_neighbor_of = ALZ
+				# 	owns_state = 834
+				# }
+				# ALZ = {
+				# 	owns_state = 833
+				# 	has_idea = afr_reforming_kingdom
+				# }
 			}
 		}
 		
@@ -181,12 +181,12 @@ ALZ_anti_industrialisation_raids = {
 						is_locked = yes
 					}
 				}
-				834 ={
-					create_unit = {
-						division = "name = \"Elite Tribal Infantry\" division_template = \"Elite Tribal Infantry\" start_experience_factor = 3.0" 
-						owner = SHK
-					}
-				}
+				# 834 ={
+				# 	create_unit = {
+				# 		division = "name = \"Elite Tribal Infantry\" division_template = \"Elite Tribal Infantry\" start_experience_factor = 3.0"
+				# 		owner = SHK
+				# 	}
+				# }
 				add_ideas = ETH_generals_inspire
 				ALZ = { country_event = { days = 7 id = ALZ_anti_industrialisation_raid_defense.1 } }
 			}
@@ -239,14 +239,14 @@ ALZ_anti_industrialisation_raids = {
 		visible = {
 			AND = {
 				tag = LNG
-				ROOT = {
-					is_neighbor_of = ALZ
-					owns_state = 295
-				}
-				ALZ = {
-					owns_state = 833
-					has_idea = afr_reforming_kingdom
-				}
+				# ROOT = {
+				# 	is_neighbor_of = ALZ
+				# 	owns_state = 295
+				# }
+				# ALZ = {
+				# 	owns_state = 833
+				# 	has_idea = afr_reforming_kingdom
+				# }
 			}
 		}
 		
@@ -287,12 +287,12 @@ ALZ_anti_industrialisation_raids = {
 						is_locked = yes
 					}
 				}
-				295 ={
-					create_unit = {
-						division = "name = \"Elite Tribal Infantry\" division_template = \"Elite Tribal Infantry\" start_experience_factor = 3.0" 
-						owner = LNG
-					}
-				}
+				# 295 ={
+				# 	create_unit = {
+				# 		division = "name = \"Elite Tribal Infantry\" division_template = \"Elite Tribal Infantry\" start_experience_factor = 3.0"
+				# 		owner = LNG
+				# 	}
+				# }
 				add_ideas = ETH_generals_inspire
 				ALZ = { country_event = { days = 7 id = ALZ_anti_industrialisation_raid_defense.1 } }
 			}
@@ -346,14 +346,14 @@ ALZ_anti_industrialisation_raids = {
 		visible = {
 			AND = {
 				tag = DFR
-				ROOT = {
-					is_neighbor_of = ALZ
-					owns_state = 832
-				}
-				ALZ = {
-					owns_state = 833
-					has_idea = afr_reforming_kingdom
-				}
+				# ROOT = {
+				# 	is_neighbor_of = ALZ
+				# 	owns_state = 832
+				# }
+				# ALZ = {
+				# 	owns_state = 833
+				# 	has_idea = afr_reforming_kingdom
+				# }
 			}
 		}
 		
@@ -394,7 +394,7 @@ ALZ_anti_industrialisation_raids = {
 						is_locked = yes
 					}
 				}
-				832 ={
+				random_owned_state ={
 					create_unit = {
 						division = "name = \"Elite Tribal Infantry\" division_template = \"Elite Tribal Infantry\" start_experience_factor = 3.0" 
 						owner = DFR
