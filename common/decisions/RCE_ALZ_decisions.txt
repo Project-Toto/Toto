@@ -4,7 +4,7 @@ ALZ_slave_raid_border_conflict = {
 		icon = generic_prepare_civil_war
 		available = {
 			has_war_support > 0.45
-			custom_trigger_tooltip = {
+			# custom_trigger_tooltip = {
 			# tooltip = ALZ_slave_raid_does_not_have_non_aggression_pact
 			# 	834 ={
 			# 		owner = {

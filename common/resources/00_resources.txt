@@ -19,42 +19,42 @@ resources = {
 		cic = 0.50
 		convoys = 0.25
 	}
-	resource_slaves = {
+	resource_cotton = {
 		icon_frame = 5
 		cic = 0.125
 		convoys = 0.25
 	}
-	resource_cotton = {
-		icon_frame = 6
-		cic = 0.125
-		convoys = 0.25
-	}
 	resource_fabric = {
-		icon_frame = 7
+		icon_frame = 6
 		cic = 0.50
 		convoys = 0.25
 	}
 	resource_gold = {
-		icon_frame = 8
+		icon_frame = 7
 		cic = 0.25
 		convoys = 0.25
 	}
 	resource_ivory = {
-		icon_frame = 9
+		icon_frame = 8
 		cic = 0.25
 		convoys = 0.25
 	}
 	resource_jewelery = {
-		icon_frame = 10
+		icon_frame = 9
 		cic = 1.0
 		convoys = 0.25
 	}
 	resource_iron = {
-		icon_frame = 11
+		icon_frame = 10
 		cic = 0.125
 		convoys = 0.33
 	}
 	resource_coal = {
+		icon_frame = 11
+		cic = 0.125
+		convoys = 0.33
+	}
+	resource_tungsten = {
 		icon_frame = 12
 		cic = 0.125
 		convoys = 0.33

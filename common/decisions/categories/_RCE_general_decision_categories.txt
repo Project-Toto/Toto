@@ -14,3 +14,6 @@
 	eoanb_category_politics_internal = {
 		allowed = { always = yes }
 	}
+	political_actions = {
+		allowed = { always = yes }
+	}

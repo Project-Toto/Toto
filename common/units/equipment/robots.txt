@@ -42,10 +42,8 @@ equipments = {
 		build_cost_ic = 25
 		resources = {
 			#oil = 1
-			titanium = 3
-			eletronics = 3
-			portable_power = 2
-			steel = 2
+			resource_electricity = 3
+			resource_steel = 2
 			machine_parts = 1
 		}
 		
@@ -56,7 +54,7 @@ equipments = {
 	l_robot_1 = {
 		year = 2030
 
-		archetype = light_robot_equipment		
+		archetype = light_robot_equipment
 		priority = 90
 		visual_level = 0
 		is_convertable = yes
@@ -88,10 +86,8 @@ equipments = {
 		build_cost_ic = 28
 		resources = {
 			#oil = 1
-			titanium = 3
-			eletronics = 3
-			portable_power = 2
-			steel = 2
+			resource_electricity = 3
+			resource_steel = 2
 			machine_parts = 1
 		}
 	}
@@ -121,10 +117,8 @@ equipments = {
 		build_cost_ic = 31
 		resources = {
 			#oil = 1
-			titanium = 3
-			eletronics = 3
-			portable_power = 2
-			steel = 2
+			resource_electricity = 3
+			resource_steel = 2
 			machine_parts = 1
 		}
 	}
@@ -154,10 +148,8 @@ equipments = {
 		build_cost_ic = 34
 		resources = {
 			#oil = 1
-			titanium = 3
-			eletronics = 3
-			portable_power = 2
-			steel = 2
+			resource_electricity = 3
+			resource_steel = 2
 			machine_parts = 1
 		}
 	}
@@ -171,16 +163,16 @@ equipments = {
 		is_convertable = yes
 		type = armor
 		group_by = archetype
-		
+
 		interface_category = interface_category_armor
-		
+
 		upgrades = {
 			tank_reliability_upgrade
 			tank_engine_upgrade
 			tank_armor_upgrade
 			tank_gun_upgrade
 		}
-		
+
 		#Misc Abilities
 		maximum_speed = 5
 		reliability = 0.8
@@ -203,10 +195,8 @@ equipments = {
 		build_cost_ic = 40
 		resources = {
 			#oil = 1
-			titanium = 4
-			eletronics = 4
-			portable_power = 2
-			steel = 2
+			resource_electricity = 4
+			resource_steel = 2
 			machine_parts = 1
 		}
 		
@@ -217,7 +207,7 @@ equipments = {
 	m_robot_1 = {
 		year = 2035
 
-		archetype = medium_robot_equipment		
+		archetype = medium_robot_equipment
 		priority = 90
 		visual_level = 0
 		is_convertable = yes
@@ -249,10 +239,8 @@ equipments = {
 		build_cost_ic = 46
 		resources = {
 			#oil = 1
-			titanium = 4
-			eletronics = 4
-			portable_power = 2
-			steel = 2
+			resource_electricity = 4
+			resource_steel = 2
 			machine_parts = 1
 		}
 	}
@@ -282,10 +270,8 @@ equipments = {
 		build_cost_ic = 52
 		resources = {
 			#oil = 1
-			titanium = 4
-			eletronics = 4
-			portable_power = 2
-			steel = 2
+			resource_electricity = 4
+			resource_steel = 2
 			machine_parts = 1
 		}
 	}
@@ -301,14 +287,14 @@ equipments = {
 		group_by = archetype
 		
 		interface_category = interface_category_armor
-		
+
 		upgrades = {
 			tank_reliability_upgrade
 			tank_engine_upgrade
 			tank_armor_upgrade
 			tank_gun_upgrade
 		}
-		
+
 		#Misc Abilities
 		maximum_speed = 5
 		reliability = 0.8
@@ -331,13 +317,11 @@ equipments = {
 		build_cost_ic = 70
 		resources = {
 			#oil = 1
-			titanium = 8
-			eletronics = 4
-			portable_power = 3
-			steel = 2
+			resource_electricity = 4
+			resource_steel = 2
 			machine_parts = 3
 		}
-		
+
 		fuel_consumption = 4.4
 	}
 
@@ -345,7 +329,7 @@ equipments = {
 	h_robot_1 = {
 		year = 2030
 
-		archetype = heavy_robot_equipment		
+		archetype = heavy_robot_equipment
 		priority = 90
 		visual_level = 0
 		is_convertable = yes
@@ -360,7 +344,7 @@ equipments = {
 		priority = 90
 		visual_level = 1
 		is_convertable = yes
-		
+
 		#Misc Abilities
 		maximum_speed = 6
 
@@ -373,14 +357,12 @@ equipments = {
 		soft_attack = 80
 		hard_attack = 30
 		ap_attack = 35
-		
+
 		build_cost_ic = 75
 		resources = {
 			#oil = 1
-			titanium = 8
-			eletronics = 4
-			portable_power = 3
-			steel = 3
+			resource_electricity = 4
+			resource_steel = 3
 			machine_parts = 3
 		}
 	}
@@ -393,7 +375,7 @@ equipments = {
 		priority = 90
 		visual_level = 1
 		is_convertable = yes
-		
+
 		#Misc Abilities
 		maximum_speed = 6
 
@@ -406,14 +388,12 @@ equipments = {
 		soft_attack = 90
 		hard_attack = 30
 		ap_attack = 35
-		
+
 		build_cost_ic = 80
 		resources = {
 			#oil = 1
-			titanium = 9
-			eletronics = 4
-			portable_power = 3
-			steel = 5
+			resource_electricity = 4
+			resource_steel = 5
 			machine_parts = 3
 		}
 	}
@@ -443,10 +423,8 @@ equipments = {
 		build_cost_ic = 155
 		resources = {
 			#oil = 1
-			titanium = 10
-			eletronics = 5
-			portable_power = 4
-			steel = 8
+			resource_electricity = 5
+			resource_steel = 8
 			machine_parts = 4
 		}
 	}

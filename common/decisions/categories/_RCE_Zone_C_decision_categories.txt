@@ -35,3 +35,9 @@ ETH_Internal_Affairs = {
 ETH_RUS_Diplomacy = {
 	allowed = { tag = ETH }
 }
+ETH_crush_the_oromo = {
+	allowed = { tag = ETH }
+}
+ETH_Corporate_Coup = {
+	allowed = { tag = ETH }
+}

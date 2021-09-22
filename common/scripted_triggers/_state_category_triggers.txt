@@ -13,3 +13,6 @@ is_in_kenya = {
 is_in_zanzibar = {
 	always = no
 }
+has_tungsten = {
+	always = no
+}

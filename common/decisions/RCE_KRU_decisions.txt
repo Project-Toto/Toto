@@ -346,16 +346,16 @@ KRU_Request_Gov_Road_Investment_5 = {
 
 KRU_Seek_Plantation_Company  = {
 
-    available = {
+	available = {
 		has_country_flag = LIB_request_gov_road_investment
 		has_stability > 0.2
 		num_of_civilian_factories_available_for_projects > 1
-		random_owned_state = {
+		any_owned_state = {
 			infrastructure > 1
 		}
-    }
+	}
 
-    visible = {
+	visible = {
 		LIB = {
 			has_completed_focus = LIB_colony_generic_regional_infrastructure
 		}
@@ -363,13 +363,13 @@ KRU_Seek_Plantation_Company  = {
 		KRU = {
 			has_country_flag = KRU_colonial_governance
 		}
-    }
+	}
 
 	allowed = { TAG = KRU }
 
 	fire_only_once = yes
 
-    cost = 0
+	cost = 0
 
 	days_remove = 60
 
@@ -421,19 +421,19 @@ KRU_Seek_Plantation_Company  = {
 
 KRU_US_Gov_Port_Investment = {
 
-    available = {
+	available = {
 		has_country_flag = LIB_request_gov_road_investment
 		has_stability > 0.3
-		has_resources_amount = {
-			resource = wood
-			amount > 7
-			state = 298
-		}
+		# has_resources_amount = {
+		# 	resource = wood
+		# 	amount > 7
+		# 	state = 298
+		# }
 		num_of_civilian_factories_available_for_projects > 1
-		random_owned_state = {
+		any_owned_state = {
 			infrastructure > 2
 		}
-    }
+	}
 
     visible = {
 		LIB = {

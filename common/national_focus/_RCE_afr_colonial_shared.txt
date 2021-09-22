@@ -7,7 +7,7 @@ shared_focus = {
 	y = 0
 	ai_will_do = { factor = 10000 }
 	available = {
-		american_civil_war_focus_scripted_trigger = yes
+		acw_has_started_scripted_trigger = yes
 		if = {
 			limit = {
 				OR = {
@@ -2005,7 +2005,7 @@ shared_focus = {
 		custom_effect_tooltip = afr_colony_generic_gold_coast_ashanti_divisions_tooltip
 	}
 	allow_branch = {
-		TAG = INS
+		TAG = GDC
 	}
 }
 # Dutch Gold Coast

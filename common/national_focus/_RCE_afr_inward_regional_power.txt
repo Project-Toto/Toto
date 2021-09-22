@@ -293,7 +293,7 @@ focus_tree = {
 			random_owned_state={
 				limit = { has_tungsten = yes }
 				add_resource = {
-					type = tungsten
+					type = resource_tungsten
 					amount = 2
 				}
 			}

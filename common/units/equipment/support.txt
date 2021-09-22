@@ -24,34 +24,34 @@ equipments = {
 		build_cost_ic = 8
 		resources = {
 			wood = 1
-			iron = 1
+			resource_iron = 1
 		}
 	}
-	
+
 	support_equipment_2 = {
 		archetype = support_equipment
 		parent = support_equipment_1
 		priority = 20
 		
 		defense = 0.1
-		
+
 		build_cost_ic = 9
 		resources = {
-			steel = 2
+			resource_steel = 2
 		}
 	}
-	
+
 	support_equipment_3 = {
 		archetype = support_equipment
 		parent = support_equipment_2
 		priority = 20
 		
 		defense = 0.15
-		
+
 		build_cost_ic = 10
 		resources = {
 			aluminium = 1
-			steel = 1
+			resource_steel = 1
 		}
 	}
 	support_equipment_4 = {
@@ -60,11 +60,11 @@ equipments = {
 		priority = 20
 		
 		defense = 0.2
-		
+
 		build_cost_ic = 11
 		resources = {
 			aluminium = 1
-			steel = 1
+			resource_steel = 1
 		}
 	}
 	support_equipment_5 = {
@@ -74,11 +74,11 @@ equipments = {
 		
 		defense = 0.2
 		soft_attack = 0.05
-		
+
 		build_cost_ic = 12
 		resources = {
 			aluminium = 1
-			steel = 1
+			resource_steel = 1
 		}
 	}
 	support_equipment_6 = {
@@ -88,12 +88,12 @@ equipments = {
 		
 		defense = 0.25
 		soft_attack = 0.05
-		
+
 		build_cost_ic = 13
 		resources = {
 			aluminium = 1
-			steel = 1
-			eletronics=1
+			resource_steel = 1
+			resource_electricity=1
 		}
 	}
 	support_equipment_7 = {
@@ -103,12 +103,12 @@ equipments = {
 		
 		defense = 0.3
 		soft_attack = 0.075
-		
+
 		build_cost_ic = 14
 		resources = {
 			aluminium = 1
-			steel = 1
-			eletronics=1
+			resource_steel = 1
+			resource_electricity=1
 		}
 	}
 	support_equipment_8 = {
@@ -118,13 +118,12 @@ equipments = {
 		
 		defense = 0.5
 		soft_attack = 0.1
-		
+
 		build_cost_ic = 15
 		resources = {
 			aluminium = 2
-			steel = 1
-			eletronics=2
-			portable_power=1
+			resource_steel = 1
+			resource_electricity=2
 		}
 	}
 
@@ -146,7 +145,7 @@ equipments = {
 
 		build_cost_ic = 8
 		resources = {
-			steel = 2
+			resource_steel = 2
 		}
 	}
 
@@ -183,7 +182,7 @@ equipments = {
 		
 		defense = 0.15
 		max_organisation = 0.5
-		
+
 		build_cost_ic = 0.5
 		resources = {
 			cotton = 2
@@ -194,10 +193,10 @@ equipments = {
 		archetype = uniform_equipment
 		parent = uniform_equipment_0
 		priority = 20
-		
+
 		defense = 0.20
 		max_organisation = 1.0
-		
+
 		build_cost_ic = 0.7
 		resources = {
 			fabric = 1
@@ -211,7 +210,7 @@ equipments = {
 		
 		defense = 0.25
 		max_organisation = 1.5
-		
+
 		build_cost_ic = 0.8
 		resources = {
 			fabric = 1
@@ -225,7 +224,7 @@ equipments = {
 		
 		defense = 0.3
 		max_organisation = 2
-		
+
 		build_cost_ic = 0.9
 		resources = {
 			fabric = 2
@@ -239,27 +238,27 @@ equipments = {
 		
 		defense = 0.35
 		max_organisation = 2.5
-		
+
 		build_cost_ic = 1.0
 		resources = {
 			fabric = 3
 		}
 	}
-	
+
 	uniform_equipment_5 = {
 		archetype = uniform_equipment
 		parent = uniform_equipment_4
 		priority = 20
-		
+
 		defense = 0.4
 		max_organisation = 2.5
-		
+
 		build_cost_ic = 1.1
 		resources = {
 			fabric = 3
 		}
 	}
-	
+
 	uniform_equipment_6 = {
 		archetype = uniform_equipment
 		parent = uniform_equipment_5
@@ -267,13 +266,13 @@ equipments = {
 		
 		defense = 0.45
 		max_organisation = 3
-		
+
 		build_cost_ic = 1.2
 		resources = {
 			fabric = 4
 		}
 	}
-	
+
 	uniform_equipment_7 = {
 		archetype = uniform_equipment
 		parent = uniform_equipment_6
@@ -281,13 +280,13 @@ equipments = {
 		
 		defense = 0.50
 		max_organisation = 3.5
-		
+
 		build_cost_ic = 1.2
 		resources = {
 			fabric = 4
 		}
 	}
-	
+
 	uniform_equipment_8 = {
 		archetype = uniform_equipment
 		parent = uniform_equipment_7
@@ -295,27 +294,27 @@ equipments = {
 		
 		defense = 0.55
 		max_organisation = 4.0
-		
+
 		build_cost_ic = 1.3
 		resources = {
 			fabric = 4
 		}
 	}
-	
+
 	uniform_equipment_9 = {
 		archetype = uniform_equipment
 		parent = uniform_equipment_8
 		priority = 20
-		
+
 		defense = 0.60
 		max_organisation = 4.5
-		
+
 		build_cost_ic = 1.3
 		resources = {
 			fabric = 4
 		}
 	}
-	
+
 	uniform_equipment_10 = {
 		archetype = uniform_equipment
 		parent = uniform_equipment_9
@@ -323,13 +322,13 @@ equipments = {
 		
 		defense = 0.65
 		max_organisation = 7
-		
+
 		build_cost_ic = 1.3
 		resources = {
 			fabric = 4
 		}
 	}
-	
+
 	uniform_equipment_11 = {
 		archetype = uniform_equipment
 		parent = uniform_equipment_10
@@ -337,7 +336,7 @@ equipments = {
 		
 		defense = 0.70
 		max_organisation = 7.5
-		
+
 		build_cost_ic = 1.4
 		resources = {
 			fabric = 5
@@ -347,10 +346,10 @@ equipments = {
 		archetype = uniform_equipment
 		parent = uniform_equipment_11
 		priority = 20
-		
+
 		defense = 0.75
 		max_organisation = 8.0
-		
+
 		build_cost_ic = 1.4
 		resources = {
 			fabric = 5
@@ -360,10 +359,10 @@ equipments = {
 		archetype = uniform_equipment
 		parent = uniform_equipment_12
 		priority = 20
-		
+
 		defense = 0.80
 		max_organisation = 8.5
-		
+
 		build_cost_ic = 1.4
 		resources = {
 			fabric = 5
@@ -376,7 +375,7 @@ equipments = {
 		
 		defense = 0.85
 		max_organisation = 9
-		
+
 		build_cost_ic = 1.5
 		resources = {
 			fabric = 5
@@ -389,7 +388,7 @@ equipments = {
 		
 		defense = 0.90
 		max_organisation = 9.5
-		
+
 		build_cost_ic = 1.5
 		resources = {
 			fabric = 5
@@ -442,7 +441,7 @@ equipments = {
 		
 		defense = 1.1
 		max_organisation = 11.5
-		
+
 		build_cost_ic = 1.8
 		resources = {
 			fabric = 4
@@ -453,10 +452,10 @@ equipments = {
 		archetype = uniform_equipment
 		parent = uniform_equipment_19
 		priority = 20
-		
+
 		defense = 1.15
 		max_organisation = 12
-		
+
 		build_cost_ic = 1.9
 		resources = {
 			fabric = 4
@@ -470,7 +469,7 @@ equipments = {
 		
 		defense = 1.20
 		max_organisation = 12.5
-		
+
 		build_cost_ic = 1.9
 		resources = {
 			fabric = 4
@@ -484,7 +483,7 @@ equipments = {
 		
 		defense = 1.25
 		max_organisation = 13.0
-		
+
 		build_cost_ic = 2.0
 		resources = {
 			fabric = 4
@@ -498,7 +497,7 @@ equipments = {
 		
 		defense = 1.30
 		max_organisation = 13.5
-		
+
 		build_cost_ic = 2.1
 		resources = {
 			fabric = 4
@@ -544,12 +543,11 @@ equipments = {
 		build_cost_ic = 8.3
 
 		resources = {
-			steel = 4
+			resource_steel = 4
 			machine_parts = 2
-			eletronics = 2
-			portable_power = 1
+			resource_electricity = 2
 		}
-	
+
 	}
 	power_armor_equipment_1={
 		archetype = power_armor_equipment
@@ -571,13 +569,11 @@ equipments = {
 		build_cost_ic = 12.0
 
 		resources = {
-			titanium = 3
-			steel = 4
+			resource_steel = 4
 			machine_parts = 2
-			eletronics = 4
-			portable_power = 1
+			resource_electricity = 4
 		}
-	
+
 	}
 	power_armor_equipment_2={
 		archetype = power_armor_equipment
@@ -599,13 +595,11 @@ equipments = {
 		build_cost_ic = 17.0
 
 		resources = {
-			titanium = 3
-			steel = 4
+			resource_steel = 4
 			machine_parts = 2
-			eletronics = 4
-			portable_power = 1
+			resource_electricity = 4
 		}
-	
+
 	}
 	power_armor_equipment_3={
 		archetype = power_armor_equipment
@@ -627,13 +621,11 @@ equipments = {
 		build_cost_ic = 22.0
 
 		resources = {
-			titanium = 3
-			steel = 4
+			resource_steel = 4
 			machine_parts = 2
-			eletronics = 4
-			portable_power = 1
+			resource_electricity = 4
 		}
-	
+
 	}
 	power_armor_equipment_4={
 		archetype = power_armor_equipment
@@ -655,15 +647,9 @@ equipments = {
 		build_cost_ic = 27.0
 
 		resources = {
-			titanium = 3
-			steel = 4
+			resource_steel = 4
 			machine_parts = 2
-			eletronics = 4
-			portable_power = 1
+			resource_electricity = 4
 		}
-	
 	}
-	
-	
-
 }

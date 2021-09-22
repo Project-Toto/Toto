@@ -25,7 +25,7 @@ equipments = {
 			}
 			fixed_ship_armor_slot = {
 				required = no
-				allowed_module_categories = { ship_capital_armor }	
+				allowed_module_categories = { ship_capital_armor }
 			}
 			mid_1_custom_slot = {
 				required = no
@@ -39,7 +39,7 @@ equipments = {
 			front_2_custom_slot = mid_1_custom_slot
 			rear_1_custom_slot = mid_1_custom_slot
 		}
-		
+
 		default_modules = {
 			fixed_ship_battery_slot = empty
 			fixed_ship_fire_control_system_slot = empty
@@ -52,29 +52,29 @@ equipments = {
 			mid_3_custom_slot = empty
 			rear_1_custom_slot = empty
 		}
-		
+
 		lg_armor_piercing = 0
 		lg_attack = 0
-		
+
 		hg_armor_piercing = 0
 		hg_attack = 0
-		
+
 		torpedo_attack = 0
 		sub_attack = 0
-		
+
 		anti_air_attack = 0
-		
+
 		armor_value = 5
-		
+
 		surface_detection = 20
 		sub_detection = 0
 		surface_visibility = 30
 		naval_speed = 0
 		reliability = 0.8
-		
+
 		naval_range = 4200
-		
-		max_strength = 125	
+
+		max_strength = 125
 
 		fuel_consumption = 0
 		
@@ -82,7 +82,7 @@ equipments = {
 		resources = {
 			wood = 4
 		}
-		
+
 		manpower = 1000
 	}
 	
@@ -103,39 +103,39 @@ equipments = {
 			mid_3_custom_slot = empty
 			rear_1_custom_slot = ship_cannon_battery_0
 		}
-		
+
 		lg_armor_piercing = 0
 		lg_attack = 0
-		
+
 		hg_armor_piercing = 0
 		hg_attack = 0
-		
+
 		torpedo_attack = 0
 		sub_attack = 0
-		
+
 		anti_air_attack = 0
-		
+
 		armor_value = 5
 
-		
+
 		surface_detection = 20
 		sub_detection = 0
 		surface_visibility = 30
 		naval_speed = 0
 		reliability = 0.8
-		
+
 		naval_range = 4200
-		
-		max_strength = 125	
-		
+
+		max_strength = 125
+
 
 		fuel_consumption = 0
-		
+
 		build_cost_ic = 8000
 		resources = {
 			wood = 4
 		}
-		
+
 		manpower = 1000
 	}
 	ship_lineship_1 = {
@@ -156,31 +156,31 @@ equipments = {
 			mid_3_custom_slot = ship_cannon_battery_0
 			rear_1_custom_slot = ship_cannon_battery_0
 		}
-		
+
 		lg_armor_piercing = 0
 		lg_attack = 0
-		
+
 		hg_armor_piercing = 0
 		hg_attack = 0
-		
+
 		torpedo_attack = 0
 		sub_attack = 0
-		
+
 		anti_air_attack = 0
-		
+
 		armor_value = 7
 
-		
+
 		surface_detection = 20
 		sub_detection = 0
 		surface_visibility = 30
 		naval_speed = 0
 		reliability = 0.8
-		
+
 		naval_range = 5250
-		
-		max_strength = 150	
-		
+
+		max_strength = 150
+
 
 		fuel_consumption = 0
 		
@@ -188,16 +188,16 @@ equipments = {
 		resources = {
 			wood = 5
 		}
-		
+
 		manpower = 1200
 	}
-	
+
 	ship_hull_lineship_0 = {
 		year = 1800
 		visual_level = 0
 		archetype = ship_hull_lineship
 		priority = 1900
-		
+
 		module_slots = inherit
 		default_modules = {
 			fixed_ship_battery_slot = ship_cannon_battery_0
@@ -235,7 +235,7 @@ equipments = {
 				}
 			}
 		}
-		
+
 		default_modules = {
 			rear_2_custom_slot = empty
 		}
@@ -249,17 +249,17 @@ equipments = {
 			mid_2_custom_slot = ship_cannon_battery_0
 			rear_1_custom_slot = ship_cannon_battery_0
 		}
-		
+
 		armor_value = 7
-		
+
 		surface_detection = 20
 		sub_detection = 0
 		surface_visibility = 30
 		naval_speed = 0
 		reliability = 0.8
-		
+
 		naval_range = 5250
-		
+
 		max_strength = 150
 
 		fuel_consumption = 0
@@ -268,10 +268,10 @@ equipments = {
 		resources = {
 			wood = 5
 		}
-		
+
 		manpower = 1200
 	}
-	
+
 	ship_hull_ironclad = {
 		year = 1860
 
@@ -297,7 +297,7 @@ equipments = {
 			}
 			fixed_ship_armor_slot = {
 				required = no
-				allowed_module_categories = { ship_capital_armor }	
+				allowed_module_categories = { ship_capital_armor }
 			}
 			mid_1_custom_slot = {
 				required = no
@@ -314,7 +314,7 @@ equipments = {
 			front_1_custom_slot = mid_1_custom_slot
 			rear_1_custom_slot = mid_1_custom_slot
 		}
-		
+
 		default_modules = {
 			fixed_ship_battery_slot = empty
 			fixed_ship_fire_control_system_slot = empty
@@ -325,37 +325,37 @@ equipments = {
 			mid_2_custom_slot = empty
 			rear_1_custom_slot = empty
 		}
-		
+
 		lg_armor_piercing = 0
 		lg_attack = 0
-		
+
 		hg_armor_piercing = 0
 		hg_attack = 0
-		
+
 		torpedo_attack = 0
 		sub_attack = 0
-		
+
 		anti_air_attack = 0
-		
+
 		armor_value = 10
-		
+
 		surface_detection = 14
 		sub_detection = 0
 		surface_visibility = 20
 		naval_speed = 0
 		reliability = 0.8
-		
+
 		naval_range = 2250
-		
-		max_strength = 130	
+
+		max_strength = 130
 
 		fuel_consumption = 0
 		
 		build_cost_ic = 7500
 		resources = {
-			iron = 3
+			resource_iron = 3
 		}
-		
+
 		manpower = 400
 	}
 
@@ -374,18 +374,18 @@ equipments = {
 			mid_2_custom_slot = empty
 			rear_1_custom_slot = empty
 		}
-		
+
 		lg_armor_piercing = 0
 		lg_attack = 0
-		
+
 		hg_armor_piercing = 0
 		hg_attack = 0
-		
+
 		torpedo_attack = 0
 		sub_attack = 0
-		
+
 		anti_air_attack = 0
-		
+
 		armor_value = 10
 
 		
@@ -394,19 +394,19 @@ equipments = {
 		surface_visibility = 20
 		naval_speed = 0
 		reliability = 0.8
-		
+
 		naval_range = 2250
-		
+
 		max_strength = 130
-		
+
 
 		fuel_consumption = 0
-		
+
 		build_cost_ic = 7500
 		resources = {
-			iron = 3
+			resource_iron = 3
 		}
-		
+
 		manpower = 400
 	}
 	ship_ironclad_1 = {
@@ -426,18 +426,18 @@ equipments = {
 			mid_2_custom_slot = ship_turret_light_0
 			rear_1_custom_slot = ship_turret_medium_0
 		}
-		
+
 		lg_armor_piercing = 0
 		lg_attack = 0
-		
+
 		hg_armor_piercing = 0
 		hg_attack = 0
-		
+
 		torpedo_attack = 0
 		sub_attack = 0
-		
+
 		anti_air_attack = 0
-		
+
 		armor_value = 12
 
 		
@@ -446,19 +446,19 @@ equipments = {
 		surface_visibility = 20
 		naval_speed = 0
 		reliability = 0.8
-		
+
 		naval_range = 2700
-		
+
 		max_strength = 140
-		
+
 
 		fuel_consumption = 0
-		
+
 		build_cost_ic = 9000
 		resources = {
-			iron = 4
+			resource_iron = 4
 		}
-		
+
 		manpower = 550
 	}
 	ship_ironclad_2 = {
@@ -478,18 +478,18 @@ equipments = {
 			mid_2_custom_slot = ship_turret_light_0
 			rear_1_custom_slot = ship_turret_medium_0
 		}
-		
+
 		lg_armor_piercing = 0
 		lg_attack = 0
-		
+
 		hg_armor_piercing = 0
 		hg_attack = 0
-		
+
 		torpedo_attack = 0
 		sub_attack = 0
-		
+
 		anti_air_attack = 0
-		
+
 		armor_value = 15
 
 		
@@ -498,29 +498,29 @@ equipments = {
 		surface_visibility = 20
 		naval_speed = 0
 		reliability = 0.8
-		
+
 		naval_range = 3600
-		
+
 		max_strength = 150
-		
+
 
 		fuel_consumption = 0
-		
+
 		build_cost_ic = 10000
 		resources = {
-			iron = 3
-			steel = 1
+			resource_iron = 3
+			resource_steel = 1
 		}
-		
+
 		manpower = 650
 	}
-	
+
 	ship_hull_ironclad_0 = {
 		year = 1860
 		visual_level = 0
 		archetype = ship_hull_ironclad
 		priority = 1900
-		
+
 		module_slots = inherit
 	}
 	ship_hull_ironclad_1 = {
@@ -555,26 +555,26 @@ equipments = {
 			fixed_ship_engine_slot = ship_engine_steam_screw_capital_2
 			mid_3_custom_slot = empty
 		}
-		
+
 		armor_value = 12
-		
+
 		surface_detection = 15
 		sub_detection = 0
 		surface_visibility = 20
 		naval_speed = 0
 		reliability = 0.8
-		
+
 		naval_range = 2700
-		
-		max_strength = 140	
+
+		max_strength = 140
 
 		fuel_consumption = 0
-		
+
 		build_cost_ic = 9000
 		resources = {
-			iron = 4
+			resource_iron = 4
 		}
-		
+
 		manpower = 550
 	}
 	ship_hull_ironclad_2 = {
@@ -599,30 +599,30 @@ equipments = {
 		default_modules = {
 			fixed_ship_engine_slot = ship_engine_steam_screw_capital_2
 		}
-		
+
 		armor_value = 15
-		
+
 		surface_detection = 15
 		sub_detection = 0
 		surface_visibility = 20
 		naval_speed = 0
 		reliability = 0.8
-		
+
 		naval_range = 3600
-		
-		max_strength = 150	
+
+		max_strength = 150
 
 		fuel_consumption = 0
-		
+
 		build_cost_ic = 10000
 		resources = {
-			iron = 3
-			steel = 1
+			resource_iron = 3
+			resource_steel = 1
 		}
-		
+
 		manpower = 650
 	}
-	
+
 	ship_hull_cruiser_heavy = {
 		year = 1875
 
@@ -648,7 +648,7 @@ equipments = {
 			}
 			fixed_ship_armor_slot = {
 				required = no
-				allowed_module_categories = { ship_capital_armor }	
+				allowed_module_categories = { ship_capital_armor }
 			}
 			front_1_custom_slot = {
 				required = no
@@ -663,22 +663,22 @@ equipments = {
 			mid_1_custom_slot = front_1_custom_slot
 			rear_1_custom_slot = front_1_custom_slot
 		}
-		
+
 		module_count_limit = {
 			category = ship_heavy_battery
 			count < 4
 		}
-		
+
 		module_count_limit = {
 			category = ship_medium_battery
 			count < 4
 		}
-		
+
 		module_count_limit = {
 			category = ship_capital_armor
 			count < 4
 		}
-		
+
 		default_modules = {
 			fixed_ship_battery_slot = empty
 			fixed_ship_fire_control_system_slot = empty
@@ -688,38 +688,38 @@ equipments = {
 			mid_1_custom_slot = empty
 			rear_1_custom_slot = empty
 		}
-		
+
 		lg_armor_piercing = 0
 		lg_attack = 0
-		
+
 		hg_armor_piercing = 0
 		hg_attack = 0
-		
+
 		torpedo_attack = 0
 		sub_attack = 0
-		
+
 		anti_air_attack = 0
-		
+
 		armor_value = 10
-		
+
 		surface_detection = 15
 		sub_detection = 0
 		surface_visibility = 22
 		naval_speed = 0
 		reliability = 0.8
-		
+
 		naval_range = 3750
-		
+
 		max_strength = 65
 
 		fuel_consumption = 0
-		
+
 		build_cost_ic = 4000
 		resources = {
-			iron = 3
-			steel = 1
+			resource_iron = 3
+			resource_steel = 1
 		}
-		
+
 		manpower = 500
 	}
 	ship_hull_cruiser_heavy_0 = {
@@ -728,7 +728,7 @@ equipments = {
 		archetype = ship_hull_cruiser_heavy
 		priority = 1900
 		
-		
+
 		module_slots = inherit
 	}
 	ship_hull_cruiser_heavy_1 = {
@@ -764,25 +764,25 @@ equipments = {
 		}
 		
 		armor_value = 12
-		
+
 		surface_detection = 15
 		sub_detection = 0
 		surface_visibility = 20
 		naval_speed = 0
 		reliability = 0.8
-		
+
 		naval_range = 4500
-		
+
 		max_strength = 75
 
 		fuel_consumption = 0
-		
+
 		build_cost_ic = 4750
 		resources = {
-			iron = 2
-			steel = 2
+			resource_iron = 2
+			resource_steel = 2
 		}
-		
+
 		manpower = 600
 	}
 	
@@ -804,36 +804,36 @@ equipments = {
 		
 		lg_armor_piercing = 0
 		lg_attack = 0
-		
+
 		hg_armor_piercing = 0
 		hg_attack = 0
-		
+
 		torpedo_attack = 0
 		sub_attack = 0
-		
+
 		anti_air_attack = 0
-		
+
 		armor_value = 10
 
-		
+
 		surface_detection = 15
 		sub_detection = 0
 		surface_visibility = 22
 		naval_speed = 0
 		reliability = 0.8
-		
+
 		naval_range = 3750
-		
+
 		max_strength = 65
-		
+
 
 		fuel_consumption = 0
-		
+
 		build_cost_ic = 4000
 		resources = {
-			iron = 3
+			resource_iron = 3
 		}
-		
+
 		manpower = 500
 	}
 	ship_heavy_cruiser_1 = {
@@ -855,37 +855,37 @@ equipments = {
 		
 		lg_armor_piercing = 0
 		lg_attack = 0
-		
+
 		hg_armor_piercing = 0
 		hg_attack = 0
-		
+
 		torpedo_attack = 0
 		sub_attack = 0
-		
+
 		anti_air_attack = 0
-		
+
 		armor_value = 12
 
-		
+
 		surface_detection = 15
 		sub_detection = 0
 		surface_visibility = 20
 		naval_speed = 0
 		reliability = 0.8
-		
+
 		naval_range = 4750
-		
+
 		max_strength = 75
-		
+
 
 		fuel_consumption = 0
-		
+
 		build_cost_ic = 4750
 		resources = {
-			iron = 2
-			steel = 2
+			resource_iron = 2
+			resource_steel = 2
 		}
-		
+
 		manpower = 600
 	}
 	ship_heavy_cruiser_2 = {
@@ -907,37 +907,37 @@ equipments = {
 		
 		lg_armor_piercing = 0
 		lg_attack = 0
-		
+
 		hg_armor_piercing = 0
 		hg_attack = 0
-		
+
 		torpedo_attack = 0
 		sub_attack = 0
-		
+
 		anti_air_attack = 0
-		
+
 		armor_value = 14
 
-		
+
 		surface_detection = 15
 		sub_detection = 0
 		surface_visibility = 20
 		naval_speed = 0
 		reliability = 0.8
-		
+
 		naval_range = 5500
-		
+
 		max_strength = 85
-		
+
 
 		fuel_consumption = 0
-		
+
 		build_cost_ic = 5500
 		resources = {
-			iron = 2
-			steel = 3
+			resource_iron = 2
+			resource_steel = 3
 		}
-		
+
 		manpower = 700
 	}
 	ship_heavy_cruiser_3 = {
@@ -959,40 +959,40 @@ equipments = {
 		
 		lg_armor_piercing = 0
 		lg_attack = 0
-		
+
 		hg_armor_piercing = 0
 		hg_attack = 0
-		
+
 		torpedo_attack = 0
 		sub_attack = 0
-		
+
 		anti_air_attack = 0
-		
+
 		armor_value = 16
 
-		
+
 		surface_detection = 15
 		sub_detection = 0
 		surface_visibility = 20
 		naval_speed = 0
 		reliability = 0.8
-		
+
 		naval_range = 7250
-		
+
 		max_strength = 95
-		
+
 
 		fuel_consumption = 0
-		
+
 		build_cost_ic = 7250
 		resources = {
-			iron = 2
-			steel = 3
+			resource_iron = 2
+			resource_steel = 3
 		}
-		
+
 		manpower = 800
 	}
-	
+
 	ship_hull_cruiser = {
 		year = 1890
 
@@ -1025,7 +1025,7 @@ equipments = {
 			}
 			fixed_ship_armor_slot = {
 				required = no
-				allowed_module_categories = { ship_capital_armor }	
+				allowed_module_categories = { ship_capital_armor }
 			}
 			front_1_custom_slot = {
 				required = no
@@ -1042,22 +1042,22 @@ equipments = {
 			mid_1_custom_slot = front_1_custom_slot
 			rear_1_custom_slot = front_1_custom_slot
 		}
-		
+
 		module_count_limit = {
 			category = ship_heavy_battery
 			count < 3
 		}
-		
+
 		module_count_limit = {
 			category = ship_medium_battery
 			count < 3
 		}
-		
+
 		module_count_limit = {
 			category = ship_capital_armor
 			count < 3
 		}
-		
+
 		default_modules = {
 			fixed_ship_battery_slot = empty
 			fixed_ship_fire_control_system_slot = empty
@@ -1067,38 +1067,38 @@ equipments = {
 			mid_1_custom_slot = empty
 			rear_1_custom_slot = empty
 		}
-		
+
 		lg_armor_piercing = 0
 		lg_attack = 0
-		
+
 		hg_armor_piercing = 0
 		hg_attack = 0
-		
+
 		torpedo_attack = 0
 		sub_attack = 0
-		
+
 		anti_air_attack = 0
-		
+
 		armor_value = 8
-		
+
 		surface_detection = 14
 		sub_detection = 0
 		surface_visibility = 22
 		naval_speed = 0
 		reliability = 0.8
-		
+
 		naval_range = 3000
-		
+
 		max_strength = 50
 
 		fuel_consumption = 0
-		
+
 		build_cost_ic = 3000
 		resources = {
-			iron = 2
-			steel = 1
+			resource_iron = 2
+			resource_steel = 1
 		}
-		
+
 		manpower = 400
 	}
 	ship_hull_cruiser_0 = {
@@ -1107,7 +1107,7 @@ equipments = {
 		archetype = ship_hull_cruiser
 		priority = 1900
 		
-		
+
 		module_slots = inherit
 	}
 	ship_hull_cruiser_1 = {
@@ -1136,32 +1136,32 @@ equipments = {
 				}
 			}
 		}
-		
+
 		default_modules = {
 			fixed_ship_engine_slot = ship_engine_steam_screw_cruiser_2
 			mid_2_custom_slot = empty
 		}
-		
+
 		armor_value = 9
-		
+
 		surface_detection = 15
 		sub_detection = 0
 		surface_visibility = 22
 		naval_speed = 0
 		reliability = 0.8
-		
+
 		naval_range = 3450
-		
+
 		max_strength = 55
 
 		fuel_consumption = 0
-		
+
 		build_cost_ic = 3500
 		resources = {
-			iron = 3
-			steel = 1
+			resource_iron = 3
+			resource_steel = 1
 		}
-		
+
 		manpower = 450
 	}
 	ship_hull_cruiser_2 = {
@@ -1185,37 +1185,37 @@ equipments = {
 				allowed_module_categories = { ship_anti_air }
 			}
 		}
-		
+
 		default_modules = {
 			fixed_ship_engine_slot = ship_engine_steam_screw_cruiser_2
 			fixed_ship_anti_air_slot = empty
 		}
-		
+
 		module_count_limit = {
 			category = ship_medium_battery
 			count < 4
 		}
-		
+
 		armor_value = 11
-		
+
 		surface_detection = 15
 		sub_detection = 0
 		surface_visibility = 21
 		naval_speed = 0
 		reliability = 0.8
-		
+
 		naval_range = 4050
-		
+
 		max_strength = 65
 
 		fuel_consumption = 0
-		
+
 		build_cost_ic = 4000
 		resources = {
-			iron = 2
-			steel = 2
+			resource_iron = 2
+			resource_steel = 2
 		}
-		
+
 		manpower = 500
 	}
 	ship_hull_cruiser_3 = {
@@ -1251,32 +1251,32 @@ equipments = {
 			fixed_ship_engine_slot = ship_engine_steam_screw_cruiser_2
 			mid_3_custom_slot = empty
 		}
-		
+
 		module_count_limit = {
 			category = ship_heavy_battery
 			count < 4
 		}
-		
+
 		armor_value = 12
-		
+
 		surface_detection = 15
 		sub_detection = 0
 		surface_visibility = 20
 		naval_speed = 0
 		reliability = 0.8
-		
+
 		naval_range = 4800
-		
+
 		max_strength = 70
 
 		fuel_consumption = 0
 		
 		build_cost_ic = 4750
 		resources = {
-			iron = 2
-			steel = 2
+			resource_iron = 2
+			resource_steel = 2
 		}
-		
+
 		manpower = 525
 	}
 	ship_hull_cruiser_4 = {
@@ -1312,37 +1312,37 @@ equipments = {
 		default_modules = {
 			fixed_ship_engine_slot = ship_engine_steam_screw_cruiser_2
 		}
-		
+
 		module_count_limit = {
 			category = ship_capital_armor
 			count < 4
 		}
-		
+
 		module_count_limit = {
 			category = ship_module_seaplane_launcher
 			count < 2
 		}
-		
+
 		armor_value = 14
-		
+
 		surface_detection = 16
 		sub_detection = 0
 		surface_visibility = 20
 		naval_speed = 0
 		reliability = 0.8
-		
+
 		naval_range = 5400
-		
+
 		max_strength = 75
 
 		fuel_consumption = 0
 		
 		build_cost_ic = 5500
 		resources = {
-			iron = 1
-			steel = 3
+			resource_iron = 1
+			resource_steel = 3
 		}
-		
+
 		manpower = 550
 	}
 	ship_hull_cruiser_5 = {
@@ -1378,37 +1378,37 @@ equipments = {
 		default_modules = {
 			fixed_ship_engine_slot = ship_engine_steam_screw_cruiser_2
 		}
-		
+
 		module_count_limit = {
 			category = ship_capital_armor
 			count < 4
 		}
-		
+
 		module_count_limit = {
 			category = ship_module_seaplane_launcher
 			count < 2
 		}
-		
+
 		armor_value = 15
-		
+
 		surface_detection = 18
 		sub_detection = 0
 		surface_visibility = 22
 		naval_speed = 0
 		reliability = 0.8
-		
+
 		naval_range = 5500
-		
+
 		max_strength = 75
 
 		fuel_consumption = 0
-		
+
 		build_cost_ic = 5750
 		resources = {
-			iron = 2
-			steel = 3
+			resource_iron = 2
+			resource_steel = 3
 		}
-		
+
 		manpower = 650
 	}
 	ship_hull_cruiser_6 = {
@@ -1444,39 +1444,39 @@ equipments = {
 		default_modules = {
 			fixed_ship_engine_slot = ship_engine_oil_turbines_cruiser_1
 		}
-		
+
 		module_count_limit = {
 			category = ship_capital_armor
 			count < 4
 		}
-		
+
 		module_count_limit = {
 			category = ship_module_seaplane_launcher
 			count < 2
 		}
-		
+
 		armor_value = 16
-		
+
 		surface_detection = 20
 		sub_detection = 0
 		surface_visibility = 24
 		naval_speed = 0
 		reliability = 0.8
-		
+
 		naval_range = 5650
-		
+
 		max_strength = 80
 
 		fuel_consumption = 0
 		
 		build_cost_ic = 5850
 		resources = {
-			iron = 2
-			steel = 3
+			resource_iron = 2
+			resource_steel = 3
 		}
 		
 		manpower = 675
-	}	
+	}
 	ship_hull_cruiser_7 = {
 		year = 1940
 		visual_level = 0
@@ -1510,39 +1510,39 @@ equipments = {
 		default_modules = {
 			fixed_ship_engine_slot = ship_engine_oil_turbines_cruiser_1
 		}
-		
+
 		module_count_limit = {
 			category = ship_capital_armor
 			count < 4
 		}
-		
+
 		module_count_limit = {
 			category = ship_module_seaplane_launcher
 			count < 2
 		}
-		
+
 		armor_value = 17
-		
+
 		surface_detection = 22
 		sub_detection = 0
 		surface_visibility = 26
 		naval_speed = 0
 		reliability = 0.8
-		
+
 		naval_range = 5800
-		
+
 		max_strength = 85
 
 		fuel_consumption = 0
-		
+
 		build_cost_ic = 6000
 		resources = {
-			iron = 2
-			steel = 3
+			resource_iron = 2
+			resource_steel = 3
 		}
 		
 		manpower = 725
-	}	
+	}
 	ship_hull_cruiser_8 = {
 		year = 1944
 		visual_level = 0
@@ -1576,39 +1576,39 @@ equipments = {
 		default_modules = {
 			fixed_ship_engine_slot = ship_engine_oil_turbines_cruiser_1
 		}
-		
+
 		module_count_limit = {
 			category = ship_capital_armor
 			count < 4
 		}
-		
+
 		module_count_limit = {
 			category = ship_module_seaplane_launcher
 			count < 2
 		}
-		
+
 		armor_value = 18
-		
+
 		surface_detection = 24
 		sub_detection = 0
 		surface_visibility = 28
 		naval_speed = 0
 		reliability = 0.8
-		
+
 		naval_range = 6000
-		
+
 		max_strength = 90
 
 		fuel_consumption = 0
-		
+
 		build_cost_ic = 6100
 		resources = {
-			iron = 2
-			steel = 3
+			resource_iron = 2
+			resource_steel = 3
 		}
 		
 		manpower = 755
-	}	
+	}
 	ship_hull_cruiser_9 = {
 		year = 1950
 		visual_level = 0
@@ -1642,39 +1642,39 @@ equipments = {
 		default_modules = {
 			fixed_ship_engine_slot = ship_engine_oil_turbines_cruiser_1
 		}
-		
+
 		module_count_limit = {
 			category = ship_capital_armor
 			count < 4
 		}
-		
+
 		module_count_limit = {
 			category = ship_module_seaplane_launcher
 			count < 2
 		}
-		
+
 		armor_value = 19
-		
+
 		surface_detection = 26
 		sub_detection = 0
 		surface_visibility = 30
 		naval_speed = 0
 		reliability = 0.8
-		
+
 		naval_range = 6150
-		
+
 		max_strength = 95
 
 		fuel_consumption = 0
-		
+
 		build_cost_ic = 6250
 		resources = {
-			iron = 2
-			steel = 3
+			resource_iron = 2
+			resource_steel = 3
 		}
 		
 		manpower = 775
-	}	
+	}
 	ship_hull_cruiser_10 = {
 		year = 1955
 		visual_level = 0
@@ -1708,37 +1708,37 @@ equipments = {
 		default_modules = {
 			fixed_ship_engine_slot = ship_engine_oil_turbines_cruiser_1
 		}
-		
+
 		module_count_limit = {
 			category = ship_capital_armor
 			count < 4
 		}
-		
+
 		module_count_limit = {
 			category = ship_module_seaplane_launcher
 			count < 2
 		}
-		
+
 		armor_value = 20
-		
+
 		surface_detection = 28
 		sub_detection = 0
 		surface_visibility = 32
 		naval_speed = 0
 		reliability = 0.8
-		
+
 		naval_range = 6350
-		
+
 		max_strength = 95
 
 		fuel_consumption = 0
-		
+
 		build_cost_ic = 6350
 		resources = {
-			iron = 2
-			steel = 3
+			resource_iron = 2
+			resource_steel = 3
 		}
-		
+
 		manpower = 780
 	}
 	ship_hull_cruiser_11 = {
@@ -1774,37 +1774,37 @@ equipments = {
 		default_modules = {
 			fixed_ship_engine_slot = ship_engine_oil_turbines_cruiser_1
 		}
-		
+
 		module_count_limit = {
 			category = ship_capital_armor
 			count < 4
 		}
-		
+
 		module_count_limit = {
 			category = ship_module_seaplane_launcher
 			count < 2
 		}
-		
+
 		armor_value = 21
-		
+
 		surface_detection = 30
 		sub_detection = 0
 		surface_visibility = 34
 		naval_speed = 0
 		reliability = 0.75
-		
+
 		naval_range = 6500
-		
+
 		max_strength = 100
 
 		fuel_consumption = 0
 		
 		build_cost_ic = 6450
 		resources = {
-			iron = 2
-			steel = 3
+			resource_iron = 2
+			resource_steel = 3
 		}
-		
+
 		manpower = 780
 	}
 	ship_hull_cruiser_12 = {
@@ -1840,37 +1840,37 @@ equipments = {
 		default_modules = {
 			fixed_ship_engine_slot = ship_engine_oil_turbines_cruiser_1
 		}
-		
+
 		module_count_limit = {
 			category = ship_capital_armor
 			count < 4
 		}
-		
+
 		module_count_limit = {
 			category = ship_module_seaplane_launcher
 			count < 2
 		}
-		
+
 		armor_value = 23
-		
+
 		surface_detection = 32
 		sub_detection = 0
 		surface_visibility = 35
 		naval_speed = 0
 		reliability = 0.8
-		
+
 		naval_range = 6700
-		
+
 		max_strength = 110
 
 		fuel_consumption = 0
 		
 		build_cost_ic = 6650
 		resources = {
-			iron = 2
-			steel = 3
+			resource_iron = 2
+			resource_steel = 3
 		}
-		
+
 		manpower = 780
 	}
 	ship_hull_cruiser_13 = {
@@ -1906,40 +1906,39 @@ equipments = {
 		default_modules = {
 			fixed_ship_engine_slot = ship_engine_oil_turbines_cruiser_1
 		}
-		
+
 		module_count_limit = {
 			category = ship_capital_armor
 			count < 4
 		}
-		
+
 		module_count_limit = {
 			category = ship_module_seaplane_launcher
 			count < 2
 		}
-		
+
 		armor_value = 24
-		
+
 		surface_detection = 34
 		sub_detection = 0
 		surface_visibility = 36
 		naval_speed = 0
 		reliability = 0.8
-		
+
 		naval_range = 6900
-		
+
 		max_strength = 115
 
 		fuel_consumption = 0
 		
 		build_cost_ic = 6800
 		resources = {
-			iron = 1
-			steel = 3
-			chromium = 1
+			resource_iron = 1
+			resource_steel = 3
 		}
 		
 		manpower = 775
-	}	
+	}
 	ship_hull_cruiser_14 = {
 		year = 1995
 		visual_level = 0
@@ -1973,40 +1972,39 @@ equipments = {
 		default_modules = {
 			fixed_ship_engine_slot = ship_engine_oil_turbines_cruiser_1
 		}
-		
+
 		module_count_limit = {
 			category = ship_capital_armor
 			count < 4
 		}
-		
+
 		module_count_limit = {
 			category = ship_module_seaplane_launcher
 			count < 2
 		}
-		
+
 		armor_value = 25
-		
+
 		surface_detection = 35
 		sub_detection = 0
 		surface_visibility = 36
 		naval_speed = 0
 		reliability = 0.8
-		
+
 		naval_range = 7100
-		
+
 		max_strength = 120
 
 		fuel_consumption = 0
-		
+
 		build_cost_ic = 6950
 		resources = {
-			iron = 1
-			steel = 3
-			chromium = 1
+			resource_iron = 1
+			resource_steel = 3
 		}
 		
 		manpower = 775
-	}		
+	}
 	ship_hull_cruiser_15 = {
 		year = 2000
 		visual_level = 0
@@ -2040,40 +2038,39 @@ equipments = {
 		default_modules = {
 			fixed_ship_engine_slot = ship_engine_oil_turbines_cruiser_1
 		}
-		
+
 		module_count_limit = {
 			category = ship_capital_armor
 			count < 4
 		}
-		
+
 		module_count_limit = {
 			category = ship_module_seaplane_launcher
 			count < 2
 		}
-		
+
 		armor_value = 26
-		
+
 		surface_detection = 36
 		sub_detection = 0
 		surface_visibility = 38
 		naval_speed = 0
 		reliability = 0.8
-		
+
 		naval_range = 7150
-		
+
 		max_strength = 130
 
 		fuel_consumption = 0
-		
+
 		build_cost_ic = 7350
 		resources = {
-			iron = 1
-			steel = 3
-			chromium = 1
+			resource_iron = 1
+			resource_steel = 3
 		}
 		
 		manpower = 750
-	}	
+	}
 	ship_hull_cruiser_16 = {
 		year = 2010
 		visual_level = 0
@@ -2112,35 +2109,34 @@ equipments = {
 			category = ship_capital_armor
 			count < 4
 		}
-		
+
 		module_count_limit = {
 			category = ship_module_seaplane_launcher
 			count < 2
 		}
-		
+
 		armor_value = 27
-		
+
 		surface_detection = 36
 		sub_detection = 0
-		surface_visibility = 38
+surface_visibility = 38
 		naval_speed = 0
 		reliability = 0.8
-		
-		naval_range = 7250
-		
-		max_strength = 135
 
-		fuel_consumption = 0
-		
+		naval_range = 7250
+
+max_strength = 135
+
+fuel_consumption = 0
+
 		build_cost_ic = 7450
 		resources = {
-			iron = 1
-			steel = 3
-			chromium = 1
+	resource_iron = 1
+			resource_steel = 3
 		}
 		
 		manpower = 750
-	}		
+	}
 	ship_hull_cruiser_17 = {
 		year = 2020
 		visual_level = 0
@@ -2179,35 +2175,34 @@ equipments = {
 			category = ship_capital_armor
 			count < 4
 		}
-		
+
 		module_count_limit = {
 			category = ship_module_seaplane_launcher
 			count < 2
 		}
-		
+
 		armor_value = 28
-		
+
 		surface_detection = 36
 		sub_detection = 0
 		surface_visibility = 38
-		naval_speed = 0
+naval_speed = 0
 		reliability = 0.8
-		
+
 		naval_range = 7550
-		
+
 		max_strength = 140
 
 		fuel_consumption = 0
-		
+
 		build_cost_ic = 7550
 		resources = {
-			iron = 1
-			steel = 3
-			chromium = 2
+			resource_iron = 1
+			resource_steel = 3
 		}
 		
 		manpower = 740
-	}	
+	}
 	ship_hull_cruiser_18 = {
 		year = 2030
 		visual_level = 0
@@ -2246,35 +2241,34 @@ equipments = {
 			category = ship_capital_armor
 			count < 4
 		}
-		
+
 		module_count_limit = {
 			category = ship_module_seaplane_launcher
 			count < 2
 		}
-		
+
 		armor_value = 29
-		
+
 		surface_detection = 40
 		sub_detection = 0
 		surface_visibility = 38
 		naval_speed = 0
-		reliability = 0.8
-		
+reliability = 0.8
+
 		naval_range = 7700
-		
+
 		max_strength = 145
 
-		fuel_consumption = 0
-		
-		build_cost_ic = 7650
+fuel_consumption = 0
+
+build_cost_ic = 7650
 		resources = {
-			iron = 1
-			steel = 3
-			chromium = 2
+			resource_iron = 1
+			resource_steel = 3
 		}
 		
 		manpower = 740
-	}	
+	}
 	ship_hull_cruiser_19 = {
 		year = 2040
 		visual_level = 0
@@ -2313,33 +2307,32 @@ equipments = {
 			category = ship_capital_armor
 			count < 4
 		}
-		
+
 		module_count_limit = {
 			category = ship_module_seaplane_launcher
 			count < 2
 		}
-		
+
 		armor_value = 30
-		
+
 		surface_detection = 40
 		sub_detection = 0
 		surface_visibility = 38
 		naval_speed = 0
 		reliability = 0.8
-		
+
 		naval_range = 7900
-		
+
 		max_strength = 145
 
 		fuel_consumption = 0
-		
-		build_cost_ic = 7850
+
+build_cost_ic = 7850
 		resources = {
-			iron = 1
-			steel = 3
-			chromium = 2
+			resource_iron = 1
+			resource_steel = 3
 		}
-		
+
 		manpower = 735
 	}
 	ship_hull_cruiser_20 = {
@@ -2380,33 +2373,32 @@ equipments = {
 			category = ship_capital_armor
 			count < 4
 		}
-		
+
 		module_count_limit = {
 			category = ship_module_seaplane_launcher
 			count < 2
 		}
-		
+
 		armor_value = 31
-		
+
 		surface_detection = 42
 		sub_detection = 0
 		surface_visibility = 38
 		naval_speed = 0
 		reliability = 0.8
-		
+
 		naval_range = 8000
-		
+
 		max_strength = 150
 
 		fuel_consumption = 0
-		
-		build_cost_ic = 8000
+
+build_cost_ic = 8000
 		resources = {
-			iron = 1
-			steel = 3
-			chromium = 2
+			resource_iron = 1
+			resource_steel = 3
 		}
-		
+
 		manpower = 735
 	}
 	
@@ -2435,7 +2427,7 @@ equipments = {
 			}
 			fixed_ship_armor_slot = {
 				required = no
-				allowed_module_categories = { ship_capital_armor }	
+				allowed_module_categories = { ship_capital_armor }
 			}
 			front_1_custom_slot = {
 				required = no
@@ -2449,12 +2441,12 @@ equipments = {
 			mid_2_custom_slot = front_1_custom_slot
 			rear_1_custom_slot = front_1_custom_slot
 		}
-		
+
 		module_count_limit = {
 			category = ship_heavy_battery
 			count < 3
 		}
-		
+
 		default_modules = {
 			fixed_ship_battery_slot = empty
 			fixed_ship_fire_control_system_slot = empty
@@ -2465,38 +2457,38 @@ equipments = {
 			mid_2_custom_slot = empty
 			rear_1_custom_slot = empty
 		}
-		
+
 		lg_armor_piercing = 0
 		lg_attack = 0
-		
+
 		hg_armor_piercing = 0
 		hg_attack = 0
-		
+
 		torpedo_attack = 0
 		sub_attack = 0
-		
+
 		anti_air_attack = 0
-		
+
 		armor_value = 15
-		
+
 		surface_detection = 14
 		sub_detection = 0
-		surface_visibility = 25
+surface_visibility = 25
 		naval_speed = 0
-		reliability = 0.8
-		
+reliability = 0.8
+
 		naval_range = 4200
-		
+
 		max_strength = 90
 
-		fuel_consumption = 0
-		
-		build_cost_ic = 6250
+fuel_consumption = 0
+
+build_cost_ic = 6250
 		resources = {
-			iron = 4
-			steel = 1
+			resource_iron = 4
+			resource_steel = 1
 		}
-		
+
 		manpower = 700
 	}
 	ship_hull_cruiser_battle_0 = {
@@ -2505,7 +2497,7 @@ equipments = {
 		archetype = ship_hull_cruiser_battle
 		priority = 1900
 		
-		
+
 		module_slots = inherit
 	}
 	ship_hull_cruiser_battle_1 = {
@@ -2525,39 +2517,39 @@ equipments = {
 			rear_1_custom_slot = front_1_custom_slot
 			mid_2_custom_slot = front_1_custom_slot
 		}
-		
+
 		default_modules = {
 			fixed_ship_engine_slot = ship_engine_oil_turbines_cruiser_1
 		}
-		
+
 		module_count_limit = {
 			category = ship_heavy_battery
 			count < 4
 		}
-		
+
 		armor_value = 18
-		
+
 		surface_detection = 15
 		sub_detection = 0
 		surface_visibility = 25
 		naval_speed = 0
 		reliability = 0.8
-		
+
 		naval_range = 4800
-		
+
 		max_strength = 100
 
 		fuel_consumption = 0
-		
+
 		build_cost_ic = 6750
 		resources = {
-			iron = 3
-			steel = 2
+			resource_iron = 3
+			resource_steel = 2
 		}
-		
+
 		manpower = 750
 	}
-	
+
 	ship_hull_battleship = {
 		year = 1890
 
@@ -2587,7 +2579,7 @@ equipments = {
 			}
 			fixed_ship_armor_slot = {
 				required = no
-				allowed_module_categories = { ship_capital_armor }	
+				allowed_module_categories = { ship_capital_armor }
 			}
 			front_1_custom_slot = {
 				required = no
@@ -2604,7 +2596,7 @@ equipments = {
 			rear_1_custom_slot = front_1_custom_slot
 			rear_2_custom_slot = front_1_custom_slot
 		}
-		
+
 		default_modules = {
 			fixed_ship_battery_slot = empty
 			fixed_ship_fire_control_system_slot = empty
@@ -2617,54 +2609,54 @@ equipments = {
 			rear_1_custom_slot = empty
 			rear_2_custom_slot = empty
 		}
-		
+
 		lg_armor_piercing = 0
 		lg_attack = 0
-		
+
 		hg_armor_piercing = 0
 		hg_attack = 0
-		
+
 		torpedo_attack = 0
 		sub_attack = 0
-		
+
 		anti_air_attack = 0
-		
+
 		armor_value = 25
-		
+
 		surface_detection = 15
 		sub_detection = 0
 		surface_visibility = 30
 		naval_speed = 0
-		reliability = 0.8
-		
+reliability = 0.8
+
 		naval_range = 6000
-		
+
 		max_strength = 200
 
-		fuel_consumption = 0
-		
-		build_cost_ic = 11000
+fuel_consumption = 0
+
+build_cost_ic = 11000
 		resources = {
-			iron = 3
-			steel = 2
+			resource_iron = 3
+			resource_steel = 2
 		}
-		
+
 		manpower = 900
 	}
-	
+
 	ship_hull_battleship_0 = {
-		year = 1890
+year = 1890
 		visual_level = 0
 		archetype = ship_hull_battleship
 		parent = ship_hull_cruiser_battle_1
 		priority = 1900
 		
-		
+
 		module_slots = inherit
 	}
-	
+
 	ship_hull_dreadnought = {
-		year = 1900
+year = 1900
 
 		is_archetype = yes
 		is_buildable = no
@@ -2672,7 +2664,7 @@ equipments = {
 		interface_category = interface_category_capital_ships
 		alias = dreadnought
 		priority = 1900
-		
+
 		upgrades = {
 			ship_reliability_upgrade
 			ship_engine_upgrade
@@ -2695,7 +2687,7 @@ equipments = {
 			}
 			fixed_ship_armor_slot = {
 				required = no
-				allowed_module_categories = { ship_capital_armor }	
+				allowed_module_categories = { ship_capital_armor }
 			}
 			front_1_custom_slot = {
 				required = no
@@ -2713,7 +2705,7 @@ equipments = {
 			rear_1_custom_slot = front_1_custom_slot
 			rear_2_custom_slot = front_1_custom_slot
 		}
-		
+
 		default_modules = {
 			fixed_ship_battery_slot = empty
 			fixed_ship_fire_control_system_slot = empty
@@ -2726,41 +2718,41 @@ equipments = {
 			rear_1_custom_slot = empty
 			rear_2_custom_slot = empty
 		}
-		
+
 		lg_armor_piercing = 0
 		lg_attack = 0
-		
+
 		hg_armor_piercing = 0
-		hg_attack = 0
-		
+hg_attack = 0
+
 		torpedo_attack = 0
-		sub_attack = 0
-		
+sub_attack = 0
+
 		anti_air_attack = 0
-		
+
 		armor_value = 30
-		
-		surface_detection = 15
+
+surface_detection = 15
 		sub_detection = 0
-		surface_visibility = 50
+surface_visibility = 50
 		naval_speed = 0
-		reliability = 0.8
-		
+reliability = 0.8
+
 		naval_range = 7500
-		
+
 		max_strength = 250
 
-		fuel_consumption = 0
-		
-		build_cost_ic = 13500
+fuel_consumption = 0
+
+build_cost_ic = 13500
 		resources = {
-			steel = 3
-			iron = 2
+			resource_steel = 3
+			resource_iron = 2
 		}
-		
+
 		manpower = 1200
 	}
-	
+
 	ship_hull_dreadnought_0 = {
 		year = 1900
 		visual_level = 0
@@ -2768,8 +2760,8 @@ equipments = {
 		parent = ship_hull_battleship_0
 		
 		priority = 1900
-		
-		
+
+
 		module_slots = inherit
 	}
 	ship_hull_dreadnought_1 = {
@@ -2791,31 +2783,31 @@ equipments = {
 			rear_1_custom_slot = front_1_custom_slot
 			rear_2_custom_slot = front_1_custom_slot
 		}
-		
+
 		default_modules = {
 			fixed_ship_engine_slot = ship_engine_oil_turbines_capital_1
 		}
-		
+
 		armor_value = 35
-		
+
 		surface_detection = 15
 		sub_detection = 0
 		surface_visibility = 48
 		naval_speed = 0
 		reliability = 0.8
-		
+
 		naval_range = 8250
-		
+
 		max_strength = 280
 
-		fuel_consumption = 0
-		
-		build_cost_ic = 14500
+fuel_consumption = 0
+
+build_cost_ic = 14500
 		resources = {
-			steel = 3
-			iron = 3
+			resource_steel = 3
+			resource_iron = 3
 		}
-		
+
 		manpower = 1300
 	}
 	ship_hull_dreadnought_2 = {
@@ -2868,32 +2860,32 @@ equipments = {
 			fixed_ship_engine_slot = ship_engine_oil_turbines_capital_1
 			mid_3_custom_slot = empty
 		}
-		
+
 		armor_value = 38
-		
+
 		surface_detection = 15
 		sub_detection = 0
 		surface_visibility = 46
 		naval_speed = 0
 		reliability = 0.8
-		
+
 		naval_range = 9000
-		
+
 		max_strength = 320
 
 		fuel_consumption = 0
-		
+
 		build_cost_ic = 15750
 		resources = {
-			steel = 4
-			iron = 3
-		}
-		
+			resource_steel = 4
+			resource_iron = 3
+}
+
 		manpower = 1550
 	}
 	ship_hull_dreadnought_3 = {
 		year = 1914
-		visual_level = 0
+visual_level = 0
 		archetype = ship_hull_dreadnought
 		parent = ship_hull_dreadnought_2
 		priority = 1900
@@ -2916,27 +2908,27 @@ equipments = {
 		default_modules = {
 			fixed_ship_engine_slot = ship_engine_oil_turbines_capital_1
 		}
-		
+
 		armor_value = 42
-		
+
 		surface_detection = 15
 		sub_detection = 0
 		surface_visibility = 44
 		naval_speed = 0
-		reliability = 0.8
-		
+reliability = 0.8
+
 		naval_range = 10200
-		
+
 		max_strength = 350
 
-		fuel_consumption = 0
-		
-		build_cost_ic = 17000
+fuel_consumption = 0
+
+build_cost_ic = 17000
 		resources = {
-			steel = 5
-			iron = 2
+			resource_steel = 5
+			resource_iron = 2
 		}
-		
+
 		manpower = 1650
 	}
 	ship_hull_dreadnought_4 = {
@@ -2964,27 +2956,27 @@ equipments = {
 		default_modules = {
 			fixed_ship_engine_slot = ship_engine_oil_turbines_capital_1
 		}
-		
+
 		armor_value = 45
-		
+
 		surface_detection = 15
 		sub_detection = 0
 		surface_visibility = 42
 		naval_speed = 0
 		reliability = 0.8
-		
+
 		naval_range = 11250
-		
+
 		max_strength = 375
 
 		fuel_consumption = 0
-		
+
 		build_cost_ic = 18500
 		resources = {
-			steel = 6
-			iron = 2
+			resource_steel = 6
+			resource_iron = 2
 		}
-		
+
 		manpower = 1800
 	}
 	ship_hull_dreadnought_5 = {
@@ -3017,28 +3009,27 @@ equipments = {
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = ship_engine_oil_turbines_capital_1
 		}
-		
+
 		armor_value = 50
-		
+
 		surface_detection = 15
 		sub_detection = 0
 		surface_visibility = 40
 		naval_speed = 0
 		reliability = 0.8
-		
+
 		naval_range = 12750
-		
+
 		max_strength = 400
 
 		fuel_consumption = 0
-		
+
 		build_cost_ic = 20000
 		resources = {
-			steel = 6
-			iron = 2
-			chromium = 1
+			resource_steel = 6
+			resource_iron = 2
 		}
-		
+
 		manpower = 2000
 	}
 	
@@ -3075,28 +3066,27 @@ equipments = {
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = ship_engine_steam_turbines_capital_1
 		}
-		
+
 		armor_value = 52.5
-		
+
 		surface_detection = 16
 		sub_detection = 0
 		surface_visibility = 42
 		naval_speed = 0
 		reliability = 0.8
-		
+
 		naval_range = 13000
-		
+
 		max_strength = 410
 
 		fuel_consumption = 0
-		
+
 		build_cost_ic = 22000
 		resources = {
-			steel = 6
-			iron = 3
-			chromium = 1
+			resource_steel = 6
+			resource_iron = 3
 		}
-		
+
 		manpower = 2250
 	}
 	ship_hull_battleship_2 = {
@@ -3129,28 +3119,27 @@ equipments = {
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = ship_engine_steam_turbines_capital_1
 		}
-		
+
 		armor_value = 52.5
-		
+
 		surface_detection = 17
 		sub_detection = 0
 		surface_visibility = 43
 		naval_speed = 0
 		reliability = 0.8
-		
+
 		naval_range = 13500
-		
+
 		max_strength = 420
 
 		fuel_consumption = 0
-		
+
 		build_cost_ic = 22500
 		resources = {
-			steel = 6
-			iron = 3
-			chromium = 1
+			resource_steel = 6
+			resource_iron = 3
 		}
-		
+
 		manpower = 2500
 	}
 	ship_hull_battleship_3 = {
@@ -3183,28 +3172,27 @@ equipments = {
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = ship_engine_steam_turbines_capital_1
 		}
-		
+
 		armor_value = 52.5
-		
+
 		surface_detection = 18
 		sub_detection = 0
 		surface_visibility = 44
 		naval_speed = 0
 		reliability = 0.8
-		
+
 		naval_range = 14000
-		
+
 		max_strength = 430
 
 		fuel_consumption = 0
-		
+
 		build_cost_ic = 23000
 		resources = {
-			steel = 6
-			iron = 3
-			chromium = 1
+			resource_steel = 6
+			resource_iron = 3
 		}
-		
+
 		manpower = 2750
 	}
 	ship_hull_battleship_4 = {
@@ -3237,28 +3225,27 @@ equipments = {
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = ship_engine_steam_turbines_capital_1
 		}
-		
+
 		armor_value = 52.5
-		
+
 		surface_detection = 19
 		sub_detection = 0
 		surface_visibility = 45
 		naval_speed = 0
 		reliability = 0.8
-		
+
 		naval_range = 14500
-		
+
 		max_strength = 440
 
 		fuel_consumption = 0
-		
+
 		build_cost_ic = 23500
 		resources = {
-			steel = 6
-			iron = 3
-			chromium = 1
+			resource_steel = 6
+			resource_iron = 3
 		}
-		
+
 		manpower = 3000
 	}
 	ship_hull_battleship_5 = {
@@ -3291,28 +3278,27 @@ equipments = {
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = ship_engine_oil_turbines_capital_1
 		}
-		
+
 		armor_value = 55
-		
+
 		surface_detection = 20
 		sub_detection = 0
 		surface_visibility = 46
 		naval_speed = 0
 		reliability = 0.8
-		
+
 		naval_range = 15200
-		
+
 		max_strength = 450
 
 		fuel_consumption = 0
-		
+
 		build_cost_ic = 24450
 		resources = {
-			steel = 6
-			iron = 3
-			chromium = 2
+			resource_steel = 6
+			resource_iron = 3
 		}
-		
+
 		manpower = 3200
 	}
 	ship_hull_battleship_6 = {
@@ -3345,28 +3331,27 @@ equipments = {
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = ship_engine_oil_turbines_capital_1
 		}
-		
+
 		armor_value = 56
-		
+
 		surface_detection = 21
 		sub_detection = 0
 		surface_visibility = 46
 		naval_speed = 0
 		reliability = 0.8
-		
+
 		naval_range = 16000
-		
+
 		max_strength = 460
 
 		fuel_consumption = 0
-		
+
 		build_cost_ic = 27450
 		resources = {
-			steel = 6
-			iron = 3
-			chromium = 2
+			resource_steel = 6
+			resource_iron = 3
 		}
-		
+
 		manpower = 3375
 	}
 	ship_hull_battleship_7 = {
@@ -3399,30 +3384,29 @@ equipments = {
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = ship_engine_oil_turbines_capital_1
 		}
-		
+
 		armor_value = 58
-		
+
 		surface_detection = 22
 		sub_detection = 0
 		surface_visibility = 46
 		naval_speed = 0
 		reliability = 0.85
-		
+
 		naval_range = 17000
-		
+
 		max_strength = 465
 
 		fuel_consumption = 0
-		
-		build_cost_ic = 30000
+
+build_cost_ic = 30000
 		resources = {
-			steel = 6
-			iron = 3
-			chromium = 2
+			resource_steel = 6
+			resource_iron = 3
 		}
 		
 		manpower = 3415
-	}	
+	}
 	ship_hull_battleship_8 = {
 		year = 2030
 		visual_level = 0
@@ -3448,33 +3432,32 @@ equipments = {
 			rear_1_custom_slot = front_1_custom_slot
 			rear_2_custom_slot = front_1_custom_slot
 		}
-		
+
 		default_modules = {
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = ship_engine_oil_turbines_capital_1
 		}
-		
+
 		armor_value = 60
-		
+
 		surface_detection = 22
 		sub_detection = 0
 		surface_visibility = 46
 		naval_speed = 0
 		reliability = 0.85
-		
+
 		naval_range = 17500
-		
+
 		max_strength = 475
 
 		fuel_consumption = 0
-		
+
 		build_cost_ic = 31000
 		resources = {
-			steel = 6
-			iron = 3
-			chromium = 3
+			resource_steel = 6
+			resource_iron = 3
 		}
-		
+
 		manpower = 3485
 	}
 	ship_hull_battleship_9 = {
@@ -3507,30 +3490,29 @@ equipments = {
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = ship_engine_oil_turbines_capital_1
 		}
-		
+
 		armor_value = 62
-		
+
 		surface_detection = 22
 		sub_detection = 0
 		surface_visibility = 46
 		naval_speed = 0
 		reliability = 0.90
-		
+
 		naval_range = 19000
-		
+
 		max_strength = 490
 
 		fuel_consumption = 0
-		
-		build_cost_ic = 33350
+
+build_cost_ic = 33350
 		resources = {
-			steel = 6
-			iron = 3
-			chromium = 3
+			resource_steel = 6
+			resource_iron = 3
 		}
 		
 		manpower = 3200
-	}	
+	}
 	ship_hull_battleship_10 = {
 		year = 2045
 		visual_level = 0
@@ -3556,35 +3538,34 @@ equipments = {
 			rear_1_custom_slot = front_1_custom_slot
 			rear_2_custom_slot = front_1_custom_slot
 		}
-		
+
 		default_modules = {
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = ship_engine_oil_turbines_capital_1
 		}
-		
+
 		armor_value = 62
-		
+
 		surface_detection = 22
 		sub_detection = 0
 		surface_visibility = 46
 		naval_speed = 0
 		reliability = 0.90
-		
+
 		naval_range = 19000
-		
+
 		max_strength = 490
 
 		fuel_consumption = 0
-		
-		build_cost_ic = 33350
+
+build_cost_ic = 33350
 		resources = {
-			steel = 6
-			iron = 3
-			chromium = 3
+			resource_steel = 6
+			resource_iron = 3
 		}
 		
 		manpower = 3200
-	}	
+	}
 	ship_hull_battleship_11 = {
 		year = 2045
 		visual_level = 0
@@ -3610,39 +3591,38 @@ equipments = {
 			rear_1_custom_slot = front_1_custom_slot
 			rear_2_custom_slot = front_1_custom_slot
 		}
-		
+
 		default_modules = {
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = ship_engine_oil_turbines_capital_1
 		}
-		
+
 		armor_value = 62
-		
+
 		surface_detection = 22
 		sub_detection = 0
 		surface_visibility = 46
 		naval_speed = 0
 		reliability = 0.90
-		
+
 		naval_range = 19000
-		
+
 		max_strength = 490
 
 		fuel_consumption = 0
-		
-		build_cost_ic = 33350
+
+build_cost_ic = 33350
 		resources = {
-			steel = 6
-			iron = 3
-			chromium = 3
+			resource_steel = 6
+			resource_iron = 3
 		}
-		
+
 		manpower = 3200
-	}	
+	}
 
 	ship_hull_primitive_sailing_boat = {
 		year = 1800
-		
+
 		is_archetype = yes
 		is_buildable = no
 		type = capital_ship
@@ -3669,7 +3649,7 @@ equipments = {
 			mid_2_custom_slot = mid_1_custom_slot
 			mid_3_custom_slot = mid_1_custom_slot
 		}
-		
+
 		default_modules = {
 			fixed_ship_battery_slot = empty
 			fixed_ship_engine_slot = ship_engine_primitive_sails_0
@@ -3677,51 +3657,51 @@ equipments = {
 			mid_2_custom_slot = empty
 			mid_3_custom_slot = empty
 		}
-		
+
 		lg_armor_piercing = 0
 		lg_attack = 0
-		
+
 		hg_armor_piercing = 0
 		hg_attack = 0
-		
+
 		torpedo_attack = 0
 		sub_attack = 0
-		
+
 		anti_air_attack = 0
-		
+
 		armor_value = 0
-		
+
 		surface_detection = 15
 		sub_detection = 0
 		surface_visibility = 25
 		naval_speed = 0
 		reliability = 0.7
-		
+
 		naval_range = 600
-		
+
 		max_strength = 2
 
 		fuel_consumption = 0
-		
+
 		build_cost_ic = 400
 		resources = {
 			wood = 1
 		}
-		
+
 		manpower = 40
 	}
 	ship_hull_primitive_sailing_boat_0 = {
 		year = 1800
-		visual_level = 0
+visual_level = 0
 		archetype = ship_hull_primitive_sailing_boat
 		priority = 1900
-		
-		
+
+
 		module_slots = inherit
 	}
 	ship_hull_primitive_sailing_boat_1 = {
-		year = 1800
-		visual_level = 0
+year = 1800
+visual_level = 0
 		archetype = ship_hull_primitive_sailing_boat
 		parent = ship_hull_primitive_sailing_boat_0
 		priority = 1900
@@ -3733,30 +3713,30 @@ equipments = {
 			mid_2_custom_slot = mid_1_custom_slot
 			mid_3_custom_slot = mid_1_custom_slot
 		}
-		
+
 		default_modules = {
 			fixed_ship_engine_slot = ship_engine_primitive_sails_0
 		}
-		
+
 		armor_value = 0
-		
+
 		surface_detection = 15
 		sub_detection = 0
 		surface_visibility = 25
 		naval_speed = 0
 		reliability = 0.75
-		
+
 		naval_range = 900
-		
+
 		max_strength = 3
 
 		fuel_consumption = 0
-		
+
 		build_cost_ic = 450
 		resources = {
 			wood = 1
 		}
-		
+
 		manpower = 45
 	}
 	ship_hull_primitive_sailing_boat_2 = {
@@ -3783,30 +3763,30 @@ equipments = {
 			mid_2_custom_slot = mid_1_custom_slot
 			mid_3_custom_slot = mid_1_custom_slot
 		}
-		
+
 		default_modules = {
 			fixed_ship_engine_slot = ship_engine_primitive_sails_0
 		}
-		
+
 		armor_value = 0
-		
+
 		surface_detection = 15
 		sub_detection = 0
 		surface_visibility = 25
 		naval_speed = 0
 		reliability = 0.8
-		
+
 		naval_range = 1200
-		
+
 		max_strength = 4
 
 		fuel_consumption = 0
-		
-		build_cost_ic = 500
+
+build_cost_ic = 500
 		resources = {
 			wood = 1
 		}
-		
+
 		manpower = 50
 	}
 	

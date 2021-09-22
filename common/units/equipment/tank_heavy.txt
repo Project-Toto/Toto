@@ -39,14 +39,13 @@ equipments = {
 		#Space taken in convoy
 		lend_lease_cost = 14
 		
-		build_cost_ic = 25 
+		build_cost_ic = 25
 		resources = {
 			#oil = 1
-			steel = 2
+			resource_steel = 2
 			machine_parts = 1
-			chromium = 3
 		}
-		
+
 		fuel_consumption = 4.4
 	}
 
@@ -54,7 +53,7 @@ equipments = {
 	heavy_tank_equipment_1 = {
 		year = 1934
 
-		archetype = heavy_tank_equipment		
+		archetype = heavy_tank_equipment
 		priority = 90
 		visual_level = 0
 		is_convertable = yes
@@ -83,12 +82,11 @@ equipments = {
 		hard_attack = 30
 		ap_attack = 111
 		
-		build_cost_ic = 27 
+		build_cost_ic = 27
 		resources = {
 #			oil = 1
-			steel = 2
+			resource_steel = 2
 			machine_parts = 1
-			chromium = 3
 		}
 	}
 
@@ -118,9 +116,8 @@ equipments = {
 		build_cost_ic = 30
 		resources = {
 			#oil = 1
-			steel = 2
+			resource_steel = 2
 			machine_parts = 2
-			chromium = 3
 		}
 	}
 
@@ -129,7 +126,7 @@ equipments = {
 
 		is_archetype = yes
 		is_convertable = yes
-		picture = archetype_heavy_tank_equipment		
+		picture = archetype_heavy_tank_equipment
 		is_buildable = no
 		family = heavy_tank_equipment
 		type = {
@@ -139,7 +136,7 @@ equipments = {
 		group_by = archetype
 		
 		interface_category = interface_category_armor
-		
+
 		upgrades = {
 			tank_reliability_upgrade
 			tank_engine_upgrade
@@ -166,9 +163,8 @@ equipments = {
 		build_cost_ic = 25
 		resources = {
 			#oil = 1
-			steel = 2
+			resource_steel = 2
 			machine_parts = 1
-			chromium = 3
 		}
 		fuel_consumption = 2.2
 	}
@@ -178,8 +174,8 @@ equipments = {
 
 		archetype = heavy_tank_artillery_equipment
 		family = heavy_tank_equipment_1
-		can_convert_from = { 
-			heavy_tank_equipment_1 
+		can_convert_from = {
+			heavy_tank_equipment_1
 		}
 		priority = 100
 		visual_level = 0
@@ -191,8 +187,8 @@ equipments = {
 		archetype = heavy_tank_artillery_equipment
 		parent = heavy_tank_artillery_equipment_1
 		family = heavy_tank_equipment_2
-		can_convert_from = { 
-			heavy_tank_equipment_1 
+		can_convert_from = {
+			heavy_tank_equipment_1
 			heavy_tank_equipment_2
 		}
 		priority = 100
@@ -206,16 +202,15 @@ equipments = {
 		breakthrough = 3
 		armor_value = 68
 
-		#Offensive Abilities 
+		#Offensive Abilities
 		soft_attack = 74
 		hard_attack = 2
 		
 		build_cost_ic = 27
 		resources = {
 			#oil = 1
-			steel = 2
+			resource_steel = 2
 			machine_parts = 2
-			chromium = 3
 		}
 	}
 
@@ -225,7 +220,7 @@ equipments = {
 		archetype = heavy_tank_artillery_equipment
 		parent = heavy_tank_artillery_equipment_2
 		family = heavy_tank_equipment_3
-		can_convert_from = { 
+		can_convert_from = {
 			heavy_tank_equipment_2
 			heavy_tank_equipment_3
 		}
@@ -247,9 +242,8 @@ equipments = {
 		build_cost_ic = 30
 		resources = {
 			#oil = 1
-			steel = 3
+			resource_steel = 3
 			machine_parts = 2
-			chromium = 3
 		}
 	}
 
@@ -258,7 +252,7 @@ equipments = {
 
 		is_archetype = yes
 		is_convertable = yes
-		picture = archetype_heavy_tank_equipment		
+		picture = archetype_heavy_tank_equipment
 		is_buildable = no
 		family = heavy_tank_equipment
 		type = {
@@ -295,9 +289,8 @@ equipments = {
 		build_cost_ic = 25
 		resources = {
 			#oil = 1
-			steel = 2
+			resource_steel = 2
 			machine_parts = 1
-			chromium = 3
 		}
 		fuel_consumption = 2.2
 	}
@@ -307,8 +300,8 @@ equipments = {
 
 		archetype = heavy_tank_destroyer_equipment
 		family = heavy_tank_equipment_1
-		can_convert_from = { 
-			heavy_tank_equipment_1 
+		can_convert_from = {
+			heavy_tank_equipment_1
 		}
 		priority = 120
 		visual_level = 0
@@ -320,7 +313,7 @@ equipments = {
 		archetype = heavy_tank_destroyer_equipment
 		parent = heavy_tank_destroyer_equipment_1
 		family = heavy_tank_equipment_2
-		can_convert_from = { 
+		can_convert_from = {
 			heavy_tank_equipment_1
 			heavy_tank_equipment_2
 		}
@@ -344,9 +337,8 @@ equipments = {
 		build_cost_ic = 27
 		resources = {
 			#oil = 1
-			steel = 2
+			resource_steel = 2
 			machine_parts = 2
-			chromium = 3
 		}
 	}
 
@@ -356,7 +348,7 @@ equipments = {
 		archetype = heavy_tank_destroyer_equipment
 		parent = heavy_tank_destroyer_equipment_2
 		family = heavy_tank_equipment_3
-		can_convert_from = { 
+		can_convert_from = {
 			heavy_tank_equipment_2
 			heavy_tank_equipment_3
 		}
@@ -380,9 +372,8 @@ equipments = {
 		build_cost_ic = 30
 		resources = {
 			#oil = 2
-			steel = 2
+			resource_steel = 2
 			machine_parts = 2
-			chromium = 4
 		}
 	}
 
@@ -391,7 +382,7 @@ equipments = {
 
 		is_archetype = yes
 		is_convertable = yes
-		picture = archetype_heavy_tank_equipment		
+		picture = archetype_heavy_tank_equipment
 		is_buildable = no
 		family = heavy_tank_equipment
 		type = {
@@ -428,9 +419,8 @@ equipments = {
 		build_cost_ic = 25
 		resources = {
 			#oil = 1
-			steel = 2
+			resource_steel = 2
 			machine_parts = 1
-			chromium = 3
 		}
 		fuel_consumption = 1.1
 	}
@@ -440,7 +430,7 @@ equipments = {
 
 		archetype = heavy_tank_aa_equipment
 		family = heavy_tank_equipment_1
-		can_convert_from = { 
+		can_convert_from = {
 			heavy_tank_equipment_1
 		}
 		priority = 110
@@ -453,7 +443,7 @@ equipments = {
 		archetype = heavy_tank_aa_equipment
 		parent = heavy_tank_aa_equipment_1
 		family = heavy_tank_equipment_2
-		can_convert_from = { 
+		can_convert_from = {
 			heavy_tank_equipment_1
 			heavy_tank_equipment_2
 		}
@@ -477,9 +467,8 @@ equipments = {
 		build_cost_ic = 27
 		resources = {
 			#oil = 1
-			steel = 2
+			resource_steel = 2
 			machine_parts = 1
-			chromium = 3
 		}
 	}
 
@@ -489,7 +478,7 @@ equipments = {
 		archetype = heavy_tank_aa_equipment
 		parent = heavy_tank_aa_equipment_2
 		family = heavy_tank_equipment_3
-		can_convert_from = { 
+		can_convert_from = {
 			heavy_tank_equipment_2
 			heavy_tank_equipment_3
 		}
@@ -515,9 +504,8 @@ equipments = {
 		build_cost_ic = 30
 		resources = {
 			#oil = 1
-			steel = 2
+			resource_steel = 2
 			machine_parts = 2
-			chromium = 3
 		}
 		
 	}

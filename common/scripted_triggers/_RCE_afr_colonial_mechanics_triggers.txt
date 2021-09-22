@@ -4,11 +4,9 @@ afr_is_colony_trigger = {
 			TAG = SNG
 			TAG = GBS
 			TAG = EPD
-			TAG = CCH
 			TAG = NAT
 			TAG = SAF
 			TAG = GDC
-			TAG = INS
 		}
 }
 

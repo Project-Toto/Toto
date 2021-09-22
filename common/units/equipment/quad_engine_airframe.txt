@@ -1,11 +1,11 @@
 equipments = {
-	
+
 	strat_bomber_equipment = {
 		year = 1933
 
 		is_archetype = yes
 		is_convertable = yes
-		picture = archetype_strat_bomber_equipment			
+		picture = archetype_strat_bomber_equipment
 		is_buildable = no
 		type = strategic_bomber
 		group_by = archetype
@@ -16,7 +16,7 @@ equipments = {
 		
 		# Strategic bomber
 		interface_overview_category_index = 5
-		
+
 		upgrades = {
 			plane_bomb_upgrade
 			plane_range_upgrade
@@ -39,14 +39,14 @@ equipments = {
 			#oil = 1
 			machine_parts = 1
 			aluminium = 3
-			rubber = 2
+			resource_rubber = 2
 		}
 		
 		manpower = 80
 		fuel_consumption = 0.8
 	}
 
-	
+
 	# Basic strat_bomber
 	strat_bomber_equipment_1 = {
 		year = 1936
@@ -83,7 +83,7 @@ equipments = {
 		resources = {
 			#oil = 1
 			aluminium = 4
-			rubber = 2
+			resource_rubber = 2
 		}
 	}
 	
@@ -106,7 +106,7 @@ equipments = {
 		resources = {
 			#oil = 1
 			aluminium = 5
-			rubber = 2
+			resource_rubber = 2
 		}
 	}
 
@@ -116,7 +116,7 @@ equipments = {
 
 		is_archetype = yes
 		is_convertable = yes
-		picture = archetype_strat_bomber_equipment			
+		picture = archetype_strat_bomber_equipment
 		type = air_transport
 		group_by = archetype
 		sprite = medium_plane
@@ -127,7 +127,7 @@ equipments = {
 		
 		# Transport
 		interface_overview_category_index = 6
-		
+
 		air_superiority = 0
 		reliability = 0.8
 
@@ -137,7 +137,7 @@ equipments = {
 		
 		build_cost_ic = 180
 		
-		
+
 		manpower = 80
 		fuel_consumption = 0
 	}
@@ -160,7 +160,7 @@ equipments = {
 			fabric = 2
 		}
 	}
-	
+
 	transport_plane_equipment_2 = {
 		year = 1933
 
@@ -177,7 +177,7 @@ equipments = {
 			machine_parts = 1
 			#oil = 1
 			aluminium = 3
-			rubber = 2
+			resource_rubber = 2
 		}
 	}
 }

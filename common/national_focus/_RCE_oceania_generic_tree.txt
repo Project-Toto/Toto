@@ -2883,8 +2883,6 @@ focus_tree = {
 				set_technology = { tech_humanities_mercantilism = 1 }
 			}
 			hidden_effect = {
-				add_opinion_modifier = { target = INS modifier = eoanb_om_africa_trade_focus }
-				reverse_add_opinion_modifier = { target = INS modifier = eoanb_om_africa_trade_focus }
 				add_opinion_modifier = { target = HOL modifier = eoanb_om_africa_trade_focus }
 				reverse_add_opinion_modifier = { target = HOL modifier = eoanb_om_africa_trade_focus }
 			}
@@ -2903,7 +2901,6 @@ focus_tree = {
 				swap_ideas = { remove_idea = BUN_dutch_east_indies_tribute add_idea = BUN_dutch_east_indies_tribute_1 }
 			}
 			custom_effect_tooltip = Oceania_generic_pursue_dutch_cooperation_tooltip
-			INS = { country_event = { id = oceania_trading_partner.3 } }
 			HOL = { country_event = { id = oceania_trading_partner.3 } }
 			custom_effect_tooltip = afr_colonial_effect_tooltip
 			capital_scope = {
@@ -3140,25 +3137,6 @@ focus_tree = {
 			custom_effect_tooltip = afr_colonial_effect_tooltip
 			capital_scope = {
 				DCI_increase_by_6 = yes
-			}
-			INS = {
-				if = {
-					limit = {
-						OR = {
-							has_dlc = "Together for Victory"
-							has_dlc = "Waking the Tiger"
-							has_dlc = "Death or Dishonor"
-						}
-					}
-					set_autonomy = {
-						target = ROOT
-						autonomous_state = autonomy_protectorate
-						freedom_level = 0.1
-					}
-				}
-				else = {
-					puppet = ROOT
-				}
 			}
 		}
 		allow_branch = {
@@ -4290,135 +4268,6 @@ focus_tree = {
 		}
 	}
 
-
-	focus = {
-		id = Oceania_generic_trade_with_japan
-		icon = GFX_focus_jap_pacific_guardian
-		cost = 75
-		prerequisite = {
-			focus = Oceania_generic_limited_trade
-		}
-		x = 24
-		y = 3
-		completion_reward = {
-			hidden_effect = {
-				add_opinion_modifier = { target = TSH modifier = eoanb_om_africa_trade_focus }
-				reverse_add_opinion_modifier = { target = TSH modifier = eoanb_om_africa_trade_focus }
-			}
-			custom_effect_tooltip = Oceania_merchant_adopted_tsh
-			TSH = {
-				add_political_power = 50
-			}
-		}
-		allow_branch = {
-			NOT = { TAG = RYU }
-		}
-	}
-
-	focus = {
-		id = Oceania_generic_trade_with_ryukyu
-		icon = GFX_focus_jap_spiritual_mobilization
-		cost = 75
-		available = {
-			RYU = { has_country_flag = Oceania_ryukyuan_trade_expanded_flag }
-		}
-		prerequisite = {
-			focus = Oceania_generic_limited_trade
-			focus = Oceania_generic_open_trading_post
-		}
-		x = 23
-		y = 4
-		completion_reward = {
-			hidden_effect = {
-				add_opinion_modifier = { target = RYU modifier = eoanb_om_africa_trade_focus }
-				reverse_add_opinion_modifier = { target = RYU modifier = eoanb_om_africa_trade_focus }
-			}
-			custom_effect_tooltip = Oceania_merchant_adopted_ryu
-			RYU = {
-				country_event = { id = RYU_open_trade.1 }
-			}
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 10
-				date > 1858.1.1
-			}
-			modifier = {
-				factor = 1000
-				RYU = {
-					has_idea = RYU_ryukyu_treaty
-				}
-			}
-		}
-		allow_branch = {
-			NOT = { TAG = RYU }
-		}
-	}
-
-	focus = {
-		id = Oceania_generic_establish_ryukyuan_trade
-		icon = GFX_focus_jap_spiritual_mobilization
-		cost = 75
-		prerequisite = {
-			focus = Oceania_generic_limited_trade
-			focus = Oceania_generic_open_trading_post
-		}
-		x = 23
-		y = 4
-		completion_reward = {
-			custom_effect_tooltip = Oceania_establish_ryukyuan_trade_tooltip
-			set_country_flag = Oceania_ryukyuan_trade_expanded_flag
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 10
-				date > 1857.1.1
-			}
-			modifier = {
-				factor = 1000
-				RYU = {
-					has_idea = RYU_ryukyu_treaty
-				}
-			}
-		}
-		allow_branch = {
-			TAG = RYU
-		}
-	}
-
-	focus = {
-		id = Oceania_generic_trade_with_korea
-		icon = GFX_focus_chi_examination_yuan
-		cost = 75
-		prerequisite = {
-			focus = Oceania_generic_limited_trade
-			focus = Oceania_generic_open_trading_post
-		}
-		x = 25
-		y = 4
-		completion_reward = {
-			hidden_effect = {
-				add_opinion_modifier = { target = KOR modifier = eoanb_om_africa_trade_focus }
-				reverse_add_opinion_modifier = { target = KOR modifier = eoanb_om_africa_trade_focus }
-			}
-			custom_effect_tooltip = Oceania_merchant_adopted_kor
-			KOR = {
-				add_political_power = 25
-			}
-		}
-		allow_branch = {
-			always = yes
-		}
-	}
-
-
-
-
-
-
-
 	focus = {
 		id = Oceania_generic_western_oriented_kingdom
 		icon = GFX_goal_focus_continent_west_europe
@@ -5002,38 +4851,6 @@ focus_tree = {
 	}
 
 	focus = {
-		id = Oceania_generic_eastern_oriented_kingdom
-		icon = GFX_focus_continent_asia
-		cost = 75
-		available = {
-			OR = {
-				custom_trigger_tooltip = {
-					tooltip = Oceania_generic_eastern_oriented_kingdom_tooltip
-					OR = {
-						has_country_flag = Oceania_generic_qing_merchants
-						has_country_flag = Oceania_generic_ottoman_merchants
-					}
-				}
-				custom_trigger_tooltip = {
-					tooltip = Oceania_generic_inward_oriented_kingdom_tooltip
-					has_country_flag = Oceania_generic_pursue_isolationist_policy
-				}
-			}
-		}
-		x = 10
-		y = 10
-		mutually_exclusive = {
-			focus = Oceania_generic_western_oriented_kingdom
-		}
-		completion_reward = {
-
-		}
-		allow_branch = {
-
-		}
-	}
-
-	focus = {
 		id = Oceania_generic_traditional_domestic_policies
 		icon = GFX_focus_chi_legislative_yuan
 		cost = 75
@@ -5061,9 +4878,6 @@ focus_tree = {
 			#	value = 200
 			#}
 			add_stability = 0.05
-		}
-		allow_branch = {
-
 		}
 	}
 
@@ -6166,10 +5980,6 @@ focus_tree = {
 			always = yes
 		}
 	}
-
-
-
-
 
 	focus = {
 		id = Oceania_generic_reorganize_military

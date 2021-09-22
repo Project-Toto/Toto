@@ -5,7 +5,7 @@ ETH_unite_ethiopia_category = {
 		
 		available = {
 			has_stability > 0.6
-			num_owned_controlled_states > 10
+			num_of_controlled_states > 10
 		}
 		
 		allowed = { 

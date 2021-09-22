@@ -4,11 +4,11 @@ equipments = {
 
 	amphibious_tank_equipment = {
 		year = 1934
-	
+
 		is_archetype = yes
 		is_buildable = no
 		is_convertable = yes
-		picture = archetype_amphibious_tank_equipment			
+		picture = archetype_amphibious_tank_equipment
 		type = armor
 		group_by = archetype
 		
@@ -42,7 +42,7 @@ equipments = {
 		
 		build_cost_ic = 10
 		resources = {
-			steel = 2
+			resource_steel = 2
 		}
 
 		fuel_consumption = 4
@@ -55,7 +55,7 @@ equipments = {
 		priority = 10
 		visual_level = 0
 		is_convertable = yes
-		can_convert_from = { 
+		can_convert_from = {
 			light_tank_equipment_2
 		}
 	}
@@ -68,8 +68,8 @@ equipments = {
 		priority = 10
 		visual_level = 1
 		is_convertable = yes
-		can_convert_from = { 
-			medium_tank_equipment_1 
+		can_convert_from = {
+			medium_tank_equipment_1
 		}
 
 		#Misc Abilities
@@ -85,12 +85,12 @@ equipments = {
 		soft_attack = 19
 		hard_attack = 14
 		ap_attack = 61
-		air_attack = 0	
+		air_attack = 0
 		
 		build_cost_ic = 13
 		resources = {
-			steel = 2
-			tungsten = 2
+			resource_steel = 2
+			resource_tungsten = 2
 		}
 	}
 	amphibious_tank_equipment_3 = {
@@ -101,7 +101,7 @@ equipments = {
 		priority = 10
 		visual_level = 1
 		is_convertable = yes
-		can_convert_from = { 
+		can_convert_from = {
 			medium_tank_equipment_2
 		}
 
@@ -118,12 +118,12 @@ equipments = {
 		soft_attack = 21
 		hard_attack = 17
 		ap_attack = 68
-		air_attack = 0	
+		air_attack = 0
 		
 		build_cost_ic = 15
 		resources = {
-			steel = 2
-			tungsten = 2
+			resource_steel = 2
+			resource_tungsten = 2
 		}
 	}
 }

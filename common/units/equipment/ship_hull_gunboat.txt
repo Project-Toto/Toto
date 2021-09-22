@@ -9,7 +9,7 @@ equipments = {
 		interface_category = interface_category_capital_ships
 		alias = gunboat
 		priority = 1900
-		
+
 		upgrades = {
 			ship_reliability_upgrade
 			ship_engine_upgrade
@@ -36,7 +36,7 @@ equipments = {
 			}
 			fixed_ship_armor_slot = {
 				required = no
-				allowed_module_categories = { ship_capital_armor }	
+				allowed_module_categories = { ship_capital_armor }
 			}
 			mid_1_custom_slot = {
 				required = no
@@ -56,7 +56,7 @@ equipments = {
 			category = ship_heavy_battery
 			count < 3
 		}
-		
+
 		default_modules = {
 			fixed_ship_battery_slot = ship_cannon_battery_1
 			fixed_ship_fire_control_system_slot = ship_fire_control_system
@@ -67,18 +67,18 @@ equipments = {
 			mid_2_custom_slot = empty
 			rear_1_custom_slot = empty
 		}
-		
+
 		lg_armor_piercing = 0
 		lg_attack = 0
-		
+
 		hg_armor_piercing = 0
 		hg_attack = 0
-		
+
 		torpedo_attack = 0
 		sub_attack = 0
-		
+
 		anti_air_attack = 0
-		
+
 		armor_value = 0
 
 		
@@ -87,20 +87,20 @@ equipments = {
 		surface_visibility = 18
 		naval_speed = 0
 		reliability = 0.7
-		
+
 		naval_range = 1200
-		
-		max_strength = 40		
-		
+
+		max_strength = 40
+
 
 		fuel_consumption = 0
 		
 		build_cost_ic = 2000
 		resources = {
 			wood = 1
-			iron = 3
+			resource_iron = 3
 		}
-		
+
 		manpower = 300
 	}
 
@@ -109,10 +109,10 @@ equipments = {
 		visual_level = 0
 		archetype = ship_hull_gunboat
 		priority = 1900
-		
-		
+
+
 		module_slots = inherit
-		
+
 		default_modules = {
 			front_1_custom_slot = empty
 			fixed_ship_engine_slot = ship_engine_paddle_gunboat
@@ -143,30 +143,30 @@ equipments = {
 			category = ship_heavy_battery
 			count < 3
 		}
-		
+
 		default_modules = {
 			front_1_custom_slot = empty
 			fixed_ship_engine_slot = ship_engine_paddle_gunboat
 		}
-		
+
 		armor_value = 1
 
 		naval_speed = 0
 		reliability = 0.75
 		
 		naval_range = 1425
-		
-		max_strength = 45	
-		
+
+		max_strength = 45
+
 		build_cost_ic = 2300
 		resources = {
 			wood = 1
-			iron = 4
+			resource_iron = 4
 		}
-		
+
 		manpower = 325
 	}
-	
+
 	ship_hull_gunboat_2 = {
 		year = 1860
 		visual_level = 0
@@ -186,34 +186,34 @@ equipments = {
 			rear_1_custom_slot = mid_1_custom_slot
 			front_1_custom_slot = mid_1_custom_slot
 		}
-		
+
 		module_count_limit = {
 			category = ship_heavy_battery
 			count < 3
 		}
-		
+
 		default_modules = {
 			fixed_ship_engine_slot = ship_engine_steam_screw_gunboat
 		}
-		
+
 		armor_value = 2
 
 		naval_speed = 0
 		reliability = 0.75
 		
 		naval_range = 1575
-		
-		max_strength = 50	
-		
+
+		max_strength = 50
+
 		build_cost_ic = 2500
 		resources = {
 			wood = 1
-			iron = 4
+			resource_iron = 4
 		}
-		
+
 		manpower = 375
 	}
-	
+
 	ship_hull_gunboat_3 = {
 		year = 1868
 		visual_level = 0
@@ -233,16 +233,16 @@ equipments = {
 			rear_1_custom_slot = mid_1_custom_slot
 			front_1_custom_slot = mid_1_custom_slot
 		}
-		
+
 		module_count_limit = {
 			category = ship_heavy_battery
 			count < 3
 		}
-		
+
 		default_modules = {
 			fixed_ship_engine_slot = ship_engine_steam_screw_gunboat_2
 		}
-		
+
 		armor_value = 4
 
 		surface_detection = 14
@@ -251,16 +251,16 @@ equipments = {
 		reliability = 0.75
 		
 		naval_range = 1800
-		
-		max_strength = 60	
-		
+
+		max_strength = 60
+
 		build_cost_ic = 2800
 		resources = {
 			wood = 1
-			iron = 3
-			steel = 1
+			resource_iron = 3
+			resource_steel = 1
 		}
-		
+
 		manpower = 400
 	}
 	
@@ -283,34 +283,34 @@ equipments = {
 			rear_1_custom_slot = mid_1_custom_slot
 			front_1_custom_slot = mid_1_custom_slot
 		}
-		
+
 		module_count_limit = {
 			category = ship_heavy_battery
 			count < 3
 		}
-		
+
 		default_modules = {
 			fixed_ship_engine_slot = ship_engine_steam_turbines_gunboat_1
 		}
-		
+
 		armor_value = 5
 
 		naval_speed = 0
 		reliability = 0.75
-		
+
 		naval_range = 1950
-		
-		max_strength = 65	
-		
+
+		max_strength = 65
+
 		fuel_consumption = 0
-		
+
 		build_cost_ic = 3000
 		resources = {
 			wood = 1
-			iron = 3
-			steel = 1
+			resource_iron = 3
+			resource_steel = 1
 		}
-		
+
 		manpower = 425
 	}
 	
@@ -333,36 +333,36 @@ equipments = {
 			rear_1_custom_slot = mid_1_custom_slot
 			front_1_custom_slot = mid_1_custom_slot
 		}
-		
+
 		module_count_limit = {
 			category = ship_heavy_battery
 			count < 3
 		}
-		
+
 		default_modules = {
 			fixed_ship_engine_slot = ship_engine_steam_turbines_gunboat_2
 		}
-		
+
 		armor_value = 7
 
 		surface_detection = 15
 		surface_visibility = 17
 		naval_speed = 0
 		reliability = 0.8
-		
+
 		naval_range = 2100
-		
-		max_strength = 75	
-		
+
+		max_strength = 75
+
 		fuel_consumption = 0
-		
+
 		build_cost_ic = 3500
 		resources = {
 			wood = 1
-			iron = 2
-			steel = 2
+			resource_iron = 2
+			resource_steel = 2
 		}
-		
+
 		manpower = 500
 	}
 	
@@ -390,27 +390,27 @@ equipments = {
 			category = ship_heavy_battery
 			count < 3
 		}
-		
+
 		default_modules = {
 			fixed_ship_engine_slot = ship_engine_oil_turbines_gunboat_1
 		}
-		
+
 		armor_value = 8
 
 		naval_speed = 0
 		reliability = 0.8
-		
+
 		naval_range = 2250
-		
-		max_strength = 80	
-		
+
+		max_strength = 80
+
 		build_cost_ic = 3800
 		resources = {
 			wood = 1
-			iron = 2
-			steel = 2
+			resource_iron = 2
+			resource_steel = 2
 		}
-		
+
 		manpower = 550
 	}
 	
@@ -454,23 +454,23 @@ equipments = {
 		surface_visibility = 16
 		naval_speed = 0
 		reliability = 0.8
-		
+
 		naval_range = 2550
-		
+
 		max_strength = 90
-		
+
 		fuel_consumption = 0
-		
+
 		build_cost_ic = 4200
 		resources = {
 			wood = 0
-			iron = 2
-			steel = 3
+			resource_iron = 2
+			resource_steel = 3
 		}
-		
+
 		manpower = 600
 	}
-	
+
 	ship_hull_gunboat_8 = {
 		year = 1935
 		visual_level = 0
@@ -514,17 +514,17 @@ equipments = {
 		max_strength = 95
 		
 		fuel_consumption = 0
-		
+
 		build_cost_ic = 4600
 		resources = {
 			wood = 0
-			iron = 2
-			steel = 3
+			resource_iron = 2
+			resource_steel = 3
 		}
-		
+
 		manpower = 600
 	}
-	
+
 	ship_hull_gunboat_9 = {
 		year = 1950
 		visual_level = 0
@@ -564,18 +564,18 @@ equipments = {
 		reliability = 0.8
 		
 		naval_range = 2950
-		
+
 		max_strength = 100
-		
+
 		fuel_consumption = 0
-		
+
 		build_cost_ic = 5000
 		resources = {
 			wood = 0
-			iron = 2
-			steel = 3
+			resource_iron = 2
+			resource_steel = 3
 		}
-		
+
 		manpower = 600
 	}
 	ship_hull_gunboat_10 = {
@@ -617,18 +617,18 @@ equipments = {
 		reliability = 0.8
 		
 		naval_range = 3150
-		
+
 		max_strength = 110
-		
+
 		fuel_consumption = 0
-		
+
 		build_cost_ic = 5400
 		resources = {
 			wood = 0
-			iron = 2
-			steel = 3
+			resource_iron = 2
+			resource_steel = 3
 		}
-		
+
 		manpower = 600
 	}
 
@@ -671,18 +671,18 @@ equipments = {
 		reliability = 0.8
 		
 		naval_range = 3250
-		
+
 		max_strength = 110
-		
+
 		fuel_consumption = 0
-		
+
 		build_cost_ic = 5500
 		resources = {
 			wood = 0
-			iron = 2
-			steel = 3
+			resource_iron = 2
+			resource_steel = 3
 		}
-		
+
 		manpower = 600
 	}
 	ship_hull_gunboat_12 = {
@@ -726,16 +726,16 @@ equipments = {
 		naval_range = 3500
 		
 		max_strength = 110
-		
+
 		fuel_consumption = 0
-		
+
 		build_cost_ic = 5750
 		resources = {
 			wood = 1
-			iron = 2
-			steel = 3
+			resource_iron = 2
+			resource_steel = 3
 		}
-		
+
 		manpower = 650
 	}
 
@@ -780,16 +780,16 @@ equipments = {
 		naval_range = 3500
 		
 		max_strength = 110
-		
+
 		fuel_consumption = 0
-		
+
 		build_cost_ic = 5500
 		resources = {
 			wood = 1
-			iron = 2
-			steel = 3
+			resource_iron = 2
+			resource_steel = 3
 		}
-		
+
 		manpower = 700
 	}
 	ship_hull_gunboat_14 = {
@@ -839,10 +839,10 @@ equipments = {
 		build_cost_ic = 5750
 		resources = {
 			wood = 1
-			iron = 2
-			steel = 3
+			resource_iron = 2
+			resource_steel = 3
 		}
-		
+
 		manpower = 750
 	}
 	ship_hull_gunboat_15 = {
@@ -882,20 +882,20 @@ equipments = {
 		surface_visibility = 21
 		naval_speed = 0
 		reliability = 0.8
-		
+
 		naval_range = 3500
-		
+
 		max_strength = 110
-		
+
 		fuel_consumption = 0
-		
+
 		build_cost_ic = 5900
 		resources = {
 			wood = 1
-			iron = 2
-			steel = 3
+			resource_iron = 2
+			resource_steel = 3
 		}
-		
+
 		manpower = 800
 	}
 	ship_hull_gunboat_16 = {
@@ -937,18 +937,18 @@ equipments = {
 		reliability = 0.8
 		
 		naval_range = 3500
-		
+
 		max_strength = 110
-		
+
 		fuel_consumption = 0
-		
+
 		build_cost_ic = 6000
 		resources = {
 			wood = 1
-			iron = 2
-			steel = 3
+			resource_iron = 2
+			resource_steel = 3
 		}
-		
+
 		manpower = 850
 	}
 	ship_hull_gunboat_17 = {
@@ -981,27 +981,27 @@ equipments = {
 			fixed_ship_engine_slot = ship_engine_fusion_gunboat_1
 			fixed_ship_anti_air_slot = empty
 		}
-		
+
 		armor_value = 12
 
 		surface_detection = 22.5
 		surface_visibility = 22.5
 		naval_speed = 0
 		reliability = 0.8
-		
+
 		naval_range = 3500
-		
+
 		max_strength = 110
-		
+
 		fuel_consumption = 0
-		
+
 		build_cost_ic = 6000
 		resources = {
 			wood = 1
-			iron = 2
-			steel = 3
+			resource_iron = 2
+			resource_steel = 3
 		}
-		
+
 		manpower = 900
 	}
 	##non-mtg gunboat
@@ -1023,37 +1023,37 @@ equipments = {
 		
 		lg_armor_piercing = 0
 		lg_attack = 0
-		
+
 		hg_armor_piercing = 0
 		hg_attack = 0
-		
+
 		torpedo_attack = 0
 		sub_attack = 0
-		
+
 		anti_air_attack = 0
-		
+
 		armor_value = 0
 
-		
+
 		surface_detection = 12
 		sub_detection = 0
 		surface_visibility = 18
 		naval_speed = 0
 		reliability = 0.7
-		
+
 		naval_range = 1200
-		
-		max_strength = 40		
-		
+
+		max_strength = 40
+
 
 		fuel_consumption = 0
-		
+
 		build_cost_ic = 2000
 		resources = {
 			wood = 1
-			iron = 3
+			resource_iron = 3
 		}
-		
+
 		manpower = 300
 	}
 	ship_gunboat_1 = {
@@ -1075,37 +1075,37 @@ equipments = {
 		
 		lg_armor_piercing = 0
 		lg_attack = 0
-		
+
 		hg_armor_piercing = 0
 		hg_attack = 0
-		
+
 		torpedo_attack = 0
 		sub_attack = 0
-		
+
 		anti_air_attack = 0
-		
+
 		armor_value = 0
 
-		
+
 		surface_detection = 12
 		sub_detection = 0
 		surface_visibility = 18
 		naval_speed = 0
 		reliability = 0.7
-		
+
 		naval_range = 1200
-		
-		max_strength = 40		
-		
+
+		max_strength = 40
+
 
 		fuel_consumption = 0
-		
+
 		build_cost_ic = 2000
 		resources = {
 			wood = 1
-			iron = 3
+			resource_iron = 3
 		}
-		
+
 		manpower = 300
 	}
 	ship_gunboat_2 = {
@@ -1127,37 +1127,37 @@ equipments = {
 		
 		lg_armor_piercing = 0
 		lg_attack = 0
-		
+
 		hg_armor_piercing = 0
 		hg_attack = 0
-		
+
 		torpedo_attack = 0
 		sub_attack = 0
-		
+
 		anti_air_attack = 0
-		
+
 		armor_value = 0
 
-		
+
 		surface_detection = 12
 		sub_detection = 0
 		surface_visibility = 18
 		naval_speed = 0
 		reliability = 0.7
-		
+
 		naval_range = 1200
-		
-		max_strength = 40		
-		
+
+		max_strength = 40
+
 
 		fuel_consumption = 0
-		
+
 		build_cost_ic = 2000
 		resources = {
 			wood = 1
-			iron = 3
+			resource_iron = 3
 		}
-		
+
 		manpower = 300
 	}
 	ship_gunboat_3 = {
@@ -1179,37 +1179,37 @@ equipments = {
 		
 		lg_armor_piercing = 0
 		lg_attack = 0
-		
+
 		hg_armor_piercing = 0
 		hg_attack = 0
-		
+
 		torpedo_attack = 0
 		sub_attack = 0
-		
+
 		anti_air_attack = 0
-		
+
 		armor_value = 0
 
-		
+
 		surface_detection = 12
 		sub_detection = 0
 		surface_visibility = 18
 		naval_speed = 0
 		reliability = 0.7
-		
+
 		naval_range = 1200
-		
-		max_strength = 40		
-		
+
+		max_strength = 40
+
 
 		fuel_consumption = 0
-		
+
 		build_cost_ic = 2000
 		resources = {
 			wood = 1
-			iron = 3
+			resource_iron = 3
 		}
-		
+
 		manpower = 300
 	}
 	ship_gunboat_4 = {
@@ -1231,37 +1231,37 @@ equipments = {
 		
 		lg_armor_piercing = 0
 		lg_attack = 0
-		
+
 		hg_armor_piercing = 0
 		hg_attack = 0
-		
+
 		torpedo_attack = 0
 		sub_attack = 0
-		
+
 		anti_air_attack = 0
-		
+
 		armor_value = 0
 
-		
+
 		surface_detection = 12
 		sub_detection = 0
 		surface_visibility = 18
 		naval_speed = 0
 		reliability = 0.7
-		
+
 		naval_range = 1200
-		
-		max_strength = 40		
-		
+
+		max_strength = 40
+
 
 		fuel_consumption = 0
-		
+
 		build_cost_ic = 2000
 		resources = {
 			wood = 1
-			iron = 3
+			resource_iron = 3
 		}
-		
+
 		manpower = 300
 	}
 	ship_gunboat_5 = {
@@ -1283,37 +1283,37 @@ equipments = {
 		
 		lg_armor_piercing = 0
 		lg_attack = 0
-		
+
 		hg_armor_piercing = 0
 		hg_attack = 0
-		
+
 		torpedo_attack = 0
 		sub_attack = 0
-		
+
 		anti_air_attack = 0
-		
+
 		armor_value = 0
 
-		
+
 		surface_detection = 12
 		sub_detection = 0
 		surface_visibility = 18
 		naval_speed = 0
 		reliability = 0.7
-		
+
 		naval_range = 1200
-		
-		max_strength = 40		
-		
+
+		max_strength = 40
+
 
 		fuel_consumption = 0
-		
+
 		build_cost_ic = 2000
 		resources = {
 			wood = 1
-			iron = 3
+			resource_iron = 3
 		}
-		
+
 		manpower = 300
 	}
 	ship_gunboat_6 = {
@@ -1335,37 +1335,37 @@ equipments = {
 		
 		lg_armor_piercing = 0
 		lg_attack = 0
-		
+
 		hg_armor_piercing = 0
 		hg_attack = 0
-		
+
 		torpedo_attack = 0
 		sub_attack = 0
-		
+
 		anti_air_attack = 0
-		
+
 		armor_value = 0
 
-		
+
 		surface_detection = 12
 		sub_detection = 0
 		surface_visibility = 18
 		naval_speed = 0
 		reliability = 0.7
-		
+
 		naval_range = 1200
-		
-		max_strength = 40		
-		
+
+		max_strength = 40
+
 
 		fuel_consumption = 0
-		
+
 		build_cost_ic = 2000
 		resources = {
 			wood = 1
-			iron = 3
+			resource_iron = 3
 		}
-		
+
 		manpower = 300
 	}
 	ship_gunboat_7 = {
@@ -1384,38 +1384,38 @@ equipments = {
 			mid_2_custom_slot = ship_light_battery_2
 			rear_1_custom_slot = empty
 		}
-		
+
 		lg_armor_piercing = 0
 		lg_attack = 0
-		
+
 		hg_armor_piercing = 0
 		hg_attack = 0
-		
+
 		torpedo_attack = 0
 		sub_attack = 0
-		
+
 		anti_air_attack = 0
-		
+
 		armor_value = 0
 
-		
+
 		surface_detection = 12
 		sub_detection = 0
 		surface_visibility = 18
 		naval_speed = 0
 		reliability = 0.7
-		
+
 		naval_range = 1200
-		
-		max_strength = 40		
-		
+
+		max_strength = 40
+
 
 		fuel_consumption = 0
-		
+
 		build_cost_ic = 2000
 		resources = {
 			wood = 1
-			iron = 3
+			resource_iron = 3
 		}
 		
 		manpower = 300
@@ -1436,40 +1436,40 @@ equipments = {
 			mid_2_custom_slot = ship_light_battery_3
 			rear_1_custom_slot = empty
 		}
-		
+
 		lg_armor_piercing = 0
 		lg_attack = 0
-		
+
 		hg_armor_piercing = 0
 		hg_attack = 0
-		
+
 		torpedo_attack = 0
 		sub_attack = 0
-		
+
 		anti_air_attack = 0
-		
+
 		armor_value = 0
 
-		
+
 		surface_detection = 12
 		sub_detection = 0
 		surface_visibility = 18
 		naval_speed = 0
 		reliability = 0.7
-		
+
 		naval_range = 1200
-		
-		max_strength = 40		
-		
+
+		max_strength = 40
+
 
 		fuel_consumption = 0
-		
+
 		build_cost_ic = 2000
 		resources = {
 			wood = 1
-			iron = 3
+			resource_iron = 3
 		}
-		
+
 		manpower = 300
 	}
 }

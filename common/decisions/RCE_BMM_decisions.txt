@@ -62,7 +62,7 @@ eoanb_category_politics_internal = {
 					desc = "POLITICS_GEORGE_V_DESC"
 					picture = "gfx/leaders/Africa/generic_leader_king_2.dds"
 					expire = "1910.1.1"
-					ideology = islamist
+					ideology = fundamentalism_islamist
 					traits = { BMM_likes_germany }
 				}
 			}
@@ -73,7 +73,7 @@ eoanb_category_politics_internal = {
 					desc = "POLITICS_GEORGE_V_DESC"
 					picture = "gfx/leaders/Africa/generic_leader_king_2.dds"
 					expire = "1910.1.1"
-					ideology = fascism
+					ideology = imperialism_absolutism
 					traits = { BMM_likes_germany }
 				}
 			}

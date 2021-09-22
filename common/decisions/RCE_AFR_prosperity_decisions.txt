@@ -334,8 +334,7 @@ afr_islamic_renaissance = {
 				}
 				set_state_flag = AFR_islamic_frontier_ribat
 			}
-			}
-			r = {
+			random_owned_state = {
 				add_building_construction = {
 					type = infrastructure
 					level = 1
@@ -353,7 +352,6 @@ afr_islamic_renaissance = {
 				}
 			}
 		}
-
 	}
 
 	SKT_TUG_build_ribats = {

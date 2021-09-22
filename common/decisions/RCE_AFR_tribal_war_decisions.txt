@@ -2412,7 +2412,7 @@ unidustrialized_warfare = {
 				is_first_nations_tribe_allowed = yes
 				is_south_american_tribe_allowed = yes
 			}
-			has_idea = AF_T_Tribal_Army
+			# has_idea = AF_T_Tribal_Army
 		}
 		visible = {
 			OR = {
