@@ -1,0 +1,162 @@
+
+SPR_debt_management_category = {
+
+
+	eoanb_decision_debt_repayments = {
+		icon = money
+		available = {
+			has_idea = egy_vic_debt
+		}
+
+		visible = {
+			has_idea = egy_vic_debt
+			check_variable = {ROOT.debt_level > 0}
+			NOT = { has_country_flag = paying_debt }
+			NOT = { has_country_flag = debt_declared_bankruptcy_flag }
+		}
+
+		fire_only_once = no
+
+		#cost = 25
+		complete_effect = {
+			custom_effect_tooltip = EGY_afr_decrease_debt_1
+			hidden_effect = {
+				if = {
+					limit = { NOT = { has_country_flag = paying_debt } }
+					set_country_flag = paying_debt
+					activate_mission = SPR_paying_debt_decision
+					country_event = { id = calc_spain_debt.1 days = 1 }
+					add_ideas = egy_vic_debt_payments
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 1
+			#modifier = {
+			#	factor = 0
+			#	NOT = { check_variable = {ROOT.debt_level > 8} }
+			#	num_of_civilian_factories < 2
+			#}
+		}
+	}
+
+	eoanb_decision_debt_repayments_done = {
+		icon = money
+		visible = { always = no }
+		fire_only_once = no
+		complete_effect = {
+			hidden_effect = {
+				if = {
+					limit = { has_country_flag = paying_debt }
+					clr_country_flag = paying_debt
+				}
+				if = {
+					limit = { has_idea = egy_vic_debt_payments }
+					remove_ideas = egy_vic_debt_payments
+				}
+			}
+			if = {
+				limit = { check_variable = { debt_level < 1 } }
+				if = {
+					limit = { has_idea = egy_vic_debt }
+					remove_ideas = egy_vic_debt
+				}
+			}
+			country_event = { id = egy_debt_system.11 }
+		}
+	}
+
+	LIB_US_invests_to_pay_debt_decision = {
+		icon = money
+		allowed = { tag = LIB }
+		available = {
+			hidden_trigger = { always = no }
+		}
+
+		cancel_trigger = {
+			custom_trigger_tooltip = {
+				tooltip = LIB_US_invests_to_pay_debt_decision_trigger
+				OR = {
+					NOT = { has_country_flag = USA_LIB_investment_flag }
+					USA = { exists = no }
+				}
+			}
+		}
+
+		activation = {
+			has_idea = egy_vic_debt
+			check_variable = {ROOT.debt_level > 0}
+			hidden_trigger = {
+				has_country_flag = USA_LIB_investment_flag
+				OR = {
+					USA = { exists = yes }
+					any_other_country = { has_country_flag = LIB_investment_flag }
+				}
+				NOT = { has_country_flag = debt_declared_bankruptcy_flag }
+			}
+		}
+
+		is_good = yes
+		selectable_mission = yes
+		custom_cost_trigger = { always = yes }
+		custom_cost_text = LIB_US_invests_to_pay_debt_decision_custom_cost
+		days_mission_timeout = 180
+
+		timeout_effect = {
+			if = {
+				limit = { has_country_flag = USA_assist_lib_debt }
+				#custom_effect_tooltip = EGY_afr_decrease_debt_3
+				hidden_effect = {
+					subtract_from_variable = {var = debt_level value = 3}
+				}
+			}
+			else = {
+				#custom_effect_tooltip = EGY_afr_decrease_debt_2
+				hidden_effect = {
+					subtract_from_variable = {var = debt_level value = 2}
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+	debt_colonial_profits_decision = {
+		icon = money
+		allowed = { always = yes }
+		available = {
+			hidden_trigger = { always = no }
+		}
+		days_mission_timeout = 360
+		activation = {
+			has_variable = total_colonial_profits
+		}
+		cancel_trigger = {
+			hidden_trigger = { NOT = { has_variable = total_colonial_profits } }
+			hidden_trigger = { NOT = { has_variable = debt_level } }
+			hidden_trigger = { has_country_flag = debt_declared_bankruptcy_flag }
+		}
+		selectable_mission = yes
+		custom_cost_trigger = { always = yes }
+		custom_cost_text = debt_colonial_profits_decision_custom_cost
+		is_good = yes
+		timeout_effect = {
+			hidden_effect = {
+				subtract_from_variable = {var = debt_level value = total_colonial_profits }
+				activate_decision = debt_colonial_profits_decision
+				clamp_variable = {
+					var = debt_level
+					min = 0
+					max = 100
+				}
+			}
+		}
+		ai_will_do = {
+			base = 0
+		}
+	}
+}
+

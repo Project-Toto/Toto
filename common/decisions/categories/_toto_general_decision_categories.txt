@@ -1,0 +1,10 @@
+#### Generic Decisions Categories ####
+
+SPR_debt_management_category = {
+	icon = generic_political_actions
+	
+	visible = {
+		has_idea = egy_vic_debt
+		check_variable = { debt_level > 0 }
+	}
+}
