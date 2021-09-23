@@ -4,6 +4,11 @@ state={
 	provinces={
 		57 199 238 658 792 1406 1838 2022 2242 2424 2652 5710 
 	}
-	manpower=0
+	impassable = yes
+	history={
+		owner = ASS
+	}
+	manpower=1
 	buildings_max_level_factor=1.000
+	state_category=town
 }

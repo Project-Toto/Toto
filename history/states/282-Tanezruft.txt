@@ -4,6 +4,11 @@ state={
 	provinces={
 		50 101 132 310 366 430 448 546 780 918 1281 1868 2262 2483 2754 4974 5303 6688 8076 8108 8144 8151 8168 
 	}
-	manpower=0
+	impassable = yes
+	history={
+		owner = KAG
+	}
+	manpower=1
 	buildings_max_level_factor=1.000
+	state_category=town
 }

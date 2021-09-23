@@ -220,14 +220,15 @@
  TGN_DEF:0 "Tagant"
  TGN_ADJ:0 "Tagant"
 
- TAG:0 "Name"
- TAG_DEF:0 "Name"
- TAG_ADJ:0 "Nameadj"
+ MZA:0 "Mzab"
+ MZA_DEF:0 "Mzab"
+ MZA_ADJ:0 "Mzabite"
 
- TAG:0 "Name"
- TAG_DEF:0 "Name"
- TAG_ADJ:0 "Nameadj"
+ BAB:0 "Beni Abbas"
+ BAB_DEF:0 "Beni Abbas"
+ BAB_ADJ:0 "Beni Abbas"
 
- TAG:0 "Name"
- TAG_DEF:0 "Name"
- TAG_ADJ:0 "Nameadj"
+ TUA:0 "Tuat"
+ TUA_DEF:0 "Tuat"
+ TUA_ADJ:0 "Tuat"
+

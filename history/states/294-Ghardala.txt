@@ -5,6 +5,10 @@ state={
 	provinces={
 		434 2166 2473 3748 7865 7873 7900 7943 
 	}
-	manpower=0
+	history={
+		owner = MZA
+	}
+	manpower=1
 	buildings_max_level_factor=1.000
+	state_category=town
 }

@@ -5,6 +5,10 @@ state={
 	provinces={
 		1864 2791 3774 8028 
 	}
-	manpower=0
+	history={
+		owner = ASS
+	}
+	manpower=1
 	buildings_max_level_factor=1.000
+	state_category=town
 }

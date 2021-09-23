@@ -4,6 +4,10 @@ state={
 	provinces={
 		90 312 317 363 418 3113 7851 
 	}
-	manpower=0
+	history={
+		owner = ALG
+	}
+	manpower=1
 	buildings_max_level_factor=1.000
+	state_category=town
 }

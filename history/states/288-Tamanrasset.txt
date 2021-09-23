@@ -4,6 +4,10 @@ state={
 	provinces={
 		220 2989 3258 8193 
 	}
-	manpower=0
+	history={
+		owner = KAG
+	}
+	manpower=1
 	buildings_max_level_factor=1.000
+	state_category=town
 }

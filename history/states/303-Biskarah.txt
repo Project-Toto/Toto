@@ -4,6 +4,10 @@ state={
 	provinces={
 		599 609 630 1545 2258 2851 2971 3346 3488 4494 4838 4874 5250 5938 6213 6807 7695 7705 7712 7724 7730 7741 7746 7758 7769 
 	}
-	manpower=0
+	history={
+		owner = ALG
+	}
+	manpower=1
 	buildings_max_level_factor=1.000
+	state_category=town
 }
