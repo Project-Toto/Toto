@@ -28,20 +28,20 @@
 # Upper Middle East
 	# graphical_culture = middle_eastern_gfx
 	# graphical_culture_2d = middle_eastern_2d
- KUR = "countries/Kurdistan.txt"
- ABN = "countries/Arabistan.txt"
+ KLT = "countries/Balouchistan.txt"
  PER = "countries/Persia.txt"
+ ABN = "countries/Arabistan.txt"
+ KUR = "countries/Kurdistan.txt"
+ TUR = "countries/Turkey.txt"
  IRQ = "countries/Iraq.txt"
+ ASY = "countries/Assyria.txt"
  SYR = "countries/Syria.txt"
  LEB = "countries/Lebanon.txt"
  PAL = "countries/Palestine.txt"
  JOR = "countries/Jordan.txt"
- KUW = "countries/Kuwait.txt"
- KLT = "countries/Balouchistan.txt"
- ASY = "countries/Assyria.txt"
  ERZ = "countries/Israel.txt"
- TUR = "countries/Turkey.txt"
 # Arabia
+ KUW = "countries/Kuwait.txt"
  HIL = "countries/Ha'il.txt"
  BHR = "countries/Bahrain.txt"
  QTR = "countries/Qatar.txt"

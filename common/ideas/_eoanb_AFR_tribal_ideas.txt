@@ -1560,7 +1560,6 @@ ideas = {
 				global_building_slots_factor = -999
 				foreign_subversive_activites = -999
 				enemy_justify_war_goal_time = 999
-				autocracy_drift = 100
 				resistance_growth = -100
 			}
 		}

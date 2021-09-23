@@ -5,7 +5,7 @@ state={
 		24 375 1804 2036 2395 2713 7141 8126 
 	}
 	history={
-		owner = KAG
+		owner = ASS
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

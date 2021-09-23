@@ -16,7 +16,7 @@ ideas = {
 				always = yes
 			}
 			removal_cost = -1
-			
+
 			picture = OTO_young_ottoman_constitution_signed
 
 			modifier = {
@@ -25,7 +25,7 @@ ideas = {
 	}
 	country = {
 		OTO_sick_man = {
-			
+
 			allowed = {
 				tag = OTO
 			}
@@ -37,13 +37,13 @@ ideas = {
 			removal_cost = -1
 
 			picture = OTO_sick_man
-			
+
 			modifier = {
 				stability_factor = -0.025
 			}
 		}
 		OTO_sick_man_2 = {
-			
+
 			allowed = {
 				tag = OTO
 			}
@@ -55,13 +55,13 @@ ideas = {
 			removal_cost = -1
 
 			picture = OTO_sick_man
-			
+
 			modifier = {
 				stability_factor = -0.05
 			}
 		}
 		OTO_sick_man_3 = {
-			
+
 			allowed = {
 				tag = OTO
 			}
@@ -73,13 +73,13 @@ ideas = {
 			removal_cost = -1
 
 			picture = OTO_sick_man
-			
+
 			modifier = {
 				stability_factor = -0.075
 			}
 		}
 		OTO_sick_man_4 = {
-			
+
 			allowed = {
 				tag = OTO
 			}
@@ -91,14 +91,14 @@ ideas = {
 			removal_cost = -1
 
 			picture = OTO_sick_man
-			
+
 			modifier = {
 				political_power_factor = 0.1
 				stability_factor = -0.1
 			}
 		}
 		OTO_sick_man_5 = {
-			
+
 			allowed = {
 				tag = OTO
 			}
@@ -110,13 +110,13 @@ ideas = {
 			removal_cost = -1
 
 			picture = OTO_sick_man
-			
+
 			modifier = {
 				stability_factor = -0.15
 			}
 		}
 		OTO_sick_man_6 = {
-			
+
 			allowed = {
 				tag = OTO
 			}
@@ -128,13 +128,13 @@ ideas = {
 			removal_cost = -1
 
 			picture = OTO_sick_man
-			
+
 			modifier = {
 				stability_factor = -0.20
 			}
 		}
 		OTO_1858_land_code = {
-			
+
 			allowed = {
 				tag = OTO
 			}
@@ -146,7 +146,7 @@ ideas = {
 			removal_cost = -1
 
 			picture = OTO_tanzimat_reform
-			
+
 			modifier = {
 				political_power_gain = 0.3
 				stability_factor = -0.15
@@ -154,7 +154,7 @@ ideas = {
 			}
 		}
 		OTO_crimean_war_debt = {
-			
+
 			allowed = {
 				TAG = OTO
 			}
@@ -166,9 +166,9 @@ ideas = {
 			removal_cost = -1
 
 			picture = OTO_crimean_war_debt
-			
+
 			modifier = {
-				consumer_goods_factor = 0.1 
+				consumer_goods_factor = 0.1
 				political_power_gain = -1.0
 				stability_factor = -0.1
 				war_support_factor = -0.4
@@ -177,7 +177,7 @@ ideas = {
 			}
 		}
 		OTO_crimean_war_debt_spend_1 = {
-			
+
 			allowed = {
 				TAG = OTO
 			}
@@ -189,7 +189,7 @@ ideas = {
 			removal_cost = -1
 
 			picture = OTO_crimean_war_debt
-			
+
 			modifier = {
 				consumer_goods_factor = 0.15
 				political_power_gain = -1.5
@@ -199,7 +199,7 @@ ideas = {
 			}
 		}
 		OTO_crimean_war_debt_spend_2 = {
-			
+
 			allowed = {
 				TAG = OTO
 			}
@@ -211,7 +211,7 @@ ideas = {
 			removal_cost = -1
 
 			picture = OTO_crimean_war_debt
-			
+
 			modifier = {
 				consumer_goods_factor = 0.075
 				political_power_gain = -1.0
@@ -221,7 +221,7 @@ ideas = {
 			}
 		}
 		OTO_crimean_war_debt_spend_3 = {
-			
+
 			allowed = {
 				TAG = OTO
 			}
@@ -233,7 +233,7 @@ ideas = {
 			removal_cost = -1
 
 			picture = OTO_crimean_war_debt
-			
+
 			modifier = {
 				consumer_goods_factor = 0.075
 				political_power_gain = -0.3
@@ -242,7 +242,7 @@ ideas = {
 			}
 		}
 		OTO_crimean_war_debt_save_1 = {
-			
+
 			allowed = {
 				TAG = OTO
 			}
@@ -254,7 +254,7 @@ ideas = {
 			removal_cost = -1
 
 			picture = OTO_crimean_war_debt
-			
+
 			modifier = {
 				consumer_goods_factor = 0.20
 				political_power_gain = -0.5
@@ -264,7 +264,7 @@ ideas = {
 			}
 		}
 		OTO_crimean_war_debt_save_2 = {
-			
+
 			allowed = {
 				TAG = OTO
 			}
@@ -276,7 +276,7 @@ ideas = {
 			removal_cost = -1
 
 			picture = OTO_crimean_war_debt
-			
+
 			modifier = {
 				consumer_goods_factor = 0.10
 				political_power_gain = -0.5
@@ -286,7 +286,7 @@ ideas = {
 			}
 		}
 		tatar_migrant_crisis = {
-			
+
 			allowed = {
 				OR = {
 						tag = OTO
@@ -301,14 +301,14 @@ ideas = {
 			removal_cost = -1
 
 			picture = tatar_migrant_crisis
-			
+
 			modifier = {
 				political_power_gain = -0.1
 				stability_factor = -0.2
 			}
 		}
 		OTO_tanzimat_reform_start = {
-			
+
 			allowed = {
 				tag = OTO
 			}
@@ -320,17 +320,17 @@ ideas = {
 			removal_cost = -1
 
 			picture = OTO_tanzimat_reform
-			
+
 			modifier = {
 				political_power_gain = 0.1
-				centrism_drift = 0.01
-				traditional_conservatism_drift = 0.01
+				reformism_drift = 0.01
+				traditionalism_drift = 0.01
 				stability_factor = -0.10
 				research_speed_factor = -0.02
 			}
 		}
 		OTO_tanzimat_reform = {
-			
+
 			allowed = {
 				tag = OTO
 			}
@@ -342,17 +342,17 @@ ideas = {
 			removal_cost = -1
 
 			picture = OTO_tanzimat_reform
-			
+
 			modifier = {
 				political_power_gain = 0.2
-				centrism_drift = 0.01
-				traditional_conservatism_drift = 0.01
+				reformism_drift = 0.01
+				traditionalism_drift = 0.01
 				stability_factor = -0.15
 				research_speed_factor = -0.02
 			}
 		}
 		OTO_tanzimat_reform_1 = {
-			
+
 			allowed = {
 				tag = OTO
 			}
@@ -364,17 +364,17 @@ ideas = {
 			removal_cost = -1
 
 			picture = OTO_tanzimat_reform
-			
+
 			modifier = {
 				political_power_gain = 0.2
-				centrism_drift = 0.01
-				traditional_conservatism_drift = 0.01
+				reformism_drift = 0.01
+				traditionalism_drift = 0.01
 				stability_factor = -0.10
 				research_speed_factor = -0.02
 			}
 		}
 		OTO_tanzimat_reform_2 = {
-			
+
 			allowed = {
 				tag = OTO
 			}
@@ -386,17 +386,17 @@ ideas = {
 			removal_cost = -1
 
 			picture = OTO_tanzimat_reform
-			
+
 			modifier = {
 				political_power_gain = 0.2
-				centrism_drift = 0.01
-				traditional_conservatism_drift = 0.01
+				reformism_drift = 0.01
+				traditionalism_drift = 0.01
 				stability_factor = -0.10
 				research_speed_factor = 0.03
 			}
 		}
 		OTO_tanzimat_reform_refuted = {
-			
+
 			allowed = {
 				tag = OTO
 			}
@@ -408,7 +408,7 @@ ideas = {
 			removal_cost = -1
 
 			picture = OTO_tanzimat_reform
-			
+
 			modifier = {
 				political_power_gain = -0.1
 				stability_factor = -0.15
@@ -416,7 +416,7 @@ ideas = {
 			}
 		}
 		OTO_tanzimat_reform_refuted_2 = {
-			
+
 			allowed = {
 				tag = OTO
 			}
@@ -428,7 +428,7 @@ ideas = {
 			removal_cost = -1
 
 			picture = OTO_tanzimat_reform
-			
+
 			modifier = {
 				political_power_gain = -0.05
 				stability_factor = -0.10
@@ -436,7 +436,7 @@ ideas = {
 			}
 		}
 		OTO_tanzimat_reform_refuted_3 = {
-			
+
 			allowed = {
 				tag = OTO
 			}
@@ -448,14 +448,14 @@ ideas = {
 			removal_cost = -1
 
 			picture = OTO_tanzimat_reform
-			
+
 			modifier = {
 				stability_factor = -0.05
 				research_speed_factor = -0.05
 			}
 		}
 		OTO_vic_universal_printing = {
-			
+
 			allowed = {
 				tag = OTO
 			}
@@ -467,13 +467,13 @@ ideas = {
 			removal_cost = -1
 
 			picture = OTO_universal_printing
-			
+
 			modifier = {
-				centrism_drift = 0.01
+				reformism_drift = 0.01
 			}
 		}
 		OTO_vic_turkish_language = {
-			
+
 			allowed = {
 				tag = OTO
 			}
@@ -485,13 +485,13 @@ ideas = {
 			removal_cost = -1
 
 			picture = tur_funkplan
-			
+
 			modifier = {
-				traditional_conservatism_drift = 0.01
+				traditionalism_drift = 0.01
 			}
 		}
 		OTO_vic_industrial_reforms = {
-			
+
 			allowed = {
 				tag = OTO
 			}
@@ -503,13 +503,13 @@ ideas = {
 			removal_cost = -1
 
 			picture = generic_central_management
-			
+
 			modifier = {
 				production_speed_buildings_factor = 0.1
 			}
 		}
 		OTO_vic_modernization_effort = {
-			
+
 			allowed = {
 				tag = OTO
 			}
@@ -521,7 +521,7 @@ ideas = {
 			removal_cost = -1
 
 			picture = generic_production_bonus
-			
+
 			modifier = {
 				production_speed_buildings_factor = 0.1
 				production_speed_industrial_complex_factor = 0.1
@@ -532,16 +532,16 @@ ideas = {
 			picture = generic_license_production
 
 			allowed_civil_war = {
-				
+
 			}
-			
+
 			modifier = {
 				license_infantry_purchase_cost = -0.5
 			}
 		}
-		
+
 		OTO_vic_devshrime = {
-			
+
 			allowed = {
 				tag = OTO
 			}
@@ -553,16 +553,16 @@ ideas = {
 			removal_cost = -1
 
 			picture = generic_manpower_bonus
-			
+
 			modifier = {
 				conscription = 0.05
 				stability_factor = -0.10
 				stability_weekly = -0.001
 			}
 		}
-		
+
 		OTO_vic_ottoman_trade = {
-			
+
 			allowed = {
 				tag = OTO
 			}
@@ -574,14 +574,14 @@ ideas = {
 			removal_cost = -1
 
 			picture = free_trade
-			
+
 			modifier = {
 				trade_opinion_factor = 0.1
 				consumer_goods_factor = -0.02
 			}
 		}
 		OTO_vic_ottoman_mediterranean = {
-			
+
 			allowed = {
 				tag = OTO
 			}
@@ -593,15 +593,15 @@ ideas = {
 			removal_cost = -1
 
 			picture = free_trade
-			
+
 			modifier = {
 				trade_opinion_factor = 0.25
 				consumer_goods_factor = -0.05
 			}
 		}
-		
+
 		OTO_vic_prussian_tatics = {
-			
+
 			allowed = {
 				tag = OTO
 			}
@@ -613,7 +613,7 @@ ideas = {
 			removal_cost = -1
 
 			picture = PRS_landwehr
-			
+
 			modifier = {
 				army_speed_factor = 0.05
 				land_reinforce_rate = 0.02
@@ -621,7 +621,7 @@ ideas = {
 			}
 		}
 		OTO_vic_prussian_tatics_2 = {
-			
+
 			allowed = {
 				tag = OTO
 			}
@@ -633,7 +633,7 @@ ideas = {
 			removal_cost = -1
 
 			picture = PRS_landwehr
-			
+
 			modifier = {
 				army_speed_factor = 0.1
 				land_reinforce_rate = 0.05
@@ -641,7 +641,7 @@ ideas = {
 			}
 		}
 		OTO_vic_french_tatics = {
-			
+
 			allowed = {
 				tag = OTO
 			}
@@ -653,7 +653,7 @@ ideas = {
 			removal_cost = -1
 
 			picture = FRA_authoritarian_empire
-			
+
 			modifier = {
 				max_planning = 0.05
 				army_defence_factor = 0.05
@@ -661,7 +661,7 @@ ideas = {
 			}
 		}
 		OTO_vic_french_tatics_2 = {
-			
+
 			allowed = {
 				tag = OTO
 			}
@@ -673,7 +673,7 @@ ideas = {
 			removal_cost = -1
 
 			picture = FRA_authoritarian_empire
-			
+
 			modifier = {
 				max_planning = 0.1
 				army_defence_factor = 0.10
@@ -681,7 +681,7 @@ ideas = {
 			}
 		}
 		OTO_vic_imperial_school = {
-			
+
 			allowed = {
 				tag = OTO
 			}
@@ -693,13 +693,13 @@ ideas = {
 			removal_cost = -1
 
 			picture = generic_research_bonus
-			
+
 			modifier = {
 				research_speed_factor = 0.025
 			}
 		}
 		OTO_mac_grain_crisis = {
-			
+
 			allowed = {
 				TAG = OTO
 			}
@@ -711,16 +711,16 @@ ideas = {
 			removal_cost = -1
 
 			picture = oto_grain_crisis
-			
+
 			modifier = {
 				MONTHLY_POPULATION = -1.50
-				consumer_goods_factor = 0.20 
+				consumer_goods_factor = 0.20
 				political_power_gain = -0.05
 				stability_factor = -0.1
 			}
 		}
 		OTO_mac_grain_crisis2 = {
-			
+
 			allowed = {
 				TAG = OTO
 			}
@@ -732,16 +732,16 @@ ideas = {
 			removal_cost = -1
 
 			picture = oto_grain_crisis
-			
+
 			modifier = {
 				MONTHLY_POPULATION = -1.15
-				consumer_goods_factor = 0.15 
+				consumer_goods_factor = 0.15
 				political_power_gain = -0.04
 				stability_factor = -0.1
 			}
 		}
 		OTO_mac_grain_crisis3 = {
-			
+
 			allowed = {
 				TAG = OTO
 			}
@@ -753,16 +753,16 @@ ideas = {
 			removal_cost = -1
 
 			picture = oto_grain_crisis
-			
+
 			modifier = {
 				MONTHLY_POPULATION = -0.5
-				consumer_goods_factor = 0.10 
+				consumer_goods_factor = 0.10
 				political_power_gain = -0.03
 				stability_factor = -0.05
 			}
 		}
 		OTO_mac_grain_crisis4 = {
-			
+
 			allowed = {
 				TAG = OTO
 			}
@@ -774,7 +774,7 @@ ideas = {
 			removal_cost = -1
 
 			picture = oto_grain_crisis
-			
+
 			modifier = {
 				MONTHLY_POPULATION = -0.25
 				consumer_goods_factor = 0.075
@@ -783,7 +783,7 @@ ideas = {
 			}
 		}
 		OTO_mac_grain_crisis5 = {
-			
+
 			allowed = {
 				TAG = OTO
 			}
@@ -795,7 +795,7 @@ ideas = {
 			removal_cost = -1
 
 			picture = oto_grain_crisis
-			
+
 			modifier = {
 				MONTHLY_POPULATION = -0.1
 				consumer_goods_factor = 0.05
@@ -804,7 +804,7 @@ ideas = {
 			}
 		}
 		OTO_mac_grain_crisis_infra_repair = {
-			
+
 			allowed = {
 				TAG = OTO
 			}
@@ -816,14 +816,14 @@ ideas = {
 			removal_cost = -1
 
 			picture = generic_build_infrastructure
-			
+
 			modifier = {
 				industry_free_repair_factor = 1
 				industry_repair_factor = 0.5
 			}
 		}
 		OTO_mac_grain_crisis_remains = {
-			
+
 			allowed = {
 				TAG = OTO
 			}
@@ -835,14 +835,14 @@ ideas = {
 			removal_cost = -1
 
 			picture = oto_grain_crisis
-			
+
 			modifier = {
 				consumer_goods_factor = 0.02
 				political_power_gain = -0.01
 			}
 		}
 		OTO_mac_fixed_wheat_prices = {
-			
+
 			allowed = {
 				TAG = OTO
 			}
@@ -854,15 +854,15 @@ ideas = {
 			removal_cost = -1
 
 			picture = ITA_agriculture_focus
-			
+
 			modifier = {
 				consumer_goods_factor = 0.075
 				stability_factor = 0.05
 			}
 		}
-		
+
 		OTO_mac_war_focus_russia = {
-			
+
 			allowed = {
 				TAG = OTO
 			}
@@ -874,7 +874,7 @@ ideas = {
 			removal_cost = -1
 
 			picture = generic_war_preparation
-			
+
 			targeted_modifier = {
 				tag = RUS
 				attack_bonus_against = 0.05
@@ -882,7 +882,7 @@ ideas = {
 			}
 		}
 		OTO_mac_keep_the_russians_out = {
-			
+
 			allowed = {
 				TAG = OTO
 			}
@@ -894,7 +894,7 @@ ideas = {
 			removal_cost = -1
 
 			picture = generic_war_preparation
-			
+
 			targeted_modifier = {
 				tag = RUS
 				attack_bonus_against = 0.125
@@ -902,7 +902,7 @@ ideas = {
 			}
 		}
 		OTO_mac_war_focus_serb = {
-			
+
 			allowed = {
 				TAG = OTO
 			}
@@ -914,7 +914,7 @@ ideas = {
 			removal_cost = -1
 
 			picture = generic_war_preparation
-			
+
 			targeted_modifier = {
 				tag = SER
 				attack_bonus_against = 0.05
@@ -922,7 +922,7 @@ ideas = {
 			}
 		}
 		OTO_mac_war_focus_bulgar = {
-			
+
 			allowed = {
 				TAG = OTO
 			}
@@ -934,7 +934,7 @@ ideas = {
 			removal_cost = -1
 
 			picture = generic_war_preparation
-			
+
 			targeted_modifier = {
 				tag = BUL
 				attack_bonus_against = 0.05
@@ -942,7 +942,7 @@ ideas = {
 			}
 		}
 		OTO_mac_increased_tax_burden = {
-			
+
 			allowed = {
 				TAG = OTO
 			}
@@ -954,7 +954,7 @@ ideas = {
 			removal_cost = -1
 
 			picture = chi_hyper_inflation
-			
+
 			modifier = {
 				stability_factor = -0.15
 				stability_weekly = -0.001
@@ -965,11 +965,11 @@ ideas = {
 			allowed = {
 				always = yes
 			}
-			
+
 			removal_cost = -1
-			
+
 			picture = generic_intel_bonus
-			
+
 			cancel={
 				NOT={has_war_with = OTO}
 			}
@@ -977,13 +977,13 @@ ideas = {
 				surrender_limit = 1.00
 				no_supply_grace = 220
 			}
-			targeted_modifier = { 
+			targeted_modifier = {
 				tag = OTO
 				defense_bonus_against = 0.10
 			}
 		}
 		OTO_debt_administration = {
-			
+
 			allowed = {
 				TAG = OTO
 			}
@@ -995,14 +995,14 @@ ideas = {
 			removal_cost = -1
 
 			picture = chi_hyper_inflation
-			
+
 			modifier = {
 				consumer_goods_factor = 0.175
 			}
 		}
-		
+
 		OTO_ERU_tamrash_republic = {
-			
+
 			allowed = {
 				TAG = ERU
 			}
@@ -1014,7 +1014,7 @@ ideas = {
 			removal_cost = -1
 
 			picture = OTO_tamrash_republic
-			
+
 			modifier = {
 				stability_factor = -0.05
 				political_power_gain = -0.01
@@ -1022,7 +1022,7 @@ ideas = {
 		}
 	#UNFINISHED - NEEDS GFX & LOC
 	OTO_young_ottoman_constitution_signed = {
-			
+
 			allowed = {
 				tag = OTO
 			}
@@ -1034,19 +1034,18 @@ ideas = {
 			removal_cost = -1
 
 			picture = OTO_young_ottoman_constitution_signed
-			
+
 			modifier = {
 				political_power_gain = 0.25
-				traditional_conservatism_drift = 0.01
-				autocracy_drift = -0.01
-				centrism_drift = 0.02
-				chauvinist_populism_drift = 0.01
+				traditionalism_drift = -0.01
+				reformism_drift = 0.02
+				imperialism_drift = 0.01
 			}
 		}
 
 	#UNFINISHED - NEEDS GFX & LOC
 	OTO_declaration_of_seriat = {
-			
+
 			allowed = {
 				tag = OTO
 			}
@@ -1058,16 +1057,16 @@ ideas = {
 			removal_cost = -1
 
 			picture = OTO_young_ottoman_constitution_signed
-			
+
 			modifier = {
 				political_power_gain = -0.25
-				traditional_conservatism_drift = 0.01
+				traditionalism_drift = 0.01
 				autocracy_drift = 0.01
 				fundamentalism_drift = 0.02
 			}
 		}
 	OTO_bank_of_england_rail_partner = {
-			
+
 			allowed = {
 				tag = OTO
 			}
@@ -1079,13 +1078,13 @@ ideas = {
 			removal_cost = -1
 
 			picture = OTO_young_ottoman_constitution_signed
-			
+
 			modifier = {
 				subversive_activites_upkeep = -0.1
 			}
 		}
 	OTO_bank_of_france_rail_partner = {
-			
+
 			allowed = {
 				tag = OTO
 			}
@@ -1097,13 +1096,13 @@ ideas = {
 			removal_cost = -1
 
 			picture = OTO_young_ottoman_constitution_signed
-			
+
 			modifier = {
-				license_tech_difference_speed = -0.25 
+				license_tech_difference_speed = -0.25
 			}
 		}
 	OTO_bank_of_germany_rail_partner = {
-			
+
 			allowed = {
 				tag = OTO
 			}
@@ -1115,13 +1114,13 @@ ideas = {
 			removal_cost = -1
 
 			picture = OTO_young_ottoman_constitution_signed
-			
+
 			modifier = {
-				license_production_speed = -0.5 
+				license_production_speed = -0.5
 			}
 		}
 	OTO_grand_mufti_empowered = {
-			
+
 			allowed = {
 				tag = OTO
 			}
@@ -1133,14 +1132,14 @@ ideas = {
 			removal_cost = -1
 
 			picture = OTO_young_ottoman_constitution_signed
-			
+
 			modifier = {
-				autocracy_drift = -0.01
+				imperialism_drift = -0.01
 				fundamentalism_drift = 0.01
 			}
 		}
 	OTO_devshirme = {
-			
+
 			allowed = {
 				tag = OTO
 			}
@@ -1152,7 +1151,7 @@ ideas = {
 			removal_cost = -1
 
 			picture = OTO_young_ottoman_constitution_signed
-			
+
 			modifier = {
 				non_core_manpower = 0.04
 				subjects_autonomy_gain = -0.5
@@ -1161,7 +1160,7 @@ ideas = {
 			}
 		}
 	OTO_restricted_churches = {
-			
+
 			allowed = {
 				tag = OTO
 			}
@@ -1173,7 +1172,7 @@ ideas = {
 			removal_cost = -1
 
 			picture = OTO_young_ottoman_constitution_signed
-			
+
 			modifier = {
 				drift_defence_factor = 0.25
 				stability_factor = 0.01
@@ -1182,7 +1181,7 @@ ideas = {
 			}
 		}
 	OTO_sublime_porte_school = {
-			
+
 			allowed = {
 				tag = OTO
 			}
@@ -1194,7 +1193,7 @@ ideas = {
 			removal_cost = -1
 
 			picture = OTO_young_ottoman_constitution_signed
-			
+
 			modifier = {
 				political_power_gain = 0.25
 				research_speed_factor = 0.05
