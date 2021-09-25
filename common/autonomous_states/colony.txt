@@ -88,12 +88,6 @@ autonomy_state = {
 		else = { always = no }
 	}
 	can_take_level = {
-		if = {
-			limit = {
-				original_tag = RAJ			
-			}
-			has_completed_focus = RAJ_cripps_mission
-		}
 		#trigger here
 	}
 

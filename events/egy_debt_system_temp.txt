@@ -531,16 +531,6 @@ country_event = { #a creditor demands payment
 		}
 		afr_decrease_military_spending = yes	
 		debt_level_decrease_by_1 = yes	
-		if = { 
-			limit = { 
-				TAG = DOM
-				has_war = no
-			}
-			hidden_effect = { 
-				DOM = { set_country_flag = DOM_1858_santana_coup_flag }
-				DOM = { country_event = { id = DOM_1858_santana_coup.1 days = 7 } }
-			}
-		}
 	}
 	option = {#if laws can't change by payment is not being made, do the payment mission
 		name = egy_debt_system.6.e

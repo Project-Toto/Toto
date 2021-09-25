@@ -952,7 +952,7 @@ country_event = {
 		# 		on_lose = lib_border_conflict.9
 		# 		on_cancel = lib_border_conflict.4
 		# 	}
-		}
+		# }
 		set_country_flag = LIB_second_kru_raid
 	}
 }

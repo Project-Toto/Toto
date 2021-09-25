@@ -7,7 +7,7 @@
 		#name = "EQUAL_ICON"
 		#available =
 		#{
-		#	tag = CHI
+		#	tag = GER
 		#}
 	}
 	icon = {

@@ -2679,12 +2679,7 @@ news_event = { #the scramble begins
 			NOT={
 				OR={
 					tag = USA
-					tag = ARG
 					tag = BRA
-					tag = CHL
-					tag = MEX
-					tag = QNG
-					tag = RAJ
 					tag = EGY
 				}
 			}

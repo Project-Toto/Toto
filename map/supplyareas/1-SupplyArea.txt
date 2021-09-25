@@ -109,7 +109,7 @@ supply_area={
 	name="SUPPLYAREA_1"
 	value=6
 	states={
-		56 80 81 82
+		56 80 81 82 305
 	}
 }
 supply_area={
@@ -125,7 +125,7 @@ supply_area={
 	name="SUPPLYAREA_1"
 	value=6
 	states={
-		59 300 301 302 303 304
+		59 300 301 302 303 304 306
 	}
 }
 supply_area={

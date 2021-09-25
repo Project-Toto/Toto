@@ -403,15 +403,15 @@ focus_tree = {
 		x = 0
 		y = 5
 		completion_reward = {
-			TCS={country_event ={id = arab_events.26 days = 25}}#Demand sent to TCS
+			ABH={country_event ={id = arab_events.26 days = 25}}#Demand sent to TCS
 		}
 		prerequisite = {
 			focus = oma_vic_our_colonial_strength
 		}
 		bypass={
 			OR={
-				TCS = {is_subject_of = ROOT}
-				owns_state = 658
+				ABH = { OR = { is_subject_of = ROOT exists = no } }
+				# owns_state = 658
 			}
 		}
 		available={
@@ -435,7 +435,7 @@ focus_tree = {
 		y = 6
 		completion_reward = {
 			annex_country = {
-				target = TCS
+				target = ABH
 				transfer_troops = yes
 			}
 		}
@@ -444,7 +444,7 @@ focus_tree = {
 		}
 		bypass={
 			OR={
-				TCS = {exists = no}
+				ABH = {exists = no}
 				owns_state = 658
 			}
 		}
@@ -455,7 +455,7 @@ focus_tree = {
 					is_claimed_by = OMA
 				}
 			}
-			TCS = {is_subject_of = ROOT}
+			ABH = {is_subject_of = ROOT}
 		}
 		available_if_capitulated = no
 		ai_will_do = {
@@ -906,31 +906,8 @@ focus_tree = {
 		prerequisite = {
 			focus = oma_vic_fund_industrialsion
 		}
-		available={
-			SRS={
-				OR={
-					exists = no
-					has_war = no
-				}
-			}
-		}
 		completion_reward={
-			if={
-				limit={
-					SRS= {exists = yes}
-					ENG={has_completed_focus = ENG_focus_humiliation_by_sepoy}
-				}
-				#a choice of india
-				country_event ={id = arab_events.27}
-			}
-			else_if={
-				limit={
-					SRS= {exists = no}
-					RAJ = {exists = yes}
-				}
-				#send event to india
-				RAJ = {country_event ={id = arab_events.28}}
-			}
+			ENG = {country_event ={id = arab_events.28}}
 		}
 		available_if_capitulated = no
 		ai_will_do = {
@@ -1129,34 +1106,8 @@ focus_tree = {
 		prerequisite = {
 			focus = oma_vic_attempt_economic_diversifaction
 		}
-		available={
-			SRS={
-				OR={
-					exists = no
-					has_war = no
-				}
-			}
-		}
 		completion_reward={
-			if={
-				limit={
-					SRS= {
-						exists = yes
-						has_war = no
-					}
-					ENG={has_completed_focus = ENG_focus_humiliation_by_sepoy}
-				}
-				#a choice of india
-				country_event ={id = arab_events.27}
-			}
-			else_if={
-				limit={
-					SRS= {exists = no}
-					RAJ = {exists = yes}
-				}
-				#send event to india
-				RAJ = {country_event ={id = arab_events.28}}
-			}
+			ENG = {country_event ={id = arab_events.28}}
 		}
 		available_if_capitulated = no
 		ai_will_do = {

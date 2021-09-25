@@ -2,12 +2,14 @@
 state={
 	id=296
 	name="STATE_296"
-	provinces={
-		380 592 781 890 1142 2188 2321 2992 3162 3304 3534 3739 4151 4660 4859 7885 7886 7927 7982 7993 7997 
-	}
-	impassable = yes
+
 	history={
-		owner = ASS
+		owner = MZA
+
+	}
+	impassable=yes
+	provinces={
+		96 781 986 1847 2166 2188 2321 3774 4660 4738 4859 6799 7841 7865 7885 7886
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

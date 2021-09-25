@@ -2,7 +2,7 @@ state={
 	id=291
 	name="STATE_291"
 	provinces={
-		82 1125 2361 5025 5342 5514 8117 
+		12667 12668 12669 12670 12673
 	}
 	history={
 		owner = KAG

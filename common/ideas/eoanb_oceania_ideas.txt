@@ -25,7 +25,7 @@ ideas = {
 #		
 #	}
 
-	political_advisor = {
+	court_advisor = {
 	
 		Oceania_zhu_yating = {
 
@@ -50,7 +50,7 @@ ideas = {
 		
 		Oceania_antoine_dufresne = {
 
-			picture = generic_political_advisor_europe_2
+			picture = generic_court_advisor_europe_2
 				
 			allowed = {
 				has_country_flag = Oceania_generic_french_administrators
@@ -71,7 +71,7 @@ ideas = {
 		
 		Oceania_theodore_wilkinson = {
 
-			picture = generic_political_advisor_europe_3
+			picture = generic_court_advisor_europe_3
 				
 			allowed = {
 				has_country_flag = Oceania_generic_british_administrators
@@ -429,14 +429,6 @@ ideas = {
 			}
 			targeted_modifier = {
 				tag = ENG
-				trade_opinion_factor = 0.25
-			}
-			targeted_modifier = {
-				tag = RAJ
-				trade_opinion_factor = 0.25
-			}
-			targeted_modifier = {
-				tag = INS
 				trade_opinion_factor = 0.25
 			}
 		}

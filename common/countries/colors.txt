@@ -240,3 +240,7 @@
 		color = rgb { 230 83 196 }
 		color_ui = rgb { 230 83 196 }
 	}
+	TGR = {
+		color = rgb { 200 130 80 }
+		color_ui = rgb { 200 130 80 }
+	}

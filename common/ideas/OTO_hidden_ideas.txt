@@ -12,14 +12,14 @@ ideas={
 			}
 
 			removal_cost = -1
-			
+
 			modifier = {
 			}
 		}
 
 	#UNFINISHED
 	OTO_young_ottoman_constitution_recently_signed = {
-			
+
 			allowed = {
 				tag = OTO
 			}
@@ -29,7 +29,7 @@ ideas={
 			}
 
 			removal_cost = -1
-			
+
 			modifier = {
 				stability_factor = -0.1
 			}
@@ -37,7 +37,7 @@ ideas={
 
 	#UNFINISHED
 	OTO_increased_spending_bonus = {
-			
+
 			allowed = {
 				tag = OTO
 			}
@@ -47,7 +47,7 @@ ideas={
 			}
 
 			removal_cost = -1
-			
+
 			modifier = {
 				political_power_gain = 0.1
 				production_speed_buildings_factor = 0.1
@@ -56,7 +56,7 @@ ideas={
 
 		#UNFINISHED
 	OTO_save_money_malus = {
-			
+
 			allowed = {
 				tag = OTO
 			}
@@ -66,7 +66,7 @@ ideas={
 			}
 
 			removal_cost = -1
-			
+
 			modifier = {
 				political_power_gain = -0.1
 				production_speed_buildings_factor = -0.1
@@ -78,7 +78,7 @@ ideas={
 
 	#UNFINISHED
 	OTO_mass_literacy_programs = {
-			
+
 			allowed = {
 				tag = OTO
 			}
@@ -88,7 +88,7 @@ ideas={
 			}
 
 			removal_cost = -1
-			
+
 			modifier = {
 				research_speed_factor = 0.05
 			}
@@ -96,7 +96,7 @@ ideas={
 
 	#UNFINISHED
 	OTO_arabic_legal_language_chosen = {
-			
+
 			allowed = {
 				tag = OTO
 			}
@@ -106,10 +106,10 @@ ideas={
 			}
 
 			removal_cost = -1
-			
+
 			modifier = {
 				political_power_gain = 0.1
-				political_advisor_cost_factor = 0.25
+				court_advisor_cost_factor = 0.25
 				stability_factor = 0.1
 				non_core_manpower = 0.04
 			}
@@ -117,7 +117,7 @@ ideas={
 
 	#UNFINISHED - NEEDS LOC
 	OTO_turkish_legal_language_chosen = {
-			
+
 			allowed = {
 				tag = OTO
 			}
@@ -127,10 +127,10 @@ ideas={
 			}
 
 			removal_cost = -1
-			
+
 			modifier = {
 				political_power_gain = -0.1
-				political_advisor_cost_factor = -0.25
+				court_advisor_cost_factor = -0.25
 				war_support_factor = 0.1
 				line_change_production_efficiency_factor = 0.2
 			}
@@ -138,7 +138,7 @@ ideas={
 
 	#UNFINISHED - NEEDS LOC
 	OTO_agricultural_rail_bonus = {
-			
+
 			allowed = {
 				tag = OTO
 			}
@@ -148,7 +148,7 @@ ideas={
 			}
 
 			removal_cost = -1
-			
+
 			modifier = {
 				production_speed_infrastructure_factor = 0.2
 				production_speed_arms_factory_factor = 0.1
@@ -158,7 +158,7 @@ ideas={
 
 	#UNFINISHED - NEEDS LOC
 	OTO_industrial_rail_bonus = {
-			
+
 			allowed = {
 				tag = OTO
 			}
@@ -168,7 +168,7 @@ ideas={
 			}
 
 			removal_cost = -1
-			
+
 			modifier = {
 				production_speed_infrastructure_factor = 0.1
 				production_speed_industrial_complex_factor = 0.15
@@ -177,7 +177,7 @@ ideas={
 		}
 
 	OTO_rail_investors = {
-			
+
 			allowed = {
 				tag = OTO
 			}
@@ -187,11 +187,11 @@ ideas={
 			}
 
 			removal_cost = -1
-			
+
 			modifier = {
 				production_speed_infrastructure_factor = 0.2
 				drift_defence_factor = -0.15
-				trade_opinion_factor = 0.25 
+				trade_opinion_factor = 0.25
 				ai_get_ally_desire_factor = 10
 				ai_join_ally_desire_factor = 10
 				license_purchase_cost = -0.25
@@ -199,7 +199,7 @@ ideas={
 		}
 
 	OTO_international_port_subsidy = {
-			
+
 			allowed = {
 				tag = OTO
 			}
@@ -209,16 +209,16 @@ ideas={
 			}
 
 			removal_cost = -1
-			
+
 			modifier = {
 				production_speed_naval_base_factor = 0.05
-				trade_opinion_factor = 0.25 
+				trade_opinion_factor = 0.25
 				ai_get_ally_desire_factor = 10
 			}
 		}
 
 	OTO_industrial_shipping = {
-			
+
 			allowed = {
 				tag = OTO
 			}
@@ -228,14 +228,14 @@ ideas={
 			}
 
 			removal_cost = -1
-			
+
 			modifier = {
 				production_speed_naval_base_factor = 0.15
 			}
 		}
 
 	OTO_auctioned_state_assets = {
-			
+
 			allowed = {
 				tag = OTO
 			}
@@ -245,7 +245,7 @@ ideas={
 			}
 
 			removal_cost = -1
-			
+
 			modifier = {
 				drift_defence_factor = -0.25
 				political_power_gain = -0.1
@@ -254,7 +254,7 @@ ideas={
 		}
 
 	OTO_nationalised_rail = {
-			
+
 			allowed = {
 				tag = OTO
 			}
@@ -264,14 +264,14 @@ ideas={
 			}
 
 			removal_cost = -1
-			
+
 			modifier = {
 				production_speed_infrastructure_factor = 0.1
 			}
 		}
 
 	OTO_closed_embassies = {
-			
+
 			allowed = {
 				tag = OTO
 			}
@@ -281,7 +281,7 @@ ideas={
 			}
 
 			removal_cost = -1
-			
+
 			modifier = {
 				#trade_laws_cost_factor = 0.5
 				send_volunteers_tension = 0.5

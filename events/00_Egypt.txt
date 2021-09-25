@@ -481,7 +481,7 @@ country_event = {
 			}
 			set_autonomy = {#the loyal leader is, well loyal
 				target = FROM
-				autonomy_state = autonomy_eyalet
+				autonomy_state = autonomy_ottoman_eyalet
 			}
 		}
 		else = {
@@ -514,7 +514,7 @@ country_event = {
 			}
 			set_autonomy = {#the loyal leader is, well loyal
 				target = FROM
-				autonomy_state = autonomy_eyalet
+				autonomy_state = autonomy_ottoman_eyalet
 			}
 		}
 		else = {
@@ -940,9 +940,9 @@ country_event = {
 	id = afr_EGY_vic.18
 	title = afr_EGY_vic.18.t
 	desc = afr_EGY_vic.18.d
-	
+
 	hidden = yes
-	
+
 	fire_only_once = yes
 	is_triggered_only = yes
 

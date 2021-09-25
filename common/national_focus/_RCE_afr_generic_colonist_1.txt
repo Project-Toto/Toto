@@ -12,7 +12,6 @@ focus_tree = {
 				tag = SAF
 				tag = NAT
 				tag = ADN
-				tag = TCS
 				tag = GDC
 				tag = GAB
 			}

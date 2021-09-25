@@ -1,12 +1,15 @@
+
 state={
 	id=292
 	name="STATE_292"
-	provinces={
-		57 199 238 658 792 1406 1838 2022 2242 2424 2652 5710 
-	}
-	impassable = yes
+
 	history={
 		owner = ASS
+
+	}
+	impassable=yes
+	provinces={
+		57 199 238 380 592 658 792 890 1112 1142 1406 1838 1864 2022 2144 2242 2424 2652 2791 2992 3055 3162 3304 3534 3739 4151 5514 5710 7927 7982 7993 7997 8028 8117 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

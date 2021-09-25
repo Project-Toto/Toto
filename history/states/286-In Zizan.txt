@@ -1,11 +1,15 @@
+
 state={
 	id=286
 	name="STATE_286"
-	provinces={
-		24 375 1804 2036 2395 2713 7141 8126 
-	}
+
 	history={
 		owner = ASS
+
+	}
+
+	provinces={
+		12675 12676 12677
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

@@ -24,22 +24,7 @@ ideas = {
 		post_digital_era = {
 			allowed = { always = no }
 		}
-		afr_colonial_malaria_scourge = {
-			allowed = { always = no }
-		}
-		afr_colonial_malaria_scourge_1 = {
-			allowed = { always = no }
-		}
-		afr_colonial_malaria_scourge_2 = {
-			allowed = { always = no }
-		}
-		afr_colonial_malaria_scourge_3 = {
-			allowed = { always = no }
-		}
 		industrializing = {
-			allowed = { always = no }
-		}
-		AFR_illegal_transatlantic = {
 			allowed = { always = no }
 		}
 	}

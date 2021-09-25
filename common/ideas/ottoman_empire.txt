@@ -6,7 +6,7 @@ ideas = {
 					AND = {
 						is_subject_of = OTO
 						OR = {
-							has_autonomy_state = autonomy_eyalet
+							has_autonomy_state = autonomy_ottoman_eyalet
 							has_autonomy_state = autonomy_khedive
 						}
 					}
@@ -1061,7 +1061,7 @@ ideas = {
 			modifier = {
 				political_power_gain = -0.25
 				traditionalism_drift = 0.01
-				autocracy_drift = 0.01
+				imperialism_drift = 0.01
 				fundamentalism_drift = 0.02
 			}
 		}

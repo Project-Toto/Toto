@@ -2,7 +2,7 @@ state={
 	id=278
 	name="STATE_278"
 	provinces={
-		313 579 2086 8074 
+		313 8074 12656 12657 12658 12663
 	}
 	history={
 		owner = TUA

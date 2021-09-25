@@ -69,7 +69,7 @@ set_technology = {
 			TUN_unorganized_ministries
 
 	}
-	
+
 	TUN = {
 		set_country_flag = afr_progress_tree
 		add_to_variable = { TUN.innovation_progress = 8 }
@@ -86,7 +86,7 @@ set_technology = {
 			}
 			set_autonomy = {
 				target = TUN
-				autonomous_state = autonomy_eyalet
+				autonomous_state = autonomy_ottoman_eyalet
 				freedom_level = 0.1
 			}
 		}

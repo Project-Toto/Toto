@@ -18,7 +18,7 @@ add_namespace = OTO_russio_turkish_war
 			# AND = {
 				# is_subject_of = OTO
 				# OR = {
-					# has_autonomy_state = autonomy_eyalet
+					# has_autonomy_state = autonomy_ottoman_eyalet
 					# has_autonomy_state = autonomy_khedive
 				# }
 				# NOT = {
@@ -46,7 +46,7 @@ add_namespace = OTO_russio_turkish_war
 		# text =  OTO_vassal_tribute.2.descEyalet
 		# trigger = {
 			# AND = {
-				# has_autonomy_state = autonomy_eyalet
+				# has_autonomy_state = autonomy_ottoman_eyalet
 				# NOT = {
 					# has_country_flag = OTO_loyalty_enforced
 				# }
@@ -57,7 +57,7 @@ add_namespace = OTO_russio_turkish_war
 		# text =  OTO_vassal_tribute.2.descEyaletEnforced
 		# trigger = {
 			# AND = {
-				# has_autonomy_state = autonomy_eyalet
+				# has_autonomy_state = autonomy_ottoman_eyalet
 				# has_country_flag = OTO_loyalty_enforced
 			# }
 		# }
@@ -75,7 +75,7 @@ add_namespace = OTO_russio_turkish_war
 	# option = {
 		# name = OTO_vassal_tribute.2.a
 		# trigger = {
-			# has_autonomy_state = autonomy_eyalet
+			# has_autonomy_state = autonomy_ottoman_eyalet
 			# NOT = {
 				# has_country_flag = OTO_loyalty_enforced
 			# }
@@ -133,7 +133,7 @@ add_namespace = OTO_russio_turkish_war
 	# desc = {
 		# text =  OTO_vassal_tribute.3.descEyalet
 		# trigger = {
-			# FROM = { has_autonomy_state = autonomy_eyalet }
+			# FROM = { has_autonomy_state = autonomy_ottoman_eyalet }
 		# }
 	# }
 	# desc = {
@@ -149,7 +149,7 @@ add_namespace = OTO_russio_turkish_war
 	# option = {
 		# name = OTO_vassal_tribute.3.a
 		# trigger = {
-			# FROM = { has_autonomy_state = autonomy_eyalet }
+			# FROM = { has_autonomy_state = autonomy_ottoman_eyalet }
 			# NOT = {
 				# FROM = { has_country_flag = OTO_loyalty_enforced }
 			# }
@@ -180,7 +180,7 @@ add_namespace = OTO_russio_turkish_war
 	# desc = {
 		# text =  OTO_vassal_tribute.4.descEyalet
 		# trigger = {
-			# FROM = { has_autonomy_state = autonomy_eyalet }
+			# FROM = { has_autonomy_state = autonomy_ottoman_eyalet }
 		# }
 	# }
 	# desc = {
@@ -196,7 +196,7 @@ add_namespace = OTO_russio_turkish_war
 	# option = {
 		# name = OTO_vassal_tribute.4.a
 		# trigger = {
-			# FROM = { has_autonomy_state = autonomy_eyalet }
+			# FROM = { has_autonomy_state = autonomy_ottoman_eyalet }
 		# }
 		# ROOT = {
 			# if = {
@@ -592,7 +592,7 @@ country_event = {
 				}
 				set_autonomy = {
 					target = MNT
-					autonomy_state = autonomy_eyalet
+					autonomy_state = autonomy_ottoman_eyalet
 				}
 			}
 			else = {
@@ -738,7 +738,7 @@ country_event = {
 			}
 			set_autonomy = {
 				target = MNT
-				autonomy_state = autonomy_eyalet
+				autonomy_state = autonomy_ottoman_eyalet
 			}
 		}
 		else = {
@@ -1478,7 +1478,7 @@ country_event = {#OTO - Russia warns intervention if we don't white peace SER
 			}
 			set_autonomy = {
 				target = SER
-				autonomy_state = autonomy_eyalet
+				autonomy_state = autonomy_ottoman_eyalet
 			}
 		}
 		else = {
@@ -1751,7 +1751,7 @@ country_event = {#OTO - Prizen league
 			}
 			set_autonomy = {
 				target = ALB
-				autonomy_state = autonomy_eyalet
+				autonomy_state = autonomy_ottoman_eyalet
 			}
 		}
 		else = {
@@ -1841,7 +1841,7 @@ country_event = {#OTO - a Albanian offer
 	option = {#agree
 		name = OTO_events.32.a
 		ai_chance = { factor = 80}
-		
+
 	}
 	option = {#crush them
 		name = OTO_events.31.a
@@ -1862,13 +1862,13 @@ country_event = {#OTO - establish eastern rumelia
 	immediate={
 		set_autonomy = {
 			target = ERU
-			autonomy_state = autonomy_eyalet
+			autonomy_state = autonomy_ottoman_eyalet
 		}
 		ERU={
 			transfer_state = 1023
 			add_state_core = 1023
 			add_ideas = {OTO_ERU_tamrash_republic}
-			
+
 			create_country_leader = {
 				name = "Alexander Stefanov Bogoridi"
 				desc = "POLITICS_TEMP_DESC"
@@ -1883,9 +1883,9 @@ country_event = {#OTO - establish eastern rumelia
 	option = {#organise the state
 		name = OTO_events.33.a
 		ai_chance = { factor = 80}
-		
+
 	}
-	
+
 }
 
 country_event = {#RUS - ottoman weakness
@@ -2362,7 +2362,7 @@ country_event = {#OTO - results of the Treaty of San Stefano
 			}
 			set_autonomy = {
 				target = BOS
-				autonomy_state = autonomy_eyalet
+				autonomy_state = autonomy_ottoman_eyalet
 			}
 		}
 		else = {
@@ -2403,7 +2403,7 @@ country_event = {#OTO - results of the Treaty of San Stefano (victory)
 			} }
 			set_autonomy = {
 				target = ROM
-				autonomy_state = autonomy_eyalet
+				autonomy_state = autonomy_ottoman_eyalet
 			}
 		}
 		else = {
@@ -2429,7 +2429,7 @@ country_event = {#OTO - results of the Treaty of San Stefano (victory)
 			} }
 			set_autonomy = {
 				target = SER
-				autonomy_state = autonomy_eyalet
+				autonomy_state = autonomy_ottoman_eyalet
 			}
 		}
 		else = {
@@ -2450,7 +2450,7 @@ country_event = {#OTO - results of the Treaty of San Stefano (victory)
 			} }
 			set_autonomy = {
 				target = MNT
-				autonomy_state = autonomy_eyalet
+				autonomy_state = autonomy_ottoman_eyalet
 			}
 		}
 		else = {
@@ -2468,7 +2468,7 @@ country_event = {#OTO - results of the Treaty of San Stefano (victory)
 			} }
 			set_autonomy = {
 				target = ARM
-				autonomy_state = autonomy_eyalet
+				autonomy_state = autonomy_ottoman_eyalet
 			}
 		}
 		else = {
@@ -2504,7 +2504,7 @@ country_event = {#ENG - take cypress
 	option = {#leave it
 		name = OTO_russio_turkish_war.17.b
 		ai_chance = { factor = 0}
-		
+
 	}
 }
 
@@ -2538,7 +2538,7 @@ country_event = {#FRA - take tunis
 	option = {#take tunis
 		name = OTO_russio_turkish_war.19.a
 		ai_chance = { factor = 100}
-		
+
 
 	}
 }
