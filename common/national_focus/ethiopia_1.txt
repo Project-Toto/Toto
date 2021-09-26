@@ -2875,20 +2875,6 @@ focus_tree = {
 			custom_effect_tooltip = afr_colonial_language_german_tooltip
 			set_country_flag = afr_colonial_language_german
 			hidden_effect = {
-				add_opinion_modifier = { target = PRS modifier = eoanb_om_africa_language_focus }
-				reverse_add_opinion_modifier = { target = PRS modifier = eoanb_om_africa_language_focus }
-				add_opinion_modifier = { target = HAM modifier = eoanb_om_africa_language_focus }
-				reverse_add_opinion_modifier = { target = HAM modifier = eoanb_om_africa_language_focus }
-				add_opinion_modifier = { target = BRE modifier = eoanb_om_africa_language_focus }
-				reverse_add_opinion_modifier = { target = BRE modifier = eoanb_om_africa_language_focus }
-				add_opinion_modifier = { target = BAV modifier = eoanb_om_africa_language_focus }
-				reverse_add_opinion_modifier = { target = BAV modifier = eoanb_om_africa_language_focus }
-				add_opinion_modifier = { target = HAN modifier = eoanb_om_africa_language_focus }
-				reverse_add_opinion_modifier = { target = HAN modifier = eoanb_om_africa_language_focus }
-				add_opinion_modifier = { target = SAX modifier = eoanb_om_africa_language_focus }
-				reverse_add_opinion_modifier = { target = SAX modifier = eoanb_om_africa_language_focus }
-				add_opinion_modifier = { target = WUR modifier = eoanb_om_africa_language_focus }
-				reverse_add_opinion_modifier = { target = WUR modifier = eoanb_om_africa_language_focus }
 				add_opinion_modifier = { target = GER modifier = eoanb_om_africa_language_focus }
 				reverse_add_opinion_modifier = { target = GER modifier = eoanb_om_africa_language_focus }
 			}

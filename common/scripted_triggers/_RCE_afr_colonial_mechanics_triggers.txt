@@ -100,11 +100,11 @@ afr_portugal_company_port_trigger = {
 
 afr_prussian_company_port_trigger = {
 	AND = {
-		country_exists = PRS
+		country_exists = GER
 		has_country_flag = afr_rrp_german_company_port
 		OR = {
-			is_subject_of = PRS
-			gives_military_access_to = PRS
+			is_subject_of = GER
+			gives_military_access_to = GER
 		}
 	}
 }

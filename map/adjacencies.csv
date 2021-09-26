@@ -75,6 +75,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 8538;8502;sea;10841;-1;-1;-1;-1;;Senegal
 8819;5775;sea;12298;-1;-1;-1;-1;;Niger
 5616;2354;sea;12308;-1;-1;-1;-1;;Niger
+4225;9270;sea;12348;-1;-1;-1;-1;;Niger
+9411;9397;sea;12352;-1;-1;-1;-1;;Niger
 8693;10770;sea;11423;-1;-1;-1;-1;;Gambia
 6681;4513;sea;12292;-1;-1;-1;-1;;Gambia
 1227;5724;sea;10841;-1;-1;-1;-1;;Gambia

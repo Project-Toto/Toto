@@ -506,7 +506,6 @@ focus_tree = {
 		}
 		available={
 			has_manpower > 1999
-			BOS={exists = no}
 		}
 		completion_reward = {
 			add_manpower = -2000

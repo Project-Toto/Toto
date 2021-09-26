@@ -1,0 +1,13 @@
+state={
+	id=351
+	name="STATE_351"
+	provinces={
+		2899 4323 5587 5682 5772 5954 7107 7231 8820 8827 8846 8848 8900 8910 8931 8933 8966 8974 8991 9001 9015 
+	}
+	history={
+		owner = SKT
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+}

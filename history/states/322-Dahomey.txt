@@ -1,0 +1,14 @@
+
+state={
+	id=322
+	name="STATE_322"
+	provinces={
+		2019 4356 4895 5160 5192 6452 9129 9146 9193 9195 9214 
+	}
+	history={
+		owner = DAH
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+}

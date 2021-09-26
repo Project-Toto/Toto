@@ -93,6 +93,7 @@
 	#Senegal
 	BAO = "countries/Baol.txt"
 	SNG = "countries/Senegal.txt"
+	KHS = "countries/Khasso.txt"
 	#Mali
 	
 	#guinea
@@ -102,20 +103,26 @@
 	KOY = "countries/Koya Temne.txt"
 	KRU = "countries/Kru.txt"
 	MND = "countries/Mande.txt"
+	SOS = "countries/Soso.txt"
 	#Ivory coast
 	AKA = "countries/Akan.txt"
 	KOG = "countries/Kong.txt"
 	#ghana-burkino faso-togo-benin
 	GDC = "countries/Gold Coast.txt"
+	DGB = "countries/Dagbon.txt"
+	GNJ = "countries/Gonja.txt"
+	GRM = "countries/Gurma.txt"
 	#nigeria-niger
 	DAH = "countries/Dahomey.txt"
 	TUG = "countries/Tuareg.txt"
 	KBO = "countries/Kanem-Bornu.txt"
 	DMG = "countries/Damagaram.txt"
-	
+	BEN = "countries/Benin.txt"
+	DMG = "countries/Damagara.txt"
 	
 	MNH = "countries/Manneh.txt"
 	KAB = "countries/Kaabu.txt"
+	BTN = "countries/Balante.txt"
 	TOU = "countries/Toucouleur.txt"
 	MOS = "countries/Mossi.txt"
 	KAA = "countries/Kaarta.txt"

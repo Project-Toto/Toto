@@ -1,0 +1,13 @@
+state={
+	id=343
+	name="STATE_343"
+	provinces={
+		4772 9164 9196 9229 9230 9241 9246 
+	}
+	history={
+		owner = OYO
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+}

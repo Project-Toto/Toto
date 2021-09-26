@@ -6,7 +6,7 @@ state={
 		2244 7251 8739 
 	}
 	history={
-		owner = TES
+		owner = KAB
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

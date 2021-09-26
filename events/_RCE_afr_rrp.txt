@@ -579,7 +579,7 @@ country_event = {
 				has_country_flag = afr_rrp_german_company_port
 			}
 			hidden_effect = {
-				PRS = { country_event = { days = 7 id = afr_rrp_weapon_contract.6 } }
+				GER = { country_event = { days = 7 id = afr_rrp_weapon_contract.6 } }
 			}
 		}
 		else_if = {

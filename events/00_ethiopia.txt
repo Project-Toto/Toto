@@ -2161,18 +2161,6 @@ country_event = {
 			}
 			else_if = {
 				limit = {
-					tag = BRE
-				}
-				set_country_flag = ETH_BRE_Merchants
-			}
-			else_if = {
-				limit = {
-					tag = HAM
-				}
-				set_country_flag = ETH_HAM_Merchants
-			}
-			else_if = {
-				limit = {
 					tag = POR
 				}
 				set_country_flag = ETH_POR_Merchants
@@ -2203,7 +2191,7 @@ country_event = {
 			}
 			else_if = {
 				limit = {
-					tag = PRS
+					tag = GER
 				}
 				set_country_flag = ETH_PRS_Merchants
 			}

@@ -1,0 +1,13 @@
+state={
+	id=338
+	name="STATE_338"
+	provinces={
+		2331 2873 3915 5825 9380 
+	}
+	history={
+		owner = IGA
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+}

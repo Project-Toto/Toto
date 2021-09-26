@@ -1,0 +1,13 @@
+state={
+	id=311
+	name="STATE_311"
+	provinces={
+		572 2024 3315 4562 4941 5914 7196 9143 9161 9184 9205 9206 
+	}
+	history={
+		owner = ASH
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+}

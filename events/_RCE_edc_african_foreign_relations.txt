@@ -1016,11 +1016,11 @@ country_event = { #selecting a colonal "master"
 	option = {
 		name = EDC_afr.17.gb #GER
 		trigger = {
-			PRS= {
+			GER= {
 				has_idea = afr_colonial_power
 			}
 		}
-		PRS = {
+		GER = {
 			country_event = {id = EDC_afr.18 days = 7}
 		}
 	}

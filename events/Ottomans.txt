@@ -1170,59 +1170,7 @@ country_event = {#OTO - nevesinje rebellion
 		days = 50
 	}
 	immediate={
-		hidden_effect={
-			if = {
-				limit = {
-					OR = {
-						has_dlc = "Together for Victory"
-						has_dlc = "Waking the Tiger"
-						has_dlc = "Death or Dishonor"
-					}
-				}
-				set_autonomy = {
-					target = BOS
-					autonomy_state = autonomy_free
-				}
-			}
-			else = {
-				end_puppet = BOS
-			}
-			BOS={
-				set_state_owner = 1205
-				set_state_owner = 1272
-				set_state_owner = 104
-				set_state_owner = 1207
-				set_state_owner = 1208
-				set_province_controller = 606
-				set_province_controller = 11845
-				set_province_controller = 9894
-				set_province_controller = 13873
-				set_province_controller = 13874
-				set_province_controller = 11899
-				set_province_controller = 13877
-				set_province_controller = 6983
-				if={
-					limit={
-						OTO={has_completed_focus = OTO_mac_BOS_garrisons}
-					}
-					load_oob = "BOS_nevesinje_weakened"
-				}
-				else={
-					load_oob = "BOS_nevesinje"
-				}
-				add_ideas = {OTO_balkan_rebellion}
-			}
-			add_state_claim = 1205
-			add_state_claim = 1272
-			add_state_claim = 104
-			add_state_claim = 1207
-			add_state_claim = 1208
-			declare_war_on = {
-				target = BOS
-				type = annex_everything
-			}
 		set_country_flag = OTO_great_eastern_crisis
-		}
 	}
 	option = {#send in the troops
 		name = OTO_events.12.a
@@ -1260,25 +1208,9 @@ country_event = {#OTO - nevesinje rebellion victorius
 	title = OTO_events.14.t
 	desc = OTO_events.14.d
 	picture = GFX_report_event_generic_read_write#place holder for now
+	is_triggered_only = yes
 
 	fire_only_once = yes
-	trigger={
-		has_country_flag = BOS_nevesinje
-		tag = OTO
-		BOS = {
-			controls_state = 104
-			controls_state = 1207
-			controls_state = 1208
-			controls_state = 1272
-			controls_state = 1205
-		}
-	}
-	mean_time_to_happen = {
-		days = 20
-	}
-	immediate={
-		white_peace = BOS
-	}
 	option = {#a laughing stock
 		name = OTO_events.14.a
 		ai_chance = { factor = 1}
@@ -2164,7 +2096,7 @@ country_event = {# - Treaty of san setanfo reaction
 			limit={
 				NOT={has_global_flag = OTO_berlin_congress}
 			}
-			PRS={country_event = {id= OTO_russio_turkish_war.12}}
+			GER={country_event = {id= OTO_russio_turkish_war.12}}
 			set_global_flag = OTO_berlin_congress
 		}
 	}
@@ -2185,7 +2117,7 @@ news_event = {#PRS - Berlin Congress
 	option = {#Let us begin
 		name = OTO_russio_turkish_war.12.a
 		trigger={
-			tag = PRS
+			tag = GER
 		}
 		ai_chance = { factor = 100}
 		hidden_effect={
@@ -2196,7 +2128,7 @@ news_event = {#PRS - Berlin Congress
 	option = {#ok
 		name = OTO_russio_turkish_war.12.b
 		trigger={
-			NOT={tag = PRS}
+			NOT={tag = GER}
 		}
 		ai_chance = { factor = 100}
 

@@ -1,0 +1,13 @@
+state={
+	id=357
+	name="STATE_357"
+	provinces={
+		227 617 2365 2630 2716 3037 3704 4558 5270 5921 6233 
+	}
+	history={
+		owner = OTO
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+}

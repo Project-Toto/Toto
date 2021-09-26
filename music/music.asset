@@ -1,0 +1,33 @@
+
+# MAIN THEME
+music = {
+	name = "maintheme"
+	file = "africa_3.ogg"
+	volume = 3
+}
+music = {
+	name = "africa_1"
+	file = "africa_1.ogg"
+	volume = 3
+}
+music = {
+	name = "africa_2"
+	file = "africa_2.ogg"
+	volume = 3
+}
+
+music = {
+	name = "africa_4"
+	file = "africa_4.ogg"
+	volume = 3
+}
+music = {
+	name = "africa_5"
+	file = "africa_5.ogg"
+	volume = 3
+}
+music = {
+	name = "africa_6"
+	file = "africa_6.ogg"
+	volume = 3
+

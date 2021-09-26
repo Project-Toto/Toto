@@ -1,0 +1,13 @@
+state={
+	id=359
+	name="STATE_359"
+	provinces={
+		625 2932 3615 4709 4943 5806 6123 7855 7882 7944 
+	}
+	history={
+		owner = TUN
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+}

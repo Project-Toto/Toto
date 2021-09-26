@@ -1182,8 +1182,8 @@ country_event = { # FRA Offer to invest in the suez project
 			modifier = {
 				factor = 0.1
 				OR={
-					TAG = PRS
-					TAG = SPA
+					TAG = GER
+					TAG = SPR
 					TAG = SWE
 					TAG = OTO
 				}
@@ -1243,8 +1243,8 @@ country_event = { # ETH - EGY offers shares in the suez canal
 			modifier = {
 				factor = 0.1
 				OR={
-					TAG = PRS
-					TAG = SPA
+					TAG = GER
+					TAG = SPR
 					TAG = SWE
 					TAG = OTO
 				}

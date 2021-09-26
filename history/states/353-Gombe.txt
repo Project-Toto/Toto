@@ -1,0 +1,13 @@
+state={
+	id=353
+	name="STATE_353"
+	provinces={
+		1712 2929 3799 3879 4719 5082 5843 6200 6282 8870 8926 8967 8998 9010 
+	}
+	history={
+		owner = ADM
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+}

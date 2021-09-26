@@ -1,0 +1,13 @@
+state={
+	id=328
+	name="STATE_328"
+	provinces={
+		5915 6205 6285 9266 
+	}
+	history={
+		owner = DAH
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+}

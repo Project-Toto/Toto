@@ -1,0 +1,13 @@
+state={
+	id=364
+	name="STATE_364"
+	provinces={
+		803 1048 1180 4898 5254 5338 6126 8657 8669 8674 8687 8695 8708 8715 8741 
+	}
+	history={
+		owner=SKT
+	}
+	state_category=town
+	manpower=1
+	buildings_max_level_factor=1.000
+}

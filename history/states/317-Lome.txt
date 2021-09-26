@@ -1,0 +1,13 @@
+state={
+	id=317
+	name="STATE_317"
+	provinces={
+		3248 6168 6234 7093 
+	}
+	history={
+		owner = TOG
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+}

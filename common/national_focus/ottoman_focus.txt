@@ -1399,7 +1399,7 @@ focus_tree = {
 		#	always = yes
 		#}
 		available={
-			PRS={
+			GER={
 				exists = yes
 				is_great_power = yes
 			}

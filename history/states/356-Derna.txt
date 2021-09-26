@@ -1,0 +1,13 @@
+state={
+	id=356
+	name="STATE_356"
+	provinces={
+		438 949 3954 3978 4910 6032 6312 7810 7813 7814 7821 
+	}
+	state_category=town
+	history={
+		owner=OTO
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+}

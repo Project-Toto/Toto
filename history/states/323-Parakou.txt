@@ -1,0 +1,13 @@
+state={
+	id=323
+	name="STATE_323"
+	provinces={
+		8 4408 5014 5553 7136 
+	}
+	history={
+		owner = BRG
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+}

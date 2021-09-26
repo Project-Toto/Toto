@@ -1,0 +1,13 @@
+state={
+	id=321
+	name="STATE_321"
+	provinces={
+		2998 6645 7250 9237 9257 
+	}
+	history={
+		owner = DAH
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+}

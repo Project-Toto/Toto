@@ -1,11 +1,15 @@
+
 state={
 	id=304
 	name="STATE_304"
-	provinces={
-		1593 2334 2720 3012 5397 5897 6105 7766 7788 
-	}
+
 	history={
 		owner = ALG
+
+	}
+
+	provinces={
+		1593 2334 2720 3003 3012 5397 5897 6105 7766 7788 7825 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

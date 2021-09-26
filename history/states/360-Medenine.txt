@@ -1,0 +1,14 @@
+
+state={
+	id=360
+	name="STATE_360"
+	provinces={
+		2058 4460 4627 7281 7834 10763 
+	}
+	history={
+		owner = TUN
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+}

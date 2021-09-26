@@ -1,0 +1,14 @@
+
+state={
+	id=334
+	name="STATE_334"
+	provinces={
+		1103 1291 1463 2656 3269 3372 3579 4259 4281 6369 6654 6759 9190 9200 9221 9243 9270 9293 9317 
+	}
+	history={
+		owner = IGA
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+}

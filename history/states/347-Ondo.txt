@@ -1,0 +1,13 @@
+state={
+	id=347
+	name="STATE_347"
+	provinces={
+		2686 2830 3211 4280 4678 5179 9247 9276 9297 9330 9331 9341 
+	}
+	history={
+		owner = BEN
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+}

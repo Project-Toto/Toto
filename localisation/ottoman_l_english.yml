@@ -189,7 +189,7 @@
  OTO_vic_industrial_reforms:0 "Industrial Reforms"
  OTO_events.3.t:0 "Questions about the Grand Vizers Pay"
  OTO_vic_learn_from_the_FRA_army:0 "Learn from the Army of the [FRA.GetName]"
- OTO_vic_learn_from_the_PRS_army:0 "Learn from the Army of the [PRS.GetName]"
+ OTO_vic_learn_from_the_PRS_army:0 "Learn from the Army of the [GER.GetName]"
  OTO_1858_land_code:0 "1858 Land Code"
  OTO_vic_start_of_the_tanzimat_reforms:0 "Continue the Tanzimat Reforms"
  OTO_vic_modernization_effort:0 "Modernization Effort"

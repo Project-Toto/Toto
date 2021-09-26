@@ -1,0 +1,14 @@
+
+state={
+	id=339
+	name="STATE_339"
+	provinces={
+		2730 9355 9390 9405 9419 9426 9438 9440 
+	}
+	history={
+		owner = IJW
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+}

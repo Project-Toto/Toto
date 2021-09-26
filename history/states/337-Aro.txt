@@ -1,0 +1,14 @@
+
+state={
+	id=337
+	name="STATE_337"
+	provinces={
+		81 3852 4129 4519 6059 9400 9416 9425 9431 
+	}
+	history={
+		owner = ARO
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+}

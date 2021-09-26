@@ -1,0 +1,13 @@
+state={
+	id=340
+	name="STATE_340"
+	provinces={
+		866 1876 2757 3968 4140 4254 4626 7164 7277 8826 8898 8922 8983 
+	}
+	history={
+		owner = SKT
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -5,7 +5,7 @@ state={
 		4096 4789 5533 6943 8476 8490 8496 8508 
 	}
 	history={
-		owner = TES
+		owner = SIN
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

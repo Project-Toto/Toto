@@ -1,0 +1,13 @@
+state={
+	id=318
+	name="STATE_318"
+	provinces={
+		1189 2215 3589 4971 5237 5543 6641 8885 8949 9018 
+	}
+	history={
+		owner = DGB
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+}

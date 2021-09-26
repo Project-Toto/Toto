@@ -1,11 +1,15 @@
+
 state={
 	id=264
 	name="STATE_264"
+
+	history={
+		owner = KAB
+
+	}
+
 	provinces={
 		205 1222 4290 7235 8580 
-	}
-	history={
-		owner = TES
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

@@ -2461,7 +2461,7 @@ focus_tree = {
 				FRA={
 					has_tech = rifle_equipment2
 				}
-				PRS={
+				GER={
 					has_tech = rifle_equipment2
 				}
 				AUS={
@@ -2478,14 +2478,14 @@ focus_tree = {
 		completion_reward = {
 			if={
 				limit={
-					PRS={
+					GER={
 						has_tech = rifle_equipment2
 					}
 				}
 				add_equipment_to_stockpile = {
 					type = infantry_equipment_rifle_2
 					amount = 200
-					producer = PRS
+					producer = GER
 				}
 			}
 			else_if={

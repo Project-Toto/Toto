@@ -244,3 +244,7 @@
 		color = rgb { 200 130 80 }
 		color_ui = rgb { 200 130 80 }
 	}
+	LIB = {
+		color = rgb { 152 130 191 }
+		color_ui = rgb { 198 169 248 }
+	}

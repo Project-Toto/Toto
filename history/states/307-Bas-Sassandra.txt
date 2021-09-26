@@ -1,0 +1,14 @@
+
+state={
+	id=307
+	name="STATE_307"
+	provinces={
+		260 1511 2991 3512 4174 6390 6722 9360 9365 9375 9399 
+	}
+	history={
+		owner = FRA
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+}
