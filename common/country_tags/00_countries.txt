@@ -105,7 +105,7 @@
  SHW = "countries/Saharwi.txt"
  TJK = "countries/Tajakant.txt"
  RGT = "countries/Reguibat.txt"
- TKN = "countries/Tekna.txt"
+ TKA = "countries/Tekna.txt"
  KNT = "countries/Kunta.txt"
  ARR = "countries/Adrar.txt"
  BRN = "countries/Brakna.txt"
@@ -165,7 +165,6 @@
 	DAH = "countries/Dahomey.txt"
 	TUG = "countries/Tuareg.txt"
 	KBO = "countries/Kanem-Bornu.txt"
-	DMG = "countries/Damagaram.txt"
 	BEN = "countries/Benin.txt"
 	DMG = "countries/Damagara.txt"
 	

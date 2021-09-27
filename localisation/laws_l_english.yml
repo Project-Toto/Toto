@@ -1,6 +1,6 @@
 ﻿l_english:
- law_country:0 "State Attributes"
- law_country_desc:0 ""
+ law_country_defines:0 "State Attributes"
+ law_country_defines_desc:0 ""
   law_country_power:0 "State Rank"
   law_country_power_desc:0 ""
    law_country_power_irrelevant:0 "Irrelevant Power"

@@ -1,0 +1,91 @@
+ideas = {
+# State Status
+	law_country_prosperity = {
+		law_country_prosperity_very_prosperous = {
+			picture = filler
+			allowed = { always = yes }
+			available = { always = yes }
+			level = 4
+		}
+		law_country_prosperity_prosperous = {
+			picture = filler
+			allowed = { always = yes }
+			available = { always = yes }
+			level = 3
+		}
+		law_country_prosperity_stable = {
+			picture = filler
+			allowed = { always = yes }
+			available = { always = yes }
+			level = 2
+			default = yes
+		}
+		law_country_prosperity_devastated = {
+			picture = filler
+			allowed = { always = yes }
+			available = { always = yes }
+			level = 1
+		}
+		law_country_prosperity_very_devastated = {
+			picture = filler
+			allowed = { always = yes }
+			available = { always = yes }
+			level = 0
+		}
+	}
+
+	law_country_population = {
+		law_country_population_unprecedented_growth = {
+			picture = filler
+			allowed = { always = yes }
+			available = { always = no }
+			level = 3
+		}
+		law_country_population_growth = {
+			picture = filler
+			allowed = { always = yes }
+			available = { always = yes }
+			level = 2
+		}
+		law_country_population_stable = {
+			picture = filler
+			allowed = { always = yes }
+			available = { always = yes }
+			level = 1
+			default = yes
+		}
+		law_country_population_decline = {
+			picture = filler
+			allowed = { always = yes }
+			available = { always = yes }
+			level = 0
+		}
+	}
+	law_country_centralization = {
+		law_country_centralization_expanding_administration = {
+			picture = filler
+			allowed = { always = yes }
+			available = { always = yes }
+			level = 3
+		}
+		law_country_centralization_stable = {
+			picture = filler
+			allowed = { always = yes }
+			available = { always = yes }
+			level = 2
+			default = yes
+		}
+		law_country_centralization_decentralization = {
+			picture = filler
+			allowed = { always = yes }
+			available = { always = yes }
+			level = 1
+		}
+		law_country_centralization_rapid_decentralization = {
+			picture = filler
+			allowed = { always = yes }
+			available = { always = yes }
+			level = 0
+		}
+	}
+}

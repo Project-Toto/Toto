@@ -17,7 +17,7 @@ idea_categories = {
 		ledger = hidden
 	}
 
-	law_country = {
+	law_country_defines = {
 		slot = law_country_power
 		slot = law_country_religion
 		slot = law_country_culture
@@ -31,32 +31,56 @@ idea_categories = {
 		ledger = civilian
 	}
 
-	law_laws = {
-		slot = economy
-		slot = trade_laws
-		slot = mobilization_laws
-		slot = economic_mobilization
-		slot = land_property
+	law_country_status = {
+		slot = law_country_prosperity
+		slot = law_country_population
+		slot = law_country_centralization
 
-		cost = 999
+		cost = 1000
 		removal_cost = 0
+		ledger = civilian
+	}
+
+	law_country_laws = {
+		slot = law_country_economy
+		slot = law_country_trade
+		slot = law_country_worker
+		slot = law_country_tax
+		slot = law_country_education
+		slot = law_country_property
+
+		cost = 1000
+		removal_cost = 0
+		ledger = civilian
+	}
+
+	law_country_court = {
+		slot = court_advisor
+		slot = court_advisor
+		slot = court_advisor
+		slot = court_advisor
+		slot = court_advisor
+		slot = court_advisor
+
+		cost = 1000
+		removal_cost = 150
 
 		ledger = civilian
 	}
 
-	law_court = {
-		slot = court_advisor
-		slot = court_advisor
-		slot = court_advisor
-		slot = court_advisor
-		slot = court_advisor
-		slot = court_advisor
 
-		cost = 999
-		removal_cost = 0
+	# law_country_laws = {
+	# 	slot = economy
+	# 	slot = trade_laws
+	# 	slot = mobilization_laws
+	# 	slot = economic_mobilization
+	# 	slot = land_property
 
-		ledger = civilian
-	}
+	# 	cost = 999
+	# 	removal_cost = 0
+
+	# 	ledger = civilian
+	# }
 }
 	#
 		# government = {

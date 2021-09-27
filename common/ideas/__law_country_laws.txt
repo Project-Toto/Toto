@@ -1,0 +1,51 @@
+ideas = {
+# State Laws
+	law_country_economy = {
+		law_country_economy_filler = {
+			picture = filler
+			allowed = { always = yes }
+			available = { always = yes }
+			level = 0
+		}
+	}
+	law_country_trade = {
+		law_country_trade_filler = {
+			picture = filler
+			allowed = { always = yes }
+			available = { always = yes }
+			level = 0
+		}
+	}
+	law_country_worker = {
+		law_country_worker_filler = {
+			picture = filler
+			allowed = { always = yes }
+			available = { always = yes }
+			level = 0
+		}
+	}
+	law_country_tax = {
+		law_country_tax_filler = {
+			picture = filler
+			allowed = { always = yes }
+			available = { always = yes }
+			level = 0
+		}
+	}
+	law_country_education = {
+		law_country_education_filler = {
+			picture = filler
+			allowed = { always = yes }
+			available = { always = yes }
+			level = 0
+		}
+	}
+	law_country_property = {
+		law_country_property_filler = {
+			picture = filler
+			allowed = { always = yes }
+			available = { always = yes }
+			level = 0
+		}
+	}
+}

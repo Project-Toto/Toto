@@ -1,13 +1,13 @@
 ﻿l_english:
- :0 "NAME"
- _DEF:0 "NAME"
- _ADJ:0 "NAMEADJ"
- _autonomy_ottoman_eyalet:0 "NAMEADJ Eyalet"
- _autonomy_ottoman_eyalet_DEF:0 "the Eyalet of NAME"
- _autonomy_ottoman_eyalet_ADJ:0 "NAMEADJ"
- _autonomy_ottoman_khedive:0 "NAMEADJ Khedive"
- _autonomy_ottoman_khedive_DEF:0 "the Khedive of NAME"
- _autonomy_ottoman_khedive_ADJ:0 "NAMEADJ"
+ TAG:0 "NAME"
+ TAG_DEF:0 "NAME"
+ TAG_ADJ:0 "NAMEADJ"
+ TAG_autonomy_ottoman_eyalet:0 "NAMEADJ Eyalet"
+ TAG_autonomy_ottoman_eyalet_DEF:0 "the Eyalet of NAME"
+ TAG_autonomy_ottoman_eyalet_ADJ:0 "NAMEADJ"
+ TAG_autonomy_ottoman_khedive:0 "NAMEADJ Khedive"
+ TAG_autonomy_ottoman_khedive_DEF:0 "the Khedive of NAME"
+ TAG_autonomy_ottoman_khedive_ADJ:0 "NAMEADJ"
 # Non-Player Tags
  TES:0 "Africa"
  TES_DEF:0 "Africa"
@@ -239,15 +239,6 @@
 
 # Hejaz
 # Arabia
-:0 "NAME"
- _DEF:0 "NAME"
- _ADJ:0 "NAMEADJ"
- _autonomy_ottoman_eyalet:0 "NAMEADJ Eyalet"
- _autonomy_ottoman_eyalet_DEF:0 "the Eyalet of NAME"
- _autonomy_ottoman_eyalet_ADJ:0 "NAMEADJ"
- _autonomy_ottoman_khedive:0 "NAMEADJ Khedive"
- _autonomy_ottoman_khedive_DEF:0 "the Khedive of NAME"
- _autonomy_ottoman_khedive_ADJ:0 "NAMEADJ"
  BHR:0 "Bahrain"
  BHR_DEF:0 "Bahrain"
  BHR_ADJ:0 "Bahraini"
