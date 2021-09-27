@@ -5,7 +5,7 @@ state={
 		14 181 254 294 1496 1588 2705 3398 3434 3840 4565 5039 8145
 	}
 	history={
-		owner = ARR
+		owner = RGT
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

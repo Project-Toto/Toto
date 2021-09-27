@@ -11,10 +11,10 @@ focus_tree = {
 	}
 	continuous_focus_position = {x = 2650 y = 1600 }
 
-	
+
 	default = no
-	
-	
+
+
 	# # Tewodros is dead
 	# focus = {
 		# id = ETH_tewodros_dead
@@ -61,7 +61,7 @@ focus_tree = {
 			set_country_flag = afr_prosperity_mechanic_dont_select_flag
 		}
 	}
-	
+
 	focus = {
 		id = ETH_clear_space_for_industry
 		icon = GFX_goal_generic_construction2
@@ -97,7 +97,7 @@ focus_tree = {
 		}
 
 	}
-	
+
 	focus = {
 		id = ETH_reforming_regional_power_regional_industry
 		icon = GFX_goal_continuous_research
@@ -135,7 +135,7 @@ focus_tree = {
 			}
 		}
 		prerequisite = { focus = ETH_clear_space_for_industry }
-		
+
 		completion_reward = {
 			if = {
 				limit = { afr_is_tribal = no }
@@ -178,7 +178,7 @@ focus_tree = {
 			}
 		}
 	}
-	
+
 	focus = {
 		id = ETH_reforming_regional_power_regional_industry_completed
 		icon = GFX_focus_focus_generic_industry_1
@@ -201,7 +201,7 @@ focus_tree = {
 			}
 		}
 	}
-	
+
 	focus = {
 		id = ETH_reforming_regional_power_regional_resources
 		icon = GFX_goal_continuous_non_factory_construct
@@ -3216,7 +3216,7 @@ focus_tree = {
 				}
 				release_autonomy = {
 					target = ORO
-					autonomy_state = autonomy_puppet
+					autonomy_state = autonomy_modern_puppet
 					freedom_level = 0.5
 				}
 			}
@@ -3291,7 +3291,7 @@ focus_tree = {
 				}
 				release_autonomy = {
 					target = SID
-					autonomy_state = autonomy_puppet
+					autonomy_state = autonomy_modern_puppet
 					freedom_level = 0.5
 				}
 			}

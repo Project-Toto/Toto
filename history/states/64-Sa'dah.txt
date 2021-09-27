@@ -6,7 +6,7 @@ state={
 		753 831 1333 1366 1514 1562 2078 2532 2667 2950 3065 3413 3611 4353 4698 5434 6482 8155 8161 8167 8171 8176 8184 8185
 	}
 	history={
-		owner = ZAI
+		owner = ZID
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

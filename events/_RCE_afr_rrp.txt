@@ -1802,7 +1802,7 @@ country_event = {
 				FROM = {
 					set_autonomy = {
 						target = ROOT
-						autonomy_state = autonomy_puppet
+						autonomy_state = autonomy_modern_puppet
 						freedom_level = 0.3
 					}
 				}
@@ -1920,7 +1920,7 @@ country_event = {
 				FROM = {
 					set_autonomy = {
 						target = ROOT
-						autonomy_state = autonomy_puppet
+						autonomy_state = autonomy_modern_puppet
 						freedom_level = 0.3
 					}
 				}

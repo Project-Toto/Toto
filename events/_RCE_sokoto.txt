@@ -582,7 +582,7 @@ country_event = {
 				FROM = {
 					set_autonomy = {
 						target = ROOT
-						autonomy_state = autonomy_puppet
+						autonomy_state = autonomy_modern_puppet
 						freedom_level = 0.5
 					}
 				}
@@ -726,7 +726,7 @@ country_event = {
 				FROM = {
 					set_autonomy = {
 						target = ROOT
-						autonomy_state = autonomy_puppet
+						autonomy_state = autonomy_modern_puppet
 						freedom_level = 0.3
 					}
 				}
@@ -1204,7 +1204,7 @@ country_event = {
 		picture = GFX_report_event_chinese_army_training
 
 		is_triggered_only = yes
-		
+
 		immediate = {
 			if = {
 				limit = { NOT = { has_global_flag = SKT_joint_invasion_bagirmi_6_flag } }
@@ -1264,7 +1264,7 @@ country_event = {
 			# 	SKT = { remove_state_claim = 860 }
 			# }
 		}
-		
+
 		option = {
 			name = SKT_joint_invasion_bagirmi.6.b
 			trigger = { TAG = WDD }

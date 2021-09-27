@@ -5,7 +5,7 @@ state={
 		259 707 887 2064 6143 8097 
 	}
 	history={
-		owner = MOR
+		owner = TJK
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

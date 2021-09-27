@@ -1,14 +1,26 @@
 ﻿l_english:
- autonomy_dominion:0 "Dominion"
- autonomy_supervised_state:0 "Supervised State"
- autonomy_colony:0 "Colony"
- autonomy_puppet:0 "Puppet"
- autonomy_integrated_puppet:0 "Integrated Puppet"
- autonomy_annex:0 "Annexed"
- autonomy_free:0 "Free"
- autonomy_ottoman_eyalet:0 "Eyalet"
- autonomy_ottoman_khedive:0 "Khedive"
- autonomy_protectorate:0 "Protectorate"
+  autonomy_annex:0 "Annexed"
+  autonomy_free:0 "Free"
+  add_autonomy_score_on_start_loc:0 "Autonomy"
+ # Ottoman
+  autonomy_ottoman_eyalet:0 "Eyalet"
+  autonomy_ottoman_khedive:0 "Khedive"
+ # Empire
+  afr_empire_politics_subject_autonomy_level_none:0 "Subject"
+  autonomy_afr_empire_level_1:0 "Integrated Vassal"
+  autonomy_afr_empire_level_2:0 "Autonomous Vassal"
+  autonomy_afr_empire_level_3:0 "Regional Authority"
+  autonomy_afr_empire_level_4:0 "Tributary"
+ # Colonial
+   autonomy_afr_colony:0 "Colony"
+  autonomy_afr_dominion:0 "Dominion"
+  autonomy_afr_colonial_company:0 "Colonial Company"
+  autonomy_afr_protectorate:0 "Protectorate"
+ # Modern
+  autonomy_modern_supervised_state:0 "Supervised State"
+  autonomy_modern_puppet:0 "Puppet"
+  autonomy_modern_integrated_puppet:0 "Integrated Puppet"
+ # Interface
  AUTONOMY_CAN_TAKE_DESC:1 "$OWNER|UH$ can become a $NEXTLEVEL|H$"
  AUTONOMY_CANT_TAKE_DESC:1 "$OWNER|UH$ can not become a $NEXTLEVEL|H$ yet"
  AUTONOMY_CAN_LOSE_DESC:1 "$OWNER|UH$ can be reduced to a $PREVLEVEL|H$"
@@ -58,4 +70,4 @@
  CONSTRUCTION_MASTER_BUILDING_CANT_REDUCE:0 "§RWe are not allowed to reduce the level or cancel this construction.§!"
  CONSTRUCTION_INFO_MASTER:0 "This construction is built on the $WHO|H$ territory. If we don't use all factories, they can contribute using theirs."
  CONSTRUCTION_INFO_SUBJECT:0 "This construction is built for us by the $WHO|H$. If they don't use all factories, we can contribute using ours."
- 
+

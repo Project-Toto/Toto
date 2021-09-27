@@ -4,7 +4,7 @@ state={
 	name="STATE_232"
 
 	history={
-		owner = KAD
+		owner = KNT
 	}
 	provinces={
 		151 356 874 1143 2038 2217 2284 2355 2403 4392 5481 8124 

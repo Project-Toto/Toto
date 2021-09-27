@@ -2555,7 +2555,7 @@ defined_text = {
 	  ROOT = { is_subject_of = FROM }
 	  OR = {
 		ROOT = { has_autonomy_state = autonomy_afr_empire_level_4 }
-		ROOT = { has_autonomy_state = autonomy_puppet }
+		ROOT = { has_autonomy_state = autonomy_modern_puppet }
 	  }
     }
     localization_key = afr_empire_politics_annex_subject_decision_raise_autonomy_to_free
