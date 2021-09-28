@@ -1,0 +1,13 @@
+state={
+	id=369
+	name="STATE_369"
+	provinces={
+		1894 2649 5624 6617 8271 8284 8287 8289 
+	}
+	history={
+		owner=ADN
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+}

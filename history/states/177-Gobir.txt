@@ -1,0 +1,13 @@
+state={
+	id=177
+	name="STATE_177"
+	provinces={
+		42 416 574 1036 1547 1892 2810 2973 3122 3848 4675 5901 6249 6449 8522 8541 8551 8583 8597 8598 8614 8615 8618 
+	}
+	history={
+		owner=KBO
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+}

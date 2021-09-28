@@ -1,0 +1,13 @@
+state={
+	id=386
+	name="STATE_386"
+	provinces={
+		611 1306 1676 1826 3041 3165 4768 4901 5189 5874 6052 6794 6982 8713 8751 8838 8881 
+	}
+	history={
+		owner=MOS
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+}

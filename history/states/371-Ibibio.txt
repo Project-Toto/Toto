@@ -1,0 +1,13 @@
+state={
+	id=371
+	name="STATE_371"
+	provinces={
+		1782 1852 2216 2306 2717 4275 5824 9294 9300 9308 9313 9321 9326 9332 9346 9370 9378 
+	}
+	history={
+		owner=GBG
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+}

@@ -1,15 +1,11 @@
-
 state={
-	id=171
-	name="STATE_171"
-
-	history={
-		owner = KBO
-
-	}
-
+	id=354
+	name="STATE_354"
 	provinces={
-		3249 4946 5841 5875 8631 
+		83 593 2639 4742 4980 5913 8578 
+	}
+	history={
+		owner=KBO
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

@@ -1,0 +1,13 @@
+state={
+	id=370
+	name="STATE_370"
+	provinces={
+		2398 2568 5673 6080 6364 6566 7088 8582 8673 8684 8702 8744 8764 8781 8804 8826 
+	}
+	history={
+		owner=SKT
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+}

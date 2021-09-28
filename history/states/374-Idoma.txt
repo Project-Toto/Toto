@@ -1,11 +1,11 @@
 state={
-	id=341
-	name="STATE_341"
+	id=374
+	name="STATE_374"
 	provinces={
-		20 2254 4229 4610 5435 8994 9004 9019 9051 9055 9078 
+		1031 1463 1524 1539 2523 3269 3528 5531 6243 6344 6587 7273 9263 
 	}
 	history={
-		owner = SKT
+		owner=GBG
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
