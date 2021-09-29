@@ -9,18 +9,18 @@ set_technology = {
 add_ideas = {
 		#POLITICS
 
-		#hos_is_leader
-		pre_industrial_era
+		#
+		
 		agrarian
 		no_heir
 		absolute_monarchy
 	law_army_tribal_basic
 
-		civilian_economy
+		
 		closed_economy
 		one_percent
 		very_low_taxes
-	#cl_legal
+	#
 	lp_land_estates
 
 		stagnation_growth
@@ -36,11 +36,11 @@ add_ideas = {
 		state_religion
 	religion_sunni
 
-	 #hc_no_healthcare
-		#law_no_organized_force
-		#inframain_no_subsidies_infrastructure
-		#navinfra_no_naval_infrastructure
-		#sfund_private_ventures_only
+	 #
+		#
+		#
+		#
+		#
 
 				 #NATIONAL SPIRITS
 

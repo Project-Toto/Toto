@@ -14,19 +14,19 @@
 
 	add_ideas = {
 		#POLITICS
-			hos_is_leader
-			pre_industrial_era
+			
+			
 			agrarian
 			no_heir
 			absolute_monarchy
 			law_army_tribal_basic
 
 			#Economic
-				civilian_economy
+				
 				closed_economy
 				one_percent
 				very_low_taxes
-				#cl_legal
+				#
 				lp_tribal_communalism
 
 			#Population
@@ -48,7 +48,7 @@
 				religion_animist
 
 			#Budget
-				#law_no_organized_force
+				#
 
 		#NATIONAL SPIRITS
 			AF_T_unorganized_tribal_nation

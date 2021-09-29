@@ -18,18 +18,18 @@
 	add_ideas = {
 		#POLITICS
 
-		hos_is_leader
-		pre_industrial_era
+		
+		
 		agrarian
 		non_monarchical_system
 		chiefdom
 	law_army_tribal_basic
 
-		civilian_economy
+		
 		limited_exports
 		one_percent
 		very_low_taxes
-	#cl_legal
+	#
 	lp_tribal_communalism
 
 		stagnation_growth
@@ -45,11 +45,11 @@
 		theocratic_state
 	religion_sunni
 
-	 #hc_no_healthcare
+	 #
 		law_mercenary_groups
-		#inframain_no_subsidies_infrastructure
-		#navinfra_no_naval_infrastructure
-		#sfund_private_ventures_only
+		#
+		#
+		#
 
 				 #NATIONAL SPIRITS
 			AF_T_nomadic_tribal_nation

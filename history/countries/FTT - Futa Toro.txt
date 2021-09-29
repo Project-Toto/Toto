@@ -17,18 +17,18 @@
 	add_ideas = {
 		#POLITICS
 
-		hos_is_leader
-		pre_industrial_era
+		
+		
 		agrarian
 		weak_heir
 		absolute_monarchy
 	law_army_tribal_improved
 
-		civilian_economy
+		
 		closed_economy
 		one_percent
 		very_low_taxes
-	#cl_legal
+	#
 	lp_land_estates
 
 		stagnation_growth
@@ -44,11 +44,11 @@
 		theocratic_state
 	religion_sunni
 
-	 #hc_no_healthcare
-		law_police_force
-		#inframain_no_subsidies_infrastructure
-		#navinfra_no_naval_infrastructure
-		#sfund_private_ventures_only
+	 #
+		
+		#
+		#
+		#
 
 				 #NATIONAL SPIRITS
 
