@@ -5,7 +5,7 @@ state={
 	provinces={
 		1743 2775 4503 7104 9285 9309 
 	}
-	history={
+	history={ afr_state_setup_scripted_effect = yes
 		owner = LIB
 	}
 	manpower=1

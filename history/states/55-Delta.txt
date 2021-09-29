@@ -3,7 +3,7 @@ state={
 	id=55
 	name="STATE_55"
 
-	history={
+	history={ afr_state_setup_scripted_effect = yes
 		owner = EGY
 
 	}

@@ -6,7 +6,7 @@ state={
 		376 479 628 738 773 873 1073 1137 1315 1546 1992 2303 3085 3484 3533 3665 3671 3914 3974 3984 5936 6137 6263 6600 6824 9562 9633 9654 10779 
 	}
 	state_category=town
-	history={
+	history={ afr_state_setup_scripted_effect = yes
 		owner=TES
 	}
 	manpower=1

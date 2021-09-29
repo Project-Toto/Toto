@@ -6,7 +6,7 @@ state={
 		845 1606 2390 3892 3957 4515 6741 6814 7848 7853
 	}
 	state_category=town
-	history={
+	history={ afr_state_setup_scripted_effect = yes
 		owner=OTO
 	}
 	manpower=1

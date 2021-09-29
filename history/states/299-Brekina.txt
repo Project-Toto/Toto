@@ -4,7 +4,7 @@ state={
 	provinces={
 		90 312 317 363 418 3113 7851 
 	}
-	history={
+	history={ afr_state_setup_scripted_effect = yes
 		owner = ALG
 	}
 	manpower=1

@@ -503,20 +503,20 @@ afr_state_setup_scripted_effect= {
 	if = {
 		limit = { has_start_date < 1858.1.1 }
 		set_state_flag = afr_state_setup_1857
-		if = {
-			limit = {
-				OR = {
-					STATE = 873
-					STATE = 1218
-					STATE = 1383
-					STATE = 1284
-					STATE = 805
-					STATE = 855
-				}
-			}
-			set_state_flag = AFR_islamic_frontier_ribat
-			set_state_flag = SKT_islamic_frontier_ribat
-		}
+		#if = {
+		#	limit = {
+		#		OR = {
+		#			STATE = 873
+		#			STATE = 1218
+		#			STATE = 1383
+		#			STATE = 1284
+		#			STATE = 805
+		#			STATE = 855
+		#		}
+		#	}
+		#	set_state_flag = AFR_islamic_frontier_ribat
+		#	set_state_flag = SKT_islamic_frontier_ribat
+		#}
 	}
 }
 

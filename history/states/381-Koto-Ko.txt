@@ -4,7 +4,7 @@ state={
 	provinces={
 		4325 5929 6319 
 	}
-	history={
+	history={ afr_state_setup_scripted_effect = yes
 		owner=KBO
 	}
 	manpower=1

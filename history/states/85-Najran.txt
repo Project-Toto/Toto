@@ -5,7 +5,7 @@ state={
 	provinces={
 		248 484 532 598 776 1622 1861 2145 2384 2788 4007 4857 5184 5282 6762 8103 8129 8130 8131 8140 
 	}
-	history={
+	history={ afr_state_setup_scripted_effect = yes
 		owner = ZID
 	}
 	manpower=1

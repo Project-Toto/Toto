@@ -6,7 +6,7 @@ state={
 		1434 2961 3348 5171 5194 5608 7144 8528 8611 
 	}
 	state_category=town
-	history={
+	history={ afr_state_setup_scripted_effect = yes
 		owner=MSN
 	}
 	manpower=1

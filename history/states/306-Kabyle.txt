@@ -3,7 +3,7 @@ state={
 	id=306
 	name="STATE_306"
 
-	history={
+	history={ afr_state_setup_scripted_effect = yes
 		owner = ALG
 		add_core_of = KBY
 

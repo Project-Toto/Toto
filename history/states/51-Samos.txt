@@ -4,7 +4,7 @@ state={
 	provinces={
 		6436 7564 10718 10722 10726
 	}
-	history={
+	history={ afr_state_setup_scripted_effect = yes
 		owner = EUR
 	}
 	manpower=1

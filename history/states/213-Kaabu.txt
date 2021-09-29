@@ -6,7 +6,7 @@ state={
 		1442 1940 3663 3907 7020 8680 8711 8724 8747 8762 8769 8807
 	}
 	state_category=town
-	history={
+	history={ afr_state_setup_scripted_effect = yes
 		owner=FTJ
 	}
 	manpower=1

@@ -3,7 +3,7 @@ state={
 	id=274
 	name="STATE_274"
 
-	history={
+	history={ afr_state_setup_scripted_effect = yes
 		owner = KRU
 
 	}

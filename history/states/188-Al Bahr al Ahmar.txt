@@ -5,7 +5,7 @@ state={
 		48 99 610 798 982 1550 1790 2050 2113 2953 3536 3821 4221 4950 5431 5912 7070 
 	}
 	state_category=town
-	history={
+	history={ afr_state_setup_scripted_effect = yes
 		owner=EGY
 	}
 	manpower=1

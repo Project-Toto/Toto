@@ -5,7 +5,7 @@ state={
 	provinces={
 		1666 4977 5792 6618 9117 
 	}
-	history={
+	history={ afr_state_setup_scripted_effect = yes
 		owner = GRM
 	}
 	manpower=1

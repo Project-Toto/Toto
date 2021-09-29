@@ -4,7 +4,7 @@ state={
 	provinces={
 		632 924 953 1735 1833 2088 2441 5111 5477 6953 
 	}
-	history={
+	history={ afr_state_setup_scripted_effect = yes
 		owner = TGN
 	}
 	manpower=1

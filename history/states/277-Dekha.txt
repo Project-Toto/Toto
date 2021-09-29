@@ -4,7 +4,7 @@ state={
 	provinces={
 		259 707 887 2064 6143 8097 
 	}
-	history={
+	history={ afr_state_setup_scripted_effect = yes
 		owner = TJK
 	}
 	manpower=1

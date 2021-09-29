@@ -5,7 +5,7 @@ state={
 	provinces={
 		43 1473 4133 6113 6265 6509 8160 8166 8174 8175 8177 8183 8186 8190 
 	}
-	history={
+	history={ afr_state_setup_scripted_effect = yes
 		owner = QTI
 	}
 	manpower=1

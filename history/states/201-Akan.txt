@@ -3,7 +3,7 @@ state={
 	id=201
 	name="STATE_201"
 
-	history={
+	history={ afr_state_setup_scripted_effect = yes
 		owner = AKA
 
 	}

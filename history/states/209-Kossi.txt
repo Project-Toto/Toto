@@ -5,7 +5,7 @@ state={
 		880 4932 6672 8712 8740 8754 8832 
 	}
 	state_category=town
-	history={
+	history={ afr_state_setup_scripted_effect = yes
 		owner=KDG
 	}
 	manpower=1

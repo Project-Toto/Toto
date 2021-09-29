@@ -4,7 +4,7 @@ state={
 	provinces={
 		966 2566 2951 4212 5702 5783 9149 9179 9203 
 	}
-	history={
+	history={ afr_state_setup_scripted_effect = yes
 		owner = SKT
 	}
 	manpower=1

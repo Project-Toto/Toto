@@ -5,7 +5,7 @@ state={
 	provinces={
 		2514 6324 6361 7329 7330 7334 7358 7370 7377 
 	}
-	history={
+	history={ afr_state_setup_scripted_effect = yes
 		owner = KLT
 	}
 	manpower=1

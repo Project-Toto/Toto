@@ -3,7 +3,7 @@ state={
 	id=242
 	name="STATE_242"
 
-	history={
+	history={ afr_state_setup_scripted_effect = yes
 		owner = MOR
 
 	}

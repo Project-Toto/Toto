@@ -3,7 +3,7 @@ state={
 	id=284
 	name="STATE_284"
 
-	history={
+	history={ afr_state_setup_scripted_effect = yes
 		owner = GAO
 
 	}

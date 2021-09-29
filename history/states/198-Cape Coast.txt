@@ -5,7 +5,7 @@ state={
 		3633 4817 5454 5641 6714 9386 9396 
 	}
 	state_category=town
-	history={
+	history={ afr_state_setup_scripted_effect = yes
 		owner=HOL
 	}
 	manpower=1

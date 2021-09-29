@@ -4,7 +4,7 @@ state={
 	provinces={
 		782 1727 2821 3156 3331 6003 6096 
 	}
-	history={
+	history={ afr_state_setup_scripted_effect = yes
 		owner = HIL
 	}
 	manpower=1

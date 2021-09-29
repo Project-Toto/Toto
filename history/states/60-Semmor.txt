@@ -6,7 +6,7 @@ state={
 	provinces={
 		784 1226 1661 1941 2239 2456 2826 3262 4224 4897 5357 6447 6465 7121 8050 8060
 	}
-	history={
+	history={ afr_state_setup_scripted_effect = yes
 		owner = TKA
 	}
 	manpower=1

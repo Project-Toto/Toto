@@ -4,7 +4,7 @@ state={
 	provinces={
 		2331 3915 6059 9380 
 	}
-	history={
+	history={ afr_state_setup_scripted_effect = yes
 		owner=IGA
 	}
 	manpower=1

@@ -3,7 +3,7 @@ state={
 	id=64
 	name="STATE_64"
 
-	history={
+	history={ afr_state_setup_scripted_effect = yes
 		owner = ZID
 
 	}

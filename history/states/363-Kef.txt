@@ -4,7 +4,7 @@ state={
 	provinces={
 		659 1739 4164 5136 5468 6725 7687 7693 7718 
 	}
-	history={
+	history={ afr_state_setup_scripted_effect = yes
 		owner = TUN
 	}
 	manpower=1

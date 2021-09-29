@@ -6,7 +6,7 @@ state={
 		1793 2463 2624 2697 2952 3645 4243 5163 5905 6420 6427 6593 6614 7173 7307 7343 7365 7368 7384 10706 10707 
 	}
 	state_category=town
-	history={
+	history={ afr_state_setup_scripted_effect = yes
 		owner=OTO
 	}
 	manpower=1

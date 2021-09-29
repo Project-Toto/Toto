@@ -5,7 +5,7 @@ state={
 	provinces={
 		1275 2416 3408 5527 8435 8454 8460 
 	}
-	history={
+	history={ afr_state_setup_scripted_effect = yes
 		owner = BAO
 	}
 	manpower=1

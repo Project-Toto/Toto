@@ -4,7 +4,7 @@ state={
 	provinces={
 		1617 1628 2915 3030 3735 4273 4643 5584 5793 6017 9339 9348 9356 9358 9379 9398 9421 9434 
 	}
-	history={
+	history={ afr_state_setup_scripted_effect = yes
 		owner=TES
 	}
 	manpower=1

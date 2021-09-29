@@ -4,7 +4,7 @@ state={
 	provinces={
 		3996 5679 5924 
 	}
-	history={
+	history={ afr_state_setup_scripted_effect = yes
 		owner = ARO
 	}
 	manpower=1

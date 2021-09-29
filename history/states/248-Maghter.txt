@@ -4,7 +4,7 @@ state={
 	provinces={
 		14 181 254 294 1496 1588 2705 3398 3434 3840 4565 5039 8145
 	}
-	history={
+	history={ afr_state_setup_scripted_effect = yes
 		owner = RGT
 	}
 	manpower=1

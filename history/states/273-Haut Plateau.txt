@@ -4,7 +4,7 @@ state={
 	provinces={
 		643 1952 3946 4667 5012 6904 7211 7289 9256 9260 9271 9318 9344 
 	}
-	history={
+	history={ afr_state_setup_scripted_effect = yes
 		owner = KRU
 	}
 	manpower=1

@@ -6,7 +6,7 @@ state={
 		1990 6729 9542 9545 
 	}
 	state_category=town
-	history={
+	history={ afr_state_setup_scripted_effect = yes
 		owner=TES
 	}
 	manpower=1

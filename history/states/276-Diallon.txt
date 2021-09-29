@@ -5,7 +5,7 @@ state={
 	provinces={
 		1575 2027 3617 4975 6067 6078 7106 7138 8707 8763 8869 8880 8890 8924 
 	}
-	history={
+	history={ afr_state_setup_scripted_effect = yes
 		owner = FTJ
 	}
 	manpower=1

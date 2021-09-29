@@ -1,0 +1,96 @@
+﻿1857.1.1 = {
+	capital = 178
+
+	oob = "Africa_1857"
+
+	set_convoys = 0
+	
+	set_research_slots = 1
+	
+	set_technology = {
+		tribaltech = 1
+		start_build_tech = 1
+		tribal_weapons = 1
+		tribal_tatics = 1
+		tribal_riding = 1
+		tribal_gunpowder = 1
+		tech_camel_cavalry = 1
+	}
+
+	add_ideas = { 
+		#POLITICS 
+			
+		hos_is_leader
+		pre_industrial_era
+		agrarian
+		no_heir
+		absolute_monarchy
+	law_army_tribal_basic
+
+		civilian_economy
+		closed_economy
+		one_percent
+		very_low_taxes
+	#cl_legal
+	lp_tribal_communalism
+
+		stagnation_growth
+		no_borders
+		manpower_tribal_warriors
+		tribal_slavery
+		absolutism
+
+		no_constitution
+		no_elections
+
+		oral_tradition
+		state_religion
+	religion_animist
+
+	 #hc_no_healthcare
+		#law_no_organized_force
+		#inframain_no_subsidies_infrastructure
+		#navinfra_no_naval_infrastructure
+		#sfund_private_ventures_only
+
+				 #NATIONAL SPIRITS
+		
+			AF_T_small_kingdom
+
+	
+	}
+	
+	#Rivals 
+	#set_variable = { rival_country = SKT.id }
+	#Favored
+	#set_variable = { most_favoured_country = SNS.id }
+
+
+
+	#Diplomacy
+	add_opinion_modifier = { target = SKT modifier = AFR_fulani_jihad_conflict }
+
+set_politics = {
+	ruling_party = traditionalism
+	last_election = "1856.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	traditionalism = 60
+	fundamentalism = 20
+	reformism = 5
+	imperialism = 15
+}
+	
+
+	# POLITICAL LEADERS
+
+	create_country_leader = {
+		name = "Ahmad al-Raffa ibn Muhammad Guma"
+		desc = "POLITICS_TEMP_DESC"
+		picture = "gfx/leaders/Arabia/Tuareg_Generic_1.dds"
+		expire = 1891.12.31
+		ideology = despotism
+	}
+}

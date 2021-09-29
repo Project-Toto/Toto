@@ -4,7 +4,7 @@ state={
 	provinces={
 		463 512 1316 1667 3303 3485 3894 9194 9233 9242 
 	}
-	history={
+	history={ afr_state_setup_scripted_effect = yes
 		owner = ASH
 	}
 	manpower=1

@@ -108,13 +108,15 @@ set_popularities = {
 	imperialism = 5
 }
 
-create_country_leader = {
+# POLITICAL LEADERS
+
+	create_country_leader = {
 		name = "Muhammad II ibn al-Husayn"
 		desc = "POLITICS_GEORGE_V_DESC"
 		picture = "Portrait_TUN_Muhammad_II_ibn_al_Husayn.dds"
 		expire = "1900.1.1"
-		ideology = traditionalism_absolutism
+		ideology = despotism
 		traits = {
 
 		}
-}
+	}

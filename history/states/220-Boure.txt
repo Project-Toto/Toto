@@ -6,7 +6,7 @@ state={
 		241 860 1626 3509 3964 4420 4939 5555 6524 8704 8748 8779 8819 8884 8896 
 	}
 	state_category=town
-	history={
+	history={ afr_state_setup_scripted_effect = yes
 		owner=BAM
 	}
 	manpower=1

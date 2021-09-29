@@ -4,7 +4,7 @@ state={
 	provinces={
 		2974 6650 8921 8958 8990 
 	}
-	history={
+	history={ afr_state_setup_scripted_effect = yes
 		owner = BRG
 	}
 	manpower=1

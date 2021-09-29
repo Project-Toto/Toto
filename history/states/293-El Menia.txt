@@ -5,7 +5,7 @@ state={
 	provinces={
 		12662 12671
 	}
-	history={
+	history={ afr_state_setup_scripted_effect = yes
 		owner = ASS
 	}
 	impassable= yes

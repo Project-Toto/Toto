@@ -6,7 +6,7 @@ state={
 		7574 7596
 	}
 	state_category=town
-	history={
+	history={ afr_state_setup_scripted_effect = yes
 		owner=RKH
 	}
 	manpower=1

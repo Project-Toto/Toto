@@ -4,7 +4,7 @@ state={
 	provinces={
 		4798 4825 4846 9411 9412 9430 
 	}
-	history={
+	history={ afr_state_setup_scripted_effect = yes
 		owner = IJW
 	}
 	manpower=1

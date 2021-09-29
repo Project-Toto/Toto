@@ -5,7 +5,7 @@ state={
 	provinces={
 		260 1511 2991 3512 4174 6390 6722 9360 9365 9375 9399 
 	}
-	history={
+	history={ afr_state_setup_scripted_effect = yes
 		owner = FRA
 	}
 	manpower=1

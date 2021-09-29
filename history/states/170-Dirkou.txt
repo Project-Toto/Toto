@@ -3,7 +3,7 @@ state={
 	id=170
 	name="STATE_170"
 
-	history={
+	history={ afr_state_setup_scripted_effect = yes
 		owner = TUG
 
 	}

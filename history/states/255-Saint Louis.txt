@@ -5,7 +5,7 @@ state={
 	provinces={
 		487 3950 4544 4582 8360 
 	}
-	history={
+	history={ afr_state_setup_scripted_effect = yes
 		owner = SNG
 	}
 	manpower=1

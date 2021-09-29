@@ -3,7 +3,7 @@ state={
 	id=355
 	name="STATE_355"
 
-	history={
+	history={ afr_state_setup_scripted_effect = yes
 		owner = DMG
 	}
 

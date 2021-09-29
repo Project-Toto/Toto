@@ -4,7 +4,7 @@ state={
 	provinces={
 		4772 9164 9196 9229 9230 9241 9246 
 	}
-	history={
+	history={ afr_state_setup_scripted_effect = yes
 		owner = OYO
 	}
 	manpower=1

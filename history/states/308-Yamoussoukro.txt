@@ -4,7 +4,7 @@ state={
 	provinces={
 		477 1019 3241 4862 5718 5881 6008 6545 9220 9232 9259 9296 9320 
 	}
-	history={
+	history={ afr_state_setup_scripted_effect = yes
 		owner = AKA
 	}
 	manpower=1

@@ -4,7 +4,7 @@ state={
 	provinces={
 		725 1609 2518 3770 4248 5693 7052 7949 7995 
 	}
-	history={
+	history={ afr_state_setup_scripted_effect = yes
 		owner = OTO
 	}
 	manpower=1

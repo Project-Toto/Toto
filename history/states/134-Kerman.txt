@@ -4,7 +4,7 @@ state={
 	provinces={
 		172 789 2275 3032 3564 3911 5557 5599 6186 6303 6491 7346 7364 
 	}
-	history={
+	history={ afr_state_setup_scripted_effect = yes
 		owner = PER
 	}
 	manpower=1

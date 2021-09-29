@@ -6,7 +6,7 @@ state={
 		557 922 976 1507 1921 2173 2460 3197 4269 4361 4674 5422 5724 6074 6961 8430 8443 8451 8468 8499 8502 
 	}
 	state_category=town
-	history={
+	history={ afr_state_setup_scripted_effect = yes
 		owner=KAA
 	}
 	manpower=1

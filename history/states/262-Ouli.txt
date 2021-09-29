@@ -4,7 +4,7 @@ state={
 	provinces={
 		142 553 1271 1697 4512 5378 5720 8486 
 	}
-	history={
+	history={ afr_state_setup_scripted_effect = yes
 		owner = FTT
 	}
 	manpower=1

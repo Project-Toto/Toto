@@ -4,7 +4,7 @@ state={
 	provinces={
 		3478 3960 3967 4754 5099 5181 6422 6681 7082 9066 9087 9125 9134 9144 9166 
 	}
-	history={
+	history={ afr_state_setup_scripted_effect = yes
 		owner = MNH
 	}
 	manpower=1

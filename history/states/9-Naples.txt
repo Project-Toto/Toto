@@ -5,7 +5,7 @@ state={
 		265 1369 2153 2171 3222 3417 3523 3608 3648 4938 4969 5285 5314 5403 5708 5857 5968 6297 6806 6813 6931 6976 7410 7434 7443 7445 7455 7508 7515 7519 7558
 	}
 	state_category=town
-	history={
+	history={ afr_state_setup_scripted_effect = yes
 		owner=EUR
 	}
 	manpower=1

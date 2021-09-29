@@ -6,7 +6,7 @@ state={
 		927 1144 1387 1759 1828 2076 3189 3311 3681 3706 3972 4607 4787 4976 5161 5832 6199 6718 6928 7592 7601 7603 7608 7613 7632 7645 
 	}
 	state_category=town
-	history={
+	history={ afr_state_setup_scripted_effect = yes
 		owner=HIL
 	}
 	manpower=1

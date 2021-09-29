@@ -4,7 +4,7 @@ state={
 	provinces={
 		185 648 1255 1602 2265 2557 2629 2822 2897 3453 3856 4153 6149 6253 
 	}
-	history={
+	history={ afr_state_setup_scripted_effect = yes
 		owner = SPR
 	}
 	manpower=1

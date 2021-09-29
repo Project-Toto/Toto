@@ -5,7 +5,7 @@ state={
 		162 196 529 2117 2805 2962 3535 5242 5503 6626 6840 6921 7240 7595 7602 7610 7622 7634 7638 7648
 	}
 	state_category=town
-	history={
+	history={ afr_state_setup_scripted_effect = yes
 		owner=OMA
 	}
 	manpower=1

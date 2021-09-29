@@ -5,7 +5,7 @@ state={
 	provinces={
 		2895 4236 6299 7134 7201 7209 7721 7764 7778 
 	}
-	history={
+	history={ afr_state_setup_scripted_effect = yes
 		owner = MOR
 	}
 	manpower=1

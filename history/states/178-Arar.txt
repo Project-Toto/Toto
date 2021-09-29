@@ -5,7 +5,7 @@ state={
 		2612 2858 3169 3605 4041 4908 5451 6138 6254 6609 6639 8473 8519 8532 8534 8558 8565 8587
 	}
 	state_category=town
-	history={
+	history={ afr_state_setup_scripted_effect = yes
 		owner=TUG
 	}
 	manpower=1
