@@ -29,6 +29,28 @@ bookmarks = {
 
 			}
 		}
+		"TOU"={
+			history = "TOU_GATHERING_STORM_DESC"
+			ideology = fundamentalism
+			ideas = {
+
+
+			}
+			focuses = {
+
+			}
+		}
+		"SKT"={
+			history = "SKT_GATHERING_STORM_DESC"
+			ideology = traditionalism
+			ideas = {
+
+
+			}
+			focuses = {
+
+			}
+		}
 		"EGY"={
 			history = "EGY_GATHERING_STORM_DESC"
 			ideology = traditionalism
