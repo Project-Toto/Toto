@@ -1,0 +1,67 @@
+# State Categories for Climate
+state_categories = {
+	state_category_climate_animist = {
+		# Animist
+		color = { 145 30 0 }
+	}
+	state_category_climate_fetishist = {
+		# Fetishist
+		color = { 80 51 33 }
+	}
+	state_category_climate_mossi = {
+		# MOssi
+		color = { 25 50 0 }
+	}
+	state_category_climate_zoroastrian = {
+		# Zoroastrian
+		color = { 100 103 7 }
+	}
+	state_category_climate_jewish = {
+		# Jewish
+		color = { 0 0 232 }
+	}
+	state_category_climate_catholic = {
+		# Catholic
+		color = { 204 204 0 }
+	}
+	state_category_climate_protestant = {
+		# Protestant
+		color = { 98 70 146}
+	}
+	state_category_climate_anglican = {
+		# Anglican
+		color = { 145 70 33 }
+	}
+	state_category_climate_orthodox = {
+		# Orthodox
+		color = { 102 49 3 }
+	}
+	state_category_climate_coptic = {
+		# Coptic
+		color = { 182 115 210 }
+	}
+	state_category_climate_druze = {
+		# Druze
+		color = { 255 130 8 }
+	}
+	state_category_climate_sunni = {
+		# Sunni
+		color = { 0 200 0 }
+	}
+	state_category_climate_shiite  = {
+		# Shiite
+		color = { 128 250 6 }
+	}
+	state_category_climate_ibadi = {
+		# Ibadi
+		color = { 0 110 55 }
+	}
+	state_category_climate_cult_of_personality = {
+		# Cult of Personality
+		color = { 60 60 66 }
+	}
+	state_category_climate_atheist = {
+		# Atheist
+		color = { 254 254 254 }
+	}
+}

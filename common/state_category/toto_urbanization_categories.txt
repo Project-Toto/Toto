@@ -1,0 +1,35 @@
+# State Categories for Urbanization
+state_categories = {
+	state_category_urbanization_extremely_rural = {
+		# 0% - 12.4%
+		color = { 250 40 30 }
+	}
+	state_category_urbanization_mostly_rural = {
+		# 12.5% - 24.9%
+		color = { 220 70 30 }
+	}
+	state_category_urbanization_very_rural = {
+		# 25% - 37.4%
+		color = { 190 100 30 }
+	}
+	state_category_urbanization_rural = {
+		# 37.5% - 49.9%
+		color = { 160 130 30 }
+	}
+	state_category_urbanization_urban = {
+		# 50% - 67.4%
+		color = { 130 160 30 }
+	}
+	state_category_urbanization_very_urban = {
+		# 67.5% - 74.9%
+		color = { 100 190 30 }
+	}
+	state_category_urbanization_most_urban = {
+		# 75% - 87.4 %
+		color = { 70 120 30 }
+	}
+	state_category_urbanization_extremely_urban = {
+		# 87.5% - 100%
+		color = { 40 150 30 }
+	}
+}

@@ -1,6 +1,11 @@
 ideas = {
 # State Laws
 	law_country_economy = {
+		
+
+
+
+
 		law_country_economy_filler = {
 			picture = filler
 			allowed = { always = yes }

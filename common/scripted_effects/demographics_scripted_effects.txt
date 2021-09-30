@@ -1,0 +1,27 @@
+# demographics_national_culture_update = {
+# 	clear_array = national_culture_array
+# 	clear_array = national_culture_population_array
+# 	clear_array = national_culture_percentage_array
+
+# 	every_owned_state = {
+# 		demographics_state_culture_update = yes
+# 		for_each_loop = {
+
+# 		}
+# 	}
+# }
+
+# demographics_state_culture_update = {
+# 	for_each_loop = {
+# 		array = state_culture_array_percentage
+
+# 	}
+# }
+
+# demographics_national_religion_update = {
+
+# }
+
+# demographics_state_religion_update = {
+
+# }

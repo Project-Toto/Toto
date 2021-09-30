@@ -86,6 +86,11 @@ ideas = {
 			picture = religion_fetishist
 			level = 0
 		}
+		law_country_religion_mossi = {
+			allowed = { always = yes }
+			picture = religion_mossi
+			level = 1
+		}
 		law_country_religion_zoroastrian = {
 			allowed = { always = yes }
 			picture = religion_zoroastrian

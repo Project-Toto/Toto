@@ -1,0 +1,21 @@
+enable_mapmode_religious = {
+	
+}
+enable_mapmode_ethnicity = {
+
+}
+
+enable_mapmode_climate = {
+
+}
+
+enable_mapmode_urbanization = {
+
+}
+
+enable_mapmode_autonomy = {
+
+}
+enable_mapmode_loyalty = {
+
+}
