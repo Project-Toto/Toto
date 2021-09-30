@@ -62,12 +62,12 @@ eoanb_category_politics_internal = {
 					desc = "POLITICS_GEORGE_V_DESC"
 					picture = "gfx/leaders/Africa/generic_leader_king_2.dds"
 					expire = "1910.1.1"
-					ideology = fundamentalism_islamist
+					ideology = fundamentalism_fundamentalism_absolutism
 					traits = { BMM_likes_germany }
 				}
 			}
 			if = {
-				limit = { has_government = chauvinist_populism }
+				limit = { has_government = imperialism }
 				create_country_leader = {
 					name = "Ibrahim Njoya"
 					desc = "POLITICS_GEORGE_V_DESC"

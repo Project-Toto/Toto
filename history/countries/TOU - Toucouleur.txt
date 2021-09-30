@@ -4,9 +4,9 @@
 	oob = "TOU_1857"
 
 	set_convoys = 0
-	
+
 	set_research_slots = 1
-	
+
 	set_technology = {
 		tribaltech = 1
 		traditional_mixed_arms = 1
@@ -14,17 +14,17 @@
 		tech_infantry_napoleonic_uniform = 1
 	}
 
-	add_ideas = { 
-		#POLITICS 
-			
-		
-		
+	add_ideas = {
+		#POLITICS
+
+
+
 		agrarian
 		weak_heir
 		absolute_monarchy
 	law_army_tribal_improved
 
-		
+
 		closed_economy
 		one_percent
 		very_low_taxes
@@ -45,21 +45,21 @@
 	religion_sunni
 
 	 #
-		
+
 		#
 		#
 		#
 
 				 #NATIONAL SPIRITS
-		
+
 	AF_T_small_kingdom
 	#TOU_toucouleur_jihad
 	AFR_history_of_colonial_resistance
-	
+
 	}
-	
+
 	TOU = { set_variable = { var = has_afr_empire_mechanic_system value = 1 } }
-	
+
 	#Puppets
 	if = {
 		limit = { OR = {
@@ -74,7 +74,7 @@
 				autonomy_state = autonomy_afr_empire_level_1
 				freedom_level = 0.2
 			}
-			KAA = { load_prevous_ideologies = yes }
+			KAA = { load_previous_ideologies = yes }
 		}
 	}
 	if = {
@@ -85,26 +85,26 @@
 		} } }
 		KAA = { store_current_ideologies = yes }
 		TOU = { puppet = KAA }
-		KAA = { load_prevous_ideologies = yes }
+		KAA = { load_previous_ideologies = yes }
 	}
-	KAA = { 
+	KAA = {
 		set_variable = { var = afr_empire_subject_overlord value = TOU.id }
 		set_variable = { var = KAA.afr_empire_subject_loyalty_varTOU value = 2 }
 		clamp_variable = { var = KAA.afr_empire_subject_loyalty_varTOU min = -1 max = 10 }
 	}
-	
-	
+
+
 	#Diplomacy
 		add_opinion_modifier = { target = FTT modifier = AFR_futa_islamic_jihad }
 		add_opinion_modifier = { target = FTJ modifier = AFR_futa_islamic_jihad }
-	
-	#Rivals 
+
+	#Rivals
 	#set_variable = { rival_country = SNG.id }
-	
+
 	#Favored
 	#set_variable = { most_favoured_country = FTJ.id }
 
-	
+
 
 TOU = {
 	add_manpower = 4000
@@ -144,7 +144,7 @@ set_popularities = {
 	imperialism = 15
 }
 
-	
+
 
 	# POLITICAL LEADERS
 
@@ -153,7 +153,7 @@ set_popularities = {
 		desc = "POLITICS_GEORGE_V_DESC"
 		picture = "Portrait_TOU_El_Hadj_Umar_Tall.dds"
 		expire = "1900.1.1"
-		ideology = islamist
+		ideology = fundamentalism_absolutism
 		traits = {
 
 		}

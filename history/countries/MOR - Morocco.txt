@@ -99,7 +99,7 @@ set_popularities = {
 	desc = "POLITICS_GEORGE_V_DESC"
 	picture = "Portrait_MOR_Abd_al_Rahman_ibn_Hisham.dds"
 	expire = "1859.8.28"
-	ideology = despotism
+	ideology = traditionalism_absolutism
 	traits = {
 
 	}

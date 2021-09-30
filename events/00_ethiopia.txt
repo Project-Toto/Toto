@@ -318,7 +318,7 @@ country_event = {
 				ETH = {
 					start_civil_war = {
 						ruling_party = PREV
-						ideology = chauvinist_populism
+						ideology = imperialism
 						size = 0.01
 						capital = 815
 						states = { 
@@ -341,7 +341,7 @@ country_event = {
 				ETH = {
 					start_civil_war = {
 						ruling_party = PREV
-						ideology = chauvinist_populism
+						ideology = imperialism
 						size = 0.01
 						capital = 815
 						states = { 
@@ -447,7 +447,7 @@ country_event = {
 				ETH = {
 					start_civil_war = {
 						ruling_party = PREV
-						ideology = chauvinist_populism
+						ideology = imperialism
 						size = 0
 						capital = 817
 						states = { 
@@ -508,7 +508,7 @@ country_event = {
 					add_ideas={AF_T_Tribal_Army}
 					load_focus_tree = africa_tribe
 					add_ideas = state_religion
-					add_ideas = religion_sunni
+					add_ideas = law_country_religion_sunni
 					add_ideas = tribal_slavery
 					add_ideas = manpower_tribal_everyone
 					add_ideas = law_army_tribal_neolithic
@@ -997,7 +997,7 @@ country_event = {
 		ai_chance = { factor = 60 }
 		FROM = {
 				add_popularity = {
-					ideology = chauvinist_populism
+					ideology = imperialism
 					popularity = 0.07
 				}
 		}
@@ -2969,7 +2969,7 @@ country_event = {
 					
 					
 					start_civil_war = {
-						ruling_party = chauvinist_populism
+						ruling_party = imperialism
 						ideology = autocracy
 						size = 1
 						capital = 816
@@ -2989,7 +2989,7 @@ country_event = {
 				}
 					
 					start_civil_war = {
-						ruling_party = chauvinist_populism
+						ruling_party = imperialism
 						ideology = autocracy
 						size = 1
 						capital = 816
@@ -3019,7 +3019,7 @@ country_event = {
 						vanguard_communism = 0
 						autocracy = 0
 						radical_democracy = 0
-						chauvinist_populism = 0
+						imperialism = 0
 						anarchism = 0
 						fundamentalism = 0
 					}
@@ -3039,7 +3039,7 @@ country_event = {
 						vanguard_communism = 0
 						autocracy = 0
 						radical_democracy = 0
-						chauvinist_populism = 0
+						imperialism = 0
 						anarchism = 0
 						fundamentalism = 0
 					}
@@ -3061,7 +3061,7 @@ country_event = {
 						vanguard_communism = 0
 						autocracy = 0
 						radical_democracy = 0
-						chauvinist_populism = 0
+						imperialism = 0
 						anarchism = 0
 						fundamentalism = 0
 					}
@@ -3082,7 +3082,7 @@ country_event = {
 						vanguard_communism = 0
 						autocracy = 0
 						radical_democracy = 0
-						chauvinist_populism = 0
+						imperialism = 0
 						anarchism = 0
 						fundamentalism = 0
 					}
@@ -3103,7 +3103,7 @@ country_event = {
 						vanguard_communism = 100
 						autocracy = 0
 						radical_democracy = 0
-						chauvinist_populism = 0
+						imperialism = 0
 						anarchism = 0
 						fundamentalism = 0
 					}
@@ -3124,7 +3124,7 @@ country_event = {
 						vanguard_communism = 0
 						autocracy = 100
 						radical_democracy = 0
-						chauvinist_populism = 0
+						imperialism = 0
 						anarchism = 0
 						fundamentalism = 0
 					}
@@ -3145,7 +3145,7 @@ country_event = {
 						vanguard_communism = 0
 						autocracy = 0
 						radical_democracy = 100
-						chauvinist_populism = 0
+						imperialism = 0
 						anarchism = 0
 						fundamentalism = 0
 					}
@@ -3156,7 +3156,7 @@ country_event = {
 				
 				if = {
 					limit = {
-						FROM = { has_government = chauvinist_populism }
+						FROM = { has_government = imperialism }
 					}
 					set_popularities = {
 						centrism = 0
@@ -3166,12 +3166,12 @@ country_event = {
 						vanguard_communism = 0
 						autocracy = 0
 						radical_democracy = 0
-						chauvinist_populism = 100
+						imperialism = 100
 						anarchism = 0
 						fundamentalism = 0
 					}
 					set_politics = {
-						ruling_party = chauvinist_populism
+						ruling_party = imperialism
 					}
 				}
 			}

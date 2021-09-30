@@ -844,7 +844,7 @@ focus_tree = {
 			focus = OTO_vic_enforce_corporal_punishment
 		}
 		completion_reward = {
-			increase_ps_by_one =yes
+			add_stability = 0.05
 		}
 		ai_will_do={
 			factor = 2
@@ -1641,7 +1641,7 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			increase_ps_by_one = yes
+			add_stability = 0.05
 		}
 	}
 	focus = {
@@ -2090,7 +2090,7 @@ focus_tree = {
 			focus = OTO_vic_reformation_of_the_national_bank
 		}
 		completion_reward = {
-			increase_ps_by_one = yes
+			add_stability = 0.05
 		}
 		ai_will_do={
 			factor = 1
@@ -2274,7 +2274,7 @@ focus_tree = {
 		completion_reward = {
 			48={
 				add_resource={
-					type = iron
+					type = resource_iron
 					amount = 2
 				}
 			}
@@ -2299,7 +2299,7 @@ focus_tree = {
 		completion_reward = {
 			354={
 				add_resource={
-					type = iron
+					type = resource_iron
 					amount = 1
 				}
 				add_resource={
@@ -2309,7 +2309,7 @@ focus_tree = {
 			}
 			345={
 				add_resource={
-					type = iron
+					type = resource_iron
 					amount = 1
 				}
 			}

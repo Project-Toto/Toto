@@ -70,14 +70,14 @@ buildings = {
 		weekly_manpower = 5
 	}
 
-	# air_base = {
-	# 	show_on_map = 1
-	# 	base_cost = 3000
-	# 	icon_frame = 5
-	# 	air_base = yes
-	# 	max_level = 25
-	# 	value = 1
-	# }
+	air_base = {
+		show_on_map = 1
+		base_cost = 3000
+		icon_frame = 5
+		air_base = yes
+		max_level = 25
+		value = 1
+	}
 
 	building_port = {
 		show_on_map = 1
@@ -105,32 +105,32 @@ buildings = {
 		value = 1
 	}
 
-	# coastal_bunker = {
-	# 	show_on_map = 1
-	# 	has_destroyed_mesh = yes
-	# 	base_cost = 750
-	# 	per_level_extra_cost = 500
-	# 	provincial = yes
-	# 	disabled_in_dmz = yes
-	# 	only_costal = yes
-	# 	icon_frame = 8
-	# 	naval_fort = 1
-	# 	max_level = 25
-	# 	value = 1
-	# }
+	coastal_bunker = {
+		show_on_map = 1
+		has_destroyed_mesh = yes
+		base_cost = 750
+		per_level_extra_cost = 500
+		provincial = yes
+		disabled_in_dmz = yes
+		only_costal = yes
+		icon_frame = 8
+		naval_fort = 1
+		max_level = 25
+		value = 1
+	}
 
 
-	# anti_air_building = {
-	# 	show_on_map = 3
-	# 	base_cost = 5000
-	# 	icon_frame = 9
-	# 	anti_air = yes
-	# 	disabled_in_dmz = yes
-	# 	air_defence = 1
-	# 	max_level = 10 # This is the max unlock level
-	# 	damage_factor = 0.1
-	# 	value = 2
-	# }
+	anti_air_building = {
+		show_on_map = 3
+		base_cost = 5000
+		icon_frame = 9
+		anti_air = yes
+		disabled_in_dmz = yes
+		air_defence = 1
+		max_level = 10 # This is the max unlock level
+		damage_factor = 0.1
+		value = 2
+	}
 
 	# synthetic_refinery_oil = {
 	# 	show_on_map = 0
@@ -159,19 +159,19 @@ buildings = {
 	# 	infrastructure_construction_effect = yes
 	# }
 
-	# fuel_silo_industrial = {
-	# 	show_on_map = 0
-	# 	base_cost = 15000
-	# 	icon_frame = 26
-	# 	shares_slots = yes
-	# 	value = 5
-	# 	infrastructure_construction_effect = yes
-	# 	fuel_silo = yes
-	# 	max_level = 50
+	fuel_silo_industrial = {
+		show_on_map = 0
+		base_cost = 15000
+		icon_frame = 26
+		shares_slots = yes
+		value = 5
+		infrastructure_construction_effect = yes
+		fuel_silo = yes
+		max_level = 50
 
-	# 	show_modifier = yes
-	# 	max_fuel_building = 50.0
-	# }
+		show_modifier = yes
+		max_fuel_building = 50.0
+	}
 
 	# fuel_silo_modern = {
 	# 	show_on_map = 0
@@ -187,15 +187,15 @@ buildings = {
 	# 	max_fuel_building = 100.0
 	# }
 
-	# radar_station = {
-	# 	show_on_map = 1
-	# 	base_cost = 7500
-	# 	icon_frame = 11
-	# 	radar = yes
-	# 	max_level = 6
-	# 	damage_factor = 0.5
-	# 	value = 3
-	# }
+	radar_station = {
+		show_on_map = 1
+		base_cost = 7500
+		icon_frame = 11
+		radar = yes
+		max_level = 6
+		damage_factor = 0.5
+		value = 3
+	}
 
 	building_coal = {
 		show_on_map = 0

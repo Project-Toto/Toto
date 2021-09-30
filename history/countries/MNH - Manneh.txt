@@ -4,9 +4,9 @@
 	#oob = "Africa_1857"
 
 	set_convoys = 0
-	
+
 	set_research_slots = 1
-	
+
 	set_technology = {
 		tribaltech = 1
 		tribal_society = 1
@@ -23,17 +23,17 @@
 		traditional_mixed_arms = 1
 	}
 
-	add_ideas = { 
-		#POLITICS 
-			
-		
-		
+	add_ideas = {
+		#POLITICS
+
+
+
 		agrarian
 		no_heir
 		absolute_monarchy
 	law_army_tribal_basic
 
-		
+
 		closed_economy
 		one_percent
 		very_low_taxes
@@ -60,13 +60,13 @@
 		#
 
 				 #NATIONAL SPIRITS
-		
+
 	AF_T_organized_tribal_nation
-	
+
 	}
 
-	
-		
+
+
 
 set_politics = {
 	ruling_party = traditionalism
@@ -81,7 +81,7 @@ set_popularities = {
 	imperialism = 15
 }
 
-	
+
 
 	# POLITICAL LEADERS
 
@@ -90,7 +90,7 @@ set_popularities = {
 	desc = "POLITICS_GEORGE_V_DESC"
 	picture = "gfx/leaders/Africa/generic_leader_king_5.dds"
 	expire = "1900.1.1"
-	ideology = despotism
+	ideology = traditionalism_absolutism
 	traits = {
 
 	}

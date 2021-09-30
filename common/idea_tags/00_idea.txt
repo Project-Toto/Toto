@@ -32,22 +32,34 @@ idea_categories = {
 	}
 
 	law_country_status = {
+		slot = law_country_industrialization
+		slot = law_country_centralization
 		slot = law_country_prosperity
 		slot = law_country_population
-		slot = law_country_centralization
 
 		cost = 1000
 		removal_cost = 0
 		ledger = civilian
 	}
 
-	law_country_laws = {
-		slot = law_country_economy
-		slot = law_country_trade
-		slot = law_country_worker
-		slot = law_country_tax
+	law_country_politics = {
+		slot = law_country_constitution
+		slot = law_country_suffrage
+		slot = law_country_borders
+		slot = law_country_discrimination
 		slot = law_country_education
+
+		cost = 1000
+		removal_cost = 0
+		ledger = civilian
+	}
+	law_country_economy = {
+		slot = law_country_trade
+		slot = law_country_tax
 		slot = law_country_property
+		slot = law_country_mobilization
+		slot = law_country_theorist
+		slot = law_country_foreign_partnership
 
 		cost = 1000
 		removal_cost = 0

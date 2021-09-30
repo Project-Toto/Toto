@@ -1,11 +1,16 @@
+
 state={
 	id=177
 	name="STATE_177"
-	provinces={
-		42 416 574 1036 1547 1892 2810 2973 3122 3848 4675 5901 6249 6449 8522 8541 8551 8583 8597 8598 8614 8615 8618 
+
+	history={
+		afr_state_setup_scripted_effect = yes
+		owner = KBO
+
 	}
-	history={ afr_state_setup_scripted_effect = yes
-		owner=KBO
+
+	provinces={
+		19 104 209 392 416 451 574 1036 1547 1892 2810 2973 3169 3848 4675 4677 4818 5346 5901 6249 6449 8477 8500 8512 8522 8535 8541 8551 8583 8597 8598 8614 8618 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

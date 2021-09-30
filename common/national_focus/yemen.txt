@@ -965,7 +965,7 @@
 			# else_if = {
 				# limit = {
 					# all_owned_state = { NOT = { has_state_flag = afr_port_town } }
-					# capital_scope = { is_coastal = yes naval_base < 1 }
+					# capital_scope = { is_coastal = yes building_port < 1 }
 				# }
 				# random_owned_state = {
 					# limit = {

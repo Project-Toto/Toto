@@ -243,7 +243,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 4
-				has_government = chauvinist_populism
+				has_government = imperialism
 			}
 			modifier = {
 				factor = 5
@@ -256,7 +256,7 @@ country_event = {
 				has_government = radical_democracy
 				has_government = imperialism
 				has_government = reformism
-				has_government = chauvinist_populism
+				has_government = imperialism
 				has_government = fundamentalism
 			}
 		}
@@ -273,7 +273,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 6
-				has_government = chauvinist_populism
+				has_government = imperialism
 			}
 			modifier = {
 				factor = 5
@@ -283,7 +283,7 @@ country_event = {
 		trigger = {
 			OR = {
 				has_government = reformism
-				has_government = chauvinist_populism
+				has_government = imperialism
 				has_government = fundamentalism
 			}
 		}
@@ -1013,7 +1013,7 @@ country_event = {
 		if = {
 				limit = {
 					KRU = {
-						has_government = chauvinist_populism
+						has_government = imperialism
 					}
 				}
 					create_country_leader = {
@@ -1386,7 +1386,7 @@ country_event = {
 					add_idea = non_monarchical_system
 				}
 				swap_ideas = {
-					remove_idea = religion_animist
+					remove_idea = law_country_religion_animist
 					add_idea = religion_protestant
 				}
 				swap_ideas = {
@@ -3505,7 +3505,7 @@ country_event = {
 		custom_effect_tooltip = LIB_liberia_36_event_tooltip_a
 		hidden_effect = {
 			complete_national_focus = LIB_adopt_strong_ACS_policies
-			add_popularity = { ideology = chauvinist_populism popularity = 0.05 }
+			add_popularity = { ideology = imperialism popularity = 0.05 }
 			add_popularity = { ideology = reformism popularity = -0.05 }
 			add_popularity = { ideology = social_egalitarianism popularity = 0.05 }
 		}

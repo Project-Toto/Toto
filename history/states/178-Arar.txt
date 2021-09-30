@@ -1,13 +1,18 @@
+
 state={
 	id=178
 	name="STATE_178"
-	provinces={
-		2612 2858 3169 3605 4041 4908 5451 6138 6254 6609 6639 8473 8519 8532 8534 8558 8565 8587
+
+	history={
+		afr_state_setup_scripted_effect = yes
+		owner = TUG
+
 	}
-	state_category=town
-	history={ afr_state_setup_scripted_effect = yes
-		owner=TUG
+
+	provinces={
+		1725 2140 2612 3605 3659 4041 4908 5451 6138 8473 8503 8510 8519 8532 8534 8558 8565 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
+	state_category=town
 }

@@ -44,9 +44,6 @@ focus_tree = {
 					target = DFR
 					type = annex_everything
 				}
-				hidden_effect={
-					increase_ps_by_one = yes
-				}
 			}
 		}
 	}

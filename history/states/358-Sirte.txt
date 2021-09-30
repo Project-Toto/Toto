@@ -1,11 +1,16 @@
+
 state={
 	id=358
 	name="STATE_358"
-	provinces={
-		725 1609 2518 3770 4248 5693 7052 7949 7995 
-	}
-	history={ afr_state_setup_scripted_effect = yes
+
+	history={
+		afr_state_setup_scripted_effect = yes
 		owner = OTO
+
+	}
+
+	provinces={
+		725 1609 1755 2518 3770 4248 5693 6748 7052 7949 7973 7995 12694 12695 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

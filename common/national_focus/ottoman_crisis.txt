@@ -560,7 +560,6 @@ focus_tree = {
 		}
 		available={
 			has_manpower > 1999
-			BUL={exists = no}
 		}
 		completion_reward = {
 			add_manpower = -2000
@@ -583,9 +582,8 @@ focus_tree = {
 			focus = OTO_mac_BUL_garrisons
 		}
 		available={
-			controls_state = 106
-			controls_state = 48
-			BUL={has_country_flag = BUL_exarchate_formed}
+			# controls_state = 106
+			# controls_state = 48
 		}
 		ai_will_do={
 			factor = 3
@@ -616,10 +614,10 @@ focus_tree = {
 			focus = OTO_mac_support_BUL_church
 		}
 		available={
-			BUL = {
-				exists = no
-				has_country_flag = OTO_BRCC_founded
-			}
+			# BUL = {
+			# 	exists = no
+			# 	has_country_flag = OTO_BRCC_founded
+			# }
 		}
 		ai_will_do={
 			factor = 1
@@ -823,9 +821,6 @@ focus_tree = {
 		}
 		prerequisite = {
 			focus = OTO_mac_defense_balkans
-		}
-		available={
-			SER={is_subject_of = OTO}
 		}
 		ai_will_do={
 			factor = 2
@@ -1433,7 +1428,6 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			SER={add_stability = -0.05}
 		}
 	}
 	focus = {
@@ -1446,7 +1440,6 @@ focus_tree = {
 			always = yes
 		}
 		available={
-			has_war_with = SER
 		}
 		prerequisite = {
 			focus = OTO_mac_consentrate_serbs
@@ -1468,7 +1461,6 @@ focus_tree = {
 			always = yes
 		}
 		available={
-			has_war_with = SER
 		}
 		prerequisite = {
 			focus = OTO_mac_serbian_front
@@ -1508,7 +1500,7 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			BUL={add_stability = -0.05}
+			# BUL={add_stability = -0.05}
 		}
 	}
 	focus = {

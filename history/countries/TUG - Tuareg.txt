@@ -4,9 +4,9 @@
 	oob = "Africa_1857"
 
 	set_convoys = 0
-	
+
 	set_research_slots = 1
-	
+
 	set_technology = {
 		tribaltech = 1
 		start_build_tech = 1
@@ -17,17 +17,17 @@
 		tech_camel_cavalry = 1
 	}
 
-	add_ideas = { 
-		#POLITICS 
-			
-		
-		
+	add_ideas = {
+		#POLITICS
+
+
+
 		agrarian
 		no_heir
 		absolute_monarchy
 	law_army_tribal_basic
 
-		
+
 		closed_economy
 		one_percent
 		very_low_taxes
@@ -54,13 +54,13 @@
 		#
 
 				 #NATIONAL SPIRITS
-		
+
 			AF_T_small_kingdom
 
-	
+
 	}
-	
-	#Rivals 
+
+	#Rivals
 	#set_variable = { rival_country = SKT.id }
 	#Favored
 	#set_variable = { most_favoured_country = SNS.id }
@@ -82,7 +82,7 @@ set_popularities = {
 	reformism = 5
 	imperialism = 15
 }
-	
+
 
 	# POLITICAL LEADERS
 
@@ -91,6 +91,6 @@ set_popularities = {
 		desc = "POLITICS_TEMP_DESC"
 		picture = "gfx/leaders/Arabia/Tuareg_Generic_1.dds"
 		expire = 1891.12.31
-		ideology = despotism
+		ideology = traditionalism_absolutism
 	}
 }

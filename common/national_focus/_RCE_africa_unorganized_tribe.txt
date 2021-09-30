@@ -410,8 +410,8 @@ focus_tree = {
 				reverse_add_opinion_modifier = { target = POR modifier = eoanb_om_africa_meet_west }
 				add_opinion_modifier = { target = BEL modifier = eoanb_om_africa_meet_west }
 				reverse_add_opinion_modifier = { target = BEL modifier = eoanb_om_africa_meet_west }
-				add_opinion_modifier = { target = PIE modifier = eoanb_om_africa_meet_west }
-				reverse_add_opinion_modifier = { target = PIE modifier = eoanb_om_africa_meet_west }
+				add_opinion_modifier = { target = ITA modifier = eoanb_om_africa_meet_west }
+				reverse_add_opinion_modifier = { target = ITA modifier = eoanb_om_africa_meet_west }
 			}
 		}
 	}
@@ -424,7 +424,7 @@ focus_tree = {
 		}
 		prerequisite = {
 			focus = AF_T_divine_right
-			focus = AF_T_despotism
+			focus = AF_T_traditionalism_absolutism
 		}
 		mutually_exclusive = {
 			focus = AF_T_leadership_warlord
@@ -452,7 +452,7 @@ focus_tree = {
 			focus = AF_T_establish_organized_state
 		}
 		prerequisite = {
-			focus = AF_T_despotism
+			focus = AF_T_traditionalism_absolutism
 		}
 		mutually_exclusive = {
 			focus = AF_T_proclaim_king
@@ -464,8 +464,8 @@ focus_tree = {
 		y = 9
 		relative_position_id = AF_T_might_warrior
 		completion_reward = {
-			add_popularity = { ideology = chauvinist_populism popularity = 1 }
-			set_politics = { ruling_party = chauvinist_populism elections_allowed = no }
+			add_popularity = { ideology = imperialism popularity = 1 }
+			set_politics = { ruling_party = imperialism elections_allowed = no }
 			custom_effect_tooltip = eoanb_af_t_tt_focus_organize_chauvpop
 			hidden_effect = {
 				swap_ideas = { remove_idea = AF_T_unorganized_tribal_nation_5 add_idea = AF_T_organized_tribal_nation }
@@ -552,7 +552,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = AF_T_despotism
+		id = AF_T_traditionalism_absolutism
 		icon = GFX_focus_rom_handle_king
 		cost = 75
 		prerequisite = {

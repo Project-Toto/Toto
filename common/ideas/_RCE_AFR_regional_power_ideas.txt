@@ -85,7 +85,7 @@ ideas = {
 	## Theorist ##
 	##############
 
-	industrial_concern = {
+	law_country_foreign_partnership = {
 
 		afr_rrp_british_company_partnership_idea = {
 
@@ -257,7 +257,7 @@ ideas = {
 	##############
 	## Theorist ##
 	##############
-	theorist = {
+	law_country_theorist = {
 
 		afr_empire_politics_theorist_warlord_1 = {
 

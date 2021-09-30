@@ -75,7 +75,6 @@ focus_tree = {
 				limit = {
 					OR = {
 						has_idea = weak_heir
-						has_idea = nonfamily_heir
 						has_idea = dethroned_heir
 						has_idea = no_heir
 					}
@@ -377,7 +376,7 @@ focus_tree = {
 		y = 4
 		completion_reward = {
 			random_owned_controlled_state = {
-				add_resource = { type = wood amount = 2 }
+				add_resource = { type = resource_wood amount = 2 }
 			}
 		}
 	}
@@ -1633,7 +1632,7 @@ focus_tree = {
 			if = {
 				limit = {
 					NOT = { has_government = fundamentalism }
-					has_government = chauvinist_populism
+					has_government = imperialism
 				}
 				set_politics = {
 					  ruling_party = fundamentalism

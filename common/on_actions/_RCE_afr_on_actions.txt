@@ -209,7 +209,7 @@ on_actions = {
 							if = {
 								limit = {
 									OR = {
-										has_idea = religion_sunni
+										has_idea = law_country_religion_sunni
 										has_idea = religion_shiite
 										has_idea = religion_ibadi
 									}
@@ -225,7 +225,7 @@ on_actions = {
 								limit = {
 									OR = {
 										has_idea = religion_shamanism
-										has_idea = religion_animist
+										has_idea = law_country_religion_animist
 									}
 									NOT = {
 										has_idea = afr_empire_politics_advisor_shaman_1

@@ -2,11 +2,15 @@
 state={
 	id=360
 	name="STATE_360"
-	provinces={
-		2058 4460 4627 7281 7834 10763 
-	}
-	history={ afr_state_setup_scripted_effect = yes
+
+	history={
+		afr_state_setup_scripted_effect = yes
 		owner = TUN
+
+	}
+
+	provinces={
+		2058 4460 4627 7281 7834 10763 12682 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

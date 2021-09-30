@@ -172,7 +172,7 @@ ideas={
 			modifier = {
 				production_speed_infrastructure_factor = 0.1
 				production_speed_industrial_complex_factor = 0.15
-				production_speed_naval_base_factor = 0.05
+				production_speed_building_port_factor = 0.05
 			}
 		}
 
@@ -211,7 +211,7 @@ ideas={
 			removal_cost = -1
 
 			modifier = {
-				production_speed_naval_base_factor = 0.05
+				production_speed_building_port_factor = 0.05
 				trade_opinion_factor = 0.25
 				ai_get_ally_desire_factor = 10
 			}
@@ -230,7 +230,7 @@ ideas={
 			removal_cost = -1
 
 			modifier = {
-				production_speed_naval_base_factor = 0.15
+				production_speed_building_port_factor = 0.15
 			}
 		}
 

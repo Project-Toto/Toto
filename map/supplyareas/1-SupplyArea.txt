@@ -109,7 +109,7 @@ supply_area={
 	name="SUPPLYAREA_1"
 	value=6
 	states={
-		56 80 81 82 305 356 357 358
+		56 80 81 82 305 356 357 358 391 392 393
 	}
 }
 supply_area={
@@ -117,7 +117,7 @@ supply_area={
 	name="SUPPLYAREA_1"
 	value=6
 	states={
-		57 359 360 361 362 363
+		57 359 360 361 362 363 388
 	}
 }
 supply_area={
@@ -421,7 +421,7 @@ supply_area={
 	name="SUPPLYAREA_1"
 	value=6
 	states={
-		170 171 172 173 175 177 178 354 355 378
+		170 171 172 173 175 177 178 354 355 378 389 390 394
 	}
 }
 supply_area={

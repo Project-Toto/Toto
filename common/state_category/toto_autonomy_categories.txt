@@ -17,7 +17,7 @@ state_categories = {
 		# 37.5% - 49.9%
 		color = { 160 130 30 }
 	}
-	autonomy loyalty public opinion prosperity
+	# autonomy loyalty public opinion prosperity
 	state_category_autonomy_unautonomous = {
 		# 50% - 67.4%
 		color = { 130 160 30 }

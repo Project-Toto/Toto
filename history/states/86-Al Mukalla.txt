@@ -2,13 +2,17 @@
 state={
 	id=86
 	name="STATE_86"
-	provinces={
-		43 1473 4133 6113 6265 6509 8160 8166 8174 8175 8177 8183 8186 8190 
-	}
-	history={ afr_state_setup_scripted_effect = yes
+
+	history={
+		afr_state_setup_scripted_effect = yes
 		owner = QTI
+
+	}
+
+	provinces={
+		43 1473 2238 3187 4133 5560 5662 6113 6265 6509 6605 8160 8166 8174 8175 8177 8181 8183 8186 8190 8194 8199 8201 8206 8212 8230 
 	}
 	manpower=1
-	state_category=town
 	buildings_max_level_factor=1.000
+	state_category=town
 }

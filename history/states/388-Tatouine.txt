@@ -1,0 +1,14 @@
+state={
+	id=388
+	name="STATE_388"
+	provinces={
+		12683 12684 12685 
+	}
+	history={
+		afr_state_setup_scripted_effect = yes
+		owner = TUN
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -18,14 +18,14 @@ set_technology = {
 	add_ideas = {
 		#POLITICS
 
-		
-		
+
+
 		agrarian
 		no_heir
 		absolute_monarchy
 	law_army_tribal_improved
 
-		
+
 		closed_economy
 		one_percent
 		very_low_taxes
@@ -100,5 +100,5 @@ set_popularities = {
 		desc = "POLITICS_TEMP_DESC"
 		picture = "Portrait_SNS_Muhammad_ibn Ali_as_Senussi.dds"
 		expire = 1891.12.31
-		ideology = islamist
+		ideology = fundamentalism_absolutism
 	}

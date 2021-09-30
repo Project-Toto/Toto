@@ -1,10 +1,19 @@
+
 state={
 	id=305
 	name="STATE_305"
-	provinces={
-		12672
+
+	history={
+		afr_state_setup_scripted_effect = yes
+		owner = OTO
+
 	}
-	history={ afr_state_setup_scripted_effect = yes
+
+	provinces={
+		12672 12715
+	}
+	history={
+		afr_state_setup_scripted_effect = yes
 		owner = OTO
 	}
 	manpower=1

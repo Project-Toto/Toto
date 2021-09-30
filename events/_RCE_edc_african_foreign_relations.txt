@@ -1062,7 +1062,7 @@ country_event = { #selecting a colonal "master"
 				ITA= {
 					has_idea = afr_colonial_power
 				}
-				PIE= {
+				ITA= {
 					has_idea = afr_colonial_power
 				}
 				HOL= {
@@ -1092,7 +1092,7 @@ country_event = { #selecting a colonal "master"
 				ITA= {
 					has_idea = afr_colonial_power
 				}
-				PIE= {
+				ITA= {
 					has_idea = afr_colonial_power
 				}
 				HOL= {
@@ -1180,7 +1180,7 @@ country_event = { #selecting a colonal "master"
 				exists = yes
 			}
 			NOT = {
-				PIE = {
+				ITA = {
 					exists = yes
 				}
 			}
@@ -1193,12 +1193,12 @@ country_event = { #selecting a colonal "master"
 	option = {
 		name = EDC_afr.17.k #ITA
 		trigger = {
-			PIE= {
+			ITA= {
 				has_idea = afr_colonial_power
 			}
 			is_ai = yes
 		}
-		PIE = {
+		ITA = {
 			country_event = {id = EDC_afr.18 days = 7}
 		}
 	}
@@ -1326,7 +1326,7 @@ country_event = { #selecting a colonal "master"
 				exists = yes
 			}
 			NOT = {
-				PIE = {
+				ITA = {
 					exists = yes
 				}
 			}
@@ -1338,11 +1338,11 @@ country_event = { #selecting a colonal "master"
 	option = {
 		name = EDC_afr.17.k #ITA
 		trigger = {
-			PIE= {
+			ITA= {
 				has_idea = afr_colonial_power
 			}
 		}
-		PIE = {
+		ITA = {
 			country_event = {id = EDC_afr.18 days = 7}
 		}
 	}

@@ -1973,7 +1973,7 @@ ETH_italian_merchants = {
 	ai_will_do = { factor = 1 }
     available = {
 		has_stability > 0.60
-		any_country = { has_cosmetic_tag = PIE_focus_ITA }
+		ITA = { country_exists = yes }
 		OR = {
 			ROOT = {
 				any_owned_state = { is_coastal = yes }
@@ -1982,13 +1982,13 @@ ETH_italian_merchants = {
 				tooltip = ETH_italian_merchants_tooltip
 				any_country = {
 					AND = {
-						has_cosmetic_tag = PIE_focus_ITA
+						tag = ITA
 						is_neighbor_of = ROOT
 					}
 				}
 				any_country = {
 					AND = {
-						OVERLORD = { has_cosmetic_tag = PIE_focus_ITA }
+						tag = ITA
 						is_subject = yes
 						is_neighbor_of = ROOT
 					}
@@ -2005,7 +2005,7 @@ ETH_italian_merchants = {
 		
 		allowed = { TAG = ETH }
 	visible = {
-		any_country = { has_cosmetic_tag = PIE_focus_ITA }
+		ITA = { country_exists = yes }
 	}
 	
 	fire_only_once = yes
@@ -2016,7 +2016,7 @@ ETH_italian_merchants = {
 	complete_effect = {
 		if = {
 			limit = {
-				any_country = { has_cosmetic_tag = PIE_focus_ITA }
+				ITA = { country_exists = yes }
 			}
 			country_event = { days = 1 id = ethiopia_trade.1 }
 			hidden_effect = {

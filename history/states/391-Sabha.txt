@@ -1,0 +1,18 @@
+
+state={
+	id=391
+	name="STATE_391"
+
+	history={
+		afr_state_setup_scripted_effect = yes
+		owner = OTO
+
+	}
+
+	provinces={
+		12696 12713 12714
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+}

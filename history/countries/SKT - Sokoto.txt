@@ -30,14 +30,14 @@ set_technology = {
 	add_ideas = {
 		#POLITICS
 
-		
-		
+
+
 		agrarian
 		non_monarchical_system
 		absolute_monarchy
 	law_army_tribal_advanced
 
-		
+
 		closed_economy
 		three_percent
 		normal_taxes
@@ -58,7 +58,7 @@ set_technology = {
 	religion_sunni
 
 	 #
-		
+
 		#
 		#
 		#
@@ -116,17 +116,17 @@ SKT = {
 				autonomy_state = autonomy_afr_empire_level_3
 				freedom_level = 0.55
 			}
-			#hidden_effect = { ADM = { load_prevous_ideologies = yes } }
+			#hidden_effect = { ADM = { load_previous_ideologies = yes } }
 			#hidden_effect = { DSS = { store_current_ideologies = yes } }
 			set_autonomy = {
 				target = DSS
 				autonomy_state = autonomy_afr_empire_level_2
 				freedom_level = 0.25
 			}
-			#hidden_effect = { DSS = { load_prevous_ideologies = yes } }
+			#hidden_effect = { DSS = { load_previous_ideologies = yes } }
 		}
 	}
-	
+
 	ADM = {
 		set_variable = { var = afr_empire_subject_overlord value = SKT.id }
 		set_variable = { var = ADM.afr_empire_subject_loyalty_varSKT value = 10 }
@@ -158,7 +158,7 @@ create_country_leader = {
 	desc = "POLITICS_GEORGE_V_DESC"
 	picture = "gfx/leaders/SKT/Portrait_SKT_ali_babba_bin_bello.dds"
 	expire = "1900.1.1"
-	ideology = islamist
+	ideology = fundamentalism_absolutism
 	traits = {
 
 	}

@@ -6,7 +6,7 @@
 	set_convoys = 0
 
 	set_research_slots = 1
-	
+
 	set_technology = {
 		tribaltech = 1
 		start_build_tech = 1
@@ -16,14 +16,14 @@
 
 		#POLITICS
 
-		
-		
+
+
 		agrarian
 		weak_heir
 		absolute_monarchy
 	law_army_tribal_basic
 
-		
+
 		closed_economy
 		one_percent
 		very_low_taxes
@@ -52,16 +52,16 @@
 				 #NATIONAL SPIRITS
 
          #NATIONAL SPIRITS
-    
+
 	AF_T_organized_tribal_nation
-	
+
   }
-  
-  #Rivals 
+
+  #Rivals
 	#set_variable = { rival_country = SKT.id }
 
-	
-		
+
+
 
 
 	#Diplomacy
@@ -80,7 +80,7 @@ set_popularities = {
 	imperialism = 15
 }
 
-	
+
 
 	# POLITICAL LEADERS
 
@@ -89,7 +89,7 @@ set_popularities = {
 	desc = "POLITICS_GEORGE_V_DESC"
 	picture = "gfx/leaders/Africa/african_generic_2.dds"
 	expire = "1870.1.1"
-	ideology = despotism
+	ideology = traditionalism_absolutism
 	traits = {
 
 	}

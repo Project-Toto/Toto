@@ -1,0 +1,13 @@
+state={
+	id=389
+	name="STATE_389"
+	provinces={
+		12697 12698 12699 
+	}
+	history = {
+		owner = TUG
+	}
+	state_category=town
+	manpower=1
+	buildings_max_level_factor=1.000
+}

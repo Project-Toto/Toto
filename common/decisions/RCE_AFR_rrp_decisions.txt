@@ -2472,7 +2472,7 @@ afr_rrp_adopt_american_way = {
 				add_idea = secular_state
 			}
 			swap_ideas = {
-				remove_idea = nonfamily_heir
+				remove_idea = weak_heir
 				add_idea = non_monarchical_system
 			}
 		}
@@ -2578,12 +2578,7 @@ afr_rrp_an_african_inspired_industrialization_partner_decision = {
 				NOT = {	is_subject_of = GER }
 				NOT = {	is_subject_of = SWE }
 				NOT = {	is_subject_of = LIB }
-				if={
-					limit={
-						is_subject = yes
-					}
-					NOT = { OVERLORD = { has_cosmetic_tag = PIE_focus_ITA } }
-				}
+				NOT = {	is_subject_of = ITA }
 				NOT = {	is_subject_of = BEL }
 				NOT = {	is_subject_of = TRV }
 				NOT = {	is_subject_of = OFS }
@@ -2624,12 +2619,7 @@ afr_rrp_an_african_inspired_industrialization_partner_decision = {
 				NOT = {	is_subject_of = GER }
 				NOT = {	is_subject_of = SWE }
 				NOT = {	is_subject_of = LIB }
-				if={
-					limit={
-						is_subject = yes
-					}
-					NOT = { OVERLORD = { has_cosmetic_tag = PIE_focus_ITA } }
-				}
+				NOT = {	is_subject_of = ITA }
 				NOT = {	is_subject_of = BEL }
 				NOT = {	is_subject_of = TRV }
 				NOT = {	is_subject_of = OFS }
@@ -2725,12 +2715,7 @@ afr_rrp_an_african_inspired_industrialization_partner_decision = {
 				NOT = {	is_subject_of = GER }
 				NOT = {	is_subject_of = SWE }
 				NOT = {	is_subject_of = LIB }
-				if={
-					limit={
-						is_subject = yes
-					}
-					NOT = { OVERLORD = { has_cosmetic_tag = PIE_focus_ITA } }
-				}
+				NOT = {	is_subject_of = ITA }
 				NOT = {	is_subject_of = BEL }
 				NOT = {	is_subject_of = TRV }
 				NOT = {	is_subject_of = OFS }

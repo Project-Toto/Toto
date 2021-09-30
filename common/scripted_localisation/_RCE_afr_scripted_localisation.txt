@@ -1883,16 +1883,16 @@ defined_text = {
 
 defined_text = {
   name = afr_empire_politics_state_export_scripted
+  # text = {
+  #   trigger = { has_resources_amount = { resource = machine_parts amount > 5 } }
+  #   localization_key = afr_empire_politics_state_export_localization_machine_parts
+  # }
   text = {
-    trigger = { has_resources_amount = { resource = machine_parts amount > 5 } }
-    localization_key = afr_empire_politics_state_export_localization_machine_parts
-  }
-  text = {
-    trigger = { has_resources_amount = { resource = steel amount > 5 } }
+    trigger = { has_resources_amount = { resource = resource_steel amount > 5 } }
     localization_key = afr_empire_politics_state_export_localization_steel
   }
   text = {
-    trigger = { has_resources_amount = { resource = fabric amount > 5 } }
+    trigger = { has_resources_amount = { resource = resource_fabric amount > 5 } }
     localization_key = afr_empire_politics_state_export_localization_fabric
   }
   text = {
@@ -1903,23 +1903,23 @@ defined_text = {
 defined_text = {
   name = afr_empire_politics_state_resource_scripted
   text = {
-    trigger = { has_resources_amount = { resource = coal amount > 5 } }
+    trigger = { has_resources_amount = { resource = resource_coal amount > 5 } }
     localization_key = afr_empire_politics_state_resource_localization_coal
   }
   text = {
-    trigger = { has_resources_amount = { resource = iron amount > 5 } }
+    trigger = { has_resources_amount = { resource = resource_iron amount > 5 } }
     localization_key = afr_empire_politics_state_resource_localization_iron
   }
   text = {
-    trigger = { has_resources_amount = { resource = rubber amount > 5 } }
+    trigger = { has_resources_amount = { resource = resource_rubber amount > 5 } }
     localization_key = afr_empire_politics_state_resource_localization_rubber
   }
   text = {
-    trigger = { has_resources_amount = { resource = wood amount > 5 } }
+    trigger = { has_resources_amount = { resource = resource_wood amount > 5 } }
     localization_key = afr_empire_politics_state_resource_localization_wood
   }
   text = {
-    trigger = { has_resources_amount = { resource = cotton amount > 5 } }
+    trigger = { has_resources_amount = { resource = resource_cotton amount > 5 } }
     localization_key = afr_empire_politics_state_resource_localization_cotton
   }
   text = {

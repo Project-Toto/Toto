@@ -4,7 +4,9 @@ state={
 	provinces={
 		625 2932 3615 4709 4943 5806 6123 7855 7882 7944 
 	}
-	history={ afr_state_setup_scripted_effect = yes
+	impassable = yes
+	history={
+		afr_state_setup_scripted_effect = yes
 		owner = TUN
 	}
 	manpower=1

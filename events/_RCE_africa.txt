@@ -30,8 +30,8 @@ country_event = {
 		hidden_effect = {
 			ROOT = {
 				if = {
-					limit = { has_idea = nonfamily_heir  }
-					swap_ideas = { remove_idea = nonfamily_heir  add_idea = no_heir }
+					limit = { has_idea = weak_heir  }
+					swap_ideas = { remove_idea = weak_heir  add_idea = no_heir }
 				}
 			}
 		}
@@ -300,7 +300,7 @@ country_event = {
 		add_political_power = 50
 		custom_effect_tooltip = eoanb_tt_event_africa_2_a
 		hidden_effect = {
-			swap_ideas = { remove_idea = religion_animist add_idea = religion_sunni }
+			swap_ideas = { remove_idea = law_country_religion_animist add_idea = law_country_religion_sunni }
 		}
 	}
 	
@@ -310,7 +310,7 @@ country_event = {
 		add_political_power = 50
 		custom_effect_tooltip = eoanb_tt_event_africa_2_b
 		hidden_effect = {
-			swap_ideas = { remove_idea = religion_animist add_idea = religion_coptic }
+			swap_ideas = { remove_idea = law_country_religion_animist add_idea = religion_coptic }
 		}
 	}
 	
@@ -576,7 +576,7 @@ country_event = {
 	option = {
 		name = jihadist_africa.1.a
 		ai_chance = { factor = 100 }
-		add_ideas = religion_sunni
+		add_ideas = law_country_religion_sunni
 		hidden_effect = { add_to_array = { national_religion_array = global.sunni } }
 	}
 

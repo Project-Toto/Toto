@@ -30,14 +30,14 @@ set_technology = {
 	add_ideas = {
 		#POLITICS
 
-		
-		
+
+
 		agrarian
 		no_heir
 		absolute_monarchy
 	law_army_tribal_advanced
 
-		
+
 		limited_exports
 		two_percent
 		normal_taxes
@@ -115,7 +115,7 @@ set_popularities = {
 		desc = "POLITICS_GEORGE_V_DESC"
 		picture = "Portrait_TUN_Muhammad_II_ibn_al_Husayn.dds"
 		expire = "1900.1.1"
-		ideology = despotism
+		ideology = traditionalism_absolutism
 		traits = {
 
 		}

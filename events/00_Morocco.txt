@@ -20,11 +20,11 @@ country_event = {
 		kill_country_leader= yes
 		remove_unit_leader= 2020
 		create_country_leader= {
- 			name = "Muhammad IV" 
+ 			name = "Muhammad IV"
 			desc = "POLITICS_GEORGE_V_DESC"
 			picture = "gfx/leaders/MOR/Portrait_MOR_Muhammad_ibn_Abderrahmane.dds"
 			expire = "1873.9.16"
-			ideology = despotism 
+			ideology = traditionalism_absolutism
 			traits = {
 			}
 		}
@@ -38,7 +38,7 @@ country_event = {
 	desc = morocco.2.d
 	fire_only_once = yes
 	is_triggered_only = yes
-	
+
 	option = {
 		name = morocco.2.a
 		ai_chance = { base = 100}

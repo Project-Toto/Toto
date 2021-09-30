@@ -550,7 +550,7 @@ focus_tree = {
 		prerequisite = { focus = ASH_expanding_our_trade_routes }
 
 		completion_reward = {
-										add_tech_bonus = { bonus = 0.3 uses = 1 category =building_farming_tech }
+										add_tech_bonus = { bonus = 0.3 uses = 1 category =farming_tech }
 		}
 	}
 
@@ -1037,7 +1037,6 @@ focus_tree = {
 			focus = ASH_claim_the_lost_lands
 		}
 		completion_reward = {
-			increase_ps_by_one = yes
 			afr_empire_state_industrisation_progress_set_to_100 = yes
 					add_research_slot = 1
 		}
@@ -1059,7 +1058,7 @@ focus_tree = {
 		prerequisite = { focus = ASH_the_golden_stool }
 
 		completion_reward = {
-			increase_ps_by_one = yes
+			add_political_power = 30
 		}
 	}
 
@@ -1231,7 +1230,7 @@ focus_tree = {
 		prerequisite = { focus = ASH_clans_and_chiefdoms }
 
 		completion_reward = {
-				add_tech_bonus = { bonus = 0.2 uses = 2 category =building_farming_tech }
+				add_tech_bonus = { bonus = 0.2 uses = 2 category =farming_tech }
 		}
 	}
 

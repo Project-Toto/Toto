@@ -1,6 +1,6 @@
 # ideas = {
 # 	country = {
-		
+
 # 	}
 # 	country = {
 # 		afr_ofs_invest_in_resource_discovery = {
@@ -21,7 +21,7 @@
 # 			removal_cost = -1
 
 # 			picture = FRA_profits_gold_rush
-			
+
 # 			modifier = {
 # 				consumer_goods_factor = -0.05
 # 				political_power_factor = 0.05
@@ -39,7 +39,7 @@
 # 			removal_cost = -1
 
 # 			picture = FRA_profits_gold_rush
-			
+
 # 			modifier = {
 # 				consumer_goods_factor = -0.1
 # 				political_power_factor = 0.1
@@ -147,7 +147,7 @@
 # 			allowed = {
 # 				always = yes
 # 			}
-			
+
 # 			allowed_civil_war = {
 # 				always = yes
 # 			}
@@ -259,7 +259,7 @@
 # 			allowed = {
 # 				always = yes
 # 			}
-			
+
 # 			allowed_civil_war = {
 # 				always = yes
 # 			}
@@ -276,7 +276,7 @@
 # 			allowed = {
 # 				always = yes
 # 			}
-			
+
 # 			allowed_civil_war = {
 # 				always = yes
 # 			}
@@ -311,7 +311,7 @@
 # 			allowed = {
 # 				always = yes
 # 			}
-			
+
 # 			allowed_civil_war = {
 # 				always = yes
 # 			}
@@ -326,13 +326,13 @@
 # 				local_non_core_manpower = 0.15
 # 				stability_factor = -0.05
 # 			}
-			
+
 # 		}
 # 		egy_naval_reconstruction = {
 # 			allowed = {
 # 				always = yes
 # 			}
-			
+
 # 			allowed_civil_war = {
 # 				always = yes
 # 			}
@@ -344,13 +344,13 @@
 # 			modifier = {
 # 				industrial_capacity_dockyard = 0.2
 # 			}
-			
+
 # 		}
 # 		EGY_bedouin_cavalry= {
 # 			allowed = {
 # 				always = yes
 # 			}
-			
+
 # 			allowed_civil_war = {
 # 				always = yes
 # 			}
@@ -364,13 +364,13 @@
 # 				modifier_army_sub_unit_camel_cavalry_defence_factor = 0.25
 # 				modifier_army_sub_unit_camel_cavalry_speed_factor = 0.05
 # 			}
-			
+
 # 		}
 # 		EGY_caisse_de_la_dette = {
 # 			allowed = {
 # 				always = yes
 # 			}
-			
+
 # 			allowed_civil_war = {
 # 				always = yes
 # 			}
@@ -378,7 +378,7 @@
 # 			removal_cost = -1
 
 # 			picture = generic_purge
-			
+
 # 			modifier = {
 # 				political_power_cost = 0.15
 # 				consumer_goods_factor = 0.10
@@ -399,7 +399,7 @@
 # 			allowed = {
 # 				always = yes
 # 			}
-			
+
 # 			allowed_civil_war = {
 # 				always = yes
 # 			}
@@ -407,7 +407,7 @@
 # 			removal_cost = -1
 
 # 			picture = generic_purge
-			
+
 # 			targeted_modifier = {
 # 				tag = ENG
 # 				cic_to_target_factor = 0.10
@@ -422,11 +422,11 @@
 # 			allowed = {
 # 				original_tag = EGY
 # 			}
-			
+
 # 			removal_cost = -1
-			
+
 # 			picture = generic_army_war_college
-			
+
 # 			modifier = {
 # 				training_time_army_factor = 0.05
 # 				surrender_limit = 0.05
@@ -438,7 +438,7 @@
 # 			allowed = {
 # 				always = yes
 # 			}
-			
+
 # 			allowed_civil_war = {
 # 				always = yes
 # 			}
@@ -446,7 +446,7 @@
 # 			removal_cost = -1
 
 # 			picture = generic_purge
-			
+
 # 			targeted_modifier = {
 # 				tag = OTO
 # 				extra_trade_to_target_factor = 0.15
@@ -457,7 +457,7 @@
 # 			allowed = {
 # 				always = yes
 # 			}
-			
+
 # 			allowed_civil_war = {
 # 				always = yes
 # 			}
@@ -465,7 +465,7 @@
 # 			removal_cost = -1
 
 # 			picture = generic_purge
-			
+
 # 			targeted_modifier = {
 # 				tag = OTO
 # 				extra_trade_to_target_factor = 0.10
@@ -476,7 +476,7 @@
 # 			allowed = {
 # 				always = yes
 # 			}
-			
+
 # 			allowed_civil_war = {
 # 				always = yes
 # 			}
@@ -484,7 +484,7 @@
 # 			removal_cost = -1
 
 # 			picture = generic_purge
-			
+
 # 			targeted_modifier = {
 # 				tag = OTO
 # 				extra_trade_to_target_factor = 0.05
@@ -495,7 +495,7 @@
 # 			allowed = {
 # 				always = yes
 # 			}
-			
+
 # 			allowed_civil_war = {
 # 				always = yes
 # 			}
@@ -509,11 +509,11 @@
 # 			allowed = {
 # 				always = yes
 # 			}
-			
+
 # 			allowed_civil_war = {
 # 				always = yes
 # 			}
-			
+
 # 			modifier = {
 # 				#war_support_weekly = 0.01
 # 				consumer_goods_factor = 0.15
@@ -529,7 +529,7 @@
 # 			allowed = {
 # 				always = yes
 # 			}
-			
+
 # 			allowed_civil_war = {
 # 				always = yes
 # 			}
@@ -537,7 +537,7 @@
 # 			removal_cost = -1
 
 # 			picture = generic_morale_bonus
-			
+
 # 			modifier = {
 # 				drift_defence_factor = -0.10
 # 				planning_speed = 0.05
@@ -549,7 +549,7 @@
 # 			allowed = {
 # 				always = yes
 # 			}
-			
+
 # 			allowed_civil_war = {
 # 				always = yes
 # 			}
@@ -557,7 +557,7 @@
 # 			removal_cost = -1
 
 # 			picture = generic_purge
-			
+
 # 			modifier = {
 # 				stability_weekly = -0.005
 # 				war_support_weekly = -0.001
@@ -567,7 +567,7 @@
 # 			allowed = {
 # 				always = yes
 # 			}
-			
+
 # 			allowed_civil_war = {
 # 				always = yes
 # 			}
@@ -575,7 +575,7 @@
 # 			removal_cost = -1
 
 # 			picture = generic_purge
-			
+
 # 			modifier = {
 # 				stability_weekly = -0.01
 # 				war_support_weekly = -0.002
@@ -585,7 +585,7 @@
 # 			allowed = {
 # 				always = yes
 # 			}
-			
+
 # 			allowed_civil_war = {
 # 				always = yes
 # 			}
@@ -593,7 +593,7 @@
 # 			removal_cost = -1
 
 # 			picture = generic_purge
-			
+
 # 			modifier = {
 # 				stability_weekly = -0.02
 # 				war_support_weekly = -0.003
@@ -603,7 +603,7 @@
 # 			allowed = {
 # 				always = yes
 # 			}
-			
+
 # 			allowed_civil_war = {
 # 				always = yes
 # 			}
@@ -611,7 +611,7 @@
 # 			removal_cost = -1
 
 # 			picture = generic_purge
-			
+
 # 			modifier = {
 # 				stability_weekly = -0.05
 # 				war_support_weekly = -0.005
@@ -621,7 +621,7 @@
 # 			allowed = {
 # 				always = yes
 # 			}
-			
+
 # 			allowed_civil_war = {
 # 				always = yes
 # 			}
@@ -629,7 +629,7 @@
 # 			removal_cost = -1
 
 # 			picture = generic_purge
-			
+
 # 			modifier = {
 # 				stability_weekly = -0.1
 # 				war_support_weekly = -0.01
@@ -639,7 +639,7 @@
 # 			allowed = {
 # 				always = yes
 # 			}
-			
+
 # 			allowed_civil_war = {
 # 				always = yes
 # 			}
@@ -647,7 +647,7 @@
 # 			removal_cost = -1
 
 # 			picture = generic_purge
-			
+
 # 			modifier = {
 # 				consumer_goods_factor = 0.1
 # 				production_factory_max_efficiency_factor = -0.05
@@ -657,7 +657,7 @@
 # 			allowed = {
 # 				always = yes
 # 			}
-			
+
 # 			allowed_civil_war = {
 # 				always = yes
 # 			}
@@ -665,7 +665,7 @@
 # 			removal_cost = -1
 
 # 			picture = generic_purge
-			
+
 # 			modifier = {
 # 				consumer_goods_factor = 0.5
 # 				production_factory_max_efficiency_factor = -0.5
@@ -690,7 +690,7 @@
 # 			allowed = {
 # 				always = yes
 # 			}
-			
+
 # 			allowed_civil_war = {
 # 				always = yes
 # 			}
@@ -698,7 +698,7 @@
 # 			removal_cost = -1
 
 # 			picture = generic_purge
-			
+
 # 			modifier = {
 # 				consumer_goods_factor = 0.25
 # 				production_factory_max_efficiency_factor = -0.25
@@ -727,7 +727,7 @@
 # 			removal_cost = -1
 
 # 			picture = generic_purge
-			
+
 # 			modifier = {
 # 				stability_weekly = -0.002
 # 			}
@@ -740,7 +740,7 @@
 # 			removal_cost = -1
 
 # 			picture = generic_purge
-			
+
 # 			modifier = {
 # 				defensive_war_stability_factor = 0.20
 # 				offensive_war_stability_factor = 0.15
@@ -754,7 +754,7 @@
 # 			removal_cost = -1
 
 # 			picture = FRA_unstable_government
-			
+
 # 			modifier = {
 # 				stability_factor = -0.15
 # 				political_power_gain = -0.02
@@ -768,7 +768,7 @@
 # 			removal_cost = -1
 
 # 			#picture = generic_purge
-			
+
 # 			modifier = {
 # 				conscription_factor = -0.05
 # 				political_power_gain = -0.02
@@ -782,7 +782,7 @@
 # 			removal_cost = -1
 
 # 			#picture = generic_purge
-			
+
 # 			modifier = {
 # 				conscription_factor = 0.25
 # 				political_power_gain = 0.02
@@ -792,7 +792,7 @@
 # 			allowed = {
 # 				always = yes
 # 			}
-			
+
 # 			allowed_civil_war = {
 # 				always = yes
 # 			}
@@ -800,7 +800,7 @@
 # 			removal_cost = -1
 
 # 			#picture = generic_purge
-			
+
 # 			modifier = {
 # 				political_power_gain = -0.02
 # 			}
@@ -809,13 +809,13 @@
 # 				extra_trade_to_target_factor = 0.5
 # 				trade_cost_for_target_factor = -0.5
 # 			}
-			
+
 # 		}
 # 		EGY_FRA_controlled_government={
 # 			allowed = {
 # 				always = yes
 # 			}
-			
+
 # 			allowed_civil_war = {
 # 				always = yes
 # 			}
@@ -823,7 +823,7 @@
 # 			removal_cost = -1
 
 # 			#picture = generic_purge
-			
+
 # 			modifier = {
 # 				political_power_gain = -0.02
 # 			}
@@ -832,13 +832,13 @@
 # 				extra_trade_to_target_factor = 0.5
 # 				trade_cost_for_target_factor = -0.5
 # 			}
-			
+
 # 		}
 # 		EGY_ITA_controlled_government={
 # 			allowed = {
 # 				always = yes
 # 			}
-			
+
 # 			allowed_civil_war = {
 # 				always = yes
 # 			}
@@ -846,22 +846,22 @@
 # 			removal_cost = -1
 
 # 			#picture = generic_purge
-			
+
 # 			modifier = {
 # 				political_power_gain = -0.02
 # 			}
 # 			targeted_modifier = {
-# 				tag = PIE
+# 				tag = ITA
 # 				extra_trade_to_target_factor = 0.5
 # 				trade_cost_for_target_factor = -0.5
 # 			}
-			
+
 # 		}
 # 		arabian_warriors= {
 # 			allowed = {
 # 				always = yes
 # 			}
-			
+
 # 			allowed_civil_war = {
 # 				always = yes
 # 			}
@@ -876,122 +876,122 @@
 # 				attrition = -0.1
 # 				supply_consumption_factor = -0.55
 # 			}
-			
+
 # 		}
 # 		OMA_increasing_oman_muskat_divide = {
 # 			allowed = {
 # 				always = yes
 # 			}
-			
+
 # 			removal_cost = -1
-			
+
 # 			picture = generic_intel_bonus
-			
+
 # 			modifier = {
 # 				stability_factor = -0.125
 # 				political_power_gain = -0.1
-				
+
 # 			}
 # 		}
 # 		OMA_oman_muskat_divide = {
 # 			allowed = {
 # 				always = yes
 # 			}
-			
+
 # 			removal_cost = -1
-			
+
 # 			picture = chi_war_of_resistance3
-			
+
 # 			modifier = {
 # 				stability_factor = -0.1
 # 				political_power_gain = -0.075
-				
+
 # 			}
 # 		}
 # 		OMA_oman_muskat_divide_2 = {
 # 			allowed = {
 # 				always = yes
 # 			}
-			
+
 # 			removal_cost = -1
-			
+
 # 			picture = chi_war_of_resistance2
-			
+
 # 			modifier = {
 # 				stability_factor = -0.075
 # 				political_power_gain = -0.05
-				
+
 # 			}
 # 		}
 # 		OMA_oman_muskat_divide_3 = {
 # 			allowed = {
 # 				always = yes
 # 			}
-			
+
 # 			removal_cost = -1
-			
+
 # 			picture = chi_war_of_resistance2
-			
+
 # 			modifier = {
 # 				stability_factor = -0.05
 # 				political_power_gain = -0.025
-				
+
 # 			}
 # 		}
 # 		OMA_oman_muskat_divide_4 = {
 # 			allowed = {
 # 				always = yes
 # 			}
-			
+
 # 			removal_cost = -1
-			
+
 # 			picture = chi_war_of_resistance1
-			
+
 # 			modifier = {
 # 				stability_factor = -0.025
 # 				political_power_gain = -0.01
-				
+
 # 			}
 # 		}
 # 		OMA_oman_muskat_divide_5 = {
 # 			allowed = {
 # 				always = yes
 # 			}
-			
+
 # 			removal_cost = -1
-			
+
 # 			picture = chi_war_of_resistance1
-			
+
 # 			modifier = {
 # 				stability_factor = -0.01
 # 				political_power_gain = -0.01
-				
+
 # 			}
 # 		}
 # 		OMA_tribal_ibadhi_fanaticism = {
 # 			allowed = {
 # 				always = yes
 # 			}
-			
+
 # 			removal_cost = -1
-			
+
 # 			picture = generic_intel_bonus
-			
+
 # 			modifier = {
 # 				stability_factor = -0.015
 # 				conscription = -0.025
-				
+
 # 			}
 # 		}
 # 		OMA_western_inspirations = {
 # 			allowed = {
 # 				always = yes
 # 			}
-			
+
 # 			removal_cost = -1
-			
+
 # 			picture = FRA_international_inflow
-			
+
 # 			modifier = {
 # 				stability_factor = -0.125
 # 				research_speed_factor = 0.05
@@ -1001,11 +1001,11 @@
 # 			allowed = {
 # 				always = yes
 # 			}
-			
+
 # 			removal_cost = -1
-			
+
 # 			picture = generic_purge
-			
+
 # 			modifier = {
 # 				stability_factor = 0.05
 # 				war_support_factor = -0.05
@@ -1017,11 +1017,11 @@
 # 			allowed = {
 # 				always = yes
 # 			}
-			
+
 # 			removal_cost = -1
-			
+
 # 			picture = great_depression
-			
+
 # 			modifier = {
 # 				stability_factor = -0.075
 # 				production_speed_buildings_factor = -0.15
@@ -1034,11 +1034,11 @@
 # 			allowed = {
 # 				always = yes
 # 			}
-			
+
 # 			removal_cost = -1
-			
+
 # 			picture = great_depression
-			
+
 # 			modifier = {
 # 				stability_factor = -0.05
 # 				production_speed_buildings_factor = -0.1
@@ -1051,11 +1051,11 @@
 # 			allowed = {
 # 				always = yes
 # 			}
-			
+
 # 			removal_cost = -1
-			
+
 # 			picture = great_depression
-			
+
 # 			modifier = {
 # 				stability_factor = -0.025
 # 				production_speed_buildings_factor = -0.05
@@ -1068,11 +1068,11 @@
 # 			allowed = {
 # 				always = yes
 # 			}
-			
+
 # 			removal_cost = -1
-			
+
 # 			picture = generic_purge
-			
+
 # 			modifier = {
 # 				stability_factor = -0.25
 # 				production_speed_buildings_factor = 0.15
@@ -1085,11 +1085,11 @@
 # 			allowed = {
 # 				always = yes
 # 			}
-			
+
 # 			removal_cost = -1
-			
+
 # 			picture = generic_production_bonus
-			
+
 # 			modifier = {
 # 				stability_factor = -0.075
 # 				production_speed_buildings_factor = 0.075
@@ -1100,11 +1100,11 @@
 # 			allowed = {
 # 				always = yes
 # 			}
-			
+
 # 			removal_cost = -1
-			
+
 # 			picture = ITA_Unorganized_Navy
-			
+
 # 			modifier = {
 # 				industrial_capacity_dockyard  = -0.99
 # 			}
@@ -1113,57 +1113,57 @@
 # 			allowed = {
 # 				always = yes
 # 			}
-			
+
 # 			removal_cost = -1
-			
+
 # 			picture = generic_intel_bonus
-			
+
 # 			modifier = {
 # 				conscription = 0.125
 # 				industrial_capacity_factory = -0.1
-				
+
 # 			}
 # 		}
 # 		OMA_heavly_militerised_state_2 = {
 # 			allowed = {
 # 				always = yes
 # 			}
-			
+
 # 			removal_cost = -1
-			
+
 # 			picture = generic_intel_bonus
-			
+
 # 			modifier = {
 # 				conscription = 0.125
 # 				industrial_capacity_factory = -0.1
 # 				conscription_factor = 0.10
-				
+
 # 			}
 # 		}
 # 		OMA_largly_militerised_state = {
 # 			allowed = {
 # 				always = yes
 # 			}
-			
+
 # 			removal_cost = -1
-			
+
 # 			picture = generic_intel_bonus
-			
+
 # 			modifier = {
 # 				conscription = 0.10
 # 				industrial_capacity_factory = -0.05
-				
+
 # 			}
 # 		}
 # 		OMA_indian_oman_trade= {
 # 			allowed = {
 # 				always = yes
 # 			}
-			
+
 # 			removal_cost = -1
-			
+
 # 			picture = generic_intel_bonus
-			
+
 # 			modifier = {
 # 				consumer_goods_factor = -0.075
 # 				min_export = 0.05
@@ -1173,11 +1173,11 @@
 # 			allowed = {
 # 				always = yes
 # 			}
-			
+
 # 			removal_cost = -1
-			
+
 # 			picture = generic_intel_bonus
-			
+
 # 			modifier = {
 # 				consumer_goods_factor = -0.025
 # 			}
@@ -1191,11 +1191,11 @@
 # 			allowed = {
 # 				always = yes
 # 			}
-			
+
 # 			removal_cost = -1
-			
+
 # 			picture = generic_disjointed_gov
-			
+
 # 			modifier = {
 # 				stability_factor = 0.1
 # 				political_power_gain = -0.2
@@ -1205,11 +1205,11 @@
 # 			allowed = {
 # 				always = yes
 # 			}
-			
+
 # 			removal_cost = -1
-			
+
 # 			picture = generic_disjointed_gov
-			
+
 # 			modifier = {
 # 				stability_factor = 0.1
 # 				political_power_gain = -0.2
@@ -1219,11 +1219,11 @@
 # 			allowed = {
 # 				always = yes
 # 			}
-			
+
 # 			removal_cost = -1
-			
+
 # 			picture = great_depression
-			
+
 # 			modifier = {
 # 				consumer_goods_factor = 0.15
 # 			}
@@ -1232,11 +1232,11 @@
 # 			allowed = {
 # 				always = yes
 # 			}
-			
+
 # 			removal_cost = -1
-			
+
 # 			picture = great_depression
-			
+
 # 			modifier = {
 # 				consumer_goods_factor = 0.15
 # 			}
@@ -1245,11 +1245,11 @@
 # 			allowed = {
 # 				always = yes
 # 			}
-			
+
 # 			removal_cost = -1
-			
+
 # 			picture = great_depression
-			
+
 # 			modifier = {
 # 				consumer_goods_factor = 0.1
 # 			}
@@ -1258,11 +1258,11 @@
 # 			allowed = {
 # 				always = yes
 # 			}
-			
+
 # 			removal_cost = -1
-			
+
 # 			picture = generic_intel_bonus
-			
+
 # 			modifier = {
 # 				surrender_limit = 1.50
 # 			}
@@ -1271,11 +1271,11 @@
 # 			allowed = {
 # 				always = yes
 # 			}
-			
+
 # 			removal_cost = -1
-			
+
 # 			picture = AF_T_small_kingdom
-			
+
 # 			modifier = {
 # 			}
 # 		}
@@ -1287,12 +1287,12 @@
 # 			removal_cost = -1
 
 # 			#picture = generic_purge
-			
+
 # 			modifier = {
 # 				political_power_gain = +0.02
 # 				stability_factor +0.05
 # 			}
-			
+
 # 		}
 # 		ZUL_military_traditions={
 # 			allowed = {
@@ -1302,11 +1302,11 @@
 # 			removal_cost = -1
 
 # 			picture = generic_war_preparation
-			
+
 # 			modifier = {
 # 				conscription = 0.10
 # 			}
-			
+
 # 			targeted_modifier = {
 # 				tag = ENG
 # 				attack_bonus_against = 0.1
@@ -1328,7 +1328,7 @@
 # 			removal_cost = -1
 
 # 			picture = generic_war_preparation
-			
+
 # 			modifier = {
 # 				army_core_defence_factor = 0.15
 # 			}
@@ -1368,7 +1368,7 @@
 # 			allowed = {
 # 				always = yes
 # 			}
-			
+
 # 			allowed_civil_war = {
 # 				always = yes
 # 			}
@@ -1376,7 +1376,7 @@
 # 			removal_cost = -1
 
 # 			picture = eng_guided_by_britain
-			
+
 # 			targeted_modifier = {
 # 				tag = ENG
 # 				extra_trade_to_target_factor = 0.15
@@ -1388,7 +1388,7 @@
 # 			allowed = {
 # 				always = yes
 # 			}
-			
+
 # 			allowed_civil_war = {
 # 				always = yes
 # 			}
@@ -1396,7 +1396,7 @@
 # 			removal_cost = -1
 
 # 			picture = eng_guided_by_britain
-			
+
 # 			targeted_modifier = {
 # 				tag = ENG
 # 				extra_trade_to_target_factor = 0.25
@@ -1408,7 +1408,7 @@
 # 			allowed = {
 # 				always = yes
 # 			}
-			
+
 # 			allowed_civil_war = {
 # 				always = yes
 # 			}
@@ -1416,7 +1416,7 @@
 # 			removal_cost = -1
 
 # 			picture = fra_guided_by_france
-			
+
 # 			targeted_modifier = {
 # 				tag = FRA
 # 				extra_trade_to_target_factor = 0.15
@@ -1428,7 +1428,7 @@
 # 			allowed = {
 # 				always = yes
 # 			}
-			
+
 # 			allowed_civil_war = {
 # 				always = yes
 # 			}
@@ -1436,7 +1436,7 @@
 # 			removal_cost = -1
 
 # 			picture = fra_guided_by_france
-			
+
 # 			targeted_modifier = {
 # 				tag = FRA
 # 				extra_trade_to_target_factor = 0.25
@@ -1533,13 +1533,13 @@
 # 			allowed = {
 # 				original_tag = AFR
 # 			}
-			
+
 # 			allowed_civil_war = {
 # 			   always = yes
 # 			}
-			
+
 # 			removal_cost = -1
-		
+
 # 			modifier = {
 # 				political_power_gain = -2
 # 				trade_opinion_factor = -999

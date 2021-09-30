@@ -2629,7 +2629,6 @@ eoanb_category_politics_foreign={
 
 		timeout_effect = {
 			OMA={
-				increase_ps_by_one = yes
 				clr_country_flag = OMA_brothers_war
 				white_peace = ZAN
 				white_peace = MOM

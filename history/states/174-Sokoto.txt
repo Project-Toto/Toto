@@ -3,13 +3,14 @@ state={
 	id=174
 	name="STATE_174"
 
-	history={ afr_state_setup_scripted_effect = yes
+	history={
+		afr_state_setup_scripted_effect = yes
 		owner = SKT
 
 	}
 
 	provinces={
-		585 698 936 2442 2621 2632 2709 2848 5462 5739 6431 6913 6934 7219 8629 8675 8694 8718 8721 8725 8731 8752 8755 
+		585 698 936 2442 2621 2632 2709 2848 2858 5462 5739 6254 6431 6609 6639 6913 6934 7219 8587 8629 8675 8694 8718 8721 8725 8731 8752 8755 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

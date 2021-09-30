@@ -52,7 +52,6 @@ focus_tree = {
 				limit = {
 					OR = {
 						has_idea = weak_heir
-						has_idea = nonfamily_heir
 						has_idea = dethroned_heir
 						has_idea = no_heir
 					}

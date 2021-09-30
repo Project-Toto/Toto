@@ -38,7 +38,6 @@ focus_tree = {
 				limit = {
 					OR = {
 						has_idea = weak_heir
-						has_idea = nonfamily_heir
 						has_idea = dethroned_heir
 						has_idea = no_heir
 					}
@@ -351,7 +350,7 @@ focus_tree = {
 		completion_reward={
 			random_owned_state={
 				add_resource = {
-					type = wood
+					type = resource_wood
 					amount = 8
 				}
 				add_resource = {

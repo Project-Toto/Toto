@@ -6,7 +6,7 @@
 	set_convoys = 0
 
 	set_research_slots = 1
-	
+
 	set_technology = {
 		tribaltech = 1
 		traditional_mixed_arms = 1
@@ -17,14 +17,14 @@
 	add_ideas = {
 		#POLITICS
 
-		
-		
+
+
 		agrarian
 		weak_heir
 		absolute_monarchy
 	law_army_tribal_improved
 
-		
+
 		closed_economy
 		one_percent
 		very_low_taxes
@@ -45,7 +45,7 @@
 	religion_sunni
 
 	 #
-		
+
 		#
 		#
 		#
@@ -94,7 +94,7 @@ set_popularities = {
 	imperialism = 15
 }
 
-	
+
 
 	# POLITICAL LEADERS
 
@@ -103,7 +103,7 @@ set_popularities = {
 	desc = "POLITICS_GEORGE_V_DESC"
 	picture = "gfx/leaders/Africa/generic_leader_king_4.dds"
 	expire = "1900.1.1"
-	ideology = islamist
+	ideology = fundamentalism_absolutism
 	traits = {
 
 	}

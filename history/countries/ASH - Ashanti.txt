@@ -38,14 +38,14 @@
 
     #POLITICS
 
-    
-    
+
+
     agrarian
     no_heir
     absolute_monarchy
 	law_army_tribal_improved
 
-    
+
     limited_exports
     two_percent
     normal_taxes
@@ -66,7 +66,7 @@
 	religion_animist
 
    #
-    
+
     #
     #
     #
@@ -94,8 +94,8 @@
 		add_to_variable = { Tribal_army_num = 8000 }
   }
 
-  
-	  
+
+
 
   #Diplomacy
 	#add_opinion_modifier = { target = FRA modifier = AFR_colonial_conflict }
@@ -119,7 +119,7 @@ set_popularities = {
 	imperialism = 15
 }
 
-  
+
 
   #add_equipment_to_stockpile = { type = infantry_equipment_rifle_0 amount = 750 producer = ASH }
   #add_equipment_to_stockpile = { type = uniform_equipment_0 amount = 750 producer = ASH }
@@ -131,7 +131,7 @@ set_popularities = {
   desc = "POLITICS_GEORGE_V_DESC"
   picture = "Portrait_ASH_Kwaku_Dua_I_Panyin.dds"
   expire = "2100.1.1"
-  ideology = despotism
+  ideology = traditionalism_absolutism
   traits = {
 
   }

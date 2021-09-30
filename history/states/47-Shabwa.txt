@@ -3,13 +3,14 @@ state={
 	id=47
 	name="STATE_47"
 
-	history={ afr_state_setup_scripted_effect = yes
+	history={
+		afr_state_setup_scripted_effect = yes
 		owner = QTI
 
 	}
 
 	provinces={
-		1183 2210 2238 2281 2370 2655 2718 3187 3685 4741 4752 5560 5662 6210 6605 8147 8180 8181 8187 8188 8194 8199 8201 8206 8212 8230 
+		1183 2210 2281 2370 2655 2718 3685 4741 4752 6210 8147 8180 8187 8188 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

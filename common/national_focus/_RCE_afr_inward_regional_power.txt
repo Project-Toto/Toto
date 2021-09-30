@@ -300,7 +300,7 @@ focus_tree = {
 			random_owned_state={
 				#limit = { has_forests = yes }
 				add_resource = {
-					type = wood
+					type = resource_wood
 					amount = 4
 				}
 			}

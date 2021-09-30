@@ -1011,7 +1011,7 @@ country_event = {#OTO - Bulgarian Exarchate formed
 		date > 1870.05.01
 		date < 1870.06.06
 		tag = OTO
-		NOT={BUL={has_country_flag = BUL_exarchate_formed}}
+		# NOT={BUL={has_country_flag = BUL_exarchate_formed}}
 	}
 	mean_time_to_happen = {
 		days = 30
@@ -1022,7 +1022,7 @@ country_event = {#OTO - Bulgarian Exarchate formed
 	option = {#do it
 		name = OTO_events.7.a
 		ai_chance = { factor = 1}
-		BUL={set_country_flag = BUL_exarchate_formed}
+		# BUL={set_country_flag = BUL_exarchate_formed}
 		GRE={country_event={id=OTO_events.8}}
 	}
 }
@@ -1251,7 +1251,6 @@ country_event = {#SER - Serbia calmors for war
 	trigger={
 		date > 1876.04.01
 		date < 1880.01.01
-		tag = SER
 		OTO={has_country_flag = OTO_great_eastern_crisis}
 	}
 	mean_time_to_happen = {
@@ -1353,12 +1352,6 @@ country_event = {#RUS - Serbia collapses
 	fire_only_once = yes
 	trigger={
 		tag = RUS
-		SER={
-			has_country_flag = OTO_SER_war_1876
-		}
-		SER={
-			surrender_progress > 0.05
-		}
 	}
 	mean_time_to_happen = {
 		days = 2
@@ -1391,32 +1384,6 @@ country_event = {#OTO - Russia warns intervention if we don't white peace SER
 	option = {#the die is cast
 		name = OTO_events.20.a
 		ai_chance = { factor = 1}
-		SER={
-			clr_country_flag = OTO_SER_war_1876
-			delete_unit_template_and_units = {
-				division_template = "Serbian Citizen Army"
-				disband = no #
-			}
-		}
-		white_peace = SER
-		SER={store_current_ideologies = yes}
-		if = {
-			limit = {
-				OR = {
-					has_dlc = "Together for Victory"
-					has_dlc = "Waking the Tiger"
-					has_dlc = "Death or Dishonor"
-				}
-			}
-			set_autonomy = {
-				target = SER
-				autonomy_state = autonomy_ottoman_eyalet
-			}
-		}
-		else = {
-			puppet = SER
-		}
-		SER={load_prevous_ideologies = yes}
 	}
 }
 
@@ -1430,10 +1397,6 @@ country_event = {#OTO - Serbia wins
 	trigger={
 		tag = OTO
 		surrender_progress > 0.02
-		SER={
-			has_country_flag = OTO_SER_war_1876
-			controls_state = 108
-		}
 	}
 	mean_time_to_happen = {
 		days = 2
@@ -1445,10 +1408,6 @@ country_event = {#OTO - Serbia wins
 		name = OTO_events.21.a
 		ai_chance = { factor = 95}
 		OTO_sicker_man_of_europe = yes
-		white_peace = SER
-		SER={
-			transfer_state = 108
-		}
 	}
 }
 
@@ -1463,7 +1422,7 @@ country_event = {#OTO - Bulgarian Revolution
 		date > 1876.04.01
 		date < 1878.01.01
 		tag = OTO
-		BUL={has_country_flag = OTO_BRCC_founded}
+		# BUL={has_country_flag = OTO_BRCC_founded}
 		has_country_flag = OTO_great_eastern_crisis
 	}
 	mean_time_to_happen = {
@@ -1471,34 +1430,6 @@ country_event = {#OTO - Bulgarian Revolution
 	}
 	immediate={
 		hidden_effect={
-			BUL={
-				set_state_owner = 963
-				set_state_owner = 1023
-				set_state_owner = 48
-				set_state_owner = 211
-				set_state_owner = 810
-				set_province_controller = 13819
-				set_province_controller = 13863
-				set_province_controller = 6982
-				set_province_controller = 3937
-				set_province_controller = 9818
-				set_province_controller = 13857
-				set_province_controller = 11813
-				if={
-					limit={
-						OTO={has_completed_focus = OTO_mac_BUL_garrisons}
-					}
-					load_oob = "BUL_BRCC_weak"
-				}
-				else={
-					load_oob = "BUL_BRCC_stronk"
-				}
-				add_ideas = {OTO_balkan_rebellion}
-			}
-			declare_war_on = {
-				target = BUL
-				type = annex_everything
-			}
 			set_country_flag = OTO_bulgarian_revolt_1876
 		}
 	}
@@ -1535,7 +1466,7 @@ country_event = {#OTO - Attrositys commited by our men
 	fire_only_once = yes
 	trigger={
 		tag = OTO
-		has_war_with = BUL
+		# has_war_with = BUL
 		has_country_flag = OTO_bulgarian_revolt_1876
 	}
 	mean_time_to_happen = {
@@ -1806,7 +1737,7 @@ country_event = {#OTO - establish eastern rumelia
 				desc = "POLITICS_TEMP_DESC"
 				picture = "Portrait_ERU_Alexander_Stefanov_Bogoridi.dds"
 				expire = "1910.6.17"
-				ideology = despotism
+				ideology = traditionalism_absolutism
 				traits = { }
 			}
 
@@ -1902,8 +1833,6 @@ country_event = {#RUS - Austria Agrees
 		}
 		set_country_flag = OTO_russio-turkish_war
 		OTO= {country_event ={id=OTO_russio_turkish_war.4}}
-		ROM= {country_event ={id=OTO_russio_turkish_war.5}}
-		SER= {country_event ={id=OTO_russio_turkish_war.6}}
 		ENG= {news_event ={id=OTO_russio_turkish_war.7}}#major news event
 
 	}
@@ -2151,39 +2080,14 @@ country_event = {#OTO - results of the berlin congress(OTO loss)
 		ai_chance = { factor = 95}
 		OTO_sicker_man_of_europe = yes
 		#bulgaria
-		BUL={
-			transfer_state = 211
-			transfer_state = 48
-			transfer_state = 77
-			transfer_state = 1273
-		}
 		#eastern rumalia
 		1023 = {set_demilitarized_zone = yes}
 		country_event = {id = OTO_events.33 days = 30}
 		#romainiaNo
-		if={
-			limit={
-				MOL={exists = yes}
-			}
-			MOL={
-				transfer_state = 748
-				transfer_state = 1241
-			}
-		}
-		else={
-			ROM={
-				transfer_state = 748
-				transfer_state = 1241
-			}
-		}
 		RUS={
 			transfer_state = 1126
 		}
 		#Serbia
-		SER={
-			transfer_state = 108
-			transfer_state = 965
-		}
 		#austrian gains
 		if={
 			limit={
@@ -2249,34 +2153,7 @@ country_event = {#OTO - results of the Treaty of San Stefano
 		name = OTO_russio_turkish_war.15.a
 		ai_chance = { factor = 95}
 		OTO_sicker_man_of_europe = yes
-		#Greater bulgaria
-		BUL={
-			transfer_state = 211
-			transfer_state = 48
-			transfer_state = 77
-			transfer_state = 1273
-			transfer_state = 1023
-			transfer_state = 212
-			transfer_state = 963
-			transfer_state = 810
-			transfer_state = 106
-			transfer_state = 1199
-			transfer_state = 731
-			transfer_state = 965
 
-		}
-		#romainiaNo
-		ROM={
-			transfer_state = 748
-			transfer_state = 1241
-		}
-		RUS={
-			transfer_state = 1126
-		}
-		#Serbia
-		SER={
-			transfer_state = 108
-		}
 		#austrian gains
 		if={
 			limit={
@@ -2322,76 +2199,7 @@ country_event = {#OTO - results of the Treaty of San Stefano (victory)
 	# }
 	option = {#give them what they want
 		name = OTO_russio_turkish_war.16.a
-		ai_chance = { factor = 95}
-		##romina
-		ROM={
-			store_current_ideologies = yes
-		}
-		if = {
-			limit = { OR = {
-				has_dlc = "Together for Victory"
-				has_dlc = "Waking the Tiger"
-				has_dlc = "Death or Dishonor"
-			} }
-			set_autonomy = {
-				target = ROM
-				autonomy_state = autonomy_ottoman_eyalet
-			}
-		}
-		else = {
-			puppet = ROM
-		}
-		ROM={
-			load_prevous_ideologies = yes
-			transfer_state = 78
-			add_state_core = 78
-			transfer_state = 791
-			transfer_state = 1127
-			add_state_core = 1127
-		}
-		#serbia
-		SER={
-			store_current_ideologies = yes
-		}
-		if = {
-			limit = { OR = {
-				has_dlc = "Together for Victory"
-				has_dlc = "Waking the Tiger"
-				has_dlc = "Death or Dishonor"
-			} }
-			set_autonomy = {
-				target = SER
-				autonomy_state = autonomy_ottoman_eyalet
-			}
-		}
-		else = {
-			puppet = SER
-		}
-		SER={
-			load_prevous_ideologies = yes
-		}
-		#Montenegro
-		MNT={
-			store_current_ideologies = yes
-		}
-		if = {
-			limit = { OR = {
-				has_dlc = "Together for Victory"
-				has_dlc = "Waking the Tiger"
-				has_dlc = "Death or Dishonor"
-			} }
-			set_autonomy = {
-				target = MNT
-				autonomy_state = autonomy_ottoman_eyalet
-			}
-		}
-		else = {
-			puppet = MNT
-		}
-		MNT={
-			load_prevous_ideologies = yes
-		}
-		#
+		ai_chance = { factor = 95 }
 		if = {
 			limit = { OR = {
 				has_dlc = "Together for Victory"

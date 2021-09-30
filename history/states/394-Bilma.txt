@@ -1,0 +1,14 @@
+state={
+	id=394
+	name="STATE_394"
+	provinces={
+		12706 12707 12708 12709 12710
+	}
+	history={
+		afr_state_setup_scripted_effect = yes
+		owner = TUG
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+}

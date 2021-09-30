@@ -6,7 +6,7 @@
 	set_convoys = 0
 
 	set_research_slots = 1
-	
+
 	set_technology = {
 		tribaltech = 1
 		start_build_tech = 1
@@ -31,14 +31,14 @@
 	add_ideas = {
 		#POLITICS
 
-		
-		
+
+
 		agrarian
 		no_heir
 		absolute_monarchy
 	law_army_tribal_improved
 
-		
+
 		closed_economy
 		one_percent
 		very_low_taxes
@@ -59,7 +59,7 @@
 	religion_animist
 
 	 #
-		
+
 		#
 		#
 		#
@@ -70,8 +70,8 @@
 
 	}
 
-	
-	
+
+
 
 set_politics = {
 	ruling_party = traditionalism
@@ -86,7 +86,7 @@ set_popularities = {
 	imperialism = 15
 }
 
-	
+
 
 	# POLITICAL LEADERS
 
@@ -95,7 +95,7 @@ set_popularities = {
 		desc = ""
 		picture = "gfx/leaders/Africa/african_generic_4.dds"
 		expire = "1870.12.12"
-		ideology = despotism
+		ideology = traditionalism_absolutism
 		traits = {
 
 		}

@@ -3,13 +3,14 @@ state={
 	id=64
 	name="STATE_64"
 
-	history={ afr_state_setup_scripted_effect = yes
+	history={
+		afr_state_setup_scripted_effect = yes
 		owner = ZID
 
 	}
 
 	provinces={
-		753 1333 1514 1562 2078 2667 2950 3065 3413 3611 4353 4698 5434 8161 8167 8171 8176 8185 
+		753 1333 1514 1562 2078 2667 2950 3065 3413 3611 4353 4698 5434 8161 8167 8171 8176 8185 8195 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

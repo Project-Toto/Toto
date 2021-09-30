@@ -359,7 +359,7 @@ focus_tree = {
 			random_owned_state={
 				#limit = { has_forests = yes }
 				add_resource = {
-					type = wood
+					type = resource_wood
 					amount = 4
 				}
 			}
@@ -403,8 +403,8 @@ focus_tree = {
 			}
 			custom_trigger_tooltip = {
 				tooltip = AFR_religion_sunni_tooltip
-				is_in_array = {
-					array = national_religion_array
+				check_variable = {
+					var = national_religion_array^0
 					value = global.sunni
 				}
 			}
@@ -2660,12 +2660,10 @@ focus = {
 			custom_trigger_tooltip = {
 				tooltip = skt_jihad_caliphate_member_in_close_proximity
 				any_neighbor_country = {
-					limit = {
-						OR = {
-							tag = SKT
-							is_subject_of = SKT
-							is_in_faction_with = SKT
-						}
+					OR = {
+						tag = SKT
+						is_subject_of = SKT
+						is_in_faction_with = SKT
 					}
 				}
 			}
@@ -2703,12 +2701,10 @@ focus = {
 			custom_trigger_tooltip = {
 				tooltip = skt_jihad_caliphate_member_in_close_proximity
 				any_neighbor_country = {
-					limit = {
-						OR = {
-							tag = SKT
-							is_subject_of = SKT
-							is_in_faction_with = SKT
-						}
+					OR = {
+						tag = SKT
+						is_subject_of = SKT
+						is_in_faction_with = SKT
 					}
 				}
 			}

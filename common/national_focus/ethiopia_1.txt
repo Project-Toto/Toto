@@ -2915,14 +2915,8 @@ focus_tree = {
 			hidden_effect = {
 				add_opinion_modifier = { target = ENG modifier = eoanb_om_africa_language_focus }
 				reverse_add_opinion_modifier = { target = ENG modifier = eoanb_om_africa_language_focus }
-				add_opinion_modifier = { target = CAN modifier = eoanb_om_africa_language_focus }
-				reverse_add_opinion_modifier = { target = CAN modifier = eoanb_om_africa_language_focus }
-				add_opinion_modifier = { target = RAJ modifier = eoanb_om_africa_language_focus }
-				reverse_add_opinion_modifier = { target = RAJ modifier = eoanb_om_africa_language_focus }
 				add_opinion_modifier = { target = USA modifier = eoanb_om_africa_language_focus }
 				reverse_add_opinion_modifier = { target = USA modifier = eoanb_om_africa_language_focus }
-				add_opinion_modifier = { target = AST modifier = eoanb_om_africa_language_focus }
-				reverse_add_opinion_modifier = { target = AST modifier = eoanb_om_africa_language_focus }
 			}
 		}
 	}
@@ -2967,8 +2961,6 @@ focus_tree = {
 				reverse_add_opinion_modifier = { target = SNG modifier = eoanb_om_africa_language_focus }
 				add_opinion_modifier = { target = BEL modifier = eoanb_om_africa_language_focus }
 				reverse_add_opinion_modifier = { target = BEL modifier = eoanb_om_africa_language_focus }
-				add_opinion_modifier = { target = CAN modifier = eoanb_om_africa_language_focus }
-				reverse_add_opinion_modifier = { target = CAN modifier = eoanb_om_africa_language_focus }
 			}
 		}
 	}

@@ -118,7 +118,7 @@ focus_tree = {
 				}
 			}
 		}
-		
+
 		prerequisite = {
 			focus = oma_vic_question_of_the_brother
 		}
@@ -193,7 +193,7 @@ focus_tree = {
 		x = 0
 		y = 3
 		select_effect = {
-			ZAN = {country_event ={id = arab_events.14 days = 50}}##ZAN gets event to move on Luguru 
+			ZAN = {country_event ={id = arab_events.14 days = 50}}##ZAN gets event to move on Luguru
 		}
 		completion_reward = {
 			ZAN={
@@ -343,7 +343,7 @@ focus_tree = {
 		}
 		available={
 			MOM = {is_subject_of = ROOT}
-			ZAN = {is_subject_of = ROOT}		
+			ZAN = {is_subject_of = ROOT}
 		}
 		available_if_capitulated = no
 		ai_will_do = {
@@ -403,14 +403,14 @@ focus_tree = {
 		x = 0
 		y = 5
 		completion_reward = {
-			ABH={country_event ={id = arab_events.26 days = 25}}#Demand sent to TCS
+			AHB={country_event ={id = arab_events.26 days = 25}}#Demand sent to TCS
 		}
 		prerequisite = {
 			focus = oma_vic_our_colonial_strength
 		}
 		bypass={
 			OR={
-				ABH = { OR = { is_subject_of = ROOT exists = no } }
+				AHB = { OR = { is_subject_of = ROOT exists = no } }
 				# owns_state = 658
 			}
 		}
@@ -435,7 +435,7 @@ focus_tree = {
 		y = 6
 		completion_reward = {
 			annex_country = {
-				target = ABH
+				target = AHB
 				transfer_troops = yes
 			}
 		}
@@ -444,7 +444,7 @@ focus_tree = {
 		}
 		bypass={
 			OR={
-				ABH = {exists = no}
+				AHB = {exists = no}
 				owns_state = 658
 			}
 		}
@@ -455,7 +455,7 @@ focus_tree = {
 					is_claimed_by = OMA
 				}
 			}
-			ABH = {is_subject_of = ROOT}
+			AHB = {is_subject_of = ROOT}
 		}
 		available_if_capitulated = no
 		ai_will_do = {
@@ -573,13 +573,13 @@ focus_tree = {
 			focus = oma_vic_naval_reforms
 		}
 		completion_reward={
-			294={
-				set_building_level = {
-					type = naval_base
-					level = 3
-					province = 107060
-				}
-			}
+			# 294={
+			# 	set_building_level = {
+			# 		type = building_port
+			# 		level = 3
+			# 		province = 107060
+			# 	}
+			# }
 		}
 		available_if_capitulated = no
 		ai_will_do = {
@@ -924,7 +924,7 @@ focus_tree = {
 			focus = oma_vic_victorianization
 		}
 		completion_reward={
-			
+
 		}
 		available_if_capitulated = no
 		ai_will_do = {
@@ -941,7 +941,7 @@ focus_tree = {
 			focus = oma_vic_fund_industrialsion
 		}
 		completion_reward={
-			
+
 		}
 		available_if_capitulated = no
 		ai_will_do = {
@@ -1070,7 +1070,7 @@ focus_tree = {
 			focus = oma_vic_stabilization_of_inner_oman
 		}
 		completion_reward={
-			
+
 		}
 		available_if_capitulated = no
 		ai_will_do = {
@@ -1219,7 +1219,7 @@ focus_tree = {
 			focus = oma_vic_obtain_uniforms
 		}
 		completion_reward={
-			
+
 		}
 		available_if_capitulated = no
 		ai_will_do = {
@@ -1310,7 +1310,7 @@ focus_tree = {
 			}
 		}
 		available={
-			
+
 		}
 		available_if_capitulated = no
 		ai_will_do = {
@@ -1446,7 +1446,6 @@ focus_tree = {
 			focus = oma_vic_encorage_economic_growth_in_oman
 		}
 		completion_reward = {
-			increase_ps_by_one = yes
 			OMA_muscat_and_oman_divide_decrease = yes
 		}
 		available_if_capitulated = no
@@ -1454,7 +1453,7 @@ focus_tree = {
 			factor = 1
 		}
 	}
-	
+
 	focus = {
 		id = oma_vic_death_of_thuwaini
 		icon = GFX_focus_state_funeral
@@ -1584,7 +1583,7 @@ focus_tree = {
 			factor = 1
 		}
 	}
-	
+
 	focus = {
 		id = oma_vic_the_imam_and_the_sultan
 		icon = GFX_focus_oman_twin_kingdoms
@@ -1637,7 +1636,7 @@ focus_tree = {
 			if={
 				limit={
 					OR={
-						has_idea = OMA_trade_consessions_to_FRA 
+						has_idea = OMA_trade_consessions_to_FRA
 						has_idea = OMA_trade_consessions_to_FRA_2
 					}
 				}
@@ -1890,7 +1889,7 @@ focus_tree = {
 		x = 15
 		y = 19
 		completion_reward = {
-			increase_ps_by_one = yes
+			add_stability = 0.05
 		}
 		prerequisite={
 			focus = oma_vic_shared_values
@@ -2111,7 +2110,7 @@ focus_tree = {
 			factor = 1
 		}
 	}
-	
+
 	focus = {
 		id = oma_vic_forward_into_future
 		icon = GFX_focus_oman_twin_kingdoms
@@ -2137,6 +2136,6 @@ focus_tree = {
 			factor = 1
 		}
 	}
-	
+
 }
 

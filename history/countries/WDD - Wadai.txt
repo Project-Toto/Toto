@@ -30,14 +30,14 @@
 
 	add_ideas = {
 					#POLITICS
-		
-		
+
+
 		agrarian
 		has_heir
 		absolute_monarchy
 	law_army_tribal_improved
 
-		
+
 		limited_exports
 		two_percent
 		high_taxes
@@ -80,7 +80,7 @@
 	add_opinion_modifier = { target = KBO modifier = AFR_kanem_bornu_waddai_conflicts }
 	#add_opinion_modifier = { target = BAG modifier = AFR_kanem_bornu_waddai_conflicts_bagirmi } #This makes WDD Yellow to BAG
 
-	
+
 
 WDD = {
 	add_timed_idea = {
@@ -103,14 +103,14 @@ WDD = {
 	#			autonomy_state = autonomy_afr_empire_level_4
 	#			freedom_level = 0.8
 	#		}
-	#		TOB = { load_prevous_ideologies = yes }
+	#		TOB = { load_previous_ideologies = yes }
 	#	}
 	#}
 	#if = {
 	#	limit = { NOT { has_dlc = "Together for Victory" } }
 	#	TOB = { store_current_ideologies = yes }
 	#	WDD = { puppet = TOB }
-	#	TOB = { load_prevous_ideologies = yes }
+	#	TOB = { load_previous_ideologies = yes }
 	#}
 	#TOB = {
 	#	set_variable = { var = afr_empire_subject_overlord value = WDD.id }
@@ -131,7 +131,7 @@ set_popularities = {
 	imperialism = 15
 }
 
-	
+
 
 	# POLITICAL LEADERS
 
@@ -140,6 +140,6 @@ set_popularities = {
 		desc = "POLITICS_IZZ_AD_DIN_MUHAMMAD_AL_SHARIF_IBN_SALIH_DERRET_DESC"
 		picture = "gfx/leaders/Africa/african_generic_3.dds"
 		expire = "1858.3.1"
-		ideology = despotism
+		ideology = traditionalism_absolutism
 		traits = { }
 	}
