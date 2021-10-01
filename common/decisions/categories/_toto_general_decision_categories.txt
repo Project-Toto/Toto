@@ -1,5 +1,9 @@
 #### Generic Decisions Categories ####
 
+toto_gamemode_decision_category = {
+	allowed = { always = yes }
+	visible = { is_ai = no}
+}
 SPR_debt_management_category = {
 	icon = generic_political_actions
 	

@@ -1,0 +1,9 @@
+toto_gamemode_decision_category = {
+	toto_gamemode_decision_mapmode_religion = {
+		days_re_enable = var:global.mapmode_refresh_rate
+
+		complete_effect = {
+			enable_mapmode_religion = yes
+		}
+	}
+}

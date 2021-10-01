@@ -3,35 +3,35 @@ state_categories = {
 
 	state_category_autonomy_extremely_autonomous = {
 		# 0% - 12.4%
-		color = { 250 40 30 }
+		color = rgb { 250 40 30 }
 	}
 	state_category_autonomy_mostly_autonomous = {
 		# 12.5% - 24.9%
-		color = { 220 70 30 }
+		color = rgb { 220 70 30 }
 	}
 	state_category_autonomy_very_autonomous = {
 		# 25% - 37.4%
-		color = { 190 100 30 }
+		color = rgb { 190 100 30 }
 	}
 	state_category_autonomy_autonomous = {
 		# 37.5% - 49.9%
-		color = { 160 130 30 }
+		color = rgb { 160 130 30 }
 	}
 	# autonomy loyalty public opinion prosperity
 	state_category_autonomy_unautonomous = {
 		# 50% - 67.4%
-		color = { 130 160 30 }
+		color = rgb { 130 160 30 }
 	}
 	state_category_autonomy_very_unautonomous = {
 		# 67.5% - 74.9%
-		color = { 100 190 30 }
+		color = rgb { 100 190 30 }
 	}
 	state_category_autonomy_most_unautonomous = {
 		# 75% - 87.4 %
-		color = { 70 120 30 }
+		color = rgb { 70 120 30 }
 	}
 	state_category_autonomy_extremely_unautonomous = {
 		# 87.5% - 100%
-		color = { 40 150 30 }
+		color = rgb { 40 150 30 }
 	}
 }
