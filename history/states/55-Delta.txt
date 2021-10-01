@@ -3,13 +3,14 @@ state={
 	id=55
 	name="STATE_55"
 
-	history={ afr_state_setup_scripted_effect = yes
+	history={
+		afr_state_setup_scripted_effect = yes
 		owner = EGY
 
 	}
 
 	provinces={
-		29 1027 1656 1715 2285 3300 3872 5134 5229 5990 6109 6151 6208 7166 7731 7736 7748 7756 7785 7809 
+		29 1656 1715 2285 3300 5134 5229 5990 6151 6208 7166 7731 7736 7748 7756 7785 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

@@ -4,6 +4,10 @@ state={
 	provinces={
 		524 4413 6179 7241 8197 
 	}
-	manpower=0
+	history = {
+		owner = ZID
+	}
+	manpower=1
+	state_category=town
 	buildings_max_level_factor=1.000
 }

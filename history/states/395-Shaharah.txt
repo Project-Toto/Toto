@@ -1,0 +1,14 @@
+
+state={
+	id=395
+	name="STATE_395"
+	provinces={
+		155 2095 2312 3776 3990 4021 4391 5100 6712 8198 8207 8210 
+	}
+	history = {
+		owner = ZID
+	}
+	state_category=town
+	manpower=1
+	buildings_max_level_factor=1.000
+}

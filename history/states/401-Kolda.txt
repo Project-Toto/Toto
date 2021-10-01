@@ -1,0 +1,13 @@
+state={
+	id=401
+	name="STATE_401"
+	provinces={
+		1222 8580 
+	}
+	history={
+		owner=FTJ
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+}

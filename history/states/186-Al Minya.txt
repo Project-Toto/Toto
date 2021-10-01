@@ -1,13 +1,18 @@
+
 state={
 	id=186
 	name="STATE_186"
-	provinces={
-		482 536 1052 2561 4183 4301 5309 5999 7964 
+
+	history={
+		afr_state_setup_scripted_effect = yes
+		owner = EGY
+
 	}
-	state_category=town
-	history={ afr_state_setup_scripted_effect = yes
-		owner=EGY
+
+	provinces={
+		536 1052 4183 4301 5309 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
+	state_category=town
 }

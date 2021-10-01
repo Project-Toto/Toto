@@ -1,0 +1,13 @@
+state={
+	id=396
+	name="STATE_396"
+	provinces={
+		1134 1366 1616 2532 3611 4120 5786 6166 6464 6482 7291 8161 8176 8184 8185 8195 8205 8209 
+	}
+	history = {
+		owner = YEM
+	}
+	state_category=town
+	manpower=1
+	buildings_max_level_factor=1.000
+}

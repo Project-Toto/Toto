@@ -3,13 +3,14 @@ state={
 	id=264
 	name="STATE_264"
 
-	history={ afr_state_setup_scripted_effect = yes
+	history={
+		afr_state_setup_scripted_effect = yes
 		owner = KAB
 
 	}
 
 	provinces={
-		205 1222 4290 7235 8580 
+		205 4290 7235 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

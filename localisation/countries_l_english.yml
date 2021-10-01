@@ -319,9 +319,9 @@
  ADN_DEF:0 "Lahej"
  ADN_ADJ:0 "Adeni"
 
- ZAI:0 "Zaidi"
- ZAI_DEF:0 "Zaidi"
- ZAI_ADJ:0 "Yemeni"
+ ZID:0 "Zaidi"
+ ZID_DEF:0 "Zaidi"
+ ZID_ADJ:0 "Yemeni"
 # Maghreb
  EGY:0 "Egypt"
  EGY_DEF:0 "Egypt"
