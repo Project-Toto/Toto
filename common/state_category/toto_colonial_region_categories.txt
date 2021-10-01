@@ -1,0 +1,66 @@
+state_categories = {
+	state_category_colonial_region_persia = {
+		# Persia
+		color = { 100 100 100 }
+	}
+	state_category_colonial_region_aegean = {
+		# Aegean
+		color = { 100 100 100 }
+	}
+	state_category_colonial_region_levant = {
+		# Levant
+		color = { 100 100 100 }
+	}
+	state_category_colonial_region_arabia = {
+		# Arabia
+		color = { 100 100 100 }
+	}
+	state_category_colonial_region_nile = {
+		# Nile
+		color = { 100 100 100 }
+	}
+	state_category_colonial_region_maghreb = {
+		# Maghreb
+		color = { 100 100 100 }
+	}
+	state_category_colonial_region_soudan = {
+		# Soudan
+		color = { 100 100 100 }
+	}
+	state_category_colonial_region_guinea = {
+		# Guinea
+		color = { 100 100 100 }
+	}
+	state_category_colonial_region_equatoria = {
+		# Equatoria
+		color = { 100 100 100 }
+	}
+	state_category_colonial_region_horn = {
+		# Horn
+		color = { 100 100 100 }
+	}
+	state_category_colonial_region_tanganyika = {
+		# Tanganyika
+		color = { 100 100 100 }
+	}
+	state_category_colonial_region_congo = {
+		# Congo
+		color = { 100 100 100 }
+	}
+	state_category_colonial_region_zambezi = {
+		# Zambezi
+		color = { 100 100 100 }
+	}
+	state_category_colonial_region_kalahari = {
+		# Kalahari
+		color = { 100 100 100 }
+	}
+	state_category_colonial_region_cape = {
+		# Cape
+		color = { 100 100 100 }
+	}
+	state_category_colonial_region_madagascar = {
+		# Madagascar
+		color = { 100 100 100 }
+	}
+}

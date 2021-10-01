@@ -1,4 +1,18 @@
 toto_gamemode_decision_category = {
+	toto_gamemode_decision_mapmode_continent = {
+		days_re_enable = var:global.mapmode_refresh_rate
+
+		complete_effect = {
+			enable_mapmode_continent = yes
+		}
+	}
+	toto_gamemode_decision_mapmode_colonial_region = {
+		days_re_enable = var:global.mapmode_refresh_rate
+
+		complete_effect = {
+			enable_mapmode_colonial_region = yes
+		}
+	}
 	toto_gamemode_decision_mapmode_religion = {
 		days_re_enable = var:global.mapmode_refresh_rate
 

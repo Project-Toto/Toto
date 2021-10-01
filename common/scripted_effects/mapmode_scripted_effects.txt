@@ -1,3 +1,98 @@
+# Regions
+	enable_mapmode_continent = {
+		every_state = {
+			if = {
+				limit = { has_state_flag = state_category_continent_africa_flag }
+				set_state_category = state_category_continent_africa
+			}
+			else_if = {
+				limit = { has_state_flag = state_category_continent_asia_flag }
+				set_state_category = state_category_continent_asia
+			}
+			else_if = {
+				limit = { has_state_flag = state_category_continent_europe_flag }
+				set_state_category = state_category_continent_europe
+			}
+			else_if = {
+				limit = { has_state_flag = state_category_continent_americas_flag }
+				set_state_category = state_category_continent_americas
+			}
+			else = {
+				set_state_category = town
+			}
+		}
+	}
+	enable_mapmode_colonial_region = {
+		every_state = {
+			if = {
+				limit = { has_state_flag = state_category_colonial_region_persia_flag }
+				set_state_category = state_category_colonial_region_persia
+			}
+			else_if = {
+				limit = { has_state_flag = state_category_colonial_region_aegean_flag }
+				set_state_category = state_category_colonial_region_aegean
+			}
+			else_if = {
+				limit = { has_state_flag = state_category_colonial_region_levant_flag }
+				set_state_category = state_category_colonial_region_levant
+			}
+			else_if = {
+				limit = { has_state_flag = state_category_colonial_region_arabia_flag }
+				set_state_category = state_category_colonial_region_arabia
+			}
+			else_if = {
+				limit = { has_state_flag = state_category_colonial_region_nile_flag }
+				set_state_category = state_category_colonial_region_nile
+			}
+			else_if = {
+				limit = { has_state_flag = state_category_colonial_region_maghreb_flag }
+				set_state_category = state_category_colonial_region_maghreb
+			}
+			else_if = {
+				limit = { has_state_flag = state_category_colonial_region_soudan_flag }
+				set_state_category = state_category_colonial_region_soudan
+			}
+			else_if = {
+				limit = { has_state_flag = state_category_colonial_region_guinea_flag }
+				set_state_category = state_category_colonial_region_guinea
+			}
+			else_if = {
+				limit = { has_state_flag = state_category_colonial_region_equatoria_flag }
+				set_state_category = state_category_colonial_region_equatoria
+			}
+			else_if = {
+				limit = { has_state_flag = state_category_colonial_region_horn_flag }
+				set_state_category = state_category_colonial_region_horn
+			}
+			else_if = {
+				limit = { has_state_flag = state_category_colonial_region_tanganyika_flag }
+				set_state_category = state_category_colonial_region_tanganyika
+			}
+			else_if = {
+				limit = { has_state_flag = state_category_colonial_region_congo_flag }
+				set_state_category = state_category_colonial_region_congo
+			}
+			else_if = {
+				limit = { has_state_flag = state_category_colonial_region_zambezi_flag }
+				set_state_category = state_category_colonial_region_zambezi
+			}
+			else_if = {
+				limit = { has_state_flag = state_category_colonial_region_cape_flag }
+				set_state_category = state_category_colonial_region_cape
+			}
+			else_if = {
+				limit = { has_state_flag = state_category_colonial_region_madagascar_flag }
+				set_state_category = state_category_colonial_region_madagascar
+			}
+			else = {
+				set_state_category = town
+			}
+		}
+	}
+	enable_mapmode_colonial_subregions = {
+
+	}
+# Demographics
 enable_mapmode_religion = {
 	every_state = {
 		if = {
@@ -116,12 +211,12 @@ enable_mapmode_religion = {
 		}
 	}
 }
-enable_mapmode_ethnicity = {
+enable_mapmode_culture = {
 
 }
 
 enable_mapmode_climate = {
-	
+
 }
 
 enable_mapmode_urbanization = {

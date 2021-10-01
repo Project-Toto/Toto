@@ -1,0 +1,18 @@
+state_categories = {
+	state_category_continent_africa = {
+		# Africa
+		color = rgb { 50 230 15 }
+	}
+	state_category_continent_asia = {
+		# Asia
+		color = rgb { 230 15 50 }
+	}
+	state_category_continent_europe = {
+		# Europe
+		color = rgb { 15 50 230 }
+	}
+	state_category_continent_americas = {
+		# Americas
+		color = rgb { 40 150 150 }
+	}
+}
