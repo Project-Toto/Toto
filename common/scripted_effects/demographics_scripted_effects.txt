@@ -1,27 +1,390 @@
-# demographics_national_culture_update = {
-# 	clear_array = national_culture_array
-# 	clear_array = national_culture_population_array
-# 	clear_array = national_culture_percentage_array
+# Immigration/Emmigration
 
-# 	every_owned_state = {
-# 		demographics_state_culture_update = yes
-# 		for_each_loop = {
+# Update
+	# Culture
+		demographics_national_culture_update = {
+			every_owned_state = {
+				# Update
+					demographics_state_culture_update = yes
+				# Add
+					for_each_loop = {
+						array = state_culture_array
+						index = iterate
+						# Already in Array
+							if = {
+								limit = {
+									is_in_array = {
+										array = PREV.national_culture_array_sorting
+										value = state_culture_array^iterate
+									}
+								}
+								# Find Index
+									for_each_loop = {
+										array = PREV.national_culture_array_sorting
+										index = iterate2
+										if = {
+											limit = {
+												check_variable = {
+													var = PREV.national_culture_array_sorting^iterate2
+													value = state_culture_array^iterate
+												}
+											}
+											set_temp_variable = { 
+												var = national_culture_index_temp
+												value = iterate2
+											}
+											set_temp_variable = { break = 1 }
+										}
+									}
+								# Add to Index
+									add_to_variable = {
+										var = PREV.national_culture_population_sorting^national_culture_index_temp
+										value = state_culture_population^iterate
+									}
+							}
+						# Add to Array
+							else = {
+								add_to_array = {
+									array = PREV.national_culture_array_sorting
+									value = state_culture_array
+								}
+								add_to_array = {
+									array = PREV.national_culture_population_array_sorting
+									value = state_culture_array
+								}
+							}
+					}
+			}
+			clear_array = national_culture_percentage_array
+			for_loop_effect = {
+					# Find Highest Population
+						find_highest_in_array = {
+							array = national_culture_population_array_sorting
+							value = national_culture_index_temp
+							index = iterate
+						}
+					# Transfer
+						add_to_array = {
+							array = national_culture_array
+							value = national_culture_array_sorting^iterate
+						}
+						add_to_array = {
+							array = national_culture_population_array
+							value = national_culture_population_array_sorting^iterate
+						}
+						set_temp_variable = {
+							var = national_culture_percentage_temp
+							value = national_culture_population_array_sorting^iterate
+						}
+						divide_temp_variable = {
+							var = national_culture_percentage_temp
+							value = max_manpower_k
+						}
+						add_to_array = {
+							array = national_culture_percentage_array
+							value = national_culture_percentage_temp
+						}
+					# Clean
+						remove_from_array = {
+							array = national_culture_array_sorted
+							index = iterate
+						}
+						remove_from_array = {
+							array = national_culture_population_sorted
+							index = iterate
+						}
+				}
+		}
 
-# 		}
-# 	}
-# }
+		demographics_state_culture_update = {
+			# Sort
+				for_loop_effect = {
+					# Find Highest Percentage
+						find_highest_in_array = {
+							array = state_culture_array_percentage
+							index = iterate
+						}
+					# Transfer
+						add_to_array = {
+							array = state_culture_array_sorted
+							value = state_culture_array^iterate
+						}
+						add_to_array = {
+							array = state_culture_percentage_array_sorted
+							value = state_culture_percentage_array^iterate
+						}
+					# Clean 
+						remove_from_array = {
+							array = state_culture_array
+							index = iterate
+						}
+						remove_from_array = {
+							array = state_culture_percentage_array
+							index = iterate
+						}
+				}
+				clear_array = state_culture_population_array
 
-# demographics_state_culture_update = {
-# 	for_each_loop = {
-# 		array = state_culture_array_percentage
+			# Transfer
+				for_each_loop = {
+					array = state_culture_array_sorted
+					index = iterate
+					# ID
+						add_to_array = {
+							array = state_culture_array
+							value = state_culture_array_sorted^iterate
+						}
+					# Percentage
+						add_to_array = {
+							array = state_culture_percentage_array
+							value = state_culture_percentage_array_sorted^iterate
+						}
+					# Population
+						set_temp_variable = {
+							array = state_culture_population_temp
+							value = state_culture_percentage_array_sorted^iterate
+						}
+						multiply_temp_variable = {
+							var = state_culture_population_temp
+							value = state_population_k
+						}
+						add_to_array = {
+							array = state_culture_population_array
+							value = state_culture_population_temp
+						}
+				}
+			# Clean
+				clear_array = state_culture_array_sorted
+				clear_array = state_culture_percentage_array_sorted
+		}
+	# Religion
+		demographics_national_religion_update = {
+			every_owned_state = {
+				# Update
+					demographics_state_religion_update = yes
+				# Add
+					for_each_loop = {
+						array = state_religion_array
+						index = iterate
+						# Already in Array
+							if = {
+								limit = {
+									is_in_array = {
+										array = PREV.national_religion_array_sorting
+										value = state_religion_array^iterate
+									}
+								}
+								# Find Index
+									for_each_loop = {
+										array = PREV.national_religion_array_sorting
+										index = iterate2
+										if = {
+											limit = {
+												check_variable = {
+													var = PREV.national_religion_array_sorting^iterate2
+													value = state_religion_array^iterate
+												}
+											}
+											set_temp_variable = { 
+												var = national_religion_index_temp
+												value = iterate2
+											}
+											set_temp_variable = { break = 1 }
+										}
+									}
+								# Add to Index
+									add_to_variable = {
+										var = PREV.national_religion_population_sorting^national_religion_index_temp
+										value = state_religion_population^iterate
+									}
+							}
+						# Add to Array
+							else = {
+								add_to_array = {
+									array = PREV.national_religion_array_sorting
+									value = state_religion_array
+								}
+								add_to_array = {
+									array = PREV.national_religion_population_array_sorting
+									value = state_religion_array
+								}
+							}
+					}
+			}
+			clear_array = national_religion_percentage_array
+			for_loop_effect = {
+					# Find Highest Population
+						find_highest_in_array = {
+							array = national_religion_population_array_sorting
+							value = national_religion_index_temp
+							index = iterate
+						}
+					# Transfer
+						add_to_array = {
+							array = national_religion_array
+							value = national_religion_array_sorting^iterate
+						}
+						add_to_array = {
+							array = national_religion_population_array
+							value = national_religion_population_array_sorting^iterate
+						}
+						set_temp_variable = {
+							var = national_religion_percentage_temp
+							value = national_religion_population_array_sorting^iterate
+						}
+						divide_temp_variable = {
+							var = national_religion_percentage_temp
+							value = max_manpower_k
+						}
+						add_to_array = {
+							array = national_religion_percentage_array
+							value = national_religion_percentage_temp
+						}
+					# Clean
+						remove_from_array = {
+							array = national_religion_array_sorted
+							index = iterate
+						}
+						remove_from_array = {
+							array = national_religion_population_sorted
+							index = iterate
+						}
+				}
+		}
 
-# 	}
-# }
+		demographics_state_religion_update = {
+			# Sort
+				for_loop_effect = {
+					# Find Highest Percentage
+						find_highest_in_array = {
+							array = state_religion_array_percentage
+							index = iterate
+						}
+					# Transfer
+						add_to_array = {
+							array = state_religion_array_sorted
+							value = state_religion_array^iterate
+						}
+						add_to_array = {
+							array = state_religion_percentage_array_sorted
+							value = state_religion_percentage_array^iterate
+						}
+					# Clean 
+						remove_from_array = {
+							array = state_religion_array
+							index = iterate
+						}
+						remove_from_array = {
+							array = state_religion_percentage_array
+							index = iterate
+						}
+				}
+				clear_array = state_religion_population_array
 
-# demographics_national_religion_update = {
-
-# }
-
-# demographics_state_religion_update = {
-
-# }
+			# Transfer
+				for_each_loop = {
+					array = state_religion_array_sorted
+					index = iterate
+					# ID
+						add_to_array = {
+							array = state_religion_array
+							value = state_religion_array_sorted^iterate
+						}
+					# Percentage
+						add_to_array = {
+							array = state_religion_percentage_array
+							value = state_religion_percentage_array_sorted^iterate
+						}
+					# Population
+						set_temp_variable = {
+							array = state_religion_population_temp
+							value = state_religion_percentage_array_sorted^iterate
+						}
+						multiply_temp_variable = {
+							var = state_religion_population_temp
+							value = state_population_k
+						}
+						add_to_array = {
+							array = state_religion_population_array
+							value = state_religion_population_temp
+						}
+				}
+			# Clean
+				clear_array = state_religion_array_sorted
+				clear_array = state_religion_percentage_array_sorted
+		}
+# Setup
+	# Culture
+		demographics_global_culture_setup = {
+			# Anglo-Germanic
+				set_variable = { global.culture_american = 0 }
+				set_variable = { global.culture_dixie = 1 }
+				set_variable = { global.culture_english = 2 }
+				set_variable = { global.culture_dutch = 3 }
+				set_variable = { global.culture_flemish = 4 }
+				set_variable = { global.culture_afrikaans = 5 }
+				set_variable = { global.culture_danish = 6 }
+				set_variable = { global.culture_swedish = 7 }
+			# Romance
+				set_variable = { global.culture_brazilian = 8 }
+				set_variable = { global.culture_french = 9 }
+				set_variable = { global.culture_spanish = 10 }
+				set_variable = { global.culture_portugese = 11 }
+				set_variable = { global.culture_italian = 12 }
+				set_variable = { global.culture_austrian = 13 }
+			# Slavic
+				set_variable = { global.culture_russian = 14 }
+				set_variable = { global.culture_montenegrin = 15 }
+				set_variable = { global.culture_serbian = 16 }
+				set_variable = { global.culture_bulgarian = 17 }
+			# Albanian
+				set_variable = { global.culture_albanian = 18 }
+			# Pontic
+				set_variable = { global.culture_greek = 19 }
+				set_variable = { global.culture_cypriot = 20 }
+			# Turkic
+				set_variable = { global.culture_turkish = 21 }
+				set_variable = { global.culture_azerbaijani = 22 }
+			# Caucasian
+				set_variable = { global.culture_armenian = 23 }
+			# Iranic
+				set_variable = { global.culture_persian = 24 }
+				set_variable = { global.culture_lorish = 25 }
+				set_variable = { global.culture_kurdish = 26}
+				set_variable = { global.culture_zaza = 27 }
+			# Aryan
+				set_variable = { global.culture_balouch = 28 }
+				set_variable = { global.culture_nuris = 29 }
+			# Semitic
+				set_variable = { global.culture_arab = 30 }
+				set_variable = { global.culture_copts = 31 }
+		}
+	# Religion
+		demographics_global_religion_setup = {
+			# Pagan
+				set_variable = { global.religion_animist = 0 }
+				set_variable = { global.religion_fetishist = 1 }
+			# Ancestorship
+				set_variable = { global.religion_mossi = 2 }
+				set_variable = { global.religion_ancestorship = 3 }
+			# Esoteric Monotheistics
+				set_variable = { global.religion_zoroastrian = 4 }
+				set_variable = { global.religion_jewish = 5 }
+				set_variable = { global.religion_druze = 6 }
+				set_variable = { global.religion_waaqism = 7 }
+			# Christianity
+				set_variable = { global.religion_catholic = 8 }
+				set_variable = { global.religion_protestant = 9 }
+				set_variable = { global.religion_anglican = 10 }
+				set_variable = { global.religion_orthodox = 11 }
+				set_variable = { global.religion_coptic = 12 }
+			# Islam
+				set_variable = { global.religion_sunni = 13 }
+				set_variable = { global.religion_shiite = 14 }
+				set_variable = { global.religion_ibadi = 15 }
+			# Cult
+				set_variable = { global.religion_cult_of_personality = 16 }
+				set_variable = { global.religion_vodun = 17 }
+			# Irreligious
+				set_variable = { global.religion_atheist = 18 }
+		}
