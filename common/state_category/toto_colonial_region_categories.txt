@@ -51,10 +51,6 @@ state_categories = {
 		# Zambezi
 		color = { 100 100 100 }
 	}
-	state_category_colonial_region_kalahari = {
-		# Kalahari
-		color = { 100 100 100 }
-	}
 	state_category_colonial_region_cape = {
 		# Cape
 		color = { 100 100 100 }

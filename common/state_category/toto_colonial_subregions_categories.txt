@@ -1,0 +1,106 @@
+state_categories = {
+	state_category_colonial_subregion_greece = {
+		# Greece
+		color = { 100 100 100 }
+	}
+	state_category_colonial_subregion_anatolia= {
+		# Anatolia
+		color = { 100 100 100 }
+	}
+	state_category_colonial_subregion_luristan = {
+		# Luristan
+		color = { 100 100 100 }
+	}
+	state_category_colonial_subregion_balouchistan = {
+		# Balouchistan
+		color = { 100 100 100 }
+	}
+	state_category_colonial_subregion_mesopotamia = {
+		# Mesopotamia
+		color = { 100 100 100 }
+	}
+	state_category_colonial_subregion_kurdistan = {
+		# Kurdistan
+		color = { 100 100 100 }
+	}
+	state_category_colonial_subregion_syria = {
+		# Syria
+		color = { 100 100 100 }
+	}
+	state_category_colonial_subregion_lebanon = {
+		# Lebanon
+		color = { 100 100 100 }
+	}
+	state_category_colonial_subregion_palestine = {
+		# Palestine
+		color = { 100 100 100 }
+	}
+	state_category_colonial_subregion_hejaz = {
+		# Hejaz
+		color = { 100 100 100 }
+	}
+	state_category_colonial_subregion_haasa = {
+		# Haasa
+		color = { 100 100 100 }
+	}
+	state_category_colonial_subregion_gulf = {
+		# Gulf
+		color = { 100 100 100 }
+	}
+	state_category_colonial_subregion_hormuz = {
+		# Hormuz
+		color = { 100 100 100 }
+	}
+	state_category_colonial_subregion_oman = {
+		# Oman
+		color = { 100 100 100 }
+	}
+	state_category_colonial_subregion_north_yemen = {
+		# North Yemen
+		color = { 100 100 100 }
+	}
+	state_category_colonial_subregion_south_yemen = {
+		# South Yemen
+		color = { 100 100 100 }
+	}
+	state_category_colonial_subregion_egypt = {
+		# Egypt
+		color = { 100 100 100 }
+	}
+	state_category_colonial_subregion_tripolitania = {
+		# Tripolitania
+		color = { 100 100 100 }
+	}
+	state_category_colonial_subregion_tunis = {
+		# Tunis
+		color = { 100 100 100 }
+	}
+	state_category_colonial_subregion_algiers = {
+		# Algiers
+		color = { 100 100 100 }
+	}
+	state_category_colonial_subregion_morocco = {
+		# Morocco
+		color = { 100 100 100 }
+	}
+	state_category_colonial_subregion_saharwi = {
+		# saharwi
+		color = { 100 100 100 }
+	}
+	state_category_colonial_subregion_mauritania = {
+		# Mauritania
+		color = { 100 100 100 }
+	}
+	state_category_colonial_subregion_senegal = {
+		# Senegal
+		color = { 100 100 100 }
+	}
+	state_category_colonial_subregion_bissau = {
+		# Bissau
+		color = { 100 100 100 }
+	}
+	state_category_colonial_subregion_gambia = {
+		# Gambia
+		color = { 100 100 100 }
+	}
+}
