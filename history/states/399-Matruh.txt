@@ -4,6 +4,11 @@ state={
 	provinces={
 		246 1177 1269 4775 6332 6351 7811 
 	}
-	manpower=0
+	history={
+		afr_state_setup_scripted_effect = yes
+		owner = EGY
+	}
+	manpower=1
 	buildings_max_level_factor=1.000
+	state_category=town
 }

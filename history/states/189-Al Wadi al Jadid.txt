@@ -12,6 +12,7 @@ state={
 	provinces={
 		249 284 305 443 493 676 850 920 1035 1164 1188 1328 1408 1541 1895 2278 2376 2410 3332 3461 4190 4527 4866 5038 5823 5999 8057 8118 12720 
 	}
+	impassable=yes
 	manpower=1
 	buildings_max_level_factor=1.000
 	state_category=town
