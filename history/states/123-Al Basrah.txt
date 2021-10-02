@@ -5,8 +5,10 @@ state={
 	provinces={
 		201 1014 2712 3917 5566 5974 7292 7521 7531 7532 7543 
 	}
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner = OTO
+		set_state_flag = state_category_continent_asia_flag
+		set_state_flag = state_category_colonial_region_levant_flag
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

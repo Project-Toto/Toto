@@ -2,10 +2,10 @@ state={
 	id=166
 	name="STATE_166"
 	provinces={
-		364 379 383 455 616 934 1266 1841 3673 4296 4461 5867 6042 6684 6963 6991 8413 8456 8492 8497 8520 8523 
+		364 379 383 455 616 934 1266 1841 3673 4296 4461 5867 6042 6684 6963 6991 8413 8456 8492 8497 8520 8523
 	}
 	state_category=town
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner=WDD
 	}
 	manpower=1

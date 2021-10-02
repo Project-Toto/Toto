@@ -3,13 +3,13 @@ state={
 	id=171
 	name="STATE_171"
 
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner = KBO
 
 	}
 
 	provinces={
-		3249 4946 5841 5875 8631 
+		3249 4946 5841 5875 8631
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

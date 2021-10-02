@@ -2,9 +2,9 @@ state={
 	id=271
 	name="STATE_271"
 	provinces={
-		958 1677 4448 6731 9427 
+		958 1677 4448 6731 9427
 	}
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner = LIB
 	}
 	manpower=1

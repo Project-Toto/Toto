@@ -2,9 +2,9 @@ state={
 	id=361
 	name="STATE_361"
 	provinces={
-		1307 1466 1815 4104 5238 5307 5652 6448 6773 7727 7752 7759 7771 10762 
+		1307 1466 1815 4104 5238 5307 5652 6448 6773 7727 7752 7759 7771 10762
 	}
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner = TUN
 	}
 	manpower=1

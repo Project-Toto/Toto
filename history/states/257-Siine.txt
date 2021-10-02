@@ -3,9 +3,9 @@ state={
 	id=257
 	name="STATE_257"
 	provinces={
-		1275 2416 3408 5527 8435 8454 8460 
+		1275 2416 3408 5527 8435 8454 8460
 	}
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner = BAO
 	}
 	manpower=1

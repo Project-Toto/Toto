@@ -1,12 +1,15 @@
+
 state={
 	id=400
 	name="STATE_400"
-	provinces={
-		482 2561 7964 8018 12719 
-	}
+
 	history={
-		afr_state_setup_scripted_effect = yes
 		owner = EGY
+
+	}
+
+	provinces={
+		482 2561 5431 7070 7964 8018 12719 12729 12730 12731 12732 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

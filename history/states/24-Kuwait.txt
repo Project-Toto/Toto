@@ -3,9 +3,10 @@ state={
 	id=24
 	name="STATE_24"
 
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner = KUW
-
+		set_state_flag = state_category_continent_asia_flag
+		set_state_flag = state_category_colonial_region_levant_flag
 	}
 
 	provinces={

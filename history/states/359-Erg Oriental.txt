@@ -6,7 +6,6 @@ state={
 	}
 	impassable = yes
 	history={
-		afr_state_setup_scripted_effect = yes
 		owner = TUN
 	}
 	manpower=1

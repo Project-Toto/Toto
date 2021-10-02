@@ -1,0 +1,16 @@
+
+state={
+	id=403
+	name="STATE_403"
+	provinces={
+		960 2159 3783 3926 7621 
+	}
+	history={
+		owner=OTO
+		set_state_flag = state_category_continent_asia_flag
+		set_state_flag = state_category_colonial_region_levant_flag
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+}

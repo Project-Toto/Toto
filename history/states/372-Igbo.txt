@@ -2,9 +2,9 @@ state={
 	id=372
 	name="STATE_372"
 	provinces={
-		2331 3915 6059 9380 
+		2331 3915 6059 9380
 	}
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner=IGA
 	}
 	manpower=1

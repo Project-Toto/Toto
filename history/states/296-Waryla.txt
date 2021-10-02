@@ -3,7 +3,7 @@ state={
 	id=296
 	name="STATE_296"
 
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner = MZA
 
 	}

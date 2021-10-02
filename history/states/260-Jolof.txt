@@ -3,9 +3,9 @@ state={
 	id=260
 	name="STATE_260"
 	provinces={
-		277 495 649 1384 3375 6129 6687 8415 8416 
+		277 495 649 1384 3375 6129 6687 8415 8416
 	}
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner = FTT
 	}
 	manpower=1

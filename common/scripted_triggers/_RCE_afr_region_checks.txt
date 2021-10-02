@@ -395,145 +395,145 @@ afr_ber_check_if_already_colonised={
 			any_country ={
 				has_country_flag = BC_Granted_Manuritania
 			}
-			UCT = {check_variable = {current_region_conferance_vote = 1}}
+			TES = {check_variable = {current_region_conferance_vote = 1}}
 		}
 		AND = {
 			any_country ={
 				has_country_flag = BC_Granted_Senegal
 			}
-			UCT = {check_variable = {current_region_conferance_vote = 2}}
+			TES = {check_variable = {current_region_conferance_vote = 2}}
 		}
 		AND = {
 			any_country ={
 				has_country_flag = BC_Granted_Guinea
 			}
-			UCT = {check_variable = {current_region_conferance_vote = 3}}
+			TES = {check_variable = {current_region_conferance_vote = 3}}
 		}
 		AND = {
 			any_country ={
 				has_country_flag = BC_Granted_Sierra_Leone
 			}
-			UCT = {check_variable = {current_region_conferance_vote = 4}}
+			TES = {check_variable = {current_region_conferance_vote = 4}}
 		}
 		AND = {
 			any_country ={
 				has_country_flag = BC_Granted_Ivory_Coast
 			}
-			UCT = {check_variable = {current_region_conferance_vote = 5}}
+			TES = {check_variable = {current_region_conferance_vote = 5}}
 		}
 		AND = {
 			any_country ={
 				has_country_flag = BC_Granted_Ghana
 			}
-			UCT = {check_variable = {current_region_conferance_vote = 6}}
+			TES = {check_variable = {current_region_conferance_vote = 6}}
 		}
 		AND = {
 			any_country ={
 				has_country_flag = BC_Granted_Togo
 			}
-			UCT = {check_variable = {current_region_conferance_vote = 7}}
+			TES = {check_variable = {current_region_conferance_vote = 7}}
 		}
 		AND = {
 			any_country ={
 				has_country_flag = BC_Granted_Benin
 			}
-			UCT = {check_variable = {current_region_conferance_vote = 8}}
+			TES = {check_variable = {current_region_conferance_vote = 8}}
 		}
 		AND = {
 			any_country ={
 				has_country_flag = BC_Granted_Nigeria
 			}
-			UCT = {check_variable = {current_region_conferance_vote = 9}}
+			TES = {check_variable = {current_region_conferance_vote = 9}}
 		}
 		AND = {
 			any_country ={
 				has_country_flag = BC_Granted_Equatorial_Africa
 			}
-			UCT = {check_variable = {current_region_conferance_vote = 10}}
+			TES = {check_variable = {current_region_conferance_vote = 10}}
 		}
 		AND = {
 			any_country ={
 				has_country_flag = BC_Granted_Gabon
 			}
-			UCT = {check_variable = {current_region_conferance_vote = 11}}
+			TES = {check_variable = {current_region_conferance_vote = 11}}
 		}
 		AND = {
 			any_country ={
 				has_country_flag = BC_Granted_Kongo
 			}
-			UCT = {check_variable = {current_region_conferance_vote = 12}}
+			TES = {check_variable = {current_region_conferance_vote = 12}}
 		}
 		AND = {
 			any_country ={
 				has_country_flag = BC_Granted_Angola
 			}
-			UCT = {check_variable = {current_region_conferance_vote = 13}}
+			TES = {check_variable = {current_region_conferance_vote = 13}}
 		}
 		AND = {
 			any_country ={
 				has_country_flag = BC_Granted_Nambia
 			}
-			UCT = {check_variable = {current_region_conferance_vote = 14}}
+			TES = {check_variable = {current_region_conferance_vote = 14}}
 		}
 		AND = {
 			any_country ={
 				has_country_flag = BC_Granted_Zanzabar
 			}
-			UCT = {check_variable = {current_region_conferance_vote = 15}}
+			TES = {check_variable = {current_region_conferance_vote = 15}}
 		}
 		AND = {
 			any_country ={
 				has_country_flag = BC_Granted_Kenya
 			}
-			UCT = {check_variable = {current_region_conferance_vote = 16}}
+			TES = {check_variable = {current_region_conferance_vote = 16}}
 		}
 		AND = {
 			any_country ={
 				has_country_flag = BC_Granted_African_Horn
 			}
-			UCT = {check_variable = {current_region_conferance_vote = 17}}
+			TES = {check_variable = {current_region_conferance_vote = 17}}
 		}
 		AND = {
 			any_country ={
 				has_country_flag = BC_Granted_Uganda
 			}
-			UCT = {check_variable = {current_region_conferance_vote = 18}}
+			TES = {check_variable = {current_region_conferance_vote = 18}}
 		}
 		AND = {
 			any_country ={
 				has_country_flag = BC_Granted_Rhodesia
 			}
-			UCT = {check_variable = {current_region_conferance_vote = 19}}
+			TES = {check_variable = {current_region_conferance_vote = 19}}
 		}
 		AND = {
 			any_country ={
 				has_country_flag = BC_Granted_Central_Africa
 			}
-			UCT = {check_variable = {current_region_conferance_vote = 20}}
+			TES = {check_variable = {current_region_conferance_vote = 20}}
 		}
 		AND = {
 			any_country ={
 				has_country_flag = BC_Granted_Mali
 			}
-			UCT = {check_variable = {current_region_conferance_vote = 21}}
+			TES = {check_variable = {current_region_conferance_vote = 21}}
 		}
 		AND = {
 			any_country ={
 				has_country_flag = BC_Granted_Niger
 			}
-			UCT = {check_variable = {current_region_conferance_vote = 22}}
+			TES = {check_variable = {current_region_conferance_vote = 22}}
 		}
 		AND = {
 			any_country ={
 				has_country_flag = BC_Granted_Burkina_Faso
 			}
-			UCT = {check_variable = {current_region_conferance_vote = 23}}
+			TES = {check_variable = {current_region_conferance_vote = 23}}
 		}
 		AND = {
 			any_country ={
 				has_country_flag = BC_Granted_Chad
 			}
-			UCT = {check_variable = {current_region_conferance_vote = 24}}
+			TES = {check_variable = {current_region_conferance_vote = 24}}
 		}
 	}
 }

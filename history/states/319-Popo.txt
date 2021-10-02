@@ -2,9 +2,9 @@ state={
 	id=319
 	name="STATE_319"
 	provinces={
-		6371 6828 9275 9306 9311 
+		6371 6828 9275 9306 9311
 	}
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner = DAH
 	}
 	manpower=1

@@ -3,13 +3,13 @@ state={
 	id=347
 	name="STATE_347"
 
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner = BEN
 
 	}
 
 	provinces={
-		2830 3211 4280 4678 9276 9297 9330 9341 
+		2830 3211 4280 4678 9276 9297 9330 9341
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

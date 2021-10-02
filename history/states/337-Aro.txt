@@ -3,13 +3,13 @@ state={
 	id=337
 	name="STATE_337"
 
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner = ARO
 
 	}
 
 	provinces={
-		81 3852 4129 4519 9400 9416 9425 9431 
+		81 3852 4129 4519 9400 9416 9425 9431
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

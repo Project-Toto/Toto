@@ -3,14 +3,14 @@ state={
 	id=306
 	name="STATE_306"
 
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner = ALG
 		add_core_of = KBY
 
 	}
 
 	provinces={
-		2353 5655 6156 7100 7677 
+		2353 5655 6156 7100 7677
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

@@ -6,8 +6,10 @@ state={
 		1015 1053 1243 1344 2002 2155 2780 2885 3067 3291 3389 3678 3714 4404 5591 6504 6798 6832 7313 7314 7336 7338 7357 7360 7374 
 	}
 	state_category=town
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner=OTO
+		set_state_flag = state_category_continent_asia_flag
+		set_state_flag = state_category_colonial_region_levant_flag
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

@@ -3,13 +3,13 @@ state={
 	id=197
 	name="STATE_197"
 
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner = ENG
 
 	}
 
 	provinces={
-		6216 6366 9347 9357 9377 9393 
+		6216 6366 9347 9357 9377 9393
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

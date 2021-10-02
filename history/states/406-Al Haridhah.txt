@@ -1,0 +1,13 @@
+state={
+	id=406
+	name="STATE_406"
+	provinces={
+		1518 1989 4806 6330 7021 8128 8138 8143 8150 
+	}
+	history={
+		owner=HJZ
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+}

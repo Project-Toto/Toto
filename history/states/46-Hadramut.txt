@@ -3,13 +3,13 @@ state={
 	id=46
 	name="STATE_46"
 
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner = KAT
 
 	}
 
 	provinces={
-		662 695 1454 1789 2063 2794 3317 3723 3902 4925 6281 7126 7204 7263 8119 8123 8141 8156 8165 8172 
+		662 695 1454 1789 2063 2794 3317 3723 3902 4925 6281 7126 7204 7263 8119 8123 8141 8156 8165 8172
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

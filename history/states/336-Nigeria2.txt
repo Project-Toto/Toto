@@ -2,9 +2,9 @@ state={
 	id=336
 	name="STATE_336"
 	provinces={
-		4844 
+		4844
 	}
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner = ARO
 	}
 	manpower=1

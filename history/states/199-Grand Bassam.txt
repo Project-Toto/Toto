@@ -3,13 +3,13 @@ state={
 	id=199
 	name="STATE_199"
 
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner = FRA
 
 	}
 
 	provinces={
-		3046 4018 4161 6782 7098 9366 9385 
+		3046 4018 4161 6782 7098 9366 9385
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

@@ -3,9 +3,9 @@ state={
 	id=324
 	name="STATE_324"
 	provinces={
-		454 1416 1779 2672 5490 8789 8833 8866 8882 8883 8908 
+		454 1416 1779 2672 5490 8789 8833 8866 8882 8883 8908
 	}
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner = BRG
 	}
 	manpower=1

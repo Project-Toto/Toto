@@ -2,9 +2,9 @@ state={
 	id=365
 	name="STATE_365"
 	provinces={
-		2319 7094 8603 
+		2319 7094 8603
 	}
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner=BTN
 	}
 	state_category=town

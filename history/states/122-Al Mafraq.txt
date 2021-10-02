@@ -4,8 +4,10 @@ state={
 	provinces={
 		219 1032 5299 6855 7594 
 	}
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner = HIL
+		set_state_flag = state_category_continent_asia_flag
+		set_state_flag = state_category_colonial_region_levant_flag
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

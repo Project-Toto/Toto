@@ -3,12 +3,12 @@ state={
 	id=355
 	name="STATE_355"
 
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner = DMG
 	}
 
 	provinces={
-		906 
+		906
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

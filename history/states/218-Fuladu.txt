@@ -2,10 +2,10 @@ state={
 	id=218
 	name="STATE_218"
 	provinces={
-		229 301 2061 2627 4670 6174 7177 8538 8570 8575 8633 8677 
+		229 301 2061 2627 4670 6174 7177 8538 8570 8575 8633 8677
 	}
 	state_category=town
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner=TOU
 	}
 	manpower=1

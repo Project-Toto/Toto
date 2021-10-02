@@ -44,6 +44,7 @@ idea_categories = {
 
 	law_country_politics = {
 		slot = law_country_constitution
+		slot = law_country_heir
 		slot = law_country_suffrage
 		slot = law_country_borders
 		slot = law_country_discrimination

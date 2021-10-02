@@ -2,9 +2,9 @@ state={
 	id=374
 	name="STATE_374"
 	provinces={
-		1031 1463 1524 1539 2523 3269 3528 5531 6243 6344 6587 7273 9263 
+		1031 1463 1524 1539 2523 3269 3528 5531 6243 6344 6587 7273 9263
 	}
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner=GBG
 	}
 	manpower=1

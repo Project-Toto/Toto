@@ -2,9 +2,9 @@ state={
 	id=275
 	name="STATE_275"
 	provinces={
-		1428 1605 1983 2047 4704 4896 5291 6565 9060 9088 9107 9115 9127 9155 
+		1428 1605 1983 2047 4704 4896 5291 6565 9060 9088 9107 9115 9127 9155
 	}
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner = MND
 	}
 	manpower=1

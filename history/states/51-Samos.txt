@@ -4,8 +4,10 @@ state={
 	provinces={
 		6436 7564 10718 10722 10726
 	}
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner = EUR
+		set_state_flag = state_category_continent_europe_flag
+		set_state_flag = state_category_colonial_region_aegean_flag
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

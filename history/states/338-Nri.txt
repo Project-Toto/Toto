@@ -3,13 +3,13 @@ state={
 	id=338
 	name="STATE_338"
 
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner = IGA
 
 	}
 
 	provinces={
-		1291 2873 5825 6369 6654 9270 9293 9317 
+		1291 2873 5825 6369 6654 9270 9293 9317
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

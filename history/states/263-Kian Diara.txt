@@ -3,13 +3,13 @@ state={
 	id=263
 	name="STATE_263"
 
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner = BTN
 
 	}
 
 	provinces={
-		590 1863 5449 5643 7199 8621 
+		590 1863 5449 5643 7199 8621
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

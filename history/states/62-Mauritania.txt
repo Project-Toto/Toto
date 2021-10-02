@@ -3,13 +3,13 @@ state={
 	id=62
 	name="STATE_62"
 
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner = ARR
 
 	}
 
 	provinces={
-		483 547 820 855 1017 1126 1871 2253 3078 4204 5385 5614 6740 7018 
+		483 547 820 855 1017 1126 1871 2253 3078 4204 5385 5614 6740 7018
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

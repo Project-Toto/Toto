@@ -3,13 +3,13 @@ state={
 	id=200
 	name="STATE_200"
 
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner = KRU
 
 	}
 
 	provinces={
-		2751 3428 4786 5191 5367 6552 9368 9395 9410 9415 9424 
+		2751 3428 4786 5191 5367 6552 9368 9395 9410 9415 9424
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

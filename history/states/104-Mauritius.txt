@@ -2,10 +2,10 @@ state={
 	id=104
 	name="STATE_104"
 	provinces={
-		3028 4443 10662 10669 10672 
+		3028 4443 10662 10669 10672
 	}
 	state_category=town
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner=TES
 	}
 	manpower=1

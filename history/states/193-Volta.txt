@@ -3,13 +3,13 @@ state={
 	id=193
 	name="STATE_193"
 
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner = TOG
 
 	}
 
 	provinces={
-		882 4435 4588 5471 6981 7208 9207 9335 
+		882 4435 4588 5471 6981 7208 9207 9335
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

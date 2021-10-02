@@ -2,9 +2,9 @@ state={
 	id=348
 	name="STATE_348"
 	provinces={
-		966 2566 2951 4212 5702 5783 9149 9179 9203 
+		966 2566 2951 4212 5702 5783 9149 9179 9203
 	}
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner = SKT
 	}
 	manpower=1

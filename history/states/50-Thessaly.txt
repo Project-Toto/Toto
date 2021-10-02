@@ -3,13 +3,14 @@ state={
 	id=50
 	name="STATE_50"
 
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner = OTO
-
+		set_state_flag = state_category_continent_europe_flag
+		set_state_flag = state_category_colonial_region_aegean_flag
 	}
 
 	provinces={
-		2205 2768 3233 3788 5387 6050 7418 7451 7463 7480 
+		2205 2768 3233 3788 5387 6050 7418 7451 7463 7480
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

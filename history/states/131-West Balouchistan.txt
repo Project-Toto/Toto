@@ -2,11 +2,15 @@
 state={
 	id=131
 	name="STATE_131"
-	provinces={
-		13 326 764 1438 1530 1836 2844 3257 3442 3866 3877 5004 5320 5513 7327 7328 7347 7349 7372 7378 7392 7401 7427 7450 7472 
-	}
-	history={ afr_state_setup_scripted_effect = yes
+
+	history={
 		owner = KLT
+		set_state_flag = state_category_continent_asia_flag
+		set_state_flag = state_category_colonial_region_persia_flag
+	}
+
+	provinces={
+		13 326 764 1438 1530 1836 2844 3257 3442 3866 3877 5004 5320 5513 7327 7328 7329 7347 7349 7372 7378 7392 7401 7427 7450 7472 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

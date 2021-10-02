@@ -3,9 +3,9 @@ state={
 	id=276
 	name="STATE_276"
 	provinces={
-		1575 2027 3617 4975 6067 6078 7106 7138 8707 8763 8869 8880 8890 8924 
+		1575 2027 3617 4975 6067 6078 7106 7138 8707 8763 8869 8880 8890 8924
 	}
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner = FTJ
 	}
 	manpower=1

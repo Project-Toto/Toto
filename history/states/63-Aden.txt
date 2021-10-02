@@ -3,13 +3,13 @@ state={
 	id=63
 	name="STATE_63"
 
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner = ADN
 
 	}
 
 	provinces={
-		2425 3286 3466 4539 4782 5849 6161 8308 8317 8332 8343 8353 
+		2425 3286 3466 4539 4782 5849 6161 8308 8317 8332 8343 8353
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

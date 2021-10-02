@@ -3,13 +3,13 @@ state={
 	id=280
 	name="STATE_280"
 
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner = MOR
 
 	}
 
 	provinces={
-		908 969 1479 1854 2099 4283 8027 8042 
+		908 969 1479 1854 2099 4283 8027 8042
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

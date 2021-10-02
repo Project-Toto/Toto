@@ -4,7 +4,6 @@ state={
 	name="STATE_305"
 
 	history={
-		afr_state_setup_scripted_effect = yes
 		owner = OTO
 
 	}
@@ -13,7 +12,6 @@ state={
 		12672 12715
 	}
 	history={
-		afr_state_setup_scripted_effect = yes
 		owner = OTO
 	}
 	manpower=1

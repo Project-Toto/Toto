@@ -3,13 +3,13 @@ state={
 	id=234
 	name="STATE_234"
 
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner = KAD
 
 	}
 	impassable=yes
 	provinces={
-		223 509 723 758 965 1170 1294 1476 1740 2533 8337 8398 
+		223 509 723 758 965 1170 1294 1476 1740 2533 8337 8398
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

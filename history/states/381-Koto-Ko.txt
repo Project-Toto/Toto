@@ -2,9 +2,9 @@ state={
 	id=381
 	name="STATE_381"
 	provinces={
-		4325 5929 6319 
+		4325 5929 6319
 	}
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner=KBO
 	}
 	manpower=1

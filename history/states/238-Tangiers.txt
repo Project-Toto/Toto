@@ -3,9 +3,9 @@ state={
 	id=238
 	name="STATE_238"
 	provinces={
-		2895 4236 6299 7134 7201 7209 7721 7764 7778 
+		2895 4236 6299 7134 7201 7209 7721 7764 7778
 	}
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner = MOR
 	}
 	manpower=1

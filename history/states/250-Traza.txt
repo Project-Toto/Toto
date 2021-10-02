@@ -3,9 +3,9 @@ state={
 	id=250
 	name="STATE_250"
 	provinces={
-		210 442 1766 1865 2543 3481 3545 5484 6333 8310 8321 8351 
+		210 442 1766 1865 2543 3481 3545 5484 6333 8310 8321 8351
 	}
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner = TRZ
 	}
 	manpower=1

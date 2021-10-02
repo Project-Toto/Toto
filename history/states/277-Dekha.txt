@@ -2,9 +2,9 @@ state={
 	id=277
 	name="STATE_277"
 	provinces={
-		259 707 887 2064 6143 8097 
+		259 707 887 2064 6143 8097
 	}
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner = TJK
 	}
 	manpower=1

@@ -2,9 +2,9 @@ state={
 	id=310
 	name="STATE_310"
 	provinces={
-		463 512 1316 1667 3303 3485 3894 9194 9233 9242 
+		463 512 1316 1667 3303 3485 3894 9194 9233 9242
 	}
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner = ASH
 	}
 	manpower=1

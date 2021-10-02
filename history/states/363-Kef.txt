@@ -2,9 +2,9 @@ state={
 	id=363
 	name="STATE_363"
 	provinces={
-		659 1739 4164 5136 5468 6725 7687 7693 7718 
+		659 1739 4164 5136 5468 6725 7687 7693 7718
 	}
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner = TUN
 	}
 	manpower=1

@@ -3,9 +3,9 @@ state={
 	id=322
 	name="STATE_322"
 	provinces={
-		2019 4356 4895 5160 5192 6452 9129 9146 9193 9195 9214 
+		2019 4356 4895 5160 5192 6452 9129 9146 9193 9195 9214
 	}
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner = DAH
 	}
 	manpower=1

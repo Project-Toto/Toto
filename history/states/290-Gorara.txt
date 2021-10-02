@@ -3,13 +3,13 @@ state={
 	id=290
 	name="STATE_290"
 
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner = ASS
 
 	}
 	impassable=yes
 	provinces={
-		24 283 292 407 448 579 740 1843 2086 2770 3015 3109 3219 3435 3893 4271 4272 8109 8126 12660 12661 12681 
+		24 283 292 407 448 579 740 1843 2086 2770 3015 3109 3219 3435 3893 4271 4272 8109 8126 12660 12661 12681
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

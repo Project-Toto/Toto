@@ -3,13 +3,13 @@ state={
 	id=301
 	name="STATE_301"
 
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner = ALG
 
 	}
 
 	provinces={
-		371 870 1261 2101 3495 4831 5157 5249 5760 7085 7673 7694 7709 7711 7723 
+		371 870 1261 2101 3495 4831 5157 5249 5760 7085 7673 7694 7709 7711 7723
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

@@ -2,191 +2,191 @@
 # Unclaimed Territories Mechanics #
 ###################################
 defined_text = {
-  name = UCT_territory_management_establish_first_claim_4_desc_scripted
+  name = TES_territory_management_establish_first_claim_4_desc_scripted
   text = {
-    trigger = { 
+    trigger = {
 		OR = {
 			AND = {
-				FROM = { has_state_flag = UCT_territory_management_claim_progress_convoy_3_flag }
+				FROM = { has_state_flag = TES_territory_management_claim_progress_convoy_3_flag }
 				has_equipment = { convoy_1 < 3 }
 			}
 			AND = {
-				FROM = { has_state_flag = UCT_territory_management_claim_progress_convoy_2_flag }
+				FROM = { has_state_flag = TES_territory_management_claim_progress_convoy_2_flag }
 				has_equipment = { convoy_1 < 2 }
 			}
 			AND = {
-				FROM = { has_state_flag = UCT_territory_management_claim_progress_convoy_1_flag }
+				FROM = { has_state_flag = TES_territory_management_claim_progress_convoy_1_flag }
 				has_equipment = { convoy_1 < 1 }
 			}
 		}
 	}
-    localization_key = UCT_territory_management_establish_first_claim_4_desc_convoy_loc
+    localization_key = TES_territory_management_establish_first_claim_4_desc_convoy_loc
   }
   text = {
-    trigger = { 
-		FROM = { check_variable = { var = UCT_territory_management_claim_progress_var value = 100 compare = equals } }
+    trigger = {
+		FROM = { check_variable = { var = TES_territory_management_claim_progress_var value = 100 compare = equals } }
 	}
-    localization_key = UCT_territory_management_establish_first_claim_4_desc_done_loc
+    localization_key = TES_territory_management_establish_first_claim_4_desc_done_loc
   }
   text = {
-    trigger = { 
+    trigger = {
 		always = yes
 	}
-    localization_key = UCT_territory_management_establish_first_claim_4_desc_loc
+    localization_key = TES_territory_management_establish_first_claim_4_desc_loc
   }
 }
 defined_text = {
-  name = UCT_territory_management_establish_first_claim_4_scripted
+  name = TES_territory_management_establish_first_claim_4_scripted
   text = {
-    trigger = { 
+    trigger = {
 		OR = {
 			AND = {
-				FROM = { has_state_flag = UCT_territory_management_claim_progress_convoy_3_flag }
+				FROM = { has_state_flag = TES_territory_management_claim_progress_convoy_3_flag }
 				has_equipment = { convoy_1 < 3 }
 			}
 			AND = {
-				FROM = { has_state_flag = UCT_territory_management_claim_progress_convoy_2_flag }
+				FROM = { has_state_flag = TES_territory_management_claim_progress_convoy_2_flag }
 				has_equipment = { convoy_1 < 2 }
 			}
 			AND = {
-				FROM = { has_state_flag = UCT_territory_management_claim_progress_convoy_1_flag }
+				FROM = { has_state_flag = TES_territory_management_claim_progress_convoy_1_flag }
 				has_equipment = { convoy_1 < 1 }
 			}
 		}
 	}
-    localization_key = UCT_territory_management_establish_first_claim_4_title_convoy_loc
+    localization_key = TES_territory_management_establish_first_claim_4_title_convoy_loc
   }
   text = {
-    trigger = { 
-		FROM = { check_variable = { var = UCT_territory_management_claim_progress_var value = 100 compare = equals } }
+    trigger = {
+		FROM = { check_variable = { var = TES_territory_management_claim_progress_var value = 100 compare = equals } }
 	}
-    localization_key = UCT_territory_management_establish_first_claim_4_title_done_loc
+    localization_key = TES_territory_management_establish_first_claim_4_title_done_loc
   }
   text = {
-    trigger = { 
+    trigger = {
 		always = yes
 	}
-    localization_key = UCT_territory_management_establish_first_claim_4_title_loc
+    localization_key = TES_territory_management_establish_first_claim_4_title_loc
   }
 }
 defined_text = {
-  name = UCT_territory_management_dci_value_scripted
+  name = TES_territory_management_dci_value_scripted
   text = {
-    trigger = { 
+    trigger = {
 		THIS = { check_variable = { var = detrimental_colonial_impact_value value = 0 compare = greater_than_or_equals } }
 		THIS = { check_variable = { var = detrimental_colonial_impact_value value = 10 compare = less_than } }
 	}
-    localization_key = UCT_territory_management_dci_value_0_10_loc
+    localization_key = TES_territory_management_dci_value_0_10_loc
   }
   text = {
-    trigger = { 
+    trigger = {
 		THIS = { check_variable = { var = detrimental_colonial_impact_value value = 10 compare = greater_than_or_equals } }
 		THIS = { check_variable = { var = detrimental_colonial_impact_value value = 20 compare = less_than } }
 	}
-    localization_key = UCT_territory_management_dci_value_10_20_loc
+    localization_key = TES_territory_management_dci_value_10_20_loc
   }
   text = {
-    trigger = { 
+    trigger = {
 		THIS = { check_variable = { var = detrimental_colonial_impact_value value = 20 compare = greater_than_or_equals } }
 	}
-    localization_key = UCT_territory_management_dci_value_above_20_loc
+    localization_key = TES_territory_management_dci_value_above_20_loc
   }
 }
 defined_text = {
-  name = UCT_territory_management_colonization_progress_scripted
+  name = TES_territory_management_colonization_progress_scripted
   text = {
-    trigger = { 
-		THIS = { check_variable = { var = UCT_territory_management_colonization_progress_var value = 0 compare = equals } }
+    trigger = {
+		THIS = { check_variable = { var = TES_territory_management_colonization_progress_var value = 0 compare = equals } }
 	}
-    localization_key = UCT_territory_management_colonization_progress_none_loc
+    localization_key = TES_territory_management_colonization_progress_none_loc
   }
   text = {
-    trigger = { 
-		THIS = { check_variable = { var = UCT_territory_management_colonization_progress_var value = 50 compare = less_than } }
+    trigger = {
+		THIS = { check_variable = { var = TES_territory_management_colonization_progress_var value = 50 compare = less_than } }
 	}
-    localization_key = UCT_territory_management_colonization_progress_low_loc
+    localization_key = TES_territory_management_colonization_progress_low_loc
   }
   text = {
-    trigger = { 
-		THIS = { check_variable = { var = UCT_territory_management_colonization_progress_var value = 50 compare = greater_than } }
+    trigger = {
+		THIS = { check_variable = { var = TES_territory_management_colonization_progress_var value = 50 compare = greater_than } }
 	}
-    localization_key = UCT_territory_management_colonization_progress_high_loc
+    localization_key = TES_territory_management_colonization_progress_high_loc
   }
 }
 defined_text = {
-  name = UCT_territory_management_population_scripted
+  name = TES_territory_management_population_scripted
   text = {
-    trigger = { 
+    trigger = {
 		THIS = { state_population < 1000 }
 	}
-    localization_key = UCT_territory_management_population_insignificant_loc
+    localization_key = TES_territory_management_population_insignificant_loc
   }
   text = {
     trigger = { always = yes }
-    localization_key = UCT_territory_management_population_loc
+    localization_key = TES_territory_management_population_loc
   }
 }
 defined_text = {
-  name = UCT_territory_management_claimed_by_scripted
+  name = TES_territory_management_claimed_by_scripted
   text = {
-    trigger = { 
-		THIS = { has_variable = UCT_territory_management_claimed_by_var }
+    trigger = {
+		THIS = { has_variable = TES_territory_management_claimed_by_var }
 	}
-    localization_key = UCT_territory_management_claimed_by_var_loc
+    localization_key = TES_territory_management_claimed_by_var_loc
   }
   text = {
     trigger = { always = yes }
-    localization_key = UCT_territory_management_claimed_by_nobody_loc
+    localization_key = TES_territory_management_claimed_by_nobody_loc
   }
 }
 defined_text = {
-  name = UCT_territory_management_claim_progress_scripted
+  name = TES_territory_management_claim_progress_scripted
   text = {
-    trigger = { 
-		THIS = { check_variable = { var = UCT_territory_management_claim_progress_var value = 0 compare = equals } }
+    trigger = {
+		THIS = { check_variable = { var = TES_territory_management_claim_progress_var value = 0 compare = equals } }
 	}
-    localization_key = UCT_territory_management_claim_progress_none_loc
+    localization_key = TES_territory_management_claim_progress_none_loc
   }
   text = {
-    trigger = { 
-		THIS = { check_variable = { var = UCT_territory_management_claim_progress_var value = 50 compare = less_than } }
+    trigger = {
+		THIS = { check_variable = { var = TES_territory_management_claim_progress_var value = 50 compare = less_than } }
 	}
-    localization_key = UCT_territory_management_claim_progress_low_loc
+    localization_key = TES_territory_management_claim_progress_low_loc
   }
   text = {
-    trigger = { 
-		THIS = { check_variable = { var = UCT_territory_management_claim_progress_var value = 50 compare = greater_than } }
+    trigger = {
+		THIS = { check_variable = { var = TES_territory_management_claim_progress_var value = 50 compare = greater_than } }
 	}
-    localization_key = UCT_territory_management_claim_progress_high_loc
+    localization_key = TES_territory_management_claim_progress_high_loc
   }
 }
 defined_text = {
-  name = UCT_territory_management_claim_status_scripted
+  name = TES_territory_management_claim_status_scripted
   text = {
-    trigger = { 
-		THIS = { check_variable = { var = UCT_territory_management_num_of_claims_var value = 0 compare = equals } }
+    trigger = {
+		THIS = { check_variable = { var = TES_territory_management_num_of_claims_var value = 0 compare = equals } }
 	}
-    localization_key = UCT_territory_management_claim_status_unclaimed_loc
+    localization_key = TES_territory_management_claim_status_unclaimed_loc
   }
   text = {
-    trigger = { 
-		THIS = { check_variable = { var = UCT_territory_management_num_of_claims_var value = 1 compare = equals } }
+    trigger = {
+		THIS = { check_variable = { var = TES_territory_management_num_of_claims_var value = 1 compare = equals } }
 	}
-    localization_key = UCT_territory_management_claim_status_uncontested_loc
+    localization_key = TES_territory_management_claim_status_uncontested_loc
   }
   text = {
-    trigger = { 
-		THIS = { check_variable = { var = UCT_territory_management_num_of_claims_var value = 1 compare = greater_than } }
-		THIS = { check_variable = { var = UCT_territory_management_claim_progress_var value = 100 compare = less_than } }
+    trigger = {
+		THIS = { check_variable = { var = TES_territory_management_num_of_claims_var value = 1 compare = greater_than } }
+		THIS = { check_variable = { var = TES_territory_management_claim_progress_var value = 100 compare = less_than } }
 	}
-    localization_key = UCT_territory_management_claim_status_contested_loc
+    localization_key = TES_territory_management_claim_status_contested_loc
   }
   text = {
-    trigger = { 
-		THIS = { check_variable = { var = UCT_territory_management_num_of_claims_var value = 1 compare = greater_than } }
-		THIS = { check_variable = { var = UCT_territory_management_claim_progress_var value = 100 compare = greater_than_or_equals } }
+    trigger = {
+		THIS = { check_variable = { var = TES_territory_management_num_of_claims_var value = 1 compare = greater_than } }
+		THIS = { check_variable = { var = TES_territory_management_claim_progress_var value = 100 compare = greater_than_or_equals } }
 	}
-    localization_key = UCT_territory_management_claim_status_disputed_loc
+    localization_key = TES_territory_management_claim_status_disputed_loc
   }
 }
 
@@ -194,7 +194,7 @@ defined_text = { # colonial techs
 	name = GetColonialTechUnlocked
 	text = {
 		trigger = {
-			AND={ 
+			AND={
 				has_tech = tech_humanities_colonial_stock_brokering
 				has_tech = tech_humanities_african_warfare
 			}
@@ -233,7 +233,7 @@ defined_text = { # colonial techs
 							FROM = {is_claimed_by = PREV}
 						}
 					}
-				}			
+				}
 			}
 		}
 		localization_key = GetColonizationCostClaim
@@ -251,7 +251,7 @@ defined_text = { # colonial techs
 								FROM = {is_claimed_by = PREV}
 							}
 						}
-					}			
+					}
 				}
 			}
 		}
@@ -291,7 +291,7 @@ defined_text = { # suez construction
 		}
 		localization_key = "GetSuezConstructionAvailibleNO"
 	}
-	
+
 }
 
 defined_text = { # suez status
@@ -310,159 +310,159 @@ defined_text = { # suez status
 		}
 		localization_key = "GetSuezCurrentStatusBlocked"
 	}
-	
+
 }
 defined_text = { # current region being voted on by the berlin conferance
 	name = GetCurrentberVotingRegion
 	text = {
 		localization_key = "Mauritania"
 		trigger = {
-			check_variable = {UCT.current_region_conferance_vote = 1}
+			check_variable = {TES.current_region_conferance_vote = 1}
 		}
 	}
 	text = {
 		localization_key = "Senegal"
 		trigger = {
-			UCT = { check_variable = {current_region_conferance_vote = 2} }
+			TES = { check_variable = {current_region_conferance_vote = 2} }
 		}
 	}
 	text = {
 		localization_key = "Guinea"
 		trigger = {
-			UCT = { check_variable = {current_region_conferance_vote = 3} }
+			TES = { check_variable = {current_region_conferance_vote = 3} }
 		}
 	}
 	text = {
 		localization_key = "Sierra Leone"
 		trigger = {
-			UCT = { check_variable = {current_region_conferance_vote = 4} }
+			TES = { check_variable = {current_region_conferance_vote = 4} }
 		}
 	}
 	text = {
 		localization_key = "Ivory Coast"
 		trigger = {
-			UCT = { check_variable = {current_region_conferance_vote = 5} }
+			TES = { check_variable = {current_region_conferance_vote = 5} }
 		}
 	}
 	text = {
 		localization_key = "Ghana"
 		trigger = {
-			UCT = { check_variable = {current_region_conferance_vote = 6} }
+			TES = { check_variable = {current_region_conferance_vote = 6} }
 		}
 	}
 	text = {
 		localization_key = "Togo"
 		trigger = {
-			UCT = { check_variable = {current_region_conferance_vote = 7} }
+			TES = { check_variable = {current_region_conferance_vote = 7} }
 		}
 	}
 	text = {
 		localization_key = "Benin"
 		trigger = {
-			UCT = { check_variable = {current_region_conferance_vote = 8} }
+			TES = { check_variable = {current_region_conferance_vote = 8} }
 		}
 	}
 	text = {
 		localization_key = "Nigeria"
 		trigger = {
-			UCT = { check_variable = {current_region_conferance_vote = 9} }
+			TES = { check_variable = {current_region_conferance_vote = 9} }
 		}
 	}
 	text = {
 		localization_key = "Equatorial Africa"
 		trigger = {
-			UCT = { check_variable = {current_region_conferance_vote = 10} }
+			TES = { check_variable = {current_region_conferance_vote = 10} }
 		}
 	}
 	text = {
 		localization_key = "Gabon"
 		trigger = {
-			UCT = { check_variable = {current_region_conferance_vote = 11} }
+			TES = { check_variable = {current_region_conferance_vote = 11} }
 		}
 	}
 	text = {
 		localization_key = "Congo"
 		trigger = {
-			UCT = { check_variable = {current_region_conferance_vote = 12} }
+			TES = { check_variable = {current_region_conferance_vote = 12} }
 		}
 	}
 	text = {
 		localization_key = "Angola"
 		trigger = {
-			UCT = { check_variable = {current_region_conferance_vote = 13} }
+			TES = { check_variable = {current_region_conferance_vote = 13} }
 		}
 	}
 	text = {
 		localization_key = "Nambia"
 		trigger = {
-			UCT = { check_variable = {current_region_conferance_vote = 14} }
+			TES = { check_variable = {current_region_conferance_vote = 14} }
 		}
 	}
 	text = {
 		localization_key = "Tanganyika"
 		trigger = {
-			UCT = { check_variable = {current_region_conferance_vote = 15} }
+			TES = { check_variable = {current_region_conferance_vote = 15} }
 		}
 	}
 	text = {
 		localization_key = "Kenya"
 		trigger = {
-			UCT = { check_variable = {current_region_conferance_vote = 16} }
+			TES = { check_variable = {current_region_conferance_vote = 16} }
 		}
 	}
 	text = {
 		localization_key = "African Horn"
 		trigger = {
-			UCT = { check_variable = {current_region_conferance_vote = 17} }
+			TES = { check_variable = {current_region_conferance_vote = 17} }
 		}
 	}
-	
+
 	text = {
 		localization_key = "Uganda"
 		trigger = {
-			UCT = { check_variable = {current_region_conferance_vote = 18} }
+			TES = { check_variable = {current_region_conferance_vote = 18} }
 		}
 	}
 	text = {
 		localization_key = "Rhodesia"
 		trigger = {
-			UCT = { check_variable = {current_region_conferance_vote = 19} }
+			TES = { check_variable = {current_region_conferance_vote = 19} }
 		}
 	}
 	text = {
 		localization_key = "Central Africa"
 		trigger = {
-			UCT = { check_variable = {current_region_conferance_vote = 20} }
+			TES = { check_variable = {current_region_conferance_vote = 20} }
 		}
 	}
 	text = {
 		localization_key = "Mali"
 		trigger = {
-			UCT = { check_variable = {current_region_conferance_vote = 21} }
+			TES = { check_variable = {current_region_conferance_vote = 21} }
 		}
 	}
 	text = {
 		localization_key = "Niger"
 		trigger = {
-			UCT = { check_variable = {current_region_conferance_vote = 22} }
+			TES = { check_variable = {current_region_conferance_vote = 22} }
 		}
 	}
 	text = {
 		localization_key = "Burkina Faso"
 		trigger = {
-			UCT = { check_variable = {current_region_conferance_vote = 23} }
+			TES = { check_variable = {current_region_conferance_vote = 23} }
 		}
 	}
 	text = {
 		localization_key = "Chad"
 		trigger = {
-			UCT = { check_variable = {current_region_conferance_vote = 24} }
+			TES = { check_variable = {current_region_conferance_vote = 24} }
 		}
 	}
 	text = {
 		localization_key = "ERROR: cannot get region"
 	}
-	
+
 }
 
 

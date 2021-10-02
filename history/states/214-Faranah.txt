@@ -3,13 +3,13 @@ state={
 	id=214
 	name="STATE_214"
 
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner = TOU
 
 	}
 
 	provinces={
-		377 1276 3116 3193 8909 8911 
+		377 1276 3116 3193 8909 8911
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

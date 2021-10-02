@@ -3,13 +3,13 @@ state={
 	id=205
 	name="STATE_205"
 
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner = LIB
 
 	}
 
 	provinces={
-		1490 4613 5260 5805 9364 9389 9409 
+		1490 4613 5260 5805 9364 9389 9409
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

@@ -3,13 +3,13 @@ state={
 	id=181
 	name="STATE_181"
 
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner = ADM
 
 	}
 
 	provinces={
-		872 1341 1996 4551 5470 5955 7012 8976 8988 9013 9038 9058 
+		872 1341 1996 4551 5470 5955 7012 8976 8988 9013 9038 9058
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

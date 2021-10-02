@@ -3,9 +3,9 @@ state={
 	id=259
 	name="STATE_259"
 	provinces={
-		2698 7042 7080 8372 
+		2698 7042 7080 8372
 	}
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner = SNG
 	}
 	manpower=1

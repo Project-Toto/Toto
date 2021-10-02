@@ -5,7 +5,6 @@ state={
 		12706 12707 12708 12709 12710
 	}
 	history={
-		afr_state_setup_scripted_effect = yes
 		owner = TUG
 	}
 	manpower=1

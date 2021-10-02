@@ -2,9 +2,9 @@ state={
 	id=383
 	name="STATE_383"
 	provinces={
-		409 3117 3138 3838 4785 5356 5888 9027 9029 9052 9075 9089 9105 
+		409 3117 3138 3838 4785 5356 5888 9027 9029 9052 9075 9089 9105
 	}
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner=SKT
 	}
 	manpower=1

@@ -1,0 +1,14 @@
+
+state={
+	id=405
+	name="STATE_405"
+	provinces={
+		208 250 303 663 1492 3238 3628 3644 3803 4142 4641 4924 5896 6286 6512 8102 8106 8127 8132 8134 8149 8152 
+	}
+	history = {
+		owner=HJZ
+	}
+	manpower=1
+	state_category=state_category_autonomy_extremely_autonomous
+	buildings_max_level_factor=1.000
+}

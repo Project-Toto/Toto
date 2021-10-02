@@ -3,9 +3,10 @@ state={
 	id=19
 	name="STATE_19"
 
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner = OTO
-
+		set_state_flag = state_category_continent_asia_flag
+		set_state_flag = state_category_colonial_region_levant_flag
 	}
 
 	provinces={

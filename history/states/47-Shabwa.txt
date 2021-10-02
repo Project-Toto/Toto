@@ -4,7 +4,6 @@ state={
 	name="STATE_47"
 
 	history={
-		afr_state_setup_scripted_effect = yes
 		owner = QTI
 
 	}

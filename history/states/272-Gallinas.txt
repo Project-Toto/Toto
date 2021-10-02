@@ -2,9 +2,9 @@ state={
 	id=272
 	name="STATE_272"
 	provinces={
-		2322 2369 2957 4992 9199 
+		2322 2369 2957 4992 9199
 	}
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner = KRU
 	}
 	manpower=1

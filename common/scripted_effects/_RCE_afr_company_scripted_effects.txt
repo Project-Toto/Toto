@@ -37,65 +37,65 @@ afr_add_one_building_building_port_scripted_effect = {
 		random_list = {
 			14 = {
 				add_building_construction = { type = building_port level = 1 instant_build = yes province = 13040 }
-				add_to_variable = { var = THIS.UCT_each_province_building_port_level_equals_var value = 1 }
+				add_to_variable = { var = THIS.TES_each_province_building_port_level_equals_var value = 1 }
 				modifier = {
 					factor = 0
 					any_province_building_level = { province = { id = 13040 } building = building_port level > 0 }
-					NOT = { check_variable = { var = THIS.UCT_each_province_building_port_level_equals_var value = 7 compare = equals } }
+					NOT = { check_variable = { var = THIS.TES_each_province_building_port_level_equals_var value = 7 compare = equals } }
 				}
 			}
 			15 = {
 				add_building_construction = { type = building_port level = 1 instant_build = yes province = 13041 }
-				add_to_variable = { var = THIS.UCT_each_province_building_port_level_equals_var value = 1 }
+				add_to_variable = { var = THIS.TES_each_province_building_port_level_equals_var value = 1 }
 				modifier = {
 					factor = 0
 					any_province_building_level = { province = { id = 13041 } building = building_port level > 0 }
-					NOT = { check_variable = { var = THIS.UCT_each_province_building_port_level_equals_var value = 7 compare = equals } }
+					NOT = { check_variable = { var = THIS.TES_each_province_building_port_level_equals_var value = 7 compare = equals } }
 				}
 			}
 			14 = {
 				add_building_construction = { type = building_port level = 1 instant_build = yes province = 13043 }
-				add_to_variable = { var = THIS.UCT_each_province_building_port_level_equals_var value = 1 }
+				add_to_variable = { var = THIS.TES_each_province_building_port_level_equals_var value = 1 }
 				modifier = {
 					factor = 0
 					any_province_building_level = { province = { id = 13043 } building = building_port level > 0 }
-					NOT = { check_variable = { var = THIS.UCT_each_province_building_port_level_equals_var value = 7 compare = equals } }
+					NOT = { check_variable = { var = THIS.TES_each_province_building_port_level_equals_var value = 7 compare = equals } }
 				}
 			}
 			15 = {
 				add_building_construction = { type = building_port level = 1 instant_build = yes province = 13046 }
-				add_to_variable = { var = THIS.UCT_each_province_building_port_level_equals_var value = 1 }
+				add_to_variable = { var = THIS.TES_each_province_building_port_level_equals_var value = 1 }
 				modifier = {
 					factor = 0
 					any_province_building_level = { province = { id = 13046 } building = building_port level > 0 }
-					NOT = { check_variable = { var = THIS.UCT_each_province_building_port_level_equals_var value = 7 compare = equals } }
+					NOT = { check_variable = { var = THIS.TES_each_province_building_port_level_equals_var value = 7 compare = equals } }
 				}
 			}
 			14 = {
 				add_building_construction = { type = building_port level = 1 instant_build = yes province = 1002 }
-				add_to_variable = { var = THIS.UCT_each_province_building_port_level_equals_var value = 1 }
+				add_to_variable = { var = THIS.TES_each_province_building_port_level_equals_var value = 1 }
 				modifier = {
 					factor = 0
 					any_province_building_level = { province = { id = 1002 } building = building_port level > 0 }
-					NOT = { check_variable = { var = THIS.UCT_each_province_building_port_level_equals_var value = 7 compare = equals } }
+					NOT = { check_variable = { var = THIS.TES_each_province_building_port_level_equals_var value = 7 compare = equals } }
 				}
 			}
 			14 = {
 				add_building_construction = { type = building_port level = 1 instant_build = yes province = 13039 }
-				add_to_variable = { var = THIS.UCT_each_province_building_port_level_equals_var value = 1 }
+				add_to_variable = { var = THIS.TES_each_province_building_port_level_equals_var value = 1 }
 				modifier = {
 					factor = 0
 					any_province_building_level = { province = { id = 13039 } building = building_port level > 0 }
-					NOT = { check_variable = { var = THIS.UCT_each_province_building_port_level_equals_var value = 7 compare = equals } }
+					NOT = { check_variable = { var = THIS.TES_each_province_building_port_level_equals_var value = 7 compare = equals } }
 				}
 			}
 			14 = {
 				add_building_construction = { type = building_port level = 1 instant_build = yes province = 13045 }
-				add_to_variable = { var = THIS.UCT_each_province_building_port_level_equals_var value = 1 }
+				add_to_variable = { var = THIS.TES_each_province_building_port_level_equals_var value = 1 }
 				modifier = {
 					factor = 0
 					any_province_building_level = { province = { id = 13045 } building = building_port level > 0 }
-					NOT = { check_variable = { var = THIS.UCT_each_province_building_port_level_equals_var value = 7 compare = equals } }
+					NOT = { check_variable = { var = THIS.TES_each_province_building_port_level_equals_var value = 7 compare = equals } }
 				}
 			}
 		}
@@ -109,29 +109,29 @@ afr_add_one_building_building_port_scripted_effect = {
 		random_list = {
 			34 = {
 				add_building_construction = { type = building_port level = 1 instant_build = yes province = 13048 }
-				add_to_variable = { var = THIS.UCT_each_province_building_port_level_equals_var value = 1 }
+				add_to_variable = { var = THIS.TES_each_province_building_port_level_equals_var value = 1 }
 				modifier = {
 					factor = 0
 					any_province_building_level = { province = { id = 13048 } building = building_port level > 0 }
-					NOT = { check_variable = { var = THIS.UCT_each_province_building_port_level_equals_var value = 3 compare = equals } }
+					NOT = { check_variable = { var = THIS.TES_each_province_building_port_level_equals_var value = 3 compare = equals } }
 				}
 			}
 			33 = {
 				add_building_construction = { type = building_port level = 1 instant_build = yes province = 13049 }
-				add_to_variable = { var = THIS.UCT_each_province_building_port_level_equals_var value = 1 }
+				add_to_variable = { var = THIS.TES_each_province_building_port_level_equals_var value = 1 }
 				modifier = {
 					factor = 0
 					any_province_building_level = { province = { id = 13049 } building = building_port level > 0 }
-					NOT = { check_variable = { var = THIS.UCT_each_province_building_port_level_equals_var value = 3 compare = equals } }
+					NOT = { check_variable = { var = THIS.TES_each_province_building_port_level_equals_var value = 3 compare = equals } }
 				}
 			}
 			33 = {
 				add_building_construction = { type = building_port level = 1 instant_build = yes province = 13053 }
-				add_to_variable = { var = THIS.UCT_each_province_building_port_level_equals_var value = 1 }
+				add_to_variable = { var = THIS.TES_each_province_building_port_level_equals_var value = 1 }
 				modifier = {
 					factor = 0
 					any_province_building_level = { province = { id = 13053 } building = building_port level > 0 }
-					NOT = { check_variable = { var = THIS.UCT_each_province_building_port_level_equals_var value = 3 compare = equals } }
+					NOT = { check_variable = { var = THIS.TES_each_province_building_port_level_equals_var value = 3 compare = equals } }
 				}
 			}
 		}
@@ -165,38 +165,38 @@ afr_add_one_building_building_port_scripted_effect = {
 		random_list = {
 			25 = {
 				add_building_construction = { type = building_port level = 1 instant_build = yes province = 13021 }
-				add_to_variable = { var = THIS.UCT_each_province_building_port_level_equals_var value = 1 }
+				add_to_variable = { var = THIS.TES_each_province_building_port_level_equals_var value = 1 }
 				modifier = {
 					factor = 0
 					any_province_building_level = { province = { id = 13021 } building = building_port level > 0 }
-					NOT = { check_variable = { var = THIS.UCT_each_province_building_port_level_equals_var value = 4 compare = equals } }
+					NOT = { check_variable = { var = THIS.TES_each_province_building_port_level_equals_var value = 4 compare = equals } }
 				}
 			}
 			25 = {
 				add_building_construction = { type = building_port level = 1 instant_build = yes province = 4387 }
-				add_to_variable = { var = THIS.UCT_each_province_building_port_level_equals_var value = 1 }
+				add_to_variable = { var = THIS.TES_each_province_building_port_level_equals_var value = 1 }
 				modifier = {
 					factor = 0
 					any_province_building_level = { province = { id = 4387 } building = building_port level > 0 }
-					NOT = { check_variable = { var = THIS.UCT_each_province_building_port_level_equals_var value = 4 compare = equals } }
+					NOT = { check_variable = { var = THIS.TES_each_province_building_port_level_equals_var value = 4 compare = equals } }
 				}
 			}
 			25 = {
 				add_building_construction = { type = building_port level = 1 instant_build = yes province = 7393 }
-				add_to_variable = { var = THIS.UCT_each_province_building_port_level_equals_var value = 1 }
+				add_to_variable = { var = THIS.TES_each_province_building_port_level_equals_var value = 1 }
 				modifier = {
 					factor = 0
 					any_province_building_level = { province = { id = 7393 } building = building_port level > 0 }
-					NOT = { check_variable = { var = THIS.UCT_each_province_building_port_level_equals_var value = 4 compare = equals } }
+					NOT = { check_variable = { var = THIS.TES_each_province_building_port_level_equals_var value = 4 compare = equals } }
 				}
 			}
 			25 = {
 				add_building_construction = { type = building_port level = 1 instant_build = yes province = 13020 }
-				add_to_variable = { var = THIS.UCT_each_province_building_port_level_equals_var value = 1 }
+				add_to_variable = { var = THIS.TES_each_province_building_port_level_equals_var value = 1 }
 				modifier = {
 					factor = 0
 					any_province_building_level = { province = { id = 13020 } building = building_port level > 0 }
-					NOT = { check_variable = { var = THIS.UCT_each_province_building_port_level_equals_var value = 4 compare = equals } }
+					NOT = { check_variable = { var = THIS.TES_each_province_building_port_level_equals_var value = 4 compare = equals } }
 				}
 			}
 		}
@@ -206,20 +206,20 @@ afr_add_one_building_building_port_scripted_effect = {
 		random_list = {
 			50 = {
 				add_building_construction = { type = building_port level = 1 instant_build = yes province = 13056 }
-				add_to_variable = { var = THIS.UCT_each_province_building_port_level_equals_var value = 1 }
+				add_to_variable = { var = THIS.TES_each_province_building_port_level_equals_var value = 1 }
 				modifier = {
 					factor = 0
 					any_province_building_level = { province = { id = 13056 } building = building_port level > 0 }
-					NOT = { check_variable = { var = THIS.UCT_each_province_building_port_level_equals_var value = 2 compare = equals } }
+					NOT = { check_variable = { var = THIS.TES_each_province_building_port_level_equals_var value = 2 compare = equals } }
 				}
 			}
 			50 = {
 				add_building_construction = { type = building_port level = 1 instant_build = yes province = 13054 }
-				add_to_variable = { var = THIS.UCT_each_province_building_port_level_equals_var value = 1 }
+				add_to_variable = { var = THIS.TES_each_province_building_port_level_equals_var value = 1 }
 				modifier = {
 					factor = 0
 					any_province_building_level = { province = { id = 13054 } building = building_port level > 0 }
-					NOT = { check_variable = { var = THIS.UCT_each_province_building_port_level_equals_var value = 2 compare = equals } }
+					NOT = { check_variable = { var = THIS.TES_each_province_building_port_level_equals_var value = 2 compare = equals } }
 				}
 			}
 		}

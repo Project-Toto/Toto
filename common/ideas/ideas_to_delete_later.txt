@@ -9,9 +9,6 @@ ideas = {
 		pre_industrial_era = {
 			allowed = { always = no }
 		}
-		agrarian = {
-			allowed = { always = no }
-		}
 		victorian_era = {
 			allowed = { always = no }
 		}
@@ -22,9 +19,6 @@ ideas = {
 			allowed = { always = no }
 		}
 		post_digital_era = {
-			allowed = { always = no }
-		}
-		industrializing = {
 			allowed = { always = no }
 		}
 	}

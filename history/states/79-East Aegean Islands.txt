@@ -2,10 +2,12 @@ state={
 	id=79
 	name="STATE_79"
 	provinces={
-		3083 4814 7157 7398 10709 10712 10720 10725 10729 10732 10739 
+		3083 4814 7157 7398 10709 10712 10720 10725 10729 10732 10739
 	}
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner = OTO
+		set_state_flag = state_category_continent_europe_flag
+		set_state_flag = state_category_colonial_region_aegean_flag
 	}
 	manpower=1
 	state_category=town

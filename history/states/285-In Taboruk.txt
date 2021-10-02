@@ -4,7 +4,7 @@ state={
 	provinces={
 		33 1835 4523 6272
 	}
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner = KAD
 	}
 	manpower=1

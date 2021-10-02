@@ -4,8 +4,10 @@ state={
 	provinces={
 		1776 3181 3395 3609 4214 4445 5175 5312 5529 7319 7320 7333 7380 7404 7420 7426 
 	}
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner = PER
+		set_state_flag = state_category_continent_asia_flag
+		set_state_flag = state_category_colonial_region_persia_flag
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

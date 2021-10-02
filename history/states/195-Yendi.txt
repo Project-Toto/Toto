@@ -3,13 +3,13 @@ state={
 	id=195
 	name="STATE_195"
 
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner = DGB
 
 	}
 
 	provinces={
-		1668 1812 2109 3849 6066 7046 9035 9063 9100 
+		1668 1812 2109 3849 6066 7046 9035 9063 9100
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

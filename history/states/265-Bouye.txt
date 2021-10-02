@@ -3,9 +3,9 @@ state={
 	id=265
 	name="STATE_265"
 	provinces={
-		2244 7251 8739 
+		2244 7251 8739
 	}
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner = KAB
 	}
 	manpower=1

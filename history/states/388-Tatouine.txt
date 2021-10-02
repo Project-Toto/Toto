@@ -5,7 +5,6 @@ state={
 		12683 12684 12685 
 	}
 	history={
-		afr_state_setup_scripted_effect = yes
 		owner = TUN
 	}
 	manpower=1

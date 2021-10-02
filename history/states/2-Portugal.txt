@@ -3,10 +3,10 @@ state={
 	id=2
 	name="STATE_2"
 	provinces={
-		298 530 693 857 1100 1136 2990 3862 3912 4013 4400 4577 5131 7264 7460 7496 7568 7590 7615 7650 
+		298 530 693 857 1100 1136 2990 3862 3912 4013 4400 4577 5131 7264 7460 7496 7568 7590 7615 7650
 	}
 	state_category=town
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner=EUR
 	}
 	manpower=1

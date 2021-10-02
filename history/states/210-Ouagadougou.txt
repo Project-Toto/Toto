@@ -3,13 +3,13 @@ state={
 	id=210
 	name="STATE_210"
 
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner = MOS
 
 	}
 
 	provinces={
-		1378 2472 2735 2945 3057 3061 3320 5087 5330 6235 6481 7037 7113 7224 8686 8696 8717 8780 8800 8815 8843 8891 
+		1378 2472 2735 2945 3057 3061 3320 5087 5330 6235 6481 7037 7113 7224 8686 8696 8717 8780 8800 8815 8843 8891
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

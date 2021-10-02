@@ -3,10 +3,12 @@ state={
 	id=78
 	name="STATE_78"
 	provinces={
-		597 1703 3470 3541 6473 7579 7617 7624 7625 7637 10746 10749 
+		597 1703 3470 3541 6473 7579 7617 7624 7625 7637 10746 10749
 	}
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner = OTO
+		set_state_flag = state_category_continent_europe_flag
+		set_state_flag = state_category_colonial_region_aegean_flag
 	}
 	manpower=1
 	state_category=town

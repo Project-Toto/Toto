@@ -2,9 +2,9 @@ state={
 	id=300
 	name="STATE_300"
 	provinces={
-		991 1051 2817 3294 4779 5200 5621 6065 6266 6595 7715 7717 7733 7737 7761 7800 
+		991 1051 2817 3294 4779 5200 5621 6065 6266 6595 7715 7717 7733 7737 7761 7800
 	}
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner = ALG
 	}
 	manpower=1

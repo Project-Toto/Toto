@@ -2,10 +2,10 @@ state={
 	id=233
 	name="STATE_233"
 	provinces={
-		612 1104 1533 3593 4452 4654 4763 5112 7066 8178 8293 
+		612 1104 1533 3593 4452 4654 4763 5112 7066 8178 8293
 	}
 	state_category=town
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner=TGN
 	}
 	manpower=1

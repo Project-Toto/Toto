@@ -3,9 +3,9 @@ state={
 	id=76
 	name="STATE_76"
 	provinces={
-		1540 2491 2900 5859 6051 6295 6711 6949 7996 8003 8006 8014 8034 8035 8040 
+		1540 2491 2900 5859 6051 6295 6711 6949 7996 8003 8006 8014 8034 8035 8040
 	}
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner = EUR
 	}
 	manpower=1

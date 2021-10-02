@@ -4,7 +4,7 @@ state={
 	provinces={
 		313 8074 12656 12657 12658 12663
 	}
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner = TUA
 	}
 	manpower=1

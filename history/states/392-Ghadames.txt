@@ -5,7 +5,6 @@ state={
 		12686 12687 
 	}
 	history={
-		afr_state_setup_scripted_effect = yes
 		owner = OTO
 	}
 	manpower=1

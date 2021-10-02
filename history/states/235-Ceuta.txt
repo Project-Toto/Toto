@@ -2,9 +2,9 @@ state={
 	id=235
 	name="STATE_235"
 	provinces={
-		7714 
+		7714
 	}
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner = SPR
 	}
 	manpower=1

@@ -3,13 +3,13 @@ state={
 	id=202
 	name="STATE_202"
 
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner = KOG
 
 	}
 
 	provinces={
-		332 2012 3393 5225 5517 5719 6154 6470 7081 9121 9145 9168 9174 9218 
+		332 2012 3393 5225 5517 5719 6154 6470 7081 9121 9145 9168 9174 9218
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

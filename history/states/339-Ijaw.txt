@@ -3,9 +3,9 @@ state={
 	id=339
 	name="STATE_339"
 	provinces={
-		2730 9355 9390 9405 9419 9426 9438 9440 
+		2730 9355 9390 9405 9419 9426 9438 9440
 	}
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner = IJW
 	}
 	manpower=1

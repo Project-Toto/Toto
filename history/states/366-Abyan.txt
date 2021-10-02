@@ -3,9 +3,9 @@ state={
 	id=366
 	name="STATE_366"
 	provinces={
-		125 234 369 3477 3621 6425 7206 8224 8237 8244 
+		125 234 369 3477 3621 6425 7206 8224 8237 8244
 	}
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner=ADN
 	}
 	manpower=1

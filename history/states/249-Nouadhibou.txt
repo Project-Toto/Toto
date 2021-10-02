@@ -5,7 +5,7 @@ state={
 	provinces={
 		2 232 899 1004 1055 1380 2132 3782 4282 8192 8214 10764
 	}
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner = TRZ
 	}
 	manpower=1

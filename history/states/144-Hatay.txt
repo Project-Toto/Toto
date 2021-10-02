@@ -5,8 +5,10 @@ state={
 		4136 6590 7449 
 	}
 	state_category=town
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner=OTO
+		set_state_flag = state_category_continent_asia_flag
+		set_state_flag = state_category_colonial_region_aegean_flag
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

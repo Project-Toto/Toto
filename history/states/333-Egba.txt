@@ -3,9 +3,9 @@ state={
 	id=333
 	name="STATE_333"
 	provinces={
-		761 1249 2054 2605 3517 9163 9188 9227 9228 
+		761 1249 2054 2605 3517 9163 9188 9227 9228
 	}
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner = OYO
 	}
 	manpower=1

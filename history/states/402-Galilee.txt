@@ -1,0 +1,15 @@
+state={
+	id=402
+	name="STATE_402"
+	provinces={
+		4701 6643 7581 
+	}
+	history={
+		owner=OTO
+		set_state_flag = state_category_continent_asia_flag
+		set_state_flag = state_category_colonial_region_levant_flag
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+}

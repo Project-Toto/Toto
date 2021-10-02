@@ -2,10 +2,13 @@ state={
 	id=134
 	name="STATE_134"
 	provinces={
-		172 789 2275 3032 3564 3911 5557 5599 6186 6303 6491 7346 7364 
+		172 789 2275 3032 3564 3911 5557 5599 6186 6303 6491 7346 7364
 	}
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner = PER
+		set_state_flag = state_category_continent_asia_flag
+		set_state_flag = state_category_colonial_region_persia_flag
+
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

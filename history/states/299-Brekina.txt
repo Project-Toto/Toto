@@ -2,9 +2,9 @@ state={
 	id=299
 	name="STATE_299"
 	provinces={
-		90 312 317 363 418 3113 7851 
+		90 312 317 363 418 3113 7851
 	}
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner = ALG
 	}
 	manpower=1

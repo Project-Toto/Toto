@@ -3,10 +3,10 @@ state={
 	id=219
 	name="STATE_219"
 	provinces={
-		829 907 2037 2139 3271 4201 4869 5262 8431 8463 8554 
+		829 907 2037 2139 3271 4201 4869 5262 8431 8463 8554
 	}
 	state_category=town
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner=KAA
 	}
 	manpower=1

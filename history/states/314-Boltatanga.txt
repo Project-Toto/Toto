@@ -3,9 +3,9 @@ state={
 	id=314
 	name="STATE_314"
 	provinces={
-		2482 3415 4998 5062 5232 5349 6083 6809 8917 8930 8960 8973 8995 9031 
+		2482 3415 4998 5062 5232 5349 6083 6809 8917 8930 8960 8973 8995 9031
 	}
-	history={ afr_state_setup_scripted_effect = yes
+	history={
 		owner = MOS
 	}
 	manpower=1

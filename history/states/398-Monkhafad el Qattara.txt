@@ -5,7 +5,6 @@ state={
 		291 856 977 1086 1097 1579 1972 2032 2202 2692 3325 5248 7896 
 	}
 	history={
-		afr_state_setup_scripted_effect = yes
 		owner = EGY
 	}
 	impassable=yes
