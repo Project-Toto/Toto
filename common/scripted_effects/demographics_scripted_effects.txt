@@ -1,5 +1,228 @@
 # Immigration/Emmigration
+	# Culture
+		demographics_state_culture_change = {
+			# Prep Variables
+				# state_culture_temp
+				# state_culture_percentage_temp
+				set_temp_variable = {
+					var = state_culture_percentage_normalizer_temp
+					value = 1
+				}
+				add_to_temp_variable = {
+					var = state_culture_percentage_normalizer_temp
+					value = state_culture_percentage_temp
+				}
+			# Add to Arrays
+				if = {
+					limit = {
+						is_in_array = {
+							array = state_culture_array
+							value = state_culture_temp
+						}
+					}
+					for_each_loop = {
+						array = state_culture_array
+						index = iterate
 
+						if = {
+							limit = {
+								check_variable = {
+									var = state_culture_array^iterate
+									value = state_culture_temp
+									compare = equals
+								}
+							}
+							add_to_variable = {
+								var = state_culture_percentage_array^iterate
+								value = state_culture_percentage_temp
+							}
+						}
+						divide_variable = {
+							var = state_culture_percentage_array^iterate
+							value = state_culture_percentage_normalizer_temp
+						}
+					}
+				}
+				else = {
+					add_to_array = {
+						array = state_culture_array
+						value = state_culture_temp
+					}
+					add_to_array = {
+						array = state_culture_percentage_array
+						value = state_culture_percentage_temp
+					}
+					for_each_loop = {
+						array = state_culture_percentage_array
+						index = iterate
+						divide_variable = {
+							var = state_culture_percentage_array^iterate
+							value = state_culture_percentage_normalizer_temp
+						}
+					}
+				}
+			# Normalize
+				set_temp_variable = {
+					var = state_culture_percentage_normalizer_temp
+					value = 0
+				}
+				for_each_loop = {
+					array = state_culture_percentage_array
+					index = iterate
+
+					add_to_temp_variable = {
+						var = state_culture_percentage_normalizer_temp
+					}		
+				}
+				if = {
+					limit = {
+						check_variable = {
+							var = state_culture_percentage_normalizer_temp
+							value = 1
+							compare = greater_than
+						}
+					}
+					subtract_from_temp_variable = {
+						var = state_culture_percentage_normalizer_temp
+						value = 1
+					}
+					subtract_from_variable = {
+						var = state_culture_percentage_array^num
+						value = state_culture_percentage_normalizer_temp
+					}
+				}
+				else_if = {
+					limit = {
+						check_variable = {
+							var = state_culture_percentage_normalizer_temp
+							value = 1
+							compare = greater_than
+						}
+					}
+					subtract_from_temp_variable = {
+						var = state_culture_percentage_normalizer_temp
+						value = 1
+					}
+					subtract_from_variable = {
+						var = state_culture_percentage_array^0
+						value = state_culture_percentage_normalizer_temp
+					}
+				}
+			# Update
+			demographics_state_culture_update = yes
+		}
+	# Religion
+		demographics_state_religion_change = {
+			# Prep Variables
+				# state_religion_temp
+				# state_religion_percentage_temp
+				set_temp_variable = {
+					var = state_religion_percentage_normalizer_temp
+					value = 1
+				}
+				add_to_temp_variable = {
+					var = state_religion_percentage_normalizer_temp
+					value = state_religion_percentage_temp
+				}
+			# Add to Arrays
+				if = {
+					limit = {
+						is_in_array = {
+							array = state_religion_array
+							value = state_religion_temp
+						}
+					}
+					for_each_loop = {
+						array = state_religion_array
+						index = iterate
+
+						if = {
+							limit = {
+								check_variable = {
+									var = state_religion_array^iterate
+									value = state_religion_temp
+									compare = equals
+								}
+							}
+							add_to_variable = {
+								var = state_religion_percentage_array^iterate
+								value = state_religion_percentage_temp
+							}
+						}
+						divide_variable = {
+							var = state_religion_percentage_array^iterate
+							value = state_religion_percentage_normalizer_temp
+						}
+					}
+				}
+				else = {
+					add_to_array = {
+						array = state_religion_array
+						value = state_religion_temp
+					}
+					add_to_array = {
+						array = state_religion_percentage_array
+						value = state_religion_percentage_temp
+					}
+					for_each_loop = {
+						array = state_religion_percentage_array
+						index = iterate
+						divide_variable = {
+							var = state_religion_percentage_array^iterate
+							value = state_religion_percentage_normalizer_temp
+						}
+					}
+				}
+			# Normalize
+				set_temp_variable = {
+					var = state_religion_percentage_normalizer_temp
+					value = 0
+				}
+				for_each_loop = {
+					array = state_religion_percentage_array
+					index = iterate
+
+					add_to_temp_variable = {
+						var = state_religion_percentage_normalizer_temp
+					}		
+				}
+				if = {
+					limit = {
+						check_variable = {
+							var = state_religion_percentage_normalizer_temp
+							value = 1
+							compare = greater_than
+						}
+					}
+					subtract_from_temp_variable = {
+						var = state_religion_percentage_normalizer_temp
+						value = 1
+					}
+					subtract_from_variable = {
+						var = state_religion_percentage_array^num
+						value = state_religion_percentage_normalizer_temp
+					}
+				}
+				else_if = {
+					limit = {
+						check_variable = {
+							var = state_religion_percentage_normalizer_temp
+							value = 1
+							compare = greater_than
+						}
+					}
+					subtract_from_temp_variable = {
+						var = state_religion_percentage_normalizer_temp
+						value = 1
+					}
+					subtract_from_variable = {
+						var = state_religion_percentage_array^0
+						value = state_religion_percentage_normalizer_temp
+					}
+				}
+			# Update
+			demographics_state_religion_update = yes
+		}
 # Update
 	# Culture
 		demographics_national_culture_update = {
@@ -27,6 +250,7 @@
 												check_variable = {
 													var = PREV.national_culture_array_sorting^iterate2
 													value = state_culture_array^iterate
+													compare = equals
 												}
 											}
 											set_temp_variable = { 
@@ -95,7 +319,6 @@
 						}
 				}
 		}
-
 		demographics_state_culture_update = {
 			# Sort
 				for_loop_effect = {
@@ -183,6 +406,7 @@
 												check_variable = {
 													var = PREV.national_religion_array_sorting^iterate2
 													value = state_religion_array^iterate
+													compare = equals
 												}
 											}
 											set_temp_variable = { 
@@ -251,7 +475,6 @@
 						}
 				}
 		}
-
 		demographics_state_religion_update = {
 			# Sort
 				for_loop_effect = {
@@ -316,48 +539,90 @@
 # Setup
 	# Culture
 		demographics_global_culture_setup = {
-			# Anglo-Germanic
-				set_variable = { global.culture_american = 0 }
-				set_variable = { global.culture_dixie = 1 }
-				set_variable = { global.culture_english = 2 }
-				set_variable = { global.culture_dutch = 3 }
-				set_variable = { global.culture_flemish = 4 }
-				set_variable = { global.culture_afrikaans = 5 }
-				set_variable = { global.culture_danish = 6 }
-				set_variable = { global.culture_swedish = 7 }
+			# Germanic
+				set_variable = { global.culture_germanic_american = 0 }
+				set_variable = { global.culture_germanic_dixie = 1 }
+				set_variable = { global.culture_germanic_english = 2 }
+				set_variable = { global.culture_germanic_dutch = 3 }
+				set_variable = { global.culture_germanic_flemish = 4 }
+				set_variable = { global.culture_germanic_afrikaans = 5 }
+				set_variable = { global.culture_germanic_danish = 6 }
+				set_variable = { global.culture_germanic_swedish = 7 }
 			# Romance
-				set_variable = { global.culture_brazilian = 8 }
-				set_variable = { global.culture_french = 9 }
-				set_variable = { global.culture_spanish = 10 }
-				set_variable = { global.culture_portugese = 11 }
-				set_variable = { global.culture_italian = 12 }
-				set_variable = { global.culture_austrian = 13 }
+				set_variable = { global.culture_romance_brazilian = 8 }
+				set_variable = { global.culture_romance_french = 9 }
+				set_variable = { global.culture_romance_spanish = 10 }
+				set_variable = { global.culture_romance_portugese = 11 }
+				set_variable = { global.culture_romance_italian = 12 }
+				set_variable = { global.culture_romance_austrian = 13 }
 			# Slavic
-				set_variable = { global.culture_russian = 14 }
-				set_variable = { global.culture_montenegrin = 15 }
-				set_variable = { global.culture_serbian = 16 }
-				set_variable = { global.culture_bulgarian = 17 }
+				set_variable = { global.culture_slavic_russian = 14 }
+				set_variable = { global.culture_slavic_montenegrin = 15 }
+				set_variable = { global.culture_slavic_serbian = 16 }
+				set_variable = { global.culture_slavic_bulgarian = 17 }
 			# Albanian
-				set_variable = { global.culture_albanian = 18 }
+				set_variable = { global.culture_albanian_albanian = 18 }
 			# Pontic
-				set_variable = { global.culture_greek = 19 }
-				set_variable = { global.culture_cypriot = 20 }
+				set_variable = { global.culture_pontic_greek = 19 }
+				set_variable = { global.culture_pontic_cypriot = 20 }
 			# Turkic
-				set_variable = { global.culture_turkish = 21 }
-				set_variable = { global.culture_azerbaijani = 22 }
+				set_variable = { global.culture_turkic_anatolian = 21 }
+				set_variable = { global.culture_turkic_azerbaijani = 22 }
+				set_variable = { global.culture_turkic_thracian = 23 }
 			# Caucasian
-				set_variable = { global.culture_armenian = 23 }
+				set_variable = { global.culture_caucasian_armenian = 24 }
 			# Iranic
-				set_variable = { global.culture_persian = 24 }
-				set_variable = { global.culture_lorish = 25 }
-				set_variable = { global.culture_kurdish = 26}
-				set_variable = { global.culture_zaza = 27 }
-			# Aryan
-				set_variable = { global.culture_balouch = 28 }
-				set_variable = { global.culture_nuris = 29 }
-			# Semitic
-				set_variable = { global.culture_arab = 30 }
-				set_variable = { global.culture_copts = 31 }
+				set_variable = { global.culture_iranic_persian = 25 }
+				set_variable = { global.culture_iranic_lorish = 26 }
+				set_variable = { global.culture_iranic_kurdish = 27 }
+				set_variable = { global.culture_iranic_zaza = 28 }
+				set_variable = { global.culture_iranic_balouch = 29 }
+			# Indo
+				set_variable = { global.culture_indo_aryan_nuri = 30 }
+				set_variable = { global.culture_indo_aryan_pashfun = 31 }
+			# East Semitic
+				set_variable = { global.culture_east_semitic_assyrian = 32 }
+			# North Semitic
+				set_variable = { global.culture_north_semitic_khuzestani = 33 }
+				set_variable = { global.culture_north_semitic_mandaean = 34 }
+				set_variable = { global.culture_north_semitic_aramic = 35 }
+			# Central Semitic
+				set_variable = { global.culture_central_semitic_kuwaiti = 36 }
+				set_variable = { global.culture_central_semitic_mesopotamian = 37 }
+				set_variable = { global.culture_central_semitic_lebanese = 38 }
+				set_variable = { global.culture_central_semitic_palestinean = 39 }
+				set_variable = { global.culture_central_semitic_hashemite = 40 }
+				set_variable = { global.culture_central_semitic_hejazi = 41 }
+				set_variable = { global.culture_central_semitic_najdi = 42 }
+				set_variable = { global.culture_central_semitic_haasite = 43 }
+				set_variable = { global.culture_central_semitic_bahrani = 44 }
+				set_variable = { global.culture_central_semitic_shihhi = 45 }
+				set_variable = { global.culture_central_semitic_omani = 46 }
+				set_variable = { global.culture_central_semitic_sanaan = 47 }
+				set_variable = { global.culture_central_semitic_taissi = 48 }
+				set_variable = { global.culture_central_semitic_bedawi = 49 }
+				set_variable = { global.culture_central_semitic_saidi = 50 }
+				set_variable = { global.culture_central_semitic_khartoumese = 51 }
+			# West Semitic
+				set_variable = { global.culture_west_semitic_tripolitanian = 52 }
+				set_variable = { global.culture_west_semitic_tunisian = 53 }
+				set_variable = { global.culture_west_semitic_maltese = 54 }
+				set_variable = { global.culture_west_semitic_algerian = 55 }
+				set_variable = { global.culture_west_semitic_moroccan = 56 }
+				set_variable = { global.culture_west_semitic_saharan = 57 }
+				set_variable = { global.culture_west_semitic_hassaniya = 58 }
+				set_variable = { global.culture_west_semitic_shuwa = 59 }
+			# South Semitic
+				set_variable = { global.culture_south_semitic_shehri = 60 }
+				set_variable = { global.culture_semitic_hadramauti = 61 }
+				set_variable = { global.culture_semitic_socotran = 62 }
+				set_variable = { global.culture_south_semitic_tigre = 64 }
+				set_variable = { global.culture_south_semitic_tigrinya = 65 }
+				set_variable = { global.culture_south_semitic_dahalik = 66 }
+				set_variable = { global.culture_south_semitic_argobba = 67 }
+			# Jewish
+				# set_variable = { global.culture_jewish_mizrahi = }
+				# set_variable = { global.culture_jewish_beta_israel = }
 		}
 	# Religion
 		demographics_global_religion_setup = {
