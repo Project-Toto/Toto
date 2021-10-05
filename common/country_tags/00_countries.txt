@@ -33,6 +33,7 @@
  PER = "countries/Persia.txt"
  FAR = "countries/Fars.txt"
  ABN = "countries/Arabistan.txt"
+ LUR = "countries/Luristan.txt"
 # Levant
 	# graphical_culture = middle_eastern_gfx
 	# graphical_culture_2d = middle_eastern_2d
