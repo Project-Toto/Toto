@@ -97,117 +97,120 @@ enable_mapmode_religion = {
 	every_state = {
 		if = {
 			limit = {
-				check_variable = { state_religion_array^0 = 0 }
+				check_variable = { state_religion_array^0 = 1 }
 			}
 			set_state_category = state_category_religion_animist
 		}
 		else_if = {
 			limit = {
-				check_variable = { state_religion_array^0 = 1 }
+				check_variable = { state_religion_array^0 = 2 }
 			}
 			set_state_category = state_category_religion_fetishist
 		}
 		else_if = {
 			limit = {
-				check_variable = { state_religion_array^0 = 2 }
+				check_variable = { state_religion_array^0 = 3 }
 			}
 			set_state_category = state_category_religion_mossi
 		
 		else_if = {
 			limit = {
-				check_variable = { state_religion_array^0 = 3 }
+				check_variable = { state_religion_array^0 = 4 }
 			}
 			set_state_category = state_category_religion_ancestorship
 		
 		else_if = {
 			limit = {
-				check_variable = { state_religion_array^0 = 4 }
+				check_variable = { state_religion_array^0 = 5 }
 			}
 			set_state_category = state_category_religion_zoroastrian
 		
 		else_if = {
 			limit = {
-				check_variable = { state_religion_array^0 = 5 }
+				check_variable = { state_religion_array^0 = 6 }
 			}
 			set_state_category = state_category_religion_jewish
 		
 		else_if = {
 			limit = {
-				check_variable = { state_religion_array^0 = 6 }
+				check_variable = { state_religion_array^0 = 7 }
 			}
 			set_state_category = state_category_religion_druze
 		
 		else_if = {
 			limit = {
-				check_variable = { state_religion_array^0 = 7 }
+				check_variable = { state_religion_array^0 = 8 }
 			}
 			set_state_category = state_category_religion_waaqism
 		
 		else_if = {
 			limit = {
-				check_variable = { state_religion_array^0 = 8 }
+				check_variable = { state_religion_array^0 = 9 }
 			}
 			set_state_category = state_category_religion_catholic
 		
 		else_if = {
 			limit = {
-				check_variable = { state_religion_array^0 = 9 }
+				check_variable = { state_religion_array^0 = 10 }
 			}
 			set_state_category = state_category_religion_protestant
 		
 		else_if = {
 			limit = {
-				check_variable = { state_religion_array^0 = 10 }
+				check_variable = { state_religion_array^0 = 11 }
 			}
 			set_state_category = state_category_religion_anglican
 		
 		else_if = {
 			limit = {
-				check_variable = { state_religion_array^0 = 11 }
+				check_variable = { state_religion_array^0 = 12 }
 			}
 			set_state_category = state_category_religion_orthodox
 		
 		else_if = {
 			limit = {
-				check_variable = { state_religion_array^0 = 12 }
+				check_variable = { state_religion_array^0 = 13 }
 			}
 			set_state_category = state_category_religion_coptic
 		
 		else_if = {
 			limit = {
-				check_variable = { state_religion_array^0 = 13 }
+				check_variable = { state_religion_array^0 = 14 }
 			}
 			set_state_category = state_category_religion_sunni
 		
 		else_if = {
 			limit = {
-				check_variable = { state_religion_array^0 = 14 }
+				check_variable = { state_religion_array^0 = 15 }
 			}
 			set_state_category = state_category_religion_shiite
 		
 		else_if = {
 			limit = {
-				check_variable = { state_religion_array^0 = 15 }
+				check_variable = { state_religion_array^0 = 16 }
 			}
 			set_state_category = state_category_religion_ibadi
 		
 		else_if = {
 			limit = {
-				check_variable = { state_religion_array^0 = 16 }
+				check_variable = { state_religion_array^0 = 17 }
 			}
 			set_state_category = state_category_religion_cult_of_personality
 		
 		else_if = {
 			limit = {
-				check_variable = { state_religion_array^0 = 17 }
+				check_variable = { state_religion_array^0 = 18 }
 			}
 			set_state_category = state_category_religion_vodun
 		}
 		else_if = {
 			limit = {
-				check_variable = { state_religion_array^0 > 17 }
+				check_variable = { state_religion_array^0 > 19 }
 			}
 			set_state_category = state_category_religion_atheist
+		}
+		else = {
+			set_state_category = town
 		}
 	}
 }
