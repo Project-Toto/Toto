@@ -26,6 +26,7 @@
  GRE = "countries/Greece.txt"
  RUM = "countries/Rumelia.txt"
  CYP = "countries/Cyprus.txt"
+ TUR = "countries/Turkey.txt"
 # Persia
 	# graphical_culture = middle_eastern_gfx
 	# graphical_culture_2d = middle_eastern_2d
@@ -303,7 +304,7 @@
 	CAR = "countries/Central African Republic.txt"
 	SOM = "countries/Somalia.txt"
 	CEK = "countries/CopticEthiopianKingdom.txt"
-	# ZAI = "countries/Zaire.txt"
+	ZAI = "countries/Zaire.txt"
 	SUD = "countries/Sudan.txt"
 	SSD = "countries/South Sudan.txt"
 	KKO = "countries/Kakongo.txt"
