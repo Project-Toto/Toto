@@ -53,9 +53,9 @@
  HJZ = "countries/Hejaz.txt"
  ASR = "countries/Asir.txt"
  NJR = "countries/Nejran.txt"
- SAU = "countries/Saud.txt"
+ NJD = "countries/Saud.txt"
  QAS = "countries/Qasim.txt"
- HIL = "countries/Ha'il.txt"
+ JSH = "countries/Ha'il.txt"
  BHR = "countries/Bahrain.txt"
  QTR = "countries/Qatar.txt"
 # Hormuz

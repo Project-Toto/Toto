@@ -4,7 +4,7 @@ state={
 	name="STATE_306"
 
 	history={
-		owner = ALG
+		owner = EPD
 		add_core_of = KBY
 
 	}

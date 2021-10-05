@@ -5760,7 +5760,7 @@
 # 	}
 
 # 	mass_assault = {
-# 		doctrine_name = "MASS_ASSAULT_DOCTRINE"
+# 		doctrine_name = "MASS_ASNJDLT_DOCTRINE"
 
 # 		xp_research_type = army
 # 		xp_research_cost = 100

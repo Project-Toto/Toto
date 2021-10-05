@@ -139,7 +139,7 @@ SKT = {
 	}
 
 set_politics = {
-	ruling_party = traditionalism
+	ruling_party = fundamentalism
 	last_election = "1856.1.1"
 	election_frequency = 48
 	elections_allowed = no

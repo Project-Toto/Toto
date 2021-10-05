@@ -5,6 +5,46 @@ set_technology = {
 	infantry_arms_0 = 1
 }
 
+add_ideas = {
+		#POLITICS
+
+		agrarian
+		no_heir
+		absolute_monarchy
+	law_army_tribal_advanced
+
+		limited_exports
+		two_percent
+		normal_taxes
+	lp_land_estates
+
+		stagnation_growth
+		border_control
+	manpower_tribal_every_tenth
+		slavery
+		absolutism
+
+		sharia_constitution
+		no_elections
+
+		traditional_uluma
+		state_religion
+	religion_sunni
+
+	 # State Attributes
+		law_country_power_minor
+		law_country_religion_catholic
+		law_country_culture_uncategorized
+		law_country_government_colonial_company
+		law_country_society_state
+		law_country_military_traditional
+		
+				 #NATIONAL SPIRITS
+			afr_reforming_kingdom
+			AFR_history_of_colonial_resistance
+			ALG_algerian_resistance
+	}
+
 set_politics = {
 	ruling_party = traditionalism
 	last_election = "1856.1.1"
@@ -16,20 +56,6 @@ set_popularities = {
 	fundamentalism = 20
 	reformism = 15
 	imperialism = 5
-}
-
-FRA = {
-	puppet = ALG
-}
-
-add_ideas = {
-	# State Attributes
-		law_country_power_minor
-		law_country_religion_catholic
-		law_country_culture_uncategorized
-		law_country_government_colonial_company
-		law_country_society_state
-		law_country_military_traditional
 }
 
 create_country_leader = {

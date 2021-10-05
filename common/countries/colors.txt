@@ -151,7 +151,7 @@
 		color = rgb { 173 8 11 }
 		color_ui = rgb { 173 8 11 }
 	}
-	SAU = {
+	NJD = {
 		color = rgb { 0 143 23 }
 		color_ui = rgb { 0 143 23 }
 	}

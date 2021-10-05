@@ -3,7 +3,80 @@ capital = 55
 # Starting tech
 set_technology = {
 	infantry_arms_0 = 1
+	tribal_carrier_birds = 1 tribal_electrical_theory = 1
+	tribal_steel_tools = 1
+	tribal_tatics = 1
+	tribal_gunpowder = 1
+	tribal_riding = 1
+	tribal_steam_experiments = 1
+	tribal_forging = 1
+	tribal_artisan = 1
+	tribal_chemistry = 1
+	tribal_guilds_trade = 1
+	tribal_crop_planting = 1
+	tribal_irrigation = 1
+	tribal_crop_rotation = 1
+	tribal_salted_smoked_goods = 1
+	tribal_leching = 1
+	tech_infantry_napoleonic_uniform = 1
+	tech_naval_mtg_simple_corvette_hull = 1
+		tech_naval_mtg_24_pounder_battery = 1
+		tech_naval_mtg_sails = 1
+		tech_naval_mtg_crows_nest = 1
+	start_build_tech = 1
+	basic_cavalry = 1
+	tech_camel_cavalry = 1
 }
+
+	set_stability = 0.12
+	#add_equipment_to_stockpile = { type = infantry_equipment_rifle_0 amount = 1000 producer = EGY }
+	#add_equipment_to_stockpile = { type = uniform_equipment_0 amount = 1000 producer = EGY }
+	set_variable = { debt_level = 3 }
+	set_variable = { suez_progress = 3 }
+	set_variable = { suez_investment = 0 }
+	set_variable = { FRA.suez_investment = 3 }
+	set_variable = { suez_inprogress = 0 }
+	set_variable = { suez_progress_max = 100 }
+	add_to_array = { EGY.suezInvestors = FRA.id }
+	add_to_array = { EGY.suezInvestors = EGY.id }
+	set_country_flag = heir_ahmad
+
+	add_ideas = {
+		#POLITICS
+
+		agrarian
+		has_heir
+		absolute_monarchy
+
+		limited_exports
+		two_percent
+		normal_taxes
+
+		stagnation_growth
+		border_control
+		volunteer_only
+		slavery_all_but_name
+		absolutism
+
+		no_constitution
+		no_elections
+
+		privileged_education
+		state_religion
+		religion_sunni
+
+
+				 #NATIONAL SPIRITS
+
+		OTO_Abdulmecid
+
+	egy_sudan_slave_raids
+	egy_vic_debt
+
+	}
+
+	#Most Favoured Country
+		#set_variable = { most_favoured_country = OTO.id }
 
 set_politics = {
 	ruling_party = traditionalism
@@ -18,13 +91,15 @@ set_popularities = {
 	imperialism = 5
 }
 
-create_country_leader = {
-	name = ""
-	desc = "POLITICS_TEMP_DESC"
-	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
-	expire = "1920.1.1"
-	ideology = traditionalism_absolutism
-	traits = {
-		#
+# POLITICAL LEADERS
+
+	create_country_leader = {
+		name = "Muhammad Sa'id Pasha"
+		desc = "POLITICS_GEORGE_V_DESC"
+		picture = "Portrait_EGY_Muhammad_Sa_id_Pasha.dds"
+		expire = "1863.1.1"
+		ideology = despotism
+		traits = {
+
+		}
 	}
-}

@@ -1,0 +1,139 @@
+
+	capital = 301
+
+	set_convoys = 0
+
+	set_research_slots = 2
+	
+	set_technology = { ####Same as France####
+	infantry_weapons = 1 traditional_mixed_arms = 1
+	tribal_carrier_birds = 1 tribal_electrical_theory = 1
+	tribal_steel_tools = 1
+	tribal_tatics = 1
+	tribal_gunpowder = 1
+	tribal_riding = 1
+	tribal_steam_experiments = 1
+	tribal_forging = 1
+	tribal_artisan = 1
+	tribal_chemistry = 1
+	tribal_guilds_trade = 1
+	tribal_crop_planting = 1
+	tribal_irrigation = 1
+	tribal_crop_rotation = 1
+	tribal_salted_smoked_goods = 1
+	tribal_leching = 1
+	tech_infantry_flintlock_pistol = 1
+	tech_infantry_caplock_pistol = 1
+		rifle_equipment1 = 1
+		hand_revolvers = 1
+	tech_infantry_infantry_swords = 1
+		socket_bayonet = 1
+	tech_infantry_napoleonic_uniform = 1
+	tech_infantry_practical_rifling = 1
+		vic_army_cloth = 1
+		civil_army_cloth = 1
+		basic_cavalry = 1
+		horse_transport = 1
+		horse_artillery = 1
+		gw_artillery = 1
+		improved_smoothbore = 1
+		early_howitzer = 1
+		#tech_naval_1830_frigate = 1
+	start_build_tech = 1
+		tech_naval_mtg_simple_corvette_hull = 1
+		tech_naval_mtg_24_pounder_battery = 1
+		tech_naval_mtg_sails = 1
+		tech_naval_mtg_crows_nest = 1
+		#tech_naval_1812_troops = 1
+		#tech_naval_1855_frigate = 1
+	}
+
+	add_ideas = {
+		#POLITICS
+			law_victorian_army
+			agrarian
+			non_monarchical_system
+			absolute_monarchy
+
+			#Economic
+				limited_exports
+				two_percent
+				normal_taxes
+
+			#Population
+				stagnation_growth
+				border_control
+				extensive_conscription
+				racial_laws
+				absolutism
+
+				limited_constitution
+				no_elections
+
+			#Culture
+				privileged_education
+				state_religion
+				religion_catholic
+	}
+
+	#Rivals
+		#set_variable = { rival_country = KBY.id }
+	#Favored
+		#set_variable = { most_favoured_country = FRA.id }
+
+	# Native Raids
+	#add_to_variable = { var = EPD.FNT_raid_likelihood_varKBY value = 16 }
+
+	#Diplomacy
+	add_opinion_modifier = { target = KBY modifier = AFR_colonial_conflict }
+	add_opinion_modifier = { target = ASS modifier = AFR_colonial_conflict }
+	add_opinion_modifier = { target = ASH modifier = AFR_colonial_conflict }
+	add_opinion_modifier = { target = AKA modifier = AFR_colonial_conflict }
+	add_opinion_modifier = { target = KRU modifier = AFR_colonial_conflict }
+	add_opinion_modifier = { target = FTJ modifier = AFR_colonial_conflict }
+	add_opinion_modifier = { target = FTT modifier = AFR_colonial_conflict }
+	add_opinion_modifier = { target = TOU modifier = AFR_colonial_conflict }
+	add_opinion_modifier = { target = BAO modifier = AFR_colonial_conflict }
+	add_opinion_modifier = { target = TRZ modifier = AFR_colonial_conflict }
+	add_opinion_modifier = { target = TOU modifier = AFR_colonial_conflict }
+	# add_opinion_modifier = { target = BAB modifier = AFR_colonial_conflict }
+	add_opinion_modifier = { target = SNG modifier = AFR_french_colony }
+	add_opinion_modifier = { target = FRA modifier = AFR_french_colony }
+	#add_opinion_modifier = { target = SAF modifier = AFR_foreign_colony }
+	#add_opinion_modifier = { target = NAT modifier = AFR_foreign_colony }
+
+
+	FRA = {
+		puppet = ALG
+	}
+
+set_politics = {
+	ruling_party = traditionalism
+	last_election = "1856.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	traditionalism = 60
+	fundamentalism = 20
+	reformism = 15
+	imperialism = 5
+}
+
+
+	#add_equipment_to_stockpile = { type = cavalry_equipment_0 amount = 1000 producer = ALG }
+	#add_equipment_to_stockpile = { type = infantry_equipment_rifle_0 amount = 1000 producer = FRA	 }
+	#add_equipment_to_stockpile = { type = uniform_equipment_0 amount = 1000 producer = FRA }
+
+
+	# POLITICAL LEADERS
+create_country_leader = {
+	name = ""
+	desc = "POLITICS_TEMP_DESC"
+	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
+	expire = "1920.1.1"
+	ideology = traditionalism_absolutism
+	traits = {
+		#
+	}
+}

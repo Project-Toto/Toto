@@ -398,7 +398,7 @@ leader_traits = {
 		field_marshal_modifier = {
 			breakthrough_factor = 0.10
 		}
-		custom_effect_tooltip = INCREASED_ASSAULT_AND_SHOCK_CHANCE
+		custom_effect_tooltip = INCREASED_ASNJDLT_AND_SHOCK_CHANCE
 		ai_will_do = {
 			factor = 1
 		}

@@ -4,7 +4,7 @@ state={
 	name="STATE_128"
 
 	history={
-		owner = HIL
+		owner = JSH
 		set_state_flag = state_category_continent_asia_flag
 		set_state_flag = state_category_colonial_region_levant_flag
 	}

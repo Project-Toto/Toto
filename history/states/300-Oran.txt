@@ -5,7 +5,7 @@ state={
 		991 1051 2817 3294 4779 5200 5621 6065 6266 6595 7715 7717 7733 7737 7761 7800
 	}
 	history={
-		owner = ALG
+		owner = EPD
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

@@ -142,39 +142,39 @@ continent = {
 	name = middle_east
 	army = {
 		male = {
-			"gfx/leaders/SAU/Portrait_Arabia_Generic_land_1.dds"
-			"gfx/leaders/SAU/Portrait_Arabia_Generic_land_2.dds"
-			"gfx/leaders/SAU/Portrait_Arabia_Generic_land_3.dds"
+			"gfx/leaders/NJD/Portrait_Arabia_Generic_land_1.dds"
+			"gfx/leaders/NJD/Portrait_Arabia_Generic_land_2.dds"
+			"gfx/leaders/NJD/Portrait_Arabia_Generic_land_3.dds"
 		}
 	}
 
 	navy = {
 		male = {
-			"gfx/leaders/SAU/Portrait_Arabia_Generic_navy_1.dds"
-			"gfx/leaders/SAU/Portrait_Arabia_Generic_navy_2.dds"
-			"gfx/leaders/SAU/Portrait_Arabia_Generic_navy_3.dds"
+			"gfx/leaders/NJD/Portrait_Arabia_Generic_navy_1.dds"
+			"gfx/leaders/NJD/Portrait_Arabia_Generic_navy_2.dds"
+			"gfx/leaders/NJD/Portrait_Arabia_Generic_navy_3.dds"
 		}
 	}
 
 	political = {
 		traditionalism = {
 			male = {
-				"gfx/leaders/SAU/Portrait_Arabia_Generic_1.dds"
+				"gfx/leaders/NJD/Portrait_Arabia_Generic_1.dds"
 			}
 		}
 		reformism = {
 			male = {
-				"gfx/leaders/SAU/Portrait_Arabia_Generic_2.dds"
+				"gfx/leaders/NJD/Portrait_Arabia_Generic_2.dds"
 			}
 		}
 		imperialism = {
 			male = {
-				"gfx/leaders/SAU/Portrait_Arabia_Generic_3.dds"
+				"gfx/leaders/NJD/Portrait_Arabia_Generic_3.dds"
 			}
 		}
 		fundamentalism = {
 			male = {
-				"gfx/leaders/SAU/Portrait_Arabia_Generic_3.dds"
+				"gfx/leaders/NJD/Portrait_Arabia_Generic_3.dds"
 			}
 		}
 	}
