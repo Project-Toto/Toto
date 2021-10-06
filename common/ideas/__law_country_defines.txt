@@ -116,11 +116,7 @@ ideas = {
 			level = 0
 
 			available = {
-				custom_trigger_tooltip = law_country_religion_ancestorship_trigger_tt
-				check_variable = {
-					var = national_religion_array^0
-					value = global.religion_ancestorship
-				}
+				demographics_majority_religion_ancestorship = yes
 			}
 			cancel_if_invalid = no
 			on_add = {
@@ -137,11 +133,7 @@ ideas = {
 			level = 1
 
 			available = {
-				custom_trigger_tooltip = law_country_religion_mossi_trigger_tt
-				check_variable = {
-					var = national_religion_array^0
-					value = global.religion_mossi
-				}
+				demographics_majority_religion_mossi = yes
 			}
 			cancel_if_invalid = no
 			on_add = {
@@ -158,11 +150,7 @@ ideas = {
 			level = 1
 
 			available = {
-				custom_trigger_tooltip = law_country_religion_zoroastrian_trigger_tt
-				check_variable = {
-					var = national_religion_array^0
-					value = global.religion_zoroastrian
-				}
+				demographics_majority_religion_zoroastrian = yes
 			}
 			cancel_if_invalid = no
 			on_add = {
@@ -179,11 +167,7 @@ ideas = {
 			level = 1
 
 			available = {
-				custom_trigger_tooltip = law_country_religion_jewish_trigger_tt
-				check_variable = {
-					var = national_religion_array^0
-					value = global.religion_jewish
-				}
+				demographics_majority_religion_jewish = yes
 			}
 			cancel_if_invalid = no
 			on_add = {
@@ -200,11 +184,7 @@ ideas = {
 			level = 1
 
 			available = {
-				custom_trigger_tooltip = law_country_religion_druze_trigger_tt
-				check_variable = {
-					var = national_religion_array^0
-					value = global.religion_druze
-				}
+				demographics_majority_religion_druze = yes
 			}
 			cancel_if_invalid = no
 			on_add = {
@@ -221,11 +201,7 @@ ideas = {
 			level = 1
 
 			available = {
-				custom_trigger_tooltip = law_country_religion_waaqist_trigger_tt
-				check_variable = {
-					var = national_religion_array^0
-					value = global.religion_waaqist
-				}
+				demographics_majority_religion_waaqist = yes
 			}
 			cancel_if_invalid = no
 			on_add = {
@@ -243,11 +219,7 @@ ideas = {
 			level = 1
 
 			available = {
-				custom_trigger_tooltip = law_country_religion_catholic_trigger_tt
-				check_variable = {
-					var = national_religion_array^0
-					value = global.religion_catholic
-				}
+				demographics_majority_religion_catholic = yes
 			}
 			cancel_if_invalid = no
 			on_add = {
@@ -264,11 +236,7 @@ ideas = {
 			level = 1
 
 			available = {
-				custom_trigger_tooltip = law_country_religion_protestant_trigger_tt
-				check_variable = {
-					var = national_religion_array^0
-					value = global.religion_protestant
-				}
+				demographics_majority_religion_protestant = yes
 			}
 			cancel_if_invalid = no
 			on_add = {
@@ -285,11 +253,7 @@ ideas = {
 			level = 1
 
 			available = {
-				custom_trigger_tooltip = law_country_religion_anglican_trigger_tt
-				check_variable = {
-					var = national_religion_array^0
-					value = global.religion_anglican
-				}
+				demographics_majority_religion_anglican = yes
 			}
 			cancel_if_invalid = no
 			on_add = {
@@ -306,11 +270,7 @@ ideas = {
 			level = 1
 
 			available = {
-				custom_trigger_tooltip = law_country_religion_orthodox_trigger_tt
-				check_variable = {
-					var = national_religion_array^0
-					value = global.religion_orthodox
-				}
+				demographics_majority_religion_orthodox = yes
 			}
 			cancel_if_invalid = no
 			on_add = {
@@ -327,11 +287,7 @@ ideas = {
 			level = 1
 
 			available = {
-				custom_trigger_tooltip = law_country_religion_coptic_trigger_tt
-				check_variable = {
-					var = national_religion_array^0
-					value = global.religion_coptic
-				}
+				demographics_majority_religion_coptic = yes
 			}
 			cancel_if_invalid = no
 			on_add = {
@@ -348,11 +304,7 @@ ideas = {
 			level = 1
 
 			available = {
-				custom_trigger_tooltip = law_country_religion_sunni_trigger_tt
-				check_variable = {
-					var = national_religion_array^0
-					value = global.religion_sunni
-				}
+				demographics_majority_religion_sunni = yes
 			}
 			cancel_if_invalid = no
 			on_add = {
@@ -369,11 +321,7 @@ ideas = {
 			level = 1
 
 			available = {
-				custom_trigger_tooltip = law_country_religion_shiite_trigger_tt
-				check_variable = {
-					var = national_religion_array^0
-					value = global.religion_shiite
-				}
+				demographics_majority_religion_shiite = yes
 			}
 			cancel_if_invalid = no
 			on_add = {
@@ -390,11 +338,7 @@ ideas = {
 			level = 1
 
 			available = {
-				custom_trigger_tooltip = law_country_religion_ibadi_trigger_tt
-				check_variable = {
-					var = national_religion_array^0
-					value = global.religion_ibadi
-				}
+				demographics_majority_religion_ibadi = yes
 			}
 			cancel_if_invalid = no
 			on_add = {
@@ -411,11 +355,7 @@ ideas = {
 			level = 2
 
 			available = {
-				custom_trigger_tooltip = law_country_religion_cult_of_personality_trigger_tt
-				check_variable = {
-					var = national_religion_array^0
-					value = global.religion_cult_of_personality
-				}
+				demographics_majority_religion_cult_of_personality = yes
 			}
 			cancel_if_invalid = no
 			on_add = {
@@ -432,11 +372,7 @@ ideas = {
 			level = 1
 
 			available = {
-				custom_trigger_tooltip = law_country_religion_vodun_trigger_tt
-				check_variable = {
-					var = national_religion_array^0
-					value = global.religion_vodun
-				}
+				demographics_majority_religion_vodun = yes
 			}
 			cancel_if_invalid = no
 			on_add = {
@@ -453,11 +389,7 @@ ideas = {
 			level = 2
 
 			available = {
-				custom_trigger_tooltip = law_country_religion_atheist_trigger_tt
-				check_variable = {
-					var = national_religion_array^0
-					value = global.religion_atheist
-				}
+				demographics_majority_religion_atheist = yes
 			}
 			cancel_if_invalid = no
 			on_add = {
