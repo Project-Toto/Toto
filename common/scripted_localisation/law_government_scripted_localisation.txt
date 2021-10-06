@@ -1,6 +1,6 @@
-# State Power
+# National Power
 	defined_text = {
-		name = GetStatePower
+		name = GetNationalPower
 		text = {
 			trigger = { has_idea = law_country_power_great }
 			localization_key = law_country_power_great
@@ -18,7 +18,7 @@
 		}
 	}
 	defined_text = {
-		name = GetStatePowerDesc
+		name = GetNationalPowerDesc
 		text = {
 			trigger = { has_idea = law_country_power_great }
 			localization_key = law_country_power_great_desc
@@ -37,7 +37,7 @@
 	}
 # State Religion
 	defined_text = {
-		name = GetStateReligion
+		name = GetNationalOfficialReligion
 		text = {
 			trigger = { has_idea = law_country_religion_animist }
 			localization_key = law_country_religion_animist
@@ -107,7 +107,7 @@
 		}
 	}
 	defined_text = {
-		name = GetStateReligionDesc
+		name = GetNationalOfficialReligionDesc
 		text = {
 			trigger = { has_idea = law_country_religion_animist }
 			localization_key = law_country_religion_animist_desc
@@ -176,22 +176,22 @@
 			localization_key = law_country_religion_secular_desc
 		}
 	}
-# State Culture
+# National Official Culture
 	defined_text = {
-		name = GetStateCulture
+		name = GetNationalOfficialCulture
 		text = {
 			localization_key = law_country_culture_uncategorized
 		}
 	}
 	defined_text = {
-		name = GetStateCultureDesc
+		name = GetNationalOfficialCultureDesc
 		text = {
 			localization_key = law_country_culture_uncategorized_desc
 		}
 	}
-# State Government
+# National Government
 	defined_text = {
-		name = GetStateGovernment
+		name = GetNationalGovernment
 		text = {
 			trigger = { has_idea = law_country_government_nomadic }
 			localization_key = law_country_government_nomadic
@@ -239,5 +239,56 @@
 		text = {
 			trigger = { has_idea = law_country_government_caliphate }
 			localization_key = law_country_government_caliphate
+		}
+	}
+    defined_text = {
+		name = GetNationalGovernmentDesc
+		text = {
+			trigger = { has_idea = law_country_government_nomadic }
+			localization_key = law_country_government_nomadic_desc
+		}
+		text = {
+			trigger = { has_idea = law_country_government_tribe }
+			localization_key = law_country_government_tribe_desc
+		}
+		text = {
+			trigger = { has_idea = law_country_government_chiefdom }
+			localization_key = law_country_government_chiefdom_desc
+		}
+		text = {
+			trigger = { has_idea = law_country_government_pirate }
+			localization_key = law_country_government_pirate_desc
+		}
+		text = {
+			trigger = { has_idea = law_country_government_tribal_confederacy }
+			localization_key = law_country_government_tribal_confederacy_desc
+		}
+		text = {
+			trigger = { has_idea = law_country_government_kingdom }
+			localization_key = law_country_government_kingdom_desc
+		}
+		text = {
+			trigger = { has_idea = law_country_government_sultanate }
+			localization_key = law_country_government_sultanate_desc
+		}
+		text = {
+			trigger = { has_idea = law_country_government_merchantile_oligarchy }
+			localization_key = law_country_government_merchantile_oligarchy_desc
+		}
+		text = {
+			trigger = { has_idea = law_country_government_religious_order }
+			localization_key = law_country_government_religious_order_desc
+		}
+		text = {
+			trigger = { has_idea = law_country_government_landed_republic }
+			localization_key = law_country_government_landed_republic_desc
+		}
+		text = {
+			trigger = { has_idea = law_country_government_democratic_republic }
+			localization_key = law_country_government_democratic_republic_desc
+		}
+		text = {
+			trigger = { has_idea = law_country_government_caliphate }
+			localization_key = law_country_government_caliphate_desc
 		}
 	}
