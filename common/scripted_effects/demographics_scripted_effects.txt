@@ -1,130 +1,110 @@
 # Immigration/Emmigration
 	# Culture
-		demographics_state_culture_change = {
-			# Prep Variables
-				# state_culture_temp
-				# state_culture_percentage_temp
-				set_temp_variable = {
-					var = state_culture_percentage_normalizer_temp
-					value = 1
-				}
-				add_to_temp_variable = {
-					var = state_culture_percentage_normalizer_temp
-					value = state_culture_percentage_temp
-				}
-			# Negative Check
-			# Add to Arrays
-				if = {
-					limit = {
-						is_in_array = {
-							array = state_culture_array
-							value = state_culture_temp
-						}
-					}
-					for_each_loop = {
-						array = state_culture_array
-						index = iterate
+demographics_state_culture_percentage_change = {
+    # # Usage Instructions
+    # # Culture IDs must be postitive integers.
+    # # Percentages may be within the range -1 to 1.
+    # # Postive Percentages increase culture. Negative Decreases.
+    # set_temp_variable = { state_culture_temp = <culture_id> }
+    # set_temp_variable = { state_culture_percentage_temp = <percentage_value> }
 
-						if = {
-							limit = {
-								check_variable = {
-									var = state_culture_array^iterate
-									value = state_culture_temp
-									compare = equals
-								}
-							}
-							add_to_variable = {
-								var = state_culture_percentage_array^iterate
-								value = state_culture_percentage_temp
-							}
-							if = {
-								limit = {
-									check_variable = {
-										var = state_culture_percentage_array^iterate
-										value = 0
-										compare = lesser_than
-									}
-									set_variable = {
-										var = state_culture_percentage_array^iterate
-										value = 0
-									}
-								}
-							}
-						}
-						divide_variable = {
-							var = state_culture_percentage_array^iterate
-							value = state_culture_percentage_normalizer_temp
-						}
-					}
-				}
-				else = {
-					add_to_array = {
-						array = state_culture_array
-						value = state_culture_temp
-					}
-					add_to_array = {
-						array = state_culture_percentage_array
-						value = state_culture_percentage_temp
-					}
-					for_each_loop = {
-						array = state_culture_percentage_array
-						index = iterate
-						divide_variable = {
-							var = state_culture_percentage_array^iterate
-							value = state_culture_percentage_normalizer_temp
-						}
-					}
-				}
-			# Normalize
-				set_temp_variable = {
-					var = state_culture_percentage_normalizer_temp
-					value = 0
-				}
-				for_each_loop = {
-					array = state_culture_percentage_array
-					index = iterate
-
-					add_to_temp_variable = {
-						var = state_culture_percentage_normalizer_temp
-					}		
-				}
-				if = {
-					limit = {
-						check_variable = {
-							var = state_culture_percentage_normalizer_temp
-							value = 1
-							compare = greater_than
-						}
-					}
-					subtract_from_temp_variable = {
-						var = state_culture_percentage_normalizer_temp
-						value = 1
-					}
-					subtract_from_variable = {
-						var = state_culture_percentage_array^num
-						value = state_culture_percentage_normalizer_temp
-					}
-				}
-				else_if = {
-					limit = {
-						check_variable = {
-							var = state_culture_percentage_normalizer_temp
-							value = 1
-							compare = greater_than
-						}
-					}
-					subtract_from_temp_variable = {
-						var = state_culture_percentage_normalizer_temp
-						value = 1
-					}
-					subtract_from_variable = {
-						var = state_culture_percentage_array^0
-						value = state_culture_percentage_normalizer_temp
-					}
-				}
-			# Update
-			demographics_state_culture_update = yes
-		}
+    # Data Integration
+    if = {
+        limit = {
+            is_in_array = {
+                array = state_culture_array
+                value = state_culture_temp
+            }
+        }
+        set_temp_variable = {
+            var = state_culture_percentage_normalizer_temp
+            value = 0
+        }
+        for_each_loop = {
+            array = state_culture_array
+            index = iterate
+            if = {
+                limit = {
+                    check_variable = {
+                        var = state_culture_array^iterate
+                        value = state_culture_temp
+                        compare = equals
+                    }
+                }
+                add_to_variable = {
+                    var = state_culture_percentage_array^iterate
+                    value = state_culture_percentage_temp
+                }
+                if = {
+                    limit = {
+                        check_variable = {
+                            var = state_culture_percentage_array^iterate
+                            value = 0
+                            compare = less_than
+                        }
+                    }
+                    set_variable = {
+                        var = state_culture_percentage_array^iterate
+                        value = 0
+                    }
+                }
+            }
+            add_to_temp_variable = {
+                var = state_culture_percentage_normalizer_temp
+                value = state_culture_percentage_array^iterate
+            }
+        }
+        demographics_state_culture_normalize_update = yes
+    }
+    else_if = {
+        limit = {
+            check_variable = {
+                var = state_culture_percentage_temp
+                value = 0
+                compare = greater_than_or_equals
+            }
+        }
+        add_to_array = {
+            array = state_culture_array
+            value = state_culture_temp
+        }
+        add_to_array = {
+            array = state_culture_percentage_array
+            value = state_culture_percentage_temp
+        }
+        set_temp_variable = {
+            var = state_culture_percentage_normalizer_temp
+            value = 1
+        }
+        add_to_temp_variable = {
+            var = state_culture_percentage_normalizer_temp
+            value = state_culture_percentage_temp
+        }
+        demographics_state_culture_normalize_update = yes
+    }
+demographics_state_culture_normalize_update = {
+    set_temp_variable = {
+        var = state_culture_percentage_total
+        value = 1
+    }
+    for_each_loop = {
+        array = state_culture_percentage_array
+        index = iterate
+        divide_variable = {
+            var = state_culture_percentage_array^iterate
+            value = state_culture_percentage_normalizer_temp
+        }
+        subtract_from_temp_variable = {
+            var = state_culture_percentage_total
+            value = state_culture_percentage_array^iterate
+        }
+    }
+    add_to_variable = {
+        var = state_culture_percentage_array^0
+        value = state_culture_percentage_total
+    }
+}
+    # Update
 	# Religion
 		demographics_state_religion_change = {
 			# Prep Variables
