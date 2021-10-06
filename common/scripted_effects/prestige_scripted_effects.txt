@@ -1,0 +1,27 @@
+prestige_global_total_setup = {
+    every_country = {
+        limit = {
+            is_non_player_tag = no
+        }
+        set_variable = {
+            var = prestige_total
+            value = 0
+        }
+        prestige_country_land_update = yes
+        prestige_country_sea_update = yes
+        prestige_country_air_update = yes
+        prestige_country_tech_setup = yes
+        prestige_country_
+    }
+}
+prestige_country_army_update = {
+    set_variable = {
+        var = prestige_army
+        value = num_battalions
+    }
+    # Edit
+    add_to_variable = {
+        var = prestige_total
+        value = prestige_army
+    }
+}

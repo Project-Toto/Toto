@@ -28,6 +28,30 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/laws/country_religion/religion_fetishist.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_religion_ancestorship"
+		texturefile = "gfx/interface/ideas/laws/country_religion/religion_ancestorship.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_religion_mossi"
+		texturefile = "gfx/interface/ideas/laws/country_religion/religion_mossi.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_religion_zoroastrian"
+		texturefile = "gfx/interface/ideas/laws/country_religion/religion_zoroastrian.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_religion_jewish"
+		texturefile = "gfx/interface/ideas/laws/country_religion/religion_jewish.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_religion_druze"
+		texturefile = "gfx/interface/ideas/laws/country_religion/religion_druze.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_religion_waaqist"
+		texturefile = "gfx/interface/ideas/laws/country_religion/religion_waaqist.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_religion_catholic"
 		texturefile = "gfx/interface/ideas/laws/country_religion/religion_catholic.dds"
 	}
@@ -44,20 +68,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/laws/country_religion/religion_orthodox.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_religion_armenian"
-		texturefile = "gfx/interface/ideas/laws/country_religion/religion_armenian.dds"
-	}
-	spriteType = {
 		name = "GFX_idea_religion_coptic"
 		texturefile = "gfx/interface/ideas/laws/country_religion/religion_coptic.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_religion_jewish"
-		texturefile = "gfx/interface/ideas/laws/country_religion/religion_jewish.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_religion_druze"
-		texturefile = "gfx/interface/ideas/laws/country_religion/religion_druze.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_religion_sunni"
@@ -72,12 +84,12 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/laws/country_religion/religion_ibadi.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_religion_zoroastrian"
-		texturefile = "gfx/interface/ideas/laws/country_religion/religion_zoroastrian.dds"
-	}
-	spriteType = {
 		name = "GFX_idea_religion_cult_of_personality"
 		texturefile = "gfx/interface/ideas/laws/country_religion/religion_cult_of_personality.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_religion_vodun"
+		texturefile = "gfx/interface/ideas/laws/country_religion/religion_vodun.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_religion_atheist"

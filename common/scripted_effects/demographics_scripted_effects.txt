@@ -1,233 +1,168 @@
 # Immigration/Emmigration
-	# Culture
-demographics_state_culture_percentage_change = {
-    # # Usage Instructions
-    # # Culture IDs must be postitive integers.
-    # # Percentages may be within the range -1 to 1.
-    # # Postive Percentages increase culture. Negative Decreases.
-    # set_temp_variable = { state_culture_temp = <culture_id> }
-    # set_temp_variable = { state_culture_percentage_temp = <percentage_value> }
+	# Culture 
+		demographics_state_culture_population_change = {
+			# # Usage Instructions
+			# # Culture IDs must be valid postitive integers.
+			# # Populations must be integers and are taken per thousand. 
+			# # Postive Percentages increase culture #. Negative Decreases.
+			# set_temp_variable = { state_culture_temp = <culture_id> }
+			# set_temp_variable = { state_culture_population_temp = <population_k_value> }
 
-    # Data Integration
-    if = {
-        limit = {
-            is_in_array = {
-                array = state_culture_array
-                value = state_culture_temp
-            }
-        }
-        set_temp_variable = {
-            var = state_culture_percentage_normalizer_temp
-            value = 0
-        }
-        for_each_loop = {
-            array = state_culture_array
-            index = iterate
-            if = {
-                limit = {
-                    check_variable = {
-                        var = state_culture_array^iterate
-                        value = state_culture_temp
-                        compare = equals
-                    }
-                }
-                add_to_variable = {
-                    var = state_culture_percentage_array^iterate
-                    value = state_culture_percentage_temp
-                }
-                if = {
-                    limit = {
-                        check_variable = {
-                            var = state_culture_percentage_array^iterate
-                            value = 0
-                            compare = less_than
-                        }
-                    }
-                    set_variable = {
-                        var = state_culture_percentage_array^iterate
-                        value = 0
-                    }
-                }
-            }
-            add_to_temp_variable = {
-                var = state_culture_percentage_normalizer_temp
-                value = state_culture_percentage_array^iterate
-            }
-        }
-        demographics_state_culture_normalize_update = yes
-    }
-    else_if = {
-        limit = {
-            check_variable = {
-                var = state_culture_percentage_temp
-                value = 0
-                compare = greater_than_or_equals
-            }
-        }
-        add_to_array = {
-            array = state_culture_array
-            value = state_culture_temp
-        }
-        add_to_array = {
-            array = state_culture_percentage_array
-            value = state_culture_percentage_temp
-        }
-        set_temp_variable = {
-            var = state_culture_percentage_normalizer_temp
-            value = 1
-        }
-        add_to_temp_variable = {
-            var = state_culture_percentage_normalizer_temp
-            value = state_culture_percentage_temp
-        }
-        demographics_state_culture_normalize_update = yes
-    }
-demographics_state_culture_normalize_update = {
-    set_temp_variable = {
-        var = state_culture_percentage_total
-        value = 1
-    }
-    for_each_loop = {
-        array = state_culture_percentage_array
-        index = iterate
-        divide_variable = {
-            var = state_culture_percentage_array^iterate
-            value = state_culture_percentage_normalizer_temp
-        }
-        subtract_from_temp_variable = {
-            var = state_culture_percentage_total
-            value = state_culture_percentage_array^iterate
-        }
-    }
-    add_to_variable = {
-        var = state_culture_percentage_array^0
-        value = state_culture_percentage_total
-    }
-}
-    # Update
-	# Religion
-		demographics_state_religion_change = {
-			# Prep Variables
-				# state_religion_temp
-				# state_religion_percentage_temp
+			custom_effect_tooltip = demographics_state_culture_population_change_tt
+			# Exception Check
+				if = {
+					limit = {
+						check_variable = {
+							var = state_culture_population_temp
+							value = 0
+							compare = lesser_than
+						}
+					}
+					set_temp_variable = {
+						var = state_culture_population_normalizier_temp
+						value = state_population_k
+					}
+					multiply_temp_variable = {
+						var = state_culture_population_normalizer_temp
+						value = -1
+					}
+					add_to_temp_variable = {
+						var = state_culture_population_normalizer_temp
+						value = 0.1
+					}
+					if = {
+						limit = {
+							check_variable = {
+								var = state_culture_population_temp
+								value = state_culture_population_normalizer_temp
+								compare = less_than
+							}
+						}
+						set_temp_variable = {
+							var = state_culture_population_temp
+							value = state_culture_population_normalizer_temp
+						}
+					}
+				}
+			# Data Integration
 				set_temp_variable = {
-					var = state_religion_percentage_normalizer_temp
-					value = 1
+					var = state_population_percentage_change
+					value = state_culture_population_temp
 				}
-				add_to_temp_variable = {
-					var = state_religion_percentage_normalizer_temp
-					value = state_religion_percentage_temp
+				divide_temp_variable = {
+					var = state_population_percentage_change
+					var = state_population_k
 				}
-			# Add to Arrays
+				hidden_effect = {
+					demographics_state_culture_percentage_change = yes
+				}
+		}
+		demographics_state_culture_percentage_change = {
+			# # Usage Instructions
+			# # Culture IDs must be valid postitive integers.
+			# # Percentages must be within the range -1 to 1.
+			# # Postive Percentages increase culture #. Negative Decreases.
+			# set_temp_variable = { state_culture_temp = <culture_id> }
+			# set_temp_variable = { state_culture_percentage_temp = <percentage_value> }
+
+			# Data Integration
 				if = {
 					limit = {
 						is_in_array = {
-							array = state_religion_array
-							value = state_religion_temp
+							array = state_culture_array
+							value = state_culture_temp
 						}
 					}
+					set_temp_variable = {
+						var = state_culture_percentage_normalizer_temp
+						value = 0
+					}
 					for_each_loop = {
-						array = state_religion_array
+						array = state_culture_array
 						index = iterate
-
 						if = {
 							limit = {
 								check_variable = {
-									var = state_religion_array^iterate
-									value = state_religion_temp
+									var = state_culture_array^iterate
+									value = state_culture_temp
 									compare = equals
 								}
 							}
 							add_to_variable = {
-								var = state_religion_percentage_array^iterate
-								value = state_religion_percentage_temp
+								var = state_culture_percentage_array^iterate
+								value = state_culture_percentage_temp
 							}
 							if = {
 								limit = {
 									check_variable = {
-										var = state_religion_percentage_array^iterate
+										var = state_culture_percentage_array^iterate
 										value = 0
-										compare = lesser_than
-									}
-									set_variable = {
-										var = state_religion_percentage_array^iterate
-										value = 0
+										compare = less_than
 									}
 								}
+								set_variable = {
+									var = state_culture_percentage_array^iterate
+									value = 0
+								}
+							}
 						}
-						divide_variable = {
-							var = state_religion_percentage_array^iterate
-							value = state_religion_percentage_normalizer_temp
-						}
-					}
-				}
-				else = {
-					add_to_array = {
-						array = state_religion_array
-						value = state_religion_temp
-					}
-					add_to_array = {
-						array = state_religion_percentage_array
-						value = state_religion_percentage_temp
-					}
-					for_each_loop = {
-						array = state_religion_percentage_array
-						index = iterate
-						divide_variable = {
-							var = state_religion_percentage_array^iterate
-							value = state_religion_percentage_normalizer_temp
+						add_to_temp_variable = {
+							var = state_culture_percentage_normalizer_temp
+							value = state_culture_percentage_array^iterate
 						}
 					}
-				}
-			# Normalize
-				set_temp_variable = {
-					var = state_religion_percentage_normalizer_temp
-					value = 0
-				}
-				for_each_loop = {
-					array = state_religion_percentage_array
-					index = iterate
-
-					add_to_temp_variable = {
-						var = state_religion_percentage_normalizer_temp
-					}		
-				}
-				if = {
-					limit = {
-						check_variable = {
-							var = state_religion_percentage_normalizer_temp
-							value = 1
-							compare = greater_than
-						}
-					}
-					subtract_from_temp_variable = {
-						var = state_religion_percentage_normalizer_temp
-						value = 1
-					}
-					subtract_from_variable = {
-						var = state_religion_percentage_array^num
-						value = state_religion_percentage_normalizer_temp
-					}
+					demographics_state_culture_normalize_update = yes
 				}
 				else_if = {
 					limit = {
 						check_variable = {
-							var = state_religion_percentage_normalizer_temp
-							value = 1
-							compare = greater_than
+							var = state_culture_percentage_temp
+							value = 0
+							compare = greater_than_or_equals
 						}
 					}
-					subtract_from_temp_variable = {
-						var = state_religion_percentage_normalizer_temp
+					add_to_array = {
+						array = state_culture_array
+						value = state_culture_temp
+					}
+					add_to_array = {
+						array = state_culture_percentage_array
+						value = state_culture_percentage_temp
+					}
+					set_temp_variable = {
+						var = state_culture_percentage_normalizer_temp
 						value = 1
 					}
-					subtract_from_variable = {
-						var = state_religion_percentage_array^0
-						value = state_religion_percentage_normalizer_temp
+					add_to_temp_variable = {
+						var = state_culture_percentage_normalizer_temp
+						value = state_culture_percentage_temp
 					}
+					demographics_state_culture_normalize_update = yes
 				}
-			# Update
-			demographics_state_religion_update = yes
+			# Update (Sort)
+			demographics_state_culture_update = yes
+		}
+		demographics_state_culture_normalize_update = {
+			set_temp_variable = {
+				var = state_culture_percentage_total
+				value = 1
+			}
+			for_each_loop = {
+				array = state_culture_percentage_array
+				index = iterate
+				divide_variable = {
+					var = state_culture_percentage_array^iterate
+					value = state_culture_percentage_normalizer_temp
+				}
+				subtract_from_temp_variable = {
+					var = state_culture_percentage_total
+					value = state_culture_percentage_array^iterate
+				}
+			}
+			add_to_variable = {
+				var = state_culture_percentage_array^0
+				value = state_culture_percentage_total
+			}
 		}
 # Update
 	# Culture
@@ -660,13 +595,13 @@ demographics_state_culture_normalize_update = {
 				set_variable = { global.religion_animist = 1 }
 				set_variable = { global.religion_fetishist = 2 }
 			# Ancestorship
-				set_variable = { global.religion_mossi = 3 }
-				set_variable = { global.religion_ancestorship = 4 }
+				set_variable = { global.religion_ancestorship = 3 }
+				set_variable = { global.religion_mossi = 4 }
 			# Esoteric Monotheistics
 				set_variable = { global.religion_zoroastrian = 5 }
 				set_variable = { global.religion_jewish = 6 }
 				set_variable = { global.religion_druze = 7 }
-				set_variable = { global.religion_waaqism = 8 }
+				set_variable = { global.religion_waaqist = 8 }
 			# Christianity
 				set_variable = { global.religion_catholic = 9 }
 				set_variable = { global.religion_protestant = 10 }

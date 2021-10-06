@@ -8,13 +8,13 @@ state_categories = {
 		# Fetishist
 		color = { 80 51 33 }
 	}
-	state_category_religion_mossi = {
-		# Mossi
-		color = { 25 50 0 }
-	}
 	state_category_religion_ancestorship = {
 		# Ancestorship
 		color = { 172 33 151 }
+	}
+	state_category_religion_mossi = {
+		# Mossi
+		color = { 25 50 0 }
 	}
 	state_category_religion_zoroastrian = {
 		# Zoroastrian

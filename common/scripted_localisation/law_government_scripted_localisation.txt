@@ -35,7 +35,39 @@
 			localization_key = law_country_power_irrelevant_desc
 		}
 	}
-# State Religion
+	defined_text = {
+		GetNationalPowerIcon
+		text = {
+			trigger = { has_idea = law_country_power_great }
+			localization_key = GFX_idea_power_great
+		}
+		text = {
+			trigger = { has_idea = law_country_power_secondary }
+			localization_key = GFX_idea_power_great_secondary
+		}
+		text = {
+			trigger = { has_idea = law_country_power_minor }
+			localization_key = GFX_idea_power_great_minor
+		}
+		text = {
+			localization_key = GFX_idea_power_great_irrelevant
+		}
+	}
+# National Official Culture
+	defined_text = {
+		name = GetNationalOfficialCulture
+		text = {
+			localization_key = law_country_culture_uncategorized
+		}
+	}
+	defined_text = {
+		name = GetNationalOfficialCultureDesc
+		text = {
+			localization_key = law_country_culture_uncategorized_desc
+		}
+	}
+
+# National Religion
 	defined_text = {
 		name = GetNationalOfficialReligion
 		text = {
@@ -176,19 +208,7 @@
 			localization_key = law_country_religion_secular_desc
 		}
 	}
-# National Official Culture
-	defined_text = {
-		name = GetNationalOfficialCulture
-		text = {
-			localization_key = law_country_culture_uncategorized
-		}
-	}
-	defined_text = {
-		name = GetNationalOfficialCultureDesc
-		text = {
-			localization_key = law_country_culture_uncategorized_desc
-		}
-	}
+
 # National Government
 	defined_text = {
 		name = GetNationalGovernment

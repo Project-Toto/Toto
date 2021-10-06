@@ -3,24 +3,34 @@ ideas = {
 	law_country_power = {
 		law = yes
 		use_list_view = yes
-		law_country_power_irrelevant = {
-			picture = power_irrelevant
+		law_country_power_great = {
+			picture = power_great
 			allowed = { is_player_tag = yes }
-			default = yes
-			level = 0
+
+			available = {
+				is_great_power_eligible = yes
+			}
+			level = 3
+			cancel_if_invalid = no
+			modifier = {
+				political_power_gain = 0.15
+				weekly_manpower = 30
+			}
+		}
+		law_country_power_secondary = {
+			picture = power_secondary
+			allowed = { is_player_tag = yes }
+			level = 2
 			available = {
 				NOT = {
-					OR = {
-						has_idea = law_country_power_minor
-						has_idea = law_country_power_secondary
-						has_idea = law_country_power_great
-					}
+					has_idea = law_country_power_great
 				}
+				is_secondary_power_eligible = yes
 			}
 			cancel_if_invalid = no
 			modifier = {
-				political_power_gain = 0.05
-				weekly_manpower = 15
+				political_power_gain = 0.15
+				weekly_manpower = 25
 			}
 		}
 		law_country_power_minor = {
@@ -42,34 +52,24 @@ ideas = {
 				weekly_manpower = 20
 			}
 		}
-		law_country_power_secondary = {
-			picture = power_secondary
+		law_country_power_irrelevant = {
+			picture = power_irrelevant
 			allowed = { is_player_tag = yes }
-			level = 2
+			default = yes
+			level = 0
 			available = {
 				NOT = {
-					has_idea = law_country_power_great
+					OR = {
+						has_idea = law_country_power_minor
+						has_idea = law_country_power_secondary
+						has_idea = law_country_power_great
+					}
 				}
-				is_secondary_power_eligible = yes
 			}
 			cancel_if_invalid = no
 			modifier = {
-				political_power_gain = 0.15
-				weekly_manpower = 25
-			}
-		}
-		law_country_power_great = {
-			picture = power_great
-			allowed = { is_player_tag = yes }
-
-			available = {
-				is_great_power_eligible = yes
-			}
-			level = 3
-			cancel_if_invalid = no
-			modifier = {
-				political_power_gain = 0.15
-				weekly_manpower = 30
+				political_power_gain = 0.05
+				weekly_manpower = 15
 			}
 		}
 	}
@@ -80,87 +80,411 @@ ideas = {
 			default = yes
 			picture = religion_animist
 			level = 0
+
+			available = {
+				demographics_majority_religion_animist = yes
+			}
+			cancel_if_invalid = no
+			on_add = {
+				set_temp_variable = {
+					var = political_legitimacy_change
+					value = -0.20
+				}
+				political_legitimacy_change = yes
+			}
 		}
 		law_country_religion_fetishist = {
 			allowed = { always = yes }
 			picture = religion_fetishist
+			level = 1
+
+			available = {
+				demographics_majority_religion_fetishist = yes
+			}
+			cancel_if_invalid = no
+			on_add = {
+				set_temp_variable = {
+					var = political_legitimacy_change
+					value = -0.20
+				}
+				political_legitimacy_change = yes
+			}
+		}
+		law_country_religion_ancestorship = {
+			allowed = { always = yes }
+			picture = religion_ancestorship
 			level = 0
+
+			available = {
+				custom_trigger_tooltip = law_country_religion_ancestorship_trigger_tt
+				check_variable = {
+					var = national_religion_array^0
+					value = global.religion_ancestorship
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				set_temp_variable = {
+					var = political_legitimacy_change
+					value = -0.20
+				}
+				political_legitimacy_change = yes
+			}
 		}
 		law_country_religion_mossi = {
 			allowed = { always = yes }
 			picture = religion_mossi
 			level = 1
+
+			available = {
+				custom_trigger_tooltip = law_country_religion_mossi_trigger_tt
+				check_variable = {
+					var = national_religion_array^0
+					value = global.religion_mossi
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				set_temp_variable = {
+					var = political_legitimacy_change
+					value = -0.20
+				}
+				political_legitimacy_change = yes
+			}
 		}
 		law_country_religion_zoroastrian = {
 			allowed = { always = yes }
 			picture = religion_zoroastrian
 			level = 1
+
+			available = {
+				custom_trigger_tooltip = law_country_religion_zoroastrian_trigger_tt
+				check_variable = {
+					var = national_religion_array^0
+					value = global.religion_zoroastrian
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				set_temp_variable = {
+					var = political_legitimacy_change
+					value = -0.20
+				}
+				political_legitimacy_change = yes
+			}
 		}
 		law_country_religion_jewish = {
 			allowed = { always = yes }
 			picture = religion_jewish
 			level = 1
+
+			available = {
+				custom_trigger_tooltip = law_country_religion_jewish_trigger_tt
+				check_variable = {
+					var = national_religion_array^0
+					value = global.religion_jewish
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				set_temp_variable = {
+					var = political_legitimacy_change
+					value = -0.20
+				}
+				political_legitimacy_change = yes
+			}
+		}
+		law_country_religion_druze = {
+			allowed = { always = yes }
+			picture = religion_druze
+			level = 1
+
+			available = {
+				custom_trigger_tooltip = law_country_religion_druze_trigger_tt
+				check_variable = {
+					var = national_religion_array^0
+					value = global.religion_druze
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				set_temp_variable = {
+					var = political_legitimacy_change
+					value = -0.20
+				}
+				political_legitimacy_change = yes
+			}
+		}
+		law_country_religion_waaqist = {
+			allowed = { always = yes }
+			picture = religion_waaqist
+			level = 1
+
+			available = {
+				custom_trigger_tooltip = law_country_religion_waaqist_trigger_tt
+				check_variable = {
+					var = national_religion_array^0
+					value = global.religion_waaqist
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				set_temp_variable = {
+					var = political_legitimacy_change
+					value = -0.20
+				}
+				political_legitimacy_change = yes
+			}
 		}
 
 		law_country_religion_catholic = {
 			allowed = { always = yes }
 			picture = religion_catholic
 			level = 1
+
+			available = {
+				custom_trigger_tooltip = law_country_religion_catholic_trigger_tt
+				check_variable = {
+					var = national_religion_array^0
+					value = global.religion_catholic
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				set_temp_variable = {
+					var = political_legitimacy_change
+					value = -0.20
+				}
+				political_legitimacy_change = yes
+			}
 		}
 		law_country_religion_protestant = {
 			allowed = { always = yes }
 			picture = religion_protestant
 			level = 1
+
+			available = {
+				custom_trigger_tooltip = law_country_religion_protestant_trigger_tt
+				check_variable = {
+					var = national_religion_array^0
+					value = global.religion_protestant
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				set_temp_variable = {
+					var = political_legitimacy_change
+					value = -0.20
+				}
+				political_legitimacy_change = yes
+			}
 		}
 		law_country_religion_anglican = {
 			allowed = { always = yes }
 			picture = religion_anglican
 			level = 1
+
+			available = {
+				custom_trigger_tooltip = law_country_religion_anglican_trigger_tt
+				check_variable = {
+					var = national_religion_array^0
+					value = global.religion_anglican
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				set_temp_variable = {
+					var = political_legitimacy_change
+					value = -0.20
+				}
+				political_legitimacy_change = yes
+			}
 		}
 		law_country_religion_orthodox = {
 			allowed = { always = yes }
 			picture = religion_orthodox
 			level = 1
+
+			available = {
+				custom_trigger_tooltip = law_country_religion_orthodox_trigger_tt
+				check_variable = {
+					var = national_religion_array^0
+					value = global.religion_orthodox
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				set_temp_variable = {
+					var = political_legitimacy_change
+					value = -0.20
+				}
+				political_legitimacy_change = yes
+			}
 		}
 		law_country_religion_coptic = {
 			allowed = { always = yes }
 			picture = religion_coptic
 			level = 1
-		}
-		law_country_religion_druze = {
-			allowed = { always = yes }
-			picture = religion_druze
-			level = 1
+
+			available = {
+				custom_trigger_tooltip = law_country_religion_coptic_trigger_tt
+				check_variable = {
+					var = national_religion_array^0
+					value = global.religion_coptic
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				set_temp_variable = {
+					var = political_legitimacy_change
+					value = -0.20
+				}
+				political_legitimacy_change = yes
+			}
 		}
 		law_country_religion_sunni = {
 			allowed = { always = yes }
 			picture = religion_sunni
 			level = 1
+
+			available = {
+				custom_trigger_tooltip = law_country_religion_sunni_trigger_tt
+				check_variable = {
+					var = national_religion_array^0
+					value = global.religion_sunni
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				set_temp_variable = {
+					var = political_legitimacy_change
+					value = -0.20
+				}
+				political_legitimacy_change = yes
+			}
 		}
 		law_country_religion_shiite = {
 			allowed = { always = yes }
 			picture = religion_shiite
 			level = 1
+
+			available = {
+				custom_trigger_tooltip = law_country_religion_shiite_trigger_tt
+				check_variable = {
+					var = national_religion_array^0
+					value = global.religion_shiite
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				set_temp_variable = {
+					var = political_legitimacy_change
+					value = -0.20
+				}
+				political_legitimacy_change = yes
+			}
 		}
 		law_country_religion_ibadi = {
 			allowed = { always = yes }
 			picture = religion_ibadi
 			level = 1
+
+			available = {
+				custom_trigger_tooltip = law_country_religion_ibadi_trigger_tt
+				check_variable = {
+					var = national_religion_array^0
+					value = global.religion_ibadi
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				set_temp_variable = {
+					var = political_legitimacy_change
+					value = -0.20
+				}
+				political_legitimacy_change = yes
+			}
 		}
 		law_country_religion_cult_of_personality = {
 			allowed = { always = yes }
 			picture = religion_cult_of_personality
 			level = 2
+
+			available = {
+				custom_trigger_tooltip = law_country_religion_cult_of_personality_trigger_tt
+				check_variable = {
+					var = national_religion_array^0
+					value = global.religion_cult_of_personality
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				set_temp_variable = {
+					var = political_legitimacy_change
+					value = -0.20
+				}
+				political_legitimacy_change = yes
+			}
+		}
+		law_country_religion_vodun = {
+			allowed = { always = yes }
+			picture = religion_vodun
+			level = 1
+
+			available = {
+				custom_trigger_tooltip = law_country_religion_vodun_trigger_tt
+				check_variable = {
+					var = national_religion_array^0
+					value = global.religion_vodun
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				set_temp_variable = {
+					var = political_legitimacy_change
+					value = -0.20
+				}
+				political_legitimacy_change = yes
+			}
 		}
 		law_country_religion_atheist = {
 			allowed = { always = yes }
 			picture = religion_atheist
 			level = 2
+
+			available = {
+				custom_trigger_tooltip = law_country_religion_atheist_trigger_tt
+				check_variable = {
+					var = national_religion_array^0
+					value = global.religion_atheist
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				set_temp_variable = {
+					var = political_legitimacy_change
+					value = -0.20
+				}
+				political_legitimacy_change = yes
+			}
 		}
 		law_country_religion_secular = {
 			allowed = { always = yes }
 			picture = religion_secular
 			level = 2
+
+			available = {
+				custom_trigger_tooltip = law_country_religion_secular_trigger_tt
+				always = no
+			}
+			cancel_if_invalid = no
+			on_add = {
+				set_temp_variable = {
+					var = political_legitimacy_change
+					value = -0.15
+				}
+				political_legitimacy_change = yes
+			}
 		}
 	}
 	law_country_culture = {
