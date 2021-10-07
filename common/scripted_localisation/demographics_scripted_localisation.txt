@@ -1,0 +1,225 @@
+defined_text = {
+	name = GetDemographicStateCultureChangeID
+	text = {
+		trigger = {
+			check_variable = {
+				var = state_culture_temp
+				value = global.religion_animist
+				compare = equals
+			}
+		}
+		localization_key = law_country_religion_animist
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = state_culture_temp
+				value = global.religion_fetishist
+				compare = equals
+			}
+		}
+		localization_key = law_country_religion_fetishist
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = state_culture_temp
+				value = global.religion_ancestorship
+				compare = equals
+			}
+		}
+		localization_key = law_country_religion_ancestorship
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = state_culture_temp
+				value = global.religion_mossi
+				compare = equals
+			}
+		}
+		localization_key = law_country_religion_mossi
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = state_culture_temp
+				value = global.religion_zoroastrian
+				compare = equals
+			}
+		}
+		localization_key = law_country_religion_zoroastrian
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = state_culture_temp
+				value = global.religion_jewish
+				compare = equals
+			}
+		}
+		localization_key = law_country_religion_jewish
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = state_culture_temp
+				value = global.religion_druze
+				compare = equals
+			}
+		}
+		localization_key = law_country_religion_druze
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = state_culture_temp
+				value = global.religion_waaqist
+				compare = equals
+			}
+		}
+		localization_key = law_country_religion_waaqist
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = state_culture_temp
+				value = global.religion_catholic
+				compare = equals
+			}
+		}
+		localization_key = law_country_religion_catholic
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = state_culture_temp
+				value = global.religion_protestant
+				compare = equals
+			}
+		}
+		localization_key = law_country_religion_protestant
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = state_culture_temp
+				value = global.religion_anglican
+				compare = equals
+			}
+		}
+		localization_key = law_country_religion_anglican
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = state_culture_temp
+				value = global.religion_orthodox
+				compare = equals
+			}
+		}
+		localization_key = law_country_religion_orthodox
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = state_culture_temp
+				value = global.religion_coptic
+				compare = equals
+			}
+		}
+		localization_key = law_country_religion_coptic
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = state_culture_temp
+				value = global.religion_sunni
+				compare = equals
+			}
+		}
+		localization_key = law_country_religion_sunni
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = state_culture_temp
+				value = global.religion_shiite
+				compare = equals
+			}
+		}
+		localization_key = law_country_religion_shiite
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = state_culture_temp
+				value = global.religion_ibadi
+				compare = equals
+			}
+		}
+		localization_key = law_country_religion_ibadi
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = state_culture_temp
+				value = global.religion_cult_of_personality
+				compare = equals
+			}
+		}
+		localization_key = law_country_religion_cult_of_personality
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = state_culture_temp
+				value = global.religion_vodun
+				compare = equals
+			}
+		}
+		localization_key = law_country_religion_vodun
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = state_culture_temp
+				value = global.religion_atheist
+				compare = equals
+			}
+		}
+		localization_key = law_country_religion_atheist
+	}
+}
+defined_text = {
+	name = GetDemographicsStateCulturePopulationSign
+	text = {
+		trigger = {
+			check_variable = {
+				var = state_culture_population_temp
+				value = 0
+				compare = less_than
+			}
+		}
+		localization_key = demographics_state_culture_population_change_sign_neg_tt
+	}
+	text = {
+		localization_key = demographics_state_culture_population_change_sign_pos_tt
+	}
+}
+defined_text = {
+	name = GetDemographicsStateCulturePercentageSign
+	text = {
+		trigger = {
+			check_variable = {
+				var = state_culture_population_temp
+				value = 0
+				compare = less_than
+			}
+		}
+		localization_key = demographics_state_culture_population_change_sign_neg_tt
+	}
+	text = {
+		localization_key = demographics_state_culture_population_change_sign_pos_tt
+	}
+}

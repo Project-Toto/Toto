@@ -7,7 +7,9 @@ l_english:
  # Scripted Effects
   # Culture
    demographics_state_culture_population_change_tt:0 "§Y[THIS.GetName]§! [GetDemographicsStateCulturePopulationSign] [?THIS.state_culture_population_temp] k§! [GetDemographicStateCultureChangeID]"
+   demographics_state_culture_percentage_change_tt:0 "§Y[THIS.GetName]§! [GetDemographicsStateCulturePopulationSign] [?THIS.state_culture_percentage_temp|%]§! [GetDemographicStateCultureChangeID]"
    demographics_state_culture_population_change_sign_neg_tt:0 "loses §R"
+   demographics_state_culture_population_change_sign_neg_tt:0 "gains §G"
   # Religion
 
  # Scripted Localisation

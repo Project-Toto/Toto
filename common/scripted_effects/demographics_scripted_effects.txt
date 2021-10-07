@@ -64,7 +64,7 @@
 			# # Postive Percentages increase culture #. Negative Decreases.
 			# set_temp_variable = { state_culture_temp = <culture_id> }
 			# set_temp_variable = { state_culture_percentage_temp = <percentage_value> }
-
+			custom_effect_tooltip  =demographics_state_culture_percentage_change_tt
 			# Data Integration
 				if = {
 					limit = {

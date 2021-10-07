@@ -53,20 +53,6 @@
 			localization_key = GFX_idea_power_great_irrelevant
 		}
 	}
-# National Official Culture
-	defined_text = {
-		name = GetNationalOfficialCulture
-		text = {
-			localization_key = law_country_culture_uncategorized
-		}
-	}
-	defined_text = {
-		name = GetNationalOfficialCultureDesc
-		text = {
-			localization_key = law_country_culture_uncategorized_desc
-		}
-	}
-
 # National Religion
 	defined_text = {
 		name = GetNationalOfficialReligion
@@ -79,12 +65,28 @@
 			localization_key = law_country_religion_fetishist
 		}
 		text = {
+			trigger = { has_idea = law_country_religion_ancestorship }
+			localization_key = law_country_religion_ancestorship
+		}
+		text = {
+			trigger = { has_idea = law_country_religion_mossi }
+			localization_key = law_country_religion_mossi
+		}
+		text = {
 			trigger = { has_idea = law_country_religion_zoroastrian }
 			localization_key = law_country_religion_zoroastrian
 		}
 		text = {
 			trigger = { has_idea = law_country_religion_jewish }
 			localization_key = law_country_religion_jewish
+		}
+		text = {
+			trigger = { has_idea = law_country_religion_druze }
+			localization_key = law_country_religion_druze
+		}
+		text = {
+			trigger = { has_idea = law_country_religion_waaqist }
+			localization_key = law_country_religion_waaqist
 		}
 		text = {
 			trigger = { has_idea = law_country_religion_catholic }
@@ -107,14 +109,6 @@
 			localization_key = law_country_religion_coptic
 		}
 		text = {
-			trigger = { has_idea = law_country_religion_animist }
-			localization_key = law_country_religion_animist
-		}
-		text = {
-			trigger = { has_idea = law_country_religion_druze }
-			localization_key = law_country_religion_druze
-		}
-		text = {
 			trigger = { has_idea = law_country_religion_sunni }
 			localization_key = law_country_religion_sunni
 		}
@@ -129,6 +123,10 @@
 		text = {
 			trigger = { has_idea = law_country_religion_cult_of_personality }
 			localization_key = law_country_religion_cult_of_personality
+		}
+		text = {
+			trigger = { has_idea = law_country_religion_vodun }
+			localization__key = law_country_religion_vodun
 		}
 		text = {
 			trigger = { has_idea = law_country_religion_atheist }
@@ -149,12 +147,28 @@
 			localization_key = law_country_religion_fetishist_desc
 		}
 		text = {
+			trigger = { has_idea = law_country_religion_ancestorship }
+			localization_key = law_country_religion_ancestorship_desc
+		}
+		text = {
+			trigger = { has_idea = law_country_religion_mossi }
+			localization_key = law_country_religion_mossi_desc
+		}
+		text = {
 			trigger = { has_idea = law_country_religion_zoroastrian }
 			localization_key = law_country_religion_zoroastrian_desc
 		}
 		text = {
 			trigger = { has_idea = law_country_religion_jewish }
 			localization_key = law_country_religion_jewish_desc
+		}
+		text = {
+			trigger = { has_idea = law_country_religion_druze }
+			localization_key = law_country_religion_druze_desc
+		}
+		text = {
+			trigger = { has_idea = law_country_religion_waaqist }
+			localization_key = law_country_religion_waaqist_desc
 		}
 		text = {
 			trigger = { has_idea = law_country_religion_catholic }
@@ -177,14 +191,6 @@
 			localization_key = law_country_religion_coptic_desc
 		}
 		text = {
-			trigger = { has_idea = law_country_religion_animist }
-			localization_key = law_country_religion_animist_desc
-		}
-		text = {
-			trigger = { has_idea = law_country_religion_druze }
-			localization_key = law_country_religion_druze_desc
-		}
-		text = {
 			trigger = { has_idea = law_country_religion_sunni }
 			localization_key = law_country_religion_sunni_desc
 		}
@@ -201,6 +207,10 @@
 			localization_key = law_country_religion_cult_of_personality_desc
 		}
 		text = {
+			trigger = { has_idea = law_country_religion_vodun }
+			localization__key = law_country_religion_vodun_desc
+		}
+		text = {
 			trigger = { has_idea = law_country_religion_atheist }
 			localization_key = law_country_religion_atheist_desc
 		}
@@ -208,7 +218,107 @@
 			localization_key = law_country_religion_secular_desc
 		}
 	}
-
+	defined_text = {
+		name = GetNationalOfficialReligionIcon
+		text = {
+			trigger = { has_idea = law_country_religion_animist }
+			localization_key = GFX_idea_religion_animist
+		}
+		text = {
+			trigger = { has_idea = law_country_religion_fetishist }
+			localization_key = GFX_idea_religion_fetishist
+		}
+		text = {
+			trigger = { has_idea = law_country_religion_ancestorship }
+			localization_key = GFX_idea_religion_ancestorship
+		}
+		text = {
+			trigger = { has_idea = law_country_religion_mossi }
+			localization_key = GFX_idea_religion_mossi
+		}
+		text = {
+			trigger = { has_idea = law_country_religion_zoroastrian }
+			localization_key = GFX_idea_religion_zoroastrian
+		}
+		text = {
+			trigger = { has_idea = law_country_religion_jewish }
+			localization_key = GFX_idea_religion_jewish
+		}
+		text = {
+			trigger = { has_idea = law_country_religion_druze }
+			localization_key = GFX_idea_religion_druze
+		}
+		text = {
+			trigger = { has_idea = law_country_religion_waaqist }
+			localization_key = GFX_idea_religion_waaqist
+		}
+		text = {
+			trigger = { has_idea = law_country_religion_catholic }
+			localization_key = GFX_idea_religion_catholic
+		}
+		text = {
+			trigger = { has_idea = law_country_religion_anglican }
+			localization_key = GFX_idea_religion_anglican
+		}
+		text = {
+			trigger = { has_idea = law_country_religion_protestant }
+			localization_key = GFX_idea_religion_protestant
+		}
+		text = {
+			trigger = { has_idea = law_country_religion_orthodox }
+			localization_key = GFX_idea_religion_orthodox
+		}
+		text = {
+			trigger = { has_idea = law_country_religion_coptic }
+			localization_key = GFX_idea_religion_coptic
+		}
+		text = {
+			trigger = { has_idea = law_country_religion_sunni }
+			localization_key = GFX_idea_religion_sunni
+		}
+		text = {
+			trigger = { has_idea = law_country_religion_shiite }
+			localization_key = GFX_idea_religion_shiite
+		}
+		text = {
+			trigger = { has_idea = law_country_religion_ibadi }
+			localization_key = GFX_idea_religion_ibadi
+		}
+		text = {
+			trigger = { has_idea = law_country_religion_cult_of_personality }
+			localization_key = GFX_idea_religion_cult_of_personality
+		}
+		text = {
+			trigger = { has_idea = law_country_religion_vodun }
+			localization_key = GFX_idea_religion_vodun
+		}
+		text = {
+			trigger = { has_idea = law_country_religion_atheist }
+			localization_key = GFX_idea_religion_atheist
+		}
+		text = {
+			localization_key = GFX_idea_religion_secular
+		}
+	}
+# National Official Culture
+	defined_text = {
+		name = GetNationalOfficialCulture
+		text = {
+			localization_key = law_country_culture_uncategorized
+		}
+	}
+	defined_text = {
+		name = GetNationalOfficialCultureDesc
+		text = {
+			localization_key = law_country_culture_uncategorized_desc
+		}
+	}
+	defined_text = {
+		name = GetNationalOfficialCultureIcon
+		text = {
+			localization_key = GFX_idea_culture_uncategorized
+		}
+	}
 # National Government
 	defined_text = {
 		name = GetNationalGovernment
