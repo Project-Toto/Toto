@@ -1,11 +1,15 @@
+
 state={
 	id=75
 	name="STATE_75"
-	provinces={
-		1708 1840 4090 4432 4447 5375 5518 5815 5988 8787 8858 8871 8916 8928 8978 8986 8999 9024 
-	}
-	history = {
+
+	history={
 		owner = SOS
+
+	}
+
+	provinces={
+		4090 4432 5375 5518 8916 8928 8978 8986 8999 9024 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

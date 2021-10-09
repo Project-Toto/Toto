@@ -1,0 +1,12 @@
+state={
+	id=424
+	name="STATE_424"
+	provinces={
+		770 2584 5226 5706 6930 6988 9138 9223 
+	}
+	history={
+		owner=MND
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

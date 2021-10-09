@@ -4,6 +4,9 @@ state={
 	provinces={
 		3609 4445 5529 7319 7320 
 	}
+	history={
+		owner=ARD
+	}
 	manpower=0
 	buildings_max_level_factor=1.000
 }

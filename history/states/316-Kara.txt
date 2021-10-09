@@ -5,7 +5,7 @@ state={
 		1971 2023 2393 5785 6564 9042
 	}
 	history={
-		owner = GRM
+		owner = DGB
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

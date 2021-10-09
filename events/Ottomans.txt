@@ -487,9 +487,6 @@ country_event = {
 
 	trigger = {
 		tag = OTO
-		MNT={
-			exists = yes
-		}
 		#date > 1858.4.3
 	}
 
@@ -497,46 +494,46 @@ country_event = {
 		name = OTO_battleofgrahovac.1.a
 		ai_chance = { factor = 80}
 		activate_mission = OTO_reign_in_montenegro
-		MNT = {
-			country_event = {days = 1 id = OTO_battleofgrahovac.2}
-		}
-		if = {
-			limit = {
-				OR = {
-					has_dlc = "Together for Victory"
-					has_dlc = "Waking the Tiger"
-					has_dlc = "Death or Dishonor"
-				}
-			}
-			set_autonomy = {
-				target = MNT
-				autonomy_state = autonomy_free
-			}
-		}
-		else = {
-			end_puppet = MNT
-		}
+		# MNT = {
+		# 	country_event = {days = 1 id = OTO_battleofgrahovac.2}
+		# }
+		# if = {
+		# 	limit = {
+		# 		OR = {
+		# 			has_dlc = "Together for Victory"
+		# 			has_dlc = "Waking the Tiger"
+		# 			has_dlc = "Death or Dishonor"
+		# 		}
+		# 	}
+		# 	set_autonomy = {
+		# 		target = MNT
+		# 		autonomy_state = autonomy_free
+		# 	}
+		# }
+		# else = {
+		# 	end_puppet = MNT
+		# }
 	}
 
 	option = {
 		name = OTO_battleofgrahovac.1.b
 		ai_chance = { factor = 20}
-		if = {
-			limit = {
-				OR = {
-					has_dlc = "Together for Victory"
-					has_dlc = "Waking the Tiger"
-					has_dlc = "Death or Dishonor"
-				}
-			}
-			set_autonomy = {
-				target = MNT
-				autonomy_state = autonomy_free
-			}
-		}
-		else = {
-			end_puppet = MNT
-		}
+		# if = {
+		# 	limit = {
+		# 		OR = {
+		# 			has_dlc = "Together for Victory"
+		# 			has_dlc = "Waking the Tiger"
+		# 			has_dlc = "Death or Dishonor"
+		# 		}
+		# 	}
+		# 	set_autonomy = {
+		# 		target = MNT
+		# 		autonomy_state = autonomy_free
+		# 	}
+		# }
+		# else = {
+		# 	end_puppet = MNT
+		# }
 	}
 }
 
@@ -565,12 +562,12 @@ country_event = {
 			TAG = OTO
 		}
 	}
-	desc = {
-		text = OTO_battleofgrahovac.3.descMNT
-		trigger = {
-			TAG = MNT
-		}
-	}
+	# desc = {
+	# 	text = OTO_battleofgrahovac.3.descMNT
+	# 	trigger = {
+	# 		TAG = MNT
+	# 	}
+	# }
 	picture = GFX_event_test
 
 	is_triggered_only = yes
@@ -581,33 +578,33 @@ country_event = {
 			TAG = OTO
 		}
 		ai_chance = { factor = 1}
-		OTO = {
-			if = {
-				limit = {
-					OR = {
-						has_dlc = "Together for Victory"
-						has_dlc = "Waking the Tiger"
-						has_dlc = "Death or Dishonor"
-					}
-				}
-				set_autonomy = {
-					target = MNT
-					autonomy_state = autonomy_ottoman_eyalet
-				}
-			}
-			else = {
-				puppet = MNT
-			}
-		}
+		# OTO = {
+		# 	if = {
+		# 		limit = {
+		# 			OR = {
+		# 				has_dlc = "Together for Victory"
+		# 				has_dlc = "Waking the Tiger"
+		# 				has_dlc = "Death or Dishonor"
+		# 			}
+		# 		}
+		# 		set_autonomy = {
+		# 			target = MNT
+		# 			autonomy_state = autonomy_ottoman_eyalet
+		# 		}
+		# 	}
+		# 	else = {
+		# 		puppet = MNT
+		# 	}
+		# }
 	}
 
-	option = {
-		name = OTO_battleofgrahovac.3.b
-		trigger = {
-			TAG = MNT
-		}
-		ai_chance = { factor = 1}
-	}
+	# option = {
+	# 	name = OTO_battleofgrahovac.3.b
+	# 	trigger = {
+	# 		TAG = MNT
+	# 	}
+	# 	ai_chance = { factor = 1}
+	# }
 }
 
 ##Ottoman Defeat at Grahovac
@@ -622,9 +619,9 @@ country_event = {
 	}
 	desc = {
 		text = OTO_battleofgrahovac.4.descMNT
-		trigger = {
-			TAG = MNT
-		}
+		# trigger = {
+		# 	TAG = MNT
+		# }
 	}
 	picture = GFX_event_test
 
@@ -632,9 +629,9 @@ country_event = {
 
 	option = {
 		name = OTO_battleofgrahovac.4.a
-		trigger = {
-			TAG = OTO
-		}
+		# trigger = {
+		# 	TAG = OTO
+		# }
 		ai_chance = { factor = 1}
 		OTO = {
 			add_equipment_to_stockpile = {
@@ -644,36 +641,36 @@ country_event = {
 			}
 		}
 	}
-	option = {
-		name = OTO_battleofgrahovac.4.b
-		trigger = {
-			TAG = MNT
-		}
-		ai_chance = { factor = 1}
-		if = {
-			limit = {
-				OR = {
-					has_dlc = "Together for Victory"
-					has_dlc = "Waking the Tiger"
-					has_dlc = "Death or Dishonor"
-				}
-			}
-			set_autonomy = {
-				target = MNT
-				autonomy_state = autonomy_free
-			}
-		}
-		else = {
-			end_puppet = MNT
-		}
-		MNT = {
-			add_equipment_to_stockpile = {
-				type = cannon_equipment_0
-				amount = 30
-				producer = OTO
-			}
-		}
-	}
+	# option = {
+	# 	name = OTO_battleofgrahovac.4.b
+	# 	trigger = {
+	# 		TAG = MNT
+	# 	}
+	# 	ai_chance = { factor = 1}
+	# 	if = {
+	# 		limit = {
+	# 			OR = {
+	# 				has_dlc = "Together for Victory"
+	# 				has_dlc = "Waking the Tiger"
+	# 				has_dlc = "Death or Dishonor"
+	# 			}
+	# 		}
+	# 		set_autonomy = {
+	# 			target = MNT
+	# 			autonomy_state = autonomy_free
+	# 		}
+	# 	}
+	# 	else = {
+	# 		end_puppet = MNT
+	# 	}
+	# 	MNT = {
+	# 		add_equipment_to_stockpile = {
+	# 			type = cannon_equipment_0
+	# 			amount = 30
+	# 			producer = OTO
+	# 		}
+	# 	}
+	# }
 }
 
 ##Ottoman Battle at Grahovac canceled
@@ -706,44 +703,44 @@ country_event = {
 		ai_chance = { factor = 1}
 		add_war_support= -10
 		add_stability= -0.06
-		if = {
-			limit = {
-				OR = {
-					has_dlc = "Together for Victory"
-					has_dlc = "Waking the Tiger"
-					has_dlc = "Death or Dishonor"
-				}
-			}
-			set_autonomy = {
-				target = MNT
-				autonomy_state = autonomy_free
-			}
-		}
-		else = {
-			end_puppet = MNT
-		}
-		declare_war_on = { target = MNT type = puppet_wargoal_focus }
+		# if = {
+		# 	limit = {
+		# 		OR = {
+		# 			has_dlc = "Together for Victory"
+		# 			has_dlc = "Waking the Tiger"
+		# 			has_dlc = "Death or Dishonor"
+		# 		}
+		# 	}
+		# 	set_autonomy = {
+		# 		target = MNT
+		# 		autonomy_state = autonomy_free
+		# 	}
+		# }
+		# else = {
+		# 	end_puppet = MNT
+		# }
+		# declare_war_on = { target = MNT type = puppet_wargoal_focus }
 	}
 
 	option = {
 		name = OTO_battleofgrahovac.6.b
 		ai_chance = { factor = 1}
-		if = {
-			limit = {
-				OR = {
-					has_dlc = "Together for Victory"
-					has_dlc = "Waking the Tiger"
-					has_dlc = "Death or Dishonor"
-				}
-			}
-			set_autonomy = {
-				target = MNT
-				autonomy_state = autonomy_ottoman_eyalet
-			}
-		}
-		else = {
-			puppet = MNT
-		}
+		# if = {
+		# 	limit = {
+		# 		OR = {
+		# 			has_dlc = "Together for Victory"
+		# 			has_dlc = "Waking the Tiger"
+		# 			has_dlc = "Death or Dishonor"
+		# 		}
+		# 	}
+		# 	set_autonomy = {
+		# 		target = MNT
+		# 		autonomy_state = autonomy_ottoman_eyalet
+		# 	}
+		# }
+		# else = {
+		# 	puppet = MNT
+		# }
 	}
 }
 
@@ -814,7 +811,7 @@ country_event = {#OTO - question of the grand vizers pay
 		ai_chance = { factor = 1}
 		set_country_flag = grand_vizer_pay_increased
 		add_popularity = {
-			ideology = traditional_conservatism
+			ideology = traditionalism
 			popularity = 0.05
 		}
 	}
@@ -830,10 +827,9 @@ country_event = {#OTO - question of the grand vizers pay
 		ai_chance = { factor = 1}
 		set_country_flag = grand_vizer_pay_reduced
 		add_popularity = {
-			ideology = centrism
+			ideology = reformism
 			popularity = 0.05
 		}
-
 	}
 }
 
@@ -862,7 +858,7 @@ country_event = {#OTO - Religion question
 		}
 		#set_country_leader_ideology = conserv_liberal
 		set_politics = {
-			ruling_party = centrism
+			ruling_party = reformism
 		}
 	}
 
@@ -2081,44 +2077,44 @@ country_event = {#OTO - results of the berlin congress(OTO loss)
 		OTO_sicker_man_of_europe = yes
 		#bulgaria
 		#eastern rumalia
-		1023 = {set_demilitarized_zone = yes}
+		# 1023 = {set_demilitarized_zone = yes}
 		country_event = {id = OTO_events.33 days = 30}
 		#romainiaNo
-		RUS={
-			transfer_state = 1126
-		}
+		# RUS={
+		# 	transfer_state = 1126
+		# }
 		#Serbia
 		#austrian gains
-		if={
-			limit={
-				BOS={exists = no}
-			}
-			release = BOS
-		}
-		AUS={
-			if = {
-				limit = {
-					OR = {
-						has_dlc = "Together for Victory"
-						has_dlc = "Waking the Tiger"
-						has_dlc = "Death or Dishonor"
-					}
-				}
-				set_autonomy = {
-					target = BOS
-					autonomy_state = autonomy_colony
-				}
-			}
-			else = {
-				puppet = BOS
-			}
-		}
-		966 = {set_demilitarized_zone = yes}
-		1202 = {set_demilitarized_zone = yes}
+		# if={
+		# 	limit={
+		# 		BOS={exists = no}
+		# 	}
+		# 	release = BOS
+		# }
+		# AUS={
+		# 	if = {
+		# 		limit = {
+		# 			OR = {
+		# 				has_dlc = "Together for Victory"
+		# 				has_dlc = "Waking the Tiger"
+		# 				has_dlc = "Death or Dishonor"
+		# 			}
+		# 		}
+		# 		set_autonomy = {
+		# 			target = BOS
+		# 			autonomy_state = autonomy_colony
+		# 		}
+		# 	}
+		# 	else = {
+		# 		puppet = BOS
+		# 	}
+		# }
+		# 966 = {set_demilitarized_zone = yes}
+		# 1202 = {set_demilitarized_zone = yes}
 		#montenegro
-		MNT={
-			transfer_state = 1204
-		}
+		# MNT={
+		# 	transfer_state = 1204
+		# }
 	}
 }
 
@@ -2155,34 +2151,34 @@ country_event = {#OTO - results of the Treaty of San Stefano
 		OTO_sicker_man_of_europe = yes
 
 		#austrian gains
-		if={
-			limit={
-				BOS={exists = no}
-			}
-			release = BOS
-		}
-		if = {
-			limit = {
-				OR = {
-					has_dlc = "Together for Victory"
-					has_dlc = "Waking the Tiger"
-					has_dlc = "Death or Dishonor"
-				}
-			}
-			set_autonomy = {
-				target = BOS
-				autonomy_state = autonomy_ottoman_eyalet
-			}
-		}
-		else = {
-			puppet = BOS
-		}
-		966 = {set_demilitarized_zone = yes}
-		#montenegro
-		MNT={
-			transfer_state = 1204
-			transfer_state = 1202
-		}
+		# if={
+		# 	limit={
+		# 		BOS={exists = no}
+		# 	}
+		# 	release = BOS
+		# }
+		# if = {
+		# 	limit = {
+		# 		OR = {
+		# 			has_dlc = "Together for Victory"
+		# 			has_dlc = "Waking the Tiger"
+		# 			has_dlc = "Death or Dishonor"
+		# 		}
+		# 	}
+		# 	set_autonomy = {
+		# 		target = BOS
+		# 		autonomy_state = autonomy_ottoman_eyalet
+		# 	}
+		# }
+		# else = {
+		# 	puppet = BOS
+		# }
+		# 966 = {set_demilitarized_zone = yes}
+		# #montenegro
+		# MNT={
+		# 	transfer_state = 1204
+		# 	transfer_state = 1202
+		# }
 	}
 }
 

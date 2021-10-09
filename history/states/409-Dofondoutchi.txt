@@ -4,6 +4,9 @@ state={
 	provinces={
 		651 999 1215 2386 2577 3761 4555 5423 5747 7022 8483 8491 8517 8560 
 	}
+	history={
+		owner=DDI
+	}
 	manpower=0
 	buildings_max_level_factor=1.000
 }

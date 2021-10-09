@@ -1,0 +1,12 @@
+state={
+	id=425
+	name="STATE_425"
+	provinces={
+		1321 1880 2193 3806 4046 4499 5606 5637 9074 9116 9170 
+	}
+	history={
+		owner=KOG
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

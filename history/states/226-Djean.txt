@@ -2,13 +2,16 @@
 state={
 	id=226
 	name="STATE_226"
-	provinces={
-		1434 2961 3348 5171 5194 5608 7144 8528 8611
-	}
-	state_category=town
+
 	history={
-		owner=MSN
+		owner = MSN
+
+	}
+
+	provinces={
+		1434 3348 5171 5194 5608 7144 8528 8611 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
+	state_category=town
 }

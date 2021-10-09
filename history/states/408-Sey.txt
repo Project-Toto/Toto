@@ -5,6 +5,9 @@ state={
 	provinces={
 		877 4324 4412 6894 8630 8668 
 	}
+	history={
+		owner=DSS
+	}
 	manpower=0
 	buildings_max_level_factor=1.000
 }

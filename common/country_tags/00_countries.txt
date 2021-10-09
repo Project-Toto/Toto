@@ -35,11 +35,11 @@
  FAR = "countries/Fars.txt"
  ABN = "countries/Arabistan.txt"
  LUR = "countries/Luristan.txt"
+ ARD = "countries/Ardalan.txt"
 # Levant
 	# graphical_culture = middle_eastern_gfx
 	# graphical_culture_2d = middle_eastern_2d
  KUR = "countries/Kurdistan.txt"
- TUR = "countries/Turkey.txt"
  IRQ = "countries/Iraq.txt"
  ASY = "countries/Assyria.txt"
  SYR = "countries/Syria.txt"
@@ -83,6 +83,7 @@
  MAH = "countries/Mahra.txt"
  KAT = "countries/Kathira.txt"
  QTI = "countries/Qu'aiti.txt"
+ SNA = "countires/Sana'a.txt"
 # North Africa
 	# graphical_culture = middle_eastern_gfx
 	# graphical_culture_2d = middle_eastern_2d
@@ -101,7 +102,7 @@
  TUA = "countries/Tuat.txt"
  TGR = "countries/Touggourt.txt"
 
- # Senegal
+# Senegal
 	# graphical_culture = african_gfx
 	# graphical_culture_2d = african_2d
  SHW = "countries/Saharwi.txt"
@@ -113,14 +114,50 @@
  BRN = "countries/Brakna.txt"
  TRZ = "countries/Trarza.txt"
 
-	BAO = "countries/Baol.txt"
-	SNG = "countries/Senegal.txt"
-	KHS = "countries/Khasso.txt"
+ BAO = "countries/Baol.txt"
+ SNG = "countries/Senegal.txt"
+ KHS = "countries/Khasso.txt"
+ CAY = "countries/Cayor.txt"
 
- # Guinea
+# Guinea
+ LIB = "countries/Liberia.txt"
+ KOY = "countries/Koya Temne.txt"
+ KRU = "countries/Kru.txt"
+ MND = "countries/Mande.txt"
+ SOS = "countries/Soso.txt"
+ WAS = "countries/Wassoulou.txt"
+# West Africa
 
- # West Africa
+# Mali
+ KKR = "countries/Kokoro.txt"
+ DSS = "countries/Dosso.txt"
+ KDG = "countries/Kenedugu.txt"
+# Burkino Faso
+ MOS = "countries/Mossi.txt"
+ GRN = "countries/Gurunsi.txt"
+ GWR = "countries/Gwiriko.txt"
+ LPT = "countries/Liptako.txt"
+ TKD = "countries/Tenkodogo.txt"
+ YAT = "countries/Yatenga.txt"
+ BIL = "countries/Bilanga.txt"
+ KOA = "countries/Koala.txt"
+ PMA = "countries/Pama.txt"
+ BSM = "countries/Busoma.txt"
+ BUE = "countries/Bue.txt"
+ WAA = "countries/Wa.txt"
 
+# Niger
+ GUE = "countries/Goure.txt"
+ MAR = "countries/Maradi.txt"
+ GBR = "countries/Gobir.txt"
+ KJJ = "countries/Kel Ajjer.txt"
+ TEA = "countries/Tera.txt"
+# Nigeria
+ GDC = "countries/Gold Coast.txt"
+	DGB = "countries/Dagbon.txt"
+	GNJ = "countries/Gonja.txt"
+	GRM = "countries/Gurma.txt"
+	KTT = "countries/Ketti.txt"
  # Cameroon
 
  # Congo
@@ -149,20 +186,10 @@
 	
 	#guinea
 	
-	#serra leone-liberia
-	LIB = "countries/Liberia.txt"
-	KOY = "countries/Koya Temne.txt"
-	KRU = "countries/Kru.txt"
-	MND = "countries/Mande.txt"
-	SOS = "countries/Soso.txt"
 	#Ivory coast
 	AKA = "countries/Akan.txt"
 	KOG = "countries/Kong.txt"
 	#ghana-burkino faso-togo-benin
-	GDC = "countries/Gold Coast.txt"
-	DGB = "countries/Dagbon.txt"
-	GNJ = "countries/Gonja.txt"
-	GRM = "countries/Gurma.txt"
 	#nigeria-niger
 	DAH = "countries/Dahomey.txt"
 	TUG = "countries/Tuareg.txt"
@@ -174,7 +201,6 @@
 	KAB = "countries/Kaabu.txt"
 	BTN = "countries/Balante.txt"
 	TOU = "countries/Toucouleur.txt"
-	MOS = "countries/Mossi.txt"
 	KAA = "countries/Kaarta.txt"
 	GAO = "countries/Gao.txt"
 	BAM = "countries/Bamana.txt"
@@ -218,9 +244,6 @@
 	ASH = "countries/Ashanti.txt"
 	BUS = "countries/Busoga.txt"
 	BAG = "countries/Bagirmi.txt"
-	DSS = "countries/Dosso.txt"
-	KDG = "countries/Kenedugu.txt"
-	WAS = "countries/Wassoulou.txt"
 	SRA = "countries/Sara-Kaba.txt"
 	TOB = "countries/Toubou.txt"
 	ADM = "countries/Adamawa.txt"

@@ -1,11 +1,15 @@
+
 state={
 	id=252
 	name="STATE_252"
-	provinces={
-		2715 3119 3318 3521 3933 4406 4959 5923 6646 8348 8386 8449
-	}
+
 	history={
-		owner = FTT
+		owner = TGN
+
+	}
+
+	provinces={
+		1507 2460 2715 3119 3318 3521 3933 4269 4406 4674 4959 5923 6646 8348 8386 8449 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

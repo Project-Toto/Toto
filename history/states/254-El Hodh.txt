@@ -4,8 +4,9 @@ state={
 	provinces={
 		632 924 953 1735 1833 2088 2441 5111 5477 6953
 	}
+	impassable=yes
 	history={
-		owner = TGN
+		owner = KNT
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

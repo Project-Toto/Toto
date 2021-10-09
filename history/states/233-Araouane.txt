@@ -4,9 +4,10 @@ state={
 	provinces={
 		612 1104 1533 3593 4452 4654 4763 5112 7066 8178 8293
 	}
+	impassable = yes
 	state_category=town
 	history={
-		owner=TGN
+		owner=KNT
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

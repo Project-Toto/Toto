@@ -1,0 +1,12 @@
+state={
+	id=417
+	name="STATE_417"
+	provinces={
+		1364 3845 4124 4530 5813 8550 8561 8586 8612 
+	}
+	history={
+		owner=BSM
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

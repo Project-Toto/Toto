@@ -1690,13 +1690,13 @@ focus_tree = {
 				add_ideas = afr_decentralized_command_structure
 				set_country_flag = afr_chose_decentralized_command_structure_flag
 			}
-			hidden_effect = {
-				add_popularity = {
-					ideology = anarchism
-					popularity = 0.01
-				}
-			}
-			custom_effect_tooltip = afr_anarchism_popularity_plus_1
+			# hidden_effect = {
+			# 	add_popularity = {
+			# 		ideology = anarchism
+			# 		popularity = 0.01
+			# 	}
+			# }
+			# custom_effect_tooltip = afr_anarchism_popularity_plus_1
 		}
 	}
 

@@ -1,0 +1,12 @@
+state={
+	id=418
+	name="STATE_418"
+	provinces={
+		955 2492 3444 6640 8516 
+	}
+	history={
+		owner=LPT
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

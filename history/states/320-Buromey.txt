@@ -6,7 +6,7 @@ state={
 		1666 4977 5792 6618 9117
 	}
 	history={
-		owner = GRM
+		owner = KTT
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

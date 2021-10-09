@@ -406,8 +406,10 @@ ideas = {
 			level = 2
 
 			available = {
-				custom_trigger_tooltip = law_country_religion_secular_trigger_tt
-				always = no
+				custom_trigger_tooltip = {
+					tooltip = law_country_religion_secular_trigger_tt
+					always = no
+				}
 			}
 			cancel_if_invalid = no
 			on_add = {

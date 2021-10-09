@@ -253,8 +253,6 @@ country_event = {
 		trigger = {
 			OR = {
 				has_government = traditionalism
-				has_government = radical_democracy
-				has_government = imperialism
 				has_government = reformism
 				has_government = imperialism
 				has_government = fundamentalism
@@ -294,12 +292,7 @@ country_event = {
 		name = LIB_it_was_unavoidable.4.c
 		ai_chance = { factor = 100 }
 		trigger = {
-			OR = {
-				has_government = social_egalitarianism
-				has_government = anarchism
-				has_government = vanguard_communism
-				has_government = collectivist_socialism
-			}
+			has_government = reformism
 		}
 		swap_ideas = { remove_idea = slavery_all_but_name add_idea = segregation }
 	}

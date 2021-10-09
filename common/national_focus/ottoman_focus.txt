@@ -600,7 +600,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_popularity = {
-				ideology = centrism
+				ideology = reformism
 				popularity = 0.05
 			}
 			add_stability = 0.05
@@ -670,7 +670,7 @@ focus_tree = {
 				remove_idea = privileged_education
 			}
 			add_popularity = {
-				ideology = centrism
+				ideology = reformism
 				popularity = 0.05
 			}
 		}
@@ -818,7 +818,7 @@ focus_tree = {
 		completion_reward = {
 			add_stability = 0.1
 			add_popularity = {
-				ideology = centrism
+				ideology = reformism
 				popularity = 0.05
 			}
 		}
@@ -938,8 +938,8 @@ focus_tree = {
 		}
 		available={
 			OR={
-				centrism > 0.25
-				traditional_conservatism > 0.25
+				reformism > 0.25
+				traditionalism > 0.25
 			}
 		}
 		completion_reward = {

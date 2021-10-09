@@ -4,6 +4,9 @@ state={
 	provinces={
 		2639 4980 5913 
 	}
+	history={
+		owner=GUE
+	}
 	manpower=0
 	buildings_max_level_factor=1.000
 }

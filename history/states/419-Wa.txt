@@ -1,0 +1,12 @@
+state={
+	id=419
+	name="STATE_419"
+	provinces={
+		2220 2564 3183 6519 8893 8942 8951 8989 9026 
+	}
+	history={
+		owner=WAA
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

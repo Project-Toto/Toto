@@ -5,6 +5,9 @@ state={
 	provinces={
 		3165 4901 5189 6794 6982 
 	}
+	history={
+		owner=PMA
+	}
 	manpower=0
 	buildings_max_level_factor=1.000
 }

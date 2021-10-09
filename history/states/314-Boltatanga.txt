@@ -4,12 +4,11 @@ state={
 	name="STATE_314"
 
 	history={
-		owner = MOS
-
+		owner=GRN
 	}
 
 	provinces={
-		4998 5062 5349 6083 8973 
+		2482 3415 4998 5062 5232 5349 6083 6809 8917 8930 8960 8973 8995 9031 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

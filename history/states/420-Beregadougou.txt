@@ -1,0 +1,12 @@
+state={
+	id=420
+	name="STATE_420"
+	provinces={
+		1195 1707 3726 5221 8944 8969 
+	}
+	history={
+		owner=GWR
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

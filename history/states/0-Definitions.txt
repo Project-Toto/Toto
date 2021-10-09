@@ -1,0 +1,24 @@
+state = {
+	id = 0
+	name = "STATE_0"
+
+	provinces = {
+		555
+	}
+
+	resources = {
+		resource_iron = 1
+	}
+
+	history = {
+		owner = TES
+		add_core_of = TES
+		add_claim_by = EUR
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower = 1
+	buildings_max_level_factor=1.000
+	state_category = town
+}

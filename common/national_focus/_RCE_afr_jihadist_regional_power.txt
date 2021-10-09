@@ -673,13 +673,13 @@ focus = {
 			hidden_effect = { add_ideas = lp_african_communalism }
 			custom_effect_tooltip = afr_jihadist_regional_power_retain_african_communalism_tooltip
 			add_stability = 0.03
-			hidden_effect = {
-				add_popularity = {
-					ideology = anarchism
-					popularity = 0.03
-				}
-			}
-			custom_effect_tooltip = afr_anarchism_popularity_plus_3
+			# hidden_effect = {
+			# 	add_popularity = {
+			# 		ideology = anarchism
+			# 		popularity = 0.03
+			# 	}
+			# }
+			# custom_effect_tooltip = afr_anarchism_popularity_plus_3
 		}
 		relative_position_id = afr_jihadist_regional_power_adressing_empire_sprawl
 		x = 2
@@ -957,13 +957,13 @@ focus = {
 			}
 			hidden_effect = { add_ideas = limited_elections }
 			custom_effect_tooltip = afr_jihadist_regional_power_limited_regional_representation_tooltip
-			hidden_effect = {
-				add_popularity = {
-					ideology = anarchism
-					popularity = 0.03
-				}
-			}
-			custom_effect_tooltip = afr_anarchism_popularity_plus_3
+			# hidden_effect = {
+			# 	add_popularity = {
+			# 		ideology = anarchism
+			# 		popularity = 0.03
+			# 	}
+			# }
+			# custom_effect_tooltip = afr_anarchism_popularity_plus_3
 		}
 		relative_position_id = afr_jihadist_regional_power_adressing_empire_sprawl
 		x = 1
@@ -1280,13 +1280,13 @@ focus = {
 				add_ideas = afr_decentralized_command_structure
 				set_country_flag = afr_chose_decentralized_command_structure_flag
 			}
-			hidden_effect = {
-				add_popularity = {
-					ideology = anarchism
-					popularity = 0.01
-				}
-			}
-			custom_effect_tooltip = afr_anarchism_popularity_plus_1
+			# hidden_effect = {
+			# 	add_popularity = {
+			# 		ideology = anarchism
+			# 		popularity = 0.01
+			# 	}
+			# }
+			# custom_effect_tooltip = afr_anarchism_popularity_plus_1
 		}
 	}
 
