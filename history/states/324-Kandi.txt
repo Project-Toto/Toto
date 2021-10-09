@@ -6,7 +6,7 @@ state={
 		454 1416 1779 2672 5490 8789 8833 8866 8882 8883 8908
 	}
 	history={
-		owner = BRG
+		owner = KDI
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

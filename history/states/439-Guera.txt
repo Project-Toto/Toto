@@ -1,12 +1,17 @@
+
 state={
 	id=439
 	name="STATE_439"
-	provinces={
-		100 323 1870 3457 4156 4882 5487 5550 7130 7193 8620 8641 8797 
-	}
+
 	history={
-		owner=WDD
+		owner = WDD
+
 	}
-	manpower=0
+
+	provinces={
+		100 323 1870 3457 4882 5487 5550 7130 7193 8620 8641
+	}
+	manpower=1
 	buildings_max_level_factor=1.000
+	state_category=town
 }

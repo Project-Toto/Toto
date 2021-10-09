@@ -1,0 +1,13 @@
+state={
+	id=460
+	name="STATE_460"
+	provinces={
+		212 437 2622 4274 4330 4469 5814 6091 6816 6864 8226 8240 8257 8259 8277
+	}
+	history={
+		owner=EGY
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+}

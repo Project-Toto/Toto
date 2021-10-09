@@ -2,12 +2,16 @@
 state={
 	id=443
 	name="STATE_443"
-	provinces={
-		515 717 1354 1857 2057 2573 2884 4644 4966 5275 6676 7158 8467 8474 8501 8548 8559 8607 
-	}
+
 	history={
-		owner=DFR
+		owner = DFR
+
 	}
-	manpower=0
+
+	provinces={
+		126 515 717 1354 1857 2057 2573 2884 4644 5275 6676 8467 8474 8501 8559
+	}
+	manpower=1
 	buildings_max_level_factor=1.000
+	state_category=town
 }

@@ -2,11 +2,12 @@ state={
 	id=434
 	name="STATE_434"
 	provinces={
-		1083 3432 3923 5028 5731 8616 8623 8722 8758 8795 
+		1083 3432 3923 5028 5731 8616 8623 8722 8758 8795
 	}
 	history={
 		owner=BAG
 	}
-	manpower=0
+	manpower=1
 	buildings_max_level_factor=1.000
+	state_category=town
 }

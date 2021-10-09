@@ -1,0 +1,13 @@
+state={
+	id=468
+	name="STATE_468"
+	provinces={
+		3399 3919 4416 5170 6923 7116 7245 7253 9167 9181
+	}
+	history={
+		owner = ALZ
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+}

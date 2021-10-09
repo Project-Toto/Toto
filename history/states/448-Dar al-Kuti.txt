@@ -1,0 +1,13 @@
+state={
+	id=448
+	name="STATE_448"
+	provinces={
+		1003 1395 4319 4604 6014 8937 8950 8979
+	}
+	history={
+		owner=DFK
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+}

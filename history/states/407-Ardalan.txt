@@ -2,11 +2,12 @@ state={
 	id=407
 	name="STATE_407"
 	provinces={
-		3609 4445 5529 7319 7320 
+		3609 4445 5529 7319 7320
 	}
 	history={
 		owner=ARD
 	}
-	manpower=0
+	manpower=1
 	buildings_max_level_factor=1.000
+	state_category=town
 }

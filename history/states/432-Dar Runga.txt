@@ -2,12 +2,16 @@
 state={
 	id=432
 	name="STATE_432"
-	provinces={
-		1003 1325 1395 3086 4308 4319 4363 4604 5323 6014 8868 8899 8937 8950 8979 
-	}
+
 	history={
-		owner=DRG
+		owner = DRG
+
 	}
-	manpower=0
+
+	provinces={
+		1325 3086 4156 4244 4308 4363 5323 8785 8797 8868 8899
+	}
+	manpower=1
 	buildings_max_level_factor=1.000
+	state_category=town
 }

@@ -1,0 +1,14 @@
+
+state={
+	id=447
+	name="STATE_447"
+	provinces={
+		1139 5677 6359 7142
+	}
+	history={
+		owner=DFS
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,0 +1,13 @@
+state={
+	id=465
+	name="STATE_465"
+	provinces={
+		1135 2289 3077 3427 5114 5150 9150 9172 9180
+	}
+	history={
+		owner = ALZ
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+}

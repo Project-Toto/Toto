@@ -1,0 +1,13 @@
+state={
+	id=451
+	name="STATE_451"
+	provinces={
+		1115 1278 1317 1564 1749 2452 2773 2798 3226 3232 3928 4054 4097 4954 5005 5109 6202 7198 8400 8434 8440 8458 8466 8506 8513 8514 8533
+	}
+	history={
+		owner=EGY
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+}

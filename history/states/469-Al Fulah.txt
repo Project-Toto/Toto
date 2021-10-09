@@ -1,0 +1,17 @@
+
+state={
+	id=469
+	name="STATE_469"
+
+	history={
+		owner = EGY
+
+	}
+
+	provinces={
+		16 917 1439 1532 1877 2222 2379 2661 3245 3467 3479 3627 4367 4651 5411 6090 6680 6804 7034 8549 8566 8571 8585 8636 8681 8723 8775 8798 8825 8867
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+}

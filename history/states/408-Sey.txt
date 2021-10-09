@@ -3,11 +3,12 @@ state={
 	id=408
 	name="STATE_408"
 	provinces={
-		877 4324 4412 6894 8630 8668 
+		877 4324 4412 6894 8630 8668
 	}
 	history={
 		owner=KBI
 	}
-	manpower=0
+	manpower=1
 	buildings_max_level_factor=1.000
+	state_category=town
 }

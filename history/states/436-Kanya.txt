@@ -3,11 +3,12 @@ state={
 	id=436
 	name="STATE_436"
 	provinces={
-		718 921 2878 3379 3454 3514 3700 4807 4872 7227 8719 8771 8796 8812 8821 8834 8850 8873 
+		718 921 2878 3379 3454 3514 3700 4807 4872 7227 8719 8771 8796 8812 8821 8834 8850 8873
 	}
 	history={
 		owner=BAG
 	}
-	manpower=0
+	manpower=1
 	buildings_max_level_factor=1.000
+	state_category=town
 }

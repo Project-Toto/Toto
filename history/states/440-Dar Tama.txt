@@ -2,12 +2,16 @@
 state={
 	id=440
 	name="STATE_440"
-	provinces={
-		689 2174 2636 3094 4837 5289 6329 8414 8441 8452 
-	}
+
 	history={
-		owner=DFR
+		owner = DFR
+
 	}
-	manpower=0
+
+	provinces={
+		689 2636 3094 4837 5289 6329 8414 8441 8452
+	}
+	manpower=1
 	buildings_max_level_factor=1.000
+	state_category=town
 }

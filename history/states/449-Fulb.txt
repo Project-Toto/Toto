@@ -1,0 +1,13 @@
+state={
+	id=449
+	name="STATE_449"
+	provinces={
+		1670 1915 3350 4294 4430 4912 5678 5709 7221 9122 9189
+	}
+	history={
+		owner=ADM
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+}

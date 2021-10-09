@@ -3,11 +3,12 @@ state={
 	id=411
 	name="STATE_411"
 	provinces={
-		2839 3468 6695 6701 8605 8634 8643 8662 
+		2839 3468 6695 6701 8605 8634 8643 8662
 	}
 	history={
 		owner=BIL
 	}
-	manpower=0
+	manpower=1
 	buildings_max_level_factor=1.000
+	state_category=town
 }

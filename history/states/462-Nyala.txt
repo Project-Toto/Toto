@@ -1,0 +1,13 @@
+state={
+	id=462
+	name="STATE_462"
+	provinces={
+		1348 2357 3265 3613 3809 4375 4966 5141 5413 5465 6134 7158 8548 8563 8595 8607 8610 8613 8659 8698
+	}
+	history={
+		owner=DFR
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+}

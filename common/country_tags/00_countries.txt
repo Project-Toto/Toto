@@ -101,7 +101,8 @@
  BAB = "countries/Beni Abbas.txt"
  TUA = "countries/Tuat.txt"
  TGR = "countries/Touggourt.txt"
-
+	ALZ = "countries/Al-Zubayr.txt"
+	EQA = "countries/Equatoria.txt"
 # Senegambia
 	# graphical_culture = african_gfx
 	# graphical_culture_2d = african_2d
@@ -131,6 +132,7 @@
  MND = "countries/Mande.txt"
  SOS = "countries/Soso.txt"
  WAS = "countries/Wassoulou.txt"
+ BTE = "countries/Bate.txt"
 # West Africa
 
 # Mali
@@ -161,6 +163,7 @@
  KDI = "countries/Kandi.txt"
  PKU = "countries/Parakou.txt"
  NIK = "countries/Nikki.txt"
+ DAH = "countries/Dahomey.txt"
 # Niger
  ADA = "countries/Adar.txt"
  GBR = "countries/Gobir.txt"
@@ -194,13 +197,15 @@
  KRI = "countries/Kerri Kerri.txt"
  MGH = "countries/Marghi.txt"
  MDR = "countries/Mandara.txt"
- DAH = "countries/Dahomey.txt"
+ WDD = "countries/Waddai.txt"
  TUG = "countries/Tuareg.txt"
  KBO = "countries/Kanem-Bornu.txt"
  DMG = "countries/Damagara.txt"
  DFR = "countries/Darfur.txt"
- SAR = "countries/Sara.txt"
+ SRA = "countries/Sara-Kaba.txt"
  DRG = "countries/Dar Runga.txt"
+ DFK = "countries/Dar al Kuti.txt"
+ DFS = "countries/Dar Sila.txt"
  # Cameroon
  KTK = "countries/Kotoko.txt"
  LGN = "countries/Logone.txt"
@@ -277,7 +282,6 @@
 	ASH = "countries/Ashanti.txt"
 	BUS = "countries/Busoga.txt"
 	BAG = "countries/Bagirmi.txt"
-	SRA = "countries/Sara-Kaba.txt"
 	TOB = "countries/Toubou.txt"
 	ADM = "countries/Adamawa.txt"
 	MRN = "countries/Merina.txt"
@@ -293,9 +297,6 @@
 	SHK = "countries/Shiluk.txt"
 	GBS = "countries/Grand Bassam.txt"
 	BDA = "countries/Banda.txt"
-	WDD = "countries/Waddai.txt"
-	ALZ = "countries/Al-Zubayr.txt"
-	EQA = "countries/Equatoria.txt"
 	BMM = "countries/Bamum.txt"
 	BET = "countries/Beti.txt"
 	BLU = "countries/Bulu.txt"
