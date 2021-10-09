@@ -5,7 +5,7 @@ state={
 		4325 5929 6319
 	}
 	history={
-		owner=KBO
+		owner=KTK
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

@@ -1,0 +1,12 @@
+state={
+	id=435
+	name="STATE_435"
+	provinces={
+		712 1573 1586 1860 2206 2552 2645 2856 3164 4830 5105 5107 5945 6022 6874 8465 8494 8525 
+	}
+	history={
+		owner=WDD
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -5,7 +5,7 @@ state={
 		502 961 1902 1977 9215
 	}
 	history={
-		owner = TES
+		owner = KTU
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

@@ -1,0 +1,12 @@
+state={
+	id=446
+	name="STATE_446"
+	provinces={
+		1461 2701 3159 4102 4621 6181 6602 8692 8726 8805 8809 
+	}
+	history={
+		owner=KBO
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

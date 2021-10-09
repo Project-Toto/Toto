@@ -83,8 +83,8 @@
  MAH = "countries/Mahra.txt"
  KAT = "countries/Kathira.txt"
  QTI = "countries/Qu'aiti.txt"
- SNA = "countires/Sana'a.txt"
-# North Africa
+ SNA = "countries/Sana'a.txt"
+# Maghreb
 	# graphical_culture = middle_eastern_gfx
 	# graphical_culture_2d = middle_eastern_2d
  EGY = "countries/Egypt.txt"
@@ -102,23 +102,28 @@
  TUA = "countries/Tuat.txt"
  TGR = "countries/Touggourt.txt"
 
-# Senegal
+# Senegambia
 	# graphical_culture = african_gfx
 	# graphical_culture_2d = african_2d
  SHW = "countries/Saharwi.txt"
+ TKA = "countries/Tekna.txt"
  TJK = "countries/Tajakant.txt"
  RGT = "countries/Reguibat.txt"
- TKA = "countries/Tekna.txt"
  KNT = "countries/Kunta.txt"
  ARR = "countries/Adrar.txt"
  BRN = "countries/Brakna.txt"
  TRZ = "countries/Trarza.txt"
-
+ KAA = "countries/Kaarta.txt"
  BAO = "countries/Baol.txt"
  SNG = "countries/Senegal.txt"
  KHS = "countries/Khasso.txt"
  CAY = "countries/Cayor.txt"
-
+ KAB = "countries/Kaabu.txt"
+ BTN = "countries/Balante.txt"
+ FTJ = "countries/Futa Jallon.txt"
+ FTT = "countries/Futa Toro.txt"
+ SIN = "countries/Sine.txt"
+ SAL = "countries/Saloum.txt"
 # Guinea
  LIB = "countries/Liberia.txt"
  KOY = "countries/Koya Temne.txt"
@@ -146,20 +151,59 @@
  BUE = "countries/Bue.txt"
  WAA = "countries/Wa.txt"
 
+# Ghana
+ GDC = "countries/Gold Coast.txt"
+ DGB = "countries/Dagbon.txt"
+ GNJ = "countries/Gonja.txt"
+ GRM = "countries/Gurma.txt"
+ KTT = "countries/Ketti.txt"
+# Benin
+ KDI = "countries/Kandi.txt"
+ PKU = "countries/Parakou.txt"
+ NIK = "countries/Nikki.txt"
 # Niger
+ ADA = "countries/Adar.txt"
+ GBR = "countries/Gobir.txt"
  GUE = "countries/Goure.txt"
  MAR = "countries/Maradi.txt"
- GBR = "countries/Gobir.txt"
  KJJ = "countries/Kel Ajjer.txt"
  TEA = "countries/Tera.txt"
+ MYO = "countries/Muniyo.txt"
 # Nigeria
- GDC = "countries/Gold Coast.txt"
-	DGB = "countries/Dagbon.txt"
-	GNJ = "countries/Gonja.txt"
-	GRM = "countries/Gurma.txt"
-	KTT = "countries/Ketti.txt"
+ KBI = "countries/Kebbi.txt"
+ ZMF = "countries/Zamfara.txt"
+ GWI = "countries/Gwari.txt"
+ BID = "countries/Bida.txt"
+ KNO = "countries/Kano.txt"
+ ZRI = "countries/Zaria.txt"
+ BCH = "countries/Bauchi.txt"
+ NIN = "countries/Ningi.txt"
+ JOS = "countries/Jos.txt"
+ KTS = "countries/Katsina.txt"
+ KTU = "countries/Ketu.txt"
+ IBA = "countries/Ibadan.txt"
+ EGB = "countries/Egba.txt"
+ IJE = "countries/Ijesa.txt"
+ IJB = "countries/Ijebu.txt"
+ EKT = "countries/Ekiti.txt"
+ ZUU = "countries/Zuru.txt"
+ NRI = "countries/Nri.txt"
+# Chad
+ KNM = "countries/Kanem.txt"
+ BDE = "countries/Bedde.txt"
+ KRI = "countries/Kerri Kerri.txt"
+ MGH = "countries/Marghi.txt"
+ MDR = "countries/Mandara.txt"
+ DAH = "countries/Dahomey.txt"
+ TUG = "countries/Tuareg.txt"
+ KBO = "countries/Kanem-Bornu.txt"
+ DMG = "countries/Damagara.txt"
+ DFR = "countries/Darfur.txt"
+ SAR = "countries/Sara.txt"
+ DRG = "countries/Dar Runga.txt"
  # Cameroon
-
+ KTK = "countries/Kotoko.txt"
+ LGN = "countries/Logone.txt"
  # Congo
 
  # Angola
@@ -191,24 +235,13 @@
 	KOG = "countries/Kong.txt"
 	#ghana-burkino faso-togo-benin
 	#nigeria-niger
-	DAH = "countries/Dahomey.txt"
-	TUG = "countries/Tuareg.txt"
-	KBO = "countries/Kanem-Bornu.txt"
 	BEN = "countries/Benin.txt"
-	DMG = "countries/Damagara.txt"
 	
 	MNH = "countries/Manneh.txt"
-	KAB = "countries/Kaabu.txt"
-	BTN = "countries/Balante.txt"
 	TOU = "countries/Toucouleur.txt"
-	KAA = "countries/Kaarta.txt"
 	GAO = "countries/Gao.txt"
 	BAM = "countries/Bamana.txt"
-	FTJ = "countries/Futa Jallon.txt"
 	MSN = "countries/Massina.txt"
-	FTT = "countries/Futa Toro.txt"
-	SIN = "countries/Sine.txt"
-	SAL = "countries/Saloum.txt"
 	OYO = "countries/Oyo.txt"
 	DDI = "countries/Dendi.txt"
 	BRG = "countries/Borgu.txt"
@@ -257,7 +290,6 @@
 	MAJ = "countries/Majerteen.txt"
 	ZAN = "countries/Zanzibar.txt"
 	MOM = "countries/Mombasa.txt"
-	DFR = "countries/Darfur.txt"
 	SHK = "countries/Shiluk.txt"
 	GBS = "countries/Grand Bassam.txt"
 	BDA = "countries/Banda.txt"
@@ -270,15 +302,12 @@
 	FNG = "countries/Fang.txt"
 	GBG = "countries/Gbagyi.txt"
 	HLO = "countries/Holo.txt"
-	IJB = "countries/Ijebu.txt"
 	KON = "countries/Kongo.txt"
 	KTA = "countries/Kota.txt"
-	KTK = "countries/Kotoko.txt"
 	KUB = "countries/Kuba.txt"
 	LOA = "countries/Loango.txt"
 	LUB = "countries/Luba.txt"
 	LUN = "countries/Lunda.txt"
-	MDR = "countries/Mandara.txt"
 	MSG = "countries/Mitsogo.txt"
 	NGY = "countries/Ngoyo.txt"
 	PUN = "countries/Punu.txt"

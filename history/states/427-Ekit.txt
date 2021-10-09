@@ -1,0 +1,13 @@
+
+state={
+	id=427
+	name="STATE_427"
+	provinces={
+		2566 4280 5043 9196 9216 9230 9246 9247 
+	}
+	history={
+		owner = EKT
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

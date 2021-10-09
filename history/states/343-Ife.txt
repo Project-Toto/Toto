@@ -1,11 +1,15 @@
+
 state={
 	id=343
 	name="STATE_343"
-	provinces={
-		4772 9164 9196 9229 9230 9241 9246
-	}
+
 	history={
-		owner = OYO
+		owner = IJE
+
+	}
+
+	provinces={
+		4772 9164 9229 9241 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

@@ -1,0 +1,12 @@
+state={
+	id=433
+	name="STATE_433"
+	provinces={
+		1096 1435 1608 2487 2843 3285 6727 8374 8412 8417 8433 
+	}
+	history={
+		owner=WDD
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

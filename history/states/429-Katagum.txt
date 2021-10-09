@@ -1,0 +1,12 @@
+state={
+	id=429
+	name="STATE_429"
+	provinces={
+		498 1296 1874 4015 4633 7122 7215 8709 8757 8823 
+	}
+	history={
+		owner = KNO
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

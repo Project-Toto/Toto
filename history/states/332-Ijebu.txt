@@ -6,7 +6,7 @@ state={
 		2628 4217 5033 9269 9281 9292
 	}
 	history={
-		owner = OYO
+		owner = IGB
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

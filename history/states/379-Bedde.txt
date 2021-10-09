@@ -1,11 +1,15 @@
+
 state={
 	id=379
 	name="STATE_379"
-	provinces={
-		2701 2756 3006 3834 4102 4621 5390 5727 8644 8651 8671 8683 8692 8714 8726 8745 8816
-	}
+
 	history={
-		owner=KBO
+		owner = BDE
+
+	}
+
+	provinces={
+		2756 3006 3834 5390 5727 8644 8651 8671 8683 8714 8745 8816 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

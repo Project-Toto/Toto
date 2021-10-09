@@ -5,7 +5,7 @@ state={
 		5915 6205 6285 9266
 	}
 	history={
-		owner = DAH
+		owner = EGB
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

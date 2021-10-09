@@ -1,0 +1,12 @@
+state={
+	id=431
+	name="STATE_431"
+	provinces={
+		5093 6277 8936 8959 
+	}
+	history={
+		owner = NIN
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

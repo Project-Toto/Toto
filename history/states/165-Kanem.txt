@@ -4,12 +4,12 @@ state={
 	name="STATE_165"
 
 	history={
-		owner = KBO
+		owner = KNM
 
 	}
 
 	provinces={
-		119 180 456 979 1083 1763 1765 1783 1887 2535 2742 3394 3746 5155 5563 6060 6752 8426 8446 8544 8552 8623
+		180 979 1763 1765 2742 3394 3746 5155 5563 6060 8446 8544 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

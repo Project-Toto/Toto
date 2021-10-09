@@ -1,0 +1,12 @@
+state={
+	id=426
+	name="STATE_426"
+	provinces={
+		761 2605 3141 9154 9156 9163 9188 
+	}
+	history={
+		owner = IBA
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

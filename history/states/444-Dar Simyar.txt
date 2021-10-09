@@ -1,0 +1,12 @@
+state={
+	id=444
+	name="STATE_444"
+	provinces={
+		267 787 1348 1383 1581 2357 3190 3265 3613 5465 5623 5911 6134 6766 8563 8595 8610 8613 8659 
+	}
+	history={
+		owner=DFR
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

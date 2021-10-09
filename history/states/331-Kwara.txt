@@ -1,11 +1,15 @@
+
 state={
 	id=331
 	name="STATE_331"
-	provinces={
-		3141 3185 4479 5166 5664 6379 6623 9154
-	}
+
 	history={
-		owner = BRG
+		owner = OYO
+
+	}
+
+	provinces={
+		3185 4479 5166 5664 6379 6623 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

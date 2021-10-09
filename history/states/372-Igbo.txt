@@ -5,7 +5,7 @@ state={
 		2331 3915 6059 9380
 	}
 	history={
-		owner=IGA
+		owner=ARO
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

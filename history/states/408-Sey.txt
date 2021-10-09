@@ -6,7 +6,7 @@ state={
 		877 4324 4412 6894 8630 8668 
 	}
 	history={
-		owner=DSS
+		owner=KBI
 	}
 	manpower=0
 	buildings_max_level_factor=1.000

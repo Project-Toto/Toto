@@ -1,0 +1,12 @@
+state={
+	id=430
+	name="STATE_430"
+	provinces={
+		586 1889 4719 6200 8967 8998 9010 
+	}
+	history={
+		owner = SKT
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

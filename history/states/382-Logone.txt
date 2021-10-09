@@ -5,7 +5,7 @@ state={
 		556 2122 2349 2565 3288 4557 5024 5932 6031 6538 8872 8897 8912 8934
 	}
 	history={
-		owner=KBO
+		owner=LGN
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

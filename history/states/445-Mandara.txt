@@ -1,0 +1,12 @@
+state={
+	id=445
+	name="STATE_445"
+	provinces={
+		258 1928 2015 2435 4774 6627 7223 8727 8765 
+	}
+	history={
+		owner=MDR
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

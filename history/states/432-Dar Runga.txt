@@ -1,0 +1,13 @@
+
+state={
+	id=432
+	name="STATE_432"
+	provinces={
+		1003 1325 1395 3086 4308 4319 4363 4604 5323 6014 8868 8899 8937 8950 8979 
+	}
+	history={
+		owner=DRG
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
