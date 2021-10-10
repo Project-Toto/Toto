@@ -28,7 +28,7 @@ state_categories = {
 		# Druze
 		color = { 255 130 8 }
 	}
-	state_category_religion_waaqism = {
+	state_category_religion_waaqist = {
 		# Waaqism
 		color = { 169 203 8 }
 	}

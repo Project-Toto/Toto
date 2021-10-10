@@ -1,4 +1,8 @@
 state_categories = {
+	state_category_colonial_subregion_balkans = {
+		# Balkans
+		color = { 100 100 100 }
+	}
 	state_category_colonial_subregion_greece = {
 		# Greece
 		color = { 100 100 100 }
@@ -7,8 +11,8 @@ state_categories = {
 		# Anatolia
 		color = { 100 100 100 }
 	}
-	state_category_colonial_subregion_luristan = {
-		# Luristan
+	state_category_colonial_subregion_khorasan = {
+		# Khorasan
 		color = { 100 100 100 }
 	}
 	state_category_colonial_subregion_balouchistan = {
@@ -87,7 +91,7 @@ state_categories = {
 		# saharwi
 		color = { 100 100 100 }
 	}
-	state_category_colonial_subregion_mauritania = {
+	state_category_colonial_subregion_djouf = {
 		# Mauritania
 		color = { 100 100 100 }
 	}
@@ -100,6 +104,34 @@ state_categories = {
 		color = { 100 100 100 }
 	}
 	state_category_colonial_subregion_gambia = {
+		# Gambia
+		color = { 100 100 100 }
+	}
+	state_category_colonial_subregion_north_guinea = {
+		# North Guinea
+		color = { 100 100 100 }
+	}
+	state_category_colonial_subregion_south_guinea = {
+		# Gambia
+		color = { 100 100 100 }
+	}
+	state_category_colonial_subregion_man = {
+		# Gambia
+		color = { 100 100 100 }
+	}
+	state_category_colonial_subregion_kong = {
+		# Gambia
+		color = { 100 100 100 }
+	}
+	state_category_colonial_subregion_volta = {
+		# Gambia
+		color = { 100 100 100 }
+	}
+	state_category_colonial_subregion_togo = {
+		# Gambia
+		color = { 100 100 100 }
+	}
+	state_category_colonial_subregion_dahomey = {
 		# Gambia
 		color = { 100 100 100 }
 	}
