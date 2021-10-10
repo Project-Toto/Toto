@@ -1,0 +1,18 @@
+defined_text = {
+	name = GetNationalPowerTextIcon
+	text = {
+		trigger = { has_idea = law_country_power_great }
+		localization_key = law_country_power_great_texticon
+	}
+	text = {
+		trigger = { has_idea = law_country_power_secondary }
+		localization_key = law_country_power_secondary_texticon
+	}
+	text = {
+		trigger = { has_idea = law_country_power_minor }
+		localization_key = law_country_power_minor_texticon
+	}
+	text = {
+		localization_key = law_country_power_irrelevant_texticon
+	}
+}

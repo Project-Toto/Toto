@@ -1,5 +1,25 @@
 spriteTypes = {
 	spriteType = {
+		name = "GFX_great_power_texticon"
+		texturefile = "gfx/texticons/great_power_20x20.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_secondary_power_texticon"
+		texturefile = "gfx/texticons/secondary_power_20x20.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_minor_power_texticon"
+		texturefile = "gfx/texticons/minor_power_20x20.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_irrelevant_power_texticon"
+		texturefile = "gfx/texticons/irrelevant_power_20x20.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
 		name = "GFX_prosperity_texticon"
 		texturefile = "gfx/texticons/prosperity_20x20.dds"
 		legacy_lazy_load = no
