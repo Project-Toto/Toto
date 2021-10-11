@@ -13,6 +13,7 @@ ideas = {
 			level = 3
 			cancel_if_invalid = no
 			modifier = {
+				custom_modifier_tooltip = law_country_power_great_prestige_modifier # 25
 				political_power_gain = 0.15
 				weekly_manpower = 30
 			}
@@ -29,6 +30,7 @@ ideas = {
 			}
 			cancel_if_invalid = no
 			modifier = {
+				custom_modifier_tooltip = law_country_power_secondary_prestige_modifier # 15
 				political_power_gain = 0.15
 				weekly_manpower = 25
 			}
@@ -48,6 +50,7 @@ ideas = {
 			}
 			cancel_if_invalid = no
 			modifier = {
+				custom_modifier_tooltip = law_country_power_minor_prestige_modifier # 10
 				political_power_gain = 0.10
 				weekly_manpower = 20
 			}
@@ -68,6 +71,7 @@ ideas = {
 			}
 			cancel_if_invalid = no
 			modifier = {
+				custom_modifier_tooltip = law_country_power_irrelevant_prestige_modifier # 5
 				political_power_gain = 0.05
 				weekly_manpower = 15
 			}
@@ -618,23 +622,78 @@ ideas = {
 		law_country_military_nomadic_warriors = {
 			allowed = { always = yes }
 			level = 0
+			modifier = {
+				custom_modifier_tooltip = law_country_military_nomadic_warriors_prestige_modifier # 0.65
+				command_power_gain = 0.10
+				experience_loss_factor = 1.0
+				land_reinforce_rate = 0.85
+				max_command_power = -20
+				army_leader_start_defense_level = 2
+				army_core_defence_factor = 0.15
+				dig_in_speed_factor = -0.75
+			}
 		}
 		law_country_military_agrarian_levies = {
 			allowed = { always = yes }
 			level = 1
 			default = yes
+			modifier = {
+				custom_modifier_tooltip = law_country_military_agrarian_levies_prestige_modifier # 0.80
+				command_power_gain = 0.125
+				experience_loss_factor = 0.8
+				land_reinforce_rate = 0.85
+				max_command_power = -15
+				army_leader_start_defense_level = 1
+				army_core_defence_factor = 0.075
+				dig_in_speed_factor = -0.65
+			}
 		}
 		law_country_military_traditional = {
 			allowed = { always = yes }
 			level = 2
+			modifier = {
+				custom_modifier_tooltip = law_country_military_traditional_prestige_modifier # 0.925
+				command_power_gain = 0.15
+				experience_loss_factor = 0.7
+				land_reinforce_rate = 0.90
+				max_command_power = -10
+				dig_in_speed_factor = -0.55
+				convoy_escort_efficiency = 0.05
+				invasion_preparation = 0.05
+			}
 		}
 		law_country_military_line = {
 			allowed = { always = yes }
 			level = 3
+			modifier = {
+				command_power_gain = 0.175
+				experience_loss_factor = 0.6
+				land_reinforce_rate = 0.95
+				max_command_power = -5
+				army_leader_start_offense_level = 1
+				army_core_offense_factor = 0.05
+				dig_in_speed_factor = -0.35
+				special_forces_min = -5
+				convoy_escort_efficiency = 0.1
+				invasion_preparation = 0.2
+			}
 		}
 		law_country_military_modern = {
 			allowed = { always = yes }
 			level = 4
+			modifier = {
+				custom_modifier_tooltip = law_country_military_modern_prestige_modifier # 1.15
+				command_power_gain = 0.225
+				experience_loss_factor = 0.55
+				land_reinforce_rate = 1.00
+				max_command_power = 0
+				army_leader_start_defense_level = 2
+				army_core_offense_factor = 0.10
+				army_fuel_consumption_factor = 0.05
+				special_forces_min = -10
+				convoy_escort_efficiency = 0.2
+				invasion_preparation = 0.4
+			}
 		}
 	}
 }

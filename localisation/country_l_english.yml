@@ -1,4 +1,5 @@
 ﻿l_english:
+ CURRENT_COUNTRY_POWER:0 "[ROOT.GetNationalPowerTextIcon] "
  CURRENT_COUNTRY_POWER:0 "[ROOT.GetNationalPowerTextIcon]  [?ROOT.prestige_total_position]th Place ([?ROOT.prestige_total])"
  COUNTRY_POWER:0 "§C[ROOT.GetNameDef]§! is the [?ROOT.score_array_position_var]th place §Y[ROOT.GetNationalPower]§!"
  POLITICAL_POWER:0 "Political Favors"
