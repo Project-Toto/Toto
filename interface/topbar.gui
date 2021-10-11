@@ -144,7 +144,7 @@ guiTypes = {
 			}
 			instantTextBoxType = {
 				name ="industrial_capacity"
-				position = { x= 690 y = 10 }
+				position = { x= 702 y = 10 }
 				font = "hoi_18mbs"
 				text = "12/12/12"
 				format = right
@@ -168,7 +168,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name ="fuel_value"
-				position = { x= 808 y = 4 }
+				position = { x= 809 y = 4 }
 				font = "hoi_18mbs"
 				text = "999"
 				format = center
@@ -180,7 +180,7 @@ guiTypes = {
 		iconType = {
 			name ="fuel_ratio_bar"
 			spriteType = "GFX_topbar_fuel_bar"
-			position = { x= 812 y = 21 }
+			position = { x= 813 y = 21 }
 			frame = 50
 			alwaystransparent = yes
 		}
@@ -195,7 +195,7 @@ guiTypes = {
 			iconType ={
 				name ="manpower_icon"
 				spriteType = "GFX_manpower_icon"
-				position = { x= 880 y = 4 }
+				position = { x= 882 y = 4 }
 				Orientation = "UPPER_LEFT"
 			}
 
@@ -595,7 +595,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "country_menu_window"
-			position = { x=228 y=38 }
+			position = { x=232 y=38 }
 			size = { width=100%% height=30 }
 
 			buttonType = {

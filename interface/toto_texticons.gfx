@@ -1,27 +1,37 @@
 spriteTypes = {
 	spriteType = {
-		name = "GFX_great_power_texticon"
+		name = "GFX_great_power"
 		texturefile = "gfx/texticons/great_power_20x20.dds"
 		legacy_lazy_load = no
 	}
 	spriteType = {
-		name = "GFX_secondary_power_texticon"
+		name = "GFX_secondary_power"
 		texturefile = "gfx/texticons/secondary_power_20x20.dds"
 		legacy_lazy_load = no
 	}
 	spriteType = {
-		name = "GFX_minor_power_texticon"
+		name = "GFX_minor_power"
 		texturefile = "gfx/texticons/minor_power_20x20.dds"
 		legacy_lazy_load = no
 	}
 	spriteType = {
-		name = "GFX_irrelevant_power_texticon"
+		name = "GFX_irrelevant_power"
 		texturefile = "gfx/texticons/irrelevant_power_20x20.dds"
 		legacy_lazy_load = no
 	}
 	spriteType = {
-		name = "GFX_prosperity_texticon"
+		name = "GFX_prosperity"
 		texturefile = "gfx/texticons/prosperity_20x20.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_administrative_capacity"
+		texturefile = "gfx/texticons/administrative_capacity_20x20.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_political_legitimacy
+		texturefile = "gfx/texticons/legitimacy_20x20.dds"
 		legacy_lazy_load = no
 	}
 }
