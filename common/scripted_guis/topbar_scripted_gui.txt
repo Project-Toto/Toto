@@ -1,0 +1,30 @@
+scripted_gui = {
+	country_power = {
+		context_type = player_context
+		window_name = "country_power_container"
+		parent_window_token = top_bar
+		visible = { always = yes }
+		effects = { }
+	}
+	prosperity_power = {
+		context_type = player_context
+		window_name = "prosperity_container"
+		parent_window_token = top_bar
+		visible = { always = yes }
+		effects = { }
+	}
+	legitimacy_power = {
+		context_type = player_context
+		window_name = "legitimacy_container"
+		parent_window_token = top_bar
+		visible = { always = yes }
+		effects = { }
+	}
+	administrative_capacity_power = {
+		context_type = player_context
+		window_name = "administrative_capacity_container"
+		parent_window_token = top_bar
+		visible = { always = yes }
+		effects = { }
+	}
+}

@@ -35,6 +35,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_administrative_capacity_icon"
+		texturefile = "gfx//interface//administrative_capacity_icon.dds"
+	}
+
+	spriteType = {
 		name = "GFX_command_power"
 		texturefile = "gfx/interface/command_power_icon.dds"
 	}
@@ -392,6 +397,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_generic_box_smallest_topbar"
 		texturefile = "gfx/interface/topbar/generic_box_smallest_topbar.dds"
+	}
+	spriteType = {
+		name = "GFX_generic_box_small_topbar"
+		texturefile = "gfx/interface/topbar/generic_box_small_topbar.dds"
 	}
 	spriteType = {
 		name = "GFX_generic_box_smallest_topbar_mana"
