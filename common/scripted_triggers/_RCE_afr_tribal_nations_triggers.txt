@@ -111,6 +111,15 @@ oceania_is_tribal = {
 
 afr_is_tribal_allowed = {
 	OR = {
+	#Project ToTo
+		TAG = KNO
+		TAG = NIN
+		TAG = BID
+		TAG = GWI
+		TAG = ZUU
+		TAG = ADA
+		TAG = KBI
+	#End of a New Beginning	
 		TAG = KAD
 		TAG = IGA
 		TAG = IJW
@@ -427,7 +436,40 @@ afr_state_has_multiple_cores = {
 			# }
 			########
 			#Africa#
-			########
+			##############
+			#Project ToTo#
+			##############
+			AND = {
+				OWNER = { NOT = { TAG = KNO } }
+				is_core_of = KNO
+			}
+			AND = {
+				OWNER = { NOT = { TAG = NIN } }
+				is_core_of = NIN
+			}
+			AND = {
+				OWNER = { NOT = { TAG = BID } }
+				is_core_of = BID
+			}
+			AND = {
+				OWNER = { NOT = { TAG = GWI } }
+				is_core_of = GWI
+			}
+			AND = {
+				OWNER = { NOT = { TAG = ZUU } }
+				is_core_of = ZUU
+			}
+			AND = {
+				OWNER = { NOT = { TAG = ADA } }
+				is_core_of = ADA
+			}
+			AND = {
+				OWNER = { NOT = { TAG = KBI } }
+				is_core_of = KBI
+			}
+			########################
+			#End of a New Beginning#
+			########################
 			AND = {
 				OWNER = { NOT = { TAG = KAD } }
 				is_core_of = KAD

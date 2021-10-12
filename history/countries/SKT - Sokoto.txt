@@ -101,7 +101,13 @@ SKT = {
 			has_dlc = "Death or Dishonor"
 		} } }
 		SKT = { puppet = ADM }
-		SKT = { puppet = DSS }
+		SKT = { puppet = KNO }
+		SKT = { puppet = NIN }
+		SKT = { puppet = BID }
+		SKT = { puppet = GWI }
+		SKT = { puppet = ZUU }
+		SKT = { puppet = ADA }
+		SKT = { puppet = KBI }
 	}
 	if = {
 		limit = { OR = {
@@ -117,13 +123,55 @@ SKT = {
 				freedom_level = 0.55
 			}
 			#hidden_effect = { ADM = { load_previous_ideologies = yes } }
-			#hidden_effect = { DSS = { store_current_ideologies = yes } }
+			#hidden_effect = { KNO = { store_current_ideologies = yes } }
 			set_autonomy = {
-				target = DSS
+				target = KNO
 				autonomy_state = autonomy_afr_empire_level_2
 				freedom_level = 0.25
 			}
-			#hidden_effect = { DSS = { load_previous_ideologies = yes } }
+			#hidden_effect = { KNO = { load_previous_ideologies = yes } }
+			#hidden_effect = { NIN = { store_current_ideologies = yes } }
+			set_autonomy = {
+				target = NIN
+				autonomy_state = autonomy_afr_empire_level_2
+				freedom_level = 0.25
+			}
+			#hidden_effect = { NIN = { load_previous_ideologies = yes } }
+			#hidden_effect = { BID = { store_current_ideologies = yes } }
+			set_autonomy = {
+				target = BID
+				autonomy_state = autonomy_afr_empire_level_2
+				freedom_level = 0.25
+			}
+			#hidden_effect = { BID = { load_previous_ideologies = yes } }
+			#hidden_effect = { GWI = { store_current_ideologies = yes } }
+			set_autonomy = {
+				target = GWI
+				autonomy_state = autonomy_afr_empire_level_2
+				freedom_level = 0.25
+			}
+			#hidden_effect = { GWI = { load_previous_ideologies = yes } }
+			#hidden_effect = { ZUU = { store_current_ideologies = yes } }
+			set_autonomy = {
+				target = ZUU
+				autonomy_state = autonomy_afr_empire_level_2
+				freedom_level = 0.25
+			}
+			#hidden_effect = { ZUU = { load_previous_ideologies = yes } }
+			#hidden_effect = { ADA = { store_current_ideologies = yes } }
+			set_autonomy = {
+				target = ADA
+				autonomy_state = autonomy_afr_empire_level_2
+				freedom_level = 0.25
+			}
+			#hidden_effect = { ADA = { load_previous_ideologies = yes } }
+			#hidden_effect = { KBI = { store_current_ideologies = yes } }
+			set_autonomy = {
+				target = KBI
+				autonomy_state = autonomy_afr_empire_level_2
+				freedom_level = 0.25
+			}
+			#hidden_effect = { KBI = { load_previous_ideologies = yes } }
 		}
 	}
 
@@ -132,10 +180,40 @@ SKT = {
 		set_variable = { var = ADM.afr_empire_subject_loyalty_varSKT value = 10 }
 		clamp_variable = { var = ADM.afr_empire_subject_loyalty_varSKT min = -1 max = 10 }
 	}
-	DSS = {
+	KNO = {
 		set_variable = { var = afr_empire_subject_overlord value = SKT.id }
-		set_variable = { var = DSS.afr_empire_subject_loyalty_varSKT value = 4 }
-		clamp_variable = { var = DSS.afr_empire_subject_loyalty_varSKT min = -1 max = 10 }
+		set_variable = { var = KNO.afr_empire_subject_loyalty_varSKT value = 4 }
+		clamp_variable = { var = KNO.afr_empire_subject_loyalty_varSKT min = -1 max = 10 }
+	}
+	NIN = {
+		set_variable = { var = afr_empire_subject_overlord value = SKT.id }
+		set_variable = { var = NIN.afr_empire_subject_loyalty_varSKT value = 7 }
+		clamp_variable = { var = NIN.afr_empire_subject_loyalty_varSKT min = -1 max = 10 }
+	}
+	BID = {
+		set_variable = { var = afr_empire_subject_overlord value = SKT.id }
+		set_variable = { var = BID.afr_empire_subject_loyalty_varSKT value = 7 }
+		clamp_variable = { var = BID.afr_empire_subject_loyalty_varSKT min = -1 max = 10 }
+	}
+	GWI = {
+		set_variable = { var = afr_empire_subject_overlord value = SKT.id }
+		set_variable = { var = GWI.afr_empire_subject_loyalty_varSKT value = 7 }
+		clamp_variable = { var = GWI.afr_empire_subject_loyalty_varSKT min = -1 max = 10 }
+	}
+	ZUU = {
+		set_variable = { var = afr_empire_subject_overlord value = SKT.id }
+		set_variable = { var = ZUU.afr_empire_subject_loyalty_varSKT value = 7 }
+		clamp_variable = { var = ZUU.afr_empire_subject_loyalty_varSKT min = -1 max = 10 }
+	}
+	ADA = {
+		set_variable = { var = afr_empire_subject_overlord value = SKT.id }
+		set_variable = { var = ADA.afr_empire_subject_loyalty_varSKT value = 7 }
+		clamp_variable = { var = ADA.afr_empire_subject_loyalty_varSKT min = -1 max = 10 }
+	}
+	KBI = {
+		set_variable = { var = afr_empire_subject_overlord value = SKT.id }
+		set_variable = { var = KBI.afr_empire_subject_loyalty_varSKT value = 7 }
+		clamp_variable = { var = KBI.afr_empire_subject_loyalty_varSKT min = -1 max = 10 }
 	}
 
 set_politics = {
