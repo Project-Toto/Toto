@@ -1,9 +1,9 @@
 ﻿l_english:
- CURRENT_COUNTRY_POWER:0 "[ROOT.GetNationalPowerTextIcon] "
- CURRENT_COUNTRY_POWER:0 "[ROOT.GetNationalPowerTextIcon]  [?ROOT.prestige_total_position]th Place ([?ROOT.prestige_total])"
- COUNTRY_POWER:0 "§C[ROOT.GetNameDef]§! is the [?ROOT.score_array_position_var]th place §Y[ROOT.GetNationalPower]§!"
+ CURRENT_COUNTRY_POWER:0 "[ROOT.GetNationalPowerTextIcon]  [?ROOT.prestige_country_total_rank][ROOT.GetNationalPrestigeAdjective] Power ([?ROOT.prestige_total|0])"
+ COUNTRY_POWER:0 "§C[ROOT.GetNameDef]§! is the §Y[?ROOT.prestige_country_total_rank][ROOT.GetNationalPrestigeAdjective] Power§! with §Y[?ROOT.prestige_total]§! Prestige.\n \nThis score was a summary of [ROOT.GetNationalPrestigeTotalDisplayAchievement][GetNationalPrestigeTotalDisplayScience][ROOT.GetNationalPrestigeTotalDisplayEconomy][ROOT.GetNationalPrestigeTotalDisplayEmpire][GetNationalPrestigeTotalDisplayMilitary]"
+ COUNTRY_POWER_DELAYED:0 "Prestige is the amount of respect and influence a country has gathered on the world stage through five metrics, §YAchievement§!, §YScience§!, §YEconomy§!, §YEmpire§! and §YMilitary§! and is used as a weight of influence for various negotiations like Trade, Imperialism and more. §CSubject Nations§! will contribute §Y50%§! of their §Empire§! and §YMilitary§! Prestige to their Overlord."
  POLITICAL_POWER:0 "Political Favors"
- POLITICAL_POWER_DESC:0 "How much Political Favors the leaders of this country £prosperity have."
+ POLITICAL_POWER_DESC:0 "How much Political Favors the leaders of this country have ready to collect."
  CURRENT_PROSPERITY:0 "[?ROOT.afr_prosperity_mechanic_value]"
  PROSPERITY:0 "§YProsperity§!\nGrowth per 90 days:\n[afr_peacetime_economy_base_income_scripted][afr_peacetime_economy_base_prosperity_colonial_company_scripted][afr_peacetime_state_prosperity_growth_scripted]\n[afr_peacetime_state_prosperity_base_income_upgrade_scripted]"
  PROSPERITY_DELAYED:0 "If our empire has zero §RWar Exhaustion§!, Prosperity will §Gaccumulate§! every §Y90§! days."

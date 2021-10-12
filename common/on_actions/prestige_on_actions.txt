@@ -1,0 +1,13 @@
+on_actions = {
+	on_startup = {
+		effects = {
+			EUR = {  prestige_global_total_update = yes }
+		}
+	}
+
+	on_monthly_EUR = {
+		effects = {
+			prestige_global_total_update = yes
+		}
+	}
+}

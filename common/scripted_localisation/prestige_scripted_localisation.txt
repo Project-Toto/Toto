@@ -1,0 +1,350 @@
+defined_text = {
+	name = GetNationalPrestigeAdjective
+	text = {
+		trigger = {
+			OR = {
+				check_variable = {
+					var = prestige_country_total_rank
+					value = 11
+					compare = equals
+				}
+				check_variable = {
+					var = prestige_country_total_rank
+					value = 12
+					compare = equals
+				}
+				check_variable = {
+					var = prestige_country_total_rank
+					value = 111
+					compare = equals
+				}
+				check_variable = {
+					var = prestige_country_total_rank
+					value = 112
+					compare = equals
+				}
+				check_variable = {
+					var = prestige_country_total_rank
+					value = 211
+					compare = equals
+				}
+				check_variable = {
+					var = prestige_country_total_rank
+					value = 212
+					compare = equals
+				}
+				check_variable = {
+					var = prestige_country_total_rank
+					value = 311
+					compare = equals
+				}
+				check_variable = {
+					var = prestige_country_total_rank
+					value = 312
+					compare = equals
+				}
+			}
+		}
+		localization_key = prestige_country_adjective_th
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = prestige_country_total_rank_mod
+				value = 1
+				compare = equals
+			}
+		}
+		localization_key = prestige_country_adjective_st
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = prestige_country_total_rank_mod
+				value = 2
+				compare = equals
+			}
+		}
+		localization_key = prestige_country_adjective_nd
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = prestige_country_total_rank_mod
+				value = 3
+				compare = equals
+			}
+		}
+		localization_key = prestige_country_adjective_rd
+	}
+	text = {
+		localization_key = prestige_country_adjective_th
+	}
+}
+defined_text = {
+	name = GetNationalPrestigeTotalDisplayAchievement
+	text = {
+		trigger = {
+			check_variable = {
+				var = prestige_achievement
+				value = 0
+				compare = greater_than
+			}
+		}
+		localization_key = prestige_country_total_display_achievement
+	}
+}
+defined_text = {
+	name = GetNationalPrestigeTotalDisplayScience
+	text = {
+		trigger = {
+			check_variable = {
+				var = prestige_tech
+				value = 0
+				compare = greater_than
+			}
+		}
+		localization_key = prestige_country_total_display_science
+	}
+}
+defined_text = {
+	name = GetNationalPrestigeTotalDisplayScienceInventions
+	text = {
+		trigger = {
+			check_variable = {
+				var = prestige_tech_inventions
+				value = 0
+				compare = greater_than
+			}
+		}
+		localization_key = prestige_country_total_display_science_inventions
+	}
+}
+defined_text = {
+	name = GetNationalPrestigeTotalDisplayScienceTechnologies
+	text = {
+		trigger = {
+			check_variable = {
+				var = prestige_tech_research
+				value = 0
+				compare = greater_than
+			}
+		}
+		localization_key = prestige_country_total_display_science_technologies
+	}
+}
+defined_text = {
+	name = GetNationalPrestigeTotalDisplayEconomy
+	text = {
+		trigger = {
+			check_variable = {
+				var = prestige_economy
+				value = 0
+				compare = greater_than
+			}
+		}
+		localization_key = prestige_country_total_display_economy
+	}
+}
+defined_text = {
+	name = GetNationalPrestigeTotalDisplayEconomyFactories
+	text = {
+		trigger = {
+			check_variable = {
+				var = prestige_economy_factories
+				value = 0
+				compare = greater_than
+			}
+		}
+		localization_key = prestige_country_total_display_economy_factories
+	}
+}
+defined_text = {
+	name = GetNationalPrestigeTotalDisplayEconomyExports
+	text = {
+		trigger = {
+			check_variable = {
+				var = prestige_economy_exports
+				value = 0
+				compare = greater_than
+			}
+		}
+		localization_key = prestige_country_total_display_economy_exports
+	}
+}
+defined_text = {
+	name = GetNationalPrestigeTotalDisplayEmpire
+	text = {
+		trigger = {
+			check_variable = {
+				var = prestige_empire
+				value = 0
+				compare = greater_than
+			}
+		}
+		localization_key = prestige_country_total_display_empire
+	}
+}
+defined_text = {
+	name = GetNationalPrestigeTotalDisplayEmpireRank
+	text = {
+		trigger = {
+			has_idea = law_country_power_irrelevant
+		}
+		localization_key = prestige_country_total_display_empire_rank_irrelevant
+	}
+	text = {
+		trigger = {
+			has_idea = law_country_power_minor
+		}
+		localization_key = prestige_country_total_display_empire_rank_minor
+	}
+	text = {
+		trigger = {
+			has_idea = law_country_power_secondary
+		}
+		localization_key = prestige_country_total_display_empire_rank_secondary
+	}
+	text = {
+		trigger = {
+			has_idea = law_country_power_great
+		}
+		localization_key = prestige_country_total_display_empire_rank_great
+	}
+}
+defined_text = {
+	name = GetNationalPrestigeTotalDisplayEmpireStates
+	text = {
+		trigger = {
+			check_variable = {
+				var = prestige_empire_states
+				value = 0
+				compare = greater_than
+			}
+		}
+		localization_key = prestige_country_total_display_empire_states
+	}
+}
+defined_text = {
+	name = GetNationalPrestigeTotalDisplayEmpireSubjects
+	text = {
+		trigger = {
+			check_variable = {
+				var = prestige_empire_subject
+				value = 0
+				compare = greater_than
+			}
+		}
+		localization_key = prestige_country_total_display_empire_subjects
+	}
+}
+defined_text = {
+	name = GetNationalPrestigeTotalDisplayEmpireSubject
+	text = {
+		trigger = {
+			is_puppet = yes
+		}
+		localization_key = prestige_country_total_display_empire_subject
+	}
+}
+defined_text = {
+	name = GetNationalPrestigeTotalDisplayMilitary
+	text = {
+		trigger = {
+			check_variable = {
+				var = prestige_army
+				value = 0
+				compare = greater_than
+			}
+		}
+		localization_key = prestige_country_total_display_military
+	}
+}
+defined_text = {
+	name = GetNationalPrestigeTotalDisplayMilitaryBattalions
+	text = {
+		trigger = {
+			check_variable = {
+				var = prestige_army_battalions
+				value = 0
+				compare = greater_than
+			}
+		}
+		localization_key = prestige_country_total_display_military_battalions
+	}
+}
+defined_text = {
+	name = GetNationalPrestigeTotalDisplayMilitaryShips
+	text = {
+		trigger = {
+			check_variable = {
+				var = prestige_army_ships
+				value = 0
+				compare = greater_than
+			}
+		}
+		localization_key = prestige_country_total_display_military_ships
+	}
+}
+defined_text = {
+	name = GetNationalPrestigeTotalDisplayMilitaryPlanes
+	text = {
+		trigger = {
+			check_variable = {
+				var = prestige_army_planes
+				value = 0
+				compare = greater_than
+			}
+		}
+		localization_key = prestige_country_total_display_military_planes
+	}
+}
+defined_text = {
+	name = GetNationalPrestigeTotalDisplayMilitaryEra
+	text = {
+		trigger = {
+			has_idea = law_country_military_nomadic_warrors
+		}
+		localization_key = prestige_country_total_display_military_era_nomadic
+	}
+	text = {
+		trigger = {
+			has_idea = law_country_military_agrarian_levies
+		}
+		localization_key = prestige_country_total_display_military_era_levies
+	}
+	text = {
+		trigger = {
+			has_idea = law_country_military_traditional
+		}
+		localization_key = prestige_country_total_display_military_era_traditional
+	}
+	text = {
+		trigger = {
+			has_idea = law_country_military_modern
+		}
+		localization_key = prestige_country_total_display_military_era_modern
+	}
+}
+defined_text = {
+	name = GetNationalPrestigeTotalDisplayMilitarySubjects
+	text = {
+		trigger = {
+			check_variable = {
+				var = prestige_army
+				value = 0
+				compare = greater_than
+			}
+		}
+		localization_key = prestige_country_total_display_military_subjects
+	}
+}
+defined_text = {
+	name = GetNationalPrestigeTotalDisplayMilitarySubject
+	text = {
+		trigger = {
+			is_puppet = yes
+		}
+		localization_key = prestige_country_total_display_military_subject
+	}
+}
