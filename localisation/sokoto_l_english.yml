@@ -120,6 +120,8 @@
  afr_peacetime_economy_base_prosperity_colonial_company:0 "§YColonial Company Partnership§! Income: §G+1§!\n"
  ETH_one_camel_trade_industry_income:0 "§YCamel Trade Industry§! Income: §G+1§!\n"
  ETH_two_camel_trade_industry_income:0 "§YCamel Trade Industry§! Income: §G+2§!\n"
+ 
+ afr_peacetime_economy_prosperity_topbar_modifiers:0 "§YProsperity Growth:§!\n[afr_peacetime_economy_base_income_scripted][afr_peacetime_economy_base_prosperity_colonial_company_scripted][afr_peacetime_state_prosperity_growth_scripted]\n[afr_peacetime_state_prosperity_base_income_upgrade_scripted]"
 
  afr_peacetime_state_prosperity_growth:0 "State Income: §GGuaranteed§!\n"
 

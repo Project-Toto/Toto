@@ -25,6 +25,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	spriteType = {
+		name = "GFX_prosperity_texticon"
+		texturefile = "gfx/texticons/prosperity_20x20.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
 		name = "GFX_administrative_capacity"
 		texturefile = "gfx/texticons/administrative_capacity_20x20.dds"
 		legacy_lazy_load = no
