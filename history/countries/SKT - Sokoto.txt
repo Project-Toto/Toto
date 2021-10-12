@@ -83,7 +83,14 @@ SKT = {
 }
 
 	#Diplomacy
-	#add_opinion_modifier = { target = BAG modifier = AFR_fulani_jihad_conflict }
+	add_opinion_modifier = { target = BAG modifier = AFR_fulani_jihad_conflict }
+	add_opinion_modifier = { target = GBR modifier = AFR_fulani_jihad_conflict }
+	add_opinion_modifier = { target = BDE modifier = AFR_fulani_jihad_conflict }
+	add_opinion_modifier = { target = GUE modifier = AFR_fulani_jihad_conflict }
+	add_opinion_modifier = { target = KRI modifier = AFR_fulani_jihad_conflict }
+	add_opinion_modifier = { target = MGH modifier = AFR_fulani_jihad_conflict }
+	add_opinion_modifier = { target = MYO modifier = AFR_fulani_jihad_conflict }
+	add_opinion_modifier = { target = KNM modifier = AFR_fulani_jihad_conflict }
 	add_opinion_modifier = { target = KBO modifier = AFR_fulani_jihad_conflict }
 	add_opinion_modifier = { target = DAH modifier = AFR_fulani_jihad_conflict }
 	add_opinion_modifier = { target = OYO modifier = AFR_fulani_jihad_conflict }

@@ -1,5 +1,5 @@
 ﻿
-	capital = 165
+	capital = 179
 
 	oob = "KBO_1857"
 
@@ -65,8 +65,8 @@
 		#
 
 				 #NATIONAL SPIRITS
-	afr_large_kingdom
-	afr_imperial_decline
+			afr_large_kingdom
+			afr_imperial_decline
 
 	}
 
@@ -98,36 +98,127 @@ KBO = {
 	#add_opinion_modifier = { target = BAG modifier = AFR_kanem_bornu_tributary }
 
 	#Puppets
-	#if = {
-	#	limit = { OR = {
-	#		has_dlc = "Together for Victory"
-	#		has_dlc = "Waking the Tiger"
-	#		has_dlc = "Death or Dishonor"
-	#	} }
-	#	KBO = {
-	#		BAG = { store_current_ideologies = yes }
-	#		set_autonomy = {
-	#			target = BAG
-	#			autonomy_state = autonomy_afr_empire_level_4
-	#			freedom_level = 0.8
-	#		}
-	#		BAG = { load_previous_ideologies = yes }
-	#	}
-	#}
-	#if = {
-	#	limit = { NOT = { OR = {
-	#		has_dlc = "Together for Victory"
-	#		has_dlc = "Waking the Tiger"
-	#		has_dlc = "Death or Dishonor"
-	#	} } }
-	#	BAG = { store_current_ideologies = yes }
-	#	KBO = { puppet = BAG }
-	#	BAG = { load_previous_ideologies = yes }
-	#}
-	#BAG = {
-	#	set_variable = { var = afr_empire_subject_overlord value = KBO.id }
-	#	set_variable = { var = BAG.afr_empire_subject_loyalty_varKBO value = 10 }
-	#}
+	if = {
+		limit = { NOT = { OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Waking the Tiger"
+			has_dlc = "Death or Dishonor"
+		} } }
+		KBO = { puppet = KNM }
+		KBO = { puppet = BAG }
+		KBO = { puppet = GBR }
+		KBO = { puppet = BDE }
+		KBO = { puppet = GUE }
+		KBO = { puppet = KRI }
+		KBO = { puppet = MGH }
+		KBO = { puppet = MYO }
+	}
+	if = {
+		limit = { OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Waking the Tiger"
+			has_dlc = "Death or Dishonor"
+		} }
+		KBO = {
+			#hidden_effect = { BAG = { store_current_ideologies = yes } }
+			set_autonomy = {
+				target = BAG
+				autonomy_state = autonomy_afr_empire_level_4
+				freedom_level = 0.80
+			}
+			#hidden_effect = { BAG = { load_previous_ideologies = yes } }
+			#hidden_effect = { KNM = { store_current_ideologies = yes } }
+			set_autonomy = {
+				target = KNM
+				autonomy_state = autonomy_afr_empire_level_2
+				freedom_level = 0.25
+			}
+			#hidden_effect = { KNM = { load_previous_ideologies = yes } }
+			#hidden_effect = { GBR = { store_current_ideologies = yes } }
+			set_autonomy = {
+				target = GBR
+				autonomy_state = autonomy_afr_empire_level_2
+				freedom_level = 0.25
+			}
+			#hidden_effect = { GBR = { load_previous_ideologies = yes } }
+			#hidden_effect = { BDE = { store_current_ideologies = yes } }
+			set_autonomy = {
+				target = BDE
+				autonomy_state = autonomy_afr_empire_level_2
+				freedom_level = 0.25
+			}
+			#hidden_effect = { BDE = { load_previous_ideologies = yes } }
+			#hidden_effect = { GUE = { store_current_ideologies = yes } }
+			set_autonomy = {
+				target = GUE
+				autonomy_state = autonomy_afr_empire_level_2
+				freedom_level = 0.25
+			}
+			#hidden_effect = { GUE = { load_previous_ideologies = yes } }
+			#hidden_effect = { KRI = { store_current_ideologies = yes } }
+			set_autonomy = {
+				target = KRI
+				autonomy_state = autonomy_afr_empire_level_2
+				freedom_level = 0.25
+			}
+			#hidden_effect = { KRI = { load_previous_ideologies = yes } }
+			#hidden_effect = { MGH = { store_current_ideologies = yes } }
+			set_autonomy = {
+				target = MGH
+				autonomy_state = autonomy_afr_empire_level_2
+				freedom_level = 0.25
+			}
+			#hidden_effect = { MGH = { load_previous_ideologies = yes } }
+			#hidden_effect = { MYO = { store_current_ideologies = yes } }
+			set_autonomy = {
+				target = MYO
+				autonomy_state = autonomy_afr_empire_level_2
+				freedom_level = 0.25
+			}
+			#hidden_effect = { MYO = { load_previous_ideologies = yes } }
+		}
+	}
+
+	BAG = {
+		set_variable = { var = afr_empire_subject_overlord value = KBO.id }
+		set_variable = { var = BAG.afr_empire_subject_loyalty_varKBO value = 10 }
+		clamp_variable = { var = BAG.afr_empire_subject_loyalty_varKBO min = -1 max = 10 }
+	}
+	KNM = {
+		set_variable = { var = afr_empire_subject_overlord value = KBO.id }
+		set_variable = { var = KNM.afr_empire_subject_loyalty_varKBO value = 3 }
+		clamp_variable = { var = KNM.afr_empire_subject_loyalty_varKBO min = -1 max = 10 }
+	}
+	GBR = {
+		set_variable = { var = afr_empire_subject_overlord value = KBO.id }
+		set_variable = { var = GBR.afr_empire_subject_loyalty_varKBO value = 7 }
+		clamp_variable = { var = GBR.afr_empire_subject_loyalty_varKBO min = -1 max = 10 }
+	}
+	BDE = {
+		set_variable = { var = afr_empire_subject_overlord value = KBO.id }
+		set_variable = { var = BDE.afr_empire_subject_loyalty_varKBO value = 7 }
+		clamp_variable = { var = BDE.afr_empire_subject_loyalty_varKBO min = -1 max = 10 }
+	}
+	GUE = {
+		set_variable = { var = afr_empire_subject_overlord value = KBO.id }
+		set_variable = { var = GUE.afr_empire_subject_loyalty_varKBO value = 7 }
+		clamp_variable = { var = GUE.afr_empire_subject_loyalty_varKBO min = -1 max = 10 }
+	}
+	KRI = {
+		set_variable = { var = afr_empire_subject_overlord value = KBO.id }
+		set_variable = { var = KRI.afr_empire_subject_loyalty_varKBO value = 7 }
+		clamp_variable = { var = KRI.afr_empire_subject_loyalty_varKBO min = -1 max = 10 }
+	}
+	MGH = {
+		set_variable = { var = afr_empire_subject_overlord value = KBO.id }
+		set_variable = { var = MGH.afr_empire_subject_loyalty_varKBO value = 7 }
+		clamp_variable = { var = MGH.afr_empire_subject_loyalty_varKBO min = -1 max = 10 }
+	}
+	MYO = {
+		set_variable = { var = afr_empire_subject_overlord value = KBO.id }
+		set_variable = { var = MYO.afr_empire_subject_loyalty_varKBO value = 7 }
+		clamp_variable = { var = MYO.afr_empire_subject_loyalty_varKBO min = -1 max = 10 }
+	}
 
 
 set_politics = {

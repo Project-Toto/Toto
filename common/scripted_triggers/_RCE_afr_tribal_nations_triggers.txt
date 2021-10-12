@@ -119,6 +119,13 @@ afr_is_tribal_allowed = {
 		TAG = ZUU
 		TAG = ADA
 		TAG = KBI
+		TAG = KNM
+		TAG = GBR
+		TAG = BDE
+		TAG = GUE
+		TAG = KRI
+		TAG = MGH
+		TAG = MYO
 	#End of a New Beginning	
 		TAG = KAD
 		TAG = IGA
@@ -466,6 +473,34 @@ afr_state_has_multiple_cores = {
 			AND = {
 				OWNER = { NOT = { TAG = KBI } }
 				is_core_of = KBI
+			}
+			AND = {
+				OWNER = { NOT = { TAG = KNM } }
+				is_core_of = KNM
+			}
+			AND = {
+				OWNER = { NOT = { TAG = GBR } }
+				is_core_of = GBR
+			}
+			AND = {
+				OWNER = { NOT = { TAG = BDE } }
+				is_core_of = BDE
+			}
+			AND = {
+				OWNER = { NOT = { TAG = GUE } }
+				is_core_of = GUE
+			}
+			AND = {
+				OWNER = { NOT = { TAG = KRI } }
+				is_core_of = KRI
+			}
+			AND = {
+				OWNER = { NOT = { TAG = MGH } }
+				is_core_of = MGH
+			}
+			AND = {
+				OWNER = { NOT = { TAG = MYO } }
+				is_core_of = MYO
 			}
 			########################
 			#End of a New Beginning#
