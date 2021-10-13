@@ -1,6 +1,63 @@
 # Do not change tags in here without changing every other reference to them.
 # If adding new technology, make sure they are uniquely named.
 
+
+technology_folders = {
+	tech_folder_army_infantry = {
+		ledger = army
+	}
+	tech_folder_army_support = {
+		ledger = army
+	}
+	tech_folder_army_cavalry = {
+		ledger = army
+	}
+	tech_folder_army_artillery = {
+		ledger = army
+	}
+	tech_folder_army_armor = {
+		ledger = army
+	}
+
+	tech_folder_craft = {
+		ledger = navy
+	}
+	tech_folder_ship = {
+		available = {
+			NOT = { has_dlc = "Man the Guns" }
+		}
+		ledger = navy
+	}
+	tech_folder_ship_mtg = {
+		available = {
+			has_dlc = "Man the Guns"
+		}
+	}
+
+	tech_folder_air = {
+		ledger = air
+	}
+
+	tech_folder_government = {
+		ledger = civilian
+	}
+	tech_folder_society = {
+		ledger = civilian
+	}
+	tech_folder_devices = {
+		ledger = civilian
+	}
+	tech_folder_engineering = {
+		ledger = civilian
+	}
+	tech_folder_manufacturing = {
+		ledger = civilian
+	}
+	tech_folder_biochemistry = {
+		ledger = civilian
+	}
+}
+
 technology_categories = {
 	infantry_weapons
 	light_air
@@ -165,75 +222,4 @@ technology_categories = {
 	helicopter_tech
 	melee_weapons_tech
 	zeppelin_tech
-}
-
-technology_folders = {
-	humanities_folder = {
-		ledger = civilian
-	}
-	infantry_folder = {
-		ledger = army
-	}
-	support_folder = {
-		ledger = army
-	}
-	armour_folder = {
-		ledger = army
-	}
-	artillery_folder = {
-		ledger = army
-	}
-	air_techs_folder = {
-		ledger = air
-	}
-	naval_folder = {
-		available = {
-			not = { has_dlc = "Man the Guns" }
-		}
-		ledger = navy
-	}
-	mtgnavalfolder = {
-		available = {
-			has_dlc = "Man the Guns"
-		}
-		ledger = navy
-	}
-	land_doctrine_folder={
-		ledger = army
-		doctrine = yes
-	}
-	naval_doctrine_folder={
-		ledger = navy
-		doctrine = yes
-	}
-	air_doctrine_folder={
-		ledger = air
-		doctrine = yes
-	}
-	mechanical_engineering_folder={
-		ledger = civilian
-	}
-	process_engineering_folder={
-		ledger = civilian
-	}
-	biochemistry_folder={
-		ledger = civilian
-	}
-	aviation_folder={
-		ledger = air
-	}
-	electronics_devices_folder = {
-		ledger = civilian
-	}
-	# humanities_folder= {
-	# 	available = { NOT={has_idea = oral_tradition} NOT={has_idea = traditional_uluma}}
-	# 	ledger = civilian
-	# }
-	projects_folder={
-		ledger = civilian
-	}
-	# humanities_folder= { available = { OR = { has_idea = oral_tradition has_idea = traditional_uluma } } }
-	# electronics_devices_folder#= {available = {always = no}}
-	# civilian_folder#= {available = {always = no}}
-	# mechanical_engineering_folder#= {available = {always = no}}
 }

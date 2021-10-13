@@ -71,12 +71,12 @@ state_categories = {
 		# Egypt
 		color = { 100 100 100 }
 	}
-	state_category_colonial_subregion_tripolitania = {
-		# Tripolitania
+	state_category_colonial_subregion_kurdofan = {
+		# Kurdofan
 		color = { 100 100 100 }
 	}
-	state_category_colonial_subregion_tunis = {
-		# Tunis
+	state_category_colonial_subregion_tripolitania = {
+		# Tripolitania
 		color = { 100 100 100 }
 	}
 	state_category_colonial_subregion_algiers = {
@@ -99,40 +99,24 @@ state_categories = {
 		# Senegal
 		color = { 100 100 100 }
 	}
-	state_category_colonial_subregion_bissau = {
-		# Bissau
-		color = { 100 100 100 }
-	}
-	state_category_colonial_subregion_gambia = {
-		# Gambia
-		color = { 100 100 100 }
-	}
-	state_category_colonial_subregion_north_guinea = {
+	state_category_colonial_subregion_guinea = {
 		# North Guinea
 		color = { 100 100 100 }
 	}
-	state_category_colonial_subregion_south_guinea = {
-		# Gambia
-		color = { 100 100 100 }
-	}
-	state_category_colonial_subregion_man = {
-		# Gambia
-		color = { 100 100 100 }
-	}
-	state_category_colonial_subregion_kong = {
-		# Gambia
+	state_category_colonial_subregion_sassandra = {
+		# Sassanra
 		color = { 100 100 100 }
 	}
 	state_category_colonial_subregion_volta = {
-		# Gambia
+		# Volta
 		color = { 100 100 100 }
 	}
 	state_category_colonial_subregion_togo = {
-		# Gambia
+		# Togo
 		color = { 100 100 100 }
 	}
 	state_category_colonial_subregion_dahomey = {
-		# Gambia
+		# Dahomey
 		color = { 100 100 100 }
 	}
 }
