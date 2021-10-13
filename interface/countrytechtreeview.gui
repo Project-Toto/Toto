@@ -9425,35 +9425,35 @@ guiTypes = {
 				buttonType = {
 					name = "tech_folder_army_infantry_tab"
 					position = { x = 22 y = 0 }
-					quadTextureSprite = "GFX_infantry_folder_tab"
+					quadTextureSprite = "GFX_tech_folder_army_infrantry_tab"
 					frame = 1
 					clicksound = click_default
 				}
 				buttonType = {
 					name = "tech_folder_army_support_tab"
 					position = { x = 111 y = 0 }
-					quadTextureSprite = "GFX_support_folder_tab"
+					quadTextureSprite = "GFX_tech_folder_army_support_tab"
 					frame = 1
 					clicksound = click_default
 				}
 				buttonType = {
 					name = "tech_folder_army_cavalry_tab"
 					position = { x = 200 y = 0 }
-					quadTextureSprite = "GFX_motorize_folder_tab"
+					quadTextureSprite = "GFX_tech_folder_army_cavalry_tab"
 					frame = 1
 					clicksound = click_default
 				}
 				buttonType = {
 					name = "tech_folder_army_artillery_tab"
 					position = { x = 289 y = 0 }
-					quadTextureSprite = "GFX_artillery_folder_tab"
+					quadTextureSprite = "GFX_tech_folder_army_artillery_tab"
 					frame = 1
 					clicksound = click_default
 				}
 				buttonType = {
 					name = "tech_folder_army_armor_tab"
 					position = { x = 378 y = 0 }
-					quadTextureSprite = "GFX_armour_folder_tab"
+					quadTextureSprite = "GFX_tech_folder_army_armor_tab"
 					frame = 1
 					clicksound = click_default
 				}
@@ -9468,14 +9468,14 @@ guiTypes = {
 				buttonType = {
 					name = "tech_folder_ship_tab"
 					position = { x = 586 y = 0 }
-					quadTextureSprite = "GFX_naval_folder_tab"
+					quadTextureSprite = "GFX_tech_folder_ship_tab_tab"
 					frame = 1
 					clicksound = click_default
 				}
 				buttonType = {
 					name = "tech_folder_ship_mtg_tab"
 					position = { x = 586 y = 0 }
-					quadTextureSprite = "GFX_naval_folder_tab"
+					quadTextureSprite = "GFX_tech_folder_ship_tab_tab"
 					frame = 1
 					clicksound = click_default
 				}
@@ -9483,7 +9483,7 @@ guiTypes = {
 				buttonType = {
 					name = "tech_folder_air_tab"
 					position = { x = 705 y = 0 }
-					quadTextureSprite = "GFX_aviation_folder_tab"
+					quadTextureSprite = "GFX_tech_folder_air_tab"
 					frame = 1
 					clicksound = click_default
 				}
@@ -9491,42 +9491,42 @@ guiTypes = {
 				buttonType = {
 					name = "tech_folder_government_tab"
 					position = { x = 824 y = 0 }
-					quadTextureSprite = "GFX_projects_folder_tab"
+					quadTextureSprite = "GFX_tech_folder_government_tab"
 					frame = 1
 					clicksound = click_default
 				}
 				buttonType = {
 					name = "tech_folder_society_tab"
 					position = { x = 913 y = 0 }
-					quadTextureSprite = "GFX_humanities_folder_tab"
+					quadTextureSprite = "GFX_tech_folder_society_tab"
 					frame = 1
 					clicksound = click_default
 				}
 				buttonType = {
 					name = "tech_folder_devices_tab"
 					position = { x = 1002 y = 0 }
-					quadTextureSprite = "GFX_electronics_devices_folder_tab"
+					quadTextureSprite = "GFX_tech_folder_devices_tab"
 					frame = 1
 					clicksound = click_default
 				}
 				buttonType = {
 					name = "tech_folder_engineering_tab"
 					position = { x = 1121 y = 0 }
-					quadTextureSprite = "GFX_mechanical_engineering_folder_tab"
+					quadTextureSprite = "GFX_tech_folder_engineering_tab"
 					frame = 1
 					clicksound = click_default
 				}
 				buttonType = {
 					name = "tech_folder_manufacturing_tab"
 					position = { x = 1210 y = 0 }
-					quadTextureSprite = "GFX_process_engineering_folder_tab"
+					quadTextureSprite = "GFX_tech_folder_manufacturing_tab"
 					frame = 1
 					clicksound = click_default
 				}
 				buttonType = {
 					name = "tech_folder_biochemistry_tab"
 					position = { x = 1299 y = 0 }
-					quadTextureSprite = "GFX_biochemistry_folder_tab"
+					quadTextureSprite = "GFX_tech_folder_biochemistry_tab"
 					frame = 1
 					clicksound = click_default
 				}

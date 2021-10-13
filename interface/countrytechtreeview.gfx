@@ -87,62 +87,38 @@ spriteTypes = {
 	}	
 	
 	spriteType = {
-		name = "GFX_infantry_folder_tab"
+		name = "GFX_tech_folder_army_infrantry_tab"
 		textureFile = "gfx//interface//techtree//techtree_infantry_tab.dds"
 		noOfFrames = 2		
 	}
 
 	spriteType = {
-		name = "GFX_techtree_tank_tab"
-		textureFile = "gfx//interface//techtree//techtree_tank_tab.dds"
-		noOfFrames = 2		
+		name = "GFX_tech_folder_army_support_tab"
+		textureFile = "gfx//interface//techtree/techtree_support_tab.dds"
+		noOfFrames = 2
 	}
 
 	spriteType = {
-		name = "GFX_artillery_folder_tab"
-		textureFile = "gfx//interface//techtree//techtree_artillery_tab.dds"
-		noOfFrames = 2		
+		name = "GFX_tech_folder_army_cavalry_tab"
+		textureFile = "gfx//interface//techtree/techtree_tank_tab.dds"
+		noOfFrames = 2
 	}
 
 	spriteType = {
-		name = "GFX_land_doctrine_folder_tab"
-		textureFile = "gfx//interface//techtree//techtree_landdoctrine_tab.dds"
-		noOfFrames = 2		
+		name = "GFX_tech_folder_army_artillery_tab"
+		textureFile = "gfx//interface//techtree/techtree_artillery_tab.dds"
+		noOfFrames = 2
 	}
 
 	spriteType = {
-		name = "GFX_naval_folder_tab"
+		name = "GFX_tech_folder_army_armor_tab"
+		textureFile = "gfx//interface//techtree/techtree_tank_tab.dds"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_tech_folder_ship_tab_tab"
 		textureFile = "gfx//interface//techtree//techtree_naval_tab.dds"
-		noOfFrames = 2		
-	}
-
-	spriteType = {
-		name = "GFX_naval_doctrine_folder_tab"
-		textureFile = "gfx//interface//techtree//techtree_navaldoctrine_tab.dds"
-		noOfFrames = 2		
-	}
-
-	spriteType = {
-		name = "GFX_air_techs_folder_tab"
-		textureFile = "gfx//interface//techtree//techtree_air_tab.dds"
-		noOfFrames = 2		
-	}
-
-	spriteType = {
-		name = "GFX_air_doctrine_folder_tab"
-		textureFile = "gfx//interface//techtree//techtree_airdoctrine_tab.dds"
-		noOfFrames = 2		
-	}
-
-	spriteType = {
-		name = "GFX_secret_weapons_folder_tab"
-		textureFile = "gfx//interface//techtree//techtree_special_tab.dds"
-		noOfFrames = 2		
-	}
-
-	spriteType = {
-		name = "GFX_techtree_engineering_tab"
-		textureFile = "gfx//interface//techtree//techtree_engineering_tab.dds"
 		noOfFrames = 2		
 	}
 
@@ -151,6 +127,48 @@ spriteTypes = {
 		textureFile = "gfx//interface//techtree//techtree_industry_tab.dds"
 		noOfFrames = 2		
 	}
+
+	spriteType = {
+		name = "GFX_tech_folder_air_tab"
+		textureFile = "gfx//interface//techtree_aviation_tab.dds"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_tech_folder_government_tab"
+		textureFile = "gfx//interface//techtree_projects_tab.dds"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_tech_folder_society_tab"
+		textureFile = "gfx//interface//techtree_humanities_tab.dds"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_tech_folder_devices_tab"
+		textureFile = "gfx//interface//techtree_electronics_devices_tab.dds"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_tech_folder_engineering_tab"
+		textureFile = "gfx//interface//techtree_mechanical_engineering_tab.dds"
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_tech_folder_manufacturing_tab"
+		textureFile = "gfx//interface//techtree_process_engineering_tab.dds"
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_tech_folder_biochemistry_tab"
+		textureFile = "gfx//interface//techtree_biochemistry_tab.dds"
+		noOfFrames = 2
+	}	
 
 	spriteType = {
 		name = "GFX_techtree_tabs"
@@ -1294,60 +1312,7 @@ spriteTypes = {
 		name = "GFX_techtree_xor_right"
 		textureFile = "gfx//interface//techtree/techtree_xor_right.dds"
 	}
-
-	spriteType = {
-		name = "GFX_support_folder_tab"
-		textureFile = "gfx//interface//techtree/techtree_support_tab.dds"
-		noOfFrames = 2
-	}
 	
-	spriteType = {
-		name = "GFX_armour_folder_tab"
-		textureFile = "gfx//interface//techtree/techtree_tank_tab.dds"
-		noOfFrames = 2
-	}
-
-	spriteType = {
-		name = "GFX_mechanical_engineering_folder_tab"
-		textureFile = "gfx//interface//techtree_mechanical_engineering_tab.dds"
-		noOfFrames = 2
-	}
-	
-	spriteType = {
-		name = "GFX_process_engineering_folder_tab"
-		textureFile = "gfx//interface//techtree_process_engineering_tab.dds"
-		noOfFrames = 2
-	}
-	
-	spriteType = {
-		name = "GFX_biochemistry_folder_tab"
-		textureFile = "gfx//interface//techtree_biochemistry_tab.dds"
-		noOfFrames = 2
-	}
-	
-	spriteType = {
-		name = "GFX_aviation_folder_tab"
-		textureFile = "gfx//interface//techtree_aviation_tab.dds"
-		noOfFrames = 2
-	}
-	
-	spriteType = {
-		name = "GFX_electronics_devices_folder_tab"
-		textureFile = "gfx//interface//techtree_electronics_devices_tab.dds"
-		noOfFrames = 2
-	}
-	
-	spriteType = {
-		name = "GFX_humanities_folder_tab"
-		textureFile = "gfx//interface//techtree_humanities_tab.dds"
-		noOfFrames = 2
-	}
-	
-	spriteType = {
-		name = "GFX_projects_folder_tab"
-		textureFile = "gfx//interface//techtree_projects_tab.dds"
-		noOfFrames = 2
-	}
 	
 	spriteType = {
 		name = "GFX_tech_bonus"
