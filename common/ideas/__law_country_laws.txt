@@ -3,6 +3,85 @@ ideas = {
 	law_country_constitution = {
 		law = yes
 		use_list_view = yes
+		no_constitution = {
+			allowed = { always = yes }
+			default = yes
+			level = 0
+
+			modifier = {
+				political_power_gain = 0.05
+				stability_factor = -0.05
+				drift_defence_factor = 0.15
+				monthly_population = -0.10
+			}
+		}
+		human_rights = {
+			allowed = { always = yes }
+			level = 1
+
+			modifier = {
+				political_power_gain = 0.025
+				drift_defence_factor = 0.075
+				monthly_population = -0.025
+			}
+		}
+		constitution_adopted = {
+			allowed = { always = yes }
+			level = 2
+			modifier = {
+				political_power_gain = -0.025
+				stability_factor = 0.025
+				drift_defence_factor = 0.025
+			}
+		}
+		limited_constitution = {
+			allowed = { always = yes }
+			level = 3
+			modifier = {
+				stability_factor = 0.05
+				monthly_population = 0.025
+			}
+		}
+		sharia_constitution = {
+			allowed = { always = yes }
+			level = 3
+			available = {
+				OR = {
+					has_government = fundamentalism
+					has_government = traditionalism
+				}
+				laws_country_religion_is_muslim = yes
+			}
+			on_remove = {
+				add_ideas = constitution_adopted
+			}
+
+			modifier = {
+				political_power_gain = 0.025
+				stability_factor = 0.075
+				fundamentalism_drift = 0.05
+				reformism_drift = -0.025
+				monthly_population = 0.025
+			}
+		}
+		full_constitution = {
+			allowed = { always = yes }
+			level = 4
+			available = {
+				OR = {
+					has_government = reformism
+					has_government = imperialism
+				}
+				NOT = { has_idea = sharia_constitution }
+			}
+			modifier = {
+				political_power_gain = 0.025
+				stability_factor = 0.10
+				reformism_drift = 0.05
+				fundamentalism_drift = -0.025
+				monthly_population = 0.075
+			}
+		}
 	}
 	law_country_heir = {
 		law = yes
@@ -13,10 +92,7 @@ ideas = {
 			cancel_if_invalid = no
 
 			available = {
-				custom_trigger_tooltip = {
-					tooltip = eoanb_law_tt_non_monarchical_system
-					always = no
-				}
+				law_country_government_non_monarchial = yes
 			}
 
 			modifier = {
@@ -29,10 +105,7 @@ ideas = {
 			cancel_if_invalid = no
 
 			available = {
-				custom_trigger_tooltip = {
-					tooltip = eoanb_law_tt_non_monarchical_system
-					always = no
-				}
+				law_country_government_non_monarchial = no
 			}
 
 			modifier = {
@@ -46,10 +119,7 @@ ideas = {
 			cancel_if_invalid = no
 
 			available = {
-				custom_trigger_tooltip = {
-					tooltip = eoanb_law_tt_non_monarchical_system
-					always = no
-				}
+				law_country_government_non_monarchial = no
 			}
 
 			modifier = {
@@ -62,10 +132,7 @@ ideas = {
 			cancel_if_invalid = no
 
 			available = {
-				custom_trigger_tooltip = {
-					tooltip = eoanb_law_tt_non_monarchical_system
-					always = no
-				}
+				law_country_government_non_monarchial = no
 			}
 
 			modifier = {
@@ -80,10 +147,7 @@ ideas = {
 			cancel_if_invalid = no
 
 			available = {
-				custom_trigger_tooltip = {
-					tooltip = eoanb_law_tt_non_monarchical_system
-					always = no
-				}
+				law_country_government_non_monarchial = no
 			}
 
 			modifier = {

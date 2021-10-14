@@ -1,0 +1,272 @@
+bookmarks = {
+	bookmark = {
+		name = "SOUDAN_1857"
+		desc = "SOUDAN_1857_DESC"
+		date = 1857.07.18
+		picture = "GFX_select_date_1936"
+		default_country = "SKT"
+		default = yes
+		
+		"SKT"={
+			history = "SKT_SOUDAN_1857_DESC"
+			ideology = fundaementalism
+			ideas = {
+				
+				
+			}
+			focuses = {
+			
+			}
+		}
+		"TOU"={
+			history = "TOU_SOUDAN_1857_DESC"
+			ideology = fundamentalism
+			ideas = {
+
+
+			}
+			focuses = {
+
+			}
+		}
+		"KBO"={
+			history = "KBO_SOUDAN_1857_DESC"
+			ideology = imperialism
+			ideas = {
+
+
+			}
+			focuses = {
+
+			}
+		}
+		"WDD"={
+			history = "WDD_SOUDAN_1857_DESC"
+			ideology = traditionalism
+			ideas = {
+
+
+			}
+			focuses = {
+
+			}
+		}
+		"SNG"={
+			history = "SNG_SOUDAN_1857_DESC"
+			ideology = imperialism
+			ideas = {
+
+
+			}
+			focuses = {
+
+			}
+		}
+		"LIB"={
+			history = "LIB_SOUDAN_1857_DESC"
+			ideology = traditionalism
+			ideas = {
+
+
+			}
+			focuses = {
+
+			}
+		}
+		"ASH"={
+			history = "ASH_SOUDAN_1857_DESC"
+			ideology = traditionalism
+			ideas = {
+
+
+			}
+			focuses = {
+
+			}
+		}
+
+		"ARO"={
+			history = "ARO_SOUDAN_1857_DESC"
+			ideology = reformism
+			minor = yes
+			ideas = {
+
+
+			}
+			focuses = {
+
+			}
+		}
+		"MOS"={
+			history = "MOS_SOUDAN_1857_DESC"
+			ideology = traditionalism
+			minor = yes
+			ideas = {
+
+
+			}
+			focuses = {
+
+			}
+		}
+		"NRI"={
+			history = "NRI_SOUDAN_1857_DESC"
+			ideology = reformism
+			minor = yes
+			ideas = {
+
+
+			}
+			focuses = {
+
+			}
+		}
+		"---"={
+			history = "OTHER_SOUDAN_1857_DESC"
+		}
+		
+		# minors from DLC ####
+
+		
+
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+	bookmark = {
+		name = "CALIPHATE_1857"
+		desc = "CALIPHATE_1857_DESC"
+		date = 1857.07.18
+		picture = "GFX_select_date_1936"
+		default_country = "OTO"
+		default = no
+		
+		"OTO"={
+			history = "OTO_CALIPHATE_1857_DESC"
+			ideology = reformism
+			ideas = {
+				
+				
+			}
+			focuses = {
+			
+			}
+		}
+		"EGY"={
+			history = "EGY_CALIPHATE_1857_DESC"
+			ideology = fundamentalism
+			ideas = {
+
+
+			}
+			focuses = {
+
+			}
+		}
+		"EPD"={
+			history = "EPD_CALIPHATE_1857_DESC"
+			ideology = imperialism
+			ideas = {
+
+
+			}
+			focuses = {
+
+			}
+		}
+		"NJD"={
+			history = "NJD_CALIPHATE_1857_DESC"
+			ideology = fundamentalism
+			ideas = {
+
+
+			}
+			focuses = {
+
+			}
+		}
+		"JSH"={
+			history = "JSH_CALIPHATE_1857_DESC"
+			ideology = tradtionalism
+			ideas = {
+
+
+			}
+			focuses = {
+
+			}
+		}
+		"PER"={
+			history = "LIB_CALIPHATE_1857_DESC"
+			ideology = traditionalism
+			ideas = {
+
+
+			}
+			focuses = {
+
+			}
+		}
+		"MOR"={
+			history = "ASH_CALIPHATE_1857_DESC"
+			ideology = traditionalism
+			ideas = {
+
+
+			}
+			focuses = {
+
+			}
+		}
+
+		"GRE"={
+			history = "GRE_CALIPHATE_1857_DESC"
+			ideology = traditionalism
+			minor=yes
+			ideas = {
+
+
+			}
+			focuses = {
+
+			}
+		}
+		"ABN"={
+			history = "ABN_CALIPHATE_1857_DESC"
+			ideology = traditionalism
+			minor=yes
+			ideas = {
+
+
+			}
+			focuses = {
+
+			}
+		}
+		"ZID"={
+			history = "ZID_CALIPHATE_1857_DESC"
+			ideology = fundamentalism
+			minor=yes
+			ideas = {
+
+
+			}
+			focuses = {
+
+			}
+		}
+		"---"={
+			history = "OTHER_CALIPHATE_1857_DESC"
+		}
+		
+		# minors from DLC ####
+
+		
+
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

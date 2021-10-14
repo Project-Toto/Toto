@@ -1,0 +1,60 @@
+laws_country_religion_is_christian = {
+	custom_trigger_tooltip = {
+		tooltip = laws_country_religion_is_christian_tt
+		if = {
+			limit = {
+				OR = {
+					has_idea = law_country_religion_catholic
+					has_idea = law_country_religion_anglican
+					has_idea = law_country_religion_protestant
+					has_idea = law_country_religion_orthodox
+					has_idea = law_country_religion_coptic
+				}
+			}
+			always = yes
+		}
+		else = {
+			always = no
+		}
+	}
+}
+laws_country_religion_is_muslim = {
+	custom_trigger_tooltip = {
+		tooltip = laws_country_religion_is_muslim_tt
+		if = {
+			limit = {
+				OR = {
+					has_idea = law_country_religion_sunni
+					has_idea = law_country_religion_shiite
+					has_idea = law_country_religion_ibadi
+				}
+			}
+			always = yes
+		}
+		else = {
+			always = no
+		}
+	}
+}
+law_country_government_non_monarchial = {
+	custom_trigger_tooltip = {
+		tooltip = law_country_government_non_monarchial
+		if = {
+			limit = {
+				OR = {
+					has_idea = law_country_government_nomadic
+					has_idea = law_country_government_chiefdom
+					has_idea = law_country_government_pirate
+					has_idea = law_country_government_merchantile_oligarchy
+					has_idea = law_country_government_landed_republic
+					has_idea = law_country_government_democratic_republic
+					has_idea = law_country_government_colonial_company
+				}
+			}
+			always = yes
+		}
+		else = {
+			always = no
+		}
+	}
+}
