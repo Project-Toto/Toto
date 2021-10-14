@@ -9,7 +9,7 @@ bookmarks = {
 		
 		"SKT"={
 			history = "SKT_SOUDAN_1857_DESC"
-			ideology = fundaementalism
+			ideology = fundamentalism
 			ideas = {
 				
 				
