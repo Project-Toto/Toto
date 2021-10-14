@@ -126,7 +126,7 @@
 		}
 		text = {
 			trigger = { has_idea = law_country_religion_vodun }
-			localization__key = law_country_religion_vodun
+			localization_key = law_country_religion_vodun
 		}
 		text = {
 			trigger = { has_idea = law_country_religion_atheist }
@@ -208,7 +208,7 @@
 		}
 		text = {
 			trigger = { has_idea = law_country_religion_vodun }
-			localization__key = law_country_religion_vodun_desc
+			localization_key = law_country_religion_vodun_desc
 		}
 		text = {
 			trigger = { has_idea = law_country_religion_atheist }
@@ -420,5 +420,21 @@
 		text = {
 			trigger = { has_idea = law_country_government_caliphate }
 			localization_key = law_country_government_caliphate_desc
+		}
+	}
+# Borders
+	defined_text = {
+		name = GetNationalNoBorderType
+		text = {
+			trigger = {
+				OR = {
+					has_idea = law_country_society_nomadic
+					has_idea = law_country_society_tribal
+				}
+			}
+			localization_key = no_borders_non_existant
+		}
+		text = {
+			localization_key = no_borders_undefined
 		}
 	}

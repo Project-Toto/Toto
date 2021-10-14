@@ -88,7 +88,7 @@ ideas = {
 		use_list_view = yes
 		non_monarchical_system = {
 			allowed = { always = yes }
-			level = 3
+			level = 0
 			cancel_if_invalid = no
 
 			available = {
@@ -97,41 +97,52 @@ ideas = {
 
 			modifier = {
 				reformism_drift = 0.025
+				drift_defence_factor = -0.05
 			}
 		}
-		has_heir = {
+		no_heir = {
 			allowed = { always = yes }
-			level = 3
-			cancel_if_invalid = no
+			default = yes
+			level = 0
 
-			available = {
+			visible = {
 				law_country_government_non_monarchial = no
+			}
+			on_remove = {
+				if = {
+					limit = { law_country_government_non_monarchial = yes }
+					add_ideas = non_monarchical_system
+				}
 			}
 
 			modifier = {
-				stability_factor = 0.05
+				stability_factor = -0.075
 			}
 		}
-
 		weak_heir = {
 			allowed = { always = yes }
 			level = 1
-			cancel_if_invalid = no
 
-			available = {
+			visible = {
 				law_country_government_non_monarchial = no
+			}
+			on_remove = {
+				if = {
+					limit = { law_country_government_non_monarchial = yes }
+					add_ideas = non_monarchical_system
+				}
 			}
 
 			modifier = {
+				stability_factor = -0.05
 			}
 		}
-
 		dethroned_heir = {
 			allowed = { always = yes }
 			level = 1
 			cancel_if_invalid = no
 
-			available = {
+			visible = {
 				law_country_government_non_monarchial = no
 			}
 
@@ -140,18 +151,23 @@ ideas = {
 				stability_factor = -0.025
 			}
 		}
-
-		no_heir = {
+		has_heir = {
 			allowed = { always = yes }
-			level = 0
-			cancel_if_invalid = no
+			level = 2
 
-			available = {
+			visible = {
 				law_country_government_non_monarchial = no
+			}
+			on_remove = {
+				if = {
+					limit = { law_country_government_non_monarchial = yes }
+					add_ideas = non_monarchical_system
+				}
 			}
 
 			modifier = {
-				stability_factor = -0.05
+				stability_factor = 0.05
+				war_support_factor = 0.025
 			}
 		}
 	}
@@ -160,48 +176,10 @@ ideas = {
 	}
 	law_country_borders = {
 		law = yes
-		closed_borders = {
-
-			cost = 450
-			removal_cost = -1
-			level = 5
-
-			available = {
-				custom_trigger_tooltip = {
-					tooltip = eoanb_trigger_tt_law_african_unorg
-				}
-				hidden_trigger = {
-					NOT = {
-						OR = {
-							has_idea = AF_T_unorganized_tribal_nation
-							has_idea = AF_T_unorganized_tribal_nation_2
-							has_idea = AF_T_unorganized_tribal_nation_3
-							has_idea = AF_T_unorganized_tribal_nation_4
-							has_idea = AF_T_unorganized_tribal_nation_5
-						}
-					}
-				}
-
-			}
-
-			modifier = {
-				stability_factor = 0.05
-				consumer_goods_factor = -0.05
-				MONTHLY_POPULATION = -0.15
-				research_speed_factor = 0.05
-			}
-
+		no_borders = {
+			allowed = { always = yes }
+			level = 0
 			default = yes
-
-			cancel_if_invalid = no
-		}
-
-		border_control = {
-
-			cost = 450
-			removal_cost = -1
-			level = 4
-
 			available = {
 				custom_trigger_tooltip = {
 					tooltip = eoanb_trigger_tt_law_african_unorg
@@ -217,27 +195,17 @@ ideas = {
 						}
 					}
 				}
-
-			}
-
-			ai_will_do = {
-   				factor = 1
-
-   				modifier = {
-
-				}
+				has_idea = pre_industrial_era
 			}
 
 			modifier = {
-				MONTHLY_POPULATION = -0.05
-				consumer_goods_factor = -0.02
+				stability_factor = -0.1
+				MONTHLY_POPULATION = 0.05
 			}
 
 			cancel_if_invalid = no
 		}
-
 		open_borders = {
-
 			cost = 450
 			removal_cost = -1
 			level = 3
@@ -279,8 +247,11 @@ ideas = {
 
 			cancel_if_invalid = no
 		}
+		border_control = {
 
-		no_borders = {
+			cost = 450
+			removal_cost = -1
+			level = 4
 
 			available = {
 				custom_trigger_tooltip = {
@@ -297,25 +268,54 @@ ideas = {
 						}
 					}
 				}
-				has_idea = pre_industrial_era
 
 			}
 
 			ai_will_do = {
    				factor = 1
-				modifier = {
+
+   				modifier = {
 
 				}
 			}
 
-			cost = 450
-			removal_cost = -1
-			level = 2
+			modifier = {
+				MONTHLY_POPULATION = -0.05
+				consumer_goods_factor = -0.02
+			}
+
+			cancel_if_invalid = no
+		}
+		closed_borders = {
+			allowed = { always = yes }
+			level = 5
+
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = eoanb_trigger_tt_law_african_unorg
+				}
+				hidden_trigger = {
+					NOT = {
+						OR = {
+							has_idea = AF_T_unorganized_tribal_nation
+							has_idea = AF_T_unorganized_tribal_nation_2
+							has_idea = AF_T_unorganized_tribal_nation_3
+							has_idea = AF_T_unorganized_tribal_nation_4
+							has_idea = AF_T_unorganized_tribal_nation_5
+						}
+					}
+				}
+
+			}
 
 			modifier = {
-				stability_factor = -0.1
-				MONTHLY_POPULATION = 0.05
+				stability_factor = 0.05
+				consumer_goods_factor = -0.05
+				MONTHLY_POPULATION = -0.15
+				research_speed_factor = 0.05
 			}
+
+			default = yes
 
 			cancel_if_invalid = no
 		}
