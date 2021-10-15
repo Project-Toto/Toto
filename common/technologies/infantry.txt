@@ -7617,28 +7617,6 @@ factor = 20 modifier = { factor = 0.8 has_war = no }	 modifier = { factor = 1.5 
 factor = 20 modifier = { factor = 0.8 has_war = no }	 modifier = { factor = 1.5 has_war = yes } modifier = { factor = 0 afr_is_tribal = yes  date < 1875.1.1 }
 		}
 	}
-	tech_infantry_mortar_4 = {
-
-		category_army = {
-			soft_attack = 0.05
-			hard_attack = 0.05
-		}
-	
-		research_cost = 1.3
-		start_year = 1936
-		folder = {
-			name = infantry_folder
-			position = { x = 20 y = @1936}
-		}
-
-		categories = {
-			infantry_weapons
-		}
-
-		ai_will_do = {
-factor = 20 modifier = { factor = 0.8 has_war = no }	 modifier = { factor = 1.5 has_war = yes } modifier = { factor = 0 afr_is_tribal = yes  date < 1875.1.1 }
-		}
-	}
 	
 	tech_infantry_marines_1 = {
 
@@ -7733,31 +7711,6 @@ factor = 20 modifier = { factor = 0.8 has_war = no }	 modifier = { factor = 1.5 
 		}
 		path = {
 			leads_to_tech = tech_infantry_marines_5
-		}
-
-		categories = {
-			infantry_weapons
-			tech_category_naval_infantry
-		}
-
-		ai_will_do = {
-factor = 20 modifier = { factor = 0.8 has_war = no }	 modifier = { factor = 1.5 has_war = yes } modifier = { factor = 0 afr_is_tribal = yes  date < 1875.1.1 }
-		}
-	}
-	tech_infantry_marines_5 = {
-
-		marine = {
-			max_organisation = 5
-		}
-		
-		research_cost = 1.1
-		start_year = 1936
-		folder = {
-			name = infantry_folder
-			position = { x = 22 y = @1936}
-		}
-		path = {
-			leads_to_tech = tech_infantry_special_forces_combined
 		}
 
 		categories = {
@@ -7876,32 +7829,6 @@ factor = 20 modifier = { factor = 0.8 has_war = no }	 modifier = { factor = 1.5 
 factor = 20 modifier = { factor = 0.8 has_war = no }	 modifier = { factor = 1.5 has_war = yes } modifier = { factor = 0 afr_is_tribal = yes  date < 1875.1.1 }
 		}
 	}
-	tech_infantry_mountaineers_5 = {
-
-		mountaineers = {
-			max_organisation = 5
-		}
-		
-		research_cost = 1.1
-		start_year = 1936
-		folder = {
-			name = infantry_folder
-			position = { x = 24 y = @1936}
-		}
-		
-		path = {
-			leads_to_tech = tech_infantry_special_forces_combined
-		}
-
-		categories = {
-			infantry_weapons
-			mountaineers_tech
-		}
-
-		ai_will_do = {
-factor = 20 modifier = { factor = 0.8 has_war = no }	 modifier = { factor = 1.5 has_war = yes } modifier = { factor = 0 afr_is_tribal = yes  date < 1875.1.1 }
-		}
-	}
 	
 	tech_infantry_shocktroops_1 = {
 
@@ -8005,54 +7932,6 @@ factor = 20 modifier = { factor = 0.8 has_war = no }	 modifier = { factor = 1.5 
 factor = 20 modifier = { factor = 0.8 has_war = no }	 modifier = { factor = 1.5 has_war = yes } modifier = { factor = 0 afr_is_tribal = yes  date < 1875.1.1 }
 		}
 	}
-	tech_infantry_shocktroops_5 = {
-
-		shock_troops = {
-			max_organisation = 5
-		}
-		
-		research_cost = 1.1
-		start_year = 1936
-		folder = {
-			name = infantry_folder
-			position = { x = 26 y = @1936}
-		}
-		
-		path = {
-			leads_to_tech = tech_infantry_special_forces_combined
-		}
-
-		categories = {
-			infantry_weapons
-		}
-
-		ai_will_do = {
-factor = 20 modifier = { factor = 0.8 has_war = no }	 modifier = { factor = 1.5 has_war = yes } modifier = { factor = 0 afr_is_tribal = yes  date < 1875.1.1 }
-		}
-	}
-	
-	tech_infantry_special_forces_combined = {
-
-		supply_consumption_factor = 0.02
-		attrition = -0.05
-		out_of_supply_factor = -0.1
-		
-		research_cost = 1.1
-		start_year = 1938
-		folder = {
-			name = infantry_folder
-			position = { x = 24 y = @1938}
-		}
-
-		categories = {
-			infantry_weapons
-			tech_category_naval_infantry
-		}
-
-		ai_will_do = {
-factor = 20 modifier = { factor = 0.8 has_war = no }	 modifier = { factor = 1.5 has_war = yes } modifier = { factor = 0 afr_is_tribal = yes  date < 1875.1.1 }
-		}
-	}
 	
 	#### HIDDEN
 
@@ -8071,92 +7950,5 @@ factor = 20 modifier = { factor = 0.8 has_war = no }	 modifier = { factor = 1.5 
 		ai_will_do = {
 			factor = 0
 		}
-	}
-	
-	tech_infantry_british_redcoats = {
-	
-		enable_subunits = {
-			redcoat_infantry
-		}
-		
-		research_cost = 1
-		start_year = 1857
-		
-		allow = {
-			always = no
-		}
-
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	
-	#Custom for the Swedish FT	
-	
-	tech_kustjagare = {
-		
-		allow = {
-			always = no
-		}
-
-		enable_subunits = {
-			kustjagare_battalion
-		}
-		
-		research_cost = 1
-		start_year = 1857
-		
-	}
-
-	tech_carolean_cav = {
-		
-		allow = {
-			always = no
-		}
-
-		category_cavalry = {
-			breakthrough = 0.15
-		}
-
-		research_cost = 1
-		start_year = 1857
-		
-	}
-
-	tech_carolean_speed = {
-		
-		allow = {
-			always = no
-		}
-
-		category_cavalry = {
-			breakthrough = 0.5
-			maximum_speed = 0.15
-		}
-
-		category_army = {
-			breakthrough = 0.10
-		}		
-		
-		research_cost = 1
-		start_year = 1857
-		
-	}
-
-	tech_carolean_shock = {
-		
-		allow = {
-			always = no
-		}
-
-		category_army = {
-			soft_attack = 0.1
-		}
-		
-		enable_tactic = tactic_breakthrough
-		
-		research_cost = 1
-		start_year = 1857
-		
 	}
 }
