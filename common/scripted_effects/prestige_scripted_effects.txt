@@ -1,18 +1,15 @@
 prestige_global_total_update = {
 	every_country = {
-		limit = {
-			is_player_tag = yes
-		}
 		set_variable = {
 			var = prestige_total
-			value = 5
-		}
-		set_variable = {
-			var = prestige_empire_subjects
 			value = 0
 		}
 		set_variable = {
-			var = prestige_army_subjects
+			var = prestige_empire_subject
+			value = 0
+		}
+		set_variable = {
+			var = prestige_military_subject
 			value = 0
 		}
 	}
@@ -51,6 +48,10 @@ prestige_country_achievement_update = {
 	}
 }
 prestige_country_tech_update = {
+	set_variable = {
+		var = prestige_tech
+		value = 0
+	}
 	set_variable = {
 		var = prestige_tech_research
 		value = researched_techs^num
@@ -132,9 +133,12 @@ prestige_country_empire_update = {
 	}
 	if = {
 		limit = { is_puppet = yes }
-		add_to_variable = {
-			var = OVERLORD.prestige_empire_subject
-			value = prestige_empire
+		add_political_power = 5
+		OVERLORD = {
+			add_to_variable = {
+				var = prestige_empire_subject
+				value = PREV.prestige_empire
+			}
 		}
 	}
 	else = {
@@ -157,10 +161,10 @@ prestige_country_army_update = {
 		var = prestige_army
 		value = 0
 	}
-    set_variable = {
-        var = prestige_army_battalions
-        value = num_battalions
-    }
+	set_variable = {
+		var = prestige_army_battalions
+		value = num_battalions
+	}
 	multiply_variable = {
 		var = prestige_army_battalions
 		value = 0.5
@@ -240,8 +244,8 @@ prestige_country_army_update = {
 		}
 	}
 	add_to_variable = {
-			var = prestige_total
-			value = prestige_army
+		var = prestige_total
+		value = prestige_army
 	}
 }
 prestige_global_total_sort = {
@@ -269,22 +273,19 @@ prestige_global_total_sort = {
 		var = global.prestige_country_rank
 		value = 0
 	}
-	for_loop_effect = {
-		add_to_temp_variable = {
-			var = global.prestige_country_rank_temp
-			value = 1
-		}
+	for_each_loop = {
+		array = global.prestige_country_array_sorting
 		find_highest_in_array = {
-			array = global.prestige_country_total_array_sorting
-			index = prestige_index_temp 
-		}
+			array = global.prestige_country_array_sorting
+			index = global.prestige_index_temp
+		}`o
 		add_to_array = {
 			array = global.prestige_country_array
-			value = global.prestige_country_array_sorting^prestige_index_temp
+			value = global.prestige_country_array_sorting^global.prestige_index_temp
 		}
 		add_to_array = {
 			array = global.prestige_country_total_array
-			value = global.prestige_country_total_array_sorting^prestige_index_temp
+			value = global.prestige_country_total_array_sorting^global.prestige_index_temp
 		}
 		add_to_array = {
 			array = global.prestige_country_achievement_array
@@ -307,7 +308,7 @@ prestige_global_total_sort = {
 			value = global.prestige_country_array_sorting^prestige_index_temp:prestige_army
 		}
 		set_variable = {
-			var = global.prestige_country_array_sorting^prestige_index_temp:prestige_country_total_rank
+			var = global.prestige_country_array_sorting^global.prestige_index_temp:prestige_country_total_rank
 			value = global.prestige_country_rank_temp
 		}
 		set_variable = {
@@ -318,17 +319,13 @@ prestige_global_total_sort = {
 			var = global.prestige_country_array_sorting^prestige_index_temp:prestige_country_total_rank_mod
 			value = 10
 		}
-		remove_from_array = {
-			array = global.prestige_country_array_sorting
-			index = prestige_index_temp
-		}
-		remove_from_array = {
-			array = global.prestige_country_total_array_sorting
-			index = prestige_index_temp
+		set_variable = {
+			value = global.prestige_country_total_array_sorting^prestige_index_temp
+			value = -1
 		}
 	}
-	clear_array = prestige_country_array_sorting
-	clear_array = prestige_country_total_array_sorting
+	# clear_array = prestige_country_array_sorting
+	# clear_array = prestige_country_total_array_sorting
 }
 
 prestige_country_change = {

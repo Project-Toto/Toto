@@ -226,7 +226,7 @@ defined_text = {
 	}
 }
 defined_text = {
-	name = GetNationalPrestigeTotalDisplayEmpireSubjects
+	name = GetNationalPrestigeTotalDisplayEmpireSubject
 	text = {
 		trigger = {
 			check_variable = {
@@ -234,15 +234,6 @@ defined_text = {
 				value = 0
 				compare = greater_than
 			}
-		}
-		localization_key = prestige_country_total_display_empire_subjects
-	}
-}
-defined_text = {
-	name = GetNationalPrestigeTotalDisplayEmpireSubject
-	text = {
-		trigger = {
-			is_puppet = yes
 		}
 		localization_key = prestige_country_total_display_empire_subject
 	}
@@ -327,24 +318,24 @@ defined_text = {
 	}
 }
 defined_text = {
-	name = GetNationalPrestigeTotalDisplayMilitarySubjects
+	name = GetNationalPrestigeTotalDisplayMilitarySubject
 	text = {
 		trigger = {
 			check_variable = {
-				var = prestige_army
+				var = prestige_army_subject
 				value = 0
 				compare = greater_than
 			}
 		}
-		localization_key = prestige_country_total_display_military_subjects
+		localization_key = prestige_country_total_display_military_subject
 	}
 }
 defined_text = {
-	name = GetNationalPrestigeTotalDisplayMilitarySubject
+	name = GetNationalPrestigeTotalDisplaySubject
 	text = {
 		trigger = {
 			is_puppet = yes
 		}
-		localization_key = prestige_country_total_display_military_subject
+		localization_key = prestige_country_total_display_subject
 	}
 }
