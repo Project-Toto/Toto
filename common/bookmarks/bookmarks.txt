@@ -3,7 +3,7 @@ bookmarks = {
 		name = "SOUDAN_1857"
 		desc = "SOUDAN_1857_DESC"
 		date = 1857.07.18
-		picture = "GFX_select_date_1936"
+		picture = "GFX_select_date_1857_soudan"
 		default_country = "SKT"
 		default = yes
 		
@@ -188,7 +188,7 @@ bookmarks = {
 		}
 		"JSH"={
 			history = "JSH_CALIPHATE_1857_DESC"
-			ideology = tradtionalism
+			ideology = traditionalism
 			ideas = {
 
 

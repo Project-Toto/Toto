@@ -29,24 +29,24 @@ set_technology = {
 
 	add_ideas = {
 		#POLITICS
-
+		law_country_power_secondary
 
 
 		agrarian
 		non_monarchical_system
 		absolute_monarchy
-	law_army_tribal_advanced
+		law_army_tribal_advanced
 
 
 		closed_economy
 		three_percent
 		normal_taxes
 	#
-	lp_land_estates
+		lp_land_estates
 
 		stagnation_growth
 		border_control
-	manpower_tribal_every_tenth
+		manpower_tribal_every_tenth
 		slavery
 		absolutism
 

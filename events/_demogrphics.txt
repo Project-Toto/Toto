@@ -1,0 +1,10 @@
+add_namespace = demographics
+
+country_event = {
+	id = demographics.1
+
+	option = {
+		name = demographics.1.a
+		prestige_global_total_update = yes
+	}
+}

@@ -139,7 +139,7 @@
 		color_ui = rgb { 114 78 78 }
 	}
 # Arabia
-	HIL = {
+	JSH = {
 		color = rgb { 170 105 86 }
 		color_ui = rgb { 170 105 86 }
 	}

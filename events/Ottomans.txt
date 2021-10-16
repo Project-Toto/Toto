@@ -1502,7 +1502,7 @@ country_event = {#OTO - Constantinople Conference
 		ai_chance = { factor = 95}
 		every_country = {
 			limit={
-				is_great_power = yes
+				has_idea = law_country_power_great
 			}
 			country_event ={id=OTO_events.26}
 		}

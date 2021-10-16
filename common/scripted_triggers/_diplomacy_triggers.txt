@@ -1,31 +1,48 @@
 is_non_player_tag = {
 	custom_trigger_tooltip = {
 		tooltip = is_non_player_tag_tt
-		OR = {
-			tag = TES
-			tag = EUR
-			tag = ENG
-			tag = FRA
-			tag = SPR
-			tag = GER
-			tag = ITA
-			tag = AUS
-			tag = DEN
-			tag = SWE
-			tag = RUS
-			tag = USA
-			tag = CSA
-			tag = BRA
-			tag = HOL
+		if = {
+			limit = {
+				OR = {
+					tag = TES
+					tag = EUR
+					tag = ENG
+					tag = FRA
+					tag = SPR
+					tag = GER
+					tag = ITA
+					tag = AUS
+					tag = DEN
+					tag = SWE
+					tag = RUS
+					tag = USA
+					tag = CSA
+					tag = BRA
+					tag = HOL
+				}
+			}
+			always = yes
+		}
+		else = {
+			always = no
 		}
 	}
 }
 
 is_player_tag = {
-	NOT = {
-		OR = {
-			tag = EUR
-			tag = TES
+	custom_trigger_tooltip = {
+		tooltip = is_player_tag_tt
+		if = {
+			limit = {
+				OR = {
+					tag = TES
+					tag = EUR
+				}
+			}
+			always = no
+		}
+		else = {
+			always = yes
 		}
 	}
 }

@@ -92,7 +92,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = OTO_vic_crimean_debt_question 
+		id = OTO_vic_crimean_debt_question
 		icon = GFX_goal_focus_bankruptcy
 		cost = 70.00
 		x = 10
@@ -201,7 +201,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_HISTORICAL
 		}
-		
+
 		completion_reward = {
 			add_command_power = -50
 			add_war_support = -0.1
@@ -244,7 +244,7 @@ focus_tree = {
 		}
 
 	}
-	
+
 	focus = {
 		id = OTO_vic_first_crimean_war_debt_payoff
 		icon = GFX_goal_generic_neutrality_focus
@@ -483,7 +483,7 @@ focus_tree = {
 					}
 				}
 			}
-			
+
 		}
 		ai_will_do={
 			factor = 1
@@ -536,7 +536,7 @@ focus_tree = {
 		}
 
 	}
-	focus = {  
+	focus = {
 		id = OTO_vic_Force_convert_the_churches
 		icon = GFX_focus_crush_orthodox
 		cost = 35.00
@@ -558,14 +558,14 @@ focus_tree = {
 			}
 			add_stability = -0.05
 			#set_temp_variable = { eoanb_prestige_change = 1 }
-			#eoanb_change_prestige_score = yes
+			#prestige_country_change = yes
 			every_country={
 				limit={
 					OR={
 						tag = ENG
 						tag = FRA
 					}
-				}	
+				}
 				add_opinion_modifier = {
 					target = OTO
 					modifier = small_decrease
@@ -604,9 +604,9 @@ focus_tree = {
 				popularity = 0.05
 			}
 			add_stability = 0.05
-			
+
 			set_temp_variable = { eoanb_prestige_change = 1 }
-			eoanb_change_prestige_score = yes
+			prestige_country_change = yes
 		}
 		ai_will_do={
 			factor = 1
@@ -879,7 +879,7 @@ focus_tree = {
 		}
 
 	}
-	
+
 	focus = {
 		id = OTO_vic_increased_reforms
 		icon = GFX_goal_focus_reform_government
@@ -903,7 +903,7 @@ focus_tree = {
 		}
 
 	}
-	
+
 	focus = {
 		id = OTO_vic_the_pay_of_the_grand_vizier
 		icon = GFX_focus_generic_self_management
@@ -950,7 +950,7 @@ focus_tree = {
 		}
 
 	}
-	
+
 	focus = {
 		id = OTO_vic_1869_nationality_law
 		icon = GFX_goal_focus_enact_law
@@ -1046,7 +1046,7 @@ focus_tree = {
 		}
 
 	}
-	
+
 	focus = {
 		id = OTO_vic_ideals_of_the_tanzimatcilar
 		icon = GFX_focus_tazimatcilar
@@ -1079,9 +1079,9 @@ focus_tree = {
 		}
 
 	}
-	
-	
-	
+
+
+
 	focus = {
 		id = OTO_vic_future_of_the_empire
 		icon = GFX_focus_ottoman_monarchy
@@ -1320,9 +1320,9 @@ focus_tree = {
 		#	always = yes
 		#}
 		available={
-			FRA={
+			FRA = {
 				exists = yes
-				is_great_power = yes
+				has_idea = law_country_power_great
 			}
 		}
 		dynamic = yes
@@ -1401,7 +1401,7 @@ focus_tree = {
 		available={
 			GER={
 				exists = yes
-				is_great_power = yes
+				has_idea = law_country_power_great
 			}
 		}
 		dynamic = yes
@@ -1555,7 +1555,7 @@ focus_tree = {
 						}
 						cost_factor = 0
 					}
-				
+
 				}
 			}
 		}
@@ -1620,10 +1620,10 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			
+
 		}
 	}
-	
+
 	focus = {
 		id = OTO_vic_Grand_Vizier_Power
 		icon = GFX_focus_generic_self_management
@@ -1964,7 +1964,7 @@ focus_tree = {
 		}
 	}
 
-	
+
 	focus = {
 		id = OTO_vic_Internal_Reforms
 		icon = GFX_focus_generic_self_management
@@ -1985,8 +1985,8 @@ focus_tree = {
 			add_stability = 0.15
 		}
 	}
-	
-	
+
+
 	focus = {
 		id = OTO_vic_economic_reforms
 		icon = GFX_focus_focus_generic_industry_1
@@ -2117,7 +2117,7 @@ focus_tree = {
 		}
 
 	}
-	
+
 	focus = {
 		id = OTO_vic_begin_modernization_efforts
 		icon = GFX_focus_generic_industry_2

@@ -1,3 +1,42 @@
 afr_give_colonal_power = {
 	
 }
+OMA_muscat_and_oman_divide_decrease = {
+
+}
+STATE_TAG_DCI_increase_by_3 = {
+
+}
+STATE_TAG_DCI_increase_by_5 = {
+
+}
+STATE_TAG_DCI_increase_by_2 = {
+
+}
+STATE_TAG_DCI_increase_by_6 = {
+
+}
+economic_focus_factories_neccessary_to_used_effect = {
+
+}
+afr_add_cores_home_region_tribal = {
+
+}
+DCI_increase_by_1 = {
+
+}
+DCI_decrease_by_1 = {
+
+}
+DCI_decrease_by_2 = {
+
+}
+OTO_lessen_grain_crisis = {
+
+}
+decrease_ps_by_one =  {
+
+}
+afr_increase_taxes = {
+
+}

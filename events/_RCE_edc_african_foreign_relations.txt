@@ -2654,7 +2654,7 @@ news_event = { #the scramble begins
 			NOT={
 				AND={
 					OR={
-						is_great_power = yes
+						has_idea = law_country_power_great
 						is_secondary_power = yes
 					}
 					capital_scope = {is_on_continent = europe}
@@ -2672,7 +2672,7 @@ news_event = { #the scramble begins
 		name = EDC_afr.42.b#We must exploit the continent before the other powers get to it
 		trigger={
 			OR={
-				is_great_power = yes
+				has_idea = law_country_power_great
 				is_secondary_power = yes
 			}
 			capital_scope = {is_on_continent = europe}
@@ -4250,7 +4250,7 @@ country_event = {###ping for the scramble
 						AND={
 							capital_scope = {is_on_continent = europe}
 							OR={
-								is_great_power = yes
+								has_idea = law_country_power_great
 								is_secondary_power = yes
 							}
 						}

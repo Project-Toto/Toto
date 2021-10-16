@@ -36,7 +36,7 @@
 		}
 	}
 	defined_text = {
-		GetNationalPowerIcon
+		name = GetNationalPowerIcon
 		text = {
 			trigger = { has_idea = law_country_power_great }
 			localization_key = GFX_idea_power_great

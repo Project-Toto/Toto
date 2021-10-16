@@ -1734,7 +1734,7 @@ guiTypes = {
 		}
 
 		containerWindowType = {
-			name = "armour_folder"
+			name = "tech_folder_army_armor"
 			position = { x = 0 y = 47 }
 			size = { width = 100%% height = 100%% }
 			margin = { top = 13 left = 13 bottom = 24 right = 25 }
@@ -6846,7 +6846,7 @@ guiTypes = {
 
 		#Mechanical Engineering
 		containerWindowType = {
-			name = "mechanical_engineering_folder"
+			name = "tech_folder_engineering"
 			position = { x = 0 y = 47 }
 			size = { width = 100%% height = 100%% }
 			margin = { top = 13 left = 13 bottom = 24 right = 25 }
@@ -8133,7 +8133,7 @@ guiTypes = {
 
 		#Electronics and Instruments
 		containerWindowType = {
-			name = "electronics_devices_folder"
+			name = "tech_folder_devices"
 			position = { x = 0 y = 47 }
 			size = { width = 100%% height = 100%% }
 			margin = { top = 13 left = 13 bottom = 24 right = 25 }
@@ -9927,7 +9927,7 @@ guiTypes = {
 	}
 
 	containerWindowType = {
-		name = "techtree_armour_folder_item"
+		name = "techtree_tech_folder_army_armor_item"
 		position = { x = -55 y = 0 }
 		size = { width = 183 height = 84 }
 		clipping = no
@@ -10033,7 +10033,7 @@ guiTypes = {
 	}
 
 	containerWindowType = {
-		name = "techtree_armour_folder_small_item"
+		name = "techtree_tech_folder_army_armor_small_item"
 		position = { x = 0 y = 0 }
 		size = { width = 72 height = 72 }
 		clipping = no
@@ -10896,7 +10896,7 @@ guiTypes = {
 
 	#Mechanical Engineering
 	containerWindowType = {
-		name = "techtree_mechanical_engineering_folder_item"
+		name = "techtree_tech_folder_engineering_item"
 		position = { x = 0 y = 5 }
 		size = { width = 204 height = 72 }
 		clipping = no
@@ -10932,7 +10932,7 @@ guiTypes = {
 	}
 
 	containerWindowType = {
-		name = "techtree_mechanical_engineering_folder_small_item"
+		name = "techtree_tech_folder_engineering_small_item"
 		position = { x = 0 y = 0 }
 		size = { width = 72 height = 72 }
 		clipping = no
@@ -11112,7 +11112,7 @@ guiTypes = {
 
 	#Electronics and Devices
 	containerWindowType = {
-		name = "techtree_electronics_devices_folder_item"
+		name = "techtree_tech_folder_devices_item"
 		position = { x = 0 y = 5 }
 		size = { width = 204 height = 72 }
 		clipping = no
@@ -11148,7 +11148,7 @@ guiTypes = {
 	}
 
 	containerWindowType = {
-		name = "techtree_electronics_devices_folder_small_item"
+		name = "techtree_tech_folder_devices_small_item"
 		position = { x = 0 y = 0 }
 		size = { width = 72 height = 72 }
 		clipping = no

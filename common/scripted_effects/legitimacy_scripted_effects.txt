@@ -10,7 +10,7 @@ political_legitimacy_reset = {
 political_legitimacy_drift_calc = {
 	# Equilibrium Base
 	set_variable = { political_legitimacy_equilibrium = 0.68 }
-	
+
 	# Equilibrium Modifiers
 	if = {
 		limit = { is_subject = no }
@@ -27,7 +27,7 @@ political_legitimacy_drift_calc = {
 		add_to_variable = { political_legitimacy_equilibrium = -0.05 }
 	}
 	if = {
-		limit = { 
+		limit = {
 			OR = {
 				AND = {
 					tag = PAP
@@ -64,7 +64,7 @@ political_legitimacy_drift_calc = {
 			add_to_variable = { political_legitimacy_equilibrium = -0.10 }
 		}
 		else_if = {
-			limit = { 
+			limit = {
 				has_government = autocracy
 				has_idea = no_heir
 			}
@@ -178,7 +178,7 @@ political_legitimacy_drift_calc = {
 			}
 		}
 		add_to_variable = { political_legitimacy_equilibrium = -0.10 }
-	}		
+	}
 	if = {
 		limit = { has_idea = edc_bankrupt }
 		add_to_variable = { political_legitimacy_equilibrium = -0.30 }
@@ -243,7 +243,7 @@ political_legitimacy_drift_calc = {
 		}
 	}
 	if = {
-		limit = { is_great_power = yes }
+		limit = { has_idea = law_country_power_great }
 		add_to_variable = { political_legitimacy_equilibrium = 0.05 }
 	}
 	else_if = {
@@ -264,7 +264,7 @@ political_legitimacy_drift_calc = {
 	}
 	set_temp_variable = { political_legitimacy_equilibrium_difference = political_legitimacy_equilibrium }
 	subtract_from_temp_variable = { political_legitimacy_equilibrium_difference = political_legitimacy }
-	
+
 	if = {
 		limit = { check_variable = { political_legitimacy_equilibrium_difference < -0.29 } }
 		set_variable = { political_legitimacy_drift = -0.04 }
@@ -322,11 +322,11 @@ political_legitimacy_drift = {
 	}
 
 	political_legitimacy_drift_calc = yes
-	
+
 	# Apply Drift
 	set_temp_variable = { political_legitimacy_change_temp = political_legitimacy_drift }
 	political_legitimacy_change = yes
-}		
+}
 
 political_legitimacy_change = {
 	custom_effect_tooltip = political_legitimacy_change_tt

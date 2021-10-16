@@ -1,7 +1,7 @@
 on_actions = {
 	on_startup = {
 		effects = {
-			EUR = {  prestige_global_total_update = yes }
+			prestige_global_total_update = yes
 		}
 	}
 

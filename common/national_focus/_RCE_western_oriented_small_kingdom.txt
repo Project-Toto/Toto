@@ -373,7 +373,7 @@ focus_tree = {
 		completion_reward = {
 			random_owned_state={
 				add_resource = {
-					type = rubber
+					type = resource_rubber
 					amount = 4
 				}
 			}

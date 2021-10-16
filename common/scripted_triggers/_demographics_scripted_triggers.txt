@@ -1,287 +1,325 @@
 # Religion
 	demographics_majority_religion_animist = {
-		custom_trigger_tooltip = law_country_religion_animist_trigger_tt
-		if = {
-			limit = {
-				check_variable = {
-					var = national_religion_array^0
-					value = global.religion_animist
+		custom_trigger_tooltip = {
+			tooltip = law_country_religion_animist_trigger_tt
+			if = {
+				limit = {
+					check_variable = {
+						var = national_religion_array^0
+						value = global.religion_animist
+					}
+					always = yes
 				}
-				always = yes
 			}
-		}
-		else = {
-			always = no
+			else = {
+				always = no
+			}
 		}
 	}
 	demographics_majority_religion_fetishist = {
-		custom_trigger_tooltip = law_country_religion_fetishist_trigger_tt
-		if = {
-			limit = {
-				check_variable = {
-					var = national_religion_array^0
-					value = global.religion_fetishist
+		custom_trigger_tooltip = {
+			tooltip = law_country_religion_fetishist_trigger_tt
+			if = {
+				limit = {
+					check_variable = {
+						var = national_religion_array^0
+						value = global.religion_fetishist
+					}
+					always = yes
 				}
-				always = yes
 			}
-		}
-		else = {
-			always = no
+			else = {
+				always = no
+			}
 		}
 	}
 	demographics_majority_religion_ancestorship = {
-		custom_trigger_tooltip = law_country_religion_ancestorship_trigger_tt
-		if = {
-			limit = {
-				check_variable = {
-					var = national_religion_array^0
-					value = global.religion_ancestorship
+		custom_trigger_tooltip = {
+			tooltip = law_country_religion_ancestorship_trigger_tt
+			if = {
+				limit = {
+					check_variable = {
+						var = national_religion_array^0
+						value = global.religion_ancestorship
+					}
+					always = yes
 				}
-				always = yes
 			}
-		}
-		else = {
-			always = no
+			else = {
+				always = no
+			}
 		}
 	}
 	demographics_majority_religion_mossi = {
-		custom_trigger_tooltip = law_country_religion_mossi_trigger_tt
-		if = {
-			limit = {
-				check_variable = {
-					var = national_religion_array^0
-					value = global.religion_mossi
+		custom_trigger_tooltip = {
+			tooltip = law_country_religion_mossi_trigger_tt
+			if = {
+				limit = {
+					check_variable = {
+						var = national_religion_array^0
+						value = global.religion_mossi
+					}
+					always = yes
 				}
-				always = yes
 			}
-		}
-		else = {
-			always = no
+			else = {
+				always = no
+			}
 		}
 	}
 	demographics_majority_religion_zoroastrian = {
-		custom_trigger_tooltip = law_country_religion_zoroastrian_trigger_tt
-		if = {
-			limit = {
-				check_variable = {
-					var = national_religion_array^0
-					value = global.religion_zoroastrian
+		custom_trigger_tooltip = {
+			tooltip = law_country_religion_zoroastrian_trigger_tt
+			if = {
+				limit = {
+					check_variable = {
+						var = national_religion_array^0
+						value = global.religion_zoroastrian
+					}
+					always = yes
 				}
-				always = yes
 			}
-		}
-		else = {
-			always = no
+			else = {
+				always = no
+			}
 		}
 	}
 	demographics_majority_religion_jewish = {
-		custom_trigger_tooltip = law_country_religion_jewish_trigger_tt
-		if = {
-			limit = {
-				check_variable = {
-					var = national_religion_array^0
-					value = global.religion_jewish
+		custom_trigger_tooltip = {
+			tooltip = law_country_religion_jewish_trigger_tt
+			if = {
+				limit = {
+					check_variable = {
+						var = national_religion_array^0
+						value = global.religion_jewish
+					}
+					always = yes
 				}
-				always = yes
 			}
-		}
-		else = {
-			always = no
+			else = {
+				always = no
+			}
 		}
 	}
 	demographics_majority_religion_druze = {
-		custom_trigger_tooltip = law_country_religion_druze_trigger_tt
-		if = {
-			limit = {
-				check_variable = {
-					var = national_religion_array^0
-					value = global.religion_druze
+		custom_trigger_tooltip = {
+			tooltip = law_country_religion_druze_trigger_tt
+			if = {
+				limit = {
+					check_variable = {
+						var = national_religion_array^0
+						value = global.religion_druze
+					}
+					always = yes
 				}
-				always = yes
 			}
-		}
-		else = {
-			always = no
+			else = {
+				always = no
+			}
 		}
 	}
 	demographics_majority_religion_waaqist = {
-		custom_trigger_tooltip = law_country_religion_waaqist_trigger_tt
-		if = {
-			limit = {
-				check_variable = {
-					var = national_religion_array^0
-					value = global.religion_waaqist
+		custom_trigger_tooltip = {
+			tooltip = law_country_religion_waaqist_trigger_tt
+			if = {
+				limit = {
+					check_variable = {
+						var = national_religion_array^0
+						value = global.religion_waaqist
+					}
+					always = yes
 				}
-				always = yes
 			}
-		}
-		else = {
-			always = no
+			else = {
+				always = no
+			}
 		}
 	}
 	demographics_majority_religion_catholic = {
-		custom_trigger_tooltip = law_country_religion_catholic_trigger_tt
-		if = {
-			limit = {
-				check_variable = {
-					var = national_religion_array^0
-					value = global.religion_catholic
+		custom_trigger_tooltip = {
+			tooltip = law_country_religion_catholic_trigger_tt
+			if = {
+				limit = {
+					check_variable = {
+						var = national_religion_array^0
+						value = global.religion_catholic
+					}
+					always = yes
 				}
-				always = yes
 			}
-		}
-		else = {
-			always = no
+			else = {
+				always = no
+			}
 		}
 	}
 	demographics_majority_religion_protestant = {
-		custom_trigger_tooltip = law_country_religion_protestant_trigger_tt
-		if = {
-			limit = {
-				check_variable = {
-					var = national_religion_array^0
-					value = global.religion_protestant
+		custom_trigger_tooltip = {
+			tooltip = law_country_religion_protestant_trigger_tt
+			if = {
+				limit = {
+					check_variable = {
+						var = national_religion_array^0
+						value = global.religion_protestant
+					}
+					always = yes
 				}
-				always = yes
 			}
-		}
-		else = {
-			always = no
+			else = {
+				always = no
+			}
 		}
 	}
 	demographics_majority_religion_anglican = {
-		custom_trigger_tooltip = law_country_religion_anglican_trigger_tt
-		if = {
-			limit = {
-				check_variable = {
-					var = national_religion_array^0
-					value = global.religion_anglican
+		custom_trigger_tooltip = {
+			tooltip = law_country_religion_anglican_trigger_tt
+			if = {
+				limit = {
+					check_variable = {
+						var = national_religion_array^0
+						value = global.religion_anglican
+					}
+					always = yes
 				}
-				always = yes
 			}
-		}
-		else = {
-			always = no
+			else = {
+				always = no
+			}
 		}
 	}
 	demographics_majority_religion_orthodox = {
-		custom_trigger_tooltip = law_country_religion_orthodox_trigger_tt
-		if = {
-			limit = {
-				check_variable = {
-					var = national_religion_array^0
-					value = global.religion_orthodox
+		custom_trigger_tooltip = {
+			tooltip = law_country_religion_orthodox_trigger_tt
+			if = {
+				limit = {
+					check_variable = {
+						var = national_religion_array^0
+						value = global.religion_orthodox
+					}
+					always = yes
 				}
-				always = yes
 			}
-		}
-		else = {
-			always = no
+			else = {
+				always = no
+			}
 		}
 	}
 	demographics_majority_religion_coptic = {
-		custom_trigger_tooltip = law_country_religion_coptic_trigger_tt
-		if = {
-			limit = {
-				check_variable = {
-					var = national_religion_array^0
-					value = global.religion_coptic
+		custom_trigger_tooltip = {
+			tooltip = law_country_religion_coptic_trigger_tt
+			if = {
+				limit = {
+					check_variable = {
+						var = national_religion_array^0
+						value = global.religion_coptic
+					}
+					always = yes
 				}
-				always = yes
 			}
-		}
-		else = {
-			always = no
+			else = {
+				always = no
+			}
 		}
 	}
 	demographics_majority_religion_sunni = {
-		custom_trigger_tooltip = law_country_religion_sunni_trigger_tt
-		if = {
-			limit = {
-				check_variable = {
-					var = national_religion_array^0
-					value = global.religion_sunni
+		custom_trigger_tooltip = {
+			tooltip = law_country_religion_sunni_trigger_tt
+			if = {
+				limit = {
+					check_variable = {
+						var = national_religion_array^0
+						value = global.religion_sunni
+					}
+					always = yes
 				}
-				always = yes
 			}
-		}
-		else = {
-			always = no
+			else = {
+				always = no
+			}
 		}
 	}
 	demographics_majority_religion_shiite = {
-		custom_trigger_tooltip = law_country_religion_shiite_trigger_tt
-		if = {
-			limit = {
-				check_variable = {
-					var = national_religion_array^0
-					value = global.religion_shiite
+		custom_trigger_tooltip = {
+			tooltip = law_country_religion_shiite_trigger_tt
+			if = {
+				limit = {
+					check_variable = {
+						var = national_religion_array^0
+						value = global.religion_shiite
+					}
+					always = yes
 				}
-				always = yes
 			}
-		}
-		else = {
-			always = no
+			else = {
+				always = no
+			}
 		}
 	}
 	demographics_majority_religion_ibadi = {
-		custom_trigger_tooltip = law_country_religion_ibadi_trigger_tt
-		if = {
-			limit = {
-				check_variable = {
-					var = national_religion_array^0
-					value = global.religion_ibadi
+		custom_trigger_tooltip = {
+			tooltip = law_country_religion_ibadi_trigger_tt
+			if = {
+				limit = {
+					check_variable = {
+						var = national_religion_array^0
+						value = global.religion_ibadi
+					}
+					always = yes
 				}
-				always = yes
 			}
-		}
-		else = {
-			always = no
+			else = {
+				always = no
+			}
 		}
 	}
 	demographics_majority_religion_cult_of_personality = {
-		custom_trigger_tooltip = law_country_religion_cult_of_personality_trigger_tt
-		if = {
-			limit = {
-				check_variable = {
-					var = national_religion_array^0
-					value = global.religion_cult_of_personality
+		custom_trigger_tooltip = {
+			tooltip = law_country_religion_cult_of_personality_trigger_tt
+			if = {
+				limit = {
+					check_variable = {
+						var = national_religion_array^0
+						value = global.religion_cult_of_personality
+					}
+					always = yes
 				}
-				always = yes
 			}
-		}
-		else = {
-			always = no
+			else = {
+				always = no
+			}
 		}
 	}
 	demographics_majority_religion_vodun = {
-		custom_trigger_tooltip = law_country_religion_vodun_trigger_tt
-		if = {
-			limit = {
-				check_variable = {
-					var = national_religion_array^0
-					value = global.religion_vodun
+		custom_trigger_tooltip = {
+			tooltip = law_country_religion_vodun_trigger_tt
+			if = {
+				limit = {
+					check_variable = {
+						var = national_religion_array^0
+						value = global.religion_vodun
+					}
+					always = yes
 				}
-				always = yes
 			}
-		}
-		else = {
-			always = no
+			else = {
+				always = no
+			}
 		}
 	}
 	demographics_majority_religion_atheist = {
-		custom_trigger_tooltip = law_country_religion_atheist_trigger_tt
-		if = {
-			limit = {
-				check_variable = {
-					var = national_religion_array^0
-					value = global.religion_atheist
+		custom_trigger_tooltip = {
+			tooltip = law_country_religion_atheist_trigger_tt
+			if = {
+				limit = {
+					check_variable = {
+						var = national_religion_array^0
+						value = global.religion_atheist
+					}
+					always = yes
 				}
-				always = yes
 			}
-		}
-		else = {
-			always = no
+			else = {
+				always = no
+			}
 		}
 	}
 # Culture

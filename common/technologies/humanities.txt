@@ -1,4 +1,14 @@
 technologies = {
+	early_medicine = {
+		research_speed_factor = 0.01
+
+		research_cost = 0.75
+		start_year = 1400
+		folder = {
+			name = tech_folder_society
+			position = { x = 4 y = 0 }
+		}
+	}
 	tribal_society = {
 		research_speed_factor = 0.01
 

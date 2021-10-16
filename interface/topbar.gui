@@ -255,8 +255,8 @@ guiTypes = {
 
 			containerWindowType = {
 				name = "toggle_music_commands_win"
-				position = { x= -259 y = 39}
-				show_position = { x= -450 y = 39 }
+				position = { x= -300 y = 39 }
+				show_position = { x= -480 y = 39 }
 				show_animation_type = decelerated
 				hide_animation_type = accelerated
 				animation_time = 450
@@ -295,7 +295,7 @@ guiTypes = {
 			iconType = {
 				name ="armyoverview_buttons_bg"
 				spriteType = "GFX_armyoverview_buttons_bg"
-				position = { x= -399 y = -2 }
+				position = { x= -399 y = 0 }
 				Orientation = "UPPER_RIGHT"
 				alwaystransparent = yes
 			}
@@ -536,7 +536,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "menu_button"
-			position = { x = -35 y = 7 }
+			position = { x = -35 y = 8 }
 			quadTextureSprite ="GFX_menu_button"
 			buttonText = ""
 			buttonFont = "Main_14_black"
@@ -548,7 +548,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "help_button"
-			position = { x = -29 y = 34 }
+			position = { x = -28 y = 35 }
 			quadTextureSprite ="GFX_help_button"
 			buttonText = ""
 			buttonFont = "Main_14_black"
@@ -561,7 +561,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "achievements_button"
-			position = { x = -131 y = 62 }
+			position = { x = -129 y = 63 }
 			quadTextureSprite ="GFX_achievements_button"
 			buttonText = ""
 			buttonFont = "Main_14_black"
@@ -572,7 +572,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "playlist_button"
-			position = { x = -311 y = 46 }
+			position = { x = -314 y = 58 }
 			quadTextureSprite ="GFX_playlist_button"
 			buttonText = ""
 			buttonFont = "Main_14_black"
@@ -584,7 +584,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "dismissed_alerts_button"
-			position = { x = -35 y = 62 }
+			position = { x = -36 y = 64 }
 			quadTextureSprite ="GFX_show_dismissed_alerts_icon"
 			buttonText = ""
 			buttonFont = "Main_14_black"
@@ -790,7 +790,7 @@ guiTypes = {
 			
 			buttonType = {
 				name = "navy_button"
-				position = { x = -226 y = 8 }
+				position = { x = -227 y = 8 }
 				quadTextureSprite ="GFX_navyoverview_button"
 				Orientation = "UPPER_right"
 				shortcut = "p"
@@ -800,7 +800,7 @@ guiTypes = {
 
 			buttonType = {
 				name = "air_button"
-				position = { x = -180 y = 8 }
+				position = { x = -178 y = 8 }
 				quadTextureSprite ="GFX_airoverview_button"
 				Orientation = "UPPER_right"
 				shortcut = "l"
@@ -840,16 +840,16 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "country_power_container"
-		position = { x = 12 y = 56 }
+		position = { x = 6 y = 56 }
 		size = { width = 100 height = 30 }
 
 		instantTextBoxType = {
 			name ="country_power"
-			position = { x= 0 y = 4 }
+			position = { x = 0 y = 4 }
 			font = "hoi_16mbs"
 			text = "CURRENT_COUNTRY_POWER"
 			format = center
-			maxWidth = 100
+			maxWidth = 110
 			maxHeight = 24
 			fixedsize = yes
 
