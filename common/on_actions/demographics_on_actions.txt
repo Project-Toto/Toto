@@ -1,13 +1,15 @@
 on_actions = {
 	on_startup = {
-		demographics_global_culture_setup = yes
-		demographics_global_religion_setup = yes
-		set_variable = { global.mapmode_refresh_rate = 1 }
-		every_country = {
-			limit = { is_player_tag = yes }
-			demographics_national_religion_update = yes
-			demographics_national_culture_update = yes
-			
+		effect = {
+			demographics_global_culture_setup = yes
+			demographics_global_religion_setup = yes
+			set_variable = { global.mapmode_refresh_rate = 1 }
+			every_country = {
+				limit = { is_player_tag = yes }
+				demographics_national_religion_update = yes
+				demographics_national_culture_update = yes
+
+			}
 		}
 	}
 }

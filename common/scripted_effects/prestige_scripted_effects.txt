@@ -18,7 +18,7 @@ prestige_global_total_update = {
 			is_player_tag = yes
 			is_puppet = yes
 		}
-		prestige_country_acheivement_update  = yes
+		prestige_country_achievement_update  = yes
 		prestige_country_tech_update = yes
 		prestige_country_economy_update = yes
 		prestige_country_empire_update = yes
@@ -33,7 +33,7 @@ prestige_global_total_update = {
 			is_player_tag = yes
 			is_puppet = no
 		}
-		prestige_country_acheivement_update  = yes
+		prestige_country_achievement_update  = yes
 		prestige_country_tech_update = yes
 		prestige_country_economy_update = yes
 		prestige_country_empire_update = yes
@@ -228,9 +228,11 @@ prestige_country_army_update = {
     # Edit
 	if = {
 		limit = { is_puppet = yes }
-		add_to_variable = {
-			var = OVERLORD.prestige_army_subject
-			value = prestige_army
+		OVERLORD = {
+			add_to_variable = {
+				var = prestige_army_subject
+				value = PREV.prestige_army
+			}
 		}
 	}
 	else = {
@@ -269,7 +271,7 @@ prestige_global_total_sort = {
 			value = THIS.prestige_total
 		}
 	}
-	set_temp_variable = {
+	set_variable = {
 		var = global.prestige_country_rank
 		value = 0
 	}
@@ -278,7 +280,7 @@ prestige_global_total_sort = {
 		find_highest_in_array = {
 			array = global.prestige_country_array_sorting
 			index = global.prestige_index_temp
-		}`o
+		}
 		add_to_array = {
 			array = global.prestige_country_array
 			value = global.prestige_country_array_sorting^global.prestige_index_temp

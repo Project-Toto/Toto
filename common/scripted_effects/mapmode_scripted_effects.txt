@@ -110,7 +110,7 @@ enable_mapmode_religion = {
 		}
 		else_if = {
 			limit = {
-				ccheck_variable = {
+				check_variable = {
 					var = state_religion_array^0
 					value = global.religion_fetishist
 					compare = equals

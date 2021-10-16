@@ -1,5 +1,7 @@
 autonomy_state = {
 	id = autonomy_afr_empire_level_1
+
+	is_puppet = yes
 	
 	use_overlord_color = yes
 	
@@ -60,6 +62,8 @@ autonomy_state = {
 }
 autonomy_state = {
 	id = autonomy_afr_empire_level_2
+
+	is_puppet = yes
 	
 	use_overlord_color = yes
 	
@@ -120,6 +124,8 @@ autonomy_state = {
 }
 autonomy_state = {
 	id = autonomy_afr_empire_level_3
+
+	is_puppet = yes
 	
 	use_overlord_color = yes
 	
