@@ -100,3 +100,17 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/laws/country_religion/religion_secular.dds"
 	}
 }
+# Culture
+spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_religion_secular"
+		texturefile = "gfx/interface/ideas/laws/country_religion/religion_secular.dds"
+	}
+}
+# Government
+spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_religion_secular"
+		texturefile = "gfx/interface/ideas/laws/country_religion/religion_secular.dds"
+	}
+}
