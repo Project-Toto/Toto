@@ -13,12 +13,30 @@
 	}
 
 	add_ideas = {
-		#POLITICS
+		# Attributes
+		# law_country_power_irrelevant
+		law_country_religion_sunni
+		# law_country_culture_uncategorized
+		law_country_government_kingdom
+		law_country_society_feudal
+		# law_country_societal_tribal
+		# law_country_military_agrarian_levies
+
+		# Status
+		# agrarian
+		# law_country_centralization_stable
+		# law_country_prosperity_stable
+		# stagnation_growth
+
+		# Politics
+		# no_constitution
+		# no_heir
+		# no_elections
+		# no_borders
+		# tribal_slavery
 
 
-		agrarian
-		no_heir
-		absolute_monarchy
+
 		law_army_tribal_basic
 
 		#Economic
@@ -34,16 +52,12 @@
 			no_borders
 			manpower_tribal_every_fifth
 			tribal_slavery
-			absolutism
 
 		#Governmental Policies
-			no_federalism
-			sharia_constitution
 			no_elections
 			communal
 
 		#Culture
-			law_country_religion_sunni
 			traditional_uluma
 			theocratic_state
 

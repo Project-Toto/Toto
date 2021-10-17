@@ -1,11 +1,5 @@
 ideas = {
 	country = {
-		oral_tradition = {
-			allowed = { always = no }
-		}
-		traditional_uluma = {
-			allowed = { always = no }
-		}
 		pre_industrial_era = {
 			allowed = { always = no }
 		}

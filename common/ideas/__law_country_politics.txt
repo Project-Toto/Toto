@@ -3,43 +3,22 @@ ideas = {
 	law_country_constitution = {
 		law = yes
 		use_list_view = yes
-		no_constitution = {
+		full_constitution = {
 			allowed = { always = yes }
-			default = yes
-			level = 0
-
-			modifier = {
-				political_power_gain = 0.05
-				stability_factor = -0.05
-				drift_defence_factor = 0.15
-				monthly_population = -0.10
+			level = 4
+			available = {
+				OR = {
+					has_government = reformism
+					has_government = imperialism
+				}
+				NOT = { has_idea = sharia_constitution }
 			}
-		}
-		human_rights = {
-			allowed = { always = yes }
-			level = 1
-
 			modifier = {
 				political_power_gain = 0.025
-				drift_defence_factor = 0.075
-				monthly_population = -0.025
-			}
-		}
-		constitution_adopted = {
-			allowed = { always = yes }
-			level = 2
-			modifier = {
-				political_power_gain = -0.025
-				stability_factor = 0.025
-				drift_defence_factor = 0.025
-			}
-		}
-		limited_constitution = {
-			allowed = { always = yes }
-			level = 3
-			modifier = {
-				stability_factor = 0.05
-				monthly_population = 0.025
+				stability_factor = 0.10
+				reformism_drift = 0.05
+				fundamentalism_drift = -0.025
+				monthly_population = 0.075
 			}
 		}
 		sharia_constitution = {
@@ -64,22 +43,43 @@ ideas = {
 				monthly_population = 0.025
 			}
 		}
-		full_constitution = {
+		limited_constitution = {
 			allowed = { always = yes }
-			level = 4
-			available = {
-				OR = {
-					has_government = reformism
-					has_government = imperialism
-				}
-				NOT = { has_idea = sharia_constitution }
+			level = 3
+			modifier = {
+				stability_factor = 0.05
+				monthly_population = 0.025
 			}
+		}
+		constitution_adopted = {
+			allowed = { always = yes }
+			level = 2
+			modifier = {
+				political_power_gain = -0.025
+				stability_factor = 0.025
+				drift_defence_factor = 0.025
+			}
+		}
+		human_rights = {
+			allowed = { always = yes }
+			level = 1
+
 			modifier = {
 				political_power_gain = 0.025
-				stability_factor = 0.10
-				reformism_drift = 0.05
-				fundamentalism_drift = -0.025
-				monthly_population = 0.075
+				drift_defence_factor = 0.075
+				monthly_population = -0.025
+			}
+		}
+		no_constitution = {
+			allowed = { always = yes }
+			default = yes
+			level = 0
+
+			modifier = {
+				political_power_gain = 0.05
+				stability_factor = -0.05
+				drift_defence_factor = 0.15
+				monthly_population = -0.10
 			}
 		}
 	}
@@ -98,57 +98,6 @@ ideas = {
 			modifier = {
 				reformism_drift = 0.025
 				drift_defence_factor = -0.05
-			}
-		}
-		no_heir = {
-			allowed = { always = yes }
-			default = yes
-			level = 0
-
-			visible = {
-				law_country_government_non_monarchial = no
-			}
-			on_remove = {
-				if = {
-					limit = { law_country_government_non_monarchial = yes }
-					add_ideas = non_monarchical_system
-				}
-			}
-
-			modifier = {
-				stability_factor = -0.075
-			}
-		}
-		weak_heir = {
-			allowed = { always = yes }
-			level = 1
-
-			visible = {
-				law_country_government_non_monarchial = no
-			}
-			on_remove = {
-				if = {
-					limit = { law_country_government_non_monarchial = yes }
-					add_ideas = non_monarchical_system
-				}
-			}
-
-			modifier = {
-				stability_factor = -0.05
-			}
-		}
-		dethroned_heir = {
-			allowed = { always = yes }
-			level = 1
-			cancel_if_invalid = no
-
-			visible = {
-				law_country_government_non_monarchial = no
-			}
-
-			modifier = {
-				drift_defence_factor = -0.10
-				stability_factor = -0.025
 			}
 		}
 		has_heir = {
@@ -170,86 +119,292 @@ ideas = {
 				war_support_factor = 0.025
 			}
 		}
-	}
-	law_country_suffrage = {
-		law = yes
-	}
-	law_country_borders = {
-		law = yes
-		no_borders = {
+		dethroned_heir = {
 			allowed = { always = yes }
-			level = 0
-			default = yes
-			available = {
-				custom_trigger_tooltip = {
-					tooltip = eoanb_trigger_tt_law_african_unorg
-				}
-				hidden_trigger = {
-					NOT = {
-						OR = {
-							has_idea = AF_T_unorganized_tribal_nation
-							has_idea = AF_T_unorganized_tribal_nation_2
-							has_idea = AF_T_unorganized_tribal_nation_3
-							has_idea = AF_T_unorganized_tribal_nation_4
-							has_idea = AF_T_unorganized_tribal_nation_5
-						}
-					}
-				}
-				has_idea = pre_industrial_era
+			level = 1
+			cancel_if_invalid = no
+
+			visible = {
+				law_country_government_non_monarchial = no
 			}
 
 			modifier = {
-				stability_factor = -0.1
-				MONTHLY_POPULATION = 0.05
+				drift_defence_factor = -0.10
+				stability_factor = -0.025
 			}
-
-			cancel_if_invalid = no
 		}
-		open_borders = {
-			cost = 450
-			removal_cost = -1
-			level = 3
+		weak_heir = {
+			allowed = { always = yes }
+			level = 1
 
-			available = {
-				custom_trigger_tooltip = {
-					tooltip = eoanb_trigger_tt_law_african_unorg
+			visible = {
+				law_country_government_non_monarchial = no
+			}
+			on_remove = {
+				if = {
+					limit = { law_country_government_non_monarchial = yes }
+					add_ideas = non_monarchical_system
 				}
-				hidden_trigger = {
-					NOT = {
-						OR = {
-							has_idea = AF_T_unorganized_tribal_nation
-							has_idea = AF_T_unorganized_tribal_nation_2
-							has_idea = AF_T_unorganized_tribal_nation_3
-							has_idea = AF_T_unorganized_tribal_nation_4
-							has_idea = AF_T_unorganized_tribal_nation_5
-						}
-					}
-				}
-				NOT = {
-					has_idea = racial_laws
-				}
-
 			}
 
 			modifier = {
 				stability_factor = -0.05
-				consumer_goods_factor = 0.02
-				MONTHLY_POPULATION = 0.2
-				research_speed_factor = -0.02
+			}
+		}
+		no_heir = {
+			allowed = { always = yes }
+			default = yes
+			level = 0
+
+			visible = {
+				law_country_government_non_monarchial = no
+			}
+			on_remove = {
+				if = {
+					limit = { law_country_government_non_monarchial = yes }
+					add_ideas = non_monarchical_system
+				}
 			}
 
-			ai_will_do = {
-   				factor = 1
-				modifier = {
+			modifier = {
+				stability_factor = -0.075
+			}
+		}
+	}
+	law_country_suffrage = {
+		law = yes
+		use_list_view = yes
+		universal_suffrage = {
+			allowed = { always = yes }
+			level = 5
 
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = eoanb_law_tt_universal_suffrage
 				}
+				custom_trigger_tooltip = {
+					tooltip = eoanb_law_reform_tip
+					AND = {
+						can_call_idea_votes = yes
+						NOT = {
+							has_country_flag = Elections_suspended
+						}
+					}
+				}
+				hidden_trigger = {
+					always = no
+				}
+			}
+
+			modifier = {
+				drift_defence_factor = -0.1
+				political_power_gain = -0.05
+				political_advisor_cost_factor = -0.3
+				trade_laws_cost_factor = -0.3
+				mobilization_laws_cost_factor = -0.3
+				stability_factor = 0.05
 			}
 
 			cancel_if_invalid = no
 		}
-		border_control = {
+		universal_male_suffrage = {
+			allowed = { always = yes }
+			level = 4
 
-			cost = 450
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = eoanb_law_tt_universal_male_suffrage
+				}
+				custom_trigger_tooltip = {
+					tooltip = eoanb_law_reform_tip
+					AND = {
+						can_call_idea_votes = yes
+						NOT = {
+							has_country_flag = Elections_suspended
+						}
+					}
+				}
+				hidden_trigger = {
+					always = no
+				}
+			}
+
+			modifier = {
+				drift_defence_factor = -0.05
+				political_power_gain = -0.05
+				political_advisor_cost_factor = -0.15
+				trade_laws_cost_factor = -0.15
+				mobilization_laws_cost_factor = -0.15
+			}
+			cancel_if_invalid = no
+		}
+		parliamentary_suffrage = {
+			allowed = { always = yes }
+			level = 3
+
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = eoanb_law_tt_parliamentary_suffrage
+				}
+				custom_trigger_tooltip = {
+					tooltip = eoanb_law_reform_tip
+					AND = {
+						can_call_idea_votes = yes
+						NOT = {
+							has_country_flag = Elections_suspended
+						}
+					}
+				}
+				hidden_trigger = {
+					always = no
+				}
+			}
+
+			modifier = {
+				drift_defence_factor = 0.1
+				political_power_gain = 0.05
+				political_advisor_cost_factor = 0.15
+				trade_laws_cost_factor = 0.15
+				mobilization_laws_cost_factor = 0.15
+			}
+
+			cancel_if_invalid = no
+		}
+		property_owners_suffrage = {
+			allowed = { always = yes }
+			level = 2
+
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = eoanb_law_tt_property_owners_suffrage
+				}
+				custom_trigger_tooltip = {
+					tooltip = eoanb_law_reform_tip
+					AND = {
+						can_call_idea_votes = yes
+						NOT = {
+							has_country_flag = Elections_suspended
+						}
+					}
+				}
+				hidden_trigger = {
+					always = no
+				}
+			}
+			modifier = {
+				political_advisor_cost_factor = 0.05
+				trade_laws_cost_factor = 0.05
+				mobilization_laws_cost_factor = 0.05
+			}
+
+			cancel_if_invalid = no
+		}
+		oligarchism = {
+			allowed = { always = yes }
+			level = 1
+
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = eoanb_law_tt_oligarchism
+				}
+				custom_trigger_tooltip = {
+					tooltip = eoanb_law_reform_tip
+					AND = {
+						can_call_idea_votes = yes
+						NOT = {
+							has_country_flag = Elections_suspended
+						}
+					}
+				}
+				hidden_trigger = {
+					always = no
+				}
+			}
+
+			modifier = {
+				drift_defence_factor = 0.15
+				political_power_gain = 0.05
+				political_advisor_cost_factor = 0.3
+				trade_laws_cost_factor = 0.3
+				mobilization_laws_cost_factor = 0.3
+			}
+
+			default = yes
+
+			cancel_if_invalid = no
+		}
+		absolutism = {
+			allowed = { always = yes }
+			level = 0
+
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = eoanb_law_tt_absolutism
+				}
+				custom_trigger_tooltip = {
+					tooltip = eoanb_law_reform_tip
+					AND = {
+						can_call_idea_votes = yes
+						NOT = {
+							has_country_flag = Elections_suspended
+						}
+					}
+				}
+				hidden_trigger = {
+					always = no
+				}
+			}
+
+			modifier = {
+				drift_defence_factor = 0.2
+				political_power_gain = 0.1
+				political_advisor_cost_factor = 0.4
+				trade_laws_cost_factor = 0.4
+				mobilization_laws_cost_factor = 0.4
+			}
+
+			default = yes
+
+			cancel_if_invalid = no
+		}
+	}
+	law_country_borders = {
+		law = yes
+		use_list_view = yes
+		closed_borders = {
+			allowed = { always = yes }
+			level = 5
+
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = eoanb_trigger_tt_law_african_unorg
+				}
+				hidden_trigger = {
+					NOT = {
+						OR = {
+							has_idea = AF_T_unorganized_tribal_nation
+							has_idea = AF_T_unorganized_tribal_nation_2
+							has_idea = AF_T_unorganized_tribal_nation_3
+							has_idea = AF_T_unorganized_tribal_nation_4
+							has_idea = AF_T_unorganized_tribal_nation_5
+						}
+					}
+				}
+
+			}
+
+			modifier = {
+				stability_factor = 0.05
+				consumer_goods_factor = -0.05
+				MONTHLY_POPULATION = -0.15
+				research_speed_factor = 0.05
+			}
+
+			default = yes
+
+			cancel_if_invalid = no
+		}
+		border_control = {
 			removal_cost = -1
 			level = 4
 
@@ -286,9 +441,9 @@ ideas = {
 
 			cancel_if_invalid = no
 		}
-		closed_borders = {
-			allowed = { always = yes }
-			level = 5
+		open_borders = {
+			removal_cost = -1
+			level = 3
 
 			available = {
 				custom_trigger_tooltip = {
@@ -305,35 +460,143 @@ ideas = {
 						}
 					}
 				}
-
+				NOT = {
+					has_idea = racial_laws
+				}
 			}
 
 			modifier = {
-				stability_factor = 0.05
-				consumer_goods_factor = -0.05
-				MONTHLY_POPULATION = -0.15
-				research_speed_factor = 0.05
+				stability_factor = -0.05
+				consumer_goods_factor = 0.02
+				MONTHLY_POPULATION = 0.2
+				research_speed_factor = -0.02
+			}
+			cancel_if_invalid = no
+		}
+		no_borders = {
+			allowed = { always = yes }
+			level = 0
+			default = yes
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = eoanb_trigger_tt_law_african_unorg
+				}
+				hidden_trigger = {
+					NOT = {
+						OR = {
+							has_idea = AF_T_unorganized_tribal_nation
+							has_idea = AF_T_unorganized_tribal_nation_2
+							has_idea = AF_T_unorganized_tribal_nation_3
+							has_idea = AF_T_unorganized_tribal_nation_4
+							has_idea = AF_T_unorganized_tribal_nation_5
+						}
+					}
+				}
+				has_idea = pre_industrial_era
 			}
 
-			default = yes
+			modifier = {
+				stability_factor = -0.1
+				MONTHLY_POPULATION = 0.05
+			}
 
 			cancel_if_invalid = no
 		}
 	}
 	law_country_discrimination = {
-				law = yes
+		law = yes
+		use_list_view = yes
+		full_equality = {
+			allowed = { always = yes }
+			level = 5
 
+			modifier = {
+				stability_factor = 0.05
+				consumer_goods_factor = 0.02
+				MONTHLY_POPULATION = 0.08
+			}
+		}
+		limited_equality = {
+			allowed = { always = yes }
+			level = 4
+
+			modifier = {
+				consumer_goods_factor = 0.01
+				MONTHLY_POPULATION = 0.04
+			}
+		}
+		segregation = {
+			allowed = { always = yes }
+			level = 3
+
+			modifier = {
+				stability_factor = -0.05
+				MONTHLY_POPULATION = -0.02
+				conscription_factor = -0.1
+			}
+		}
+		racial_laws = {
+			allowed = { always = yes }
+			level = 2
+
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = eoanb_law_tt_racial_laws
+				}
+			}
+
+			modifier = {
+				stability_factor = -0.05
+				political_power_gain = -0.05
+				MONTHLY_POPULATION = -0.04
+				conscription_factor = -0.2
+			}
+		}
+		slavery_all_but_name = {
+			allowed = { always = yes }
+			level = 1
+
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = eoanb_law_tt_slavery_all_but_name
+				}
+			}
+
+			modifier = {
+				stability_factor = -0.1
+				political_power_gain = -0.05
+				consumer_goods_factor = -0.06
+				MONTHLY_POPULATION = -0.05
+				conscription_factor = -0.25
+			}
+		}
+		slavery = {
+			allowed = { always = yes }
+			level = 0
+
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = eoanb_law_tt_slavery
+				}
+			}
+
+
+			modifier = {
+				stability_factor = -0.1
+				political_power_gain = -0.05
+				consumer_goods_factor = -0.12
+				MONTHLY_POPULATION = -0.06
+				conscription_factor = -0.25
+			}
+		}
 		tribal_slavery = {
-
-			cost = 0
-			removal_cost = -1
-			level = 6
+			allowed = { always = yes }
+			level = 0
 
 			available = {
 				custom_trigger_tooltip = {
 					tooltip = eoanb_law_tt_tribal_slavery
 				}
-
 			}
 
 			modifier = {
@@ -345,181 +608,76 @@ ideas = {
 			}
 
 			default = yes
-
-			cancel_if_invalid = no
-		}
-
-		slavery = {
-
-			cost = 0
-			removal_cost = -1
-			level = 5
-
-			available = {
-				custom_trigger_tooltip = {
-					tooltip = eoanb_law_tt_slavery
-				}
-
-			}
-
-			ai_will_do = {
-   				factor = 1
-
-   				modifier = {
-
-				}
-			}
-
-			modifier = {
-				stability_factor = -0.1
-				political_power_gain = -0.05
-				consumer_goods_factor = -0.12
-				MONTHLY_POPULATION = -0.06
-				conscription_factor = -0.25
-			}
-
-			cancel_if_invalid = no
-		}
-
-		slavery_all_but_name = {
-
-			cost = 0
-			removal_cost = -1
-			level = 4
-
-			available = {
-				custom_trigger_tooltip = {
-					tooltip = eoanb_law_tt_slavery_all_but_name
-				}
-
-			}
-
-			modifier = {
-				stability_factor = -0.1
-				political_power_gain = -0.05
-				consumer_goods_factor = -0.06
-				MONTHLY_POPULATION = -0.05
-				conscription_factor = -0.25
-			}
-
-			cancel_if_invalid = no
-		}
-
-		racial_laws = {
-
-			cost = 0
-			removal_cost = -1
-			level = 3
-
-			available = {
-				custom_trigger_tooltip = {
-					tooltip = eoanb_law_tt_racial_laws
-				}
-
-			}
-
-			modifier = {
-				stability_factor = -0.05
-				political_power_gain = -0.05
-				MONTHLY_POPULATION = -0.04
-				conscription_factor = -0.2
-			}
-
-			ai_will_do = {
-   				factor = 1
-				modifier = {
-
-				}
-			}
-
-			cancel_if_invalid = no
-		}
-
-		segregation = {
-
-			available = {
-			}
-
-			ai_will_do = {
-   				factor = 1
-				modifier = {
-
-				}
-			}
-
-			cost = 0
-			removal_cost = -1
-			level = 2
-
-			modifier = {
-				stability_factor = -0.05
-				MONTHLY_POPULATION = -0.02
-				conscription_factor = -0.1
-			}
-
-			cancel_if_invalid = no
-		}
-
-		limited_equality = {
-
-			available = {
-				custom_trigger_tooltip = {
-					tooltip = eoanb_law_tt_limited_equality
-				}
-
-			}
-
-			ai_will_do = {
-   				factor = 1
-				modifier = {
-
-				}
-			}
-
-			cost = 0
-			removal_cost = -1
-			level = 1
-
-			modifier = {
-				consumer_goods_factor = 0.01
-				MONTHLY_POPULATION = 0.04
-			}
-
-			cancel_if_invalid = no
-		}
-
-		full_equality = {
-
-			ai_will_do = {
-			factor = 1
-				modifier = {
-
-				}
-			}
-
-			cost = 0
-			removal_cost = -1
-			level = 1
-
-			modifier = {
-				stability_factor = 0.05
-				consumer_goods_factor = 0.02
-				MONTHLY_POPULATION = 0.08
-			}
-
-			cancel_if_invalid = no
 		}
 	}
 	law_country_education = {
-		law_country_education_filler = {
-			picture = filler
+		law = yes
+		use_list_view = yes
+		compulsory_education = {
 			allowed = { always = yes }
-			available = { always = yes }
+			level = 4
+
+			picture = compulsory_education
+
+			modifier = {
+				research_speed_factor = 0.08
+				consumer_goods_factor = 0.02
+			}
+		}
+		open_schools = {
+			allowed = { always = yes }
+			level = 3
+
+			picture = open_schools
+
+			modifier = {
+				research_speed_factor = 0.02
+				political_power_gain = -0.05
+			}
+		}
+		privileged_education = {
+			allowed = { always = yes }
+			level = 2
+
+			picture = priviledged_education
+
+			modifier = {
+				research_speed_factor = -0.05
+				political_power_gain = 0.05
+			}
+		}
+		traditional_uluma = {
+			allowed = { always = yes }
+			level = 1
+
+			picture = traditional_uluma
+
+			available = {
+				laws_country_religion_is_muslim = yes
+			}
+
+			modifier = {
+				research_speed_factor = -0.07
+				drift_defence_factor = 0.1
+			}
+		}
+		oral_tradition = {
+			allowed = { always = yes }
 			level = 0
+
+			picture = oral_tradition
+
+			modifier = {
+				research_speed_factor = -0.1
+			}
+
+			default = yes
 		}
 	}
 # State Laws 2
 	law_country_trade = {
+		law = yes
+		use_list_view = yes
 		free_trade = {
 
 			cost = 150
@@ -684,11 +842,11 @@ ideas = {
 		}
 	}
 	law_country_tax = {
+		law = yes
+		use_list_view = yes
 		very_high_taxes = {
-
-			cost = 450
-			removal_cost = -1
-			level = 5
+			allowed = { always = yes }
+			level = 4
 
 			available = {
 				custom_trigger_tooltip = {
@@ -726,10 +884,8 @@ ideas = {
 		}
 
 		high_taxes = {
-
-			cost = 450
-			removal_cost = -1
-			level = 4
+			allowed = { always = yes }
+			level = 3
 
 			available = {
 				custom_trigger_tooltip = {
@@ -755,14 +911,6 @@ ideas = {
 				}
 			}
 
-			ai_will_do = {
-   				factor = 1
-
-   				modifier = {
-
-				}
-			}
-
 			modifier = {
 				political_power_factor = 0.1
 				research_speed_factor = -0.02
@@ -775,10 +923,8 @@ ideas = {
 		}
 
 		normal_taxes = {
-
-			cost = 450
-			removal_cost = -1
-			level = 3
+			allowed = { always = yes }
+			level = 2
 
 			available = {
 				custom_trigger_tooltip = {
@@ -808,19 +954,14 @@ ideas = {
 				political_power_factor = 0.05
 			}
 
-			ai_will_do = {
-   				factor = 1
-				modifier = {
-
-				}
-			}
-
 			default = yes
 
 			cancel_if_invalid = no
 		}
 
 		low_taxes = {
+			allowed = { always = yes }
+			level = 1
 
 			available = {
 				custom_trigger_tooltip = {
@@ -847,17 +988,6 @@ ideas = {
 					always = no
 				}
 			}
-
-			ai_will_do = {
-   				factor = 1
-				modifier = {
-
-				}
-			}
-
-			cost = 450
-			removal_cost = -1
-			level = 2
 
 			modifier = {
 				political_power_factor = -0.05
@@ -870,7 +1000,8 @@ ideas = {
 		}
 
 		very_low_taxes = {
-
+			allowed = { always = yes }
+			level = 0
 			available = {
 				custom_trigger_tooltip = {
 					tooltip = eoanb_trigger_tt_law_african_unorg
@@ -896,17 +1027,6 @@ ideas = {
 					always = no
 				}
 			}
-
-			ai_will_do = {
-   				factor = 1
-				modifier = {
-
-				}
-			}
-
-			cost = 450
-			removal_cost = -1
-			level = 1
 
 			modifier = {
 				political_power_factor = -0.1
@@ -921,11 +1041,261 @@ ideas = {
 	}
 	law_country_property = {
 		law = yes
-		law_country_property_filler = {
-			picture = filler
-			allowed = { always = yes }
-			available = { always = yes }
-			level = 0
+		use_list_view = yes
+		lp_serfdom = {
+
+			available = {
+				OR = {
+					has_idea = agrarian
+					has_idea = industrializing
+				}
+				custom_trigger_tooltip = {
+					tooltip = eoanb_law_reform_tip
+					AND = {
+						can_call_idea_votes = yes
+						NOT = {
+							has_country_flag = Elections_suspended
+						}
+					}
+				}
+				hidden_trigger = {
+					always = no
+				}
+			}
+
+			removal_cost = -1
+			level = 1
+			cost = 1000
+
+			modifier = {
+				stability_weekly = -0.001
+				army_core_defence_factor = -0.1
+				production_speed_industrial_complex_factor = -0.1
+				recon_factor = -0.1
+				consumer_goods_factor = -0.1
+				political_power_gain = 0.3
+				conscription_factor = 0.05
+			}
+
+			cancel_if_invalid = no
+
+		}
+
+		lp_land_estates = {
+
+			available = {
+				NOT = {
+					has_idea = universal_suffrage
+					has_idea = free_elections
+					has_idea = constitution_adopted
+					has_idea = full_equality
+				}
+				custom_trigger_tooltip = {
+					tooltip = eoanb_law_reform_tip
+					AND = {
+						can_call_idea_votes = yes
+						NOT = {
+							has_country_flag = Elections_suspended
+						}
+					}
+				}
+				hidden_trigger = {
+					always = no
+				}
+			}
+
+			removal_cost = -1
+			level = 2
+			cost = 1000
+
+			modifier = {
+				political_power_gain = -0.1
+				production_speed_infrastructure_factor = 0.05
+			}
+
+			cancel_if_invalid = no
+
+		}
+
+		lp_land_purchase = {
+
+			available = {
+				#custom_trigger_tooltip = {
+				#	tooltip = eoanb_law_tt_always_available
+				#}
+				custom_trigger_tooltip = {
+					tooltip = eoanb_law_reform_tip
+					AND = {
+						can_call_idea_votes = yes
+						NOT = {
+							has_country_flag = Elections_suspended
+						}
+					}
+				}
+				hidden_trigger = {
+					always = no
+				}
+			}
+
+			removal_cost = -1
+			level = 3
+			cost = 1000
+
+			modifier = {
+				stability_factor = 0.05
+				drift_defence_factor = 0.2
+				consumer_goods_factor = -0.05
+				production_speed_industrial_complex_factor = 0.05
+			}
+
+			default = yes
+
+			cancel_if_invalid = no
+
+		}
+
+		lp_peasant_holdings = {
+
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = eoanb_law_tt_lp_peasant_holdings
+				}
+				custom_trigger_tooltip = {
+					tooltip = eoanb_law_reform_tip
+					AND = {
+						can_call_idea_votes = yes
+						NOT = {
+							has_country_flag = Elections_suspended
+						}
+					}
+				}
+				hidden_trigger = {
+					always = no
+				}
+			}
+
+			removal_cost = -1
+			level = 4
+			cost = 1000
+
+			modifier = {
+				production_speed_buildings_factor = -0.05
+				political_power_factor = -0.1
+				consumer_goods_factor = -0.15
+			}
+
+			cancel_if_invalid = no
+
+		}
+
+		lp_collectivization = {
+
+			available = {
+				OR = {
+					has_government = vanguard_communism
+					has_government = collectivist_socialism
+					has_government = social_egalitarianism
+				}
+				NOT = {
+					OR = {
+						has_idea = tribal_slavery
+						has_idea = slavery
+						has_idea = racial_laws
+						has_idea = segregation
+					}
+				}
+				custom_trigger_tooltip = {
+					tooltip = eoanb_law_reform_tip
+					AND = {
+						can_call_idea_votes = yes
+						NOT = {
+							has_country_flag = Elections_suspended
+						}
+					}
+				}
+				hidden_trigger = {
+					always = no
+				}
+			}
+
+			removal_cost = -1
+			level = 5
+			cost = 1000
+
+			modifier = {
+				political_power_factor = -0.1
+				consumer_goods_factor = 0.1
+				production_speed_industrial_complex_factor = 0.1
+				production_speed_arms_factory_factor = 0.1
+				MONTHLY_POPULATION = 0.1
+				stability_factor = 0.1
+				army_core_defence_factor = 0.1
+			}
+
+			cancel_if_invalid = no
+
+		}
+
+		lp_african_communalism = {
+
+			available = {
+				OR = {
+					has_government = anarchism
+					custom_trigger_tooltip = {
+						tooltip = eoanb_law_tt_lp_african_communalism
+						afr_is_tribal = yes
+					}
+				}
+			}
+
+			removal_cost = -1
+			level = 7
+			cost = 1000
+
+			modifier = {
+				stability_factor = 0.075
+				political_power_factor = -0.125
+				consumer_goods_factor = 0.1
+				production_speed_industrial_complex_factor = 0.05
+				MONTHLY_POPULATION = 0.1
+				army_core_defence_factor = 0.1
+				conscription_factor = 0.05
+			}
+
+			cancel_if_invalid = no
+
+		}
+
+		lp_tribal_communalism = {
+
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = eoanb_law_tt_lp_tribal_communalism
+				}
+				hidden_trigger = {
+					afr_is_tribal = yes
+				}
+			}
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			level = 6
+			cost = 1000
+
+			modifier = {
+				army_core_defence_factor = 0.05
+				production_speed_buildings_factor = -0.15
+				consumer_goods_factor = 0.20
+				conscription_factor = 0.20
+				industry_air_damage_factor = 0.25
+				industry_free_repair_factor = 0.05
+			}
+
+			cancel_if_invalid = no
+
 		}
 	}
 	law_country_mobilization = {
