@@ -181,7 +181,6 @@ focus_tree = {
 				tooltip = AFR_has_slavery_tooltip
 				OR = {
 					has_idea = slavery
-					has_idea = usa_slavery_law
 					has_idea = tribal_slavery
 				}
 			}
@@ -205,7 +204,6 @@ focus_tree = {
 		bypass = {
 			AND = {
 				NOT = { has_idea = slavery }
-				NOT = { has_idea = usa_slavery_law }
 				NOT = { has_idea = tribal_slavery }
 			}
 		}
@@ -222,7 +220,6 @@ focus_tree = {
 				tooltip = AFR_has_slavery_tooltip
 				OR = {
 					has_idea = slavery
-					has_idea = usa_slavery_law
 					has_idea = tribal_slavery
 				}
 			}
@@ -254,7 +251,6 @@ focus_tree = {
 		bypass = {
 			AND = {
 				NOT = { has_idea = slavery }
-				NOT = { has_idea = usa_slavery_law }
 				NOT = { has_idea = tribal_slavery }
 			}
 		}
@@ -271,7 +267,6 @@ focus_tree = {
 				tooltip = AFR_has_slavery_tooltip
 				OR = {
 					has_idea = slavery
-					has_idea = usa_slavery_law
 					has_idea = tribal_slavery
 				}
 			}
@@ -315,7 +310,6 @@ focus_tree = {
 		bypass = {
 			AND = {
 				NOT = { has_idea = slavery }
-				NOT = { has_idea = usa_slavery_law }
 				NOT = { has_idea = tribal_slavery }
 			}
 		}
@@ -1431,7 +1425,6 @@ focus_tree = {
 				tooltip = AFR_has_slavery_tooltip
 				OR = {
 					has_idea = slavery
-					has_idea = usa_slavery_law
 					has_idea = tribal_slavery
 				}
 			}
@@ -1454,7 +1447,6 @@ focus_tree = {
 		bypass = {
 			AND = {
 				NOT = { has_idea = slavery }
-				NOT = { has_idea = usa_slavery_law }
 				NOT = { has_idea = tribal_slavery }
 			}
 		}

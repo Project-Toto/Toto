@@ -414,7 +414,6 @@ afr_transatlantic_slave_ban_decisions = {
 				tooltip = AFR_has_slavery_tooltip
 				OR = {
 					has_idea = slavery
-					has_idea = usa_slavery_law
 					has_idea = tribal_slavery
 				}
 			}
@@ -430,14 +429,12 @@ afr_transatlantic_slave_ban_decisions = {
 			NOT = { has_idea = AFR_transatlantic_consumer }
 			OR = {
 				has_idea = slavery
-				has_idea = usa_slavery_law
 				has_idea = tribal_slavery
 			}
 			GDC = {
 				has_country_flag = GDC_has_tricked_the_brits
 				OR = {
 					has_idea = slavery
-					has_idea = usa_slavery_law
 					has_idea = tribal_slavery
 				}
 				is_neighbor_of = ROOT
@@ -482,7 +479,6 @@ afr_transatlantic_slave_ban_decisions = {
 				tooltip = AFR_has_slavery_tooltip
 				OR = {
 					has_idea = slavery
-					has_idea = usa_slavery_law
 					has_idea = tribal_slavery
 				}
 			}
@@ -499,14 +495,12 @@ afr_transatlantic_slave_ban_decisions = {
 			NOT = { has_idea = AFR_transatlantic_consumer }
 			OR = {
 				has_idea = slavery
-				has_idea = usa_slavery_law
 				has_idea = tribal_slavery
 			}
 			LIB = {
 				has_country_flag = LIB_trade_arms_for_slaves
 				OR = {
 					has_idea = slavery
-					has_idea = usa_slavery_law
 					has_idea = tribal_slavery
 				}
 				is_neighbor_of = ROOT
@@ -564,7 +558,6 @@ afr_transatlantic_slave_ban_decisions = {
 				tooltip = AFR_has_slavery_tooltip
 				OR = {
 					has_idea = slavery
-					has_idea = usa_slavery_law
 					has_idea = tribal_slavery
 				}
 			}
@@ -595,7 +588,6 @@ afr_transatlantic_slave_ban_decisions = {
 		visible = {
 			OR = {
 				has_idea = slavery
-				has_idea = usa_slavery_law
 				has_idea = tribal_slavery
 			}
 			has_idea = AFR_transatlantic_consumer
@@ -650,7 +642,6 @@ afr_transatlantic_slave_ban_decisions = {
 		visible = {
 			OR = {
 				has_idea = slavery
-				has_idea = usa_slavery_law
 				has_idea = tribal_slavery
 			}
 			OR = {
@@ -697,7 +688,6 @@ afr_transatlantic_slave_ban_decisions = {
 				tooltip = AFR_has_slavery_tooltip
 				OR = {
 					has_idea = slavery
-					has_idea = usa_slavery_law
 					has_idea = tribal_slavery
 				}
 			}

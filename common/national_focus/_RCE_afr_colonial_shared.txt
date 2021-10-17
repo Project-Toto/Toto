@@ -1389,7 +1389,6 @@ shared_focus = {
 		custom_trigger_tooltip={
 			tooltip= afr_colony_generic_focus_native_reservations_tooltip_trigger_2
 			NOT = { has_idea = tribal_slavery }
-			NOT = { has_idea = usa_slavery_law }
 			NOT = { has_idea = slavery }
 		}
 	}

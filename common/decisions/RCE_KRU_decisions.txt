@@ -766,7 +766,6 @@ KRU_LIB_raids = {
 					tooltip = AFR_has_slavery_tooltip
 					OR = {
 						has_idea = slavery
-						has_idea = usa_slavery_law
 						has_idea = tribal_slavery
 					}
 				}
