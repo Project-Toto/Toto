@@ -11,7 +11,7 @@ set_cosmetic_tag = NJD_first_state
 
 		agrarian
 		no_heir
-		absolute_monarchy
+		law_country_government_kingdom
 
 		limited_exports
 		two_percent

@@ -33,7 +33,7 @@ add_ideas = {
 
 		agrarian
 		no_heir
-		absolute_monarchy
+		law_country_government_kingdom
 
 		limited_exports
 		two_percent

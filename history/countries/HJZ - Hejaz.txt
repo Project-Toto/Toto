@@ -37,7 +37,7 @@ add_ideas = {
 		pre_industrial_era
 		agrarian
 		no_heir
-		absolute_monarchy
+		law_country_government_kingdom
 
 		civilian_economy
 		limited_exports

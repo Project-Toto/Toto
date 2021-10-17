@@ -4,7 +4,7 @@
 	set_convoys = 0
 
 	set_research_slots = 2
-	
+
 	set_technology = { ####Same as France####
 	infantry_weapons = 1 traditional_mixed_arms = 1
 	tribal_carrier_birds = 1 tribal_electrical_theory = 1
@@ -53,7 +53,7 @@
 			law_victorian_army
 			agrarian
 			non_monarchical_system
-			absolute_monarchy
+			law_country_government_kingdom
 
 			#Economic
 				limited_exports

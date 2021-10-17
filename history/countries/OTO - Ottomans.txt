@@ -63,7 +63,7 @@ set_variable = { debt_level = 5 } #The Ottoman Empire's National Debt amounts to
 	law_victorian_army
 		industrializing
 		no_heir
-		absolute_monarchy
+		law_country_government_kingdom
 
 		limited_exports
 		two_percent

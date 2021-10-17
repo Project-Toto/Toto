@@ -41,7 +41,7 @@ country_event = {
 	option = {
 		name = LIB_it_was_unavoidable.2.a
 		ai_chance = { factor = 80 }
-		swap_ideas = { remove_idea = usa_slavery_law add_idea = slavery_all_but_name }
+		swap_ideas = { remove_idea = slavery add_idea = slavery_all_but_name }
 		hidden_effect = { country_event = { id = LIB_it_was_unavoidable.4 days = 1800 } }
 	}
 
@@ -164,7 +164,7 @@ country_event = {
 	option = {
 		name = LIB_it_was_unavoidable.3.a
 		ai_chance = { factor = 100 }
-		swap_ideas = { remove_idea = usa_slavery_law add_idea = limited_equality }
+		swap_ideas = { remove_idea = slavery add_idea = limited_equality }
 		set_country_flag = LIB_abolition_civil_war_started
 		hidden_effect = {
 			every_other_country = {
@@ -184,10 +184,10 @@ country_event = {
 				add_ideas = limited_conscription
 				add_ideas = constitution_adopted
 				add_ideas = limited_elections
-				add_ideas = presidential_republic
+				add_ideas = law_country_government_democratic_republic
 				add_ideas = secular_state
 				add_ideas = religion_protestant
-				add_ideas = usa_slavery_law
+				add_ideas = slavery
 				add_ideas = extensive_conscription
 				add_ideas = closed_economy
 				add_ideas = state_controlled_press
@@ -1367,8 +1367,8 @@ country_event = {
 					add_idea = secular_state
 				}
 				swap_ideas = {
-					remove_idea = absolute_monarchy
-					add_idea = presidential_republic
+					remove_idea = law_country_government_kingdom
+					add_idea = law_country_government_democratic_republic
 				}
 				swap_ideas = {
 					remove_idea = no_constitution
@@ -1380,11 +1380,7 @@ country_event = {
 				}
 				swap_ideas = {
 					remove_idea = law_country_religion_animist
-					add_idea = religion_protestant
-				}
-				swap_ideas = {
-					remove_idea = no_elections
-					add_idea = limited_elections
+					add_idea = country_law_religion_protestant
 				}
 				swap_ideas = {
 					remove_idea = law_pre_industrial_army
@@ -1393,19 +1389,19 @@ country_event = {
 				if = {
 					limit = {
 						LIB = {
-							has_idea = usa_slavery_law
+							has_idea = slavery
 						}
 					}
 					swap_ideas = {
 						remove_idea = tribal_slavery
-						add_idea = usa_slavery_law
+						add_idea = slavery
 					}
 				}
 				if = {
 					limit = {
 						NOT = {
 							LIB = {
-								has_idea = usa_slavery_law
+								has_idea = slavery
 							}
 						}
 					}
@@ -2386,8 +2382,8 @@ country_event = {
 				remove_ideas = AF_T_unorganized_tribal_nation_4
 				remove_ideas = AF_T_unorganized_tribal_nation_5
 				swap_ideas = {
-					remove_idea = absolute_monarchy
-					add_idea = presidential_republic
+					remove_idea = law_country_government_kingdom
+					add_idea = law_country_government_democratic_republic
 				}
 				swap_ideas = {
 					remove_idea = no_constitution
@@ -2408,19 +2404,19 @@ country_event = {
 				if = {
 					limit = {
 						LIB = {
-							has_idea = usa_slavery_law
+							has_idea = slavery
 						}
 					}
 					swap_ideas = {
 						remove_idea = tribal_slavery
-						add_idea = usa_slavery_law
+						add_idea = slavery
 					}
 				}
 				if = {
 					limit = {
 						NOT = {
 							LIB = {
-								has_idea = usa_slavery_law
+								has_idea = slavery
 							}
 						}
 					}

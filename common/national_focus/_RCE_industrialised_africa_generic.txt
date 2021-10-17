@@ -1036,11 +1036,11 @@ focus_tree = {
 			OR = {
 				RUS = {
 					exists = yes
-					has_idea = absolute_monarchy
+					has_idea = law_country_government_kingdom
 				}
 				AUS = {
 					exists = yes
-					has_idea = absolute_monarchy
+					has_idea = law_country_government_kingdom
 				}
 			}
 		}
@@ -1048,7 +1048,7 @@ focus_tree = {
 		y = 3
 		completion_reward = {
 			add_ideas = {
-				absolute_monarchy
+				law_country_government_kingdom
 			}
 		}
 	}
@@ -1195,7 +1195,7 @@ focus_tree = {
 			# 	limit = {
 			# 		FRA = {
 			# 			OR={
-			# 				has_idea = presidential_republic
+			# 				has_idea = law_country_government_democratic_republic
 			# 				has_idea = parliamentary_suffrage
 			# 			}
 			# 		}
@@ -1302,12 +1302,8 @@ focus_tree = {
 		}
 		completion_reward = {
 			swap_ideas = {
-				add_idea = semi_presidential_republic
-				remove_idea = absolute_monarchy
-			}
-			swap_ideas = {
-				add_idea = limited_elections
-				remove_idea = no_elections
+				add_idea = semi_law_country_government_democratic_republic
+				remove_idea = law_country_government_kingdom
 			}
 			swap_ideas = {
 				add_idea = parliamentary_suffrage

@@ -34,7 +34,7 @@ set_technology = {
 
 		agrarian
 		non_monarchical_system
-		absolute_monarchy
+		law_country_government_kingdom
 		law_army_tribal_advanced
 
 

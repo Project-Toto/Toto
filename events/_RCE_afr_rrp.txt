@@ -1816,12 +1816,12 @@ country_event = {
 				if = {
 					limit = {
 						LIB = {
-							has_idea = usa_slavery_law
+							has_idea = slavery
 						}
 					}
 					swap_ideas = {
 						remove_idea = tribal_slavery
-						add_idea = usa_slavery_law
+						add_idea = slavery
 					}
 				}
 				if = {
@@ -1934,12 +1934,12 @@ country_event = {
 				if = {
 					limit = {
 						LIB = {
-							has_idea = usa_slavery_law
+							has_idea = slavery
 						}
 					}
 					swap_ideas = {
 						remove_idea = tribal_slavery
-						add_idea = usa_slavery_law
+						add_idea = slavery
 					}
 				}
 				if = {

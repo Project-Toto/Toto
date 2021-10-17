@@ -13,7 +13,7 @@ add_ideas = {
 
 		agrarian
 		no_heir
-		absolute_monarchy
+		law_country_government_kingdom
 	law_army_tribal_basic
 
 

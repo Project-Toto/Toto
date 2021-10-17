@@ -228,7 +228,7 @@ on_actions = {
 							else_if = {
 								limit = {
 									OR = {
-										has_idea = religion_shamanism
+										has_idea = country_law_religion_shamanism
 										has_idea = law_country_religion_animist
 									}
 									NOT = {

@@ -3228,17 +3228,17 @@ country_event = {
 						has_idea = law_country_religion_shiite
 						has_idea = law_country_religion_ibadi
 
-						has_idea = religion_shamanism
+						has_idea = country_law_religion_shamanism
 						has_idea = law_country_religion_animist
 
-						has_idea = religion_mahayana
-						has_idea = religion_gelugpa
-						has_idea = religion_theravada
-						has_idea = religion_hindu
-						has_idea = religion_sikh
+						has_idea = country_law_religion_mahayana
+						has_idea = country_law_religion_gelugpa
+						has_idea = country_law_religion_theravada
+						has_idea = country_law_religion_hindu
+						has_idea = country_law_religion_sikh
 
-						has_idea = religion_confucian
-						has_idea = religion_shinto
+						has_idea = country_law_religion_confucian
+						has_idea = country_law_religion_shinto
 					}
 				}
 				modifier = {
@@ -3249,32 +3249,32 @@ country_event = {
 						has_idea = law_country_religion_shiite
 						has_idea = law_country_religion_ibadi
 
-						has_idea = religion_coptic
-						has_idea = religion_orthodox
+						has_idea = country_law_religion_coptic
+						has_idea = country_law_religion_orthodox
 						has_idea = law_country_religion_catholic
-						has_idea = religion_protestant
+						has_idea = law_country_religion_catholic
 					}
 				}
 				modifier = {
 					factor = 0
 					FROM = { has_state_flag = afr_empire_politics_local_rumor_dawah_flag_1 }
 					OR = {
-						has_idea = religion_shamanism
+						has_idea = country_law_religion_shamanism
 						has_idea = law_country_religion_animist
 
-						has_idea = religion_coptic
-						has_idea = religion_orthodox
+						has_idea = country_law_religion_coptic
+						has_idea = country_law_religion_orthodox
 						has_idea = law_country_religion_catholic
-						has_idea = religion_protestant
+						has_idea = law_country_religion_catholic
 
-						has_idea = religion_mahayana
-						has_idea = religion_gelugpa
-						has_idea = religion_theravada
-						has_idea = religion_hindu
-						has_idea = religion_sikh
+						has_idea = country_law_religion_mahayana
+						has_idea = country_law_religion_gelugpa
+						has_idea = country_law_religion_theravada
+						has_idea = country_law_religion_hindu
+						has_idea = country_law_religion_sikh
 
-						has_idea = religion_confucian
-						has_idea = religion_shinto
+						has_idea = country_law_religion_confucian
+						has_idea = country_law_religion_shinto
 
 					}
 				}
@@ -3282,22 +3282,22 @@ country_event = {
 					factor = 0
 					FROM = { has_state_flag = afr_empire_politics_local_rumor_jihadist_flag_1 }
 					OR = {
-						has_idea = religion_shamanism
+						has_idea = country_law_religion_shamanism
 						has_idea = law_country_religion_animist
 
-						has_idea = religion_coptic
-						has_idea = religion_orthodox
+						has_idea = country_law_religion_coptic
+						has_idea = country_law_religion_orthodox
 						has_idea = law_country_religion_catholic
-						has_idea = religion_protestant
+						has_idea = law_country_religion_catholic
 
-						has_idea = religion_mahayana
-						has_idea = religion_gelugpa
-						has_idea = religion_theravada
-						has_idea = religion_hindu
-						has_idea = religion_sikh
+						has_idea = country_law_religion_mahayana
+						has_idea = country_law_religion_gelugpa
+						has_idea = country_law_religion_theravada
+						has_idea = country_law_religion_hindu
+						has_idea = country_law_religion_sikh
 
-						has_idea = religion_confucian
-						has_idea = religion_shinto
+						has_idea = country_law_religion_confucian
+						has_idea = country_law_religion_shinto
 					}
 				}
 				modifier = {

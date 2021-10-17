@@ -4,7 +4,7 @@
 	#oob = "GDC_1857"
 
 	set_convoys = 0
-	
+
 	set_technology = {
 	infantry_weapons = 1 traditional_mixed_arms = 1
 	tribal_carrier_birds = 1 tribal_electrical_theory = 1
@@ -39,7 +39,7 @@
 
 		agrarian
 		non_monarchical_system
-		absolute_monarchy
+		law_country_government_kingdom
 
 		limited_exports
 		two_percent
@@ -98,7 +98,7 @@
 
 	#Diplomacy
 	#add_opinion_modifier = { target = HOL modifier = AFR_netherland_colony }
-	
+
 	GDC = {
 		diplomatic_relation = {
 			country = ASH
