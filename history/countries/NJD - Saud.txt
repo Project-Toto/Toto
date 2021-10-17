@@ -28,7 +28,7 @@ set_cosmetic_tag = NJD_first_state
 
 		privileged_education
 		state_religion
-	religion_sunni
+	law_country_religion_sunni
 
 
 				 #NATIONAL SPIRITS

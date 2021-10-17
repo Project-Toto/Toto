@@ -394,9 +394,7 @@ focus_tree = {
 			add_political_power = 50
 			set_country_flag = Oceania_generic_french_administrators
 			custom_effect_tooltip = AFR_GENERIC_COLONIAL_ENTER_TOOLTIP
-			hidden_effect = { add_ideas = { Oceania_antoine_dufresne } }
 			custom_effect_tooltip = available_court_advisor
-			show_ideas_tooltip = Oceania_antoine_dufresne
 			custom_effect_tooltip = afr_colonial_effect_tooltip
 			capital_scope = {
 				custom_effect_tooltip = AFR_Racial_Tension_plus_1
@@ -491,9 +489,7 @@ focus_tree = {
 			add_political_power = 50
 			set_country_flag = Oceania_generic_british_administrators
 			custom_effect_tooltip = AFR_GENERIC_COLONIAL_ENTER_TOOLTIP
-			hidden_effect = { add_ideas = { Oceania_theodore_wilkinson } }
 			custom_effect_tooltip = available_court_advisor
-			show_ideas_tooltip = Oceania_theodore_wilkinson
 			custom_effect_tooltip = afr_colonial_effect_tooltip
 			capital_scope = {
 				custom_effect_tooltip = AFR_Racial_Tension_plus_1

@@ -273,8 +273,25 @@ prestige_global_total_sort = {
 	}
 	set_variable = {
 		var = global.prestige_country_rank
-		value = 0
+		value = 1
 	}
+	for_each_loop = {
+		array = global.prestige_country_total_array_sorting
+		find_highest_in_array = {
+			array = global.prestige_country_total_array_sorting
+			index = prestige_index_temp
+			set_variable = {
+				var = global.prestige_country_rank
+				value = prestige_index_temp
+			}
+		}
+	}
+}
+
+
+
+
+aaaa = {
 	for_each_loop = {
 		array = global.prestige_country_array_sorting
 		find_highest_in_array = {

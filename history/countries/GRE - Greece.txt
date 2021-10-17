@@ -118,9 +118,9 @@ set_popularities = {
 		desc = "POLITICS_TEMP_DESC"
 		picture = "Portrait_GRE_Constantine_Kanaris.dds"
 		expire = 1867.7.6
-		ideology = revolutionary
+		ideology = reformism_revolutionary
 		traits = {
-				war_veteran
+			war_veteran
 		}
 	}
 

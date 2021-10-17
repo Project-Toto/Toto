@@ -15,14 +15,14 @@ set_technology = {
 	add_ideas = {
 		#POLITICS
 
-		
-		
+
+
 		agrarian
 		no_heir
 		absolute_monarchy
 	law_army_tribal_basic
 
-		
+
 		closed_economy
 		one_percent
 		very_low_taxes
@@ -40,7 +40,7 @@ set_technology = {
 
 		oral_tradition
 		state_religion
-	religion_sunni
+	law_country_religion_sunni
 
 	 #
 		law_mercenary_groups

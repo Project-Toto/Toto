@@ -59,6 +59,8 @@ ideologies = {
 			reformism_republic = { }
 
 			reformism_order = { }
+
+			reformism_revolutionary = { }
 		}
 
 		dynamic_faction_names = {
@@ -157,6 +159,8 @@ ideologies = {
 			imperialism_republic = { }
 
 			imperialism_order = { }
+
+			imperialism_junta = { }
 		}
 
 		dynamic_faction_names = {

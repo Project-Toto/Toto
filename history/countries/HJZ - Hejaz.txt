@@ -56,7 +56,7 @@ add_ideas = {
 
 		privileged_education
 		state_religion
-	religion_sunni
+	law_country_religion_sunni
 
 	 hc_no_healthcare
 		law_police_force

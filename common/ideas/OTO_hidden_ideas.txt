@@ -109,7 +109,7 @@ ideas={
 
 			modifier = {
 				political_power_gain = 0.1
-				court_advisor_cost_factor = 0.25
+				law_country_court_cost_factor = 0.25
 				stability_factor = 0.1
 				non_core_manpower = 0.04
 			}
@@ -130,7 +130,7 @@ ideas={
 
 			modifier = {
 				political_power_gain = -0.1
-				court_advisor_cost_factor = -0.25
+				law_country_court_cost_factor = -0.25
 				war_support_factor = 0.1
 				line_change_production_efficiency_factor = 0.2
 			}

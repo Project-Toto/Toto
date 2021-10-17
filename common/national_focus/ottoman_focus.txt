@@ -2303,7 +2303,7 @@ focus_tree = {
 					amount = 1
 				}
 				add_resource={
-					type = coal
+					type = resource_coal
 					amount = 1
 				}
 			}
@@ -2334,7 +2334,7 @@ focus_tree = {
 		completion_reward = {
 			553={
 				add_resource={
-					type = coal
+					type = resource_coal
 					amount = 3
 				}
 			}

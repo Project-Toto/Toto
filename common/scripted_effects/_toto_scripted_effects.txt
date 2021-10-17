@@ -40,3 +40,7 @@ decrease_ps_by_one =  {
 afr_increase_taxes = {
 
 }
+
+OTO_sicker_man_of_europe = {
+
+}

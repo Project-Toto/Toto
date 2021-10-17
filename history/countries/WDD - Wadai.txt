@@ -55,7 +55,7 @@
 
 		oral_tradition
 		state_religion
-	religion_sunni
+	law_country_religion_sunni
 
 	 ##
 		#

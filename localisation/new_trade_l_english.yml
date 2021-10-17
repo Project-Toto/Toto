@@ -7,8 +7,6 @@
  resource_wood_desc:0 "Wood is utilized to aid construction of buildings and ships"
  PRODUCTION_MATERIALS_resource_paper:0 "Paper"
  resource_paper_desc:0 "Administration and Trade require great record keeping. Paper is an important tool for this."
- PRODUCTION_MATERIALS_resource_slaves:0 "Slaves"
- resource_slaves_desc:0 "Forced labour can be an effective alternative for tougher projects and tasks."
  PRODUCTION_MATERIALS_resource_cotton:0 "Cotton"
  resource_cotton_desc:0 "Food is required to maintain a healthy, strong populace."
  PRODUCTION_MATERIALS_resource_fabric:0 "Fabric"

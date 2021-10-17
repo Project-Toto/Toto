@@ -38,7 +38,7 @@
 		sharia_constitution
 		no_elections
 
-	religion_sunni
+	law_country_religion_sunni
 		traditional_uluma
 		theocratic_state
 

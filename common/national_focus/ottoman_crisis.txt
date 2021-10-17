@@ -901,15 +901,7 @@ focus_tree = {
 			always = yes
 		}
 		available={
-			MNT={
-				exists = yes
-				OR={
-					is_subject = no
-					is_subject_of = OTO
-				}
-			}
-			controls_state = 1202
-			controls_state = 1204
+			always = no
 		}
 		prerequisite = {
 			focus = OTO_mac_defense_balkans

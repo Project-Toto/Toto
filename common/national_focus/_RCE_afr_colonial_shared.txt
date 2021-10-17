@@ -1276,7 +1276,7 @@ shared_focus = {
 
 	completion_reward = {
 		add_popularity = {
-			ideology = radical_democracy
+			ideology = reformism
 			popularity = 0.07
 		}
 		add_war_support = -0.1
@@ -1396,7 +1396,7 @@ shared_focus = {
 	prerequisite = { focus = afr_colony_generic_focus_decentralized_autonomy }
 	prerequisite = { focus = afr_colony_generic_focus_spread_military }
 	completion_reward = {
-		hidden_effect = { add_popularity = { ideology = social_egalitarianism popularity = 0.05 } }
+		hidden_effect = { add_popularity = { ideology = reformism popularity = 0.05 } }
 		if = {
 			limit = {
 				any_owned_state = {

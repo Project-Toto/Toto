@@ -2636,7 +2636,7 @@ country_event = {
 				desc = ""
 				picture = "gfx/leaders/Europe/Portrait_Europe_Generic_5.dds"
 				expire = "1965.1.1"
-				ideology = absolutism
+				ideology = traditionalism_absolutism
 				traits = {
 				
 				}

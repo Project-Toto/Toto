@@ -354,29 +354,69 @@ forced_labor_occupation = {
 			
 			# if we are desiring a resource produced here
 			set_temp_variable = { releveant_resources = 0 }
-			
-			set_temp_variable = { t = resource@oil }
-			multiply_temp_variable = { t = ai_desire_oil }
+
+			set_temp_variable = { t = resource@resource_food }
+			multiply_temp_variable = { t = ai_desire_resource_food }
+			add_to_temp_variable = { releveant_resources = t }
+
+			set_temp_variable = { t = resource@resource_spices }
+			multiply_temp_variable = { t = ai_desire_resource_spices }
+			add_to_temp_variable = { releveant_resources = t }
+
+			set_temp_variable = { t = resource@resource_wood }
+			multiply_temp_variable = { t = ai_desire_resource_wood }
 			add_to_temp_variable = { releveant_resources = t }
 			
-			set_temp_variable = { t = resource@aluminium }
-			multiply_temp_variable = { t = ai_desire_aluminium }
+			set_temp_variable = { t = resource@resource_paper }
+			multiply_temp_variable = { t = ai_desire_resource_paper }
 			add_to_temp_variable = { releveant_resources = t }
 			
-			set_temp_variable = { t = resource@rubber }
-			multiply_temp_variable = { t = ai_desire_rubber }
+			set_temp_variable = { t = resource@resource_cotton }
+			multiply_temp_variable = { t = ai_desire_resource_cotton }
 			add_to_temp_variable = { releveant_resources = t }
 			
-			set_temp_variable = { t = resource@tungsten }
-			multiply_temp_variable = { t = ai_desire_tungsten }
+			set_temp_variable = { t = resource@resource_fabric }
+			multiply_temp_variable = { t = ai_desire_resource_fabric }
 			add_to_temp_variable = { releveant_resources = t }
 			
-			set_temp_variable = { t = resource@steel }
-			multiply_temp_variable = { t = ai_desire_steel }
+			set_temp_variable = { t = resource@resource_gold }
+			multiply_temp_variable = { t = ai_desire_resource_gold }
 			add_to_temp_variable = { releveant_resources = t }
 			
-			set_temp_variable = { t = resource@chromium }
-			multiply_temp_variable = { t = ai_desire_chromium }
+			set_temp_variable = { t = resource@resource_ivory }
+			multiply_temp_variable = { t = ai_desire_resource_ivory }
+			add_to_temp_variable = { releveant_resources = t }
+
+			set_temp_variable = { t = resource@resource_jewelery }
+			multiply_temp_variable = { t = ai_desire_resource_jewelery }
+			add_to_temp_variable = { releveant_resources = t }
+
+			set_temp_variable = { t = resource@resource_iron }
+			multiply_temp_variable = { t = ai_desire_resource_iron }
+			add_to_temp_variable = { releveant_resources = t }
+
+			set_temp_variable = { t = resource@resource_coal }
+			multiply_temp_variable = { t = ai_desire_resource_coal }
+			add_to_temp_variable = { releveant_resources = t }
+
+			set_temp_variable = { t = resource@resource_tungsten }
+			multiply_temp_variable = { t = ai_desire_resource_tungsten }
+			add_to_temp_variable = { releveant_resources = t }
+
+			set_temp_variable = { t = resource@resource_steel }
+			multiply_temp_variable = { t = ai_desire_resource_steel }
+			add_to_temp_variable = { releveant_resources = t }
+
+			set_temp_variable = { t = resource@resource_oil }
+			multiply_temp_variable = { t = ai_desire_resource_oil }
+			add_to_temp_variable = { releveant_resources = t }
+
+			set_temp_variable = { t = resource@resource_rubber }
+			multiply_temp_variable = { t = ai_desire_resource_rubber }
+			add_to_temp_variable = { releveant_resources = t }
+
+			set_temp_variable = { t = resource@resource_tungsten }
+			multiply_temp_variable = { t = ai_desire_resource_electricity }
 			add_to_temp_variable = { releveant_resources = t }
 			
 			check_variable = { releveant_resources > 0 }

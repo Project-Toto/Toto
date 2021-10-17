@@ -1831,7 +1831,7 @@ focus_tree = {
 			298 = {
 				infrastructure > 3
 				building_port > 1
-				fabric_weavery > 0
+				building_weavery > 0
 			}
 		}
 		prerequisite = {

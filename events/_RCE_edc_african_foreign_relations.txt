@@ -808,7 +808,7 @@ country_event = {###natives reached 10 machine_parts_factory
 			has_country_flag = afr_colony_industrializing
 			has_country_flag = afr_an_african_industrializing
 		}
-		machine_parts_factory > 9
+		# machine_parts_factory > 9
 		NOT= {has_country_flag= af_t_10_machine_parts}
 	}
 	mean_time_to_happen = {
@@ -2644,36 +2644,36 @@ news_event = { #the scramble begins
 
 	option = {#all this effort over africa?
 		name = EDC_afr.42.a
-		trigger={
-			NOT={
+		trigger = {
+			NOT = {
 				OR = {
 					is_in_colonial_region = yes
 					has_idea = afr_post_tribal
 				}
 			}
-			NOT={
-				AND={
-					OR={
+			NOT = {
+				AND = {
+					OR = {
 						has_idea = law_country_power_great
-						is_secondary_power = yes
+						has_idea = law_country_power_secondary
 					}
 					capital_scope = {is_on_continent = europe}
 				}
 			}
 		}
-		if={
-			limit={
+		if = {
+			limit = {
 				is_ai = no
 			}
-			set_variable = {super_event_displayed = 2}
+			set_variable = { super_event_displayed = 2 }
 		}
 	}
 	option = {
-		name = EDC_afr.42.b#We must exploit the continent before the other powers get to it
+		name = EDC_afr.42.b #We must exploit the continent before the other powers get to it
 		trigger={
 			OR={
 				has_idea = law_country_power_great
-				is_secondary_power = yes
+				has_idea = law_country_power_secondary
 			}
 			capital_scope = {is_on_continent = europe}
 			NOT={
@@ -4251,7 +4251,7 @@ country_event = {###ping for the scramble
 							capital_scope = {is_on_continent = europe}
 							OR={
 								has_idea = law_country_power_great
-								is_secondary_power = yes
+								has_idea = law_country_power_secondary
 							}
 						}
 					}

@@ -107,21 +107,6 @@
 
  Oceania_become_industrialised:0 "We can now become an §YIndustrializing§! nation!"
 
- Oceania_antoine_dufresne:0 "Antoine Dufresne"
- Oceania_antoine_dufresne_trait:0 "French Arms Organizer"
- Oceania_theodore_wilkinson:0 "Theodore Wilkinson"
- Oceania_theodore_wilkinson_trait:0 "British Textile Merchant"
- Oceania_xiang_ling:0 "Xiang Ling"
- Oceania_zhu_yating:0 "Zhu Yating"
- Oceania_islamic_isolationist_diplomacy_advisor:0 "Kabeer al-Abbasi"
- Oceania_vietnam_isolationist_diplomacy_advisor:0 "Phan Minh Giang"
- Oceania_cambodia_isolationist_diplomacy_advisor:0 "Meang Rottana"
- Oceania_siam_isolationist_diplomacy_advisor:0 "Nattakan Thabchumpon"
- Oceania_islamic_isolationist_industry_advisor:0 "Samir al-Muhammed"
- Oceania_vietnam_isolationist_industry_advisor:0 "Thi Huy Phong"
- Oceania_cambodia_isolationist_industry_advisor:0 "Suy Bunroeun"
- Oceania_siam_isolationist_industry_advisor:0 "Manee Kongsangchai"
-
  Oceania_colonial_resistors:0 "Colonial Resistors"
  INS_uncontacted_tribes:0 "Uncontacted Tribes"
  INS_uncontacted_tribes_desc:0 "While the [INS.GetName] owns much of the land, it's inhabited by many uncontacted tribes. For logistical reasons, these tribes are outside of our jurisdiction."

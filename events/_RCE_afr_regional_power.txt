@@ -494,7 +494,7 @@ country_event = {
 		desc = afr_empire_politics_taxes_small_kingdom.1.d
 		picture = GFX_report_event_chinese_army_training
 		is_triggered_only = yes
-		
+
 		option = {
 			name = afr_empire_politics_taxes_small_kingdom.1.e
 			trigger = {
@@ -608,7 +608,7 @@ country_event = {
 		desc = afr_empire_politics_taxes_regional_power.1.d
 		picture = GFX_report_event_chinese_army_training
 		is_triggered_only = yes
-		
+
 		option = {
 			name = afr_empire_politics_taxes_regional_power.1.a
 			ai_chance = { base = 100 }
@@ -638,7 +638,7 @@ country_event = {
 				custom_effect_tooltip = afr_empire_politics_tax_status_very_high_tooltip
 			}
 		}
-		
+
 		option = {
 			name = afr_empire_politics_taxes_regional_power.1.b
 			ai_chance = { base = 100 }
@@ -3225,8 +3225,8 @@ country_event = {
 					FROM = { has_state_flag = afr_empire_politics_local_rumor_priest_flag_1 }
 					OR = {
 						has_idea = law_country_religion_sunni
-						has_idea = religion_shiite
-						has_idea = religion_ibadi
+						has_idea = law_country_religion_shiite
+						has_idea = law_country_religion_ibadi
 
 						has_idea = religion_shamanism
 						has_idea = law_country_religion_animist
@@ -3245,13 +3245,13 @@ country_event = {
 					factor = 0
 					FROM = { has_state_flag = afr_empire_politics_local_rumor_shaman_flag_1 }
 					OR = {
-						has_idea = religion_sunni
-						has_idea = religion_shiite
-						has_idea = religion_ibadi
+						has_idea = law_country_religion_sunni
+						has_idea = law_country_religion_shiite
+						has_idea = law_country_religion_ibadi
 
 						has_idea = religion_coptic
 						has_idea = religion_orthodox
-						has_idea = religion_catholic
+						has_idea = law_country_religion_catholic
 						has_idea = religion_protestant
 					}
 				}
@@ -3264,7 +3264,7 @@ country_event = {
 
 						has_idea = religion_coptic
 						has_idea = religion_orthodox
-						has_idea = religion_catholic
+						has_idea = law_country_religion_catholic
 						has_idea = religion_protestant
 
 						has_idea = religion_mahayana
@@ -3287,7 +3287,7 @@ country_event = {
 
 						has_idea = religion_coptic
 						has_idea = religion_orthodox
-						has_idea = religion_catholic
+						has_idea = law_country_religion_catholic
 						has_idea = religion_protestant
 
 						has_idea = religion_mahayana

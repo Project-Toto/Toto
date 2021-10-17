@@ -43,7 +43,7 @@
 
 		oral_tradition
 		theocratic_state
-	religion_sunni
+	law_country_religion_sunni
 
 	 #
 		law_mercenary_groups

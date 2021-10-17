@@ -214,8 +214,8 @@ on_actions = {
 								limit = {
 									OR = {
 										has_idea = law_country_religion_sunni
-										has_idea = religion_shiite
-										has_idea = religion_ibadi
+										has_idea = law_country_religion_shiite
+										has_idea = law_country_religion_ibadi
 									}
 									NOT = {
 										has_idea = afr_empire_politics_advisor_jihadist_1
@@ -259,7 +259,7 @@ on_actions = {
 					state_event = { id = afr_empire_mechanic_weekly_pulse_check_event.1 days = 7 trigger_for = controller }
 					state_event = { id = afr_empire_mechanic_monthly_pulse_check_event.1 days = 30 trigger_for = controller }
 				}
-				
+
 
 				#Luxury Goods
 				# 1108 = { set_variable = { afr_empire_politics_state_luxury_gold_acquisition_var = 100 } }

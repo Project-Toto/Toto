@@ -55,7 +55,7 @@ set_technology = {
 
 		traditional_uluma
 		state_religion
-	religion_sunni
+	law_country_religion_sunni
 
 	 #
 		#

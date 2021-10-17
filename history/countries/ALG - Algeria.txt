@@ -29,7 +29,7 @@ add_ideas = {
 
 		traditional_uluma
 		state_religion
-	religion_sunni
+	law_country_religion_sunni
 
 	 # State Attributes
 		law_country_power_minor
@@ -38,7 +38,7 @@ add_ideas = {
 		law_country_government_colonial_company
 		law_country_society_state
 		law_country_military_traditional
-		
+
 				 #NATIONAL SPIRITS
 			afr_reforming_kingdom
 			AFR_history_of_colonial_resistance

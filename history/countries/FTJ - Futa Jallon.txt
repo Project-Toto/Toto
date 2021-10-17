@@ -56,7 +56,7 @@
 
 		traditional_uluma
 		theocratic_state
-	religion_sunni
+	law_country_religion_sunni
 
 	 #
 

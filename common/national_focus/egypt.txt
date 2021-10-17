@@ -1859,7 +1859,7 @@ focus_tree = {
 			debt_level_increase_by_5 = yes
 			446 = {
 				add_building_construction = {
-					type = fabric_weavery
+					type = building_weavery
 					level = 1
 					instant_build = yes
 				}

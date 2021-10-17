@@ -5,3 +5,105 @@ afr_is_tribal = {
 is_nomadic_nation_state = {
 	has_idea = law_country_society_nomadic
 }
+
+american_civil_war_focus_scripted_trigger = {
+	always = no
+}
+
+PRS_trigger_formed_germany = {
+	always = no
+}
+
+Country_formed_ITA = {
+	always = no
+}
+
+is_in_manuritania = {
+	always = no
+}
+
+is_in_senegal = {
+	always = no
+}
+
+is_in_guinea = {
+	always = no
+}
+
+is_in_sierra_leone = {
+	always = no
+}
+
+is_in_ivory_coast = {
+	always = no
+}
+
+is_in_ghana = {
+	always = no
+}
+
+is_in_togo = {
+	always = no
+}
+
+is_in_benin = {
+	always = no
+}
+
+is_in_nigeria = {
+	always = no
+}
+
+is_in_equatorial_africa = {
+	always = no
+}
+
+is_in_gabon = {
+	always = no
+}
+
+is_in_kongo = {
+	always = no
+}
+
+is_in_angola = {
+	always = no
+}
+
+is_in_nambia = {
+	always = no
+}
+
+is_in_african_horn = {
+	always = no
+}
+
+is_in_uganda = {
+	always = no
+}
+
+is_in_rhodesia = {
+	always = no
+}
+
+is_in_central_africa = {
+	always = no
+}
+
+is_in_mali = {
+	always = no
+}
+
+is_in_niger = {
+	always = no
+}
+
+is_in_burkina_faso = {
+	always = no
+}
+
+is_in_chad = {
+	always = no
+}
+
+

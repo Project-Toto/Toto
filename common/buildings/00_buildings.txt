@@ -57,17 +57,29 @@ buildings = {
 		naval_production = 1
 	}
 
-	building_farm = {
-		show_on_map = 0
-		base_cost = 6000
-		icon_frame = 19
+	bunker = {
+		show_on_map = 1
+		has_destroyed_mesh = yes
+		base_cost = 750
+		per_level_extra_cost = 750
+		provincial = yes
+		disabled_in_dmz = yes
+		icon_frame = 7
+		land_fort = 1
 		max_level = 25
-		shares_slots = yes
-		value = 3
-		infrastructure_construction_effect = yes
+		value = 1
+	}
 
-		show_modifier = yes
-		weekly_manpower = 5
+	anti_air_building = {
+		show_on_map = 3
+		base_cost = 5000
+		icon_frame = 9
+		anti_air = yes
+		disabled_in_dmz = yes
+		air_defence = 1
+		max_level = 10 # This is the max unlock level
+		damage_factor = 0.1
+		value = 2
 	}
 
 	air_base = {
@@ -92,17 +104,17 @@ buildings = {
 		value = 1
 	}
 
-	bunker = {
-		show_on_map = 1
-		has_destroyed_mesh = yes
-		base_cost = 750
-		per_level_extra_cost = 750
-		provincial = yes
-		disabled_in_dmz = yes
-		icon_frame = 7
-		land_fort = 1
+	building_farm = {
+		show_on_map = 0
+		base_cost = 6000
+		icon_frame = 19
 		max_level = 25
-		value = 1
+		shares_slots = yes
+		value = 3
+		infrastructure_construction_effect = yes
+
+		show_modifier = yes
+		weekly_manpower = 5
 	}
 
 	coastal_bunker = {
@@ -117,19 +129,6 @@ buildings = {
 		naval_fort = 1
 		max_level = 25
 		value = 1
-	}
-
-
-	anti_air_building = {
-		show_on_map = 3
-		base_cost = 5000
-		icon_frame = 9
-		anti_air = yes
-		disabled_in_dmz = yes
-		air_defence = 1
-		max_level = 10 # This is the max unlock level
-		damage_factor = 0.1
-		value = 2
 	}
 
 	# synthetic_refinery_oil = {

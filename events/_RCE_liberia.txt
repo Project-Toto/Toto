@@ -1014,7 +1014,7 @@ country_event = {
 						desc = ""
 						picture = "gfx/leaders/Europe/Portrait_Europe_Generic_5.dds"
 						expire = "1898.4.7"
-						ideology = military_goverment
+						ideology = imperialism_junta
 						traits = {
 						}
 					}
@@ -1284,7 +1284,7 @@ country_event = {
 			# 298 = {
 			# 	add_manpower = -1000
 			# }
-		}
+			# }
 	}
 
 	option = {
@@ -3499,8 +3499,7 @@ country_event = {
 		hidden_effect = {
 			complete_national_focus = LIB_adopt_strong_ACS_policies
 			add_popularity = { ideology = imperialism popularity = 0.05 }
-			add_popularity = { ideology = reformism popularity = -0.05 }
-			add_popularity = { ideology = social_egalitarianism popularity = 0.05 }
+			add_popularity = { ideology = reformism popularity = 0.05 }
 		}
 	}
 

@@ -107,13 +107,13 @@ focus_tree = {
 			ZAN={
 				set_country_flag = accepted_OMA_lordship
 				set_political_party = {
-					ideology = autocracy
+					ideology = imperialism
 					popularity = 100
 				}
 			}
 			MOM={
 				set_political_party = {
-					ideology = autocracy
+					ideology = imperialism
 					popularity = 100
 				}
 			}

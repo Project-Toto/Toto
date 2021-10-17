@@ -50,7 +50,7 @@ add_ideas = {
 
 		privileged_education
 		state_religion
-	religion_sunni
+	law_country_religion_sunni
 
 
 				 #NATIONAL SPIRITS

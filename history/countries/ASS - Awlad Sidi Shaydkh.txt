@@ -28,14 +28,14 @@ add_manpower = 12000
 add_ideas = {
     #POLITICS
 
-    
-    
+
+
     agrarian
     no_heir
     absolute_monarchy
 	law_army_tribal_advanced
 
-    
+
     limited_exports
     two_percent
     normal_taxes
@@ -53,10 +53,10 @@ add_ideas = {
 
     traditional_uluma
     state_religion
-	religion_sunni
+	law_country_religion_sunni
 
    #
-    
+
     #
     #
     #
