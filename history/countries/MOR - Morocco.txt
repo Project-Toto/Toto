@@ -55,10 +55,10 @@ add_ideas = {
 		absolutism
 
 		sharia_constitution
-		no_elections
+
 
 		traditional_uluma
-		state_religion
+
 	law_country_religion_sunni
 
 	 #hc_no_healthcare

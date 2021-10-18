@@ -52,10 +52,10 @@
 		absolutism
 
 		no_constitution
-		no_elections
+
 	religion_protestant
 		privileged_education
-		state_religion
+
 
 				 #NATIONAL SPIRITS
 		AFR_netherland_colony

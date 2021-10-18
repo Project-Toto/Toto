@@ -24,7 +24,7 @@
 
 
 		closed_economy
-		one_percent
+		
 		very_low_taxes
 	#
 	lp_tribal_communalism
@@ -36,11 +36,11 @@
 		absolutism
 
 		sharia_constitution
-		no_elections
+
 
 	law_country_religion_sunni
 		traditional_uluma
-		theocratic_state
+		law_country_government_religious_order
 
 		 #
 		law_mercenary_groups

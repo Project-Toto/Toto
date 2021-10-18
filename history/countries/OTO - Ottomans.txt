@@ -76,11 +76,11 @@ set_variable = { debt_level = 5 } #The Ottoman Empire's National Debt amounts to
 		absolutism
 
 		human_rights
-		no_elections
+
 
 		privileged_education
-		state_religion
-	
+
+
 	# State Attributes
 		law_country_power_great
 		law_country_law_country_religion_sunni

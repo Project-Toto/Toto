@@ -8,6 +8,8 @@ ideas = {
 			allowed = { always = yes }
 			level = 4
 
+			picture = lawicon_white
+
 			modifier = {
 				production_factory_max_efficiency_factor = 0.1
 				production_speed_buildings_factor = 0.1
@@ -23,6 +25,7 @@ ideas = {
 			allowed = { always = yes }
 			level = 3
 
+			picture = lawicon_yellow
 			available = {
 				NOT = {
 					has_idea = mass_production
@@ -48,6 +51,8 @@ ideas = {
 			allowed = { always = yes }
 			level = 2
 
+			picture = lawicon_black
+
 			available = {
 				NOT = {
 					has_idea = electrification
@@ -70,6 +75,8 @@ ideas = {
 		industrializing = {
 			allowed = { always = yes }
 			level = 1
+
+			picture = lawicon_orange
 
 			available = {
 				NOT = {
@@ -99,6 +106,8 @@ ideas = {
 
 			default = yes
 			level = 0
+
+			picture = lawicon_green
 
 			available = {
 				NOT = {
@@ -131,64 +140,73 @@ ideas = {
 		law = yes
 		use_list_view = yes
 		law_country_centralization_expanding_administration = {
-			picture = filler
 			allowed = { always = yes }
 			available = { always = yes }
 			level = 3
+
+			picture = lawicon_green
 		}
 		law_country_centralization_stable = {
-			picture = filler
 			allowed = { always = yes }
 			available = { always = yes }
 			level = 2
 			default = yes
+
+			picture = lawicon_yellow
 		}
 		law_country_centralization_decentralization = {
-			picture = filler
 			allowed = { always = yes }
 			available = { always = yes }
 			level = 1
+
+			picture = lawicon_orange
 		}
 		law_country_centralization_rapid_decentralization = {
-			picture = filler
 			allowed = { always = yes }
 			available = { always = yes }
 			level = 0
+
+			picture = lawicon_red
 		}
 	}
 	law_country_prosperity = {
 		law = yes
 		use_list_view = yes
 		law_country_prosperity_very_prosperous = {
-			picture = filler
 			allowed = { always = yes }
 			available = { always = yes }
 			level = 4
+
+			picture = lawicon_cyan
 		}
 		law_country_prosperity_prosperous = {
-			picture = filler
 			allowed = { always = yes }
 			available = { always = yes }
 			level = 3
+
+			picture = lawicon_green
 		}
 		law_country_prosperity_stable = {
-			picture = filler
 			allowed = { always = yes }
 			available = { always = yes }
 			level = 2
 			default = yes
+
+			picture = lawicon_yellow
 		}
 		law_country_prosperity_devastated = {
-			picture = filler
 			allowed = { always = yes }
 			available = { always = yes }
 			level = 1
+
+			picture = lawicon_orange
 		}
 		law_country_prosperity_very_devastated = {
-			picture = filler
 			allowed = { always = yes }
 			available = { always = yes }
 			level = 0
+
+			picture = lawicon_red
 		}
 	}
 	law_country_population = {
@@ -197,6 +215,9 @@ ideas = {
 		encouraged_growth = {
 			allowed = { always = yes }
 			level = 2
+
+			picture = lawicon_green
+
 			modifier = {
 				MONTHLY_POPULATION = 0.15
 				consumer_goods_factor = 0.05
@@ -209,11 +230,15 @@ ideas = {
 			level = 1
 
 			default = yes
+
+			picture = lawicon_yellow
 		}
 
 		disencouraged_growth = {
 			allowed = { always = yes }
 			level = 0
+
+			picture = lawicon_red
 
 			modifier = {
 				MONTHLY_POPULATION = -0.15

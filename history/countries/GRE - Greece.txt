@@ -60,7 +60,7 @@ add_ideas = {
 		limited_elections
 
 		privileged_education
-		state_religion
+		
 		religion_orthodox
 
 		law_country_power_minor

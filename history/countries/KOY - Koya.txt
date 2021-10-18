@@ -36,7 +36,7 @@
 
 
 		closed_economy
-		one_percent
+		
 		very_low_taxes
 	#
 	lp_tribal_communalism
@@ -48,11 +48,11 @@
 		absolutism
 
 		no_constitution
-		no_elections
+
 
 		oral_tradition
-		state_religion
-	religion_animist
+
+
 
 	 #
 		law_mercenary_groups

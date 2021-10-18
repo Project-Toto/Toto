@@ -50,10 +50,10 @@ add_ideas = {
 		absolutism
 
 		no_constitution
-		no_elections
+
 
 		privileged_education
-		state_religion
+
 	religion_ibadi
 
 	 law_country_power_secondary

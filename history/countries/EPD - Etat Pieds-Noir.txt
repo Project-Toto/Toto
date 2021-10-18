@@ -68,12 +68,12 @@
 				absolutism
 
 				limited_constitution
-				no_elections
+
 
 			#Culture
 				privileged_education
-				state_religion
-				religion_catholic
+
+				law_country_religion_catholic
 	}
 
 	#Rivals

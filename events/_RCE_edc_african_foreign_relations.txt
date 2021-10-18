@@ -777,7 +777,7 @@ country_event = {###natives reached 10 steel_mill
 			has_country_flag = afr_colony_industrializing
 			has_country_flag = afr_an_african_industrializing
 		}
-		steel_mill > 9
+		building_steel_mill > 9
 		NOT= {has_country_flag= af_t_10_steel}
 	}
 	mean_time_to_happen = {

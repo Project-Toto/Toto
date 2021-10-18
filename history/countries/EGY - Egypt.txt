@@ -59,10 +59,10 @@ set_technology = {
 		absolutism
 
 		no_constitution
-		no_elections
+
 
 		privileged_education
-		state_religion
+
 		law_country_religion_sunni
 
 

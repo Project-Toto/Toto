@@ -183,10 +183,9 @@ country_event = {
 				add_ideas = privileged_education
 				add_ideas = limited_conscription
 				add_ideas = constitution_adopted
-				add_ideas = limited_elections
 				add_ideas = law_country_government_democratic_republic
 				add_ideas = secular_state
-				add_ideas = religion_protestant
+				add_ideas = country_law_religion_protestant
 				add_ideas = slavery
 				add_ideas = extensive_conscription
 				add_ideas = closed_economy
@@ -2396,10 +2395,6 @@ country_event = {
 				swap_ideas = {
 					remove_idea = no_heir
 					add_idea = non_monarchical_system
-				}
-				swap_ideas = {
-					remove_idea = no_elections
-					add_idea = limited_elections
 				}
 				if = {
 					limit = {

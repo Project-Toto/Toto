@@ -100,17 +100,51 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/laws/country_religion/religion_secular.dds"
 	}
 }
-# Culture
-spriteTypes = {
-	spriteType = {
-		name = "GFX_idea_religion_secular"
-		texturefile = "gfx/interface/ideas/laws/country_religion/religion_secular.dds"
-	}
-}
+
 # Government
 spriteTypes = {
 	spriteType = {
-		name = "GFX_idea_religion_secular"
-		texturefile = "gfx/interface/ideas/laws/country_religion/religion_secular.dds"
+		name = "GFX_idea_lawicon_blue"
+		texturefile = "gfx/interface/ideas/laws/lawicon_blue.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_lawicon_brown"
+		texturefile = "gfx/interface/ideas/laws/lawicon_brown.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_lawicon_cyan"
+		texturefile = "gfx/interface/ideas/laws/lawicon_cyan.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_lawicon_black"
+		texturefile = "gfx/interface/ideas/laws/lawicon_black.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_lawicon_green"
+		texturefile = "gfx/interface/ideas/laws/lawicon_green.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_lawicon_magenta"
+		texturefile = "gfx/interface/ideas/laws/lawicon_magenta.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_lawicon_orange"
+		texturefile = "gfx/interface/ideas/laws/lawicon_orange.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_lawicon_purple"
+		texturefile = "gfx/interface/ideas/laws/lawicon_purple.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_lawicon_red"
+		texturefile = "gfx/interface/ideas/laws/lawicon_red.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_lawicon_white"
+		texturefile = "gfx/interface/ideas/laws/lawicon_white.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_lawicon_yellow"
+		texturefile = "gfx/interface/ideas/laws/lawicon_yellow.dds"
 	}
 }

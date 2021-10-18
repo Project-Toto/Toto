@@ -507,7 +507,6 @@ country_event = {
 					add_ideas = AFR_history_of_colonial_resistance
 					add_ideas={AF_T_Tribal_Army}
 					load_focus_tree = africa_tribe
-					add_ideas = state_religion
 					add_ideas = law_country_religion_sunni
 					add_ideas = tribal_slavery
 					add_ideas = manpower_tribal_everyone
@@ -515,16 +514,11 @@ country_event = {
 					add_ideas = no_borders
 					add_ideas = closed_economy
 					add_ideas = very_low_taxes
-					add_ideas = state_controlled_press
 					add_ideas = no_heir
 					add_ideas = pre_industrial_era
 					add_ideas = agrarian
 					add_ideas = oral_tradition
 					add_ideas = law_country_government_kingdom
-					add_ideas = hc_no_healthcare
-					add_ideas = law_no_organized_force
-					add_ideas = inframain_no_subsidies_infrastructure
-					add_ideas = navinfra_no_naval_infrastructure
 
 					remove_ideas = ETH_generals_inspire
 					remove_ideas = ETH_strike_eritrea_plan
@@ -677,7 +671,6 @@ country_event = {
 					add_ideas = AFR_history_of_colonial_resistance
 					add_ideas={AF_T_Tribal_Army}
 					load_focus_tree = africa_tribe
-					add_ideas = state_religion
 					add_ideas = religion_sunni
 					add_ideas = tribal_slavery
 					add_ideas = manpower_tribal_everyone
@@ -685,16 +678,11 @@ country_event = {
 					add_ideas = no_borders
 					add_ideas = closed_economy
 					add_ideas = very_low_taxes
-					add_ideas = state_controlled_press
 					add_ideas = no_heir
 					add_ideas = pre_industrial_era
 					add_ideas = agrarian
 					add_ideas = oral_tradition
 					add_ideas = law_country_government_kingdom
-					add_ideas = hc_no_healthcare
-					add_ideas = law_no_organized_force
-					add_ideas = inframain_no_subsidies_infrastructure
-					add_ideas = navinfra_no_naval_infrastructure
 
 					remove_ideas = ETH_generals_inspire
 					remove_ideas = ETH_strike_eritrea_plan
@@ -1691,24 +1679,19 @@ country_event = {
 					add_ideas={AF_T_Tribal_Army}
 					add_ideas = Mahdist_State_jihad_prelude
 					load_focus_tree = afr_generic_jihadist_1
-					add_ideas = theocratic_state
-					add_ideas = religion_sunni
+					add_ideas = law_country_government_religious_order
+					add_ideas = law_country_religion_sunni
 					add_ideas = slavery
 					add_ideas = manpower_tribal_every_fifth
 					add_ideas = law_army_tribal_advanced
 					add_ideas = no_borders
 					add_ideas = closed_economy
 					add_ideas = very_low_taxes
-					add_ideas = state_controlled_press
 					add_ideas = no_heir
 					add_ideas = pre_industrial_era
 					add_ideas = agrarian
 					add_ideas = oral_tradition
 					add_ideas = law_country_government_kingdom
-					add_ideas = hc_no_healthcare
-					add_ideas = law_no_organized_force
-					add_ideas = inframain_no_subsidies_infrastructure
-					add_ideas = navinfra_no_naval_infrastructure
 					remove_ideas = egy_sudan_slave_raids
 					remove_ideas = egy_vic_debt
 					remove_ideas = egy_vic_postal_service
@@ -2081,7 +2064,7 @@ country_event = {
 	option = {
 		name = ethiopia_religion.1.a
 		ai_chance = { factor = 100 }
-		add_ideas = religion_protestant
+		add_ideas = country_law_religion_protestant
 	}
 
 }
@@ -3445,10 +3428,10 @@ country_event = {
 		random_owned_state = {
 			limit = {
 				is_fully_controlled_by = ROOT
-				cotton_farm >0
+				building_cotton > 0
 			}
 			damage_building = {
-				type = cotton_farm
+				type = building_cotton
 				damage = 0.6
 			}
 		}

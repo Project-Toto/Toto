@@ -24,7 +24,7 @@
 			#Economic
 
 				closed_economy
-				one_percent
+				
 				very_low_taxes
 				#
 				lp_tribal_communalism
@@ -38,14 +38,14 @@
 
 			#Governmental Policies
 				no_constitution
-				no_elections
+
 				communal
 				no_federalism
 
 			#Culture
 				oral_tradition
-				state_religion
-				religion_animist
+
+
 
 			#Budget
 				#

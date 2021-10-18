@@ -1720,10 +1720,10 @@ country_event = {#OTO - establish eastern rumelia
 	is_triggered_only = yes
 	immediate={
 		set_autonomy = {
-			target = ERU
+			target = RUM
 			autonomy_state = autonomy_ottoman_eyalet
 		}
-		ERU={
+		RUM={
 			transfer_state = 1023
 			add_state_core = 1023
 			add_ideas = {OTO_ERU_tamrash_republic}

@@ -40,7 +40,7 @@
 
 
 		closed_economy
-		one_percent
+		
 		very_low_taxes
 	#
 	lp_land_estates
@@ -52,11 +52,11 @@
 		absolutism
 
 		no_constitution
-		no_elections
+
 
 		oral_tradition
-		state_religion
-	religion_animist
+
+
 
 	 #
 

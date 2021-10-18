@@ -24,7 +24,7 @@
 		#Economic
 
 			closed_economy
-			one_percent
+			
 			very_low_taxes
 			#
 			lp_tribal_communalism
@@ -39,13 +39,13 @@
 		#Governmental Policies
 			no_federalism
 			sharia_constitution
-			no_elections
+
 			communal
 
 		#Culture
 			law_country_religion_sunni
 			traditional_uluma
-			theocratic_state
+			law_country_government_religious_order
 
 	#NATIONAL SPIRITS
 		AF_T_small_kingdom

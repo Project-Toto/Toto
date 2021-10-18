@@ -542,7 +542,7 @@ country_event = {
 				}
 			}
 		}
-		add_ideas = religion_protestant
+		add_ideas = country_law_religion_protestant
 		hidden_effect = { add_to_array = { national_religion_array = global.protestant } }
 	}
 

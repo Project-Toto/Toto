@@ -27,7 +27,7 @@
 
 
 		limited_exports
-		one_percent
+		
 		very_low_taxes
 	#
 	lp_tribal_communalism
@@ -39,10 +39,10 @@
 		absolutism
 
 		no_constitution
-		no_elections
+
 
 		oral_tradition
-		theocratic_state
+		law_country_government_religious_order
 	law_country_religion_sunni
 
 	 #

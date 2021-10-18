@@ -59,11 +59,11 @@
     absolutism
 
     no_constitution
-    no_elections
+
 
     oral_tradition
-    state_religion
-	religion_animist
+
+
 
    #
 
