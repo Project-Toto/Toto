@@ -188,6 +188,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/laws/lawicon_green.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_lawicon_gray"
+		texturefile = "gfx/interface/ideas/laws/lawicon_gray.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_lawicon_gold"
 		texturefile = "gfx/interface/ideas/laws/lawicon_gold.dds"
 	}
@@ -206,6 +210,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_lawicon_red"
 		texturefile = "gfx/interface/ideas/laws/lawicon_red.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_lawicon_tan"
+		texturefile = "gfx/interface/ideas/laws/lawicon_tan.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_lawicon_white"

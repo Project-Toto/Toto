@@ -140,7 +140,7 @@ ideas = {
 	law_country_centralization = {
 		law = yes
 		use_list_view = yes
-		law_country_centralization_expanding_administration = {
+		law_country_centralization_centralization = {
 			allowed = { always = yes }
 			available = { always = yes }
 			level = 3
@@ -185,7 +185,7 @@ ideas = {
 			available = { always = yes }
 			level = 3
 
-			picture = lawicon_green
+			picture = lawicon_cyan
 		}
 		law_country_prosperity_stable = {
 			allowed = { always = yes }
@@ -193,21 +193,21 @@ ideas = {
 			level = 2
 			default = yes
 
-			picture = lawicon_yellow
+			picture = lawicon_cyan
 		}
 		law_country_prosperity_devastated = {
 			allowed = { always = yes }
 			available = { always = yes }
 			level = 1
 
-			picture = lawicon_orange
+			picture = lawicon_cyan
 		}
 		law_country_prosperity_very_devastated = {
 			allowed = { always = yes }
 			available = { always = yes }
 			level = 0
 
-			picture = lawicon_red
+			picture = lawicon_cyan
 		}
 	}
 	law_country_population = {
@@ -232,14 +232,14 @@ ideas = {
 
 			default = yes
 
-			picture = lawicon_yellow
+			picture = lawicon_green
 		}
 
 		disencouraged_growth = {
 			allowed = { always = yes }
 			level = 0
 
-			picture = lawicon_red
+			picture = lawicon_green
 
 			modifier = {
 				MONTHLY_POPULATION = -0.15

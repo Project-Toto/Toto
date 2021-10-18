@@ -6,6 +6,9 @@ ideas = {
 		full_constitution = {
 			allowed = { always = yes }
 			level = 4
+
+			picture = lawicon_tan
+
 			available = {
 				OR = {
 					has_government = reformism
@@ -24,6 +27,9 @@ ideas = {
 		sharia_constitution = {
 			allowed = { always = yes }
 			level = 3
+
+			picture = lawicon_tan
+
 			available = {
 				OR = {
 					has_government = fundamentalism
@@ -46,6 +52,9 @@ ideas = {
 		limited_constitution = {
 			allowed = { always = yes }
 			level = 3
+
+			picture = lawicon_tan
+
 			modifier = {
 				stability_factor = 0.05
 				monthly_population = 0.025
@@ -54,6 +63,9 @@ ideas = {
 		constitution_adopted = {
 			allowed = { always = yes }
 			level = 2
+
+			picture = lawicon_tan
+
 			modifier = {
 				political_power_gain = -0.025
 				stability_factor = 0.025
@@ -63,6 +75,8 @@ ideas = {
 		human_rights = {
 			allowed = { always = yes }
 			level = 1
+
+			picture = lawicon_tan
 
 			modifier = {
 				political_power_gain = 0.025
@@ -74,6 +88,8 @@ ideas = {
 			allowed = { always = yes }
 			default = yes
 			level = 0
+
+			picture = lawicon_tan
 
 			modifier = {
 				political_power_gain = 0.05
@@ -89,6 +105,9 @@ ideas = {
 		non_monarchical_system = {
 			allowed = { always = yes }
 			level = 0
+
+			picture = lawicon_purple
+
 			cancel_if_invalid = no
 
 			available = {
@@ -103,6 +122,8 @@ ideas = {
 		has_heir = {
 			allowed = { always = yes }
 			level = 2
+
+			picture = lawicon_purple
 
 			visible = {
 				law_country_government_non_monarchial = no
@@ -122,7 +143,8 @@ ideas = {
 		dethroned_heir = {
 			allowed = { always = yes }
 			level = 1
-			cancel_if_invalid = no
+
+			picture = lawicon_purple
 
 			visible = {
 				law_country_government_non_monarchial = no
@@ -136,6 +158,8 @@ ideas = {
 		weak_heir = {
 			allowed = { always = yes }
 			level = 1
+
+			picture = lawicon_purple
 
 			visible = {
 				law_country_government_non_monarchial = no
@@ -155,6 +179,8 @@ ideas = {
 			allowed = { always = yes }
 			default = yes
 			level = 0
+
+			picture = lawicon_purple
 
 			visible = {
 				law_country_government_non_monarchial = no
@@ -178,6 +204,8 @@ ideas = {
 			allowed = { always = yes }
 			level = 5
 
+			picture = lawicon_cyan
+
 			modifier = {
 				drift_defence_factor = -0.1
 				political_power_gain = -0.05
@@ -191,6 +219,8 @@ ideas = {
 			allowed = { always = yes }
 			level = 4
 
+			picture = lawicon_cyan
+
 			modifier = {
 				drift_defence_factor = -0.05
 				political_power_gain = -0.05
@@ -201,6 +231,8 @@ ideas = {
 		parliamentary_suffrage = {
 			allowed = { always = yes }
 			level = 3
+
+			picture = lawicon_cyan
 
 			modifier = {
 				drift_defence_factor = 0.1
@@ -214,6 +246,8 @@ ideas = {
 			allowed = { always = yes }
 			level = 2
 
+			picture = lawicon_cyan
+
 			modifier = {
 				political_advisor_cost_factor = 0.05
 			}
@@ -223,6 +257,8 @@ ideas = {
 		oligarchism = {
 			allowed = { always = yes }
 			level = 1
+
+			picture = lawicon_cyan
 
 			modifier = {
 				drift_defence_factor = 0.15
@@ -237,6 +273,8 @@ ideas = {
 		absolutism = {
 			allowed = { always = yes }
 			level = 0
+
+			picture = lawicon_cyan
 
 			modifier = {
 				drift_defence_factor = 0.2
@@ -254,7 +292,9 @@ ideas = {
 		use_list_view = yes
 		closed_borders = {
 			allowed = { always = yes }
-			level = 5
+			level = 3
+			
+			picture = lawicon_yellow
 
 			modifier = {
 				stability_factor = 0.05
@@ -262,45 +302,23 @@ ideas = {
 				MONTHLY_POPULATION = -0.15
 				research_speed_factor = 0.05
 			}
-
-			default = yes
-
-			cancel_if_invalid = no
 		}
 		border_control = {
-			removal_cost = -1
-			level = 4
+			allowed = { always = yes }
+			level = 2
 
 			modifier = {
 				MONTHLY_POPULATION = -0.05
 				consumer_goods_factor = -0.02
 			}
-
-			cancel_if_invalid = no
 		}
 		open_borders = {
-			removal_cost = -1
-			level = 3
+			allowed = { always = yes }
+			level = 1
 
-			available = {
-				custom_trigger_tooltip = {
-					tooltip = eoanb_trigger_tt_law_african_unorg
-				}
-				hidden_trigger = {
-					NOT = {
-						OR = {
-							has_idea = AF_T_unorganized_tribal_nation
-							has_idea = AF_T_unorganized_tribal_nation_2
-							has_idea = AF_T_unorganized_tribal_nation_3
-							has_idea = AF_T_unorganized_tribal_nation_4
-							has_idea = AF_T_unorganized_tribal_nation_5
-						}
-					}
-				}
-				NOT = {
-					has_idea = racial_laws
-				}
-			}
+			picture = lawicon_yellow
+
+			default = yes
 
 			modifier = {
 				stability_factor = -0.05
@@ -313,24 +331,8 @@ ideas = {
 		no_borders = {
 			allowed = { always = yes }
 			level = 0
-			default = yes
-			available = {
-				custom_trigger_tooltip = {
-					tooltip = eoanb_trigger_tt_law_african_unorg
-				}
-				hidden_trigger = {
-					NOT = {
-						OR = {
-							has_idea = AF_T_unorganized_tribal_nation
-							has_idea = AF_T_unorganized_tribal_nation_2
-							has_idea = AF_T_unorganized_tribal_nation_3
-							has_idea = AF_T_unorganized_tribal_nation_4
-							has_idea = AF_T_unorganized_tribal_nation_5
-						}
-					}
-				}
-				has_idea = pre_industrial_era
-			}
+			
+			picture = lawicon_yellow
 
 			modifier = {
 				stability_factor = -0.1
