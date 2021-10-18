@@ -4,11 +4,11 @@ ideas = {
 		law = yes
 		use_list_view = yes
 
-		mass_production = {
+		electrified = {
 			allowed = { always = yes }
 			level = 4
 
-			picture = lawicon_white
+			picture = industrialization_electrified
 
 			modifier = {
 				production_factory_max_efficiency_factor = 0.1
@@ -25,7 +25,8 @@ ideas = {
 			allowed = { always = yes }
 			level = 3
 
-			picture = lawicon_yellow
+			picture = industrialization_electrification
+
 			available = {
 				NOT = {
 					has_idea = mass_production
@@ -51,7 +52,7 @@ ideas = {
 			allowed = { always = yes }
 			level = 2
 
-			picture = lawicon_black
+			picture = industrialization_industrialized
 
 			available = {
 				NOT = {
@@ -76,7 +77,7 @@ ideas = {
 			allowed = { always = yes }
 			level = 1
 
-			picture = lawicon_orange
+			picture = industrialization_industrializing
 
 			available = {
 				NOT = {
@@ -107,7 +108,7 @@ ideas = {
 			default = yes
 			level = 0
 
-			picture = lawicon_green
+			picture = industrialization_agrarian
 
 			available = {
 				NOT = {

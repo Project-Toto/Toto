@@ -389,7 +389,7 @@ ideas = {
 				political_legitimacy_change = yes
 			}
 		}
-		
+
 		law_country_religion_sunni = {
 			allowed = { always = yes }
 			picture = religion_sunni
@@ -485,27 +485,43 @@ ideas = {
 		law_country_culture_uncategorized = {
 			allowed = { always = yes }
 			default = yes
+
+			picture = lawicon_brown
 		}
 		law_country_culture_arabic = {
 			allowed = { always = yes }
+
+			picture = lawicon_brown
 		}
 		law_country_culture_turkish = {
 			allowed = { always = yes }
+
+			picture = lawicon_brown
 		}
 		law_country_culture_persian = {
 			allowed = { always = yes }
+
+			picture = lawicon_brown
 		}
 		law_country_culture_balouch = {
 			allowed = { always = yes }
+
+			picture = lawicon_brown
 		}
 		law_country_culture_kurd = {
 			allowed = { always = yes }
+
+			picture = lawicon_brown
 		}
 		law_country_culture_greek = {
 			allowed = { always = yes }
+
+			picture = lawicon_brown
 		}
 		law_country_culture_albanian = {
 			allowed = { always = yes }
+
+			picture = lawicon_brown
 		}
 	}
 	law_country_government = {
@@ -513,6 +529,8 @@ ideas = {
 		law_country_government_nomadic = {
 			allowed = { always = yes }
 			level = 0
+
+			picture = lawicon_purple
 			available = {
 				always = no
 			}
@@ -527,6 +545,9 @@ ideas = {
 			allowed = { always = yes }
 			level = 1
 			default = yes
+
+			picture = lawicon_purple
+
 			on_add = {
 				if = {
 					limit = { check_variable = { country_score_technology > 25 } }
@@ -553,6 +574,9 @@ ideas = {
 		law_country_government_chiefdom = {
 			allowed = { always = yes }
 			level = 2
+
+			picture = lawicon_purple
+
 			on_add = {
 				if = {
 					limit = { has_idea = non_monarchical_system }
@@ -566,6 +590,9 @@ ideas = {
 		law_country_government_pirate = {
 			allowed = { always = yes }
 			level = 2
+
+			picture = lawicon_purple
+			
 			available = {
 				NOT = {
 					has_government = imperialism
@@ -593,6 +620,9 @@ ideas = {
 		law_country_government_tribal_confederacy = {
 			allowed = { always = yes }
 			level = 3
+
+			picture = lawicon_purple
+
 			on_add = {
 				add_ideas = {
 					non_monarchical_system
@@ -602,6 +632,9 @@ ideas = {
 		law_country_government_kingdom = {
 			allowed = { always = yes }
 			level = 3
+
+			picture = lawicon_purple
+
 			on_add = {
 				if = {
 					limit = { has_idea = non_monarchical_system }
@@ -615,6 +648,9 @@ ideas = {
 		law_country_government_merchantile_oligarchy = {
 			allowed = { always = yes }
 			level = 3
+
+			picture = lawicon_purple
+
 			on_add = {
 				add_ideas = {
 					non_monarchical_system
@@ -624,6 +660,9 @@ ideas = {
 		law_country_government_religious_order = {
 			allowed = { always = yes }
 			level = 3
+
+			picture = lawicon_purple
+
 			available = {
 				has_government = fundamentalism
 			}
@@ -645,6 +684,8 @@ ideas = {
 			allowed = { always = yes }
 			level = 3
 
+			picture = lawicon_purple
+
 			available = {
 				NOT = { has_government = fundamentalism }
 			}
@@ -657,6 +698,8 @@ ideas = {
 		law_country_government_sultanate = {
 			allowed = { always = yes }
 			level = 4
+
+			picture = lawicon_purple
 
 			available = {
 				has_idea = law_country_power_great
@@ -679,6 +722,9 @@ ideas = {
 		law_country_government_democratic_republic = {
 			allowed = { always = yes }
 			level = 4
+
+			picture = lawicon_purple
+
 			available = {
 				has_government = reformism
 			}
@@ -696,6 +742,8 @@ ideas = {
 		law_country_government_caliphate = {
 			allowed = { always = yes }
 			level = 5
+
+			picture = lawicon_purple
 
 			available = {
 				NOT = {
@@ -720,6 +768,9 @@ ideas = {
 		}
 		law_country_government_colonial_company = {
 			allowed = { always = yes }
+
+			picture = lawicon_purple
+
 			available = {
 				hidden_trigger = {
 					is_puppet = yes
@@ -788,19 +839,27 @@ ideas = {
 		law_country_society_nomadic = {
 			allowed = { always = yes }
 			level = 0
+
+			picture = lawicon_white
 		}
 		law_country_society_tribal = {
 			allowed = { always = yes }
 			default = yes
 			level = 1
+
+			picture = lawicon_white
 		}
 		law_country_society_feudal = {
 			allowed = { always = yes }
 			level = 2
+
+			picture = lawicon_white
 		}
 		law_country_society_state = {
 			allowed = { always = yes }
 			level = 3
+
+			picture = lawicon_white
 		}
 	}
 	law_country_military = {

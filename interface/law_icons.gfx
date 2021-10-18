@@ -120,8 +120,32 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/laws/country_religion/religion_secular.dds"
 	}
 }
- 
-# Government
+# industrialization
+spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_industrialization_agrarian"
+		texturefile = "gfx/interface/ideas/laws/industrialization_agrarian.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_industrialization_industrializing"
+		texturefile = "gfx/interface/ideas/laws/industrialization_industrializing.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_industrialization_industrialized"
+		texturefile = "gfx/interface/ideas/laws/industrialization_industrialized.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_industrialization_electrification"
+		texturefile = "gfx/interface/ideas/laws/industrialization_electrification.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_industrialization_electrified"
+		texturefile = "gfx/interface/ideas/laws/industrialization_electrified.dds"
+	}
+}
+
+# Generic
+
 spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_lawicon_blue"
