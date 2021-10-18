@@ -12,6 +12,26 @@ state_categories = {
 		# Ancestorship
 		color = { 172 33 151 }
 	}
+	state_category_religion_serer= {
+		# Serer
+		color = { 45 150 218 }
+	}
+	state_category_religion_vodun = {
+		# Vodun
+		color = { 10 50 32 }
+	}
+	state_category_religion_akom = {
+		# Akom
+		color = { 150 150 150 }
+	}
+	state_category_religion_isese = {
+		# Isese
+		color = { 236 236 160 }
+	}
+	state_category_religion_odinala = {
+		# Odinala
+		color = { 170 166 32 }
+	}
 	state_category_religion_mossi = {
 		# Mossi
 		color = { 25 50 0 }
@@ -28,8 +48,8 @@ state_categories = {
 		# Druze
 		color = { 255 130 8 }
 	}
-	state_category_religion_waaqist = {
-		# Waaqism
+	state_category_religion_waaqeffannaa = {
+		# Waaqeffannaa
 		color = { 169 203 8 }
 	}
 	state_category_religion_catholic = {
@@ -63,14 +83,6 @@ state_categories = {
 	state_category_religion_ibadi = {
 		# Ibadi
 		color = { 0 110 55 }
-	}
-	state_category_religion_cult_of_personality = {
-		# Cult of Personality
-		color = { 60 60 66 }
-	}
-	state_category_religion_vodun = {
-		# Vodun/Voodoo
-		color = { 10 50 13 }
 	}
 	state_category_religion_atheist = {
 		# Atheist

@@ -32,6 +32,26 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/laws/country_religion/religion_ancestorship.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_religion_serert"
+		texturefile = "gfx/interface/ideas/laws/country_religion/religion_serer.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_religion_vodun"
+		texturefile = "gfx/interface/ideas/laws/country_religion/religion_vodun.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_religion_akom"
+		texturefile = "gfx/interface/ideas/laws/country_religion/religion_akom.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_religion_isese"
+		texturefile = "gfx/interface/ideas/laws/country_religion/religion_isese.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_religion_odinala"
+		texturefile = "gfx/interface/ideas/laws/country_religion/religion_odinala.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_religion_mossi"
 		texturefile = "gfx/interface/ideas/laws/country_religion/religion_mossi.dds"
 	}
@@ -100,7 +120,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/laws/country_religion/religion_secular.dds"
 	}
 }
-
+ 
 # Government
 spriteTypes = {
 	spriteType = {
@@ -122,6 +142,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_lawicon_green"
 		texturefile = "gfx/interface/ideas/laws/lawicon_green.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_lawicon_gold"
+		texturefile = "gfx/interface/ideas/laws/lawicon_gold.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_lawicon_magenta"

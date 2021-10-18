@@ -131,6 +131,92 @@ ideas = {
 				political_legitimacy_change = yes
 			}
 		}
+
+		law_country_religion_serer = {
+			allowed = { always = yes }
+			picture = religion_serer
+			level = 0
+
+			available = {
+				demographics_majority_religion_serer = yes
+			}
+			cancel_if_invalid = no
+			on_add = {
+				set_temp_variable = {
+					var = political_legitimacy_change
+					value = -0.20
+				}
+				political_legitimacy_change = yes
+			}
+		}
+		law_country_religion_vodun = {
+			allowed = { always = yes }
+			picture = religion_vodun
+			level = 1
+
+			available = {
+				demographics_majority_religion_vodun = yes
+			}
+			cancel_if_invalid = no
+			on_add = {
+				set_temp_variable = {
+					var = political_legitimacy_change
+					value = -0.20
+				}
+				political_legitimacy_change = yes
+			}
+		}
+		law_country_religion_akom = {
+			allowed = { always = yes }
+			picture = religion_akom
+			level = 0
+
+			available = {
+				demographics_majority_religion_akom = yes
+			}
+			cancel_if_invalid = no
+			on_add = {
+				set_temp_variable = {
+					var = political_legitimacy_change
+					value = -0.20
+				}
+				political_legitimacy_change = yes
+			}
+		}
+		law_country_religion_isese = {
+			allowed = { always = yes }
+			picture = religion_isese
+			level = 0
+
+			available = {
+				demographics_majority_religion_isese = yes
+			}
+			cancel_if_invalid = no
+			on_add = {
+				set_temp_variable = {
+					var = political_legitimacy_change
+					value = -0.20
+				}
+				political_legitimacy_change = yes
+			}
+		}
+		law_country_religion_odinala = {
+			allowed = { always = yes }
+			picture = religion_odinala
+			level = 0
+
+			available = {
+				demographics_majority_religion_odinala = yes
+			}
+			cancel_if_invalid = no
+			on_add = {
+				set_temp_variable = {
+					var = political_legitimacy_change
+					value = -0.20
+				}
+				political_legitimacy_change = yes
+			}
+		}
 		law_country_religion_mossi = {
 			allowed = { always = yes }
 			picture = religion_mossi
@@ -148,6 +234,7 @@ ideas = {
 				political_legitimacy_change = yes
 			}
 		}
+
 		law_country_religion_zoroastrian = {
 			allowed = { always = yes }
 			picture = religion_zoroastrian
@@ -199,13 +286,13 @@ ideas = {
 				political_legitimacy_change = yes
 			}
 		}
-		law_country_religion_waaqist = {
+		law_country_religion_waaqeffannaa = {
 			allowed = { always = yes }
-			picture = religion_waaqist
+			picture = religion_waaqeffannaa
 			level = 1
 
 			available = {
-				demographics_majority_religion_waaqist = yes
+				demographics_majority_religion_waaqeffannaa = yes
 			}
 			cancel_if_invalid = no
 			on_add = {
@@ -302,6 +389,7 @@ ideas = {
 				political_legitimacy_change = yes
 			}
 		}
+		
 		law_country_religion_sunni = {
 			allowed = { always = yes }
 			picture = religion_sunni
@@ -353,40 +441,7 @@ ideas = {
 				political_legitimacy_change = yes
 			}
 		}
-		law_country_religion_cult_of_personality = {
-			allowed = { always = yes }
-			picture = religion_cult_of_personality
-			level = 2
 
-			available = {
-				demographics_majority_religion_cult_of_personality = yes
-			}
-			cancel_if_invalid = no
-			on_add = {
-				set_temp_variable = {
-					var = political_legitimacy_change
-					value = -0.20
-				}
-				political_legitimacy_change = yes
-			}
-		}
-		law_country_religion_vodun = {
-			allowed = { always = yes }
-			picture = religion_vodun
-			level = 1
-
-			available = {
-				demographics_majority_religion_vodun = yes
-			}
-			cancel_if_invalid = no
-			on_add = {
-				set_temp_variable = {
-					var = political_legitimacy_change
-					value = -0.20
-				}
-				political_legitimacy_change = yes
-			}
-		}
 		law_country_religion_atheist = {
 			allowed = { always = yes }
 			picture = religion_atheist

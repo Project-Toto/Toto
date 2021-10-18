@@ -132,6 +132,56 @@ enable_mapmode_religion = {
 			limit = {
 				check_variable = {
 					var = state_religion_array^0
+					value = global.religion_serer
+					compare = equals
+				}
+			}
+			set_state_category = state_category_religion_serer
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					var = state_religion_array^0
+					value = global.religion_voduni
+					compare = equals
+				}
+			}
+			set_state_category = state_category_religion_vodun
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					var = state_religion_array^0
+					value = global.religion_akom
+					compare = equals
+				}
+			}
+			set_state_category = state_category_religion_akom
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					var = state_religion_array^0
+					value = global.religion_isese
+					compare = equals
+				}
+			}
+			set_state_category = state_category_religion_isese
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					var = state_religion_array^0
+					value = global.religion_odinala
+					compare = equals
+				}
+			}
+			set_state_category = state_category_religion_odinala
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					var = state_religion_array^0
 					value = global.religion_mossi
 					compare = equals
 				}
@@ -172,11 +222,11 @@ enable_mapmode_religion = {
 			limit = {
 				check_variable = {
 					var = state_religion_array^0
-					value = global.religion_waaqist
+					value = global.religion_waaqeffannaa
 					compare = equals
 				}
 			}
-			set_state_category = state_category_religion_waaqist
+			set_state_category = state_category_religion_waaqeffannaa
 		}
 		else_if = {
 			limit = {
@@ -257,26 +307,6 @@ enable_mapmode_religion = {
 				}
 			}
 			set_state_category = state_category_religion_ibadi
-		}
-		else_if = {
-			limit = {
-				check_variable = {
-					var = state_religion_array^0
-					value = global.religion_cult_of_personality
-					compare = equals
-				}
-			}
-			set_state_category = state_category_religion_cult_of_personality
-		}
-		else_if = {
-			limit = {
-				check_variable = {
-					var = state_religion_array^0
-					value = global.religion_vodun
-					compare = equals
-				}
-			}
-			set_state_category = state_category_religion_vodun
 		}
 		else_if = {
 			limit = {

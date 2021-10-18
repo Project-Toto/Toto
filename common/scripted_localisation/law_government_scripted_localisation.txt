@@ -65,8 +65,23 @@
 			localization_key = law_country_religion_fetishist
 		}
 		text = {
-			trigger = { has_idea = law_country_religion_ancestorship }
 			localization_key = law_country_religion_ancestorship
+		}	trigger = { has_idea = law_country_religion_ancestorship }
+		text = {
+			trigger = { has_idea = law_country_religion_serer }
+			localization_key = law_country_religion_serer
+		}
+		text = {
+			trigger = { has_idea = law_country_religion_vodun }
+			localization_key = law_country_religion_vodun
+		}
+		text = {
+			trigger = { has_idea = law_country_religion_akom }
+			localization_key = law_country_religion_akom
+		}
+		text = {
+			trigger = { has_idea = law_country_religion_odinala }
+			localization_key = law_country_religion_odinala
 		}
 		text = {
 			trigger = { has_idea = law_country_religion_mossi }
@@ -85,8 +100,8 @@
 			localization_key = law_country_religion_druze
 		}
 		text = {
-			trigger = { has_idea = law_country_religion_waaqist }
-			localization_key = law_country_religion_waaqist
+			trigger = { has_idea = law_country_religion_waaqeffannaa }
+			localization_key = law_country_religion_waaqeffannaa
 		}
 		text = {
 			trigger = { has_idea = law_country_religion_catholic }
@@ -121,14 +136,6 @@
 			localization_key = law_country_religion_ibadi
 		}
 		text = {
-			trigger = { has_idea = law_country_religion_cult_of_personality }
-			localization_key = law_country_religion_cult_of_personality
-		}
-		text = {
-			trigger = { has_idea = law_country_religion_vodun }
-			localization_key = law_country_religion_vodun
-		}
-		text = {
 			trigger = { has_idea = law_country_religion_atheist }
 			localization_key = law_country_religion_atheist
 		}
@@ -151,6 +158,26 @@
 			localization_key = law_country_religion_ancestorship_desc
 		}
 		text = {
+			trigger = { has_idea = law_country_religion_serer }
+			localization_key = law_country_religion_serer_desc
+		}
+		text = {
+			trigger = { has_idea = law_country_religion_vodun }
+			localization_key = law_country_religion_vodun_desc
+		}
+		text = {
+			trigger = { has_idea = law_country_religion_akom }
+			localization_key = law_country_religion_akom_desc
+		}
+		text = {
+			trigger = { has_idea = law_country_religion_isese }
+			localization_key = law_country_religion_isese_desc
+		}
+		text = {
+			trigger = { has_idea = law_country_religion_odinala }
+			localization_key = law_country_religion_odinala_desc
+		}
+		text = {
 			trigger = { has_idea = law_country_religion_mossi }
 			localization_key = law_country_religion_mossi_desc
 		}
@@ -167,8 +194,8 @@
 			localization_key = law_country_religion_druze_desc
 		}
 		text = {
-			trigger = { has_idea = law_country_religion_waaqist }
-			localization_key = law_country_religion_waaqist_desc
+			trigger = { has_idea = law_country_religion_waaqeffanna }
+			localization_key = law_country_religion_waaqeffanna_desc
 		}
 		text = {
 			trigger = { has_idea = law_country_religion_catholic }
@@ -200,15 +227,6 @@
 		}
 		text = {
 			trigger = { has_idea = law_country_religion_ibadi }
-			localization_key = law_country_religion_ibadi_desc
-		}
-		text = {
-			trigger = { has_idea = law_country_religion_cult_of_personality }
-			localization_key = law_country_religion_cult_of_personality_desc
-		}
-		text = {
-			trigger = { has_idea = law_country_religion_vodun }
-			localization_key = law_country_religion_vodun_desc
 		}
 		text = {
 			trigger = { has_idea = law_country_religion_atheist }
@@ -233,6 +251,26 @@
 			localization_key = GFX_idea_religion_ancestorship
 		}
 		text = {
+			trigger = { has_idea = law_country_religion_serer }
+			localization_key = GFX_idea_religion_serer
+		}
+		text = {
+			trigger = { has_idea = law_country_religion_vodun }
+			localization_key = GFX_idea_religion_vodun
+		}
+		text = {
+			trigger = { has_idea = law_country_religion_akom }
+			localization_key = GFX_idea_religion_akom
+		}
+		text = {
+			trigger = { has_idea = law_country_religion_isese }
+			localization_key = GFX_idea_religion_isese
+		}
+		text = {
+			trigger = { has_idea = law_country_religion_odinala }
+			localization_key = GFX_idea_religion_odinala
+		}
+		text = {
 			trigger = { has_idea = law_country_religion_mossi }
 			localization_key = GFX_idea_religion_mossi
 		}
@@ -249,8 +287,8 @@
 			localization_key = GFX_idea_religion_druze
 		}
 		text = {
-			trigger = { has_idea = law_country_religion_waaqist }
-			localization_key = GFX_idea_religion_waaqist
+			trigger = { has_idea = law_country_religion_waaqeffannaa }
+			localization_key = GFX_idea_religion_waaqeffannaa
 		}
 		text = {
 			trigger = { has_idea = law_country_religion_catholic }
@@ -283,14 +321,6 @@
 		text = {
 			trigger = { has_idea = law_country_religion_ibadi }
 			localization_key = GFX_idea_religion_ibadi
-		}
-		text = {
-			trigger = { has_idea = law_country_religion_cult_of_personality }
-			localization_key = GFX_idea_religion_cult_of_personality
-		}
-		text = {
-			trigger = { has_idea = law_country_religion_vodun }
-			localization_key = GFX_idea_religion_vodun
 		}
 		text = {
 			trigger = { has_idea = law_country_religion_atheist }

@@ -594,27 +594,29 @@
 			# Pagan
 				set_variable = { global.religion_animist = 1 }
 				set_variable = { global.religion_fetishist = 2 }
-			# Ancestorship
 				set_variable = { global.religion_ancestorship = 3 }
-				set_variable = { global.religion_mossi = 4 }
+			# Western
+				set_variable = { global.religion_serer = 4 }
+				set_variable = { global.religion_vodun = 5 }
+				set_variable = { global.religion_akom = 6 }
+				set_variable = { global.religion_isese = 7 }
+				set_variable = { global.religion_odinala = 8 }
+				set_variable = { global.religion_mossi = 9 }
 			# Esoteric Monotheistics
-				set_variable = { global.religion_zoroastrian = 5 }
-				set_variable = { global.religion_jewish = 6 }
-				set_variable = { global.religion_druze = 7 }
-				set_variable = { global.religion_waaqist = 8 }
+				set_variable = { global.religion_zoroastrian = 10 }
+				set_variable = { global.religion_jewish = 11 }
+				set_variable = { global.religion_druze = 12 }
+				set_variable = { global.religion_waaqeffannaa = 13 }
 			# Christianity
-				set_variable = { global.religion_catholic = 9 }
-				set_variable = { global.religion_protestant = 10 }
-				set_variable = { global.religion_anglican = 11 }
-				set_variable = { global.religion_orthodox = 12 }
-				set_variable = { global.religion_coptic = 13 }
+				set_variable = { global.religion_catholic = 14 }
+				set_variable = { global.religion_protestant = 15 }
+				set_variable = { global.religion_anglican = 16 }
+				set_variable = { global.religion_orthodox = 17 }
+				set_variable = { global.religion_coptic = 18 }
 			# Islam
-				set_variable = { global.religion_sunni = 14 }
-				set_variable = { global.religion_shiite = 15 }
-				set_variable = { global.religion_ibadi = 16 }
-			# Cult
-				set_variable = { global.religion_cult_of_personality = 17 }
-				set_variable = { global.religion_vodun = 18 }
+				set_variable = { global.religion_sunni = 19 }
+				set_variable = { global.religion_shiite = 20 }
+				set_variable = { global.religion_ibadi = 21 }
 			# Irreligious
-				set_variable = { global.religion_atheist = 19 }
+				set_variable = { global.religion_atheist = 22 }
 		}

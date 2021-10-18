@@ -34,6 +34,56 @@ defined_text = {
 		trigger = {
 			check_variable = {
 				var = state_culture_temp
+				value = global.religion_serer
+				compare = equals
+			}
+		}
+		localization_key = law_country_religion_serer
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = state_culture_temp
+				value = global.religion_vodun
+				compare = equals
+			}
+		}
+		localization_key = law_country_religion_vodun
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = state_culture_temp
+				value = global.religion_akom
+				compare = equals
+			}
+		}
+		localization_key = law_country_religion_akom
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = state_culture_temp
+				value = global.religion_isese
+				compare = equals
+			}
+		}
+		localization_key = law_country_religion_isese
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = state_culture_temp
+				value = global.religion_odinala
+				compare = equals
+			}
+		}
+		localization_key = law_country_religion_odinala
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = state_culture_temp
 				value = global.religion_mossi
 				compare = equals
 			}
@@ -74,11 +124,11 @@ defined_text = {
 		trigger = {
 			check_variable = {
 				var = state_culture_temp
-				value = global.religion_waaqist
+				value = global.religion_waaqeffannaa
 				compare = equals
 			}
 		}
-		localization_key = law_country_religion_waaqist
+		localization_key = law_country_religion_waaqeffannaa
 	}
 	text = {
 		trigger = {
@@ -159,26 +209,6 @@ defined_text = {
 			}
 		}
 		localization_key = law_country_religion_ibadi
-	}
-	text = {
-		trigger = {
-			check_variable = {
-				var = state_culture_temp
-				value = global.religion_cult_of_personality
-				compare = equals
-			}
-		}
-		localization_key = law_country_religion_cult_of_personality
-	}
-	text = {
-		trigger = {
-			check_variable = {
-				var = state_culture_temp
-				value = global.religion_vodun
-				compare = equals
-			}
-		}
-		localization_key = law_country_religion_vodun
 	}
 	text = {
 		trigger = {
