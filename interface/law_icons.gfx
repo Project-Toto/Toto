@@ -124,23 +124,43 @@ spriteTypes = {
 spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_industrialization_agrarian"
-		texturefile = "gfx/interface/ideas/laws/industrialization_agrarian.dds"
+		texturefile = "gfx/interface/ideas/laws/country_industrialization/industrialization_agrarian.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_industrialization_industrializing"
-		texturefile = "gfx/interface/ideas/laws/industrialization_industrializing.dds"
+		texturefile = "gfx/interface/ideas/laws/country_industrialization/industrialization_industrializing.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_industrialization_industrialized"
-		texturefile = "gfx/interface/ideas/laws/industrialization_industrialized.dds"
+		texturefile = "gfx/interface/ideas/laws/country_industrialization/industrialization_industrialized.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_industrialization_electrification"
-		texturefile = "gfx/interface/ideas/laws/industrialization_electrification.dds"
+		texturefile = "gfx/interface/ideas/laws/country_industrialization/industrialization_electrification.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_industrialization_electrified"
-		texturefile = "gfx/interface/ideas/laws/industrialization_electrified.dds"
+		texturefile = "gfx/interface/ideas/laws/country_industrialization/industrialization_electrified.dds"
+	}
+}
+
+# Centralization
+spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_centralization_centralization"
+		texturefile = "gfx/interface/ideas/laws/country_centralization/centralization_centralization.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_centralization_stable"
+		texturefile = "gfx/interface/ideas/laws/country_centralization/centralization_stable.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_centralization_decentralization"
+		texturefile = "gfx/interface/ideas/laws/country_centralization/centralization_decentralization.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_centralization_rapid_decentralization"
+		texturefile = "gfx/interface/ideas/laws/country_centralization/centralization_rapid_decentralization.dds"
 	}
 }
 
