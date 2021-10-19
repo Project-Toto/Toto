@@ -841,7 +841,7 @@ ideas = {
 			allowed_civil_war = { always = yes }
 			level = 0
 
-			picture = lawicon_dark_green
+			picture = society_nomadic
 
 			modifier = {
 				research_speed_factor = -0.4

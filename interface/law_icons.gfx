@@ -120,6 +120,16 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/laws/country_religion/religion_secular.dds"
 	}
 }
+
+# Culture
+
+# Society
+spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_society_nomadic"
+		texturefile = "gfx/interface/ideas/laws/country_society/society_nomadic.dds"
+	}
+}
 # industrialization
 spriteTypes = {
 	spriteType = {
