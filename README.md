@@ -33,7 +33,7 @@
 ## What is this?
 
 From the same team that brought you award winning Hearts of Iron IV mod, End of a New Beginning, End of a New Beginning: Empires of the Soudan is a new, unique take on the Victorian Era, bring players into the often under-represented perspective of Pre-Colonial Africa.
-<img src="https://github.com/team-eoanb/EoaNB-Wallpapers/blob/main/load_mtg_2.jpg?raw=true" width="720px;" align="middle" alt="End of a New Beginning — Pax Orientalis Banner"/>
+<img src="https://github.com/team-eoanb/EoaNB-Wallpapers/blob/main/load_mtg_2.jpg?raw=true" width="1440px;" align="middle" alt="End of a New Beginning — Pax Orientalis Banner"/>
 
 <hr>
 
