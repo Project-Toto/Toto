@@ -129,6 +129,14 @@ spriteTypes = {
 		name = "GFX_idea_society_nomadic"
 		texturefile = "gfx/interface/ideas/laws/country_society/society_nomadic.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_society_unorganized_tribal"
+		texturefile = "gfx/interface/ideas/laws/country_society/society_unorganized_tribal.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_society_organized_tribal"
+		texturefile = "gfx/interface/ideas/laws/country_society/society_organized_tribal.dds"
+	}
 }
 # industrialization
 spriteTypes = {
