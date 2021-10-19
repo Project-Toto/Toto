@@ -195,46 +195,6 @@
 				army_org_Factor = 0.10
 			}
 		}
-		afr_large_kingdom = {
-			allowed = {
-				always = yes
-			}
-			
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = reforming_regional_power
-
-			modifier = {
-				political_power_cost = 0.15
-				stability_factor = -0.075
-				research_speed_factor = -0.25
-				army_org_Factor = -0.075
-			}
-		}
-		afr_reforming_kingdom = {
-			allowed = {
-				always = yes
-			}
-			
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = reforming_regional_power
-
-			modifier = {
-				political_power_cost = 0.15
-				stability_factor = -0.1
-				research_speed_factor = -0.2
-				army_org_Factor = -0.075
-			}
-		}
 		afr_fast_forces = {
 			allowed = {
 				always = yes

@@ -184,6 +184,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/laws/lawicon_black.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_lawicon_dark_green"
+		texturefile = "gfx/interface/ideas/laws/lawicon_dark_green.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_lawicon_green"
 		texturefile = "gfx/interface/ideas/laws/lawicon_green.dds"
 	}
