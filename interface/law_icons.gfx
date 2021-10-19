@@ -32,7 +32,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/laws/country_religion/religion_ancestorship.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_religion_serert"
+		name = "GFX_idea_religion_serer"
 		texturefile = "gfx/interface/ideas/laws/country_religion/religion_serer.dds"
 	}
 	spriteType = {
@@ -68,8 +68,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/laws/country_religion/religion_druze.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_religion_waaqist"
-		texturefile = "gfx/interface/ideas/laws/country_religion/religion_waaqist.dds"
+		name = "GFX_idea_religion_waaqeffannaa"
+		texturefile = "gfx/interface/ideas/laws/country_religion/religion_waaqeffannaa.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_religion_catholic"
