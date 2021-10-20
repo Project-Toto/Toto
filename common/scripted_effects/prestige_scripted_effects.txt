@@ -275,76 +275,57 @@ prestige_global_total_sort = {
 		var = global.prestige_country_rank
 		value = 1
 	}
-	for_each_loop = {
-		array = global.prestige_country_total_array_sorting
+	for_loop_effect = {
+		if = {
+			limit = {
+				check_variable = {
+					var = global.prestige_country_total_array_sorting^num
+					value = 0
+				}
+			}
+			set_temp_variable = { break = 1 }
+		}
 		find_highest_in_array = {
 			array = global.prestige_country_total_array_sorting
-			index = prestige_index_temp
+			index = index_temp
+			add_to_array = {
+				array = global.prestige_country_array
+				value = global.prestige_country_array_sorting^index_temp
+			}
+			add_to_array = {
+				array = global.prestige_country_total_array
+				value = global.prestige_country_total_array_sorting^index_temp
+			}
+			add_to_array = {
+				array = global.prestige_country_achievement_array
+				value = global.prestige_country_array_sorting^index_temp:prestige_achievement
+			}
+			add_to_array = {
+				array = global.prestige_country_tech_array
+				value = global.prestige_country_array_sorting^index_temp:prestige_tech
+			}
+			add_to_array = {
+				array = global.prestige_country_economy_array
+				value = global.prestige_country_array_sorting^index_temp:prestige_economy
+			}
+			add_to_array = {
+				array = global.prestige_country_empire_array
+				value = global.prestige_country_array_sorting^index_temp:prestige_empire
+			}
+			add_to_array = {
+				array = global.prestige_country_army_array
+				value = global.prestige_country_array_sorting^index_temp:prestige_army
+			}
 			set_variable = {
-				var = global.prestige_country_rank
-				value = prestige_index_temp
+				var = global.prestige_country_array_sorting^index_temp:
+				value = global.prestige_country_rank
 			}
 		}
-	}
-}
-
-
-
-
-aaaa = {
-	for_each_loop = {
-		array = global.prestige_country_array_sorting
-		find_highest_in_array = {
-			array = global.prestige_country_array_sorting
-			index = global.prestige_index_temp
-		}
-		add_to_array = {
-			array = global.prestige_country_array
-			value = global.prestige_country_array_sorting^global.prestige_index_temp
-		}
-		add_to_array = {
-			array = global.prestige_country_total_array
-			value = global.prestige_country_total_array_sorting^global.prestige_index_temp
-		}
-		add_to_array = {
-			array = global.prestige_country_achievement_array
-			value = global.prestige_country_array_sorting^prestige_index_temp:prestige_achievement
-		}
-		add_to_array = {
-			array = global.prestige_country_tech_array
-			value = global.prestige_country_array_sorting^prestige_index_temp:prestige_tech
-		}
-		add_to_array = {
-			array = global.prestige_country_economy_array
-			value = global.prestige_country_array_sorting^prestige_index_temp:prestige_economy
-		}
-		add_to_array = {
-			array = global.prestige_country_empire_array
-			value = global.prestige_country_array_sorting^prestige_index_temp:prestige_empire
-		}
-		add_to_array = {
-			array = global.prestige_country_army_array
-			value = global.prestige_country_array_sorting^prestige_index_temp:prestige_army
-		}
-		set_variable = {
-			var = global.prestige_country_array_sorting^global.prestige_index_temp:prestige_country_total_rank
-			value = global.prestige_country_rank_temp
-		}
-		set_variable = {
-			var = global.prestige_country_array_sorting^prestige_index_temp:prestige_country_total_rank_mod
-			value = global.prestige_country_rank_temp
-		}
-		modulo_variable = {
-			var = global.prestige_country_array_sorting^prestige_index_temp:prestige_country_total_rank_mod
-			value = 10
-		}
-		set_variable = {
-			value = global.prestige_country_total_array_sorting^prestige_index_temp
-			value = -1
+		add_to_variable = {
+			var = global.prestige_country_rank
+			value = 1
 		}
 	}
-	# clear_array = prestige_country_array_sorting
-	# clear_array = prestige_country_total_array_sorting
 }
 
 prestige_country_change = {
