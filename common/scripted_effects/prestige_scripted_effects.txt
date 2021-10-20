@@ -317,7 +317,7 @@ prestige_global_total_sort = {
 				value = global.prestige_country_array_sorting^index_temp:prestige_army
 			}
 			set_variable = {
-				var = global.prestige_country_array_sorting^index_temp:
+				var = global.prestige_country_array_sorting^index_temp:prestige_country_total_rank
 				value = global.prestige_country_rank
 			}
 		}
