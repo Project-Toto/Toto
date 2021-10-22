@@ -4246,10 +4246,7 @@ afr_islamic_renaissance = {
 					}
 					else_if = {
 						limit = {
-							OR = {
-								has_idea = Oceania_small_kingdom
-								has_idea = AF_T_small_kingdom
-							}
+							has_idea = AF_T_small_kingdom
 						}
 						if = {
 							limit = { has_tech = tribal_weapons }
@@ -4447,11 +4444,7 @@ afr_islamic_renaissance = {
 					}
 					else_if = {
 						limit = {
-							OR = {
-								has_idea = Oceania_eastern_oriented_regional_power
-								has_idea = Oceania_western_oriented_regional_power
-								has_idea = afr_reforming_kingdom
-							}
+							has_idea = afr_reforming_kingdom
 						}
 						if = {
 							limit = { has_tech = infantry_weapons }
@@ -4604,12 +4597,7 @@ afr_islamic_renaissance = {
 				}
 				else_if = {
 					limit = {
-						OR = {
-							has_idea = Oceania_small_kingdom
-							has_idea = Oceania_large_kingdom
-							has_idea = AF_T_small_kingdom
-							has_idea = FN_T_nomadic_tribal_nation
-						}
+						has_idea = AF_T_small_kingdom
 					}
 					custom_effect_tooltip = afr_peacetime_economy_base_prosperity_growth
 					custom_effect_tooltip = afr_peacetime_economy_base_prosperity_small_kingdom
@@ -4621,11 +4609,8 @@ afr_islamic_renaissance = {
 				else_if = {
 					limit = {
 						OR = {
-							has_idea = Oceania_eastern_oriented_regional_power
-							has_idea = Oceania_western_oriented_regional_power
 							has_idea = afr_reforming_kingdom
 							has_idea = afr_large_kingdom
-							has_idea = FN_T_settled_regional_power
 						}
 					}
 					custom_effect_tooltip = afr_peacetime_economy_base_prosperity_growth
@@ -4761,11 +4746,7 @@ afr_islamic_renaissance = {
 				}
 				else_if = {
 					limit = {
-						OR = {
-							has_idea = Oceania_small_kingdom
-							has_idea = Oceania_large_kingdom
-							has_idea = AF_T_small_kingdom
-						}
+						has_idea = AF_T_small_kingdom
 					}
 					custom_effect_tooltip = afr_peacetime_economy_base_prosperity_small_kingdom_upgrade_tooltip
 				}

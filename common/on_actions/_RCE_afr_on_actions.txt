@@ -532,12 +532,6 @@ on_actions = {
 							has_idea = AF_T_small_kingdom
 							has_idea = afr_large_kingdom
 							has_idea = afr_reforming_kingdom
-							has_idea = Oceania_large_kingdom
-							has_idea = Oceania_small_kingdom
-							has_idea = Oceania_eastern_oriented_regional_power
-							has_idea = Oceania_western_oriented_regional_power
-							has_idea = FN_T_settled_tribal_nation
-							has_idea = FN_T_settled_regional_power
 						}
 					}
 					if = {
@@ -555,24 +549,11 @@ on_actions = {
 							has_idea = AF_T_small_kingdom
 							has_idea = afr_large_kingdom
 							has_idea = afr_reforming_kingdom
-							has_idea = Oceania_large_kingdom
-							has_idea = Oceania_small_kingdom
-							has_idea = Oceania_eastern_oriented_regional_power
-							has_idea = Oceania_western_oriented_regional_power
-							has_idea = FN_T_settled_tribal_nation
-							has_idea = FN_T_settled_regional_power
 						}
 					}
 					if = {
 						limit = {
 							has_idea = very_low_taxes
-							NOT = { has_idea = Oceania_small_kingdom }
-							NOT = {
-								TAG = KBO
-								TAG = VIN
-								TAG = ROZ
-								TAG = IJB
-							}
 						}
 						add_ideas = low_taxes
 					}
@@ -585,15 +566,6 @@ on_actions = {
 							OR = {
 								has_idea = afr_large_kingdom
 								has_idea = afr_reforming_kingdom
-								has_idea = Oceania_eastern_oriented_regional_power
-								has_idea = Oceania_western_oriented_regional_power
-								has_idea = FN_T_settled_regional_power
-							}
-							NOT = {
-								TAG = KBO
-								TAG = VIN
-								TAG = ROZ
-								TAG = IJB
 							}
 						}
 						add_ideas = normal_taxes
@@ -628,10 +600,6 @@ on_actions = {
 						 OR = {
 							has_idea = afr_large_kingdom
 							has_idea = afr_reforming_kingdom
-							has_idea = Oceania_large_kingdom
-							has_idea = Oceania_eastern_oriented_regional_power
-							has_idea = Oceania_western_oriented_regional_power
-							has_idea = FN_T_settled_regional_power
 						}
 					}
 					if = {

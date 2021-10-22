@@ -1,7 +1,6 @@
 ﻿l_english:
 
  # Spirits #
- NA_B_no_scale_railways:0 "Insufficient Railway Infrastructure"
  NA_B_early_scale_railways:0 "Minimal Railway Infrastructure"
  NA_B_small_scale_railways:0 "Small Scale Railways"
  NA_B_medium_scale_railways:0 "Medium Scale Railways"
@@ -52,7 +51,6 @@
 
  NA_B_reliance_on_water_transportation_modifier:0 "Reliance on Rivers"
  NA_B_reliance_on_water_transportation_modifier_desc:0 "This state relies on it's rivers or oceans to transport a bulk of it's goods. Railroads have become an unecessary endevor due to water transportation."
- NA_B_no_scale_railways_modifier:0 "No Railways"
  NA_B_early_scale_railways_modifier:0 "Minimal Railways"
  NA_B_small_scale_railways_modifier:0 "Small Scale Railways"
  NA_B_medium_scale_railways_modifier:0 "Medium Scale Railways"

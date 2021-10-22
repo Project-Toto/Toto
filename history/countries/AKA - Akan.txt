@@ -24,7 +24,7 @@
 			#Economic
 
 				closed_economy
-				
+
 				very_low_taxes
 				#
 				lp_tribal_communalism
@@ -39,7 +39,7 @@
 			#Governmental Policies
 				no_constitution
 
-				communal
+			
 				no_federalism
 
 			#Culture

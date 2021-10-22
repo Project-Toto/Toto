@@ -1826,8 +1826,8 @@
 
  EGY_autonomy_eyalet:0 "Egyptian Eyalet"
  EGY_autonomy_eyalet_DEF:0 "Egypt"
- EGY_autonomy_khedive:0 "Egyptian Khedivate"
- EGY_autonomy_khedive_DEF:0 "Egypt"
+ EGY_autonomy_ottoman_khedive:0 "Egyptian Khedivate"
+ EGY_autonomy_ottoman_khedive_DEF:0 "Egypt"
 
  EGY_mahdist_insurgency_fundamentalism:0 "Mahdist Insurgancy"
  EGY_mahdist_insurgency_fundamentalism_ADJ:0 "Sudanese"
@@ -1847,8 +1847,8 @@
 
  LBA_autonomy_eyalet:0 "Tripolitania Eyalet"
  LBA_autonomy_eyalet_DEF:0 "Libya"
- LBA_autonomy_khedive:0 "Tripolitania Khedivate"
- LBA_autonomy_khedive_DEF:0 "Libya"
+ LBA_autonomy_ottoman_khedive:0 "Tripolitania Khedivate"
+ LBA_autonomy_ottoman_khedive_DEF:0 "Libya"
 
  HJZ_autonomy_eyalet:0 "Habesh Eyalet"
 

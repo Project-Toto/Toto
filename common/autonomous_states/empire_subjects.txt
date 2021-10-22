@@ -36,11 +36,7 @@ autonomy_state = {
 	}
 
 	allowed = {
-		OR = {
-			has_dlc = "Together for Victory"
-			has_dlc = "Waking the Tiger"
-			has_dlc = "Death or Dishonor"
-		}
+		toto_enabled_autonomy = yes
 		OVERLORD = {
 			has_variable = has_afr_empire_mechanic_system		
 		}
@@ -96,11 +92,7 @@ autonomy_state = {
 	}
 
 	allowed = {
-		OR = {
-			has_dlc = "Together for Victory"
-			has_dlc = "Waking the Tiger"
-			has_dlc = "Death or Dishonor"
-		}
+		toto_enabled_autonomy = yes
 
 		OVERLORD = {
 			has_variable = has_afr_empire_mechanic_system		
@@ -157,11 +149,7 @@ autonomy_state = {
 	}
 
 	allowed = {
-		OR = {
-			has_dlc = "Together for Victory"
-			has_dlc = "Waking the Tiger"
-			has_dlc = "Death or Dishonor"
-		}
+		toto_enabled_autonomy = yes
 
 		OVERLORD = {
 			has_variable = has_afr_empire_mechanic_system		
@@ -216,14 +204,10 @@ autonomy_state = {
 	}
 
 	allowed = {
-		OR = {
-			has_dlc = "Together for Victory"
-			has_dlc = "Waking the Tiger"
-			has_dlc = "Death or Dishonor"
-		}
+		toto_enabled_autonomy = yes
 
 		OVERLORD = {
-			has_variable = has_afr_empire_mechanic_system		
+			has_variable = has_afr_empire_mechanic_system
 		}
 		
 	}

@@ -131,10 +131,7 @@ country_event = {
 						limit = {
 							is_capital = no
 							OWNER = {
-								OR = {
-									has_idea = Oceania_small_kingdom
-									has_idea = AF_T_small_kingdom
-								}
+								has_idea = AF_T_small_kingdom
 							}
 						}
 						afr_empire_state_autonomy_var_increase_by_20 = yes
@@ -143,13 +140,8 @@ country_event = {
 						limit = {
 							is_capital = no
 							OWNER = {
-								OR = {
-									has_idea = Oceania_large_kingdom
-									has_idea = Oceania_eastern_oriented_regional_power
-									has_idea = Oceania_western_oriented_regional_power
-									has_idea = afr_large_kingdom
-									has_idea = afr_reforming_kingdom
-								}
+								has_idea = afr_large_kingdom
+								has_idea = afr_reforming_kingdom
 							}
 						}
 						afr_empire_state_autonomy_var_increase_by_10 = yes
@@ -1146,10 +1138,7 @@ country_event = {
 				else_if = {
 					limit = {
 						controller = {
-							OR = {
-								has_idea = Oceania_small_kingdom
-								has_idea = AF_T_small_kingdom
-							}
+							has_idea = AF_T_small_kingdom
 						}
 					}
 					controller = { add_to_variable = { var = PREV.afr_empire_state_autonomy_var@THIS value = 20 } }
@@ -1178,9 +1167,6 @@ country_event = {
 					limit = {
 						controller = {
 							OR = {
-								has_idea = Oceania_large_kingdom
-								has_idea = Oceania_eastern_oriented_regional_power
-								has_idea = Oceania_western_oriented_regional_power
 								has_idea = afr_large_kingdom
 								has_idea = afr_reforming_kingdom
 							}
@@ -4307,9 +4293,6 @@ country_event = {
 						OR = {
 							OVERLORD = { has_idea = afr_large_kingdom }
 							OVERLORD = { has_idea = afr_reforming_kingdom }
-							OVERLORD = { has_idea = Oceania_large_kingdom }
-							OVERLORD = { has_idea = Oceania_eastern_oriented_regional_power }
-							OVERLORD = { has_idea = Oceania_western_oriented_regional_power }
 						}
 					}
 				}

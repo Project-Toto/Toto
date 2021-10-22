@@ -2796,7 +2796,7 @@
 # 					}
 # 					set_autonomy = {
 # 						target = ACE
-# 						autonomous_state = autonomy_khedive
+# 						autonomous_state = autonomy_ottoman_khedive
 # 						freedom_level = 0.7
 # 					}
 # 				}

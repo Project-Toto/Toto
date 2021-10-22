@@ -3,6 +3,8 @@ add_namespace = usa_intro
 
 country_event = {
 	id = prestige.1
+	title = prestige.1.t
+	desc = prestige.1.d
 
 	is_triggered_only = yes
 

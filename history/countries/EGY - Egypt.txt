@@ -54,7 +54,7 @@ set_technology = {
 
 		stagnation_growth
 		border_control
-		volunteer_only
+		# volunteer_only
 		slavery_all_but_name
 		absolutism
 

@@ -7,7 +7,7 @@ ideas = {
 						is_subject_of = OTO
 						OR = {
 							has_autonomy_state = autonomy_ottoman_eyalet
-							has_autonomy_state = autonomy_khedive
+							has_autonomy_state = autonomy_ottoman_khedive
 						}
 					}
 				}

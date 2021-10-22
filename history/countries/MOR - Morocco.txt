@@ -41,7 +41,6 @@ add_ideas = {
 		law_country_government_kingdom
 	law_army_tribal_advanced
 
-		civilian_economy
 		limited_exports
 		two_percent
 		normal_taxes

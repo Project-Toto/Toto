@@ -66,7 +66,8 @@
 		}
 		text = {
 			localization_key = law_country_religion_ancestorship
-		}	trigger = { has_idea = law_country_religion_ancestorship }
+			trigger = { has_idea = law_country_religion_ancestorship }
+		}
 		text = {
 			trigger = { has_idea = law_country_religion_serer }
 			localization_key = law_country_religion_serer

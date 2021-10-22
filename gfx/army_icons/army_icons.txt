@@ -439,7 +439,7 @@
 	}
 	icon = {
 		color_override = no
-		name = "[GetStateReligion] Defense Corps"
+		name = "[GetNationalOfficialReligion] Defense Corps"
 		available =
 		{
 			has_dlc = "Waking the Tiger"

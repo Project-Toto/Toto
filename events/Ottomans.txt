@@ -19,7 +19,7 @@ add_namespace = OTO_russio_turkish_war
 				# is_subject_of = OTO
 				# OR = {
 					# has_autonomy_state = autonomy_ottoman_eyalet
-					# has_autonomy_state = autonomy_khedive
+					# has_autonomy_state = autonomy_ottoman_khedive
 				# }
 				# NOT = {
 					# has_idea = OTO_paid_tribute
@@ -65,7 +65,7 @@ add_namespace = OTO_russio_turkish_war
 	# desc = {
 		# text =  OTO_vassal_tribute.2.descKhedive
 		# trigger = {
-			# has_autonomy_state = autonomy_khedive
+			# has_autonomy_state = autonomy_ottoman_khedive
 		# }
 	# }
 	# picture = GFX_event_test
@@ -92,7 +92,7 @@ add_namespace = OTO_russio_turkish_war
 	# option = {
 		# name = OTO_vassal_tribute.2.b
 		# trigger = {
-			# has_autonomy_state = autonomy_khedive
+			# has_autonomy_state = autonomy_ottoman_khedive
 		# }
 		# ai_chance = {
 			# factor = 50
@@ -139,7 +139,7 @@ add_namespace = OTO_russio_turkish_war
 	# desc = {
 		# text =  OTO_vassal_tribute.3.descKhedive
 		# trigger = {
-			# FROM = { has_autonomy_state = autonomy_khedive }
+			# FROM = { has_autonomy_state = autonomy_ottoman_khedive }
 		# }
 	# }
 	# picture = GFX_event_test
@@ -160,7 +160,7 @@ add_namespace = OTO_russio_turkish_war
 	# option = {
 		# name = OTO_vassal_tribute.3.b
 		# trigger = {
-			# FROM = { has_autonomy_state = autonomy_khedive }
+			# FROM = { has_autonomy_state = autonomy_ottoman_khedive }
 		# }
 		# add_political_power = 10
 	# }
@@ -186,7 +186,7 @@ add_namespace = OTO_russio_turkish_war
 	# desc = {
 		# text =  OTO_vassal_tribute.4.descKhedive
 		# trigger = {
-			# FROM = { has_autonomy_state = autonomy_khedive }
+			# FROM = { has_autonomy_state = autonomy_ottoman_khedive }
 		# }
 	# }
 	# picture = GFX_event_test
@@ -225,7 +225,7 @@ add_namespace = OTO_russio_turkish_war
 	# option = {
 		# name = OTO_vassal_tribute.4.b
 		# trigger = {
-			# FROM = { has_autonomy_state = autonomy_khedive }
+			# FROM = { has_autonomy_state = autonomy_ottoman_khedive }
 		# }
 		# ROOT = {
 			# if = {

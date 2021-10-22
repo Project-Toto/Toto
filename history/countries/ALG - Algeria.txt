@@ -36,7 +36,6 @@ add_ideas = {
 		law_country_religion_catholic
 		law_country_culture_uncategorized
 		law_country_government_colonial_company
-		law_country_society_state
 		law_country_military_traditional
 
 				 #NATIONAL SPIRITS

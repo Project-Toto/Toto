@@ -7,11 +7,8 @@ defined_text = {
 	text = {
 		trigger = { 
 			OR = {
-				#has_idea = Oceania_eastern_oriented_regional_power
-				#has_idea = Oceania_western_oriented_regional_power
 				has_idea = afr_reforming_kingdom
 				has_idea = afr_large_kingdom
-				#has_idea = FN_T_settled_regional_power
 			}
 		}
 		localization_key = afr_peacetime_economy_base_prosperity_regional_power
@@ -19,10 +16,7 @@ defined_text = {
 	text = {
 		trigger = { 
 			OR = {
-				#has_idea = Oceania_small_kingdom
-				#has_idea = Oceania_large_kingdom
 				has_idea = AF_T_small_kingdom
-				#has_idea = FN_T_nomadic_tribal_nation
 			}
 		}
 		localization_key = afr_peacetime_economy_base_prosperity_small_kingdom
@@ -413,8 +407,6 @@ defined_text = {
 			OR = {
 				has_idea = afr_large_kingdom
 				has_idea = afr_reforming_kingdom
-				has_idea = Oceania_eastern_oriented_regional_power
-				has_idea = Oceania_western_oriented_regional_power
 			}
 		}
 		OWNER = { check_variable = { var = PREV.afr_empire_state_loyalty_var@THIS value = 6 compare = less_than } }
@@ -427,8 +419,6 @@ defined_text = {
 			OR = {
 				has_idea = afr_large_kingdom
 				has_idea = afr_reforming_kingdom
-				has_idea = Oceania_eastern_oriented_regional_power
-				has_idea = Oceania_western_oriented_regional_power
 			}
 		}
 		OWNER = { check_variable = { var = PREV.afr_empire_state_loyalty_var@THIS value = 9 compare = greater_than_or_equals } }
@@ -442,8 +432,6 @@ defined_text = {
 			OR = {
 				has_idea = afr_large_kingdom
 				has_idea = afr_reforming_kingdom
-				has_idea = Oceania_eastern_oriented_regional_power
-				has_idea = Oceania_western_oriented_regional_power
 			}
 		}
 		OWNER = { check_variable = { var = PREV.afr_empire_state_loyalty_var@THIS value = 6 compare = greater_than_or_equals } }

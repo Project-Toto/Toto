@@ -48,15 +48,15 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
-			if = {
-				limit = {
-					has_idea = volunteer_only
-				}
-				swap_ideas={
-					remove_idea = volunteer_only
-					add_idea = limited_conscription
-				}
-			}
+			# if = {
+			# 	limit = {
+			# 		has_idea = volunteer_only
+			# 	}
+			# 	swap_ideas={
+			# 		remove_idea = volunteer_only
+			# 		add_idea = limited_conscription
+			# 	}
+			# }
 			custom_effect_tooltip = EGY_Otto_may_disaprove
 
 		}

@@ -2953,7 +2953,7 @@ country_event = {
 
 					start_civil_war = {
 						ruling_party = imperialism
-						ideology = autocracy
+						ideology = imperialism
 						size = 1
 						capital = 816
 						states = {
@@ -2973,7 +2973,7 @@ country_event = {
 
 					start_civil_war = {
 						ruling_party = imperialism
-						ideology = autocracy
+						ideology = imperialism
 						size = 1
 						capital = 816
 						states = {

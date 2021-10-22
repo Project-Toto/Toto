@@ -8,8 +8,6 @@ afr_call_state_levy_units={
 				OR = {
 					has_idea = afr_large_kingdom
 					has_idea = afr_reforming_kingdom
-					has_idea = Oceania_eastern_oriented_regional_power
-					has_idea = Oceania_western_oriented_regional_power
 				}
 			}
 		}

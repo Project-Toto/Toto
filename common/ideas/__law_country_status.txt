@@ -10,6 +10,10 @@ ideas = {
 
 			picture = industrialization_electrified
 
+			available = {
+				has_idea = law_country_society_modern
+			}
+
 			modifier = {
 				production_factory_max_efficiency_factor = 0.1
 				production_speed_buildings_factor = 0.1
@@ -28,8 +32,12 @@ ideas = {
 			picture = industrialization_electrification
 
 			available = {
+				OR = {
+					has_idea = law_country_society_modern
+					has_idea = law_country_society_victorian
+				}
 				NOT = {
-					has_idea = mass_production
+					has_idea = electrified
 				}
 			}
 
@@ -56,8 +64,8 @@ ideas = {
 
 			available = {
 				NOT = {
+					has_idea = electrified
 					has_idea = electrification
-					has_idea = mass_production
 				}
 			}
 
@@ -83,7 +91,7 @@ ideas = {
 				NOT = {
 					has_idea = industrialized
 					has_idea = electrification
-					has_idea = mass_production
+					has_idea = electrified
 				}
 			}
 
@@ -115,7 +123,7 @@ ideas = {
 					has_idea = industrializing
 					has_idea = industrialized
 					has_idea = electrification
-					has_idea = mass_production
+					has_idea = electrified
 				}
 			}
 
