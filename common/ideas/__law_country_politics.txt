@@ -2,7 +2,7 @@ ideas = {
 # State Laws
 	law_country_constitution = {
 		law = yes
-		use_list_view = yes
+		#use_list_view = yes
 		full_constitution = {
 			allowed = { always = yes }
 			level = 4
@@ -101,7 +101,7 @@ ideas = {
 	}
 	law_country_heir = {
 		law = yes
-		use_list_view = yes
+		#use_list_view = yes
 		non_monarchical_system = {
 			allowed = { always = yes }
 			level = 0
@@ -199,7 +199,7 @@ ideas = {
 	}
 	law_country_suffrage = {
 		law = yes
-		use_list_view = yes
+		#use_list_view = yes
 		universal_suffrage = {
 			allowed = { always = yes }
 			level = 5
@@ -289,11 +289,11 @@ ideas = {
 	}
 	law_country_borders = {
 		law = yes
-		use_list_view = yes
+		#use_list_view = yes
 		closed_borders = {
 			allowed = { always = yes }
 			level = 3
-			
+
 			picture = lawicon_yellow
 
 			modifier = {
@@ -333,7 +333,7 @@ ideas = {
 		no_borders = {
 			allowed = { always = yes }
 			level = 0
-			
+
 			picture = lawicon_yellow
 
 			modifier = {
@@ -346,7 +346,7 @@ ideas = {
 	}
 	law_country_discrimination = {
 		law = yes
-		use_list_view = yes
+		#use_list_view = yes
 		full_equality = {
 			allowed = { always = yes }
 			level = 5
@@ -453,7 +453,7 @@ ideas = {
 	}
 	law_country_education = {
 		law = yes
-		use_list_view = yes
+		#use_list_view = yes
 		compulsory_education = {
 			allowed = { always = yes }
 			level = 4
@@ -518,7 +518,7 @@ ideas = {
 # State Laws 2
 	law_country_trade = {
 		law = yes
-		use_list_view = yes
+		#use_list_view = yes
 		free_trade = {
 
 			cost = 150
@@ -673,7 +673,7 @@ ideas = {
 	}
 	law_country_tax = {
 		law = yes
-		use_list_view = yes
+		#use_list_view = yes
 		very_high_taxes = {
 			allowed = { always = yes }
 			level = 4
@@ -871,7 +871,7 @@ ideas = {
 	}
 	law_country_property = {
 		law = yes
-		use_list_view = yes
+		#use_list_view = yes
 		lp_serfdom = {
 
 			available = {
@@ -1049,7 +1049,7 @@ ideas = {
 	}
 	law_country_mobilization = {
 		law = yes
-		use_list_view = yes
+		#use_list_view = yes
 		manpower_industrial = {
 			allowed = { always = yes }
 			cost = 150

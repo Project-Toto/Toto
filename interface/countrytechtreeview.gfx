@@ -123,6 +123,12 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_naval_doctrine_folder_tab"
+		textureFile = "gfx//interface//techtree//techtree_navaldoctrine_tab.dds"
+		noOfFrames = 2
+	}
+
+	spriteType = {
 		name = "GFX_industry_folder_tab"
 		textureFile = "gfx//interface//techtree//techtree_industry_tab.dds"
 		noOfFrames = 2		

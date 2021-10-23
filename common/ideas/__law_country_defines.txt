@@ -2,7 +2,7 @@ ideas = {
 # State Attributes
 	law_country_power = {
 		law = yes
-		use_list_view = yes
+		#use_list_view = yes
 		law_country_power_great = {
 			picture = power_great
 			allowed = { always = yes }
@@ -835,7 +835,7 @@ ideas = {
 	}
 	law_country_society = {
 		law = yes
-		use_list_view = yes
+		#use_list_view = yes
 		law_country_society_modern = {
 			allowed = { always = yes }
 			allowed_civil_war = { always = yes }
@@ -1129,7 +1129,7 @@ ideas = {
 	}
 	law_country_military = {
 		law = yes
-		use_list_view = yes
+		#use_list_view = yes
 		law_country_military_modern = {
 			allowed = { always = yes }
 			level = 4

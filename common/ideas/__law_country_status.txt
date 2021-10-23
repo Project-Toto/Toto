@@ -2,7 +2,7 @@ ideas = {
 # State Status
 	law_country_industrialization = {
 		law = yes
-		use_list_view = yes
+		#use_list_view = yes
 
 		electrified = {
 			allowed = { always = yes }
@@ -147,7 +147,7 @@ ideas = {
 	}
 	law_country_centralization = {
 		law = yes
-		use_list_view = yes
+		#use_list_view = yes
 		law_country_centralization_centralization = {
 			allowed = { always = yes }
 			available = { always = yes }
@@ -180,7 +180,7 @@ ideas = {
 	}
 	law_country_prosperity = {
 		law = yes
-		use_list_view = yes
+		#use_list_view = yes
 		law_country_prosperity_very_prosperous = {
 			allowed = { always = yes }
 			available = { always = yes }
@@ -220,7 +220,7 @@ ideas = {
 	}
 	law_country_population = {
 		law = yes
-		use_list_view = yes
+		#use_list_view = yes
 		encouraged_growth = {
 			allowed = { always = yes }
 			level = 2
