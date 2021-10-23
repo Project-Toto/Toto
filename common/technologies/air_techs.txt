@@ -9,7 +9,7 @@ technologies = {
 		dependencies = {
 			balloon_designs = 1
 		}
-		
+
 		path = {
 			leads_to_tech = better_balloon
 			research_cost_coeff = 1
@@ -77,9 +77,6 @@ technologies = {
 			balloon_equipment_1
 		}
 
-		dependencies = {
-			navigable_balloons = 1
-		}
 
 		path = {
 			leads_to_tech = early_zeppelin
@@ -751,11 +748,6 @@ technologies = {
 			fighter_equipment_1
 		}
 
-		path = {
-			leads_to_tech = fighter2
-			research_cost_coeff = 1
-		}
-
 		research_cost = 2
 		start_year = 1936
 
@@ -825,19 +817,6 @@ technologies = {
 				factor = 2
 				tag = USA
 			}
-			
-			modifier = {
-				factor = 2
-				tag = JAP
-			}
-
-			modifier = {
-				factor = 0
-				OR = {
-					has_tech = fighter2
-					is_researching_technology = fighter2
-				}
-			}
 
 			modifier = {
 				factor = 2.5
@@ -887,16 +866,6 @@ technologies = {
 				factor = 2
 				tag = GER
 			}
-			
-			modifier = {
-				factor = 100
-				tag = SOV
-			}
-			modifier = {
-				has_war_with = GER
-				tag = SOV
-				factor = 2
-			}
 
 		}
 	}
@@ -926,17 +895,7 @@ technologies = {
 			}
 			modifier = {
 				factor = 2
-				OR = {
-					tag = USA
-					tag = JAP
-				}
-			}
-			modifier = {
-				factor = 1.5
-				OR = {
-					has_war_with = USA
-					has_war_with = JAP
-				}
+				tag = USA
 			}
 			modifier = {
 				factor = 2
@@ -983,18 +942,12 @@ technologies = {
 				OR = {
 					has_war_with = ENG
 					has_war_with = USA
-					has_war_with = JAP
 				}
 				factor = 3
 			}
 			modifier = {
 				factor = 5
 				tag = USA
-			}
-			
-			modifier = {
-				factor = 5
-				tag = JAP
 			}
 		}
 	}
@@ -1025,17 +978,7 @@ technologies = {
 			}
 			modifier = {
 				factor = 2.5
-				OR = {
-					tag = USA
-					tag = JAP
-				}
-			}
-			modifier = {
-				factor = 1.5
-				OR = {
-					has_war_with = USA
-					has_war_with = JAP
-				}
+				tag = USA
 			}
 			modifier = {
 				factor = 2
@@ -1155,11 +1098,6 @@ technologies = {
 
 		enable_equipments = {
 			heavy_fighter_equipment_1
-		}
-
-		path = {
-			leads_to_tech = heavy_fighter2
-			research_cost_coeff = 1
 		}
 		
 		research_cost = 2

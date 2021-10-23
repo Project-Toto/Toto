@@ -1533,11 +1533,6 @@ technologies = {
 			}
 
 			modifier = {
-				factor = 5
-				tag = JAP
-			}
-
-			modifier = {
 				factor = 2
 				tag = ENG
 			}

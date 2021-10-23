@@ -131,20 +131,20 @@ buildings = {
 		value = 1
 	}
 
-	# synthetic_refinery_oil = {
-	# 	show_on_map = 0
-	# 	base_cost = 25000
-	# 	icon_frame = 10
-	# 	local_resources_oil = 1
-	# 	refinery = yes
-	# 	max_level = 10
-	# 	shares_slots = yes
-	# 	value = 6
-	# 	infrastructure_construction_effect = yes
+	synthetic_refinery_oil = {
+		show_on_map = 0
+		base_cost = 25000
+		icon_frame = 10
+		local_resources_resource_oil = 1
+		refinery = yes
+		max_level = 10
+		shares_slots = yes
+		value = 6
+		infrastructure_construction_effect = yes
 
-	# 	show_modifier = yes
-	# 	fuel_gain_from_states = 1.0
-	# }
+		show_modifier = yes
+		fuel_gain_from_states = 1.0
+	}
 
 	# synthetic_refinery_rubber = {
 	# 	show_on_map = 0

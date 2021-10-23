@@ -6,7 +6,7 @@ technologies = {
 
 		on_research_complete = {
 			set_temp_variable = { eoanb_tech_score_change = 1 }
-			eoanb_change_tech_score = yes
+
 		}
 
 		enable_building = {
@@ -253,7 +253,7 @@ technologies = {
 		}
 		on_research_complete = {
 			set_temp_variable = { eoanb_tech_score_change = 1 }
-			eoanb_change_tech_score = yes
+
 		}
 
 		dependencies = {
@@ -913,12 +913,6 @@ technologies = {
 				factor = 2
 				tag = ENG
 			}
-
-			modifier = {
-				factor = 2
-				tag = JAP
-			}
-
 			modifier = {
 				factor = 0
 				has_tech = dispersed_industry
@@ -988,11 +982,6 @@ technologies = {
 			modifier = {
 				factor = 0.25
 				tag = ENG
-			}
-
-			modifier = {
-				factor = 0.25
-				tag = JAP
 			}
 
 			modifier = {
@@ -2241,7 +2230,7 @@ technologies = {
 
 		on_research_complete = {
 			set_temp_variable = { eoanb_tech_score_change = 1 }
-			eoanb_change_tech_score = yes
+
 		}
 
 		folder = {
@@ -2347,7 +2336,7 @@ technologies = {
 		}
 		on_research_complete = {
 			set_temp_variable = { eoanb_tech_score_change = 1 }
-			eoanb_change_tech_score = yes
+
 		}
 
 		folder = {
@@ -3046,7 +3035,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		dependencies={
-			tech_humanities_asphalt_roads = 1
 			construction_4 = 1
 		}
 

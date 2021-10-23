@@ -1666,10 +1666,7 @@ technologies = {
 			
 			modifier = {
 				factor = 100
-				OR = {
-					tag = GER
-					tag = SOV
-				}
+				tag = GER
 				has_war = yes
 				any_enemy_country = {
 					ROOT = {
@@ -1864,10 +1861,6 @@ technologies = {
 
 			modifier = {
 				factor = 120
-				OR = {
-					#tag = GER
-					tag = SOV
-				}
 				has_war = yes
 				any_enemy_country = {
 					ROOT = {
@@ -2399,11 +2392,6 @@ technologies = {
 			modifier = {
 				tag = FRA
 				factor = 3
-			}
-			modifier = {
-				tag = JAP
-				num_of_military_factories < 100
-				factor = 0
 			}
 			modifier = {
 				factor = 0
