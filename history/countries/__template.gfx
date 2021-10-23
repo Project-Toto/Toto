@@ -1,5 +1,5 @@
 # Defines
-	capital = 91
+	capital = 1
 
 	set_research_slots = 1
 
@@ -13,10 +13,10 @@
 	add_ideas = {
 		# Attributes
 			# law_country_power_irrelevant #<rank>
-			law_country_religion_shiite #<religion>
-			law_country_culture_arabic #<culture>
-			law_country_government_tribal_confederacy #<government>
-			AF_T_organized_tribal_nation #<society>
+			# law_country_religion_animist #<religion>
+			# law_country_culture_uncategorized #<culture>
+			# law_country_government_tribe #<government>
+			# AF_T_unorganized_tribal_nation #<society>
 			# law_army_tribal_improved #<tactics>
 		# Status
 			# agrarian #<industrialization>
@@ -27,10 +27,10 @@
 		# Politics
 			# no_constitution #<constitution>
 			# no_heir #<heir>
-			oligarchism #<suffrage>
-			open_borders #<borders>
-			slavery #<discrimination>
-			traditional_uluma #<education>
+			# absolutism #<suffrage>
+			# no_borders #<borders>
+			# tribal_slavery #<discrimination>
+			# oral_tradition #<education>
 		# Economy
 			# export_focus #<economy>
 			# normal_taxes #<taxes>
@@ -63,7 +63,7 @@
 	}
 
 # Variables
-	add_to_variable = { var = Tribal_army_num value = 3000 }
+	add_to_variable = { var = Tribal_army_num value = 0 }
 
 # Characters
 	create_country_leader = {

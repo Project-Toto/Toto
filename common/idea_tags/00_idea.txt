@@ -36,6 +36,7 @@ idea_categories = {
 		slot = law_country_centralization
 		slot = law_country_prosperity
 		slot = law_country_population
+		slot = law_country_army
 
 		cost = 1000
 		removal_cost = 0

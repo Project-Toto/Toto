@@ -1090,6 +1090,8 @@ ideas = {
 			allowed_civil_war = { always = yes }
 			level = 1
 
+			default = yes
+
 			picture = society_unorganized_tribal
 
 			visible = {
@@ -1133,6 +1135,9 @@ ideas = {
 		law_country_military_modern = {
 			allowed = { always = yes }
 			level = 4
+
+			picture = lawicon_red
+
 			modifier = {
 				custom_modifier_tooltip = law_country_military_modern_prestige_modifier # 1.15
 				command_power_gain = 0.225

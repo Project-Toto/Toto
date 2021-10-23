@@ -1,5 +1,5 @@
 ideas = {
-# State Laws
+# State Politics
 	law_country_constitution = {
 		law = yes
 		#use_list_view = yes
@@ -320,8 +320,6 @@ ideas = {
 
 			picture = lawicon_yellow
 
-			default = yes
-
 			modifier = {
 				stability_factor = -0.05
 				consumer_goods_factor = 0.02
@@ -335,6 +333,8 @@ ideas = {
 			level = 0
 
 			picture = lawicon_yellow
+
+			default = yes
 
 			modifier = {
 				stability_factor = -0.1
@@ -351,6 +351,8 @@ ideas = {
 			allowed = { always = yes }
 			level = 5
 
+			picture = lawicon_black
+
 			modifier = {
 				stability_factor = 0.05
 				consumer_goods_factor = 0.02
@@ -361,6 +363,8 @@ ideas = {
 			allowed = { always = yes }
 			level = 4
 
+			picture = lawicon_black
+
 			modifier = {
 				consumer_goods_factor = 0.01
 				MONTHLY_POPULATION = 0.04
@@ -369,6 +373,8 @@ ideas = {
 		segregation = {
 			allowed = { always = yes }
 			level = 3
+
+			picture = lawicon_black
 
 			modifier = {
 				stability_factor = -0.05
@@ -379,6 +385,8 @@ ideas = {
 		racial_laws = {
 			allowed = { always = yes }
 			level = 2
+
+			picture = lawicon_black
 
 			available = {
 				custom_trigger_tooltip = {
@@ -396,6 +404,8 @@ ideas = {
 		slavery_all_but_name = {
 			allowed = { always = yes }
 			level = 1
+
+			picture = lawicon_black
 
 			available = {
 				custom_trigger_tooltip = {
@@ -415,6 +425,8 @@ ideas = {
 			allowed = { always = yes }
 			level = 0
 
+			picture = lawicon_black
+
 			available = {
 				custom_trigger_tooltip = {
 					tooltip = eoanb_law_tt_slavery
@@ -433,6 +445,8 @@ ideas = {
 		tribal_slavery = {
 			allowed = { always = yes }
 			level = 0
+
+			picture = lawicon_black
 
 			available = {
 				custom_trigger_tooltip = {
@@ -458,7 +472,7 @@ ideas = {
 			allowed = { always = yes }
 			level = 4
 
-			picture = compulsory_education
+			picture = lawicon_white
 
 			modifier = {
 				research_speed_factor = 0.08
@@ -469,7 +483,7 @@ ideas = {
 			allowed = { always = yes }
 			level = 3
 
-			picture = open_schools
+			picture = lawicon_white
 
 			modifier = {
 				research_speed_factor = 0.02
@@ -480,7 +494,7 @@ ideas = {
 			allowed = { always = yes }
 			level = 2
 
-			picture = priviledged_education
+			picture = lawicon_white
 
 			modifier = {
 				research_speed_factor = -0.05
@@ -491,7 +505,7 @@ ideas = {
 			allowed = { always = yes }
 			level = 1
 
-			picture = traditional_uluma
+			picture = lawicon_white
 
 			available = {
 				laws_country_religion_is_muslim = yes
@@ -506,792 +520,13 @@ ideas = {
 			allowed = { always = yes }
 			level = 0
 
-			picture = oral_tradition
+			picture = lawicon_white
 
 			modifier = {
 				research_speed_factor = -0.1
 			}
 
 			default = yes
-		}
-	}
-# State Laws 2
-	law_country_trade = {
-		law = yes
-		#use_list_view = yes
-		free_trade = {
-
-			cost = 150
-			removal_cost = -1
-
-			modifier = {
-				min_export = 0.8
-				industrial_capacity_factory = 0.15
-				industrial_capacity_dockyard = 0.15
-				production_speed_buildings_factor = 0.15
-				research_speed_factor = 0.10
-				civilian_intel_to_others = 40.0
-				navy_intel_to_others = 20.0
-			}
-
-			cancel_if_invalid = no
-
-			ai_will_do = {
-				factor = 1
-			}
-		}
-
-		export_focus = {
-			cost = 150
-			removal_cost = -1
-
-			modifier = {
-				min_export = 0.5
-				industrial_capacity_factory = 0.1
-				industrial_capacity_dockyard = 0.1
-				production_speed_buildings_factor = 0.1
-				research_speed_factor = 0.05
-				civilian_intel_to_others = 20.0
-				navy_intel_to_others = 10.0
-			}
-
-			default = yes
-
-			cancel_if_invalid = no
-
-			ai_will_do = {
-				factor = 1
-			}
-		}
-
-		limited_exports = {
-			available = {
-				OR = {
-					AND = {
-						has_government = reformism
-						has_war = yes
-						any_enemy_country = {
-							ic_ratio = {
-								tag = ROOT
-								ratio > 0.2
-							}
-						}
-					}
-					AND = {
-						NOT = { has_government = reformism }
-					}
-				}
-			}
-
-			cost = 150
-			removal_cost = -1
-
-			modifier = {
-				min_export = 0.25
-				industrial_capacity_factory = 0.05
-				industrial_capacity_dockyard = 0.05
-				production_speed_buildings_factor = 0.05
-				research_speed_factor = 0.01
-				civilian_intel_to_others = 10.0
-				navy_intel_to_others = 5
-			}
-
-			cancel_if_invalid = no
-
-			ai_will_do = {
-				factor = 1
-
-				modifier = {
-					add = -1
-
-					is_major = no
-					is_in_faction = yes
-					has_war = yes
-				}
-
-				# minors not at war should want to get the bonuses from free trade
-				modifier = {
-					add = -1
-
-					is_major = no
-					has_war = no
-				}
-
-				modifier = {
-					add = 1500
-
-					# revert from closed_economy if we have large allies
-					has_idea = closed_economy
-				}
-			}
-		}
-
-		closed_economy = {
-			available = {
-				has_war = yes
-			}
-
-			cost = 150
-			removal_cost = -1
-
-
-			modifier = {
-				min_export = 0
-				#civilian_intel_to_others = 0.0
-			}
-
-			on_add = {
-				custom_effect_tooltip = closed_economy_TT
-			}
-
-			cancel_if_invalid = no
-
-			ai_will_do = {
-				factor = 1
-
-				modifier = {
-					factor = 0
-
-					is_major = no
-					is_in_faction = yes
-					has_war = yes
-				}
-
-				# minors not at war should want to get the bonuses from free trade
-				modifier = {
-					factor = 0
-
-					is_major = no
-					has_war = no
-				}
-
-				modifier = {
-					factor = 0
-				}
-			}
-		}
-	}
-	law_country_tax = {
-		law = yes
-		#use_list_view = yes
-		very_high_taxes = {
-			allowed = { always = yes }
-			level = 4
-
-			available = {
-				custom_trigger_tooltip = {
-					tooltip = eoanb_trigger_tt_law_african_unorg
-				}
-				hidden_trigger = {
-					NOT = {
-						OR = {
-							has_idea = AF_T_unorganized_tribal_nation
-							has_idea = AF_T_unorganized_tribal_nation_2
-							has_idea = AF_T_unorganized_tribal_nation_3
-							has_idea = AF_T_unorganized_tribal_nation_4
-							has_idea = AF_T_unorganized_tribal_nation_5
-						}
-					}
-				}
-				custom_trigger_tooltip = {
-					tooltip = eoanb_law_reform_tip
-					always = no
-				}
-				hidden_trigger = {
-					always = no
-				}
-			}
-
-			modifier = {
-				political_power_factor = 0.15
-				research_speed_factor = -0.04
-				consumer_goods_factor = -0.04
-				stability_weekly = -0.001
-				drift_defence_factor = -0.4
-			}
-
-			cancel_if_invalid = no
-		}
-
-		high_taxes = {
-			allowed = { always = yes }
-			level = 3
-
-			available = {
-				custom_trigger_tooltip = {
-					tooltip = eoanb_trigger_tt_law_african_unorg
-				}
-				hidden_trigger = {
-					NOT = {
-						OR = {
-							has_idea = AF_T_unorganized_tribal_nation
-							has_idea = AF_T_unorganized_tribal_nation_2
-							has_idea = AF_T_unorganized_tribal_nation_3
-							has_idea = AF_T_unorganized_tribal_nation_4
-							has_idea = AF_T_unorganized_tribal_nation_5
-						}
-					}
-				}
-				custom_trigger_tooltip = {
-					tooltip = eoanb_law_reform_tip
-					always = no
-				}
-				hidden_trigger = {
-					always = no
-				}
-			}
-
-			modifier = {
-				political_power_factor = 0.1
-				research_speed_factor = -0.02
-				consumer_goods_factor = -0.02
-				stability_weekly = -0.0005
-				drift_defence_factor = -0.2
-			}
-
-			cancel_if_invalid = no
-		}
-
-		normal_taxes = {
-			allowed = { always = yes }
-			level = 2
-
-			available = {
-				custom_trigger_tooltip = {
-					tooltip = eoanb_trigger_tt_law_african_unorg
-				}
-				hidden_trigger = {
-					NOT = {
-						OR = {
-							has_idea = AF_T_unorganized_tribal_nation
-							has_idea = AF_T_unorganized_tribal_nation_2
-							has_idea = AF_T_unorganized_tribal_nation_3
-							has_idea = AF_T_unorganized_tribal_nation_4
-							has_idea = AF_T_unorganized_tribal_nation_5
-						}
-					}
-				}
-				custom_trigger_tooltip = {
-					tooltip = eoanb_law_reform_tip
-					always = no
-				}
-				hidden_trigger = {
-					always = no
-				}
-			}
-
-			modifier = {
-				political_power_factor = 0.05
-			}
-
-			default = yes
-
-			cancel_if_invalid = no
-		}
-
-		low_taxes = {
-			allowed = { always = yes }
-			level = 1
-
-			available = {
-				custom_trigger_tooltip = {
-					tooltip = eoanb_trigger_tt_law_african_unorg
-				}
-				hidden_trigger = {
-					NOT = {
-						OR = {
-							has_idea = AF_T_unorganized_tribal_nation
-							has_idea = AF_T_unorganized_tribal_nation_2
-							has_idea = AF_T_unorganized_tribal_nation_3
-							has_idea = AF_T_unorganized_tribal_nation_4
-							has_idea = AF_T_unorganized_tribal_nation_5
-						}
-					}
-				}
-				custom_trigger_tooltip = {
-					tooltip = eoanb_law_reform_tip
-					AND = {
-						always = no
-					}
-				}
-				hidden_trigger = {
-					always = no
-				}
-			}
-
-			modifier = {
-				political_power_factor = -0.05
-				consumer_goods_factor = 0.03
-				stability_weekly = 0.001
-				drift_defence_factor = 0.1
-			}
-
-			cancel_if_invalid = no
-		}
-
-		very_low_taxes = {
-			allowed = { always = yes }
-			level = 0
-			available = {
-				custom_trigger_tooltip = {
-					tooltip = eoanb_trigger_tt_law_african_unorg
-				}
-				hidden_trigger = {
-					NOT = {
-						OR = {
-							has_idea = AF_T_unorganized_tribal_nation
-							has_idea = AF_T_unorganized_tribal_nation_2
-							has_idea = AF_T_unorganized_tribal_nation_3
-							has_idea = AF_T_unorganized_tribal_nation_4
-							has_idea = AF_T_unorganized_tribal_nation_5
-						}
-					}
-				}
-				custom_trigger_tooltip = {
-					tooltip = eoanb_law_reform_tip
-					AND = {
-						always = no
-					}
-				}
-				hidden_trigger = {
-					always = no
-				}
-			}
-
-			modifier = {
-				political_power_factor = -0.1
-				research_speed_factor = 0.02
-				consumer_goods_factor = 0.05
-				stability_weekly = 0.0015
-				drift_defence_factor = 0.25
-			}
-
-			cancel_if_invalid = no
-		}
-	}
-	law_country_property = {
-		law = yes
-		#use_list_view = yes
-		lp_serfdom = {
-
-			available = {
-				OR = {
-					has_idea = agrarian
-					has_idea = industrializing
-				}
-			}
-
-			removal_cost = -1
-			level = 1
-			cost = 1000
-
-			modifier = {
-				stability_weekly = -0.001
-				army_core_defence_factor = -0.1
-				production_speed_industrial_complex_factor = -0.1
-				recon_factor = -0.1
-				consumer_goods_factor = -0.1
-				political_power_gain = 0.3
-				conscription_factor = 0.05
-			}
-
-			cancel_if_invalid = no
-
-		}
-
-		lp_land_estates = {
-
-			available = {
-				NOT = {
-					has_idea = universal_suffrage
-					has_idea = constitution_adopted
-					has_idea = full_equality
-				}
-			}
-
-			removal_cost = -1
-			level = 2
-			cost = 1000
-
-			modifier = {
-				political_power_gain = -0.1
-				production_speed_infrastructure_factor = 0.05
-			}
-
-			cancel_if_invalid = no
-
-		}
-
-		lp_land_purchase = {
-			removal_cost = -1
-			level = 3
-			cost = 1000
-
-			modifier = {
-				stability_factor = 0.05
-				drift_defence_factor = 0.2
-				consumer_goods_factor = -0.05
-				production_speed_industrial_complex_factor = 0.05
-			}
-
-			default = yes
-
-			cancel_if_invalid = no
-
-		}
-
-		lp_peasant_holdings = {
-			removal_cost = -1
-			level = 4
-			cost = 1000
-
-			modifier = {
-				production_speed_buildings_factor = -0.05
-				political_power_factor = -0.1
-				consumer_goods_factor = -0.15
-			}
-
-			cancel_if_invalid = no
-
-		}
-
-		lp_collectivization = {
-			available = {
-				has_government = reformism
-				NOT = {
-					OR = {
-						has_idea = tribal_slavery
-						has_idea = slavery
-						has_idea = racial_laws
-						has_idea = segregation
-					}
-				}
-			}
-
-			removal_cost = -1
-			level = 5
-			cost = 1000
-
-			modifier = {
-				political_power_factor = -0.1
-				consumer_goods_factor = 0.1
-				production_speed_industrial_complex_factor = 0.1
-				production_speed_arms_factory_factor = 0.1
-				MONTHLY_POPULATION = 0.1
-				stability_factor = 0.1
-				army_core_defence_factor = 0.1
-			}
-
-			cancel_if_invalid = no
-
-		}
-
-		lp_african_communalism = {
-
-			available = {
-				NOT = {
-					OR = {
-						has_idea = law_country_society_modern
-						has_idea = law_country_society_victorian
-					}
-				}
-			}
-
-			removal_cost = -1
-			level = 7
-			cost = 1000
-
-			modifier = {
-				stability_factor = 0.075
-				political_power_factor = -0.125
-				consumer_goods_factor = 0.1
-				production_speed_industrial_complex_factor = 0.05
-				MONTHLY_POPULATION = 0.1
-				army_core_defence_factor = 0.1
-				conscription_factor = 0.05
-			}
-
-			cancel_if_invalid = no
-
-		}
-
-		lp_tribal_communalism = {
-
-			available = {
-				NOT = {
-					OR = {
-						has_idea = law_country_society_modern
-						has_idea = law_country_society_victorian
-					}
-				}
-			}
-
-			allowed = {
-				always = yes
-			}
-
-			removal_cost = -1
-			level = 6
-			cost = 1000
-
-			modifier = {
-				army_core_defence_factor = 0.05
-				production_speed_buildings_factor = -0.15
-				consumer_goods_factor = 0.20
-				conscription_factor = 0.20
-				industry_air_damage_factor = 0.25
-				industry_free_repair_factor = 0.05
-			}
-
-			cancel_if_invalid = no
-
-		}
-	}
-	law_country_mobilization = {
-		law = yes
-		#use_list_view = yes
-		manpower_industrial = {
-			allowed = { always = yes }
-			cost = 150
-			removal_cost = -1
-			level = 6
-
-			available = {
-				NOT = { has_idea = law_country_society_modern }
-				NOT = { has_idea = law_country_society_victorian }
-			}
-
-			modifier = {
-				political_power_gain = -0.05
-				conscription = 0.015
-				industrial_capacity_factory = -0.025
-				industrial_capacity_dockyard = -0.025
-			}
-
-			ai_will_do = {
-   				factor = 1
-				modifier = {
-					#Prio if low on manpower
-					factor = 20
-					manpower_per_military_factory <  3000
-				}
-			}
-
-			cancel_if_invalid = no
-		}
-
-		manpower_tribal_everyone = {
-			allowed = { always = yes }
-			cost = 250
-			removal_cost = -1
-			level = 13
-
-			available = {
-				has_war_support > 0.5
-			}
-
-
-			modifier = {
-				conscription = 0.3
-				max_planning = -0.12
-				planning_speed = 0.075
-				land_reinforce_rate = 0.1
-				production_speed_buildings_factor = -0.4
-				political_power_gain = -0.3
-				consumer_goods_factor = 0.25
-				resistance_damage_to_garrison = -0.25
-				terrain_penalty_reduction = 0.1
-				no_supply_grace = 168
-			}
-
-			ai_will_do = {
-				factor = 1
-			}
-
-			cancel_if_invalid = no
-
-		}
-
-		manpower_tribal_every_tenth = {
-			allowed = { always = yes }
-			cost = 250
-			removal_cost = -1
-			level = 11
-
-			available = {
-				has_war_support > 0.1
-			}
-
-			modifier = {
-				conscription = 0.05
-				political_power_gain = -0.1
-				consumer_goods_factor = 0.05
-			}
-
-			ai_will_do = {
-				factor = 1
-			}
-
-			cancel_if_invalid = no
-
-		}
-
-		manpower_tribal_every_fifth = {
-			allowed = { always = yes }
-			cost = 250
-			removal_cost = -1
-			level = 12
-
-			available = {
-				has_war_support > 0.2
-			}
-			modifier = {
-				conscription = 0.1
-				production_speed_buildings_factor = -0.1
-				political_power_gain = -0.12
-				consumer_goods_factor = 0.1
-			}
-
-			ai_will_do = {
-				factor = 1
-			}
-
-			cancel_if_invalid = no
-
-		}
-
-		manpower_tribal_warriors = {
-			allowed = { always = yes }
-			cost = 250
-			removal_cost = -1
-			level = 10
-
-			available = {
-				always = yes
-			}
-
-			modifier = {
-				conscription = 0.02
-				political_power_gain = -0.05
-				consumer_goods_factor = -0.05
-			}
-
-			ai_will_do = {
-				factor = 1
-			}
-
-			cancel_if_invalid = no
-
-		}
-
-		manpower_disarmed = {
-			allowed = { always = yes }
-			cost = 150
-			removal_cost = -1
-			level = 6
-
-			available = {
-				NOT = { has_idea = undisturbed_isolation }
-				NOT = { has_idea = isolation }
-			}
-
-			modifier = {
-				political_power_gain = -0.05
-				conscription = 0.015
-				industrial_capacity_factory = -0.025
-				industrial_capacity_dockyard = -0.025
-			}
-
-			ai_will_do = {
-				factor = 1
-				modifier = {
-					#Prio if low on manpower
-					factor = 20
-					manpower_per_military_factory <  3000
-				}
-			}
-
-			cancel_if_invalid = no
-		}
-	}
-	law_country_theorist = {
-		law_country_theorist_generic_1 = {
-			allowed = { always = yes }
-
-			picture = lawicon_magenta
-		}
-		law_country_theorist_generic_2 = {
-			allowed = { always = yes }
-
-			picture = lawicon_magenta
-		}
-	}
-	law_country_foreign_partnership = {
-		law_country_foreign_partnership_british = {
-			allowed = { always = yes }
-			available = {
-				OR = {
-					is_subject_of = ENG
-					has_opinion = {
-						target = ROOT
-						value > 50
-					}
-				}
-			}
-			visible = {
-				NOT = {
-					OR = {
-						has_idea = law_country_society_victorian
-						has_idea = law_country_society_modern
-					}
-				}
-			}
-
-			picture = lawicon_blue
-		}
-		law_country_foreign_partnership_french = {
-			allowed = { always = yes }
-			available = {
-				OR = {
-					is_subject_of = FRA
-					has_opinion = {
-						target = ROOT
-						value > 50
-					}
-				}
-			}
-			visible = {
-				NOT = {
-					OR = {
-						has_idea = law_country_society_victorian
-						has_idea = law_country_society_modern
-					}
-				}
-			}
-
-			picture = lawicon_blue
-		}
-		law_country_foreign_partnership_portugese = {
-			allowed = { always = yes }
-			available = {
-				OR = {
-					is_subject_of = POR
-					has_opinion = {
-						target = ROOT
-						value > 50
-					}
-				}
-			}
-			visible = {
-				NOT = {
-					OR = {
-						has_idea = law_country_society_victorian
-						has_idea = law_country_society_modern
-					}
-				}
-			}
-
-			picture = lawicon_blue
 		}
 	}
 }
