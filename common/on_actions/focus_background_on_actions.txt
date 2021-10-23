@@ -1,0 +1,16 @@
+# Credit to Hiyajo Maho#1312 from Co-Op
+on_actions = {
+	on_startup = {
+		effect = {
+			OTO = {
+				set_variable = { show_focus_background = 1 }
+			}
+			OMA = {
+				set_variable = { show_focus_background = 2 }
+			}
+			SKT = {
+				set_variable = { show_focus_background = 3 }
+			}
+		}
+	}
+}

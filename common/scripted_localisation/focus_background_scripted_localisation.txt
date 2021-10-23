@@ -1,0 +1,22 @@
+# Credit to Hiyajo Maho#1312 from Co-Op
+defined_text = {
+	name = GetFocusBackground
+	text = {
+		trigger = {
+			check_variable = { show_focus_background = 1 }
+		}
+		localization_key = "GFX_OTO_focus_background"
+	}
+	text = {
+		trigger = {
+			check_variable = { show_focus_background = 2 }
+		}
+		localization_key = "GFX_OMA_focus_background"
+	}
+	text = {
+		trigger = {
+			check_variable = { show_focus_background = 3 }
+		}
+		localization_key = "GFX_SKT_focus_background"
+	}
+}
