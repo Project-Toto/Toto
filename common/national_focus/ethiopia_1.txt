@@ -495,7 +495,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_tech_bonus = { bonus = 0.75 uses = 1 category = land_doctrine }
-			swap_ideas = { add_idea = five_percent remove_idea = two_percent }
+			# swap_ideas = { add_idea = five_percent remove_idea = two_percent }
 
 		}
 	}
@@ -1036,8 +1036,8 @@ focus_tree = {
 		completion_reward = {
 			remove_ideas = ETH_idea_reformed_military_staff
 			swap_ideas = {
-				remove_idea = law_pre_industrial_army
-				add_idea = law_victorian_army
+				remove_idea = law_army_tribal_improved
+				add_idea = law_country_military_line
 			}
 		}
 

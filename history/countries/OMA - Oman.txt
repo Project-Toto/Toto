@@ -40,12 +40,12 @@ add_ideas = {
 		law_country_government_kingdom
 
 		limited_exports
-		two_percent
+
 		normal_taxes
 
 		stagnation_growth
 		border_control
-	limited_conscription
+
 		racial_laws
 		absolutism
 
@@ -54,7 +54,7 @@ add_ideas = {
 
 		privileged_education
 
-	religion_ibadi
+	law_country_religion_ibadi
 
 	 law_country_power_secondary
 	 law_country_religion_ibadi

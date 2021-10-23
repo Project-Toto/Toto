@@ -49,7 +49,7 @@ set_technology = {
 		law_country_government_kingdom
 
 		limited_exports
-		two_percent
+
 		normal_taxes
 
 		stagnation_growth

@@ -2798,7 +2798,7 @@ focus_tree = {
 			army_experience = 25
 			swap_ideas = {
 				remove_idea = law_army_tribal_advanced
-				add_idea = law_pre_industrial_army
+				add_idea = law_army_tribal_improved
 			}
 		}
 		x = 0

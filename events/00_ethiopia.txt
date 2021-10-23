@@ -2064,7 +2064,7 @@ country_event = {
 	option = {
 		name = ethiopia_religion.1.a
 		ai_chance = { factor = 100 }
-		add_ideas = country_law_religion_protestant
+		add_ideas = law_country_religion_protestant
 	}
 
 }

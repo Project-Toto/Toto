@@ -2962,12 +2962,7 @@ afr_reforming_regional_power_foreign_investments_decisions = {
 			has_country_flag = afr_reforming_regional_power_has_logging_industry
 		}
 		allowed = {
-			OR = {
-				afr_is_tribal_allowed = yes
-				oceania_is_tribal_allowed = yes
-				is_first_nations_tribe = yes
-				is_south_american_tribe = yes
-			}
+			afr_is_tribal_allowed = yes
 		}
 
 		visible = {
@@ -2992,12 +2987,7 @@ afr_reforming_regional_power_foreign_investments_decisions = {
 		}
 
 		allowed = {
-			OR = {
-				afr_is_tribal_allowed = yes
-				oceania_is_tribal_allowed = yes
-				is_first_nations_tribe = yes
-				is_south_american_tribe = yes
-			}
+			afr_is_tribal_allowed = yes
 		}
 		activation = {
 			has_country_flag = afr_reforming_regional_power_regional_resources_decision_mission
@@ -3136,12 +3126,7 @@ afr_reforming_regional_power_foreign_investments_decisions = {
 			}
 		}
 		allowed = {
-			OR = {
-				afr_is_tribal_allowed = yes
-				oceania_is_tribal_allowed = yes
-				is_first_nations_tribe = yes
-				is_south_american_tribe = yes
-			}
+			afr_is_tribal_allowed = yes
 		}
 
 		visible = {
@@ -3307,12 +3292,7 @@ afr_reforming_regional_power_foreign_investments_decisions = {
 			}
 		}
 		allowed = {
-			OR = {
-				afr_is_tribal_allowed = yes
-				oceania_is_tribal_allowed = yes
-				is_first_nations_tribe = yes
-				is_south_american_tribe = yes
-			}
+			afr_is_tribal_allowed = yes
 		}
 
 		visible = {
@@ -3439,12 +3419,7 @@ afr_reforming_regional_power_foreign_investments_decisions = {
 			has_country_flag = afr_reforming_regional_power_regional_industry_decision_mission
 		}
 		allowed = {
-			OR = {
-				afr_is_tribal_allowed = yes
-				oceania_is_tribal_allowed = yes
-				is_first_nations_tribe = yes
-				is_south_american_tribe = yes
-			}
+			afr_is_tribal_allowed = yes
 		}
 
 		#fire_only_once = no
@@ -3477,12 +3452,7 @@ afr_reforming_regional_power_foreign_investments_decisions = {
 			has_country_flag = afr_reforming_regional_power_has_military_industry
 		}
 		allowed = {
-			OR = {
-				afr_is_tribal_allowed = yes
-				oceania_is_tribal_allowed = yes
-				is_first_nations_tribe = yes
-				is_south_american_tribe = yes
-			}
+			afr_is_tribal_allowed = yes
 		}
 
 		visible = {
@@ -3572,12 +3542,7 @@ afr_reforming_regional_power_foreign_investments_decisions = {
 			}
 		}
 		allowed = {
-			OR = {
-				afr_is_tribal_allowed = yes
-				oceania_is_tribal_allowed = yes
-				is_first_nations_tribe = yes
-				is_south_american_tribe = yes
-			}
+			afr_is_tribal_allowed = yes
 		}
 
 		visible = {
@@ -3746,12 +3711,7 @@ afr_reforming_regional_power_foreign_investments_decisions = {
 			}
 		}
 		allowed = {
-			OR = {
-				afr_is_tribal_allowed = yes
-				oceania_is_tribal_allowed = yes
-				is_first_nations_tribe = yes
-				is_south_american_tribe = yes
-			}
+			afr_is_tribal_allowed = yes
 		}
 
 		visible = {
@@ -3857,12 +3817,7 @@ afr_reforming_regional_power_foreign_investments_decisions = {
 			exists = yes
 		}
 		allowed = {
-			OR = {
-				afr_is_tribal_allowed = yes
-				oceania_is_tribal_allowed = yes
-				is_first_nations_tribe = yes
-				is_south_american_tribe = yes
-			}
+			afr_is_tribal_allowed = yes
 		}
 
 		visible = {
@@ -3901,12 +3856,7 @@ afr_reforming_regional_power_foreign_investments_decisions = {
 			}
 		}
 		allowed = {
-			OR = {
-				afr_is_tribal_allowed = yes
-				oceania_is_tribal_allowed = yes
-				is_first_nations_tribe = yes
-				is_south_american_tribe = yes
-			}
+			afr_is_tribal_allowed = yes
 		}
 
 		visible = {
@@ -4065,12 +4015,7 @@ afr_reforming_regional_power_foreign_investments_decisions = {
 			}
 		}
 		allowed = {
-			OR = {
-				afr_is_tribal_allowed = yes
-				oceania_is_tribal_allowed = yes
-				is_first_nations_tribe = yes
-				is_south_american_tribe = yes
-			}
+			afr_is_tribal_allowed = yes
 		}
 
 		visible = {

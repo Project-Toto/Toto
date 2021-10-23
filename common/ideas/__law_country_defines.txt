@@ -1183,7 +1183,7 @@ ideas = {
 				invasion_preparation = 0.05
 			}
 		}
-			law_country_military_agrarian_levies = {
+		law_army_tribal_advanced = {
 			allowed = { always = yes }
 			level = 1
 			default = yes
@@ -1191,7 +1191,7 @@ ideas = {
 			picture = lawicon_red
 
 			modifier = {
-				custom_modifier_tooltip = law_country_military_agrarian_levies_prestige_modifier # 0.80
+				custom_modifier_tooltip = law_army_tribal_improved_prestige_modifier # 0.80
 				command_power_gain = 0.125
 				experience_loss_factor = 0.8
 				land_reinforce_rate = 0.85
@@ -1201,14 +1201,32 @@ ideas = {
 				dig_in_speed_factor = -0.65
 			}
 		}
-		law_country_military_nomadic_warriors = {
+		law_army_tribal_improved = {
+			allowed = { always = yes }
+			level = 1
+			default = yes
+
+			picture = lawicon_red
+
+			modifier = {
+				custom_modifier_tooltip = law_army_tribal_improved_prestige_modifier # 0.80
+				command_power_gain = 0.125
+				experience_loss_factor = 0.8
+				land_reinforce_rate = 0.85
+				max_command_power = -15
+				army_leader_start_defense_level = 1
+				army_core_defence_factor = 0.075
+				dig_in_speed_factor = -0.65
+			}
+		}
+		law_army_tribal_basic = {
 			allowed = { always = yes }
 			level = 0
 
 			picture = lawicon_red
 
 			modifier = {
-				custom_modifier_tooltip = law_country_military_nomadic_warriors_prestige_modifier # 0.65
+				custom_modifier_tooltip = law_army_tribal_basic_prestige_modifier # 0.65
 				command_power_gain = 0.10
 				experience_loss_factor = 1.0
 				land_reinforce_rate = 0.85

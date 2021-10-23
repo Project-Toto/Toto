@@ -18,9 +18,8 @@
 		law_country_religion_sunni
 		# law_country_culture_uncategorized
 		law_country_government_kingdom
-		law_country_society_feudal
 		# law_country_societal_tribal
-		# law_country_military_agrarian_levies
+		# law_army_tribal_improved
 
 		# Status
 		# agrarian
@@ -42,7 +41,7 @@
 		#Economic
 
 			closed_economy
-			
+
 			very_low_taxes
 			#
 			lp_tribal_communalism

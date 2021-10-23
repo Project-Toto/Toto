@@ -249,7 +249,7 @@ sabotage_anti_air_building = {
 sabotage_fuel_silo = {
 	available = {
 		non_damaged_building_level = {
-			building = fuel_silo
+			building = fuel_silo_industrial
 			level > 0
 		}
 	}

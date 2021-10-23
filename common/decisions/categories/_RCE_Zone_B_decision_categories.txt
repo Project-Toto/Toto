@@ -15,12 +15,7 @@ unidustrialized_warfare = {
 	icon = generic_crisis
 
 	visible = {
-		OR = {
-			afr_is_tribal = yes
-			oceania_is_tribal = yes
-			is_first_nations_tribe = yes
-			is_south_american_tribe = yes
-		}
+		afr_is_tribal = yes
 	}
 }
 
@@ -37,11 +32,7 @@ afr_regional_power_empire_politics_advisor_court_category = {
 	icon = generic_democracy
 
 	allowed = {
-		OR = {
-			afr_is_tribal_allowed = yes
-			oceania_is_tribal_allowed = yes
-			is_first_nations_tribe_allowed = yes
-		}
+		afr_is_tribal_allowed = yes
 	}
 	
 	visible = {
@@ -84,11 +75,7 @@ afr_regional_power_empire_politics_category = {
 	icon = decision_generic_civil_support
 
 	allowed = {
-		OR = {
-			afr_is_tribal_allowed = yes
-			oceania_is_tribal_allowed = yes
-			is_first_nations_tribe_allowed = yes
-		}
+		afr_is_tribal_allowed = yes
 	}
 }
 
@@ -396,12 +383,7 @@ KRU_LIB_raids = {
 SKT_war_exhaustion = {
 	icon = generic_formable_nations
 	visible = {
-		OR = {
-			afr_is_tribal = yes
-			oceania_is_tribal = yes
-			is_first_nations_tribe = yes
-			is_south_american_tribe = yes
-		}
+		afr_is_tribal = yes
 	}
 }
 
@@ -455,12 +437,7 @@ afr_islamic_renaissance = {
 afr_prosperity_mechanic_category = {
 	icon = generic_economy
 	visible = {
-		OR = {
-			afr_is_tribal = yes
-			oceania_is_tribal = yes
-			is_first_nations_tribe = yes
-			is_south_american_tribe = yes
-		}
+		afr_is_tribal = yes
 	}
 }
 

@@ -353,7 +353,7 @@
 		# }
 		# completion_reward = {
         # swap_ideas = {
-			# remove_idea = hc_no_healthcare
+			# remove_idea =
 			# add_idea = hc_low_healthcare
 			# }
         # add_stability = 0.02
@@ -821,7 +821,7 @@
 
 		# completion_reward = {
 			# swap_ideas = {
-			    # remove_idea = navinfra_no_naval_infrastructure
+			    # remove_idea =
 				# add_idea = navinfra_low_naval_infrastructure
 			# }
 		# }
@@ -1231,7 +1231,7 @@
 			# }
 		# }
 	# }
-	
+
 	# focus = {
 		# id = yem_vic_musullu_ali_yaver_pasha
 		# icon = GFX_goal_focus_conscription
@@ -1240,13 +1240,13 @@
 		# y = 1
 		# relative_position_id = yem_vic_cotton_boom
 		# cost = 70
-        
+
 		# available = {
 		     # date > 1862.1.1
 		# }
 
 		# available_if_capitulated = no
-             
+
 		# ai_will_do = {
 			# factor = 1
 		# }
@@ -1256,7 +1256,7 @@
 			# add_political_power = 50
 		# }
 	# }
-	
+
 	# focus = {
 		# id = yem_vic_claim_on_west_hadhramaut
 		# prerequisite = { focus = yem_vic_land_grab }
@@ -1281,7 +1281,7 @@
 		    # 1194 = { add_claim_by = YEM }
 		# }
 	# }
-	
+
 	# focus = {
 		# id = yem_vic_claim_on_central_hadhramaut
 		# prerequisite = { focus = yem_vic_claim_on_west_hadhramaut }
@@ -1294,7 +1294,7 @@
 		# available={
 		    # date > 1878.1.1
 			# has_manpower > 8000
-			# QUA = { is_subject_of = YEM } 
+			# QUA = { is_subject_of = YEM }
 		# }
 
 		# ai_will_do = {
@@ -1304,7 +1304,7 @@
 		    # 1195 = { add_claim_by = YEM }
 	    # }
 	# }
-		
+
 	# focus = {
 		# id = yem_vic_claim_on_east_hadhramaut
 		# prerequisite = { focus = yem_vic_claim_on_central_hadhramaut }
@@ -1327,7 +1327,7 @@
 		    # 1196 = { add_claim_by = YEM }
 		    # }
 	# }
-	
+
 	# focus = {
 		# id = yem_vic_demand_aden
 		# prerequisite = { focus = yem_vic_claim_on_east_hadhramaut }
@@ -1349,7 +1349,7 @@
 		# }
 		# completion_reward = {
 		    # add_political_power = -300
-		    # annex_country = { target = ADN transfer_troops = yes } 
+		    # annex_country = { target = ADN transfer_troops = yes }
 		    # }
 	    # }
 	# }

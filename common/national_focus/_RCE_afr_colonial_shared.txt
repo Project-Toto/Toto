@@ -557,12 +557,6 @@ shared_focus = {
 		debt_level_increase_by_2 = yes
 		if = {
 			limit = {
-				has_idea = Oceania_colonial_reforming_kingdom
-			}
-			swap_ideas = { add_idea = Oceania_colonial_reforming_kingdom_1 remove_idea = Oceania_colonial_reforming_kingdom }
-		}
-		if = {
-			limit = {
 				has_idea = afr_colonial_reforming_kingdom
 			}
 			swap_ideas = { add_idea = afr_colonial_reforming_kingdom_1 remove_idea = afr_colonial_reforming_kingdom }
@@ -571,13 +565,9 @@ shared_focus = {
 	}
 	allow_branch = {
 		OR = {
-			has_idea = Oceania_colonial_reforming_kingdom
 			has_idea = afr_colonial_reforming_kingdom
-			has_idea = Oceania_colonial_reforming_kingdom_1
 			has_idea = afr_colonial_reforming_kingdom_1
-			has_idea = Oceania_colonial_reforming_kingdom_2
 			has_idea = afr_colonial_reforming_kingdom_2
-			has_idea = Oceania_colonial_reforming_kingdom_3
 			has_idea = afr_colonial_reforming_kingdom_3
 		}
 	}
@@ -606,12 +596,6 @@ shared_focus = {
 		debt_level_increase_by_2 = yes
 		if = {
 			limit = {
-				has_idea = Oceania_colonial_reforming_kingdom_1
-			}
-			swap_ideas = { add_idea = Oceania_colonial_reforming_kingdom_2 remove_idea = Oceania_colonial_reforming_kingdom_1 }
-		}
-		if = {
-			limit = {
 				has_idea = afr_colonial_reforming_kingdom_1
 			}
 			swap_ideas = { add_idea = afr_colonial_reforming_kingdom_2 remove_idea = afr_colonial_reforming_kingdom_1 }
@@ -620,13 +604,9 @@ shared_focus = {
 	}
 	allow_branch = {
 		OR = {
-			has_idea = Oceania_colonial_reforming_kingdom
 			has_idea = afr_colonial_reforming_kingdom
-			has_idea = Oceania_colonial_reforming_kingdom_1
 			has_idea = afr_colonial_reforming_kingdom_1
-			has_idea = Oceania_colonial_reforming_kingdom_2
 			has_idea = afr_colonial_reforming_kingdom_2
-			has_idea = Oceania_colonial_reforming_kingdom_3
 			has_idea = afr_colonial_reforming_kingdom_3
 		}
 	}
@@ -652,12 +632,6 @@ shared_focus = {
 		debt_level_increase_by_2 = yes
 		if = {
 			limit = {
-				has_idea = Oceania_colonial_reforming_kingdom_2
-			}
-			swap_ideas = { add_idea = Oceania_colonial_reforming_kingdom_3 remove_idea = Oceania_colonial_reforming_kingdom_2 }
-		}
-		if = {
-			limit = {
 				has_idea = afr_colonial_reforming_kingdom_2
 			}
 			swap_ideas = { add_idea = afr_colonial_reforming_kingdom_3 remove_idea = afr_colonial_reforming_kingdom_2 }
@@ -666,13 +640,9 @@ shared_focus = {
 	}
 	allow_branch = {
 		OR = {
-			has_idea = Oceania_colonial_reforming_kingdom
 			has_idea = afr_colonial_reforming_kingdom
-			has_idea = Oceania_colonial_reforming_kingdom_1
 			has_idea = afr_colonial_reforming_kingdom_1
-			has_idea = Oceania_colonial_reforming_kingdom_2
 			has_idea = afr_colonial_reforming_kingdom_2
-			has_idea = Oceania_colonial_reforming_kingdom_3
 			has_idea = afr_colonial_reforming_kingdom_3
 		}
 	}
@@ -686,10 +656,7 @@ shared_focus = {
 	cost = 75
 	available_if_capitulated = no
 	available = {
-		OR = {
-			has_idea = Oceania_colonial_reforming_kingdom_3
-			has_idea = afr_colonial_reforming_kingdom_3
-		}
+		has_idea = afr_colonial_reforming_kingdom_3
 	}
 	ai_will_do = {
 		factor = 1000
@@ -700,12 +667,6 @@ shared_focus = {
 	completion_reward = {
 		if = {
 			limit = {
-				has_idea = Oceania_colonial_reforming_kingdom_3
-			}
-			remove_ideas = Oceania_colonial_reforming_kingdom_3
-		}
-		if = {
-			limit = {
 				has_idea = afr_colonial_reforming_kingdom_3
 			}
 			remove_ideas = afr_colonial_reforming_kingdom_3
@@ -714,13 +675,9 @@ shared_focus = {
 	}
 	allow_branch = {
 		OR = {
-			has_idea = Oceania_colonial_reforming_kingdom
 			has_idea = afr_colonial_reforming_kingdom
-			has_idea = Oceania_colonial_reforming_kingdom_1
 			has_idea = afr_colonial_reforming_kingdom_1
-			has_idea = Oceania_colonial_reforming_kingdom_2
 			has_idea = afr_colonial_reforming_kingdom_2
-			has_idea = Oceania_colonial_reforming_kingdom_3
 			has_idea = afr_colonial_reforming_kingdom_3
 		}
 	}

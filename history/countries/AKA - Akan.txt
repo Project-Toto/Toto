@@ -39,8 +39,8 @@
 			#Governmental Policies
 				no_constitution
 
-			
-				no_federalism
+
+
 
 			#Culture
 				oral_tradition

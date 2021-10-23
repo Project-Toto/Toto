@@ -242,7 +242,7 @@ country_event = {
 			name = afr_empire_politics_foreign_diplomacy_event.2.a
 			trigger = { always = yes }
 			if = {
-				limit = { OR = { afr_is_tribal = yes is_nomadic_nation_state = yes is_first_nations_tribe = yes oceania_is_tribal = yes } }
+				limit = { OR = { afr_is_tribal = yes has_idea = AF_T_nomadic_tribal_nation } }
 				add_equipment_to_stockpile = {
 					type = infantry_equipment_rifle_0
 					amount = 150
@@ -798,27 +798,20 @@ country_event = {
 				limit = {
 					OR = {
 						afr_is_tribal = yes
-						oceania_is_tribal = yes
 						has_variable = has_afr_empire_mechanic_system
 					}
 				}
 				if = {
 					limit = {
 						NOT = { has_variable = has_afr_empire_mechanic_system }
-						OR = {
-							afr_is_tribal = yes
-							oceania_is_tribal = yes
-						}
+						afr_is_tribal = yes
 					}
 					set_variable = { var = has_afr_empire_mechanic_system value = 1 }
 				}
 				else_if = {
 					limit = {
 						NOT = {
-							OR = {
-								afr_is_tribal = yes
-								oceania_is_tribal = yes
-							}
+							afr_is_tribal = yes
 						}
 						has_variable = has_afr_empire_mechanic_system
 					}
@@ -3214,17 +3207,8 @@ country_event = {
 						has_idea = law_country_religion_shiite
 						has_idea = law_country_religion_ibadi
 
-						has_idea = country_law_religion_shamanism
+						has_idea = law_country_religion_fetishist
 						has_idea = law_country_religion_animist
-
-						has_idea = country_law_religion_mahayana
-						has_idea = country_law_religion_gelugpa
-						has_idea = country_law_religion_theravada
-						has_idea = country_law_religion_hindu
-						has_idea = country_law_religion_sikh
-
-						has_idea = country_law_religion_confucian
-						has_idea = country_law_religion_shinto
 					}
 				}
 				modifier = {
@@ -3235,9 +3219,8 @@ country_event = {
 						has_idea = law_country_religion_shiite
 						has_idea = law_country_religion_ibadi
 
-						has_idea = country_law_religion_coptic
-						has_idea = country_law_religion_orthodox
-						has_idea = law_country_religion_catholic
+						has_idea = law_country_religion_coptic
+						has_idea = law_country_religion_orthodox
 						has_idea = law_country_religion_catholic
 					}
 				}
@@ -3245,22 +3228,12 @@ country_event = {
 					factor = 0
 					FROM = { has_state_flag = afr_empire_politics_local_rumor_dawah_flag_1 }
 					OR = {
-						has_idea = country_law_religion_shamanism
+						has_idea = law_country_religion_fetishist
 						has_idea = law_country_religion_animist
 
-						has_idea = country_law_religion_coptic
-						has_idea = country_law_religion_orthodox
+						has_idea = law_country_religion_coptic
+						has_idea = law_country_religion_orthodox
 						has_idea = law_country_religion_catholic
-						has_idea = law_country_religion_catholic
-
-						has_idea = country_law_religion_mahayana
-						has_idea = country_law_religion_gelugpa
-						has_idea = country_law_religion_theravada
-						has_idea = country_law_religion_hindu
-						has_idea = country_law_religion_sikh
-
-						has_idea = country_law_religion_confucian
-						has_idea = country_law_religion_shinto
 
 					}
 				}
@@ -3268,22 +3241,13 @@ country_event = {
 					factor = 0
 					FROM = { has_state_flag = afr_empire_politics_local_rumor_jihadist_flag_1 }
 					OR = {
-						has_idea = country_law_religion_shamanism
+						has_idea = law_country_religion_fetishist
 						has_idea = law_country_religion_animist
 
-						has_idea = country_law_religion_coptic
-						has_idea = country_law_religion_orthodox
+						has_idea = law_country_religion_coptic
+						has_idea = law_country_religion_orthodox
 						has_idea = law_country_religion_catholic
 						has_idea = law_country_religion_catholic
-
-						has_idea = country_law_religion_mahayana
-						has_idea = country_law_religion_gelugpa
-						has_idea = country_law_religion_theravada
-						has_idea = country_law_religion_hindu
-						has_idea = country_law_religion_sikh
-
-						has_idea = country_law_religion_confucian
-						has_idea = country_law_religion_shinto
 					}
 				}
 				modifier = {

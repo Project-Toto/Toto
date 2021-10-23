@@ -695,7 +695,7 @@
 # 			set_country_flag = Oceania_generic_french_administrators
 # 			custom_effect_tooltip = AFR_GENERIC_COLONIAL_ENTER_TOOLTIP
 # 			hidden_effect = { add_ideas = { Oceania_antoine_dufresne } }
-# 			custom_effect_tooltip = available_court_advisor
+# 			custom_effect_tooltip = available_political_advisor
 # 			show_ideas_tooltip = Oceania_antoine_dufresne
 # 			custom_effect_tooltip = afr_colonial_effect_tooltip
 # 			capital_scope = {
@@ -1107,7 +1107,7 @@
 # 			set_country_flag = Oceania_generic_british_administrators
 # 			custom_effect_tooltip = AFR_GENERIC_COLONIAL_ENTER_TOOLTIP
 # 			hidden_effect = { add_ideas = { Oceania_theodore_wilkinson } }
-# 			custom_effect_tooltip = available_court_advisor
+# 			custom_effect_tooltip = available_political_advisor
 # 			show_ideas_tooltip = Oceania_theodore_wilkinson
 # 			custom_effect_tooltip = afr_colonial_effect_tooltip
 # 			capital_scope = {
@@ -2256,7 +2256,7 @@
 # 			set_country_flag = Oceania_generic_chinese_administrators
 # 			custom_effect_tooltip = AFR_GENERIC_COLONIAL_ENTER_TOOLTIP
 # 			hidden_effect = { add_ideas = { Oceania_zhu_yating } }
-# 			custom_effect_tooltip = available_court_advisor
+# 			custom_effect_tooltip = available_political_advisor
 # 			show_ideas_tooltip = Oceania_zhu_yating
 # 			custom_effect_tooltip = afr_colonial_effect_tooltip
 # 			capital_scope = {
@@ -2277,7 +2277,7 @@
 # 		completion_reward = {
 # 			set_country_flag = Oceania_generic_chinese_military_advisors
 # 			#hidden_effect = { add_ideas = { Oceania_xiang_ling } }
-# 			custom_effect_tooltip = available_court_advisor
+# 			custom_effect_tooltip = available_political_advisor
 # 			#show_ideas_tooltip = Oceania_xiang_ling
 # 			custom_effect_tooltip = afr_colonial_effect_tooltip
 # 			capital_scope = {
@@ -3931,7 +3931,7 @@
 # 				set_country_flag = Oceania_generic_isolationist_promote_our_national_agenda
 # 				custom_effect_tooltip = AFR_GENERIC_COLONIAL_ENTER_TOOLTIP
 # 				hidden_effect = { add_ideas = { Oceania_islamic_isolationist_diplomacy_advisor } }
-# 				custom_effect_tooltip = available_court_advisor
+# 				custom_effect_tooltip = available_political_advisor
 # 				custom_effect_tooltip = Oceania_islamic_isolationist_diplomacy_advisor
 # 			}
 # 			if = {
@@ -3941,7 +3941,7 @@
 # 				set_country_flag = Oceania_generic_isolationist_promote_our_national_agenda
 # 				custom_effect_tooltip = AFR_GENERIC_COLONIAL_ENTER_TOOLTIP
 # 				hidden_effect = { add_ideas = { Oceania_vietnam_isolationist_diplomacy_advisor } }
-# 				custom_effect_tooltip = available_court_advisor
+# 				custom_effect_tooltip = available_political_advisor
 # 				custom_effect_tooltip = Oceania_vietnam_isolationist_diplomacy_advisor
 # 			}
 # 			if = {
@@ -3951,7 +3951,7 @@
 # 				set_country_flag = Oceania_generic_isolationist_promote_our_national_agenda
 # 				custom_effect_tooltip = AFR_GENERIC_COLONIAL_ENTER_TOOLTIP
 # 				hidden_effect = { add_ideas = { Oceania_cambodia_isolationist_diplomacy_advisor } }
-# 				custom_effect_tooltip = available_court_advisor
+# 				custom_effect_tooltip = available_political_advisor
 # 				custom_effect_tooltip = Oceania_cambodia_isolationist_diplomacy_advisor
 # 			}
 # 			if = {
@@ -3961,7 +3961,7 @@
 # 				set_country_flag = Oceania_generic_isolationist_promote_our_national_agenda
 # 				custom_effect_tooltip = AFR_GENERIC_COLONIAL_ENTER_TOOLTIP
 # 				hidden_effect = { add_ideas = { Oceania_siam_isolationist_diplomacy_advisor } }
-# 				custom_effect_tooltip = available_court_advisor
+# 				custom_effect_tooltip = available_political_advisor
 # 				custom_effect_tooltip = Oceania_siam_isolationist_diplomacy_advisor
 # 			}
 # 			if = {
@@ -4095,7 +4095,7 @@
 # 				set_country_flag = Oceania_generic_isolationist_promote_our_national_agenda
 # 				custom_effect_tooltip = AFR_GENERIC_COLONIAL_ENTER_TOOLTIP
 # 				hidden_effect = { add_ideas = { Oceania_islamic_isolationist_industry_advisor } }
-# 				custom_effect_tooltip = available_court_advisor
+# 				custom_effect_tooltip = available_political_advisor
 # 				custom_effect_tooltip = Oceania_islamic_isolationist_industry_advisor
 # 			}
 # 			if = {
@@ -4105,7 +4105,7 @@
 # 				set_country_flag = Oceania_generic_isolationist_promote_our_national_agenda
 # 				custom_effect_tooltip = AFR_GENERIC_COLONIAL_ENTER_TOOLTIP
 # 				hidden_effect = { add_ideas = { Oceania_vietnam_isolationist_industry_advisor } }
-# 				custom_effect_tooltip = available_court_advisor
+# 				custom_effect_tooltip = available_political_advisor
 # 				custom_effect_tooltip = Oceania_vietnam_isolationist_industry_advisor
 # 			}
 # 			if = {
@@ -4115,7 +4115,7 @@
 # 				set_country_flag = Oceania_generic_isolationist_promote_our_national_agenda
 # 				custom_effect_tooltip = AFR_GENERIC_COLONIAL_ENTER_TOOLTIP
 # 				hidden_effect = { add_ideas = { Oceania_cambodia_isolationist_industry_advisor } }
-# 				custom_effect_tooltip = available_court_advisor
+# 				custom_effect_tooltip = available_political_advisor
 # 				custom_effect_tooltip = Oceania_cambodia_isolationist_industry_advisor
 # 			}
 # 			if = {
@@ -4125,7 +4125,7 @@
 # 				set_country_flag = Oceania_generic_isolationist_promote_our_national_agenda
 # 				custom_effect_tooltip = AFR_GENERIC_COLONIAL_ENTER_TOOLTIP
 # 				hidden_effect = { add_ideas = { Oceania_siam_isolationist_industry_advisor } }
-# 				custom_effect_tooltip = available_court_advisor
+# 				custom_effect_tooltip = available_political_advisor
 # 				custom_effect_tooltip = Oceania_siam_isolationist_industry_advisor
 # 			}
 # 		}
@@ -5929,7 +5929,7 @@
 # 		cost = 75
 # 		available = {
 # 			has_idea = victorian_era
-# 			has_idea = law_victorian_army
+# 			has_idea = law_country_military_line
 # 			has_idea = Oceania_large_kingdom
 # 			custom_trigger_tooltip = {
 # 				tooltip = Oceania_innovation_progress_greater_than_75
@@ -5958,7 +5958,7 @@
 # 		cost = 75
 # 		available = {
 # 			has_idea = victorian_era
-# 			has_idea = law_victorian_army
+# 			has_idea = law_country_military_line
 # 			has_idea = Oceania_large_kingdom
 # 			custom_trigger_tooltip = {
 # 				tooltip = Oceania_innovation_progress_greater_than_75
@@ -6355,10 +6355,10 @@
 # 		}
 # 		completion_reward = {
 # 			if = {
-# 				limit = { NOT = { has_idea = law_victorian_army } }
+# 				limit = { NOT = { has_idea = law_country_military_line } }
 # 				swap_ideas = {
-# 					remove_idea = law_pre_industrial_army
-# 					add_idea = law_victorian_army
+# 					remove_idea = law_army_tribal_improved
+# 					add_idea = law_country_military_line
 # 				}
 # 			}
 # 			if = {

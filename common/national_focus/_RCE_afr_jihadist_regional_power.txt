@@ -949,7 +949,6 @@ focus = {
 				limit = { has_idea = afr_imperial_decline }
 				remove_ideas = afr_imperial_decline
 			}
-			hidden_effect = { add_ideas = limited_elections }
 			custom_effect_tooltip = afr_jihadist_regional_power_limited_regional_representation_tooltip
 			# hidden_effect = {
 			# 	add_popularity = {

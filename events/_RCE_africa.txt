@@ -310,7 +310,7 @@ country_event = {
 		add_political_power = 50
 		custom_effect_tooltip = eoanb_tt_event_africa_2_b
 		hidden_effect = {
-			swap_ideas = { remove_idea = law_country_religion_animist add_idea = country_law_religion_coptic }
+			swap_ideas = { remove_idea = law_country_religion_animist add_idea = law_country_religion_coptic }
 		}
 	}
 
@@ -542,7 +542,7 @@ country_event = {
 				}
 			}
 		}
-		add_ideas = country_law_religion_protestant
+		add_ideas = law_country_religion_protestant
 		hidden_effect = { add_to_array = { national_religion_array = global.protestant } }
 	}
 

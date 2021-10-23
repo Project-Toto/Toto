@@ -1616,8 +1616,8 @@ focus_tree = {
 		}
 		completion_reward = {
 			swap_ideas = {
-				add_idea = law_victorian_army
-				remove_idea = law_pre_industrial_army
+				add_idea = law_country_military_line
+				remove_idea = law_army_tribal_improved
 			}
 		}
 		available_if_capitulated = no

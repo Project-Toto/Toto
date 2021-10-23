@@ -39,7 +39,7 @@
 
 
 		limited_exports
-		two_percent
+
 		high_taxes
 	#
 	lp_land_estates

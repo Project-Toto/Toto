@@ -195,8 +195,8 @@
 			localization_key = law_country_religion_druze_desc
 		}
 		text = {
-			trigger = { has_idea = law_country_religion_waaqeffanna }
-			localization_key = law_country_religion_waaqeffanna_desc
+			trigger = { has_idea = law_country_religion_waaqeffannaa }
+			localization_key = law_country_religion_waaqeffannaa_desc
 		}
 		text = {
 			trigger = { has_idea = law_country_religion_catholic }
@@ -459,8 +459,12 @@
 		text = {
 			trigger = {
 				OR = {
-					has_idea = law_country_society_nomadic
-					has_idea = law_country_society_tribal
+					has_idea = AF_T_nomadic_tribal_nation
+					has_idea = AF_T_unorganized_tribal_nation
+					has_idea = AF_T_unorganized_tribal_nation_2
+					has_idea = AF_T_unorganized_tribal_nation_3
+					has_idea = AF_T_unorganized_tribal_nation_4
+					has_idea = AF_T_unorganized_tribal_nation_5
 				}
 			}
 			localization_key = no_borders_non_existant

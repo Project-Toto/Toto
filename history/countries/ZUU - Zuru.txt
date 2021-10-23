@@ -24,7 +24,7 @@
 		#Economic
 
 			closed_economy
-			
+
 			very_low_taxes
 			#
 			lp_tribal_communalism
@@ -37,7 +37,7 @@
 			absolutism
 
 		#Governmental Policies
-			no_federalism
+
 			sharia_constitution
 
 

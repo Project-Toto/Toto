@@ -70,10 +70,7 @@ defined_text = {
 	text = {
 		trigger = { 
 			OR = {
-				#has_idea = Oceania_small_kingdom
-				#has_idea = Oceania_large_kingdom
 				has_idea = AF_T_small_kingdom
-				#has_idea = FN_T_nomadic_tribal_nation
 			}
 		}
 		localization_key = afr_peacetime_economy_base_prosperity_small_kingdom_upgrade_tooltip

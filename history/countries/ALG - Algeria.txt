@@ -14,7 +14,7 @@ add_ideas = {
 	law_army_tribal_advanced
 
 		limited_exports
-		two_percent
+
 		normal_taxes
 	lp_land_estates
 

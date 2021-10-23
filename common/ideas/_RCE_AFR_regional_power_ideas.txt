@@ -426,7 +426,7 @@ ideas = {
 
 	}
 
-	court_advisor = {
+	political_advisor = {
 
 ################
 #########Priest#

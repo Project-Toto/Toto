@@ -175,7 +175,7 @@ country_event = {
 				}
 				set_country_flag = LIB_liberian_secessionists
 				add_war_support = 50
-				add_ideas = law_victorian_army
+				add_ideas = law_country_military_line
 				add_ideas = border_control
 				add_ideas = encouraged_growth
 				add_ideas = property_owners_suffrage
@@ -185,9 +185,9 @@ country_event = {
 				add_ideas = constitution_adopted
 				add_ideas = law_country_government_democratic_republic
 				add_ideas = secular_state
-				add_ideas = country_law_religion_protestant
+				add_ideas = law_country_religion_protestant
 				add_ideas = slavery
-				add_ideas = extensive_conscription
+				add_ideas = manpower_industrial
 				add_ideas = closed_economy
 				add_ideas = state_controlled_press
 				add_ai_strategy = {
@@ -1379,11 +1379,11 @@ country_event = {
 				}
 				swap_ideas = {
 					remove_idea = law_country_religion_animist
-					add_idea = country_law_religion_protestant
+					add_idea = law_country_religion_protestant
 				}
 				swap_ideas = {
-					remove_idea = law_pre_industrial_army
-					add_idea = law_victorian_army
+					remove_idea = law_army_tribal_improved
+					add_idea = law_country_military_line
 				}
 				if = {
 					limit = {

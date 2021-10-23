@@ -84,11 +84,11 @@ focus_tree = {
 			army_experience = 10
 			if={
 				limit = {
-					has_idea = law_pre_industrial_army
+					has_idea = law_army_tribal_improved
 				}
 				swap_ideas = {
-					add_idea = law_victorian_army
-					remove_idea = law_pre_industrial_army
+					add_idea = law_country_military_line
+					remove_idea = law_army_tribal_improved
 				}
 			}
 		}
@@ -1002,17 +1002,17 @@ focus_tree = {
 			focus = afr_vic_govern_like_the_east
 		}
 		available = {
-			ENG = {
-				exists = yes
-				has_idea = parliamentary_monarchy
-			}
+			# ENG = {
+			# 	exists = yes
+			# 	has_idea = parliamentary_monarchy
+			# }
 		}
 		x = 22
 		y = 3
 		completion_reward = {
-			add_ideas = {
-				parliamentary_monarchy
-			}
+			# add_ideas = {
+			# 	parliamentary_monarchy
+			# }
 		}
 
 	}
@@ -1302,7 +1302,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			swap_ideas = {
-				add_idea = semi_law_country_government_democratic_republic
+				add_idea = law_country_government_democratic_republic
 				remove_idea = law_country_government_kingdom
 			}
 			swap_ideas = {

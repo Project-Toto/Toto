@@ -40,28 +40,27 @@ set_technology = {
 add_ideas = {
 		#POLITICS
 
-		law_victorian_army
+		law_country_military_line
 		agrarian
 		no_heir
 		constitutional_monarchy
 
 		limited_exports
-		two_percent
+
 		normal_taxes
 		lp_land_estates
 
 		stagnation_growth
 		border_control
-		limited_conscription
+
 		limited_equality
 		parliamentary_suffrage
 
 		limited_constitution
-		limited_elections
 
 		privileged_education
-		
-		religion_orthodox
+
+		law_country_religion_orthodox
 
 		law_country_power_minor
 		law_country_religion_orthodox
@@ -73,9 +72,9 @@ add_ideas = {
 		GRE_idea_uncertain_succession
 		GRE_Otto_I
 		GRE_Queen_Amalia
-	
+
 	}
-	
+
 	set_country_flag = GRE_Queen_Amalia_Non_Regent
 	set_country_flag = no_possible_heir
 

@@ -43,7 +43,7 @@
 	law_country_religion_sunni
 
 	 #
-		law_mercenary_groups
+
 		#
 		#
 		#

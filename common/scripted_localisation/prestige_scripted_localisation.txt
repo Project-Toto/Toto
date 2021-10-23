@@ -294,13 +294,13 @@ defined_text = {
 	name = GetNationalPrestigeTotalDisplayMilitaryEra
 	text = {
 		trigger = {
-			has_idea = law_country_military_nomadic_warrors
+			has_idea = law_army_tribal_basic
 		}
 		localization_key = prestige_country_total_display_military_era_nomadic
 	}
 	text = {
 		trigger = {
-			has_idea = law_country_military_agrarian_levies
+			has_idea = law_army_tribal_improved
 		}
 		localization_key = prestige_country_total_display_military_era_levies
 	}

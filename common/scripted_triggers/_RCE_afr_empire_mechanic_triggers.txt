@@ -8,8 +8,6 @@ afr_empire_politics_subject_overlord_information = {
 afr_state_owner_nomadic_tribal_nation_trigger = {
 	OWNER = {
 		has_idea = AF_T_nomadic_tribal_nation
-		has_idea = FN_T_nomadic_tribal_nation
-		has_idea = FN_T_nomadic_regional_power
 	}
 }
 afr_state_owner_unorganized_tribal_nation_trigger = {

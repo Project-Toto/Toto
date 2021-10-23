@@ -9,11 +9,7 @@ afr_regional_power_empire_politics_advisor_court_category = {
 			hidden_trigger = { always = yes }
 		}
 		allowed = {
-			OR = {
-				afr_is_tribal_allowed = yes
-				oceania_is_tribal_allowed = yes
-				is_first_nations_tribe_allowed = yes
-			}
+			afr_is_tribal_allowed = yes
 		}
 		cost = 0
 		fire_only_once = no
@@ -35,11 +31,7 @@ afr_regional_power_empire_politics_advisor_court_category = {
 			hidden_trigger = { always = yes }
 		}
 		allowed = {
-			OR = {
-				afr_is_tribal_allowed = yes
-				oceania_is_tribal_allowed = yes
-				is_first_nations_tribe_allowed = yes
-			}
+			afr_is_tribal_allowed = yes
 		}
 		cost = 0
 		fire_only_once = no
@@ -59,11 +51,7 @@ afr_regional_power_empire_politics_advisor_court_category = {
 			hidden_trigger = { always = yes }
 		}
 		allowed = {
-			OR = {
-				afr_is_tribal_allowed = yes
-				oceania_is_tribal_allowed = yes
-				is_first_nations_tribe_allowed = yes
-			}
+			afr_is_tribal_allowed = yes
 		}
 		custom_cost_trigger = { always = yes }
 		custom_cost_text = afr_empire_politics_resign_theorist_warlord_cost
@@ -100,11 +88,7 @@ afr_regional_power_empire_politics_advisor_court_category = {
 			hidden_trigger = { always = yes }
 		}
 		allowed = {
-			OR = {
-				afr_is_tribal_allowed = yes
-				oceania_is_tribal_allowed = yes
-				is_first_nations_tribe_allowed = yes
-			}
+			afr_is_tribal_allowed = yes
 		}
 		custom_cost_trigger = { always = yes }
 		custom_cost_text = afr_empire_politics_resign_theorist_industrialist_cost
@@ -141,11 +125,7 @@ afr_regional_power_empire_politics_advisor_court_category = {
 			hidden_trigger = { always = yes }
 		}
 		allowed = {
-			OR = {
-				afr_is_tribal_allowed = yes
-				oceania_is_tribal_allowed = yes
-				is_first_nations_tribe_allowed = yes
-			}
+			afr_is_tribal_allowed = yes
 		}
 		custom_cost_trigger = { always = yes }
 		custom_cost_text = afr_empire_politics_resign_theorist_elder_cost
@@ -181,11 +161,7 @@ afr_regional_power_empire_politics_advisor_court_category = {
 			hidden_trigger = { always = yes }
 		}
 		allowed = {
-			OR = {
-				afr_is_tribal_allowed = yes
-				oceania_is_tribal_allowed = yes
-				is_first_nations_tribe_allowed = yes
-			}
+			afr_is_tribal_allowed = yes
 		}
 		custom_cost_trigger = { always = yes }
 		custom_cost_text = afr_empire_politics_resign_advisor_priest_cost
@@ -220,11 +196,7 @@ afr_regional_power_empire_politics_advisor_court_category = {
 			hidden_trigger = { always = yes }
 		}
 		allowed = {
-			OR = {
-				afr_is_tribal_allowed = yes
-				oceania_is_tribal_allowed = yes
-				is_first_nations_tribe_allowed = yes
-			}
+			afr_is_tribal_allowed = yes
 		}
 		custom_cost_trigger = { always = yes }
 		custom_cost_text = afr_empire_politics_resign_advisor_shaman_cost
@@ -260,11 +232,7 @@ afr_regional_power_empire_politics_advisor_court_category = {
 			hidden_trigger = { always = yes }
 		}
 		allowed = {
-			OR = {
-				afr_is_tribal_allowed = yes
-				oceania_is_tribal_allowed = yes
-				is_first_nations_tribe_allowed = yes
-			}
+			afr_is_tribal_allowed = yes
 		}
 		custom_cost_trigger = { always = yes }
 		custom_cost_text = afr_empire_politics_resign_advisor_shaman_cost
@@ -300,11 +268,7 @@ afr_regional_power_empire_politics_advisor_court_category = {
 			hidden_trigger = { always = yes }
 		}
 		allowed = {
-			OR = {
-				afr_is_tribal_allowed = yes
-				oceania_is_tribal_allowed = yes
-				is_first_nations_tribe_allowed = yes
-			}
+			afr_is_tribal_allowed = yes
 		}
 		custom_cost_trigger = { always = yes }
 		custom_cost_text = afr_empire_politics_resign_advisor_noble_cost
@@ -340,11 +304,7 @@ afr_regional_power_empire_politics_advisor_court_category = {
 			hidden_trigger = { always = yes }
 		}
 		allowed = {
-			OR = {
-				afr_is_tribal_allowed = yes
-				oceania_is_tribal_allowed = yes
-				is_first_nations_tribe_allowed = yes
-			}
+			afr_is_tribal_allowed = yes
 		}
 		custom_cost_trigger = { always = yes }
 		custom_cost_text = afr_empire_politics_resign_advisor_merchant_cost
@@ -380,11 +340,7 @@ afr_regional_power_empire_politics_advisor_court_category = {
 			hidden_trigger = { always = yes }
 		}
 		allowed = {
-			OR = {
-				afr_is_tribal_allowed = yes
-				oceania_is_tribal_allowed = yes
-				is_first_nations_tribe_allowed = yes
-			}
+			afr_is_tribal_allowed = yes
 		}
 		custom_cost_trigger = { always = yes }
 		custom_cost_text = afr_empire_politics_resign_advisor_jihadist_cost
@@ -420,11 +376,7 @@ afr_regional_power_empire_politics_advisor_court_category = {
 			hidden_trigger = { always = yes }
 		}
 		allowed = {
-			OR = {
-				afr_is_tribal_allowed = yes
-				oceania_is_tribal_allowed = yes
-				is_first_nations_tribe_allowed = yes
-			}
+			afr_is_tribal_allowed = yes
 		}
 		custom_cost_trigger = { always = yes }
 		custom_cost_text = afr_empire_politics_resign_advisor_dawah_cost
@@ -462,11 +414,7 @@ afr_regional_power_empire_politics_category = {
 	afr_regional_power_empire_politics_wiki = {
 		icon = generic_decision
 		allowed = {
-			OR = {
-				afr_is_tribal_allowed = yes
-				oceania_is_tribal_allowed = yes
-				is_first_nations_tribe_allowed = yes
-			}
+			afr_is_tribal_allowed = yes
 		}
 		fire_only_once = no
 		complete_effect = {
@@ -484,11 +432,7 @@ afr_regional_power_empire_politics_category = {
 			hidden_trigger = { always = no }
 		}
 		allowed = {
-			OR = {
-				afr_is_tribal_allowed = yes
-				oceania_is_tribal_allowed = yes
-				is_first_nations_tribe_allowed = yes
-			}
+			afr_is_tribal_allowed = yes
 		}
 		visible = {
 			hidden_trigger = { always = no }
@@ -575,11 +519,7 @@ afr_regional_power_empire_politics_category = {
 			STATE = var:afr_capital_scope_var@ROOT
 		}
 		allowed = {
-			OR = {
-				afr_is_tribal_allowed = yes
-				oceania_is_tribal_allowed = yes
-				is_first_nations_tribe_allowed = yes
-			}
+			afr_is_tribal_allowed = yes
 		}
 		visible = {
 			OR = {
@@ -698,11 +638,7 @@ afr_regional_power_empire_politics_category = {
 			hidden_trigger = { always = no }
 		}
 		allowed = {
-			OR = {
-				afr_is_tribal_allowed = yes
-				oceania_is_tribal_allowed = yes
-				is_first_nations_tribe_allowed = yes
-			}
+			afr_is_tribal_allowed = yes
 		}
 		visible = {
 			has_country_flag = afr_fractured_kingdom_opposition_crushed_flag
@@ -738,11 +674,7 @@ afr_regional_power_empire_politics_category = {
 			}
 		}
 		allowed = {
-			OR = {
-				afr_is_tribal_allowed = yes
-				oceania_is_tribal_allowed = yes
-				is_first_nations_tribe_allowed = yes
-			}
+			afr_is_tribal_allowed = yes
 		}
 		visible = {
 			OR = {
@@ -783,11 +715,7 @@ afr_regional_power_empire_politics_category = {
 			hidden_trigger = { always = yes }
 		}
 		allowed = {
-			OR = {
-				afr_is_tribal_allowed = yes
-				oceania_is_tribal_allowed = yes
-				is_first_nations_tribe_allowed = yes
-			}
+			afr_is_tribal_allowed = yes
 		}
 		cost = 0
 		fire_only_once = no
@@ -809,11 +737,7 @@ afr_regional_power_empire_politics_category = {
 			hidden_trigger = { always = yes }
 		}
 		allowed = {
-			OR = {
-				afr_is_tribal_allowed = yes
-				oceania_is_tribal_allowed = yes
-				is_first_nations_tribe_allowed = yes
-			}
+			afr_is_tribal_allowed = yes
 		}
 		cost = 0
 		fire_only_once = no
@@ -849,17 +773,9 @@ afr_regional_power_empire_politics_category = {
 					always = no
 				}
 			}
-			else_if = {
-				limit = { is_first_nations_tribe = yes }
-				has_completed_focus = NA_N_statehood_of_our_own
-			}
 		}
 		allowed = {
-			OR = {
-				afr_is_tribal_allowed = yes
-				oceania_is_tribal_allowed = yes
-				is_first_nations_tribe_allowed = yes
-			}
+			afr_is_tribal_allowed = yes
 		}
 		fire_only_once = no
 		days_re_enable = 365
@@ -877,11 +793,7 @@ afr_regional_power_empire_politics_category = {
 			hidden_trigger = { NOT = { has_country_flag = afr_empire_politics_state_management_in_event_flag } }
 		}
 		allowed = {
-			OR = {
-				afr_is_tribal_allowed = yes
-				oceania_is_tribal_allowed = yes
-				is_first_nations_tribe_allowed = yes
-			}
+			afr_is_tribal_allowed = yes
 		}
 		cost = 0
 		fire_only_once = no
@@ -918,11 +830,7 @@ afr_regional_power_empire_politics_category = {
 			hidden_trigger = { NOT = { has_country_flag = afr_empire_politics_state_management_in_event_flag } }
 		}
 		allowed = {
-			OR = {
-				afr_is_tribal_allowed = yes
-				oceania_is_tribal_allowed = yes
-				is_first_nations_tribe_allowed = yes
-			}
+			afr_is_tribal_allowed = yes
 		}
 		#cost = 10
 		custom_cost_trigger = {
@@ -1058,11 +966,7 @@ afr_regional_power_empire_politics_category = {
 	afr_empire_politics_state_autonomy_decision = {
 		state_target = yes
 		allowed = {
-			OR = {
-				afr_is_tribal_allowed = yes
-				oceania_is_tribal_allowed = yes
-				is_first_nations_tribe_allowed = yes
-			}
+			afr_is_tribal_allowed = yes
 		}
 		visible = {
 			has_country_flag = afr_empire_politics_state_autonomy_menu_on_flag
@@ -1167,11 +1071,7 @@ afr_regional_power_empire_politics_category = {
 			}
 		}
 		allowed = {
-			OR = {
-				afr_is_tribal_allowed = yes
-				oceania_is_tribal_allowed = yes
-				is_first_nations_tribe_allowed = yes
-			}
+			afr_is_tribal_allowed = yes
 		}
 		visible = {
 			has_variable = has_afr_empire_mechanic_system
@@ -2085,11 +1985,7 @@ afr_regional_power_empire_politics_category = {
 			afr_empire_politics_subject_overlord_information = yes
 		}
 		allowed = {
-			OR = {
-				afr_is_tribal_allowed = yes
-				oceania_is_tribal_allowed = yes
-				is_first_nations_tribe_allowed = yes
-			}
+			afr_is_tribal_allowed = yes
 		}
 		visible = {
 			FROM = {

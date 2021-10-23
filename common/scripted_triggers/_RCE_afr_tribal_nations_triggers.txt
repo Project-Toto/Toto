@@ -1,113 +1,3 @@
-is_nomadic_nation_state = {
-	custom_trigger_tooltip = {
-		tooltip = EDC_is_first_nations_tribe
-		OR = {
-			has_idea = FN_T_nomadic_tribal_nation
-			has_idea = FN_T_nomadic_regional_power
-			has_idea = AF_T_nomadic_tribal_nation
-		}
-	}
-}
-
-is_first_nations_tribe_allowed = {
-	# OR = {
-	# 	TAG = SHO
-	# 	TAG = NEZ
-	# 	TAG = BFT
-	# 	TAG = CRW
-	# 	TAG = SIX
-	# 	TAG = CHY
-	# 	TAG = COM
-	# 	TAG = APA
-	# 	TAG = NAV
-	# 	TAG = SEM
-	# 	TAG = OKL
-	# 	TAG = YAQ
-	# 	TAG = MAY
-	# }
-	always = no
-}
-
-is_first_nations_tribe = {
-	custom_trigger_tooltip = {
-		tooltip = EDC_is_first_nations_tribe
-		OR = {
-			has_idea = FN_T_nomadic_tribal_nation
-			has_idea = FN_T_nomadic_regional_power
-			has_idea = FN_T_settled_tribal_nation
-			has_idea = FN_T_settled_regional_power
-		}
-	}
-}
-
-is_south_american_tribe_allowed = {
-	# OR = {
-	# 	TAG = NOM
-	# 	TAG = WLL
-	# }
-	always = no
-}
-
-is_south_american_tribe = {
-	# custom_trigger_tooltip = {
-	# 	tooltip = EDC_is_south_american_tribe
-	# 	OR = {
-	# 		TAG = NOM
-	# 		TAG = WLL
-	# 	}
-	# }
-	always = no
-}
-
-oceania_is_tribal_allowed = {
-	# OR = {
-	# 	TAG = BRM
-	# 	TAG = VIN
-	# 	TAG = LUA
-	# 	TAG = SIA
-	# 	TAG = CSK
-	# 	TAG = SVN
-	# 	TAG = CAM
-	# 	TAG = JAI
-	# 	TAG = VNM
-	# 	TAG = BRM
-	# 	TAG = SHN
-	# 	TAG = LAO
-	# 	TAG = SAM
-	# 	TAG = BUN
-	# 	TAG = MDN
-	# 	TAG = SUW
-	# 	TAG = SUN
-	# 	TAG = PNG
-	# 	TAG = BRU
-	# 	TAG = JOH
-	# 	TAG = ACE
-	# 	TAG = KDH
-	# 	TAG = PRK
-	# 	TAG = KTN
-	# 	TAG = TGG
-	# 	TAG = PHG
-	# 	TAG = SLG
-	# }
-	always = no
-}
-
-oceania_is_tribal = {
-	# OR = {
-	# 	#has_idea = Oceania_unorganized_tribal_nation
-	# 	#has_idea = Oceania_organized_tribal_nation
-	# 	has_idea = Oceania_small_kingdom
-	# 	has_idea = Oceania_large_kingdom
-	# 	has_idea = Oceania_eastern_oriented_regional_power
-	# 	has_idea = Oceania_western_oriented_regional_power
-	# }
-	# NOT = {
-	# 	TAG = LAN
-	# 	TAG = TAH
-	# 	TAG = HAW
-	# }
-	always = no
-}
 
 afr_is_tribal_allowed = {
 	OR = {
@@ -126,7 +16,7 @@ afr_is_tribal_allowed = {
 		TAG = KRI
 		TAG = MGH
 		TAG = MYO
-	#End of a New Beginning	
+	#End of a New Beginning
 		TAG = KAD
 		TAG = IGA
 		TAG = IJW
@@ -1070,63 +960,63 @@ skt_has_revolt_in_state_trigger = {
 			is_core_of = KAA
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = SAL
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = MNH
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = MDR
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = YEK
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = BKW
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = LUB
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = BKM
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = BUG
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = SAA
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = TRZ
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = KAG
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = TUG
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = SNS
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = KBO
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = RDL
 			has_state_flag = skt_has_revolt_in_state
 		}
@@ -1134,335 +1024,335 @@ skt_has_revolt_in_state_trigger = {
 			is_core_of = OGD
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = BOR
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = BAO
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = SIN
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = KAB
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = FTJ
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = FTT
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = TOU
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = BAM
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = KOY
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = MND
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = KOG
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = AKA
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = MSN
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = MOS
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = DDI
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = DAH
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = ASH
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = BRG
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = SKT
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = OYO
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = GBG
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = WDD
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = TKN
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = KKY
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = MMA
 			has_state_flag = skt_has_revolt_in_state
 		}
-		# AND = { 
+		# AND = {
 		# 	is_core_of = MER
 		# 	has_state_flag = skt_has_revolt_in_state
 		# }
-		AND = { 
+		AND = {
 			is_core_of = IJB
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = ARO
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = BMM
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = BET
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = KTK
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = BAG
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = BDA
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = GBY
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = LNG
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = NYG
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = TOR
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = BNY
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = MAA
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = LUO
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = NKO
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = KRG
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = SUK
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = NYW
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = LGR
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = UJJ
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = BUR
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = RWD
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = TIP
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = TTL
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = TEK
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = BLU
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = KTA
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = FNG
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = PUN
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = MSG
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = LOA
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = NGY
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = TYO
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = HLO
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = LUN
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = KUB
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = CKW
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = LOZ
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = WYO
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = KND
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = MRN
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = KBD
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = OVD
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = AHR
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = GGL
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = KVG
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = BAT
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = OVB
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = HMB
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = BTS
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = NDE
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = BST
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = HER
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = OOR
 			has_state_flag = skt_has_revolt_in_state
                 }
-		AND = { 
+		AND = {
 			is_core_of = ARR
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = BRN
 			has_state_flag = skt_has_revolt_in_state
 		}
-		AND = { 
+		AND = {
 			is_core_of = TGN
 			has_state_flag = skt_has_revolt_in_state
 		}

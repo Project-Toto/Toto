@@ -198,14 +198,14 @@ prestige_country_army_update = {
 		value = prestige_army_air
 	}
 	if = {
-		limit = { has_idea = law_country_military_nomadic_warrors }
+		limit = { has_idea = law_army_tribal_basic }
 		multiply_variable = {
 			var = prestige_army
 			value = 0.65
 		}
 	}
 	else_if = {
-		limit = { has_idea = law_country_military_agrarian_levies }
+		limit = { has_idea = law_army_tribal_improved }
 		multiply_variable = {
 			var = prestige_army
 			value = 0.80

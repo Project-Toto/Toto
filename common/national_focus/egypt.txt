@@ -119,15 +119,15 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			if = {
-				limit = {
-					has_idea = two_percent
-				}
-				swap_ideas={
-					remove_idea = two_percent
-					add_idea = three_percent
-				}
-			}
+			# if = {
+			# 	limit = {
+			# 		has_idea = two_percent
+			# 	}
+			# 	swap_ideas={
+			# 		remove_idea = two_percent
+			# 		add_idea = three_percent
+			# 	}
+			# }
 		}
 	}
 	focus = {
@@ -199,8 +199,8 @@ focus_tree = {
 		}
 		completion_reward = {
 			swap_ideas = {
-				add_idea = law_victorian_army
-				remove_idea = law_pre_industrial_army
+				add_idea = law_country_military_line
+				remove_idea = law_army_tribal_improved
 			}
 		}
 	}
@@ -892,10 +892,6 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			swap_ideas={
-				add_idea=fourteen_hour_work_day
-				remove_idea=unlimited_work_day
-			}
 		}
 	}
 	focus = {

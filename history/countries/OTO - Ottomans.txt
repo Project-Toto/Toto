@@ -60,18 +60,18 @@ set_variable = { debt_level = 5 } #The Ottoman Empire's National Debt amounts to
 	add_ideas = {
 		#POLITICS
 
-	law_victorian_army
+	law_country_military_line
 		industrializing
 		no_heir
 		law_country_government_kingdom
 
 		limited_exports
-		two_percent
+
 		normal_taxes
 
 		stagnation_growth
 		border_control
-	limited_conscription
+
 		limited_equality
 		absolutism
 
@@ -83,7 +83,7 @@ set_variable = { debt_level = 5 } #The Ottoman Empire's National Debt amounts to
 
 	# State Attributes
 		law_country_power_great
-		law_country_law_country_religion_sunni
+		law_country_religion_sunni
 		law_country_culture_turkish
 		law_country_government_caliphate
 		law_country_military_traditional

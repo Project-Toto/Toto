@@ -1168,7 +1168,7 @@ afr_islamic_renaissance = {
 		available = {
 			custom_trigger_tooltip = {
 				tooltip = Oceania_prosperity_mechanic_not_settled_trigger
-				is_nomadic_nation_state = yes
+				has_idea = AF_T_nomadic_tribal_nation
 			}
 			custom_trigger_tooltip = {
 				tooltip = afr_prosperity_mechanic_greater_than_15
@@ -1181,20 +1181,11 @@ afr_islamic_renaissance = {
 
 		visible = {
 			NOT = { has_country_flag = afr_prosperity_mechanic_nomadic_animal_husbandry_building_flag }
-			OR = {
-				has_variable = has_afr_empire_mechanic_system
-				is_first_nations_tribe = yes
-				is_south_american_tribe = yes
-			}
-			is_nomadic_nation_state = yes
+			has_variable = has_afr_empire_mechanic_system
+			has_idea = AF_T_nomadic_tribal_nation
 		}
 		allowed = {
-			OR = {
-				afr_is_tribal_allowed = yes
-				oceania_is_tribal_allowed = yes
-				is_first_nations_tribe = yes
-				is_south_american_tribe = yes
-			}
+			afr_is_tribal_allowed = yes
 		}
 
 		cost = 50
@@ -1272,7 +1263,7 @@ afr_islamic_renaissance = {
 		available = {
 			custom_trigger_tooltip = {
 				tooltip = Oceania_prosperity_mechanic_not_settled_trigger
-				is_nomadic_nation_state = yes
+				has_idea = AF_T_nomadic_tribal_nation
 			}
 			custom_trigger_tooltip = {
 				tooltip = afr_prosperity_mechanic_greater_than_15
@@ -1285,20 +1276,11 @@ afr_islamic_renaissance = {
 
 		visible = {
 			NOT = { has_country_flag = afr_prosperity_mechanic_nomadic_blacksmith_building_flag }
-			OR = {
-				has_variable = has_afr_empire_mechanic_system
-				is_first_nations_tribe = yes
-				is_south_american_tribe = yes
-			}
-			is_nomadic_nation_state = yes
+			has_variable = has_afr_empire_mechanic_system
+			has_idea = AF_T_nomadic_tribal_nation
 		}
 		allowed = {
-			OR = {
-				afr_is_tribal_allowed = yes
-				oceania_is_tribal_allowed = yes
-				is_first_nations_tribe = yes
-				is_south_american_tribe = yes
-			}
+			afr_is_tribal_allowed = yes
 		}
 		cost = 50
 		custom_cost_trigger = {
@@ -1375,10 +1357,10 @@ afr_islamic_renaissance = {
 
 		available = {
 			if = {
-				limit = { is_nomadic_nation_state = yes }
+				limit = { has_idea = AF_T_nomadic_tribal_nation }
 				custom_trigger_tooltip = {
 					tooltip = Oceania_prosperity_mechanic_is_nomadic_trigger
-					NOT = { is_nomadic_nation_state = yes }
+					NOT = { has_idea = AF_T_nomadic_tribal_nation }
 				}
 			}
 			else = {
@@ -1686,20 +1668,11 @@ afr_islamic_renaissance = {
 		}
 
 		visible = {
-			OR = {
-				has_variable = has_afr_empire_mechanic_system
-				is_first_nations_tribe = yes
-				is_south_american_tribe = yes
-			}
+			has_variable = has_afr_empire_mechanic_system
 
 		}
 		allowed = {
-			OR = {
-				afr_is_tribal_allowed = yes
-				oceania_is_tribal_allowed = yes
-				is_first_nations_tribe = yes
-				is_south_american_tribe = yes
-			}
+			afr_is_tribal_allowed = yes
 		}
 		cost = 30
 		custom_cost_trigger = {
@@ -1969,10 +1942,10 @@ afr_islamic_renaissance = {
 
 		available = {
 			if = {
-				limit = { is_nomadic_nation_state = yes }
+				limit = { has_idea = AF_T_nomadic_tribal_nation }
 				custom_trigger_tooltip = {
 					tooltip = Oceania_prosperity_mechanic_is_nomadic_trigger
-					NOT = { is_nomadic_nation_state = yes }
+					NOT = { has_idea = AF_T_nomadic_tribal_nation }
 				}
 			}
 			else = {
@@ -2287,19 +2260,10 @@ afr_islamic_renaissance = {
 		}
 
 		visible = {
-			OR = {
-				has_variable = has_afr_empire_mechanic_system
-				is_first_nations_tribe = yes
-				is_south_american_tribe = yes
-			}
+			has_variable = has_afr_empire_mechanic_system
 		}
 		allowed = {
-			OR = {
-				afr_is_tribal_allowed = yes
-				oceania_is_tribal_allowed = yes
-				is_first_nations_tribe = yes
-				is_south_american_tribe = yes
-			}
+			afr_is_tribal_allowed = yes
 		}
 		cost = 40
 		custom_cost_trigger = {
@@ -2584,10 +2548,10 @@ afr_islamic_renaissance = {
 
 		available = {
 			if = {
-				limit = { is_nomadic_nation_state = yes }
+				limit = { has_idea = AF_T_nomadic_tribal_nation }
 				custom_trigger_tooltip = {
 					tooltip = Oceania_prosperity_mechanic_is_nomadic_trigger
-					NOT = { is_nomadic_nation_state = yes }
+					NOT = { has_idea = AF_T_nomadic_tribal_nation }
 				}
 			}
 			else = {
@@ -2688,20 +2652,10 @@ afr_islamic_renaissance = {
 		}
 
 		visible = {
-			OR = {
-				has_variable = has_afr_empire_mechanic_system
-				is_first_nations_tribe = yes
-				is_south_american_tribe = yes
-			}
+			has_variable = has_afr_empire_mechanic_system
 		}
 		allowed = {
-			OR = {
-				afr_is_tribal_allowed = yes
-				oceania_is_tribal_allowed = yes
-				is_first_nations_tribe = yes
-				is_south_american_tribe = yes
-
-			}
+			afr_is_tribal_allowed = yes
 		}
 		cost = 40
 		custom_cost_trigger = {
@@ -2978,10 +2932,10 @@ afr_islamic_renaissance = {
 
 		available = {
 			if = {
-				limit = { is_nomadic_nation_state = yes }
+				limit = { has_idea = AF_T_nomadic_tribal_nation }
 				custom_trigger_tooltip = {
 					tooltip = Oceania_prosperity_mechanic_is_nomadic_trigger
-					NOT = { is_nomadic_nation_state = yes }
+					NOT = { has_idea = AF_T_nomadic_tribal_nation }
 				}
 			}
 			else = {
@@ -3101,19 +3055,10 @@ afr_islamic_renaissance = {
 		}
 
 		visible = {
-			OR = {
-				has_variable = has_afr_empire_mechanic_system
-				is_first_nations_tribe = yes
-				is_south_american_tribe = yes
-			}
+			has_variable = has_afr_empire_mechanic_system
 		}
 		allowed = {
-			OR = {
-				afr_is_tribal_allowed = yes
-				oceania_is_tribal_allowed = yes
-				is_first_nations_tribe = yes
-				is_south_american_tribe = yes
-			}
+			afr_is_tribal_allowed = yes
 		}
 		cost = 40
 		custom_cost_trigger = {
@@ -3429,11 +3374,7 @@ afr_islamic_renaissance = {
 		}
 
 		visible = {
-			OR = {
-				has_variable = has_afr_empire_mechanic_system
-				is_first_nations_tribe = yes
-				is_south_american_tribe = yes
-			}
+			has_variable = has_afr_empire_mechanic_system
 			all_owned_state = {
 				if = {
 					limit = {
@@ -3445,12 +3386,7 @@ afr_islamic_renaissance = {
 			}
 		}
 		allowed = {
-			OR = {
-				afr_is_tribal_allowed = yes
-				oceania_is_tribal_allowed = yes
-				is_first_nations_tribe = yes
-				is_south_american_tribe = yes
-			}
+			afr_is_tribal_allowed = yes
 		}
 		cost = 10
 		custom_cost_trigger = {
@@ -3725,11 +3661,7 @@ afr_islamic_renaissance = {
 		}
 
 		visible = {
-			#OR = {
 				has_variable = has_afr_empire_mechanic_system
-				#is_first_nations_tribe = yes
-				#is_south_american_tribe = yes
-			#}
 			if = {
 				limit = {
 					any_owned_state = {
@@ -3772,12 +3704,7 @@ afr_islamic_renaissance = {
 			}
 		}
 		allowed = {
-			OR = {
-				afr_is_tribal_allowed = yes
-				oceania_is_tribal_allowed = yes
-				is_first_nations_tribe = yes
-				is_south_american_tribe = yes
-			}
+			afr_is_tribal_allowed = yes
 		}
 		cost = 15
 		custom_cost_trigger = {
@@ -4034,12 +3961,7 @@ afr_islamic_renaissance = {
 			check_variable = { afr_war_exhaustion_value > 5 }
 		}
 		allowed = {
-			OR = {
-				afr_is_tribal_allowed = yes
-				oceania_is_tribal_allowed = yes
-				is_first_nations_tribe = yes
-				is_south_american_tribe = yes
-			}
+			afr_is_tribal_allowed = yes
 		}
 
 		fire_only_once = no
@@ -4140,11 +4062,7 @@ afr_islamic_renaissance = {
 				else = {
 					has_border_war = no
 				}
-				OR = {
-					has_variable = has_afr_empire_mechanic_system
-					is_first_nations_tribe = yes
-					is_south_american_tribe = yes
-				}
+				has_variable = has_afr_empire_mechanic_system
 			}
 		}
 		available = {
@@ -4169,12 +4087,7 @@ afr_islamic_renaissance = {
 			always = no
 		}
 		allowed = {
-			OR = {
-				afr_is_tribal_allowed = yes
-				oceania_is_tribal_allowed = yes
-				is_first_nations_tribe = yes
-				is_south_american_tribe = yes
-			}
+			afr_is_tribal_allowed = yes
 		}
 
 		fire_only_once = no
@@ -4196,7 +4109,7 @@ afr_islamic_renaissance = {
 				#Nomadic Economy Production Here
 				if = {
 					limit = {
-						NOT = { is_nomadic_nation_state = yes }
+						NOT = { has_idea = AF_T_nomadic_tribal_nation }
 					}
 					custom_effect_tooltip = afr_peacetime_economy_tribal_weapon_income
 					if = {
@@ -4527,7 +4440,7 @@ afr_islamic_renaissance = {
 				}
 				if = {
 					limit = {
-						is_nomadic_nation_state = yes
+						has_idea = AF_T_nomadic_tribal_nation
 						has_country_flag = afr_nomadic_animal_husbandry_focus_horse
 					}
 					custom_effect_tooltip = afr_peacetime_economy_nomadic_animal_husbandry_income
@@ -4538,7 +4451,7 @@ afr_islamic_renaissance = {
 				}
 				if = {
 					limit = {
-						is_nomadic_nation_state = yes
+						has_idea = AF_T_nomadic_tribal_nation
 						has_country_flag = afr_nomadic_blacksmith_focus_tribal_weapons
 					}
 					custom_effect_tooltip = afr_peacetime_economy_nomadic_blacksmith_income
@@ -4549,7 +4462,7 @@ afr_islamic_renaissance = {
 				}
 				if = {
 					limit = {
-						is_nomadic_nation_state = yes
+						has_idea = AF_T_nomadic_tribal_nation
 						has_country_flag = afr_nomadic_blacksmith_focus_manufacture_weapons
 						has_country_flag = NA_N_manufacture_weapons_flag
 					}
@@ -4811,11 +4724,7 @@ afr_islamic_renaissance = {
 						NOT = { check_variable = { var = afr_border_war_defender_flag value = 1 compare = greater_than_or_equals } }
 					}
 				}
-				OR = {
-					has_variable = has_afr_empire_mechanic_system
-					is_first_nations_tribe = yes
-					is_south_american_tribe = yes
-				}
+				has_variable = has_afr_empire_mechanic_system
 			}
 		}
 		available = {
@@ -4835,12 +4744,7 @@ afr_islamic_renaissance = {
 			always = no
 		}
 		allowed = {
-			OR = {
-				afr_is_tribal_allowed = yes
-				oceania_is_tribal_allowed = yes
-				is_first_nations_tribe = yes
-				is_south_american_tribe = yes
-			}
+			afr_is_tribal_allowed = yes
 		}
 
 		fire_only_once = no
@@ -4957,11 +4861,7 @@ afr_islamic_renaissance = {
 						NOT = { check_variable = { var = afr_border_war_defender_flag value = 1 compare = greater_than_or_equals } }
 					}
 				}
-				OR = {
-					has_variable = has_afr_empire_mechanic_system
-					is_first_nations_tribe = yes
-					is_south_american_tribe = yes
-				}
+				has_variable = has_afr_empire_mechanic_system
 				#check_variable = {
 				#	afr_war_exhaustion_value > 20
 				#}
@@ -4984,12 +4884,7 @@ afr_islamic_renaissance = {
 			always = no
 		}
 		allowed = {
-			OR = {
-				afr_is_tribal_allowed = yes
-				oceania_is_tribal_allowed = yes
-				is_first_nations_tribe = yes
-				is_south_american_tribe = yes
-			}
+			afr_is_tribal_allowed = yes
 		}
 
 		fire_only_once = no
