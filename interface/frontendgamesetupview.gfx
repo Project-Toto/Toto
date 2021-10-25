@@ -252,6 +252,14 @@ spriteTypes = {
 		name = "GFX_select_date_1857_soudan"
 		texturefile = "gfx/interface/startdate/select_date_1857_soudan.dds"
 	}
+	spriteType = {
+		name = "GFX_select_date_1857_caliphate"
+		texturefile = "gfx/interface/startdate/select_date_1857_caliphate.dds"
+	}
+	spriteType = {
+		name = "GFX_select_date_1857_cape"
+		texturefile = "gfx/interface/startdate/select_date_1857_cape.dds"
+	}
 	
 	spriteType = {
 		name = "GFX_disconnected_button"

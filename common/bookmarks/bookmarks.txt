@@ -138,7 +138,7 @@ bookmarks = {
 		name = "CALIPHATE_1857"
 		desc = "CALIPHATE_1857_DESC"
 		date = 1857.07.18
-		picture = "GFX_select_date_1936"
+		picture = "GFX_select_date_1857_caliphate"
 		default_country = "OTO"
 		default = no
 		
@@ -258,6 +258,141 @@ bookmarks = {
 		}
 		"---"={
 			history = "OTHER_CALIPHATE_1857_DESC"
+		}
+		
+		# minors from DLC ####
+
+		
+
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+	bookmark = {
+		name = "SOUTH_1857"
+		desc = "SOUTH_1857_DESC"
+		date = 1857.07.18
+		picture = "GFX_select_date_1857_cape"
+		default_country = "SAF"
+		default = no
+		
+		"SAF"={
+			history = "SAF_SOUTH_1857_DESC"
+			ideology = imperialism
+			ideas = {
+				
+				
+			}
+			focuses = {
+			
+			}
+		}
+		"KON"={
+			history = "KON_SOUTH_1857_DESC"
+			ideology = traditionalism
+			ideas = {
+
+
+			}
+			focuses = {
+
+			}
+		}
+		"TRV"={
+			history = "TRV_SOUTH_1857_DESC"
+			ideology = imperialism
+			ideas = {
+
+
+			}
+			focuses = {
+
+			}
+		}
+		"POR"={
+			history = "POR_SOUTH_1857_DESC"
+			ideology = imperialism
+			ideas = {
+
+
+			}
+			focuses = {
+
+			}
+		}
+		"OMA"={
+			history = "JSH_SOUTH_1857_DESC"
+			ideology = traditionalism
+			ideas = {
+
+
+			}
+			focuses = {
+
+			}
+		}
+		"MOM"={
+			history = "LIB_SOUTH_1857_DESC"
+			ideology = fundamentalism
+			ideas = {
+
+
+			}
+			focuses = {
+
+			}
+		}
+		"MOM"={
+			history = "ASH_SOUTH_1857_DESC"
+			ideology = traditionalism
+			ideas = {
+
+
+			}
+			focuses = {
+
+			}
+		}
+
+		"GRE"={
+			history = "GRE_SOUTH_1857_DESC"
+			ideology = traditionalism
+			minor=yes
+			ideas = {
+
+
+			}
+			focuses = {
+
+			}
+		}
+		"ABN"={
+			history = "ABN_SOUTH_1857_DESC"
+			ideology = traditionalism
+			minor=yes
+			ideas = {
+
+
+			}
+			focuses = {
+
+			}
+		}
+		"ZID"={
+			history = "ZID_SOUTH_1857_DESC"
+			ideology = fundamentalism
+			minor=yes
+			ideas = {
+
+
+			}
+			focuses = {
+
+			}
+		}
+		"---"={
+			history = "OTHER_SOUTH_1857_DESC"
 		}
 		
 		# minors from DLC ####
