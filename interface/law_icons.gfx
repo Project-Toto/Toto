@@ -122,7 +122,64 @@ spriteTypes = {
 }
 
 # Culture
+spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_culture_uncategorized"
+		texturefile = "gfx/interface/ideas/laws/country_culture/culture_uncategorized.dds"
+	}
+}
 
+# Government
+spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_government_caliphate"
+		texturefile = "gfx/interface/ideas/laws/country_government/government_caliphate.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_government_sultanate"
+		texturefile = "gfx/interface/ideas/laws/country_government/government_sultanate.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_government_democratic_republic"
+		texturefile = "gfx/interface/ideas/laws/country_government/government_democratic_republic.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_government_landed_republic"
+		texturefile = "gfx/interface/ideas/laws/country_government/government_landed_republic.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_government_religious_order"
+		texturefile = "gfx/interface/ideas/laws/country_government/government_religious_order.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_government_merchantile_oligarchy"
+		texturefile = "gfx/interface/ideas/laws/country_government/government_merchantile_oligarchy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_government_kingdom"
+		texturefile = "gfx/interface/ideas/laws/country_government/government_kingdom.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_government_tribal_confederacy"
+		texturefile = "gfx/interface/ideas/laws/country_government/government_tribal_confederacy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_government_pirate"
+		texturefile = "gfx/interface/ideas/laws/country_government/government_pirate.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_government_chiefdom"
+		texturefile = "gfx/interface/ideas/laws/country_government/government_chiefdom.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_government_tribe"
+		texturefile = "gfx/interface/ideas/laws/country_government/government_tribe.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_government_nomadic"
+		texturefile = "gfx/interface/ideas/laws/country_government/government_nomadic.dds"
+	}
+}
 # Society
 spriteTypes = {
 	spriteType = {

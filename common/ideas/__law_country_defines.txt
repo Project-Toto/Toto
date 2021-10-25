@@ -486,7 +486,7 @@ ideas = {
 			allowed = { always = yes }
 			default = yes
 
-			picture = lawicon_brown
+			picture = culture_uncategorized
 		}
 		law_country_culture_arabic = {
 			allowed = { always = yes }
@@ -530,7 +530,7 @@ ideas = {
 			allowed = { always = yes }
 			level = 5
 
-			picture = lawicon_purple
+			picture = government_caliphate
 
 			available = {
 				NOT = {
@@ -592,7 +592,7 @@ ideas = {
 			allowed = { always = yes }
 			level = 4
 
-			picture = lawicon_purple
+			picture = government_sultanate
 
 			available = {
 				has_idea = law_country_power_great
@@ -639,7 +639,7 @@ ideas = {
 			allowed = { always = yes }
 			level = 3
 
-			picture = lawicon_purple
+			picture = government_merchantile_oligarchy
 
 			on_add = {
 				add_ideas = {
@@ -651,7 +651,7 @@ ideas = {
 			allowed = { always = yes }
 			level = 3
 
-			picture = lawicon_purple
+			picture = government_kingdom
 
 			on_add = {
 				if = {
@@ -679,7 +679,7 @@ ideas = {
 			allowed = { always = yes }
 			level = 2
 
-			picture = lawicon_purple
+			picture = government_pirate
 
 			available = {
 				NOT = {
@@ -709,7 +709,7 @@ ideas = {
 			allowed = { always = yes }
 			level = 2
 
-			picture = lawicon_purple
+			picture = government_chiefdom
 
 			on_add = {
 				if = {
