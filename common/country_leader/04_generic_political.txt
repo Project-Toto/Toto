@@ -1,0 +1,101 @@
+leader_traits = {
+	# Ideology
+		# Advocate
+			trait_advocate_fundamentalism = {
+				random = no
+
+				fundamentalism_drift = 0.05
+			}
+			trait_advocate_traditionalism = {
+				random = no
+
+				traditionalism_drift = 0.05
+			}
+			trait_advocate_imperialism = {
+				random = no
+
+				imperialism_drift = 0.05
+			}
+			trait_advocate_reformism = {
+				random = no
+
+				reformism_drift = 0.05
+			}
+		# Demagogue
+			trait_demagogue_fundamentalism = {
+				random = no
+
+				fundamentalism_drift = 0.125
+				custom_modfier_tooltip = trait_demagogue_fundamentalism_conversion_tt
+			}
+			trait_demagogue_traditionalism = {
+				random  = no
+
+				traditionalism_drift = 0.125
+				traditionalism_acceptance = 0.15
+			}
+			trait_demagogue_imperialism = {
+				random = no
+
+				imperialism_drift = 0.125
+				custom_modifier_tooltip = trait_demagogue_imperialism_centralization_tt
+			}
+			trait_demagogue_reformism = {
+				random = no
+
+				reformism_drift = 0.125
+				reformism_acceptance = 0.15
+			}
+		# Caviler
+			trait_caviler_fundamentalism = {
+				random = no
+
+				fundamentalism_acceptance = -0.20
+				war_support = 0.075
+			}
+			trait_caviler_traditionalism = {
+				random = no
+
+				traditionalism_acceptance =-0.20
+				political_power_gain = 0.05
+			}
+			trait_caviler_imperialism = {
+				random = no
+
+				imperialism_acceptance = -0.20
+				army_core_defence_factor = 0.075
+			}
+			trait_caviler_reformism = {
+				random = no
+
+				reformism_acceptance = -0.20
+				stability_factor = 0.075
+			}
+	# Conquest & Colonization
+		# Conquest
+			trait_conquest_warlord = {
+				random = no
+			}
+			trait_conquest_pillager = {
+				random = no
+			}
+			trait_conquest_defender = {
+				random = no
+			}
+		# Colonization
+			trait_coloniation_ambitious = {
+				random = no
+			}
+			trait_colonization_expansionist = {
+				random = no
+			}
+			trait_colonization_trader = {
+				random = no
+			}
+			trait_colonization_slaver = {
+				random = no
+
+				local_resources_resource_cotton_factor = 0.15
+			}
+
+}

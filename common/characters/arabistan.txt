@@ -1,0 +1,44 @@
+characters = {
+	ABN_jabir_ibn_merdaw = {
+		portraits = {
+			army = {
+				small = ""
+				large = "gfx/leaders/Africa/African_Generic_18.dds"
+			}
+		}
+
+		country_leader = {
+			ideology = traditionalism
+			expire = "1881.11.30"
+		}
+	}
+	ABN_mizal_ibn_jabir = {
+		portraits = {
+			army = {
+				small = ""
+				large = "gfx/leaders/Africa/African_Generic_18.dds"
+			}
+		}
+
+		country_leader = {
+			ideology = traditionalism
+			expire = "1897.6.30"
+			traits = { trait_personality_cautious }
+		}
+	}
+	ABN_khazall_ibn_jabir = {
+		portraits = {
+			army = {
+				small = ""
+				large = "gfx/leaders/Africa/African_Generic_18.dds"
+			}
+		}
+
+		country_leader = {
+			ideology = traditionalism
+			expire = "1936.5.30"
+
+			traits = { trait_caviler_fundamentalism }
+		}
+	}
+}

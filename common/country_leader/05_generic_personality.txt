@@ -1,0 +1,83 @@
+leader_traits = {
+	trait_personality_cautious = {
+		random = yes
+	}
+	trait_personality_bold = {
+		random = yes
+	}
+	trait_personality_ambitious = {
+		random = yes
+	}
+	trait_personality_unambitious = {
+		random = yes
+	}
+	trait_personality_slothful = {
+		random = yes
+	}
+	trait_personality_firebrand = {
+		random = yes
+	}
+	trait_personality_calculating = {
+		random = yes
+	}
+	trait_personality_builder = {
+		random = yes
+	}
+	trait_personality_greedy = {
+		random = yes
+	}
+	trait_personality_administrator = {
+		random = yes
+	}
+	trait_personality_uniter = {
+		random = yes
+	}
+	trait_personality_divisive = {
+		random = yes
+	}
+	trait_personality_militarist = {
+		random = yes
+	}
+	trait_personality_diplomat = {
+		random = yes
+	}
+	trait_personality_scholar = {
+		random = yes
+	}
+	trait_personality_just = {
+		random = yes
+	}
+	trait_personality_corrupt = {
+		random = yes
+	}
+	trait_personality_incorruptable = {
+		random = yes
+	}
+	trait_personality_tolerant = {
+		random = yes
+	}
+	trait_personality_innovator = {
+		random = yes
+	}
+	trait_personality_backstabbing = {
+		random = yes
+	}
+	trait_personality_well_connected = {
+		random = yes
+	}
+	trait_personality_careful = {
+		random = yes
+	}
+	trait_personality_secretive = {
+		random = yes
+	}
+	trait_personality_infertile = {
+		random = yes
+	}
+	trait_personality_benevolent = {
+		random = yes
+	}
+	trait_personality_zealot = {
+		random = yes
+	}
+}

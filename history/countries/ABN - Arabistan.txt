@@ -52,7 +52,7 @@
 # Politics
 	set_politics = {
 		ruling_party = traditionalism
-		last_election = "1856.1.1"
+		last_election = "1857.2.19"
 		elections_allowed = no
 	}
 	set_popularities = {
@@ -67,7 +67,7 @@
 
 # Characters
 	create_country_leader = {
-		name = "Muhammadu Lawal bi Adama"
+		name = "Jabir Bin Merdaw Al-Kaabi"
 		desc = "POLITICS_GEORGE_V_DESC"
 		picture = "gfx/leaders/Africa/African_Generic_18.dds"
 		expire = "1900.1.1"

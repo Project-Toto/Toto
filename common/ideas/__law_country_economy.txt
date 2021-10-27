@@ -715,14 +715,17 @@ ideas = {
 		}
 	}
 	law_country_foreign_partnership = {
+		cost = 450
 		law_country_foreign_partnership_british = {
 			allowed = { always = yes }
 			available = {
 				OR = {
 					is_subject_of = ENG
-					has_opinion = {
-						target = ROOT
-						value > 50
+					ENG = {
+						has_opinion = {
+							target = ROOT
+							value > 50
+						}
 					}
 				}
 			}
@@ -742,9 +745,83 @@ ideas = {
 			available = {
 				OR = {
 					is_subject_of = FRA
-					has_opinion = {
-						target = ROOT
-						value > 50
+					FRA = {
+						has_opinion = {
+							target = ROOT
+							value > 50
+						}
+					}
+				}
+			}
+			visible = {
+				NOT = {
+					OR = {
+						has_idea = law_country_society_victorian
+						has_idea = law_country_society_modern
+					}
+				}
+			}
+
+			picture = lawicon_blue
+		}
+		law_country_foreign_partnership_dutch = {
+			allowed = { always = yes }
+			available = {
+				OR = {
+					is_subject_of = HOL
+					HOL = {
+						has_opinion = {
+							target = ROOT
+							value > 50
+						}
+					}
+				}
+			}
+			visible = {
+				NOT = {
+					OR = {
+						has_idea = law_country_society_victorian
+						has_idea = law_country_society_modern
+					}
+				}
+			}
+
+			picture = lawicon_blue
+		}
+		law_country_foreign_partnership_belgian= {
+			allowed = { always = yes }
+			available = {
+				OR = {
+					is_subject_of = BEL
+					BEL = {
+						has_opinion = {
+							target = ROOT
+							value > 50
+						}
+					}
+				}
+			}
+			visible = {
+				NOT = {
+					OR = {
+						has_idea = law_country_society_victorian
+						has_idea = law_country_society_modern
+					}
+				}
+			}
+
+			picture = lawicon_blue
+		}
+		law_country_foreign_partnership_spanish = {
+			allowed = { always = yes }
+			available = {
+				OR = {
+					is_subject_of = SPR
+					SPR = {
+						has_opinion = {
+							target = ROOT
+							value > 50
+						}
 					}
 				}
 			}
@@ -764,9 +841,251 @@ ideas = {
 			available = {
 				OR = {
 					is_subject_of = POR
-					has_opinion = {
-						target = ROOT
-						value > 50
+					POR = {
+						has_opinion = {
+							target = ROOT
+							value > 50
+						}
+					}
+				}
+			}
+			visible = {
+				NOT = {
+					OR = {
+						has_idea = law_country_society_victorian
+						has_idea = law_country_society_modern
+					}
+				}
+			}
+
+			picture = lawicon_blue
+		}
+		law_country_foreign_partnership_piedmontese = {
+			allowed = { always = yes }
+			available = {
+				OR = {
+					is_subject_of = ITA
+					ITA = {
+						has_opinion = {
+							target = ROOT
+							value > 50
+						}
+					}
+				}
+			}
+			visible = {
+				NOT = {
+					OR = {
+						has_idea = law_country_society_victorian
+						has_idea = law_country_society_modern
+					}
+				}
+			}
+
+			picture = lawicon_blue
+		}
+		law_country_foreign_partnership_austrian = {
+			allowed = { always = yes }
+			available = {
+				OR = {
+					is_subject_of = AUS
+					AUS = {
+						has_opinion = {
+							target = ROOT
+							value > 50
+						}
+					}
+				}
+			}
+			visible = {
+				NOT = {
+					OR = {
+						has_idea = law_country_society_victorian
+						has_idea = law_country_society_modern
+					}
+				}
+			}
+
+			picture = lawicon_blue
+		}
+		law_country_foreign_partnership_prussian = {
+			allowed = { always = yes }
+			available = {
+				OR = {
+					is_subject_of = GER
+					GER = {
+						has_opinion = {
+							target = ROOT
+							value > 50
+						}
+					}
+				}
+			}
+			visible = {
+				NOT = {
+					OR = {
+						has_idea = law_country_society_victorian
+						has_idea = law_country_society_modern
+					}
+				}
+			}
+
+			picture = lawicon_blue
+		}
+		law_country_foreign_partnership_danish = {
+			allowed = { always = yes }
+			available = {
+				OR = {
+					is_subject_of = DEN
+					DEN = {
+						has_opinion = {
+							target = ROOT
+							value > 50
+						}
+					}
+				}
+			}
+			visible = {
+				NOT = {
+					OR = {
+						has_idea = law_country_society_victorian
+						has_idea = law_country_society_modern
+					}
+				}
+			}
+
+			picture = lawicon_blue
+		}
+		law_country_foreign_partnership_swedish = {
+			allowed = { always = yes }
+			available = {
+				OR = {
+					is_subject_of = SWE
+					SWE = {
+						has_opinion = {
+							target = ROOT
+							value > 50
+						}
+					}
+				}
+			}
+			visible = {
+				NOT = {
+					OR = {
+						has_idea = law_country_society_victorian
+						has_idea = law_country_society_modern
+					}
+				}
+			}
+
+			picture = lawicon_blue
+		}
+		law_country_foreign_partnership_russian = {
+			allowed = { always = yes }
+			available = {
+				OR = {
+					is_subject_of = RUS
+					RUS = {
+						has_opinion = {
+							target = ROOT
+							value > 50
+						}
+					}
+				}
+			}
+			visible = {
+				NOT = {
+					OR = {
+						has_idea = law_country_society_victorian
+						has_idea = law_country_society_modern
+					}
+				}
+			}
+
+			picture = lawicon_blue
+		}
+		law_country_foreign_partnership_ottoman = {
+			allowed = { always = yes }
+			available = {
+				OR = {
+					is_subject_of = OTO
+					OTO = {
+						has_opinion = {
+							target = ROOT
+							value > 50
+						}
+					}
+				}
+			}
+			visible = {
+				NOT = {
+					OR = {
+						has_idea = law_country_society_victorian
+						has_idea = law_country_society_modern
+					}
+				}
+			}
+
+			picture = lawicon_blue
+		}
+		law_country_foreign_partnership_american = {
+			allowed = { always = yes }
+			available = {
+				OR = {
+					is_subject_of = USA
+					USA = {
+						has_opinion = {
+							target = ROOT
+							value > 50
+						}
+					}
+				}
+			}
+			visible = {
+				NOT = {
+					OR = {
+						has_idea = law_country_society_victorian
+						has_idea = law_country_society_modern
+					}
+				}
+			}
+
+			picture = lawicon_blue
+		}
+		law_country_foreign_partnership_dixie = {
+			allowed = { always = yes }
+			available = {
+				OR = {
+					is_subject_of = CSA
+					CSA = {
+						has_opinion = {
+							target = ROOT
+							value > 50
+						}
+					}
+				}
+			}
+			visible = {
+				NOT = {
+					OR = {
+						has_idea = law_country_society_victorian
+						has_idea = law_country_society_modern
+					}
+				}
+			}
+
+			picture = lawicon_blue
+		}
+		law_country_foreign_partnership_brazilian = {
+			allowed = { always = yes }
+			available = {
+				OR = {
+					is_subject_of = BRA
+					BRA = {
+						has_opinion = {
+							target = ROOT
+							value > 50
+						}
 					}
 				}
 			}
