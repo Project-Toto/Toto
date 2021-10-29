@@ -1,5 +1,5 @@
 leader_traits = {
 	trait_background_freed_slave = {
-
+		random = no
 	}
 }

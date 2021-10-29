@@ -72,9 +72,9 @@
 	}
 	set_popularities = {
 		fundamentalism = 35
-		imperialism = 0
+		imperialism = 1
 		traditionalism = 64
-		reformism = 1
+		reformism = 0
 	}
 
 # Variables

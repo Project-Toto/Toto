@@ -1,30 +1,91 @@
-capital = 38
+# Defines
+	capital = 28
 
-# Starting tech
-set_technology = {
-	traditional_mixed_arms = 1
-}
+	set_research_slots = 1
 
-set_politics = {
-	ruling_party = traditionalism
-	last_election = "1856.1.1"
-	election_frequency = 48
-	elections_allowed = no
-}
-set_popularities = {
-	traditionalism = 60
-	fundamentalism = 20
-	reformism = 15
-	imperialism = 5
-}
-
-create_country_leader = {
-	name = ""
-	desc = "POLITICS_TEMP_DESC"
-	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
-	expire = "1920.1.1"
-	ideology = traditionalism_absolutism
-	traits = {
-		#
+# Technology
+	set_technology = {
+		tribaltech = 1
+		start_build_tech = 1
 	}
-}
+
+# LAWS
+	add_ideas = {
+		# Attributes
+			# law_country_power_irrelevant #<rank>
+			law_country_religion_sunni #<religion>
+			law_country_culture_arabic #<culture>
+			law_country_government_chiefdom #<government>
+			# AF_T_unorganized_tribal_nation #<society>
+			# law_army_tribal_improved #<tactics>
+		# Status
+			# agrarian #<industrialization>
+			# law_country_centralization_stable #<centralization>
+			law_country_prosperity_devastated #<prosperity>
+			# stagnation_growth #<population>
+			# AF_T_Tribal_Army #<army>
+		# Politics
+			# no_constitution #<constitution>
+			has_heir #<heir>
+			# absolutism #<suffrage>
+			# no_borders #<borders>
+			# tribal_slavery #<discrimination>
+			traditional_uluma #<education>
+		# Economy
+			# export_focus #<economy>
+			# normal_taxes #<taxes>
+			# lp_african_communalism #<property>
+			# manpower_tribal_warriors #<manpower>
+			# none #<theorist>
+			law_country_foreign_partnership_british #<partnership>
+	}
+
+# National Spirits
+	add_ideas = {
+		ENG_idea_imperialism_perpetual_maritime_truce
+	}
+
+# Diplomacy
+	# set_variable = { var = rival_country value = KBO.id }
+	# set_variable = { var = most_favoured_country value = SKT.id }
+	if = {
+		limit = { toto_enable_autonomy = yes }
+		ENG = {
+			set_autonomy_state = {
+				target = AJM
+				autonomy = autonomy_afr_protectorate
+			}
+		}
+	}
+	if = {
+		limit = { toto_enable_autonomy = no }
+		ENG = {
+			puppet = AJM
+		}
+	}
+# Politics
+	set_politics = {
+		ruling_party = traditionalism
+		last_election = "1856.1.1"
+		elections_allowed = no
+	}
+	set_popularities = {
+		fundamentalism = 35
+		imperialism = 0
+		traditionalism = 64
+		reformism = 1
+	}
+
+# Variables
+	add_to_variable = { var = Tribal_army_num value = 0 }
+
+# Characters
+	# https://en.wikipedia.org/wiki/Al_Nuaimi
+	create_country_leader = {
+		name = "Humaid bin Rashid Al Nuaimi"
+		desc = "POLITICS_GEORGE_V_DESC"
+		picture = "gfx/leaders/Africa/African_Generic_18.dds"
+		expire = "1900.1.1"
+		ideology = traditionalism_absolutism
+		traits = { }
+	}

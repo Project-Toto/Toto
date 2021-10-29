@@ -9,6 +9,8 @@ ideologies = {
 
 			traditionalism_republic = { }
 
+			traditionalism_parlaimentary_monarchy
+
 			traditionalism_order = { }
 
 			traditionalism_tribal = { }
@@ -57,6 +59,8 @@ ideologies = {
 			reformism_federation = { }
 
 			reformism_republic = { }
+
+			reformism_parlaimentary_monarchy = { }
 
 			reformism_order = { }
 
@@ -108,6 +112,8 @@ ideologies = {
 
 			fundamentalism_republic = { }
 
+			fundamentalism_parlaimentary_monarchy = { }
+
 			fundamentalism_order = { }
 
 			fundamentalism_fundamentalism_absolutism = { }
@@ -157,6 +163,8 @@ ideologies = {
 			imperialism_federation = { }
 
 			imperialism_republic = { }
+
+			imperialism_parlaimentary_monarchy
 
 			imperialism_order = { }
 

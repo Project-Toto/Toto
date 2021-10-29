@@ -1,30 +1,93 @@
-capital = 1
+# Defines
+	capital = 307
 
-# Starting tech
-set_technology = {
-	traditional_mixed_arms = 1
-}
+	set_research_slots = 1
 
-set_politics = {
-	ruling_party = traditionalism
-	last_election = "1856.1.1"
-	election_frequency = 48
-	elections_allowed = no
-}
-set_popularities = {
-	traditionalism = 60
-	fundamentalism = 20
-	reformism = 15
-	imperialism = 5
-}
-
-create_country_leader = {
-	name = ""
-	desc = "POLITICS_TEMP_DESC"
-	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
-	expire = "1920.1.1"
-	ideology = traditionalism_absolutism
-	traits = {
-		#
+# Technology
+	set_technology = {
+		tribaltech = 1
+		start_build_tech = 1
 	}
-}
+
+# LAWS
+	add_ideas = {
+		# Attributes
+			law_country_power_secondary #<rank>
+			law_country_religion_catholic #<religion>
+			# law_country_culture_uncategorized #<culture>
+			law_country_government_kingdom #<government>
+			law_country_society_victorian #<society>
+			law_country_military_line #<tactics>
+		# Status
+			industrializing #<industrialization>
+			# law_country_centralization_stable #<centralization>
+			law_country_prosperity_very_prosperous #<prosperity>
+			# stagnation_growth #<population>
+			law_country_army_reserves #<army>
+		# Politics
+			limited_constitution #<constitution>
+			has_heir #<heir>
+			absolutism #<suffrage>
+			border_control #<borders>
+			limited_equality #<discrimination>
+			open_schools #<education>
+		# Economy
+			limited_exports #<economy>
+			high_taxes #<taxes>
+			lp_land_purchase #<property>
+			manpower_industrial #<manpower>
+			# none #<theorist>
+			# none #<partnership>
+	}
+
+# National Spirits
+	add_ideas = {
+		EUR_idea_imperialism_oversea_colonies
+	}
+
+# Diplomacy
+	set_variable = { var = rival_country value = ENG.id }
+	# set_variable = { var = most_favoured_country value = SKT.id }
+	# if = {
+	# 	limit = { toto_enable_autonomy = yes }
+	# 	ENG = {
+	# 		set_autonomy_state = {
+	# 			target = ADN
+	# 			autonomy = autonomy_afr_protectorate
+	# 		}
+	# 	}
+	# }
+	# if = {
+	# 	limit = { toto_enable_autonomy = no }
+	# 	ENG = {
+	# 		puppet = ADN
+	# 	}
+	# }
+	give_guarantee = GRE
+
+# Politics
+	set_politics = {
+		ruling_party = imperialism
+		last_election = "1852.12.2"
+		elections_allowed = no
+	}
+	set_popularities = {
+		fundamentalism = 0
+		imperialism = 34
+		traditionalism = 54
+		reformism = 12
+	}
+
+# Variables
+	add_to_variable = { var = Tribal_army_num value = 0 }
+
+# Characters
+	# https://en.wikipedia.org/wiki/List_of_prime_ministers_of_France
+	create_country_leader = {
+		name = "Napoleon III"
+		desc = "POLITICS_GEORGE_V_DESC"
+		picture = "gfx/leaders/Africa/African_Generic_18.dds"
+		expire = "1900.1.1"
+		ideology = imperialism_absolutism
+		traits = { }
+	}

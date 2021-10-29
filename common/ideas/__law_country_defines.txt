@@ -573,6 +573,26 @@ ideas = {
 				war_support_factor = -0.20
 			}
 		}
+		law_country_government_parliamentary_monarchy = {
+			allowed = { always = yes }
+			level = 4
+
+			picture = lawicon_purple
+
+			available = {
+				has_government = reformism
+			}
+			on_add = {
+				add_ideas = {
+					non_monarchical_system
+				}
+			}
+
+			modifier = {
+				political_power_gain = 0.25
+				war_support_factor = -0.20
+			}
+		}
 		law_country_government_landed_republic = {
 			allowed = { always = yes }
 			level = 3

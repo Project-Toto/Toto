@@ -1,0 +1,7 @@
+ideas = {
+	EUR_idea_imperialism_oversea_colonies = {
+
+	}
+	ENG_idea_imperialism_perpetual_maritime_truce = {
+	}
+}

@@ -1,30 +1,90 @@
-capital = 1
+# Defines
+	capital = 1
 
-# Starting tech
-set_technology = {
-	traditional_mixed_arms = 1
-}
+	set_research_slots = 1
 
-set_politics = {
-	ruling_party = traditionalism
-	last_election = "1856.1.1"
-	election_frequency = 48
-	elections_allowed = no
-}
-set_popularities = {
-	traditionalism = 60
-	fundamentalism = 20
-	reformism = 15
-	imperialism = 5
-}
-
-create_country_leader = {
-	name = ""
-	desc = "POLITICS_TEMP_DESC"
-	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
-	expire = "1920.1.1"
-	ideology = traditionalism_absolutism
-	traits = {
-		#
+# Technology
+	set_technology = {
+		tribaltech = 1
+		start_build_tech = 1
 	}
-}
+
+# LAWS
+	add_ideas = {
+		# Attributes
+			# law_country_power_irrelevant #<rank>
+			# law_country_religion_animist #<religion>
+			# law_country_culture_uncategorized #<culture>
+			# law_country_government_tribe #<government>
+			# AF_T_unorganized_tribal_nation #<society>
+			# law_army_tribal_improved #<tactics>
+		# Status
+			# agrarian #<industrialization>
+			# law_country_centralization_stable #<centralization>
+			# law_country_prosperity_stable #<prosperity>
+			# stagnation_growth #<population>
+			# AF_T_Tribal_Army #<army>
+		# Politics
+			# no_constitution #<constitution>
+			# no_heir #<heir>
+			# absolutism #<suffrage>
+			# no_borders #<borders>
+			# tribal_slavery #<discrimination>
+			# oral_tradition #<education>
+		# Economy
+			# export_focus #<economy>
+			# normal_taxes #<taxes>
+			# lp_african_communalism #<property>
+			# manpower_tribal_warriors #<manpower>
+			# none #<theorist>
+			# none #<partnership>
+	}
+
+# National Spirits
+	add_ideas = {
+
+	}
+
+# Diplomacy
+	# set_variable = { var = rival_country value = KBO.id }
+	# set_variable = { var = most_favoured_country value = SKT.id }
+	# if = {
+	# 	limit = { toto_enable_autonomy = yes }
+	# 	ENG = {
+	# 		set_autonomy_state = {
+	# 			target = ADN
+	# 			autonomy = autonomy_afr_protectorate
+	# 		}
+	# 	}
+	# }
+	# if = {
+	# 	limit = { toto_enable_autonomy = no }
+	# 	ENG = {
+	# 		puppet = ADN
+	# 	}
+	# }
+# Politics
+	set_politics = {
+		ruling_party = traditionalism
+		last_election = "1856.1.1"
+		elections_allowed = no
+	}
+	set_popularities = {
+		fundamentalism = 35
+		imperialism = 0
+		traditionalism = 64
+		reformism = 1
+	}
+
+# Variables
+	add_to_variable = { var = Tribal_army_num value = 0 }
+
+# Characters
+	create_country_leader = {
+		name = "Muhammadu Lawal bi Adama"
+		desc = "POLITICS_GEORGE_V_DESC"
+		picture = "gfx/leaders/Africa/African_Generic_18.dds"
+		expire = "1900.1.1"
+		ideology = traditionalism_absolutism
+		traits = { }
+	}
