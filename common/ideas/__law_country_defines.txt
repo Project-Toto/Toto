@@ -579,12 +579,13 @@ ideas = {
 
 			picture = lawicon_purple
 
-			available = {
-				has_government = reformism
-			}
 			on_add = {
-				add_ideas = {
-					non_monarchical_system
+				if = {
+					limit = { has_idea = non_monarchical_system }
+					swap_ideas = {
+						remove_idea = non_monarchical_system
+						add_idea = no_heir
+					}
 				}
 			}
 
