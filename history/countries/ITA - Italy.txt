@@ -65,6 +65,7 @@
 	# }
 
 # Politics
+	set_cosmetic_tag = ITA_sardinia_piedmont_cosmetic
 	set_politics = {
 		ruling_party = traditionalism
 		last_election = "1855.5.4"
