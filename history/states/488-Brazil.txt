@@ -1,0 +1,14 @@
+state={
+	id=488
+	name="STATE_488"
+	provinces={
+		12747
+	}
+	history={
+		owner=BRA
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	impassable = yes
+}

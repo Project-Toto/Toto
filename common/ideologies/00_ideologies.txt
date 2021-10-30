@@ -9,7 +9,7 @@ ideologies = {
 
 			traditionalism_republic = { }
 
-			traditionalism_parlaimentary_monarchy
+			traditionalism_parliamentary_monarchy = {}
 
 			traditionalism_order = { }
 
@@ -164,7 +164,7 @@ ideologies = {
 
 			imperialism_republic = { }
 
-			imperialism_parlaimentary_monarchy
+			imperialism_parlaimentary_monarchy = { }
 
 			imperialism_order = { }
 

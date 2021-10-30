@@ -1,0 +1,14 @@
+state={
+	id=536
+	name="STATE_536"
+	provinces={
+		12793
+	}
+	history={
+		owner=HOL
+	}
+	manpower=0
+	state_category=town
+	buildings_max_level_factor=1.000
+	impassable = yes
+}

@@ -1,0 +1,14 @@
+state={
+	id=501
+	name="STATE_501"
+	provinces={
+		12786
+	}
+	history={
+		owner=FRA
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	impassable = yes
+}

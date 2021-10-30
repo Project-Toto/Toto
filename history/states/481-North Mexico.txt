@@ -1,0 +1,14 @@
+state={
+	id=481
+	name="STATE_481"
+	provinces={
+		12758
+	}
+	history={
+		owner=TES
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	impassable = yes
+}

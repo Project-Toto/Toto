@@ -1,0 +1,14 @@
+state={
+	id=542
+	name="STATE_542"
+	provinces={
+		12797
+	}
+	history={
+		owner=DEN
+	}
+	manpower=0
+	state_category=town
+	buildings_max_level_factor=1.000
+	impassable = yes
+}

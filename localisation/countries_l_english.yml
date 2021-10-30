@@ -9,9 +9,9 @@
  TAG_autonomy_ottoman_khedive_DEF:0 "the Khedive of NAME"
  TAG_autonomy_ottoman_khedive_ADJ:0 "NAMEADJ"
 # Non-Player Tags
- TES:0 "Africa"
- TES_DEF:0 "Africa"
- TES_ADJ:0 "African"
+ TES:0 ""
+ TES_DEF:0 ""
+ TES_ADJ:0 ""
 
  EUR:0 "Europe"
  EUR_DEF:0 "Europe"

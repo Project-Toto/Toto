@@ -1,0 +1,14 @@
+state={
+	id=528
+	name="STATE_528"
+	provinces={
+		12816
+	}
+	history={
+		owner=RUS
+	}
+	manpower=0
+	state_category=town
+	buildings_max_level_factor=1.000
+	impassable = yes
+}

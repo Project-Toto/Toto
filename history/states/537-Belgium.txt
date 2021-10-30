@@ -1,0 +1,14 @@
+state={
+	id=537
+	name="STATE_537"
+	provinces={
+		12794
+	}
+	history={
+		owner=BEL
+	}
+	manpower=0
+	state_category=town
+	buildings_max_level_factor=1.000
+	impassable = yes
+}

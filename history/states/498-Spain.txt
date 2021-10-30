@@ -1,0 +1,14 @@
+state={
+	id=498
+	name="STATE_498"
+	provinces={
+		12771
+	}
+	history={
+		owner=SPR
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	impassable = yes
+}

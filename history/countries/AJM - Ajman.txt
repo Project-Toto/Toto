@@ -49,7 +49,7 @@
 	# set_variable = { var = rival_country value = KBO.id }
 	# set_variable = { var = most_favoured_country value = SKT.id }
 	if = {
-		limit = { toto_enable_autonomy = yes }
+		limit = { toto_enabled_autonomy = yes }
 		ENG = {
 			set_autonomy_state = {
 				target = AJM
@@ -58,7 +58,7 @@
 		}
 	}
 	if = {
-		limit = { toto_enable_autonomy = no }
+		limit = { toto_enabled_autonomy = no }
 		ENG = {
 			puppet = AJM
 		}

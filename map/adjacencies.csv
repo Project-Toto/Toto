@@ -147,4 +147,10 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 10763;4460;land;;-1;-1;-1;-1;;Tunis
 12702;12704;land;;-1;-1;-1;-1;;Sahara
 12703;3659;land;;-1;-1;-1;-1;;Sahara
+12760;12762;sea;;-1;-1;-1;-1;;minimap
+12768;12769;sea;;-1;-1;-1;-1;;minimap
+12786;12769;sea;;-1;-1;-1;-1;;minimap
+12820;12822;sea;;-1;-1;-1;-1;;minimap
+12777;12781;sea;;-1;-1;-1;-1;;minimap
+12777;12778;sea;;-1;-1;-1;-1;;minimap
 -1;-1;;-1;-1;-1;-1;-1;-1--

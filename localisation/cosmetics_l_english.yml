@@ -1,4 +1,13 @@
 ﻿l_english:
  NJD_nejd_cosmetic:0 "Nejd"
  NJD_nejd_cosmetic_DEF:0 "Nejd"
- NJD_nejd_cosmetic_ADJ:0 "Nejd"
+ NJD_nejd_cosmetic_ADJ:0 "Nejdi"
+
+ GER_prussia_cosmetic:0 "Prussia"
+ GER_prussia_cosmetic_DEF:0 "the Kingdom of Prussia"
+ GER_prussia_cosmetic_reformism_DEF:0 "the Republic of Prussia"
+ GER_prussia_cosmetic_ADJ:0 "Prussian"
+
+ ITA_sardinia_piedmont:0 "Sardinia Piedmont"
+ ITA_sardinia_piedmont_DEF:0 "the Kingdom of Sardinia Piedmont"
+ ITA_sardinia_piedmont_ADJ:0 "Piedmontese"
