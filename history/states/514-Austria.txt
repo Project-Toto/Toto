@@ -6,8 +6,9 @@ state={
 	}
 	history={
 		owner=AUS
+		victory_points = { 12785 50 }
 	}
-	manpower=0
+	manpower=1
 	state_category=town
 	buildings_max_level_factor=1.000
 	impassable = yes

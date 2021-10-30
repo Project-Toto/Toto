@@ -15,7 +15,7 @@
 			# law_country_power_irrelevant #<rank>
 			law_country_religion_sunni #<religion>
 			# law_country_culture_uncategorized #<culture>
-			law_country_governmentkingdom #<government>
+			law_country_government_kingdom #<government>
 			# AF_T_unorganized_tribal_nation #<society>
 			law_army_tribal_improved #<tactics>
 		# Status

@@ -6,6 +6,7 @@ state={
 	}
 	history={
 		owner=BRA
+		victory_points = { 12747 50 }
 	}
 	manpower=1
 	state_category=town

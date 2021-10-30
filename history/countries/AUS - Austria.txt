@@ -1,5 +1,5 @@
 # Defines
-	capital = 12
+	capital = 514
 
 	set_research_slots = 1
 
@@ -20,12 +20,12 @@
 			law_country_military_traditional #<tactics>
 		# Status
 			agrarian #<industrialization>
-			law_country_centralization_centralization #<centralization>
+			law_country_centralization_decentralization #<centralization>
 			# law_country_prosperity_prosperous #<prosperity>
 			encouraged_growth #<population>
 			law_country_army_reserves #<army>
 		# Politics
-			limited_constitution #<constitution>
+			human_rights #<constitution>
 			has_heir #<heir>
 			parliamentary_suffrage #<suffrage>
 			border_control #<borders>
@@ -46,14 +46,14 @@
 	}
 
 # Diplomacy
-	set_variable = { var = rival_country value = AUS.id }
+	set_variable = { var = rival_country value = ITA.id }
 	# set_variable = { var = most_favoured_country value = SKT.id }
 	# if = {
 	# 	limit = { toto_enabled_autonomy = yes }
 	# 	ENG = {
-	# 		set_autonomy_state = {
+	# 		set_autonomy = {
 	# 			target = ADN
-	# 			autonomy = autonomy_afr_protectorate
+	# 			autonomy_state = autonomy_afr_protectorate
 	# 		}
 	# 	}
 	# }
@@ -67,7 +67,7 @@
 # Politics
 	set_politics = {
 		ruling_party = traditionalism
-		last_election = "1855.5.4"
+		last_election = "1852.4.11"
 		elections_allowed = no
 	}
 	set_popularities = {
@@ -81,9 +81,9 @@
 	add_to_variable = { var = Tribal_army_num value = 0 }
 
 # Characters
-	# https://en.wikipedia.org/wiki/List_of_prime_ministers_of_the_Kingdom_of_Sardinia
+	# https://en.wikipedia.org/wiki/List_of_ministers-president_of_Austria
 	create_country_leader = {
-		name = "Camillo Benso"
+		name = "Karl Ferdinand von Buol"
 		desc = "POLITICS_GEORGE_V_DESC"
 		picture = "gfx/leaders/Africa/African_Generic_18.dds"
 		expire = "1900.1.1"

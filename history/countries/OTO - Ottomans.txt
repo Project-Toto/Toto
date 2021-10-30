@@ -1,156 +1,115 @@
-capital = 48
+# Defines
+	capital = 48
 
-# Starting tech
-set_technology = {
-	traditional_mixed_arms = 1
-	infantry_weapons = 1 traditional_mixed_arms = 1
-	tribal_carrier_birds = 1 tribal_electrical_theory = 1
-	tribal_steel_tools = 1
-	tribal_tatics = 1
-	tribal_gunpowder = 1
-	tribal_riding = 1
-	tribal_steam_experiments = 1
-	tribal_forging = 1
-	tribal_artisan = 1
-	tribal_chemistry = 1
-	tribal_guilds_trade = 1
-	tribal_crop_planting = 1
-	tribal_irrigation = 1
-	tribal_crop_rotation = 1
-	tribal_salted_smoked_goods = 1
-	tribal_leching = 1
-	tech_infantry_napoleonic_uniform = 1
-	vic_army_cloth = 1
-	tech_naval_mtg_simple_corvette_hull = 1
-		tech_naval_mtg_24_pounder_battery = 1
-		tech_naval_mtg_sails = 1
-		tech_naval_mtg_crows_nest = 1
-	start_build_tech = 1
-	basic_cavalry = 1
-		horse_transport = 1
-	horse_artillery = 1
-	tech_camel_cavalry = 1
-	gw_artillery = 1
-	rml_field_gun = 1
-	tech_infantry_practical_rifling = 1
-	tech_support = 1
-	#tech_naval_1812_troops = 1
-}
+	set_research_slots = 1
 
-set_variable = { debt_level = 5 } #The Ottoman Empire's National Debt amounts to roughly 38.7m Pound Sterling as of 1857; income per year 790m Piasters (= 6.65m Pound Sterling) = 5.82 GDP of debt
-	set_convoys = 50
-
-	#set_truce = { target = RUS days = 1820 }
-
-	#ENG={
-	#	diplomatic_relation = {
-	#		country = OTO
-	#		relation = guarantee
-	#		active = yes
-	#	}
-	#}
-	diplomatic_relation = {
-		country = HJZ
-		relation = guarantee
-		active = yes
+# Technology
+	set_technology = {
+		tribaltech = 1
+		start_build_tech = 1
 	}
 
-
-
+# LAWS
 	add_ideas = {
-		#POLITICS
+		# Attributes
+			law_country_power_great #<rank>
+			law_country_religion_sunni #<religion>
+			law_country_culture_turkish #<culture>
+			law_country_government_caliphate #<government>
+			law_country_society_feudal #<society>
+			law_country_military_traditional #<tactics>
+		# Status
+			# agrarian #<industrialization>
+			# law_country_centralization_stable #<centralization>
+			# law_country_prosperity_stable #<prosperity>
+			# stagnation_growth #<population>
+			law_country_army_reserves #<army>
+		# Politics
+			human_rights #<constitution>
+			has_heir #<heir>
+			absolutism #<suffrage>
+			border_control #<borders>
+			limited_equality #<discrimination>
+			privileged_education #<education>
+		# Economy
+			limited_exports #<economy>
+			high_taxes #<taxes>
+			lp_serfdom #<property>
+			manpower_industrial #<manpower>
+			# none #<theorist>
+			# none #<partnership>
+	}
 
-	law_country_military_line
-		industrializing
-		no_heir
-		law_country_government_kingdom
-
-		limited_exports
-
-		normal_taxes
-
-		stagnation_growth
-		border_control
-
-		limited_equality
-		absolutism
-
-		human_rights
-
-
-		privileged_education
-
-
-	# State Attributes
-		law_country_power_great
-		law_country_religion_sunni
-		law_country_culture_turkish
-		law_country_government_caliphate
-		law_country_military_traditional
-
-
-				 #NATIONAL SPIRITS
+# National Spirits
+	add_ideas = {
 		OTO_sick_man
 		OTO_crimean_war_debt
 		egy_vic_debt
 		OTO_tanzimat_reform_start
 	}
-	#Rivals
-	#set_variable = { rival_country = RUS.id }
-	#Most Favoured Nation
-	#set_variable = { most_favoured_country = EGY.id }
 
-set_politics = {
+# Diplomacy
+	set_variable = { var = rival_country value = AUS.id }
+	# set_variable = { var = most_favoured_country value = SKT.id }
+	if = {
+		limit = { toto_enabled_autonomy = yes }
+		set_autonomy = {
+			target = EGY
+			autonomy_state = autonomy_ottoman_khedive
+		}
+		set_autonomy = {
+			target = KUW
+			autonomy_state = autonomy_ottoman_eyalet
+		}
+		set_autonomy = {
+			target = YEM
+			autonomy_state = autonomy_ottoman_eyalet
+		}
+		set_autonomy = {
+			target = HJZ
+			autonomy_state = autonomy_ottoman_eyalet
+		}
+		set_autonomy = {
+			target = TUN
+			autonomy_state = autonomy_ottoman_eyalet
+		}
+	}
+	if = {
+		limit = { toto_enabled_autonomy = no }
+		puppet = KUW
+		puppet = YEM
+		puppet = HJZ
+		puppet = TUN
+	}
+	diplomatic_relation = {
+		country = JSH
+		relation = guarantee
+		active = yes
+	}
+
+# Politics
+	set_politics = {
 	ruling_party = reformism
-	last_election = "1856.1.1"
-	election_frequency = 48
-	elections_allowed = no
-}
-set_popularities = {
-	reformism = 60
-	fundamentalism = 20
-	traditionalism = 15
-	imperialism = 5
-}
+		last_election = "1856.1.1"
+		elections_allowed = no
+	}
+	set_popularities = {
+		reformism = 60
+		fundamentalism = 20
+		traditionalism = 15
+		imperialism = 5
+	}
 
-create_country_leader = {
-	name = "Abdulmecid"
-	desc = "POLITICS_TEMP_DESC"
-	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
-	expire = "1920.1.1"
-	ideology = reformism_absolutism
-	traits = {
-		#
-	}
-}
+# Variables
+	add_to_variable = { var = Tribal_army_num value = 0 }
 
-if = {
-	limit = { toto_enabled_autonomy = yes }
-	set_autonomy = {
-		target = EGY
-		autonomy_state = autonomy_ottoman_khedive
+# Characters
+	# https://en.wikipedia.org/wiki/List_of_Russian_monarchs#Tsars_of_Russia_4
+	create_country_leader = {
+		name = "Abdulmecid I"
+		desc = "POLITICS_GEORGE_V_DESC"
+		picture = "gfx/leaders/Africa/African_Generic_18.dds"
+		expire = "1900.1.1"
+		ideology = reformism_absolutism
+		traits = { }
 	}
-	set_autonomy = {
-		target = KUW
-		autonomy_state = autonomy_ottoman_eyalet
-	}
-	set_autonomy = {
-		target = YEM
-		autonomy_state = autonomy_ottoman_eyalet
-	}
-	set_autonomy = {
-		target = HJZ
-		autonomy_state = autonomy_ottoman_eyalet
-	}
-	set_autonomy = {
-		target = TUN
-		autonomy_state = autonomy_ottoman_eyalet
-	}
-}
-if = {
-	limit = { toto_enabled_autonomy = no }
-	puppet = KUW
-	puppet = YEM
-	puppet = HJZ
-	puppet = TUN
-}

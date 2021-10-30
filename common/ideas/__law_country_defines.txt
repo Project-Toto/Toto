@@ -860,7 +860,7 @@ ideas = {
 		law_country_society_modern = {
 			allowed = { always = yes }
 			allowed_civil_war = { always = yes }
-			level = 8
+			level = 12
 
 			picture = lawicon_dark_green
 
@@ -876,15 +876,28 @@ ideas = {
 		law_country_society_victorian = {
 			allowed = { always = yes }
 			allowed_civil_war = { always = yes }
-			level = 8
+			level = 11
 
 			picture = lawicon_dark_green
 
 			modifier = {
-				political_power_cost = 0.75
+				political_power_gain = 0.80
 				research_speed_factor = 0.20
 				imperialism_drift = 0.05
 				reformism_drift = 0.075
+			}
+		}
+		law_country_society_feudal = {
+			allowed = { always = yes }
+			allowed_civil_war = { always = yes }
+			level = 10
+
+			picture = lawicon_dark_green
+
+			modifier = {
+				political_power_gain = 0.8
+				stability_factor = -0.1
+				army_org_Factor = -0.075
 			}
 		}
 		afr_reforming_kingdom = {
@@ -895,7 +908,7 @@ ideas = {
 			picture = lawicon_dark_green
 
 			modifier = {
-				political_power_cost = 0.85
+				political_power_gain = 0.85
 				stability_factor = -0.1
 				research_speed_factor = -0.2
 				army_org_Factor = -0.075

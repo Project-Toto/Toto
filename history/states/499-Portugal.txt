@@ -6,6 +6,7 @@ state={
 	}
 	history={
 		owner=POR
+		victory_points = { 12770 50 }
 	}
 	manpower=1
 	state_category=town

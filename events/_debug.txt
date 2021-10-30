@@ -1,0 +1,72 @@
+add_namespace = prestige
+
+country_event = {
+	id = prestige.1
+	title = prestige.1.t
+	desc = prestige.1.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = prestige.1.a
+		prestige_global_total_update = yes
+	}
+}
+country_event = {
+	id = prestige.2
+	title = prestige.1.t
+	desc = prestige.1.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = prestige.1.a
+		clear_array = global.test_array
+		add_to_array = {
+			array = global.test_array
+			value = 3
+		}
+		add_to_array = {
+			array = global.test_array
+			value = 1
+		}
+		add_to_array = {
+			array = global.test_array
+			value = 6
+		}
+		add_to_array = {
+			array = global.test_array
+			value = 2
+		}
+	}
+}
+country_event = {
+	id = prestige.3
+	title = prestige.1.t
+	desc = prestige.1.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = prestige.1.a
+		find_highest_in_array = {
+			array = global.test_array
+			value = value_id
+			index = index_id
+		}
+		log = "Index: [?index_id]; Value: [?value_id]"
+	}
+}
+
+country_event = {
+	id = prestige.4
+	title = prestige.1.t
+	desc = prestige.1.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = prestige.1.a
+		drop_cosmetic_tag = yes
+	}
+}

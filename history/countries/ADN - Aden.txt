@@ -28,7 +28,7 @@
 			# no_constitution #<constitution>
 			# no_heir #<heir>
 			# absolutism #<suffrage>
-			controlled_borders #<borders>
+			border_control #<borders>
 			slavery_all_but_name #<discrimination>
 			traditional_uluma #<education>
 		# Economy
@@ -51,9 +51,9 @@
 	if = {
 		limit = { toto_enabled_autonomy = yes }
 		ENG = {
-			set_autonomy_state = {
+			set_autonomy = {
 				target = ADN
-				autonomy = autonomy_afr_protectorate
+				autonomy_state = autonomy_afr_protectorate
 			}
 		}
 	}

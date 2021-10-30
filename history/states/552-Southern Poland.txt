@@ -1,0 +1,14 @@
+state={
+	id=552
+	name="STATE_552"
+	provinces={
+		12855
+	}
+	history={
+		owner=AUS
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	impassable = yes
+}

@@ -8,6 +8,26 @@
  GER_prussia_cosmetic_reformism_DEF:0 "the Republic of Prussia"
  GER_prussia_cosmetic_ADJ:0 "Prussian"
 
+ GER_north_german_confederation_cosmetic:0 "Northern German Confederation"
+ GER_north_german_confederation_cosmetic_DEF:0 "the Northern German Confederation"
+ GER_north_german_confederation_cosmetic_ADJ:0 "North German"
+
  ITA_sardinia_piedmont_cosmetic:0 "Sardinia Piedmont"
  ITA_sardinia_piedmont_cosmetic_DEF:0 "the Kingdom of Sardinia Piedmont"
  ITA_sardinia_piedmont_cosmetic_ADJ:0 "Piedmontese"
+
+ AUS_austria_hungary_cosmetic:0 "Austria-Hungary"
+ AUS_austria_hungary_cosmetic_DEF:0 "the Austria-Hungarian Empire"
+ AUS_austria_hungary_cosmetic_ADJ:0 "Austrian"
+
+ RUS_soviet_union_cosmetic:0 "Soviet Union"
+ RUS_soviet_union_cosmetic_DEF:0 "the Union of Soviet Socialist Republics"
+ RUS_soviet_union_cosmetic_ADJ:0 "Soviet"
+
+ USA_imperial_states_cosmetic:0 "Imperial States"
+ USA_imperial_states_cosmetic_DEF:0 "the Imperial States of America"
+ USA_imperial_states_cosmetic_ADJ:0 "American"
+
+ CSA_golden_dixie_cosmetic:0 "Golden Dixie"
+ CSA_golden_dixie_cosmetic_DEF:0 "the Empire of Golden Dixie"
+ CSA_golden_dixie_cosmetic_ADJ:0 "Dixie"
