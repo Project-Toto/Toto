@@ -76,6 +76,7 @@
 		traditionalism = 46
 		reformism = 19
 	}
+	set_cosmetic_tag = GER_prussia_cosmetic
 
 # Variables
 	add_to_variable = { var = Tribal_army_num value = 0 }
