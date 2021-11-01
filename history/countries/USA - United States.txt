@@ -1,30 +1,91 @@
-capital = 1
+# Defines
+	capital = 478
 
-# Starting tech
-set_technology = {
-	traditional_mixed_arms = 1
-}
+	set_research_slots = 1
 
-set_politics = {
-	ruling_party = traditionalism
-	last_election = "1856.1.1"
-	election_frequency = 48
-	elections_allowed = no
-}
-set_popularities = {
-	traditionalism = 60
-	fundamentalism = 20
-	reformism = 15
-	imperialism = 5
-}
-
-create_country_leader = {
-	name = ""
-	desc = "POLITICS_TEMP_DESC"
-	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
-	expire = "1920.1.1"
-	ideology = traditionalism_absolutism
-	traits = {
-		#
+# Technology
+	set_technology = {
+		tribaltech = 1
+		start_build_tech = 1
 	}
-}
+
+# LAWS
+	add_ideas = {
+		# Attributes
+			law_country_power_great #<rank>
+			law_country_religion_protestant #<religion>
+			# law_country_culture_uncategorized #<culture>
+			law_country_government_presidential_republic #<government>
+			law_country_society_victorian #<society>
+			law_country_military_traditional #<tactics>
+		# Status
+			industrialized #<industrialization>
+			law_country_centralization_centralization #<centralization>
+			law_country_prosperity_prosperous #<prosperity>
+			encouraged_growth #<population>
+			law_country_army_reserves #<army>
+		# Politics
+			limited_constitution #<constitution>
+			non_monarchical_system #<heir>
+			universal_male_suffrage #<suffrage>
+			open_borders #<borders>
+			slavery #<discrimination>
+			open_schools #<education>
+		# Economy
+			free_trade #<economy>
+			low_taxes #<taxes>
+			lp_land_purchase #<property>
+			manpower_industrial #<manpower>
+			# none #<theorist>
+			# none #<partnership>
+	}
+
+# National Spirits
+	add_ideas = {
+
+	}
+
+# Diplomacy
+	# set_variable = { var = rival_country value = ENG.id }
+	# set_variable = { var = most_favoured_country value = SKT.id }
+	# if = {
+	# 	limit = { toto_enabled_autonomy = yes }
+	# 	ENG = {
+	# 		set_autonomy = {
+	# 			target = LIB
+	# 			autonomy_state = autonomy_afr_dominion
+	# 		}
+	# 	}
+	# }
+	# if = {
+	# 	limit = { toto_enabled_autonomy = no }
+	# 	ENG = {
+	# 		puppet = ADN
+	# 	}
+	# }
+	give_guarantee = LIB
+# Politics
+	set_politics = {
+		ruling_party = traditionalism
+		last_election = "1856.11.2"
+		elections_allowed = no
+	}
+	set_popularities = {
+		fundamentalism = 0
+		imperialism = 14
+		traditionalism = 56
+		reformism = 30
+	}
+
+# Variables
+	add_to_variable = { var = Tribal_army_num value = 0 }
+
+# Characters
+	create_country_leader = {
+		name = "James Buchanan"
+		desc = "POLITICS_GEORGE_V_DESC"
+		picture = "gfx/leaders/Africa/African_Generic_18.dds"
+		expire = "1900.1.1"
+		ideology = traditionalism_republic
+		traits = { }
+	}

@@ -12,8 +12,8 @@
   autonomy_afr_empire_level_3:0 "Regional Authority"
   autonomy_afr_empire_level_4:0 "Tributary"
  # Colonial
-   autonomy_afr_colony:0 "Colony"
-  autonomy_afr_dominion:0 "Dominion"
+  autonomy_afr_dominion:0 "Crown Colony"
+  autonomy_afr_colony:0 "Colony"
   autonomy_afr_colonial_company:0 "Colonial Company"
   autonomy_afr_protectorate:0 "Protectorate"
  # Modern
