@@ -87,6 +87,6 @@
 		desc = "POLITICS_GEORGE_V_DESC"
 		picture = "gfx/leaders/Africa/African_Generic_18.dds"
 		expire = "1900.1.1"
-		ideology = tradtionalism_parliamentary_monarchy
+		ideology = traditionalism_parliamentary_monarchy
 		traits = { }
 	}
