@@ -168,7 +168,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_header_bg"
-		texturefile = "gfx/interface/government_window/header_bg.dds"
+		texturefile = "gfx/interface/country_interface/header_bg.dds"
 	}
 
 	spriteType = {
@@ -185,7 +185,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_closebutton"
-		texturefile = "gfx//interface//closebutton.dds"
+		texturefile = "gfx//interface//country_interface//closebutton.dds"
 		noOfFrames = 1
 		effectFile = "gfx/FX/buttonstate.shader"
 	}
