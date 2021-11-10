@@ -573,14 +573,17 @@ ideas = {
 				war_support_factor = -0.20
 			}
 		}
-		law_country_government_presidential_republic = {
+		law_country_government_executive_republic = {
 			allowed = { always = yes }
 			level = 4
 
 			picture = lawicon_purple
 
 			available = {
-				has_government = reformism
+				OR = {
+					has_government = reformism
+					has_government = imperialism
+				}
 			}
 			on_add = {
 				add_ideas = {
@@ -591,6 +594,24 @@ ideas = {
 			modifier = {
 				political_power_gain = 0.25
 				war_support_factor = -0.20
+			}
+		}
+		law_country_government_elective_monarchy = {
+			allowed = { original_tag = MED }
+			level = 4
+
+			picture = lawicon_purple
+
+			on_add = {
+				add_ideas = {
+					non_monarchical_system
+				}
+			}
+
+			modifier = {
+				political_power_gain = 0.2
+				war_support_factor = 0.125
+				stability_factor = -0.15
 			}
 		}
 		law_country_government_parliamentary_monarchy = {
