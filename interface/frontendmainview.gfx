@@ -78,6 +78,36 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "social_home"
+		texturefile = "gfx//interface//main_menu//social_home.dds"
+		noOfFrames = 1
+	}
+
+	spriteType = {
+		name = "social_paradox"
+		texturefile = "gfx//interface//main_menu//social_paradox.dds"
+		noOfFrames = 1
+	}
+
+	spriteType = {
+		name = "social_privacy"
+		texturefile = "gfx//interface//main_menu//social_privacy.dds"
+		noOfFrames = 1
+	}
+
+	spriteType = {
+		name = "social_empty"
+		texturefile = "gfx//interface//main_menu//social_empty.dds"
+		noOfFrames = 1
+	}
+
+	spriteType = {
+		name = "social_empty"
+		texturefile = "gfx//interface//main_menu//social_empty.dds"
+		noOfFrames = 1
+	}
+
+	spriteType = {
 		name = "social_empty"
 		texturefile = "gfx//interface//main_menu//social_empty.dds"
 		noOfFrames = 1

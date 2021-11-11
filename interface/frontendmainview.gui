@@ -71,7 +71,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "mainmenu_single_player"
 		position = { x=0 y =0}
-		size = { width = 20 height = 395 }
+		size = { width = 340 height = 395 }
 		Orientation = CENTER
 		Origo = center
 
@@ -319,21 +319,21 @@ guiTypes = {
 		iconType = {
 			name = "buttons_background"
 			spriteType = "GFX_social_background"
-			position = { x=-6 y=-10 }
+			position = { x=-7 y=-14 }
 			alwaystransparent = yes
 		}
 		
 		ButtonType = {
 			name = "homepage_button"
 			position = { x=0 y=0 }
-			quadTextureSprite ="social_empty"
+			quadTextureSprite ="social_home"
 			clicksound = click_default
 			pdx_tooltip = "MENU_HOMEPAGE"
 		}
 		ButtonType = {
 			name = "forum_button"
 			position = { x=0 y=50 }
-			quadTextureSprite ="social_empty"
+			quadTextureSprite ="social_paradox"
 			clicksound = click_default
 			pdx_tooltip = "MENU_FORUM"
 			web_link = "http://forum.paradoxplaza.com/forum/forumdisplay.php?844-Hearts-of-Iron-IV"
@@ -365,7 +365,7 @@ guiTypes = {
 		ButtonType = {
 			name = "privacy_policy_button"
 			position = { x=0 y=250 }
-			quadTextureSprite ="social_empty"
+			quadTextureSprite ="social_privacy"
 			#clicksound = click_default
 			pdx_tooltip = "MENU_PRIVACY_POLICY"
 		}
