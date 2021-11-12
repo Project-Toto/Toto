@@ -70,14 +70,13 @@ guiTypes = {
 	### SINGLE PLAYER MENU
 	containerWindowType = {
 		name = "mainmenu_single_player"
-		position = { x=0 y =0}
-		size = { width = 340 height = 395 }
-		Orientation = CENTER
-		Origo = center
+		position = { x=100 y =-480 }
+		size = { width = 970 height = 360 }
+		Orientation = lower_left
 
 		background = {
 			name = "Background"
-			quadTextureSprite ="GFX_tiled_window"
+			quadTextureSprite ="GFX_tiled_main_menu_window"
 		}
 		
 		ButtonType = {
@@ -259,6 +258,7 @@ guiTypes = {
 		}
 	}
 	
+	### SOCIAL MENU
 	containerWindowType = {
 		name = "mainmenu_social_buttons"
 		position = {  x=200 y =-240 }
