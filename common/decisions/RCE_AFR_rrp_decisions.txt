@@ -2464,10 +2464,6 @@ afr_rrp_adopt_american_way = {
 		}
 		hidden_effect = {
 			swap_ideas = {
-				remove_idea = state_religion
-				add_idea = secular_state
-			}
-			swap_ideas = {
 				remove_idea = weak_heir
 				add_idea = non_monarchical_system
 			}

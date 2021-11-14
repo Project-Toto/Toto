@@ -728,7 +728,7 @@ focus_tree = {
 				}
 			}
 			custom_effect_tooltip = afr_generic_jihadist_establish_the_viziers_tooltip
-			hidden_effect = { add_ideas = theocratic_state }
+			hidden_effect = { add_ideas = law_country_government_religious_order }
 			if = {
 				limit = {
 					NOT = { TAG = SKT}

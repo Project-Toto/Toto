@@ -15,7 +15,7 @@
 			law_country_power_great #<rank>
 			law_country_religion_protestant #<religion>
 			# law_country_culture_uncategorized #<culture>
-			law_country_government_presidential_republic #<government>
+			law_country_government_executive_republic #<government>
 			law_country_society_victorian #<society>
 			law_country_military_traditional #<tactics>
 		# Status

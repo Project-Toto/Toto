@@ -784,9 +784,6 @@ focus_tree = {
 		prerequisite = {
 			focus = afr_road_expansion
 		}
-		available = {
-			has_tech = mass_transit_early
-		}
 		completion_reward = {
 			random_owned_controlled_state = {
 				limit = {
@@ -825,9 +822,6 @@ focus_tree = {
 		cost = 70
 		prerequisite = {
 			focus = afr_early_mass_transit
-		}
-		available = {
-			has_tech = tech_humanities_asphalt_roads
 		}
 		completion_reward = {
 			random_owned_controlled_state = {

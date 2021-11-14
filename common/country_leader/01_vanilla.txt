@@ -1,0 +1,58 @@
+leader_traits = {
+	controversial_figure = {
+		random = no
+	}
+	war_veteran = {
+		random = no
+	}
+
+	eoanb_trait_popular_figure = {
+		random = no
+	}
+
+	eoanb_trait_experienced_diplomat = {
+		random = no
+	}
+
+	centrism_alignment = {
+		random = no
+	}
+
+	friend_of_capitalism = {
+		random = no
+	}
+
+	ingenious_scientist = {
+		random = no
+	}
+
+	eoanb_trait_effective_judge = {
+		random = no
+	}
+
+	eoanb_successful_merchant = {
+		random = no
+	}
+
+	clever_buisnessman = {
+		random = no
+	}
+
+	influencial_writer = {
+		random = no
+	}
+
+	industrial_promoter = {
+		random = no
+	}
+
+	constit_monarch = {
+		random = no
+	}
+
+	conserv_liberal = {
+		random = no
+	}
+
+
+}

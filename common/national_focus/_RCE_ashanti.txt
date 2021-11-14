@@ -464,10 +464,10 @@ focus_tree = {
 			focus = ASH_chiefs_as_landowners
 								}
 		completion_reward = {
-									hidden_effect = {
-								add_ideas = SER_idea_resourcegain
-							}
-						custom_effect_tooltip = eoanb_tt_SER_focus_resourcegain
+			# hidden_effect = {
+			# 	add_ideas = SER_idea_resourcegain
+			# }
+			custom_effect_tooltip = eoanb_tt_SER_focus_resourcegain
 		}
 	}
 	###Civilian Investments
@@ -1335,10 +1335,10 @@ focus_tree = {
 		prerequisite = { focus = ASH_expanding_our_rituals }
 
 		completion_reward = {
-				add_stability = 0.01
-										swap_ideas = { remove_idea = state_religion add_idea = theocratic_state }
-								}
-				}
+			add_stability = 0.01
+			add_ideas = law_country_government_religious_order
+		}
+	}
 
 				focus = {
 		id = ASH_united_in_faith

@@ -102,7 +102,6 @@ focus_tree = {
 		}
 		available = {
 			has_country_flag = trv_settled_church_question
-			has_idea = state_religion
 		}
 		available_if_capitulated = no
 		ai_will_do = {

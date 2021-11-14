@@ -349,7 +349,7 @@ country_event = {
 			desc = "POLITICS_ABDULAZIZ_DESC"
 			picture = "Portrait_OTO_Abdulaziz_I.dds"
 			expire = "1876.5.30"
-			ideology = constit_monarch
+			ideology = reformism_absolutism
 		}
 		create_field_marshal = {
 			name = "Abdulaziz"

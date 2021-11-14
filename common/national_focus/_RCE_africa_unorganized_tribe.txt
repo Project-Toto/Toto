@@ -577,7 +577,7 @@ focus_tree = {
 		y = 8
 		relative_position_id = AF_T_wisdom_ancients
 		completion_reward = {
-			swap_ideas = { remove_idea = state_religion add_idea = theocratic_state }
+			add_ideas = law_country_government_religious_order
 		}
 	}
 	focus = {

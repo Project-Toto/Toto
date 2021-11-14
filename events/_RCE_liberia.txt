@@ -1362,10 +1362,6 @@ country_event = {
 					}
 				}
 				swap_ideas = {
-					remove_idea = state_religion
-					add_idea = secular_state
-				}
-				swap_ideas = {
 					remove_idea = law_country_government_kingdom
 					add_idea = law_country_government_democratic_republic
 				}

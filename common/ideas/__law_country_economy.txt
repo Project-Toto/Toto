@@ -678,11 +678,6 @@ ideas = {
 
 			picture = lawicon_red
 
-			available = {
-				NOT = { has_idea = undisturbed_isolation }
-				NOT = { has_idea = isolation }
-			}
-
 			modifier = {
 				political_power_gain = -0.05
 				conscription = 0.015
