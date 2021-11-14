@@ -715,7 +715,7 @@ ideas = {
 		}
 	}
 	law_country_foreign_partnership = {
-		cost = 450
+		# cost = 450
 		law_country_foreign_partnership_british = {
 			allowed = { always = yes }
 			available = {

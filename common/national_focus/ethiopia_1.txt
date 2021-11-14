@@ -523,14 +523,6 @@ focus_tree = {
 				add_idea = ETH_idea_reformed_military_staff
 			}
 			add_war_support = -0.25
-			if = {
-				limit = {
-					NOT = { has_tech = land_doctrine_victorian }
-				}
-				set_technology = {
-					land_doctrine_victorian = 1
-				}
-			}
 		}
 	}
 

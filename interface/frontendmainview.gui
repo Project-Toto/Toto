@@ -169,8 +169,7 @@ guiTypes = {
 		position = { x=100 y =-480 }
 		size = { width = 970 height = 360 }
 		Orientation = lower_left
-		Origo = left
-				
+
 		background = {
 			name = "Background"
 			quadTextureSprite ="GFX_tiled_main_menu_window"

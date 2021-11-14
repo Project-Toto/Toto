@@ -64,7 +64,7 @@ add_ideas = {
 
 				 #NATIONAL SPIRITS
 
-	OTO_Abdulmecid
+	# OTO_Abdulmecid
 	arabian_warriors
 
 	}

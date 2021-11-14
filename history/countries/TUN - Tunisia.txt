@@ -65,7 +65,7 @@ set_technology = {
 
 				 #NATIONAL SPIRITS
 			afr_reforming_kingdom
-			OTO_Abdulmecid
+			# OTO_Abdulmecid
 			TUN_unorganized_ministries
 
 	}

@@ -68,7 +68,7 @@ set_technology = {
 
 				 #NATIONAL SPIRITS
 
-		OTO_Abdulmecid
+		# OTO_Abdulmecid
 
 	egy_sudan_slave_raids
 	egy_vic_debt

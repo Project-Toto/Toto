@@ -115,10 +115,10 @@ focus_tree = {
 		completion_reward = {
 			debt_level_increase_by_2 = yes
 			add_tech_bonus = {
-				bonus = 1
-				uses = 1
-				technology = early_hospitals
-			}
+			bonus = 1
+			uses = 1
+			category = biochemistry
+		}
 			if = {
 				limit = {
 					has_idea = afr_colonial_malaria_scourge_1
@@ -819,7 +819,7 @@ focus_tree = {
 				USA = {
 					add_opinion_modifier = {
 						target = LIB
-						modifier = FRA_recognition_csa_us_view
+						modifier = large_increase
 					}
 				}
 			}

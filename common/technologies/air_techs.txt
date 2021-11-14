@@ -835,11 +835,6 @@ technologies = {
 		enable_equipments = {
 			CAS_equipment_1
 		}
-
-		path = {
-			leads_to_tech = CAS2
-			research_cost_coeff = 1
-		}
 		
 		research_cost = 2
 		start_year = 1936
@@ -887,13 +882,6 @@ technologies = {
 		ai_will_do = { modifier = { factor = 0 afr_is_tribal = yes  date < 1875.1.1 }
 			factor = 1
 			modifier = {
-				factor = 0
-				OR = {
-					has_tech = CAS2
-					is_researching_technology = CAS2
-				}
-			}
-			modifier = {
 				factor = 2
 				tag = USA
 			}
@@ -912,11 +900,6 @@ technologies = {
 
 		enable_equipments = {
 			nav_bomber_equipment_1
-		}
-
-		path = {
-			leads_to_tech = naval_bomber2
-			research_cost_coeff = 1
 		}
 		
 		research_cost = 2
@@ -968,14 +951,6 @@ technologies = {
 		
 		ai_will_do = { modifier = { factor = 0 afr_is_tribal = yes  date < 1875.1.1 }
 			factor = 1
-			
-			modifier = {
-				factor = 0
-				OR = {
-					has_tech = naval_bomber2
-					is_researching_technology = naval_bomber2
-				}
-			}
 			modifier = {
 				factor = 2.5
 				tag = USA

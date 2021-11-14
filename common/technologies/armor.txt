@@ -1788,10 +1788,6 @@ technologies = {
 			position = { x = 2 y = 30 }
 		}
 		path = {
-			leads_to_tech = advanced_light_tank
-			research_cost_coeff = 1
-		}
-		path = {
 			leads_to_tech = amphibious_tank
 			research_cost_coeff = 1
 		}
@@ -1875,14 +1871,6 @@ technologies = {
 				has_template_containing_unit = light_tank_destroyer_brigade
 				factor = 2
 			}
-			modifier = {
-				factor = 0
-				OR = {
-					has_tech = advanced_light_td
-					can_research = advanced_light_td
-					is_researching_technology = advanced_light_tank
-				}
-			}
 		}
 		
 		categories = {
@@ -1913,15 +1901,6 @@ technologies = {
 				has_template_containing_unit = light_sp_artillery_brigade
 				add = 2
 			}
-
-			modifier = {
-				factor = 0
-				OR = {
-					has_tech = advanced_light_art
-					can_research = advanced_light_art
-					is_researching_technology = advanced_light_tank
-				}
-			}
 		}
 
 		categories = {
@@ -1945,15 +1924,6 @@ technologies = {
 				date < 1936.1.1
 				NOT = {
 					has_tech_bonus = { category = armor }
-				}
-			}
-
-			modifier = {
-				factor = 0
-				OR = {
-					has_tech = advanced_light_spaa
-					can_research = advanced_light_spaa
-					is_researching_technology = advanced_light_tank
 				}
 			}
 		}

@@ -26,7 +26,7 @@ leader_traits = {
 				random = no
 
 				fundamentalism_drift = 0.125
-				custom_effect_tooltip = trait_demagogue_fundamentalism_conversion_tt
+				custom_modifier_tooltip = trait_demagogue_fundamentalism_conversion_tt
 			}
 			trait_demagogue_traditionalism = {
 				random  = no
@@ -38,7 +38,7 @@ leader_traits = {
 				random = no
 
 				imperialism_drift = 0.125
-				custom_effect_tooltip = trait_demagogue_imperialism_centralization_tt
+				custom_modifier_tooltip = trait_demagogue_imperialism_centralization_tt
 			}
 			trait_demagogue_reformism = {
 				random = no

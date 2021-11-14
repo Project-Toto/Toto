@@ -43,7 +43,6 @@ add_ideas = {
 		law_country_military_line
 		agrarian
 		no_heir
-		constitutional_monarchy
 
 		limited_exports
 
@@ -68,10 +67,10 @@ add_ideas = {
 		law_country_government_landed_republic
 
 		#NATIONAL SPIRITS
-		GRE_idea_occupation_athens
-		GRE_idea_uncertain_succession
-		GRE_Otto_I
-		GRE_Queen_Amalia
+		# GRE_idea_occupation_athens
+		# GRE_idea_uncertain_succession
+		# GRE_Otto_I
+		# GRE_Queen_Amalia
 
 	}
 

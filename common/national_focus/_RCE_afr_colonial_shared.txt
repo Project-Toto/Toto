@@ -424,7 +424,7 @@ shared_focus = {
 		add_tech_bonus = {
 			bonus = 1
 			uses = 1
-			technology = early_hospitals
+			category = biochemistry
 		}
 		if = {
 			limit = {
@@ -2201,9 +2201,6 @@ shared_focus = {
 	relative_position_id = afr_colony_generic_french_approval
 	completion_reward = {
 		add_war_support = 0.15
-		set_technology = {
-			land_doctrine_victorian = 1
-		}
 		add_state_claim = 865
 		add_state_claim = 864
 	}
