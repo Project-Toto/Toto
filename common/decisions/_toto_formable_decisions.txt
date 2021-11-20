@@ -1,0 +1,50 @@
+eoanb_category_formables = {
+	eoanb_decision_formable_united_states_of_africa = {
+		allowed = { tag = LIB }
+
+		icon = generic_nationalism
+
+		available = {
+			has_war = no
+			custom_trigger_tooltip = {
+				tooltip = eoanb_decision_formable_united_states_of_africa_trigger
+				check_variable = { num_controlled_states > 100 }
+			}
+
+			owns_state = 270
+			owns_state = 256
+			owns_state = 365
+			owns_state = 265
+			owns_state = 214
+			owns_state = 268
+			owns_state = 221
+			owns_state = 227
+			owns_state = 231
+			owns_state = 308
+			owns_state = 311
+			owns_state = 196
+			owns_state = 210
+			owns_state = 172
+			owns_state = 176
+			owns_state = 349
+			owns_state = 428
+			owns_state = 427
+			owns_state = 327
+			owns_state = 322
+			owns_state = 317
+			owns_state = 337
+			owns_state = 376
+			owns_state = 385
+			owns_state = 179
+			owns_state = 176
+		}
+
+		visible = {
+			is_subject = no
+		}
+
+		complete_effect = {
+			country_event = toto_formables.1
+		}
+	}
+}

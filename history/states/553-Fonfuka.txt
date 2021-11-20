@@ -1,0 +1,13 @@
+state={
+	id=553
+	name="STATE_553"
+	provinces={
+		1685 2752 3054 3111 4251 4384 6598 6612 7009 7061 9245
+	}
+	history = {
+
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+}

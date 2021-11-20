@@ -1,0 +1,14 @@
+
+state={
+	id=610
+	name="STATE_610"
+	provinces={
+		446 1610 1966 3210
+	}
+	history = {
+		owner = CKW
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+}

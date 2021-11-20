@@ -742,9 +742,9 @@
  KBY_DEF:0 "Kabylia"
  KBY_ADJ:0 "Kabylian"
 
- MZB:0 "Mzab"
- MZB_DEF:0 "Mzab"
- MZB_ADJ:0 "Mzabite"
+ MZA:0 "Mzab"
+ MZA_DEF:0 "Mzab"
+ MZA_ADJ:0 "Mzabite"
 
  TGR:0 "Touggourt"
  TGR_DEF:0 "Touggourt"
@@ -753,7 +753,7 @@
  TUA:0 "Touat"
  TUA_DEF:0 "Touat"
  TUA_ADJ:0 "Touati"
-
+# Morocco
  FEZ:0 "Fez"
  FEZ_DEF:0 "Fez"
  FEZ_ADJ:0 "Fez"
@@ -770,9 +770,14 @@
  TJK_DEF:0 "Tajakant"
  TJK_ADJ:0 "Tajakan"
 
+ TKA:0 "Tekna"
+ TKA_DEF:0 "Tekna"
+ TKA_ADJ:0 "Tekna"
+
  RGT:0 "Reguibat"
  RGT_DEF:0 "Reguibat"
  RGT_ADJ:0 "Reguiba"
+
 # Soudan
  ARR:0 "Adrar"
  ARR_DEF:0 "Adrar"
@@ -801,7 +806,7 @@
  TRZ:0 "Traza"
  TRZ_DEF:0 "Traza"
  TRZ_ADJ:0 "Trazi"
-
+# Mali
  BAM:0 "Bamana"
  BAM_DEF:0 "Bamana"
  BAM_ADJ:0 "Bamanaa"
@@ -833,7 +838,7 @@
  MSN:0 "Massina"
  MSN_DEF:0 "Massina"
  MSN_ADJ:0 "Massinese"
-
+# Niger
  ADA:0 "Adar"
  ADA_DEF:0 "Adar"
  ADADDI_ADJ:0 "Adari"
@@ -850,22 +855,206 @@
  DSS_DEF:0 "Dosso"
  DSS_ADJ:0 "Dosso"
 
- GAO:0 "Gao"
- GAO_DEF:0 "Gao"
- GAO_ADJ:0 "Gao"
+ GBR:0 "Gobir"
+ GBR_DEF:0 "Gobir"
+ GBR_ADJ:0 "Gobir"
 
- GAO:0 "Gao"
- GAO_DEF:0 "Gao"
- GAO_ADJ:0 "Gao"
+ GUE:0 "Goure"
+ GUE_DEF:0 "Goure"
+ GUE_ADJ:0 "Goure"
 
- GAO:0 "Gao"
- GAO_DEF:0 "Gao"
- GAO_ADJ:0 "Gao"
+ KJJ:0 "Kel Ajjer"
+ KJJ_DEF:0 "Kel Ajjer"
+ KJJ_ADJ:0 "Kel Ajjer"
 
- GAO:0 "Gao"
- GAO_DEF:0 "Gao"
- GAO_ADJ:0 "Gao"
+ MAR:0 "Maradi"
+ MAR_DEF:0 "Maradi"
+ MAR_ADJ:0 "Maradi"
 
+ MYO:0 "Muniyo"
+ MYO_DEF:0 "Muniyo"
+ MYO_ADJ:0 "Muniyo"
+
+ NGR:0 "Niger"
+ NGR_DEF:0 "Niger"
+ NGR_ADJ:0 "Niger"
+
+ TEA:0 "Tera"
+ TEA_DEF:0 "Tera"
+ TEA_ADJ:0 "Tera"
+# Hausaland
+ BCH:0 "Bauchi"
+ BCH_DEF:0 "Bauchi"
+ BCH_ADJ:0 "Bauchi"
+
+ BDE:0 "Bedde"
+ BDE_DEF:0 "Bedde"
+ BDE_ADJ:0 "Bedde"
+
+ GWI:0 "Gwari"
+ GWI_DEF:0 "Gwari"
+ GWI_ADJ:0 "Gwari"
+
+ HAS:0 "Hausa Bakwai"
+ HAS_DEF:0 "Hausa Bakwai"
+ HAS_ADJ:0 "Hausa Bakwai"
+
+ JOS:0 "Lafia"
+ JOS_DEF:0 "Lafia"
+ JOS_ADJ:0 "Jos"
+
+ KBI:0 "Kebbi"
+ KBI_DEF:0 "Kebbi"
+ KBI_ADJ:0 "Kebbi"
+
+ KBO:0 "Bornu"
+ KBO_DEF:0 "Bornu"
+ KBO_ADJ:0 "Bornu"
+
+ KNO:0 "Kano"
+ KNO_DEF:0 "Kano"
+ KNO_ADJ:0 "Kano"
+
+ KRI:0 "Kerri Kerri"
+ KRI_DEF:0 "Kerri Kerri"
+ KRI_ADJ:0 "Kerri Kerri"
+
+ KTS:0 "Katsina"
+ KTS_DEF:0 "Katsina"
+ KTS_ADJ:0 "Katsina"
+
+ MDR:0 "Mandara"
+ MDR_DEF:0 "Mandara"
+ MDR_ADJ:0 "Mandara"
+
+ MGH:0 "Marghi"
+ MGH_DEF:0 "Marghi"
+ MGH_ADJ:0 "Marghi"
+
+ NGA:0 "Nigeria"
+ NGA_DEF:0 "Nigeria"
+ NGA_ADJ:0 "Nigeria"
+
+ NIN:0 "Ningi"
+ NIN_DEF:0 "Ningi"
+ NIN_ADJ:0 "Ningi"
+
+ ZMF:0 "Zamfara"
+ ZMF_DEF:0 "Zamfara"
+ ZMF_ADJ:0 "Zamfara"
+
+ ZRI:0 "Zaria"
+ ZRI_DEF:0 "Zaria"
+ ZRI_ADJ:0 "Zaria"
+
+ ZUU:0 "Zuru"
+ ZUU_DEF:0 "Zuru"
+ ZUU_ADJ:0 "Zuru"
+# Burkino Faso
+ BIL:0 "Bilanga"
+ BIL_DEF:0 "Bilanga"
+ BIL_ADJ:0 "Mossi"
+
+ BSM:0 "Busoma"
+ BSM_DEF:0 "Busoma"
+ BSM_ADJ:0 "Mossi"
+
+ GRM:0 "Fada N'Gourma"
+ GRM_DEF:0 "Fada N'Gourma"
+ GRM_ADJ:0 "Mossi"
+
+
+ GRN:0 "Gurunsi"
+ GRN_DEF:0 "Gurunsi"
+ GRN_ADJ:0 "Mossi"
+
+ GWR:0 "Gwiriko"
+ GWR_DEF:0 "Gwiriko"
+ GWR_ADJ:0 "Mossi"
+
+ LPT:0 "Liptako"
+ LPT_DEF:0 "Liptako"
+ LPT_ADJ:0 "Mossi"
+
+ KOA:0 "Koala"
+ KOA_DEF:0 "Koala"
+ KOA_ADJ:0 "Mossi"
+
+ MOS:0 "Wagadougou"
+ MOS_DEF:0 "Wagadougou"
+ MOS_ADJ:0 "Mossi"
+
+ PMA:0 "Pama"
+ PMA_DEF:0 "Pama"
+ PMA_ADJ:0 "Mossi"
+
+ TKD:0 "Tenkodogo"
+ TKD_DEF:0 "Tenkodogo"
+ TKD_ADJ:0 "Mossi"
+
+ YAT:0 "Yatenga"
+ YAT_DEF:0 "Yatenga"
+ YAT_ADJ:0 "Yatenga"
+# Guinea Coast
+ BAO:0 "Baol"
+ BAO_DEF:0 "Baol"
+ BAO_ADJ:0 "Baol"
+
+ BTN:0 "Balante"
+ BTN_DEF:0 "Balante"
+ BTN_ADJ:0 "Balante"
+
+ CAY:0 "Cayor"
+ CAY_DEF:0 "Cayor"
+ CAY_ADJ:0 "Cayor"
+
+ GAM:0 "Gambia"
+ GAM_DEF:0 "Gambia"
+ GAM_ADJ:0 "Gambian"
+
+ KAB:0 "Kaabu"
+ KAB_DEF:0 "Kaabu"
+ KAB_ADJ:0 "Kaabu"
+
+ FTJ:0 "Futa Jallon"
+ FTJ_DEF:0 "Futa Jallon"
+ FTJ_ADJ:0 "Futa Jallon"
+
+ FTT:0 "Futa Toro"
+ FTT_DEF:0 "Futa Toro"
+ FTT_ADJ:0 "Futa Toro"
+
+ SAL:0 "Saloum"
+ SAL_DEF:0 "Saloum"
+ SAL_ADJ:0 "Saloum"
+
+ SIN:0 "Sine"
+ SIN_DEF:0 "Sine"
+ SIN_ADJ:0 "Sine"
+
+ SNG:0 "Senegal"
+ SNG_DEF:0 "Senegal"
+ SNG_ADJ:0 "Senegal"
+# Guinea
+ BTE:0 "Bate"
+ BTE_DEF:0 "Bate"
+ BTE_ADJ:0 "Bate"
+
+ GNA:0 "Guinea"
+ GNA_DEF:0 "Guinea"
+ GNA_ADJ:0 "Guinea"
+
+ KOY:0 "Koya Temne"
+ KOY_DEF:0 "Koya Temne"
+ KOY_ADJ:0 "Koya Temne"
+
+ KRU:0 "Kru"
+ KRU_DEF:0 "Kru"
+ KRU_ADJ:0 "Kru"
+# Chad
+ TOb:0 "Tibesti"
+ TOB_DEF:0 "Tibesti"
+ TOB_ADJ:0 "Tibesti"
  ADM_reformism:0 "Adamawa"
  ADM_traditionalism:0 "Emirate of Adamawa"
  ADM_imperialism:0 "Adamawa"

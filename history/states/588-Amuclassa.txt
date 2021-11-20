@@ -1,0 +1,13 @@
+state={
+	id=588
+	name="STATE_588"
+	provinces={
+		2521 2896 3569 4350 5634 6563 9795
+	}
+	history = {
+		owner = KBD
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+}

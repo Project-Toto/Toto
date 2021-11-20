@@ -1,0 +1,25 @@
+add_namespace = toto_formables
+
+country_event = {
+	id = toto_formables.1
+	title = toto_formables.1.t
+	desc = toto_formables.1.d
+	picture = placeholder
+
+	is_triggered_only = yes
+
+	option = {
+		name = toto_formables.1.a
+		custom_effect_tooltip = toto_formables.1.a_tt
+		hidden_effect = {
+			set_cosmetic_tag = LIB_united_states_of_america
+		}
+	}
+	option = {
+		name = toto_formables.1.b
+		custom_effect_tooltip = toto_formables.1.b_tt
+		hidden_effect = {
+			set_cosmetic_tag = LIB_redland
+		}
+	}
+}

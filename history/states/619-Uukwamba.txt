@@ -1,0 +1,13 @@
+state={
+	id=619
+	name="STATE_619"
+	provinces={
+		521 1758 3137 10267 10277
+	}
+	history = {
+		owner = AHR
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+}

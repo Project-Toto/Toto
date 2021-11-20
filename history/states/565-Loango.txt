@@ -1,0 +1,16 @@
+
+state={
+	id=565
+	name="STATE_565"
+
+	history={
+		owner = KKO
+	}
+
+	provinces={
+		746 2734 5937 9778 9794 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,0 +1,14 @@
+
+state={
+	id=623
+	name="STATE_623"
+	provinces={
+		706 4287 4762 6551 9522
+	}
+	history = {
+		owner = BLU
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,13 @@
+state={
+	id=628
+	name="STATE_628"
+	provinces={
+		350 742 1509 3421 5010 5829 6903 9458
+	}
+	history = {
+		owner = BET
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+}

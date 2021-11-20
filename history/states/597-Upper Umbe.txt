@@ -1,0 +1,13 @@
+state={
+	id=597
+	name="STATE_597"
+	provinces={
+		1025 2157 3999 4105 4317 10032 10043 10047
+	}
+	history = {
+		owner = ANG
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+}

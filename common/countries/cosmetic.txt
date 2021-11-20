@@ -1,0 +1,4 @@
+LIB_redland = {
+	color = rgb { 250 124 124 }
+	color_ui = rgb { 250 124 124 }
+}

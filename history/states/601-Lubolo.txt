@@ -1,0 +1,14 @@
+
+state={
+	id=601
+	name="STATE_601"
+	provinces={
+		1011 1358 5308 5602 6302 6851 10098 10099 10118
+	}
+	history = {
+		owner = OVD
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+}

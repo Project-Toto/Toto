@@ -1,0 +1,14 @@
+
+state={
+	id=608
+	name="STATE_608"
+	provinces={
+		395 2823 10051
+	}
+	history = {
+		owner = CKW
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+}

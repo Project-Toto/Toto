@@ -1,0 +1,13 @@
+state={
+	id=557
+	name="STATE_557"
+	provinces={
+		4567 6613 9428 9445
+	}
+	history = {
+
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+}

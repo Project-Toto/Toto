@@ -5,7 +5,7 @@ state={
 		540 639 1460 1614 2294 2911 3136 3734 5128 5280 5787 6468 6616 6653 6955 8982 9025 9059 9085 9114
 	}
 	history={
-		owner=BAG
+		owner=LGN
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

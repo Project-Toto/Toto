@@ -1,0 +1,13 @@
+state={
+	id=562
+	name="STATE_562"
+	provinces={
+		1315 2303 3671 6137
+	}
+	history = {
+		owner = LOA
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,13 @@
+state={
+	id=561
+	name="STATE_561"
+	provinces={
+		441 796 881 1791 1915 3581 4761 4912 5709 9189
+	}
+	history = {
+		owner = ADM
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+}

@@ -5,7 +5,7 @@ state={
 		2161 3172 3259 5466 6358 9011 9147
 	}
 	history={
-		owner=BAG
+		owner=LGN
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

@@ -1,0 +1,13 @@
+state={
+	id=560
+	name="STATE_560"
+	provinces={
+		230 3060 4864 9349 9407 9417 9435
+	}
+	history = {
+		owner = BMM
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+}

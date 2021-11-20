@@ -1,0 +1,13 @@
+state={
+	id=593
+	name="STATE_593"
+	provinces={
+		1049 3352 3716 4199 4491 5838 6558 9694 9704 9708 9739
+	}
+	history = {
+		owner = TYO
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+}

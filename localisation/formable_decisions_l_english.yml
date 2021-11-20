@@ -1,0 +1,10 @@
+﻿l_english:
+ eoanb_category_formables:0 "Formable Decisions"
+ eoanb_decision_formable_united_states_of_africa:0 "[ROOT.GetFlag] Formation of a United States of West Africa"
+ eoanb_decision_formable_united_states_of_africa_trigger:0 "Controls 100 states"
+ toto_formables.1.t:0 "Formation of a union for Western Africans"
+ toto_formables.1.d:0 "What should we call our new nation?"
+ toto_formables.1.a:0 "United States of West Africa"
+ toto_formables.1.a_tt:0 "§YLiberia§! will now be known as §YUnited States of West Africa§!"
+ toto_formables.1.b:0 "Reddland!!!"
+ toto_formables.1.b_tt:0 "§YLiberia§! will now be known as §YReddland§!"

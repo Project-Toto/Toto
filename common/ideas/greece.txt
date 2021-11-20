@@ -796,49 +796,49 @@ ideas = {
 		}
 	}
 
-	naval_manufacturer = {
+	# naval_manufacturer = {
 
-		designer = yes
+	# 	designer = yes
 
-		GRE_hellenic_shipyards_stauros_niarxos = {
+	# 	GRE_hellenic_shipyards_stauros_niarxos = {
 
-			picture = generic_naval_manufacturer_1
+	# 		picture = generic_naval_manufacturer_1
 
-			allowed = {
-				tag = GRE
-			}
+	# 		allowed = {
+	# 			tag = GRE
+	# 		}
 
-			cost = 150
-			removal_cost = 10
+	# 		cost = 150
+	# 		removal_cost = 10
 
-			research_bonus = {
-				naval_equipment = 0.05
-			}
+	# 		research_bonus = {
+	# 			naval_equipment = 0.05
+	# 		}
 
-			#traits = { eoanb_naval_manufacturer_heavy }
-		}
-	}
+	# 		#traits = { eoanb_naval_manufacturer_heavy }
+	# 	}
+	# }
 
-	industrial_concern = {
+	# industrial_concern = {
 
-		GRE_hellenic_steel_industry = {
+	# 	GRE_hellenic_steel_industry = {
 
-			picture = generic_industrial_concern_2
+	# 		picture = generic_industrial_concern_2
 
-			allowed = {
-				tag = GRE
-			}
+	# 		allowed = {
+	# 			tag = GRE
+	# 		}
 
-			cost = 150
-			removal_cost = 10
+	# 		cost = 150
+	# 		removal_cost = 10
 
-			research_bonus = {
-				process_engineering_tech = 0.05
-			}
+	# 		research_bonus = {
+	# 			process_engineering_tech = 0.05
+	# 		}
 
-			#traits = { ENG_trait_concern_bic }
-		}
-	}
+	# 		#traits = { ENG_trait_concern_bic }
+	# 	}
+	# }
 
 	theorist = {
 

@@ -1,0 +1,16 @@
+
+state={
+	id=167
+	name="STATE_167"
+
+	history={
+		owner = GBY
+	}
+
+	provinces={
+		1984 4450 4594 5565 9283 9287 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+}

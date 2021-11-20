@@ -17,3 +17,7 @@
 	political_actions = {
 		allowed = { always = yes }
 	}
+	eoanb_category_formables = {
+		allowed = { always = yes }
+		icon = generic_formable_nations
+	}

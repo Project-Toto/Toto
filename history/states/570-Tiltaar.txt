@@ -1,0 +1,17 @@
+
+state={
+	id=570
+	name="STATE_570"
+
+	history={
+		owner = KKO
+
+	}
+
+	provinces={
+		3267 9810 9820 9822 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,0 +1,13 @@
+state={
+	id=554
+	name="STATE_554"
+	provinces={
+		1628 2915 3030 4643 5793 9421 9434
+	}
+	history = {
+
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+}

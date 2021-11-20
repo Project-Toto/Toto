@@ -248,3 +248,7 @@
 		color = rgb { 152 130 191 }
 		color_ui = rgb { 198 169 248 }
 	}
+	KON = {
+		color = rgb { 122  83  183 }
+		color_ui = rgb { 122  83  183 }
+	}

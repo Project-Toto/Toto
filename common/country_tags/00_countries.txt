@@ -17,6 +17,7 @@
   BRA = "countries/Brazil.txt"
 
 # Majors (Countries on Bookmark or has subjects)
+  MOR = "countries/Morocco.txt"
   PER = "countries/Persia.txt"
   POR = "countries/Portugal.txt"
   OTO = "countries/Ottomans.txt"
@@ -164,9 +165,10 @@
    # graphical_culture = middle_eastern_gfx
    # graphical_culture_2d = middle_eastern_2d
   FEZ = "countries/Fez.txt"
-  MOR = "countries/Morocco.txt"
+  # MOR = "countries/Morocco.txt"
   SHW = "countries/Saharwi.txt"
   TJK = "countries/Tajakant.txt"
+  TKA = "countries/Tekna.txt"
   RGT = "countries/Reguibat.txt"
 # SOUDAN REGION
  # Mauritania
@@ -178,7 +180,6 @@
   KNT = "countries/Kunta.txt"
   MRT = "countries/Mauritania.txt"
   TGN = "countries/Tagant.txt"
-  TKA = "countries/Tekna.txt"
   TRZ = "countries/Trarza.txt"
  # Mali
    # graphical_culture = middle_eastern_gfx

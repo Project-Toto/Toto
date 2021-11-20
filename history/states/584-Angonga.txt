@@ -1,0 +1,13 @@
+state={
+	id=584
+	name="STATE_584"
+	provinces={
+		1153 1169 1641 3602 3646 3891 7118 7133 7180 9950 9954 9968 9983 9992
+	}
+	history = {
+		owner = KBD
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+}

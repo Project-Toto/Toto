@@ -1,0 +1,14 @@
+
+state={
+	id=574
+	name="STATE_574"
+	provinces={
+		5085 6025 9683
+	}
+	history = {
+		owner = TEK
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+}

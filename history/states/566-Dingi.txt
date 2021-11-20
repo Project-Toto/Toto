@@ -1,0 +1,13 @@
+state={
+	id=566
+	name="STATE_566"
+	provinces={
+		2127 2648 4598 9781 9789
+	}
+	history = {
+		owner = PUN
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+}

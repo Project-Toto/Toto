@@ -1,0 +1,14 @@
+
+state={
+	id=558
+	name="STATE_558"
+	provinces={
+		1250 2007 2515 3870 5054 6354 6805 6831 9354
+	}
+	history = {
+		owner = BMM
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+}

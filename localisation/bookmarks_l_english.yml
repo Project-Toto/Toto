@@ -1,7 +1,9 @@
 ﻿l_english:
  BM_HISTORY_TITLE:0 "Brief History"
- SOUDAN_1857:0 "Empires of the Soudan"
- SOUDAN_1857_DESC:0 ""
- CALIPHATE_1857:0 "The Indebted Caliphate"
- CALIPHATE_1857_DESC:0 ""
+ SOUDAN_1857:0 "§YEmpires of the Soudan§!"
+ SOUDAN_1857_DESC:0 "§WTest§!"
+ CALIPHATE_1857:0 "§YThe Indebted Caliphate"§!
+ CALIPHATE_1857_DESC:0 "§W§!"
+ SOUTH_1857:0 "§YRoute to Asia"§!
+ SOUTH_1857_DESC:0 "§W§!"
  OTHER_GATHERING_STORM_DESC:0 ""

@@ -1,0 +1,14 @@
+
+state={
+	id=625
+	name="STATE_625"
+	provinces={
+		2670 3406 3489 3858 4881 5092 6517 7294 9441
+	}
+	history = {
+		owner = BET
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+}

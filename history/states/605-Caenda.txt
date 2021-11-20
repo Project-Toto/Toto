@@ -1,0 +1,13 @@
+state={
+	id=605
+	name="STATE_605"
+	provinces={
+		256 766 3520 5580 5964 6594 7125
+	}
+	history = {
+		owner = POR
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+}

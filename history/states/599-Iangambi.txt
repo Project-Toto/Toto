@@ -1,0 +1,13 @@
+state={
+	id=599
+	name="STATE_599"
+	provinces={
+		793 2098 2892 3841 3966 4744 5547 6068 9733 9742 9769
+	}
+	history = {
+
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+}

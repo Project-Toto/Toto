@@ -1,0 +1,13 @@
+state={
+	id=626
+	name="STATE_626"
+	provinces={
+		500 1303 2348 3342 6204 7150 9518
+	}
+	history = {
+		owner = GBY
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,13 @@
+state={
+	id=600
+	name="STATE_600"
+	provinces={
+		106 2743 3367 3480 4005 9637
+	}
+	history = {
+		owner = TEK
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+}

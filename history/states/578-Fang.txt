@@ -1,0 +1,13 @@
+state={
+	id=578
+	name="STATE_578"
+	provinces={
+		628 773 1073 3484 3914 6600 9562
+	}
+	history = {
+		owner = FNG
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+}
