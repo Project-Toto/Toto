@@ -331,6 +331,7 @@
   IGA = "countries/Igala.txt"
   IJW = "countries/Ijaw.txt"
   NRI = "countries/Nri.txt"
+  KFK = "countries/Konfuka.txt"
 
  # Tschad
    # graphical_culture = african_gfx
@@ -348,9 +349,14 @@
  # Centralia
    # graphical_culture = african_gfx
    # graphical_culture_2d = african_2d
+  AZD = "countries/Azande.txt"
   BDA = "countries/Banda.txt"
+  BGS = "countries/Bangassou.txt"
   CAR = "countries/Central African Republic.txt"
+  GBY = "countries/Gbaya.txt"
+  RAF = "countries/Rafai.txt"
   SRA = "countries/Sara-Kaba.txt"
+  ZEM = "countries/Zemio.txt"
 
  # Kameroon
    # graphical_culture = african_gfx
@@ -359,6 +365,7 @@
   CMR = "countries/Cameroon.txt"
   KTK = "countries/Kotoko.txt"
   LGN = "countries/Logone.txt"
+  NSO = “countries/Nso.txt”
 
  # Gabon
    # graphical_culture = african_gfx
@@ -372,6 +379,7 @@
    # graphical_culture = african_gfx
    # graphical_culture_2d = african_2d
   COG = "countries/Congo.txt"
+  TYO = "countries/Anziku.txt"
   ZAI = "countries/Zaire.txt"
 # SOUTHERN REGION
  # Ndongo
@@ -451,7 +459,7 @@
   SID = "countries/Sidama.txt"
 	#aaaaaa
 	NKO = "countries/Nkore.txt"
-	TYO = "countries/Anziku.txt"
+	
 	BUS = "countries/Busoga.txt"
 	BMM = "countries/Bamum.txt"
 	BET = "countries/Beti.txt"
@@ -469,7 +477,6 @@
 	NGY = "countries/Ngoyo.txt"
 	PUN = "countries/Punu.txt"
 	YEK = "countries/Yeke.txt"
-	GBY = "countries/Gbaya.txt"
 	LNG = "countries/Lingala.txt"
 	TEK = "countries/Teke.txt"
 	CEK = "countries/CopticEthiopianKingdom.txt"
