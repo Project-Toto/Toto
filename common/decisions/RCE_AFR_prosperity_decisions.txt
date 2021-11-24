@@ -1910,7 +1910,7 @@ afr_islamic_renaissance = {
 				check_variable = { afr_prosperity_mechanic_value < 80 }
 				if = {
 					limit = {
-						all_owned_state = { building_port < 1 }
+						all_owned_state = { naval_base < 1 }
 					}
 					custom_trigger_tooltip = {
 						tooltip = Ocenaia_has_infrastructure_to_support_new_buildings_on_coast
@@ -1920,7 +1920,7 @@ afr_islamic_renaissance = {
 				else = {
 					any_owned_state = {
 						is_coastal = yes
-						building_port > 0
+						naval_base > 0
 					}
 				}
 				OR = {
@@ -2516,7 +2516,7 @@ afr_islamic_renaissance = {
 				check_variable = { afr_prosperity_mechanic_value < 80 }
 				if = {
 					limit = {
-						all_owned_state = { building_port < 1 }
+						all_owned_state = { naval_base < 1 }
 					}
 					custom_trigger_tooltip = {
 						tooltip = Ocenaia_has_infrastructure_to_support_new_buildings_on_coast
@@ -2526,7 +2526,7 @@ afr_islamic_renaissance = {
 				else = {
 					any_owned_state = {
 						is_coastal = yes
-						building_port > 0
+						naval_base > 0
 					}
 				}
 				OR = {
@@ -2900,7 +2900,7 @@ afr_islamic_renaissance = {
 				check_variable = { afr_prosperity_mechanic_value < 80 }
 				if = {
 					limit = {
-						all_owned_state = { building_port < 1 }
+						all_owned_state = { naval_base < 1 }
 					}
 					custom_trigger_tooltip = {
 						tooltip = Ocenaia_has_infrastructure_to_support_new_buildings_on_coast
@@ -2910,7 +2910,7 @@ afr_islamic_renaissance = {
 				else = {
 					any_owned_state = {
 						is_coastal = yes
-						building_port > 0
+						naval_base > 0
 					}
 				}
 				OR = {
@@ -3311,7 +3311,7 @@ afr_islamic_renaissance = {
 				check_variable = { afr_prosperity_mechanic_value < 80 }
 				if = {
 					limit = {
-						all_owned_state = { building_port < 1 }
+						all_owned_state = { naval_base < 1 }
 					}
 					custom_trigger_tooltip = {
 						tooltip = Ocenaia_has_infrastructure_to_support_new_buildings_on_coast
@@ -3321,7 +3321,7 @@ afr_islamic_renaissance = {
 				else = {
 					any_owned_state = {
 						is_coastal = yes
-						building_port > 0
+						naval_base > 0
 					}
 				}
 				OR = {

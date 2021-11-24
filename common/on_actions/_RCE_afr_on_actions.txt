@@ -340,7 +340,7 @@ on_actions = {
 					#				province = {
 					#					all_provinces = yes
 					#				}
-					#				building = building_port
+					#				building = naval_base
 					#				level > 4
 					#			}
 					#		}
@@ -354,7 +354,7 @@ on_actions = {
 					#				province = {
 					#					all_provinces = yes
 					#				}
-					#				building = building_port
+					#				building = naval_base
 					#				level > 0
 					#			}
 					#		}

@@ -575,7 +575,7 @@ focus_tree = {
 		completion_reward={
 			# 294={
 			# 	set_building_level = {
-			# 		type = building_port
+			# 		type = naval_base
 			# 		level = 3
 			# 		province = 107060
 			# 	}

@@ -1561,7 +1561,7 @@ shared_focus = {
 		}
 		else_if = {
 			limit = {
-				all_owned_state = { building_port < 1 }
+				all_owned_state = { naval_base < 1 }
 			}
 			custom_trigger_tooltip = {
 				tooltip = Ocenaia_has_infrastructure_to_support_new_buildings_on_coast
@@ -1571,7 +1571,7 @@ shared_focus = {
 		else = {
 			any_owned_state = {
 				is_coastal = yes
-				building_port > 0
+				naval_base > 0
 			}
 		}
 	}
@@ -1590,7 +1590,7 @@ shared_focus = {
 					add_to_variable = { Oceania_extra_state_shared_building_slots = 1 }
 				}
 				add_extra_state_shared_building_slots = 1
-				afr_add_one_building_building_port_scripted_effect = yes
+				afr_add_one_building_naval_base_scripted_effect = yes
 				add_building_construction = {
 					type = infrastructure
 					level = 1
@@ -1608,7 +1608,7 @@ shared_focus = {
 		}
 		else_if = {
 			limit = {
-				all_owned_state = { building_port < 1 }
+				all_owned_state = { naval_base < 1 }
 				all_owned_state = { NOT = { has_state_flag = afr_port_town } }
 				capital_scope = { is_coastal = no }
 			}
@@ -1622,7 +1622,7 @@ shared_focus = {
 					add_to_variable = { Oceania_extra_state_shared_building_slots = 1 }
 				}
 				add_extra_state_shared_building_slots = 1
-				afr_add_one_building_building_port_scripted_effect = yes
+				afr_add_one_building_naval_base_scripted_effect = yes
 				add_building_construction = {
 					type = infrastructure
 					level = 1
@@ -1664,7 +1664,7 @@ shared_focus = {
 		else_if = {
 			limit = {
 				all_owned_state = { NOT = { has_state_flag = afr_port_town } }
-				capital_scope = { is_coastal = yes building_port < 1 }
+				capital_scope = { is_coastal = yes naval_base < 1 }
 			}
 			random_owned_state = {
 				limit = {
@@ -1676,7 +1676,7 @@ shared_focus = {
 					add_to_variable = { Oceania_extra_state_shared_building_slots = 1 }
 				}
 				add_extra_state_shared_building_slots = 1
-				afr_add_one_building_building_port_scripted_effect = yes
+				afr_add_one_building_naval_base_scripted_effect = yes
 				add_building_construction = {
 					type = infrastructure
 					level = 1
@@ -1688,7 +1688,7 @@ shared_focus = {
 		else_if = {
 			limit = {
 				all_owned_state = { NOT = { has_state_flag = afr_port_town } }
-				capital_scope = { is_coastal = yes building_port > 0 }
+				capital_scope = { is_coastal = yes naval_base > 0 }
 			}
 			random_owned_state = {
 				limit = {
@@ -1708,7 +1708,7 @@ shared_focus = {
 			add_political_power = -100
 			random_owned_controlled_state = {
 				limit = {
-					building_port > 0
+					naval_base > 0
 					is_coastal = yes
 				}
 				set_state_flag = afr_port_town
@@ -1732,7 +1732,7 @@ shared_focus = {
 	bypass = { if = { limit = { TAG = SNG } has_country_flag = FRA_develop_port_dakar_flag } else = { always = no } }
 }
 shared_focus = {
-	id = afr_colony_generic_focus_1860_gov_building_port
+	id = afr_colony_generic_focus_1860_gov_naval_base
 	icon = GFX_goal_generic_navy_cruiser
 	x = 0
 	y = 2
@@ -1770,7 +1770,7 @@ shared_focus = {
 			debt_level_increase_by_4 = yes
 		}
 		else = {
-			custom_effect_tooltip = afr_colony_generic_focus_1860_gov_building_port_tooltip
+			custom_effect_tooltip = afr_colony_generic_focus_1860_gov_naval_base_tooltip
 			debt_level_increase_by_1 = yes
 		}
 		hidden_effect = {
@@ -1826,7 +1826,7 @@ shared_focus = {
 	ai_will_do = {
 		factor = 1
 	}
-	prerequisite = { focus = afr_colony_generic_focus_1860_gov_building_port }
+	prerequisite = { focus = afr_colony_generic_focus_1860_gov_naval_base }
 	completion_reward = {
 		hidden_effect = {
 			if = {
