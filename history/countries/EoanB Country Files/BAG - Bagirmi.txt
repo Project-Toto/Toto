@@ -4,12 +4,12 @@
 	oob = "Africa_1857"
 
 	set_convoys = 0
-	
+
 	set_research_slots = 1
 
-	add_ideas = { 
-		#POLITICS 
-			
+	add_ideas = {
+		#POLITICS
+
 		hos_is_leader
 		pre_industrial_era
 		agrarian
@@ -45,12 +45,12 @@
 
 				 #NATIONAL SPIRITS
 			AF_T_small_kingdom
-	
+
 	}
-	
-	#Rivals 
+
+	#Rivals
 		set_variable = { rival_country = SKT.id }
-		
+
 	#Favored
 		set_variable = { most_favoured_country = KBO.id }
 
@@ -63,7 +63,7 @@ BAG = {
 		idea = WDD_KBO_TRUCE
 		days = 3600
 	}
-	add_manpower = 500 
+	add_manpower = 500
 	add_ideas={AF_T_Tribal_Army}
 	add_to_variable = {Tribal_army_num = 2000}
 }
@@ -96,7 +96,7 @@ set_popularities = {
 	create_country_leader = {
 	name = "‘Abdul Qadir II al-Mahdi"
 	desc = "POLITICS_GEORGE_V_DESC"
-	picture = "gfx/leaders/Africa/African_Generic_11.dds"
+	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
 	expire = "1900.1.1"
 	ideology = despotism
 	traits = {

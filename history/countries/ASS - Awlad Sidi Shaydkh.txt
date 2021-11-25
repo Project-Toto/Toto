@@ -1,4 +1,4 @@
-capital = 1
+capital = 293
 
 add_manpower = 12000
 # Starting tech

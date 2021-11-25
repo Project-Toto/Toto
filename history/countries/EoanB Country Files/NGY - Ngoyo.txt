@@ -4,12 +4,12 @@
 	oob = "Africa_1857"
 
 	set_convoys = 0
-	
+
 	set_research_slots = 1
 
-	add_ideas = { 
-		#POLITICS 
-			
+	add_ideas = {
+		#POLITICS
+
 		hos_is_leader
 		pre_industrial_era
 		agrarian
@@ -17,7 +17,7 @@
 		absolute_monarchy
 	religion_animist
 	law_army_tribal_basic
-	
+
 		civilian_economy
 		closed_economy
 		one_percent
@@ -44,13 +44,13 @@
 		#sfund_private_ventures_only
 
 				 #NATIONAL SPIRITS
-		
+
 	AF_T_unorganized_tribal_nation
 	afr_fractured_kingdom
 	AFR_transatlantic_supplier
-	
+
 	}
-	#Rivals 
+	#Rivals
 		set_variable = { rival_country = FRA.id }
 
 	set_politics = {
@@ -86,7 +86,7 @@ set_popularities = {
 	create_country_leader = {
 	name = "Tribal Council"
 	desc = "POLITICS_GEORGE_V_DESC"
-	picture = "gfx/leaders/Africa/generic_leader_tribal_council.dds"
+	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
 	expire = "1900.1.1"
 	ideology = tribe
 	traits = {

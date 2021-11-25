@@ -5,7 +5,7 @@ default = {
 		#female = {
 		#}
 	#}
-	
+
 	#army = {
 		#male = {
 		#}
@@ -39,8 +39,8 @@ continent = {
 			"gfx/leaders/Africa/generic_leader_tribe_3.dds"
 			"gfx/leaders/Africa/generic_leader_tribe_4.dds"
 			"gfx/leaders/Africa/generic_leader_king_1.dds"
-			"gfx/leaders/Africa/generic_leader_king_4.dds"
-			"gfx/leaders/Africa/generic_leader_king_5.dds"
+			"gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
+			"gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
 			"gfx/leaders/Africa/African_Generic_3.dds"
 			"gfx/leaders/Africa/African_Generic_5.dds"
 			"gfx/leaders/Africa/African_Generic_6.dds"
@@ -64,10 +64,10 @@ continent = {
 				"gfx/leaders/Africa/generic_leader_tribe_3.dds"
 				"gfx/leaders/Africa/generic_leader_tribe_4.dds"
 				"gfx/leaders/Africa/generic_leader_king_1.dds"
-				"gfx/leaders/Africa/generic_leader_king_2.dds"
+				"gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
 				"gfx/leaders/Africa/generic_leader_king_3.dds"
-				"gfx/leaders/Africa/generic_leader_king_4.dds"
-				"gfx/leaders/Africa/generic_leader_king_5.dds"
+				"gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
+				"gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
 				"gfx/leaders/Africa/African_Generic_1.dds"
 				"gfx/leaders/Africa/African_Generic_3.dds"
 				"gfx/leaders/Africa/African_Generic_4.dds"
@@ -83,10 +83,10 @@ continent = {
 				"gfx/leaders/Africa/generic_leader_tribe_3.dds"
 				"gfx/leaders/Africa/generic_leader_tribe_4.dds"
 				"gfx/leaders/Africa/generic_leader_king_1.dds"
-				"gfx/leaders/Africa/generic_leader_king_2.dds"
+				"gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
 				"gfx/leaders/Africa/generic_leader_king_3.dds"
-				"gfx/leaders/Africa/generic_leader_king_4.dds"
-				"gfx/leaders/Africa/generic_leader_king_5.dds"
+				"gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
+				"gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
 				"gfx/leaders/Africa/African_Generic_1.dds"
 				"gfx/leaders/Africa/African_Generic_3.dds"
 				"gfx/leaders/Africa/African_Generic_4.dds"
@@ -102,10 +102,10 @@ continent = {
 				"gfx/leaders/Africa/generic_leader_tribe_3.dds"
 				"gfx/leaders/Africa/generic_leader_tribe_4.dds"
 				"gfx/leaders/Africa/generic_leader_king_1.dds"
-				"gfx/leaders/Africa/generic_leader_king_2.dds"
+				"gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
 				"gfx/leaders/Africa/generic_leader_king_3.dds"
-				"gfx/leaders/Africa/generic_leader_king_4.dds"
-				"gfx/leaders/Africa/generic_leader_king_5.dds"
+				"gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
+				"gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
 				"gfx/leaders/Africa/African_Generic_1.dds"
 				"gfx/leaders/Africa/African_Generic_3.dds"
 				"gfx/leaders/Africa/African_Generic_4.dds"
@@ -121,10 +121,10 @@ continent = {
 				"gfx/leaders/Africa/generic_leader_tribe_3.dds"
 				"gfx/leaders/Africa/generic_leader_tribe_4.dds"
 				"gfx/leaders/Africa/generic_leader_king_1.dds"
-				"gfx/leaders/Africa/generic_leader_king_2.dds"
+				"gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
 				"gfx/leaders/Africa/generic_leader_king_3.dds"
-				"gfx/leaders/Africa/generic_leader_king_4.dds"
-				"gfx/leaders/Africa/generic_leader_king_5.dds"
+				"gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
+				"gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
 				"gfx/leaders/Africa/African_Generic_1.dds"
 				"gfx/leaders/Africa/African_Generic_3.dds"
 				"gfx/leaders/Africa/African_Generic_4.dds"
@@ -192,7 +192,7 @@ continent = {
 			"gfx/leaders/Europe/portrait_europe_generic_land_13.dds"
 		}
 	}
-	
+
 	navy = {
 		male = {
 			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds"
@@ -200,7 +200,7 @@ continent = {
 			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_3.dds"
 		}
 	}
-	
+
 	political = {
 		traditionalism = {
 			male = {
@@ -238,7 +238,7 @@ continent = {
 			"gfx/leaders/Europe/portrait_europe_generic_land_13.dds"
 		}
 	}
-	
+
 	navy = {
 		male = {
 			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds"
@@ -283,7 +283,7 @@ continent = {
 			"gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
 		}
 	}
-	
+
 	navy = {
 		male = {
 			"gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds"
@@ -291,7 +291,7 @@ continent = {
 			"gfx/leaders/South America/Portrait_South_America_Generic_navy_3.dds"
 		}
 	}
-	
+
 	political = {
 		traditionalism = {
 			male = {
@@ -328,7 +328,7 @@ continent = {
 			"gfx/leaders/Asia/Portrait_Asia_Generic_land_5.dds"
 		}
 	}
-	
+
 	navy = {
 		male = {
 			"gfx/leaders/Asia/Portrait_Asia_Generic_navy_1.dds"
@@ -373,7 +373,7 @@ continent = {
 			"gfx/leaders/Europe/portrait_europe_generic_land_13.dds"
 		}
 	}
-	
+
 	navy = {
 		male = {
 			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds"
@@ -417,7 +417,7 @@ GER = {
 			"gfx/leaders/GER/Portrait_Germany_Generic_land_5.dds"
 		}
 	}
-	
+
 	navy = {
 		male = {
 			"gfx/leaders/GER/Portrait_Germany_Generic_navy_1.dds"
@@ -438,7 +438,7 @@ ENG = {
 			"gfx/leaders/ENG/Portrait_Britain_Generic_land_6.dds"
 		}
 	}
-	
+
 	navy = {
 		male = {
 			"gfx/leaders/ENG/Portrait_Britain_Generic_navy_1.dds"
@@ -458,7 +458,7 @@ FRA = {
 			"gfx/leaders/FRA/Portrait_France_Generic_land_5.dds"
 		}
 	}
-	
+
 	navy = {
 		male = {
 			"gfx/leaders/FRA/Portrait_France_Generic_navy_1.dds"
@@ -477,7 +477,7 @@ ITA = {
 			"gfx/leaders/ITA/Portrait_Italy_Generic_land_5.dds"
 		}
 	}
-	
+
 	navy = {
 		male = {
 			"gfx/leaders/ITA/Portrait_Italy_Generic_navy_1.dds"
@@ -498,7 +498,7 @@ RUS = {
 			"gfx/leaders/SOV/portrait_soviet_pdxcon_magic_winner.dds"
 		}
 	}
-	
+
 	navy = {
 		male = {
 			"gfx/leaders/SOV/Portrait_Soviet_Generic_navy_1.dds"
@@ -518,7 +518,7 @@ USA = {
 			"gfx/leaders/USA/Portrait_USA_Generic_land_5.dds"
 		}
 	}
-	
+
 	navy = {
 		male = {
 			"gfx/leaders/USA/Portrait_USA_Generic_navy_1.dds"
@@ -539,7 +539,7 @@ SAF = {
 			"gfx/leaders/ENG/Portrait_Britain_Generic_land_6.dds"
 		}
 	}
-	
+
 	navy = {
 		male = {
 			"gfx/leaders/ENG/Portrait_Britain_Generic_navy_1.dds"
@@ -559,7 +559,7 @@ SPR = {
 			"gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 		}
 	}
-	
+
 	navy = {
 		male = {
 			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds"
@@ -580,7 +580,7 @@ HOL = {
 			"gfx/leaders/Europe/portrait_europe_generic_land_13.dds"
 		}
 	}
-	
+
 	navy = {
 		male = {
 			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds"
@@ -601,14 +601,14 @@ TUR = {
 			"gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
 		}
 	}
-	
+
 	navy = {
 		male = {
 			"gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds"
 			"gfx/leaders/South America/Portrait_South_America_Generic_navy_2.dds"
 			"gfx/leaders/South America/Portrait_South_America_Generic_navy_3.dds"
 		}
-	}	
+	}
 }
 
 BHR = {
@@ -621,7 +621,7 @@ BHR = {
 			"gfx/leaders/SAF/Portrait_South_Africa_Army_Generic_2.dds"
 		}
 	}
-	
+
 	navy = {
 		male = {
 			"gfx/leaders/Africa/Portrait_Africa_Generic_navy_1.dds"
@@ -629,24 +629,24 @@ BHR = {
 			"gfx/leaders/Africa/Portrait_Africa_Generic_navy_3.dds"
 		}
 	}
-	
+
 	political = {
 		traditionalism = {
-				male = { 
-					"gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"	
+				male = {
+					"gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
 					"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
 					"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic.dds"
 			}
 		}
 		reformism = {
-				male = { 
-					"gfx/leaders/Africa/Portrait_Africa_Generic_2.dds" 
-					"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"		
+				male = {
+					"gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
+					"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
 			}
 		}
 		imperialism = {
-				male = { 
-					"gfx/leaders/Africa/Portrait_Africa_Generic_3.dds" 
+				male = {
+					"gfx/leaders/Africa/Portrait_Africa_Generic_3.dds"
 					"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic.dds"
 					"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
 					"gfx/leaders/SAF/Portrait_South_Africa_Army_Generic.dds"
@@ -654,8 +654,8 @@ BHR = {
 			}
 		}
 		fundamentalism = {
-				male = { 
-					"gfx/leaders/Africa/Portrait_Africa_Generic_3.dds" 
+				male = {
+					"gfx/leaders/Africa/Portrait_Africa_Generic_3.dds"
 					"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic.dds"
 					"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
 			}

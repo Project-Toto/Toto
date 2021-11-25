@@ -4,12 +4,12 @@
 	oob = "Africa_1857"
 
 	set_convoys = 0
-	
+
 	set_research_slots = 1
 
-	add_ideas = { 
-		#POLITICS 
-			
+	add_ideas = {
+		#POLITICS
+
 		hos_is_leader
 		pre_industrial_era
 		agrarian
@@ -44,7 +44,7 @@
 		#sfund_private_ventures_only
 
 				 #NATIONAL SPIRITS
-		
+
 	AF_T_small_kingdom
 	
 	}
@@ -76,7 +76,7 @@ set_popularities = {
 	create_country_leader = {
 	name = "Mahmud V ibn Yusuf"
 	desc = "POLITICS_GEORGE_V_DESC"
-	picture = "gfx/leaders/Africa/African_Generic_15.dds"
+	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
 	expire = "1900.1.1"
 	ideology = despotism
 	traits = {

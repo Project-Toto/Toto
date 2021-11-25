@@ -1,82 +1,76 @@
-capital = 1
+# Defines
+	capital = 62
 
-# Starting tech
-set_technology = {
-	traditional_mixed_arms = 1
-	tribaltech = 1
-}
+	set_research_slots = 1
 
-add_ideas = {
-		#POLITICS
+# Technology
+	set_technology = {
+		tribaltech = 1
+		start_build_tech = 1
+	}
 
-		#
+# LAWS
+	add_ideas = {
+		# Attributes
+			# law_country_power_irrelevant #<rank>
+			law_country_religion_sunni #<religion>
+			# law_country_culture_uncategorized #<culture>
+			law_country_government_religious_order #<government>
+			AF_T_small_kingdom #<society>
+			law_army_tribal_improved #<tactics>
+		# Status
+			# agrarian #<industrialization>
+			# law_country_centralization_stable #<centralization>
+			# law_country_prosperity_stable #<prosperity>
+			# stagnation_growth #<population>
+			# AF_T_Tribal_Army #<army>
+		# Politics
+			sharia_constitution #<constitution>
+			# no_heir #<heir>
+			# absolutism #<suffrage>
+			open_borders #<borders>
+			# tribal_slavery #<discrimination>
+			traditional_uluma #<education>
+		# Economy
+			free_trade #<economy>
+			# normal_taxes #<taxes>
+			# lp_african_communalism #<property>
+			# manpower_tribal_warriors #<manpower>
+			# none #<theorist>
+			# none #<partnership>
+	}
 
-		agrarian
-		no_heir
-		law_country_government_kingdom
-	law_army_tribal_basic
-
-
-		closed_economy
-		
-		very_low_taxes
-	#
-	lp_land_estates
-
-		stagnation_growth
-		no_borders
-		manpower_tribal_warriors
-		tribal_slavery
-		absolutism
-
-		no_constitution
-
-
-		oral_tradition
-
-	law_country_religion_sunni
-
-	 #
-		#
-		#
-		#
-		#
-
-				 #NATIONAL SPIRITS
-
-	AF_T_organized_tribal_nation
-	AFR_history_of_colonial_resistance
+# National Spirits
+	add_ideas = {
 
 	}
 
-	#Rivals
-	#set_variable = { var = rival_country value = TRZ }
+# Diplomacy
+	set_variable = { var = rival_country value = BRN.id }
+	# set_variable = { var = most_favoured_country value = SKT.id }
 
-	#Diplomacy
-	#add_opinion_modifier = { target = FRA modifier = AFR_colonial_conflict }
-	#add_opinion_modifier = { target = EPD modifier = AFR_colonial_conflict }
-	add_opinion_modifier = { target = SNG modifier = AFR_colonial_conflict }
+# Politics
+	set_politics = {
+		ruling_party = fundamentalism
+		last_election = "1856.1.1"
+		elections_allowed = no
+	}
+	set_popularities = {
+		fundamentalism = 64
+		imperialism = 0
+		traditionalism = 35
+		reformism = 1
+	}
 
+# Variables
+	add_to_variable = { var = Tribal_army_num value = 0 }
 
-set_politics = {
-	ruling_party = traditionalism
-	last_election = "1856.1.1"
-	election_frequency = 48
-	elections_allowed = no
-}
-set_popularities = {
-	traditionalism = 60
-	fundamentalism = 20
-	reformism = 15
-	imperialism = 5
-}
-
-# POLITICAL LEADERS
-
+# Characters
 	create_country_leader = {
-		name = "Sidi Ahmad wuld `Ayda"
-		desc = "POLITICS_TEMP_DESC"
-		picture = "gfx/leaders/Africa/african_generic_8.dds"
-		expire = 1891.12.31
-		ideology = traditionalism_absolutism
+		name = "Muhammadu Lawal bi Adama"
+		desc = "POLITICS_GEORGE_V_DESC"
+		picture = "gfx/leaders/Africa/Portrait_African_Generic_18.dds"
+		expire = "1900.1.1"
+		ideology = fundamentalism_absolutism
+		traits = { }
 	}
