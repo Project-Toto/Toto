@@ -3,8 +3,12 @@ state={
 	id=638
 	name="STATE_638"
 	provinces={
-		588 1300 1398 3171 4603 10295 10318 
+		588 1300 1398 3171 4603 10295 10318
 	}
-	manpower=0
+	history={
+		owner=TES
+	}
+	state_category=town
+	manpower=1
 	buildings_max_level_factor=1.000
 }

@@ -83,7 +83,7 @@
 	create_country_leader = {
 		name = "Jefferson Davis"
 		desc = "POLITICS_GEORGE_V_DESC"
-		picture = "gfx/leaders/Africa/African_Generic_18.dds"
+		picture = "gfx/leaders/Africa/Portrait_African_Generic_18.dds"
 		expire = "1900.1.1"
 		ideology = traditionalism_republic
 		traits = { }

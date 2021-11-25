@@ -2,8 +2,12 @@ state={
 	id=651
 	name="STATE_651"
 	provinces={
-		1232 1664 4591 4892 6480 7271 9209 9277 9290 
+		1232 1664 4591 4892 6480 7271 9209 9277 9290
 	}
-	manpower=0
+	history={
+		owner=TES
+	}
+	state_category=town
+	manpower=1
 	buildings_max_level_factor=1.000
 }

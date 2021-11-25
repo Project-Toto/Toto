@@ -2,8 +2,12 @@ state={
 	id=649
 	name="STATE_649"
 	provinces={
-		555 858 2049 2056 2228 2731 3275 4033 5427 6092 9186 9191 9238 
+		555 858 2049 2056 2228 2731 3275 4033 5427 6092 9186 9191 9238
 	}
-	manpower=0
+	history={
+		owner=TES
+	}
+	state_category=town
+	manpower=1
 	buildings_max_level_factor=1.000
 }

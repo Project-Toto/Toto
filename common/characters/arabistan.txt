@@ -3,7 +3,7 @@ characters = {
 		portraits = {
 			army = {
 				small = ""
-				large = "gfx/leaders/Africa/African_Generic_18.dds"
+				large = "gfx/leaders/Africa/Portrait_African_Generic_18.dds"
 			}
 		}
 
@@ -16,7 +16,7 @@ characters = {
 		portraits = {
 			army = {
 				small = ""
-				large = "gfx/leaders/Africa/African_Generic_18.dds"
+				large = "gfx/leaders/Africa/Portrait_African_Generic_18.dds"
 			}
 		}
 
@@ -30,7 +30,7 @@ characters = {
 		portraits = {
 			army = {
 				small = ""
-				large = "gfx/leaders/Africa/African_Generic_18.dds"
+				large = "gfx/leaders/Africa/Portrait_African_Generic_18.dds"
 			}
 		}
 

@@ -84,7 +84,7 @@ buildings = {
 	}
 
 	air_base = {
-		show_on_map = 1
+		show_on_map = 0
 		base_cost = 3000
 		icon_frame = 5
 		air_base = yes

@@ -32,7 +32,7 @@ technologies = {
 			leads_to_tech = tech_naval_1850_gunboat
 			research_cost_coeff = 1
 		}
-		
+
 		dependencies = {
 			steam_engine = 1
 		}
@@ -1350,7 +1350,7 @@ technologies = {
 		}
 	}
 	tech_naval_1880_protected_cruiser = {
-	
+
 		enable_equipments = {
 			ship_heavy_cruiser_1
 		}
@@ -1383,7 +1383,7 @@ technologies = {
 		}
 	}
 	tech_naval_1890_heavy_cruiser = {
-	
+
 		enable_equipments = {
 			ship_heavy_cruiser_2
 		}
@@ -1448,7 +1448,7 @@ technologies = {
 			}
 		}
 	}
-	
+
 	tech_naval_1875_unprotected_cruiser = {
 
 		enable_equipments = {
@@ -1483,7 +1483,7 @@ technologies = {
 		}
 	}
 	tech_naval_1880_unprotected_cruiser = {
-	
+
 		enable_equipments = {
 			ship_light_cruiser_1
 		}
@@ -1516,7 +1516,7 @@ technologies = {
 		}
 	}
 	tech_naval_1890_light_cruiser = {
-	
+
 		enable_equipments = {
 			ship_light_cruiser_2
 		}
@@ -1549,7 +1549,7 @@ technologies = {
 		}
 	}
 	tech_naval_1900_light_cruiser = {
-	
+
 		enable_equipments = {
 			ship_light_cruiser_3
 		}
@@ -1582,7 +1582,7 @@ technologies = {
 		}
 	}
 	tech_naval_1910_light_cruiser = {
-	
+
 		enable_equipments = {
 			ship_light_cruiser_4
 		}
@@ -1615,7 +1615,7 @@ technologies = {
 		}
 	}
 	tech_naval_1915_light_cruiser = {
-	
+
 		enable_equipments = {
 			ship_light_cruiser_5
 		}
@@ -1648,7 +1648,7 @@ technologies = {
 		}
 	}
 	tech_naval_1918_light_cruiser = {
-	
+
 		enable_equipments = {
 			ship_light_cruiser_6
 		}
@@ -1692,7 +1692,7 @@ technologies = {
 		}
 
 		xp_research_type = navy
-		xp_research_cost = 25
+		xp_boost_cost = 25
 		xp_research_bonus = 1
 		research_cost = 1.2
 		start_year = 1800
@@ -1714,7 +1714,7 @@ technologies = {
 			}
 		}
 	}
-	
+
 	tech_naval_merchant_ship_requisitioning = {
 
 		naval_invasion_capacity = 1
@@ -1727,7 +1727,7 @@ technologies = {
 		}
 
 		xp_research_type = navy
-		xp_research_cost = 25
+		xp_boost_cost = 25
 		xp_research_bonus = 1
 		research_cost = 1.25
 		start_year = 1860
@@ -1762,7 +1762,7 @@ technologies = {
 		}
 
 		xp_research_type = navy
-		xp_research_cost = 25
+		xp_boost_cost = 25
 		xp_research_bonus = 1
 		research_cost = 1.25
 		start_year = 1880
@@ -1784,7 +1784,7 @@ technologies = {
 			}
 		}
 	}
-	
+
 	tech_naval_dedicated_transport_boats = {
 
 		enable_equipments = {
@@ -1800,7 +1800,7 @@ technologies = {
 		}
 
 		xp_research_type = navy
-		xp_research_cost = 25
+		xp_boost_cost = 25
 		xp_research_bonus = 1
 		research_cost = 1.35
 		start_year = 1900
@@ -1837,7 +1837,7 @@ technologies = {
 		amphibious_invasion_defence = 0.2
 
 		xp_research_type = navy
-		xp_research_cost = 25
+		xp_boost_cost = 25
 		xp_research_bonus = 1
 		research_cost = 1.4
 		start_year = 1916
