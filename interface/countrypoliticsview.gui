@@ -75,6 +75,15 @@ guiTypes = {
 				format = center
 				vertical_alignment = center
 			}
+
+			iconType = {
+				name = "leader_frame2"
+				spriteType = "GFX_pol_leader_frame"
+				position = { x = 10 y = 44 }
+				alwaystransparent = yes
+			}
+
+
 		# National Focus
 			containerWindowType = {
 				name = "active_goal"
@@ -983,6 +992,8 @@ guiTypes = {
 			hide_animation_type = accelerated
 			size = { width=548 height=100%% }
 			clipping = yes
+			scroll_wheel_factor = 40
+			smooth_scrolling = yes
 			verticalScrollbar = "right_vertical_slider"
 			margin = { top = 15 bottom = 15}
 		
@@ -1165,6 +1176,8 @@ guiTypes = {
 			hide_animation_type = accelerated
 			size = { width=548 height=100%% }
 			clipping = yes
+			scroll_wheel_factor = 40
+			smooth_scrolling = yes
 			verticalScrollbar = "right_vertical_slider"
 			margin = { top = 15 bottom = 15}
 		
