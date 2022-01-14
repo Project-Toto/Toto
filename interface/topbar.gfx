@@ -68,6 +68,13 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate.lua"
 		noOfFrames = 3		
 	}
+
+	spriteType = {
+		name = "GFX_supply_strip"
+		texturefile = "gfx/interface/unitcontrol/supply_strip.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		noOfFrames = 3
+	}
 	
 	spriteType = {
 		name = "GFX_playlist_bg"
@@ -102,6 +109,42 @@ spriteTypes = {
 	frameAnimatedSpriteType = {
 		name = "GFX_decisions_glow"
 		texturefile = "gfx/interface/decisionview/decisions_glow.dds"
+		noOfFrames = 2
+		animation_rate_fps = 1
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+		alwaystransparent = yes
+		effectFile = "gfx/FX/buttonstate_blendframes.lua"
+	}
+
+	frameAnimatedSpriteType = {
+		name = "GFX_decisions_glow_blue"
+		texturefile = "gfx/interface/decisionview/decisions_glow_blue.dds"
+		noOfFrames = 2
+		animation_rate_fps = 1
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+		alwaystransparent = yes
+		effectFile = "gfx/FX/buttonstate_blendframes.lua"
+	}
+
+	frameAnimatedSpriteType = {
+		name = "GFX_decisions_glow_yellow"
+		texturefile = "gfx/interface/decisionview/decisions_glow_yellow.dds"
+		noOfFrames = 2
+		animation_rate_fps = 1
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+		alwaystransparent = yes
+		effectFile = "gfx/FX/buttonstate_blendframes.lua"
+	}
+
+	frameAnimatedSpriteType = {
+		name = "GFX_decisions_glow_green"
+		texturefile = "gfx/interface/decisionview/decisions_glow_green.dds"
 		noOfFrames = 2
 		animation_rate_fps = 1
 		looping = yes
@@ -252,6 +295,36 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_manpower_icon"
+		texturefile = "gfx//interface//manpower_icon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_unity_icon"
+		texturefile = "gfx//interface//unity_icon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_pol_power_icon"
+		texturefile = "gfx//interface//pol_power_icon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_war_support_icon"
+		texturefile = "gfx//interface//war_support_icon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_stability_icon"
+		texturefile = "gfx//interface//stability_icon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_command_power"
+		texturefile = "gfx/interface/command_power_icon.dds"
+	}
+
+	spriteType = {
 		name = "GFX_topbar_date_overlay"
 		texturefile = "gfx//interface//topbar//topbar_date_overlay.dds"
 		transparencecheck = yes
@@ -335,6 +408,12 @@ spriteTypes = {
 		name = "GFX_ledger_button"
 		texturefile = "gfx//interface//topbar//toolbar//ledger_button.dds"
 		noOfFrames = 2		
+	}
+
+	spriteType = {
+		name = "GFX_staff_office_button"
+		texturefile = "gfx//interface//topbar//toolbar//staff_office_button.dds"
+		noOfFrames = 2
 	}
 
 	spriteType = {
