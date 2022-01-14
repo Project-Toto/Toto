@@ -87,7 +87,7 @@
  afr_empire_politics_state_foreign_diplomacy_set_target_decision:0 "§WState Diplomacy:§! §Y[FROM.GetName]§!"
  afr_empire_politics_state_foreign_diplomacy_set_target_decision_tooltip:0 "Unlocks decisions related to the state of [FROM.GetName]."
  afr_empire_politics_state_foreign_diplomacy_clear_target_decision:0 "Switch State Target"
- afr_empire_politics_state_foreign_diplomacy_clear_target_decision:0 "Will clear the current §YState Diplomacy§! target, allowing one to select a new state."
+ afr_empire_politics_state_foreign_diplomacy_clear_target_decision_tooltip:0 "Will clear the current §YState Diplomacy§! target, allowing one to select a new state."
 
  afr_empire_politics_foreign_diplomacy_in_event_tooltip:0 "Not engaged in diplomacy"
 
