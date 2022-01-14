@@ -1,5 +1,5 @@
 ﻿
-	capital = 169
+	capital = 439
 
 	oob = "WDD_1857"
 

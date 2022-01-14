@@ -1453,7 +1453,6 @@
  GDC_british_imperialism_DEF:0 "British Gold Coast"
  GDC_british_radical_democracy_DEF:0 "United Gold Coast Republic"
  GDC_british_anarchism_DEF:0 "Gold Coast"
- GDC_british_imperialism_DEF:0 "Gold Coast State"
  GDC_british_fundamentalism_DEF:0 "Gold Coast"
  GDC_british_reformism_ADJ:0 "Gold Coast"
  GDC_british_traditionalism_ADJ:0 "Gold Coast"
@@ -1463,7 +1462,6 @@
  GDC_british_imperialism_ADJ:0 "Gold Coast"
  GDC_british_radical_democracy_ADJ:0 "Gold Coast"
  GDC_british_anarchism_ADJ:0 "Gold Coast"
- GDC_british_imperialism_ADJ:0 "Gold Coast"
  GDC_british_fundamentalism_ADJ:0 "Gold Coast"
 
  GDC_dutch_reformism:0 "Dutch Gold Coast"
@@ -1484,7 +1482,6 @@
  GDC_dutch_imperialism_DEF:0 "Dutch Gold Coast"
  GDC_dutch_radical_democracy_DEF:0 "United Gold Coast Republic"
  GDC_dutch_anarchism_DEF:0 "Gold Coast"
- GDC_dutch_imperialism_DEF:0 "Gold Coast State"
  GDC_dutch_fundamentalism_DEF:0 "Gold Coast"
  GDC_dutch_reformism_ADJ:0 "Gold Coast"
  GDC_dutch_traditionalism_ADJ:0 "Gold Coast"
@@ -1494,7 +1491,6 @@
  GDC_dutch_imperialism_ADJ:0 "Gold Coast"
  GDC_dutch_radical_democracy_ADJ:0 "Gold Coast"
  GDC_dutch_anarchism_ADJ:0 "Gold Coast"
- GDC_dutch_imperialism_ADJ:0 "Gold Coast"
  GDC_dutch_fundamentalism_ADJ:0 "Gold Coast"
 
  TRV_ENG_dominated_reformism:0 "Transvaal"
@@ -1901,7 +1897,6 @@
  ZAI_CFS_imperialism_DEF:0 "Congo Free State"
  ZAI_CFS_radical_democracy_DEF:0 "Congo Free State"
  ZAI_CFS_anarchism_DEF:0 "Congo Free State"
- ZAI_CFS_imperialism_DEF:0 "Congo Free State"
  ZAI_CFS_fundamentalism_DEF:0 "Congo Free State"
  ZAI_CFS_reformism_ADJ:0 "Congo Free State"
  ZAI_CFS_traditionalism_ADJ:0 "Congo Free State"
@@ -1911,7 +1906,6 @@
  ZAI_CFS_imperialism_ADJ:0 "Congo Free State"
  ZAI_CFS_radical_democracy_ADJ:0 "Congo Free State"
  ZAI_CFS_anarchism_ADJ:0 "Congo Free State"
- ZAI_CFS_imperialism_ADJ:0 "Congo Free State"
  ZAI_CFS_fundamentalism_ADJ:0 "Congo Free State"
 
  ZAI_DRC_reformism:0 "Democratic Republic of the Congo"

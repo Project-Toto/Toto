@@ -1,5 +1,5 @@
 ﻿1857.1.1 = {
-	capital = 556
+	capital = 201
 
 	oob = "Africa_1857"
 

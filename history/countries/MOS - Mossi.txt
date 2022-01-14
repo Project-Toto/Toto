@@ -1,5 +1,5 @@
 ﻿
-	capital = 386
+	capital = 210
 
 	#oob = "Africa_1857"
 

@@ -1,5 +1,5 @@
 # Defines
-	capital = 28
+	capital = 38
 
 	set_research_slots = 1
 

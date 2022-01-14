@@ -927,7 +927,7 @@ technologies = {
 
 		on_research_complete = {
 			modify_building_resources = {
-				building = synthetic_refinery_oil
+				building = synthetic_refinery
 				resource = oil
 				amount = 1
 			}
