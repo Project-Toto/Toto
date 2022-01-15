@@ -78,7 +78,6 @@
 
  afr_imperial_decline:0 "Imperial Decline"
  afr_imperial_decline_desc:0 "§YInternal Tribal Support:§!§W\nLoyalist Tribes:§! §G[?ROOT.afr_fractured_kingdom_loyalist_support@ROOT]%§!\n§WRival Tribes:§! §R[?ROOT.afr_fractured_kingdom_opposition_support@ROOT]%§!\n\nDue to rebellious coups, inept leadership, or even empire shattering conflicts, [ROOT.GetName] has become weak as a regional power. As long as the tribes within the empire remain somewhat disjointed, [ROOT.GetName] will continue to be in decline."
- afr_not_imperial_decline_tooltip:0 "Does not have an §RImperial Decline§!"
 
  tribal_cavalry:0 "Tribal Horse Cavalry"
  tribal_pistoleer_cavalry:0 "Tribal Pistoleer Cavalry"
@@ -387,7 +386,6 @@
  afr_vast_forces_2:0 "Centralized Military Command"
  afr_vast_forces_3:0 "Centralized Military Command"
  afr_vast_forces_4:0 "Centralized Military Command"
- afr_vast_forces_4:0 "Centralized Military Command"
  afr_centralized_command_structure_3:0 "Centralized Military Command"
  afr_centralized_command_structure_4:0 "Centralized Military Command"
  afr_centralized_command_structure_5:0 "Centralized Military Command"
@@ -395,7 +393,7 @@
  afr_superor_weaponry_2:0 "Independently Improvised Equipment"
  afr_superor_weaponry_3:0 "Independently Improvised Equipment"
  afr_camel_cavalry:0 "Camel Cavalry Tactics"
- afr_superor_weaponry:0 "Superior Weaponry Command"
+ afr_superor_weaponry_4:0 "Superior Weaponry Command"
  afr_inw_our_military_is_keener:0 "High Command Cost §G-15%§!.\nArmy Chief Cost §G-15%§!."
  afr_where_we_stand_idea:0 "Where We Stand"
  afr_the_old_ways_idea:0 "The Old Ways"
@@ -791,8 +789,6 @@
  ofs_vic_encorage_immirgration_desc:0 "In order to increase our population our advisors have suggested that we implement policies to encourage more Immigration into our country"
  ofs_vic_create_a_national_tax_code:0 "Create a National Tax Code"
  ofs_vic_create_a_national_tax_code_desc:0 "Our economy is completely unbalanced and unregulated, we should establish a proper tax code to stablise our nation and its economy"
- autonomy_ottoman_khedive:0 "Khedivate"
- autonomy_ottoman_eyalet:0 "Eyalet"
  egy_sudan_slave_raids:0 "Sudanese Slave Raids"
  EGY_Otto_may_disaprove:0 "§R[OTO.GetNameDef] may intercede§!"
  OTO_allows_EGY_army_expansion:0 "[OTO.GetNameDef] allows [OTO.GetNameDef] army expansion"

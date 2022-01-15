@@ -963,7 +963,6 @@
  GRM_DEF:0 "Fada N'Gourma"
  GRM_ADJ:0 "Mossi"
 
-
  GRN:0 "Gurunsi"
  GRN_DEF:0 "Gurunsi"
  GRN_ADJ:0 "Mossi"
@@ -1113,9 +1112,6 @@
  GNJ:0 "Gonja"
  GNJ_DEF:0 "Gonja"
  GNJ_ADJ:0 "Gonjan"
- GRM:0 "Gurma"
- GRM_DEF:0 "Gurma"
- GRM_ADJ:0 "Gurmanese"
  KTT:0 "Ketti"
  KTT_DEF:0 "Ketti"
  KTT_ADJ:0 "Ketti"
@@ -1664,7 +1660,6 @@
  DAH_traditionalism_DEF:0 "Dahomey"
  KRU_traditionalism_DEF:0 "Kru"
  AKA_traditionalism_DEF:0 "Akan"
- GDC_traditionalism_DEF:0 "Gold Coast"
  MND_traditionalism_DEF:0 "Mandé"
  KOG_traditionalism_DEF:0 "Kong"
  MNH_traditionalism_DEF:0 "Kpaa Mende"
@@ -1791,7 +1786,6 @@
  DAH_traditionalism_ADJ:0 "Dahomey"
  KRU_traditionalism_ADJ:0 "Kru"
  AKA_traditionalism_ADJ:0 "Akan"
- GDC_traditionalism_ADJ:0 "Gold Coast"
  MND_traditionalism_ADJ:0 "Mandé"
  KOG_traditionalism_ADJ:0 "Kong"
  MNH_traditionalism_ADJ:0 "Kpaa Mende"
