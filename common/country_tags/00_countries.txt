@@ -39,7 +39,7 @@
  # Anatolia
    # graphical_culture = middle_eastern_gfx
    # graphical_culture_2d = middle_eastern_2d
-  ARM = "countries/Armenia"
+  ARM = "countries/Armenia.txt"
   KUR = "countries/Kurdistan.txt"
   # OTO = "countries/Ottomans.txt"
   TUR = "countries/Turkey.txt"
@@ -330,7 +330,6 @@
   ARO = "countries/Aro.txt"
   IGA = "countries/Igala.txt"
   IJW = "countries/Ijaw.txt"
-  KFK = "countries/Konfuka.txt"
   NRI = "countries/Nri.txt"
 
  # Tschad

@@ -5,7 +5,7 @@ state={
 		1946 2623 3184 4218 4239 7188 9791 9800 9811 9815 9834 9844 9847
 	}
 	history = {
-
+		owner = TYO
 	}
 	manpower=1
 	state_category=town
