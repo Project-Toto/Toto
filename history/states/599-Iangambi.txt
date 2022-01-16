@@ -5,7 +5,7 @@ state={
 		793 2098 2892 3841 3966 4744 5547 6068 9733 9742 9769
 	}
 	history = {
-
+		owne = TYO
 	}
 	manpower=1
 	state_category=town

@@ -292,21 +292,21 @@
   GHA = "countries/Ghana.txt"
   GNJ = "countries/Gonja.txt"
   GRM = "countries/Gurma.txt"
-  KTT = "countries/Ketti.txt"
   WAA = "countries/Wa.txt"
 
  # Togo
    # graphical_culture = african_gfx
    # graphical_culture_2d = african_2d
+  KTT = "countries/Ketti.txt"
   TOG = "countries/Togo-Be.txt"
  # Dahomey
   # graphical_culture = african_gfx
   # graphical_culture_2d = african_2d
   BUE = "countries/Bue.txt"
+  DAH = "countries/Dahomey.txt"
   KDI = "countries/Kandi.txt"
   PKU = "countries/Parakou.txt"
   NIK = "countries/Nikki.txt"
-  DAH = "countries/Dahomey.txt"
 
  # Yorubaland
    # graphical_culture = african_gfx
@@ -330,8 +330,8 @@
   ARO = "countries/Aro.txt"
   IGA = "countries/Igala.txt"
   IJW = "countries/Ijaw.txt"
-  NRI = "countries/Nri.txt"
   KFK = "countries/Konfuka.txt"
+  NRI = "countries/Nri.txt"
 
  # Tschad
    # graphical_culture = african_gfx
@@ -342,9 +342,9 @@
   DFS = "countries/Dar Sila.txt"
   DRG = "countries/Dar Runga.txt"
   KNM = "countries/Kanem.txt"
-  WDD = "countries/Waddai.txt"
   TOB = "countries/Toubou.txt"
   TUG = "countries/Tuareg.txt"
+  WDD = "countries/Waddai.txt"
 
  # Centralia
    # graphical_culture = african_gfx
