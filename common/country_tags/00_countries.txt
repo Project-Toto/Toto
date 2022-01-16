@@ -362,10 +362,16 @@
    # graphical_culture = african_gfx
    # graphical_culture_2d = african_2d
   BAG = "countries/Bagirmi.txt"
+  BTB = "countries/Batibo.txt"
+  BUA = "countries/Buea.txt"
+  BYO = "countries/Banyo.txt"
   CMR = "countries/Cameroon.txt"
+  DUA = "countries/Duala.txt"
+  FNF = "countries/Fonfuka.txt"
+  KOM = "countries/Kom.txt"
   KTK = "countries/Kotoko.txt"
   LGN = "countries/Logone.txt"
-  NSO = “countries/Nso.txt”
+  NSO = "countries/Nso.txt"
 
  # Gabon
    # graphical_culture = african_gfx
@@ -460,7 +466,6 @@
 	#aaaaaa
 	NKO = "countries/Nkore.txt"
 	
-	BUS = "countries/Busoga.txt"
 	BMM = "countries/Bamum.txt"
 	BET = "countries/Beti.txt"
 	BLU = "countries/Bulu.txt"
@@ -482,6 +487,7 @@
 	CEK = "countries/CopticEthiopianKingdom.txt"
 	KRG = "countries/Karangwe.txt"
 	BUG = "countries/Buganda.txt"
+	BUS = "countries/Busoga.txt"
 	MSI = "countries/Msiri.txt"
 	TIP = "countries/Tippu Tip.txt"
 	TTL = "countries/Tetala.txt"

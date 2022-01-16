@@ -5,7 +5,7 @@ state={
 		258 1928 2015 2435 4774 6627 7223 8727 8765
 	}
 	history={
-		owner=MDR
+		owner=KBO
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

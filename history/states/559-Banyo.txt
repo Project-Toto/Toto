@@ -5,7 +5,7 @@ state={
 		270 3780 3787 9307
 	}
 	history = {
-
+		owner = BYO
 	}
 	manpower=1
 	state_category=town

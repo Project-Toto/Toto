@@ -2,13 +2,17 @@
 state={
 	id=437
 	name="STATE_437"
-	provinces={
-		2526 3205 3519 4006 4279 4688 5928 6217 6578 6944 9061 9071 9072 9084 9091 9093 9141 9152 9175
-	}
+
 	history={
-		owner=SRA
+		owner = BAG
+
+	}
+
+	provinces={
+		3205 4688 6217 6944 9071 9072 9084 9091 9093 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
 	state_category=town
+	local_supplies=0.000
 }

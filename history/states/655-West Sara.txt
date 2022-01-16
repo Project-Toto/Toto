@@ -1,0 +1,13 @@
+state={
+	id=655
+	name="STATE_655"
+	provinces={
+		2526 3519 4006 4279 5928 6578 9061 9141 9152 9175 
+	}
+	history = {
+		owner = SRA
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

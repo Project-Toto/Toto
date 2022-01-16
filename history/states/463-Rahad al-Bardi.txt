@@ -5,7 +5,7 @@ state={
 		2853 3125 5911 8737 8750 8817
 	}
 	history={
-		owner=DFR
+		owner=ALZ
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

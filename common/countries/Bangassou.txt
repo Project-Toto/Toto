@@ -1,4 +1,3 @@
-color = rgb { 152 130 191 }
-color_ui = rgb { 198 169 248 }
+color = rgb { 200 55 155 }
 graphical_culture = african_gfx
 graphical_culture_2d = african_2d

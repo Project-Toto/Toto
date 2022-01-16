@@ -6,7 +6,7 @@ state={
 		4907 5264 9367 9383 9406
 	}
 	history = {
-
+		owner = KOM
 	}
 	manpower=1
 	state_category=town
