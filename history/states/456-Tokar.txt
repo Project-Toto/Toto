@@ -2,13 +2,17 @@
 state={
 	id=456
 	name="STATE_456"
-	provinces={
-		34 244 468 1221 1963 2158 2363 2741 2819 3173 3750 4958 6544 6703 8154 8170 8202 8208 8211
-	}
+
 	history={
-		owner=EGY
+		owner = EGY
+
+	}
+
+	provinces={
+		34 1221 1329 1555 1963 2158 2241 3750 4958 8153 8163 8202 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
 	state_category=town
+	local_supplies=0.000
 }

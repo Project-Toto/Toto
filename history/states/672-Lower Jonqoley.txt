@@ -1,13 +1,11 @@
-
 state={
-	id=460
-	name="STATE_460"
-
+	id=672
+	name="STATE_672"
 	provinces={
-		212 437 2622 3150 4274 4330 4469 5814 6091 6816 6864 8226 8240 8257 8259 8277 8333
+		1639 2304 2323 2849 3560 4662 4972 6861 9112 9142 
 	}
 	history={
-		owner = MED
+		owner = ETH
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

@@ -1,13 +1,11 @@
-
 state={
-	id=460
-	name="STATE_460"
-
+	id=658
+	name="STATE_658"
 	provinces={
-		212 437 2622 3150 4274 4330 4469 5814 6091 6816 6864 8226 8240 8257 8259 8277 8333
+		1891 3201 3351 3804 4927 5070 5816 8472 8487 8504 8536 8599 8602 
 	}
 	history={
-		owner = MED
+		owner = EGY
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
