@@ -1,15 +1,36 @@
 autonomy_state = {
 	id = autonomy_afr_protectorate
+	
+	default = no
+	
+	is_puppet = no
+	use_overlord_color = yes
 
-	#is_puppet = yes
-
-	min_freedom_level = 0.0
-
-	manpower_influence = 0.05
+	min_freedom_level = 0.95
+	manpower_influence = 0.00
 
 	rule = {
+	  can_be_called_to_war = yes
+	  can_decline_call_to_war = yes
+	  
+	  can_create_factions = yes
+	  
+	  can_declare_war_on_same_ideology = yes
+	  can_declare_war_without_wargoal_when_in_war = no
+	  
+	  can_force_government = no
+	  can_boost_other_ideologies = no
+	  
+	  can_generate_female_aces = no
+	  
 		can_not_declare_war = no
 		can_decline_call_to_war = yes
+		
+		units_deployed_to_overlord = no
+		
+		can_be_spymaster = no
+		contributes_operatives = no
+		can_create_collaboration_government = no
 	}
 
 	modifier = {
@@ -19,11 +40,11 @@ autonomy_state = {
 	}
 
 	ai_subject_wants_higher = {
-		factor = 1.0
+		base = 0
 	}
 
 	ai_overlord_wants_lower = {
-		factor = 1.0
+		base = 0
 	}
 
 	ai_overlord_wants_garrison = {
@@ -32,67 +53,27 @@ autonomy_state = {
 
 	allowed = {
 		toto_enabled_autonomy = yes
-		NOT = {
-			OVERLORD = {
-				OR = {
-					tag = OTO
-					has_variable = has_afr_empire_mechanic_system
-				}
+		is_possible_colonizer = yes
+	}
+	
+	use_for_peace_conference_weight = {
+		base = 0
+		modifier = {
+			add = 100
+			FROM = {
+				has_wargoal_against = { target = ROOT type = force_protectorate_wargoal }
 			}
 		}
-
-
-		# if = {
-		# 	limit = { OR = {
-		# 		has_dlc = "Together for Victory"
-		# 		has_dlc = "Waking the Tiger"
-		# 		has_dlc = "Death or Dishonor"
-		# 	} }
-		# 	if = {
-		# 		limit = {
-		# 			OR = {
-		# 				OVERLORD = {
-		# 					OR = {
-		# 						tag = OTO
-		# 						has_variable = has_afr_empire_mechanic_system
-		# 					}
-		# 				}
-		# 				has_country_flag = AFR_is_a_colonial_company_flag
-		# 				has_idea = AFR_french_colony
-		# 				has_idea = AFR_french_colony_tribute
-		# 				has_idea = AFR_british_colony
-		# 				has_idea = AFR_british_colony_tribute
-		# 				has_idea = AFR_portuguese_colony
-		# 				has_idea = AFR_portuguese_colony_tribute
-		# 				has_idea = AFR_netherland_colony
-		# 				has_idea = AFR_netherland_colony_tribute
-		# 				has_idea = AFR_spanish_colony
-		# 				has_idea = AFR_spanish_colony_tribute
-		# 				has_idea = AFR_swedish_colony
-		# 				has_idea = AFR_swedish_colony_tribute
-		# 				has_idea = AFR_german_colony
-		# 				has_idea = AFR_german_colony_tribute
-		# 				has_idea = AFR_hamburg_colony
-		# 				has_idea = AFR_hamburg_colony_tribute
-		# 				has_idea = AFR_bremen_colony
-		# 				has_idea = AFR_bremen_colony_tribute
-		# 			}
-		# 		}
-		# 		always = no
-		# 	}
-		# }
-		# else = { always = no }
-		# OR = {
-		# 	has_idea = AFR_french_protectorate
-		# 	has_idea = AFR_british_protectorate
-		# 	has_idea = AFR_netherland_protectorate
-		# 	has_idea = AFR_spanish_protectorate
-		# 	has_idea = AFR_portuguese_protectorate
-		# 	has_idea = AFR_swedish_protectorate
-		# 	has_idea = AFR_german_protectorate
-		# 	has_idea = AFR_hamburg_protectorate
-		# 	has_idea = AFR_bremen_protectorate
-		# }
+		modifier = {
+		  factor = 2
+		  FROM = {
+		    has_government = reformism
+		  }
+		}
+		modifier = {
+		  factor = 1.2
+		  num_of_owned_states > 4
+		}
 	}
 
 	can_take_level = {
@@ -100,110 +81,20 @@ autonomy_state = {
 	}
 
 	can_lose_level = {
-		#trigger here
-	}
-}
-autonomy_state = {
-	id = autonomy_afr_colonial_company
-	
-	is_puppet = yes
-	
-	min_freedom_level = 0.0
-	
-	manpower_influence = 0.1
-	
-	rule = {
-		can_not_declare_war = no
-		can_decline_call_to_war = yes
-	}
-	
-	modifier = {
-		extra_trade_to_overlord_factor = 1
-		overlord_trade_cost_factor = -0.25
-		autonomy_manpower_share = 0.10
-		research_sharing_per_country_bonus_factor = 0.25
-	}
-	
-	ai_subject_wants_higher = {
-		factor = 1.0
-	}
-	
-	ai_overlord_wants_lower = {
-		factor = 1.0
-	}
-
-	ai_overlord_wants_garrison = {
 		always = no
 	}
-
-	allowed = {
-		toto_enabled_autonomy = yes
-		NOT = {
-			OVERLORD = {
-				OR = {
-					tag = OTO
-					has_variable = has_afr_empire_mechanic_system
-				}
-			}
-		}
-
-		# OR = {
-		# 	has_dlc = "Together for Victory"
-		# 	has_dlc = "Waking the Tiger"
-		# 	has_dlc = "Death or Dishonor"
-		# }
-		# has_country_flag = AFR_is_a_colonial_company_flag
-		# NOT = {
-		# 	OVERLORD = {
-		# 		tag = OTO
-		# 		has_variable = has_afr_empire_mechanic_system
-		# 	}
-		# 	has_idea = AFR_french_protectorate
-		# 	has_idea = AFR_british_protectorate
-		# 	has_idea = AFR_netherland_protectorate
-		# 	has_idea = AFR_spanish_protectorate
-		# 	has_idea = AFR_portuguese_protectorate
-		# 	has_idea = AFR_swedish_protectorate
-		# 	has_idea = AFR_german_protectorate
-		# 	has_idea = AFR_hamburg_protectorate
-		# 	has_idea = AFR_bremen_protectorate
-		# }
-		# OR={
-		# 	has_idea = AFR_french_colony
-		# 	has_idea = AFR_french_colony_tribute
-		# 	has_idea = AFR_british_colony
-		# 	has_idea = AFR_british_colony_tribute
-		# 	has_idea = AFR_portuguese_colony
-		# 	has_idea = AFR_portuguese_colony_tribute
-		# 	has_idea = AFR_netherland_colony
-		# 	has_idea = AFR_netherland_colony_tribute
-		# 	has_idea = AFR_spanish_colony
-		# 	has_idea = AFR_spanish_colony_tribute
-		# 	has_idea = AFR_swedish_colony
-		# 	has_idea = AFR_swedish_colony_tribute
-		# 	has_idea = AFR_german_colony
-		# 	has_idea = AFR_german_colony_tribute
-		# 	has_idea = AFR_hamburg_colony
-		# 	has_idea = AFR_hamburg_colony_tribute
-		# 	has_idea = AFR_bremen_colony
-		# 	has_idea = AFR_bremen_colony_tribute
-		# }
-	}
 	
-	can_take_level = {
-		#trigger here
-	}
-
-	can_lose_level = {
-		#trigger here
+	allowed_levels_filter = {
+		autonomy_free
 	}
 }
+
 autonomy_state = {
-	id = autonomy_afr_colony
+	id = autonomy_afr_dominion
 	
 	is_puppet = yes
 	
-	min_freedom_level = 0.0
+	min_freedom_level = 0.75
 	
 	manpower_influence = 0.1
 	
@@ -213,11 +104,9 @@ autonomy_state = {
 	}
 	
 	modifier = {
-		extra_trade_to_overlord_factor = 1
-		overlord_trade_cost_factor = -0.5
-		can_master_build_for_us = 1
-		autonomy_manpower_share = 0.15
-		research_sharing_per_country_bonus_factor = 0.25
+		autonomy_manpower_share = 0.0
+		extra_trade_to_overlord_factor = 0.25
+		overlord_trade_cost_factor = -0.25
 	}
 	
 	ai_subject_wants_higher = {
@@ -242,6 +131,7 @@ autonomy_state = {
 				}
 			}
 		}
+
 
 		# OR = {
 		# 	has_dlc = "Together for Victory"
@@ -297,11 +187,57 @@ autonomy_state = {
 	}
 }
 autonomy_state = {
-	id = autonomy_afr_dominion
+	id = autonomy_afr_colonial_company
 	
 	is_puppet = yes
 	
-	min_freedom_level = 0.75
+	min_freedom_level = 0.0
+	
+	manpower_influence = 0.1
+	
+	rule = {
+		can_not_declare_war = no
+		can_decline_call_to_war = yes
+	}
+	
+	modifier = {
+		extra_trade_to_overlord_factor = 1
+		overlord_trade_cost_factor = -0.25
+		autonomy_manpower_share = 0.10
+		research_sharing_per_country_bonus_factor = 0.25
+	}
+	
+	ai_subject_wants_higher = {
+		factor = 1.0
+	}
+	
+	ai_overlord_wants_lower = {
+		factor = 1.0
+	}
+
+	ai_overlord_wants_garrison = {
+		always = no
+	}
+
+	allowed = {
+		toto_enabled_autonomy = yes
+		is_possible_colonizer = yes
+	}
+	
+	can_take_level = {
+		#trigger here
+	}
+
+	can_lose_level = {
+		#trigger here
+	}
+}
+autonomy_state = {
+	id = autonomy_afr_colony
+	
+	is_puppet = yes
+	
+	min_freedom_level = 0.0
 	
 	manpower_influence = 0.1
 	
@@ -311,9 +247,11 @@ autonomy_state = {
 	}
 	
 	modifier = {
-		autonomy_manpower_share = 0.0
-		extra_trade_to_overlord_factor = 0.25
-		overlord_trade_cost_factor = -0.25
+		extra_trade_to_overlord_factor = 1
+		overlord_trade_cost_factor = -0.5
+		can_master_build_for_us = 1
+		autonomy_manpower_share = 0.15
+		research_sharing_per_country_bonus_factor = 0.25
 	}
 	
 	ai_subject_wants_higher = {
@@ -338,7 +276,6 @@ autonomy_state = {
 				}
 			}
 		}
-
 
 		# OR = {
 		# 	has_dlc = "Together for Victory"
