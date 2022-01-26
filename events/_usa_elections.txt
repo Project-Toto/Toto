@@ -1,0 +1,392 @@
+add_namespace = usa_elections
+
+news_event = {
+  id = usa_elections.1
+  title = usa_elections.1.t
+  desc = usa_elections.1.d
+  picture = GFX_NEWSEVENT_USA_ELECTION
+  
+  is_triggered_only = yes
+  major = yes
+  
+  trigger = { USA = { exists = yes } }
+  
+  option = {
+    name = usa_elections.1.a
+    trigger = { is_subject_of = FROM }
+  }
+  option = {
+    name = usa_elections.1.b
+  }
+}
+
+country_event = {
+  id = usa_elections.1860
+  hidden = yes
+  
+  is_triggered_only = yes
+  
+  immediate = {
+    log = "[GetDateText]: [Root.GetTag]: id = usa_elections.1860"
+    #country_event = {
+    #  id = usa_elections.1864
+    #  days = 1460
+    #}
+  }
+  
+  immediate = {
+    # Replace Politicians
+      # Fundamentalism
+        # Henry Winter Davis Continues
+      # Imperialism
+        generate_character = {
+          token = USA_character_john_c_breckinridge
+          name = "John C. Breckinridge"
+          portraits = {
+            civilian = {
+              large = GFX_Portrait_USA_John_C_Breckinridge
+            }
+          }
+          country_leader = {
+            desc = "USA_character_john_c_breckinridge_desc"
+            ideology = imperialism_republic
+            expire = "1940.1.1"
+          }
+        }
+        generate_character = {
+          token = USA_character_joseph_lane
+          name = "Joseph Lane"
+          portraits = {
+            civilian = {
+              large = GFX_Portrait_USA_Joseph_Lane
+            }
+          }
+          country_leader = {
+            desc = "USA_character_joseph_lane_desc"
+            ideology = imperialism_republic
+            expire = "1940.1.1"
+          }
+        }
+        retire_character = USA_character_james_buchanan
+      # Traditionalism
+        # Stephen Douglas continue
+        generate_character = {
+          token = USA_character_herschel_v_johnson
+          name = "Herschel V. Johnson"
+          portraits = {
+            civilian = {
+              large = GFX_Portrait_USA_Herschel_V_Johnson
+            }
+          }
+          country_leader = {
+            desc = "USA_character_herschel_v_johnson_desc"
+            ideology = traditionalism_republic
+            expire = "1940.1.1"
+          }
+        }
+        generate_character = {
+          token = USA_character_john_bell
+          name = "John Bell"
+          portraits = {
+            civilian = {
+              large = GFX_Portrait_USA_John_Bell
+            }
+          }
+          country_leader = {
+            desc = "USA_character_john_bell_desc"
+            ideology = traditionalism_republic
+            expire = "1940.1.1"
+          }
+        }
+        generate_character = {
+          token = USA_character_edward_everett
+          name = "Edward Everett"
+          portraits = {
+            civilian = {
+              large = GFX_Portrait_USA_Edward_Everett
+            }
+          }
+          country_leader = {
+            desc = "USA_character_edward_everett_desc"
+            ideology = traditionalism_republic
+            expire = "1940.1.1"
+          }
+        }
+      # Reformism
+        generate_character = {
+          token = USA_character_abraham_lincoln
+          name = "Abraham Lincoln"
+          portraits = {
+            civilian = {
+              large = GFX_Portrait_USA_Abraham_Lincoln
+            }
+          }
+          country_leader = {
+            desc = "USA_character_abraham_lincoln_desc"
+            ideology = reformism_republic
+            expire = "1940.1.1"
+          }
+        }
+        generate_character = {
+          token = USA_character_hannibal_hamlin
+          name = "Hannibal Hamlin"
+          portraits = {
+            civilian = {
+              large = GFX_Portrait_USA_Hannibal_Hamlin
+            }
+          }
+          country_leader = {
+            desc = "USA_character_hannibal_hamlin_desc"
+            ideology = reformism_republic
+            expire = "1940.1.1"
+          }
+        }
+        retire_character = USA_character_william_pennington
+    # Election
+      random_list = {
+        5 = {
+          modifier = { ai_historical_focus_on = yes add = 4 }
+          set_politics = {
+            ruling_party = reformism
+            elections_allowed = no
+            last_election = "1860.11.6"
+          }
+          promote_character = USA_character_abraham_lincoln
+          add_popularity = {
+            ideology = reformism
+            popularity = 0.05
+          }
+        }
+        2 = {
+          modifier = { ai_historical_focus_on = yes add = -1 }
+          set_politics = {
+            ruling_party = traditionalism
+            elections_allowed = no
+            last_election = "1860.11.6"
+          }
+          promote_character = USA_character_stephen_douglas
+          add_popularity = {
+            ideology = traditionalism
+            popularity = 0.02
+          }
+        }
+        1 = {
+          modifier = { ai_historical_focus_on = yes add = -1 }
+          set_politics = {
+            ruling_party = tradtionalism
+            elections_allowed = no
+            last_election = "1860.11.6"
+          }
+          promote_character = USA_character_john_bell
+          add_popularity = {
+            ideology = traditionalism
+            popularity = 0.05
+          }
+        }
+        1 = {
+          modifier = { ai_historical_focus_on = yes add = -1 }
+          set_politics = {
+            ruling_party = imperialism
+            elections_allowed = no
+            last_election = "1860.11.6"
+          }
+          promote_character = USA_character_john_c_breckinridge
+          add_popularity = {
+            ideology = imperialism
+            popularity = 0.02
+          }
+        }
+      }
+      news_event = {
+        id = usa_elections.1
+        days = 1
+      }
+  }
+}
+
+country_event = {
+  id = usa_elections.1864
+  hidden = yes
+  
+  is_triggered_only = yes
+  
+  immediate = {
+    log = "[GetDateText]: [Root.GetTag]: id = usa_elections.1864"
+    country_event = {
+      id = usa_elections.1868
+      days = 1460
+    }
+  }
+  
+  immediate = {
+    # Replace Politicians
+      # Fundamentalism
+        # Henry Winter Davis Continues
+      # Imperialism
+        # Breckinridge continues
+        generate_character = {
+          token = USA_character_andrew_johnson
+          name = "Salmon Chase"
+          portraits = {
+            civilian = {
+              large = GFX_Portrait_USA_Salmon_Chase
+            }
+          }
+          country_leader = {
+            desc = "USA_character_abraham_lincoln_desc"
+            ideology = reformism_republic
+            expire = "1940.1.1"
+          }
+        }
+      # Traditionalism
+        # Johnson continues
+        generate_character = {
+          token = USA_character_george_mcclellan
+          name = "George McClellan"
+          portraits = {
+            civilian = {
+              large = GFX_Portrait_USA_George_Mcclellan
+            }
+          }
+          country_leader = {
+            desc = "USA_character_george_mcclellan_desc"
+            ideology = traditionalism_republic
+            expire = "1940.1.1"
+          }
+        }
+      # Reformism
+        generate_character = {
+          token = USA_character_salmon_chase
+          name = "Salmon Chase"
+          portraits = {
+            civilian = {
+              large = GFX_Portrait_USA_Salmon_Chase
+            }
+          }
+          country_leader = {
+            desc = "USA_character_abraham_lincoln_desc"
+            ideology = reformism_republic
+            expire = "1940.1.1"
+          }
+        }
+        retire_character = USA_character_william_pennington
+    # Election
+      if = {
+        limit = {
+          OR = {
+            USA_character_abraham_linoln = {
+              is_country_leader = yes
+            }
+            USA_character_hannibal_hamlin = {
+              is_country_leader = yes
+            }
+          }
+        }
+        random_list = {
+          6 = {
+            modifier = {
+              has_war = yes
+              add = 5
+            }
+            modifier = {
+              ai_historical_focus_on = yes
+              add = 5
+            }
+            set_politics = {
+              ruling_party = reformism
+              elections_allowed = no
+              last_election = "1864.11.6"
+            }
+          }
+          4 = {
+            modifier = {
+              CSA = { exists = yes has_war = no }
+              add = 5
+            }
+            modifier = {
+              CSA = { exists = no }
+              add = -4
+            }
+            set_politics = {
+              ruling_party = traditionalism
+              elections_allowed = yes
+              last_election = "1864.11.6"
+            }
+            promote_character = USA_character_george_mcclellan
+          }
+        }
+      }
+      else_if = {
+        limit = {
+          OR = {
+            USA_character_john_c_breckinridge = {
+              is_country_leader = yes
+            }
+            USA_character_joseph_lane = {
+              is_country_leader = yes
+            }
+          }
+          random_list = {
+            6 = {
+              modifier = {
+                has_war = yes
+                add = 5
+              }
+              set_politics = {
+                ruling_party = imperialism
+                elections_allowed = no
+                last_election = "1864.11.6"
+              }
+              add_popularity = {
+                ideology = imperialism
+                popularity = 0.05
+              }
+            }
+            4 = {
+              modifier = {
+                CSA = { exists = yes has_war = no }
+                add = 5
+              }
+              modifier = {
+                CSA = { exists = no }
+                add = -4
+              }
+              set_politics = {
+                ruling_party = traditionalism
+                elections_allowed = no
+                last_election = "1864.11.6"
+              }
+              add_popularity = {
+                ideology = traditionalism
+                popularity = 0.05
+              }
+              promote_character = USA_character_john_bell
+            }
+          }
+        }
+      }
+      else_if = {
+        limit = {
+          USA_character_john_bell = {
+            is_country_leader = yes
+          }
+        }
+        set_politics = {
+          ruling_party = traditionalism
+          elections_allowed = no
+          last_election = "1864.11.6"
+        }
+        add_popularity = {
+          ideology = traditionalism
+          popularity = 0.15
+        }
+      }
+      else = {
+        # collapsed
+      }
+      news_event = {
+        id = usa_elections.1
+        days = 1
+      }
+  }
+}

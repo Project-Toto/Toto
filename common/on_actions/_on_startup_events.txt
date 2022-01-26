@@ -1,0 +1,13 @@
+on_actions = {
+  on_startup = {
+    if = {
+      limit = { date < 1860.1.1 }
+      USA = {
+        country_event = {
+          id = usa_elections.1860
+          days = 1324
+        }
+      }
+    }
+  }
+}
