@@ -39,4 +39,20 @@ spriteTypes = {
 		texturefile = "gfx/texticons/legitimacy_20x20.dds"
 		legacy_lazy_load = no
 	}
+	
+	spriteType = {
+		name = "GFX_reform_administration"
+		texturefile = "gfx/texticons/reform_administration_20x20.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_reform_society"
+		texturefile = "gfx/texticons/reform_society_20x20.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_reform_military"
+		texturefile = "gfx/texticons/reform_military_20x20.dds"
+		legacy_lazy_load = no
+	}
 }

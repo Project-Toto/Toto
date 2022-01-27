@@ -380,6 +380,7 @@
 	BLU = "countries/Bulu.txt"
   FNG = "countries/Fang.txt"
   GAB = "countries/Gabon.txt"
+  GBG = "countries/Gbagyi.txt"
   KON = "countries/Kongo.txt"
   MSG = "countries/Mitsogo.txt"
   NGY = "countries/Ngoyo.txt"
@@ -389,6 +390,10 @@
    # graphical_culture = african_gfx
    # graphical_culture_2d = african_2d
   COG = "countries/Congo.txt"
+  KUB = "countries/Kuba.txt"
+	LOA = "countries/Loango.txt"
+	LUB = "countries/Luba.txt"
+	LUN = "countries/Lunda.txt"
   TYO = "countries/Anziku.txt"
   ZAI = "countries/Zaire.txt"
 # SOUTHERN REGION
@@ -433,6 +438,7 @@
    # graphical_culture = african_gfx
    # graphical_culture_2d = african_2d
   BAT = "countries/Batswana.txt"
+  BTS = "countries/Barotseland.txt"
   BMG = "countries/Bamangwato.txt"
   BNG = "countries/Bangwaketse.txt"
   BOT = "countries/Botswana.txt"
@@ -508,19 +514,14 @@
 	#aaaaaa
 	NKO = "countries/Nkore.txt"
 	
-	GBG = "countries/Gbagyi.txt"
 	HLO = "countries/Holo.txt"
 	
 	KTA = "countries/Kota.txt"
-	KUB = "countries/Kuba.txt"
-	LOA = "countries/Loango.txt"
-	LUB = "countries/Luba.txt"
-	LUN = "countries/Lunda.txt"
+	
 	PUN = "countries/Punu.txt"
 	YEK = "countries/Yeke.txt"
 	LNG = "countries/Lingala.txt"
 	TEK = "countries/Teke.txt"
-	CEK = "countries/CopticEthiopianKingdom.txt"
 	KRG = "countries/Karangwe.txt"
 	BUG = "countries/Buganda.txt"
 	BUS = "countries/Busoga.txt"
@@ -547,7 +548,6 @@
 	AHR = "countries/Herero.txt"
 	WYO = "countries/Wayao.txt"
 	LOZ = "countries/Lozi.txt"
-	BTS = "countries/Barotseland.txt"
 
 	KND = "countries/Kunda.txt"
 	KKO = "countries/Kakongo.txt"
