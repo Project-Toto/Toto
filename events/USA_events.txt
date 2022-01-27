@@ -1,0 +1,374 @@
+add_namespace = usa
+
+# American Civil War
+country_event = {
+  id = usa.1
+  hidden = yes
+  
+  is_triggered_only = yes
+  
+  immediate = {
+    log = "[GetDateText]: [Root.GetTag]: id = usa.1"
+  }
+  
+  immediate = {
+    if = {
+      limit = {
+        USA_character_abraham_lincoln = {
+          is_country_leader = yes
+        }
+      }
+      CSA = {
+        generate_character = {
+          token = CSA_character_jefferson_davis
+          name = "Jefferson Davis"
+          portraits = {
+            civilian = {
+              large = GFX_Portrait_CSA_Jefferson_Davis
+            }
+          }
+          country_leader = {
+            desc = "CSA_character_jefferson_davis_desc"
+            ideology = imperialism_republic
+            expire = "1940.1.1"
+          }
+        }
+        transfer_state = 479
+        declare_war_on = {
+          target = USA
+          wargoal = civil_war
+        }
+      }
+      random_list = {
+        1 = {
+          news_event = {
+            id = usa.2
+            days = 1260
+            random_days = 400
+          }
+        }
+        1 = {
+          modifier = { ai_historical_focus_on = yes add = -1 }
+          news_event = {
+            id = usa.3
+            days = 1260
+            random_days = 400
+          }
+        }
+      }
+    }
+    else_if = {
+      limit = {
+        USA_character_john_c_breckinridge = {
+          is_country_leader = yes
+        }
+      }
+      CSA = {
+        set_cosmetic_tag = CSA_Free_States_Cosmetic
+        generate_character = {
+          token = CSA_character_hannibal_hamlin
+          name = "Hannibal Hamlin"
+          portraits = {
+            civilian = {
+              large = GFX_Portrait_CSA_Hannibal_Hamlin
+            }
+          }
+          country_leader = {
+            desc = "CSA_character_hannibal_hamlin_desc"
+            ideology = reformism_republic
+            expire = "1940.1.1"
+          }
+        }
+        transfer_state = 478
+        declare_war_on = {
+          target = USA
+          wargoal = civil_war
+        }
+      }
+      random_list = {
+        1 = {
+          news_event = {
+            id = usa.4
+            days = 1260
+            random_days = 400
+          }
+        }
+        1 = {
+          modifier = { ai_historical_focus_on = yes add = -1 }
+          news_event = {
+            id = usa.5
+            days = 1260
+            random_days = 400
+          }
+        }
+      }
+    }
+  }
+}
+
+# Historical Union Win
+news_event = {
+  id = usa.2
+  title = usa.2.t
+  desc = usa.2.d
+  
+  is_triggered_only = yes
+  major = yes
+  
+  immediate = {
+    log = "[GetDateText]: [Root.GetTag]: id = usa.2"
+  }
+  
+  immediate = {
+    if = {
+      limit = { tag = USA }
+      white_peace = CSA
+      annex_country = {
+        target = CSA
+        transfer_troops = no
+      }
+      news_event = { id = usa.8 days = 10 }
+    }
+  }
+  
+  option = {
+    name = usa.2.a
+  }
+}
+# Historical Confederate Win
+news_event = {
+  id = usa.3
+  title = usa.3.t
+  desc = usa.3.d
+  
+  is_triggered_only = yes
+  major = yes
+  
+  immediate = {
+    log = "[GetDateText]: [Root.GetTag]: id = usa.3"
+  }
+  
+  immediate = {
+    if = {
+      limit = { tag = USA }
+      white_peace = CSA
+    }
+  }
+  
+  option = {
+    name = usa.2.a
+  }
+}
+# AltHist Union Win
+news_event = {
+  id = usa.4
+  title = usa.4.t
+  desc = usa.4.d
+  
+  is_triggered_only = yes
+  major = yes
+  
+  immediate = {
+    log = "[GetDateText]: [Root.GetTag]: id = usa.4"
+  }
+  
+  immediate = {
+    if = {
+      limit = { tag = USA }
+      white_peace = CSA
+      annex_country = {
+        target = CSA
+        transfer_troops = no
+      }
+      news_event = { id = usa.8 days = 10 }
+    }
+  }
+  
+  option = {
+    name = usa.2.a
+  }
+}
+# AltHist Abolition Win
+news_event = {
+  id = usa.5
+  title = usa.5.t
+  desc = usa.5.d
+  
+  is_triggered_only = yes
+  major = yes
+  
+  immediate = {
+    log = "[GetDateText]: [Root.GetTag]: id = usa.5"
+  }
+  
+  immediate = {
+    if = {
+      limit = { tag = USA }
+      white_peace = CSA
+    }
+  }
+  
+  option = {
+    name = usa.5.a
+  }
+}
+# Bell Succeeds
+news_event = {
+  id = usa.6
+  title = usa.6.t
+  desc = usa.6.d
+  
+  is_triggered_only = yes
+  major = yes
+  
+  immediate = {
+    log = "[GetDateText]: [Root.GetTag]: id = usa.6"
+  }
+  
+  immediate = {
+
+  }
+  
+  option = {
+    name = usa.6.a
+  }
+}
+# America Collapses
+
+# Assassination
+news_event = {
+  id = usa.7
+  title = usa.7.t
+  desc = usa.7.d
+  
+  is_triggered_only = yes
+  major = yes
+  
+  immediate = {
+    log = "[GetDateText]: [Root.GetTag]: id = usa.7"
+  }
+  
+  immediate = {
+    if = {
+      limit = { tag = USA }
+      if = {
+        limit = {
+          USA_character_abraham_lincoln = {
+            is_country_leader = yes
+          }
+        }
+        set_global_flag = USA_event_lincoln_assassinated_flag
+        if = {
+          limit = { date < 1864.3.4 }
+          promote_character = USA_character_hannibal_hamlin
+          set_politics = {
+            ruling_party = reformism
+            elections_allowed = no
+            expire = "1860.11.6
+          }
+        }
+        else = {
+          promote_character = USA_character_andrew_johnson
+          set_politics = {
+            ruling_party = imperialism
+            elections_allowed = no
+            expire = "1860.11.6
+          }
+        }
+      }
+      else_if = {
+        limit = {
+          USA_character_john_c_breckinridge = {
+            is_country_leader = yes
+          }
+        }
+        set_global_flag = USA_event_breckinridge_assassinated_flag
+        if = {
+          limit = { date < 1864.3.4 }
+          promote_character = USA_character_joseph_lane
+          set_politics = {
+            ruling_party = imperialism
+            elections_allowed = no
+            expire = "1860.11.6
+          }
+        }
+        else = {
+          promote_character = USA_character_salmon_chase
+          set_politics = {
+            ruling_party = reformism
+            elections_allowed = no
+            expire = "1860.11.6
+          }
+        }
+      }
+      else_if = {
+        limit = {
+          USA_character_stephen_douglas = {
+            is_country_leader = yes
+          }
+        }
+        set_global_flag = USA_event_douglas_assassinated_flag
+        promote_character = USA_character_herschel_v_johnson
+        set_politics = {
+          ruling_party = traditionalism
+          elections_allowed = no
+          expire = "1860.11.6
+        }
+        news_event = {
+          id = usa.8
+          days = 10
+        }
+      }
+      else = {
+        set_global_flag = USA_event_bell_assassinated_flag
+        promote_character = USA_character_edward_everett
+        set_politics = {
+          ruling_party = traditionalism
+          elections_allowed = no
+          expire = "1860.11.6
+        }
+        news_event = {
+          id = usa.8
+          days = 10
+        }
+      }
+    }
+  }
+}
+
+# America Collapses
+
+news_event = {
+  id = usa.8
+  title = usa.8.t
+  desc = usa.8.d
+  
+  is_triggered_only = yes
+  major = yes
+  
+  immediate = {
+    log = "[GetDateText]: [Root.GetTag]: id = usa.8"
+  }
+  
+  immediate = {
+    if = {
+      limit = { tag = USA }
+      every_country = {
+        limit = { is_subject_of = USA }
+        USA = {
+          set_autonomy_state = {
+            target = PREV
+            autonomy_state = autonomy_free
+          }
+        }
+      }
+      every_owned_state = {
+        transfer_state_to = TES
+      }
+    }
+  }
+  
+  option = {
+    name = usa.8.a
+  }
+}

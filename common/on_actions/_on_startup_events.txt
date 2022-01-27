@@ -7,6 +7,11 @@ on_actions = {
           id = usa_elections.1860
           days = 1324
         }
+        
+        country_event = {
+          id = usa.1
+          days = 1360
+        }
       }
     }
   }

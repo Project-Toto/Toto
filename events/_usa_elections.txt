@@ -28,10 +28,10 @@ country_event = {
   
   immediate = {
     log = "[GetDateText]: [Root.GetTag]: id = usa_elections.1860"
-    #country_event = {
-    #  id = usa_elections.1864
-    #  days = 1460
-    #}
+    country_event = {
+      id = usa_elections.1864
+      days = 1460
+    }
   }
   
   immediate = {
@@ -169,6 +169,10 @@ country_event = {
             ideology = traditionalism
             popularity = 0.02
           }
+          news_event = {
+            id = usa.8
+            days = 50
+          }
         }
         1 = {
           modifier = { ai_historical_focus_on = yes add = -1 }
@@ -181,6 +185,22 @@ country_event = {
           add_popularity = {
             ideology = traditionalism
             popularity = 0.05
+          }
+          random_list = {
+            2 = {
+              news_event = {
+                id = usa.7
+                days = 1500
+                random_days = 150
+              }
+            }
+            1 = {
+              news_event = {
+                id = usa.8
+                days = 1050
+                random_days = 600
+              }
+            }
           }
         }
         1 = {
@@ -212,10 +232,10 @@ country_event = {
   
   immediate = {
     log = "[GetDateText]: [Root.GetTag]: id = usa_elections.1864"
-    country_event = {
-      id = usa_elections.1868
-      days = 1460
-    }
+    #country_event = {
+    #  id = usa_elections.1868
+    #  days = 1460
+    #}
   }
   
   immediate = {
@@ -252,6 +272,15 @@ country_event = {
             desc = "USA_character_george_mcclellan_desc"
             ideology = traditionalism_republic
             expire = "1940.1.1"
+          }
+        }
+        generate_character = {
+          token = USA_character_nathan_bedford_forrest
+          name = "Thomas J Jackson"
+          portraits = {
+            civilian = {
+              large = GFX_Portrait_USA_Nathan_Bedford_Forrest
+            }
           }
         }
       # Reformism
@@ -360,7 +389,203 @@ country_event = {
                 ideology = traditionalism
                 popularity = 0.05
               }
-              promote_character = USA_character_john_bell
+              promote_character = USA_character_thomas_j_jackson
+            }
+          }
+        }
+      }
+      else_if = {
+        limit = {
+          USA_character_john_bell = {
+            is_country_leader = yes
+          }
+        }
+        set_politics = {
+          ruling_party = traditionalism
+          elections_allowed = no
+          last_election = "1864.11.6"
+        }
+        add_popularity = {
+          ideology = traditionalism
+          popularity = 0.15
+        }
+      }
+      else = {
+        # collapsed
+      }
+      news_event = {
+        id = usa_elections.1
+        days = 1
+      }
+  }
+}
+
+country_event = {
+  id = usa_elections.1868
+  hidden = yes
+  
+  is_triggered_only = yes
+  
+  immediate = {
+    log = "[GetDateText]: [Root.GetTag]: id = usa_elections.1868"
+    #country_event = {
+    #  id = usa_elections.1872
+    #  days = 1460
+    #}
+  }
+  
+  immediate = {
+    # Replace Politicians
+      # Fundamentalism
+        # Henry Winter Davis Continues
+      # Imperialism
+        # Breckinridge continues
+        generate_character = {
+          token = USA_character_andrew_johnson
+          name = "Salmon Chase"
+          portraits = {
+            civilian = {
+              large = GFX_Portrait_USA_Salmon_Chase
+            }
+          }
+          country_leader = {
+            desc = "USA_character_abraham_lincoln_desc"
+            ideology = reformism_republic
+            expire = "1940.1.1"
+          }
+        }
+      # Traditionalism
+        # Johnson continues
+        generate_character = {
+          token = USA_character_george_mcclellan
+          name = "George McClellan"
+          portraits = {
+            civilian = {
+              large = GFX_Portrait_USA_George_Mcclellan
+            }
+          }
+          country_leader = {
+            desc = "USA_character_george_mcclellan_desc"
+            ideology = traditionalism_republic
+            expire = "1940.1.1"
+          }
+        }
+        generate_character = {
+          token = USA_character_nathan_bedford_forrest
+          name = "Thomas J Jackson"
+          portraits = {
+            civilian = {
+              large = GFX_Portrait_USA_Nathan_Bedford_Forrest
+            }
+          }
+        }
+      # Reformism
+        generate_character = {
+          token = USA_character_salmon_chase
+          name = "Salmon Chase"
+          portraits = {
+            civilian = {
+              large = GFX_Portrait_USA_Salmon_Chase
+            }
+          }
+          country_leader = {
+            desc = "USA_character_abraham_lincoln_desc"
+            ideology = reformism_republic
+            expire = "1940.1.1"
+          }
+        }
+        retire_character = USA_character_william_pennington
+    # Election
+      if = {
+        limit = {
+          OR = {
+            USA_character_abraham_linoln = {
+              is_country_leader = yes
+            }
+            USA_character_hannibal_hamlin = {
+              is_country_leader = yes
+            }
+          }
+        }
+        random_list = {
+          6 = {
+            modifier = {
+              has_war = yes
+              add = 5
+            }
+            modifier = {
+              ai_historical_focus_on = yes
+              add = 5
+            }
+            set_politics = {
+              ruling_party = reformism
+              elections_allowed = no
+              last_election = "1864.11.6"
+            }
+          }
+          4 = {
+            modifier = {
+              CSA = { exists = yes has_war = no }
+              add = 5
+            }
+            modifier = {
+              CSA = { exists = no }
+              add = -4
+            }
+            set_politics = {
+              ruling_party = traditionalism
+              elections_allowed = yes
+              last_election = "1864.11.6"
+            }
+            promote_character = USA_character_george_mcclellan
+          }
+        }
+      }
+      else_if = {
+        limit = {
+          OR = {
+            USA_character_john_c_breckinridge = {
+              is_country_leader = yes
+            }
+            USA_character_joseph_lane = {
+              is_country_leader = yes
+            }
+          }
+          random_list = {
+            6 = {
+              modifier = {
+                has_war = yes
+                add = 5
+              }
+              set_politics = {
+                ruling_party = imperialism
+                elections_allowed = no
+                last_election = "1864.11.6"
+              }
+              add_popularity = {
+                ideology = imperialism
+                popularity = 0.05
+              }
+            }
+            4 = {
+              modifier = {
+                CSA = { exists = yes has_war = no }
+                add = 5
+              }
+              modifier = {
+                CSA = { exists = no }
+                add = -4
+              }
+              set_politics = {
+                ruling_party = traditionalism
+                elections_allowed = no
+                last_election = "1864.11.6"
+              }
+              add_popularity = {
+                ideology = traditionalism
+                popularity = 0.05
+              }
+              promote_character = USA_character_thomas_j_jackson
             }
           }
         }
