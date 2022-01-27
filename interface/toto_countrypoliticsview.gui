@@ -1,3 +1,78 @@
+# Government Reforms
+
+guiTypes = {
+  containerWindowType = {
+    name = "government_reform_screen"
+    position = { x = 100 y = 100 }
+    size = { width = 400 height = 300 }
+    
+    background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_plain_bg2"
+		}
+		
+		iconType = {
+			name = "government_reform_screen_icon"
+			spriteType = "GFX_government_reform_icon"
+			position = { x= 5 y = 5 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType = {
+			name = "close_button"
+			position = { x = -50 y = 11 }
+			quadTextureSprite = "GFX_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+		
+		instantTextBoxType = {
+			name = "toto_politics_government_reform_screen_title"
+			position = { x = 0 y = 5 }
+			font = "hoi_20"
+			borderSize = { x = 0 y = 0 }
+			maxWidth = 200
+			maxHeight = 30
+			format = left
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextBoxType = {
+			name = "toto_politics_government_reform_screen_desc"
+			position = { x = 0 y = 15 }
+			font = "hoi_16"
+			borderSize = { x = 0 y = 0 }
+			maxWidth = 200
+			maxHeight = 30
+			format = left
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextBoxType = {
+			name = "toto_politics_government_reform_screen_list"
+			position = { x = 0 y = 25 }
+			font = "hoi_16"
+			borderSize = { x = 0 y = 0 }
+			maxWidth = 200
+			maxHeight = 30
+			format = left
+			Orientation = "UPPER_LEFT"
+		}
+	  
+	  buttonType = {
+	    name = "toto_politics_government_reform_one_unorganized_tribal_button"
+	    position = { x = 10 y = 40 }
+	    quadTextureSprite = "GFX_government_reform_one_unorganized_tribal_button"
+	    frame = 2
+	    clicksound = click_default
+	  }
+  }
+}
+
+
 # Demographics Window
 
 # Revised Law & Defines

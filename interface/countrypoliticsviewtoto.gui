@@ -1,0 +1,14 @@
+guiTypes = {
+  containerWindowType = {
+    name = "government_reform_screen"
+    position = { x = 100 y = 100 }
+    size = { width = 400 height = 300 }
+    
+    background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_plain_bg2"
+		}
+		
+		
+  }
+}

@@ -1,0 +1,16 @@
+spriteTypes = {
+  spriteType = {
+    name = "GFX_government_reform_icon"
+    texturefile = "gfx/interface/country_interface/government_window/government_reform_icon.dds"
+  }
+  spriteType = {
+    name = "GFX_government_reform_unknown_button"
+    texturefile = "gfx/interface/country_interface/government_window/government_reform_unknown_button.dds"
+    noOfFrames = 2
+  }
+  spriteType = {
+    name = "GFX_government_reform_one_unorganized_tribal_button"
+    texturefile = "gfx/interface/country_interface/government_window/government_reform_one_unorganized_tribal_button.dds"
+    noOfFrames = 2
+  }
+}

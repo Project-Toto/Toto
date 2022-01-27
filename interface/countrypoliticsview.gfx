@@ -335,7 +335,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_category_header"
-		textureFile = "gfx/interface/government_window/category_header.dds"
+		textureFile = "gfx/interface/country_interface/government_window/category_header.dds"
 	}	
 	
 	spriteType = {
@@ -380,7 +380,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_idea_categories"
-		texturefile = "gfx/interface/government_window/idea_categories.dds"
+		texturefile = "gfx/interface/country_interface/government_window/idea_categories.dds"
 		noOfFrames = 7
 	}
 
@@ -544,7 +544,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_pol_view_bg"
-		textureFile = "gfx//interface//government_window//pol_view_bg.dds"
+		textureFile = "gfx//interface//country_interface//government_window//pol_view_bg.dds"
 	}
 
 	spriteType = {
