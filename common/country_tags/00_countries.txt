@@ -375,9 +375,14 @@
  # Gabon
    # graphical_culture = african_gfx
    # graphical_culture_2d = african_2d
+	BMM = "countries/Bamum.txt"
+	BET = "countries/Beti.txt"
+	BLU = "countries/Bulu.txt"
   FNG = "countries/Fang.txt"
   GAB = "countries/Gabon.txt"
   KON = "countries/Kongo.txt"
+  MSG = "countries/Mitsogo.txt"
+  NGY = "countries/Ngoyo.txt"
   RCG = "countries/Republic of Congo.txt"
 
  # Congo
@@ -391,10 +396,48 @@
    # graphical_culture = african_gfx
    # graphical_culture_2d = african_2d
   ANG = "countries/Angola.txt"
+  CIY = "countries/Ciyaka.txt"
+  CKW = "countries/Chokwe.txt"
+  CNN = "countries/Cunene.txt"
+  GGL = "countries/Ganguela.txt"
+  KBD = "countries/Kimbundu.txt"
+  KSJ = "countries/Kasanje.txt"
+  LVL = "countries/Luvale.txt"
+  MBK = "countries/Mbukushu.txt"
+  MBW = "countries/Mbwela.txt"
+  MBN = "countries/Mbunda.txt"
+  NDL = "countries/Ndulu.txt"
+  NGO = "countries/Ngoya.txt"
+  OND = "countries/Ondonga.txt"
+  OVD = "countries/Ovimbundu.txt"
+  SBU = "countries/Sambu.txt"
+  WBU = "countries/Wambu.txt"
+  UUK = "countries/Uukwangali.txt"
+  
  # Kalahari
    # graphical_culture = african_gfx
    # graphical_culture_2d = african_2d
+  FWE = "countries/Fwe.txt"
+  NMA = "countries/Nama.txt"
   NMB = "countries/Namibia.txt"
+  HER = "countries/Herero.txt"
+  HMB = "countries/Himba.txt"
+  KVG = "countries/Kavango.txt"
+  MAY = "countries/Masubiya.txt"
+  ONG = "countries/Ongandjera.txt"
+  OOR = "countries/Oorlam.txt"
+  OVB = "countries/Ovambo.txt"
+  UUL = "countries/Uukwaludhi.txt"
+  UUW = "countries/Uukwambi.txt"
+ # Bot
+   # graphical_culture = african_gfx
+   # graphical_culture_2d = african_2d
+  BAT = "countries/Batswana.txt"
+  BMG = "countries/Bamangwato.txt"
+  BNG = "countries/Bangwaketse.txt"
+  BOT = "countries/Botswana.txt"
+	NDE = "countries/Ndebele.txt"
+	SAA = "countries/Saan.txt"
  # Cape
    # graphical_culture = african_gfx
    # graphical_culture_2d = african_2d
@@ -465,10 +508,6 @@
 	#aaaaaa
 	NKO = "countries/Nkore.txt"
 	
-	BMM = "countries/Bamum.txt"
-	BET = "countries/Beti.txt"
-	BLU = "countries/Bulu.txt"
-	
 	GBG = "countries/Gbagyi.txt"
 	HLO = "countries/Holo.txt"
 	
@@ -477,8 +516,6 @@
 	LOA = "countries/Loango.txt"
 	LUB = "countries/Luba.txt"
 	LUN = "countries/Lunda.txt"
-	MSG = "countries/Mitsogo.txt"
-	NGY = "countries/Ngoyo.txt"
 	PUN = "countries/Punu.txt"
 	YEK = "countries/Yeke.txt"
 	LNG = "countries/Lingala.txt"
@@ -511,35 +548,21 @@
 	WYO = "countries/Wayao.txt"
 	LOZ = "countries/Lozi.txt"
 	BTS = "countries/Barotseland.txt"
-	OVD = "countries/Ovimbundu.txt"
-	CKW = "countries/Chokwe.txt"
-	GGL = "countries/Ganguela.txt"
-	KBD = "countries/Kimbundu.txt"
+
 	KND = "countries/Kunda.txt"
 	KKO = "countries/Kakongo.txt"
  
 # Southern Africa
 	# graphical_culture = african_gfx
 	# graphical_culture_2d = african_2d
-	BOT = "countries/Botswana.txt"
 	OFS = "countries/Orange.txt"
 	SAF = "countries/South Africa.txt"
 	TRV = "countries/Transvaal.txt"
 	ZUL = "countries/Zululand.txt"
 	SOT = "countries/Sotho.txt"
 	MZB = "countries/Mozambique.txt"
-	HER = "countries/Herero.txt"
-	OOR = "countries/Oorlam.txt"
 	BST = "countries/Baster.txt"
-	HMB = "countries/Himba.txt"
-	KVG = "countries/Kavango.txt"
-	OVB = "countries/Ovambo.txt"
 	ROZ = "countries/Rozwi.txt"
-	BAT = "countries/Batswana.txt"
-	# BMG = "countries/Bamangwato.txt"
-	NDE = "countries/Ndebele.txt"
-	SAA = "countries/Saan.txt"
-	#BNG = "countries/Bangwaketse.txt"
 	SWZ = "countries/Swaziland.txt"
 	NAT = "countries/Natal.txt"
 	GQW = "countries/Griqualand West.txt"
