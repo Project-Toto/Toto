@@ -74,8 +74,8 @@
   BRA_ADJ:0 "Brazilian"
 
 # Majors
- PER: "Persia"
- PER_DEF:0 "Persia"
+ PER: "Iran"
+ PER_DEF:0 "the Guarded Domains of Iran"
  PER_ADJ:0 "Persian"
  PER_autonomy_ottoman_eyalet:0 "Persian Eyalet"
  PER_autonomy_ottoman_eyalet_DEF:0 "the Eyalet of Persia"
