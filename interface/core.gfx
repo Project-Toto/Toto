@@ -27,8 +27,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-	   name = "GFX_in_game_menu_dark_overlay"
-	   textureFile = "gfx/interface/in_game_menu_dark_overlay.dds"
+		 name = "GFX_in_game_menu_dark_overlay"
+		 textureFile = "gfx/interface/in_game_menu_dark_overlay.dds"
 	}
 
 	corneredTileSpriteType = {
@@ -510,7 +510,7 @@ spriteTypes = {
 
 	textSpriteType = {
 		name = "GFX_government_button"
-		texturefile = "gfx//interface//government_window//government_button.dds"
+		texturefile = "gfx//interface//country_interface//government_window//government_button.dds"
 		noOfFrames = 1
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
@@ -632,7 +632,7 @@ objectTypes = {
 			color = { 1.0 1.0 0.0 }
 			font = "AnimatedMapText"
 			position = { x=0 y=40 }
-			size = { x=256 y = 64  }
+			size = { x=256 y = 64	}
 			format = centre
 			cull_distance = 300.0f
 			}
@@ -646,7 +646,7 @@ objectTypes = {
 			color = { 1.0 1.0 0.0 }
 			font = "AnimatedMapText"
 			position = { x=0 y=40 }
-			size = { x=256 y = 64  }
+			size = { x=256 y = 64	}
 			format = centre
 		}
 	}
@@ -659,7 +659,7 @@ objectTypes = {
 			color = { 0.8 0.8 0.0 }
 			font = "AnimatedMapText"
 			position = { x=0 y=40 }
-			size = { x=256 y = 64  }
+			size = { x=256 y = 64	}
 			format = centre
 		}
 	}
@@ -671,7 +671,7 @@ objectTypes = {
 			color = { 1.0 0.0 0.0 }
 			font = "AnimatedMapText"
 			position = { x=0 y=40 }
-			size = { x=256 y = 64  }
+			size = { x=256 y = 64	}
 			format = centre
 		}
 	}
@@ -684,7 +684,7 @@ objectTypes = {
 			color = { 0.9 0.9 0.0 }
 			font = "AnimatedMapText"
 			position = { x=0 y=40 }
-			size = { x=1256 y = 164  }
+			size = { x=1256 y = 164	}
 			format = centre
 		}
 	}
@@ -697,7 +697,7 @@ objectTypes = {
 			color = { 0.9 0.9 0.0 }
 			font = "DebugFont"
 			position = { x=0 y=40 }
-			size = { x=1256 y = 164  }
+			size = { x=1256 y = 164	}
 			format = centre
 		}
 	}
@@ -1080,7 +1080,7 @@ bitmapfonts = {
 	#	name = "ub_16bs"
 	#	path = "gfx/fonts/ub_16bs"
 	#	color = 0xffffffff
-    #
+		#
 	#	textcolors = {
 	#		G = { 41 225 38 }
 	#		R = { 222 86 70 }

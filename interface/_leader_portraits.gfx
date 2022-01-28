@@ -1,0 +1,18 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_Portrait_USA_James_Buchanan"
+		texturefile = "gfx/leaders/USA/Portrait_USA_James_Buchanan.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_USA_Stephen_Douglas"
+		texturefile = "gfx/leaders/USA/Portrait_USA_Stephen_Douglas.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_USA_Abraham_Lincoln"
+		texturefile = "gfx/leaders/USA/Portrait_USA_Abraham_Lincoln.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_USA_Stephen_Douglass"
+		texturefile = "gfx/leaders/USA/Portrait_USA_Stephen_Douglas.dds"
+	}
+}

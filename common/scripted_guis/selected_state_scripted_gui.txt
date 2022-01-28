@@ -1,37 +1,31 @@
-guiTypes = {
-  state_interactive_map = {
-    window_name = "state_interactive_map"
-    parent_window_token = selected_state_view
-    
-    context_type = selected_state_context
-    
-    visible = {
-      is_controlled_by = ROOT
-    }
-    
-    properties = {
-    
-    }
-    
-    triggers = {
-      
-    }
-    effects = {
-      generate_random_integer_button = {
-        rand.math = {
-          distribution = "[?GetDistributionType]"
-          min = 0
-          max = 7
-        }
-      }
-    }
-    
-    ai_weights = {
-    
-    }
-    
-    ai_enabled = {
-      always = no
-    }
-  }
+scripted_gui = {
+	state_interactive_map = {
+		window_name = "state_interactive_map"
+		parent_window_token = selected_state_view
+
+		context_type = selected_state_context
+
+		visible = {
+			is_controlled_by = ROOT
+		}
+
+		properties = {
+
+		}
+
+		triggers = {
+
+		}
+		effects = {
+
+		}
+
+		ai_weights = {
+
+		}
+
+		ai_enabled = {
+			always = no
+		}
+	}
 }

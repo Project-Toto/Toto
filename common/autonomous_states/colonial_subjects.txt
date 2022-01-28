@@ -10,19 +10,18 @@ autonomy_state = {
 	manpower_influence = 0.00
 
 	rule = {
-	  can_be_called_to_war = yes
-	  can_decline_call_to_war = yes
-	  
-	  can_create_factions = yes
-	  
-	  can_declare_war_on_same_ideology = yes
-	  can_declare_war_without_wargoal_when_in_war = no
-	  
-	  can_force_government = no
-	  can_boost_other_ideologies = no
-	  
-	  can_generate_female_aces = no
-	  
+		can_decline_call_to_war = yes
+
+		can_create_factions = yes
+
+		can_declare_war_on_same_ideology = yes
+		can_declare_war_without_wargoal_when_in_war = no
+
+		can_force_government = no
+		can_boost_other_ideologies = no
+
+		can_generate_female_aces = no
+
 		can_not_declare_war = no
 		can_decline_call_to_war = yes
 		
@@ -65,14 +64,14 @@ autonomy_state = {
 			}
 		}
 		modifier = {
-		  factor = 2
-		  FROM = {
-		    has_government = reformism
-		  }
+			factor = 2
+			FROM = {
+				has_government = reformism
+			}
 		}
 		modifier = {
-		  factor = 1.2
-		  num_of_owned_states > 4
+			factor = 1.2
+			num_of_owned_states > 4
 		}
 	}
 

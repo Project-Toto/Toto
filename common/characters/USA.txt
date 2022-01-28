@@ -1,54 +1,54 @@
 characters = {
-  USA_character_james_buchanan = {
-    name = "James Buchanan"
-    portraits = {
-      civilian = {
-        large = GFX_Portrait_USA_James_Buchanan
-      }
-    }
-    country_leader = {
-      desc = "USA_character_james_buchanan_desc"
-      ideology = imperialism_republic
-      expire = "1940.1.1"
-    }
-  }
-  USA_character_stephen_douglas = {
-    name = "Stephen Douglas"
-    portraits = {
-      civilian = {
-        large = GFX_Portrait_USA_Stephen_Douglas
-      }
-    }
-    country_leader = {
-      desc = "USA_character_stephen_douglas_desc"
-      ideology = traditional_conservatism
-      expire = "1940.1.1"
-    }
-  }
-  USA_character_william_pennington = {
-    name = "William Pennington"
-    portraits = {
-      civilian = {
-        large = GFX_Portrait_USA_William_Pennington
-      }
-    }
-    country_leader = {
-      desc = "USA_character_william_pennington"
-      ideology = reformism_republic
-      expire = "1940.1.1"
-    }
-  }
-  USA_character_henry_winter_davis = {
-    name = "Henry Winter Davis"
-    portraits = {
-      civilian = {
-        large = GFX_Portrait_USA_Henry_Winter_Davis
-      }
-    }
-    country_leader = {
-      desc = "USA_character_henry_winter_davis"
-      ideology = fundamentalism_republic
-      expire = "1940.1.1"
-    }
-  }
+	USA_character_james_buchanan = {
+		name = "James Buchanan"
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_USA_James_Buchanan
+			}
+		}
+		country_leader = {
+			desc = "USA_character_james_buchanan_desc"
+			ideology = imperialism_republic
+			expire = "1940.1.1"
+		}
+	}
+	USA_character_stephen_douglas = {
+		name = "Stephen Douglas"
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_USA_Stephen_Douglas
+			}
+		}
+		country_leader = {
+			desc = "USA_character_stephen_douglas_desc"
+			ideology = traditional_conservatism
+			expire = "1940.1.1"
+		}
+	}
+	USA_character_william_pennington = {
+		name = "William Pennington"
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_USA_William_Pennington
+			}
+		}
+		country_leader = {
+			desc = "USA_character_william_pennington"
+			ideology = reformism_republic
+			expire = "1940.1.1"
+		}
+	}
+	USA_character_henry_winter_davis = {
+		name = "Henry Winter Davis"
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_USA_Henry_Winter_Davis
+			}
+		}
+		country_leader = {
+			desc = "USA_character_henry_winter_davis"
+			ideology = fundamentalism_republic
+			expire = "1940.1.1"
+		}
+	}
 }
