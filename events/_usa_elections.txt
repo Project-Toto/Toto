@@ -177,7 +177,7 @@ country_event = {
 				1 = {
 					modifier = { is_historical_focus_on = yes add = -1 }
 					set_politics = {
-						ruling_party = tradtionalism
+						ruling_party = traditionalism
 						elections_allowed = no
 						last_election = "1860.11.6"
 					}
@@ -246,14 +246,14 @@ country_event = {
 				# Breckinridge continues
 				generate_character = {
 					token_base = USA_character_andrew_johnson
-					name = "Salmon Chase"
+					name = "Andrew Johson"
 					portraits = {
 						civilian = {
 							large = GFX_Portrait_USA_Salmon_Chase
 						}
 					}
 					country_leader = {
-						desc = "USA_character_abraham_lincoln_desc"
+						desc = "USA_character_andrew_johnson_desc"
 						ideology = reformism_republic
 						expire = "1940.1.1"
 					}
@@ -303,11 +303,11 @@ country_event = {
 			if = {
 				limit = {
 					OR = {
-						USA_character_abraham_linoln = {
-							is_country_leader = yes
+						has_country_leader = {
+							character = USA_character_abraham_linoln
 						}
-						USA_character_hannibal_hamlin = {
-							is_country_leader = yes
+						has_country_leader = {
+							character = USA_character_hannibal_hamlin
 						}
 					}
 				}
@@ -348,49 +348,49 @@ country_event = {
 			else_if = {
 				limit = {
 					OR = {
-						USA_character_john_c_breckinridge = {
-							is_country_leader = yes
+						has_country_leader = {
+							character = USA_character_john_c_breckinridge
 						}
-						USA_character_joseph_lane = {
-							is_country_leader = yes
+						has_country_leader = {
+							character = USA_character_joseph_lane
 						}
 					}
-					random_list = {
-						6 = {
-							modifier = {
-								has_war = yes
-								add = 5
-							}
-							set_politics = {
-								ruling_party = imperialism
-								elections_allowed = no
-								last_election = "1864.11.6"
-							}
-							add_popularity = {
-								ideology = imperialism
-								popularity = 0.05
-							}
+				}
+				random_list = {
+					6 = {
+						modifier = {
+							has_war = yes
+							add = 5
 						}
-						4 = {
-							modifier = {
-								CSA = { exists = yes has_war = no }
-								add = 5
-							}
-							modifier = {
-								CSA = { exists = no }
-								add = -4
-							}
-							set_politics = {
-								ruling_party = traditionalism
-								elections_allowed = no
-								last_election = "1864.11.6"
-							}
-							add_popularity = {
-								ideology = traditionalism
-								popularity = 0.05
-							}
-							promote_character = USA_character_thomas_j_jackson
+						set_politics = {
+							ruling_party = imperialism
+							elections_allowed = no
+							last_election = "1864.11.6"
 						}
+						add_popularity = {
+							ideology = imperialism
+							popularity = 0.05
+						}
+					}
+					4 = {
+						modifier = {
+							CSA = { exists = yes has_war = no }
+							add = 5
+						}
+						modifier = {
+							CSA = { exists = no }
+							add = -4
+						}
+						set_politics = {
+							ruling_party = traditionalism
+							elections_allowed = no
+							last_election = "1864.11.6"
+						}
+						add_popularity = {
+							ideology = traditionalism
+							popularity = 0.05
+						}
+						promote_character = USA_character_thomas_j_jackson
 					}
 				}
 			}
@@ -499,11 +499,11 @@ country_event = {
 			if = {
 				limit = {
 					OR = {
-						USA_character_abraham_linoln = {
-							is_country_leader = yes
+						has_country_leader = {
+							character = USA_character_abraham_linoln
 						}
-						USA_character_hannibal_hamlin = {
-							is_country_leader = yes
+						has_country_leader = {
+							character = USA_character_hannibal_hamlin
 						}
 					}
 				}
@@ -551,42 +551,42 @@ country_event = {
 							is_country_leader = yes
 						}
 					}
-					random_list = {
-						6 = {
-							modifier = {
-								has_war = yes
-								add = 5
-							}
-							set_politics = {
-								ruling_party = imperialism
-								elections_allowed = no
-								last_election = "1864.11.6"
-							}
-							add_popularity = {
-								ideology = imperialism
-								popularity = 0.05
-							}
+				}
+				random_list = {
+					6 = {
+						modifier = {
+							has_war = yes
+							add = 5
 						}
-						4 = {
-							modifier = {
-								CSA = { exists = yes has_war = no }
-								add = 5
-							}
-							modifier = {
-								CSA = { exists = no }
-								add = -4
-							}
-							set_politics = {
-								ruling_party = traditionalism
-								elections_allowed = no
-								last_election = "1864.11.6"
-							}
-							add_popularity = {
-								ideology = traditionalism
-								popularity = 0.05
-							}
-							promote_character = USA_character_thomas_j_jackson
+						set_politics = {
+							ruling_party = imperialism
+							elections_allowed = no
+							last_election = "1864.11.6"
 						}
+						add_popularity = {
+							ideology = imperialism
+							popularity = 0.05
+						}
+					}
+					4 = {
+						modifier = {
+							CSA = { exists = yes has_war = no }
+							add = 5
+						}
+						modifier = {
+							CSA = { exists = no }
+							add = -4
+						}
+						set_politics = {
+							ruling_party = traditionalism
+							elections_allowed = no
+							last_election = "1864.11.6"
+						}
+						add_popularity = {
+							ideology = traditionalism
+							popularity = 0.05
+						}
+						promote_character = USA_character_thomas_j_jackson
 					}
 				}
 			}

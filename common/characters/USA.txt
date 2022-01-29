@@ -21,7 +21,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "USA_character_stephen_douglas_desc"
-			ideology = traditional_conservatism
+			ideology = traditionalism_republic
 			expire = "1940.1.1"
 		}
 	}

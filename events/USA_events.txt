@@ -251,8 +251,8 @@ news_event = {
 			limit = { tag = USA }
 			if = {
 				limit = {
-					USA_character_abraham_lincoln = {
-						is_country_leader = yes
+					has_country_leader = {
+						character = USA_character_abraham_lincoln
 					}
 				}
 				set_global_flag = USA_event_lincoln_assassinated_flag
@@ -276,8 +276,8 @@ news_event = {
 			}
 			else_if = {
 				limit = {
-					USA_character_john_c_breckinridge = {
-						is_country_leader = yes
+					has_country_leader = {
+						character = USA_character_john_c_breckinridge
 					}
 				}
 				set_global_flag = USA_event_breckinridge_assassinated_flag
@@ -301,8 +301,8 @@ news_event = {
 			}
 			else_if = {
 				limit = {
-					USA_character_stephen_douglas = {
-						is_country_leader = yes
+					has_country_leader = {
+						character = USA_character_stephen_douglas
 					}
 				}
 				set_global_flag = USA_event_douglas_assassinated_flag

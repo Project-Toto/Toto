@@ -66,14 +66,14 @@
 	give_guarantee = LIB
 # Politics
 	set_politics = {
-		ruling_party = traditionalism
+		ruling_party = imperialism
 		last_election = "1856.11.2"
 		elections_allowed = no
 	}
 	set_popularities = {
 		fundamentalism = 0
-		imperialism = 14
-		traditionalism = 56
+		imperialism = 24
+		traditionalism = 36
 		reformism = 30
 	}
 
@@ -81,11 +81,7 @@
 	add_to_variable = { var = Tribal_army_num value = 0 }
 
 # Characters
-	create_country_leader = {
-		name = "James Buchanan"
-		desc = "POLITICS_GEORGE_V_DESC"
-		picture = "gfx/leaders/Africa/Portrait_African_Generic_18.dds"
-		expire = "1900.1.1"
-		ideology = traditionalism_republic
-		traits = { }
-	}
+	recruit_character = USA_character_james_buchanan
+	recruit_character = USA_character_stephen_douglas
+	recruit_character = USA_character_william_pennington
+	recruit_character = USA_character_henry_winter_davis

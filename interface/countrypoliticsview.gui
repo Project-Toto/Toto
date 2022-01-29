@@ -65,6 +65,13 @@ guiTypes = {
 				spriteType = "GFX_leader_unknown"
 			}
 
+			iconType = {
+				name = "leader_frame2"
+				spriteType = "GFX_pol_leader_frame"
+				position = { x = 10 y = 54 }
+				alwaystransparent = yes
+			}
+
 			instantTextboxType = {
 				name = "leader_name"
 				position = { x = 18 y = 278 }
@@ -75,14 +82,6 @@ guiTypes = {
 				format = center
 				vertical_alignment = center
 			}
-
-			iconType = {
-				name = "leader_frame2"
-				spriteType = "GFX_pol_leader_frame"
-				position = { x = 10 y = 44 }
-				alwaystransparent = yes
-			}
-
 
 		# National Focus
 			containerWindowType = {
