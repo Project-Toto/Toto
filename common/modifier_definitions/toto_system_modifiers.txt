@@ -1,0 +1,70 @@
+# modifiers used in static_modifiers needs to be predefined here
+
+# Terrain
+
+  state_arability = {
+    color_type = good
+    value_type = percentage
+    precision = 1
+    category = state
+  }
+
+  state_habitability = {
+    color_type = good
+    value_type = percentage
+    precision = 1
+    category = state
+  }
+
+# Population
+  state_happiness = {
+    color_type = good
+    value_type = percentage
+    precision = 1
+    category = state
+  }
+  
+  state_loyalty = {
+    color_type = good
+    value_type = percentage
+    precision = 1
+    category = state
+  }
+  
+  state_prosperity = {
+    color_type = good
+    value_type = percentage
+    precision = 1
+    category = state
+  }
+  
+  state_urbanization = {
+    color_type = good
+    value_type = percentage
+    precision = 1
+    category = state
+  }
+
+# Colonization
+  state_colonial_encroachment = {
+    color_type = bad
+    value_type = percentage
+    precision = 1
+    category = state
+  }
+
+# Country
+  country_prestige = {
+    color_type = good
+    value_type = number
+    precision = 0
+    category = country
+  }
+  
+  country_battalion_cap = {
+    color_type = good
+    value_type = number
+    precision = 0
+    category = country
+  }
+  

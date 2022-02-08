@@ -1,0 +1,14 @@
+Mediterranean
+Desert
+Desert Coast
+Sahel
+Dry Tropic
+Humid Tropic
+Dry Highland
+Humid Highland
+Rainforest
+Savanna
+Steepe
+Monsoon Coast
+Temperate
+Montane
