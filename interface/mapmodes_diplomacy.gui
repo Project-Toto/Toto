@@ -1,0 +1,46 @@
+guiTypes = {
+	containerWindowType = {
+		name = "mapmode_diplomacy_other_country_container"
+		clipping = no
+		
+		position = { x = 0 y = 0 }
+		size = { width = 210 height = 90 }
+			
+		containerWindowType = {
+			name = "country_container"
+			position = { x = 0 y = 0 }
+			
+			size = { width = 210 height = 90 }
+			clipping = no
+			
+			iconType = {
+				name = "background"
+				quadTextureSprite = "GFX_mapmode_bg"
+				alwaystransparent = yes
+			}
+
+			instantTextBoxType = {
+				name = "country_text"
+				position = { x= 0 y = 2 }
+				maxWidth = 210
+				maxHeight = 45
+				font = "hoi_18mbs"
+				text = "state_map_icon_text"
+				pdx_tooltip = "test"
+				format = center
+				alwaystransparent = yes
+			}
+			
+			buttonType = {
+				name = "duel"
+				position = { x = 72 y = 50 }
+				quadTextureSprite ="GFX_small_button_71x26"
+				buttonFont = "hoi_16mbs"
+				buttonText = "Duel"
+				clicksound = click_default
+				pdx_tooltip = list_actors_tooltip
+				pdx_disabled_tooltip = "already_in_combat"
+			}
+		}
+	}
+}

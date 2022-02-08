@@ -5,7 +5,7 @@ state={
 
 	history={
 		owner = SKT
-
+		add_claim_by = KNO
 	}
 
 	provinces={

@@ -1,0 +1,17 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_mapmode_sprite_bg"
+		texturefile = "gfx/interface/mapmodes/mapmode_sprite_bg.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_homm_hero_move_bg"
+		texturefile = "gfx/interface/hero_map_icon/move.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_mapmode_bg"
+		texturefile = "gfx/interface/mapmodes/mapmode_bg.dds"
+		noOfFrames = 1
+	}
+}

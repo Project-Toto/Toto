@@ -928,11 +928,11 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name ="prosperity"
-			position = { x= 12 y = 4 }
+			position = { x= 32 y = 4 }
 			font = "hoi_18mbs"
 			text = "CURRENT_PROSPERITY"
 			format = right
-			maxWidth = 60
+			maxWidth = 40
 			maxHeight = 24
 			fixedsize = yes
 

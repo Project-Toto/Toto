@@ -4,18 +4,19 @@
 guiTypes = {
 	containerWindowType = {
 		name = "state_interactive_map"
-		position = { x = 150 y = 170 }
+		position = { x = 190 y = 80 }
 		size = { height = 240 width = 240 }
 
 		background = {
 			name = "state_interactive_map_bg"
 			position = { x = 0 y = 0 }
 			spriteType = "GFX_state_interactive_map_bg"
+			alwaystransparent = yes
 		}
 
 		buttonType = {
 			name = "state_interactive_commons_button"
-			position = { x = 0 y = 0 }
+			position = { x = 80 y = 60 }
 
 			quadTextureSprite = "GFX_state_interactive_map_commons_button"
 			frame = 1
@@ -31,7 +32,7 @@ guiTypes = {
 		}
 		buttonType = {
 			name = "state_interactive_market_button"
-			position = { x = 0 y = 0 }
+			position = { x = 60 y = 150 }
 
 			quadTextureSprite = "GFX_state_interactive_map_market_button"
 			frame = 1
@@ -47,7 +48,7 @@ guiTypes = {
 		}
 		buttonType = {
 			name = "state_interactive_barracks_button"
-			position = { x = 0 y = 0 }
+			position = { x = 160 y = 160 }
 
 			quadTextureSprite = "GFX_state_interactive_map_barracks_button"
 			frame = 1
@@ -63,7 +64,7 @@ guiTypes = {
 		}
 		buttonType = {
 			name = "state_interactive_capital_button"
-			position = { x = 0 y = 0 }
+			position = { x = 10 y = 40 }
 
 			quadTextureSprite = "GFX_state_interactive_map_capital_button"
 			frame = 1
@@ -79,7 +80,7 @@ guiTypes = {
 		}
     buttonType = {
 			name = "state_interactive_workshop_button"
-			position = { x = 100 y = 40 }
+			position = { x = 180 y = 80 }
 
 			quadTextureSprite = "GFX_state_interactive_map_workshop_button"
 			frame = 1
