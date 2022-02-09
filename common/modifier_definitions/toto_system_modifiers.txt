@@ -84,6 +84,19 @@
     category = state
   }
   
+  state_autonomy = {
+    color_type = good
+    value_type = number
+    precision = 0
+    category = state
+  }
+  state_autonomy_modifier = {
+    color_type = good
+    value_type = number
+    precision = 0
+    category = state
+  }
+  
   state_development = {
     color_type = good
     value_type = number
