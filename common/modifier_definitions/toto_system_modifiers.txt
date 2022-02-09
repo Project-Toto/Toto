@@ -8,6 +8,20 @@
     precision = 1
     category = state
   }
+  
+  state_arability_modify = {
+    color_type = good
+    value_type = percentage
+    precision = 1
+    category = state
+  }
+
+  state_arability_factor = {
+    color_type = good
+    value_type = percentage
+    precision = 0
+    category = state
+  }
 
   state_habitability = {
     color_type = good
@@ -15,33 +29,71 @@
     precision = 1
     category = state
   }
+  
+  state_habitability_modify = {
+    color_type = good
+    value_type = percentage
+    precision = 1
+    category = state
+  }
+  
+  state_habitability_factor = {
+    color_type = good
+    value_type = percentage
+    precision = 0
+    category = state
+  }
 
 # Population
   state_happiness = {
     color_type = good
-    value_type = percentage
-    precision = 1
+    value_type = number
+    precision = 0
+    category = state
+  }
+  state_happiness_modify = {
+    color_type = good
+    value_type = number
+    precision = 0
     category = state
   }
   
   state_loyalty = {
     color_type = good
-    value_type = percentage
-    precision = 1
+    value_type = number
+    precision = 0
+    category = state
+  }
+  state_loyalty_modify = {
+    color_type = good
+    value_type = number
+    precision = 0
     category = state
   }
   
   state_prosperity = {
     color_type = good
-    value_type = percentage
-    precision = 1
+    value_type = number
+    precision = 0
+    category = state
+  }
+  state_prosperity_modify = {
+    color_type = good
+    value_type = number
+    precision = 0
     category = state
   }
   
-  state_urbanization = {
+  state_development = {
     color_type = good
-    value_type = percentage
-    precision = 1
+    value_type = number
+    precision = 0
+    category = state
+  }
+  state_development_modify = {
+    color_type = good
+    value_type = number
+    precision = 0
     category = state
   }
 
@@ -60,10 +112,85 @@
     precision = 0
     category = country
   }
-  
-  country_battalion_cap = {
+  country_prestige_modify = {
     color_type = good
     value_type = number
+    precision = 0
+    category = country
+  }
+  
+  country_prosperity_gain = {
+    color_type = good
+    value_type = number
+    precision = 3
+    category = country
+  }
+  country_prosperity_gain_modify = {
+    color_type = good
+    value_type = number
+    precision = 3
+    category = country
+  }
+  country_prosperity_gain_factor = {
+    color_type = good
+    value_type = percentage
+    precision = 0
+    category = country
+  }
+  
+  country_administrative_capacity = {
+    color_type = good
+    value_type = number
+    precision = 0
+    category = country
+  }
+  country_administrative_capacity_modify = {
+    color_type = good
+    value_type = number
+    precision = 0
+    category = country
+  }
+  country_administrative_capacity_factor = {
+    color_type = good
+    value_type = percentage
+    precision = 0
+    category = country
+  }
+  
+  state_administrative_usage = {
+    color_type = bad
+    value_type = number
+    precision = 0
+    category = state
+  }
+  state_administrative_usage_modify = {
+    color_type = bad
+    value_type = number
+    precision = 0
+    category = state
+  }
+  state_administrative_usage_factor = {
+    color_type = bad
+    value_type = percentage
+    precision = 0
+    category = state
+  }
+  
+  country_battalion_capacity = {
+    color_type = good
+    value_type = number
+    precision = 0
+    category = country
+  }
+  country_battalion_capacity_modify = {
+    color_type = good
+    value_type = number
+    precision = 0
+    category = country
+  }
+  country_battalion_capacity_factor = {
+    color_type = good
+    value_type = percentage
     precision = 0
     category = country
   }

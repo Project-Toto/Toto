@@ -1,0 +1,44 @@
+# State Climates
+  climate_arid = {
+    # Arid (Desert)
+  }
+  climate_arid_coast = {
+    # Arid Coast (Desert Coast)
+  }
+  climate_arid_highlands = {
+    # Arid Highlands (Desert Highlands)
+  }
+  climate_arid_tropic = {
+    # Arid Tropic (Sahel)
+  }
+  
+  climate_temperate = {
+    # Temperate
+  }
+  climate_temperate_coast = {
+    # Temperate Coast (Mediterreanean)
+  }
+  climate_temperate_highlands = {
+    # Temperate Highlands (Montane)
+  }
+  
+  climate_humid = {
+    # Humid
+  }
+  climate_humid_coast = {
+    # Humid Coast
+  }
+  climate_humid_highlands = {
+    # Humid Highlands
+  }
+  climate_humid_tropic = {
+    # Humid Tropic
+  }
+
+# State Climate Events
+  climate_event_drought = {
+    # Drought
+  }
+  climate_event_monsoon = {
+    # Monsoon
+  }

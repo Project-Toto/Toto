@@ -1,0 +1,28 @@
+on_actions = {
+  on_daily = {
+    effects = {
+      EUR = {
+        for_each_scope_loop = {
+          array = global.states_with_projects
+          if = {
+            limit = { is_fully_controlled_by = OWNER }
+            add_to_variable = {
+              var = state_project_progress
+              value = 1
+            }
+          }
+          if = {
+            limit = {
+              check_variable = {
+                var = state_project_progress
+                value = state_project_requirement
+                value = greater_or_equals_to
+              }
+            }
+            state_project_complete = yes
+          }
+        }
+      }
+    }
+  }
+}

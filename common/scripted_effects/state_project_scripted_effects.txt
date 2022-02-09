@@ -1,0 +1,12 @@
+state_project_upgrade = {
+}
+state_project_complete = {
+  clr_state_flag = state_project_construction
+  remove_from_array = {
+    array = global.states_with_projects
+    value = THIS.id
+  }
+  clear_variable = state_project_progress
+  clear_variable = state_project_requirement
+  # Add Project
+}
