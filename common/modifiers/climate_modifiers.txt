@@ -36,8 +36,14 @@
   }
 
 # State Climate Events
+  climate_event_sandstorm = {
+    # Sandstorm
+  }
   climate_event_drought = {
     # Drought
+  }
+  climate_event_heavy_rains = {
+    # Heavy Rains
   }
   climate_event_monsoon = {
     # Monsoon

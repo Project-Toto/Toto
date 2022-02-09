@@ -1,0 +1,326 @@
+global_weather_setup = {
+  every_state = {
+    if = {
+      limit = { has_state_modifier = climate_arid }
+      add_to_array = {
+        array = global.states_climate_arid
+        value = THIS.id
+      }
+    }
+    else_if = {
+      limit = { has_state_modifier = climate_arid_coast }
+      add_to_array = {
+        array = global.states_climate_arid_coast
+        value = THIS.id
+      }
+    }
+    else_if = {
+      limit = { has_state_modifier = climate_arid_highlands }
+      add_to_array = {
+        array = global.states_climate_arid_highlands
+        value = THIS.id
+      }
+    }
+    else_if = {
+      limit = { has_state_modifier = climate_arid_tropic }
+      add_to_array = {
+        array = global.states_climate_arid_tropic
+        value = THIS.id
+      }
+    }
+    else_if = {
+      limit = { has_state_modifier = climate_temperate }
+      add_to_array = {
+        array = global.states_climate_temperate
+        value = THIS.id
+      }
+    }
+    else_if = {
+      limit = { has_state_modifier = climate_temperate_coast }
+      add_to_array = {
+        array = global.states_climate_temperate_coast
+        value = THIS.id
+      }
+    }
+    else_if = {
+      limit = { has_state_modifier = climate_temperate_highlands }
+      add_to_array = {
+        array = global.states_climate_temperate_highlands
+        value = THIS.id
+      }
+    }
+    else_if = {
+      limit = { has_state_modifier = climate_humid }
+      add_to_array = {
+        array = global.states_climate_humid
+        value = THIS.id
+      }
+    }
+    else_if = {
+      limit = { has_state_modifier = climate_humid_coast }
+      add_to_array = {
+        array = global.states_climate_humid_coast
+        value = THIS.id
+      }
+    }
+    else_if = {
+      limit = { has_state_modifier = climate_humid_highlands }
+      add_to_array = {
+        array = global.states_climate_humid_highlands
+        value = THIS.id
+      }
+    }
+    else_if = {
+      limit = { has_state_modifier = climate_humid_tropic }
+      add_to_array = {
+        array = global.states_climate_humid_tropic
+        value = THIS.id
+      }
+    }
+  }
+}
+
+
+global_weather_update = {
+  for_each_scope_loop = {
+    array = global.states_climate_arid
+    if = {
+      limit = { has_state_modifier = climate_event_sandstorm }
+      remove_state_modifier = climate_event_sandstorm
+    }
+    else_if = {
+      limit = { has_state_modifier = climate_event_drought }
+      random_list = {
+        7 = {
+          remove_state_modifier = climate_event_drought
+        }
+        2 = {
+          # Persists
+        }
+        1 = {
+          add_state_modifier = climate_event_sandstorm
+        }
+      }
+    }
+    else = {
+      random_list = {
+        5 = {
+          add_state_modifier = climate_event_drought
+        }
+        15 = {
+          # Nothing
+        }
+      }
+    }
+  }
+  for_each_scope_loop = {
+    array = global.states_climate_arid_coast
+    if = {
+      limit = { has_state_modifier = climate_event_sandstorm }
+      remove_state_modifier = climate_event_sandstorm
+    }
+    else_if = {
+      limit = { has_state_modifier = climate_event_drought }
+      random_list = {
+        7 = {
+          remove_state_modifier = climate_event_drought
+        }
+        1 = {
+          # Persists
+        }
+        2 = {
+          add_state_modifier = climate_event_sandstorm
+        }
+      }
+    }
+    else = {
+      random_list = {
+        4 = {
+          add_state_modifier = climate_event_drought
+        }
+        16 = {
+          # Nothing
+        }
+      }
+    }
+  }
+  for_each_scope_loop = {
+    array = global.states_climate_arid_highlands
+    if = {
+      limit = { has_state_modifier = climate_event_drought }
+      random_list = {
+        8 = {
+          remove_state_modifier = climate_event_drought
+        }
+        2 = {
+          # Persists
+        }
+      }
+    }
+    else = {
+      random_list = {
+        6 = {
+          add_state_modifier = climate_event_drought
+        }
+        14 = {
+          # Nothing
+        }
+      }
+    }
+  }
+  for_each_scope_loop = {
+    array = global.states_climate_temperate
+    if = {
+      limit = { has_state_modifier = climate_event_drought }
+      remove_state_modifier = climate_event_drought
+    }
+    else_if = {
+      limit = { has_state_modifier = climate_event_heavy_rain }
+      remove_state_modifier = climate_event_heavy_rain
+    }
+    else = {
+      random_list = {
+        1 = {
+          add_state_modifier = climate_event_drought
+        }
+        1 = {
+          add_state_modifier = climate_event_heavy_rain
+        }
+        18 = {
+          # Nothing
+        }
+      }
+    }
+  }
+  for_each_scope_loop = {
+    array = global.states_climate_temperate_coast
+    if = {
+      limit = { has_state_modifier = climate_event_drought }
+      remove_state_modifier = climate_event_drought
+    }
+    else_if = {
+      limit = { has_state_modifier = climate_event_heavy_rain }
+      remove_state_modifier = climate_event_heavy_rain
+    }
+    else = {
+      random_list = {
+        1 = {
+          add_state_modifier = climate_event_drought
+        }
+        3 = {
+          add_state_modifier = climate_event_heavy_rain
+        }
+        16 = {
+          # Nothing
+        }
+      }
+    }
+  }
+  for_each_scope_loop = {
+    array = global.states_climate_temperate_highlands
+    if = {
+      limit = { has_state_modifier = climate_event_drought }
+      remove_state_modifier = climate_event_drought
+    }
+    else_if = {
+      limit = { has_state_modifier = climate_event_heavy_rain }
+      remove_state_modifier = climate_event_heavy_rain
+    }
+    else = {
+      random_list = {
+        2 = {
+          add_state_modifier = climate_event_drought
+        }
+        2 = {
+          add_state_modifier = climate_event_heavy_rain
+        }
+        16 = {
+          # Nothing
+        }
+      }
+    }
+  }
+  for_each_scope_loop = {
+    array = global.states_climate_humid
+    if = {
+      limit = { has_state_modifier = climate_event_heavy_rain }
+      random_list = {
+        7 = {
+          remove_state_modifier = climate_event_heavy_rain
+        }
+        3 = {
+          #Persists
+        }
+    }
+    else = {
+      random_list = {
+        5 = {
+          add_state_modifier = climate_event_heavy_rain
+        }
+        5 = {
+          # Nothing
+        }
+      }
+    }
+  }
+  for_each_scope_loop = {
+    array = global.states_climate_humid_coast
+    if = {
+      limit = { has_state_modifier = climate_event_monsoon }
+      random_list = {
+        3 = {
+          remove_state_modifier = climate_event_monsoon
+        }
+        1 = {
+          #Persists
+        }
+      }
+    }
+    else_if = {
+      limit = { has_state_modifier = climate_event_heavy_rain }
+      random_list = {
+        5 = {
+          remove_state_modifier = climate_event_heavy_rain
+        }
+        4 = {
+          #Persists
+        }
+        1 = {
+          add_state_modifier = climate_event_monsoon
+        }
+    }
+    else = {
+      random_list = {
+        5 = {
+          add_state_modifier = climate_event_heavy_rain
+        }
+        5 = {
+          # Nothing
+        }
+      }
+    }
+  }
+  for_each_scope_loop = {
+    array = global.states_climate_humid_highlands
+    if = {
+      limit = { has_state_modifier = climate_event_heavy_rain }
+      random_list = {
+        6 = {
+          remove_state_modifier = climate_event_heavy_rain
+        }
+        4 = {
+          #Persists
+        }
+    }
+    else = {
+      random_list = {
+        4 = {
+          add_state_modifier = climate_event_heavy_rain
+        }
+        6 = {
+          # Nothing
+        }
+      }
+    }
+  }
+}
