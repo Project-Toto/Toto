@@ -1,0 +1,104 @@
+﻿l_english:
+ ENG_commonwealth_cosmetic: "United Commonwealth"
+ ENG_commonweatlh_cosmetic_DEF: "the United Commonwealth"
+ ENG_commonwealth_cosmetic_ADJ: "British"
+
+ ENG_syndicate_cosmetic: "Union of Britain"
+ ENG_syndicate_cosmetic_DEF: "the Union of Great Britain"
+ ENG_syndicate_cosmetic_ADJ: "British"
+ 
+ HOL_kingdom_cosmetic: "Kingdom of the Netherlands"
+ HOL_kingdom_cosmetic_DEF: "the Kingdom of the Netherlands"
+ HOL_kingdom_cosmetic_ADJ: "Dutch"
+ 
+ BEL_kingdom_cosmetic: "Kingdom of Belgium"
+ BEL_kingdom_cosmetic_DEF: "the Kingdom of Belgium"
+ BEL_kingdom_cosmetic_ADJ: "Belgian"
+ 
+ FRA_empire_cosmetic: "French Empire"
+ FRA_empire_cosmetic_DEF: "the French Empire"
+ FRA_empire_cosmetic_ADJ: "French"
+ 
+ FRA_socialist_cosmetic: "People's France"
+ FRA_socialist_cosmetic_DEF: "the People's Republic of Metropolitan France"
+ FRA_socialist_cosmetic_ADJ: ""
+ 
+ SPR_kingdom_cosmetic: "Kingdom of Spain"
+ SPR_kingdom_cosmetic_DEF: "the Kingdom of Spain"
+ SPR_kingdom_cosmetic_ADJ: "Spanish"
+ 
+ ITA_sardinia_piedmont_cosmetic: "Sardinia-Piedmont"
+ ITA_sardinia_piedmont_cosmetic_DEF: "the Kingdom of Sardinia-Piedmont"
+ ITA_sardinia_piedmont_cosmetic_ADJ: "Piedmontese"
+
+ ITA_kingdom_cosmetic: "Kingdom of Italy"
+ ITA_kingdom_cosmetic_DEF: "the Kingdom of Italy"
+ ITA_kingdom_cosmetic_ADJ: "Italian"
+
+ ITA_po_confederation_cosmetic: "Po Confederation"
+ ITA_po_confederation_cosmetic_DEF: "the Confederation of the Po"
+ ITA_po_confederation_cosmetic_ADJ: "North Italian"
+ 
+ AUS_austria_hungary_cosmetic: "Austria-Hungary"
+ AUS_austria_hungary_cosmetic_DEF: "the Austria-Hungarian Empire"
+ AUS_austria_hungary_cosmetic_ADJ: "Austrian"
+ 
+ AUS_danube_federation_cosmetic: "Danubian Federation"
+ AUS_danube_federation_cosmetic_DEF: "the Federation of the Danube"
+ AUS_danube_federation_cosmetic_ADJ: "Danubian"
+ 
+ AUS_empire_cosmetic: "Austrian Empire"
+ AUS_empire_cosmetic_DEF: "the Austrian Empire"
+ AUS_empire_cosmetic_ADJ: "Austrian"
+
+ GER_prussia_cosmetic: "Kingdom of Prussia"
+ GER_prussia_cosmetic_DEF: "the Kingdom of Prussia"
+ GER_prussia_cosmetic_ADJ: "Prussian"
+
+ GER_north_german_confederation_cosmetic: "North German Confederation"
+ GER_north_german_confederation_cosmetic_DEF: "the North German Confederation"
+ GER_north_german_confederation_cosmetic_ADJ: "North German"
+
+ GER_empire_cosmetic: "German Empire"
+ GER_empire_cosmetic_DEF: "the German Empire"
+ GER_empire_cosmetic_ADJ: "German"
+ 
+ DEN_kingdom_cosmetic: "Kingdom of Denmark"
+ DEN_kingdom_cosmetic_DEF: "the Kingdom of Denmark"
+ DEN_kingdom_cosmetic_ADJ: "Danish"
+ 
+ SWE_kingdom_cosmetic: "Kingdom of Sweden"
+ SWE_kingdom_cosmetic_DEF: "the Kingdom of Sweden"
+ SWE_kingdom_cosmetic_ADJ: "Swedish"
+ 
+ RUS_empire_cosmetic: "Russian Empire"
+ RUS_empire_cosmetic_DEF: "the Russian Empire"
+ RUS_empire_cosmetic_ADJ: "Russian"
+ 
+ RUS_soviet_union_cosmetic: "Soviet Union"
+ RUS_soviet_union_cosmetic_DEF: "the Union of Socialist Soviet Republics"
+ RUS_soviet_union_cosmetic_ADJ: "Soviet"
+ 
+ USA_imperial_cosmetic: "Imperial Union"
+ USA_imperial_cosmetic_DEF: "the Imperial Union of America"
+ USA_imperial_cosmetic_ADJ: "American"
+ 
+ USA_empire_cosmetic: "American Empire"
+ USA_empire_cosmetic_DEF: "the American Empire"
+ USA_empire_cosmetic_ADJ: "American"
+ 
+ CSA_great_dixie_cosmetic: "Great Dixie"
+ CSA_great_dixie_cosmetic_DEF: "the Confederacy of Great Dixie"
+ CSA_great_dixie_cosmetic_ADJ: "Dixie"
+ 
+ BRA_empire_cosmetic: "Brazilian Empire"
+ BRA_empire_cosmetic_DEF: "the Brazilian Empire"
+ BRA_empire_cosmetic_ADJ: "Brazilian"
+ 
+ OTO_empire_cosmetic: "Ottoman Empire"
+ OTO_empire_cosmetic_DEF: "the Ottoman Empire"
+ OTO_empire_cosmetic_ADJ: "Ottoman"
+ 
+ PER_domains_cosmetic: "Domains of Iran"
+ PER_domains_cosmetic_DEF: "the Guarded Domains of Iran"
+ PER_domains_cosmetic_ADJ: "Persian"
