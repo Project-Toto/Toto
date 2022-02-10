@@ -1,7 +1,6 @@
 # modifiers used in static_modifiers needs to be predefined here
 
 # Terrain
-
   state_arability = {
     color_type = good
     value_type = percentage
@@ -90,7 +89,7 @@
     precision = 0
     category = state
   }
-  state_autonomy_modifier = {
+  state_autonomy_modify = {
     color_type = good
     value_type = number
     precision = 0
