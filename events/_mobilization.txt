@@ -1,0 +1,37 @@
+add_namespace = mobilization
+
+country_event = {
+	id = mobilization.1
+	title = mobilization.1.t
+	desc = mobilization.1.d
+
+	picture = placeholder
+
+	is_triggered_only = yes
+
+	option = {
+		name = mobilization.1.a
+		ai_chance = { base = 1 }
+		mobilize = yes
+	}
+	option = {
+		name = mobilization.1.b
+		ai_chance = { base = 0 }
+	}
+}
+
+country_event = {
+	id = mobilization.2
+	title = mobilization.2.t
+	desc = mobilization.2.d
+
+	picture = placeholder
+
+	is_triggered_only = yes
+
+	option = {
+		name = mobilization.2.a
+		ai_chance = { base = 1 }
+		demobilize = yes
+	}
+}

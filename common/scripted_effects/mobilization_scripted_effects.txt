@@ -1,4 +1,4 @@
-mobilize_templates = {
+mobilize_template_setup = {
   division_template = {
     name = "Large Camel Archer Levy"
     is_locked = yes
@@ -6,9 +6,9 @@ mobilize_templates = {
     priority = -1
     template_counter = 0
     regiments = {
-        camel_archer = { x = 0 y = 0 }
-        camel_archer = { x = 0 y = 1 }
-        camel_archer = { x = 0 y = 2 }
+        camel_archer_levy = { x = 0 y = 0 }
+        camel_archer_levy = { x = 0 y = 1 }
+        camel_archer_levy = { x = 0 y = 2 }
     }
   }
   division_template = {
@@ -18,8 +18,8 @@ mobilize_templates = {
     priority = -1
     template_counter = 0
     regiments = {
-        camel_archer = { x = 0 y = 0 }
-        camel_archer = { x = 0 y = 1 }
+        camel_archer_levy = { x = 0 y = 0 }
+        camel_archer_levy = { x = 0 y = 1 }
     }
   }
   division_template = {
@@ -29,7 +29,7 @@ mobilize_templates = {
     priority = -1
     template_counter = 0
     regiments = {
-        camel_archer = { x = 0 y = 0 }
+        camel_archer_levy = { x = 0 y = 0 }
     }
   }
   
@@ -40,9 +40,9 @@ mobilize_templates = {
     priority = -1
     template_counter = 0
     regiments = {
-        camel_warrior = { x = 0 y = 0 }
-        camel_warrior = { x = 0 y = 1 }
-        camel_warrior = { x = 0 y = 2 }
+        camel_warrior_levy = { x = 0 y = 0 }
+        camel_warrior_levy = { x = 0 y = 1 }
+        camel_warrior_levy = { x = 0 y = 2 }
     }
   }
   division_template = {
@@ -52,8 +52,8 @@ mobilize_templates = {
     priority = -1
     template_counter = 0
     regiments = {
-        camel_warrior = { x = 0 y = 0 }
-        camel_warrior = { x = 0 y = 1 }
+        camel_warrior_levy = { x = 0 y = 0 }
+        camel_warrior_levy = { x = 0 y = 1 }
     }
   }
   division_template = {
@@ -63,7 +63,7 @@ mobilize_templates = {
     priority = -1
     template_counter = 0
     regiments = {
-        camel_warrior = { x = 0 y = 0 }
+        camel_warrior_levy = { x = 0 y = 0 }
     }
   }
   division_template = {
@@ -73,9 +73,9 @@ mobilize_templates = {
     priority = -1
     template_counter = 0
     regiments = {
-        tribal_cavalry = { x = 0 y = 0 }
-        tribal_cavalry = { x = 0 y = 1 }
-        tribal_cavalry = { x = 0 y = 2 }
+        tribal_cavalry_levy = { x = 0 y = 0 }
+        tribal_cavalry_levy = { x = 0 y = 1 }
+        tribal_cavalry_levy = { x = 0 y = 2 }
     }
   }
   division_template = {
@@ -85,8 +85,8 @@ mobilize_templates = {
     priority = -1
     template_counter = 0
     regiments = {
-        tribal_cavalry = { x = 0 y = 0 }
-        tribal_cavalry = { x = 0 y = 1 }
+        tribal_cavalry_levy = { x = 0 y = 0 }
+        tribal_cavalry_levy = { x = 0 y = 1 }
     }
   }
   division_template = {
@@ -96,7 +96,7 @@ mobilize_templates = {
     priority = -1
     template_counter = 0
     regiments = {
-        tribal_cavalry = { x = 0 y = 0 }
+        tribal_cavalry_levy = { x = 0 y = 0 }
     }
   }
   division_template = {
@@ -106,9 +106,9 @@ mobilize_templates = {
     priority = -1
     template_counter = 0
     regiments = {
-        tribal_warrior = { x = 0 y = 0 }
-        tribal_warrior = { x = 0 y = 1 }
-        tribal_warrior = { x = 0 y = 2 }
+        tribal_warrior_levy = { x = 0 y = 0 }
+        tribal_warrior_levy = { x = 0 y = 1 }
+        tribal_warrior_levy = { x = 0 y = 2 }
     }
   }
   division_template = {
@@ -118,8 +118,8 @@ mobilize_templates = {
     priority = -1
     template_counter = 0
     regiments = {
-        tribal_warrior = { x = 0 y = 0 }
-        tribal_warrior = { x = 0 y = 1 }
+        tribal_warrior_levy = { x = 0 y = 0 }
+        tribal_warrior_levy = { x = 0 y = 1 }
     }
   }
   division_template = {
@@ -129,7 +129,7 @@ mobilize_templates = {
     priority = -1
     template_counter = 0
     regiments = {
-        tribal_warrior = { x = 0 y = 0 }
+        tribal_warrior_levy = { x = 0 y = 0 }
     }
   }
   division_template = {
@@ -139,9 +139,9 @@ mobilize_templates = {
     priority = -1
     template_counter = 0
     regiments = {
-        tribal_archer = { x = 0 y = 0 }
-        tribal_archer = { x = 0 y = 1 }
-        tribal_archer = { x = 0 y = 2 }
+        tribal_archer_levy = { x = 0 y = 0 }
+        tribal_archer_levy = { x = 0 y = 1 }
+        tribal_archer_levy = { x = 0 y = 2 }
     }
   }
   division_template = {
@@ -151,8 +151,8 @@ mobilize_templates = {
     priority = -1
     template_counter = 0
     regiments = {
-        tribal_archer = { x = 0 y = 0 }
-        tribal_archer = { x = 0 y = 1 }
+        tribal_archer_levy = { x = 0 y = 0 }
+        tribal_archer_levy = { x = 0 y = 1 }
     }
   }
   division_template = {
@@ -162,7 +162,7 @@ mobilize_templates = {
     priority = -1
     template_counter = 0
     regiments = {
-        tribal_archer = { x = 0 y = 0 }
+        tribal_archer_levy = { x = 0 y = 0 }
     }
   }
 }
@@ -548,4 +548,66 @@ mobilize_camel_archers = {
       }
     }
   }
+}
+demobilize = {
+	delete_unit = {
+		template = "Large Camel Archer Levy"
+		disband = no
+	}
+	delete_unit = {
+		template = "Camel Archer Levy"
+		disband = no
+	}
+	delete_unit = {
+		template = "Small Camel Archer Levy"
+		disband = no
+	}
+	delete_unit = {
+		template = "Large Camel Warrior Levy"
+		disband = no
+	}
+	delete_unit = {
+		template = "Camel Warrior Levy"
+		disband = no
+	}
+	delete_unit = {
+		template = "Small Camel Warrior Levy"
+		disband = no
+	}
+	delete_unit = {
+		template = "Large Tribal Warrior Levy"
+		disband = no
+	}
+	delete_unit = {
+		template = "Tribal Warrior Levy"
+		disband = no
+	}
+	delete_unit = {
+		template = "Tribal Camel Warrior Levy"
+		disband = no
+	}
+	delete_unit = {
+		template = "Large Tribal Cavalry Levy"
+		disband = no
+	}
+	delete_unit = {
+		template = "Tribal Cavalry Levy"
+		disband = no
+	}
+	delete_unit = {
+		template = "Tribal Camel Cavalry Levy"
+		disband = no
+	}
+	delete_unit = {
+		template = "Large Tribal Archer Levy"
+		disband = no
+	}
+	delete_unit = {
+		template = "Tribal Archer Levy"
+		disband = no
+	}
+	delete_unit = {
+		template = "Tribal Camel Archer Levy"
+		disband = no
+	}
 }

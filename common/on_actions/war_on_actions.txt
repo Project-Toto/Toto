@@ -1,0 +1,33 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			every_country = {
+				mobilize_template_setup = yes
+			}
+		}
+	}
+	on_war_relation_added = {
+		effect = {
+			ROOT = {
+				if = {
+					limit = { NOT = { has_country_flag = mobilized } }
+					country_event = mobilization.1
+				}
+			}
+			FROM = {
+				if = {
+					limit = { NOT = { has_country_flag = mobilized } }
+					country_event = mobilization.1
+				}
+			}
+		}
+	}
+
+	on_peace = {
+		effect = {
+			THIS = {
+				country_event = mobilization.2
+			}
+		}
+	}
+}
