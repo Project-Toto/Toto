@@ -1,0 +1,83 @@
+ideas = {
+  hidden_ideas = {
+    invention_gunpowder = {
+      allowed = { always = no }
+      
+      modifier = {
+        prestige_innovation_factor = 0.02
+      }
+      
+      equipment_bonus = {
+        infantry_equipment_0 = {
+          instant = yes
+          attack = 0.1
+        }
+      }
+      
+      research_bonus = {
+        firearms = 2.00
+      }
+      
+      on_add = {
+        set_country_flag = invented_gunpowder
+      }
+    }
+    invention_napoleonic_doctrine = {
+      allowed = { always = no }
+      
+      modifier = {
+        prestige_innovation_factor = 0.02
+      }
+      
+      equipment_bonus = {
+      
+      }
+      
+      research_bonus = {
+      
+      }
+      
+      on_add = {
+        set_country_flag = invented_napoleonic_doctrine
+      }
+    }
+    invention_field_fortifications = {
+      allowed = { always = no }
+      
+      modifier = {
+      
+      }
+      
+      equipment_bonus = {
+      
+      }
+      
+      research_bonus = {
+      
+      }
+      
+      on_add = {
+        set_country_flag = invented_field_fortification
+      }
+    }
+    invention_steam_engine = {
+      allowed = { always = no }
+      
+      modifier = {
+      
+      }
+      
+      equipment_bonus = {
+      
+      }
+      
+      research_bonus = {
+      
+      }
+      
+      on_add = {
+        set_country_flag = invented_steam_engine
+      }
+    }
+  }
+}

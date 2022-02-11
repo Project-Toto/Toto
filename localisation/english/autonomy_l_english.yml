@@ -3,7 +3,7 @@
   autonomy_free: "Free"
   add_autonomy_score_on_start_loc: "Autonomy"
  # Ottoman
-  autonomy_ottoman_eyalet: "Eyalet"
+  autonomy_ottoman_eyalet: "Autonomous Eyalet"
   autonomy_ottoman_khedive: "Khedive"
  # Empire
   afr_empire_politics_subject_autonomy_level_none: "Subject"

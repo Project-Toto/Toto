@@ -1,0 +1,39 @@
+prestige_technologies_tracker = {
+  enable = { always = yes }
+  
+  prestige_innovation_modifier = researched_techs^num
+}
+prestige_buildings_tracker = {
+  enable = { always = yes }
+
+  prestige_economy_modifier = prestige_buildings
+}
+prestige_exports_tracker = {
+  enable = { always = yes }
+  
+  prestige_economy_modifier = prestige_exports
+}
+prestige_states_tracker = {
+  enable = { always = yes }
+  
+  prestige_empire_modifier = controlled_states
+}
+prestige_subjects_tracker = {
+  enable = { always = yes }
+  
+  prestige_empire_modifier = prestige_subjects
+}
+prestige_subject_tracker = {
+  enable = { is_subject = yes }
+  
+  prestige_empire_factor = -0.50
+}
+prestige_battalions_tracker = {
+  enable = { always = yes }
+  
+  prestige_military_modifier = num_battalions
+}
+prestige_ships_tracker = {
+  enable = { always = yes }
+  prestige_military_modifier = num_ships
+}
