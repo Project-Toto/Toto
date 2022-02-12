@@ -2,13 +2,17 @@
 state={
 	id=96
 	name="STATE_96"
-	provinces={
-		263 273 322 422 447 481 600 1111 1216 1314 1657 2150 2267 2579 2846 2923 2994 3049 3572 4792 4876 4965 5808 6674 6677 6793 6841 6970 8365 8379 8382 8411 8590 8628 8672 8685
-	}
-	state_category=town
+
 	history={
-		owner=TES
+		owner = TES
+
+	}
+
+	provinces={
+		273 422 447 600 1216 1657 2150 2267 2579 2994 3572 4876 6677 6841 6970 8365 8379 8382 8411 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
 }

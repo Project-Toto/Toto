@@ -11,7 +11,7 @@ characters={
 		}
 		country_leader={
 			desc="POLITICS_IZZ_AD_DIN_MUHAMMAD_AL_SHARIF_IBN_SALIH_DERRET_DESC"
-			ideology=despotism
+			ideology=traditionalism_absolutism
 			expire="1891.12.31"
 		}
 		corps_commander = {

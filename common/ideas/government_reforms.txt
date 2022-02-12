@@ -1,72 +1,72 @@
-# Reforms
+# # Reforms
 
-(Settlement/sedentation)/Nomadism
+# (Settlement/sedentation)/Nomadism
 
-Aristocracy
-Democracy
-Oligarchy
-Plutocracy
-Theocracy
+# Aristocracy
+# Democracy
+# Oligarchy
+# Plutocracy
+# Theocracy
 
-Elections
-Parliament
-Senate
-Council
-Inheritance
+# Elections
+# Parliament
+# Senate
+# Council
+# Inheritance
 
-Succession
-Stateship
-Collectivization
-Authority
-Agenda
+# Succession
+# Stateship
+# Collectivization
+# Authority
+# Agenda
 
-Feudalism
-Law
-Constitution
-Rights
-Popularism
-Stability
+# Feudalism
+# Law
+# Constitution
+# Rights
+# Popularism
+# Stability
 
-Monarchy
-Divine Right
-Wisdom
-Legitimacy
+# Monarchy
+# Divine Right
+# Wisdom
+# Legitimacy
 
-Courtship
-Alleigance
-Patronage
-Centralization
-Clan Kinship
-Chiefdom
-Retinue
-Migration
-Federation
-Cult
-Mandate
+# Courtship
+# Alleigance
+# Patronage
+# Centralization
+# Clan Kinship
+# Chiefdom
+# Retinue
+# Migration
+# Federation
+# Cult
+# Mandate
 
-Legalism
-Land Distribution
-Citizenship
-Republic
-Meritocracy
-Representation
-Discipline
-Caste
-Warriorship
-Professionalism
-Piety
-Tolerance
-Philantrophy
-Consulates
-Scholasticism
-Culture Diplomacy
-Merchantilism
-Confederacy
-Union
-HUmanism
-Sovereignty
-Suffrage
+# Legalism
+# Land Distribution
+# Citizenship
+# Republic
+# Meritocracy
+# Representation
+# Discipline
+# Caste
+# Warriorship
+# Professionalism
+# Piety
+# Tolerance
+# Philantrophy
+# Consulates
+# Scholasticism
+# Culture Diplomacy
+# Merchantilism
+# Confederacy
+# Union
+# HUmanism
+# Sovereignty
+# Suffrage
 
-Cooperation
-Isolation
-Belligerence
+# Cooperation
+# Isolation
+# Belligerence

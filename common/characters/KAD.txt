@@ -11,7 +11,7 @@ characters={
 		}
 		country_leader={
 			desc="POLITICS_TEMP_DESC"
-			ideology=despotism
+			ideology=traditionalism_absolutism
 			expire="1891.12.31"
 		}
 		corps_commander = {
@@ -23,7 +23,7 @@ characters={
 			logistics_skill = 1
 		}
 	}
-	
+
 	KAD_Al_Hajj_Ahmad_ag_al_hajj_Elbekri={
 		name="Al-Hajj Ahmad ag al-hajj Elbekri"
 		portraits={
@@ -33,7 +33,7 @@ characters={
 		}
 		country_leader={
 			desc="POLITICS_TEMP_DESC"
-			ideology=islamist
+			ideology=fundamentalism_islamist
 			expire="1891.12.31"
 		}
 	}

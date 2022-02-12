@@ -9,9 +9,10 @@ state={
 	}
 
 	provinces={
-		307 511 1642 1701 2553 2651 3683 6190 6255 6863 7169 10034 10046 10247 
+		2553 3683 6190 7169 10034 10046 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
 	state_category=town
+	local_supplies=0.000
 }

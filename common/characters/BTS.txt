@@ -11,7 +11,7 @@ characters={
 		}
 		country_leader={
 			desc="POLITICS_GEORGE_V_DESC"
-			ideology=tribe
+			ideology=traditionalism_council
 			expire="1891.12.31"
 		}
 		corps_commander = {

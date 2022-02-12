@@ -11,7 +11,7 @@ characters={
 		}
 		country_leader={
 			desc="POLITICS_TEMP_DESC"
-			ideology=islamist
+			ideology=fundamentalism_islamist
 			expire="1891.12.31"
 		}
 		corps_commander = {

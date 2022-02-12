@@ -2728,7 +2728,7 @@ focus = {
 					OR = {
 						custom_trigger_tooltip = {
 							tooltip = DCI_is_greater_than_15
-							check_variable = { var = detrimental_colonial_impact_value > 15 }
+							check_variable = { detrimental_colonial_impact_value > 15 }
 						}
 						if = {
 							limit = { TAG = EPD }
@@ -2841,7 +2841,7 @@ focus = {
 					OR = {
 						custom_trigger_tooltip = {
 							tooltip = DCI_is_greater_than_15
-							check_variable = { var = detrimental_colonial_impact_value > 15 }
+							check_variable = { detrimental_colonial_impact_value > 15 }
 						}
 						if = {
 							limit = { TAG = EPD }

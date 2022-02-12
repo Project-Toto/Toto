@@ -2323,10 +2323,6 @@ technologies = {
 			industrial_chrome_electroplating = 1
 		}
 		
-		path = {
-			leads_to_tech = improved_heavy_tank
-			research_cost_coeff = 1
-		}
 
 		research_cost = 2
 		start_year = 1930
@@ -2363,13 +2359,6 @@ technologies = {
 				tag = FRA
 				factor = 3
 			}
-			modifier = {
-				factor = 0
-				OR = {
-					can_research = improved_heavy_tank
-					has_tech = improved_heavy_tank
-				}
-			}
 		}
 		
 		categories = {
@@ -2389,15 +2378,6 @@ technologies = {
 
 		ai_will_do = {  modifier = { factor = 0.5 is_major = yes has_war = no } modifier = { factor = 0.25 is_major = no has_war = no } modifier = { factor = 1.5 has_war = yes } modifier = { factor = 0 afr_is_tribal = yes  date < 1875.1.1 }
 			factor = 0
-
-			modifier = {
-				factor = 0
-				OR = {
-					has_tech = improved_heavy_td
-					can_research = improved_heavy_td
-					is_researching_technology = improved_heavy_tank
-				}
-			}
 		}
 
 		categories = {
@@ -2416,15 +2396,6 @@ technologies = {
 
 		ai_will_do = {  modifier = { factor = 0.5 is_major = yes has_war = no } modifier = { factor = 0.25 is_major = no has_war = no } modifier = { factor = 1.5 has_war = yes } modifier = { factor = 0 afr_is_tribal = yes  date < 1875.1.1 }
 			factor = 0
-
-			modifier = {
-				factor = 0
-				OR = {
-					has_tech = improved_heavy_art
-					can_research = improved_heavy_art
-					is_researching_technology = improved_heavy_tank
-				}
-			}
 		}
 
 		categories = {
@@ -2444,15 +2415,6 @@ technologies = {
 
 		ai_will_do = {  modifier = { factor = 0.5 is_major = yes has_war = no } modifier = { factor = 0.25 is_major = no has_war = no } modifier = { factor = 1.5 has_war = yes } modifier = { factor = 0 afr_is_tribal = yes  date < 1875.1.1 }
 			factor = 0
-
-			modifier = {
-				factor = 0
-				OR = {
-					has_tech = improved_heavy_spaa
-					can_research = improved_heavy_spaa
-					is_researching_technology = improved_heavy_tank
-				}
-			}
 		}
 
 		categories = {

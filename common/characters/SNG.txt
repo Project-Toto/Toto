@@ -8,7 +8,7 @@ characters={
 		}
 		country_leader={
 			desc="POLITICS_TEMP_DESC"
-			ideology=despotism
+			ideology=traditionalism_absolutism
 			expire="1891.12.31"
 		}
 	}

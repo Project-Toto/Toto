@@ -116,7 +116,7 @@ ideologies = {
 
 			fundamentalism_order = { }
 
-			fundamentalism_fundamentalism_absolutism = { }
+			fundamentalism_islamist = { }
 		}
 
 		dynamic_faction_names = {

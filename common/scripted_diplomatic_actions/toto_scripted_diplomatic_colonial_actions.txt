@@ -30,7 +30,7 @@ scripted_diplomatic_actions = {
 			# runs when the action is sent (rejected)
 		}
 
-		reset_recieve_effect = {
+		# reset_recieve_effect = {
 			# idk lol
 		}
 
@@ -48,7 +48,7 @@ scripted_diplomatic_actions = {
 
 		# recieve_scripted_gui = placeholder
 
-		recieve_description = toto_diplomacy_colonial_offer_protectorate_recieved_tt
+		# recieve_description = toto_diplomacy_colonial_offer_protectorate_recieved_tt
 
 		ai_desire = {
 			base = 0
@@ -85,7 +85,7 @@ scripted_diplomatic_actions = {
 			# runs when the action is sent (rejected)
 		}
 
-		reset_recieve_effect = {
+		# reset_recieve_effect = {
 			# idk lol
 		}
 
@@ -101,7 +101,7 @@ scripted_diplomatic_actions = {
 
 		# send_scripted_gui = placeholder
 
-		recieve_description = toto_diplomacy_colonial_relinquish_protectorate_recieved_tt
+		# recieve_description = toto_diplomacy_colonial_relinquish_protectorate_recieved_tt
 
 		# recieve_scripted_gui = placeholder
 
