@@ -30,10 +30,10 @@ scripted_gui = {
 				state_event = afr_empire_politics_state_manager_market_event.1
 			}
 			state_interactive_capital_button_click = {
-				ROOT = { country_event = afr_empire_politics_state_manager_officials_event.1 }
+				state_event = afr_empire_politics_state_manager_officials_event.1
 			}
 			state_interactive_barracks_button_click = {
-				ROOT = { country_event = afr_empire_politics_state_manager_garrison_event.1 }
+				state_event = afr_empire_politics_state_manager_garrison_event.1
 			}
 		}
 
