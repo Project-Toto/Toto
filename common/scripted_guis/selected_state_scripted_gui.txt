@@ -14,10 +14,27 @@ scripted_gui = {
 		}
 
 		triggers = {
-
+			state_interactive_market_button_emable = {
+				ROOT = { NOT = { has_country_flag = afr_empire_politics_state_management_in_event_flag } }
+			}
+			state_interactive_capital_button_enable = {
+				ROOT = { NOT = { has_country_flag = afr_empire_politics_state_management_in_event_flag } }
+			}
+			state_interactive_barracks_button_enable = {
+				ROOT = { NOT = { has_country_flag = afr_empire_politics_state_management_in_event_flag } }
+			}
 		}
-		effects = {
 
+		effects = {
+			state_interactive_market_button_click = {
+				state_event = afr_empire_politics_state_manager_market_event.1
+			}
+			state_interactive_capital_button_click = {
+				ROOT = { country_event = afr_empire_politics_state_manager_officials_event.1 }
+			}
+			state_interactive_barracks_button_click = {
+				ROOT = { country_event = afr_empire_politics_state_manager_garrison_event.1 }
+			}
 		}
 
 		ai_weights = {
@@ -25,7 +42,7 @@ scripted_gui = {
 		}
 
 		ai_enabled = {
-			always = no
+			always = no 
 		}
 	}
 }

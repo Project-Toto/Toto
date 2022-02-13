@@ -2694,7 +2694,7 @@ country_event = {
 	state_event = {
 		id = afr_empire_politics_state_manager_event.1
 		title = afr_empire_politics_state_manager_event.1.t
-		desc = afr_empire_politics_state_manager_event.1.d
+		desc = afr_empire_politics_state_manager_event.1.d 
 		picture = GFX_report_event_chinese_army_training
 		is_triggered_only = yes
 

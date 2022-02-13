@@ -36,7 +36,7 @@ guiTypes = {
 
 			quadTextureSprite = "GFX_state_interactive_map_market_button"
 			frame = 1
-
+ 
 			buttonText = ""
 			buttonFont = "hoi18mbs"
 

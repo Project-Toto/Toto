@@ -3,7 +3,7 @@
 # For sea units: ship,transport,uboat
 
 sub_units = {
-	camel_archer_levy = {
+	camelry_archer_levy = {
 		sprite = infantry
 		map_icon_category = 
 
@@ -29,7 +29,7 @@ sub_units = {
 	    
 	    category_all_mobile
 		  category_all_calvary
-		  category_all_camel
+		  category_all_camelry
 		}
 
 		combat_width = 2
@@ -54,11 +54,11 @@ sub_units = {
 		  rations = 8
 		}
 	}
-	camel_archer_levy = {
-    sprite = camel # Refers to <name>_entity in a gfx/entities/.*.asset file - Controls the unit used on the map
+	camelry_archer_levy = {
+    sprite = camelry # Refers to <name>_entity in a gfx/entities/.*.asset file - Controls the unit used on the map
     
     # Controls the map icon category used for the unit
-    map_icon_category = camel_archer
+    map_icon_category = camelry_archer
     
     priority = 100 # Controls which icon is used if multiple subunits of the same type exist
     ai_priority = 5
@@ -71,7 +71,7 @@ sub_units = {
     can_be_parachuted = no  # Used to define subunit as paratroopers.
     affects_speed = yes     # Used to check if the unit will affect the template's speed, support companies have it set to no.
     
-    transport = camel # Sets the speed of subunit via equipment. Used for motorized/mechanized
+    transport = camelry # Sets the speed of subunit via equipment. Used for motorized/mechanized
     
     # How the unit is grouped division-wise, i.e. appearing in the Support tab. Not used for air or naval units
     group = infantry
@@ -91,14 +91,14 @@ sub_units = {
 	    
 	    category_all_mobile
 		  category_all_calvary
-		  category_all_camel
+		  category_all_camelry
     }
     
     # Equipment that is required for this unit. Used when active = no
     essential = {
       melee_arms_equipment = 20
 		  ranged_arms_equipment = 80
-		  camel_equipment = 40
+		  camelry_equipment = 40
 		  ammunition_equipment = 40
 		  supply_equipment = 8
 		  clothes_equipment = 8
