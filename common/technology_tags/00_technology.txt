@@ -32,6 +32,7 @@ technology_folders = {
 		available = {
 			has_dlc = "Man the Guns"
 		}
+		ledger = navy
 	}
 
 	tech_folder_air = {
@@ -64,22 +65,15 @@ technology_categories = {
 	medium_air
 	heavy_air
 	armor
-	cat_light_armor
-	cat_medium_armor
-	cat_heavy_armor
 	artillery
 	naval_air
 	motorized_equipment
-	cat_mechanized_equipment
 	naval_equipment
-	rocketry
-	nuclear
 	industry
 	electronics
 	land_doctrine
 	air_doctrine
 	naval_doctrine
-	jet_technology
 	light_fighter
 	cat_heavy_fighter
 	tactical_bomber
@@ -87,13 +81,6 @@ technology_categories = {
 	naval_bomber
 	cas_bomber
 	rifle_equipment_techs
-	plasma_tech
-	railgun_tech
-	rpg_tech
-	dd_tech
-	tp_tech
-	synth_resources
-	computing_tech
 	radar_tech
 	excavation_tech
 	air_equipment
@@ -215,11 +202,7 @@ technology_categories = {
 	naval_mtg_module_damage_control_tech
 	naval_mtg_module_transport_tech
 	naval_mtg_primitive_tech
-	walker_tech
-	robot_tech
-	pa_tech
 	pre_industrial_tech
-	helicopter_tech
 	melee_weapons_tech
 	zeppelin_tech
 }

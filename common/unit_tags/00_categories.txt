@@ -5,8 +5,6 @@ sub_unit_categories = {
 	category_modern
 
 	category_levy
-	category_militia
-	category_conscript
 
 	category_all_infantry
 	category_all_land

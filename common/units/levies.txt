@@ -1,0 +1,57 @@
+# options for map_icon_category:
+# For land units: infantry,armored,other
+# For sea units: ship,transport,uboat
+
+sub_units = {
+	camel_archer_levy = {
+		sprite = infantry
+		map_icon_category = camel_archer
+
+		priority = 5
+		
+		active = yes
+    special_forces = yes
+    
+    affects_speed = yes
+
+		type = {
+			infantry
+		}
+
+		group = infantry
+
+		categories = {
+		  category_nomadic
+		  category_levy
+		  
+		  category_all_infantry
+	    category_all_land
+	    
+	    category_all_mobile
+		  category_all_calvary
+		  category_all_camel
+		}
+
+		combat_width = 2
+
+		#Size Definitions
+		max_strength = 10
+		max_organisation = 20
+		default_morale = 0.2
+		manpower = 80
+
+		#Misc Abilities
+		training_time = 21
+		suppression = 0.2
+		weight = 0.04
+
+		supply_consumption = 0.04
+
+		need = {
+		  melee_arms = 20
+		  ranged_arms = 80
+		  ammunition = 40
+		  rations = 8
+		}
+	}
+}
