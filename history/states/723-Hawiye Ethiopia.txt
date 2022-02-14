@@ -4,7 +4,11 @@ state={
 	provinces={
 		216 221 458 826 1099 1375 1525 1538 1662 1799 1829 2010 2212 2364 2789 3131 3730 3791 4574 5377 5645 6518 9252 9255 9279 9305 9359 
 	}
-	manpower=0
+	history={
+		owner = TES
+	}
+	manpower=1
 	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=0.000
 }
