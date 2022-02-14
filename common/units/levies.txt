@@ -5,7 +5,7 @@
 sub_units = {
 	camelry_archer_levy = {
 		sprite = infantry
-		map_icon_category = 
+		map_icon_category = camel_archer
 
 		priority = 100
 		
@@ -48,10 +48,10 @@ sub_units = {
 		supply_consumption = 0.04
 
 		need = {
-		  melee_arms = 20
-		  ranged_arms = 80
-		  ammunition = 40
-		  rations = 8
+		  melee_arms_equipment = 20
+		  ranged_arms_equipment = 80
+		  ammunition_equipment = 40
+		  rations_equipment = 8
 		}
 	}
 	camelry_archer_levy = {

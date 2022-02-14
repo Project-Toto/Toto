@@ -70,16 +70,6 @@ sub_units = {
 		categories = { category_all_close_air }
 	}
 	
-	jet_cas = {
-		sprite = light_plane
-		priority = 2
-		active = yes
-		type = { cas }
-		need = { jet_cas_equipment = 1 }
-		categories = { category_all_close_air }
-	}
-	
-	
 	nav_bomber = {
 		sprite = light_plane
 		priority = 3
@@ -107,16 +97,6 @@ sub_units = {
 		need = { tac_bomber_equipment = 1 }
 		categories = { category_all_tac_bomber }
 	}
-	
-	jet_tac_bomber = {
-		sprite = medium_plane
-		priority = 4
-		active = yes
-		type = { tactical_bomber }
-		need = { jet_tac_bomber_equipment = 1 }
-		categories = { category_all_tac_bomber }
-	}
-
 
 	strat_bomber = {
 		sprite = heavy_plane

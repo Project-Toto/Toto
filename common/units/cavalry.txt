@@ -21,7 +21,7 @@ sub_units = {
 		categories = {
 			category_all_ranged_cavalry
 			category_all_frontline
-			category_cavalry
+			category_all_calvary
 			category_all_land
 		}
 
@@ -99,7 +99,7 @@ sub_units = {
 		categories = {
 			category_all_ranged_cavalry
 			category_all_frontline
-			category_cavalry
+			category_all_calvary
 			category_all_land
 		}
 
@@ -177,7 +177,7 @@ sub_units = {
 		categories = {
 			category_all_ranged_cavalry
 			category_all_frontline
-			category_cavalry
+			category_all_calvary
 			category_all_land
 		}
 
@@ -244,7 +244,7 @@ sub_units = {
 		categories = {
 			category_all_ranged_cavalry
 			category_all_frontline
-			category_cavalry
+			category_all_calvary
 			category_all_land
 		}
 
@@ -320,7 +320,7 @@ sub_units = {
 		categories = {
 			category_all_ranged_cavalry
 			category_all_frontline
-			category_cavalry
+			category_all_calvary
 			category_all_land
 		}
 
@@ -395,7 +395,7 @@ sub_units = {
 		categories = {
 			category_all_ranged_cavalry
 			category_all_frontline
-			category_cavalry
+			category_all_calvary
 			category_all_land
 		}
 
@@ -472,7 +472,7 @@ sub_units = {
 		categories = {
 			category_all_ranged_cavalry
 			category_all_frontline
-			category_cavalry
+			category_all_calvary
 			category_all_land
 		}
 
@@ -551,7 +551,7 @@ sub_units = {
 		categories = {
 			category_all_ranged_cavalry
 			category_all_frontline
-			category_cavalry
+			category_all_calvary
 			category_all_land
 		}
 
@@ -631,7 +631,7 @@ sub_units = {
 		categories = {
 			category_all_ranged_cavalry
 			category_all_frontline
-			category_cavalry
+			category_all_calvary
 			category_all_land
 		}
 
@@ -713,7 +713,7 @@ sub_units = {
 
 		categories = {
 			category_all_ranged_cavalry
-			category_cavalry
+			category_all_calvary
 			category_all_frontline
 			category_all_land
 		}
@@ -791,7 +791,7 @@ sub_units = {
 		categories = {
 			category_all_ranged_cavalry
 			category_all_frontline
-			category_cavalry
+			category_all_calvary
 			category_all_land
 		}
 

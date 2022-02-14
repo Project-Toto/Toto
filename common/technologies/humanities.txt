@@ -253,7 +253,7 @@ technologies = {
 
 		categories = {
 			pre_industrial_tech
-			tech_category_cavalry
+			tech_category_all_calvary
 		}
 
 		on_research_complete = {

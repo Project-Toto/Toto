@@ -2101,7 +2101,7 @@ technologies = {
 			breakthrough = 0.02
 		}
 
-		category_cavalry = {
+		category_all_calvary = {
 			soft_attack = 0.02
 			defense = 0.02
 			breakthrough = 0.02
@@ -3864,7 +3864,7 @@ technologies = {
 		}
 
 		categories = {
-			tech_category_cavalry
+			cavalry_tech
 		}
 
 		ai_will_do = {
@@ -3921,7 +3921,7 @@ technologies = {
 		}
 
 		categories = {
-			tech_category_cavalry
+			cavalry_tech
 		}
 
 		ai_will_do = {
@@ -3962,7 +3962,7 @@ technologies = {
 		}
 
 		categories = {
-			tech_category_cavalry
+			cavalry_tech
 		}
 
 		ai_will_do = {
@@ -3998,7 +3998,7 @@ technologies = {
 		}
 
 		categories = {
-			tech_category_cavalry
+			cavalry_tech
 		}
 
 		ai_will_do = {
@@ -4030,7 +4030,7 @@ technologies = {
 		}
 
 		categories = {
-			tech_category_cavalry
+			cavalry_tech
 		}
 
 		ai_will_do = {
@@ -4059,7 +4059,7 @@ technologies = {
 		}
 
 		categories = {
-			tech_category_cavalry
+			cavalry_tech
 		}
 
 		ai_will_do = {
@@ -4083,7 +4083,7 @@ technologies = {
 		}
 
 		categories = {
-			tech_category_cavalry
+			cavalry_tech
 		}
 
 		ai_will_do = {
@@ -4095,7 +4095,7 @@ technologies = {
 
 	improved_cavalry = {
 
-		category_cavalry = {
+		category_all_calvary = {
 			soft_attack = 0.04
 			max_organisation = 2
 		}
@@ -4112,7 +4112,7 @@ technologies = {
 		}
 
 		categories = {
-			tech_category_cavalry
+			cavalry_tech
 		}
 
 		ai_will_do = {
@@ -4124,7 +4124,7 @@ technologies = {
 
 	specialised_cavalry = {
 
-		category_cavalry = {
+		category_all_calvary = {
 			recon = 0.1
 			soft_attack = 0.02
 			max_organisation = 3
@@ -4142,7 +4142,7 @@ technologies = {
 		}
 
 		categories = {
-			tech_category_cavalry
+			cavalry_tech
 		}
 
 		ai_will_do = {
@@ -4154,7 +4154,7 @@ technologies = {
 
 	cavalry_recon = {
 
-		category_cavalry = {
+		category_all_calvary = {
 			recon = 1
 		}
 
@@ -4170,7 +4170,7 @@ technologies = {
 		}
 
 		categories = {
-			tech_category_cavalry
+			cavalry_tech
 		}
 
 		ai_will_do = {
@@ -4182,7 +4182,7 @@ technologies = {
 
 	cav_supply = {
 
-		category_cavalry = {
+		category_all_calvary = {
 			recon = 0.5
 			soft_attack = 0.04
 		}
@@ -4199,7 +4199,7 @@ technologies = {
 		}
 
 		categories = {
-			tech_category_cavalry
+			cavalry_tech
 		}
 
 		ai_will_do = {
@@ -4211,7 +4211,7 @@ technologies = {
 
 	cav_integrity = {
 
-		category_cavalry = {
+		category_all_calvary = {
 			recon = 0.3
 
 		}
@@ -4228,7 +4228,7 @@ technologies = {
 		}
 
 		categories = {
-			tech_category_cavalry
+			cavalry_tech
 		}
 
 		ai_will_do = {
@@ -4240,7 +4240,7 @@ technologies = {
 
 	modern_cavalry = {
 
-		category_cavalry = {
+		category_all_calvary = {
 			recon = 0.1
 			soft_attack = 0.05
 		}
@@ -4257,7 +4257,7 @@ technologies = {
 		}
 
 		categories = {
-			tech_category_cavalry
+			cavalry_tech
 		}
 
 		ai_will_do = {
@@ -4269,7 +4269,7 @@ technologies = {
 
 	tech_infantry_colonial_cavalry = {
 
-		category_cavalry = {
+		category_all_calvary = {
 			soft_attack = 0.02
 			breakthrough = 0.05
 		}
@@ -4290,7 +4290,7 @@ technologies = {
 		}
 
 		categories = {
-			tech_category_cavalry
+			cavalry_tech
 		}
 
 		ai_will_do = {
@@ -4302,7 +4302,7 @@ technologies = {
 
 	tech_infantry_improved_modern_cavalry_equipment = {
 
-		category_cavalry = {
+		category_all_calvary = {
 			defense = 0.05
 			breakthrough = 0.05
 		}
@@ -4319,7 +4319,7 @@ technologies = {
 		}
 
 		categories = {
-			tech_category_cavalry
+			cavalry_tech
 		}
 
 		ai_will_do = {
@@ -4329,7 +4329,7 @@ technologies = {
 
 	tech_infantry_specialized_cavalry_weapons = {
 
-		category_cavalry = {
+		category_all_calvary = {
 			soft_attack = 0.1
 			hard_attack = 0.05
 		}
@@ -4346,7 +4346,7 @@ technologies = {
 		}
 
 		categories = {
-			tech_category_cavalry
+			cavalry_tech
 		}
 
 		ai_will_do = {
@@ -4368,7 +4368,7 @@ technologies = {
 		}
 
 		categories = {
-			tech_category_cavalry
+			cavalry_tech
 		}
 
 		ai_will_do = {

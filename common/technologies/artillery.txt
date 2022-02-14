@@ -202,8 +202,8 @@ technologies = {
 			position = { x = -3 y = 6}
 		}
 
-		category_artillery = {
-		hard_attack = 0.05
+		category_all_artillery = {
+			hard_attack = 0.05
 		}
 
 		path = {
@@ -233,7 +233,7 @@ technologies = {
 			position = { x = -3 y = 8}
 		}
 
-		category_artillery = {
+		category_all_artillery = {
 		hard_attack = 0.05
 		}
 
@@ -390,7 +390,7 @@ technologies = {
 			leads_to_tech = improved_artillery
 		}
 
-		category_artillery = {
+		category_all_artillery = {
 		soft_attack = 0.05
 		breakthrough = 0.02
 		}
@@ -449,7 +449,7 @@ technologies = {
 			position = { x = 3 y = 10}
 		}
 
-		category_artillery = {
+		category_all_artillery = {
 		soft_attack = 0.05
 		}
 
@@ -482,7 +482,7 @@ technologies = {
 			position = { x = 3 y = 16}
 		}
 
-		category_artillery = {
+		category_all_artillery = {
 			soft_attack = 0.05
 		}
 
@@ -545,7 +545,7 @@ technologies = {
 			position = { x = 0 y = 18}
 		}
 
-		category_artillery = {
+		category_all_artillery = {
 			soft_attack = 0.05
 		}
 
@@ -661,7 +661,7 @@ technologies = {
 			position = { x = 0 y = 26}
 		}
 
-		category_artillery = {
+		category_all_artillery = {
 			soft_attack = 0.05
 			hard_attack = 0.05
 		}
@@ -874,7 +874,7 @@ technologies = {
 		rocket_artillery = {
 			breakthrough = 0.2
 		}
-		
+
 		path = {
 			leads_to_tech = spin_stabilzation
 		}
@@ -931,7 +931,7 @@ technologies = {
 			name = tech_folder_army_artillery
 			position = { x = -7 y = 10 }
 		}
-		
+
 		path = {
 			leads_to_tech = rocket_artillery
 		}
