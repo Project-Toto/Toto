@@ -566,7 +566,7 @@ technologies = {
 
 		categories = {
 			mechanical_engineering_tech
-			industry
+			engineering_tech
 		}
 	}
 
@@ -935,7 +935,7 @@ technologies = {
 		}
 
 		categories = {
-			industry
+			engineering_tech
 			concentrated_industry_category
 		}
 	}
@@ -1001,7 +1001,7 @@ technologies = {
 		}
 
 		categories = {
-			industry
+			engineering_tech
 			dispersed_industry_category
 		}
 

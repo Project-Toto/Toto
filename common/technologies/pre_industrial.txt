@@ -127,7 +127,7 @@ technologies = {
 
 		categories = {
 			pre_industrial_tech
-			excavation_tech
+			excavation_engineering_tech
 		}
 	}
 	tribal_weapons = {
