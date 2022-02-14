@@ -106,7 +106,7 @@ technology_categories = {
 		cart_vehicles_tech
 		automobile_vehicles_tech
 		armor_vehcicles_tech
-		train_vehicles_tech
+		locomotive_vehicles_tech
 
 	air_units_tech
 		light_air_tech

@@ -16,7 +16,6 @@ sub_units = {
 		categories = {
 			category_all_armor
 			category_all_frontline
-			category_all_armor
 			category_all_land
 		}
 
