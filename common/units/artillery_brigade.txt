@@ -17,7 +17,6 @@ sub_units = {
 		categories = {
 			category_all_land
 			category_all_artillery
-			category_all_artillery
 		}
 
 		combat_width = 3
@@ -93,7 +92,6 @@ sub_units = {
 
 		categories = {
 			category_all_land
-			category_all_artillery
 			category_all_artillery
 		}
 
@@ -173,7 +171,6 @@ sub_units = {
 
 		categories = {
 			category_all_land
-			category_all_artillery
 			category_all_artillery
 		}
 
@@ -266,7 +263,6 @@ sub_units = {
 
 		categories = {
 			category_all_land
-			category_all_artillery
 			category_all_artillery
 		}
 
@@ -362,7 +358,6 @@ sub_units = {
 		categories = {
 			category_all_land
 			category_all_artillery
-			category_all_artillery
 		}
 
 		combat_width = 3
@@ -439,7 +434,6 @@ sub_units = {
 
 		categories = {
 			category_all_land
-			category_all_artillery
 			category_all_artillery
 		}
 
@@ -521,7 +515,6 @@ sub_units = {
 		categories = {
 			category_all_land
 			category_all_artillery
-			category_all_artillery
 		}
 
 		combat_width = 3
@@ -599,7 +592,6 @@ sub_units = {
 		categories = {
 			category_all_land
 			category_all_artillery
-			category_all_artillery
 		}
 
 		combat_width = 3
@@ -670,7 +662,6 @@ sub_units = {
 
 		categories = {
 			category_all_land
-			category_all_artillery
 		}
 
 		combat_width = 3

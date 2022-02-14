@@ -4,8 +4,8 @@
 
 sub_units = {
 	camelry_archer_levy = {
-		sprite = infantry
-		map_icon_category = camel_archer
+		sprite = cavalry
+		map_icon_category = other
 
 		priority = 100
 		
@@ -55,10 +55,10 @@ sub_units = {
 		}
 	}
 	camelry_archer_levy = {
-    sprite = camelry # Refers to <name>_entity in a gfx/entities/.*.asset file - Controls the unit used on the map
+    sprite = cavalry # Refers to <name>_entity in a gfx/entities/.*.asset file - Controls the unit used on the map
     
     # Controls the map icon category used for the unit
-    map_icon_category = camelry_archer
+    map_icon_category = other
     
     priority = 100 # Controls which icon is used if multiple subunits of the same type exist
     ai_priority = 5

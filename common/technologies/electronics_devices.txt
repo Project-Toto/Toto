@@ -45,7 +45,7 @@ technologies = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 			chemistry_tech
 			explosives_tech
 		}
@@ -91,7 +91,7 @@ technologies = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 			chemistry_tech
 			explosives_tech
 		}
@@ -146,7 +146,7 @@ technologies = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 			explosives_tech
 		}
 	}
@@ -178,7 +178,7 @@ technologies = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 			explosives_tech
 		}
 	}
@@ -210,7 +210,7 @@ technologies = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 			explosives_tech
 		}
 	}
@@ -242,7 +242,7 @@ technologies = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 			explosives_tech
 		}
 	}
@@ -323,7 +323,7 @@ technologies = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 		}
 	}
 
@@ -379,7 +379,7 @@ technologies = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 		}
 	}
 
@@ -417,7 +417,7 @@ technologies = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 		}
 	}
 	tungsten_filaments = {
@@ -448,7 +448,7 @@ technologies = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 		}
 	}
 	diodes = {
@@ -489,7 +489,7 @@ technologies = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 		}
 	}
 	triodes = {
@@ -526,7 +526,7 @@ technologies = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 		}
 	}
 	hard_vacuum_triodes = {
@@ -563,7 +563,7 @@ technologies = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 		}
 	}
 	tetrodes = {
@@ -590,7 +590,7 @@ technologies = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 		}
 	}
 	long_lasting_tungsten_filaments = {
@@ -617,7 +617,7 @@ technologies = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 		}
 	}
 	frosted_glass_bulbs = {
@@ -644,7 +644,7 @@ technologies = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 		}
 	}
 	neon_tubes = {
@@ -674,7 +674,7 @@ technologies = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 		}
 	}
 	fluorescents = {
@@ -701,7 +701,7 @@ technologies = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 		}
 	}
 
@@ -730,7 +730,7 @@ technologies = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 		}
 	}
 
@@ -769,7 +769,7 @@ technologies = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 		}
 	}
 
@@ -803,7 +803,7 @@ technologies = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 		}
 	}
 
@@ -842,7 +842,7 @@ technologies = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 		}
 	}
 
@@ -872,7 +872,7 @@ technologies = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 		}
 	}
 
@@ -901,7 +901,7 @@ technologies = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 		}
 	}
 
@@ -931,7 +931,7 @@ technologies = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 		}
 	}
 
@@ -962,7 +962,7 @@ technologies = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 		}
 	}
 
@@ -1030,7 +1030,7 @@ technologies = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 			comms_tech
 		}
 	}
@@ -1076,7 +1076,7 @@ technologies = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 			comms_tech
 		}
 	}
@@ -1117,7 +1117,7 @@ technologies = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 		}
 	}
 
@@ -1153,7 +1153,7 @@ technologies = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 		}
 	}
 	cathode_tubes = {
@@ -1186,7 +1186,7 @@ technologies = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 		}
 	}
 	iconoscope = {
@@ -1216,7 +1216,7 @@ technologies = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 		}
 	}
 	black_and_white_tv = {
@@ -1246,7 +1246,7 @@ technologies = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 		}
 	}
 
@@ -1295,7 +1295,7 @@ technologies = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 		}
 	}
 
@@ -1325,7 +1325,7 @@ technologies = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 		}
 	}
 
@@ -1350,7 +1350,7 @@ technologies = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 		}
 	}
 
@@ -1374,7 +1374,7 @@ technologies = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 		}
 	}
 
@@ -1404,7 +1404,7 @@ technologies = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 		}
 	}
 
@@ -1434,7 +1434,7 @@ technologies = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 			comms_tech
 		}
 	}
@@ -1466,7 +1466,7 @@ technologies = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 			comms_tech
 		}
 	}
@@ -1501,7 +1501,7 @@ technologies = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 			comms_tech
 		}
 	}
@@ -1538,7 +1538,7 @@ technologies = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 			comms_tech
 		}
 	}
@@ -1574,7 +1574,7 @@ technologies = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 			comms_tech
 		}
 	}
@@ -1613,7 +1613,7 @@ technologies = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 			comms_tech
 		}
 	}
@@ -1675,7 +1675,7 @@ technologies = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 			energy_production_tech
 		}
 	}
@@ -1717,7 +1717,7 @@ technologies = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 			energy_production_tech
 		}
 	}
@@ -1759,7 +1759,7 @@ technologies = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 			energy_production_tech
 		}
 	}
@@ -1790,7 +1790,7 @@ technologies = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 			energy_production_tech
 		}
 	}
@@ -1820,7 +1820,7 @@ technologies = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 			energy_production_tech
 		}
 	}
@@ -1891,7 +1891,7 @@ technologies = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 			energy_production_tech
 		}
 	}
@@ -1951,7 +1951,7 @@ technologies = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 			energy_production_tech
 		}
 	}
@@ -2020,7 +2020,7 @@ technologies = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 			energy_production_tech
 		}
 	}
@@ -2065,7 +2065,7 @@ technologies = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 			energy_production_tech
 		}
 	}
@@ -2095,7 +2095,7 @@ technologies = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 			energy_production_tech
 		}
 	}
@@ -2130,7 +2130,7 @@ technologies = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 			energy_production_tech
 		}
 	}
@@ -2161,7 +2161,7 @@ technologies = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 			energy_production_tech
 		}
 	}
@@ -2192,7 +2192,7 @@ technologies = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 			energy_production_tech
 		}
 	}
@@ -2240,7 +2240,7 @@ technologies = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 			energy_production_tech
 		}
 	}
@@ -2276,7 +2276,7 @@ technologies = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 			energy_production_tech
 		}
 	}
@@ -2313,7 +2313,7 @@ technologies = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 			energy_production_tech
 		}
 	}
@@ -2344,7 +2344,7 @@ technologies = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 			energy_production_tech
 		}
 	}
@@ -2381,7 +2381,7 @@ technologies = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 			energy_production_tech
 		}
 	}
@@ -2411,7 +2411,7 @@ technologies = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 			energy_production_tech
 		}
 	}
@@ -2440,7 +2440,7 @@ technologies = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 			energy_production_tech
 		}
 	}
@@ -2469,7 +2469,7 @@ technologies = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 			energy_production_tech
 		}
 	}
@@ -2498,7 +2498,7 @@ technologies = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 			energy_production_tech
 		}
 	}
@@ -2528,7 +2528,7 @@ industrial_capacity_dockyard = 0.025
 }
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 			energy_production_tech
 		}
 	}
@@ -2555,7 +2555,7 @@ industrial_capacity_factory = 0.02
 		}
 
 categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 			energy_production_tech
 		}
 	}
@@ -2590,7 +2590,7 @@ categories = {
 		}
 
 		categories = {
-		electronics_devices_tech
+		electronics_technology_tech
 			energy_production_tech
 		}
 	}
@@ -2625,7 +2625,7 @@ categories = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 			energy_production_tech
 	}
 
@@ -2647,7 +2647,7 @@ categories = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 			energy_production_tech
 		}
 
@@ -2669,7 +2669,7 @@ categories = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 			energy_production_tech
 		}
 
@@ -2691,7 +2691,7 @@ categories = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 			energy_production_tech
 		}
 
@@ -2712,7 +2712,7 @@ categories = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 			energy_production_tech
 		}
 
@@ -2752,7 +2752,7 @@ categories = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 			energy_production_tech
 		}
 	}
@@ -2781,7 +2781,7 @@ categories = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 			energy_production_tech
 		}
 	}
@@ -2810,7 +2810,7 @@ categories = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 			energy_production_tech
 		}
 	}
@@ -2840,7 +2840,7 @@ categories = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 			energy_production_tech
 		}
 	}
@@ -2870,7 +2870,7 @@ categories = {
 		}
 
 		categories = {
-			electronics_devices_tech
+			electronics_technology_tech
 			energy_production_tech
 		}
 	}

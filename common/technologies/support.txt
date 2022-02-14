@@ -60,7 +60,7 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
+			support_company_tech
 		}
 
 		dependencies = {
@@ -138,7 +138,7 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
+			support_company_tech
 		}
 
 		ai_will_do = {
@@ -198,7 +198,7 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
+			support_company_tech
 		}
 
 		ai_will_do = {
@@ -247,7 +247,7 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
+			support_company_tech
 		}
 
 		ai_will_do = {
@@ -289,8 +289,8 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
-			engineers_tech
+			support_company_tech
+			engineer_company_tech
 		}
 
 		ai_will_do = {
@@ -349,8 +349,8 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
-			engineers_tech
+			support_company_tech
+			engineer_company_tech
 		}
 
 		ai_will_do = {
@@ -401,8 +401,8 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
-			engineers_tech
+			support_company_tech
+			engineer_company_tech
 		}
 
 		ai_will_do = {
@@ -454,8 +454,8 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
-			engineers_tech
+			support_company_tech
+			engineer_company_tech
 		}
 
 		ai_will_do = {
@@ -506,8 +506,8 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
-			engineers_tech
+			support_company_tech
+			engineer_company_tech
 		}
 
 		ai_will_do = {
@@ -553,8 +553,8 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
-			engineers_tech
+			support_company_tech
+			engineer_company_tech
 		}
 
 		ai_will_do = {
@@ -600,8 +600,8 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
-			engineers_tech
+			support_company_tech
+			engineer_company_tech
 		}
 
 		ai_will_do = {
@@ -655,8 +655,8 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
-			engineers_tech
+			support_company_tech
+			engineer_company_tech
 		}
 
 		ai_will_do = {
@@ -700,8 +700,8 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
-			engineers_tech
+			support_company_tech
+			engineer_company_tech
 		}
 
 		ai_will_do = {
@@ -746,8 +746,8 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
-			engineers_tech
+			support_company_tech
+			engineer_company_tech
 		}
 
 		ai_will_do = {
@@ -791,8 +791,8 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
-			engineers_tech
+			support_company_tech
+			engineer_company_tech
 		}
 
 		ai_will_do = {
@@ -833,8 +833,8 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
-			engineers_tech
+			support_company_tech
+			engineer_company_tech
 		}
 
 		ai_will_do = {
@@ -874,8 +874,8 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
-			engineers_tech
+			support_company_tech
+			engineer_company_tech
 		}
 		dependencies = {
 			tech_support_4 = 1
@@ -920,8 +920,8 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
-			recon_tech
+			support_company_tech
+			recon_company_tech
 		}
 
 		ai_will_do = {
@@ -974,8 +974,8 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
-			recon_tech
+			support_company_tech
+			recon_company_tech
 		}
 
 		ai_will_do = {
@@ -1022,8 +1022,8 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
-			recon_tech
+			support_company_tech
+			recon_company_tech
 		}
 
 		ai_will_do = {
@@ -1069,8 +1069,8 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
-			recon_tech
+			support_company_tech
+			recon_company_tech
 		}
 
 		ai_will_do = {
@@ -1120,8 +1120,8 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
-			recon_tech
+			support_company_tech
+			recon_company_tech
 		}
 
 		ai_will_do = {
@@ -1167,8 +1167,8 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
-			recon_tech
+			support_company_tech
+			recon_company_tech
 		}
 
 		ai_will_do = {
@@ -1214,8 +1214,8 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
-			recon_tech
+			support_company_tech
+			recon_company_tech
 		}
 
 		ai_will_do = {
@@ -1265,8 +1265,8 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
-			recon_tech
+			support_company_tech
+			recon_company_tech
 		}
 
 		ai_will_do = {
@@ -1312,8 +1312,8 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
-			recon_tech
+			support_company_tech
+			recon_company_tech
 		}
 
 		ai_will_do = {
@@ -1353,8 +1353,8 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
-			recon_tech
+			support_company_tech
+			recon_company_tech
 		}
 
 		ai_will_do = {
@@ -1394,8 +1394,8 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
-			recon_tech
+			support_company_tech
+			recon_company_tech
 		}
 
 		ai_will_do = {
@@ -1435,8 +1435,8 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
-			recon_tech
+			support_company_tech
+			recon_company_tech
 		}
 
 		ai_will_do = {
@@ -1476,8 +1476,8 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
-			recon_tech
+			support_company_tech
+			recon_company_tech
 		}
 
 		ai_will_do = {
@@ -1519,8 +1519,8 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
-			military_police_tech
+			support_company_tech
+			garrison_company_tech
 		}
 
 		ai_will_do = {
@@ -1569,8 +1569,8 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
-			military_police_tech
+			support_company_tech
+			garrison_company_tech
 		}
 
 		ai_will_do = {
@@ -1607,8 +1607,8 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
-			military_police_tech
+			support_company_tech
+			garrison_company_tech
 		}
 
 		ai_will_do = {
@@ -1645,8 +1645,8 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
-			military_police_tech
+			support_company_tech
+			garrison_company_tech
 		}
 
 		ai_will_do = {
@@ -1686,8 +1686,8 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
-			military_police_tech
+			support_company_tech
+			garrison_company_tech
 		}
 
 		ai_will_do = {
@@ -1723,8 +1723,8 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
-			military_police_tech
+			support_company_tech
+			garrison_company_tech
 		}
 
 		ai_will_do = {
@@ -1760,8 +1760,8 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
-			military_police_tech
+			support_company_tech
+			garrison_company_tech
 		}
 
 		ai_will_do = {
@@ -1801,8 +1801,8 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
-			military_police_tech
+			support_company_tech
+			garrison_company_tech
 		}
 
 		ai_will_do = {
@@ -1838,8 +1838,8 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
-			military_police_tech
+			support_company_tech
+			garrison_company_tech
 		}
 
 		ai_will_do = {
@@ -1875,8 +1875,8 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
-			military_police_tech
+			support_company_tech
+			garrison_company_tech
 		}
 
 		ai_will_do = {
@@ -1912,8 +1912,8 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
-			military_police_tech
+			support_company_tech
+			garrison_company_tech
 		}
 
 		ai_will_do = {
@@ -1949,8 +1949,8 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
-			military_police_tech
+			support_company_tech
+			garrison_company_tech
 		}
 
 		ai_will_do = {
@@ -1986,8 +1986,8 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
-			military_police_tech
+			support_company_tech
+			garrison_company_tech
 		}
 
 		ai_will_do = {
@@ -2025,7 +2025,7 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
+			support_company_tech
 			maintenance_company_tech
 		}
 
@@ -2075,7 +2075,7 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
+			support_company_tech
 			maintenance_company_tech
 		}
 
@@ -2123,7 +2123,7 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
+			support_company_tech
 			maintenance_company_tech
 		}
 
@@ -2169,7 +2169,7 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
+			support_company_tech
 			maintenance_company_tech
 		}
 		ai_will_do = {
@@ -2218,7 +2218,7 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
+			support_company_tech
 			maintenance_company_tech
 		}
 
@@ -2265,7 +2265,7 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
+			support_company_tech
 			maintenance_company_tech
 		}
 
@@ -2312,7 +2312,7 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
+			support_company_tech
 			maintenance_company_tech
 		}
 
@@ -2362,7 +2362,7 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
+			support_company_tech
 			maintenance_company_tech
 		}
 
@@ -2409,7 +2409,7 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
+			support_company_tech
 			maintenance_company_tech
 		}
 
@@ -2450,7 +2450,7 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
+			support_company_tech
 			maintenance_company_tech
 		}
 
@@ -2491,7 +2491,7 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
+			support_company_tech
 			maintenance_company_tech
 		}
 
@@ -2532,7 +2532,7 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
+			support_company_tech
 			maintenance_company_tech
 		}
 
@@ -2576,7 +2576,7 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
+			support_company_tech
 			maintenance_company_tech
 		}
 
@@ -2622,9 +2622,9 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
+			support_company_tech
 			signal_company_tech
-			electronics
+			electronics_technology_tech
 		}
 
 		ai_will_do = {
@@ -2657,9 +2657,9 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
+			support_company_tech
 			signal_company_tech
-			electronics
+			electronics_technology_tech
 		}
 
 		ai_will_do = {
@@ -2686,9 +2686,9 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
+			support_company_tech
 			signal_company_tech
-			electronics
+			electronics_technology_tech
 		}
 
 		ai_will_do = {
@@ -2715,9 +2715,9 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
+			support_company_tech
 			signal_company_tech
-			electronics
+			electronics_technology_tech
 		}
 
 		ai_will_do = {
@@ -2748,9 +2748,9 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
+			support_company_tech
 			signal_company_tech
-			electronics
+			electronics_technology_tech
 		}
 
 		ai_will_do = {
@@ -2777,9 +2777,9 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
+			support_company_tech
 			signal_company_tech
-			electronics
+			electronics_technology_tech
 		}
 
 		ai_will_do = {
@@ -2806,9 +2806,9 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
+			support_company_tech
 			signal_company_tech
-			electronics
+			electronics_technology_tech
 		}
 
 		ai_will_do = {
@@ -2841,7 +2841,7 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
+			support_company_tech
 		}
 
 		ai_will_do = {
@@ -2888,9 +2888,9 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
+			support_company_tech
 			signal_company_tech
-			electronics
+			electronics_technology_tech
 		}
 
 		ai_will_do = {
@@ -2923,9 +2923,9 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
+			support_company_tech
 			signal_company_tech
-			electronics
+			electronics_technology_tech
 		}
 
 		ai_will_do = {
@@ -2952,9 +2952,9 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
+			support_company_tech
 			signal_company_tech
-			electronics
+			electronics_technology_tech
 		}
 
 		ai_will_do = {
@@ -2981,9 +2981,9 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
+			support_company_tech
 			signal_company_tech
-			electronics
+			electronics_technology_tech
 		}
 
 		ai_will_do = {
@@ -3010,9 +3010,9 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
+			support_company_tech
 			signal_company_tech
-			electronics
+			electronics_technology_tech
 		}
 
 		ai_will_do = {
@@ -3043,9 +3043,9 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
-			hospital_tech
-			motorized_equipment
+			support_company_tech
+			medical_company_tech
+			medical_company_tech
 		}
 
 		ai_will_do = {
@@ -3087,9 +3087,9 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
-			hospital_tech
-			motorized_equipment
+			support_company_tech
+			medical_company_tech
+			medical_company_tech
 		}
 
 		ai_will_do = {
@@ -3131,9 +3131,9 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
-			hospital_tech
-			motorized_equipment
+			support_company_tech
+			medical_company_tech
+			medical_company_tech
 		}
 
 		ai_will_do = {
@@ -3175,9 +3175,9 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
-			hospital_tech
-			motorized_equipment
+			support_company_tech
+			medical_company_tech
+			medical_company_tech
 		}
 
 		ai_will_do = {
@@ -3219,9 +3219,9 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
-			hospital_tech
-			motorized_equipment
+			support_company_tech
+			medical_company_tech
+			medical_company_tech
 		}
 
 		ai_will_do = {
@@ -3267,9 +3267,9 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
-			logistics_tech
-			motorized_equipment
+			support_company_tech
+			supply_company_tech
+			medical_company_tech
 		}
 
 		ai_will_do = {
@@ -3315,9 +3315,9 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
-			logistics_tech
-			motorized_equipment
+			support_company_tech
+			supply_company_tech
+			medical_company_tech
 		}
 
 		ai_will_do = {
@@ -3363,9 +3363,9 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
-			logistics_tech
-			motorized_equipment
+			support_company_tech
+			supply_company_tech
+			medical_company_tech
 		}
 
 		ai_will_do = {
@@ -3411,9 +3411,9 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
-			logistics_tech
-			motorized_equipment
+			support_company_tech
+			supply_company_tech
+			medical_company_tech
 		}
 
 		ai_will_do = {
@@ -3459,9 +3459,9 @@ technologies = {
 		}
 
 		categories = {
-			support_tech
-			logistics_tech
-			motorized_equipment
+			support_company_tech
+			supply_company_tech
+			medical_company_tech
 		}
 
 		ai_will_do = {

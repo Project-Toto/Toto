@@ -1,14 +1,14 @@
 technologies = {
 
 	mechanized_mining = {
-		
+
 		local_resources_factor = 0.10
 
 		enable_building = {
 			building = building_coal
 			level = 3
 		}
-		
+
 		research_cost = 1.5
 		start_year = 1860
 		folder = {
@@ -58,7 +58,7 @@ technologies = {
 		}
 
 		categories = {
-			resource_extraction_tech
+			excavation_engineering_tech
 			process_engineering_tech
 		}
 	}
@@ -95,7 +95,7 @@ technologies = {
 		}
 
 		categories = {
-			resource_extraction_tech
+			excavation_engineering_tech
 			process_engineering_tech
 		}
 	}
@@ -136,7 +136,7 @@ technologies = {
 		}
 
 		categories = {
-			resource_extraction_tech
+			excavation_engineering_tech
 			process_engineering_tech
 		}
 	}
@@ -149,7 +149,7 @@ technologies = {
 			building = building_coal
 			level = 6
 		}
-		
+
 		path = {
 			leads_to_tech = mining_rig_5
 			research_cost_coeff = 1
@@ -177,7 +177,7 @@ technologies = {
 		}
 
 		categories = {
-			resource_extraction_tech
+			excavation_engineering_tech
 			process_engineering_tech
 		}
 	}
@@ -208,7 +208,7 @@ technologies = {
 		}
 
 		categories = {
-			resource_extraction_tech
+			excavation_engineering_tech
 			process_engineering_tech
 		}
 	}
@@ -234,7 +234,7 @@ technologies = {
 		}
 
 		categories = {
-			resource_extraction_tech
+			excavation_engineering_tech
 			process_engineering_tech
 		}
 	}
@@ -273,7 +273,7 @@ technologies = {
 		}
 
 		categories = {
-			resource_extraction_tech
+			excavation_engineering_tech
 			process_engineering_tech
 		}
 	}
@@ -309,7 +309,7 @@ technologies = {
 		}
 
 		categories = {
-			resource_extraction_tech
+			excavation_engineering_tech
 			process_engineering_tech
 		}
 	}
@@ -345,7 +345,7 @@ technologies = {
 		}
 
 		categories = {
-			resource_extraction_tech
+			excavation_engineering_tech
 			process_engineering_tech
 		}
 	}
@@ -381,7 +381,7 @@ technologies = {
 		}
 
 		categories = {
-			resource_extraction_tech
+			excavation_engineering_tech
 			process_engineering_tech
 		}
 	}
@@ -412,7 +412,7 @@ technologies = {
 		}
 
 		categories = {
-			resource_extraction_tech
+			excavation_engineering_tech
 			process_engineering_tech
 		}
 	}
@@ -478,7 +478,7 @@ technologies = {
 		}
 
 		categories = {
-			resource_extraction_tech
+			excavation_engineering_tech
 			process_engineering_tech
 		}
 	}
@@ -520,7 +520,7 @@ technologies = {
 		}
 
 		categories = {
-			resource_extraction_tech
+			excavation_engineering_tech
 			process_engineering_tech
 		}
 	}
@@ -552,7 +552,7 @@ technologies = {
 		}
 
 		categories = {
-			resource_extraction_tech
+			excavation_engineering_tech
 			process_engineering_tech
 		}
 	}
@@ -584,7 +584,7 @@ technologies = {
 		}
 
 		categories = {
-			resource_extraction_tech
+			excavation_engineering_tech
 			process_engineering_tech
 		}
 	}
@@ -616,7 +616,7 @@ technologies = {
 		}
 
 		categories = {
-			resource_extraction_tech
+			excavation_engineering_tech
 			process_engineering_tech
 		}
 	}
@@ -656,7 +656,7 @@ technologies = {
 		}
 
 		categories = {
-			resource_extraction_tech
+			excavation_engineering_tech
 			process_engineering_tech
 		}
 	}
@@ -687,7 +687,7 @@ technologies = {
 		}
 
 		categories = {
-			resource_extraction_tech
+			excavation_engineering_tech
 			process_engineering_tech
 		}
 	}
@@ -718,7 +718,7 @@ technologies = {
 		}
 
 		categories = {
-			resource_extraction_tech
+			excavation_engineering_tech
 			process_engineering_tech
 		}
 	}
@@ -749,7 +749,7 @@ technologies = {
 		}
 
 		categories = {
-			resource_extraction_tech
+			excavation_engineering_tech
 			process_engineering_tech
 		}
 	}
@@ -780,7 +780,7 @@ technologies = {
 		}
 
 		categories = {
-			resource_extraction_tech
+			excavation_engineering_tech
 			process_engineering_tech
 		}
 	}
@@ -815,7 +815,7 @@ technologies = {
 		}
 
 		categories = {
-			resource_extraction_tech
+			excavation_engineering_tech
 			process_engineering_tech
 		}
 	}
@@ -825,7 +825,7 @@ technologies = {
 			building = fuel_silo_industrial
 			level = 2
 		}
-		
+
 		research_cost = 1.1
 		start_year = 1900
 		folder = {
@@ -852,7 +852,7 @@ technologies = {
 		}
 
 		categories = {
-			resource_extraction_tech
+			excavation_engineering_tech
 			process_engineering_tech
 		}
 	}
@@ -885,7 +885,7 @@ technologies = {
 		}
 
 		categories = {
-			resource_extraction_tech
+			excavation_engineering_tech
 			process_engineering_tech
 		}
 	}
@@ -918,9 +918,9 @@ technologies = {
 		}
 
 		categories = {
-			resource_extraction_tech
+			excavation_engineering_tech
 			process_engineering_tech
-			synth_resources
+			synthetic_engineering_tech
 		}
 	}
 	bergius_process = {
@@ -955,9 +955,9 @@ technologies = {
 		}
 
 		categories = {
-			resource_extraction_tech
+			excavation_engineering_tech
 			process_engineering_tech
-			synth_resources
+			synthetic_engineering_tech
 		}
 	}
 	dubbs_process = {
@@ -986,9 +986,9 @@ technologies = {
 		}
 
 		categories = {
-			resource_extraction_tech
+			excavation_engineering_tech
 			process_engineering_tech
-			synth_resources
+			synthetic_engineering_tech
 		}
 	}
 	fuel_storage = {
@@ -1035,7 +1035,7 @@ technologies = {
 		}
 
 		categories = {
-			resource_extraction_tech
+			excavation_engineering_tech
 			process_engineering_tech
 		}
 	}
@@ -1100,7 +1100,7 @@ technologies = {
 			name = tech_folder_manufacturing
 			position = { x = 4 y = -2 }
 		}
-		
+
 		dependencies = {
 			tribal_forging = 1
 		}
@@ -1150,7 +1150,7 @@ technologies = {
 		}
 
 		categories = {
-			resource_extraction_tech
+			excavation_engineering_tech
 			process_engineering_tech
 		}
 	}
@@ -1196,11 +1196,11 @@ technologies = {
 				afr_is_tribal = yes
 				date > 1875.1.1
 			}
-			
+
 		}
 
 		categories = {
-			resource_extraction_tech
+			excavation_engineering_tech
 			process_engineering_tech
 		}
 	}
@@ -1246,7 +1246,7 @@ technologies = {
 		}
 
 		categories = {
-			resource_extraction_tech
+			excavation_engineering_tech
 			process_engineering_tech
 		}
 	}
@@ -1262,7 +1262,7 @@ technologies = {
 			name = tech_folder_manufacturing
 			position = { x = 6 y = 0 }
 		}
-		
+
 		dependencies = {
 			tribal_forging = 1
 		}
@@ -1311,7 +1311,7 @@ technologies = {
 		}
 
 		categories = {
-			resource_extraction_tech
+			excavation_engineering_tech
 			process_engineering_tech
 		}
 	}
@@ -1354,11 +1354,11 @@ technologies = {
 				afr_is_tribal = yes
 				date > 1870.1.1
 			}
-			
+
 		}
 
 		categories = {
-			resource_extraction_tech
+			excavation_engineering_tech
 			process_engineering_tech
 		}
 	}
@@ -1425,7 +1425,7 @@ technologies = {
 		}
 
 		categories = {
-			resource_extraction_tech
+			excavation_engineering_tech
 			process_engineering_tech
 		}
 	}
@@ -1458,7 +1458,7 @@ technologies = {
 				}
 			}
 		}
-		
+
 		dependencies = {
 			wrought_iron_industrialization = 1
 			chemical_vapor_deposition = 1
@@ -1469,7 +1469,7 @@ technologies = {
 			leads_to_tech = bessemer_process
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 5
 			modifier = {
@@ -1493,9 +1493,9 @@ technologies = {
 			}
 
 		}
-		
+
 		categories = {
-			resource_extraction_tech
+			excavation_engineering_tech
 			process_engineering_tech
 		}
 	}
@@ -1516,7 +1516,7 @@ technologies = {
 			name = tech_folder_manufacturing
 			position = { x = 4 y = 10 }
 		}
-		
+
 		path = {
 			leads_to_tech = industrial_ironworks_1
 			research_cost_coeff = 1
@@ -1524,16 +1524,16 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
-			
+
 			modifier = {
 				factor = 1
 
 			}
 
 		}
-		
+
 		categories = {
-			resource_extraction_tech
+			excavation_engineering_tech
 			process_engineering_tech
 		}
 	}
@@ -1557,32 +1557,32 @@ technologies = {
 			leads_to_tech = industrial_ironworks_2
 			research_cost_coeff = 1
 		}
-		
+
 		path = {
 			leads_to_tech = stainless_steel
 			research_cost_coeff = 1
 		}
-		
+
 		path={
 			leads_to_tech = hall_heroult_process
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
-			
+
 			modifier = {
 				factor = 0
 				date < 1865.1.1
 			}
 		}
-		
+
 		categories = {
-			resource_extraction_tech
+			excavation_engineering_tech
 			process_engineering_tech
 		}
 	}
-	
+
 	regenerative_furnace = {
 
 		production_speed_buildings_factor = 0.025
@@ -1598,7 +1598,7 @@ technologies = {
 		dependencies = {
 			tribal_forging = 1
 		}
-		
+
 		path = {
 			leads_to_tech = siemens_martin_process
 			research_cost_coeff = 1
@@ -1647,7 +1647,7 @@ technologies = {
 		}
 
 		categories = {
-			resource_extraction_tech
+			excavation_engineering_tech
 			process_engineering_tech
 		}
 	}
@@ -1668,7 +1668,7 @@ technologies = {
 			leads_to_tech = electric_arc_furnace
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 
@@ -1678,9 +1678,9 @@ technologies = {
 			}
 
 		}
-		
+
 		categories = {
-			resource_extraction_tech
+			excavation_engineering_tech
 			process_engineering_tech
 		}
 	}
@@ -1700,23 +1700,23 @@ technologies = {
 			leads_to_tech = hall_heroult_process
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
-			
+
 			modifier = {
 				factor = 0
 				date < 1880.1.1
 			}
 
 		}
-		
+
 		categories = {
-			resource_extraction_tech
+			excavation_engineering_tech
 			process_engineering_tech
 		}
 	}
-	
+
 	industrial_ironworks_2 = {
 
 		industrial_capacity_factory = 0.05
@@ -1728,12 +1728,12 @@ technologies = {
 			name = tech_folder_manufacturing
 			position = { x = 4 y = 20 }
 		}
-		
+
 		path={
 			leads_to_tech = industrial_ironworks_3
 			research_cost_coeff = 1
 		}
-		
+
 		dependencies = {
 			electric_arc_furnace = 1
 		}
@@ -1749,7 +1749,7 @@ technologies = {
 		}
 
 		categories = {
-			resource_extraction_tech
+			excavation_engineering_tech
 			process_engineering_tech
 		}
 	}
@@ -1765,7 +1765,7 @@ technologies = {
 			name = tech_folder_manufacturing
 			position = { x = 2 y = 14 }
 		}
-		
+
 		path = {
 			leads_to_tech = bayer_process
 			research_cost_coeff = 1
@@ -1773,16 +1773,16 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
-			
+
 			modifier = {
 				factor = 0
 				date < 1870.1.1
 			}
 
 		}
-		
+
 		categories = {
-			resource_extraction_tech
+			excavation_engineering_tech
 			process_engineering_tech
 		}
 	}
@@ -1814,7 +1814,7 @@ technologies = {
 		}
 
 		categories = {
-			resource_extraction_tech
+			excavation_engineering_tech
 			process_engineering_tech
 		}
 	}
@@ -1838,7 +1838,7 @@ technologies = {
 			leads_to_tech = industrial_ironworks_3
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 
@@ -1848,9 +1848,9 @@ technologies = {
 			}
 
 		}
-		
+
 		categories = {
-			resource_extraction_tech
+			excavation_engineering_tech
 			process_engineering_tech
 		}
 	}
@@ -1866,27 +1866,27 @@ technologies = {
 			name = tech_folder_manufacturing
 			position = { x = 2 y = 26 }
 		}
-		
+
 		on_research_complete = {
 			custom_effect_tooltip = TUNGSTEN_UNLOCKED
 		}
 
 		ai_will_do = {
 			factor = 1
-			
+
 			modifier = {
 				factor = 0
 				date < 1900.1.1
 			}
 
 		}
-		
+
 		categories = {
-			resource_extraction_tech
+			excavation_engineering_tech
 			process_engineering_tech
 		}
 	}
-	
+
 	industrial_ironworks_3 = {
 
 		industrial_capacity_factory = 0.05
@@ -1907,7 +1907,7 @@ technologies = {
 			leads_to_tech = industrial_ironworks_4
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 
@@ -1919,7 +1919,7 @@ technologies = {
 		}
 
 		categories = {
-			resource_extraction_tech
+			excavation_engineering_tech
 			process_engineering_tech
 		}
 	}
@@ -1943,24 +1943,24 @@ technologies = {
 			leads_to_tech = injection_moulding
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
-			
+
 			modifier = {
 				factor = 0
 				date < 1910.1.1
 			}
 
 		}
-		
+
 		categories = {
-			resource_extraction_tech
+			excavation_engineering_tech
 			process_engineering_tech
 		}
 	}
 	industrial_chrome_electroplating = {
-	
+
 		production_speed_buildings_factor = 0.1
 		industrial_capacity_factory = 0.025
 
@@ -1974,11 +1974,11 @@ technologies = {
 			leads_to_tech = industrial_ironworks_5
 			research_cost_coeff = 1
 		}
-		
+
 		on_research_complete = {
 			custom_effect_tooltip = CHROMIUM_UNLOCKED
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 
@@ -1990,7 +1990,7 @@ technologies = {
 		}
 
 		categories = {
-			resource_extraction_tech
+			excavation_engineering_tech
 			process_engineering_tech
 		}
 	}
@@ -2008,24 +2008,24 @@ technologies = {
 			leads_to_tech = industrial_ironworks_5
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
-			
+
 			modifier = {
 				factor = 0
 				date < 1920.1.1
 			}
 
 		}
-		
+
 		categories = {
-			resource_extraction_tech
+			excavation_engineering_tech
 			process_engineering_tech
 		}
 	}
 	industrial_ironworks_5 = {
-	
+
 		industrial_capacity_factory = 0.05
 		industrial_capacity_dockyard = 0.05
 
@@ -2047,7 +2047,7 @@ technologies = {
 			leads_to_tech = gas_centrifuge
 			research_cost_coeff = 1
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 
@@ -2059,7 +2059,7 @@ technologies = {
 		}
 
 		categories = {
-			resource_extraction_tech
+			excavation_engineering_tech
 			process_engineering_tech
 		}
 	}

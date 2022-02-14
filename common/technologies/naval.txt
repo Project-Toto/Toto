@@ -45,7 +45,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_capital_ship_tech
 			naval_mtg_gunboat_tech
 			naval_mtg_gunboat_hulls_tech
@@ -82,7 +82,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_capital_ship_tech
 			naval_mtg_gunboat_tech
 			naval_mtg_gunboat_hulls_tech
@@ -120,7 +120,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_capital_ship_tech
 			naval_mtg_gunboat_tech
 			naval_mtg_gunboat_hulls_tech
@@ -153,7 +153,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_capital_ship_tech
 			naval_mtg_gunboat_tech
 			naval_mtg_gunboat_hulls_tech
@@ -186,7 +186,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_capital_ship_tech
 			naval_mtg_gunboat_tech
 			naval_mtg_gunboat_hulls_tech
@@ -223,7 +223,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_capital_ship_tech
 			naval_mtg_gunboat_tech
 			naval_mtg_gunboat_hulls_tech
@@ -260,7 +260,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_capital_ship_tech
 			naval_mtg_gunboat_tech
 			naval_mtg_gunboat_hulls_tech
@@ -297,7 +297,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_capital_ship_tech
 			naval_mtg_gunboat_tech
 			naval_mtg_gunboat_hulls_tech
@@ -330,7 +330,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_capital_ship_tech
 			naval_mtg_gunboat_tech
 			naval_mtg_gunboat_hulls_tech
@@ -363,7 +363,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_screen_ship_tech
 			naval_mtg_monitor_tech
 			naval_mtg_monitor_hulls_tech
@@ -396,7 +396,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_screen_ship_tech
 			naval_mtg_monitor_tech
 			naval_mtg_monitor_hulls_tech
@@ -430,7 +430,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_screen_ship_tech
 			naval_mtg_monitor_tech
 			naval_mtg_monitor_hulls_tech
@@ -447,7 +447,7 @@ technologies = {
 				date < 1880.1.1
 				NOT = {
 					always = yes
-					#has_tech_bonus = { category = naval_equipment }
+					#has_tech_bonus = { category = naval_technology_tech }
 					#has_tech_bonus = { category = naval_mtg_screen_ship_tech }
 					#has_tech_bonus = { category = naval_mtg_monitor_tech }
 					#has_tech_bonus = { category = naval_mtg_monitor_hulls_tech }
@@ -475,7 +475,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_screen_ship_tech
 			naval_mtg_monitor_tech
 			naval_mtg_monitor_hulls_tech
@@ -492,7 +492,7 @@ technologies = {
 				date < 1896.1.1
 				NOT = {
 					always = yes
-					#has_tech_bonus = { category = naval_equipment }
+					#has_tech_bonus = { category = naval_technology_tech }
 					#has_tech_bonus = { category = naval_mtg_screen_ship_tech }
 					#has_tech_bonus = { category = naval_mtg_monitor_tech }
 					#has_tech_bonus = { category = naval_mtg_monitor_hulls_tech }
@@ -520,7 +520,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_screen_ship_tech
 			naval_mtg_corvette_tech
 			naval_mtg_corvette_hulls_tech
@@ -553,7 +553,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_screen_ship_tech
 			naval_mtg_corvette_tech
 			naval_mtg_corvette_hulls_tech
@@ -586,7 +586,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_screen_ship_tech
 			naval_mtg_corvette_tech
 			naval_mtg_corvette_hulls_tech
@@ -623,7 +623,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_screen_ship_tech
 			naval_mtg_corvette_tech
 			naval_mtg_corvette_hulls_tech
@@ -656,7 +656,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_screen_ship_tech
 			naval_mtg_corvette_tech
 			naval_mtg_corvette_hulls_tech
@@ -693,7 +693,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_screen_ship_tech
 			naval_mtg_torpedo_boat_tech
 			naval_mtg_torpedo_boat_hulls_tech
@@ -734,7 +734,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_screen_ship_tech
 			naval_mtg_torpedo_boat_tech
 			naval_mtg_torpedo_boat_hulls_tech
@@ -771,7 +771,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_screen_ship_tech
 			naval_mtg_torpedo_boat_tech
 			naval_mtg_torpedo_boat_hulls_tech
@@ -808,7 +808,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_screen_ship_tech
 			naval_mtg_torpedo_boat_tech
 			naval_mtg_torpedo_boat_hulls_tech
@@ -845,7 +845,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_screen_ship_tech
 			naval_mtg_torpedo_boat_tech
 			naval_mtg_torpedo_boat_hulls_tech
@@ -882,7 +882,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_screen_ship_tech
 			naval_mtg_destroyer_tech
 			naval_mtg_destroyer_hulls_tech
@@ -919,7 +919,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_screen_ship_tech
 			naval_mtg_destroyer_tech
 			naval_mtg_destroyer_hulls_tech
@@ -956,7 +956,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_screen_ship_tech
 			naval_mtg_destroyer_tech
 			naval_mtg_destroyer_hulls_tech
@@ -993,7 +993,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_screen_ship_tech
 			naval_mtg_destroyer_tech
 			naval_mtg_destroyer_hulls_tech
@@ -1030,7 +1030,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_screen_ship_tech
 			naval_mtg_destroyer_tech
 			naval_mtg_destroyer_hulls_tech
@@ -1064,7 +1064,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_capital_ship_tech
 			naval_mtg_frigate_tech
 			naval_mtg_frigate_hulls_tech
@@ -1101,7 +1101,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_capital_ship_tech
 			naval_mtg_frigate_tech
 			naval_mtg_frigate_hulls_tech
@@ -1133,7 +1133,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_capital_ship_tech
 			naval_mtg_frigate_tech
 			naval_mtg_frigate_hulls_tech
@@ -1166,7 +1166,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_capital_ship_tech
 			naval_mtg_lineship_tech
 			naval_mtg_lineship_hulls_tech
@@ -1199,7 +1199,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_capital_ship_tech
 			naval_mtg_lineship_tech
 			naval_mtg_lineship_hulls_tech
@@ -1232,7 +1232,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_capital_ship_tech
 			naval_mtg_lineship_tech
 			naval_mtg_lineship_hulls_tech
@@ -1265,7 +1265,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_capital_ship_tech
 			naval_mtg_lineship_tech
 			naval_mtg_lineship_hulls_tech
@@ -1302,7 +1302,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_capital_ship_tech
 			naval_mtg_lineship_tech
 			naval_mtg_lineship_hulls_tech
@@ -1335,7 +1335,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_capital_ship_tech
 			naval_mtg_lineship_tech
 			naval_mtg_lineship_hulls_tech
@@ -1368,7 +1368,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_capital_ship_tech
 			naval_mtg_lineship_tech
 			naval_mtg_lineship_hulls_tech
@@ -1401,7 +1401,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_capital_ship_tech
 			naval_mtg_lineship_tech
 			naval_mtg_lineship_hulls_tech
@@ -1434,7 +1434,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_capital_ship_tech
 			naval_mtg_lineship_tech
 			naval_mtg_lineship_hulls_tech
@@ -1468,7 +1468,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_capital_ship_tech
 			naval_mtg_lineship_tech
 			naval_mtg_lineship_hulls_tech
@@ -1501,7 +1501,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_capital_ship_tech
 			naval_mtg_lineship_tech
 			naval_mtg_lineship_hulls_tech
@@ -1534,7 +1534,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_capital_ship_tech
 			naval_mtg_lineship_tech
 			naval_mtg_lineship_hulls_tech
@@ -1567,7 +1567,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_capital_ship_tech
 			naval_mtg_lineship_tech
 			naval_mtg_lineship_hulls_tech
@@ -1600,7 +1600,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_capital_ship_tech
 			naval_mtg_lineship_tech
 			naval_mtg_lineship_hulls_tech
@@ -1633,7 +1633,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_capital_ship_tech
 			naval_mtg_lineship_tech
 			naval_mtg_lineship_hulls_tech
@@ -1666,7 +1666,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_capital_ship_tech
 			naval_mtg_lineship_tech
 			naval_mtg_lineship_hulls_tech
@@ -1702,7 +1702,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_transport_tech
 		}
 
@@ -1737,7 +1737,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_transport_tech
 		}
 
@@ -1772,7 +1772,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_transport_tech
 		}
 
@@ -1810,7 +1810,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_transport_tech
 		}
 
@@ -1847,7 +1847,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_transport_tech
 		}
 

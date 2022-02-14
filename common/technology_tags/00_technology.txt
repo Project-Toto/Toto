@@ -87,7 +87,6 @@ technology_categories = {
 			camelry_tech
 			mountaineer_tech
 			marine_tech
-			garrison_tech
 		ammunition_tech
 			arrow_tech
 			bullet_tech
@@ -99,7 +98,9 @@ technology_categories = {
 		recon_company_tech
 		medical_company_tech
 		signal_company_tech
+		garrison_company_tech
 		maintenance_company_tech
+		supply_company_tech
 
 	motorized_vehicles_tech
 		cart_vehicles_tech
@@ -125,6 +126,7 @@ technology_categories = {
 		excavation_engineering_tech
 		mechanical_engineering_tech
 		process_engineering_tech
+		synthetic_engineering_tech
 
 	technology_tech
 		electronics_technology_tech
@@ -186,6 +188,8 @@ technology_categories = {
 	naval_mtg_dreadnought_hulls_tech
 	naval_mtg_submarine_tech
 	naval_mtg_submarine_hulls_tech
+	naval_mtg_carrier_tech
+	naval_mtg_carrier_hulls_tech
 	naval_mtg_coastal_submarine_tech
 	naval_mtg_coastal_submarine_hulls_tech
 	naval_mtg_module_armor_screen_tech

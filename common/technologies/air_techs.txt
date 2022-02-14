@@ -5,7 +5,7 @@ technologies = {
 		enable_equipments = {
 			balloon_equipment_0
 		}
-		
+
 		dependencies = {
 			balloon_designs = 1
 		}
@@ -23,7 +23,7 @@ technologies = {
 		}
 
 		categories = {
-			air_equipment
+			air_technology_tech
 			balloons_tech
 		}
 
@@ -91,7 +91,7 @@ technologies = {
 		}
 
 		categories = {
-			air_equipment
+			air_technology_tech
 			balloons_tech
 		}
 
@@ -131,7 +131,7 @@ technologies = {
 		enable_equipments = {
 			zeppelin_equipment_0
 		}
-		
+
 		dependencies = {
 			zeppelin_prototypes = 1
 		}
@@ -144,8 +144,8 @@ technologies = {
 		}
 
 		categories = {
-			air_equipment
-			zeppelin_tech
+			air_technology_tech
+			balloons_tech
 		}
 		path = {
 			leads_to_tech = zeppelin
@@ -196,8 +196,8 @@ technologies = {
 		}
 
 		categories = {
-			air_equipment
-			zeppelin_tech
+			air_technology_tech
+			balloons_tech
 		}
 		path = {
 			leads_to_tech = high_ceiling_zeppelin
@@ -246,8 +246,8 @@ technologies = {
 		}
 
 		categories = {
-			air_equipment
-			zeppelin_tech
+			air_technology_tech
+			balloons_tech
 		}
 
 		ai_will_do = { modifier = { factor = 0 afr_is_tribal = yes  date < 1875.1.1 }
@@ -288,8 +288,8 @@ technologies = {
 		}
 
 		categories = {
-			air_equipment
-			zeppelin_tech
+			air_technology_tech
+			balloons_tech
 		}
 
 		ai_will_do = { modifier = { factor = 0 afr_is_tribal = yes  date < 1875.1.1 }
@@ -342,9 +342,9 @@ technologies = {
 		}
 
 		categories = {
-			light_air
-			light_fighter
-			air_equipment
+			light_air_tech
+			light_fighter_tech
+			air_technology_tech
 		}
 
 		ai_will_do = { modifier = { factor = 0 afr_is_tribal = yes  date < 1875.1.1 }
@@ -367,7 +367,7 @@ technologies = {
 
 		categories = {
 			naval_air
-			air_equipment
+			air_technology_tech
 		}
 		dependencies ={
 			tech_naval_mtg_1914_carrier_hull = 1
@@ -425,9 +425,9 @@ technologies = {
 		}
 
 		categories = {
-			light_air
-			light_fighter
-			air_equipment
+			light_air_tech
+			light_fighter_tech
+			air_technology_tech
 		}
 
 		ai_will_do = { modifier = { factor = 0 afr_is_tribal = yes  date < 1875.1.1 }
@@ -450,7 +450,7 @@ technologies = {
 
 		categories = {
 			naval_air
-			air_equipment
+			air_technology_tech
 		}
 		dependencies ={
 			tech_naval_mtg_1914_carrier_hull = 1
@@ -493,9 +493,9 @@ technologies = {
 		}
 
 		categories = {
-			light_air
-			light_fighter
-			air_equipment
+			light_air_tech
+			light_fighter_tech
+			air_technology_tech
 		}
 
 		ai_will_do = { modifier = { factor = 0 afr_is_tribal = yes  date < 1875.1.1 }
@@ -520,7 +520,7 @@ technologies = {
 		dependencies={
 			biplane_prototypes = 1
 		}
-		
+
 		research_cost = 2
 		start_year = 1915
 		folder = {
@@ -529,9 +529,9 @@ technologies = {
 		}
 
 		categories = {
-			light_air
-			light_fighter
-			air_equipment
+			light_air_tech
+			light_fighter_tech
+			air_technology_tech
 		}
 
 		sub_technologies = {
@@ -558,7 +558,7 @@ technologies = {
 
 		categories = {
 			naval_air
-			air_equipment
+			air_technology_tech
 		}
 		dependencies ={
 			tech_naval_mtg_1914_carrier_hull = 1
@@ -605,9 +605,9 @@ technologies = {
 		}
 
 		categories = {
-			light_air
-			light_fighter
-			air_equipment
+			light_air_tech
+			light_fighter_tech
+			air_technology_tech
 		}
 
 		sub_technologies = {
@@ -634,7 +634,7 @@ technologies = {
 
 		categories = {
 			naval_air
-			air_equipment
+			air_technology_tech
 		}
 		dependencies ={
 			tech_naval_mtg_1914_carrier_hull = 1
@@ -689,9 +689,9 @@ technologies = {
 		}
 
 		categories = {
-			light_air
-			light_fighter
-			air_equipment
+			light_air_tech
+			light_fighter_tech
+			air_technology_tech
 		}
 
 		sub_technologies = {
@@ -716,12 +716,12 @@ technologies = {
 
 		research_cost = 1.0 #Carrier Variant
 		start_year = 1933
-		
+
 		categories = {
 			naval_air
-			air_equipment
+			air_technology_tech
 		}
-		
+
 		ai_will_do = { modifier = { factor = 0 afr_is_tribal = yes  date < 1875.1.1 }
 			factor = 1.5
 			modifier = {
@@ -757,15 +757,15 @@ technologies = {
 		}
 
 		categories = {
-			light_air
-			light_fighter
-			air_equipment
+			light_air_tech
+			light_fighter_tech
+			air_technology_tech
 		}
 
 		sub_technologies = {
 			cv_fighter1
 		}
-		
+
 		ai_will_do = { modifier = { factor = 0 afr_is_tribal = yes  date < 1875.1.1 }
 			factor = 4
 
@@ -773,7 +773,7 @@ technologies = {
 				factor = 2
 				is_major = yes
 			}
-			
+
 			modifier = {
 				factor = 1.2
 				date > "1937.1.1"
@@ -804,10 +804,10 @@ technologies = {
 
 		research_cost = 1 #Carrier Variant
 		start_year = 1936
-		
+
 		categories = {
 			naval_air
-			air_equipment
+			air_technology_tech
 		}
 
 		ai_will_do = { modifier = { factor = 0 afr_is_tribal = yes  date < 1875.1.1 }
@@ -835,7 +835,7 @@ technologies = {
 		enable_equipments = {
 			CAS_equipment_1
 		}
-		
+
 		research_cost = 2
 		start_year = 1936
 
@@ -843,20 +843,20 @@ technologies = {
 			name = tech_folder_air
 			position = { x = 0 y = 28 }
 		}
-		
+
 		sub_technologies = {
 			cv_CAS1
 		}
-		
+
 		categories = {
-			light_air
-			cas_bomber
-			air_equipment
+			light_air_tech
+			cas_bomber_tech
+			air_technology_tech
 		}
-		
+
 		ai_will_do = { modifier = { factor = 0 afr_is_tribal = yes  date < 1875.1.1 }
 			factor = 1
-			
+
 			modifier = {
 				factor = 2
 				tag = GER
@@ -864,7 +864,7 @@ technologies = {
 
 		}
 	}
-	
+
 	cv_CAS1 = {
 
 		enable_equipments = {
@@ -873,12 +873,12 @@ technologies = {
 
 		research_cost = 1.0 #Carrier Variant
 		start_year = 1936
-		
+
 		categories = {
 			naval_air
-			air_equipment
+			air_technology_tech
 		}
-		
+
 		ai_will_do = { modifier = { factor = 0 afr_is_tribal = yes  date < 1875.1.1 }
 			factor = 1
 			modifier = {
@@ -901,24 +901,24 @@ technologies = {
 		enable_equipments = {
 			nav_bomber_equipment_1
 		}
-		
+
 		research_cost = 2
 		start_year = 1936
 		folder = {
 			name = tech_folder_air
 			position = { x = 6 y = 28 }
 		}
-		
+
 		sub_technologies = {
 			cv_naval_bomber1
 		}
-		
+
 		categories = {
 			naval_air
 			naval_bomber
-			air_equipment
+			air_technology_tech
 		}
-		
+
 		ai_will_do = { modifier = { factor = 0 afr_is_tribal = yes  date < 1875.1.1 }
 			factor = 1
 			modifier = {
@@ -934,7 +934,7 @@ technologies = {
 			}
 		}
 	}
-	
+
 	cv_naval_bomber1 = {
 
 		enable_equipments = {
@@ -943,12 +943,12 @@ technologies = {
 
 		research_cost = 1.0 #Carrier Variant
 		start_year = 1936
-		
+
 		categories = {
 			naval_air
-			air_equipment
+			air_technology_tech
 		}
-		
+
 		ai_will_do = { modifier = { factor = 0 afr_is_tribal = yes  date < 1875.1.1 }
 			factor = 1
 			modifier = {
@@ -965,7 +965,7 @@ technologies = {
 			}
 		}
 	}
-	
+
 	biplane_bomber = {
 
 		enable_equipments = {
@@ -979,20 +979,20 @@ technologies = {
 		dependencies={
 			biplane_prototypes = 1
 		}
-		
+
 		research_cost = 2
 		start_year = 1915
 		folder = {
 			name = tech_folder_air
 			position = { x = 13 y = 22 }
 		}
-		
+
 		categories = {
-			medium_air
-			tactical_bomber
-			air_equipment
+			medium_air_tech
+			tactical_bomber_tech
+			air_technology_tech
 		}
-		
+
 		ai_will_do = { modifier = { factor = 0 afr_is_tribal = yes  date < 1875.1.1 }
 			factor = 1
 		}
@@ -1010,25 +1010,25 @@ technologies = {
 		dependencies={
 			improved_aerodynamics = 1
 		}
-		
+
 		research_cost = 2
 		start_year = 1920
 		folder = {
 			name = tech_folder_air
 			position = { x = 13 y = 24 }
 		}
-		
+
 		categories = {
-			medium_air
-			tactical_bomber
-			air_equipment
+			medium_air_tech
+			tactical_bomber_tech
+			air_technology_tech
 		}
-		
+
 		ai_will_do = { modifier = { factor = 0 afr_is_tribal = yes  date < 1875.1.1 }
 			factor = 1
 		}
 	}
-	
+
 	early_bomber = {
 
 		enable_equipments = {
@@ -1050,44 +1050,44 @@ technologies = {
 		dependencies={
 			radial_engines = 1
 		}
-		
+
 		research_cost = 2
 		start_year = 1933
 		folder = {
 			name = tech_folder_air
 			position = { x = 13 y = 26 }
 		}
-		
+
 		categories = {
-			medium_air
-			tactical_bomber
-			air_equipment
+			medium_air_tech
+			tactical_bomber_tech
+			air_technology_tech
 		}
-		
+
 		ai_will_do = { modifier = { factor = 0 afr_is_tribal = yes  date < 1875.1.1 }
 			factor = 1
 		}
 	}
-	
+
 	heavy_fighter1 = {
 
 		enable_equipments = {
 			heavy_fighter_equipment_1
 		}
-		
+
 		research_cost = 2
 		start_year = 1936
 		folder = {
 			name = tech_folder_air
 			position = { x = 10 y = 28 }
 		}
-		
+
 		categories = {
-			medium_air
-			air_equipment
+			medium_air_tech
+			air_technology_tech
 			cat_heavy_fighter
 		}
-		
+
 		ai_will_do = { modifier = { factor = 0 afr_is_tribal = yes  date < 1875.1.1 }
 			factor = 1
 		}

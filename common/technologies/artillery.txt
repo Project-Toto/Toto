@@ -965,11 +965,11 @@ technologies = {
 			}
 		}
 	}
-	
+
 	anti_air_1 = {
 
 		enable_equipments = {
-			anti_air_equipment_0
+			anti_air_technology_tech_0
 		}
 
 		enable_subunits={
@@ -1019,7 +1019,7 @@ technologies = {
 	anti_air_2 = {
 
 		enable_equipments = {
-			anti_air_equipment_1
+			anti_air_technology_tech_1
 		}
 
 		research_cost = 1
@@ -1064,7 +1064,7 @@ technologies = {
 	anti_air_3 = {
 
 		enable_equipments = {
-			anti_air_equipment_2
+			anti_air_technology_tech_2
 		}
 
 		research_cost = 1

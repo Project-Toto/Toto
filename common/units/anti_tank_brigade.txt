@@ -88,7 +88,7 @@ sub_units = {
 			category_all_frontline
 			category_all_land
 			category_all_artillery
-		}		
+		}
 		
 		combat_width = 1
 		transport = motorized_equipment

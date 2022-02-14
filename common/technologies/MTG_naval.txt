@@ -128,7 +128,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_capital_ship_tech
 			naval_mtg_gunboat_tech
 			naval_mtg_gunboat_hulls_tech
@@ -171,7 +171,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_capital_ship_tech
 			naval_mtg_gunboat_tech
 			naval_mtg_gunboat_hulls_tech
@@ -210,7 +210,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_capital_ship_tech
 			naval_mtg_gunboat_tech
 			naval_mtg_gunboat_hulls_tech
@@ -226,7 +226,7 @@ technologies = {
 				factor = 0
 				date < 1860.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_capital_ship_tech }
 					has_tech_bonus = { category = naval_mtg_gunboat_tech }
 					has_tech_bonus = { category = naval_mtg_gunboat_hulls_tech }
@@ -252,7 +252,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_gunboat_tech
 		}
 
@@ -267,7 +267,7 @@ technologies = {
 				factor = 0
 				date < 1860.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_capital_ship_tech }
 					has_tech_bonus = { category = naval_mtg_gunboat_tech }
 					has_tech_bonus = { category = naval_mtg_gunboat_hulls_tech }
@@ -299,7 +299,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_capital_ship_tech
 			naval_mtg_gunboat_tech
 			naval_mtg_gunboat_hulls_tech
@@ -320,7 +320,7 @@ technologies = {
 				factor = 0
 				date < 1868.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_capital_ship_tech }
 					has_tech_bonus = { category = naval_mtg_gunboat_tech }
 					has_tech_bonus = { category = naval_mtg_gunboat_hulls_tech }
@@ -352,7 +352,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_capital_ship_tech
 			naval_mtg_gunboat_tech
 			naval_mtg_gunboat_hulls_tech
@@ -369,7 +369,7 @@ technologies = {
 				factor = 0
 				date < 1884.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_capital_ship_tech }
 					has_tech_bonus = { category = naval_mtg_gunboat_tech }
 					has_tech_bonus = { category = naval_mtg_gunboat_hulls_tech }
@@ -402,7 +402,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_capital_ship_tech
 			naval_mtg_gunboat_tech
 			naval_mtg_gunboat_hulls_tech
@@ -420,7 +420,7 @@ technologies = {
 				factor = 0
 				date < 1890.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_capital_ship_tech }
 					has_tech_bonus = { category = naval_mtg_gunboat_tech }
 					has_tech_bonus = { category = naval_mtg_gunboat_hulls_tech }
@@ -446,7 +446,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_gunboat_tech
 		}
 
@@ -462,7 +462,7 @@ technologies = {
 				factor = 0
 				date < 1890.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_gunboat_tech }
 				}
 			}
@@ -497,7 +497,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_capital_ship_tech
 			naval_mtg_gunboat_tech
 			naval_mtg_gunboat_hulls_tech
@@ -515,7 +515,7 @@ technologies = {
 				factor = 0
 				date < 1905.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_capital_ship_tech }
 					has_tech_bonus = { category = naval_mtg_gunboat_tech }
 					has_tech_bonus = { category = naval_mtg_gunboat_hulls_tech }
@@ -541,7 +541,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_gunboat_tech
 		}
 
@@ -557,7 +557,7 @@ technologies = {
 				factor = 0
 				date < 1905.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_gunboat_tech }
 				}
 			}
@@ -587,7 +587,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_capital_ship_tech
 			naval_mtg_gunboat_tech
 			naval_mtg_gunboat_hulls_tech
@@ -604,7 +604,7 @@ technologies = {
 				factor = 0
 				date < 1914.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_capital_ship_tech }
 					has_tech_bonus = { category = naval_mtg_gunboat_tech }
 					has_tech_bonus = { category = naval_mtg_gunboat_hulls_tech }
@@ -635,7 +635,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_capital_ship_tech
 			naval_mtg_gunboat_tech
 			naval_mtg_gunboat_hulls_tech
@@ -653,7 +653,7 @@ technologies = {
 				factor = 0
 				date < 1935.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_capital_ship_tech }
 					has_tech_bonus = { category = naval_mtg_gunboat_tech }
 					has_tech_bonus = { category = naval_mtg_gunboat_hulls_tech }
@@ -686,7 +686,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_screen_ship_tech
 			naval_mtg_monitor_tech
 			naval_mtg_monitor_hulls_tech
@@ -702,7 +702,7 @@ technologies = {
 				factor = 0
 				date < 1862.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_screen_ship_tech }
 					has_tech_bonus = { category = naval_mtg_monitor_tech }
 					has_tech_bonus = { category = naval_mtg_monitor_hulls_tech }
@@ -739,7 +739,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_screen_ship_tech
 			naval_mtg_monitor_tech
 			naval_mtg_monitor_hulls_tech
@@ -755,7 +755,7 @@ technologies = {
 				factor = 0
 				date < 1870.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_screen_ship_tech }
 					has_tech_bonus = { category = naval_mtg_monitor_tech }
 					has_tech_bonus = { category = naval_mtg_monitor_hulls_tech }
@@ -781,7 +781,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_monitor_tech
 		}
 
@@ -795,7 +795,7 @@ technologies = {
 				factor = 0
 				date < 1870.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_monitor_tech }
 				}
 			}
@@ -826,7 +826,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_screen_ship_tech
 			naval_mtg_monitor_tech
 			naval_mtg_monitor_hulls_tech
@@ -842,7 +842,7 @@ technologies = {
 				factor = 0
 				date < 1880.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_screen_ship_tech }
 					has_tech_bonus = { category = naval_mtg_monitor_tech }
 					has_tech_bonus = { category = naval_mtg_monitor_hulls_tech }
@@ -868,7 +868,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_monitor_tech
 		}
 
@@ -882,7 +882,7 @@ technologies = {
 				factor = 0
 				date < 1880.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_monitor_tech }
 				}
 			}
@@ -908,7 +908,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_screen_ship_tech
 			naval_mtg_monitor_tech
 			naval_mtg_monitor_hulls_tech
@@ -924,7 +924,7 @@ technologies = {
 				factor = 0
 				date < 1896.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_screen_ship_tech }
 					has_tech_bonus = { category = naval_mtg_monitor_tech }
 					has_tech_bonus = { category = naval_mtg_monitor_hulls_tech }
@@ -961,7 +961,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_screen_ship_tech
 			naval_mtg_monitor_tech
 			naval_mtg_monitor_hulls_tech
@@ -977,7 +977,7 @@ technologies = {
 				factor = 0
 				date < 1908.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_screen_ship_tech }
 					has_tech_bonus = { category = naval_mtg_monitor_tech }
 					has_tech_bonus = { category = naval_mtg_monitor_hulls_tech }
@@ -1003,7 +1003,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_monitor_tech
 		}
 
@@ -1017,7 +1017,7 @@ technologies = {
 				factor = 0
 				date < 1908.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_monitor_tech }
 				}
 			}
@@ -1053,7 +1053,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_screen_ship_tech
 			naval_mtg_monitor_tech
 			naval_mtg_monitor_hulls_tech
@@ -1069,7 +1069,7 @@ technologies = {
 				factor = 0
 				date < 1922.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_screen_ship_tech }
 					has_tech_bonus = { category = naval_mtg_monitor_tech }
 					has_tech_bonus = { category = naval_mtg_monitor_hulls_tech }
@@ -1100,7 +1100,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_screen_ship_tech
 			naval_mtg_monitor_tech
 			naval_mtg_monitor_hulls_tech
@@ -1116,7 +1116,7 @@ technologies = {
 				factor = 0
 				date < 1922.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_screen_ship_tech }
 					has_tech_bonus = { category = naval_mtg_monitor_tech }
 					has_tech_bonus = { category = naval_mtg_monitor_hulls_tech }
@@ -1143,7 +1143,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_monitor_tech
 		}
 
@@ -1157,7 +1157,7 @@ technologies = {
 				factor = 0
 				date < 1914.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_monitor_tech }
 				}
 			}
@@ -1183,7 +1183,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_screen_ship_tech
 			naval_mtg_corvette_tech
 			naval_mtg_corvette_hulls_tech
@@ -1217,7 +1217,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_screen_ship_tech
 			naval_mtg_corvette_tech
 			naval_mtg_corvette_hulls_tech
@@ -1251,7 +1251,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_screen_ship_tech
 			naval_mtg_corvette_tech
 			naval_mtg_corvette_hulls_tech
@@ -1267,7 +1267,7 @@ technologies = {
 				factor = 0
 				date < 1860.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_screen_ship_tech }
 					has_tech_bonus = { category = naval_mtg_corvette_tech }
 					has_tech_bonus = { category = naval_mtg_corvette_hulls_tech }
@@ -1295,7 +1295,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_screen_ship_tech
 			naval_mtg_corvette_tech
 			naval_mtg_corvette_hulls_tech
@@ -1315,7 +1315,7 @@ technologies = {
 				factor = 0
 				date < 1868.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_screen_ship_tech }
 					has_tech_bonus = { category = naval_mtg_corvette_tech }
 					has_tech_bonus = { category = naval_mtg_corvette_hulls_tech }
@@ -1348,7 +1348,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_screen_ship_tech
 			naval_mtg_torpedo_boat_tech
 			naval_mtg_torpedo_boat_hulls_tech
@@ -1364,7 +1364,7 @@ technologies = {
 				factor = 0
 				date < 1875.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_screen_ship_tech }
 					has_tech_bonus = { category = naval_mtg_torpedo_boat_tech }
 					has_tech_bonus = { category = naval_mtg_torpedo_boat_hulls_tech }
@@ -1398,7 +1398,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_screen_ship_tech
 			naval_mtg_torpedo_boat_tech
 			naval_mtg_torpedo_boat_hulls_tech
@@ -1414,7 +1414,7 @@ technologies = {
 				factor = 0
 				date < 1884.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_screen_ship_tech }
 					has_tech_bonus = { category = naval_mtg_torpedo_boat_tech }
 					has_tech_bonus = { category = naval_mtg_torpedo_boat_hulls_tech }
@@ -1455,7 +1455,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_screen_ship_tech
 			naval_mtg_destroyer_tech
 			naval_mtg_destroyer_hulls_tech
@@ -1471,7 +1471,7 @@ technologies = {
 				factor = 0
 				date < 1890.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_screen_ship_tech }
 					has_tech_bonus = { category = naval_mtg_destroyer_tech }
 					has_tech_bonus = { category = naval_mtg_destroyer_hulls_tech }
@@ -1498,7 +1498,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_destroyer_tech
 		}
 
@@ -1512,7 +1512,7 @@ technologies = {
 				factor = 0
 				date < 1890.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_destroyer_tech }
 				}
 			}
@@ -1551,7 +1551,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_screen_ship_tech
 			naval_mtg_destroyer_tech
 			naval_mtg_destroyer_hulls_tech
@@ -1567,7 +1567,7 @@ technologies = {
 				factor = 0
 				date < 1900.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_screen_ship_tech }
 					has_tech_bonus = { category = naval_mtg_destroyer_tech }
 					has_tech_bonus = { category = naval_mtg_destroyer_hulls_tech }
@@ -1593,7 +1593,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_destroyer_tech
 		}
 
@@ -1607,7 +1607,7 @@ technologies = {
 				factor = 0
 				date < 1900.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_destroyer_tech }
 				}
 			}
@@ -1646,7 +1646,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_screen_ship_tech
 			naval_mtg_destroyer_tech
 			naval_mtg_destroyer_hulls_tech
@@ -1662,7 +1662,7 @@ technologies = {
 				factor = 0
 				date < 1910.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_screen_ship_tech }
 					has_tech_bonus = { category = naval_mtg_destroyer_tech }
 					has_tech_bonus = { category = naval_mtg_destroyer_hulls_tech }
@@ -1689,7 +1689,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_destroyer_tech
 		}
 
@@ -1703,7 +1703,7 @@ technologies = {
 				factor = 0
 				date < 1910.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_destroyer_tech }
 				}
 			}
@@ -1733,7 +1733,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_screen_ship_tech
 			naval_mtg_destroyer_tech
 			naval_mtg_destroyer_hulls_tech
@@ -1749,7 +1749,7 @@ technologies = {
 				factor = 0
 				date < 1910.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_screen_ship_tech }
 					has_tech_bonus = { category = naval_mtg_destroyer_tech }
 					has_tech_bonus = { category = naval_mtg_destroyer_hulls_tech }
@@ -1789,7 +1789,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_screen_ship_tech
 			naval_mtg_destroyer_tech
 			naval_mtg_destroyer_hulls_tech
@@ -1805,7 +1805,7 @@ technologies = {
 				factor = 0
 				date < 1916.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_screen_ship_tech }
 					has_tech_bonus = { category = naval_mtg_destroyer_tech }
 					has_tech_bonus = { category = naval_mtg_destroyer_hulls_tech }
@@ -1830,7 +1830,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_destroyer_tech
 		}
 
@@ -1844,7 +1844,7 @@ technologies = {
 				factor = 0
 				date < 1916.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_destroyer_tech }
 				}
 			}
@@ -1885,7 +1885,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_screen_ship_tech
 			naval_mtg_destroyer_tech
 			naval_mtg_destroyer_hulls_tech
@@ -1901,7 +1901,7 @@ technologies = {
 				factor = 0
 				date < 1922.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_screen_ship_tech }
 					has_tech_bonus = { category = naval_mtg_destroyer_tech }
 					has_tech_bonus = { category = naval_mtg_destroyer_hulls_tech }
@@ -1933,7 +1933,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			dd_equipment
 		}
 	}
@@ -1975,7 +1975,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			dd_equipment
 			asw_tech
 		}
@@ -2019,7 +2019,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			dd_equipment
 			asw_tech
 		}
@@ -2052,7 +2052,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_screen_ship_tech
 			naval_mtg_destroyer_tech
 			naval_mtg_destroyer_hulls_tech
@@ -2068,7 +2068,7 @@ technologies = {
 				factor = 0
 				date < 1940.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_screen_ship_tech }
 					has_tech_bonus = { category = naval_mtg_destroyer_tech }
 					has_tech_bonus = { category = naval_mtg_destroyer_hulls_tech }
@@ -2105,7 +2105,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_screen_ship_tech
 			naval_mtg_torpedo_boat_tech
 			naval_mtg_torpedo_boat_hulls_tech
@@ -2121,7 +2121,7 @@ technologies = {
 				factor = 0
 				date < 1890.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_screen_ship_tech }
 					has_tech_bonus = { category = naval_mtg_torpedo_boat_tech }
 					has_tech_bonus = { category = naval_mtg_torpedo_boat_hulls_tech }
@@ -2147,7 +2147,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_torpedo_boat_tech
 		}
 
@@ -2161,7 +2161,7 @@ technologies = {
 				factor = 0
 				date < 1890.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_torpedo_boat_tech }
 				}
 			}
@@ -2196,7 +2196,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_screen_ship_tech
 			naval_mtg_torpedo_boat_tech
 			naval_mtg_torpedo_boat_hulls_tech
@@ -2212,7 +2212,7 @@ technologies = {
 				factor = 0
 				date < 1905.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_screen_ship_tech }
 					has_tech_bonus = { category = naval_mtg_torpedo_boat_tech }
 					has_tech_bonus = { category = naval_mtg_torpedo_boat_hulls_tech }
@@ -2238,7 +2238,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_torpedo_boat_tech
 		}
 
@@ -2252,7 +2252,7 @@ technologies = {
 				factor = 0
 				date < 1905.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_torpedo_boat_tech }
 				}
 			}
@@ -2287,7 +2287,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_screen_ship_tech
 			naval_mtg_torpedo_boat_tech
 			naval_mtg_torpedo_boat_hulls_tech
@@ -2303,7 +2303,7 @@ technologies = {
 				factor = 0
 				date < 1915.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_screen_ship_tech }
 					has_tech_bonus = { category = naval_mtg_torpedo_boat_tech }
 					has_tech_bonus = { category = naval_mtg_torpedo_boat_hulls_tech }
@@ -2329,7 +2329,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_torpedo_boat_tech
 		}
 
@@ -2343,7 +2343,7 @@ technologies = {
 				factor = 0
 				date < 1915.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_torpedo_boat_tech }
 				}
 			}
@@ -2374,7 +2374,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_capital_ship_tech
 			naval_mtg_frigate_tech
 			naval_mtg_frigate_hulls_tech
@@ -2413,7 +2413,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_capital_ship_tech
 			naval_mtg_frigate_tech
 			naval_mtg_frigate_hulls_tech
@@ -2455,7 +2455,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_capital_ship_tech
 			naval_mtg_ironclad_tech
 			naval_mtg_ironclad_hulls_tech
@@ -2471,7 +2471,7 @@ technologies = {
 				factor = 0
 				date < 1860.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_capital_ship_tech }
 					has_tech_bonus = { category = naval_mtg_ironclad_tech }
 					has_tech_bonus = { category = naval_mtg_ironclad_hulls_tech }
@@ -2503,7 +2503,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_capital_ship_tech
 			naval_mtg_ironclad_tech
 			naval_mtg_ironclad_hulls_tech
@@ -2519,7 +2519,7 @@ technologies = {
 				factor = 0
 				date < 1865.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_capital_ship_tech }
 					has_tech_bonus = { category = naval_mtg_ironclad_tech }
 					has_tech_bonus = { category = naval_mtg_ironclad_hulls_tech }
@@ -2561,7 +2561,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_capital_ship_tech
 			naval_mtg_ironclad_tech
 			naval_mtg_ironclad_hulls_tech
@@ -2577,7 +2577,7 @@ technologies = {
 				factor = 0
 				date < 1870.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_capital_ship_tech }
 					has_tech_bonus = { category = naval_mtg_ironclad_tech }
 					has_tech_bonus = { category = naval_mtg_ironclad_hulls_tech }
@@ -2612,7 +2612,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_screen_ship_tech
 			naval_mtg_light_cruiser_tech
 			naval_mtg_light_cruiser_hulls_tech
@@ -2628,7 +2628,7 @@ technologies = {
 				factor = 0
 				date < 1875.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_capital_ship_tech }
 					has_tech_bonus = { category = naval_mtg_light_cruiser_tech }
 					has_tech_bonus = { category = naval_mtg_light_cruiser_hulls_tech }
@@ -2660,7 +2660,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_screen_ship_tech
 			naval_mtg_light_cruiser_tech
 			naval_mtg_light_cruiser_hulls_tech
@@ -2676,7 +2676,7 @@ technologies = {
 				factor = 0
 				date < 1880.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_capital_ship_tech }
 					has_tech_bonus = { category = naval_mtg_light_cruiser_tech }
 					has_tech_bonus = { category = naval_mtg_light_cruiser_hulls_tech }
@@ -2707,7 +2707,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_screen_ship_tech
 			naval_mtg_light_cruiser_tech
 			naval_mtg_light_cruiser_hulls_tech
@@ -2723,7 +2723,7 @@ technologies = {
 				factor = 0
 				date < 1888.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_capital_ship_tech }
 					has_tech_bonus = { category = naval_mtg_light_cruiser_tech }
 					has_tech_bonus = { category = naval_mtg_light_cruiser_hulls_tech }
@@ -2755,7 +2755,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_capital_ship_tech
 			naval_mtg_heavy_cruiser_tech
 			naval_mtg_heavy_cruiser_hulls_tech
@@ -2771,7 +2771,7 @@ technologies = {
 				factor = 0
 				date < 1875.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_capital_ship_tech }
 					has_tech_bonus = { category = naval_mtg_heavy_cruiser_tech }
 					has_tech_bonus = { category = naval_mtg_heavy_cruiser_hulls_tech }
@@ -2813,7 +2813,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_capital_ship_tech
 			naval_mtg_heavy_cruiser_tech
 			naval_mtg_heavy_cruiser_hulls_tech
@@ -2829,7 +2829,7 @@ technologies = {
 				factor = 0
 				date < 1880.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_capital_ship_tech }
 					has_tech_bonus = { category = naval_mtg_heavy_cruiser_tech }
 					has_tech_bonus = { category = naval_mtg_heavy_cruiser_hulls_tech }
@@ -2865,7 +2865,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_capital_ship_tech
 			naval_mtg_cruiser_tech
 			naval_mtg_cruiser_hulls_tech
@@ -2881,7 +2881,7 @@ technologies = {
 				factor = 0
 				date < 1890.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_capital_ship_tech }
 					has_tech_bonus = { category = naval_mtg_cruiser_tech }
 					has_tech_bonus = { category = naval_mtg_cruiser_hulls_tech }
@@ -2918,7 +2918,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_capital_ship_tech
 			naval_mtg_cruiser_tech
 			naval_mtg_cruiser_hulls_tech
@@ -2934,7 +2934,7 @@ technologies = {
 				factor = 0
 				date < 1905.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_capital_ship_tech }
 					has_tech_bonus = { category = naval_mtg_cruiser_tech }
 					has_tech_bonus = { category = naval_mtg_cruiser_hulls_tech }
@@ -2960,7 +2960,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_cruiser_tech
 		}
 
@@ -2974,7 +2974,7 @@ technologies = {
 				factor = 0
 				date < 1905.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_cruiser_tech }
 				}
 			}
@@ -3018,7 +3018,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_capital_ship_tech
 			naval_mtg_cruiser_tech
 			naval_mtg_cruiser_hulls_tech
@@ -3034,7 +3034,7 @@ technologies = {
 				factor = 0
 				date < 1910.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_capital_ship_tech }
 					has_tech_bonus = { category = naval_mtg_cruiser_tech }
 					has_tech_bonus = { category = naval_mtg_cruiser_hulls_tech }
@@ -3060,7 +3060,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_cruiser_tech
 		}
 
@@ -3074,7 +3074,7 @@ technologies = {
 				factor = 0
 				date < 1910.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_cruiser_tech }
 				}
 			}
@@ -3113,7 +3113,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_capital_ship_tech
 			naval_mtg_cruiser_tech
 			naval_mtg_cruiser_hulls_tech
@@ -3129,7 +3129,7 @@ technologies = {
 				factor = 0
 				date < 1915.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_capital_ship_tech }
 					has_tech_bonus = { category = naval_mtg_cruiser_tech }
 					has_tech_bonus = { category = naval_mtg_cruiser_hulls_tech }
@@ -3155,7 +3155,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_cruiser_tech
 		}
 
@@ -3169,7 +3169,7 @@ technologies = {
 				factor = 0
 				date < 1915.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_cruiser_tech }
 				}
 			}
@@ -3208,7 +3208,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_capital_ship_tech
 			naval_mtg_cruiser_tech
 			naval_mtg_cruiser_hulls_tech
@@ -3224,7 +3224,7 @@ technologies = {
 				factor = 0
 				date < 1918.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_capital_ship_tech }
 					has_tech_bonus = { category = naval_mtg_cruiser_tech }
 					has_tech_bonus = { category = naval_mtg_cruiser_hulls_tech }
@@ -3250,7 +3250,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_cruiser_tech
 		}
 
@@ -3264,7 +3264,7 @@ technologies = {
 				factor = 0
 				date < 1918.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_cruiser_tech }
 				}
 			}
@@ -3297,7 +3297,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 		}
 
 		ai_will_do = { modifier = { factor = 0 afr_is_tribal = yes  date < 1875.1.1 } modifier = { factor = 0 num_of_naval_factories < 3 } modifier = { factor = 0.5 is_major = yes has_war = no } modifier = { factor = 0.25 is_major = no has_war = no } modifier = { factor = 1.5 has_war = yes }
@@ -3310,7 +3310,7 @@ technologies = {
 				factor = 0
 				date < 1918.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 				}
 			}
 		}
@@ -3333,7 +3333,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 		}
 
 		ai_will_do = { modifier = { factor = 0 afr_is_tribal = yes  date < 1875.1.1 } modifier = { factor = 0 num_of_naval_factories < 3 } modifier = { factor = 0.5 is_major = yes has_war = no } modifier = { factor = 0.25 is_major = no has_war = no } modifier = { factor = 1.5 has_war = yes }
@@ -3346,7 +3346,7 @@ technologies = {
 				factor = 0
 				date < 1918.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 				}
 			}
 		}
@@ -3385,7 +3385,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_capital_ship_tech
 			naval_mtg_cruiser_tech
 			naval_mtg_cruiser_hulls_tech
@@ -3401,7 +3401,7 @@ technologies = {
 				factor = 0
 				date < 1922.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_capital_ship_tech }
 					has_tech_bonus = { category = naval_mtg_cruiser_tech }
 					has_tech_bonus = { category = naval_mtg_cruiser_hulls_tech }
@@ -3427,7 +3427,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_cruiser_tech
 		}
 
@@ -3441,7 +3441,7 @@ technologies = {
 				factor = 0
 				date < 1922.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_cruiser_tech }
 				}
 			}
@@ -3476,7 +3476,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_capital_ship_tech
 			naval_mtg_cruiser_tech
 			naval_mtg_cruiser_hulls_tech
@@ -3492,7 +3492,7 @@ technologies = {
 				factor = 0
 				date < 1922.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_capital_ship_tech }
 					has_tech_bonus = { category = naval_mtg_cruiser_tech }
 					has_tech_bonus = { category = naval_mtg_cruiser_hulls_tech }
@@ -3527,7 +3527,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_armor_capital_tech
 		}
 
@@ -3541,7 +3541,7 @@ technologies = {
 				factor = 0
 				date < 1916.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_module_armor_capital_tech }
 				}
 			}
@@ -3569,7 +3569,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_armor_capital_tech
 		}
 
@@ -3583,7 +3583,7 @@ technologies = {
 				factor = 0
 				date < 1916.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_module_armor_capital_tech }
 				}
 			}
@@ -3620,7 +3620,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_armor_capital_tech
 		}
 
@@ -3634,7 +3634,7 @@ technologies = {
 				factor = 0
 				date < 1890.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_module_armor_capital_tech }
 				}
 			}
@@ -3666,7 +3666,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_armor_capital_tech
 		}
 
@@ -3680,7 +3680,7 @@ technologies = {
 				factor = 0
 				date < 1900.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_module_armor_capital_tech }
 				}
 			}
@@ -3720,7 +3720,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_armor_capital_tech
 		}
 
@@ -3757,7 +3757,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_capital_ship_tech
 			naval_mtg_lineship_tech
 			naval_mtg_lineship_hulls_tech
@@ -3815,7 +3815,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_capital_ship_tech
 			naval_mtg_lineship_tech
 			naval_mtg_lineship_hulls_tech
@@ -3853,7 +3853,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_capital_ship_tech
 			naval_mtg_battle_cruiser_tech
 			naval_mtg_battle_cruiser_hulls_tech
@@ -3869,7 +3869,7 @@ technologies = {
 				factor = 0
 				date < 1878.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_capital_ship_tech }
 					has_tech_bonus = { category = naval_mtg_battle_cruiser_tech }
 					has_tech_bonus = { category = naval_mtg_battle_cruiser_hulls_tech }
@@ -3906,7 +3906,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_capital_ship_tech
 			naval_mtg_battle_cruiser_tech
 			naval_mtg_battle_cruiser_hulls_tech
@@ -3922,7 +3922,7 @@ technologies = {
 				factor = 0
 				date < 1888.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_capital_ship_tech }
 					has_tech_bonus = { category = naval_mtg_battle_cruiser_tech }
 					has_tech_bonus = { category = naval_mtg_battle_cruiser_hulls_tech }
@@ -3954,7 +3954,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_capital_ship_tech
 			naval_mtg_battleship_tech
 			naval_mtg_battleship_hulls_tech
@@ -3970,7 +3970,7 @@ technologies = {
 				factor = 0
 				date < 1890.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_capital_ship_tech }
 					has_tech_bonus = { category = naval_mtg_battleship_tech }
 					has_tech_bonus = { category = naval_mtg_battleship_hulls_tech }
@@ -4003,7 +4003,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_capital_ship_tech
 			naval_mtg_dreadnought_tech
 			naval_mtg_dreadnought_hulls_tech
@@ -4019,7 +4019,7 @@ technologies = {
 				factor = 0
 				date < 1900.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_capital_ship_tech }
 					has_tech_bonus = { category = naval_mtg_dreadnought_tech }
 					has_tech_bonus = { category = naval_mtg_dreadnought_hulls_tech }
@@ -4055,7 +4055,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_capital_ship_tech
 			naval_mtg_dreadnought_tech
 			naval_mtg_dreadnought_hulls_tech
@@ -4071,7 +4071,7 @@ technologies = {
 				factor = 0
 				date < 1905.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_capital_ship_tech }
 					has_tech_bonus = { category = naval_mtg_dreadnought_tech }
 					has_tech_bonus = { category = naval_mtg_dreadnought_hulls_tech }
@@ -4107,7 +4107,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_capital_ship_tech
 			naval_mtg_dreadnought_tech
 			naval_mtg_dreadnought_hulls_tech
@@ -4145,7 +4145,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_capital_ship_tech
 			naval_mtg_dreadnought_tech
 			naval_mtg_dreadnought_hulls_tech
@@ -4183,7 +4183,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_capital_ship_tech
 			naval_mtg_dreadnought_tech
 			naval_mtg_dreadnought_hulls_tech
@@ -4225,7 +4225,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_capital_ship_tech
 			naval_mtg_dreadnought_tech
 			naval_mtg_dreadnought_hulls_tech
@@ -4274,7 +4274,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_armor_capital_tech
 		}
 
@@ -4288,7 +4288,7 @@ technologies = {
 				factor = 0
 				date < 1935.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_module_armor_capital_tech }
 				}
 			}
@@ -4323,7 +4323,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_capital_ship_tech
 			naval_mtg_dreadnought_tech
 			naval_mtg_dreadnought_hulls_tech
@@ -4361,7 +4361,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_capital_ship_tech
 			naval_mtg_dreadnought_tech
 			naval_mtg_dreadnought_hulls_tech
@@ -4403,7 +4403,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_submarine_ship_tech
 			naval_mtg_submarine_tech
 			naval_mtg_submarine_hulls_tech
@@ -4419,7 +4419,7 @@ technologies = {
 				factor = 0
 				date < 1868.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_submarine_ship_tech }
 					has_tech_bonus = { category = naval_mtg_submarine_tech }
 					has_tech_bonus = { category = naval_mtg_submarine_hulls_tech }
@@ -4455,7 +4455,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_submarine_ship_tech
 			naval_mtg_submarine_tech
 			naval_mtg_submarine_hulls_tech
@@ -4471,7 +4471,7 @@ technologies = {
 				factor = 0
 				date < 1890.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_submarine_ship_tech }
 					has_tech_bonus = { category = naval_mtg_submarine_tech }
 					has_tech_bonus = { category = naval_mtg_submarine_hulls_tech }
@@ -4507,7 +4507,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_submarine_ship_tech
 			naval_mtg_submarine_tech
 			naval_mtg_submarine_hulls_tech
@@ -4523,7 +4523,7 @@ technologies = {
 				factor = 0
 				date < 1900.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_submarine_ship_tech }
 					has_tech_bonus = { category = naval_mtg_submarine_tech }
 					has_tech_bonus = { category = naval_mtg_submarine_hulls_tech }
@@ -4559,7 +4559,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_submarine_ship_tech
 			naval_mtg_coastal_submarine_tech
 			naval_mtg_coastal_submarine_hulls_tech
@@ -4575,7 +4575,7 @@ technologies = {
 				factor = 0
 				date < 1900.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_submarine_ship_tech }
 					has_tech_bonus = { category = naval_mtg_coastal_submarine_tech }
 					has_tech_bonus = { category = naval_mtg_coastal_submarine_hulls_tech }
@@ -4616,7 +4616,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_submarine_ship_tech
 			naval_mtg_submarine_tech
 			naval_mtg_submarine_hulls_tech
@@ -4648,7 +4648,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_submarine_tech
 		}
 
@@ -4693,7 +4693,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_submarine_ship_tech
 			naval_mtg_submarine_tech
 			naval_mtg_submarine_hulls_tech
@@ -4735,7 +4735,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_submarine_ship_tech
 			naval_mtg_submarine_tech
 			naval_mtg_submarine_hulls_tech
@@ -4773,7 +4773,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_submarine_ship_tech
 			naval_mtg_submarine_tech
 			naval_mtg_submarine_hulls_tech
@@ -4806,7 +4806,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_submarine_tech
 		}
 
@@ -4845,7 +4845,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_batteries_light_tech
 		}
 
@@ -4885,7 +4885,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_batteries_light_tech
 		}
 
@@ -5001,7 +5001,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_shells_tech
 		}
 
@@ -5089,7 +5089,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_shells_tech
 		}
 
@@ -5103,7 +5103,7 @@ technologies = {
 				factor = 0
 				date < 1865.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_module_shells_tech }
 				}
 			}
@@ -5171,7 +5171,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_shells_tech
 		}
 
@@ -5185,7 +5185,7 @@ technologies = {
 				factor = 0
 				date < 1880.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_module_shells_tech }
 				}
 			}
@@ -5267,7 +5267,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_shells_tech
 		}
 
@@ -5281,7 +5281,7 @@ technologies = {
 				factor = 0
 				date < 1900.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_module_shells_tech }
 				}
 			}
@@ -5358,7 +5358,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_shells_tech
 		}
 
@@ -5377,7 +5377,7 @@ technologies = {
 				factor = 0
 				date < 1910.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_module_shells_tech }
 				}
 			}
@@ -5445,7 +5445,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_shells_tech
 		}
 
@@ -5459,7 +5459,7 @@ technologies = {
 				factor = 0
 				date < 1935.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_module_shells_tech }
 				}
 			}
@@ -5504,7 +5504,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_turrets_tech
 		}
 
@@ -5518,7 +5518,7 @@ technologies = {
 				factor = 0
 				date < 1860.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_module_turrets_tech }
 				}
 			}
@@ -5542,7 +5542,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 		}
 
 		ai_will_do = { modifier = { factor = 0 afr_is_tribal = yes  date < 1875.1.1 } modifier = { factor = 0 num_of_naval_factories < 3 } modifier = { factor = 0.5 is_major = yes has_war = no } modifier = { factor = 0.25 is_major = no has_war = no } modifier = { factor = 1.5 has_war = yes }
@@ -5555,7 +5555,7 @@ technologies = {
 				factor = 0
 				date < 1862.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 				}
 			}
 		}
@@ -5586,7 +5586,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 		}
 
 		ai_will_do = { modifier = { factor = 0 afr_is_tribal = yes  date < 1875.1.1 } modifier = { factor = 0 num_of_naval_factories < 3 } modifier = { factor = 0.5 is_major = yes has_war = no } modifier = { factor = 0.25 is_major = no has_war = no } modifier = { factor = 1.5 has_war = yes }
@@ -5599,7 +5599,7 @@ technologies = {
 				factor = 0
 				date < 1868.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 				}
 			}
 		}
@@ -5627,7 +5627,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_turrets_tech
 		}
 
@@ -5662,7 +5662,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_turrets_tech
 		}
 
@@ -5676,7 +5676,7 @@ technologies = {
 				factor = 0
 				date < 1890.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_module_turrets_tech }
 				}
 			}
@@ -5705,7 +5705,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_turrets_tech
 		}
 
@@ -5719,7 +5719,7 @@ technologies = {
 				factor = 0
 				date < 1900.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_module_turrets_tech }
 				}
 			}
@@ -5748,7 +5748,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_turrets_tech
 		}
 
@@ -5762,7 +5762,7 @@ technologies = {
 				factor = 0
 				date < 1875.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_module_turrets_tech }
 				}
 			}
@@ -5791,7 +5791,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_turrets_tech
 		}
 
@@ -5805,7 +5805,7 @@ technologies = {
 				factor = 0
 				date < 1890.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_module_turrets_tech }
 				}
 			}
@@ -5834,7 +5834,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_turrets_tech
 		}
 
@@ -5848,7 +5848,7 @@ technologies = {
 				factor = 0
 				date < 1900.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_module_turrets_tech }
 				}
 			}
@@ -5901,7 +5901,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 		}
 
 		ai_will_do = { modifier = { factor = 0 afr_is_tribal = yes  date < 1875.1.1 } modifier = { factor = 0 num_of_naval_factories < 3 } modifier = { factor = 0.5 is_major = yes has_war = no } modifier = { factor = 0.25 is_major = no has_war = no } modifier = { factor = 1.5 has_war = yes }
@@ -5914,7 +5914,7 @@ technologies = {
 				factor = 0
 				date < 1905.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 				}
 			}
 		}
@@ -5942,7 +5942,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_batteries_light_tech
 		}
 
@@ -5956,7 +5956,7 @@ technologies = {
 				factor = 0
 				date < 1910.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_module_batteries_light_tech }
 				}
 			}
@@ -5985,7 +5985,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_batteries_light_tech
 		}
 
@@ -5999,7 +5999,7 @@ technologies = {
 				factor = 0
 				date < 1915.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_module_batteries_light_tech }
 				}
 			}
@@ -6027,7 +6027,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_batteries_light_tech
 		}
 
@@ -6041,7 +6041,7 @@ technologies = {
 				factor = 0
 				date < 1922.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_module_batteries_light_tech }
 				}
 			}
@@ -6070,7 +6070,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_batteries_medium_tech
 		}
 
@@ -6084,7 +6084,7 @@ technologies = {
 				factor = 0
 				date < 1910.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_module_batteries_medium_tech }
 				}
 			}
@@ -6113,7 +6113,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_batteries_medium_tech
 		}
 
@@ -6127,7 +6127,7 @@ technologies = {
 				factor = 0
 				date < 1915.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_module_batteries_medium_tech }
 				}
 			}
@@ -6155,7 +6155,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_batteries_medium_tech
 		}
 
@@ -6169,7 +6169,7 @@ technologies = {
 				factor = 0
 				date < 1922.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_module_batteries_medium_tech }
 				}
 			}
@@ -6198,7 +6198,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_batteries_heavy_tech
 		}
 
@@ -6212,7 +6212,7 @@ technologies = {
 				factor = 0
 				date < 1910.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_module_batteries_heavy_tech }
 				}
 			}
@@ -6241,7 +6241,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_batteries_heavy_tech
 		}
 
@@ -6255,7 +6255,7 @@ technologies = {
 				factor = 0
 				date < 1915.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_module_batteries_heavy_tech }
 				}
 			}
@@ -6288,7 +6288,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_batteries_heavy_tech
 		}
 
@@ -6302,7 +6302,7 @@ technologies = {
 				factor = 0
 				date < 1922.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_module_batteries_heavy_tech }
 				}
 			}
@@ -6331,7 +6331,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_batteries_superheavy_tech
 		}
 
@@ -6345,7 +6345,7 @@ technologies = {
 				factor = 0
 				date < 1922.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_module_batteries_heavy_tech }
 				}
 			}
@@ -6378,7 +6378,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_turrets_tech
 		}
 
@@ -6392,7 +6392,7 @@ technologies = {
 				factor = 0
 				date < 1910.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_module_turrets_tech }
 				}
 			}
@@ -6425,7 +6425,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_turrets_tech
 		}
 
@@ -6439,7 +6439,7 @@ technologies = {
 				factor = 0
 				date < 1916.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_module_turrets_tech }
 				}
 			}
@@ -6472,7 +6472,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_turrets_tech
 		}
 
@@ -6486,7 +6486,7 @@ technologies = {
 				factor = 0
 				date < 1935.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_module_turrets_tech }
 				}
 			}
@@ -6518,7 +6518,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_propulsion_tech
 		}
 
@@ -6567,7 +6567,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_propulsion_tech
 		}
 
@@ -6617,7 +6617,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_propulsion_tech
 		}
 
@@ -6631,7 +6631,7 @@ technologies = {
 				factor = 0
 				date < 1860.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_module_propulsion_tech }
 				}
 			}
@@ -6670,7 +6670,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_propulsion_tech
 		}
 
@@ -6708,7 +6708,7 @@ technologies = {
 				factor = 0
 				date < 1868.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_module_propulsion_tech }
 				}
 			}
@@ -6751,7 +6751,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_propulsion_tech
 		}
 
@@ -6765,7 +6765,7 @@ technologies = {
 				factor = 0
 				date < 1890.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_module_propulsion_tech }
 				}
 			}
@@ -6808,7 +6808,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_propulsion_tech
 		}
 
@@ -6822,7 +6822,7 @@ technologies = {
 				factor = 0
 				date < 1905.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_module_propulsion_tech }
 				}
 			}
@@ -6865,7 +6865,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_propulsion_tech
 		}
 
@@ -6879,7 +6879,7 @@ technologies = {
 				factor = 0
 				date < 1910.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_module_propulsion_tech }
 				}
 			}
@@ -6918,7 +6918,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_propulsion_tech
 		}
 
@@ -6932,7 +6932,7 @@ technologies = {
 				factor = 0
 				date < 1922.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_module_propulsion_tech }
 				}
 			}
@@ -6964,7 +6964,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_mines_tech
 		}
 
@@ -7017,7 +7017,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_mines_tech
 		}
 
@@ -7031,7 +7031,7 @@ technologies = {
 				factor = 0
 				date < 1865.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_module_mines_tech }
 				}
 			}
@@ -7063,7 +7063,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_mines_tech
 		}
 
@@ -7077,7 +7077,7 @@ technologies = {
 				factor = 0
 				date < 1865.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_module_mines_tech }
 				}
 			}
@@ -7104,7 +7104,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_mines_tech
 		}
 
@@ -7118,7 +7118,7 @@ technologies = {
 				factor = 0
 				date < 1870.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_module_mines_tech }
 				}
 			}
@@ -7150,7 +7150,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_mines_tech
 		}
 
@@ -7164,7 +7164,7 @@ technologies = {
 				factor = 0
 				date < 1875.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_module_mines_tech }
 				}
 			}
@@ -7200,7 +7200,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_mines_tech
 		}
 
@@ -7214,7 +7214,7 @@ technologies = {
 				factor = 0
 				date < 1900.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_module_mines_tech }
 				}
 			}
@@ -7247,7 +7247,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_mines_tech
 		}
 
@@ -7261,7 +7261,7 @@ technologies = {
 				factor = 0
 				date < 1900.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_module_mines_tech }
 				}
 			}
@@ -7293,7 +7293,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_mines_tech
 		}
 
@@ -7307,7 +7307,7 @@ technologies = {
 				factor = 0
 				date < 1918.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_module_mines_tech }
 				}
 			}
@@ -7350,7 +7350,7 @@ technologies = {
 				factor = 0
 				date < 1935.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_module_mines_tech }
 				}
 			}
@@ -7359,7 +7359,7 @@ technologies = {
 		categories = {
 			naval_mines
 			naval_minelaying
-			naval_equipment
+			naval_technology_tech
 		}
 	}
 
@@ -7390,7 +7390,7 @@ technologies = {
 				factor = 0
 				date < 1935.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_module_mines_tech }
 				}
 			}
@@ -7399,7 +7399,7 @@ technologies = {
 		categories = {
 			naval_mines
 			naval_minesweeping
-			naval_equipment
+			naval_technology_tech
 		}
 	}
 
@@ -7426,7 +7426,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_torpedoes_tech
 		}
 
@@ -7440,7 +7440,7 @@ technologies = {
 				factor = 0
 				date < 1870.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_module_torpedoes_tech }
 				}
 			}
@@ -7490,7 +7490,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_torpedoes_tech
 		}
 
@@ -7504,7 +7504,7 @@ technologies = {
 				factor = 0
 				date < 1888.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_module_torpedoes_tech }
 				}
 			}
@@ -7551,7 +7551,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_torpedoes_tech
 		}
 
@@ -7565,7 +7565,7 @@ technologies = {
 				factor = 0
 				date < 1900.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_module_torpedoes_tech }
 				}
 			}
@@ -7595,7 +7595,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_torpedoes_tech
 		}
 
@@ -7609,7 +7609,7 @@ technologies = {
 				factor = 0
 				date < 1910.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_module_torpedoes_tech }
 				}
 			}
@@ -7639,7 +7639,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_torpedoes_tech
 		}
 
@@ -7653,7 +7653,7 @@ technologies = {
 				factor = 0
 				date < 1918.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_module_torpedoes_tech }
 				}
 			}
@@ -7702,14 +7702,14 @@ technologies = {
 				factor = 0
 				date < 1922.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_module_torpedoes_tech }
 				}
 			}
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 		}
 	}
 
@@ -7757,14 +7757,14 @@ technologies = {
 				factor = 0
 				date < 1940.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_module_torpedoes_tech }
 				}
 			}
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 		}
 	}
 
@@ -7805,14 +7805,14 @@ technologies = {
 				factor = 0
 				date < 1935.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_module_torpedoes_tech }
 				}
 			}
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 		}
 	}
 
@@ -7839,7 +7839,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_torpedoes_tech
 		}
 
@@ -7853,7 +7853,7 @@ technologies = {
 				factor = 0
 				date < 1900.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_module_torpedoes_tech }
 				}
 			}
@@ -7895,7 +7895,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_fire_control_tech
 		}
 
@@ -7999,7 +7999,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_fire_control_tech
 		}
 
@@ -8013,7 +8013,7 @@ technologies = {
 				factor = 0
 				date < 1865.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_module_fire_control_tech }
 				}
 			}
@@ -8085,7 +8085,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_fire_control_tech
 		}
 
@@ -8099,7 +8099,7 @@ technologies = {
 				factor = 0
 				date < 1878.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_module_fire_control_tech }
 				}
 			}
@@ -8171,7 +8171,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_fire_control_tech
 		}
 
@@ -8185,7 +8185,7 @@ technologies = {
 				factor = 0
 				date < 1890.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_module_fire_control_tech }
 				}
 			}
@@ -8257,7 +8257,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_fire_control_tech
 		}
 
@@ -8271,7 +8271,7 @@ technologies = {
 				factor = 0
 				date < 1905.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_module_fire_control_tech }
 				}
 			}
@@ -8305,7 +8305,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_fire_control_tech
 		}
 
@@ -8319,7 +8319,7 @@ technologies = {
 				factor = 0
 				date < 1914.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_module_fire_control_tech }
 				}
 			}
@@ -8344,7 +8344,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_fire_control_tech
 		}
 
@@ -8358,7 +8358,7 @@ technologies = {
 				factor = 0
 				date < 1922.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_module_fire_control_tech }
 				}
 			}
@@ -8383,7 +8383,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_fire_control_tech
 		}
 
@@ -8397,7 +8397,7 @@ technologies = {
 				factor = 0
 				date < 1935.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_module_fire_control_tech }
 				}
 			}
@@ -8468,7 +8468,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_fire_control_tech
 		}
 
@@ -8482,7 +8482,7 @@ technologies = {
 				factor = 0
 				date < 1922.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_module_fire_control_tech }
 				}
 			}
@@ -8508,7 +8508,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_damage_control_tech
 		}
 
@@ -8542,7 +8542,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_damage_control_tech
 		}
 
@@ -8556,7 +8556,7 @@ technologies = {
 				factor = 0
 				date < 1870.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_module_damage_control_tech }
 				}
 			}
@@ -8583,7 +8583,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_damage_control_tech
 		}
 
@@ -8597,7 +8597,7 @@ technologies = {
 				factor = 0
 				date < 1888.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_module_damage_control_tech }
 				}
 			}
@@ -8624,7 +8624,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_damage_control_tech
 		}
 
@@ -8638,7 +8638,7 @@ technologies = {
 				factor = 0
 				date < 1910.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_module_damage_control_tech }
 				}
 			}
@@ -8665,7 +8665,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_damage_control_tech
 		}
 
@@ -8679,7 +8679,7 @@ technologies = {
 				factor = 0
 				date < 1916.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_module_damage_control_tech }
 				}
 			}
@@ -8717,13 +8717,13 @@ technologies = {
 				factor = 0
 				date < 1935.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 				}
 			}
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 		}
 	}
 
@@ -8747,7 +8747,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_transport_tech
 		}
 
@@ -8782,7 +8782,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_transport_tech
 		}
 
@@ -8796,7 +8796,7 @@ technologies = {
 				factor = 0
 				date < 1862.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_module_transport_tech }
 				}
 			}
@@ -8825,7 +8825,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_transport_tech
 		}
 
@@ -8863,7 +8863,7 @@ technologies = {
 				factor = 0
 				date < 1880.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_module_transport_tech }
 				}
 			}
@@ -8899,7 +8899,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_transport_tech
 		}
 
@@ -8913,7 +8913,7 @@ technologies = {
 				factor = 0
 				date < 1900.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_module_transport_tech }
 				}
 			}
@@ -8944,7 +8944,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_module_transport_tech
 		}
 
@@ -8958,7 +8958,7 @@ technologies = {
 				factor = 0
 				date < 1916.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_module_transport_tech }
 				}
 			}
@@ -8994,7 +8994,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_primitive_tech
 		}
 
@@ -9045,7 +9045,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_primitive_tech
 		}
 
@@ -9101,7 +9101,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_primitive_tech
 		}
 
@@ -9151,7 +9151,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_primitive_tech
 		}
 
@@ -9202,7 +9202,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_primitive_tech
 		}
 
@@ -9258,7 +9258,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_primitive_tech
 		}
 
@@ -9310,7 +9310,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_primitive_tech
 		}
 
@@ -9357,7 +9357,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_primitive_tech
 		}
 
@@ -9415,7 +9415,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_capital_ship_tech
 			naval_mtg_carrier_tech
 			naval_mtg_carrier_hulls_tech
@@ -9431,7 +9431,7 @@ technologies = {
 				factor = 0
 				date < 1914.1.1
 				NOT = {
-					has_tech_bonus = { category = naval_equipment }
+					has_tech_bonus = { category = naval_technology_tech }
 					has_tech_bonus = { category = naval_mtg_capital_ship_tech }
 					has_tech_bonus = { category = naval_mtg_carrier_tech }
 					has_tech_bonus = { category = naval_mtg_carrier_hulls_tech }
@@ -9463,7 +9463,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_capital_ship_tech
 			naval_mtg_carrier_tech
 			naval_mtg_carrier_hulls_tech
@@ -9501,7 +9501,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_capital_ship_tech
 			naval_mtg_carrier_tech
 			naval_mtg_carrier_hulls_tech
@@ -9538,7 +9538,7 @@ technologies = {
 		}
 
 		categories = {
-			naval_equipment
+			naval_technology_tech
 			naval_mtg_capital_ship_tech
 			naval_mtg_carrier_tech
 			naval_mtg_carrier_hulls_tech

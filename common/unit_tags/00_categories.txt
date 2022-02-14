@@ -30,7 +30,7 @@ sub_unit_categories = {
 	category_all_special_forces
 		category_all_marines
 		category_all_mountaineer
-		category_all_camel
+		category_all_camelry
 
 	category_all_air
 		category_all_balloons
