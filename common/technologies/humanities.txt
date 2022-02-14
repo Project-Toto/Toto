@@ -167,7 +167,9 @@ technologies = {
 
 		categories = {
 			pre_industrial_tech
-			infantry_weapons
+			infantry_weapons_tech
+			melee_weapons_tech
+			spear_weapons_tech
 		}
 
 	}
@@ -222,7 +224,8 @@ technologies = {
 
 		categories = {
 			pre_industrial_tech
-			infantry_weapons
+			technology_tech
+			explosives_technology_tech
 		}
 
 	}

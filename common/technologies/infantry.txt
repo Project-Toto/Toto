@@ -90,8 +90,11 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
-			#rifle_equipment_techs
+			infantry_weapons_tech
+			ranged_weapons_tech
+			musket_weapons_tech
+			#ranged_weapons_tech
+			rifle_weapons_tech
 		}
 
 		ai_will_do = {
@@ -115,7 +118,7 @@ technologies = {
 		}
 
 		ai_research_weights = {
-			infantry_weapons = 1.0
+			infantry_weapons_tech = 1.0
 		}
 
 	}
@@ -178,8 +181,11 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
-			#rifle_equipment_techs
+			infantry_weapons_tech
+			ranged_weapons_tech
+			rifle_weapons_tech
+			#ranged_weapons_tech
+			rifle_weapons_tech
 		}
 
 		ai_will_do = {
@@ -205,7 +211,7 @@ technologies = {
 			}
 		}
 		ai_research_weights = {
-			infantry_weapons = 3.0
+			infantry_weapons_tech = 3.0
 		}
 
 	}
@@ -240,8 +246,11 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
-			#rifle_equipment_techs
+			infantry_weapons_tech
+			ranged_weapons_tech
+			rifle_weapons_tech
+			#ranged_weapons_tech
+			rifle_weapons_tech
 		}
 
 		ai_will_do = {
@@ -282,7 +291,7 @@ technologies = {
 			# }
 		}
 		ai_research_weights = {
-			infantry_weapons = 1.6
+			infantry_weapons_tech = 1.6
 		}
 	}
 
@@ -311,8 +320,9 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
-			rifle_equipment_techs
+			infantry_weapons_tech
+			ranged_weapons_tech
+			rifle_weapons_tech
 		}
 
 		ai_will_do = {
@@ -347,7 +357,7 @@ technologies = {
 			}
 		}
 		ai_research_weights = {
-			infantry_weapons = 1.6
+			infantry_weapons_tech = 1.6
 		}
 	}
 
@@ -378,8 +388,9 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
-			rifle_equipment_techs
+			infantry_weapons_tech
+			ranged_weapons_tech
+			rifle_weapons_tech
 		}
 
 		ai_will_do = {
@@ -408,7 +419,7 @@ technologies = {
 			}
 		}
 		ai_research_weights = {
-			infantry_weapons = 1.4
+			infantry_weapons_tech = 1.4
 		}
 	}
 
@@ -437,8 +448,9 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
-			rifle_equipment_techs
+			infantry_weapons_tech
+			ranged_weapons_tech
+			rifle_weapons_tech
 		}
 
 		ai_will_do = {
@@ -467,7 +479,7 @@ technologies = {
 			}
 		}
 		ai_research_weights = {
-			infantry_weapons = 1.6
+			infantry_weapons_tech = 1.6
 		}
 	}
 
@@ -511,8 +523,9 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
-			rifle_equipment_techs
+			infantry_weapons_tech
+			ranged_weapons_tech
+			rifle_weapons_tech
 		}
 
 		ai_will_do = {
@@ -541,7 +554,7 @@ technologies = {
 			}
 		}
 		ai_research_weights = {
-			infantry_weapons = 1.4
+			infantry_weapons_tech = 1.4
 		}
 	}
 
@@ -570,8 +583,9 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
-			rifle_equipment_techs
+			infantry_weapons_tech
+			ranged_weapons_tech
+			rifle_weapons_tech
 		}
 
 		ai_will_do = {
@@ -599,7 +613,7 @@ technologies = {
 			}
 		}
 		ai_research_weights = {
-			infantry_weapons = 1.4
+			infantry_weapons_tech = 1.4
 		}
 	}
 
@@ -628,8 +642,9 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
-			rifle_equipment_techs
+			infantry_weapons_tech
+			ranged_weapons_tech
+			rifle_weapons_tech
 		}
 
 		ai_will_do = {
@@ -658,7 +673,7 @@ technologies = {
 			}
 		}
 		ai_research_weights = {
-			infantry_weapons = 1.6
+			infantry_weapons_tech = 1.6
 		}
 	}
 
@@ -687,8 +702,9 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
-			rifle_equipment_techs
+			infantry_weapons_tech
+			ranged_weapons_tech
+			rifle_weapons_tech
 		}
 
 		ai_will_do = {
@@ -711,7 +727,7 @@ technologies = {
 			}
 		}
 		ai_research_weights = {
-			infantry_weapons = 1.4
+			infantry_weapons_tech = 1.4
 		}
 	}
 
@@ -740,8 +756,9 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
-			rifle_equipment_techs
+			infantry_weapons_tech
+			ranged_weapons_tech
+			rifle_weapons_tech
 		}
 
 		ai_will_do = {
@@ -764,7 +781,7 @@ technologies = {
 			}
 		}
 		ai_research_weights = {
-			infantry_weapons = 1.6
+			infantry_weapons_tech = 1.6
 		}
 	}
 
@@ -791,8 +808,9 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
-			rifle_equipment_techs
+			infantry_weapons_tech
+			ranged_weapons_tech
+			rifle_weapons_tech
 		}
 
 		ai_will_do = {
@@ -841,8 +859,9 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
-			rifle_equipment_techs
+			infantry_weapons_tech
+			ranged_weapons_tech
+			rifle_weapons_tech
 		}
 
 		ai_will_do = {
@@ -900,8 +919,9 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
-			rifle_equipment_techs
+			infantry_weapons_tech
+			ranged_weapons_tech
+			rifle_weapons_tech
 		}
 
 		ai_will_do = {
@@ -946,8 +966,9 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
-			rifle_equipment_techs
+			infantry_weapons_tech
+			ranged_weapons_tech
+			rifle_weapons_tech
 		}
 
 		ai_will_do = {
@@ -994,8 +1015,9 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
-			rifle_equipment_techs
+			infantry_weapons_tech
+			ranged_weapons_tech
+			rifle_weapons_tech
 		}
 
 		ai_will_do = {
@@ -1040,8 +1062,9 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
-			rifle_equipment_techs
+			infantry_weapons_tech
+			ranged_weapons_tech
+			rifle_weapons_tech
 		}
 
 		ai_will_do = {
@@ -1083,8 +1106,9 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
-			rifle_equipment_techs
+			infantry_weapons_tech
+			ranged_weapons_tech
+			rifle_weapons_tech
 		}
 
 		ai_will_do = {
@@ -1117,8 +1141,9 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
-			rifle_equipment_techs
+			infantry_weapons_tech
+			ranged_weapons_tech
+			rifle_weapons_tech
 		}
 
 		ai_will_do = {
@@ -1162,8 +1187,9 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
-			rifle_equipment_techs
+			infantry_weapons_tech
+			ranged_weapons_tech
+			rifle_weapons_tech
 		}
 
 		ai_will_do = {
@@ -1228,8 +1254,9 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
-			rifle_equipment_techs
+			infantry_weapons_tech
+			ranged_weapons_tech
+			rifle_weapons_tech
 		}
 
 		ai_will_do = {
@@ -1261,8 +1288,9 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
-			rifle_equipment_techs
+			infantry_weapons_tech
+			ranged_weapons_tech
+			rifle_weapons_tech
 		}
 
 		ai_will_do = {
@@ -1298,8 +1326,9 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
-			rifle_equipment_techs
+			infantry_weapons_tech
+			ranged_weapons_tech
+			rifle_weapons_tech
 		}
 
 		ai_will_do = {
@@ -1335,8 +1364,9 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
-			rifle_equipment_techs
+			infantry_weapons_tech
+			ranged_weapons_tech
+			rifle_weapons_tech
 		}
 
 		ai_will_do = {
@@ -1367,8 +1397,9 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
-			rifle_equipment_techs
+			infantry_weapons_tech
+			ranged_weapons_tech
+			rifle_weapons_tech
 		}
 
 		ai_will_do = {
@@ -1401,8 +1432,9 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
-			tech_category_handguns
+			infantry_weapons_tech
+			ranged_weapons_tech
+			handgun_weapons_tech
 		}
 
 		ai_will_do = {
@@ -1455,8 +1487,9 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
-			tech_category_handguns
+			infantry_weapons_tech
+			ranged_weapons_tech
+			handgun_weapons_tech
 		}
 
 		ai_will_do = {
@@ -1489,8 +1522,9 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
-			tech_category_handguns
+			infantry_weapons_tech
+			ranged_weapons_tech
+			handgun_weapons_tech
 		}
 
 		ai_will_do = {
@@ -1527,8 +1561,9 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
-			tech_category_handguns
+			infantry_weapons_tech
+			ranged_weapons_tech
+			handgun_weapons_tech
 		}
 
 		ai_will_do = {
@@ -1565,8 +1600,9 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
-			tech_category_handguns
+			infantry_weapons_tech
+			ranged_weapons_tech
+			handgun_weapons_tech
 		}
 
 		ai_will_do = {
@@ -1603,8 +1639,9 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
-			tech_category_handguns
+			infantry_weapons_tech
+			ranged_weapons_tech
+			handgun_weapons_tech
 		}
 
 		ai_will_do = {
@@ -1639,8 +1676,9 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
-			tech_category_handguns
+			infantry_weapons_tech
+			ranged_weapons_tech
+			handgun_weapons_tech
 		}
 
 		ai_will_do = {
@@ -1672,8 +1710,9 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
-			tech_category_handguns
+			infantry_weapons_tech
+			ranged_weapons_tech
+			handgun_weapons_tech
 		}
 
 		ai_will_do = {
@@ -1704,8 +1743,9 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
-			rifle_equipment_techs
+			infantry_weapons_tech
+			ranged_weapons_tech
+			rifle_weapons_tech
 		}
 
 		ai_will_do = {
@@ -1736,9 +1776,9 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
-			rifle_equipment_techs
-			tech_category_handguns
+			infantry_weapons_tech
+			ranged_weapons_tech
+			handgun_weapons_tech
 		}
 
 		ai_will_do = {
@@ -1769,9 +1809,9 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
-			rifle_equipment_techs
-			tech_category_handguns
+			infantry_weapons_tech
+			ranged_weapons_tech
+			handgun_weapons_tech
 		}
 
 		ai_will_do = {
@@ -1803,8 +1843,8 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
-			rifle_equipment_techs
+			infantry_weapons_tech
+			utility_weapons_tech
 		}
 
 		ai_will_do = {
@@ -1835,8 +1875,9 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
-			rifle_equipment_techs
+			infantry_weapons_tech
+			ranged_weapons_tech
+			rifle_weapons_tech
 		}
 
 		ai_will_do = {
@@ -1866,8 +1907,9 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
-			rifle_equipment_techs
+			infantry_weapons_tech
+			ranged_weapons_tech
+			rifle_weapons_tech
 		}
 
 		ai_will_do = {
@@ -1902,8 +1944,9 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
-			rifle_equipment_techs
+			infantry_weapons_tech
+			ranged_weapons_tech
+			rifle_weapons_tech
 		}
 
 		ai_will_do = {
@@ -1957,8 +2000,9 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
-			rifle_equipment_techs
+			infantry_weapons_tech
+			ranged_weapons_tech
+			rifle_weapons_tech
 		}
 
 		ai_will_do = {
@@ -2001,8 +2045,9 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
-			rifle_equipment_techs
+			infantry_weapons_tech
+			ranged_weapons_tech
+			rifle_weapons_tech
 		}
 
 		ai_will_do = {
@@ -2034,8 +2079,9 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
-			rifle_equipment_techs
+			infantry_weapons_tech
+			ranged_weapons_tech
+			rifle_weapons_tech
 		}
 
 		ai_will_do = {
@@ -2079,8 +2125,9 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
-			rifle_equipment_techs
+			infantry_weapons_tech
+			ranged_weapons_tech
+			rifle_weapons_tech
 		}
 
 		ai_will_do = {
@@ -2120,8 +2167,9 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
-			rifle_equipment_techs
+			infantry_weapons_tech
+			ranged_weapons_tech
+			rifle_weapons_tech
 		}
 
 		ai_will_do = {
@@ -2173,8 +2221,9 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
-			rifle_equipment_techs
+			infantry_weapons_tech
+			ranged_weapons_tech
+			rifle_weapons_tech
 		}
 
 		ai_will_do = {
@@ -2212,8 +2261,9 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
-			rifle_equipment_techs
+			infantry_weapons_tech
+			ranged_weapons_tech
+			rifle_weapons_tech
 		}
 
 		ai_will_do = {
@@ -2253,8 +2303,9 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
-			rifle_equipment_techs
+			infantry_weapons_tech
+			ranged_weapons_tech
+			rifle_weapons_tech
 		}
 
 		ai_will_do = {
@@ -2288,7 +2339,8 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
+			infantry_weapons_tech
+			utility_weapons_tech
 		}
 
 		ai_will_do = {
@@ -2326,7 +2378,9 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
+			infantry_weapons_tech
+			ranged_weapons_tech
+			gatling_weapons_tech
 		}
 
 		ai_will_do = {
@@ -2363,7 +2417,9 @@ technologies = {
 
 
 		categories = {
-			infantry_weapons
+			infantry_weapons_tech
+			ranged_weapons_tech
+			gatling_weapons_tech
 		}
 
 		ai_will_do = {
@@ -2394,7 +2450,9 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
+			infantry_weapons_tech
+			ranged_weapons_tech
+			gatling_weapons_tech
 		}
 
 		ai_will_do = {
@@ -2428,7 +2486,8 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
+			infantry_weapons_tech
+			blade_weapons_tech
 			melee_weapons_tech
 		}
 
@@ -2495,7 +2554,8 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
+			infantry_weapons_tech
+			bayonet_weapons_tech
 			melee_weapons_tech
 		}
 
@@ -2527,7 +2587,8 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
+			infantry_weapons_tech
+			bayonet_weapons_tech
 			melee_weapons_tech
 		}
 
@@ -2573,7 +2634,8 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
+			infantry_weapons_tech
+			bayonet_weapons_tech
 			melee_weapons_tech
 		}
 
@@ -2602,7 +2664,8 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
+			infantry_weapons_tech
+			bayonet_weapons_tech
 			melee_weapons_tech
 		}
 
@@ -2632,7 +2695,9 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
+			infantry_weapons_tech
+			ammunition_tech
+			bullet_tech
 		}
 
 		ai_will_do = {
@@ -2658,7 +2723,9 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
+			infantry_weapons_tech
+			ammunition_tech
+			bullet_tech
 		}
 
 		ai_will_do = {
@@ -2669,119 +2736,6 @@ technologies = {
 				factor = 3
 				date > 1919.1.1
 			}
-		}
-	}
-
-	tech_infantry_flamethrowers = {
-
-		enable_subunits = {
-			flamethrower_support_company
-		}
-
-		enable_equipments = {
-			flamethrower_equipment_0
-		}
-
-		path = {
-			leads_to_tech = tech_infantry_late_flamethrowers
-		}
-
-		research_cost = 1.5
-		start_year = 1916
-		folder = {
-			name = tech_folder_army_infantry
-			position = { x = 4 y = @1916}
-		}
-
-		categories = {
-			infantry_weapons
-		}
-
-		ai_will_do = {
-			factor = 20
-			modifier = { factor = 0.8 has_war = no }
-			modifier = { factor = 1.5 has_war = yes }
-		}
-	}
-	tech_infantry_late_flamethrowers = {
-
-		enable_equipments = {
-			flamethrower_equipment_1
-		}
-
-		research_cost = 1.5
-		start_year = 1916
-		folder = {
-			name = tech_folder_army_infantry
-			position = { x = 4 y = @1936}
-		}
-
-		categories = {
-			infantry_weapons
-		}
-
-		ai_will_do = {
-			factor = 20
-			modifier = { factor = 0.8 has_war = no }
-			modifier = { factor = 1.5 has_war = yes }
-		}
-	}
-
-	#Shotguns
-
-	tech_infantry_shotgun_0 = {
-
-		research_cost = 1.1
-		start_year = 1900
-		folder = {
-			name = tech_folder_army_infantry
-			position = { x = 6 y = @1900}
-		}
-
-		enable_equipments = {
-			infantry_equipment_shotgun_0
-		}
-
-		path = {
-			leads_to_tech = tech_infantry_shotgun_1
-		}
-
-		categories = {
-			infantry_weapons
-		}
-
-		ai_will_do = {
-			factor = 20
-			modifier = { factor = 0.8 has_war = no }
-			modifier = { factor = 1.5 has_war = yes }
-		}
-	}
-
-	tech_infantry_shotgun_1 = {
-
-		research_cost = 1.2
-		start_year = 1914
-		folder = {
-			name = tech_folder_army_infantry
-			position = { x = 6 y = @1914}
-		}
-
-		enable_equipments = {
-			infantry_equipment_shotgun_1
-		}
-
-		path = {
-			leads_to_tech = tech_infantry_shotgun_1
-		}
-
-		categories = {
-			infantry_weapons
-		}
-
-		ai_will_do = {
-			factor = 20
-			modifier = { factor = 0.8 has_war = no }
-			modifier = { factor = 1.5 has_war = yes }
 		}
 	}
 
@@ -2813,7 +2767,7 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
+			infantry_weapons_tech
 			gatling_gun_tech
 		}
 
@@ -2855,7 +2809,7 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
+			infantry_weapons_tech
 			gatling_gun_tech
 		}
 
@@ -2886,7 +2840,7 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
+			infantry_weapons_tech
 			gatling_gun_tech
 		}
 
@@ -2918,7 +2872,7 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
+			infantry_weapons_tech
 			gatling_gun_tech
 		}
 
@@ -2950,7 +2904,7 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
+			infantry_weapons_tech
 			gatling_gun_tech
 		}
 
@@ -2977,7 +2931,7 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
+			infantry_weapons_tech
 			gatling_gun_tech
 		}
 
@@ -3006,7 +2960,7 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
+			infantry_weapons_tech
 			gatling_gun_tech
 		}
 
@@ -3036,7 +2990,7 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
+			infantry_weapons_tech
 			gatling_gun_tech
 		}
 
@@ -3066,7 +3020,7 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
+			infantry_weapons_tech
 			gatling_gun_tech
 		}
 
@@ -3098,7 +3052,7 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
+			infantry_weapons_tech
 		}
 
 		ai_will_do = {
@@ -3130,7 +3084,7 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
+			infantry_weapons_tech
 		}
 
 		ai_will_do = {
@@ -3156,7 +3110,7 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
+			infantry_weapons_tech
 		}
 
 		ai_will_do = {
@@ -3183,7 +3137,8 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
+			infantry_weapons_tech
+			machine_gun_tech
 		}
 
 		ai_will_do = {
@@ -3221,7 +3176,8 @@ technologies = {
 		}
 
 		categories = {
-			#tech_category_uniforms
+			utility_weapons_tech
+			uniforms_tech
 		}
 
 		ai_will_do = {
@@ -3265,7 +3221,8 @@ technologies = {
 		}
 
 		categories = {
-			tech_category_uniforms
+			utility_weapons_tech
+			uniforms_tech
 		}
 
 		ai_will_do = {
@@ -3295,7 +3252,8 @@ technologies = {
 		}
 
 		categories = {
-			tech_category_uniforms
+			utility_weapons_tech
+			uniforms_tech
 		}
 
 		ai_will_do = {
@@ -3329,7 +3287,8 @@ technologies = {
 		}
 
 		categories = {
-			tech_category_uniforms
+			utility_weapons_tech
+			uniforms_tech
 		}
 
 		ai_will_do = {
@@ -3356,7 +3315,8 @@ technologies = {
 		}
 
 		categories = {
-			tech_category_uniforms
+			utility_weapons_tech
+			uniforms_tech
 		}
 
 		ai_will_do = {
@@ -3383,7 +3343,8 @@ technologies = {
 		}
 
 		categories = {
-			tech_category_uniforms
+			utility_weapons_tech
+			uniforms_tech
 		}
 
 		ai_will_do = {
@@ -3412,7 +3373,8 @@ technologies = {
 		}
 
 		categories = {
-			tech_category_uniforms
+			utility_weapons_tech
+			uniforms_tech
 		}
 
 		ai_will_do = {
@@ -3437,7 +3399,8 @@ technologies = {
 		}
 
 		categories = {
-			tech_category_uniforms
+			utility_weapons_tech
+			uniforms_tech
 		}
 
 		ai_will_do = {
@@ -3465,8 +3428,8 @@ technologies = {
 		}
 
 		categories = {
-
-			tech_category_uniforms
+			utility_weapons_tech
+			uniforms_tech
 		}
 
 		ai_will_do = {
@@ -3498,7 +3461,8 @@ technologies = {
 		}
 
 		categories = {
-			tech_category_uniforms
+			utility_weapons_tech
+			uniforms_tech
 		}
 
 		ai_will_do = {
@@ -3522,7 +3486,8 @@ technologies = {
 		}
 
 		enable_equipments = {
-			uniform_equipment_5
+			utility_weapons_tech
+			uniforms_tech
 		}
 
 		path = {
@@ -3562,7 +3527,8 @@ technologies = {
 		}
 
 		categories = {
-			tech_category_uniforms
+			utility_weapons_tech
+			uniforms_tech
 		}
 
 		ai_will_do = {
@@ -4435,7 +4401,8 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
+			infantry_weapons_tech
+			special_forces_tech
 		}
 
 		ai_will_do = {
@@ -4465,8 +4432,9 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
-			tech_category_naval_infantry
+			infantry_weapons_tech
+			special_forces_tech
+			marine_tech
 		}
 
 		ai_will_do = {
@@ -4491,8 +4459,11 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
-			tech_category_naval_infantry
+			infantry_weapons_tech
+			ranged_weapons_tech
+			handgun_weapons_tech
+			special_forces_tech
+			marine_tech
 		}
 
 		ai_will_do = {
@@ -4512,8 +4483,11 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
-			tech_category_naval_infantry
+			infantry_weapons_tech
+			ranged_weapons_tech
+			handgun_weapons_tech
+			special_forces_tech
+			marine_tech
 		}
 
 		ai_will_do = {
@@ -4537,8 +4511,10 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
-			tech_category_naval_infantry
+			infantry_weapons_tech
+			utility_weapons_tech
+			special_forces_tech
+			marine_tech
 		}
 
 		ai_will_do = {
@@ -4560,7 +4536,7 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
+			infantry_weapons_tech
 		}
 
 		ai_will_do = {
@@ -4589,7 +4565,8 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
+			infantry_weapons_tech
+			utility_weapons_tech
 		}
 
 		ai_will_do = {
@@ -4613,7 +4590,8 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
+			infantry_weapons_tech
+			utility_weapons_tech
 		}
 
 		ai_will_do = {
@@ -4642,7 +4620,8 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
+			infantry_weapons_tech
+			utility_weapons_tech
 		}
 
 		ai_will_do = {
@@ -4675,7 +4654,9 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
+			infantry_weapons_tech
+			utility_weapons_tech
+			biochemistry_research_tech
 		}
 
 		ai_will_do = {
@@ -4712,7 +4693,8 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
+			infantry_weapons_tech
+			special_forces_tech
 		}
 
 		ai_will_do = {
@@ -4741,7 +4723,10 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
+			infantry_weapons_tech
+			special_forces_tech
+			utility_weapons_tech
+			colonial_tech
 		}
 
 		ai_will_do = {
@@ -4768,7 +4753,9 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
+			infantry_weapons_tech
+			special_forces_tech
+			utility_weapons_tech
 		}
 
 		ai_will_do = {
@@ -4796,7 +4783,8 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
+			infantry_weapons_tech
+			special_forces_tech
 		}
 
 		ai_will_do = {
@@ -4826,7 +4814,9 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
+			infantry_weapons_tech
+			long_ranged_weapons_tech
+			sniper_tech
 		}
 
 		ai_will_do = {
@@ -4850,7 +4840,9 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
+			infantry_weapons_tech
+			long_ranged_weapons_tech
+			sniper_tech
 		}
 
 		ai_will_do = {
@@ -4877,7 +4869,9 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
+			infantry_weapons_tech
+			long_ranged_weapons_tech
+			mortar_tech
 		}
 
 		ai_will_do = {
@@ -4904,7 +4898,9 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
+			infantry_weapons_tech
+			long_ranged_weapons_tech
+			mortar_tech
 		}
 
 		ai_will_do = {
@@ -4931,7 +4927,9 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
+			infantry_weapons_tech
+			long_ranged_weapons_tech
+			mortar_tech
 		}
 
 		ai_will_do = {
@@ -4957,8 +4955,9 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
-			tech_category_naval_infantry
+			infantry_weapons_tech
+			special_forces_tech
+			marine_tech
 		}
 
 		ai_will_do = {
@@ -4984,8 +4983,9 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
-			tech_category_naval_infantry
+			infantry_weapons_tech
+			special_forces_tech
+			marine_tech
 		}
 
 		ai_will_do = {
@@ -5010,8 +5010,9 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
-			tech_category_naval_infantry
+			infantry_weapons_tech
+			special_forces_tech
+			marine_tech
 		}
 
 		ai_will_do = {
@@ -5035,8 +5036,9 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
-			tech_category_naval_infantry
+			infantry_weapons_tech
+			special_forces_tech
+			marine_tech
 		}
 
 		ai_will_do = {
@@ -5062,7 +5064,8 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
+			infantry_weapons_tech
+			special_forces_tech
 			mountaineers_tech
 		}
 
@@ -5089,7 +5092,8 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
+			infantry_weapons_tech
+			special_forces_tech
 			mountaineers_tech
 		}
 
@@ -5116,7 +5120,8 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
+			infantry_weapons_tech
+			special_forces_tech
 			mountaineers_tech
 		}
 
@@ -5142,134 +5147,13 @@ technologies = {
 		}
 
 		categories = {
-			infantry_weapons
+			infantry_weapons_tech
+			special_forces_tech
 			mountaineers_tech
 		}
 
 		ai_will_do = {
 			factor = 20 modifier = { factor = 0.8 has_war = no }	 modifier = { factor = 1.5 has_war = yes } modifier = { factor = 0 afr_is_tribal = yes  date < 1875.1.1 }
-		}
-	}
-
-	tech_infantry_shocktroops_1 = {
-
-		enable_subunits = {
-			shock_troops
-		}
-
-		path = {
-			leads_to_tech = tech_infantry_shocktroops_2
-		}
-
-		research_cost = 1.1
-		start_year = 1890
-		folder = {
-			name = tech_folder_army_infantry
-			position = { x = 26 y = @1890}
-		}
-
-		categories = {
-			infantry_weapons
-		}
-
-		ai_will_do = {
-			factor = 20 modifier = { factor = 0.8 has_war = no }	 modifier = { factor = 1.5 has_war = yes } modifier = { factor = 0 afr_is_tribal = yes  date < 1875.1.1 }
-		}
-	}
-
-	tech_infantry_shocktroops_2 = {
-
-		shock_troops = {
-			soft_attack = 0.05
-		}
-
-		path = {
-			leads_to_tech = tech_infantry_shocktroops_3
-		}
-
-		research_cost = 1.15
-		start_year = 1900
-		folder = {
-			name = tech_folder_army_infantry
-			position = { x = 26 y = @1900}
-		}
-
-		categories = {
-			infantry_weapons
-		}
-
-		ai_will_do = {
-			factor = 20 modifier = { factor = 0.8 has_war = no }	 modifier = { factor = 1.5 has_war = yes } modifier = { factor = 0 afr_is_tribal = yes  date < 1875.1.1 }
-		}
-	}
-
-	tech_infantry_shocktroops_3 = {
-
-		shock_troops = {
-			max_organisation = 5
-		}
-
-		research_cost = 1.1
-		start_year = 1914
-		folder = {
-			name = tech_folder_army_infantry
-			position = { x = 26 y = @1914}
-		}
-
-		path = {
-			leads_to_tech = tech_infantry_shocktroops_4
-		}
-
-		categories = {
-			infantry_weapons
-		}
-
-		ai_will_do = {
-			factor = 20 modifier = { factor = 0.8 has_war = no }	 modifier = { factor = 1.5 has_war = yes } modifier = { factor = 0 afr_is_tribal = yes  date < 1875.1.1 }
-		}
-	}
-	tech_infantry_shocktroops_4 = {
-
-		shock_troops = {
-			max_organisation = 5
-		}
-
-		research_cost = 1.1
-		start_year = 1920
-		folder = {
-			name = tech_folder_army_infantry
-			position = { x = 26 y = @1920}
-		}
-
-		path = {
-			leads_to_tech = tech_infantry_shocktroops_5
-		}
-
-		categories = {
-			infantry_weapons
-		}
-
-		ai_will_do = {
-			factor = 20 modifier = { factor = 0.8 has_war = no }	 modifier = { factor = 1.5 has_war = yes } modifier = { factor = 0 afr_is_tribal = yes  date < 1875.1.1 }
-		}
-	}
-
-	#### HIDDEN
-
-	tech_infantry_raj_oriental_uniforms = {
-
-		heat_attrition_factor = -0.1
-		acclimatization_hot_climate_gain_factor = 0.25
-
-		research_cost = 1
-		start_year = 1857
-
-		allow = {
-			always = no
-		}
-
-		ai_will_do = {
-			factor = 0
 		}
 	}
 }

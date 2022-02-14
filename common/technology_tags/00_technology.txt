@@ -60,96 +60,99 @@ technology_folders = {
 }
 
 technology_categories = {
-	infantry_weapons
-	light_air
-	medium_air
-	heavy_air
-	armor
-	artillery
-	naval_air
-	motorized_equipment
-	naval_equipment
-	industry
-	electronics
+	infantry_weapons_tech
+		melee_weapons_tech
+			spear_weapons_tech
+			blade_weapons_tech
+			bayonet_weapons_tech
+		ranged_weapons_tech
+			sling_weapons_tech
+			bow_weapons_tech
+			musket_weapons_tech
+			rifle_weapons_tech
+			gatling_weapons_tech
+			machine_gun_tech
+			handgun_weapons_tech
+		long_ranged_weapons_tech
+			mortar_tech
+			cannon_tech
+			artillery_tech
+			sniper_tech
+		utility_weapons_tech
+			shield_tech
+			rations_tech
+			uniforms_tech
+		special_forces_tech
+			cavalry_tech
+			camelry_tech
+			mountaineer_tech
+			marine_tech
+			garrison_tech
+		ammunition_tech
+			arrow_tech
+			bullet_tech
+
+	support_company_tech
+		command_company_tech
+		siege_company_tech
+		engineer_company_tech
+		recon_company_tech
+		medical_company_tech
+		signal_company_tech
+		maintenance_company_tech
+
+	motorized_vehicles_tech
+		cart_vehicles_tech
+		automobile_vehicles_tech
+		armor_vehcicles_tech
+		train_vehicles_tech
+
+	air_units_tech
+		light_air_tech
+			balloons_tech
+			light_fighter_tech
+		medium_air_tech
+			medium_fighter_tech
+			cas_bomber_tech
+			naval_bomber_tech
+		heavy_air_tech
+			tactical_bomber_tech
+			strategic_bomber_tech
+
+	naval_units_tech
+
+	engineering_tech
+		excavation_engineering_tech
+		mechanical_engineering_tech
+		process_engineering_tech
+
+	technology_tech
+		electronics_technology_tech
+		signal_technology_tech
+		explosives_technology_tech
+		air_technology_tech
+		naval_technology_tech
+		energy_technology_tech
+
+	research_tech
+		aviation_research_tech
+		health_research_tech
+		biochemistry_research_tech
+		humanities_research_tech
+		administrative_research_tech
+		cultivation_research_tech
+		economics_research_tech
+		policies_research_tech
+
 	land_doctrine
 	air_doctrine
 	naval_doctrine
-	light_fighter
-	cat_heavy_fighter
-	tactical_bomber
-	cat_strategic_bomber
-	naval_bomber
-	cas_bomber
-	rifle_equipment_techs
-	radar_tech
-	excavation_tech
-	air_equipment
-	cat_mobile_warfare
-	cat_superior_firepower
-	cat_grand_battle_plan
-	cat_mass_assault
-	night_vision
-	mot_rockets
-	support_tech
-	engineers_tech
-	recon_tech
-	mountaineers_tech
-	military_police_tech
-	hospital_tech
-	logistics_tech
-	signal_company_tech
-	maintenance_company_tech
-	aviation_tech
-	health_tech
-	engine_tech
-	explosives_tech
-	comms_tech
-	trains_tech
-	balloons_tech
-	mechanical_engineering_tech
-	process_engineering_tech
-	biochemistry_tech
-	synthetic_chemicals_tech
-	electronics_devices_tech
-	humanities_tech
-	resource_extraction_tech
-	chemistry_tech
-	farming_tech
 	transport_tech
-	energy_production_tech
-	nuclear_particle_tech
-	spaceflight_tech
-	genetics_tech
-	economics_tech
-	art_tech
-	policies_tech
-	doctrine_victorian_artillery_tech
-	doctrine_victorian_traditional_tech
-	doctrine_victorian_industry_tech
-	doctrine_victorian_innovative_tech
-	doctrine_machine_asymmetric_tech
-	doctrine_machine_grand_battle_tech
-	doctrine_machine_first_to_battle_tech
-	doctrine_machine_colonial_forces_tech
-	doctrine_combined_arms_entrenchment_tech
-	doctrine_combined_arms_grand_offensive_tech
-	doctrine_combined_arms_coordinated_fire_tech
-	doctrine_combined_arms_attack_in_position_tech
-	project_tech
-	biwheel_vehicle_tech
-	fourwheel_vehicle_tech
-	tech_category_cavalry
-	tech_category_handguns
-	tech_category_naval_infantry
-	kiel_canal_tech
-	gatling_gun_tech
-	tech_category_uniforms
-	naval_mines
+	preindustrial_tech
+	colonial_tech
 	concentrated_industry_category
 	dispersed_industry_category
 	asw_tech
-	naval_minesweeping
-	naval_minelaying
 	naval_mtg_screen_ship_tech
 	naval_mtg_capital_ship_tech
 	naval_mtg_submarine_ship_tech
@@ -177,8 +180,6 @@ technology_categories = {
 	naval_mtg_battle_cruiser_hulls_tech
 	naval_mtg_lineship_tech
 	naval_mtg_lineship_hulls_tech
-	naval_mtg_carrier_tech
-	naval_mtg_carrier_hulls_tech
 	naval_mtg_battleship_tech
 	naval_mtg_battleship_hulls_tech
 	naval_mtg_dreadnought_tech
@@ -202,10 +203,5 @@ technology_categories = {
 	naval_mtg_module_damage_control_tech
 	naval_mtg_module_transport_tech
 	naval_mtg_primitive_tech
-	pre_industrial_tech
-	melee_weapons_tech
-	zeppelin_tech
-
 	dd_equipment
-	synth_resources
 }
