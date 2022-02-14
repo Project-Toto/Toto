@@ -1934,7 +1934,7 @@ technologies = {
 
 		categories = {
 			naval_equipment
-			dd_tech
+			dd_equipment
 		}
 	}
 
@@ -1976,7 +1976,7 @@ technologies = {
 
 		categories = {
 			naval_equipment
-			dd_tech
+			dd_equipment
 			asw_tech
 		}
 	}
@@ -2020,7 +2020,7 @@ technologies = {
 
 		categories = {
 			naval_equipment
-			dd_tech
+			dd_equipment
 			asw_tech
 		}
 	}

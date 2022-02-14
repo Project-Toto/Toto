@@ -15,9 +15,9 @@ sub_units = {
 		group = infantry
 		
 		categories = {
-			category_front_line
-			category_army
-			category_line_artillery
+			category_all_frontline
+			category_all_land
+			category_all_artillery
 		}		
 		
 		combat_width = 1
@@ -85,9 +85,9 @@ sub_units = {
 		group = mobile
 		
 		categories = {
-			category_front_line
-			category_army
-			category_line_artillery
+			category_all_frontline
+			category_all_land
+			category_all_artillery
 		}		
 		
 		combat_width = 1

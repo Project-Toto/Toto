@@ -205,4 +205,7 @@ technology_categories = {
 	pre_industrial_tech
 	melee_weapons_tech
 	zeppelin_tech
+
+	dd_equipment
+	synth_resources
 }

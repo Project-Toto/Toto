@@ -19,10 +19,10 @@ sub_units = {
 		group = mobile
 
 		categories = {
-			category_ranged_cavalry
-			category_front_line
+			category_all_ranged_cavalry
+			category_all_frontline
 			category_cavalry
-			category_army
+			category_all_land
 		}
 
 		combat_width = 1
@@ -97,10 +97,10 @@ sub_units = {
 		group = mobile
 
 		categories = {
-			category_ranged_cavalry
-			category_front_line
+			category_all_ranged_cavalry
+			category_all_frontline
 			category_cavalry
-			category_army
+			category_all_land
 		}
 
 		combat_width = 1
@@ -175,10 +175,10 @@ sub_units = {
 		group = mobile
 
 		categories = {
-			category_ranged_cavalry
-			category_front_line
+			category_all_ranged_cavalry
+			category_all_frontline
 			category_cavalry
-			category_army
+			category_all_land
 		}
 
 		combat_width = 2
@@ -242,10 +242,10 @@ sub_units = {
 		group = mobile
 
 		categories = {
-			category_ranged_cavalry
-			category_front_line
+			category_all_ranged_cavalry
+			category_all_frontline
 			category_cavalry
-			category_army
+			category_all_land
 		}
 
 
@@ -318,10 +318,10 @@ sub_units = {
 		group = mobile
 
 		categories = {
-			category_ranged_cavalry
-			category_front_line
+			category_all_ranged_cavalry
+			category_all_frontline
 			category_cavalry
-			category_army
+			category_all_land
 		}
 
 		combat_width = 2
@@ -393,10 +393,10 @@ sub_units = {
 		group = mobile
 
 		categories = {
-			category_ranged_cavalry
-			category_front_line
+			category_all_ranged_cavalry
+			category_all_frontline
 			category_cavalry
-			category_army
+			category_all_land
 		}
 
 
@@ -470,10 +470,10 @@ sub_units = {
 		group = mobile
 
 		categories = {
-			category_ranged_cavalry
-			category_front_line
+			category_all_ranged_cavalry
+			category_all_frontline
 			category_cavalry
-			category_army
+			category_all_land
 		}
 
 
@@ -549,10 +549,10 @@ sub_units = {
 		group = mobile
 
 		categories = {
-			category_ranged_cavalry
-			category_front_line
+			category_all_ranged_cavalry
+			category_all_frontline
 			category_cavalry
-			category_army
+			category_all_land
 		}
 
 
@@ -629,10 +629,10 @@ sub_units = {
 		group = mobile
 
 		categories = {
-			category_ranged_cavalry
-			category_front_line
+			category_all_ranged_cavalry
+			category_all_frontline
 			category_cavalry
-			category_army
+			category_all_land
 		}
 
 
@@ -712,10 +712,10 @@ sub_units = {
 		group = mobile
 
 		categories = {
-			category_ranged_cavalry
+			category_all_ranged_cavalry
 			category_cavalry
-			category_front_line
-			category_army
+			category_all_frontline
+			category_all_land
 		}
 
 
@@ -789,10 +789,10 @@ sub_units = {
 		group = mobile
 
 		categories = {
-			category_ranged_cavalry
-			category_front_line
+			category_all_ranged_cavalry
+			category_all_frontline
 			category_cavalry
-			category_army
+			category_all_land
 		}
 
 

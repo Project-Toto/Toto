@@ -15,9 +15,9 @@ sub_units = {
 		group = support
 		
 		categories = {
-			category_front_line
-			category_support_battalions
-			category_army
+			category_all_frontline
+			category_all_support
+			category_all_land
 		}
 
 		combat_width = 0
@@ -73,9 +73,9 @@ sub_units = {
 		group = support
 		
 		categories = {
-			category_front_line
-			category_support_battalions
-			category_army
+			category_all_frontline
+			category_all_support
+			category_all_land
 		}
 
 		combat_width = 0
@@ -131,9 +131,9 @@ sub_units = {
 		group = support
 		
 		categories = {
-			category_front_line
-			category_support_battalions
-			category_army
+			category_all_frontline
+			category_all_support
+			category_all_land
 		}
 
 		combat_width = 0
@@ -187,9 +187,9 @@ sub_units = {
 		group = support
 		
 		categories = {
-			category_front_line
-			category_support_battalions
-			category_army
+			category_all_frontline
+			category_all_support
+			category_all_land
 		}
 
 		combat_width = 0
@@ -241,9 +241,9 @@ sub_units = {
 		group = support
 		
 		categories = {
-			category_front_line
-			category_support_battalions
-			category_army
+			category_all_frontline
+			category_all_support
+			category_all_land
 		}
 
 		combat_width = 0

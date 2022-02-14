@@ -1365,7 +1365,6 @@ technologies = {
 
 		categories = {
 			mechanical_engineering_tech
-			rocketry
 		}
 	}
 

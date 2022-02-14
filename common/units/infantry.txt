@@ -18,10 +18,10 @@ sub_units = {
 		group = infantry
 
 		categories = {
-			category_front_line
+			category_all_frontline
 			category_light_infantry
 			category_all_infantry
-			category_army
+			category_all_land
 		}
 
 		combat_width = 2
@@ -59,10 +59,10 @@ sub_units = {
 		group = infantry
 
 		categories = {
-			category_front_line
+			category_all_frontline
 			category_light_infantry
 			category_all_infantry
-			category_army
+			category_all_land
 		}
 
 		combat_width = 2
@@ -100,10 +100,10 @@ sub_units = {
 		group = infantry
 
 		categories = {
-			category_front_line
+			category_all_frontline
 			category_light_infantry
 			category_all_infantry
-			category_army
+			category_all_land
 		}
 
 		combat_width = 2
@@ -141,10 +141,10 @@ sub_units = {
 		group = infantry
 
 		categories = {
-			category_front_line
+			category_all_frontline
 			category_light_infantry
 			category_all_infantry
-			category_army
+			category_all_land
 		}
 
 		combat_width = 2
@@ -182,10 +182,10 @@ sub_units = {
 		group = infantry
 
 		categories = {
-			category_front_line
+			category_all_frontline
 			category_light_infantry
 			category_all_infantry
-			category_army
+			category_all_land
 		}
 
 		combat_width = 2
@@ -222,10 +222,10 @@ sub_units = {
 		group = infantry
 
 		categories = {
-			category_front_line
+			category_all_frontline
 			category_light_infantry
 			category_all_infantry
-			category_army
+			category_all_land
 		}
 
 		combat_width = 2
@@ -262,9 +262,9 @@ sub_units = {
 		group = infantry
 
 		categories = {
-			category_front_line
+			category_all_frontline
 			category_all_infantry
-			category_army
+			category_all_land
 		}
 
 		combat_width = 2
@@ -304,10 +304,10 @@ sub_units = {
 		group = infantry
 
 		categories = {
-			category_front_line
+			category_all_frontline
 			category_light_infantry
 			category_all_infantry
-			category_army
+			category_all_land
 		}
 
 		combat_width = 2
@@ -352,10 +352,10 @@ sub_units = {
 		group = infantry
 
 		categories = {
-			category_front_line
+			category_all_frontline
 			category_light_infantry
 			category_all_infantry
-			category_army
+			category_all_land
 		}
 
 		combat_width = 3
@@ -393,10 +393,10 @@ sub_units = {
 		group = infantry
 
 		categories = {
-			category_front_line
+			category_all_frontline
 			category_light_infantry
 			category_all_infantry
-			category_army
+			category_all_land
 		}
 
 		combat_width = 2
@@ -434,10 +434,10 @@ sub_units = {
 		group = infantry
 
 		categories = {
-			category_front_line
+			category_all_frontline
 			category_light_infantry
 			category_all_infantry
-			category_army
+			category_all_land
 		}
 
 		combat_width = 2
@@ -480,10 +480,10 @@ sub_units = {
 		group = infantry
 
 		categories = {
-			category_front_line
+			category_all_frontline
 			category_light_infantry
 			category_all_infantry
-			category_army
+			category_all_land
 		}
 
 		combat_width = 2
@@ -526,10 +526,10 @@ sub_units = {
 		group = infantry
 
 		categories = {
-			category_front_line
+			category_all_frontline
 			category_light_infantry
 			category_all_infantry
-			category_army
+			category_all_land
 		}
 
 		combat_width = 2
@@ -570,10 +570,10 @@ sub_units = {
 		group = infantry
 
 		categories = {
-			category_front_line
+			category_all_frontline
 			category_light_infantry
 			category_all_infantry
-			category_army
+			category_all_land
 		}
 
 		combat_width = 2
@@ -612,10 +612,10 @@ sub_units = {
 	group = infantry
 
 	categories = {
-		category_front_line
+		category_all_frontline
 		category_light_infantry
 		category_all_infantry
-		category_army
+		category_all_land
 	}
 
 	combat_width = 2
@@ -653,10 +653,10 @@ sub_units = {
 		group = infantry
 
 		categories = {
-			category_front_line
+			category_all_frontline
 			category_light_infantry
 			category_all_infantry
-			category_army
+			category_all_land
 		}
 
 		combat_width = 4
@@ -695,10 +695,10 @@ sub_units = {
 		group = infantry
 
 		categories = {
-			category_front_line
+			category_all_frontline
 			category_light_infantry
 			category_all_infantry
-			category_army
+			category_all_land
 		}
 
 		combat_width = 1
@@ -763,10 +763,10 @@ sub_units = {
 		group = infantry
 
 		categories = {
-			category_front_line
+			category_all_frontline
 			category_light_infantry
 			category_all_infantry
-			category_army
+			category_all_land
 		}
 
 		combat_width = 3
@@ -833,10 +833,10 @@ sub_units = {
 		group = infantry
 
 		categories = {
-			category_front_line
+			category_all_frontline
 			category_light_infantry
 			category_all_infantry
-			category_army
+			category_all_land
 		}
 
 		combat_width = 2
@@ -884,8 +884,8 @@ sub_units = {
 
 		categories = {
 			category_all_infantry
-			category_front_line
-			category_army
+			category_all_frontline
+			category_all_land
 		}
 
 
@@ -963,10 +963,10 @@ sub_units = {
 		group = infantry
 
 		categories = {
-			category_front_line
+			category_all_frontline
 			category_light_infantry
 			category_all_infantry
-			category_army
+			category_all_land
 		}
 
 		combat_width = 2
@@ -1016,10 +1016,10 @@ sub_units = {
 		group = infantry
 
 		categories = {
-			category_front_line
+			category_all_frontline
 			category_light_infantry
 			category_all_infantry
-			category_army
+			category_all_land
 		}
 
 		combat_width = 2
@@ -1069,10 +1069,10 @@ sub_units = {
 		group = infantry
 
 		categories = {
-			category_front_line
+			category_all_frontline
 			category_light_infantry
 			category_all_infantry
-			category_army
+			category_all_land
 		}
 
 		combat_width = 2
@@ -1123,10 +1123,10 @@ sub_units = {
 		group = infantry
 
 		categories = {
-			category_front_line
+			category_all_frontline
 			category_light_infantry
 			category_all_infantry
-			category_army
+			category_all_land
 		}
 
 		combat_width = 2
@@ -1177,10 +1177,10 @@ sub_units = {
 		group = infantry
 
 		categories = {
-			category_front_line
+			category_all_frontline
 			category_light_infantry
 			category_all_infantry
-			category_army
+			category_all_land
 		}
 
 		combat_width = 2
@@ -1227,9 +1227,9 @@ sub_units = {
 		group = mobile
 		
 		categories = {
-			category_front_line
+			category_all_frontline
 			category_all_infantry
-			category_army
+			category_all_land
 		}
 		
 		combat_width = 2
@@ -1296,9 +1296,9 @@ sub_units = {
 		group = mobile
 		
 		categories = {
-			category_front_line
+			category_all_frontline
 			category_all_infantry
-			category_army
+			category_all_land
 		}
 
 		combat_width = 2
@@ -1376,9 +1376,9 @@ sub_units = {
 		group = mobile
 		
 		categories = {
-			category_front_line
+			category_all_frontline
 			category_all_infantry
-			category_army
+			category_all_land
 		}
 
 		combat_width = 2
@@ -1434,10 +1434,10 @@ sub_units = {
 		group = infantry
 		
 		categories = {
-			category_front_line
+			category_all_frontline
 			category_light_infantry
 			category_all_infantry
-			category_army
+			category_all_land
 		}
 		
 		combat_width = 1

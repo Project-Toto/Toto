@@ -489,7 +489,6 @@ technologies = {
 		}
 
 		categories = {
-			computing_tech
 			electronics_devices_tech
 		}
 	}
@@ -527,7 +526,6 @@ technologies = {
 		}
 
 		categories = {
-			computing_tech
 			electronics_devices_tech
 		}
 	}
@@ -565,7 +563,6 @@ technologies = {
 		}
 
 		categories = {
-			computing_tech
 			electronics_devices_tech
 		}
 	}
@@ -594,67 +591,6 @@ technologies = {
 
 		categories = {
 			electronics_devices_tech
-			computing_tech
-		}
-	}
-	pentodes = {
-
-		research_speed_factor = 0.01
-
-		research_cost = 1.5
-		start_year = 1925
-		folder = {
-			name = tech_folder_devices
-			position = { x = 10 y = 34 }
-		}
-		path = {
-			leads_to_tech = beam_power_tubes
-			research_cost_coeff = 1
-		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 1
-
-			}
-		}
-
-		categories = {
-			electronics_devices_tech
-			computing_tech
-		}
-	}
-	beam_power_tubes = {
-
-		research_speed_factor = 0.01
-
-		research_cost = 1.5
-		start_year = 1935
-		folder = {
-			name = tech_folder_devices
-			position = { x = 10 y = 38 }
-		}
-		path = {
-			leads_to_tech = double_diode_triodes
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = turing_machines
-			research_cost_coeff = 1
-		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 1
-
-			}
-		}
-
-		categories = {
-			electronics_devices_tech
-			computing_tech
 		}
 	}
 	long_lasting_tungsten_filaments = {

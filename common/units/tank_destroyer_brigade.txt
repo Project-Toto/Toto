@@ -15,9 +15,9 @@ sub_units = {
 		group = armor
 		
 		categories = {
-			category_front_line
+			category_all_frontline
 			category_all_armor
-			category_army
+			category_all_land
 		}
 
 		combat_width = 2
@@ -76,9 +76,9 @@ sub_units = {
 		group = armor
 		
 		categories = {
-			category_front_line
+			category_all_frontline
 			category_all_armor
-			category_army
+			category_all_land
 		}
 
 
@@ -142,9 +142,9 @@ sub_units = {
 		group = armor
 		
 		categories = {
-			category_front_line
+			category_all_frontline
 			category_all_armor
-			category_army
+			category_all_land
 		}
 
 
@@ -209,9 +209,9 @@ sub_units = {
 		group = armor
 		
 		categories = {
-			category_front_line
+			category_all_frontline
 			category_all_armor
-			category_army
+			category_all_land
 		}
 
 		combat_width = 2
@@ -276,9 +276,9 @@ sub_units = {
 		group = armor
 		
 		categories = {
-			category_front_line
+			category_all_frontline
 			category_all_armor
-			category_army
+			category_all_land
 		}
 
 

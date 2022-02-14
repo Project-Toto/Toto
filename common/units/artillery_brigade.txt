@@ -15,8 +15,8 @@ sub_units = {
 		group = infantry
 		
 		categories = {
-			category_army
-			category_line_artillery
+			category_all_land
+			category_all_artillery
 			category_artillery
 		}
 
@@ -92,8 +92,8 @@ sub_units = {
 		group = infantry
 		
 		categories = {
-			category_army
-			category_line_artillery
+			category_all_land
+			category_all_artillery
 			category_artillery
 		}
 
@@ -172,8 +172,8 @@ sub_units = {
 		group = infantry
 		
 		categories = {
-			category_army
-			category_line_artillery
+			category_all_land
+			category_all_artillery
 			category_artillery
 		}
 
@@ -265,8 +265,8 @@ sub_units = {
 		group = infantry
 		
 		categories = {
-			category_army
-			category_line_artillery
+			category_all_land
+			category_all_artillery
 			category_artillery
 		}
 
@@ -360,8 +360,8 @@ sub_units = {
 		group = infantry
 		
 		categories = {
-			category_army
-			category_line_artillery
+			category_all_land
+			category_all_artillery
 			category_artillery
 		}
 
@@ -438,8 +438,8 @@ sub_units = {
 		group = infantry
 		
 		categories = {
-			category_army
-			category_line_artillery
+			category_all_land
+			category_all_artillery
 			category_artillery
 		}
 
@@ -519,8 +519,8 @@ sub_units = {
 		group = infantry
 		
 		categories = {
-			category_army
-			category_line_artillery
+			category_all_land
+			category_all_artillery
 			category_artillery
 		}
 
@@ -597,8 +597,8 @@ sub_units = {
 		group = mobile
 		
 		categories = {
-			category_army
-			category_line_artillery
+			category_all_land
+			category_all_artillery
 			category_artillery
 		}
 
@@ -669,8 +669,8 @@ sub_units = {
 		group = infantry
 		
 		categories = {
-			category_army
-			category_line_artillery
+			category_all_land
+			category_all_artillery
 		}		
 
 		combat_width = 3
@@ -740,8 +740,8 @@ sub_units = {
 		group = mobile
 		
 		categories = {
-			category_army
-			category_line_artillery
+			category_all_land
+			category_all_artillery
 		}		
 
 		combat_width = 3
@@ -813,8 +813,8 @@ sub_units = {
 		group = mobile
 		
 		categories = {
-			category_army
-			category_line_artillery
+			category_all_land
+			category_all_artillery
 		}		
 
 		combat_width = 3

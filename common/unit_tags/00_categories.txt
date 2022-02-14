@@ -20,13 +20,14 @@ sub_unit_categories = {
 		category_all_train
 
 	category_all_backline
-		category_all_archer
+		category_all_ranged
+		category_all_ranged_cavalry
 		category_all_artillery
 
 	category_all_support
 		category_all_scout
 
-	category_all_special
+	category_all_special_forces
 		category_all_marines
 		category_all_mountaineer
 		category_all_camel
@@ -36,6 +37,9 @@ sub_unit_categories = {
 		category_all_fighter
 		category_all_close_air
 		category_all_bomber
+		category_all_nav_bomber
+		category_all_tac_bomber
+		category_all_strat_bomber
 
 	category_all_sea
 		category_all_transport

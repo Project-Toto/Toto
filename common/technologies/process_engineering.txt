@@ -991,7 +991,6 @@ technologies = {
 			synth_resources
 		}
 	}
-
 	fuel_storage = {
 
 		enable_building = {
@@ -1000,7 +999,7 @@ technologies = {
 		}
 
 		research_cost = 1.1
-		start_year = 1930
+		start_year = 1920
 		folder = {
 			name = tech_folder_manufacturing
 			position = { x = 12 y = 38 }
@@ -1040,107 +1039,6 @@ technologies = {
 			process_engineering_tech
 		}
 	}
-	synthetic_fuel_processing = {
-
-		production_oil_factor = 0.15
-
-		research_cost = 1.1
-		start_year = 1935
-		folder = {
-			name = tech_folder_manufacturing
-			position = { x = 14 y = 40 }
-		}
-		path = {
-			leads_to_tech = fischer-tropsch_process
-			research_cost_coeff = 1
-		}
-
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				factor = 1
-
-			}
-
-		}
-
-		categories = {
-			synth_resources
-			resource_extraction_tech
-			process_engineering_tech
-		}
-	}
-	rubber_processing = {
-
-		enable_building = {
-			building = synthetic_refinery_rubber
-			level = 2
-		}
-
-		research_cost = 1.1
-		start_year = 1935
-		folder = {
-			name = tech_folder_manufacturing
-			position = { x = 12 y = 40 }
-		}
-		path = {
-			leads_to_tech = rubber_processing_2
-			research_cost_coeff = 1
-		}
-
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				factor = 1
-
-			}
-
-		}
-
-		categories = {
-			synth_resources
-			resource_extraction_tech
-			process_engineering_tech
-		}
-	}
-
-	fuel_refining = {
-
-		enable_building = {
-			building = synthetic_refinery_oil
-			level = 3
-		}
-
-		research_cost = 1
-		start_year = 1935
-		folder = {
-			name = tech_folder_manufacturing
-			position = { x = 10 y = 40 }
-		}
-
-		path = {
-			leads_to_tech = thermofor_catalytic_crackimg
-			research_cost_coeff = 1
-		}
-
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				factor = 1
-
-			}
-
-		}
-
-		categories = {
-			resource_extraction_tech
-			process_engineering_tech
-		}
-	}
-
 	inorganic_chemistry = {
 
 		research_speed_factor = 0.02

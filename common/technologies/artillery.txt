@@ -836,7 +836,6 @@ technologies = {
 
 		categories = {
 			artillery
-			rocketry
 		}
 
 		ai_will_do = {
@@ -863,7 +862,6 @@ technologies = {
 
 		categories = {
 			artillery
-			rocketry
 		}
 
 		ai_will_do = {
@@ -892,7 +890,6 @@ technologies = {
 
 		categories = {
 			artillery
-			rocketry
 		}
 
 		ai_will_do = {
@@ -941,7 +938,6 @@ technologies = {
 
 		categories = {
 			artillery
-			rocketry
 		}
 
 		ai_will_do = {

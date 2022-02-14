@@ -14,8 +14,8 @@ sub_units = {
 		group = support
 		
 		categories = {
-			category_support_battalions
-			category_army
+			category_all_support
+			category_all_land
 			category_artillery
 		}
 
@@ -58,8 +58,8 @@ sub_units = {
 		group = support
 		
 		categories = {
-			category_support_battalions
-			category_army
+			category_all_support
+			category_all_land
 			category_artillery
 		}
 
@@ -140,8 +140,8 @@ sub_units = {
 		group = support
 		
 		categories = {
-			category_support_battalions
-			category_army
+			category_all_support
+			category_all_land
 			category_artillery
 		}
 
@@ -189,9 +189,9 @@ sub_units = {
 		group = support
 		
 		categories = {
-			category_support_battalions
-			category_army
-			category_front_line
+			category_all_support
+			category_all_land
+			category_all_frontline
 			category_all_infantry
 		}
 
@@ -235,8 +235,8 @@ sub_units = {
 		group = support
 		
 		categories = {
-			category_support_battalions
-			category_army
+			category_all_support
+			category_all_land
 			category_artillery
 		}
 
@@ -279,8 +279,8 @@ sub_units = {
 		group = support
 
 		categories = {
-			category_support_battalions
-			category_army
+			category_all_support
+			category_all_land
 			category_artillery
 		}		
 
