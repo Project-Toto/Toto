@@ -108,7 +108,7 @@ technologies = {
 
 		categories = {
 			pre_industrial_tech
-			energy_production_tech
+			energy_technology_tech
 		}
 	}
 
@@ -253,7 +253,7 @@ technologies = {
 
 		categories = {
 			pre_industrial_tech
-			tech_category_all_calvary
+			cavalry_tech
 		}
 
 		on_research_complete = {
@@ -394,7 +394,7 @@ technologies = {
 
 		categories = {
 			pre_industrial_tech
-			economics_tech
+			economics_research_tech
 		}
 	}
 	tribal_forging = {
@@ -475,7 +475,7 @@ technologies = {
 
 		categories = {
 			pre_industrial_tech
-			chemistry_tech
+			chemistry_research_tech
 		}
 	}
 	tribal_guilds_trade = {
@@ -496,7 +496,7 @@ technologies = {
 
 		categories = {
 			pre_industrial_tech
-			economics_tech
+			economics_research_tech
 		}
 	}
 
@@ -533,7 +533,7 @@ technologies = {
 
 		categories = {
 			pre_industrial_tech
-			farming_tech
+			cultivation_research_tech
 		}
 	}
 
@@ -572,7 +572,7 @@ technologies = {
 
 		categories = {
 			pre_industrial_tech
-			farming_tech
+			cultivation_research_tech
 		}
 	}
 	tribal_crop_rotation = {
@@ -598,7 +598,7 @@ technologies = {
 
 		categories = {
 			pre_industrial_tech
-			farming_tech
+			cultivation_research_tech
 		}
 	}
 	tribal_healing_herbs = {
@@ -633,7 +633,7 @@ technologies = {
 
 		categories = {
 			pre_industrial_tech
-			health_tech
+			health_research_tech
 		}
 	}
 	tribal_salted_smoked_goods = {
@@ -653,7 +653,7 @@ technologies = {
 
 		categories = {
 			pre_industrial_tech
-			biochemistry_tech
+			biochemistry_research_tech
 		}
 	}
 	tribal_leching = {
@@ -673,7 +673,7 @@ technologies = {
 
 		categories = {
 			pre_industrial_tech
-			health_tech
+			health_research_tech
 		}
 	}
 

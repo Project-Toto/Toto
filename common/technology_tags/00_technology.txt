@@ -125,6 +125,7 @@ technology_categories = {
 	engineering_tech
 		excavation_engineering_tech
 		mechanical_engineering_tech
+			engine_engineering_tech
 		process_engineering_tech
 		synthetic_engineering_tech
 
@@ -140,6 +141,7 @@ technology_categories = {
 		aviation_research_tech
 		health_research_tech
 		biochemistry_research_tech
+		chemistry_research_tech
 		humanities_research_tech
 		administrative_research_tech
 		cultivation_research_tech
@@ -150,7 +152,7 @@ technology_categories = {
 	air_doctrine
 	naval_doctrine
 	transport_tech
-	preindustrial_tech
+	pre_industrial_tech
 	colonial_tech
 	concentrated_industry_category
 	dispersed_industry_category

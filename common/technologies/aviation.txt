@@ -48,7 +48,7 @@ technologies = {
 		}
 
 		categories = {
-			aviation_tech
+			air_technology_tech
 		}
 	}
 
@@ -85,7 +85,7 @@ technologies = {
 		}
 
 		categories = {
-			aviation_tech
+			air_technology_tech
 		}
 	}
 
@@ -128,7 +128,7 @@ technologies = {
 		}
 
 		categories = {
-			aviation_tech
+			air_technology_tech
 		}
 	}
 
@@ -162,7 +162,7 @@ technologies = {
 		}
 
 		categories = {
-			aviation_tech
+			air_technology_tech
 		}
 	}
 
@@ -201,7 +201,7 @@ technologies = {
 		}
 
 		categories = {
-			aviation_tech
+			air_technology_tech
 			balloons_tech
 		}
 	}
@@ -226,7 +226,7 @@ technologies = {
 		}
 
 		categories = {
-			aviation_tech
+			air_technology_tech
 			balloons_tech
 		}
 	}
@@ -272,7 +272,7 @@ technologies = {
 		}
 
 		categories = {
-			aviation_tech
+			air_technology_tech
 		}
 	}
 
@@ -308,7 +308,7 @@ technologies = {
 		}
 
 		categories = {
-			aviation_tech
+			air_technology_tech
 		}
 	}
 
@@ -348,7 +348,7 @@ technologies = {
 		}
 
 		categories = {
-			aviation_tech
+			air_technology_tech
 		}
 	}
 
@@ -396,7 +396,7 @@ technologies = {
 		}
 
 		categories = {
-			aviation_tech
+			air_technology_tech
 		}
 	}
 
@@ -436,7 +436,7 @@ technologies = {
 		}
 
 		categories = {
-			aviation_tech
+			air_technology_tech
 		}
 	}
 
@@ -474,7 +474,7 @@ technologies = {
 		}
 
 		categories = {
-			aviation_tech
+			air_technology_tech
 		}
 	}
 
@@ -516,7 +516,7 @@ technologies = {
 		}
 
 		categories = {
-			aviation_tech
+			air_technology_tech
 		}
 	}
 
@@ -554,7 +554,7 @@ technologies = {
 		}
 
 		categories = {
-			aviation_tech
+			air_technology_tech
 		}
 	}
 
@@ -582,7 +582,7 @@ technologies = {
 		}
 
 		categories = {
-			aviation_tech
+			air_technology_tech
 		}
 	}
 
@@ -611,7 +611,7 @@ technologies = {
 		}
 
 		categories = {
-			aviation_tech
+			air_technology_tech
 		}
 	}
 
@@ -640,7 +640,7 @@ technologies = {
 		}
 
 		categories = {
-			aviation_tech
+			air_technology_tech
 		}
 	}
 
@@ -672,7 +672,7 @@ technologies = {
 		}
 
 		categories = {
-			aviation_tech
+			air_technology_tech
 		}
 	}
 	early_monoplane_designs = {
@@ -708,7 +708,7 @@ technologies = {
 		}
 
 		categories = {
-			aviation_tech
+			air_technology_tech
 		}
 	}
 	rotary_engines = {
@@ -738,7 +738,7 @@ technologies = {
 		}
 
 		categories = {
-			aviation_tech
+			air_technology_tech
 		}
 	}
 	biplane_prototypes = {
@@ -765,7 +765,7 @@ technologies = {
 		}
 
 		categories = {
-			aviation_tech
+			air_technology_tech
 		}
 	}
 	pratical_aileron_control_surfaces = {
@@ -799,7 +799,7 @@ technologies = {
 		}
 
 		categories = {
-			aviation_tech
+			air_technology_tech
 		}
 	}
 	synchronization_gear = {
@@ -826,7 +826,7 @@ technologies = {
 		}
 
 		categories = {
-			aviation_tech
+			air_technology_tech
 		}
 	}
 	metal_body_prototypes = {
@@ -853,7 +853,7 @@ technologies = {
 		}
 
 		categories = {
-			aviation_tech
+			air_technology_tech
 		}
 	}
 	full_metal_construcion = {
@@ -886,7 +886,7 @@ technologies = {
 		}
 
 		categories = {
-			aviation_tech
+			air_technology_tech
 		}
 	}
 	improved_aerodynamics = {
@@ -913,7 +913,7 @@ technologies = {
 		}
 
 		categories = {
-			aviation_tech
+			air_technology_tech
 		}
 	}
 	radial_engines = {
@@ -940,7 +940,7 @@ technologies = {
 		}
 
 		categories = {
-			aviation_tech
+			air_technology_tech
 		}
 	}
 }

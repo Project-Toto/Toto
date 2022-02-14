@@ -2768,7 +2768,7 @@ technologies = {
 
 		categories = {
 			infantry_weapons_tech
-			gatling_gun_tech
+			gatling_weapons_tech
 		}
 
 		ai_will_do = {
@@ -2810,7 +2810,7 @@ technologies = {
 
 		categories = {
 			infantry_weapons_tech
-			gatling_gun_tech
+			gatling_weapons_tech
 		}
 
 		ai_will_do = {
@@ -2841,7 +2841,7 @@ technologies = {
 
 		categories = {
 			infantry_weapons_tech
-			gatling_gun_tech
+			gatling_weapons_tech
 		}
 
 		ai_will_do = {
@@ -2873,7 +2873,7 @@ technologies = {
 
 		categories = {
 			infantry_weapons_tech
-			gatling_gun_tech
+			gatling_weapons_tech
 		}
 
 		ai_will_do = {
@@ -2905,7 +2905,7 @@ technologies = {
 
 		categories = {
 			infantry_weapons_tech
-			gatling_gun_tech
+			gatling_weapons_tech
 		}
 
 		ai_will_do = {
@@ -2932,7 +2932,7 @@ technologies = {
 
 		categories = {
 			infantry_weapons_tech
-			gatling_gun_tech
+			gatling_weapons_tech
 		}
 
 		ai_will_do = {
@@ -2961,7 +2961,7 @@ technologies = {
 
 		categories = {
 			infantry_weapons_tech
-			gatling_gun_tech
+			gatling_weapons_tech
 		}
 
 		ai_will_do = {
@@ -2991,7 +2991,7 @@ technologies = {
 
 		categories = {
 			infantry_weapons_tech
-			gatling_gun_tech
+			gatling_weapons_tech
 		}
 
 		ai_will_do = {
@@ -3021,7 +3021,7 @@ technologies = {
 
 		categories = {
 			infantry_weapons_tech
-			gatling_gun_tech
+			gatling_weapons_tech
 		}
 
 		ai_will_do = {
@@ -3495,7 +3495,7 @@ technologies = {
 		}
 
 		categories = {
-			tech_category_uniforms
+			uniforms_tech
 		}
 
 		ai_will_do = {
@@ -3564,7 +3564,7 @@ technologies = {
 		}
 
 		categories = {
-			tech_category_uniforms
+			uniforms_tech
 		}
 
 		ai_will_do = {
@@ -3600,7 +3600,7 @@ technologies = {
 		}
 
 		categories = {
-			tech_category_uniforms
+			uniforms_tech
 		}
 
 		ai_will_do = {
@@ -3636,7 +3636,7 @@ technologies = {
 		}
 
 		categories = {
-			tech_category_uniforms
+			uniforms_tech
 		}
 
 		ai_will_do = {
@@ -3668,7 +3668,7 @@ technologies = {
 		}
 
 		categories = {
-			tech_category_uniforms
+			uniforms_tech
 		}
 
 		ai_will_do = {
@@ -3698,7 +3698,7 @@ technologies = {
 		}
 
 		categories = {
-			tech_category_uniforms
+			uniforms_tech
 		}
 
 		ai_will_do = {
@@ -3727,7 +3727,7 @@ technologies = {
 		}
 
 		categories = {
-			tech_category_uniforms
+			uniforms_tech
 		}
 
 		ai_will_do = {
@@ -3760,7 +3760,7 @@ technologies = {
 		}
 
 		categories = {
-			tech_category_uniforms
+			uniforms_tech
 		}
 
 		ai_will_do = {
@@ -3789,7 +3789,7 @@ technologies = {
 		}
 
 		categories = {
-			tech_category_uniforms
+			uniforms_tech
 		}
 
 		ai_will_do = {
@@ -3813,7 +3813,7 @@ technologies = {
 		}
 
 		categories = {
-			tech_category_uniforms
+			uniforms_tech
 		}
 
 		ai_will_do = {
@@ -3958,8 +3958,7 @@ technologies = {
 		org_loss_when_moving = -0.1
 
 		path = {
-			leads_to_tech = horse_artillery
-		}
+			leads_to_tech = horse_artillery_tech		}
 
 		categories = {
 			cavalry_tech
@@ -5066,7 +5065,7 @@ technologies = {
 		categories = {
 			infantry_weapons_tech
 			special_forces_tech
-			mountaineers_tech
+			mountaineer_tech
 		}
 
 		ai_will_do = {
@@ -5094,7 +5093,7 @@ technologies = {
 		categories = {
 			infantry_weapons_tech
 			special_forces_tech
-			mountaineers_tech
+			mountaineer_tech
 		}
 
 		ai_will_do = {
@@ -5122,7 +5121,7 @@ technologies = {
 		categories = {
 			infantry_weapons_tech
 			special_forces_tech
-			mountaineers_tech
+			mountaineer_tech
 		}
 
 		ai_will_do = {
@@ -5149,7 +5148,7 @@ technologies = {
 		categories = {
 			infantry_weapons_tech
 			special_forces_tech
-			mountaineers_tech
+			mountaineer_tech
 		}
 
 		ai_will_do = {

@@ -46,8 +46,8 @@ technologies = {
 
 		categories = {
 			electronics_technology_tech
-			chemistry_tech
-			explosives_tech
+			chemistry_research_tech
+			explosives_technology_tech
 		}
 	}
 
@@ -92,8 +92,8 @@ technologies = {
 
 		categories = {
 			electronics_technology_tech
-			chemistry_tech
-			explosives_tech
+			chemistry_research_tech
+			explosives_technology_tech
 		}
 	}
 
@@ -147,7 +147,7 @@ technologies = {
 
 		categories = {
 			electronics_technology_tech
-			explosives_tech
+			explosives_technology_tech
 		}
 	}
 	tnt = {
@@ -179,7 +179,7 @@ technologies = {
 
 		categories = {
 			electronics_technology_tech
-			explosives_tech
+			explosives_technology_tech
 		}
 	}
 	petn = {
@@ -211,7 +211,7 @@ technologies = {
 
 		categories = {
 			electronics_technology_tech
-			explosives_tech
+			explosives_technology_tech
 		}
 	}
 	rdx = {
@@ -243,7 +243,7 @@ technologies = {
 
 		categories = {
 			electronics_technology_tech
-			explosives_tech
+			explosives_technology_tech
 		}
 	}
 
@@ -1031,7 +1031,7 @@ technologies = {
 
 		categories = {
 			electronics_technology_tech
-			comms_tech
+			signal_technology_tech
 		}
 	}
 
@@ -1077,7 +1077,7 @@ technologies = {
 
 		categories = {
 			electronics_technology_tech
-			comms_tech
+			signal_technology_tech
 		}
 	}
 
@@ -1435,7 +1435,7 @@ technologies = {
 
 		categories = {
 			electronics_technology_tech
-			comms_tech
+			signal_technology_tech
 		}
 	}
 
@@ -1467,7 +1467,7 @@ technologies = {
 
 		categories = {
 			electronics_technology_tech
-			comms_tech
+			signal_technology_tech
 		}
 	}
 
@@ -1502,7 +1502,7 @@ technologies = {
 
 		categories = {
 			electronics_technology_tech
-			comms_tech
+			signal_technology_tech
 		}
 	}
 	commercial_radio_broadcasting_equipment = {
@@ -1539,7 +1539,7 @@ technologies = {
 
 		categories = {
 			electronics_technology_tech
-			comms_tech
+			signal_technology_tech
 		}
 	}
 	fm_radio = {
@@ -1575,7 +1575,7 @@ technologies = {
 
 		categories = {
 			electronics_technology_tech
-			comms_tech
+			signal_technology_tech
 		}
 	}
 	military_band_radios = {
@@ -1614,7 +1614,7 @@ technologies = {
 
 		categories = {
 			electronics_technology_tech
-			comms_tech
+			signal_technology_tech
 		}
 	}
 
@@ -1676,7 +1676,7 @@ technologies = {
 
 		categories = {
 			electronics_technology_tech
-			energy_production_tech
+			energy_technology_tech
 		}
 	}
 
@@ -1718,7 +1718,7 @@ technologies = {
 
 		categories = {
 			electronics_technology_tech
-			energy_production_tech
+			energy_technology_tech
 		}
 	}
 
@@ -1760,7 +1760,7 @@ technologies = {
 
 		categories = {
 			electronics_technology_tech
-			energy_production_tech
+			energy_technology_tech
 		}
 	}
 
@@ -1791,7 +1791,7 @@ technologies = {
 
 		categories = {
 			electronics_technology_tech
-			energy_production_tech
+			energy_technology_tech
 		}
 	}
 	nickel_iron_battery = {
@@ -1821,7 +1821,7 @@ technologies = {
 
 		categories = {
 			electronics_technology_tech
-			energy_production_tech
+			energy_technology_tech
 		}
 	}
 	early_alternators = {
@@ -1892,7 +1892,7 @@ technologies = {
 
 		categories = {
 			electronics_technology_tech
-			energy_production_tech
+			energy_technology_tech
 		}
 	}
 
@@ -1952,7 +1952,7 @@ technologies = {
 
 		categories = {
 			electronics_technology_tech
-			energy_production_tech
+			energy_technology_tech
 		}
 	}
 
@@ -2021,7 +2021,7 @@ technologies = {
 
 		categories = {
 			electronics_technology_tech
-			energy_production_tech
+			energy_technology_tech
 		}
 	}
 
@@ -2066,7 +2066,7 @@ technologies = {
 
 		categories = {
 			electronics_technology_tech
-			energy_production_tech
+			energy_technology_tech
 		}
 	}
 
@@ -2096,7 +2096,7 @@ technologies = {
 
 		categories = {
 			electronics_technology_tech
-			energy_production_tech
+			energy_technology_tech
 		}
 	}
 
@@ -2131,7 +2131,7 @@ technologies = {
 
 		categories = {
 			electronics_technology_tech
-			energy_production_tech
+			energy_technology_tech
 		}
 	}
 
@@ -2162,7 +2162,7 @@ technologies = {
 
 		categories = {
 			electronics_technology_tech
-			energy_production_tech
+			energy_technology_tech
 		}
 	}
 
@@ -2193,7 +2193,7 @@ technologies = {
 
 		categories = {
 			electronics_technology_tech
-			energy_production_tech
+			energy_technology_tech
 		}
 	}
 
@@ -2241,7 +2241,7 @@ technologies = {
 
 		categories = {
 			electronics_technology_tech
-			energy_production_tech
+			energy_technology_tech
 		}
 	}
 
@@ -2277,7 +2277,7 @@ technologies = {
 
 		categories = {
 			electronics_technology_tech
-			energy_production_tech
+			energy_technology_tech
 		}
 	}
 
@@ -2314,7 +2314,7 @@ technologies = {
 
 		categories = {
 			electronics_technology_tech
-			energy_production_tech
+			energy_technology_tech
 		}
 	}
 
@@ -2345,7 +2345,7 @@ technologies = {
 
 		categories = {
 			electronics_technology_tech
-			energy_production_tech
+			energy_technology_tech
 		}
 	}
 
@@ -2382,7 +2382,7 @@ technologies = {
 
 		categories = {
 			electronics_technology_tech
-			energy_production_tech
+			energy_technology_tech
 		}
 	}
 
@@ -2412,7 +2412,7 @@ technologies = {
 
 		categories = {
 			electronics_technology_tech
-			energy_production_tech
+			energy_technology_tech
 		}
 	}
 	vertical_axis_turbine = {
@@ -2441,7 +2441,7 @@ technologies = {
 
 		categories = {
 			electronics_technology_tech
-			energy_production_tech
+			energy_technology_tech
 		}
 	}
 	giromill_wind_turbine = {
@@ -2470,7 +2470,7 @@ technologies = {
 
 		categories = {
 			electronics_technology_tech
-			energy_production_tech
+			energy_technology_tech
 		}
 	}
 	darrieus_wind_turbine = {
@@ -2499,7 +2499,7 @@ technologies = {
 
 		categories = {
 			electronics_technology_tech
-			energy_production_tech
+			energy_technology_tech
 		}
 	}
 
@@ -2529,7 +2529,7 @@ industrial_capacity_dockyard = 0.025
 
 		categories = {
 			electronics_technology_tech
-			energy_production_tech
+			energy_technology_tech
 		}
 	}
 
@@ -2556,7 +2556,7 @@ industrial_capacity_factory = 0.02
 
 categories = {
 			electronics_technology_tech
-			energy_production_tech
+			energy_technology_tech
 		}
 	}
 
@@ -2591,7 +2591,7 @@ categories = {
 
 		categories = {
 		electronics_technology_tech
-			energy_production_tech
+			energy_technology_tech
 		}
 	}
 	hydropower = {
@@ -2626,7 +2626,7 @@ categories = {
 
 		categories = {
 			electronics_technology_tech
-			energy_production_tech
+			energy_technology_tech
 	}
 
 		ai_will_do = {
@@ -2648,7 +2648,7 @@ categories = {
 
 		categories = {
 			electronics_technology_tech
-			energy_production_tech
+			energy_technology_tech
 		}
 
 		ai_will_do = {
@@ -2670,7 +2670,7 @@ categories = {
 
 		categories = {
 			electronics_technology_tech
-			energy_production_tech
+			energy_technology_tech
 		}
 
 		ai_will_do = {
@@ -2692,7 +2692,7 @@ categories = {
 
 		categories = {
 			electronics_technology_tech
-			energy_production_tech
+			energy_technology_tech
 		}
 
 		ai_will_do = {
@@ -2713,7 +2713,7 @@ categories = {
 
 		categories = {
 			electronics_technology_tech
-			energy_production_tech
+			energy_technology_tech
 		}
 
 		ai_will_do = {
@@ -2753,7 +2753,7 @@ categories = {
 
 		categories = {
 			electronics_technology_tech
-			energy_production_tech
+			energy_technology_tech
 		}
 	}
 	alexanderson_alternator = {
@@ -2782,7 +2782,7 @@ categories = {
 
 		categories = {
 			electronics_technology_tech
-			energy_production_tech
+			energy_technology_tech
 		}
 	}
 	ferromagnetism_theory = {
@@ -2811,7 +2811,7 @@ categories = {
 
 		categories = {
 			electronics_technology_tech
-			energy_production_tech
+			energy_technology_tech
 		}
 	}
 	power_station_4 = {
@@ -2841,7 +2841,7 @@ categories = {
 
 		categories = {
 			electronics_technology_tech
-			energy_production_tech
+			energy_technology_tech
 		}
 	}
 	power_station_5 = {
@@ -2871,7 +2871,7 @@ categories = {
 
 		categories = {
 			electronics_technology_tech
-			energy_production_tech
+			energy_technology_tech
 		}
 	}
 }

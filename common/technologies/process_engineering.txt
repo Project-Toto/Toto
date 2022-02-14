@@ -1085,7 +1085,7 @@ technologies = {
 		}
 
 		categories = {
-			chemistry_tech
+			chemistry_research_tech
 			process_engineering_tech
 		}
 	}
@@ -2105,7 +2105,7 @@ technologies = {
 		}
 
 		categories = {
-			chemistry_tech
+			chemistry_research_tech
 			process_engineering_tech
 		}
 	}
@@ -2155,7 +2155,7 @@ technologies = {
 		}
 
 		categories = {
-			chemistry_tech
+			chemistry_research_tech
 			process_engineering_tech
 		}
 	}
@@ -2198,7 +2198,7 @@ technologies = {
 		}
 
 		categories = {
-			chemistry_tech
+			chemistry_research_tech
 			process_engineering_tech
 		}
 	}
