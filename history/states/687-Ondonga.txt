@@ -3,7 +3,7 @@ state={
 	id=687
 	name="STATE_687"
 	provinces={
-		2120 2576 3598 6250 10338 
+		2120 3598 6250 10338
 	}
 	history={
 		owner = TES
