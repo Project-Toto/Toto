@@ -41,7 +41,6 @@ focus_tree = {
 				tag = GBG
 				tag = GBY
 				tag = CKW
-				tag = BOR
 				tag = BLU
 				tag = BDA
 				tag = AHR
@@ -49,8 +48,8 @@ focus_tree = {
 				tag = EQA
 				tag = MLW
 				tag = BAT
-                                tag = BKW
-                                tag = LNG
+				tag = BKW
+				tag = LNG
 			}
 		}
 	}

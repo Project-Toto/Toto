@@ -63,15 +63,11 @@
 	if = { limit = { TAG = BUR } set_cosmetic_tag = BUR_tribal_cosmetic_1 }
 	if = { limit = { TAG = KRG } set_cosmetic_tag = KRG_tribal_cosmetic_1 }
 	if = { limit = { TAG = BUG } set_cosmetic_tag = BUG_tribal_cosmetic_1 }
-	if = { limit = { TAG = MSI } set_cosmetic_tag = MSI_tribal_cosmetic_1 }
 	if = { limit = { TAG = TIP } set_cosmetic_tag = TIP_tribal_cosmetic_1 }
 	if = { limit = { TAG = TTL } set_cosmetic_tag = TTL_tribal_cosmetic_1 }
 	if = { limit = { TAG = BKW } set_cosmetic_tag = BKW_tribal_cosmetic_1 }
-	if = { limit = { TAG = BKM } set_cosmetic_tag = BKM_tribal_cosmetic_1 }
-	if = { limit = { TAG = NYG } set_cosmetic_tag = NYG_tribal_cosmetic_1 }
 	if = { limit = { TAG = TOR } set_cosmetic_tag = TOR_tribal_cosmetic_1 }
 	if = { limit = { TAG = BNY } set_cosmetic_tag = BNY_tribal_cosmetic_1 }
-	if = { limit = { TAG = BOR } set_cosmetic_tag = BOR_tribal_cosmetic_1 }
 	if = { limit = { TAG = KKY } set_cosmetic_tag = KKY_tribal_cosmetic_1 }
 	if = { limit = { TAG = LGR } set_cosmetic_tag = LGR_tribal_cosmetic_1 }
 	if = { limit = { TAG = LUO } set_cosmetic_tag = LUO_tribal_cosmetic_1 }
@@ -164,15 +160,11 @@ afr_tribal_cosmetic_tag_switch_2_scripted_effect = {
 	if = { limit = { TAG = BUR } set_cosmetic_tag = BUR_tribal_cosmetic_2 }
 	if = { limit = { TAG = KRG } set_cosmetic_tag = KRG_tribal_cosmetic_2 }
 	if = { limit = { TAG = BUG } set_cosmetic_tag = BUG_tribal_cosmetic_2 }
-	if = { limit = { TAG = MSI } set_cosmetic_tag = MSI_tribal_cosmetic_2 }
 	if = { limit = { TAG = TIP } set_cosmetic_tag = TIP_tribal_cosmetic_2 }
 	if = { limit = { TAG = TTL } set_cosmetic_tag = TTL_tribal_cosmetic_2 }
 	if = { limit = { TAG = BKW } set_cosmetic_tag = BKW_tribal_cosmetic_2 }
-	if = { limit = { TAG = BKM } set_cosmetic_tag = BKM_tribal_cosmetic_2 }
-	if = { limit = { TAG = NYG } set_cosmetic_tag = NYG_tribal_cosmetic_2 }
 	if = { limit = { TAG = TOR } set_cosmetic_tag = TOR_tribal_cosmetic_2 }
 	if = { limit = { TAG = BNY } set_cosmetic_tag = BNY_tribal_cosmetic_2 }
-	if = { limit = { TAG = BOR } set_cosmetic_tag = BOR_tribal_cosmetic_2 }
 	if = { limit = { TAG = KKY } set_cosmetic_tag = KKY_tribal_cosmetic_2 }
 	if = { limit = { TAG = LGR } set_cosmetic_tag = LGR_tribal_cosmetic_2 }
 	if = { limit = { TAG = LUO } set_cosmetic_tag = LUO_tribal_cosmetic_2 }
@@ -262,15 +254,11 @@ afr_nomad_cosmetic_tag_switch_2_scripted_effect = {
 	if = { limit = { TAG = BUR } set_cosmetic_tag = BUR_nomad_cosmetic_2 }
 	if = { limit = { TAG = KRG } set_cosmetic_tag = KRG_nomad_cosmetic_2 }
 	if = { limit = { TAG = BUG } set_cosmetic_tag = BUG_nomad_cosmetic_2 }
-	if = { limit = { TAG = MSI } set_cosmetic_tag = MSI_nomad_cosmetic_2 }
 	if = { limit = { TAG = TIP } set_cosmetic_tag = TIP_nomad_cosmetic_2 }
 	if = { limit = { TAG = TTL } set_cosmetic_tag = TTL_nomad_cosmetic_2 }
 	if = { limit = { TAG = BKW } set_cosmetic_tag = BKW_nomad_cosmetic_2 }
-	if = { limit = { TAG = BKM } set_cosmetic_tag = BKM_nomad_cosmetic_2 }
-	if = { limit = { TAG = NYG } set_cosmetic_tag = NYG_nomad_cosmetic_2 }
 	if = { limit = { TAG = TOR } set_cosmetic_tag = TOR_nomad_cosmetic_2 }
 	if = { limit = { TAG = BNY } set_cosmetic_tag = BNY_nomad_cosmetic_2 }
-	if = { limit = { TAG = BOR } set_cosmetic_tag = BOR_nomad_cosmetic_2 }
 	if = { limit = { TAG = KKY } set_cosmetic_tag = KKY_nomad_cosmetic_2 }
 	if = { limit = { TAG = LGR } set_cosmetic_tag = LGR_nomad_cosmetic_2 }
 	if = { limit = { TAG = LUO } set_cosmetic_tag = LUO_nomad_cosmetic_2 }
@@ -368,15 +356,11 @@ afr_tribal_cosmetic_tag_drop_2_scripted_effect = {
 				has_cosmetic_tag = BUR_tribal_cosmetic_2
 				has_cosmetic_tag = KRG_tribal_cosmetic_2
 				has_cosmetic_tag = BUG_tribal_cosmetic_2
-				has_cosmetic_tag = MSI_tribal_cosmetic_2
 				has_cosmetic_tag = TIP_tribal_cosmetic_2
 				has_cosmetic_tag = TTL_tribal_cosmetic_2
 				has_cosmetic_tag = BKW_tribal_cosmetic_2
-				has_cosmetic_tag = BKM_tribal_cosmetic_2
-				has_cosmetic_tag = NYG_tribal_cosmetic_2
 				has_cosmetic_tag = TOR_tribal_cosmetic_2
 				has_cosmetic_tag = BNY_tribal_cosmetic_2
-				has_cosmetic_tag = BOR_tribal_cosmetic_2
 				has_cosmetic_tag = KKY_tribal_cosmetic_2
 				has_cosmetic_tag = LGR_tribal_cosmetic_2
 				has_cosmetic_tag = LUO_tribal_cosmetic_2

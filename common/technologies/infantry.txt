@@ -1415,7 +1415,7 @@ technologies = {
 
 	tech_infantry_flintlock_pistol = {
 
-		category_front_line = {
+		ranged_weapons_equipment = {
 			soft_attack = 0.02
 		}
 
@@ -1475,7 +1475,7 @@ technologies = {
 
 	tech_infantry_caplock_pistol = {
 
-		category_front_line = {
+		ranged_weapons_equipment = {
 			soft_attack = 0.02
 		}
 
@@ -1505,7 +1505,7 @@ technologies = {
 
 	hand_revolvers = {
 
-		category_front_line = {
+		ranged_weapons_equipment = {
 			soft_attack = 0.02
 		}
 
@@ -1544,7 +1544,7 @@ technologies = {
 
 	improved_handguns = {
 
-		category_front_line = {
+		ranged_weapons_equipment = {
 			soft_attack = 0.02
 		}
 
@@ -1583,7 +1583,7 @@ technologies = {
 
 	tech_infantry_standardised_revolvers = {
 
-		category_front_line = {
+		ranged_weapons_equipment = {
 			soft_attack = 0.02
 		}
 
@@ -1622,7 +1622,7 @@ technologies = {
 
 	tech_infantry_semi_auto_experimentation = {
 
-		category_front_line = {
+		ranged_weapons_equipment = {
 			soft_attack = 0.02
 		}
 
@@ -1655,7 +1655,7 @@ technologies = {
 
 	tech_infantry_semi_auto_c93 = {
 
-		category_front_line = {
+		ranged_weapons_equipment = {
 			soft_attack = 0.05
 		}
 
@@ -1692,7 +1692,7 @@ technologies = {
 
 	tech_infantry_large_capacity_pistol_mags = {
 
-		category_front_line = {
+		ranged_weapons_equipment = {
 			soft_attack = 0.02
 			breakthrough = 0.04
 		}
@@ -1726,7 +1726,7 @@ technologies = {
 
 	tech_infantry_locked_breech_action = {
 
-		category_front_line = {
+		ranged_weapons_equipment = {
 			soft_attack = 0.02
 		}
 
@@ -1759,7 +1759,7 @@ technologies = {
 
 	tech_infantry_improved_handgun_designs = {
 
-		category_front_line = {
+		ranged_weapons_equipment = {
 			soft_attack = 0.02
 		}
 
@@ -1792,7 +1792,7 @@ technologies = {
 
 	tech_infantry_infantry_pistols = {
 
-		category_front_line = {
+		ranged_weapons_equipment = {
 			soft_attack = 0.04
 			breakthrough = 0.02
 		}
@@ -1825,7 +1825,7 @@ technologies = {
 
 	tech_infantry_trench_equipment = {
 
-		category_front_line = {
+		ranged_weapons_equipment = {
 			defense = 0.04
 			soft_attack = 0.01
 		}

@@ -2545,10 +2545,6 @@ afr_rrp_african_expeditions={
 						state = 547
 					}
 					AND={
-						FROM ={tag = BOR}
-						state = 913
-					}
-					AND={
 						FROM ={tag = TKN}
 						state = 915
 					}

@@ -55,15 +55,15 @@ sub_units = {
 
 		# Equipment needed to produce this unit. Unit won't be available until the nation has this equipment
 		need = {
-			<equipment>
+			# <equipment>
 		}
 
 		# Modifiers control the stats of the unit. More detail under the Stats section.
-		<modifiers>
+		# <modifiers>
 
 		# Modifiers that occur only in specific terrain
-		<terrain> = {
-				<modifiers>
-		}
+		# <terrain> = {
+		# 		<modifiers>
+		# }
 	}
 }

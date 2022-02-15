@@ -1057,7 +1057,8 @@ technologies = {
 		}
 
 		categories = {
-			armor_vehcicles_tech			motorized_vehicles_tech
+			armor_vehcicles_tech
+			motorized_vehicles_tech
 		}
 	}
 
@@ -1113,7 +1114,8 @@ technologies = {
 		}
 
 		categories = {
-			armor_vehcicles_tech			motorized_vehicles_tech
+			armor_vehcicles_tech
+			motorized_vehicles_tech
 		}
 	}
 
@@ -1171,7 +1173,8 @@ technologies = {
 		}
 
 		categories = {
-			armor_vehcicles_tech			motorized_vehicles_tech
+			armor_vehcicles_tech
+			motorized_vehicles_tech
 		}
 	}
 	armor_tech_truck_prototypes = {
@@ -1231,7 +1234,8 @@ technologies = {
 		}
 
 		categories = {
-			armor_vehcicles_tech			motorized_vehicles_tech
+			armor_vehcicles_tech
+			motorized_vehicles_tech
 		}
 	}
 	armor_tech_early_military_truck = {
@@ -1299,7 +1303,8 @@ technologies = {
 		}
 
 		categories = {
-			armor_vehcicles_tech			motorized_vehicles_tech
+			armor_vehcicles_tech
+			motorized_vehicles_tech
 		}
 	}
 	armor_tech_early_trucks = {
@@ -1342,7 +1347,6 @@ technologies = {
 				NOT = {
 					has_tech_bonus = { category = armor }
 					has_tech_bonus = { category = motorized_vehicles_tech }
-					has_tech_bonus = { category = motorized_vehicles_tech }
 				}
 			}
 
@@ -1358,7 +1362,7 @@ technologies = {
 		}
 
 		categories = {
-			armor_vehcicles_tech			motorized_vehicles_tech
+			armor_vehcicles_tech
 			motorized_vehicles_tech
 		}
 	}
@@ -1577,7 +1581,8 @@ technologies = {
 		}
 
 		categories = {
-			armor_vehcicles_tech			motorized_vehicles_tech
+			armor_vehcicles_tech
+			motorized_vehicles_tech
 		}
 	}
 	armor_tech_armored_car_2 = {
@@ -1624,7 +1629,8 @@ technologies = {
 		}
 
 		categories = {
-			armor_vehcicles_tech			motorized_vehicles_tech
+			armor_vehcicles_tech
+			motorized_vehicles_tech
 		}
 	}
 	armor_tech_early_motorized = {
@@ -1651,7 +1657,6 @@ technologies = {
 				NOT = {
 					has_tech_bonus = { category = armor }
 					has_tech_bonus = { category = motorized_vehicles_tech }
-					has_tech_bonus = { category = motorized_vehicles_tech }
 				}
 			}
 
@@ -1672,7 +1677,7 @@ technologies = {
 		}
 
 		categories = {
-			armor_vehcicles_tech			motorized_vehicles_tech
+			armor_vehcicles_tech
 			motorized_vehicles_tech
 		}
 	}
