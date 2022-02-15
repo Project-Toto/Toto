@@ -2,7 +2,7 @@ state={
 	id=635
 	name="STATE_635"
 	provinces={
-		1450 2197 2316 5021 5271 5277 10271 10282
+		1450 10282
 	}
 	history={
 		owner=TES

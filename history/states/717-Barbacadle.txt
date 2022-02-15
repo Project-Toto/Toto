@@ -5,7 +5,7 @@ state={
 		263 322 481 1111 1314 2846 2923 3049 4792 4965 5808 6310 6674 6793 8590 8628 8672 8685 8876 
 	}
 	history={
-		owner = TES
+		owner = MAJ
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

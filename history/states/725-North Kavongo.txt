@@ -1,11 +1,11 @@
 state={
-	id=721
-	name="STATE_721"
+	id=725
+	name="STATE_725"
 	provinces={
-		802 1009 2417 2503 2907 3130 3597 4354 5509 5952 6247 8734 8753 8794 8853 
+		588 1398 4603 10318 
 	}
 	history={
-		owner = HRR
+		owner = TES
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

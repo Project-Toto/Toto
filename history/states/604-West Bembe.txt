@@ -6,7 +6,7 @@ state={
 		3016 3374 4731 5975 10126 10134 10135 10141
 	}
 	history = {
-		owner = OVD
+		owner = NDL
 	}
 	manpower=1
 	state_category=town

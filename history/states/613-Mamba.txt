@@ -5,7 +5,7 @@ state={
 		3757 4234 4302 4739 6750 6820 10140 10157 10170 10181
 	}
 	history = {
-		owner = OVD
+		owner = SBU
 	}
 	manpower=1
 	state_category=town

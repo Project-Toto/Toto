@@ -5,7 +5,7 @@ state={
 		737 1156 1158 1820 2066 2421 2471 6781 8436 8537 
 	}
 	history={
-		owner = ETH
+		owner = EGY
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

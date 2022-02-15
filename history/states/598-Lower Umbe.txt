@@ -6,7 +6,7 @@ state={
 		501 1119 3508 5941 5992 6248 6662 10054 10081
 	}
 	history = {
-		owner = ANG
+		owner = OVD
 	}
 	manpower=1
 	state_category=town

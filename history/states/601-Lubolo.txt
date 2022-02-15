@@ -6,7 +6,7 @@ state={
 		1011 1358 5308 5602 6302 6851 10098 10099 10118
 	}
 	history = {
-		owner = OVD
+		owner = NGO
 	}
 	manpower=1
 	state_category=town
