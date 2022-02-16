@@ -5,7 +5,7 @@ state={
 		863 
 	}
 	history={
-		owner = TES
+		owner = UUL
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

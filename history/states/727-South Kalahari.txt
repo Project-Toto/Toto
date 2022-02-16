@@ -1,14 +1,14 @@
 state={
-	id=709
-	name="STATE_709"
+	id=727
+	name="STATE_727"
 	provinces={
-		334 690 950 2311 2609 2862 5372 
+		54 732 1065 1310 2633 6652 10504 10540 
 	}
-	history={
+	history = {
 		owner = NMA
 	}
 	manpower=1
+	state_category = town
 	buildings_max_level_factor=1.000
-	state_category=town
 	local_supplies=0.000
 }

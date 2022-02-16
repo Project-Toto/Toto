@@ -5,7 +5,7 @@ state={
 		1153 1169 1641 3602 3646 3891 7118 7133 7180 9950 9954 9968 9983 9992
 	}
 	history = {
-		owner = KBD
+		owner = KSJ
 	}
 	manpower=1
 	state_category=town

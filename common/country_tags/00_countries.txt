@@ -422,11 +422,13 @@
   SBU = "countries/Sambu.txt"
   WBU = "countries/Wambu.txt"
   UUK = "countries/Uukwangali.txt"
+  UNN = "countries/Uninh.txt"
   
  # Kalahari
    # graphical_culture = african_gfx
    # graphical_culture_2d = african_2d
   AHR = "countries/Herero.txt"
+  DMA = "countries/Damara.txt"
   FWE = "countries/Fwe.txt"
   KKO = "countries/Kakongo.txt"
   NMA = "countries/Nama.txt"
@@ -546,7 +548,14 @@
    # graphical_culture = african_gfx
    # graphical_culture_2d = african_2d
   ETH = "countries/Ethiopia.txt"
+  AUK = "countries/Annuak.txt"
+  AAR = "countries/Aaris.txt"
+  BNC = "countries/Bench.txt"
   AWS = "countries/Awsa.txt"
+  DIR = "countries/Dir.txt"
+  HBR = "countries/Habr Yunis.txt"
+  KAF = "countries/Kaffa.txt"
+  ISA = "countries/Isaaq.txt"
   HRR = "countries/Harar.txt"
   ORO = "countries/Oromo.txt"
   SID = "countries/Sidama.txt"

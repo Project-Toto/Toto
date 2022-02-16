@@ -6,7 +6,7 @@ state={
 		978 1607 2938 3196 4339 4349 5401 5582 9830 9838 9856 9863 9884 9890 9921 9925 9943
 	}
 	history = {
-		owner = KBD
+		owner = KSJ
 	}
 	manpower=1
 	state_category=town

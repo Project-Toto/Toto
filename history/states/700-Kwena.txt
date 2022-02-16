@@ -1,11 +1,15 @@
+
 state={
 	id=700
 	name="STATE_700"
-	provinces={
-		1700 4306 10535 
-	}
+
 	history={
 		owner = TES
+
+	}
+
+	provinces={
+		1700 4306 10535 10553 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

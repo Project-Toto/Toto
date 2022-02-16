@@ -6,7 +6,7 @@ state={
 		1881 2840 2924 3100 9963 9975
 	}
 	history = {
-		owner = KON
+		owner = KBD
 	}
 	manpower=1
 	state_category=town
