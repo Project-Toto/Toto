@@ -1,0 +1,33 @@
+spriteTypes = {
+	###!IMPORTANT INFORMATION ###
+	### BEFORE ADDING A NEW SPRITETYPE FOR A COUNTRY SEARCH FOR (# countryname) SO THE FILES ARE IN ORDER
+	#### Generic continuous goal icons
+	SpriteType = {
+		name = "GFX_goal_focus_tun_the_great_prince"
+		texturefile = "gfx/interface/goals/tunisia/focus_tun_the_great_prince.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_focus_tun_the_reformist"
+		texturefile = "gfx/interface/goals/tunisia/focus_tun_the_reformist.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_focus_tun_befriend_turkey"
+		texturefile = "gfx/interface/goals/tunisia/focus_tun_befriend_turkey.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_focus_tun_in_the_name_of_allah"
+		texturefile = "gfx/interface/goals/tunisia/focus_tun_in_the_name_of_allah.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_tun_slavery_ban"
+		texturefile = "gfx/interface/goals/tunisia/focus_tun_slavery_ban.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_tribal_slavery"
+		texturefile = "gfx/interface/goals/focus_tribal_slavery.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_tun_bad_economy"
+		texturefile = "gfx/interface/goals/tunisia/focus_tun_bad_economy.png"
+	}
+}

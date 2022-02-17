@@ -440,6 +440,11 @@ afr_prosperity_mechanic_category = {
 		afr_is_tribal = yes
 	}
 }
+tunisia_revolt_category = {
+	icon = decision_tun_revolt.dds
+	allowed = { tag = TUN }
+	priority = 20
+}
 
 
 

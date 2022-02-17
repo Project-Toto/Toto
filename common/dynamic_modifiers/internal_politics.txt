@@ -1,0 +1,5 @@
+TUN_Mejba_Revolt_Modifier = {
+	icon = decision_tun_revolt.dds
+	enable = { always = yes }
+	stability_factor = -0.2
+}
