@@ -1,0 +1,14 @@
+state={
+	id=762
+	name="STATE_762"
+	provinces={
+		1945 2778 3559 4081 4107 5844 10117 10148 10172
+	}
+	history = {
+		owner = MKM
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,14 @@
+state={
+	id=823
+	name="STATE_823"
+	provinces={
+		1489 2467 2739 2801 3324 3364 3819 4220 4393 4569 4687 4693 4853 5017 5148 5757 6028 6037 10421 10455 10459 10466 10513 10517
+	}
+	history = {
+		owner = POR
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

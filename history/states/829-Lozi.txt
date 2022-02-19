@@ -1,0 +1,14 @@
+state={
+	id=829
+	name="STATE_829"
+	provinces={
+		368 1467 2162 2408 2647 4130 6226 6697 10250 10254 10266 10268
+	}
+	history = {
+		owner = LOZ
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

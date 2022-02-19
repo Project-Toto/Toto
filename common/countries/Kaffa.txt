@@ -1,0 +1,4 @@
+color = rgb { 212 30 91 }
+color_ui = rgb { 212 30 91 }
+graphical_culture = african_gfx
+graphical_culture_2d = african_2d

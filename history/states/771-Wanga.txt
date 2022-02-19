@@ -1,0 +1,18 @@
+
+state={
+	id=771
+	name="STATE_771"
+
+	history={
+		owner = LUO
+
+	}
+
+	provinces={
+		842 2130 2243 3753 3995 4114 4328 4760 5392 5480 5500 5878 5908 5934 9597 9605 9607 9623 9635 9647 9649 9650 9657 9660 9668 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

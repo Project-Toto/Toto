@@ -1,0 +1,14 @@
+state={
+	id=781
+	name="STATE_781"
+	provinces={
+		1724 2642 3022 3157 3403 3634 4808 4870 5433 5444 7112 8902 8915 8947 8954 8981 9007 9012 9032
+	}
+	history = {
+		owner = JGR
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

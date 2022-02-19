@@ -1,0 +1,15 @@
+
+state={
+	id=746
+	name="STATE_746"
+	provinces={
+		1239 1388 3124 3732 3948 5603 6459 7226 9641 9674 9682
+	}
+	history = {
+		owner = NKO
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

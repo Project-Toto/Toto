@@ -1,0 +1,15 @@
+
+state={
+	id=790
+	name="STATE_790"
+	provinces={
+		638 1088 1200 1349 1649 2660 3306 4652 9436 9493 9503
+	}
+	history = {
+		owner = TKN
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

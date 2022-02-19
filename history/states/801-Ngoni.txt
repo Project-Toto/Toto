@@ -1,0 +1,15 @@
+
+state={
+	id=801
+	name="STATE_801"
+	provinces={
+		1485 1825 2956 3412 4241 4984 5066 5442 5900 6260 6280 6628 10130 10132 10139 10142 10149 10166 10171 10183
+	}
+	history = {
+		owner = WYO
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

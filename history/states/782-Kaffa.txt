@@ -1,0 +1,14 @@
+state={
+	id=782
+	name="STATE_782"
+	provinces={
+		1557 1745 2028 3013 3358 3751 9212 9239 9253
+	}
+	history = {
+		owner = KAF
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

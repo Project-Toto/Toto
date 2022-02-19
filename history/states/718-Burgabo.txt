@@ -5,7 +5,7 @@ state={
 		252 751 1403 1441 1741 2635 3220 5578 5761 7099 7135 9624 9632 9645 9652 9658 9661 9676 
 	}
 	history={
-		owner = TES
+		owner = AWR
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

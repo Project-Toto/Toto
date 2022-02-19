@@ -1,0 +1,15 @@
+
+state={
+	id=779
+	name="STATE_779"
+	provinces={
+		472 1842 2942 3132 4216 5019 9062 9069 9106
+	}
+	history = {
+		owner = GOM
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

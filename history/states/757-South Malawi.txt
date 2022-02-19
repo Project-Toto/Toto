@@ -1,0 +1,14 @@
+state={
+	id=757
+	name="STATE_757"
+	provinces={
+		3341 4488 4682 5396 5611 6808 6858 6939 7182 10310 10314 10320 10327 10335 10339 10347 10348
+	}
+	history = {
+		owner = POR
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

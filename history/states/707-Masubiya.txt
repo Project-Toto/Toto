@@ -1,11 +1,15 @@
+
 state={
 	id=707
 	name="STATE_707"
-	provinces={
-		4024 
-	}
+
 	history={
-		owner = TES
+		owner = MAY
+
+	}
+
+	provinces={
+		1102 1893 4310 5046 5854 10341 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

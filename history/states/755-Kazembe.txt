@@ -1,0 +1,18 @@
+
+state={
+	id=755
+	name="STATE_755"
+
+	history={
+		owner = TES
+
+	}
+
+	provinces={
+		115 987 1859 2781 3135 3180 3247 3515 4376 4595 4745 5032 5361 5374 5886 5906 6097 6164 6531 6868 10115 10123 10144 10156 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

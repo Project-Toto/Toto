@@ -1,0 +1,14 @@
+state={
+	id=822
+	name="STATE_822"
+	provinces={
+		218 552 605 1510 2499 3089 4067 4705 4894 4923 5151 5297 5305 5476 5979 6252 6649 10524 10528 10543 10549 10562 10566 10571
+	}
+	history = {
+		owner = POR
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

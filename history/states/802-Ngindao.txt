@@ -1,0 +1,15 @@
+
+state={
+	id=802
+	name="STATE_802"
+	provinces={
+		1453 2125 3643 4887 6041 10096 10110 10120
+	}
+	history = {
+		owner = NGD
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

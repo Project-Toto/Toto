@@ -1,0 +1,14 @@
+state={
+	id=770
+	name="STATE_770"
+	provinces={
+		1925 4617 6941 6946 7015 7117 9566 9580 9588 9610 9617
+	}
+	history = {
+		owner = BUS
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

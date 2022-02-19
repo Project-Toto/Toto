@@ -1,0 +1,15 @@
+
+state={
+	id=748
+	name="STATE_748"
+	provinces={
+		2271 2706 2835 4112 4776 4904 5473 6387 6764 6945 7247 9671 9675 9684 9692 9693 9700 9727 9731
+	}
+	history = {
+		owner = KRG
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

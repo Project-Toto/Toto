@@ -1,0 +1,15 @@
+
+state={
+	id=734
+	name="STATE_734"
+	provinces={
+		686 1837 2147 2833 3005 5235 6826 10603
+	}
+	history = {
+		owner = SWZ
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

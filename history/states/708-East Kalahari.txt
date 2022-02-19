@@ -5,7 +5,7 @@ state={
 		94 224 810 835 1709 6000 6780 10485 
 	}
 	history={
-		owner = BAT
+		owner = HER
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

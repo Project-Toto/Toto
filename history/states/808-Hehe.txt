@@ -1,0 +1,15 @@
+
+state={
+	id=808
+	name="STATE_808"
+	provinces={
+		769 1161 1456 2176 2901 3362 3743 4171 4365 5605 5864 6103 6458 6665 10007 10009 10018 10027 10044 10049 10063 10073
+	}
+	history = {
+		owner = HEH
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,14 @@
+state={
+	id=794
+	name="STATE_794"
+	provinces={
+		295 470 1087 1764 1830 2026 2922 4821 6399 6475 6592 9644 9697
+	}
+	history = {
+		owner = MMA
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,14 @@
+state={
+	id=769
+	name="STATE_769"
+	provinces={
+		622 2009 4232 4650 4893 5302 5885 6467 6555 6573 6873 9552 9553 9564 9578 9579 9595 9596 9603 9606
+	}
+	history = {
+		owner = BUS
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

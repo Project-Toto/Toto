@@ -1,0 +1,15 @@
+
+state={
+	id=780
+	name="STATE_780"
+	provinces={
+		1432 5365 5567 5821 6004 9036 9040 9053 9094 9104
+	}
+	history = {
+		owner = JMM
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

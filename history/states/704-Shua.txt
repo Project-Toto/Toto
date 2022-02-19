@@ -6,7 +6,7 @@ state={
 		1168 1728 2264 10783 10784 
 	}
 	history={
-		owner = TES
+		owner = BAT
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

@@ -1,0 +1,14 @@
+state={
+	id=740
+	name="STATE_740"
+	provinces={
+		1084 3676 4029 5058 7055 10689 10690 10691
+	}
+	history = {
+		owner = TES
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

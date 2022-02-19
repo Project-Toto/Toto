@@ -1,0 +1,14 @@
+state={
+	id=799
+	name="STATE_799"
+	provinces={
+		1302 1786 2167 2396 2877 2988 3062 3203 3404 3563 4297 4344 4431 4458 5639 5689 5754 5835 5949 5986 6040 6094 6241 6933 9842 9851 9855 9864 9877 9891 9894 9911 9915 9931 9949 9951 9961 9964 9978
+	}
+	history = {
+		owner = NYW
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

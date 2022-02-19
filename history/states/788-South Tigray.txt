@@ -1,0 +1,14 @@
+state={
+	id=788
+	name="STATE_788"
+	provinces={
+		1332 1352 2065 5009 6020 6569 6997 8359 8363 8383
+	}
+	history = {
+		owner = ETH
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

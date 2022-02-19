@@ -1,0 +1,15 @@
+
+state={
+	id=778
+	name="STATE_778"
+	provinces={
+		3531 5056 7083 9201
+	}
+	history = {
+		owner = GRA
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,14 @@
+state={
+	id=773
+	name="STATE_773"
+	provinces={
+		1736 1844 3272 3724 5840 9642 9643 9670
+	}
+	history = {
+		owner = TES
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

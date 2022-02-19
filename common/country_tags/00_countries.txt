@@ -450,6 +450,9 @@
   BMG = "countries/Bamangwato.txt"
   BNG = "countries/Bangwaketse.txt"
   BOT = "countries/Botswana.txt"
+  KGT = "countries/Kgtala.txt"
+  KNG = "countries/Kalanga.txt"
+  KWE = "countries/Kwena.txt"
   NDE = "countries/Ndebele.txt"
   SAA = "countries/Saan.txt"
  # Cape
@@ -474,13 +477,17 @@
    # graphical_culture_2d = african_2d
   RHO = "countries/Rhodesia.txt"
   LOZ = "countries/Lozi.txt"
+  MMB = "countries/Momba.txt"
+  MTH = "countries/Mthwakazi.txt"
   ZAM = "countries/Zambia.txt"
   ZIM = "countries/Zimbabwe.txt"
 # SWAHILI COAST
  # Nyasaland
    # graphical_culture = african_gfx
    # graphical_culture_2d = african_2d
+  AGS = "countries/Angoshe.txt"
   GAZ = "countries/Gaza.txt"
+  MKM = "countries/Mkamanga.txt"
   MLW = "countries/Malawi.txt"
   MZB = "countries/Mozambique.txt"
   WYO = "countries/Wayao.txt"
@@ -488,12 +495,17 @@
    # graphical_culture = african_gfx
    # graphical_culture_2d = african_2d
   MRN = "countries/Merina.txt"
+  ONH = "countries/Onilahy.txt"
+  ZFM = "countries/Zafimanely.txt"
  # Tanganyika
    # graphical_culture = african_gfx
    # graphical_culture_2d = african_2d
-  HLO = "countries/Holoholo.txt"
+  BNA = "countries/Bena.txt"
+  HEH = "countries/Hehe.txt"
+  HLO = "countries/Holo.txt"
   KRG = "countries/Karangwe.txt"
   LGR = "countries/Luguru.txt"
+  NGD = "countries/Ngindao.txt"
   NYW = "countries/Nyamwezi.txt"
   SUK = "countries/Sukuma.txt"
   TGY = "countries/Tanganyika.txt"
@@ -515,13 +527,14 @@
   BUS = "countries/Busoga.txt"
   NKO = "countries/Ankore.txt"
   RWD = "countries/Rwanda.txt"
-  TOR = "countries/Torro.txt" # Uganda
+  TOR = "countries/Torro.txt"
   UGA = "countries/Uganda.txt"
  # Mombasa
    # graphical_culture = african_gfx
    # graphical_culture_2d = african_2d
   KEN = "countries/Kenya.txt"
-
+  AWR = "countries/Aweer.txt"
+  KJN = "countries/Kalenjin.txt"
   KKY = "countries/Kikuyu.txt"
   LUO = "countries/Wanga.txt"
   MAA = "countries/Maasai.txt"
@@ -534,6 +547,8 @@
    # graphical_culture = african_gfx
    # graphical_culture_2d = african_2d
   GLD = "countries/Geledi.txt"
+  HIA = "countries/Hiraab.txt"
+  HBY = "countries/Hobyo.txt"
   SOM = "countries/Somalia.txt"
  # Majerteen
    # graphical_culture = african_gfx
@@ -550,12 +565,20 @@
   ETH = "countries/Ethiopia.txt"
   AUK = "countries/Annuak.txt"
   AAR = "countries/Aaris.txt"
+  BLE = "countries/Bale.txt"
   BNC = "countries/Bench.txt"
   AWS = "countries/Awsa.txt"
   DIR = "countries/Dir.txt"
+  GAR = "countries/Garo.txt"
+  GOM = "countries/Gomma.txt"
+  GRA = "countries/Gera.txt"
+  GUM = "countries/Gumma.txt"
   HBR = "countries/Habr Yunis.txt"
   KAF = "countries/Kaffa.txt"
+  ILL = "countries/Illuabor.txt"
   ISA = "countries/Isaaq.txt"
+  JMM = "countries/Jimma.txt"
+  JGR = "countries/Janjero.txt"
   HRR = "countries/Harar.txt"
   ORO = "countries/Oromo.txt"
   SID = "countries/Sidama.txt"

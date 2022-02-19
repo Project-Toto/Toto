@@ -5,7 +5,7 @@ state={
 		1652 2446 3296 5967 5983 6306 7200 8844 8863 8887 9044 
 	}
 	history={
-		owner = ETH
+		owner = AUK
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

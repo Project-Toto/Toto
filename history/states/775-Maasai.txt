@@ -1,0 +1,18 @@
+
+state={
+	id=775
+	name="STATE_775"
+
+	history={
+		owner = MAA
+
+	}
+
+	provinces={
+		1696 3225 3568 5172 5382 6553 6906 9701 9702 9720 9729 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

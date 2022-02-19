@@ -1,0 +1,15 @@
+
+state={
+	id=828
+	name="STATE_828"
+	provinces={
+		894 1858 2600 3898 6345 6606
+	}
+	history = {
+		owner = LVL
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

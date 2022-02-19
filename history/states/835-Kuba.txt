@@ -1,0 +1,14 @@
+state={
+	id=835
+	name="STATE_835"
+	provinces={
+		64 1021 1295 1665 1748 2288 3040 3330 3554 4576 4593 4886 5138 5410 5834 6434 6713 9804 9808 9869 9873 9880
+	}
+	history = {
+		owner = KUB
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

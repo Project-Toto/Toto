@@ -1,0 +1,14 @@
+state={
+	id=767
+	name="STATE_767"
+	provinces={
+		1116 2039 2970 3529 4238 4388 6071 6424 7282 10293 10297 10306 10312 10315 10319 10337
+	}
+	history = {
+		owner = MMB
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

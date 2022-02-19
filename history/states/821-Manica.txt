@@ -1,0 +1,15 @@
+
+state={
+	id=821
+	name="STATE_821"
+	provinces={
+		602 716 747 1911 1951 1962 2476 2749 3101 3667 4473 5344 5776 5836 5917 6882 6893 7288 10392 10447 10461 10464 10471 10475 10481 10497 10503
+	}
+	history = {
+		owner = ROZ
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

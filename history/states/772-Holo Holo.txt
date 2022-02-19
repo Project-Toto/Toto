@@ -1,0 +1,14 @@
+state={
+	id=772
+	name="STATE_772"
+	provinces={
+		70 1109 1128 2721 6061 6739 6912 7095 9818 9827 9848 9866 9870 9871 9903 9918 9933
+	}
+	history = {
+		owner = HLO
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

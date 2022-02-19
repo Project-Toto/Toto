@@ -1,0 +1,14 @@
+state={
+	id=765
+	name="STATE_765"
+	provinces={
+		1372 4158 5222 6992 10499 10505 10508 10509 10518 10520 10525
+	}
+	history = {
+		owner = NDE
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

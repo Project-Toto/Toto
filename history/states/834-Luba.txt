@@ -1,0 +1,14 @@
+state={
+	id=834
+	name="STATE_834"
+	provinces={
+		578 1382 1597 1673 3476 3674 4265 4707 4885 5217 6224 6785 6791 10020 10037 10053 10055 10083 10102
+	}
+	history = {
+		owner = LUB
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

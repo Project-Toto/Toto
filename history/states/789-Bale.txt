@@ -1,0 +1,14 @@
+state={
+	id=789
+	name="STATE_789"
+	provinces={
+		673 839 1064 1288 1558 4143 4390 4456 4556 4578 5306 6897 6989 9057 9083 9099 9113 9130 9135 9169 
+	}
+	history = {
+		owner = BLE
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

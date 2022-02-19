@@ -1,0 +1,18 @@
+
+state={
+	id=752
+	name="STATE_752"
+
+	history={
+		owner = SUK
+
+	}
+
+	provinces={
+		204 891 1184 1598 2449 2852 3448 3688 4252 4377 4489 5041 5546 5774 5802 5810 6929 7102 7295 9728 9738 9744 9745 9758 9761 9766 9785 9792 9799 9807 9812 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

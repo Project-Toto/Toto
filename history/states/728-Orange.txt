@@ -1,0 +1,15 @@
+
+state={
+	id=728
+	name="STATE_728"
+	provinces={
+		114 399 551 1045 1106 2347 2433 3895 4467 4547 4769 4930 5211 6836 10605 10618
+	}
+	history = {
+		owner = OFS
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

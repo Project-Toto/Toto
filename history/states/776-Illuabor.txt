@@ -1,0 +1,14 @@
+state={
+	id=776
+	name="STATE_776"
+	provinces={
+		1834 3043 3167 3897 4501 5074 6408 9068
+	}
+	history = {
+		owner = ILL
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

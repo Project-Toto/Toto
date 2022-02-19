@@ -1,0 +1,14 @@
+state={
+	id=751
+	name="STATE_751"
+	provinces={
+		1526 3537 4370 4526 4540 5047 5267 5579 5598 6584 7029 9521 9523 9540 9546 9549 9550 9577
+	}
+	history = {
+		owner = BNY
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

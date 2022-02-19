@@ -1,13 +1,18 @@
+
 state={
 	id=154
 	name="STATE_154"
-	provinces={
-		1445 2269 2345 2347 4726 5969 6577 10632 10646 10647 10650 10659
-	}
-	state_category=town
+
 	history={
-		owner=TES
+		owner = SOT
+
+	}
+
+	provinces={
+		1445 4559 6577 10650 10653 10659 10666 10671 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
 }

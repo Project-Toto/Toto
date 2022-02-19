@@ -1,0 +1,14 @@
+state={
+	id=807
+	name="STATE_807"
+	provinces={
+		2643 2967 3084 10086 10092 10097
+	}
+	history = {
+		owner = BNA
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,15 @@
+
+state={
+	id=737
+	name="STATE_737"
+	provinces={
+		734 775 3422 3677 4724
+	}
+	history = {
+		owner = TRV
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

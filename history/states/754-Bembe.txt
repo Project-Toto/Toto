@@ -1,0 +1,14 @@
+state={
+	id=754
+	name="STATE_754"
+	provinces={
+		174 575 1976 2191 2237 2470 3985 4589 5443 5712 6728
+	}
+	history = {
+		owner = TES
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

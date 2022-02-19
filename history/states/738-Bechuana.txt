@@ -1,0 +1,14 @@
+state={
+	id=738
+	name="STATE_738"
+	provinces={
+		186 397 539 608 1927 5386 6278 10569 10602
+	}
+	history = {
+		owner = NMA
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

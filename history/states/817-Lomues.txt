@@ -1,0 +1,14 @@
+state={
+	id=817
+	name="STATE_817"
+	provinces={
+		405 1401 1405 2341 2462 3134 3147 3694 3987 4076 4240 5263 5395 5574 5633 6063 6916 6977 10305 10313 10321 10329 10330 10349 10362 10389
+	}
+	history = {
+		owner = KND
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

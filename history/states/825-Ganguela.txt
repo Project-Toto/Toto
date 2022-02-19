@@ -1,0 +1,14 @@
+state={
+	id=825
+	name="STATE_825"
+	provinces={
+		1194 1231 1480 4341 10265
+	}
+	history = {
+		owner = BTS
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

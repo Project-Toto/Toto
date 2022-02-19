@@ -5,7 +5,7 @@ state={
 		898 1018 1535 3354 3873 5273 6075 6615 9314 9363 9388 
 	}
 	history={
-		owner = ALZ
+		owner = TKN
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

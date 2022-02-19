@@ -1,0 +1,14 @@
+state={
+	id=795
+	name="STATE_795"
+	provinces={
+		777 809 1822 2018 3366 5266 6313 9942 9946 9965
+	}
+	history = {
+		owner = UJJ
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

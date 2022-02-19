@@ -1,0 +1,18 @@
+
+state={
+	id=793
+	name="STATE_793"
+
+	history={
+		owner = KKY
+
+	}
+
+	provinces={
+		328 683 757 998 1242 1988 2196 3277 3740 4162 4337 4746 5007 5223 5572 6289 6291 6340 7077 9589 9594 9622 9636 9651 9659 9666 9667 9680 9690 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

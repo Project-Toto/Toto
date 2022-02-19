@@ -1,0 +1,14 @@
+state={
+	id=750
+	name="STATE_750"
+	provinces={
+		276 330 1066 2257 2332 2626 2812 3299 4111 4211 4268 4759 5863 5866 5892 5985 6128 6160 6162 6374 6733 9506 9572 9583 9584 9587 9593 9598 9601 9614 9618 9626
+	}
+	history = {
+		owner = TOR
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

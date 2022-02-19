@@ -6,7 +6,7 @@ state={
 		73 634 1034 1373 3599 3620 4066 5511 6537 9323 
 	}
 	history={
-		owner = ETH
+		owner = TKN
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

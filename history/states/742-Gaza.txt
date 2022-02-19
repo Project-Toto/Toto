@@ -1,0 +1,14 @@
+state={
+	id=742
+	name="STATE_742"
+	provinces={
+		68 98 320 1012 1193 2737 3139 3280 3460 3878 4159 4903 5078 5898 6428 6887 6979 10561 10578 10582 10587 10589 10591 10594 10600
+	}
+	history = {
+		owner = GAZ
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

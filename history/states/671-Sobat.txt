@@ -5,7 +5,7 @@ state={
 		904 1906 2909 3322 3501 4205 5707 6663 7246 9006 
 	}
 	history={
-		owner = ETH
+		owner = BNC
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

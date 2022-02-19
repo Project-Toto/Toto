@@ -1,0 +1,15 @@
+
+state={
+	id=749
+	name="STATE_749"
+	provinces={
+		342 3075 3251 4203 4697 5031 5795 6077 6325 6502 6629 7265 9574 9586 9591 9599 9600 9611 9615 9631 9638
+	}
+	history = {
+		owner = BUG
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

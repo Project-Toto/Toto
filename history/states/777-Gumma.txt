@@ -1,0 +1,14 @@
+state={
+	id=777
+	name="STATE_777"
+	provinces={
+		1223 3502 3705 9064 9086
+	}
+	history = {
+		owner = GUM
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

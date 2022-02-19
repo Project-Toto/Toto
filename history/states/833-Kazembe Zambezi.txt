@@ -1,0 +1,15 @@
+
+state={
+	id=833
+	name="STATE_833"
+	provinces={
+		144 168 1601 2478 2551 2722 4197 5767 10169 10176 10180 10204 10207 10216
+	}
+	history = {
+		owner = TES
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

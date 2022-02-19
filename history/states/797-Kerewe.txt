@@ -1,0 +1,18 @@
+
+state={
+	id=797
+	name="STATE_797"
+
+	history={
+		owner = TES
+
+	}
+
+	provinces={
+		883 1692 4937 7078 9678 9686 9689 9712 9716 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

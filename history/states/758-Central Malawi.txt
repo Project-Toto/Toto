@@ -1,0 +1,14 @@
+state={
+	id=758
+	name="STATE_758"
+	provinces={
+		452 2385 6101 7159 10261 10270 10288 10294
+	}
+	history = {
+		owner = WYO
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

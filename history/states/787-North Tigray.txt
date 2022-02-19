@@ -1,0 +1,15 @@
+
+state={
+	id=787
+	name="STATE_787"
+	provinces={
+		124 1675 2391 2439 2507 2891 3072 4261 4433 4647 4703 5456 8314 8320 8323 8327 8338 8340 8341 8347 8349
+	}
+	history = {
+		owner = ETH
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

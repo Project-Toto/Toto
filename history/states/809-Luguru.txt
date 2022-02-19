@@ -1,0 +1,14 @@
+state={
+	id=809
+	name="STATE_809"
+	provinces={
+		1198 2980 4656 4661 5064 5278 5515 10019 10033 10039 10060 10068 10069 10084
+	}
+	history = {
+		owner = LGR
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,14 @@
+state={
+	id=764
+	name="STATE_764"
+	provinces={
+		520 3368 6320 7050 10185 10192 10202 10212 10218 10220 10227
+	}
+	history = {
+		owner = MLW
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,15 @@
+
+state={
+	id=827
+	name="STATE_827"
+	provinces={
+		297 1705 5029 6013 10219 10255
+	}
+	history = {
+		owner = MBN
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,18 @@
+
+state={
+	id=756
+	name="STATE_756"
+
+	history={
+		owner = YEK
+
+	}
+
+	provinces={
+		505 642 851 937 2204 2261 2941 3441 4187 5530 6568 6821 9976 9989 9999 10014 10015 10071 10078 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

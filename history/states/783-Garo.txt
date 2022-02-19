@@ -1,0 +1,14 @@
+state={
+	id=783
+	name="STATE_783"
+	provinces={
+		868 3363 6007 6336 6604 6865 9131 9153 9204
+	}
+	history = {
+		owner = GAR
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

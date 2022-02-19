@@ -1,0 +1,15 @@
+
+state={
+	id=733
+	name="STATE_733"
+	provinces={
+		1309 1418 1751 2208 2345 3906 4726 5204 5748 5811 5940 5961 5969 5993 6005 6591 6611 6802 10617 10632 10644 10646 10647 10656 10657 10665 10675 10677 10688
+	}
+	history = {
+		owner = NAT
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
