@@ -1,0 +1,14 @@
+state={
+	id=865
+	name="STATE_865"
+	provinces={
+		1131 1849 1856 2112 2152 2469 2537 7233 7805 7828
+	}
+	history={
+		owner=BAY
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -65,6 +65,8 @@
    # graphical_culture = middle_eastern_gfx
    # graphical_culture_2d = middle_eastern_2d
   ASY = "countries/Assyria.txt"
+  ANA = "countries/Anazzah.txt"
+  DHU = "countries/Dhufayr.txt"
   IRQ = "countries/Iraq.txt"
   KUW = "countries/Kuwait.txt"
  # Syria
@@ -75,8 +77,12 @@
  # Palestine
    # graphical_culture = middle_eastern_gfx
    # graphical_culture_2d = middle_eastern_2d
+  BSK = "countries/Bani Skahr.txt"
+  BAY = "countries/Bani Atiya.txt"
   ERZ = "countries/Israel.txt"
+  HUW = "countries/Huwaitat.txt"
   PAL = "countries/Palestine.txt"
+  SHR = "countries/Shararat.txt"
   JOR = "countries/Jordan.txt"
 # ARABIA REGION
  # Hejaz

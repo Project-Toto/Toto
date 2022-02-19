@@ -1,0 +1,15 @@
+
+state={
+	id=864
+	name="STATE_864"
+	provinces={
+		624 1455 1773 3861 7258
+	}
+	history={
+		owner=SHR
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
