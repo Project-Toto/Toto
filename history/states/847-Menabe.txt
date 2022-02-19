@@ -1,0 +1,14 @@
+state={
+	id=847
+	name="STATE_847"
+	provinces={
+		247 393 567 720 739 2529 3058 3565 5055 6095 6843 10515 10523 10529 10541
+	}
+	history={
+		owner=AMB
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -5,7 +5,7 @@ state={
 		3533 3974 6824 10779
 	}
 	history = {
-		owner = FRA
+		owner = GAB
 	}
 	manpower=1
 	state_category=town

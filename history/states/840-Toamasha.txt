@@ -1,0 +1,14 @@
+state={
+	id=840
+	name="STATE_840"
+	provinces={
+		561 722 1209 2747 2984 3326 3392 3742 4098 4423 4630 4935 4987 4990 5899 6056 6119 6321 6398 6539 6716 6786 6862 7084 10457 10462 10476 10477 10489 10495 10506 10507 10511 10512 10514
+	}
+	history={
+		owner=MRN
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

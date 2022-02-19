@@ -1,0 +1,14 @@
+state={
+	id=845
+	name="STATE_845"
+	provinces={
+		1167 1199 2711 3544 5140 5494 6270 10624 10626 10630 10634 10635 10637 10641
+	}
+	history={
+		owner=ZPI
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,14 @@
+state={
+	id=854
+	name="STATE_854"
+	provinces={
+		2178 4088 4730 4942 5491 6311 9463 9466 9485 9495 9516
+	}
+	history={
+		owner=MNU
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

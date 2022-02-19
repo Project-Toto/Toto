@@ -1,0 +1,14 @@
+state={
+	id=844
+	name="STATE_844"
+	provinces={
+		2382 3133 4716 5177 10636 10642 10645 10654 10658 10667
+	}
+	history={
+		owner=ONH
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

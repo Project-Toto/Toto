@@ -5,7 +5,7 @@ state={
 		318 774 942 1396 1913 1960 4537 6958
 	}
 	history={
-		owner=CKW
+		owner=LUN
 	}
 	state_category=town
 	manpower=1

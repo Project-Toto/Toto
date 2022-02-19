@@ -44,7 +44,7 @@ sub_units = {
 		}
 
 		# Equipment that is required for this unit. Used when active = no
-		essential = {
+		need = {
 			melee_arms_equipment = 20
 			ranged_arms_equipment = 80
 			camelry_equipment = 40
@@ -54,11 +54,10 @@ sub_units = {
 		}
 
 		# Equipment needed to produce this unit. Unit won't be available until the nation has this equipment
-		need = {
+		essential = {
 			ranged_arms_equipment
 			camelry_equipment
 			supply_equipment
-			clothes_equipment
 		}
 
 		# Modifiers control the stats of the unit. More detail under the Stats section.

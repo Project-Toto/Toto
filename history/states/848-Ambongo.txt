@@ -1,0 +1,14 @@
+state={
+	id=848
+	name="STATE_848"
+	provinces={
+		641 1174 2190 3319 3555 5376 6133 6484 10435 10442 10453 10463
+	}
+	history={
+		owner=AMB
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

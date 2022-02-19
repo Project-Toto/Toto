@@ -1,0 +1,15 @@
+
+state={
+	id=838
+	name="STATE_838"
+	provinces={
+		771 3256 4636 5355 5499 5592 6383 10296 10302 10303 10309 10317 10342 10344
+	}
+	history={
+		owner=MAD
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

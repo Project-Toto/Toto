@@ -378,6 +378,7 @@
   BMM = "countries/Bamum.txt"
   BET = "countries/Beti.txt"
   BLU = "countries/Bulu.txt"
+  EQT = "countries/Equator.txt"
   FNG = "countries/Fang.txt"
   GAB = "countries/Gabon.txt"
   GBG = "countries/Gbagyi.txt"
@@ -477,6 +478,7 @@
    # graphical_culture_2d = african_2d
   RHO = "countries/Rhodesia.txt"
   LOZ = "countries/Lozi.txt"
+  BBA = "countries/Bemba.txt"
   MMB = "countries/Momba.txt"
   MTH = "countries/Mthwakazi.txt"
   ZAM = "countries/Zambia.txt"
@@ -487,6 +489,7 @@
    # graphical_culture_2d = african_2d
   AGS = "countries/Angoshe.txt"
   GAZ = "countries/Gaza.txt"
+  MKD = "countries/Makonde.txt"
   MKM = "countries/Mkamanga.txt"
   MLW = "countries/Malawi.txt"
   MZB = "countries/Mozambique.txt"
@@ -494,9 +497,13 @@
  # Madagascar
    # graphical_culture = african_gfx
    # graphical_culture_2d = african_2d
+  AMB = "countries/Ambongo.txt"
+  MAD = "countries/Madagascar.txt"
+  MKR = "countries/Masikoro.txt"
   MRN = "countries/Merina.txt"
   ONH = "countries/Onilahy.txt"
   ZFM = "countries/Zafimanely.txt"
+  ZPI = "countries/Zapisoro.txt"
  # Tanganyika
    # graphical_culture = african_gfx
    # graphical_culture_2d = african_2d
@@ -504,18 +511,38 @@
   HEH = "countries/Hehe.txt"
   HLO = "countries/Holo.txt"
   KRG = "countries/Karangwe.txt"
+  KRW = "countries/Kerewe.txt"
+  IKO = "countries/Ikoma.txt"
+  LGL = "countries/Langale.txt"
   LGR = "countries/Luguru.txt"
   NGD = "countries/Ngindao.txt"
   NYW = "countries/Nyamwezi.txt"
+  OMO = "countries/Omotik.txt"
+  PMB = "countries/Pimbwe.txt"
+  PNG = "countries/Pangwa.txt"
   SUK = "countries/Sukuma.txt"
   TGY = "countries/Tanganyika.txt"
+  TGW = "countries/Tongwe.txt"
+  UNY = "countries/Unyanyembe.txt"
   UJJ = "countries/Ujiji.txt"
+  WNJ = "countries/Wanj.txt"
   ZAN = "countries/Zanzibar.txt"
+  ZNK = "countries/Zanaki.txt"
  # West Rift
    # graphical_culture = african_gfx
    # graphical_culture_2d = african_2d
+  ALU = "countries/Alur.txt"
+  BHV = "countries/Buhavu.txt"
+  BSN = "countries/Busonga.txt"
+  BYW = "countries/Banyarwanda.txt"
+  BYU = "countries/Buyu.txt"
+  KBR = "countries/Kabare.txt"
   KND = "countries/Kunda.txt"
+  KZM = "countries/Kazembe.txt"
+  LEG = "countries/Lega.txt"
   LUB = "countries/Luba.txt"
+  MNU = "countries/Mangbetu.txt"
+  SNW = "countries/Songwe.txt"
   TIP = "countries/Tippu Tip.txt"
   YEK = "countries/Yeke.txt"
  # East Rift

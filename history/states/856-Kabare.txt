@@ -1,0 +1,15 @@
+
+state={
+	id=856
+	name="STATE_856"
+	provinces={
+		3511 4055 4425 5971 6019 9770 9776 9793 9816
+	}
+	history={
+		owner=KBR
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

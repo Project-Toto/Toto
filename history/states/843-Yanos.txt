@@ -1,0 +1,14 @@
+state={
+	id=843
+	name="STATE_843"
+	provinces={
+		631 1393 1504 1930 2886 4045 5796 10640 10648 10649 10651 10655 10663 10674
+	}
+	history={
+		owner=ZFM
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -2,14 +2,17 @@
 state={
 	id=743
 	name="STATE_743"
-	provinces={
-		819 1502 2382 3133 4716 5177 6393 6516 6543 7067 10636 10642 10645 10654 10658 10661 10667 10668 10670 10673 10685
-	}
-	history = {
+
+	history={
 		owner = ONH
+
+	}
+
+	provinces={
+		819 1502 6393 6516 6543 7067 10661 10668 10670 10673 10685 
 	}
 	manpower=1
-	state_category=town
 	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=0.000
 }

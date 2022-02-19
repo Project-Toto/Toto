@@ -1,0 +1,14 @@
+state={
+	id=859
+	name="STATE_859"
+	provinces={
+		38 821 2300 3874 4403 5198 5958 6462 7260
+	}
+	history={
+		owner=BYU
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

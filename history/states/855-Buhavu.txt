@@ -1,0 +1,15 @@
+
+state={
+	id=855
+	name="STATE_855"
+	provinces={
+		489 1560 2211 2658 3316 4316 4486 4878 5011 7252 9719 9721 9730 9737 9741 9743
+	}
+	history={
+		owner=BHV
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

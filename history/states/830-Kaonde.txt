@@ -6,7 +6,7 @@ state={
 		728 1029 1071 2693 4181 5116 5359 6414 6818 10211 10226
 	}
 	history = {
-		owner = TES
+		owner = KZM
 	}
 	manpower=1
 	state_category=town

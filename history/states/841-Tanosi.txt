@@ -1,0 +1,14 @@
+state={
+	id=841
+	name="STATE_841"
+	provinces={
+		1205 1730 2083 2104 3011 3768 4044 4146 4185 4437 4735 7064 10604 10608 10611 10612 10622 10625 10627 10633
+	}
+	history={
+		owner=MKR
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

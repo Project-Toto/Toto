@@ -1,0 +1,15 @@
+
+state={
+	id=837
+	name="STATE_837"
+	provinces={
+		926 2912 3039 3452 3624 4352 7220 10552 10564 10568
+	}
+	history={
+		owner=MRN
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,14 @@
+state={
+	id=861
+	name="STATE_861"
+	provinces={
+		591 633 818 1229 1484 2657 4165 4609 4635 4999 5458 5703 6146 6777 9874 9879 9889 9913 9926 9938 9956 
+	}
+	history={
+		owner=HLO
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -2,14 +2,17 @@
 state={
 	id=744
 	name="STATE_744"
-	provinces={
-		35 1504 1930 1934 2545 2886 4454 5119 5130 5796 6709 10640 10648 10651 10655 10663 10678 10679 10680 10683
-	}
-	history = {
+
+	history={
 		owner = ZFM
+
+	}
+
+	provinces={
+		35 1934 2545 4454 5119 5130 6709 10678 10679 10680 10683 
 	}
 	manpower=1
-	state_category=town
 	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=0.000
 }

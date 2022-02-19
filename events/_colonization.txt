@@ -1,0 +1,24 @@
+add_namespace = colonization
+
+state_event = {
+	id = colonization.1
+	hidden = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		SKT = { country_event = colonization.2 }
+	}
+}
+
+country_event = {
+	id = colonization.2
+	title = colonization.2.t
+	desc = colonization.2.d
+
+	is_triggered_only = yes
+
+	option = {
+		FROM = { transfer_state_to = SKT }
+	}
+}

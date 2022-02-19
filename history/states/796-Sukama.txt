@@ -4,6 +4,9 @@ state={
 	provinces={
 		4304 4466 5125 5239 5347 5562 5726 6597 6811 6909 9734 9757 9772 9796 9809 9825 9832 9841 9845
 	}
+	history={
+		owner = TES
+	}
 	manpower=1
 	state_category=town
 	buildings_max_level_factor=1.000

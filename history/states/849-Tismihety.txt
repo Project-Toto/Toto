@@ -1,0 +1,14 @@
+state={
+	id=849
+	name="STATE_849"
+	provinces={
+		709 1323 2335 2955 3522 4462 5035 5186 6331 6549 7262 10415 10422 10439 10446
+	}
+	history={
+		owner=MRN
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

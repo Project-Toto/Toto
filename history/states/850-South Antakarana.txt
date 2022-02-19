@@ -1,0 +1,15 @@
+
+state={
+	id=850
+	name="STATE_850"
+	provinces={
+		2093 2746 3769 4001 4250 4424 6207 6365 6403 10407 10410 10416 10420 10440 10441 10460 10467
+	}
+	history={
+		owner=MRN
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,14 @@
+state={
+	id=853
+	name="STATE_853"
+	provinces={
+		225 1596 3349 4819 4963 5158 5246 6219 6599 7005 9533
+	}
+	history={
+		owner=ALU
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

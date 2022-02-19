@@ -1,0 +1,14 @@
+state={
+	id=858
+	name="STATE_858"
+	provinces={
+		1148 4510 5113 5496 6107 9751 9756 9762 9768 9771 9779 9786
+	}
+	history={
+		owner=LEG
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

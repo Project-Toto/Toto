@@ -1,0 +1,14 @@
+state={
+	id=851
+	name="STATE_851"
+	provinces={
+		327 537 1699 2767 3069 3087 5756 6876 10353 10355 10368 10379 10381 10383 10388 10390 10399 10406 10782
+	}
+	history={
+		owner=MRN
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
