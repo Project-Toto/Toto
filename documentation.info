@@ -1,0 +1,11 @@
+    add_to_array = { global.country_development = 0 } # Undeveloped (Uncolonized, unplayable tribes)
+    add_to_array = { global.country_development = 1 } # Unconsolidated Tribal (Unorganized Tribal)
+    add_to_array = { global.country_development = 2 } # Consolidated Tribal (Organized Tribal)
+    add_to_array = { global.country_development = 3 } # Unconsolidated State (Reforming 'Kingdom')
+    add_to_array = { global.country_development = 4 } # Consolidated State (Modernized State)
+    add_to_array = { global.country_development = 5 } # Colonial (Playable Colonial Companies)
+    add_to_array = { global.country_development = 6 } # Imperial (Unplayable Colonial Powers)
+    
+    
+    
+  
