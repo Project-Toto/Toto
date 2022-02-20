@@ -7,27 +7,7 @@ spriteTypes = {
 		tilingCenter = yes
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
 	}
-	spriteType = {
-		name = "GFX_policy_button_ic"
-		texturefile = "gfx/interface/policy_button_ic.dds"
-		legacy_lazy_load=no
-	}
-	spriteType = {
-		name = "GFX_policy_button_ic_unavailable"
-		texturefile = "gfx/interface/policy_button_ic_unavailable.dds"
-		legacy_lazy_load=no
-	}
-	spriteType = {
-		name = "GFX_policy_button_ic_available"
-		texturefile = "gfx/interface/policy_button_ic_available.dds"
-		legacy_lazy_load=no
-	}
-	spriteType = {
-		name = "GFX_policy_button_ic_completed"
-		texturefile = "gfx/interface/policy_button_ic_completed.dds"
-		legacy_lazy_load=no
-	}
-
+	
 	spriteType = {
 		name = "GFX_leader_frame_0_6"
 		texturefile = "gfx/interface/leader_frame_0_6.dds"

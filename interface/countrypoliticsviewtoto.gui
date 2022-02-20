@@ -109,7 +109,7 @@ guiTypes = {
 				buttonType = {
 					name = "policy_HEALTH_POL_level_0"
 					position = { x = 0 y = 0 }
-					spriteType = "GFX_policy_button_ic_available"
+					spriteType = "GFX_government_policy_available_button"
 					Orientation = "UPPER_LEFT"
 					clicksound = click_open
 					clicksound = click_default
@@ -119,24 +119,16 @@ guiTypes = {
 				iconType = {
 					name = "policy_HEALTH_POL_level_0_unavailable"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unavailable"
+					spriteType = "GFX_government_policy_unavailable_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "HEALTH_POL_0"
 				}
 				iconType = {
 					name = "policy_HEALTH_POL_level_0_completed"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_completed"
+					spriteType = "GFX_government_policy_selected_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "HEALTH_POL_0"
-				}
-				iconType = {
-					name = "policy_HEALTH_POL_level_0_unaffordable"
-					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unaffordable_150"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "HEALTH_POL_0"
-					pdx_tooltip_delayed = "HEALTH_POL_0_desc_PP"
 				}
 				#iconType = {
 				#	name ="HEALTH_POL_temp_0_icon"
@@ -160,7 +152,7 @@ guiTypes = {
 				buttonType = {
 					name = "policy_HEALTH_POL_level_1"
 					position = { x = 0 y = 0 }
-					spriteType = "GFX_policy_button_ic_available"
+					spriteType = "GFX_government_policy_available_button"
 					Orientation = "UPPER_LEFT"
 					clicksound = click_open
 					clicksound = click_default
@@ -170,24 +162,16 @@ guiTypes = {
 				iconType = {
 					name = "policy_HEALTH_POL_level_1_unavailable"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unavailable"
+					spriteType = "GFX_government_policy_unavailable_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "HEALTH_POL_1"
 				}
 				iconType = {
 					name = "policy_HEALTH_POL_level_1_completed"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_completed"
+					spriteType = "GFX_government_policy_selected_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "HEALTH_POL_1"
-				}
-				iconType = {
-					name = "policy_HEALTH_POL_level_1_unaffordable"
-					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unaffordable_150"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "HEALTH_POL_1"
-					pdx_tooltip_delayed = "HEALTH_POL_1_desc_PP"
 				}
 				#iconType = {
 				#	name ="HEALTH_POL_temp_1_icon"
@@ -211,7 +195,7 @@ guiTypes = {
 				buttonType = {
 					name = "policy_HEALTH_POL_level_2"
 					position = { x = 0 y = 0 }
-					spriteType = "GFX_policy_button_ic_available"
+					spriteType = "GFX_government_policy_available_button"
 					Orientation = "UPPER_LEFT"
 					clicksound = click_open
 					clicksound = click_default
@@ -221,26 +205,18 @@ guiTypes = {
 				iconType = {
 					name = "policy_HEALTH_POL_level_2_unavailable"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unavailable"
+					spriteType = "GFX_government_policy_unavailable_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "HEALTH_POL_2"
 				}
 				iconType = {
 					name = "policy_HEALTH_POL_level_2_completed"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_completed"
+					spriteType = "GFX_government_policy_selected_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "HEALTH_POL_2"
 				}
-				iconType = {
-					name = "policy_HEALTH_POL_level_2_unaffordable"
-					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unaffordable_150"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "HEALTH_POL_2"
-					pdx_tooltip_delayed = "HEALTH_POL_2_desc_PP"
-				}
-				#iconType = {
+	       #iconType = {
 				#	name ="HEALTH_POL_temp_2_icon"
 				#	spriteType = "GFX_HEALTH_POL_temp_2_icon"
 				#	position = {x=-9 y=0}
@@ -262,7 +238,7 @@ guiTypes = {
 				buttonType = {
 					name = "policy_HEALTH_POL_level_3"
 					position = { x = 0 y = 0 }
-					spriteType = "GFX_policy_button_ic_available"
+					spriteType = "GFX_government_policy_available_button"
 					Orientation = "UPPER_LEFT"
 					clicksound = click_open
 					clicksound = click_default
@@ -272,24 +248,16 @@ guiTypes = {
 				iconType = {
 					name = "policy_HEALTH_POL_level_3_unavailable"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unavailable"
+					spriteType = "GFX_government_policy_unavailable_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "HEALTH_POL_3"
 				}
 				iconType = {
 					name = "policy_HEALTH_POL_level_3_completed"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_completed"
+					spriteType = "GFX_government_policy_selected_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "HEALTH_POL_3"
-				}
-				iconType = {
-					name = "policy_HEALTH_POL_level_3_unaffordable"
-					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unaffordable_150"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "HEALTH_POL_3"
-					pdx_tooltip_delayed = "HEALTH_POL_3_desc_PP"
 				}
 				#iconType = {
 				#	name ="HEALTH_POL_temp_3_icon"
@@ -313,7 +281,7 @@ guiTypes = {
 				buttonType = {
 					name = "policy_HEALTH_POL_level_4"
 					position = { x = 0 y = 0 }
-					spriteType = "GFX_policy_button_ic_available"
+					spriteType = "GFX_government_policy_available_button"
 					Orientation = "UPPER_LEFT"
 					clicksound = click_open
 					clicksound = click_default
@@ -323,24 +291,16 @@ guiTypes = {
 				iconType = {
 					name = "policy_HEALTH_POL_level_4_unavailable"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unavailable"
+					spriteType = "GFX_government_policy_unavailable_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "HEALTH_POL_4"
 				}
 				iconType = {
 					name = "policy_HEALTH_POL_level_4_completed"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_completed"
+					spriteType = "GFX_government_policy_selected_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "HEALTH_POL_4"
-				}
-				iconType = {
-					name = "policy_HEALTH_POL_level_4_unaffordable"
-					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unaffordable_150"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "HEALTH_POL_4"
-					pdx_tooltip_delayed = "HEALTH_POL_4_desc_PP"
 				}
 				#iconType = {
 				#	name ="HEALTH_POL_temp_4_icon"
@@ -364,7 +324,7 @@ guiTypes = {
 				buttonType = {
 					name = "policy_HEALTH_POL_level_5"
 					position = { x = 0 y = 0 }
-					spriteType = "GFX_policy_button_ic_available"
+					spriteType = "GFX_government_policy_available_button"
 					Orientation = "UPPER_LEFT"
 					clicksound = click_open
 					clicksound = click_default
@@ -374,24 +334,16 @@ guiTypes = {
 				iconType = {
 					name = "policy_HEALTH_POL_level_5_unavailable"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unavailable"
+					spriteType = "GFX_government_policy_unavailable_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "HEALTH_POL_5"
 				}
 				iconType = {
 					name = "policy_HEALTH_POL_level_5_completed"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_completed"
+					spriteType = "GFX_government_policy_selected_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "HEALTH_POL_5"
-				}
-				iconType = {
-					name = "policy_HEALTH_POL_level_5_unaffordable"
-					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unaffordable_150"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "HEALTH_POL_5"
-					pdx_tooltip_delayed = "HEALTH_POL_5_desc_PP"
 				}
 				#iconType = {
 				#	name ="HEALTH_POL_temp_5_icon"
@@ -510,7 +462,7 @@ guiTypes = {
 				buttonType = {
 					name = "policy_RAC_POL_level_0"
 					position = { x = 0 y = 0 }
-					spriteType = "GFX_policy_button_ic_available"
+					spriteType = "GFX_government_policy_available_button"
 					Orientation = "UPPER_LEFT"
 					clicksound = click_open
 					clicksound = click_default
@@ -519,21 +471,14 @@ guiTypes = {
 				iconType = {
 					name = "policy_RAC_POL_level_0_unavailable"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unavailable"
+					spriteType = "GFX_government_policy_unavailable_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "RAC_POL_0"
 				}
 				iconType = {
 					name = "policy_RAC_POL_level_0_completed"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_completed"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "RAC_POL_0"
-				}
-				iconType = {
-					name = "policy_RAC_POL_level_0_unaffordable"
-					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unaffordable_450"
+					spriteType = "GFX_government_policy_selected_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "RAC_POL_0"
 				}
@@ -559,7 +504,7 @@ guiTypes = {
 				buttonType = {
 					name = "policy_RAC_POL_level_1"
 					position = { x = 0 y = 0 }
-					spriteType = "GFX_policy_button_ic_available"
+					spriteType = "GFX_government_policy_available_button"
 					Orientation = "UPPER_LEFT"
 					clicksound = click_open
 					clicksound = click_default
@@ -568,21 +513,14 @@ guiTypes = {
 				iconType = {
 					name = "policy_RAC_POL_level_1_unavailable"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unavailable"
+					spriteType = "GFX_government_policy_unavailable_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "RAC_POL_1"
 				}
 				iconType = {
 					name = "policy_RAC_POL_level_1_completed"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_completed"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "RAC_POL_1"
-				}
-				iconType = {
-					name = "policy_RAC_POL_level_1_unaffordable"
-					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unaffordable_450"
+					spriteType = "GFX_government_policy_selected_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "RAC_POL_1"
 				}
@@ -608,7 +546,7 @@ guiTypes = {
 				buttonType = {
 					name = "policy_RAC_POL_level_2"
 					position = { x = 0 y = 0 }
-					spriteType = "GFX_policy_button_ic_available"
+					spriteType = "GFX_government_policy_available_button"
 					Orientation = "UPPER_LEFT"
 					clicksound = click_open
 					clicksound = click_default
@@ -617,21 +555,14 @@ guiTypes = {
 				iconType = {
 					name = "policy_RAC_POL_level_2_unavailable"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unavailable"
+					spriteType = "GFX_government_policy_unavailable_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "RAC_POL_2"
 				}
 				iconType = {
 					name = "policy_RAC_POL_level_2_completed"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_completed"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "RAC_POL_2"
-				}
-				iconType = {
-					name = "policy_RAC_POL_level_2_unaffordable"
-					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unaffordable_450"
+					spriteType = "GFX_government_policy_selected_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "RAC_POL_2"
 				}
@@ -657,7 +588,7 @@ guiTypes = {
 				buttonType = {
 					name = "policy_RAC_POL_level_3"
 					position = { x = 0 y = 0 }
-					spriteType = "GFX_policy_button_ic_available"
+					spriteType = "GFX_government_policy_available_button"
 					Orientation = "UPPER_LEFT"
 					clicksound = click_open
 					clicksound = click_default
@@ -666,21 +597,14 @@ guiTypes = {
 				iconType = {
 					name = "policy_RAC_POL_level_3_unavailable"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unavailable"
+					spriteType = "GFX_government_policy_unavailable_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "RAC_POL_3"
 				}
 				iconType = {
 					name = "policy_RAC_POL_level_3_completed"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_completed"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "RAC_POL_3"
-				}
-				iconType = {
-					name = "policy_RAC_POL_level_3_unaffordable"
-					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unaffordable_450"
+					spriteType = "GFX_government_policy_selected_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "RAC_POL_3"
 				}
@@ -706,7 +630,7 @@ guiTypes = {
 				buttonType = {
 					name = "policy_RAC_POL_level_3a"
 					position = { x = 0 y = 0 }
-					spriteType = "GFX_policy_button_ic_available"
+					spriteType = "GFX_government_policy_available_button"
 					Orientation = "UPPER_LEFT"
 					clicksound = click_open
 					clicksound = click_default
@@ -715,21 +639,14 @@ guiTypes = {
 				iconType = {
 					name = "policy_RAC_POL_level_3a_unavailable"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unavailable"
+					spriteType = "GFX_government_policy_unavailable_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "RAC_POL_3a"
 				}
 				iconType = {
 					name = "policy_RAC_POL_level_3a_completed"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_completed"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "RAC_POL_3a"
-				}
-				iconType = {
-					name = "policy_RAC_POL_level_3a_unaffordable"
-					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unaffordable_450"
+					spriteType = "GFX_government_policy_selected_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "RAC_POL_3a"
 				}
@@ -833,7 +750,7 @@ guiTypes = {
 				buttonType = {
 					name = "policy_SAGA_POL_level_0"
 					position = { x = 0 y = 0 }
-					spriteType = "GFX_policy_button_ic_available"
+					spriteType = "GFX_government_policy_available_button"
 					Orientation = "UPPER_LEFT"
 					clicksound = click_open
 					clicksound = click_default
@@ -842,21 +759,14 @@ guiTypes = {
 				iconType = {
 					name = "policy_SAGA_POL_level_0_unavailable"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unavailable"
+					spriteType = "GFX_government_policy_unavailable_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "SAGA_POL_0"
 				}
 				iconType = {
 					name = "policy_SAGA_POL_level_0_completed"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_completed"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "SAGA_POL_0"
-				}
-				iconType = {
-					name = "policy_SAGA_POL_level_0_unaffordable"
-					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unaffordable_300"
+					spriteType = "GFX_government_policy_selected_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "SAGA_POL_0"
 				}
@@ -882,7 +792,7 @@ guiTypes = {
 				buttonType = {
 					name = "policy_SAGA_POL_level_1"
 					position = { x = 0 y = 0 }
-					spriteType = "GFX_policy_button_ic_available"
+					spriteType = "GFX_government_policy_available_button"
 					Orientation = "UPPER_LEFT"
 					clicksound = click_open
 					clicksound = click_default
@@ -891,21 +801,14 @@ guiTypes = {
 				iconType = {
 					name = "policy_SAGA_POL_level_1_unavailable"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unavailable"
+					spriteType = "GFX_government_policy_unavailable_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "SAGA_POL_1"
 				}
 				iconType = {
 					name = "policy_SAGA_POL_level_1_completed"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_completed"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "SAGA_POL_1"
-				}
-				iconType = {
-					name = "policy_SAGA_POL_level_1_unaffordable"
-					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unaffordable_300"
+					spriteType = "GFX_government_policy_selected_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "SAGA_POL_1"
 				}
@@ -931,7 +834,7 @@ guiTypes = {
 				buttonType = {
 					name = "policy_SAGA_POL_level_2"
 					position = { x = 0 y = 0 }
-					spriteType = "GFX_policy_button_ic_available"
+					spriteType = "GFX_government_policy_available_button"
 					Orientation = "UPPER_LEFT"
 					clicksound = click_open
 					clicksound = click_default
@@ -940,21 +843,14 @@ guiTypes = {
 				iconType = {
 					name = "policy_SAGA_POL_level_2_unavailable"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unavailable"
+					spriteType = "GFX_government_policy_unavailable_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "SAGA_POL_2"
 				}
 				iconType = {
 					name = "policy_SAGA_POL_level_2_completed"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_completed"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "SAGA_POL_2"
-				}
-				iconType = {
-					name = "policy_SAGA_POL_level_2_unaffordable"
-					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unaffordable_300"
+					spriteType = "GFX_government_policy_selected_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "SAGA_POL_2"
 				}
@@ -980,7 +876,7 @@ guiTypes = {
 				buttonType = {
 					name = "policy_SAGA_POL_level_4"
 					position = { x = 0 y = 0 }
-					spriteType = "GFX_policy_button_ic_available"
+					spriteType = "GFX_government_policy_available_button"
 					Orientation = "UPPER_LEFT"
 					clicksound = click_open
 					clicksound = click_default
@@ -989,21 +885,14 @@ guiTypes = {
 				iconType = {
 					name = "policy_SAGA_POL_level_4_unavailable"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unavailable"
+					spriteType = "GFX_government_policy_unavailable_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "SAGA_POL_4"
 				}
 				iconType = {
 					name = "policy_SAGA_POL_level_4_completed"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_completed"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "SAGA_POL_4"
-				}
-				iconType = {
-					name = "policy_SAGA_POL_level_4_unaffordable"
-					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unaffordable_300"
+					spriteType = "GFX_government_policy_selected_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "SAGA_POL_4"
 				}
@@ -1029,7 +918,7 @@ guiTypes = {
 				buttonType = {
 					name = "policy_SAGA_POL_level_4a"
 					position = { x = 0 y = 0 }
-					spriteType = "GFX_policy_button_ic_available"
+					spriteType = "GFX_government_policy_available_button"
 					Orientation = "UPPER_LEFT"
 					clicksound = click_open
 					clicksound = click_default
@@ -1038,21 +927,14 @@ guiTypes = {
 				iconType = {
 					name = "policy_SAGA_POL_level_4a_unavailable"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unavailable"
+					spriteType = "GFX_government_policy_unavailable_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "SAGA_POL_4a"
 				}
 				iconType = {
 					name = "policy_SAGA_POL_level_4a_completed"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_completed"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "SAGA_POL_4a"
-				}
-				iconType = {
-					name = "policy_SAGA_POL_level_4a_unaffordable"
-					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unaffordable_300"
+					spriteType = "GFX_government_policy_selected_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "SAGA_POL_4a"
 				}
@@ -1149,7 +1031,7 @@ guiTypes = {
 				buttonType = {
 					name = "policy_WOM_POL_level_0"
 					position = { x = 0 y = 0 }
-					spriteType = "GFX_policy_button_ic_available"
+					spriteType = "GFX_government_policy_available_button"
 					Orientation = "UPPER_LEFT"
 					clicksound = click_open
 					clicksound = click_default
@@ -1158,21 +1040,14 @@ guiTypes = {
 				iconType = {
 					name = "policy_WOM_POL_level_0_unavailable"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unavailable"
+					spriteType = "GFX_government_policy_unavailable_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "WOM_POL_0"
 				}
 				iconType = {
 					name = "policy_WOM_POL_level_0_completed"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_completed"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "WOM_POL_0"
-				}
-				iconType = {
-					name = "policy_WOM_POL_level_0_unaffordable"
-					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unaffordable_300"
+					spriteType = "GFX_government_policy_selected_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "WOM_POL_0"
 				}
@@ -1198,7 +1073,7 @@ guiTypes = {
 				buttonType = {
 					name = "policy_WOM_POL_level_1"
 					position = { x = 0 y = 0 }
-					spriteType = "GFX_policy_button_ic_available"
+					spriteType = "GFX_government_policy_available_button"
 					Orientation = "UPPER_LEFT"
 					clicksound = click_open
 					clicksound = click_default
@@ -1207,21 +1082,14 @@ guiTypes = {
 				iconType = {
 					name = "policy_WOM_POL_level_1_unavailable"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unavailable"
+					spriteType = "GFX_government_policy_unavailable_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "WOM_POL_1"
 				}
 				iconType = {
 					name = "policy_WOM_POL_level_1_completed"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_completed"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "WOM_POL_1"
-				}
-				iconType = {
-					name = "policy_WOM_POL_level_1_unaffordable"
-					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unaffordable_300"
+					spriteType = "GFX_government_policy_selected_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "WOM_POL_1"
 				}
@@ -1247,7 +1115,7 @@ guiTypes = {
 				buttonType = {
 					name = "policy_WOM_POL_level_2"
 					position = { x = 0 y = 0 }
-					spriteType = "GFX_policy_button_ic_available"
+					spriteType = "GFX_government_policy_available_button"
 					Orientation = "UPPER_LEFT"
 					clicksound = click_open
 					clicksound = click_default
@@ -1256,21 +1124,14 @@ guiTypes = {
 				iconType = {
 					name = "policy_WOM_POL_level_2_unavailable"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unavailable"
+					spriteType = "GFX_government_policy_unavailable_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "WOM_POL_2"
 				}
 				iconType = {
 					name = "policy_WOM_POL_level_2_completed"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_completed"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "WOM_POL_2"
-				}
-				iconType = {
-					name = "policy_WOM_POL_level_2_unaffordable"
-					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unaffordable_300"
+					spriteType = "GFX_government_policy_selected_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "WOM_POL_2"
 				}
@@ -1296,7 +1157,7 @@ guiTypes = {
 				buttonType = {
 					name = "policy_WOM_POL_level_3"
 					position = { x = 0 y = 0 }
-					spriteType = "GFX_policy_button_ic_available"
+					spriteType = "GFX_government_policy_available_button"
 					Orientation = "UPPER_LEFT"
 					clicksound = click_open
 					clicksound = click_default
@@ -1305,21 +1166,14 @@ guiTypes = {
 				iconType = {
 					name = "policy_WOM_POL_level_3_unavailable"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unavailable"
+					spriteType = "GFX_government_policy_unavailable_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "WOM_POL_3"
 				}
 				iconType = {
 					name = "policy_WOM_POL_level_3_completed"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_completed"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "WOM_POL_3"
-				}
-				iconType = {
-					name = "policy_WOM_POL_level_3_unaffordable"
-					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unaffordable_300"
+					spriteType = "GFX_government_policy_selected_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "WOM_POL_3"
 				}
@@ -1345,7 +1199,7 @@ guiTypes = {
 				buttonType = {
 					name = "policy_WOM_POL_level_4"
 					position = { x = 0 y = 0 }
-					spriteType = "GFX_policy_button_ic_available"
+					spriteType = "GFX_government_policy_available_button"
 					Orientation = "UPPER_LEFT"
 					clicksound = click_open
 					clicksound = click_default
@@ -1354,21 +1208,14 @@ guiTypes = {
 				iconType = {
 					name = "policy_WOM_POL_level_4_unavailable"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unavailable"
+					spriteType = "GFX_government_policy_unavailable_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "WOM_POL_4"
 				}
 				iconType = {
 					name = "policy_WOM_POL_level_4_completed"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_completed"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "WOM_POL_4"
-				}
-				iconType = {
-					name = "policy_WOM_POL_level_4_unaffordable"
-					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unaffordable_300"
+					spriteType = "GFX_government_policy_selected_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "WOM_POL_4"
 				}
@@ -1394,7 +1241,7 @@ guiTypes = {
 				buttonType = {
 					name = "policy_WOM_POL_level_4a"
 					position = { x = 0 y = 0 }
-					spriteType = "GFX_policy_button_ic_available"
+					spriteType = "GFX_government_policy_available_button"
 					Orientation = "UPPER_LEFT"
 					clicksound = click_open
 					clicksound = click_default
@@ -1403,21 +1250,14 @@ guiTypes = {
 				iconType = {
 					name = "policy_WOM_POL_level_4a_unavailable"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unavailable"
+					spriteType = "GFX_government_policy_unavailable_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "WOM_POL_4a"
 				}
 				iconType = {
 					name = "policy_WOM_POL_level_4a_completed"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_completed"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "WOM_POL_4a"
-				}
-				iconType = {
-					name = "policy_WOM_POL_level_4a_unaffordable"
-					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unaffordable_300"
+					spriteType = "GFX_government_policy_selected_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "WOM_POL_4a"
 				}
@@ -1511,7 +1351,7 @@ guiTypes = {
 				buttonType = {
 					name = "policy_MEDIA_POL_level_0"
 					position = { x = 0 y = 0 }
-					spriteType = "GFX_policy_button_ic_available"
+					spriteType = "GFX_government_policy_available_button"
 					Orientation = "UPPER_LEFT"
 					clicksound = click_open
 					clicksound = click_default
@@ -1520,21 +1360,14 @@ guiTypes = {
 				iconType = {
 					name = "policy_MEDIA_POL_level_0_unavailable"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unavailable"
+					spriteType = "GFX_government_policy_unavailable_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "MEDIA_POL_0"
 				}
 				iconType = {
 					name = "policy_MEDIA_POL_level_0_completed"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_completed"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "MEDIA_POL_0"
-				}
-				iconType = {
-					name = "policy_MEDIA_POL_level_0_unaffordable"
-					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unaffordable_450"
+					spriteType = "GFX_government_policy_selected_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "MEDIA_POL_0"
 				}
@@ -1560,7 +1393,7 @@ guiTypes = {
 				buttonType = {
 					name = "policy_MEDIA_POL_level_1"
 					position = { x = 0 y = 0 }
-					spriteType = "GFX_policy_button_ic_available"
+					spriteType = "GFX_government_policy_available_button"
 					Orientation = "UPPER_LEFT"
 					clicksound = click_open
 					clicksound = click_default
@@ -1569,21 +1402,14 @@ guiTypes = {
 				iconType = {
 					name = "policy_MEDIA_POL_level_1_unavailable"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unavailable"
+					spriteType = "GFX_government_policy_unavailable_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "MEDIA_POL_1"
 				}
 				iconType = {
 					name = "policy_MEDIA_POL_level_1_completed"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_completed"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "MEDIA_POL_1"
-				}
-				iconType = {
-					name = "policy_MEDIA_POL_level_1_unaffordable"
-					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unaffordable_450"
+					spriteType = "GFX_government_policy_selected_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "MEDIA_POL_1"
 				}
@@ -1609,7 +1435,7 @@ guiTypes = {
 				buttonType = {
 					name = "policy_MEDIA_POL_level_2"
 					position = { x = 0 y = 0 }
-					spriteType = "GFX_policy_button_ic_available"
+					spriteType = "GFX_government_policy_available_button"
 					Orientation = "UPPER_LEFT"
 					clicksound = click_open
 					clicksound = click_default
@@ -1618,21 +1444,14 @@ guiTypes = {
 				iconType = {
 					name = "policy_MEDIA_POL_level_2_unavailable"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unavailable"
+					spriteType = "GFX_government_policy_unavailable_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "MEDIA_POL_2"
 				}
 				iconType = {
 					name = "policy_MEDIA_POL_level_2_completed"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_completed"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "MEDIA_POL_2"
-				}
-				iconType = {
-					name = "policy_MEDIA_POL_level_2_unaffordable"
-					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unaffordable_450"
+					spriteType = "GFX_government_policy_selected_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "MEDIA_POL_2"
 				}
@@ -1658,7 +1477,7 @@ guiTypes = {
 				buttonType = {
 					name = "policy_MEDIA_POL_level_3"
 					position = { x = 0 y = 0 }
-					spriteType = "GFX_policy_button_ic_available"
+					spriteType = "GFX_government_policy_available_button"
 					Orientation = "UPPER_LEFT"
 					clicksound = click_open
 					clicksound = click_default
@@ -1667,21 +1486,14 @@ guiTypes = {
 				iconType = {
 					name = "policy_MEDIA_POL_level_3_unavailable"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unavailable"
+					spriteType = "GFX_government_policy_unavailable_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "MEDIA_POL_3"
 				}
 				iconType = {
 					name = "policy_MEDIA_POL_level_3_completed"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_completed"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "MEDIA_POL_3"
-				}
-				iconType = {
-					name = "policy_MEDIA_POL_level_3_unaffordable"
-					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unaffordable_450"
+					spriteType = "GFX_government_policy_selected_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "MEDIA_POL_3"
 				}
@@ -1707,7 +1519,7 @@ guiTypes = {
 				buttonType = {
 					name = "policy_MEDIA_POL_level_3a"
 					position = { x = 0 y = 0 }
-					spriteType = "GFX_policy_button_ic_available"
+					spriteType = "GFX_government_policy_available_button"
 					Orientation = "UPPER_LEFT"
 					clicksound = click_open
 					clicksound = click_default
@@ -1716,21 +1528,14 @@ guiTypes = {
 				iconType = {
 					name = "policy_MEDIA_POL_level_3a_unavailable"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unavailable"
+					spriteType = "GFX_government_policy_unavailable_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "MEDIA_POL_3a"
 				}
 				iconType = {
 					name = "policy_MEDIA_POL_level_3a_completed"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_completed"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "MEDIA_POL_3a"
-				}
-				iconType = {
-					name = "policy_MEDIA_POL_level_3a_unaffordable"
-					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unaffordable_450"
+					spriteType = "GFX_government_policy_selected_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "MEDIA_POL_3a"
 				}
@@ -1814,7 +1619,7 @@ guiTypes = {
 				buttonType = {
 					name = "policy_UNION_POL_level_0"
 					position = { x = 0 y = 0 }
-					spriteType = "GFX_policy_button_ic_available"
+					spriteType = "GFX_government_policy_available_button"
 					Orientation = "UPPER_LEFT"
 					clicksound = click_open
 					clicksound = click_default
@@ -1823,21 +1628,14 @@ guiTypes = {
 				iconType = {
 					name = "policy_UNION_POL_level_0_unavailable"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unavailable"
+					spriteType = "GFX_government_policy_unavailable_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "UNION_POL_0"
 				}
 				iconType = {
 					name = "policy_UNION_POL_level_0_completed"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_completed"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "UNION_POL_0"
-				}
-				iconType = {
-					name = "policy_UNION_POL_level_0_unaffordable"
-					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unaffordable_300"
+					spriteType = "GFX_government_policy_selected_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "UNION_POL_0"
 				}
@@ -1863,7 +1661,7 @@ guiTypes = {
 				buttonType = {
 					name = "policy_UNION_POL_level_1"
 					position = { x = 0 y = 0 }
-					spriteType = "GFX_policy_button_ic_available"
+					spriteType = "GFX_government_policy_available_button"
 					Orientation = "UPPER_LEFT"
 					clicksound = click_open
 					clicksound = click_default
@@ -1872,21 +1670,14 @@ guiTypes = {
 				iconType = {
 					name = "policy_UNION_POL_level_1_unavailable"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unavailable"
+					spriteType = "GFX_government_policy_unavailable_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "UNION_POL_1"
 				}
 				iconType = {
 					name = "policy_UNION_POL_level_1_completed"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_completed"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "UNION_POL_1"
-				}
-				iconType = {
-					name = "policy_UNION_POL_level_1_unaffordable"
-					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unaffordable_300"
+					spriteType = "GFX_government_policy_selected_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "UNION_POL_1"
 				}
@@ -1912,7 +1703,7 @@ guiTypes = {
 				buttonType = {
 					name = "policy_UNION_POL_level_2"
 					position = { x = 0 y = 0 }
-					spriteType = "GFX_policy_button_ic_available"
+					spriteType = "GFX_government_policy_available_button"
 					Orientation = "UPPER_LEFT"
 					clicksound = click_open
 					clicksound = click_default
@@ -1921,21 +1712,14 @@ guiTypes = {
 				iconType = {
 					name = "policy_UNION_POL_level_2_unavailable"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unavailable"
+					spriteType = "GFX_government_policy_unavailable_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "UNION_POL_2"
 				}
 				iconType = {
 					name = "policy_UNION_POL_level_2_completed"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_completed"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "UNION_POL_2"
-				}
-				iconType = {
-					name = "policy_UNION_POL_level_2_unaffordable"
-					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unaffordable_300"
+					spriteType = "GFX_government_policy_selected_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "UNION_POL_2"
 				}
@@ -1961,7 +1745,7 @@ guiTypes = {
 				buttonType = {
 					name = "policy_UNION_POL_level_3"
 					position = { x = 0 y = 0 }
-					spriteType = "GFX_policy_button_ic_available"
+					spriteType = "GFX_government_policy_available_button"
 					Orientation = "UPPER_LEFT"
 					clicksound = click_open
 					clicksound = click_default
@@ -1970,21 +1754,14 @@ guiTypes = {
 				iconType = {
 					name = "policy_UNION_POL_level_3_unavailable"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unavailable"
+					spriteType = "GFX_government_policy_unavailable_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "UNION_POL_3"
 				}
 				iconType = {
 					name = "policy_UNION_POL_level_3_completed"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_completed"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "UNION_POL_3"
-				}
-				iconType = {
-					name = "policy_UNION_POL_level_3_unaffordable"
-					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unaffordable_300"
+					spriteType = "GFX_government_policy_selected_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "UNION_POL_3"
 				}
@@ -2010,7 +1787,7 @@ guiTypes = {
 				buttonType = {
 					name = "policy_UNION_POL_level_4"
 					position = { x = 0 y = 0 }
-					spriteType = "GFX_policy_button_ic_available"
+					spriteType = "GFX_government_policy_available_button"
 					Orientation = "UPPER_LEFT"
 					clicksound = click_open
 					clicksound = click_default
@@ -2019,21 +1796,14 @@ guiTypes = {
 				iconType = {
 					name = "policy_UNION_POL_level_4_unavailable"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unavailable"
+					spriteType = "GFX_government_policy_unavailable_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "UNION_POL_4"
 				}
 				iconType = {
 					name = "policy_UNION_POL_level_4_completed"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_completed"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "UNION_POL_4"
-				}
-				iconType = {
-					name = "policy_UNION_POL_level_4_unaffordable"
-					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unaffordable_300"
+					spriteType = "GFX_government_policy_selected_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "UNION_POL_4"
 				}
@@ -2121,7 +1891,7 @@ guiTypes = {
 				buttonType = {
 					name = "policy_PUB_POL_level_0"
 					position = { x = 0 y = 0 }
-					spriteType = "GFX_policy_button_ic_available"
+					spriteType = "GFX_government_policy_available_button"
 					Orientation = "UPPER_LEFT"
 					clicksound = click_open
 					clicksound = click_default
@@ -2131,24 +1901,16 @@ guiTypes = {
 				iconType = {
 					name = "policy_PUB_POL_level_0_unavailable"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unavailable"
+					spriteType = "GFX_government_policy_unavailable_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "PUB_POL_0"
 				}
 				iconType = {
 					name = "policy_PUB_POL_level_0_completed"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_completed"
+					spriteType = "GFX_government_policy_selected_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "PUB_POL_0"
-				}
-				iconType = {
-					name = "policy_PUB_POL_level_0_unaffordable"
-					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unaffordable_150"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "PUB_POL_0"
-					pdx_tooltip_delayed = "PUB_POL_0_desc_PP"
 				}
 				#iconType = {
 				#	name ="PUB_POL_temp_0_icon"
@@ -2172,7 +1934,7 @@ guiTypes = {
 				buttonType = {
 					name = "policy_PUB_POL_level_1"
 					position = { x = 0 y = 0 }
-					spriteType = "GFX_policy_button_ic_available"
+					spriteType = "GFX_government_policy_available_button"
 					Orientation = "UPPER_LEFT"
 					clicksound = click_open
 					clicksound = click_default
@@ -2182,24 +1944,16 @@ guiTypes = {
 				iconType = {
 					name = "policy_PUB_POL_level_1_unavailable"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unavailable"
+					spriteType = "GFX_government_policy_unavailable_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "PUB_POL_1"
 				}
 				iconType = {
 					name = "policy_PUB_POL_level_1_completed"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_completed"
+					spriteType = "GFX_government_policy_selected_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "PUB_POL_1"
-				}
-				iconType = {
-					name = "policy_PUB_POL_level_1_unaffordable"
-					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unaffordable_150"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "PUB_POL_1"
-					pdx_tooltip_delayed = "PUB_POL_1_desc_PP"
 				}
 				#iconType = {
 				#	name ="PUB_POL_temp_1_icon"
@@ -2223,7 +1977,7 @@ guiTypes = {
 				buttonType = {
 					name = "policy_PUB_POL_level_2"
 					position = { x = 0 y = 0 }
-					spriteType = "GFX_policy_button_ic_available"
+					spriteType = "GFX_government_policy_available_button"
 					Orientation = "UPPER_LEFT"
 					clicksound = click_open
 					clicksound = click_default
@@ -2233,24 +1987,16 @@ guiTypes = {
 				iconType = {
 					name = "policy_PUB_POL_level_2_unavailable"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unavailable"
+					spriteType = "GFX_government_policy_unavailable_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "PUB_POL_2"
 				}
 				iconType = {
 					name = "policy_PUB_POL_level_2_completed"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_completed"
+					spriteType = "GFX_government_policy_selected_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "PUB_POL_2"
-				}
-				iconType = {
-					name = "policy_PUB_POL_level_2_unaffordable"
-					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unaffordable_150"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "PUB_POL_2"
-					pdx_tooltip_delayed = "PUB_POL_2_desc_PP"
 				}
 				#iconType = {
 				#	name ="PUB_POL_temp_2_icon"
@@ -2274,7 +2020,7 @@ guiTypes = {
 				buttonType = {
 					name = "policy_PUB_POL_level_3"
 					position = { x = 0 y = 0 }
-					spriteType = "GFX_policy_button_ic_available"
+					spriteType = "GFX_government_policy_available_button"
 					Orientation = "UPPER_LEFT"
 					clicksound = click_open
 					clicksound = click_default
@@ -2284,24 +2030,16 @@ guiTypes = {
 				iconType = {
 					name = "policy_PUB_POL_level_3_unavailable"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unavailable"
+					spriteType = "GFX_government_policy_unavailable_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "PUB_POL_3"
 				}
 				iconType = {
 					name = "policy_PUB_POL_level_3_completed"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_completed"
+					spriteType = "GFX_government_policy_selected_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "PUB_POL_3"
-				}
-				iconType = {
-					name = "policy_PUB_POL_level_3_unaffordable"
-					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unaffordable_150"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "PUB_POL_3"
-					pdx_tooltip_delayed = "PUB_POL_3_desc_PP"
 				}
 				#iconType = {
 				#	name ="PUB_POL_temp_3_icon"
@@ -2400,7 +2138,7 @@ guiTypes = {
 				buttonType = {
 					name = "policy_EDU_POL_level_0"
 					position = { x = 0 y = 0 }
-					spriteType = "GFX_policy_button_ic_available"
+					spriteType = "GFX_government_policy_available_button"
 					Orientation = "UPPER_LEFT"
 					clicksound = click_open
 					clicksound = click_default
@@ -2410,24 +2148,16 @@ guiTypes = {
 				iconType = {
 					name = "policy_EDU_POL_level_0_unavailable"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unavailable"
+					spriteType = "GFX_government_policy_unavailable_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "EDU_POL_0"
 				}
 				iconType = {
 					name = "policy_EDU_POL_level_0_completed"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_completed"
+					spriteType = "GFX_government_policy_selected_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "EDU_POL_0"
-				}
-				iconType = {
-					name = "policy_EDU_POL_level_0_unaffordable"
-					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unaffordable_150"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "EDU_POL_0"
-					pdx_tooltip_delayed = "EDU_POL_0_desc_PP"
 				}
 				#iconType = {
 				#	name ="EDU_POL_temp_0_icon"
@@ -2451,7 +2181,7 @@ guiTypes = {
 				buttonType = {
 					name = "policy_EDU_POL_level_1"
 					position = { x = 0 y = 0 }
-					spriteType = "GFX_policy_button_ic_available"
+					spriteType = "GFX_government_policy_available_button"
 					Orientation = "UPPER_LEFT"
 					clicksound = click_open
 					clicksound = click_default
@@ -2461,24 +2191,16 @@ guiTypes = {
 				iconType = {
 					name = "policy_EDU_POL_level_1_unavailable"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unavailable"
+					spriteType = "GFX_government_policy_unavailable_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "EDU_POL_1"
 				}
 				iconType = {
 					name = "policy_EDU_POL_level_1_completed"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_completed"
+					spriteType = "GFX_government_policy_selected_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "EDU_POL_1"
-				}
-				iconType = {
-					name = "policy_EDU_POL_level_1_unaffordable"
-					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unaffordable_150"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "EDU_POL_1"
-					pdx_tooltip_delayed = "EDU_POL_1_desc_PP"
 				}
 				#iconType = {
 				#	name ="EDU_POL_temp_1_icon"
@@ -2502,7 +2224,7 @@ guiTypes = {
 				buttonType = {
 					name = "policy_EDU_POL_level_2"
 					position = { x = 0 y = 0 }
-					spriteType = "GFX_policy_button_ic_available"
+					spriteType = "GFX_government_policy_available_button"
 					Orientation = "UPPER_LEFT"
 					clicksound = click_open
 					clicksound = click_default
@@ -2512,24 +2234,16 @@ guiTypes = {
 				iconType = {
 					name = "policy_EDU_POL_level_2_unavailable"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unavailable"
+					spriteType = "GFX_government_policy_unavailable_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "EDU_POL_2"
 				}
 				iconType = {
 					name = "policy_EDU_POL_level_2_completed"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_completed"
+					spriteType = "GFX_government_policy_selected_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "EDU_POL_2"
-				}
-				iconType = {
-					name = "policy_EDU_POL_level_2_unaffordable"
-					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unaffordable_150"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "EDU_POL_2"
-					pdx_tooltip_delayed = "EDU_POL_2_desc_PP"
 				}
 				#iconType = {
 				#	name ="EDU_POL_temp_2_icon"
@@ -2553,7 +2267,7 @@ guiTypes = {
 				buttonType = {
 					name = "policy_EDU_POL_level_3"
 					position = { x = 0 y = 0 }
-					spriteType = "GFX_policy_button_ic_available"
+					spriteType = "GFX_government_policy_available_button"
 					Orientation = "UPPER_LEFT"
 					clicksound = click_open
 					clicksound = click_default
@@ -2563,24 +2277,16 @@ guiTypes = {
 				iconType = {
 					name = "policy_EDU_POL_level_3_unavailable"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unavailable"
+					spriteType = "GFX_government_policy_unavailable_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "EDU_POL_3"
 				}
 				iconType = {
 					name = "policy_EDU_POL_level_3_completed"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_completed"
+					spriteType = "GFX_government_policy_selected_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "EDU_POL_3"
-				}
-				iconType = {
-					name = "policy_EDU_POL_level_3_unaffordable"
-					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unaffordable_150"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "EDU_POL_3"
-					pdx_tooltip_delayed = "EDU_POL_3_desc_PP"
 				}
 				#iconType = {
 				#	name ="EDU_POL_temp_3_icon"
@@ -2604,7 +2310,7 @@ guiTypes = {
 				buttonType = {
 					name = "policy_EDU_POL_level_4"
 					position = { x = 0 y = 0 }
-					spriteType = "GFX_policy_button_ic_available"
+					spriteType = "GFX_government_policy_available_button"
 					Orientation = "UPPER_LEFT"
 					clicksound = click_open
 					clicksound = click_default
@@ -2614,24 +2320,16 @@ guiTypes = {
 				iconType = {
 					name = "policy_EDU_POL_level_4_unavailable"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unavailable"
+					spriteType = "GFX_government_policy_unavailable_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "EDU_POL_4"
 				}
 				iconType = {
 					name = "policy_EDU_POL_level_4_completed"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_completed"
+					spriteType = "GFX_government_policy_selected_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "EDU_POL_4"
-				}
-				iconType = {
-					name = "policy_EDU_POL_level_4_unaffordable"
-					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unaffordable_150"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "EDU_POL_4"
-					pdx_tooltip_delayed = "EDU_POL_4_desc_PP"
 				}
 				#iconType = {
 				#	name ="EDU_POL_temp_4_icon"
@@ -2741,7 +2439,7 @@ guiTypes = {
 				buttonType = {
 					name = "policy_MIL_POL_level_1"
 					position = { x = 0 y = 0 }
-					spriteType = "GFX_policy_button_ic_available"
+					spriteType = "GFX_government_policy_available_button"
 					Orientation = "UPPER_LEFT"
 					clicksound = click_open
 					clicksound = click_default
@@ -2751,24 +2449,16 @@ guiTypes = {
 				iconType = {
 					name = "policy_MIL_POL_level_1_unavailable"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unavailable"
+					spriteType = "GFX_government_policy_unavailable_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "MIL_POL_1"
 				}
 				iconType = {
 					name = "policy_MIL_POL_level_1_completed"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_completed"
+					spriteType = "GFX_government_policy_selected_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "MIL_POL_1"
-				}
-				iconType = {
-					name = "policy_MIL_POL_level_1_unaffordable"
-					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unaffordable_150"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "MIL_POL_1"
-					pdx_tooltip_delayed = "MIL_POL_1_desc_PP"
 				}
 				#iconType = {
 				#	name ="MIL_POL_temp_1_icon"
@@ -2792,7 +2482,7 @@ guiTypes = {
 				buttonType = {
 					name = "policy_MIL_POL_level_2"
 					position = { x = 0 y = 0 }
-					spriteType = "GFX_policy_button_ic_available"
+					spriteType = "GFX_government_policy_available_button"
 					Orientation = "UPPER_LEFT"
 					clicksound = click_open
 					clicksound = click_default
@@ -2802,24 +2492,16 @@ guiTypes = {
 				iconType = {
 					name = "policy_MIL_POL_level_2_unavailable"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unavailable"
+					spriteType = "GFX_government_policy_unavailable_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "MIL_POL_2"
 				}
 				iconType = {
 					name = "policy_MIL_POL_level_2_completed"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_completed"
+					spriteType = "GFX_government_policy_selected_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "MIL_POL_2"
-				}
-				iconType = {
-					name = "policy_MIL_POL_level_2_unaffordable"
-					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unaffordable_150"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "MIL_POL_2"
-					pdx_tooltip_delayed = "MIL_POL_2_desc_PP"
 				}
 				#iconType = {
 				#	name ="MIL_POL_temp_2_icon"
@@ -2843,7 +2525,7 @@ guiTypes = {
 				buttonType = {
 					name = "policy_MIL_POL_level_3"
 					position = { x = 0 y = 0 }
-					spriteType = "GFX_policy_button_ic_available"
+					spriteType = "GFX_government_policy_available_button"
 					Orientation = "UPPER_LEFT"
 					clicksound = click_open
 					clicksound = click_default
@@ -2853,24 +2535,16 @@ guiTypes = {
 				iconType = {
 					name = "policy_MIL_POL_level_3_unavailable"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unavailable"
+					spriteType = "GFX_government_policy_unavailable_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "MIL_POL_3"
 				}
 				iconType = {
 					name = "policy_MIL_POL_level_3_completed"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_completed"
+					spriteType = "GFX_government_policy_selected_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "MIL_POL_3"
-				}
-				iconType = {
-					name = "policy_MIL_POL_level_3_unaffordable"
-					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unaffordable_150"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "MIL_POL_3"
-					pdx_tooltip_delayed = "MIL_POL_3_desc_PP"
 				}
 				#iconType = {
 				#	name ="MIL_POL_temp_3_icon"
@@ -2894,7 +2568,7 @@ guiTypes = {
 				buttonType = {
 					name = "policy_MIL_POL_level_4"
 					position = { x = 0 y = 0 }
-					spriteType = "GFX_policy_button_ic_available"
+					spriteType = "GFX_government_policy_available_button"
 					Orientation = "UPPER_LEFT"
 					clicksound = click_open
 					clicksound = click_default
@@ -2904,24 +2578,16 @@ guiTypes = {
 				iconType = {
 					name = "policy_MIL_POL_level_4_unavailable"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unavailable"
+					spriteType = "GFX_government_policy_unavailable_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "MIL_POL_4"
 				}
 				iconType = {
 					name = "policy_MIL_POL_level_4_completed"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_completed"
+					spriteType = "GFX_government_policy_selected_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "MIL_POL_4"
-				}
-				iconType = {
-					name = "policy_MIL_POL_level_4_unaffordable"
-					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unaffordable_150"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "MIL_POL_4"
-					pdx_tooltip_delayed = "MIL_POL_4_desc_PP"
 				}
 				#iconType = {
 				#	name ="MIL_POL_temp_4_icon"
@@ -3020,7 +2686,7 @@ guiTypes = {
 				buttonType = {
 					name = "policy_WEL_POL_level_0"
 					position = { x = 0 y = 0 }
-					spriteType = "GFX_policy_button_ic_available"
+					spriteType = "GFX_government_policy_available_button"
 					Orientation = "UPPER_LEFT"
 					clicksound = click_open
 					clicksound = click_default
@@ -3030,24 +2696,16 @@ guiTypes = {
 				iconType = {
 					name = "policy_WEL_POL_level_0_unavailable"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unavailable"
+					spriteType = "GFX_government_policy_unavailable_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "WEL_POL_0"
 				}
 				iconType = {
 					name = "policy_WEL_POL_level_0_completed"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_completed"
+					spriteType = "GFX_government_policy_selected_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "WEL_POL_0"
-				}
-				iconType = {
-					name = "policy_WEL_POL_level_0_unaffordable"
-					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unaffordable_150"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "WEL_POL_0"
-					pdx_tooltip_delayed = "WEL_POL_0_desc_PP"
 				}
 				#iconType = {
 				#	name ="WEL_POL_temp_0_icon"
@@ -3071,7 +2729,7 @@ guiTypes = {
 				buttonType = {
 					name = "policy_WEL_POL_level_1"
 					position = { x = 0 y = 0 }
-					spriteType = "GFX_policy_button_ic_available"
+					spriteType = "GFX_government_policy_available_button"
 					Orientation = "UPPER_LEFT"
 					clicksound = click_open
 					clicksound = click_default
@@ -3081,24 +2739,16 @@ guiTypes = {
 				iconType = {
 					name = "policy_WEL_POL_level_1_unavailable"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unavailable"
+					spriteType = "GFX_government_policy_unavailable_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "WEL_POL_1"
 				}
 				iconType = {
 					name = "policy_WEL_POL_level_1_completed"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_completed"
+					spriteType = "GFX_government_policy_selected_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "WEL_POL_1"
-				}
-				iconType = {
-					name = "policy_WEL_POL_level_1_unaffordable"
-					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unaffordable_150"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "WEL_POL_1"
-					pdx_tooltip_delayed = "WEL_POL_1_desc_PP"
 				}
 				#iconType = {
 				#	name ="WEL_POL_temp_1_icon"
@@ -3122,7 +2772,7 @@ guiTypes = {
 				buttonType = {
 					name = "policy_WEL_POL_level_2"
 					position = { x = 0 y = 0 }
-					spriteType = "GFX_policy_button_ic_available"
+					spriteType = "GFX_government_policy_available_button"
 					Orientation = "UPPER_LEFT"
 					clicksound = click_open
 					clicksound = click_default
@@ -3132,24 +2782,16 @@ guiTypes = {
 				iconType = {
 					name = "policy_WEL_POL_level_2_unavailable"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unavailable"
+					spriteType = "GFX_government_policy_unavailable_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "WEL_POL_2"
 				}
 				iconType = {
 					name = "policy_WEL_POL_level_2_completed"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_completed"
+					spriteType = "GFX_government_policy_selected_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "WEL_POL_2"
-				}
-				iconType = {
-					name = "policy_WEL_POL_level_2_unaffordable"
-					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unaffordable_150"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "WEL_POL_2"
-					pdx_tooltip_delayed = "WEL_POL_2_desc_PP"
 				}
 				#iconType = {
 				#	name ="WEL_POL_temp_2_icon"
@@ -3173,7 +2815,7 @@ guiTypes = {
 				buttonType = {
 					name = "policy_WEL_POL_level_3"
 					position = { x = 0 y = 0 }
-					spriteType = "GFX_policy_button_ic_available"
+					spriteType = "GFX_government_policy_available_button"
 					Orientation = "UPPER_LEFT"
 					clicksound = click_open
 					clicksound = click_default
@@ -3183,24 +2825,16 @@ guiTypes = {
 				iconType = {
 					name = "policy_WEL_POL_level_3_unavailable"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unavailable"
+					spriteType = "GFX_government_policy_unavailable_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "WEL_POL_3"
 				}
 				iconType = {
 					name = "policy_WEL_POL_level_3_completed"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_completed"
+					spriteType = "GFX_government_policy_selected_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "WEL_POL_3"
-				}
-				iconType = {
-					name = "policy_WEL_POL_level_3_unaffordable"
-					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unaffordable_150"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "WEL_POL_3"
-					pdx_tooltip_delayed = "WEL_POL_3_desc_PP"
 				}
 				#iconType = {
 				#	name ="WEL_POL_temp_3_icon"
@@ -3224,7 +2858,7 @@ guiTypes = {
 				buttonType = {
 					name = "policy_WEL_POL_level_4"
 					position = { x = 0 y = 0 }
-					spriteType = "GFX_policy_button_ic_available"
+					spriteType = "GFX_government_policy_available_button"
 					Orientation = "UPPER_LEFT"
 					clicksound = click_open
 					clicksound = click_default
@@ -3234,24 +2868,16 @@ guiTypes = {
 				iconType = {
 					name = "policy_WEL_POL_level_4_unavailable"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unavailable"
+					spriteType = "GFX_government_policy_unavailable_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "WEL_POL_4"
 				}
 				iconType = {
 					name = "policy_WEL_POL_level_4_completed"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_completed"
+					spriteType = "GFX_government_policy_selected_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "WEL_POL_4"
-				}
-				iconType = {
-					name = "policy_WEL_POL_level_4_unaffordable"
-					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unaffordable_150"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "WEL_POL_4"
-					pdx_tooltip_delayed = "WEL_POL_4_desc_PP"
 				}
 				#iconType = {
 				#	name ="WEL_POL_temp_4_icon"
@@ -3275,7 +2901,7 @@ guiTypes = {
 				buttonType = {
 					name = "policy_WEL_POL_level_5"
 					position = { x = 0 y = 0 }
-					spriteType = "GFX_policy_button_ic_available"
+					spriteType = "GFX_government_policy_available_button"
 					Orientation = "UPPER_LEFT"
 					clicksound = click_open
 					clicksound = click_default
@@ -3285,24 +2911,16 @@ guiTypes = {
 				iconType = {
 					name = "policy_WEL_POL_level_5_unavailable"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unavailable"
+					spriteType = "GFX_government_policy_unavailable_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "WEL_POL_5"
 				}
 				iconType = {
 					name = "policy_WEL_POL_level_5_completed"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_completed"
+					spriteType = "GFX_government_policy_selected_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "WEL_POL_5"
-				}
-				iconType = {
-					name = "policy_WEL_POL_level_5_unaffordable"
-					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unaffordable_150"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "WEL_POL_5"
-					pdx_tooltip_delayed = "WEL_POL_5_desc_PP"
 				}
 				#iconType = {
 				#	name ="WEL_POL_temp_5_icon"
@@ -3382,7 +3000,7 @@ guiTypes = {
 				buttonType = {
 					name = "policy_TAX_POL_level_1"
 					position = { x = 0 y = 0 }
-					spriteType = "GFX_policy_button_ic_available"
+					spriteType = "GFX_government_policy_available_button"
 					Orientation = "UPPER_LEFT"
 					clicksound = click_open
 					clicksound = click_default
@@ -3391,21 +3009,14 @@ guiTypes = {
 				iconType = {
 					name = "policy_TAX_POL_level_1_unavailable"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unavailable"
+					spriteType = "GFX_government_policy_unavailable_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "TAX_POL_1"
 				}
 				iconType = {
 					name = "policy_TAX_POL_level_1_completed"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_completed"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "TAX_POL_1"
-				}
-				iconType = {
-					name = "policy_TAX_POL_level_1_unaffordable"
-					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unaffordable_150"
+					spriteType = "GFX_government_policy_selected_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "TAX_POL_1"
 				}
@@ -3431,7 +3042,7 @@ guiTypes = {
 				buttonType = {
 					name = "policy_TAX_POL_level_2"
 					position = { x = 0 y = 0 }
-					spriteType = "GFX_policy_button_ic_available"
+					spriteType = "GFX_government_policy_available_button"
 					Orientation = "UPPER_LEFT"
 					clicksound = click_open
 					clicksound = click_default
@@ -3440,21 +3051,14 @@ guiTypes = {
 				iconType = {
 					name = "policy_TAX_POL_level_2_unavailable"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unavailable"
+					spriteType = "GFX_government_policy_unavailable_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "TAX_POL_2"
 				}
 				iconType = {
 					name = "policy_TAX_POL_level_2_completed"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_completed"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "TAX_POL_2"
-				}
-				iconType = {
-					name = "policy_TAX_POL_level_2_unaffordable"
-					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unaffordable_150"
+					spriteType = "GFX_government_policy_selected_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "TAX_POL_2"
 				}
@@ -3480,7 +3084,7 @@ guiTypes = {
 				buttonType = {
 					name = "policy_TAX_POL_level_3"
 					position = { x = 0 y = 0 }
-					spriteType = "GFX_policy_button_ic_available"
+					spriteType = "GFX_government_policy_available_button"
 					Orientation = "UPPER_LEFT"
 					clicksound = click_open
 					clicksound = click_default
@@ -3489,21 +3093,14 @@ guiTypes = {
 				iconType = {
 					name = "policy_TAX_POL_level_3_unavailable"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unavailable"
+					spriteType = "GFX_government_policy_unavailable_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "TAX_POL_3"
 				}
 				iconType = {
 					name = "policy_TAX_POL_level_3_completed"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_completed"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "TAX_POL_3"
-				}
-				iconType = {
-					name = "policy_TAX_POL_level_3_unaffordable"
-					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unaffordable_150"
+					spriteType = "GFX_government_policy_selected_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "TAX_POL_3"
 				}
@@ -3529,7 +3126,7 @@ guiTypes = {
 				buttonType = {
 					name = "policy_TAX_POL_level_4"
 					position = { x = 0 y = 0 }
-					spriteType = "GFX_policy_button_ic_available"
+					spriteType = "GFX_government_policy_available_button"
 					Orientation = "UPPER_LEFT"
 					clicksound = click_open
 					clicksound = click_default
@@ -3538,21 +3135,14 @@ guiTypes = {
 				iconType = {
 					name = "policy_TAX_POL_level_4_unavailable"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unavailable"
+					spriteType = "GFX_government_policy_unavailable_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "TAX_POL_4"
 				}
 				iconType = {
 					name = "policy_TAX_POL_level_4_completed"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_completed"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "TAX_POL_4"
-				}
-				iconType = {
-					name = "policy_TAX_POL_level_4_unaffordable"
-					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unaffordable_150"
+					spriteType = "GFX_government_policy_selected_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "TAX_POL_4"
 				}
@@ -3578,7 +3168,7 @@ guiTypes = {
 				buttonType = {
 					name = "policy_TAX_POL_level_5"
 					position = { x = 0 y = 0 }
-					spriteType = "GFX_policy_button_ic_available"
+					spriteType = "GFX_government_policy_available_button"
 					Orientation = "UPPER_LEFT"
 					clicksound = click_open
 					clicksound = click_default
@@ -3587,21 +3177,14 @@ guiTypes = {
 				iconType = {
 					name = "policy_TAX_POL_level_5_unavailable"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unavailable"
+					spriteType = "GFX_government_policy_unavailable_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "TAX_POL_5"
 				}
 				iconType = {
 					name = "policy_TAX_POL_level_5_completed"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_completed"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "TAX_POL_5"
-				}
-				iconType = {
-					name = "policy_TAX_POL_level_5_unaffordable"
-					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unaffordable_150"
+					spriteType = "GFX_government_policy_selected_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "TAX_POL_5"
 				}
@@ -3661,7 +3244,7 @@ guiTypes = {
 				buttonType = {
 					name = "policy_CPI_POL_level_0"
 					position = { x = 0 y = 0 }
-					spriteType = "GFX_policy_button_ic_available"
+					spriteType = "GFX_government_policy_available_button"
 					Orientation = "UPPER_LEFT"
 					clicksound = click_open
 					clicksound = click_default
@@ -3671,24 +3254,16 @@ guiTypes = {
 				iconType = {
 					name = "policy_CPI_POL_level_0_unavailable"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unavailable"
+					spriteType = "GFX_government_policy_unavailable_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "CPI_POL_0"
 				}
 				iconType = {
 					name = "policy_CPI_POL_level_0_completed"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_completed"
+					spriteType = "GFX_government_policy_selected_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "CPI_POL_0"
-				}
-				iconType = {
-					name = "policy_CPI_POL_level_0_unaffordable"
-					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unaffordable_150"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "CPI_POL_0"
-					pdx_tooltip_delayed = "CPI_POL_0_desc_PP"
 				}
 				#iconType = {
 				#	name ="CPI_POL_temp_0_icon"
@@ -3712,7 +3287,7 @@ guiTypes = {
 				buttonType = {
 					name = "policy_CPI_POL_level_1"
 					position = { x = 0 y = 0 }
-					spriteType = "GFX_policy_button_ic_available"
+					spriteType = "GFX_government_policy_available_button"
 					Orientation = "UPPER_LEFT"
 					clicksound = click_open
 					clicksound = click_default
@@ -3722,24 +3297,16 @@ guiTypes = {
 				iconType = {
 					name = "policy_CPI_POL_level_1_unavailable"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unavailable"
+					spriteType = "GFX_government_policy_unavailable_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "CPI_POL_1"
 				}
 				iconType = {
 					name = "policy_CPI_POL_level_1_completed"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_completed"
+					spriteType = "GFX_government_policy_selected_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "CPI_POL_1"
-				}
-				iconType = {
-					name = "policy_CPI_POL_level_1_unaffordable"
-					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unaffordable_150"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "CPI_POL_1"
-					pdx_tooltip_delayed = "CPI_POL_1_desc_PP"
 				}
 				#iconType = {
 				#	name ="CPI_POL_temp_1_icon"
@@ -3763,7 +3330,7 @@ guiTypes = {
 				buttonType = {
 					name = "policy_CPI_POL_level_2"
 					position = { x = 0 y = 0 }
-					spriteType = "GFX_policy_button_ic_available"
+					spriteType = "GFX_government_policy_available_button"
 					Orientation = "UPPER_LEFT"
 					clicksound = click_open
 					clicksound = click_default
@@ -3773,24 +3340,16 @@ guiTypes = {
 				iconType = {
 					name = "policy_CPI_POL_level_2_unavailable"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unavailable"
+					spriteType = "GFX_government_policy_unavailable_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "CPI_POL_2"
 				}
 				iconType = {
 					name = "policy_CPI_POL_level_2_completed"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_completed"
+					spriteType = "GFX_government_policy_selected_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "CPI_POL_2"
-				}
-				iconType = {
-					name = "policy_CPI_POL_level_2_unaffordable"
-					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unaffordable_150"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "CPI_POL_2"
-					pdx_tooltip_delayed = "CPI_POL_2_desc_PP"
 				}
 				#iconType = {
 				#	name ="CPI_POL_temp_2_icon"
@@ -3814,7 +3373,7 @@ guiTypes = {
 				buttonType = {
 					name = "policy_CPI_POL_level_3"
 					position = { x = 0 y = 0 }
-					spriteType = "GFX_policy_button_ic_available"
+					spriteType = "GFX_government_policy_available_button"
 					Orientation = "UPPER_LEFT"
 					clicksound = click_open
 					clicksound = click_default
@@ -3824,24 +3383,16 @@ guiTypes = {
 				iconType = {
 					name = "policy_CPI_POL_level_3_unavailable"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unavailable"
+					spriteType = "GFX_government_policy_unavailable_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "CPI_POL_3"
 				}
 				iconType = {
 					name = "policy_CPI_POL_level_3_completed"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_completed"
+					spriteType = "GFX_government_policy_selected_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "CPI_POL_3"
-				}
-				iconType = {
-					name = "policy_CPI_POL_level_3_unaffordable"
-					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unaffordable_150"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "CPI_POL_3"
-					pdx_tooltip_delayed = "CPI_POL_3_desc_PP"
 				}
 				#iconType = {
 				#	name ="CPI_POL_temp_3_icon"
@@ -3865,7 +3416,7 @@ guiTypes = {
 				buttonType = {
 					name = "policy_CPI_POL_level_4"
 					position = { x = 0 y = 0 }
-					spriteType = "GFX_policy_button_ic_available"
+					spriteType = "GFX_government_policy_available_button"
 					Orientation = "UPPER_LEFT"
 					clicksound = click_open
 					clicksound = click_default
@@ -3875,24 +3426,16 @@ guiTypes = {
 				iconType = {
 					name = "policy_CPI_POL_level_4_unavailable"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unavailable"
+					spriteType = "GFX_government_policy_unavailable_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "CPI_POL_4"
 				}
 				iconType = {
 					name = "policy_CPI_POL_level_4_completed"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_completed"
+					spriteType = "GFX_government_policy_selected_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "CPI_POL_4"
-				}
-				iconType = {
-					name = "policy_CPI_POL_level_4_unaffordable"
-					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unaffordable_150"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "CPI_POL_4"
-					pdx_tooltip_delayed = "CPI_POL_4_desc_PP"
 				}
 				#iconType = {
 				#	name ="CPI_POL_temp_4_icon"
@@ -3916,7 +3459,7 @@ guiTypes = {
 				buttonType = {
 					name = "policy_CPI_POL_level_5"
 					position = { x = 0 y = 0 }
-					spriteType = "GFX_policy_button_ic_available"
+					spriteType = "GFX_government_policy_available_button"
 					Orientation = "UPPER_LEFT"
 					clicksound = click_open
 					clicksound = click_default
@@ -3926,24 +3469,16 @@ guiTypes = {
 				iconType = {
 					name = "policy_CPI_POL_level_5_unavailable"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unavailable"
+					spriteType = "GFX_government_policy_unavailable_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "CPI_POL_5"
 				}
 				iconType = {
 					name = "policy_CPI_POL_level_5_completed"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_completed"
+					spriteType = "GFX_government_policy_selected_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "CPI_POL_5"
-				}
-				iconType = {
-					name = "policy_CPI_POL_level_5_unaffordable"
-					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unaffordable_150"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "CPI_POL_5"
-					pdx_tooltip_delayed = "CPI_POL_5_desc_PP"
 				}
 				#iconType = {
 				#	name ="CPI_POL_temp_5_icon"
@@ -4058,7 +3593,7 @@ guiTypes = {
 				buttonType = {
 					name = "policy_REL_POL_level_0"
 					position = { x = 0 y = 0 }
-					spriteType = "GFX_policy_button_ic_available"
+					spriteType = "GFX_government_policy_available_button"
 					Orientation = "UPPER_LEFT"
 					clicksound = click_open
 					clicksound = click_default
@@ -4067,21 +3602,14 @@ guiTypes = {
 				iconType = {
 					name = "policy_REL_POL_level_0_unavailable"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unavailable"
+					spriteType = "GFX_government_policy_unavailable_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "REL_POL_0"
 				}
 				iconType = {
 					name = "policy_REL_POL_level_0_completed"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_completed"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "REL_POL_0"
-				}
-				iconType = {
-					name = "policy_REL_POL_level_0_unaffordable"
-					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unaffordable_600"
+					spriteType = "GFX_government_policy_selected_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "REL_POL_0"
 				}
@@ -4107,7 +3635,7 @@ guiTypes = {
 				buttonType = {
 					name = "policy_REL_POL_level_0a"
 					position = { x = 0 y = 0 }
-					spriteType = "GFX_policy_button_ic_available"
+					spriteType = "GFX_government_policy_available_button"
 					Orientation = "UPPER_LEFT"
 					clicksound = click_open
 					clicksound = click_default
@@ -4116,21 +3644,14 @@ guiTypes = {
 				iconType = {
 					name = "policy_REL_POL_level_0a_unavailable"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unavailable"
+					spriteType = "GFX_government_policy_unavailable_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "REL_POL_0a"
 				}
 				iconType = {
 					name = "policy_REL_POL_level_0a_completed"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_completed"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "REL_POL_0a"
-				}
-				iconType = {
-					name = "policy_REL_POL_level_0a_unaffordable"
-					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unaffordable_600"
+					spriteType = "GFX_government_policy_selected_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "REL_POL_0a"
 				}
@@ -4156,7 +3677,7 @@ guiTypes = {
 				buttonType = {
 					name = "policy_REL_POL_level_1"
 					position = { x = 0 y = 0 }
-					spriteType = "GFX_policy_button_ic_available"
+					spriteType = "GFX_government_policy_available_button"
 					Orientation = "UPPER_LEFT"
 					clicksound = click_open
 					clicksound = click_default
@@ -4165,21 +3686,14 @@ guiTypes = {
 				iconType = {
 					name = "policy_REL_POL_level_1_unavailable"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unavailable"
+					spriteType = "GFX_government_policy_unavailable_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "REL_POL_1"
 				}
 				iconType = {
 					name = "policy_REL_POL_level_1_completed"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_completed"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "REL_POL_1"
-				}
-				iconType = {
-					name = "policy_REL_POL_level_1_unaffordable"
-					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unaffordable_300"
+					spriteType = "GFX_government_policy_selected_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "REL_POL_1"
 				}
@@ -4205,7 +3719,7 @@ guiTypes = {
 				buttonType = {
 					name = "policy_REL_POL_level_2"
 					position = { x = 0 y = 0 }
-					spriteType = "GFX_policy_button_ic_available"
+					spriteType = "GFX_government_policy_available_button"
 					Orientation = "UPPER_LEFT"
 					clicksound = click_open
 					clicksound = click_default
@@ -4214,21 +3728,14 @@ guiTypes = {
 				iconType = {
 					name = "policy_REL_POL_level_2_unavailable"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unavailable"
+					spriteType = "GFX_government_policy_unavailable_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "REL_POL_2"
 				}
 				iconType = {
 					name = "policy_REL_POL_level_2_completed"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_completed"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "REL_POL_2"
-				}
-				iconType = {
-					name = "policy_REL_POL_level_2_unaffordable"
-					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unaffordable_150"
+					spriteType = "GFX_government_policy_selected_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "REL_POL_2"
 				}
@@ -4254,7 +3761,7 @@ guiTypes = {
 				buttonType = {
 					name = "policy_REL_POL_level_3"
 					position = { x = 0 y = 0 }
-					spriteType = "GFX_policy_button_ic_available"
+					spriteType = "GFX_government_policy_available_button"
 					Orientation = "UPPER_LEFT"
 					clicksound = click_open
 					clicksound = click_default
@@ -4263,21 +3770,14 @@ guiTypes = {
 				iconType = {
 					name = "policy_REL_POL_level_3_unavailable"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unavailable"
+					spriteType = "GFX_government_policy_unavailable_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "REL_POL_3"
 				}
 				iconType = {
 					name = "policy_REL_POL_level_3_completed"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_completed"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "REL_POL_3"
-				}
-				iconType = {
-					name = "policy_REL_POL_level_3_unaffordable"
-					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unaffordable_150"
+					spriteType = "GFX_government_policy_selected_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "REL_POL_3"
 				}
@@ -4303,7 +3803,7 @@ guiTypes = {
 				buttonType = {
 					name = "policy_REL_POL_level_3a"
 					position = { x = 0 y = 0 }
-					spriteType = "GFX_policy_button_ic_available"
+					spriteType = "GFX_government_policy_available_button"
 					Orientation = "UPPER_LEFT"
 					clicksound = click_open
 					clicksound = click_default
@@ -4312,21 +3812,14 @@ guiTypes = {
 				iconType = {
 					name = "policy_REL_POL_level_3a_unavailable"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unavailable"
+					spriteType = "GFX_government_policy_unavailable_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "REL_POL_3a"
 				}
 				iconType = {
 					name = "policy_REL_POL_level_3a_completed"
 					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_completed"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "REL_POL_3a"
-				}
-				iconType = {
-					name = "policy_REL_POL_level_3a_unaffordable"
-					position = {x=0 y=0}
-					spriteType = "GFX_policy_button_ic_unaffordable_150"
+					spriteType = "GFX_government_policy_selected_button"
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "REL_POL_3a"
 				}

@@ -3,4 +3,19 @@ spriteTypes = {
 		name = "GFX_government_policy_button"
 		texturefile = "gfx/interface/country_interface/government_window/policy_button.dds"
 	}
+	spriteType = {
+		name = "GFX_government_policy_available_button"
+		texturefile = "gfx/interfacecountry_interface/government_window//policy_button_available.dds"
+		legacy_lazy_load=no
+	}
+	spriteType = {
+		name = "GFX_government_policy_unavailable_button"
+		texturefile = "gfx/interface/country_interface/government_window/policy_button_unavailable.dds"
+		legacy_lazy_load=no
+	}
+	spriteType = {
+		name = "GFX_government_policy_selected_button"
+		texturefile = "gfx/interface/country_interface/government_window/policy_button_selected.dds"
+		legacy_lazy_load=no
+	}
 }
