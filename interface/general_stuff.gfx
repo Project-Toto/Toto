@@ -1,4 +1,32 @@
 spriteTypes = {	
+	corneredTileSpriteType = {
+		name = "GFX_tiled_pol_bg"
+		size= { x=192 y=192 }
+		textureFile = "gfx/interface/tiles/tiled_pol_bg.dds"
+		borderSize = { x=64 y=64 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+	spriteType = {
+		name = "GFX_policy_button_ic"
+		texturefile = "gfx/interface/policy_button_ic.dds"
+		legacy_lazy_load=no
+	}
+	spriteType = {
+		name = "GFX_policy_button_ic_unavailable"
+		texturefile = "gfx/interface/policy_button_ic_unavailable.dds"
+		legacy_lazy_load=no
+	}
+	spriteType = {
+		name = "GFX_policy_button_ic_available"
+		texturefile = "gfx/interface/policy_button_ic_available.dds"
+		legacy_lazy_load=no
+	}
+	spriteType = {
+		name = "GFX_policy_button_ic_completed"
+		texturefile = "gfx/interface/policy_button_ic_completed.dds"
+		legacy_lazy_load=no
+	}
 
 	spriteType = {
 		name = "GFX_leader_frame_0_6"

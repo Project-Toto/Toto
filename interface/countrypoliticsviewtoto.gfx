@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_government_policy_button"
+		texturefile = "gfx/interface/country_interface/government_window/policy_button.dds"
+	}
+}
