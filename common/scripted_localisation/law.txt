@@ -1,0 +1,7 @@
+defined_text = {
+  name = GetNameFullDef
+  text = {
+    trigger = { is_subject = yes }
+    localization_key = TAG_full_def_subject # ""
+  }
+}

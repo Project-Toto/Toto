@@ -1,0 +1,25 @@
+toto_laws_setup = {
+  # Country Development
+    add_to_array = { global.country_development_array = 0 } # Undeveloped (Uncolonized, unplayable tribes)
+    add_to_array = { global.country_development_array = 1 } # Unconsolidated Tribal (Unorganized Tribal)
+    add_to_array = { global.country_development_array = 2 } # Consolidated Tribal (Organized Tribal)
+    add_to_array = { global.country_development_array = 3 } # Unconsolidated State (Reforming 'Kingdom')
+    add_to_array = { global.country_development_array = 4 } # Consolidated State (Modernized State)
+    add_to_array = { global.country_development_array = 5 } # Colonial (Playable Colonial Companies)
+    add_to_array = { global.country_development_array = 6 } # Imperial (Unplayable Colonial Powers)
+  # Country Government
+    # oligarchy
+    # republic
+    # demarchy
+    # 
+    # monarchy
+    # islamic monarchy
+    # caliphate
+    # emirate
+    # imamate
+    # kingdom
+    # duchy
+    # principality
+    
+}
+
