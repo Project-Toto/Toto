@@ -42,6 +42,34 @@
     precision = 0
     category = state
   }
+  
+  state_sandstorm_chance = {
+    color_type = bad
+    value_type = percentage
+    precision = 1
+    category = state
+  }
+  
+   state_drought_chance = {
+    color_type = bad
+    value_type = percentage
+    precision = 1
+    category = state
+  }
+  
+   state_heavy_rain_chance = {
+    color_type = bad
+    value_type = percentage
+    precision = 1
+    category = state
+  }
+  
+   state_monsoon_chance = {
+    color_type = bad
+    value_type = percentage
+    precision = 1
+    category = state
+  }
 
 # Population
   state_happiness = {

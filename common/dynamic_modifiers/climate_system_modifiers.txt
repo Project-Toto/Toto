@@ -2,48 +2,111 @@
   climate_arid = {
     icon = GFX_state_climate_arid
     # Arid (Desert)
+    
+    state_habitability = state_habitability_var
+    state_arability = state_arability_var
+    
+    state_sandstorm_chance = 0.025
+    state_drought_chance = 0.25
   }
   climate_arid_coast = {
     icon = GFX_state_climate_arid_coast
     # Arid Coast (Desert Coast)
+    
+    state_habitability = state_habitability_var
+    state_arability = state_arability_var
+    
+    state_sandstorm_chance = 0.04
+    state_drought_chance = 0.20
   }
   climate_arid_highlands = {
     icon = GFX_state_climate_highlands
     # Arid Highlands (Desert Highlands)
+    
+    state_habitability = state_habitability_var
+    state_arability = state_arability_var
+    
+    state_sandstorm_chance = 0.01
+    state_drought_chance = 0.333
   }
   climate_arid_tropic = {
     icon = GFX_state_climate_arid_tropic
     # Arid Tropic (Sahel)
+    
+    state_habitability = state_habitability_var
+    state_arability = state_arability_var
+    
+    state_sandstorm_chance = 0.02
+    state_drought_chance = 0.15
   }
   
   climate_temperate = {
     icon = GFX_state_climate_temperate
     # Temperate
+    
+    state_habitability = state_habitability_var
+    state_arability = state_arability_var
+    
+    state_heavy_rain_chance = 0.05
+    state_drought_chance = 0.10
   }
   climate_temperate_coast = {
     icon = GFX_state_climate_temperate_coast
     # Temperate Coast (Mediterreanean)
+    
+    state_habitability = state_habitability_var
+    state_arability = state_arability_var
+    
+    state_heavy_rain_chance = 0.10
+    state_drought_chance = 0.05
   }
   climate_temperate_highlands = {
     icon = GFX_state_climate_temperate_highlands
     # Temperate Highlands (Montane)
+    
+    state_habitability = state_habitability_var
+    state_arability = state_arability_var
+    
+    state_heavy_rain_chance = 0.085
+    state_drought_chance = 0.085
   }
   
   climate_humid = {
     icon = GFX_state_climate_humid
     # Humid
+    
+    state_habitability = state_habitability_var
+    state_arability = state_arability_var
+    
+    state_heavy_rain_chance = 0.50
   }
   climate_humid_coast = {
     icon = GFX_state_climate_humid_coast
     # Humid Coast
+    
+    state_habitability = state_habitability_var
+    state_arability = state_arability_var
+    
+    state_heavy_rain_chance = 0.50
+    state_monsoon_chance = 0.10
   }
   climate_humid_highlands = {
     icon = GFX_state_climate_humid_highlands
     # Humid Highlands
+    
+    state_habitability = state_habitability_var
+    state_arability = state_arability_var
+    
+    state_heavy_rain_chance = 0.45
   }
   climate_humid_tropic = {
     icon = GFX_state_climate_humid_tropic
     # Humid Tropic
+    
+    state_habitability = state_habitability_var
+    state_arability = state_arability_var
+    
+    state_heavy_rain_chance = 0.25
   }
 
 # State Climate Events

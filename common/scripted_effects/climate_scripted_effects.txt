@@ -169,6 +169,38 @@ global_weather_update = {
     }
   }
   for_each_scope_loop = {
+    array = global.states_climate_arid_tropic
+    if = {
+      limit = { has_dynamic_modifier = { modifier = climate_event_sandstorm } }
+      remove_dynamic_modifier = { modifier = climate_event_sandstorm }
+    }
+    else_if = {
+      limit = { has_dynamic_modifier = { modifier = climate_event_drought } }
+      random_list = {
+        7 = {
+          remove_dynamic_modifier = { modifier = climate_event_drought }
+        }
+        1 = {
+          # Persists
+        }
+        2 = {
+          add_dynamic_modifier = { modifier = climate_event_sandstorm }
+        }
+      }
+    }
+    else = {
+      random_list = {
+        3 = {
+          add_dynamic_modifier = { modifier = climate_event_drought }
+        }
+        17 = {
+          # Nothing
+        }
+      }
+    }
+  }
+  
+  for_each_scope_loop = {
     array = global.states_climate_temperate
     if = {
       limit = { has_dynamic_modifier = { modifier = climate_event_drought } }
@@ -180,13 +212,13 @@ global_weather_update = {
     }
     else = {
       random_list = {
-        1 = {
+        2 = {
           add_dynamic_modifier = { modifier = climate_event_drought }
         }
         1 = {
           add_dynamic_modifier = { modifier = climate_event_heavy_rain }
         }
-        18 = {
+        7 = {
           # Nothing
         }
       }
@@ -207,10 +239,10 @@ global_weather_update = {
         1 = {
           add_dynamic_modifier = { modifier = climate_event_drought }
         }
-        3 = {
+        2 = {
           add_dynamic_modifier = { modifier = climate_event_heavy_rain }
         }
-        16 = {
+        7 = {
           # Nothing
         }
       }
@@ -318,6 +350,29 @@ global_weather_update = {
           add_dynamic_modifier = { modifier = climate_event_heavy_rain }
         }
         6 = {
+          # Nothing
+        }
+      }
+    }
+  }
+  for_each_scope_loop = {
+    array = global.states_climate_humid_highlands
+    if = {
+      limit = { has_dynamic_modifier = { modifier = climate_event_heavy_rain } }
+      random_list = {
+        8 = {
+          remove_dynamic_modifier = { modifier = climate_event_heavy_rain }
+        }
+        3 = {
+          #Persists
+        }
+    }
+    else = {
+      random_list = {
+        2 = {
+          add_dynamic_modifier = { modifier = climate_event_heavy_rain }
+        }
+        8 = {
           # Nothing
         }
       }
