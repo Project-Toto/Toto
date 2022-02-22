@@ -1,50 +1,65 @@
 # State Climates
   climate_arid = {
+    icon = GFX_state_climate_arid
     # Arid (Desert)
   }
   climate_arid_coast = {
+    icon = GFX_state_climate_arid_coast
     # Arid Coast (Desert Coast)
   }
   climate_arid_highlands = {
+    icon = GFX_state_climate_highlands
     # Arid Highlands (Desert Highlands)
   }
   climate_arid_tropic = {
+    icon = GFX_state_climate_arid_tropic
     # Arid Tropic (Sahel)
   }
   
   climate_temperate = {
+    icon = GFX_state_climate_temperate
     # Temperate
   }
   climate_temperate_coast = {
+    icon = GFX_state_climate_temperate_coast
     # Temperate Coast (Mediterreanean)
   }
   climate_temperate_highlands = {
+    icon = GFX_state_climate_temperate_highlands
     # Temperate Highlands (Montane)
   }
   
   climate_humid = {
+    icon = GFX_state_climate_humid
     # Humid
   }
   climate_humid_coast = {
+    icon = GFX_state_climate_humid_coast
     # Humid Coast
   }
   climate_humid_highlands = {
+    icon = GFX_state_climate_humid_highlands
     # Humid Highlands
   }
   climate_humid_tropic = {
+    icon = GFX_state_climate_humid_tropic
     # Humid Tropic
   }
 
 # State Climate Events
   climate_event_sandstorm = {
+    icon = GFX_state_climate_event_sandstorm
     # Sandstorm
   }
   climate_event_drought = {
+    icon = GFX_state_climate_event_drought
     # Drought
   }
   climate_event_heavy_rains = {
+    icon = GFX_state_climate_event_heavy_rains
     # Heavy Rains
   }
   climate_event_monsoon = {
+    icon = GFX_state_climate_event_monsoon
     # Monsoon
   }
