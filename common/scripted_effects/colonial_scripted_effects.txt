@@ -1,0 +1,113 @@
+toto_colonialism_setup = {
+  every_state = {
+    if = {
+      limit = { has_state_flag = state_category_colonial_region_europe_flag }
+      add_to_array = { global.colonial_region_europe_array  = THIS.id }
+    }
+    else_if = {
+      limit = { has_state_flag = state_category_colonial_region_aegean_flag }
+      add_to_array = { global.colonial_region_aegean_array  = THIS.id }
+    }
+    else_if = {
+      limit = { has_state_flag = state_category_colonial_region_anatolia_flag }
+      add_to_array = { global.colonial_region_anatolia_array  = THIS.id }
+    }
+    else_if = {
+      limit = { has_state_flag = state_category_colonial_region_persia_flag }
+      add_to_array = { global.colonial_region_persia_array  = THIS.id }
+    }
+    else_if = {
+      limit = { has_state_flag = state_category_colonial_region_mesopotamia_flag }
+      add_to_array = { global.colonial_region_mesopotamia_array  = THIS.id }
+    }
+    else_if = {
+      limit = { has_state_flag = state_category_colonial_region_syria_flag }
+      add_to_array = { global.colonial_region_syria_array  = THIS.id }
+    }
+    else_if = {
+      limit = { has_state_flag = state_category_colonial_region_levant_flag }
+      add_to_array = { global.colonial_region_levant_array  = THIS.id }
+    }
+    else_if = {
+      limit = { has_state_flag = state_category_colonial_region_north_arabia_flag }
+      add_to_array = { global.colonial_region_north_arabia_array  = THIS.id }
+    }
+    else_if = {
+      limit = { has_state_flag = state_category_colonial_region_east_arabia_flag }
+      add_to_array = { global.colonial_region_east_arabia_array  = THIS.id }
+    }
+    else_if = {
+      limit = { has_state_flag = state_category_colonial_region_south_arabia_flag }
+      add_to_array = { global.colonial_region_south_arabia_array  = THIS.id }
+    }
+    else_if = {
+      limit = { has_state_flag = state_category_colonial_region_west_arabia_flag }
+      add_to_array = { global.colonial_region_west_arabia_array  = THIS.id }
+    }
+    else_if = {
+      limit = { has_state_flag = state_category_colonial_region_lower_nile_flag }
+      add_to_array = { global.colonial_region_lower_nile_array  = THIS.id }
+    }
+    else_if = {
+      limit = { has_state_flag = state_category_colonial_region_central_nile_flag }
+      add_to_array = { global.colonial_region_central_nile_array  = THIS.id }
+    }
+    else_if = {
+      limit = { has_state_flag = state_category_colonial_region_upper_nile_flag }
+      add_to_array = { global.colonial_region_upper_nile_array  = THIS.id }
+    }
+    else_if = {
+      limit = { has_state_flag = state_category_colonial_region_cyrenaica_flag }
+      add_to_array = { global.colonial_region_cyrenaica_array  = THIS.id }
+    }
+    else_if = {
+      limit = { has_state_flag = state_category_colonial_region_tripoli_flag }
+      add_to_array = { global.colonial_region_tripoli_array  = THIS.id }
+    }
+    else_if = {
+      limit = { has_state_flag = state_category_colonial_region_tunis_flag }
+      add_to_array = { global.colonial_region_tunis_array  = THIS.id }
+    }
+    else_if = {
+      limit = { has_state_flag = state_category_colonial_region_algiers_flag }
+      add_to_array = { global.colonial_region_algiers_array  = THIS.id }
+    }
+    else_if = {
+      limit = { has_state_flag = state_category_colonial_region_morocco_flag }
+      add_to_array = { global.colonial_region_morocco_array  = THIS.id }
+    }
+    else_if = {
+      limit = { has_state_flag = state_category_colonial_region_west_sahara_flag }
+      add_to_array = { global.colonial_region_west_sahara_array  = THIS.id }
+    }
+    else_if = {
+      limit = { has_state_flag = state_category_colonial_region_mauritania_flag }
+      add_to_array = { global.colonial_region_mauritania_array  = THIS.id }
+    }
+    else_if = {
+      limit = { has_state_flag = state_category_colonial_region_senegal_flag }
+      add_to_array = { global.colonial_region_senegal_array  = THIS.id }
+    }
+    else_if = {
+      limit = { has_state_flag = state_category_colonial_region_guinea_flag }
+      add_to_array = { global.colonial_region_guinea_array  = THIS.id }
+    }
+    else_if = {
+      limit = { has_state_flag = state_category_colonial_region_pepper_coast_flag }
+      add_to_array = { global.colonial_region_pepper_coast_array  = THIS.id }
+    }
+    else_if = {
+      limit = { has_state_flag = state_category_colonial_region_ivory_coast_flag }
+      add_to_array = { global.colonial_region_ivory_coast_array  = THIS.id }
+    }
+    else_if = {
+      limit = { has_state_flag = state_category_colonial_region_gold_coast_flag }
+      add_to_array = { global.colonial_region_gold_coast_array  = THIS.id }
+    }
+    else_if = {
+      limit = { has_state_flag = state_category_colonial_region_slave_coast_flag }
+      add_to_array = { global.colonial_region_slave_coast_array  = THIS.id }
+    }
+    
+  }
+}
