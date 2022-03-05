@@ -47,17 +47,277 @@ sub_units = {
 		need = {
 			melee_arms_equipment = 20
 			ranged_arms_equipment = 80
-			camelry_equipment = 40
+			cavalry_equipment = 40
 			ammunition_equipment = 40
-			supply_equipment = 8
-			clothes_equipment = 8
+			rations_equipment = 8
+			uniform_equipment = 8
 		}
 
 		# Equipment needed to produce this unit. Unit won't be available until the nation has this equipment
 		essential = {
 			ranged_arms_equipment
-			camelry_equipment
-			supply_equipment
+			cavalry_equipment
+			rations_equipment
+		}
+
+		# Modifiers control the stats of the unit. More detail under the Stats section.
+		# <modifiers>
+
+		# Modifiers that occur only in specific terrain
+		# <terrain> = {
+		# 		<modifiers>
+		# }
+	}
+	camelry_warrior_levy = {
+		sprite = cavalry # Refers to <name>_entity in a gfx/entities/.*.asset file - Controls the unit used on the map
+
+		# Controls the map icon category used for the unit
+		map_icon_category = other
+
+		priority = 100 # Controls which icon is used if multiple subunits of the same type exist
+		ai_priority = 5
+
+		active = no # Whether the unit is usable without explicit unlocking in technology
+		cavalry = yes					 # Used to define subunit as cavalry
+		special_forces = yes		# Used to define subunit as special forces
+		marines = no						# Used to define subunit as marine
+		mountaineers = no			 # Used to define subunit as mountaineers
+		can_be_parachuted = no	# Used to define subunit as paratroopers.
+		affects_speed = yes		 # Used to check if the unit will affect the template's speed, support companies have it set to no.
+
+		transport = camelry # Sets the speed of subunit via equipment. Used for motorized/mechanized
+
+		# How the unit is grouped division-wise, i.e. appearing in the Support tab. Not used for air or naval units
+		group = infantry
+
+		# Internal types
+		type = {
+			infantry
+		}
+
+		# Categories the unit belongs to.
+		categories = {
+			category_nomadic
+			category_levy
+
+			category_all_infantry
+			category_all_land
+
+			category_all_mobile
+			category_all_calvary
+			category_all_camelry
+		}
+
+		# Equipment that is required for this unit. Used when active = no
+		need = {
+			melee_arms_equipment = 20
+			ranged_arms_equipment = 80
+			cavalry_equipment = 40
+			ammunition_equipment = 40
+			rations_equipment = 8
+			uniform_equipment = 8
+		}
+
+		# Equipment needed to produce this unit. Unit won't be available until the nation has this equipment
+		essential = {
+			ranged_arms_equipment
+			cavalry_equipment
+			rations_equipment
+		}
+
+		# Modifiers control the stats of the unit. More detail under the Stats section.
+		# <modifiers>
+
+		# Modifiers that occur only in specific terrain
+		# <terrain> = {
+		# 		<modifiers>
+		# }
+	}
+	tribal_cavalry_levy = {
+		sprite = cavalry # Refers to <name>_entity in a gfx/entities/.*.asset file - Controls the unit used on the map
+
+		# Controls the map icon category used for the unit
+		map_icon_category = other
+
+		priority = 100 # Controls which icon is used if multiple subunits of the same type exist
+		ai_priority = 5
+
+		active = no # Whether the unit is usable without explicit unlocking in technology
+		cavalry = yes					 # Used to define subunit as cavalry
+		special_forces = yes		# Used to define subunit as special forces
+		marines = no						# Used to define subunit as marine
+		mountaineers = no			 # Used to define subunit as mountaineers
+		can_be_parachuted = no	# Used to define subunit as paratroopers.
+		affects_speed = yes		 # Used to check if the unit will affect the template's speed, support companies have it set to no.
+
+		transport = camelry # Sets the speed of subunit via equipment. Used for motorized/mechanized
+
+		# How the unit is grouped division-wise, i.e. appearing in the Support tab. Not used for air or naval units
+		group = infantry
+
+		# Internal types
+		type = {
+			infantry
+		}
+
+		# Categories the unit belongs to.
+		categories = {
+			category_nomadic
+			category_levy
+
+			category_all_infantry
+			category_all_land
+
+			category_all_mobile
+			category_all_calvary
+			category_all_camelry
+		}
+
+		# Equipment that is required for this unit. Used when active = no
+		need = {
+			melee_arms_equipment = 20
+			ranged_arms_equipment = 80
+			cavalry_equipment = 40
+			ammunition_equipment = 40
+			rations_equipment = 8
+			uniform_equipment = 8
+		}
+
+		# Equipment needed to produce this unit. Unit won't be available until the nation has this equipment
+		essential = {
+			ranged_arms_equipment
+			cavalry_equipment
+			rations_equipment
+		}
+
+		# Modifiers control the stats of the unit. More detail under the Stats section.
+		# <modifiers>
+
+		# Modifiers that occur only in specific terrain
+		# <terrain> = {
+		# 		<modifiers>
+		# }
+	}
+	tribal_archer_levy = {
+		sprite = cavalry # Refers to <name>_entity in a gfx/entities/.*.asset file - Controls the unit used on the map
+
+		# Controls the map icon category used for the unit
+		map_icon_category = other
+
+		priority = 100 # Controls which icon is used if multiple subunits of the same type exist
+		ai_priority = 5
+
+		active = no # Whether the unit is usable without explicit unlocking in technology
+		cavalry = yes					 # Used to define subunit as cavalry
+		special_forces = yes		# Used to define subunit as special forces
+		marines = no						# Used to define subunit as marine
+		mountaineers = no			 # Used to define subunit as mountaineers
+		can_be_parachuted = no	# Used to define subunit as paratroopers.
+		affects_speed = yes		 # Used to check if the unit will affect the template's speed, support companies have it set to no.
+
+		transport = camelry # Sets the speed of subunit via equipment. Used for motorized/mechanized
+
+		# How the unit is grouped division-wise, i.e. appearing in the Support tab. Not used for air or naval units
+		group = infantry
+
+		# Internal types
+		type = {
+			infantry
+		}
+
+		# Categories the unit belongs to.
+		categories = {
+			category_nomadic
+			category_levy
+
+			category_all_infantry
+			category_all_land
+
+			category_all_mobile
+			category_all_calvary
+			category_all_camelry
+		}
+
+		# Equipment that is required for this unit. Used when active = no
+		need = {
+			melee_arms_equipment = 20
+			ranged_arms_equipment = 80
+			cavalry_equipment = 40
+			ammunition_equipment = 40
+			rations_equipment = 8
+			uniform_equipment = 8
+		}
+
+		# Equipment needed to produce this unit. Unit won't be available until the nation has this equipment
+		essential = {
+			ranged_arms_equipment
+			cavalry_equipment
+			rations_equipment
+		}
+
+		# Modifiers control the stats of the unit. More detail under the Stats section.
+		# <modifiers>
+
+		# Modifiers that occur only in specific terrain
+		# <terrain> = {
+		# 		<modifiers>
+		# }
+	}
+	tribal_warrior_levy = {
+		sprite = cavalry # Refers to <name>_entity in a gfx/entities/.*.asset file - Controls the unit used on the map
+
+		# Controls the map icon category used for the unit
+		map_icon_category = other
+
+		priority = 100 # Controls which icon is used if multiple subunits of the same type exist
+		ai_priority = 5
+
+		active = no # Whether the unit is usable without explicit unlocking in technology
+		cavalry = yes					 # Used to define subunit as cavalry
+		special_forces = yes		# Used to define subunit as special forces
+		marines = no						# Used to define subunit as marine
+		mountaineers = no			 # Used to define subunit as mountaineers
+		can_be_parachuted = no	# Used to define subunit as paratroopers.
+		affects_speed = yes		 # Used to check if the unit will affect the template's speed, support companies have it set to no.
+
+		transport = camelry # Sets the speed of subunit via equipment. Used for motorized/mechanized
+
+		# How the unit is grouped division-wise, i.e. appearing in the Support tab. Not used for air or naval units
+		group = infantry
+
+		# Internal types
+		type = {
+			infantry
+		}
+
+		# Categories the unit belongs to.
+		categories = {
+			category_tribal
+			category_levy
+
+			category_all_infantry
+			category_all_land
+
+			category_all_mobile
+			category_all_calvary
+			category_all_camelry
+		}
+
+		# Equipment that is required for this unit. Used when active = no
+		need = {
+			melee_arms_equipment = 20
+			ranged_arms_equipment = 80
+			cavalry_equipment = 40
+			ammunition_equipment = 40
+			rations_equipment = 8
+			uniform_equipment = 8
+		}
+
+		# Equipment needed to produce this unit. Unit won't be available until the nation has this equipment
+		essential = {
+			ranged_arms_equipment
+			cavalry_equipment
+			rations_equipment
 		}
 
 		# Modifiers control the stats of the unit. More detail under the Stats section.
