@@ -1,13 +1,18 @@
+
 state={
 	id=648
 	name="STATE_648"
-	provinces={
-		1336 1549 6479 6737 7272
-	}
+
 	history={
-		owner=DFK
+		owner = DFK
+
 	}
-	state_category=town
+
+	provinces={
+		1336 1549 6479 6737 7272 12643 12645 
+	}
 	manpower=1
 	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
 }
