@@ -6,7 +6,7 @@ state={
 		12662 12671
 	}
 	history={
-		owner = ASS
+		owner = CAA
 	}
 	impassable= yes
 	manpower=1

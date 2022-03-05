@@ -1,7 +1,7 @@
 
 state={
-	id=425
-	name="STATE_425"
+	id=204
+	name="STATE_204"
 
 	history={
 		owner = KOG
@@ -9,7 +9,7 @@ state={
 	}
 
 	provinces={
-		2193 4499 5606 5637 9116 12303 
+		837 1648 5522 5657 9132 12304 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

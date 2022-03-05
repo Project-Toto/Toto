@@ -4,7 +4,7 @@ state={
 	name="STATE_290"
 
 	history={
-		owner = ASS
+		owner = TUA
 
 	}
 	impassable=yes

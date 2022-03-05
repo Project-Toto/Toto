@@ -9,9 +9,10 @@ state={
 	}
 
 	provinces={
-		231 1305 2464 3450 4303 5060 5115 5245 7026 9192 9224 9284 9291 9322 9338
+		2012 5517 6154 7081 9145 9168 9174 9218 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
 	state_category=town
+	local_supplies=0.000
 }

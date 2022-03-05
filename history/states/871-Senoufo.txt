@@ -1,17 +1,18 @@
 
 state={
-	id=203
-	name="STATE_203"
+	id=871
+	name="STATE_871"
 
 	history={
-		owner = MND
+		owner = KOG
 
 	}
 
 	provinces={
-		1171 3070 3355 9017 9034 9050 
+		1028 1192 1931 3114 6968 8972 9022 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
 	state_category=town
+	local_supplies=0.000
 }

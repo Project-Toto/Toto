@@ -5,7 +5,7 @@ state={
 		876 1208 1599 1908 1920 3932 5927 6046 6236 6648 6751 9213 9217 9236 9273 9274 9295 9303 9315 9334 9352
 	}
 	history={
-		owner = KOG
+		owner = MND
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

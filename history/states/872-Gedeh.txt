@@ -1,12 +1,11 @@
-
 state={
-	id=289
-	name="STATE_289"
+	id=872
+	name="STATE_872"
 	provinces={
-		12653 12654 12655 12674
+		1677 1952 4448 4667 7289 9344 
 	}
-	history={
-		owner = TUA
+	history = {
+		owner = KRU
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

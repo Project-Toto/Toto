@@ -1,10 +1,10 @@
 state={
-	id=275
-	name="STATE_275"
+	id=874
+	name="STATE_874"
 	provinces={
-		1428 1605 1983 2047 4704 4896 5291 6565 9060 9088 9107 9115 9127 9155
+		1155 1983 4896 5291 9060 9088 9107 9115 
 	}
-	history={
+	history = {
 		owner = MND
 	}
 	manpower=1

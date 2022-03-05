@@ -1,13 +1,18 @@
+
 state={
 	id=308
 	name="STATE_308"
-	provinces={
-		477 1019 3241 4862 5718 5881 6008 6545 9220 9232 9259 9296 9320
-	}
+
 	history={
-		owner = AKA
+		owner = SKS
+
+	}
+
+	provinces={
+		4862 5718 5881 9232 9259 9296 9320 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
 	state_category=town
+	local_supplies=0.000
 }

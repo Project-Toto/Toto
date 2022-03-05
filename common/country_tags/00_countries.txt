@@ -161,6 +161,7 @@
   ALG = "countries/Algeria.txt"
   ASS = "countries/Awlad Sidi Shaydkh.txt"
   BAB = "countries/Beni Abbas.txt"
+  CAA = "countries/Chaamba.txt"
   EPD = "countries/Etat Pied Noir.txt"
   KAG = "countries/Kel Ahaggar.txt"
   KBY = "countries/Kabyles.txt"
@@ -286,8 +287,11 @@
   # graphical_culture_2d = african_2d
    AKA = "countries/Akan.txt"
    GBS = "countries/Grand Bassam.txt"
+   KBA = "countries/Kabadougu.txt"
+   IDN = "countries/Indenie.txt"
    IVO = "countries/Ivory Coast.txt"
    KOG = "countries/Kong.txt"
+   SKS = "countries/Sakassou.txt"
    
  # Volta
   # graphical_culture = african_gfx

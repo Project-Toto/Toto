@@ -1,15 +1,11 @@
-
 state={
-	id=425
-	name="STATE_425"
-
-	history={
-		owner = KOG
-
-	}
-
+	id=868
+	name="STATE_868"
 	provinces={
-		2193 4499 5606 5637 9116 12303 
+		231 3450 4161 4303 5115 5245 9322 9338 
+	}
+	history = {
+		owner = IDN
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

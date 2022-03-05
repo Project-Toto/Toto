@@ -6,7 +6,7 @@ state={
 		12659 12664 12665
 	}
 	history={
-		owner = MZA
+		owner = ASS
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
