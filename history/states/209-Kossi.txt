@@ -1,13 +1,18 @@
+
 state={
 	id=209
 	name="STATE_209"
-	provinces={
-		880 4932 6672 8712 8740 8754 8832
-	}
-	state_category=town
+
 	history={
-		owner=KDG
+		owner = KDG
+
+	}
+
+	provinces={
+		880 3129 4932 6672 8712 8730 8740 8754 8768 8832 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
 }

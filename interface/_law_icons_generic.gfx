@@ -4,12 +4,12 @@ spriteTypes = {
   spriteType = {
     name = "GFX_idea_law_country_type_strip"
     texturefile = "gfx/interface/ideas/laws/country_type_strip.dds"
-    numOfFrames = 6
+    noOfFrames = 6
   }
   # Government
   spriteType = {
     name = "GFX_idea_law_government_type_strip"
     texturefile = "gfx/interface/ideas/laws/government_type_strip.dds"
-    numOfFrames = 20
+    noOfFrames = 20
   }
 }

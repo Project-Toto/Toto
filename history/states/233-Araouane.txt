@@ -1,14 +1,18 @@
+
 state={
 	id=233
 	name="STATE_233"
-	provinces={
-		612 1104 1533 3593 4452 4654 4763 5112 7066 8178 8293
-	}
-	impassable = yes
-	state_category=town
+
 	history={
-		owner=KNT
+		owner = KNT
+
+	}
+
+	provinces={
+		612 1104 1533 3593 4452 4654 4763 5112 7066 8178 8293 12329 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
 }

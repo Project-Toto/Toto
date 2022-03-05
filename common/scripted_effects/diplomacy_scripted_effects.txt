@@ -93,3 +93,32 @@ load_previous_ideologies = {
 		clear_variable = var_stored_fundamentalism_val
 	}
 }
+balkanize_empire = {
+	clear_array = releasable_tags_array
+	every_owned_state = {
+		for_each_loop_effect = {
+			array = core_countries
+			value = country_temp
+
+			if = {
+				limit = {
+					country_exists = var:country_temp
+				}
+				add_to_array = {
+					array = PREV.releasable_tags_array
+					value = country_temp
+				}
+			}
+		}
+	}
+	for_each_loop_effect = {
+		array = releasable_tags_array
+		value = country_temp
+		every_owned_state = {
+			if = {
+				limit = { has_core_of = var:country_temp }
+				transfer_state_to = var:country_temp
+			}
+		}
+	}
+}
