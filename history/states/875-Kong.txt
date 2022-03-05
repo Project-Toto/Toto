@@ -1,13 +1,18 @@
+
 state={
 	id=875
 	name="STATE_875"
-	provinces={
-		1321 1880 2451 3393 3806 9074 
-	}
-	history = {
+
+	history={
 		owner = KOG
+
+	}
+
+	provinces={
+		1321 1880 2451 3393 3806 5637 9074 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
 	state_category=town
+	local_supplies=0.000
 }
