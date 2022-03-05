@@ -1,553 +1,553 @@
 mobilize_template_setup = {
-  division_template = {
-    name = "Large Camel Archer Levy"
-    is_locked = yes
-    division_names_group = TRIBAL_MOBILIZE_LEVY_01
-    priority = -1
-    template_counter = 0
-    regiments = {
-        camel_archer_levy = { x = 0 y = 0 }
-        camel_archer_levy = { x = 0 y = 1 }
-        camel_archer_levy = { x = 0 y = 2 }
-    }
-  }
-  division_template = {
-    name = "Camel Archer Levy"
-    is_locked = yes
-    division_names_group = TRIBAL_MOBILIZE_LEVY_01
-    priority = -1
-    template_counter = 0
-    regiments = {
-        camel_archer_levy = { x = 0 y = 0 }
-        camel_archer_levy = { x = 0 y = 1 }
-    }
-  }
-  division_template = {
-    name = "Small Camel Archer Levy"
-    is_locked = yes
-    division_names_group = TRIBAL_MOBILIZE_LEVY_01
-    priority = -1
-    template_counter = 0
-    regiments = {
-        camel_archer_levy = { x = 0 y = 0 }
-    }
-  }
-  
-  division_template = {
-    name = "Large Camel Warrior Levy"
-    is_locked = yes
-    division_names_group = TRIBAL_MOBILIZE_LEVY_01
-    priority = -1
-    template_counter = 0
-    regiments = {
-        camel_warrior_levy = { x = 0 y = 0 }
-        camel_warrior_levy = { x = 0 y = 1 }
-        camel_warrior_levy = { x = 0 y = 2 }
-    }
-  }
-  division_template = {
-    name = "Camel Warrior Levy"
-    is_locked = yes
-    division_names_group = TRIBAL_MOBILIZE_LEVY_01
-    priority = -1
-    template_counter = 0
-    regiments = {
-        camel_warrior_levy = { x = 0 y = 0 }
-        camel_warrior_levy = { x = 0 y = 1 }
-    }
-  }
-  division_template = {
-    name = "Small Camel Warrior Levy"
-    is_locked = yes
-    division_names_group = TRIBAL_MOBILIZE_LEVY_01
-    priority = -1
-    template_counter = 0
-    regiments = {
-        camel_warrior_levy = { x = 0 y = 0 }
-    }
-  }
-  division_template = {
-    name = "Large Tribal Cavalry Levy"
-    is_locked = yes
-    division_names_group = TRIBAL_MOBILIZE_LEVY_01
-    priority = -1
-    template_counter = 0
-    regiments = {
-        tribal_cavalry_levy = { x = 0 y = 0 }
-        tribal_cavalry_levy = { x = 0 y = 1 }
-        tribal_cavalry_levy = { x = 0 y = 2 }
-    }
-  }
-  division_template = {
-    name = "Tribal Cavalry Levy"
-    is_locked = yes
-    division_names_group = TRIBAL_MOBILIZE_LEVY_01
-    priority = -1
-    template_counter = 0
-    regiments = {
-        tribal_cavalry_levy = { x = 0 y = 0 }
-        tribal_cavalry_levy = { x = 0 y = 1 }
-    }
-  }
-  division_template = {
-    name = "Small Tribal Cavalry Levy"
-    is_locked = yes
-    division_names_group = TRIBAL_MOBILIZE_LEVY_01
-    priority = -1
-    template_counter = 0
-    regiments = {
-        tribal_cavalry_levy = { x = 0 y = 0 }
-    }
-  }
-  division_template = {
-    name = "Large Tribal Warrior Levy"
-    is_locked = yes
-    division_names_group = TRIBAL_MOBILIZE_LEVY_01
-    priority = -1
-    template_counter = 0
-    regiments = {
-        tribal_warrior_levy = { x = 0 y = 0 }
-        tribal_warrior_levy = { x = 0 y = 1 }
-        tribal_warrior_levy = { x = 0 y = 2 }
-    }
-  }
-  division_template = {
-    name = "Tribal Warrior Levy"
-    is_locked = yes
-    division_names_group = TRIBAL_MOBILIZE_LEVY_01
-    priority = -1
-    template_counter = 0
-    regiments = {
-        tribal_warrior_levy = { x = 0 y = 0 }
-        tribal_warrior_levy = { x = 0 y = 1 }
-    }
-  }
-  division_template = {
-    name = "Small Tribal Warrior Levy"
-    is_locked = yes
-    division_names_group = TRIBAL_MOBILIZE_LEVY_01
-    priority = -1
-    template_counter = 0
-    regiments = {
-        tribal_warrior_levy = { x = 0 y = 0 }
-    }
-  }
-  division_template = {
-    name = "Large Tribal Archer Levy"
-    is_locked = yes
-    division_names_group = TRIBAL_MOBILIZE_LEVY_01
-    priority = -1
-    template_counter = 0
-    regiments = {
-        tribal_archer_levy = { x = 0 y = 0 }
-        tribal_archer_levy = { x = 0 y = 1 }
-        tribal_archer_levy = { x = 0 y = 2 }
-    }
-  }
-  division_template = {
-    name = "Tribal Archer Levy"
-    is_locked = yes
-    division_names_group = TRIBAL_MOBILIZE_LEVY_01
-    priority = -1
-    template_counter = 0
-    regiments = {
-        tribal_archer_levy = { x = 0 y = 0 }
-        tribal_archer_levy = { x = 0 y = 1 }
-    }
-  }
-  division_template = {
-    name = "Small Tribal Archer Levy"
-    is_locked = yes
-    division_names_group = TRIBAL_MOBILIZE_LEVY_01
-    priority = -1
-    template_counter = 0
-    regiments = {
-        tribal_archer_levy = { x = 0 y = 0 }
-    }
-  }
+	division_template = {
+		name = "Large Camel Archer Levy"
+		is_locked = yes
+		division_names_group = TRIBAL_MOBILIZE_LEVY_01
+		priority = -1
+		template_counter = 0
+		regiments = {
+				camel_archer_levy = { x = 0 y = 0 }
+				camel_archer_levy = { x = 0 y = 1 }
+				camel_archer_levy = { x = 0 y = 2 }
+		}
+	}
+	division_template = {
+		name = "Camel Archer Levy"
+		is_locked = yes
+		division_names_group = TRIBAL_MOBILIZE_LEVY_01
+		priority = -1
+		template_counter = 0
+		regiments = {
+				camel_archer_levy = { x = 0 y = 0 }
+				camel_archer_levy = { x = 0 y = 1 }
+		}
+	}
+	division_template = {
+		name = "Small Camel Archer Levy"
+		is_locked = yes
+		division_names_group = TRIBAL_MOBILIZE_LEVY_01
+		priority = -1
+		template_counter = 0
+		regiments = {
+				camel_archer_levy = { x = 0 y = 0 }
+		}
+	}
+
+	division_template = {
+		name = "Large Camel Warrior Levy"
+		is_locked = yes
+		division_names_group = TRIBAL_MOBILIZE_LEVY_01
+		priority = -1
+		template_counter = 0
+		regiments = {
+				camel_warrior_levy = { x = 0 y = 0 }
+				camel_warrior_levy = { x = 0 y = 1 }
+				camel_warrior_levy = { x = 0 y = 2 }
+		}
+	}
+	division_template = {
+		name = "Camel Warrior Levy"
+		is_locked = yes
+		division_names_group = TRIBAL_MOBILIZE_LEVY_01
+		priority = -1
+		template_counter = 0
+		regiments = {
+				camel_warrior_levy = { x = 0 y = 0 }
+				camel_warrior_levy = { x = 0 y = 1 }
+		}
+	}
+	division_template = {
+		name = "Small Camel Warrior Levy"
+		is_locked = yes
+		division_names_group = TRIBAL_MOBILIZE_LEVY_01
+		priority = -1
+		template_counter = 0
+		regiments = {
+				camel_warrior_levy = { x = 0 y = 0 }
+		}
+	}
+	division_template = {
+		name = "Large Tribal Cavalry Levy"
+		is_locked = yes
+		division_names_group = TRIBAL_MOBILIZE_LEVY_01
+		priority = -1
+		template_counter = 0
+		regiments = {
+				tribal_cavalry_levy = { x = 0 y = 0 }
+				tribal_cavalry_levy = { x = 0 y = 1 }
+				tribal_cavalry_levy = { x = 0 y = 2 }
+		}
+	}
+	division_template = {
+		name = "Tribal Cavalry Levy"
+		is_locked = yes
+		division_names_group = TRIBAL_MOBILIZE_LEVY_01
+		priority = -1
+		template_counter = 0
+		regiments = {
+				tribal_cavalry_levy = { x = 0 y = 0 }
+				tribal_cavalry_levy = { x = 0 y = 1 }
+		}
+	}
+	division_template = {
+		name = "Small Tribal Cavalry Levy"
+		is_locked = yes
+		division_names_group = TRIBAL_MOBILIZE_LEVY_01
+		priority = -1
+		template_counter = 0
+		regiments = {
+				tribal_cavalry_levy = { x = 0 y = 0 }
+		}
+	}
+	division_template = {
+		name = "Large Tribal Warrior Levy"
+		is_locked = yes
+		division_names_group = TRIBAL_MOBILIZE_LEVY_01
+		priority = -1
+		template_counter = 0
+		regiments = {
+				tribal_warrior_levy = { x = 0 y = 0 }
+				tribal_warrior_levy = { x = 0 y = 1 }
+				tribal_warrior_levy = { x = 0 y = 2 }
+		}
+	}
+	division_template = {
+		name = "Tribal Warrior Levy"
+		is_locked = yes
+		division_names_group = TRIBAL_MOBILIZE_LEVY_01
+		priority = -1
+		template_counter = 0
+		regiments = {
+				tribal_warrior_levy = { x = 0 y = 0 }
+				tribal_warrior_levy = { x = 0 y = 1 }
+		}
+	}
+	division_template = {
+		name = "Small Tribal Warrior Levy"
+		is_locked = yes
+		division_names_group = TRIBAL_MOBILIZE_LEVY_01
+		priority = -1
+		template_counter = 0
+		regiments = {
+				tribal_warrior_levy = { x = 0 y = 0 }
+		}
+	}
+	division_template = {
+		name = "Large Tribal Archer Levy"
+		is_locked = yes
+		division_names_group = TRIBAL_MOBILIZE_LEVY_01
+		priority = -1
+		template_counter = 0
+		regiments = {
+				tribal_archer_levy = { x = 0 y = 0 }
+				tribal_archer_levy = { x = 0 y = 1 }
+				tribal_archer_levy = { x = 0 y = 2 }
+		}
+	}
+	division_template = {
+		name = "Tribal Archer Levy"
+		is_locked = yes
+		division_names_group = TRIBAL_MOBILIZE_LEVY_01
+		priority = -1
+		template_counter = 0
+		regiments = {
+				tribal_archer_levy = { x = 0 y = 0 }
+				tribal_archer_levy = { x = 0 y = 1 }
+		}
+	}
+	division_template = {
+		name = "Small Tribal Archer Levy"
+		is_locked = yes
+		division_names_group = TRIBAL_MOBILIZE_LEVY_01
+		priority = -1
+		template_counter = 0
+		regiments = {
+				tribal_archer_levy = { x = 0 y = 0 }
+		}
+	}
 }
 mobilize = {
-  if = {
-    limit = {
-      check_variable = {
-        var = num_of_battalions
-        value = battalions_force_limit
-        compare = lesser_than
-      }
-    }
-    set_country_flag = mobilized
-    set_temp_variable = {
-      var = mobilizing_force
-      value = battalions_force_limit
-    }
-    subtract_from_temp_variable = {
-      var = mobilizing_force
-      value = num_of_battalions
-    }
-    multiply_temp_variable = {
-      var = mobilizing_force
-      value = war_support
-    }
-    add_to_temp_variable = {
-      var = mobilizing_force
-      value = 1
-    }
-    
-    while_loop_effect = {
-      limit = {
-        check_variable = {
-          var = mobilizing_force
-          value = 0
-          compare = greater_than
-        }
-      }
-      random_owned_state = {
-        limit = {
-          OR = {
-            has_core_of = PREV
-            is_capital = yes
-          }
-        }
-        random_list = {
-          0 = {
-            modifier = {
-              add = 40
-              has_state_modifier = climate_arid
-            }
-            modifier = {
-              add = 30
-              has_state_modifier = climate_arid_coast
-            }
-            modifier = {
-              add = 30
-              has_state_modifier = climate_arid_highlands
-            }
-            modifier = {
-              add = 30
-              has_state_modifier = climate_arid
-            }
-            mobilize_camel_archers = yes
-          }
-          0 = {
-            modifier = {
-              add = 30
-              has_state_modifier = climate_arid
-            }
-            modifier = {
-              add = 40
-              has_state_modifier = climate_arid_coast
-            }
-            modifier = {
-              add = 40
-              has_state_modifier = climate_arid_highlands
-            }
-            modifier = {
-              add = 40
-              has_state_modifier = climate_arid
-            }
-            mobilize_camel_warriors = yes
-          }
-          15 = {
-            modifier = {
-              add = 15
-              PREV = { has_idea = reform_tier_1_nomadism }
-            }
-            mobilize_tribal_cavalry = yes
-          }
-          60 = {
-            modifier = {
-              add = -15
-              PREV = { has_idea = reform_tier_1_nomadism }
-            }
-            mobilize_tribal_warriors = yes
-          }
-          25 = {
-            mobilize_tribal_archers = yes
-          }
-        }
-      }
-    }
-  }
+	if = {
+		limit = {
+			check_variable = {
+				var = num_of_battalions
+				value = battalions_force_limit
+				compare = lesser_than
+			}
+		}
+		set_country_flag = mobilized
+		set_temp_variable = {
+			var = mobilizing_force
+			value = battalions_force_limit
+		}
+		subtract_from_temp_variable = {
+			var = mobilizing_force
+			value = num_of_battalions
+		}
+		multiply_temp_variable = {
+			var = mobilizing_force
+			value = war_support
+		}
+		add_to_temp_variable = {
+			var = mobilizing_force
+			value = 1
+		}
+
+		while_loop_effect = {
+			limit = {
+				check_variable = {
+					var = mobilizing_force
+					value = 0
+					compare = greater_than
+				}
+			}
+			random_owned_state = {
+				limit = {
+					OR = {
+						has_core_of = PREV
+						is_capital = yes
+					}
+				}
+				random_list = {
+					0 = {
+						modifier = {
+							add = 40
+							has_dynamic_modifier = climate_arid
+						}
+						modifier = {
+							add = 30
+							has_dynamic_modifier = climate_arid_coast
+						}
+						modifier = {
+							add = 30
+							has_dynamic_modifier = climate_arid_highlands
+						}
+						modifier = {
+							add = 30
+							has_dynamic_modifier = climate_arid
+						}
+						mobilize_camel_archers = yes
+					}
+					0 = {
+						modifier = {
+							add = 30
+							has_dynamic_modifier = climate_arid
+						}
+						modifier = {
+							add = 40
+							has_dynamic_modifier = climate_arid_coast
+						}
+						modifier = {
+							add = 40
+							has_dynamic_modifier = climate_arid_highlands
+						}
+						modifier = {
+							add = 40
+							has_dynamic_modifier = climate_arid
+						}
+						mobilize_camel_warriors = yes
+					}
+					15 = {
+						modifier = {
+							add = 15
+							PREV = { has_idea = reform_tier_1_nomadism }
+						}
+						mobilize_tribal_cavalry = yes
+					}
+					60 = {
+						modifier = {
+							add = -15
+							PREV = { has_idea = reform_tier_1_nomadism }
+						}
+						mobilize_tribal_warriors = yes
+					}
+					25 = {
+						mobilize_tribal_archers = yes
+					}
+				}
+			}
+		}
+	}
 }
 mobilize_camel_archers = {
-  if = {
-    limit = {
-      PREV = {
-        check_variable = {
-          var = mobilizing_force
-          value = 6
-          compare = greater_than
-        }
-      }
-    }
-    create_unit = {
-      division = "name = \"Large Camel Archer Levy\" division_template = \"Large Camel Archer Levy\" start_experience_factor = 0 start_equipment_factor = 1.0"
-      owner = PREV
-    }
-    PREV = {
-      subtract_from_temp_variable = {
-        var = mobilizing_force
-        value = 3
-      }
-    }
-  }
-  else_if = {
-    limit = {
-      PREV = {
-        check_variable = {
-          var = mobilizing_force
-          value = 3
-          compare = greater_than
-        }
-      }
-    }
-    create_unit = {
-      division = "name = \"Camel Archer Levy\" division_template = \"Camel Archer Levy\" start_experience_factor = 0 start_equipment_factor = 1.0"
-      owner = PREV
-    }
-    PREV = {
-      subtract_from_temp_variable = {
-        var = mobilizing_force
-        value = 2
-      }
-    }
-  }
-  else = {
-    create_unit = {
-      division = "name = \"Small Camel Archer Levy\" division_template = \"Small Camel Archer Levy\" start_experience_factor = 0 start_equipment_factor = 1.0"
-      owner = PREV
-    }
-    PREV = {
-      subtract_from_temp_variable = {
-        var = mobilizing_force
-        value = 1
-      }
-    }
-  }
+	if = {
+		limit = {
+			PREV = {
+				check_variable = {
+					var = mobilizing_force
+					value = 6
+					compare = greater_than
+				}
+			}
+		}
+		create_unit = {
+			division = "name = \"Large Camel Archer Levy\" division_template = \"Large Camel Archer Levy\" start_experience_factor = 0 start_equipment_factor = 1.0"
+			owner = PREV
+		}
+		PREV = {
+			subtract_from_temp_variable = {
+				var = mobilizing_force
+				value = 3
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			PREV = {
+				check_variable = {
+					var = mobilizing_force
+					value = 3
+					compare = greater_than
+				}
+			}
+		}
+		create_unit = {
+			division = "name = \"Camel Archer Levy\" division_template = \"Camel Archer Levy\" start_experience_factor = 0 start_equipment_factor = 1.0"
+			owner = PREV
+		}
+		PREV = {
+			subtract_from_temp_variable = {
+				var = mobilizing_force
+				value = 2
+			}
+		}
+	}
+	else = {
+		create_unit = {
+			division = "name = \"Small Camel Archer Levy\" division_template = \"Small Camel Archer Levy\" start_experience_factor = 0 start_equipment_factor = 1.0"
+			owner = PREV
+		}
+		PREV = {
+			subtract_from_temp_variable = {
+				var = mobilizing_force
+				value = 1
+			}
+		}
+	}
 }
 mobilize_camel_warriors = {
-  if = {
-    limit = {
-      PREV = {
-        check_variable = {
-          var = mobilizing_force
-          value = 6
-          compare = greater_than
-        }
-      }
-    }
-    create_unit = {
-      division = "name = \"Large Camel Warrior Levy\" division_template = \"Large Camel Warrior Levy\" start_experience_factor = 0 start_equipment_factor = 1.0"
-      owner = PREV
-    }
-    PREV = {
-      subtract_from_temp_variable = {
-        var = mobilizing_force
-        value = 3
-      }
-    }
-  }
-  else_if = {
-    limit = {
-      PREV = {
-        check_variable = {
-          var = mobilizing_force
-          value = 3
-          compare = greater_than
-        }
-      }
-    }
-    create_unit = {
-      division = "name = \"Camel Warrior Levy\" division_template = \"Camel Warrior Levy\" start_experience_factor = 0 start_equipment_factor = 1.0"
-      owner = PREV
-    }
-    PREV = {
-      subtract_from_temp_variable = {
-        var = mobilizing_force
-        value = 2
-      }
-    }
-  }
-  else = {
-    create_unit = {
-      division = "name = \"Small Camel Warrior Levy\" division_template = \"Small Camel Warrior Levy\" start_experience_factor = 0 start_equipment_factor = 1.0"
-      owner = PREV
-    }
-    PREV = {
-      subtract_from_temp_variable = {
-        var = mobilizing_force
-        value = 1
-      }
-    }
-  }
+	if = {
+		limit = {
+			PREV = {
+				check_variable = {
+					var = mobilizing_force
+					value = 6
+					compare = greater_than
+				}
+			}
+		}
+		create_unit = {
+			division = "name = \"Large Camel Warrior Levy\" division_template = \"Large Camel Warrior Levy\" start_experience_factor = 0 start_equipment_factor = 1.0"
+			owner = PREV
+		}
+		PREV = {
+			subtract_from_temp_variable = {
+				var = mobilizing_force
+				value = 3
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			PREV = {
+				check_variable = {
+					var = mobilizing_force
+					value = 3
+					compare = greater_than
+				}
+			}
+		}
+		create_unit = {
+			division = "name = \"Camel Warrior Levy\" division_template = \"Camel Warrior Levy\" start_experience_factor = 0 start_equipment_factor = 1.0"
+			owner = PREV
+		}
+		PREV = {
+			subtract_from_temp_variable = {
+				var = mobilizing_force
+				value = 2
+			}
+		}
+	}
+	else = {
+		create_unit = {
+			division = "name = \"Small Camel Warrior Levy\" division_template = \"Small Camel Warrior Levy\" start_experience_factor = 0 start_equipment_factor = 1.0"
+			owner = PREV
+		}
+		PREV = {
+			subtract_from_temp_variable = {
+				var = mobilizing_force
+				value = 1
+			}
+		}
+	}
 }
 mobilize_tribal_cavalry = {
-  if = {
-    limit = {
-      PREV = {
-        check_variable = {
-          var = mobilizing_force
-          value = 6
-          compare = greater_than
-        }
-      }
-    }
-    create_unit = {
-      division = "name = \"Large Tribal Cavalry Levy\" division_template = \"Large Tribal Cavalry Levy\" start_experience_factor = 0 start_equipment_factor = 1.0"
-      owner = PREV
-    }
-    PREV = {
-      subtract_from_temp_variable = {
-        var = mobilizing_force
-        value = 3
-      }
-    }
-  }
-  else_if = {
-    limit = {
-      PREV = {
-        check_variable = {
-          var = mobilizing_force
-          value = 3
-          compare = greater_than
-        }
-      }
-    }
-    create_unit = {
-      division = "name = \"Tribal Cavalry Levy\" division_template = \"Tribal Cavalry Levy\" start_experience_factor = 0 start_equipment_factor = 1.0"
-      owner = PREV
-    }
-    PREV = {
-      subtract_from_temp_variable = {
-        var = mobilizing_force
-        value = 2
-      }
-    }
-  }
-  else = {
-    create_unit = {
-      division = "name = \"Small Tribal Cavalry Levy\" division_template = \"Small Tribal Cavalry Levy\" start_experience_factor = 0 start_equipment_factor = 1.0"
-      owner = PREV
-    }
-    PREV = {
-      subtract_from_temp_variable = {
-        var = mobilizing_force
-        value = 1
-      }
-    }
-  }
+	if = {
+		limit = {
+			PREV = {
+				check_variable = {
+					var = mobilizing_force
+					value = 6
+					compare = greater_than
+				}
+			}
+		}
+		create_unit = {
+			division = "name = \"Large Tribal Cavalry Levy\" division_template = \"Large Tribal Cavalry Levy\" start_experience_factor = 0 start_equipment_factor = 1.0"
+			owner = PREV
+		}
+		PREV = {
+			subtract_from_temp_variable = {
+				var = mobilizing_force
+				value = 3
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			PREV = {
+				check_variable = {
+					var = mobilizing_force
+					value = 3
+					compare = greater_than
+				}
+			}
+		}
+		create_unit = {
+			division = "name = \"Tribal Cavalry Levy\" division_template = \"Tribal Cavalry Levy\" start_experience_factor = 0 start_equipment_factor = 1.0"
+			owner = PREV
+		}
+		PREV = {
+			subtract_from_temp_variable = {
+				var = mobilizing_force
+				value = 2
+			}
+		}
+	}
+	else = {
+		create_unit = {
+			division = "name = \"Small Tribal Cavalry Levy\" division_template = \"Small Tribal Cavalry Levy\" start_experience_factor = 0 start_equipment_factor = 1.0"
+			owner = PREV
+		}
+		PREV = {
+			subtract_from_temp_variable = {
+				var = mobilizing_force
+				value = 1
+			}
+		}
+	}
 }
 mobilize_trial_warriors = {
-  if = {
-    limit = {
-      PREV = {
-        check_variable = {
-          var = mobilizing_force
-          value = 6
-          compare = greater_than
-        }
-      }
-    }
-    create_unit = {
-      division = "name = \"Large Tribal Warrior Levy\" division_template = \"Large Tribal Warrior Levy\" start_experience_factor = 0 start_equipment_factor = 1.0"
-      owner = PREV
-    }
-    PREV = {
-      subtract_from_temp_variable = {
-        var = mobilizing_force
-        value = 3
-      }
-    }
-  }
-  else_if = {
-    limit = {
-      PREV = {
-        check_variable = {
-          var = mobilizing_force
-          value = 3
-          compare = greater_than
-        }
-      }
-    }
-    create_unit = {
-      division = "name = \"Tribal Warrior Levy\" division_template = \"Tribal Warrior Levy\" start_experience_factor = 0 start_equipment_factor = 1.0"
-      owner = PREV
-    }
-    PREV = {
-      subtract_from_temp_variable = {
-        var = mobilizing_force
-        value = 2
-      }
-    }
-  }
-  else = {
-    create_unit = {
-      division = "name = \"Small Tribal Warrior Levy\" division_template = \"Small Tribal Warrior Levy\" start_experience_factor = 0 start_equipment_factor = 1.0"
-      owner = PREV
-    }
-    PREV = {
-      subtract_from_temp_variable = {
-        var = mobilizing_force
-        value = 1
-      }
-    }
-  }
+	if = {
+		limit = {
+			PREV = {
+				check_variable = {
+					var = mobilizing_force
+					value = 6
+					compare = greater_than
+				}
+			}
+		}
+		create_unit = {
+			division = "name = \"Large Tribal Warrior Levy\" division_template = \"Large Tribal Warrior Levy\" start_experience_factor = 0 start_equipment_factor = 1.0"
+			owner = PREV
+		}
+		PREV = {
+			subtract_from_temp_variable = {
+				var = mobilizing_force
+				value = 3
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			PREV = {
+				check_variable = {
+					var = mobilizing_force
+					value = 3
+					compare = greater_than
+				}
+			}
+		}
+		create_unit = {
+			division = "name = \"Tribal Warrior Levy\" division_template = \"Tribal Warrior Levy\" start_experience_factor = 0 start_equipment_factor = 1.0"
+			owner = PREV
+		}
+		PREV = {
+			subtract_from_temp_variable = {
+				var = mobilizing_force
+				value = 2
+			}
+		}
+	}
+	else = {
+		create_unit = {
+			division = "name = \"Small Tribal Warrior Levy\" division_template = \"Small Tribal Warrior Levy\" start_experience_factor = 0 start_equipment_factor = 1.0"
+			owner = PREV
+		}
+		PREV = {
+			subtract_from_temp_variable = {
+				var = mobilizing_force
+				value = 1
+			}
+		}
+	}
 }
 mobilize_camel_archers = {
-  if = {
-    limit = {
-      PREV = {
-        check_variable = {
-          var = mobilizing_force
-          value = 6
-          compare = greater_than
-        }
-      }
-    }
-    create_unit = {
-      division = "name = \"Large Tribal Archers Levy\" division_template = \"Large Tribal Archers Levy\" start_experience_factor = 0 start_equipment_factor = 1.0"
-      owner = PREV
-    }
-    PREV = {
-      subtract_from_temp_variable = {
-        var = mobilizing_force
-        value = 3
-      }
-    }
-  }
-  else_if = {
-    limit = {
-      PREV = {
-        check_variable = {
-          var = mobilizing_force
-          value = 3
-          compare = greater_than
-        }
-      }
-    }
-    create_unit = {
-      division = "name = \"Tribal Archers Levy\" division_template = \"Tribal Archers Levy\" start_experience_factor = 0 start_equipment_factor = 1.0"
-      owner = PREV
-    }
-    PREV = {
-      subtract_from_temp_variable = {
-        var = mobilizing_force
-        value = 2
-      }
-    }
-  }
-  else = {
-    create_unit = {
-      division = "name = \"Small Tribal Archers Levy\" division_template = \"Small Tribal Archers Levy\" start_experience_factor = 0 start_equipment_factor = 1.0"
-      owner = PREV
-    }
-    PREV = {
-      subtract_from_temp_variable = {
-        var = mobilizing_force
-        value = 1
-      }
-    }
-  }
+	if = {
+		limit = {
+			PREV = {
+				check_variable = {
+					var = mobilizing_force
+					value = 6
+					compare = greater_than
+				}
+			}
+		}
+		create_unit = {
+			division = "name = \"Large Tribal Archers Levy\" division_template = \"Large Tribal Archers Levy\" start_experience_factor = 0 start_equipment_factor = 1.0"
+			owner = PREV
+		}
+		PREV = {
+			subtract_from_temp_variable = {
+				var = mobilizing_force
+				value = 3
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			PREV = {
+				check_variable = {
+					var = mobilizing_force
+					value = 3
+					compare = greater_than
+				}
+			}
+		}
+		create_unit = {
+			division = "name = \"Tribal Archers Levy\" division_template = \"Tribal Archers Levy\" start_experience_factor = 0 start_equipment_factor = 1.0"
+			owner = PREV
+		}
+		PREV = {
+			subtract_from_temp_variable = {
+				var = mobilizing_force
+				value = 2
+			}
+		}
+	}
+	else = {
+		create_unit = {
+			division = "name = \"Small Tribal Archers Levy\" division_template = \"Small Tribal Archers Levy\" start_experience_factor = 0 start_equipment_factor = 1.0"
+			owner = PREV
+		}
+		PREV = {
+			subtract_from_temp_variable = {
+				var = mobilizing_force
+				value = 1
+			}
+		}
+	}
 }
 demobilize = {
 	delete_unit = {

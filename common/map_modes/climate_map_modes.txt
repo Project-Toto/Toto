@@ -1,60 +1,62 @@
 scripted_map_modes = {
-  climate_map_mode = {
-    top = {
-      category = state
-      
-      set_temp_variable = { alpha = 0.8 }
-      
-      if = {
-        limit = { has_dynamic_modifier = { modifier = climate_arid } }
-        set_temp_variable = { red = 1 }
-        set_temp_variable = { green = 1 }
-        set_temp_variable = { blue = 1 }
-      }
-      else_if = {
-        limit = { has_dynamic_modifier = { modifier = climate_arid_coast } }
-      }
-      else_if = {
-        limit = { has_dynamic_modifier = { modifier = climate_arid_highlands } }
-      }
-      else_if = {
-        limit = { has_dynamic_modifier = { modifier = climate_arid_tropic } }
-      }
-      else_if = {
-        limit = { has_dynamic_modifier = { modifier = climate_temperate } }
-      }
-      else_if = {
-        limit = { has_dynamic_modifier = { modifier = climate_temperate_coast } }
-      }
-      else_if = {
-        limit = { has_dynamic_modifier = { modifier = climate_temperate_highlands } }
-      }
-      else_if = {
-        limit = { has_dynamic_modifier = { modifier = climate_humid } }
-      }
-      else_if = {
-        limit = { has_dynamic_modifier = { modifier = climate_humid_coast } }
-      }
-      else_if = {
-        limit = { has_dynamic_modifier = { modifier = climate_humid_highlands } }
-      }
-      else_if = {
-        limit = { has_dynamic_modifier = { modifier = climate_humid_tropic } }
-      }
-      else = {
-        set_temp_variable = { red = 0.55 }
-        set_temp_variable = { green = 0.55 }
-        set_temp_variable = { blue = 0.55 }
-      }
-    }
-  }
-  weather_map_mode = {
-  
-  }
-  habitability_map_mode = {
-  
-  }
-  arability_map_mode = {
-  
-  }
+	climate_map_mode = {
+		top = {
+			category = state
+
+			set_temp_variable = { alpha = 0.8 }
+
+			color = {
+				if = {
+					limit = { has_dynamic_modifier = { modifier = climate_arid } }
+					set_temp_variable = { red = 1 }
+					set_temp_variable = { green = 1 }
+					set_temp_variable = { blue = 1 }
+				}
+				else_if = {
+					limit = { has_dynamic_modifier = { modifier = climate_arid_coast } }
+				}
+				else_if = {
+					limit = { has_dynamic_modifier = { modifier = climate_arid_highlands } }
+				}
+				else_if = {
+					limit = { has_dynamic_modifier = { modifier = climate_arid_tropic } }
+				}
+				else_if = {
+					limit = { has_dynamic_modifier = { modifier = climate_temperate } }
+				}
+				else_if = {
+					limit = { has_dynamic_modifier = { modifier = climate_temperate_coast } }
+				}
+				else_if = {
+					limit = { has_dynamic_modifier = { modifier = climate_temperate_highlands } }
+				}
+				else_if = {
+					limit = { has_dynamic_modifier = { modifier = climate_humid } }
+				}
+				else_if = {
+					limit = { has_dynamic_modifier = { modifier = climate_humid_coast } }
+				}
+				else_if = {
+					limit = { has_dynamic_modifier = { modifier = climate_humid_highlands } }
+				}
+				else_if = {
+					limit = { has_dynamic_modifier = { modifier = climate_humid_tropic } }
+				}
+				else = {
+					set_temp_variable = { red = 0.55 }
+					set_temp_variable = { green = 0.55 }
+					set_temp_variable = { blue = 0.55 }
+				}
+			}
+		}
+	}
+	weather_map_mode = {
+
+	}
+	habitability_map_mode = {
+
+	}
+	arability_map_mode = {
+
+	}
 }
