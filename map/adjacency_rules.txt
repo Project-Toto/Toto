@@ -19,8 +19,7 @@
 		submarine = yes
 		trade = yes
 	}
-	neutral =
-	{
+	neutral = {
 		army = yes
 		navy = yes
 		submarine = yes
@@ -33,6 +32,46 @@
 		OR = {
 			has_global_flag = SUEZ_CANAL_BLOCKED
 			has_country_flag = SUEZ_CANAL_BLOCKED_FOR_COUNTRY
+		}
+		tooltip = disable_canal_tt
+	}
+
+	icon = 3957
+	offset = { 1 0 -6 }
+}
+adjacency_rule = {
+	name = "BUSSA_RAPIDS"
+
+	contested = {
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	enemy = {
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend = {
+		army = yes
+		navy = no
+		submarine = no
+		trade = yes
+	}
+	neutral = {
+		army = no
+		navy = no
+		submarine = no
+		trade = yes
+	}
+
+	required_provinces = { 4610 8994 3794 }
+
+	is_disabled = {
+		OR = {
+			has_global_flag = BUUSA_RAPIDS_BLOCKED
 		}
 		tooltip = disable_canal_tt
 	}

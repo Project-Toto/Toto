@@ -733,7 +733,7 @@ tribal_decisions_eoanb = {
 				value = -5
 			}
 			add_equipment_to_stockpile = {
-				type = camel_equipment_0
+				type = cavalry_equipment_0
 				amount = 50
 			}
 		}
@@ -750,7 +750,7 @@ tribal_decisions_eoanb = {
 			modifier = {
 				factor = 1000
 				has_equipment = {
-					camel_equipment_0 < 50
+					cavalry_equipment_0 < 50
 				}
 			}
 			modifier = {
@@ -758,7 +758,7 @@ tribal_decisions_eoanb = {
 				check_variable = { Tribal_army_num < 10000 }
 				check_variable = { Tribal_army_num > 1000 }
 				has_equipment = {
-					camel_equipment_0 < 250
+					cavalry_equipment_0 < 250
 				}
 				OR = {
 					has_war_support > 0.5
@@ -1143,7 +1143,7 @@ tribal_decisions_eoanb = {
 				}
 			}
 			has_equipment = {
-				camel_equipment_0 > 49
+				cavalry_equipment_0 > 49
 			}
 		}
 		allowed = {
@@ -1186,7 +1186,7 @@ tribal_decisions_eoanb = {
 			}
 			add_to_variable = {Tribal_army_num = -1000}
 			add_equipment_to_stockpile = {
-				type = camel_equipment_0
+				type = cavalry_equipment_0
 				amount = -50
 			}
 		}
@@ -2488,7 +2488,6 @@ eoanb_category_politics_foreign={
 
 }
 afr_rrp_african_expeditions={
-
 	OMA_african_expition = {
 		target_trigger = {
 			FROM = {
@@ -2527,65 +2526,22 @@ afr_rrp_african_expeditions={
 		highlight_states = { #the size of this is entirely paradoxes fault
 			#Kenya
 			highlight_state_targets = {
-				OR={
-					AND={
-						FROM ={ tag = MMA}
-						state = 911
-					}
-					AND={
-						FROM ={tag = OGD}
-						state = 912
-					}
-					AND={
-						FROM ={tag = RDL}
-						state = 914
-					}
-					AND={
-						FROM ={tag = KKY}
-						state = 547
-					}
-					AND={
-						FROM ={tag = TKN}
-						state = 915
-					}
-					AND={
-						FROM ={tag = LUO}
-						state = 910
-					}
-					AND={
-						FROM ={tag = MAA}
-						state = 906
-						state = 905
-					}
-					AND={
-						FROM ={tag = NYW}
-						state = 546
-					}
-					AND={
-						FROM ={tag = UJJ}
-						state = 908
-					}
-					AND={
-						FROM ={tag = KND}
-						state = 929
-					}
-					AND={
-						FROM ={tag = SUK}
-						state = 907
-					}
-					AND={
-						FROM ={tag = KRG}
-						state = 896
-					}
-					AND={
-						FROM ={tag = LGR}
-						state = 904
-					}
-					AND={
-						FROM ={tag = WSG}
-						state = 269
-					}
-				}
+				state = 911
+				state = 912
+				state = 914
+				state = 547
+				state = 913
+				state = 915
+				state = 910
+				state = 906
+				state = 905
+				state = 546
+				state = 908
+				state = 929
+				state = 907
+				state = 896
+				state = 904
+				state = 269
 			}
 			#is_in_kenya = yes
 		}

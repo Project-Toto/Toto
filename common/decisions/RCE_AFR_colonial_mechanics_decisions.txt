@@ -226,7 +226,7 @@ afr_scourge_of_malaria_category = {
 				add_tech_bonus = {
 					bonus = 0.05
 					uses = 2
-					category = biochemistry_tech
+					category = biochemistry_research_tech
 				}
 			}
 

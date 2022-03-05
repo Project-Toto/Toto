@@ -1208,7 +1208,7 @@ focus = {
 				limit = { has_tech = tech_camel_cavalry }
 				hidden_effect = {
 					add_equipment_to_stockpile = {
-						type = camel_equipment_0
+						type = cavalry_equipment_0
 						amount = 200
 					}
 				}

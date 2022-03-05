@@ -62,7 +62,7 @@ eoanb_category_politics_internal = {
 					desc = "POLITICS_GEORGE_V_DESC"
 					picture = "gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
 					expire = "1910.1.1"
-					ideology = fundamentalism_fundamentalism_absolutism
+					ideology = fundamentalism_absolutism
 					traits = { BMM_likes_germany }
 				}
 			}

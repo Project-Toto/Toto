@@ -185,7 +185,6 @@ technologies = {
 			ranged_weapons_tech
 			rifle_weapons_tech
 			#ranged_weapons_tech
-			rifle_weapons_tech
 		}
 
 		ai_will_do = {
@@ -250,7 +249,6 @@ technologies = {
 			ranged_weapons_tech
 			rifle_weapons_tech
 			#ranged_weapons_tech
-			rifle_weapons_tech
 		}
 
 		ai_will_do = {
@@ -369,7 +367,7 @@ technologies = {
 			breakthrough = 0.05
 		}
 
-		category_ranged_cavalry = {
+		category_all_ranged_cavalry = {
 			soft_attack = 0.02
 			defense = 0.05
 			breakthrough = 0.05
@@ -490,7 +488,7 @@ technologies = {
 			breakthrough = 0.04
 		}
 
-		category_ranged_cavalry = {
+		category_all_ranged_cavalry = {
 			soft_attack = 0.02
 			breakthrough = 0.04
 		}
@@ -565,7 +563,7 @@ technologies = {
 			max_organisation = 0.03
 		}
 
-		category_ranged_cavalry = {
+		category_all_ranged_cavalry = {
 			soft_attack = 0.03
 			max_organisation = 0.03
 		}
@@ -684,7 +682,7 @@ technologies = {
 			max_organisation = 0.05
 		}
 
-		category_ranged_cavalry = {
+		category_all_ranged_cavalry = {
 			soft_attack = 0.02
 			max_organisation = 0.05
 		}
@@ -791,7 +789,7 @@ technologies = {
 			soft_attack = 0.02
 		}
 
-		category_ranged_cavalry = {
+		category_all_ranged_cavalry = {
 			soft_attack = 0.02
 		}
 
@@ -887,7 +885,7 @@ technologies = {
 			soft_attack = 0.05
 		}
 
-		category_ranged_cavalry = {
+		category_all_ranged_cavalry = {
 			soft_attack = 0.05
 		}
 
@@ -996,7 +994,7 @@ technologies = {
 			breakthrough = 0.02
 		}
 
-		category_ranged_cavalry = {
+		category_all_ranged_cavalry = {
 			soft_attack = 0.02
 			hard_attack = 0.02
 			breakthrough = 0.02
@@ -1208,7 +1206,7 @@ technologies = {
 			defense = 0.04
 		}
 
-		category_ranged_cavalry = {
+		category_all_ranged_cavalry = {
 			soft_attack = 0.04
 			defense = 0.04
 		}
@@ -1308,7 +1306,7 @@ technologies = {
 			defense = 0.02
 		}
 
-		category_ranged_cavalry = {
+		category_all_ranged_cavalry = {
 			soft_attack = 0.02
 			defense = 0.02
 		}
@@ -1346,7 +1344,7 @@ technologies = {
 			defense = 0.02
 		}
 
-		category_ranged_cavalry = {
+		category_all_ranged_cavalry = {
 			soft_attack = 0.02
 			defense = 0.02
 		}
@@ -1415,7 +1413,7 @@ technologies = {
 
 	tech_infantry_flintlock_pistol = {
 
-		ranged_weapons_equipment = {
+		category_all_ranged = {
 			soft_attack = 0.02
 		}
 
@@ -1475,7 +1473,7 @@ technologies = {
 
 	tech_infantry_caplock_pistol = {
 
-		ranged_weapons_equipment = {
+		category_all_ranged = {
 			soft_attack = 0.02
 		}
 
@@ -1505,7 +1503,7 @@ technologies = {
 
 	hand_revolvers = {
 
-		ranged_weapons_equipment = {
+		category_all_ranged = {
 			soft_attack = 0.02
 		}
 
@@ -1544,7 +1542,7 @@ technologies = {
 
 	improved_handguns = {
 
-		ranged_weapons_equipment = {
+		category_all_ranged = {
 			soft_attack = 0.02
 		}
 
@@ -1583,7 +1581,7 @@ technologies = {
 
 	tech_infantry_standardised_revolvers = {
 
-		ranged_weapons_equipment = {
+		category_all_ranged = {
 			soft_attack = 0.02
 		}
 
@@ -1622,7 +1620,7 @@ technologies = {
 
 	tech_infantry_semi_auto_experimentation = {
 
-		ranged_weapons_equipment = {
+		category_all_ranged = {
 			soft_attack = 0.02
 		}
 
@@ -1655,7 +1653,7 @@ technologies = {
 
 	tech_infantry_semi_auto_c93 = {
 
-		ranged_weapons_equipment = {
+		category_all_ranged = {
 			soft_attack = 0.05
 		}
 
@@ -1692,7 +1690,7 @@ technologies = {
 
 	tech_infantry_large_capacity_pistol_mags = {
 
-		ranged_weapons_equipment = {
+		category_all_ranged = {
 			soft_attack = 0.02
 			breakthrough = 0.04
 		}
@@ -1726,7 +1724,7 @@ technologies = {
 
 	tech_infantry_locked_breech_action = {
 
-		ranged_weapons_equipment = {
+		category_all_ranged = {
 			soft_attack = 0.02
 		}
 
@@ -1759,7 +1757,7 @@ technologies = {
 
 	tech_infantry_improved_handgun_designs = {
 
-		ranged_weapons_equipment = {
+		category_all_ranged = {
 			soft_attack = 0.02
 		}
 
@@ -1792,7 +1790,7 @@ technologies = {
 
 	tech_infantry_infantry_pistols = {
 
-		ranged_weapons_equipment = {
+		category_all_ranged = {
 			soft_attack = 0.04
 			breakthrough = 0.02
 		}
@@ -1825,7 +1823,7 @@ technologies = {
 
 	tech_infantry_trench_equipment = {
 
-		ranged_weapons_equipment = {
+		category_all_ranged = {
 			defense = 0.04
 			soft_attack = 0.01
 		}
@@ -1925,7 +1923,7 @@ technologies = {
 
 	tech_infantry_practical_rifling = {
 
-		category_army = {
+		category_all_land = {
 			soft_attack = 0.02
 			hard_attack = 0.01
 			breakthrough = 0.01
@@ -1982,7 +1980,7 @@ technologies = {
 
 	tech_infantry_breech_loading = {
 
-		category_army = {
+		category_all_land = {
 			soft_attack = 0.01
 			defense = 0.04
 		}
@@ -2026,7 +2024,7 @@ technologies = {
 
 	tech_infantry_lever_acutators = {
 
-		category_army = {
+		category_all_land = {
 			soft_attack = 0.02
 			hard_attack = 0.02
 			breakthrough = 0.02
@@ -2149,7 +2147,7 @@ technologies = {
 
 	tech_infantry_mass_produced_clips = {
 
-		category_army = {
+		category_all_land = {
 			soft_attack = 0.05
 			defense = 0.05
 		}
@@ -2191,7 +2189,7 @@ technologies = {
 
 	tech_infantry_improved_magazine_design = {
 
-		category_army = {
+		category_all_land = {
 			soft_attack = 0.02
 			defense = 0.02
 			breakthrough = 0.02
@@ -2356,7 +2354,7 @@ technologies = {
 
 	tech_infantry_smg_design = {
 
-		category_army = {
+		category_all_land = {
 			soft_attack = 0.01
 			breakthrough = 0.01
 		}
@@ -3163,7 +3161,7 @@ technologies = {
 			tribal_tatics = 1
 		}
 
-		category_army = {
+		category_all_land = {
 			defense = 0.02
 		}
 
@@ -3208,7 +3206,7 @@ technologies = {
 			position = { x = 10 y = @1840}
 		}
 
-		category_army = {
+		category_all_land = {
 			defense = 0.02
 		}
 
@@ -3239,7 +3237,7 @@ technologies = {
 			position = { x = 10 y = @1850}
 		}
 
-		category_army = {
+		category_all_land = {
 			defense = 0.02
 		}
 
@@ -3270,7 +3268,7 @@ technologies = {
 			position = { x = 10 y = @1864}
 		}
 
-		category_army = {
+		category_all_land = {
 			defense = 0.02
 		}
 
@@ -3305,7 +3303,7 @@ technologies = {
 			position = { x = 12 y = @1868}
 		}
 
-		category_army = {
+		category_all_land = {
 			defense = 0.04
 			breakthrough = 0.02
 		}
@@ -3333,7 +3331,7 @@ technologies = {
 			position = { x = 12 y = @1875}
 		}
 
-		category_army = {
+		category_all_land = {
 			defense = 0.04
 			breakthrough = 0.02
 		}
@@ -3363,7 +3361,7 @@ technologies = {
 			position = { x = 12 y = @1880}
 		}
 
-		category_army = {
+		category_all_land = {
 			defense = 0.04
 			breakthrough = 0.02
 		}
@@ -3393,7 +3391,7 @@ technologies = {
 			position = { x = 12 y = @1887}
 		}
 
-		category_army = {
+		category_all_land = {
 			defense = 0.04
 			breakthrough = 0.02
 		}
@@ -3419,7 +3417,7 @@ technologies = {
 			position = { x = 10 y = @1870}
 		}
 
-		category_army = {
+		category_all_land = {
 			defense = 0.05
 		}
 
@@ -3448,7 +3446,7 @@ technologies = {
 			position = { x = 10 y = @1872}
 		}
 
-		category_army = {
+		category_all_land = {
 			defense = 0.02
 		}
 
@@ -3481,7 +3479,7 @@ technologies = {
 			position = { x = 10 y = @1878}
 		}
 
-		category_army = {
+		category_all_land = {
 			defense = 0.02
 		}
 
@@ -3514,7 +3512,7 @@ technologies = {
 			position = { x = 10 y = @1887}
 		}
 
-		category_army = {
+		category_all_land = {
 			defense = 0.02
 		}
 
@@ -3547,7 +3545,7 @@ technologies = {
 			position = { x = 10 y = @1895}
 		}
 
-		category_army = {
+		category_all_land = {
 			defense = 0.02
 		}
 
@@ -3583,7 +3581,7 @@ technologies = {
 			position = { x = 10 y = @1912}
 		}
 
-		category_army = {
+		category_all_land = {
 			defense = 0.02
 		}
 
@@ -3619,7 +3617,7 @@ technologies = {
 			position = { x = 10 y = @1915}
 		}
 
-		category_army = {
+		category_all_land = {
 			defense = 0.02
 		}
 
@@ -3655,7 +3653,7 @@ technologies = {
 			position = { x = 10 y = @1918}
 		}
 
-		category_army = {
+		category_all_land = {
 			defense = 0.02
 		}
 
@@ -3686,7 +3684,7 @@ technologies = {
 			position = { x = 10 y = @1936}
 		}
 
-		category_army = {
+		category_all_land = {
 			defense = 0.02
 		}
 		path = {
@@ -3717,7 +3715,7 @@ technologies = {
 			position = { x = 12 y = @1895}
 		}
 
-		category_army = {
+		category_all_land = {
 			defense = 0.04
 			breakthrough = 0.04
 		}
@@ -3746,7 +3744,7 @@ technologies = {
 			position = { x = 12 y = @1912}
 		}
 
-		category_army = {
+		category_all_land = {
 			defense = 0.05
 			breakthrough = 0.05
 		}
@@ -3808,7 +3806,7 @@ technologies = {
 			position = { x = 14 y = @1914}
 		}
 
-		category_army = {
+		category_all_land = {
 			defense = 0.05
 		}
 
@@ -3828,7 +3826,7 @@ technologies = {
 	tech_camel_cavalry = {
 
 		enable_equipments = {
-			camel_equipment_0
+			cavalry_equipment_0
 		}
 
 		enable_subunits = {
@@ -4041,7 +4039,7 @@ technologies = {
 
 	dragoon_equipment = {
 
-		category_ranged_cavalry = {
+		category_all_ranged_cavalry = {
 			soft_attack = 0.04
 			max_organisation = 0.03
 		}
@@ -4070,7 +4068,7 @@ technologies = {
 
 	improved_dragoon_equipment = {
 
-		category_ranged_cavalry = {
+		category_all_ranged_cavalry = {
 			soft_attack = 0.1
 		}
 
@@ -4791,67 +4789,9 @@ technologies = {
 		}
 	}
 
-	tech_infantry_early_sniper_team = {
-
-		enable_subunits = {
-			sniper_team_support
-		}
-
-		enable_equipments = {
-			sniper_equipment_0
-		}
-
-		path = {
-			leads_to_tech = tech_infantry_sniper_team
-		}
-
-		research_cost = 1.2
-		start_year = 1915
-		folder = {
-			name = tech_folder_army_infantry
-			position = { x = 18 y = @1915}
-		}
-
-		categories = {
-			infantry_weapons_tech
-			long_ranged_weapons_tech
-			sniper_tech
-		}
-
-		ai_will_do = {
-			factor = 20 modifier = { factor = 0.8 has_war = no }	 modifier = { factor = 1.5 has_war = yes } modifier = { factor = 0 afr_is_tribal = yes  date < 1875.1.1 }
-		}
-	}
-
-	tech_infantry_sniper_team = {
-
-		sniper_team_support = {
-			soft_attack = 0.1
-			defense = 0.04
-			breakthrough = 0.02
-		}
-
-		research_cost = 1.1
-		start_year = 1918
-		folder = {
-			name = tech_folder_army_infantry
-			position = { x = 18 y = @1918}
-		}
-
-		categories = {
-			infantry_weapons_tech
-			long_ranged_weapons_tech
-			sniper_tech
-		}
-
-		ai_will_do = {
-			factor = 20 modifier = { factor = 0.8 has_war = no }	 modifier = { factor = 1.5 has_war = yes } modifier = { factor = 0 afr_is_tribal = yes  date < 1875.1.1 }
-		}
-	}
-
 	tech_infantry_two_inch_medium_mortar = {
 
-		category_army = {
+		category_all_land = {
 			soft_attack = 0.08
 			hard_attack = 0.03
 		}
@@ -4880,7 +4820,7 @@ technologies = {
 
 	tech_infantry_stokes_mortar = {
 
-		category_army = {
+		category_all_land = {
 			soft_attack = 0.05
 			hard_attack = 0.05
 		}
@@ -4909,7 +4849,7 @@ technologies = {
 
 	tech_infantry_mortar_3 = {
 
-		category_army = {
+		category_all_land = {
 			soft_attack = 0.05
 			hard_attack = 0.05
 		}

@@ -54,7 +54,7 @@ technologies = {
 	nitroglycerine = {
 
 		local_resources_factor = 0.05
-		ranged_weapons_equipment = {
+		category_all_ranged = {
 			soft_attack = 0.1
 		}
 
@@ -100,7 +100,7 @@ technologies = {
 	dynamite = {
 
 		local_resources_factor = 0.05
-		ranged_weapons_equipment = {
+		category_all_ranged = {
 			soft_attack = 0.05
 		}
 
@@ -153,7 +153,7 @@ technologies = {
 	tnt = {
 
 		local_resources_factor = 0.05
-		ranged_weapons_equipment = {
+		category_all_ranged = {
 			soft_attack = 0.025
 		}
 
@@ -185,7 +185,7 @@ technologies = {
 	petn = {
 
 		local_resources_factor = 0.05
-		ranged_weapons_equipment = {
+		category_all_ranged = {
 			soft_attack = 0.05
 		}
 
@@ -217,7 +217,7 @@ technologies = {
 	rdx = {
 
 		local_resources_factor = 0.05
-		ranged_weapons_equipment = {
+		category_all_ranged = {
 			soft_attack = 0.05
 		}
 

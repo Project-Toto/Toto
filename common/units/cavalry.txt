@@ -121,11 +121,11 @@ sub_units = {
 
 		need = {
 			tribal_weapons = 50
-			camel_equipment = 50
+			cavalry_equipment = 50
 		}
 		
 		# this is what moves us and sets speed
-			transport = camel_equipment
+			transport = cavalry_equipment
 	
 		desert = {
 			attack = 0.15
@@ -656,14 +656,14 @@ sub_units = {
 		
 		essential = {
 			infantry_equipment
-			camel_equipment
+			cavalry_equipment
 		}
 
 		# this is what moves us and sets speed
-		transport = camel_equipment
+		transport = cavalry_equipment
 
 		need = {
-			camel_equipment = 100
+			cavalry_equipment = 100
 			infantry_equipment = 100
 			uniform_equipment = 100
 		}

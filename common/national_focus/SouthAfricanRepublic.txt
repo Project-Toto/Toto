@@ -316,7 +316,7 @@ focus_tree = {
 		x = 13
 		y = 1
 		completion_reward = {
-			
+
 		}
 		prerequisite = {
 			focus = trv_vic_foreign_affars
@@ -344,7 +344,7 @@ focus_tree = {
 		x = 13
 		y = 2
 		completion_reward = {
-			
+
 		}
 		mutually_exclusive={
 			focus = trv_vic_ignore_OFS
@@ -378,7 +378,7 @@ focus_tree = {
 		x = 13
 		y = 3
 		completion_reward = {
-			
+
 		}
 		prerequisite = {
 			focus = trv_vic_reattempt_diplomatic_ties
@@ -395,7 +395,7 @@ focus_tree = {
 		x = 11
 		y = 2
 		completion_reward = {
-			
+
 		}
 		mutually_exclusive={
 			focus = trv_vic_reattempt_diplomatic_ties
@@ -556,7 +556,7 @@ focus_tree = {
 		x = 15
 		y = 2
 		completion_reward = {
-			
+
 		}
 		prerequisite = {
 			focus = trv_vic_west_swaziland_purchase
@@ -569,7 +569,7 @@ focus_tree = {
 			factor = 1
 		}
 	}
-	
+
 	focus = {
 		id = trv_vic_british_policy
 		icon = GFX_goal_focus_reform_administration
@@ -602,7 +602,7 @@ focus_tree = {
 		x = 17
 		y = 2
 		completion_reward = {
-			
+
 		}
 		allow_branch = {
 			has_country_flag = trv_ignore_british
@@ -676,7 +676,7 @@ focus_tree = {
 		x = 15
 		y = 4
 		completion_reward = {
-			
+
 		}
 		prerequisite = {
 			focus = trv_vic_push_into_besutoland
@@ -721,7 +721,7 @@ focus_tree = {
 		x = 17
 		y = 3
 		completion_reward = {
-			
+
 		}
 		prerequisite = {
 			focus = trv_vic_ignore_the_british_sphere
@@ -741,7 +741,7 @@ focus_tree = {
 		x = 17
 		y = 4
 		completion_reward = {
-			
+
 		}
 		prerequisite = {
 			focus = trv_vic_portugese_diplomacy
@@ -880,7 +880,7 @@ focus_tree = {
 			add_tech_bonus = {
 				bonus = 0.33
 				uses = 2
-				category = tech_category_all_calvary
+				category = tech_category_all_cavalry
 			}
 		}
 	}
@@ -943,7 +943,7 @@ focus_tree = {
 		x = 32
 		y = 0
 		completion_reward = {
-			
+
 		}
 	}
 	focus = {
@@ -962,7 +962,7 @@ focus_tree = {
 		x = 27
 		y = 1
 		completion_reward = {
-			
+
 		}
 	}
 	focus = {
@@ -1278,7 +1278,7 @@ focus_tree = {
 		x = 32
 		y = 3
 		completion_reward = {
-			
+
 		}
 	}
 	focus = {
@@ -1297,7 +1297,7 @@ focus_tree = {
 		x = 37
 		y = 1
 		completion_reward = {
-			
+
 		}
 	}
 	focus = {

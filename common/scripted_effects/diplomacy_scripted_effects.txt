@@ -61,6 +61,7 @@ load_previous_ideologies = {
 				ruling_party = traditionalism
 			}
 			add_to_variable = { var_stored_traditionalism_val = PDX_popularity_fuck_ups_fixer }
+		}
 		else_if={
 			limit={
 				check_variable = {var_stored_current_party_ideology_group = 3 }
@@ -96,13 +97,13 @@ load_previous_ideologies = {
 balkanize_empire = {
 	clear_array = releasable_tags_array
 	every_owned_state = {
-		for_each_loop_effect = {
+		for_each_loop = {
 			array = core_countries
 			value = country_temp
 
 			if = {
 				limit = {
-					country_exists = var:country_temp
+					NOT = { country_exists = var:country_temp }
 				}
 				add_to_array = {
 					array = PREV.releasable_tags_array
@@ -111,12 +112,12 @@ balkanize_empire = {
 			}
 		}
 	}
-	for_each_loop_effect = {
+	for_each_loop = {
 		array = releasable_tags_array
 		value = country_temp
 		every_owned_state = {
 			if = {
-				limit = { has_core_of = var:country_temp }
+				limit = { is_core_of = var:country_temp }
 				transfer_state_to = var:country_temp
 			}
 		}

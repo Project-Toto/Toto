@@ -20,7 +20,7 @@ sub_units = {
 		can_be_parachuted = no	# Used to define subunit as paratroopers.
 		affects_speed = yes		 # Used to check if the unit will affect the template's speed, support companies have it set to no.
 
-		transport = camelry # Sets the speed of subunit via equipment. Used for motorized/mechanized
+		transport = cavalry_equipment # Sets the speed of subunit via equipment. Used for motorized/mechanized
 
 		# How the unit is grouped division-wise, i.e. appearing in the Support tab. Not used for air or naval units
 		group = infantry
@@ -85,7 +85,7 @@ sub_units = {
 		can_be_parachuted = no	# Used to define subunit as paratroopers.
 		affects_speed = yes		 # Used to check if the unit will affect the template's speed, support companies have it set to no.
 
-		transport = camelry # Sets the speed of subunit via equipment. Used for motorized/mechanized
+		transport = cavalry_equipment # Sets the speed of subunit via equipment. Used for motorized/mechanized
 
 		# How the unit is grouped division-wise, i.e. appearing in the Support tab. Not used for air or naval units
 		group = infantry
@@ -150,7 +150,7 @@ sub_units = {
 		can_be_parachuted = no	# Used to define subunit as paratroopers.
 		affects_speed = yes		 # Used to check if the unit will affect the template's speed, support companies have it set to no.
 
-		transport = camelry # Sets the speed of subunit via equipment. Used for motorized/mechanized
+		transport = cavalry_equipment # Sets the speed of subunit via equipment. Used for motorized/mechanized
 
 		# How the unit is grouped division-wise, i.e. appearing in the Support tab. Not used for air or naval units
 		group = infantry
@@ -215,7 +215,7 @@ sub_units = {
 		can_be_parachuted = no	# Used to define subunit as paratroopers.
 		affects_speed = yes		 # Used to check if the unit will affect the template's speed, support companies have it set to no.
 
-		transport = camelry # Sets the speed of subunit via equipment. Used for motorized/mechanized
+		transport = cavalry_equipment # Sets the speed of subunit via equipment. Used for motorized/mechanized
 
 		# How the unit is grouped division-wise, i.e. appearing in the Support tab. Not used for air or naval units
 		group = infantry
@@ -280,7 +280,7 @@ sub_units = {
 		can_be_parachuted = no	# Used to define subunit as paratroopers.
 		affects_speed = yes		 # Used to check if the unit will affect the template's speed, support companies have it set to no.
 
-		transport = camelry # Sets the speed of subunit via equipment. Used for motorized/mechanized
+		transport = cavalry_equipment # Sets the speed of subunit via equipment. Used for motorized/mechanized
 
 		# How the unit is grouped division-wise, i.e. appearing in the Support tab. Not used for air or naval units
 		group = infantry

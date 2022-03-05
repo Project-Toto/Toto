@@ -798,7 +798,7 @@ focus_tree = {
 				uses = 10
 				category = mechanical_engineering_tech
 				category = process_engineering_tech
-				category = biochemistry_tech
+				category = biochemistry_research_tech
 				category = electronics_devices_tech
 			}
 		}

@@ -3,44 +3,47 @@ scripted_map_modes = {
 		top = {
 			category = state
 
-			set_temp_variable = { alpha = 0.8 }
-
 			color = {
+				set_temp_variable = { red = 1 }
+				set_temp_variable = { green = 1 }
+				set_temp_variable = { blue = 1 }
+				set_temp_variable = { alpha = 0.8 }
+
 				if = {
-					limit = { has_dynamic_modifier = { modifier = climate_arid } }
+					limit = { FROM = { has_dynamic_modifier = { modifier = climate_arid } } }
 					set_temp_variable = { red = 1 }
 					set_temp_variable = { green = 1 }
 					set_temp_variable = { blue = 1 }
 				}
 				else_if = {
-					limit = { has_dynamic_modifier = { modifier = climate_arid_coast } }
+					limit = { FROM = { has_dynamic_modifier = { modifier = climate_arid_coast } } }
 				}
 				else_if = {
-					limit = { has_dynamic_modifier = { modifier = climate_arid_highlands } }
+					limit = { FROM = { has_dynamic_modifier = { modifier = climate_arid_highlands } } }
 				}
 				else_if = {
-					limit = { has_dynamic_modifier = { modifier = climate_arid_tropic } }
+					limit = { FROM = { has_dynamic_modifier = { modifier = climate_arid_tropic } } }
 				}
 				else_if = {
-					limit = { has_dynamic_modifier = { modifier = climate_temperate } }
+					limit = { FROM = { has_dynamic_modifier = { modifier = climate_temperate } } }
 				}
 				else_if = {
-					limit = { has_dynamic_modifier = { modifier = climate_temperate_coast } }
+					limit = { FROM = { has_dynamic_modifier = { modifier = climate_temperate_coast } } }
 				}
 				else_if = {
-					limit = { has_dynamic_modifier = { modifier = climate_temperate_highlands } }
+					limit = { FROM = { has_dynamic_modifier = { modifier = climate_temperate_highlands } } }
 				}
 				else_if = {
-					limit = { has_dynamic_modifier = { modifier = climate_humid } }
+					limit = { FROM = { has_dynamic_modifier = { modifier = climate_humid } } }
 				}
 				else_if = {
-					limit = { has_dynamic_modifier = { modifier = climate_humid_coast } }
+					limit = { FROM = { has_dynamic_modifier = { modifier = climate_humid_coast } } }
 				}
 				else_if = {
-					limit = { has_dynamic_modifier = { modifier = climate_humid_highlands } }
+					limit = { FROM = { has_dynamic_modifier = { modifier = climate_humid_highlands } } }
 				}
 				else_if = {
-					limit = { has_dynamic_modifier = { modifier = climate_humid_tropic } }
+					limit = { FROM = { has_dynamic_modifier = { modifier = climate_humid_tropic } } }
 				}
 				else = {
 					set_temp_variable = { red = 0.55 }

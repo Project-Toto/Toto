@@ -1995,14 +1995,14 @@ focus_tree = {
 					create_production_license = {
 						target = ALZ
 						equipment = {
-							type = camel_equipment_0
+							type = cavalry_equipment_0
 						}
 						cost_factor = 0
 					}
 				}
 				ALZ = {
 					add_equipment_to_stockpile = {
-						type = camel_equipment_0
+						type = cavalry_equipment_0
 					amount = 100
 						producer = ETH
 					}

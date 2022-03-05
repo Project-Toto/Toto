@@ -3045,7 +3045,6 @@ technologies = {
 		categories = {
 			support_company_tech
 			medical_company_tech
-			medical_company_tech
 		}
 
 		ai_will_do = {
@@ -3088,7 +3087,6 @@ technologies = {
 
 		categories = {
 			support_company_tech
-			medical_company_tech
 			medical_company_tech
 		}
 
@@ -3133,7 +3131,6 @@ technologies = {
 		categories = {
 			support_company_tech
 			medical_company_tech
-			medical_company_tech
 		}
 
 		ai_will_do = {
@@ -3177,7 +3174,6 @@ technologies = {
 		categories = {
 			support_company_tech
 			medical_company_tech
-			medical_company_tech
 		}
 
 		ai_will_do = {
@@ -3220,7 +3216,6 @@ technologies = {
 
 		categories = {
 			support_company_tech
-			medical_company_tech
 			medical_company_tech
 		}
 

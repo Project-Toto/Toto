@@ -71,15 +71,13 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 3714;1869;sea;12551;-1;-1;-1;-1;;Niger
 4128;9888;sea;12229;-1;-1;-1;-1;;Congo
 9335;6216;sea;12052;-1;-1;-1;-1;;Volta
-3485;5409;sea;12052;-1;-1;-1;-1;;Volta
-8538;8502;sea;10841;-1;-1;-1;-1;;Senegal
-8819;5775;sea;12298;-1;-1;-1;-1;;Niger
 5616;2354;sea;12308;-1;-1;-1;-1;;Niger
+5616;8419;sea;12310;-1;-1;-1;-1;;Niger
+5616;1583;sea;12309;-1;-1;-1;-1;;Niger
+5616;10769;sea;12311;-1;-1;-1;-1;;Niger
 4225;9270;sea;12348;-1;-1;-1;-1;;Niger
 9411;9397;sea;12352;-1;-1;-1;-1;;Niger
 8693;10770;sea;11423;-1;-1;-1;-1;;Gambia
-6681;4513;sea;12292;-1;-1;-1;-1;;Gambia
-1227;5724;sea;10841;-1;-1;-1;-1;;Gambia
 313;12659;land;;-1;-1;-1;-1;;Sahara
 313;12658;land;;-1;-1;-1;-1;;Sahara
 313;969;land;;-1;-1;-1;-1;;Sahara
@@ -147,6 +145,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 10763;4460;land;;-1;-1;-1;-1;;Tunis
 12702;12704;land;;-1;-1;-1;-1;;Sahara
 12703;3659;land;;-1;-1;-1;-1;;Sahara
+12330;12331;sea;;-1;-1;-1;-1;BUSSA_RAPIDS;Niger
 12760;12762;sea;;-1;-1;-1;-1;;minimap
 12768;12769;sea;;-1;-1;-1;-1;;minimap
 12786;12769;sea;;-1;-1;-1;-1;;minimap
