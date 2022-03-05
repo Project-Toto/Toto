@@ -9,7 +9,7 @@ technology_sharing_group = {
 	is_faction_sharing = yes
 
     available = {
-        is_in_faction = yes
+        is_subject_of = FROM
     }
 
 }

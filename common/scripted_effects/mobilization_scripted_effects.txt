@@ -204,7 +204,7 @@ mobilize = {
 			random_owned_state = {
 				limit = {
 					OR = {
-						has_core_of = PREV
+						is_core_of = PREV
 						is_capital = yes
 					}
 				}
@@ -212,38 +212,38 @@ mobilize = {
 					0 = {
 						modifier = {
 							add = 40
-							has_dynamic_modifier = climate_arid
+							has_dynamic_modifier = { modifier = climate_arid }
 						}
 						modifier = {
 							add = 30
-							has_dynamic_modifier = climate_arid_coast
+							has_dynamic_modifier = { modifier = climate_arid_coast }
 						}
 						modifier = {
 							add = 30
-							has_dynamic_modifier = climate_arid_highlands
+							has_dynamic_modifier = { modifier = climate_arid_highlands }
 						}
 						modifier = {
 							add = 30
-							has_dynamic_modifier = climate_arid
+							has_dynamic_modifier = { modifier = climate_arid }
 						}
 						mobilize_camel_archers = yes
 					}
 					0 = {
 						modifier = {
 							add = 30
-							has_dynamic_modifier = climate_arid
+							has_dynamic_modifier = { modifier = climate_arid }
 						}
 						modifier = {
 							add = 40
-							has_dynamic_modifier = climate_arid_coast
+							has_dynamic_modifier = { modifier = climate_arid_coast }
 						}
 						modifier = {
 							add = 40
-							has_dynamic_modifier = climate_arid_highlands
+							has_dynamic_modifier = { modifier = climate_arid_highlands }
 						}
 						modifier = {
 							add = 40
-							has_dynamic_modifier = climate_arid
+							has_dynamic_modifier = { modifier = climate_arid }
 						}
 						mobilize_camel_warriors = yes
 					}

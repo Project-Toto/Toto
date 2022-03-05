@@ -71,20 +71,20 @@ equipments = {
   		
   		interface_category = interface_category_land
   	}
-  	camelry_equipment = {
-  	  picture = GFX_equipment_camelry_equipment
-  	  
-  		year = 1000
-  		
-  		is_archetype = yes
-  		is_buildable = no
-  		active = no
-  		
-  		type = infantry
-  		group_by = archetype
-  		
-  		interface_category = interface_category_land
-  	}
+  	#equine_equipment = {
+  	#  picture = GFX_equipment_equine_equipment
+  	#  
+  	#	year = 1000
+  	#	
+  	#	is_archetype = yes
+  	#	is_buildable = no
+  	#	active = no
+  	#	
+  	#	type = infantry
+  	#	group_by = archetype
+  	#	
+  	#	interface_category = interface_category_land
+  	#}
     cart_equipment = {
       picture = GFX_equipment_cart_equipment
       

@@ -1,77 +1,319 @@
 # All infantry equipment
 
 equipments = {
+  melee_arms_equipment_0 = {
+    year = 1000
+    archetype = melee_arms_equipment
+    priority = 5
+    visual_level = 1
+  }
+  melee_arms_equipment_1 = {
+    year = 1150
+    archetype = melee_arms_equipment
+    priority = 10
+    visual_level = 1
+    
+    parent = melee_arms_equipment_0
+  }
+  melee_arms_equipment_2 = {
+    year = 1300
+    archetype = melee_arms_equipment
+    priority = 15
+    visual_level = 1
+    
+    parent = melee_arms_equipment_1
+  }
+  melee_arms_equipment_3 = {
+    year = 1450
+    archetype = melee_arms_equipment
+    priority = 20
+    visual_level = 1
+    
+    parent = melee_arms_equipment_2
+  }
+  melee_arms_equipment_4 = {
+    year = 1600
+    archetype = melee_arms_equipment
+    priority = 25
+    visual_level = 1
+    
+    parent = melee_arms_equipment_3
+  }
+  melee_arms_equipment_5 = {
+    year = 1850
+    archetype = melee_arms_equipment
+    priority = 30
+    visual_level = 1
+    
+    parent = melee_arms_equipment_4
+  }
+  melee_arms_equipment_6 = {
+    year = 1865
+    archetype = melee_arms_equipment
+    priority = 35
+    visual_level = 1
+    
+    parent = melee_arms_equipment_5
+  }
+  melee_arms_equipment_7 = {
+    year = 1880
+    archetype = melee_arms_equipment
+    priority = 40
+    visual_level = 1
+    
+    parent = melee_arms_equipment_6
+  }
+  melee_arms_equipment_8 = {
+    year = 1905
+    archetype = melee_arms_equipment
+    priority = 45
+    visual_level = 1
+    
+    parent = melee_arms_equipment_7
+  }
+  melee_arms_equipment_9 = {
+    year = 1920
+    archetype = melee_arms_equipment
+    priority = 50
+    visual_level = 1
+    
+    parent = melee_arms_equipment_8
+  }
+  
+  ranged_arms_equipment_0 = {
+    year = 1000
+    archetype = ranged_arms_equipment
+    priority = 5
+    visual_level = 3
+  }
+  ranged_arms_equipment_1 = {
+    year = 1150
+    archetype = ranged_arms_equipment
+    priority = 10
+    visual_level = 3
+    
+    parent = ranged_arms_equipment_0
+  }
+  ranged_arms_equipment_2 = {
+    year = 1300
+    archetype = ranged_arms_equipment
+    priority = 15
+    visual_level = 3
+    
+    parent = ranged_arms_equipment_1
+  }
+  ranged_arms_equipment_3 = {
+    year = 1450
+    archetype = ranged_arms_equipment
+    priority = 20
+    visual_level = 3
+    
+    parent = ranged_arms_equipment_2
+  }
+  ranged_arms_equipment_4 = {
+    year = 1600
+    archetype = ranged_arms_equipment
+    priority = 25
+    visual_level = 3
+    
+    parent = ranged_arms_equipment_3
+  }
+  ranged_arms_equipment_5 = {
+    year = 1850
+    archetype = ranged_arms_equipment
+    priority = 30
+    visual_level = 3
+    
+    parent = ranged_arms_equipment_4
+  }
+  
+  long_ranged_arms_equipment_0 = {
+    year = 1450
+    archetype = long_ranged_arms_equipment
+    priority = 5
+    visual_level = 2
+  }
+  long_ranged_arms_equipment_1 = {
+    year = 1600
+    archetype = long_ranged_arms_equipment
+    priority = 10
+    visual_level = 2
+    
+    parent = long_ranged_arms_equipment_0
+  }
+  long_ranged_arms_equipment_2 = {
+    year = 1800
+    archetype = long_ranged_arms_equipment
+    priority = 15
+    visual_level = 2
+    
+    parent = long_ranged_arms_equipment_1
+  }
+  long_ranged_arms_equipment_3 = {
+    year = 1820
+    archetype = long_ranged_arms_equipment
+    priority = 20
+    visual_level = 2
+    
+    parent = long_ranged_arms_equipment_2
+  }
+  long_ranged_arms_equipment_4 = {
+    year = 1840
+    archetype = long_ranged_arms_equipment
+    priority = 25
+    visual_level = 2
+    
+    parent = long_ranged_arms_equipment_3
+  }
+  long_ranged_arms_equipment_5 = {
+    year = 1000
+    archetype = long_ranged_arms_equipment
+    priority = 30
+    visual_level = 2
+    
+    parent = long_ranged_arms_equipment_4
+  }
 
-	cavalry_equipment = {
-		year = 1840
-
-		is_archetype = yes
-		is_buildable = no
-		type = infantry
-		group_by = archetype
-
-		interface_category = interface_category_land
-
-		reliability = 0.8
-		maximum_speed = 8
-
-		defense = 6
-		breakthrough = 0.35
-		hardness = 0
-		armor_value = 0
-
-		soft_attack = 4
-		hard_attack = 0.03
-		ap_attack = 0
-		air_attack = 0
-
-		lend_lease_cost = 1
-		
-		build_cost_ic = 5
-	}
-
-	cavalry_equipment_0 = {
-		year = 1840
-		archetype = cavalry_equipment
-		priority = 05
-		visual_level = 0
-	}
-	
-	camel_equipment = {
-		year = 1840
-
-		is_archetype = yes
-		is_buildable = no
-		type = infantry
-		group_by = archetype
-
-		interface_category = interface_category_land
-
-		reliability = 0.9
-		maximum_speed = 8
-
-		defense = 6
-		breakthrough = 0.35
-		hardness = 0
-		armor_value = 0
-
-		soft_attack = 4
-		hard_attack = 0.03
-		ap_attack = 0
-		air_attack = 0
-
-		lend_lease_cost = 1
-		
-		build_cost_ic = 7
-	}
-
-	camel_equipment_0 = {
-		year = 1840
-		archetype = camel_equipment
-		priority = 05
-		visual_level = 0
-	}
-	
+  shield_equipment_0 = {
+    year = 1450
+    archetype = shield_equipment
+    priority = 5
+    visual_level = 0
+  }
+  shield_equipment_1 = {
+    year = 1600
+    archetype = shield_equipment
+    priority = 6
+    visual_level = 0
+    
+    parent = shield_equipment_0
+  }
+  shield_equipment_2 = {
+    year = 1800
+    archetype = shield_equipment
+    priority = 7
+    visual_level = 0
+    
+    parent = shield_equipment_1
+  }
+  shield_equipment_3 = {
+    year = 1820
+    archetype = shield_equipment
+    priority = 8
+    visual_level = 0
+    
+    parent = shield_equipment_2
+  }
+  
+  cavalry_equipment_0 = {
+    year = 1000
+    archetype = cavalry_equipment
+    priority = 5
+    visual_level = 2
+  }
+  cavalry_equipment_1 = {
+    year = 120
+    archetype = cavalry_equipment
+    priority = 10
+    visual_level = 2
+    
+    parent = cavalry_equipment_0
+  }
+  cavalry_equipment_2 = {
+    year = 1400
+    archetype = cavalry_equipment
+    priority = 15
+    visual_level = 2
+    
+    parent = cavalry_equipment_1
+  }
+  cavalry_equipment_3 = {
+    year = 1600
+    archetype = cavalry_equipment
+    priority = 20
+    visual_level = 2
+    
+    parent = cavalry_equipment_2
+  }
+  cavalry_equipment_4 = {
+    year = 1800
+    archetype = cavalry_equipment
+    priority = 25
+    visual_level = 2
+    
+    parent = cavalry_equipment_3
+  }
+  
+  cart_equipment_0 = {
+    year = 1000
+    archetype = cart_equipment
+    priority = 5
+    visual_level = 0
+  }
+  cart_equipment_1 = {
+    year = 1300
+    archetype = cart_equipment
+    priority = 6
+    visual_level = 0
+    
+    parent = cart_equipment_0
+  }
+  cart_equipment_2 = {
+    year = 1600
+    archetype = cart_equipment
+    priority = 7
+    visual_level = 0
+    
+    parent = cart_equipment_1
+  }
+  cart_equipment_3 = {
+    year = 1850
+    archetype = cart_equipment
+    priority = 8
+    visual_level = 0
+    
+    parent = cart_equipment_2
+  }
+  cart_equipment_4 = {
+    year = 1900
+    archetype = cart_equipment
+    priority = 9
+    visual_level = 0
+    
+    parent = cart_equipment_3
+  }
+  
+  rations_equipment_0 = {
+    year = 1000
+    archetype = rations_equipment
+    priority = 5
+    visual_level = 0
+  }
+  rations_equipment_1 = {
+    year = 1400
+    archetype = rations_equipment
+    priority = 6
+    visual_level = 0
+    
+    parent = rations_equipment_0
+  }
+  rations_equipment_2 = {
+    year = 1800
+    archetype = rations_equipment
+    priority = 8
+    visual_level = 0
+    
+    parent = rations_equipment_1
+  }
+  rations_equipment_3 = {
+    year = 1880
+    archetype = rations_equipment
+    priority = 8
+    visual_level = 0
+    
+    parent = rations_equipment_2
+  }
+  
 	tribal_weapons = {
 		year = 1840
 
