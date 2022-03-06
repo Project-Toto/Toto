@@ -17,6 +17,7 @@
   BRA = "countries/Brazil.txt"
 
 # Majors (Countries on Bookmark or has subjects)
+  EGY = "countries/Egypt.txt"
   MOR = "countries/Morocco.txt"
   PER = "countries/Persia.txt"
   POR = "countries/Portugal.txt"
@@ -138,14 +139,19 @@
  # Egypt
    # graphical_culture = middle_eastern_gfx
    # graphical_culture_2d = middle_eastern_2d
-  EGY = "countries/Egypt.txt"
   MHD = "countries/Mahidist.txt"
+  ABB = "countries/Ababda.txt"
  # Nubia
    # graphical_culture = middle_eastern_gfx
    # graphical_culture_2d = middle_eastern_2d
+  ALO = "countries/Alodia.txt"
   ALZ = "countries/Al-Zubayr.txt"
   EQA = "countries/Equatoria.txt"
+  JAA = "countries/Ja'alin.txt"
+  KDF = "countries/Kurdofan.txt"
+  SGY = "countries/Shaigiya.txt"
   SHK = "countries/Shiluk.txt"
+  SNR = "countries/Sennar.txt"
   SSD = "countries/South Sudan.txt"
   SUD = "countries/Sudan.txt"
 # MAGHREB REGION
