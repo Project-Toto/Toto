@@ -3,10 +3,10 @@ characters={
 		name="Abdallah Al-Mazrui"
 		portraits={
 			civilian={
-				large="gfx/leaders/Arabia/generic_leader_sultan_2.png"
+				large="gfx/characters/Arabia/generic_leader_sultan_2.png"
 			}
 			army={
-				large="gfx/leaders/Arabia/generic_leader_sultan_2.png"
+				large="gfx/characters/Arabia/generic_leader_sultan_2.png"
 			}
 		}
 		country_leader={

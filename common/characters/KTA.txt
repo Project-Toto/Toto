@@ -3,7 +3,7 @@ characters={
 		name="Tribal Council"
 		portraits={
 			civilian={
-				large="gfx/leaders/Africa/generic_leader_tribal_council.png"
+				large="gfx/characters/Africa/generic_leader_tribal_council.png"
 			}
 		}
 		country_leader={

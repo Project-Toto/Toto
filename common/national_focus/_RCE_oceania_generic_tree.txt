@@ -6191,7 +6191,7 @@
 # 			focus = Oceania_generic_foreign_liscense_agreement
 # 		}
 # 		completion_reward = {
-# 			add_tech_bonus = { bonus = 0.50 uses = 1 category = infantry_weapons }
+# 			add_tech_bonus = { bonus = 0.50 uses = 1 category = infantry_weapons_tech }
 # 		}
 # 		allow_branch = {
 # 			NOT = { tag = JAI }

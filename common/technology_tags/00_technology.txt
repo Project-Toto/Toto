@@ -157,6 +157,8 @@ technology_categories = {
 	concentrated_industry_category
 	dispersed_industry_category
 	asw_tech
+
+	naval_equipment_tech
 	naval_mtg_screen_ship_tech
 	naval_mtg_capital_ship_tech
 	naval_mtg_submarine_ship_tech

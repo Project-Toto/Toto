@@ -790,7 +790,7 @@ focus_tree = {
 			add_tech_bonus = {
 				bonus = 0.5
 				uses = 1
-				category = infantry_weapons
+				category = infantry_weapons_tech
 			}
 		}
 	}
@@ -813,7 +813,7 @@ focus_tree = {
 			add_tech_bonus = {
 				bonus = 0.5
 				uses = 1
-				category = infantry_weapons
+				category = infantry_weapons_tech
 			}
 		}
 	}
@@ -903,7 +903,7 @@ focus_tree = {
 			add_tech_bonus = {
 				bonus = 0.33
 				uses = 2
-				category = artillery
+				category = long_ranged_weapons_tech
 			}
 		}
 	}

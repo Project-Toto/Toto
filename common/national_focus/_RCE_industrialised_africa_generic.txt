@@ -340,7 +340,7 @@ focus_tree = {
 			add_tech_bonus = {
 				bonus = 0.75
 				uses = 2
-				category = electronics
+				category = electronics_technology_tech
 			}
 		}
 		x = 4
@@ -549,7 +549,7 @@ focus_tree = {
 			focus = afr_victorian_style_tactics
 		}
 		completion_reward = {
-			add_timed_idea = { idea = eoanb_idea_generic_focus_intel days = 3650 }
+			# add_timed_idea = { idea = eoanb_idea_generic_focus_intel days = 3650 }
 		}
 		x = 13
 		y = 2
@@ -563,7 +563,7 @@ focus_tree = {
 			focus = afr_victorian_armies
 		}
 		completion_reward = {
-			add_tech_bonus = { bonus = 0.75 uses = 5 category = support_tech }
+			add_tech_bonus = { bonus = 0.75 uses = 5 category = support_company_tech }
 		}
 		x = 15
 		y = 1
@@ -577,7 +577,7 @@ focus_tree = {
 			focus = afr_inovate_support_supplies
 		}
 		completion_reward = {
-			add_tech_bonus = { bonus = 0.75 uses = 5 category = artillery }
+			add_tech_bonus = { bonus = 0.75 uses = 5 category = long_ranged_weapons_tech }
 		}
 		x = 15
 		y = 2
@@ -591,7 +591,7 @@ focus_tree = {
 			focus = afr_victorian_armies
 		}
 		completion_reward = {
-			add_tech_bonus = { bonus = 0.75 uses = 5 category = infantry_weapons }
+			add_tech_bonus = { bonus = 0.75 uses = 5 category = infantry_weapons_tech }
 		}
 		x = 17
 		y = 1
@@ -605,7 +605,7 @@ focus_tree = {
 			focus = afr_upgraded_rifles
 		}
 		completion_reward = {
-			add_tech_bonus = { bonus = 0.25 uses = 1 category = infantry_weapons }
+			add_tech_bonus = { bonus = 0.25 uses = 1 category = infantry_weapons_tech }
 		}
 		x = 17
 		y = 2
@@ -628,10 +628,10 @@ focus_tree = {
 			add_tech_bonus = {
 				bonus = 0.25
 				uses = 15
-				category = infantry_weapons
-				category = support_tech
-				category = explosives_tech
-				category = artillery
+				category = infantry_weapons_tech
+				category = support_company_tech
+				category = explosives_technology_tech
+				category = long_ranged_weapons_tech
 			}
 		}
 		x = 15

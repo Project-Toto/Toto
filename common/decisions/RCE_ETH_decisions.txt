@@ -1894,9 +1894,9 @@ ETH_prussian_merchants = {
 				}
 			}
 		}
-		GER = {
-			has_completed_focus = PRS_focus_colonial_politics_branch
-		}
+		# GER = {
+		# 	has_completed_focus = PRS_focus_colonial_politics_branch
+		# }
 	}
 
 	allowed = { TAG = ETH }
@@ -1946,9 +1946,9 @@ ETH_greek_merchants = {
 		
 	allowed = { TAG = ETH }
 	visible = {
-		GRE = {
-			has_completed_focus = GRE_focus_on_export
-		}
+		# GRE = {
+		# 	has_completed_focus = GRE_focus_on_export
+		# }
 		country_exists = GRE
 	}
 	

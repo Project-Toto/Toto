@@ -1359,7 +1359,7 @@ focus_tree = {
 			add_tech_bonus = {
 				bonus = 0.5
 				uses = 2
-				category = doctrine_victorian_traditional_tech
+				category = land_doctrine
 			}
 		}
 	}
@@ -1441,7 +1441,7 @@ focus_tree = {
 			add_tech_bonus = {
 				bonus = 0.5
 				uses = 2
-				category = doctrine_victorian_innovative_tech
+				category = land_doctrine
 			}
 		}
 	}

@@ -3,7 +3,7 @@ characters={
 		name="Nicolaas Waterboer"
 		portraits={
 			civilian={
-				large="gfx/leaders/Africa/Portrait_GQW_Nicolaas_Waterboer.png"
+				large="gfx/characters/Africa/Portrait_GQW_Nicolaas_Waterboer.png"
 			}
 		}
 		country_leader={

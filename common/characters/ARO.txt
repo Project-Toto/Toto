@@ -3,7 +3,7 @@ characters={
 		name="The Okpankpo"
 		portraits={
 			civilian={
-				large="gfx/leaders/ARO/Portrait_ARO_The_Okpankpo.dds"
+				large="gfx/characters/ARO/Portrait_ARO_The_Okpankpo.dds"
 			}
 		}
 		country_leader={

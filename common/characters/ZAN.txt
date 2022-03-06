@@ -3,10 +3,10 @@ characters={
 		name="Sayyid Majid bin Sa'id"
 		portraits={
 			civilian={
-				large="gfx/leaders/ZAN/Portrait_ZAN_Majid_bin_Said.dds"
+				large="gfx/characters/ZAN/Portrait_ZAN_Majid_bin_Said.dds"
 			}
 			army={
-				large="gfx/leaders/ZAN/Portrait_ZAN_Majid_bin_Said.dds"
+				large="gfx/characters/ZAN/Portrait_ZAN_Majid_bin_Said.dds"
 			}
 		}
 		country_leader={

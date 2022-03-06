@@ -150,7 +150,7 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			add_tech_bonus = { bonus = 0.15 uses = 2 category = infantry_weapons }
+			add_tech_bonus = { bonus = 0.15 uses = 2 category = infantry_weapons_tech }
 		}
 	}
 	focus = {
@@ -799,7 +799,7 @@ focus_tree = {
 				category = mechanical_engineering_tech
 				category = process_engineering_tech
 				category = biochemistry_research_tech
-				category = electronics_devices_tech
+				category = technology_tech
 			}
 		}
 	}
@@ -2315,7 +2315,7 @@ focus_tree = {
 			add_tech_bonus = {
 				bonus = 0.20
 				uses = 2
-				category = doctrine_victorian_industry_tech
+				category = land_doctrine
 			}
 		}
 	}
@@ -2346,7 +2346,7 @@ focus_tree = {
 			add_tech_bonus = {
 				bonus = 0.20
 				uses = 2
-				category = doctrine_victorian_innovative_tech
+				category = land_doctrine
 			}
 		}
 	}
@@ -2374,7 +2374,7 @@ focus_tree = {
 			add_tech_bonus = {
 				bonus = 0.33
 				uses = 2
-				category = artillery
+				category = long_ranged_weapons_tech
 			}
 		}
 	}
@@ -2577,7 +2577,7 @@ focus_tree = {
 			add_tech_bonus = {
 				bonus = 0.20
 				uses = 2
-				category = doctrine_victorian_traditional_tech
+				category = land_doctrine
 			}
 		}
 	}
@@ -2725,7 +2725,7 @@ focus_tree = {
 			add_tech_bonus = {
 				bonus = 0.1
 				uses = 5
-				category = naval_equipment
+				category = naval_equipment_tech
 			}
 		}
 	}
@@ -2788,7 +2788,7 @@ focus_tree = {
 			add_tech_bonus = {
 				bonus = 0.2
 				uses = 2
-				category = doctrine_victorian_innovative_tech
+				category = land_doctrine
 			}
 		}
 	}

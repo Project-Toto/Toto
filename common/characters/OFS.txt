@@ -3,7 +3,7 @@ characters={
 		name="Jacobus Nicolaas Boshoff"
 		portraits={
 			civilian={
-				large="gfx/leaders/OFS/Portrait_OFS_Jacobus_Nicholaas_Boshoff.dds"
+				large="gfx/characters/OFS/Portrait_OFS_Jacobus_Nicholaas_Boshoff.dds"
 			}
 		}
 		country_leader={

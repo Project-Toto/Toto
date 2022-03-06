@@ -91,9 +91,9 @@ eoanb_category_politics_internal = {
 
 		available = {
 			date < 1910.1.1
-			GER = {
-				has_completed_focus = PRS_focus_colonial_politics_branch
-			}
+			# GER = {
+			# 	has_completed_focus = PRS_focus_colonial_politics_branch
+			# }
 			has_idea = afr_reforming_kingdom
 		}
 

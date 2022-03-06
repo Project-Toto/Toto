@@ -3,10 +3,10 @@ characters={
 		name="Sekeletu"
 		portraits={
 			civilian={
-				large="gfx/leaders/Africa/african_generic_10.dds"
+				large="gfx/characters/Africa/african_generic_10.dds"
 			}
 			army={
-				large="gfx/leaders/Africa/african_generic_10.dds"
+				large="gfx/characters/Africa/african_generic_10.dds"
 			}
 		}
 		country_leader={

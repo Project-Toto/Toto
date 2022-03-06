@@ -3,10 +3,10 @@ characters={
 		name="Kigeli IV Rwabugiri"
 		portraits={
 			civilian={
-				large="gfx/leaders/RWD/Portrait_RWD_Kigeli_IV_Rwabugiri.dds"
+				large="gfx/characters/RWD/Portrait_RWD_Kigeli_IV_Rwabugiri.dds"
 			}
 			army={
-				large="gfx/leaders/RWD/Portrait_RWD_Kigeli_IV_Rwabugiri.dds"
+				large="gfx/characters/RWD/Portrait_RWD_Kigeli_IV_Rwabugiri.dds"
 			}
 		}
 		country_leader={

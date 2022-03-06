@@ -43,7 +43,7 @@ characters={
 				small="GFX_idea_europe_generic_1"
 			}
 			army={
-				large="gfx/leaders/TUN/Portrait_TUN_Mustapha_Khaznadar.png"
+				large="gfx/characters/TUN/Portrait_TUN_Mustapha_Khaznadar.png"
 			}
 		}
 		field_marshal={
@@ -63,7 +63,7 @@ characters={
 				small="GFX_idea_europe_generic_1"
 			}
 			army={
-				large="gfx/leaders/TUN/Portrait_TUN_General_Hussein.png"
+				large="gfx/characters/TUN/Portrait_TUN_General_Hussein.png"
 			}
 		}
 		corps_commander={
@@ -82,7 +82,7 @@ characters={
 				small="GFX_idea_europe_generic_1"
 			}
 			army={
-				large="gfx/leaders/TUN/Portrait_TUN_Mohamed_Baccouche.png"
+				large="gfx/characters/TUN/Portrait_TUN_Mohamed_Baccouche.png"
 			}
 		}
 		corps_commander={
@@ -101,7 +101,7 @@ characters={
 				small="GFX_idea_europe_generic_1"
 			}
 			army={
-				large="gfx/leaders/TUN/Portrait_TUN_Al_Fariq_Osman.png"
+				large="gfx/characters/TUN/Portrait_TUN_Al_Fariq_Osman.png"
 			}
 		}
 		corps_commander={

@@ -3,10 +3,10 @@ characters={
 		name="Mpande kaSenzangakhona"
 		portraits={
 			civilian={
-				large="gfx/leaders/ZUL/Portrait_ZUL_Mpande_kaSenzangakhona.dds"
+				large="gfx/characters/ZUL/Portrait_ZUL_Mpande_kaSenzangakhona.dds"
 			}
 			army={
-				large="gfx/leaders/ZUL/Portrait_ZUL_Mpande_kaSenzangakhona.dds"
+				large="gfx/characters/ZUL/Portrait_ZUL_Mpande_kaSenzangakhona.dds"
 			}
 		}
 		country_leader={

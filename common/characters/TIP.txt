@@ -3,10 +3,10 @@ characters={
 		name="Tippu Tib"
 		portraits={
 			civilian={
-				large="gfx/leaders/TIP/Portrait_TIP_Tippu_Tip.dds"
+				large="gfx/characters/TIP/Portrait_TIP_Tippu_Tip.dds"
 			}
 			army={
-				large="gfx/leaders/TIP/Portrait_TIP_Tippu_Tip.dds"
+				large="gfx/characters/TIP/Portrait_TIP_Tippu_Tip.dds"
 			}
 		}
 		country_leader={

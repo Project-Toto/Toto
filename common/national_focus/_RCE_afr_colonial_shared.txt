@@ -424,7 +424,7 @@ shared_focus = {
 		add_tech_bonus = {
 			bonus = 1
 			uses = 1
-			category = hospital_tech
+			category = medical_company_tech
 		}
 		if = {
 			limit = {

@@ -602,7 +602,7 @@ focus_tree = {
 			add_tech_bonus = {
 				bonus = 0.15
 				uses = 3
-				category = naval_equipment
+				category = naval_equipment_tech
 			}
 		}
 		available_if_capitulated = no
@@ -738,7 +738,7 @@ focus_tree = {
 			add_tech_bonus = {
 				bonus = 0.25
 				uses = 2
-				category = infantry_weapons
+				category = infantry_weapons_tech
 			}
 		}
 		available_if_capitulated = no
@@ -759,7 +759,7 @@ focus_tree = {
 			add_tech_bonus = {
 				bonus = 0.33
 				uses = 1
-				category = artillery
+				category = long_ranged_weapons_tech
 			}
 		}
 		available_if_capitulated = no
@@ -780,7 +780,7 @@ focus_tree = {
 			add_tech_bonus = {
 				bonus = 0.25
 				uses = 2
-				category = doctrine_victorian_innovative_tech
+				category = land_doctrine
 			}
 		}
 		available_if_capitulated = no
@@ -887,7 +887,7 @@ focus_tree = {
 			focus = oma_vic_victorianization
 		}
 		completion_reward={
-			add_tech_bonus = { bonus = 0.33 uses = 1 category = naval_equipment }
+			add_tech_bonus = { bonus = 0.33 uses = 1 category = naval_equipment_tech }
 		}
 		available_if_capitulated = no
 		ai_will_do = {
@@ -1127,7 +1127,7 @@ focus_tree = {
 			add_tech_bonus = {
 				bonus = 0.25
 				uses = 2
-				category = doctrine_victorian_traditional_tech
+				category = land_doctrine
 			}
 		}
 		available_if_capitulated = no
@@ -1707,7 +1707,7 @@ focus_tree = {
 		x = 11
 		y = 16
 		completion_reward = {
-			add_timed_idea = { idea = eoanb_random_event_22_idea days = 200}
+			# add_timed_idea = { idea = eoanb_random_event_22_idea days = 200}
 		}
 		prerequisite={
 			focus = oma_vic_continue_fathers_policy

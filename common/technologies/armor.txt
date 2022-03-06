@@ -22,7 +22,8 @@ technologies = {
 		research_cost = 2
 		start_year = 1860
 		folder = {
-			name = tech_folder_army_armor			position = { x = 0 y = 4 }
+			name = tech_folder_army_armor
+			position = { x = 0 y = 4 }
 		}
 
 		ai_will_do = {
@@ -55,8 +56,8 @@ technologies = {
 				factor = 0
 				date < 1860.1.1
 				NOT = {
-					has_tech_bonus = { category = armor }
-					has_tech_bonus = { category = trains_tech }
+					has_tech_bonus = { category = armor_vehcicles_tech}
+					has_tech_bonus = { category = locomotive_vehicles_tech}
 				}
 			}
 			modifier = {
@@ -74,7 +75,8 @@ technologies = {
 		}
 
 		categories = {
-			armor_vehcicles_tech			locomotive_vehicles_tech
+			armor_vehcicles_tech
+			locomotive_vehicles_tech
 		}
 	}
 
@@ -110,8 +112,8 @@ technologies = {
 				factor = 0
 				date < 1865.1.1
 				NOT = {
-					has_tech_bonus = { category = armor }
-					has_tech_bonus = { category = trains_tech }
+					has_tech_bonus = { category = armor_vehcicles_tech}
+					has_tech_bonus = { category = locomotive_vehicles_tech}
 				}
 			}
 
@@ -163,8 +165,8 @@ technologies = {
 				factor = 0
 				date < 1880.1.1
 				NOT = {
-					has_tech_bonus = { category = armor }
-					has_tech_bonus = { category = trains_tech }
+					has_tech_bonus = { category = armor_vehcicles_tech}
+					has_tech_bonus = { category = locomotive_vehicles_tech}
 				}
 			}
 
@@ -219,8 +221,8 @@ technologies = {
 				factor = 0
 				date < 1890.1.1
 				NOT = {
-					has_tech_bonus = { category = armor }
-					has_tech_bonus = { category = trains_tech }
+					has_tech_bonus = { category = armor_vehcicles_tech}
+					has_tech_bonus = { category = locomotive_vehicles_tech}
 				}
 			}
 
@@ -272,8 +274,8 @@ technologies = {
 				factor = 0
 				date < 1910.1.1
 				NOT = {
-					has_tech_bonus = { category = armor }
-					has_tech_bonus = { category = trains_tech }
+					has_tech_bonus = { category = armor_vehcicles_tech}
+					has_tech_bonus = { category = locomotive_vehicles_tech}
 				}
 			}
 
@@ -320,8 +322,8 @@ technologies = {
 				factor = 0
 				date < 1915.1.1
 				NOT = {
-					has_tech_bonus = { category = armor }
-					has_tech_bonus = { category = trains_tech }
+					has_tech_bonus = { category = armor_vehcicles_tech}
+					has_tech_bonus = { category = locomotive_vehicles_tech}
 				}
 			}
 
@@ -373,8 +375,8 @@ technologies = {
 				factor = 0
 				date < 1920.1.1
 				NOT = {
-					has_tech_bonus = { category = armor }
-					has_tech_bonus = { category = trains_tech }
+					has_tech_bonus = { category = armor_vehcicles_tech}
+					has_tech_bonus = { category = locomotive_vehicles_tech}
 				}
 			}
 			modifier = {
@@ -422,8 +424,8 @@ technologies = {
 				factor = 0
 				date < 1935.1.1
 				NOT = {
-					has_tech_bonus = { category = armor }
-					has_tech_bonus = { category = trains_tech }
+					has_tech_bonus = { category = armor_vehcicles_tech}
+					has_tech_bonus = { category = locomotive_vehicles_tech}
 				}
 			}
 			modifier = {
@@ -456,8 +458,8 @@ technologies = {
 				factor = 0
 				date < 1935.1.1
 				NOT = {
-					has_tech_bonus = { category = armor }
-					has_tech_bonus = { category = trains_tech }
+					has_tech_bonus = { category = armor_vehcicles_tech}
+					has_tech_bonus = { category = locomotive_vehicles_tech}
 				}
 			}
 			modifier = {
@@ -499,8 +501,8 @@ technologies = {
 				factor = 0
 				date < 1865.1.1
 				NOT = {
-					has_tech_bonus = { category = armor }
-					has_tech_bonus = { category = trains_tech }
+					has_tech_bonus = { category = armor_vehcicles_tech}
+					has_tech_bonus = { category = locomotive_vehicles_tech}
 				}
 			}
 
@@ -548,8 +550,8 @@ technologies = {
 				factor = 0
 				date < 1870.1.1
 				NOT = {
-					has_tech_bonus = { category = armor }
-					has_tech_bonus = { category = trains_tech }
+					has_tech_bonus = { category = armor_vehcicles_tech}
+					has_tech_bonus = { category = locomotive_vehicles_tech}
 				}
 			}
 
@@ -703,7 +705,7 @@ technologies = {
 				factor = 0
 				date < 1865.1.1
 				NOT = {
-					has_tech_bonus = { category = armor }
+					has_tech_bonus = { category = armor_vehcicles_tech}
 					has_tech_bonus = { category = biwheel_vehicle_tech }
 				}
 			}
@@ -753,7 +755,7 @@ technologies = {
 				factor = 0
 				date < 1865.1.1
 				NOT = {
-					has_tech_bonus = { category = armor }
+					has_tech_bonus = { category = armor_vehcicles_tech}
 					has_tech_bonus = { category = biwheel_vehicle_tech }
 				}
 			}
@@ -811,7 +813,7 @@ technologies = {
 				factor = 0
 				date < 1885.1.1
 				NOT = {
-					has_tech_bonus = { category = armor }
+					has_tech_bonus = { category = armor_vehcicles_tech}
 					has_tech_bonus = { category = biwheel_vehicle_tech }
 				}
 			}
@@ -869,7 +871,7 @@ technologies = {
 				factor = 0
 				date < 1890.1.1
 				NOT = {
-					has_tech_bonus = { category = armor }
+					has_tech_bonus = { category = armor_vehcicles_tech}
 					has_tech_bonus = { category = biwheel_vehicle_tech }
 				}
 			}
@@ -922,7 +924,7 @@ technologies = {
 				factor = 0
 				date < 1915.1.1
 				NOT = {
-					has_tech_bonus = { category = armor }
+					has_tech_bonus = { category = armor_vehcicles_tech}
 					has_tech_bonus = { category = biwheel_vehicle_tech }
 				}
 			}
@@ -970,7 +972,7 @@ technologies = {
 				factor = 0
 				date < 1920.1.1
 				NOT = {
-					has_tech_bonus = { category = armor }
+					has_tech_bonus = { category = armor_vehcicles_tech}
 					has_tech_bonus = { category = biwheel_vehicle_tech }
 				}
 			}
@@ -1030,7 +1032,7 @@ technologies = {
 				factor = 0
 				date < 1865.1.1
 				NOT = {
-					has_tech_bonus = { category = armor }
+					has_tech_bonus = { category = armor_vehcicles_tech}
 					has_tech_bonus = { category = motorized_vehicles_tech }
 				}
 			}
@@ -1087,7 +1089,7 @@ technologies = {
 				factor = 0
 				date < 1870.1.1
 				NOT = {
-					has_tech_bonus = { category = armor }
+					has_tech_bonus = { category = armor_vehcicles_tech}
 					has_tech_bonus = { category = motorized_vehicles_tech }
 				}
 			}
@@ -1146,7 +1148,7 @@ technologies = {
 				factor = 0
 				date < 1880.1.1
 				NOT = {
-					has_tech_bonus = { category = armor }
+					has_tech_bonus = { category = armor_vehcicles_tech}
 					has_tech_bonus = { category = motorized_vehicles_tech }
 				}
 			}
@@ -1212,7 +1214,7 @@ technologies = {
 				factor = 0
 				date < 1890.1.1
 				NOT = {
-					has_tech_bonus = { category = armor }
+					has_tech_bonus = { category = armor_vehcicles_tech}
 					has_tech_bonus = { category = motorized_vehicles_tech }
 				}
 			}
@@ -1281,7 +1283,7 @@ technologies = {
 				factor = 0
 				date < 1900.1.1
 				NOT = {
-					has_tech_bonus = { category = armor }
+					has_tech_bonus = { category = armor_vehcicles_tech}
 					has_tech_bonus = { category = motorized_vehicles_tech }
 				}
 			}
@@ -1345,7 +1347,7 @@ technologies = {
 				factor = 0
 				date < 1910.1.1
 				NOT = {
-					has_tech_bonus = { category = armor }
+					has_tech_bonus = { category = armor_vehcicles_tech}
 					has_tech_bonus = { category = motorized_vehicles_tech }
 				}
 			}
@@ -1393,7 +1395,7 @@ technologies = {
 				factor = 0
 				date < 1915.1.1
 				NOT = {
-					has_tech_bonus = { category = armor }
+					has_tech_bonus = { category = armor_vehcicles_tech}
 				}
 			}
 
@@ -1462,7 +1464,7 @@ technologies = {
 				factor = 0
 				date < 1917.1.1
 				NOT = {
-					has_tech_bonus = { category = armor }
+					has_tech_bonus = { category = armor_vehcicles_tech}
 				}
 			}
 
@@ -1511,7 +1513,7 @@ technologies = {
 				factor = 0
 				date < 1920.1.1
 				NOT = {
-					has_tech_bonus = { category = armor }
+					has_tech_bonus = { category = armor_vehcicles_tech}
 				}
 			}
 
@@ -1559,7 +1561,7 @@ technologies = {
 				factor = 0
 				date < 1915.1.1
 				NOT = {
-					has_tech_bonus = { category = armor }
+					has_tech_bonus = { category = armor_vehcicles_tech}
 					has_tech_bonus = { category = motorized_vehicles_tech }
 				}
 			}
@@ -1607,7 +1609,7 @@ technologies = {
 				factor = 0
 				date < 1920.1.1
 				NOT = {
-					has_tech_bonus = { category = armor }
+					has_tech_bonus = { category = armor_vehcicles_tech}
 					has_tech_bonus = { category = motorized_vehicles_tech }
 				}
 			}
@@ -1655,7 +1657,7 @@ technologies = {
 				factor = 0
 				date < 1918.1.1
 				NOT = {
-					has_tech_bonus = { category = armor }
+					has_tech_bonus = { category = armor_vehcicles_tech}
 					has_tech_bonus = { category = motorized_vehicles_tech }
 				}
 			}

@@ -3,10 +3,10 @@ characters={
 		name="Mswati II"
 		portraits={
 			civilian={
-				large="gfx/leaders/Africa/african_generic_7.dds"
+				large="gfx/characters/Africa/african_generic_7.dds"
 			}
 			army={
-				large="gfx/leaders/Africa/african_generic_7.dds"
+				large="gfx/characters/Africa/african_generic_7.dds"
 			}
 		}
 		country_leader={

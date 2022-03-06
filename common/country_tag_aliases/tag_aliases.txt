@@ -53,10 +53,16 @@ MOT = {
 }
 
 SOV = {
-  base = 0
-  fallback = RUS
+  targets = { RUS }
+	country_score = {
+		base = 0
+	}
+	fallback = RUS
 }
 JAP = {
-  base = 0
-  fallback = TES
+	targets = { TES }
+	country_score = {
+		base = 0
+	}
+	fallback = TES
 }

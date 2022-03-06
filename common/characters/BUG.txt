@@ -3,10 +3,10 @@ characters={
 		name="Muteesa I"
 		portraits={
 			civilian={
-				large="gfx/leaders/BUG/Portrait_BUG_Muteesa_I.png"
+				large="gfx/characters/BUG/Portrait_BUG_Muteesa_I.png"
 			}
 			army={
-				large="gfx/leaders/BUG/Portrait_BUG_Muteesa_I.png"
+				large="gfx/characters/BUG/Portrait_BUG_Muteesa_I.png"
 			}
 		}
 		country_leader={

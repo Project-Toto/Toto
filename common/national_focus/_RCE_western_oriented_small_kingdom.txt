@@ -477,7 +477,7 @@ focus_tree = {
 			focus = afr_wes_inspire_technological_boom
 		}
 		completion_reward={
-			add_tech_bonus = { bonus = 0.25 uses = 1 category = industry }
+			add_tech_bonus = { bonus = 0.25 uses = 1 category = engineering_tech }
 		}
 		x = 7
 		y = 5
@@ -494,7 +494,7 @@ focus_tree = {
 			focus = afr_wes_western_technological_pracitises
 		}
 		completion_reward={
-			add_tech_bonus = { bonus = 0.50 uses = 1 category = industry }
+			add_tech_bonus = { bonus = 0.50 uses = 1 category = engineering_tech }
 		}
 		x = 7
 		y = 6
@@ -530,7 +530,7 @@ focus_tree = {
 			focus = afr_wes_army_funding
 		}
 		completion_reward = {
-			add_tech_bonus = { bonus = 0.50 uses = 1 category = infantry_weapons }
+			add_tech_bonus = { bonus = 0.50 uses = 1 category = infantry_weapons_tech }
 			if = {
 				limit = { NOT = { has_tech = tribal_weapons } }
 				add_tech_bonus = { bonus = 0.75 uses = 1 technology = tribal_weapons }
@@ -854,7 +854,7 @@ focus_tree = {
 			focus = afr_wes_traditional_western_blend
 		}
 		completion_reward={
-			add_tech_bonus = { bonus = 0.25 uses = 2 category = humanities_tech }
+			add_tech_bonus = { bonus = 0.25 uses = 2 category = humanities_research_tech }
 		}
 		x = 20
 		y = 4
