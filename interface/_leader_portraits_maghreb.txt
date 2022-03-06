@@ -1,0 +1,40 @@
+spriteTypes = {
+  # GENERIC
+  
+  # Algeria
+    spriteType = {
+      name = "GFX_Portrait_ALG_Abdelkader_ibn_Muhieddine"
+      texturefile = "gfx/characters/ALG/Portrait_ALG_Abdelkader_ibn_Muhieddine.png"
+    }
+  # Al Zubayr
+    spriteType = {
+      name = "GFX_Portrait_ALZ_Al_Zubayr_Rahma_Mansur"
+      texturefile = "gfx/characters/ALZ/Portrait_ALZ_Al_Zubayr_Rahma_Mansur.png"
+    }
+  # Beni Abbas
+    spriteType = {
+      name = "GFX_Portrait_BAB_Mohamed_El_Mokrani"
+      texturefile = "gfx/characters/BAB/Portrait_BAB_Mohamed_El_Mokrani.png"
+    }
+    spriteType = {
+      name = "GFX_Portrait_BAB_Mohand_El_Mokrani"
+      texturefile = "gfx/characters/BAB/Portrait_BAB_Mohand_El_Mokrani.png"
+    }
+  # Egypt
+    spriteType = {
+      name = "GFX_Portrait_EGY_Ahmad_Rifaat_Pasha"
+      texturefile = "gfx/characters/EGY/Portrait_EGY_Ahmad_Rifaat_Pasha.png"
+    }
+    spriteType = {
+      name = "GFX_Portrait_EGY_Ismail_Pasha"
+      texturefile = "gfx/characters/EGY/Portrait_EGY_Ismail_Pasha.png"
+    }
+    spriteType = {
+      name = "GFX_Portrait_EGY_Muhammad_Sa_id_Pashia"
+      texturefile = "gfx/characters/EGY/Portrait_EGY_Muhammad_Sa_Id_Pasha.png"
+    }
+    spriteType = {
+      name = "GFX_Portrait_EGY_Khedivate_Regency"
+      texturefile = "gfx/characters/EGY/Portrait_EGY_Khedivate_Regency.png"
+    }
+}

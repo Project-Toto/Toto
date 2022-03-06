@@ -15,18 +15,18 @@ default = {
 
 	operative = {
 		male = {
-			"gfx/leaders/operative_unknown.dds"
+			"gfx/characters/operative_unknown.dds"
 		}
 		female = {
-			"gfx/leaders/operative_unknown.dds"
+			"gfx/characters/operative_unknown.dds"
 		}
 	}
 
 	male = {
-		"gfx/leaders/leader_unknown.dds"
+		"gfx/characters/leader_unknown.dds"
 	}
 	female = {
-		"gfx/leaders/leader_unknown_female.dds"
+		"gfx/characters/leader_unknown_female.dds"
 	}
 }
 
@@ -34,103 +34,103 @@ continent = {
 	name = africa
 	army = {
 		male = {
-			"gfx/leaders/Africa/generic_leader_tribe_1.dds"
-			"gfx/leaders/Africa/generic_leader_tribe_2.dds"
-			"gfx/leaders/Africa/generic_leader_tribe_3.dds"
-			"gfx/leaders/Africa/generic_leader_tribe_4.dds"
-			"gfx/leaders/Africa/generic_leader_king_1.dds"
-			"gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
-			"gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
-			"gfx/leaders/Africa/African_Generic_3.dds"
-			"gfx/leaders/Africa/African_Generic_5.dds"
-			"gfx/leaders/Africa/African_Generic_6.dds"
-			"gfx/leaders/Africa/African_Generic_7.dds"
+			"gfx/characters/Africa/generic_leader_tribe_1.dds"
+			"gfx/characters/Africa/generic_leader_tribe_2.dds"
+			"gfx/characters/Africa/generic_leader_tribe_3.dds"
+			"gfx/characters/Africa/generic_leader_tribe_4.dds"
+			"gfx/characters/Africa/generic_leader_king_1.dds"
+			"gfx/characters/Africa/Portrait_Africa_Generic_1.dds"
+			"gfx/characters/Africa/Portrait_Africa_Generic_1.dds"
+			"gfx/characters/Africa/African_Generic_3.dds"
+			"gfx/characters/Africa/African_Generic_5.dds"
+			"gfx/characters/Africa/African_Generic_6.dds"
+			"gfx/characters/Africa/African_Generic_7.dds"
 		}
 	}
 
 	navy = {
 		male = {
-			"gfx/leaders/Africa/Portrait_Africa_Generic_navy_1.dds"
-			"gfx/leaders/Africa/Portrait_Africa_Generic_navy_2.dds"
-			"gfx/leaders/Africa/Portrait_Africa_Generic_navy_3.dds"
+			"gfx/characters/Africa/Portrait_Africa_Generic_navy_1.dds"
+			"gfx/characters/Africa/Portrait_Africa_Generic_navy_2.dds"
+			"gfx/characters/Africa/Portrait_Africa_Generic_navy_3.dds"
 		}
 	}
 
 	political = {
 		fundamentalism = {
 			male = {
-				"gfx/leaders/Africa/generic_leader_tribe_1.dds"
-				"gfx/leaders/Africa/generic_leader_tribe_2.dds"
-				"gfx/leaders/Africa/generic_leader_tribe_3.dds"
-				"gfx/leaders/Africa/generic_leader_tribe_4.dds"
-				"gfx/leaders/Africa/generic_leader_king_1.dds"
-				"gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
-				"gfx/leaders/Africa/generic_leader_king_3.dds"
-				"gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
-				"gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
-				"gfx/leaders/Africa/African_Generic_1.dds"
-				"gfx/leaders/Africa/African_Generic_3.dds"
-				"gfx/leaders/Africa/African_Generic_4.dds"
-				"gfx/leaders/Africa/African_Generic_5.dds"
-				"gfx/leaders/Africa/African_Generic_6.dds"
-				"gfx/leaders/Africa/African_Generic_7.dds"
+				"gfx/characters/Africa/generic_leader_tribe_1.dds"
+				"gfx/characters/Africa/generic_leader_tribe_2.dds"
+				"gfx/characters/Africa/generic_leader_tribe_3.dds"
+				"gfx/characters/Africa/generic_leader_tribe_4.dds"
+				"gfx/characters/Africa/generic_leader_king_1.dds"
+				"gfx/characters/Africa/Portrait_Africa_Generic_1.dds"
+				"gfx/characters/Africa/generic_leader_king_3.dds"
+				"gfx/characters/Africa/Portrait_Africa_Generic_1.dds"
+				"gfx/characters/Africa/Portrait_Africa_Generic_1.dds"
+				"gfx/characters/Africa/African_Generic_1.dds"
+				"gfx/characters/Africa/African_Generic_3.dds"
+				"gfx/characters/Africa/African_Generic_4.dds"
+				"gfx/characters/Africa/African_Generic_5.dds"
+				"gfx/characters/Africa/African_Generic_6.dds"
+				"gfx/characters/Africa/African_Generic_7.dds"
 			}
 		}
 		traditionalism = {
 			male = {
-				"gfx/leaders/Africa/generic_leader_tribe_1.dds"
-				"gfx/leaders/Africa/generic_leader_tribe_2.dds"
-				"gfx/leaders/Africa/generic_leader_tribe_3.dds"
-				"gfx/leaders/Africa/generic_leader_tribe_4.dds"
-				"gfx/leaders/Africa/generic_leader_king_1.dds"
-				"gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
-				"gfx/leaders/Africa/generic_leader_king_3.dds"
-				"gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
-				"gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
-				"gfx/leaders/Africa/African_Generic_1.dds"
-				"gfx/leaders/Africa/African_Generic_3.dds"
-				"gfx/leaders/Africa/African_Generic_4.dds"
-				"gfx/leaders/Africa/African_Generic_5.dds"
-				"gfx/leaders/Africa/African_Generic_6.dds"
-				"gfx/leaders/Africa/African_Generic_7.dds"
+				"gfx/characters/Africa/generic_leader_tribe_1.dds"
+				"gfx/characters/Africa/generic_leader_tribe_2.dds"
+				"gfx/characters/Africa/generic_leader_tribe_3.dds"
+				"gfx/characters/Africa/generic_leader_tribe_4.dds"
+				"gfx/characters/Africa/generic_leader_king_1.dds"
+				"gfx/characters/Africa/Portrait_Africa_Generic_1.dds"
+				"gfx/characters/Africa/generic_leader_king_3.dds"
+				"gfx/characters/Africa/Portrait_Africa_Generic_1.dds"
+				"gfx/characters/Africa/Portrait_Africa_Generic_1.dds"
+				"gfx/characters/Africa/African_Generic_1.dds"
+				"gfx/characters/Africa/African_Generic_3.dds"
+				"gfx/characters/Africa/African_Generic_4.dds"
+				"gfx/characters/Africa/African_Generic_5.dds"
+				"gfx/characters/Africa/African_Generic_6.dds"
+				"gfx/characters/Africa/African_Generic_7.dds"
 			}
 		}
 		imperialism = {
 			male = {
-				"gfx/leaders/Africa/generic_leader_tribe_1.dds"
-				"gfx/leaders/Africa/generic_leader_tribe_2.dds"
-				"gfx/leaders/Africa/generic_leader_tribe_3.dds"
-				"gfx/leaders/Africa/generic_leader_tribe_4.dds"
-				"gfx/leaders/Africa/generic_leader_king_1.dds"
-				"gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
-				"gfx/leaders/Africa/generic_leader_king_3.dds"
-				"gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
-				"gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
-				"gfx/leaders/Africa/African_Generic_1.dds"
-				"gfx/leaders/Africa/African_Generic_3.dds"
-				"gfx/leaders/Africa/African_Generic_4.dds"
-				"gfx/leaders/Africa/African_Generic_5.dds"
-				"gfx/leaders/Africa/African_Generic_6.dds"
-				"gfx/leaders/Africa/African_Generic_7.dds"
+				"gfx/characters/Africa/generic_leader_tribe_1.dds"
+				"gfx/characters/Africa/generic_leader_tribe_2.dds"
+				"gfx/characters/Africa/generic_leader_tribe_3.dds"
+				"gfx/characters/Africa/generic_leader_tribe_4.dds"
+				"gfx/characters/Africa/generic_leader_king_1.dds"
+				"gfx/characters/Africa/Portrait_Africa_Generic_1.dds"
+				"gfx/characters/Africa/generic_leader_king_3.dds"
+				"gfx/characters/Africa/Portrait_Africa_Generic_1.dds"
+				"gfx/characters/Africa/Portrait_Africa_Generic_1.dds"
+				"gfx/characters/Africa/African_Generic_1.dds"
+				"gfx/characters/Africa/African_Generic_3.dds"
+				"gfx/characters/Africa/African_Generic_4.dds"
+				"gfx/characters/Africa/African_Generic_5.dds"
+				"gfx/characters/Africa/African_Generic_6.dds"
+				"gfx/characters/Africa/African_Generic_7.dds"
 			}
 		}
 		reformism = {
 			male = {
-				"gfx/leaders/Africa/generic_leader_tribe_1.dds"
-				"gfx/leaders/Africa/generic_leader_tribe_2.dds"
-				"gfx/leaders/Africa/generic_leader_tribe_3.dds"
-				"gfx/leaders/Africa/generic_leader_tribe_4.dds"
-				"gfx/leaders/Africa/generic_leader_king_1.dds"
-				"gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
-				"gfx/leaders/Africa/generic_leader_king_3.dds"
-				"gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
-				"gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
-				"gfx/leaders/Africa/African_Generic_1.dds"
-				"gfx/leaders/Africa/African_Generic_3.dds"
-				"gfx/leaders/Africa/African_Generic_4.dds"
-				"gfx/leaders/Africa/African_Generic_5.dds"
-				"gfx/leaders/Africa/African_Generic_6.dds"
-				"gfx/leaders/Africa/African_Generic_7.dds"
+				"gfx/characters/Africa/generic_leader_tribe_1.dds"
+				"gfx/characters/Africa/generic_leader_tribe_2.dds"
+				"gfx/characters/Africa/generic_leader_tribe_3.dds"
+				"gfx/characters/Africa/generic_leader_tribe_4.dds"
+				"gfx/characters/Africa/generic_leader_king_1.dds"
+				"gfx/characters/Africa/Portrait_Africa_Generic_1.dds"
+				"gfx/characters/Africa/generic_leader_king_3.dds"
+				"gfx/characters/Africa/Portrait_Africa_Generic_1.dds"
+				"gfx/characters/Africa/Portrait_Africa_Generic_1.dds"
+				"gfx/characters/Africa/African_Generic_1.dds"
+				"gfx/characters/Africa/African_Generic_3.dds"
+				"gfx/characters/Africa/African_Generic_4.dds"
+				"gfx/characters/Africa/African_Generic_5.dds"
+				"gfx/characters/Africa/African_Generic_6.dds"
+				"gfx/characters/Africa/African_Generic_7.dds"
 			}
 		}
 	}
@@ -142,39 +142,39 @@ continent = {
 	name = middle_east
 	army = {
 		male = {
-			"gfx/leaders/NJD/Portrait_Arabia_Generic_land_1.dds"
-			"gfx/leaders/NJD/Portrait_Arabia_Generic_land_2.dds"
-			"gfx/leaders/NJD/Portrait_Arabia_Generic_land_3.dds"
+			"gfx/characters/NJD/Portrait_Arabia_Generic_land_1.dds"
+			"gfx/characters/NJD/Portrait_Arabia_Generic_land_2.dds"
+			"gfx/characters/NJD/Portrait_Arabia_Generic_land_3.dds"
 		}
 	}
 
 	navy = {
 		male = {
-			"gfx/leaders/NJD/Portrait_Arabia_Generic_navy_1.dds"
-			"gfx/leaders/NJD/Portrait_Arabia_Generic_navy_2.dds"
-			"gfx/leaders/NJD/Portrait_Arabia_Generic_navy_3.dds"
+			"gfx/characters/NJD/Portrait_Arabia_Generic_navy_1.dds"
+			"gfx/characters/NJD/Portrait_Arabia_Generic_navy_2.dds"
+			"gfx/characters/NJD/Portrait_Arabia_Generic_navy_3.dds"
 		}
 	}
 
 	political = {
 		traditionalism = {
 			male = {
-				"gfx/leaders/NJD/Portrait_Arabia_Generic_1.dds"
+				"gfx/characters/NJD/Portrait_Arabia_Generic_1.dds"
 			}
 		}
 		reformism = {
 			male = {
-				"gfx/leaders/NJD/Portrait_Arabia_Generic_2.dds"
+				"gfx/characters/NJD/Portrait_Arabia_Generic_2.dds"
 			}
 		}
 		imperialism = {
 			male = {
-				"gfx/leaders/NJD/Portrait_Arabia_Generic_3.dds"
+				"gfx/characters/NJD/Portrait_Arabia_Generic_3.dds"
 			}
 		}
 		fundamentalism = {
 			male = {
-				"gfx/leaders/NJD/Portrait_Arabia_Generic_3.dds"
+				"gfx/characters/NJD/Portrait_Arabia_Generic_3.dds"
 			}
 		}
 	}
@@ -184,42 +184,42 @@ continent = {
 	name = europe
 	army = {
 		male = {
-			"gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
-			"gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
-			"gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-			"gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
-			"gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
-			"gfx/leaders/Europe/portrait_europe_generic_land_13.dds"
+			"gfx/characters/Europe/Portrait_Europe_Generic_land_1.dds"
+			"gfx/characters/Europe/Portrait_Europe_Generic_land_2.dds"
+			"gfx/characters/Europe/Portrait_Europe_Generic_land_3.dds"
+			"gfx/characters/Europe/Portrait_Europe_Generic_land_4.dds"
+			"gfx/characters/Europe/Portrait_Europe_Generic_land_5.dds"
+			"gfx/characters/Europe/portrait_europe_generic_land_13.dds"
 		}
 	}
 
 	navy = {
 		male = {
-			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds"
-			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds"
-			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_3.dds"
+			"gfx/characters/Europe/Portrait_Europe_Generic_navy_1.dds"
+			"gfx/characters/Europe/Portrait_Europe_Generic_navy_2.dds"
+			"gfx/characters/Europe/Portrait_Europe_Generic_navy_3.dds"
 		}
 	}
 
 	political = {
 		traditionalism = {
 			male = {
-				"gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+				"gfx/characters/Europe/Portrait_Europe_Generic_1.dds"
 			}
 		}
 		reformism = {
 			male = {
-				"gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+				"gfx/characters/Europe/Portrait_Europe_Generic_2.dds"
 			}
 		}
 		imperialism = {
 			male = {
-				"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+				"gfx/characters/Europe/Portrait_Europe_Generic_3.dds"
 			}
 		}
 		fundamentalism = {
 			male = {
-				"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+				"gfx/characters/Europe/Portrait_Europe_Generic_3.dds"
 			}
 		}
 	}
@@ -230,42 +230,42 @@ continent = {
 	name = north_america
 	army = {
 		male = {
-			"gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
-			"gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
-			"gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-			"gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
-			"gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
-			"gfx/leaders/Europe/portrait_europe_generic_land_13.dds"
+			"gfx/characters/Europe/Portrait_Europe_Generic_land_1.dds"
+			"gfx/characters/Europe/Portrait_Europe_Generic_land_2.dds"
+			"gfx/characters/Europe/Portrait_Europe_Generic_land_3.dds"
+			"gfx/characters/Europe/Portrait_Europe_Generic_land_4.dds"
+			"gfx/characters/Europe/Portrait_Europe_Generic_land_5.dds"
+			"gfx/characters/Europe/portrait_europe_generic_land_13.dds"
 		}
 	}
 
 	navy = {
 		male = {
-			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds"
-			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds"
-			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_3.dds"
+			"gfx/characters/Europe/Portrait_Europe_Generic_navy_1.dds"
+			"gfx/characters/Europe/Portrait_Europe_Generic_navy_2.dds"
+			"gfx/characters/Europe/Portrait_Europe_Generic_navy_3.dds"
 		}
 	}
 
 	political = {
 		traditionalism = {
 			male = {
-				"gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+				"gfx/characters/Europe/Portrait_Europe_Generic_1.dds"
 			}
 		}
 		reformism = {
 			male = {
-				"gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+				"gfx/characters/Europe/Portrait_Europe_Generic_2.dds"
 			}
 		}
 		imperialism = {
 			male = {
-				"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+				"gfx/characters/Europe/Portrait_Europe_Generic_3.dds"
 			}
 		}
 		fundamentalism = {
 			male = {
-				"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+				"gfx/characters/Europe/Portrait_Europe_Generic_3.dds"
 			}
 		}
 	}
@@ -276,41 +276,41 @@ continent = {
 	name = south_america
 	army = {
 		male = {
-			"gfx/leaders/South America/Portrait_South_America_Generic_land_1.dds"
-			"gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"
-			"gfx/leaders/South America/Portrait_South_America_Generic_land_3.dds"
-			"gfx/leaders/South America/Portrait_South_America_Generic_land_4.dds"
-			"gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
+			"gfx/characters/South America/Portrait_South_America_Generic_land_1.dds"
+			"gfx/characters/South America/Portrait_South_America_Generic_land_2.dds"
+			"gfx/characters/South America/Portrait_South_America_Generic_land_3.dds"
+			"gfx/characters/South America/Portrait_South_America_Generic_land_4.dds"
+			"gfx/characters/South America/Portrait_South_America_Generic_land_5.dds"
 		}
 	}
 
 	navy = {
 		male = {
-			"gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds"
-			"gfx/leaders/South America/Portrait_South_America_Generic_navy_2.dds"
-			"gfx/leaders/South America/Portrait_South_America_Generic_navy_3.dds"
+			"gfx/characters/South America/Portrait_South_America_Generic_navy_1.dds"
+			"gfx/characters/South America/Portrait_South_America_Generic_navy_2.dds"
+			"gfx/characters/South America/Portrait_South_America_Generic_navy_3.dds"
 		}
 	}
 
 	political = {
 		traditionalism = {
 			male = {
-				"gfx/leaders/South America/Portrait_South_America_Generic_1.dds"
+				"gfx/characters/South America/Portrait_South_America_Generic_1.dds"
 			}
 		}
 		reformism = {
 			male = {
-				"gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
+				"gfx/characters/South America/Portrait_South_America_Generic_2.dds"
 			}
 		}
 		imperialism = {
 			male = {
-				"gfx/leaders/South America/Portrait_South_America_Generic_3.dds"
+				"gfx/characters/South America/Portrait_South_America_Generic_3.dds"
 			}
 		}
 		fundamentalism = {
 			male = {
-				"gfx/leaders/South America/Portrait_South_America_Generic_3.dds"
+				"gfx/characters/South America/Portrait_South_America_Generic_3.dds"
 			}
 		}
 	}
@@ -321,41 +321,41 @@ continent = {
 	name = asia
 	army = {
 		male = {
-			"gfx/leaders/Asia/Portrait_Asia_Generic_land_1.dds"
-			"gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
-			"gfx/leaders/Asia/Portrait_Asia_Generic_land_3.dds"
-			"gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds"
-			"gfx/leaders/Asia/Portrait_Asia_Generic_land_5.dds"
+			"gfx/characters/Asia/Portrait_Asia_Generic_land_1.dds"
+			"gfx/characters/Asia/Portrait_Asia_Generic_land_2.dds"
+			"gfx/characters/Asia/Portrait_Asia_Generic_land_3.dds"
+			"gfx/characters/Asia/Portrait_Asia_Generic_land_4.dds"
+			"gfx/characters/Asia/Portrait_Asia_Generic_land_5.dds"
 		}
 	}
 
 	navy = {
 		male = {
-			"gfx/leaders/Asia/Portrait_Asia_Generic_navy_1.dds"
-			"gfx/leaders/Asia/Portrait_Asia_Generic_navy_2.dds"
-			"gfx/leaders/Asia/Portrait_Asia_Generic_navy_3.dds"
+			"gfx/characters/Asia/Portrait_Asia_Generic_navy_1.dds"
+			"gfx/characters/Asia/Portrait_Asia_Generic_navy_2.dds"
+			"gfx/characters/Asia/Portrait_Asia_Generic_navy_3.dds"
 		}
 	}
 
 	political = {
 		traditionalism = {
 			male = {
-				"gfx/leaders/Asia/Portrait_Asia_Generic_1.dds"
+				"gfx/characters/Asia/Portrait_Asia_Generic_1.dds"
 			}
 		}
 		reformism = {
 			male = {
-				"gfx/leaders/Asia/Portrait_Asia_Generic_2.dds"
+				"gfx/characters/Asia/Portrait_Asia_Generic_2.dds"
 			}
 		}
 		imperialism = {
 			male = {
-				"gfx/leaders/Asia/Portrait_Asia_Generic_3.dds"
+				"gfx/characters/Asia/Portrait_Asia_Generic_3.dds"
 			}
 		}
 		fundamentalism = {
 			male = {
-				"gfx/leaders/Asia/Portrait_Asia_Generic_3.dds"
+				"gfx/characters/Asia/Portrait_Asia_Generic_3.dds"
 			}
 		}
 	}
@@ -365,42 +365,42 @@ continent = {
 	name = australia
 	army = {
 		male = {
-			"gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
-			"gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
-			"gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-			"gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
-			"gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
-			"gfx/leaders/Europe/portrait_europe_generic_land_13.dds"
+			"gfx/characters/Europe/Portrait_Europe_Generic_land_1.dds"
+			"gfx/characters/Europe/Portrait_Europe_Generic_land_2.dds"
+			"gfx/characters/Europe/Portrait_Europe_Generic_land_3.dds"
+			"gfx/characters/Europe/Portrait_Europe_Generic_land_4.dds"
+			"gfx/characters/Europe/Portrait_Europe_Generic_land_5.dds"
+			"gfx/characters/Europe/portrait_europe_generic_land_13.dds"
 		}
 	}
 
 	navy = {
 		male = {
-			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds"
-			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds"
-			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_3.dds"
+			"gfx/characters/Europe/Portrait_Europe_Generic_navy_1.dds"
+			"gfx/characters/Europe/Portrait_Europe_Generic_navy_2.dds"
+			"gfx/characters/Europe/Portrait_Europe_Generic_navy_3.dds"
 		}
 	}
 
 	political = {
 		traditionalism = {
 			male = {
-				"gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+				"gfx/characters/Europe/Portrait_Europe_Generic_1.dds"
 			}
 		}
 		reformism = {
 			male = {
-				"gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+				"gfx/characters/Europe/Portrait_Europe_Generic_2.dds"
 			}
 		}
 		imperialism = {
 			male = {
-				"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+				"gfx/characters/Europe/Portrait_Europe_Generic_3.dds"
 			}
 		}
 		fundamentalism = {
 			male = {
-				"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+				"gfx/characters/Europe/Portrait_Europe_Generic_3.dds"
 			}
 		}
 	}
@@ -410,19 +410,19 @@ continent = {
 GER = {
 	army = {
 		male = {
-			"gfx/leaders/GER/Portrait_Germany_Generic_land_1.dds"
-			"gfx/leaders/GER/Portrait_Germany_Generic_land_2.dds"
-			"gfx/leaders/GER/Portrait_Germany_Generic_land_3.dds"
-			"gfx/leaders/GER/Portrait_Germany_Generic_land_4.dds"
-			"gfx/leaders/GER/Portrait_Germany_Generic_land_5.dds"
+			"gfx/characters/GER/Portrait_Germany_Generic_land_1.dds"
+			"gfx/characters/GER/Portrait_Germany_Generic_land_2.dds"
+			"gfx/characters/GER/Portrait_Germany_Generic_land_3.dds"
+			"gfx/characters/GER/Portrait_Germany_Generic_land_4.dds"
+			"gfx/characters/GER/Portrait_Germany_Generic_land_5.dds"
 		}
 	}
 
 	navy = {
 		male = {
-			"gfx/leaders/GER/Portrait_Germany_Generic_navy_1.dds"
-			"gfx/leaders/GER/Portrait_Germany_Generic_navy_2.dds"
-			"gfx/leaders/GER/Portrait_Germany_Generic_navy_3.dds"
+			"gfx/characters/GER/Portrait_Germany_Generic_navy_1.dds"
+			"gfx/characters/GER/Portrait_Germany_Generic_navy_2.dds"
+			"gfx/characters/GER/Portrait_Germany_Generic_navy_3.dds"
 		}
 	}
 }
@@ -430,20 +430,20 @@ GER = {
 ENG = {
 	army = {
 		male = {
-			"gfx/leaders/ENG/Portrait_Britain_Generic_land_1.dds"
-			"gfx/leaders/ENG/Portrait_Britain_Generic_land_2.dds"
-			"gfx/leaders/ENG/Portrait_Britain_Generic_land_3.dds"
-			"gfx/leaders/ENG/Portrait_Britain_Generic_land_4.dds"
-			"gfx/leaders/ENG/Portrait_Britain_Generic_land_5.dds"
-			"gfx/leaders/ENG/Portrait_Britain_Generic_land_6.dds"
+			"gfx/characters/ENG/Portrait_Britain_Generic_land_1.dds"
+			"gfx/characters/ENG/Portrait_Britain_Generic_land_2.dds"
+			"gfx/characters/ENG/Portrait_Britain_Generic_land_3.dds"
+			"gfx/characters/ENG/Portrait_Britain_Generic_land_4.dds"
+			"gfx/characters/ENG/Portrait_Britain_Generic_land_5.dds"
+			"gfx/characters/ENG/Portrait_Britain_Generic_land_6.dds"
 		}
 	}
 
 	navy = {
 		male = {
-			"gfx/leaders/ENG/Portrait_Britain_Generic_navy_1.dds"
-			"gfx/leaders/ENG/Portrait_Britain_Generic_navy_2.dds"
-			"gfx/leaders/ENG/Portrait_Britain_Generic_navy_3.dds"
+			"gfx/characters/ENG/Portrait_Britain_Generic_navy_1.dds"
+			"gfx/characters/ENG/Portrait_Britain_Generic_navy_2.dds"
+			"gfx/characters/ENG/Portrait_Britain_Generic_navy_3.dds"
 		}
 	}
 }
@@ -451,19 +451,19 @@ ENG = {
 FRA = {
 	army = {
 		male = {
-			"gfx/leaders/FRA/Portrait_France_Generic_land_1.dds"
-			"gfx/leaders/FRA/Portrait_France_Generic_land_2.dds"
-			"gfx/leaders/FRA/Portrait_France_Generic_land_3.dds"
-			"gfx/leaders/FRA/Portrait_France_Generic_land_4.dds"
-			"gfx/leaders/FRA/Portrait_France_Generic_land_5.dds"
+			"gfx/characters/FRA/Portrait_France_Generic_land_1.dds"
+			"gfx/characters/FRA/Portrait_France_Generic_land_2.dds"
+			"gfx/characters/FRA/Portrait_France_Generic_land_3.dds"
+			"gfx/characters/FRA/Portrait_France_Generic_land_4.dds"
+			"gfx/characters/FRA/Portrait_France_Generic_land_5.dds"
 		}
 	}
 
 	navy = {
 		male = {
-			"gfx/leaders/FRA/Portrait_France_Generic_navy_1.dds"
-			"gfx/leaders/FRA/Portrait_France_Generic_navy_2.dds"
-			"gfx/leaders/FRA/Portrait_France_Generic_navy_3.dds"
+			"gfx/characters/FRA/Portrait_France_Generic_navy_1.dds"
+			"gfx/characters/FRA/Portrait_France_Generic_navy_2.dds"
+			"gfx/characters/FRA/Portrait_France_Generic_navy_3.dds"
 		}
 	}
 }
@@ -471,18 +471,18 @@ FRA = {
 ITA = {
 	army = {
 		male = {
-			"gfx/leaders/ITA/Portrait_Italy_Generic_land_1.dds"
-			"gfx/leaders/ITA/Portrait_Italy_Generic_land_2.dds"
-			"gfx/leaders/ITA/Portrait_Italy_Generic_land_3.dds"
-			"gfx/leaders/ITA/Portrait_Italy_Generic_land_5.dds"
+			"gfx/characters/ITA/Portrait_Italy_Generic_land_1.dds"
+			"gfx/characters/ITA/Portrait_Italy_Generic_land_2.dds"
+			"gfx/characters/ITA/Portrait_Italy_Generic_land_3.dds"
+			"gfx/characters/ITA/Portrait_Italy_Generic_land_5.dds"
 		}
 	}
 
 	navy = {
 		male = {
-			"gfx/leaders/ITA/Portrait_Italy_Generic_navy_1.dds"
-			"gfx/leaders/ITA/Portrait_Italy_Generic_navy_2.dds"
-			"gfx/leaders/ITA/Portrait_Italy_Generic_navy_3.dds"
+			"gfx/characters/ITA/Portrait_Italy_Generic_navy_1.dds"
+			"gfx/characters/ITA/Portrait_Italy_Generic_navy_2.dds"
+			"gfx/characters/ITA/Portrait_Italy_Generic_navy_3.dds"
 		}
 	}
 }
@@ -490,20 +490,20 @@ ITA = {
 RUS = {
 	army = {
 		male = {
-			"gfx/leaders/SOV/Portrait_Soviet_Generic_land_1.dds"
-			"gfx/leaders/SOV/Portrait_Soviet_Generic_land_2.dds"
-			"gfx/leaders/SOV/Portrait_Soviet_Generic_land_3.dds"
-			"gfx/leaders/SOV/Portrait_Soviet_Generic_land_4.dds"
-			"gfx/leaders/SOV/Portrait_Soviet_Generic_land_5.dds"
-			"gfx/leaders/SOV/portrait_soviet_pdxcon_magic_winner.dds"
+			"gfx/characters/SOV/Portrait_Soviet_Generic_land_1.dds"
+			"gfx/characters/SOV/Portrait_Soviet_Generic_land_2.dds"
+			"gfx/characters/SOV/Portrait_Soviet_Generic_land_3.dds"
+			"gfx/characters/SOV/Portrait_Soviet_Generic_land_4.dds"
+			"gfx/characters/SOV/Portrait_Soviet_Generic_land_5.dds"
+			"gfx/characters/SOV/portrait_soviet_pdxcon_magic_winner.dds"
 		}
 	}
 
 	navy = {
 		male = {
-			"gfx/leaders/SOV/Portrait_Soviet_Generic_navy_1.dds"
-			"gfx/leaders/SOV/Portrait_Soviet_Generic_navy_2.dds"
-			"gfx/leaders/SOV/Portrait_Soviet_Generic_navy_3.dds"
+			"gfx/characters/SOV/Portrait_Soviet_Generic_navy_1.dds"
+			"gfx/characters/SOV/Portrait_Soviet_Generic_navy_2.dds"
+			"gfx/characters/SOV/Portrait_Soviet_Generic_navy_3.dds"
 		}
 	}
 }
@@ -511,19 +511,19 @@ RUS = {
 USA = {
 	army = {
 		male = {
-			"gfx/leaders/USA/Portrait_USA_Generic_land_1.dds"
-			"gfx/leaders/USA/Portrait_USA_Generic_land_2.dds"
-			"gfx/leaders/USA/Portrait_USA_Generic_land_3.dds"
-			"gfx/leaders/USA/Portrait_USA_Generic_land_4.dds"
-			"gfx/leaders/USA/Portrait_USA_Generic_land_5.dds"
+			"gfx/characters/USA/Portrait_USA_Generic_land_1.dds"
+			"gfx/characters/USA/Portrait_USA_Generic_land_2.dds"
+			"gfx/characters/USA/Portrait_USA_Generic_land_3.dds"
+			"gfx/characters/USA/Portrait_USA_Generic_land_4.dds"
+			"gfx/characters/USA/Portrait_USA_Generic_land_5.dds"
 		}
 	}
 
 	navy = {
 		male = {
-			"gfx/leaders/USA/Portrait_USA_Generic_navy_1.dds"
-			"gfx/leaders/USA/Portrait_USA_Generic_navy_2.dds"
-			"gfx/leaders/USA/Portrait_USA_Generic_navy_3.dds"
+			"gfx/characters/USA/Portrait_USA_Generic_navy_1.dds"
+			"gfx/characters/USA/Portrait_USA_Generic_navy_2.dds"
+			"gfx/characters/USA/Portrait_USA_Generic_navy_3.dds"
 		}
 	}
 }
@@ -531,20 +531,20 @@ USA = {
 SAF = {
 	army = {
 		male = {
-			"gfx/leaders/ENG/Portrait_Britain_Generic_land_1.dds"
-			"gfx/leaders/ENG/Portrait_Britain_Generic_land_2.dds"
-			"gfx/leaders/ENG/Portrait_Britain_Generic_land_3.dds"
-			"gfx/leaders/ENG/Portrait_Britain_Generic_land_4.dds"
-			"gfx/leaders/ENG/Portrait_Britain_Generic_land_5.dds"
-			"gfx/leaders/ENG/Portrait_Britain_Generic_land_6.dds"
+			"gfx/characters/ENG/Portrait_Britain_Generic_land_1.dds"
+			"gfx/characters/ENG/Portrait_Britain_Generic_land_2.dds"
+			"gfx/characters/ENG/Portrait_Britain_Generic_land_3.dds"
+			"gfx/characters/ENG/Portrait_Britain_Generic_land_4.dds"
+			"gfx/characters/ENG/Portrait_Britain_Generic_land_5.dds"
+			"gfx/characters/ENG/Portrait_Britain_Generic_land_6.dds"
 		}
 	}
 
 	navy = {
 		male = {
-			"gfx/leaders/ENG/Portrait_Britain_Generic_navy_1.dds"
-			"gfx/leaders/ENG/Portrait_Britain_Generic_navy_2.dds"
-			"gfx/leaders/ENG/Portrait_Britain_Generic_navy_3.dds"
+			"gfx/characters/ENG/Portrait_Britain_Generic_navy_1.dds"
+			"gfx/characters/ENG/Portrait_Britain_Generic_navy_2.dds"
+			"gfx/characters/ENG/Portrait_Britain_Generic_navy_3.dds"
 		}
 	}
 }
@@ -552,19 +552,19 @@ SAF = {
 SPR = {
 	army = {
 		male = {
-			"gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
-			"gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
-			"gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-			"gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
-			"gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+			"gfx/characters/Europe/Portrait_Europe_Generic_land_1.dds"
+			"gfx/characters/Europe/Portrait_Europe_Generic_land_2.dds"
+			"gfx/characters/Europe/Portrait_Europe_Generic_land_3.dds"
+			"gfx/characters/Europe/Portrait_Europe_Generic_land_4.dds"
+			"gfx/characters/Europe/Portrait_Europe_Generic_land_5.dds"
 		}
 	}
 
 	navy = {
 		male = {
-			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds"
-			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds"
-			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_3.dds"
+			"gfx/characters/Europe/Portrait_Europe_Generic_navy_1.dds"
+			"gfx/characters/Europe/Portrait_Europe_Generic_navy_2.dds"
+			"gfx/characters/Europe/Portrait_Europe_Generic_navy_3.dds"
 		}
 	}
 }
@@ -572,20 +572,20 @@ SPR = {
 HOL = {
 	army = {
 		male = {
-			"gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
-			"gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
-			"gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-			"gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
-			"gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
-			"gfx/leaders/Europe/portrait_europe_generic_land_13.dds"
+			"gfx/characters/Europe/Portrait_Europe_Generic_land_1.dds"
+			"gfx/characters/Europe/Portrait_Europe_Generic_land_2.dds"
+			"gfx/characters/Europe/Portrait_Europe_Generic_land_3.dds"
+			"gfx/characters/Europe/Portrait_Europe_Generic_land_4.dds"
+			"gfx/characters/Europe/Portrait_Europe_Generic_land_5.dds"
+			"gfx/characters/Europe/portrait_europe_generic_land_13.dds"
 		}
 	}
 
 	navy = {
 		male = {
-			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds"
-			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds"
-			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_3.dds"
+			"gfx/characters/Europe/Portrait_Europe_Generic_navy_1.dds"
+			"gfx/characters/Europe/Portrait_Europe_Generic_navy_2.dds"
+			"gfx/characters/Europe/Portrait_Europe_Generic_navy_3.dds"
 		}
 	}
 
@@ -594,19 +594,19 @@ HOL = {
 TUR = {
 	army = {
 		male = {
-			"gfx/leaders/South America/Portrait_South_America_Generic_land_1.dds"
-			"gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"
-			"gfx/leaders/South America/Portrait_South_America_Generic_land_3.dds"
-			"gfx/leaders/South America/Portrait_South_America_Generic_land_4.dds"
-			"gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
+			"gfx/characters/South America/Portrait_South_America_Generic_land_1.dds"
+			"gfx/characters/South America/Portrait_South_America_Generic_land_2.dds"
+			"gfx/characters/South America/Portrait_South_America_Generic_land_3.dds"
+			"gfx/characters/South America/Portrait_South_America_Generic_land_4.dds"
+			"gfx/characters/South America/Portrait_South_America_Generic_land_5.dds"
 		}
 	}
 
 	navy = {
 		male = {
-			"gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds"
-			"gfx/leaders/South America/Portrait_South_America_Generic_navy_2.dds"
-			"gfx/leaders/South America/Portrait_South_America_Generic_navy_3.dds"
+			"gfx/characters/South America/Portrait_South_America_Generic_navy_1.dds"
+			"gfx/characters/South America/Portrait_South_America_Generic_navy_2.dds"
+			"gfx/characters/South America/Portrait_South_America_Generic_navy_3.dds"
 		}
 	}
 }
@@ -614,50 +614,50 @@ TUR = {
 BHR = {
 	army = {
 		male = {
-			"gfx/leaders/Africa/Portrait_Africa_Generic_land_1.dds"
-			"gfx/leaders/Africa/Portrait_Africa_Generic_land_2.dds"
-			"gfx/leaders/Africa/Portrait_Africa_Generic_land_3.dds"
-			"gfx/leaders/SAF/Portrait_South_Africa_Army_Generic.dds"
-			"gfx/leaders/SAF/Portrait_South_Africa_Army_Generic_2.dds"
+			"gfx/characters/Africa/Portrait_Africa_Generic_land_1.dds"
+			"gfx/characters/Africa/Portrait_Africa_Generic_land_2.dds"
+			"gfx/characters/Africa/Portrait_Africa_Generic_land_3.dds"
+			"gfx/characters/SAF/Portrait_South_Africa_Army_Generic.dds"
+			"gfx/characters/SAF/Portrait_South_Africa_Army_Generic_2.dds"
 		}
 	}
 
 	navy = {
 		male = {
-			"gfx/leaders/Africa/Portrait_Africa_Generic_navy_1.dds"
-			"gfx/leaders/Africa/Portrait_Africa_Generic_navy_2.dds"
-			"gfx/leaders/Africa/Portrait_Africa_Generic_navy_3.dds"
+			"gfx/characters/Africa/Portrait_Africa_Generic_navy_1.dds"
+			"gfx/characters/Africa/Portrait_Africa_Generic_navy_2.dds"
+			"gfx/characters/Africa/Portrait_Africa_Generic_navy_3.dds"
 		}
 	}
 
 	political = {
 		traditionalism = {
 				male = {
-					"gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
-					"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
-					"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic.dds"
+					"gfx/characters/Africa/Portrait_Africa_Generic_1.dds"
+					"gfx/characters/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
+					"gfx/characters/SAF/Portrait_South_Africa_Political_Leader_Generic.dds"
 			}
 		}
 		reformism = {
 				male = {
-					"gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
-					"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
+					"gfx/characters/Africa/Portrait_Africa_Generic_2.dds"
+					"gfx/characters/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
 			}
 		}
 		imperialism = {
 				male = {
-					"gfx/leaders/Africa/Portrait_Africa_Generic_3.dds"
-					"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic.dds"
-					"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
-					"gfx/leaders/SAF/Portrait_South_Africa_Army_Generic.dds"
-					"gfx/leaders/SAF/Portrait_South_Africa_Army_Generic_2.dds"
+					"gfx/characters/Africa/Portrait_Africa_Generic_3.dds"
+					"gfx/characters/SAF/Portrait_South_Africa_Political_Leader_Generic.dds"
+					"gfx/characters/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
+					"gfx/characters/SAF/Portrait_South_Africa_Army_Generic.dds"
+					"gfx/characters/SAF/Portrait_South_Africa_Army_Generic_2.dds"
 			}
 		}
 		fundamentalism = {
 				male = {
-					"gfx/leaders/Africa/Portrait_Africa_Generic_3.dds"
-					"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic.dds"
-					"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
+					"gfx/characters/Africa/Portrait_Africa_Generic_3.dds"
+					"gfx/characters/SAF/Portrait_South_Africa_Political_Leader_Generic.dds"
+					"gfx/characters/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
 			}
 		}
 	}

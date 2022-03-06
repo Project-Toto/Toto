@@ -287,7 +287,7 @@
   SIE = "countries/Sierra Leone.txt"
   SOS = "countries/Soso.txt"
   TOU = "countries/Toucouleur.txt"
-  WAS = "countries/Wassoulou.txt"
+  #WAS = "countries/Wassoulou.txt"
 
  # Sassandra
   # graphical_culture = african_gfx

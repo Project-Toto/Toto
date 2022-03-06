@@ -1,0 +1,125 @@
+spriteTypes = {
+  # Austria
+    spriteType = {
+  		name = "GFX_Portrait_AUS_Franz_Joseph_I_Habsburg"
+  		texturefile = "gfx/characters/AUS/Portrait_AUS_Franz_Joseph_I_Habsburg.png"
+  	}
+  	spriteType = {
+  		name = "GFX_Portrait_AUS_Karls_I_Habsburg"
+  		texturefile = "gfx/characters/AUS/Portrait_AUS_Karls_I_Habsburg.png"
+  	}
+  	spriteType = {
+  		name = "GFX_Portrait_AUS_Franz_Ferdinand_I_Habsburg"
+  		texturefile = "gfx/characters/AUS/Portrait_AUS_Franz_Ferdinand_I_Habsburg.png"
+  	}
+  # Belgium
+    spriteType = {
+  		name = "GFX_Portrait_BEL_Leopold_I_Saxe_Colberg"
+  		texturefile = "gfx/characters/BEL/Portrait_BEL_Leopold_I_Saxe_Colberg.png"
+  	}
+  	spriteType = {
+  		name = "GFX_Portrait_BEL_Leopold_II_Saxe_Colberg"
+  		texturefile = "gfx/characters/BEL/Portrait_BEL_Leopold_II_Saxe_Colberg.png"
+  	}
+  	spriteType = {
+  		name = "Portrait_BEL_Albert_I_Saxe_Colberg"
+  		texturefile = "gfx/characters/BEL/Portrait_BEL_Albert_I_Saxe_Colberg.png"
+  	}
+  # Brazil
+	  spriteType = {
+  		name = "GFX_Portrait_BRA_Pedro_II_Braganza"
+  		texturefile = "gfx/characters/BRA/Portrait_BRA_Pedro_II_Braganza.png"
+  	}
+  	spriteType = {
+  		name = "GFX_Portrait_BRA_Deodoro_da_Fonseca"
+  		texturefile = "gfx/characters/BRA/Portrait_BRA_Deodoro_da_Fonseca.png"
+  	}
+  # CSA
+    spriteType = {
+  		name = "GFX_Portrait_CSA_Jefferson_Davis"
+  		texturefile = "gfx/characters/CSA/Portrait_CSA_Jefferson_Davis.png"
+  	}
+  	spriteType = {
+  		name = "GFX_Portrait_CSA_Robert_Lee"
+  		texturefile = "gfx/characters/CSA/Portrait_CSA_Robert_Lee.png"
+  	}
+  # DEN
+    spriteType = {
+  		name = "GFX_Portrait_DEN_Frederick_VII_Oldenburg"
+  		texturefile = "gfx/characters/DEN/Portrait_DEN_Frederick_VII_Oldenburg.png"
+  	}
+  	spriteType = {
+  		name = "GFX_Portrait_DEN_Christian_IX_Glucksburg"
+  		texturefile = "gfx/characters/DEN/Portrait_DEN_Christian_IX_Glucksburg.png"
+  	}
+  	spriteType = {
+  		name = "GFX_Portrait_DEN_Frederick_VIII_Glucksburg"
+  		texturefile = "gfx/characters/DEN/Portrait_DEN_Frederick_VIII_Glucksburg.png"
+  	}
+  	spriteType = {
+  		name = "GFX_Portrait_DEN_Christian_X_Glucksburg"
+  		texturefile = "gfx/characters/DEN/Portrait_DEN_Christian_X_Glucksburg.png"
+  	}
+  	spriteType = {
+  		name = "GFX_Portrait_DEN_Carl_Christian_Hall"
+  		texturefile = "gfx/characters/DEN/Portrait_DEN_Carl_Christian_Hall.png"
+  	}
+  	spriteType = {
+  		name = "GFX_Portrait_DEN_Eduard_Rotwitt"
+  		texturefile = "gfx/characters/DEN/Portrait_DEN_Eduard_Rotwitt.png"
+  	}
+  	spriteType = {
+  		name = "GFX_Portrait_DEN_Christen_Andreas_Fonnesbech"
+  		texturefile = "gfx/characters/DEN/Portrait_DEN_Christen_Andreas_Fonnesbech.png"
+  	}
+  	spriteType = {
+  		name = "GFX_Portrait_DEN_Christian_Albrecht_Bluhme"
+  		texturefile = "gfx/characters/DEN/Portrait_DEN_Christian_Albrecht_Bluhme.png"
+  	}
+  	spriteType = {
+  		name = "GFX_Portrait_DEN_Christian_Emil_Frijs"
+  		texturefile = "gfx/characters/DEN/Portrait_DEN_Christian_Emil_Frijs.png"
+  	}
+  	spriteType = {
+  		name = "GFX_Portrait_DEN_Ditlev_Gothard_Monrad"
+  		texturefile = "gfx/characters/DEN/Portrait_DEN_Ditlev_Gothard_Monrad.png"
+  	}
+  	spriteType = {
+  		name = "GFX_Portrait_DEN_Ludvig_Holstein_Holsteinborg"
+  		texturefile = "gfx/characters/DEN/Portrait_DEN_Ludvig_Holstein_Holsteinborg.png"
+    }
+  # French Algeria
+    spriteType = {
+  		name = "GFX_Portrait_EPD_Aimable_Pelissier"
+  		texturefile = "gfx/characters/EPD/Portrait_EPD_Aimable_Pelissier.png"
+    }
+    spriteType = {
+  		name = "GFX_Portrait_EPD_Edmond_Charles_de_Martimprey"
+  		texturefile = "gfx/characters/EPD/Portrait_EPD_Edmond_Charles_de_Martimprey.png"
+    }
+    spriteType = {
+  		name = "GFX_Portrait_EPD_Jacques_Louis_Randon"
+  		texturefile = "gfx/characters/EPD/Portrait_EPD_Jacques_Louis_Randon.png"
+    }
+    spriteType = {
+  		name = "GFX_Portrait_EPD_Patrice_de_Mac_Mahon"
+  		texturefile = "gfx/characters/EPD/Portrait_EPD_Patrice_de_Mac_Mahon.png"
+    }
+    spriteType = {
+  		name = "GFX_Portrait_EPD_Philippe_Antoine_Guesviller"
+  		texturefile = "gfx/characters/EPD/Portrait_EPD_Philippe_Antoine_Guesviller.png"
+    }
+  # USA
+  	spriteType = {
+  		name = "GFX_Portrait_USA_James_Buchanan"
+  		texturefile = "gfx/characters/USA/Portrait_USA_James_Buchanan.dds"
+  	}
+  	spriteType = {
+  		name = "GFX_Portrait_USA_Stephen_Douglas"
+  		texturefile = "gfx/characters/USA/Portrait_USA_Stephen_Douglas.dds"
+  	}
+  	spriteType = {
+  		name = "GFX_Portrait_USA_Abraham_Lincoln"
+  		texturefile = "gfx/characters/USA/Portrait_USA_Abraham_Lincoln.dds"
+  	}
+}

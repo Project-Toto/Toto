@@ -51,3 +51,12 @@
 MOT = {
 	variable = generic_operation_target
 }
+
+SOV = {
+  base = 0
+  fallback = RUS
+}
+JAP = {
+  base = 0
+  fallback = TES
+}

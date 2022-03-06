@@ -1,0 +1,41 @@
+spriteTypes = {
+  # GENERIC
+
+  # Aro
+    spriteType = {
+      name = "GFX_Portrait_ARO_The_Okpankpo"
+      texturefile = "gfx/characters/ARO/Portrait_ARO_The_Okpankpo.png"
+    }
+  # Ashanti
+    spriteType = {
+      name = "GFX_Portrait_ASH_Kwaku_Dua_I_Panyin"
+      texturefile = "gfx/characters/ASH/Portrait_ASH_Kwaku_Dua_I_Panyin.png"
+    }
+  # Buganda
+    spriteType = {
+      name = "GFX_Portrait_BUG_Muteesa_I"
+      texturefile = "gfx/characters/BUG/Portrait_BUG_Muteesa_I.png"
+    }
+  # Equatoria
+    spriteType = {
+      name = "GFX_Portrait_EQA_Emin_Pacha"
+      texturefile = "gfx/characters/EQA/Portrait_EQA_Emin_Pacha.png"
+    }
+  # Ethiopia
+    spriteType = {
+      name = "GFX_Portrait_ETH_Tekle_Giyorgis_II_Solomon"
+      texturefile = "gfx/characters/ETH/Portrait_ETH_Tekle_Giyorgis_II_Solomon.png"
+    }
+    spriteType = {
+      name = "GFX_Portrait_ETH_Tewodros_II_Solomon"
+      texturefile = "gfx/characters/ETH/Portrait_ETH_Tewodros_II_Solomon.png"
+    }
+    spriteType = {
+      name = "GFX_Portrait_ETH_Yohannes_IV_Solomon"
+      texturefile = "gfx/characters/ETH/Portrait_ETH_Yohannes_IV_Solomon.png"
+    }
+    spriteType = {
+      name = "GFX_Portrait_ETH_Ras_Alula"
+      texturefile = "gfx/characters/ETH/Portrait_ETH_Ras_Alula.png"
+    }
+}
