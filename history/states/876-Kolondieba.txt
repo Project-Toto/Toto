@@ -1,0 +1,13 @@
+state={
+	id=876
+	name="STATE_876"
+	provinces={
+		241 860 3509 3964 4420 4939 6524 8819 8884 8896 12302 
+	}
+	history={
+		owner=KDG
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+}

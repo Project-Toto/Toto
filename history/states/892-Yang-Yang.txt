@@ -1,0 +1,15 @@
+
+state={
+	id=892
+	name="STATE_892"
+	provinces={
+		339 495 649 3375 6129 8415 8416 
+	}
+	history = {
+		owner = CAY
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

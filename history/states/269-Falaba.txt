@@ -1,13 +1,18 @@
+
 state={
 	id=269
 	name="STATE_269"
-	provinces={
-		3478 3960 3967 4754 5099 5181 6422 6681 7082 9066 9087 9125 9134 9144 9166
-	}
+
 	history={
 		owner = MNH
+
+	}
+
+	provinces={
+		3478 3967 5181 6681 7082 9125 9134 9144 9166 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
 	state_category=town
+	local_supplies=0.000
 }

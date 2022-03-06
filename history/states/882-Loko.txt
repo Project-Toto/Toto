@@ -1,0 +1,14 @@
+state={
+	id=882
+	name="STATE_882"
+	provinces={
+		2290 4332 4436 4513 6867 9049 
+	}
+	history={
+		owner = KOY
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

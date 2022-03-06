@@ -1,8 +1,8 @@
 state={
-	id=312
-	name="STATE_312"
+	id=890
+	name="STATE_890"
 	provinces={
-		1122 1402 1497 2295 2362 6064 6163 6401 6825 9288 9289 9325 9327 9336 9371
+		1058 2263 4628 9310 9328 9337 
 	}
 	history={
 		owner = ASH
@@ -10,4 +10,5 @@ state={
 	manpower=1
 	buildings_max_level_factor=1.000
 	state_category=town
+	local_supplies=0.000
 }

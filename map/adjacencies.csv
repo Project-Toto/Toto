@@ -146,6 +146,11 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 12702;12704;land;;-1;-1;-1;-1;;Sahara
 12703;3659;land;;-1;-1;-1;-1;;Sahara
 12330;12331;sea;;-1;-1;-1;-1;BUSSA_RAPIDS;Niger
+4174;3512;sea;11405;-1;-1;-1;-1;;Sassandra
+3046;9385;sea;11405;-1;-1;-1;-1;;Sassandra
+8644;5875;sea;12637;-1;-1;-1;-1;;Tschad
+8578;5224;sea;12638;-1;-1;-1;-1;;Tschad
+7051;3112;sea;12335;-1;-1;-1;-1;;Niger
 12760;12762;sea;;-1;-1;-1;-1;;minimap
 12768;12769;sea;;-1;-1;-1;-1;;minimap
 12786;12769;sea;;-1;-1;-1;-1;;minimap

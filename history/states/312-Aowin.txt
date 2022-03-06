@@ -1,17 +1,18 @@
 
 state={
-	id=226
-	name="STATE_226"
+	id=312
+	name="STATE_312"
 
 	history={
-		owner = MSN
+		owner = ASH
 
 	}
 
 	provinces={
-		1434 3348 5171 5194 5608 7144 8528 8611 
+		1122 1402 6064 6825 9288 9289 9325 9327 9336 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
 	state_category=town
+	local_supplies=0.000
 }

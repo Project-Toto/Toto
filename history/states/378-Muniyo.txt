@@ -2,13 +2,17 @@
 state={
 	id=378
 	name="STATE_378"
-	provinces={
-		1130 3959 4900 6633 8556 8577 8601
-	}
+
 	history={
-		owner=MYO
+		owner = MYO
+
+	}
+
+	provinces={
+		1130 3959 4900 5841 6633 8556 8577 8601 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
 	state_category=town
+	local_supplies=0.000
 }

@@ -1,0 +1,14 @@
+state={
+	id=891
+	name="STATE_891"
+	provinces={
+		2231 3682 7276 8638 
+	}
+	history = {
+		owner = KHS
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

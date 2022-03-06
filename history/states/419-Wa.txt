@@ -1,13 +1,18 @@
+
 state={
 	id=419
 	name="STATE_419"
-	provinces={
-		2220 2564 3183 6519 8893 8942 8951 8989 9026
-	}
+
 	history={
-		owner=WAA
+		owner = WAA
+
+	}
+
+	provinces={
+		2482 3415 6809 8917 8960 8995 9031 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
 	state_category=town
+	local_supplies=0.000
 }

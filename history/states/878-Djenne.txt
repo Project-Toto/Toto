@@ -1,0 +1,13 @@
+state={
+	id=878
+	name="STATE_878"
+	provinces={
+		2110 3594 3650 4387 4475 7274 8545 
+	}
+	history={
+		owner=BAM
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,16 +1,16 @@
 
 state={
-	id=220
-	name="STATE_220"
+	id=233
+	name="STATE_233"
 
 	history={
-		owner = BAM
-
+		owner = KNT
 	}
 
 	provinces={
-		241 860 1626 3509 3964 4420 4939 5555 6524 8704 8748 8779 8819 8884 8896 12302 
+		612 1104 1533 3593 4452 4654 4763 5112 7066 8178 8293 12329 
 	}
+	impassable=yes
 	manpower=1
 	buildings_max_level_factor=1.000
 	state_category=town

@@ -5,7 +5,7 @@ state={
 		1708 1840 4447 5815 5988 8787 8858 8871
 	}
 	history={
-		owner=FRA
+		owner=GNA
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

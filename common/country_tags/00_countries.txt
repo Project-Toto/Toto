@@ -205,6 +205,7 @@
   KKR = "countries/Kokoro.txt"
   MLI = "countries/Mali.txt"
   MSN = "countries/Massina.txt"
+  TMB = "countries/Tombo.txt"
 
  # Niger
    # graphical_culture = african_gfx
@@ -373,7 +374,7 @@
   SRA = "countries/Sara-Kaba.txt"
   ZEM = "countries/Zemio.txt"
 
- # Kameroon
+ # Equatoria
    # graphical_culture = african_gfx
    # graphical_culture_2d = african_2d
   BAG = "countries/Bagirmi.txt"

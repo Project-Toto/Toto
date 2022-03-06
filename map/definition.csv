@@ -12340,9 +12340,9 @@
 12339;4;3;239;sea;false;ocean;0
 12340;4;3;240;sea;false;ocean;0
 12341;4;3;241;sea;false;ocean;0
-12342;4;3;242;sea;false;ocean;0
-12343;4;3;243;sea;false;ocean;0
-12344;4;3;244;sea;false;ocean;0
+12342;4;3;242;land;false;jungle;1
+12343;4;3;243;land;false;jungle;1
+12344;4;3;244;land;false;jungle;1
 12345;4;3;245;sea;false;ocean;0
 12346;4;3;246;sea;false;ocean;0
 12347;4;3;247;land;true;forest;1

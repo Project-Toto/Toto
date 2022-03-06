@@ -2,13 +2,17 @@
 state={
 	id=222
 	name="STATE_222"
-	provinces={
-		2110 2412 2910 3594 3650 4387 4475 7274 8545 8619 8639 8661
-	}
-	state_category=town
+
 	history={
-		owner=BAM
+		owner = BAM
+
+	}
+
+	provinces={
+		2412 2910 8619 8639 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
 }

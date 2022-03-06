@@ -1,15 +1,15 @@
 
 state={
-	id=233
-	name="STATE_233"
+	id=880
+	name="STATE_880"
 
 	history={
-		owner = KNT
+		owner = KRU
 
 	}
 
 	provinces={
-		612 1104 1533 3593 4452 4654 4763 5112 7066 8178 8293 12329 
+		876 1599 1908 1920 6046 6236 6648 9273 9315 9334 9352 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

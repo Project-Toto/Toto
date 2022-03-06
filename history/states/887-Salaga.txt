@@ -1,0 +1,14 @@
+state={
+	id=887
+	name="STATE_887"
+	provinces={
+		1812 9128 9151 
+	}
+	history={
+		owner = ASH
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

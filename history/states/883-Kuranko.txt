@@ -1,13 +1,14 @@
 state={
-	id=311
-	name="STATE_311"
+	id=883
+	name="STATE_883"
 	provinces={
-		572 2024 3315 4562 4941 5914 7196 9143 9161 9184 9205 9206
+		3960 4754 5099 6422 9066 9087 
 	}
 	history={
-		owner = ASH
+		owner = KOY
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
 	state_category=town
+	local_supplies=0.000
 }

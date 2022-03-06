@@ -1,13 +1,18 @@
+
 state={
 	id=198
 	name="STATE_198"
-	provinces={
-		3633 4817 5454 5641 6714 9386 9396
-	}
-	state_category=town
+
 	history={
-		owner=GDC
+		owner = GDC
+
+	}
+
+	provinces={
+		3633 4817 5454 5641 6714 9386 9396 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
 }

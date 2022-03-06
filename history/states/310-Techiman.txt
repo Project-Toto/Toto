@@ -1,17 +1,18 @@
 
 state={
-	id=195
-	name="STATE_195"
+	id=310
+	name="STATE_310"
 
 	history={
-		owner = DGB
+		owner = ASH
 
 	}
 
 	provinces={
-		1668 1812 2109 3849 6066 7046 9035 9063 9100
+		463 512 1316 1667 3303 3894 9194 9233 9242 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
 	state_category=town
+	local_supplies=0.000
 }

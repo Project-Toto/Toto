@@ -1,0 +1,14 @@
+state={
+	id=885
+	name="STATE_885"
+	provinces={
+		2220 2564 3183 6519 8893 8951 8989 9026 
+	}
+	history={
+		owner = WAA
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

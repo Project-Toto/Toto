@@ -1,0 +1,14 @@
+
+state={
+	id=877
+	name="STATE_877"
+	provinces={
+		1146 2838 4394 4801 5775 6541 8784 8799 8845 
+	}
+	history={
+		owner=KDG
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+}

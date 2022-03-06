@@ -1,0 +1,13 @@
+state={
+	id=879
+	name="STATE_879"
+	provinces={
+		1583 2381 5907 8469 8470 12300 
+	}
+	history={
+		owner=MSN
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+}

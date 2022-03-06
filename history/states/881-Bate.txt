@@ -1,0 +1,13 @@
+state={
+	id=881
+	name="STATE_881"
+	provinces={
+		377 865 3142 7032 8760 8808 8909 
+	}
+	history={
+		owner=BTE
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+}
