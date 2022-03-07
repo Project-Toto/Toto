@@ -138,7 +138,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_HEALTH_POL_level_0_text"
 					position = {x=-9 y=7}
-					font = "bombardier_16_black"
+					font = "hoi_16"
 					text = "policy_healthcare_temp_0"
 					maxWidth = 180
 					maxHeight = 23
@@ -181,7 +181,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_HEALTH_POL_level_1_text"
 					position = {x=-9 y=7}
-					font = "bombardier_16_black"
+					font = "hoi_16"
 					text = "policy_healthcare_temp_1"
 					maxWidth = 180
 					maxHeight = 23
@@ -224,7 +224,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_HEALTH_POL_level_2_text"
 					position = {x=-9 y=7}
-					font = "bombardier_16_black"
+					font = "hoi_16"
 					text = "policy_healthcare_temp_2"
 					maxWidth = 180
 					maxHeight = 23
@@ -267,7 +267,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_HEALTH_POL_level_3_text"
 					position = {x=-9 y=7}
-					font = "bombardier_16_black"
+					font = "hoi_16"
 					text = "policy_healthcare_temp_3"
 					maxWidth = 180
 					maxHeight = 23
@@ -310,7 +310,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_HEALTH_POL_level_4_text"
 					position = {x=-9 y=7}
-					font = "bombardier_16_black"
+					font = "hoi_16"
 					text = "policy_healthcare_temp_4"
 					maxWidth = 180
 					maxHeight = 23
@@ -353,7 +353,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_HEALTH_POL_level_5_text"
 					position = {x=-9 y=7}
-					font = "bombardier_16_black"
+					font = "hoi_16"
 					text = "policy_healthcare_temp_5"
 					maxWidth = 180
 					maxHeight = 23
@@ -490,7 +490,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_RAC_POL_level_0_text"
 					position = {x=-9 y=7}
-					font = "bombardier_16_black"
+					font = "hoi_16"
 					text = "policy_minorities_temp_0"
 					maxWidth = 180
 					maxHeight = 23
@@ -532,7 +532,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_RAC_POL_level_1_text"
 					position = {x=-9 y=7}
-					font = "bombardier_16_black"
+					font = "hoi_16"
 					text = "policy_minorities_temp_1"
 					maxWidth = 180
 					maxHeight = 23
@@ -574,7 +574,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_RAC_POL_level_2_text"
 					position = {x=-9 y=7}
-					font = "bombardier_16_black"
+					font = "hoi_16"
 					text = "policy_minorities_temp_2"
 					maxWidth = 180
 					maxHeight = 23
@@ -616,7 +616,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_RAC_POL_level_3_text"
 					position = {x=-9 y=7}
-					font = "bombardier_16_black"
+					font = "hoi_16"
 					text = "policy_minorities_temp_3"
 					maxWidth = 180
 					maxHeight = 23
@@ -658,7 +658,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_RAC_POL_level_3a_text"
 					position = {x=-9 y=7}
-					font = "bombardier_16_black"
+					font = "hoi_16"
 					text = "policy_minorities_temp_3a"
 					maxWidth = 180
 					maxHeight = 23
@@ -778,7 +778,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_SAGA_POL_level_0_text"
 					position = {x=-9 y=7}
-					font = "bombardier_16_black"
+					font = "hoi_16"
 					text = "policy_saga_temp_0"
 					maxWidth = 180
 					maxHeight = 23
@@ -820,7 +820,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_SAGA_POL_level_1_text"
 					position = {x=-9 y=7}
-					font = "bombardier_16_black"
+					font = "hoi_16"
 					text = "policy_saga_temp_1"
 					maxWidth = 180
 					maxHeight = 23
@@ -862,7 +862,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_SAGA_POL_level_2_text"
 					position = {x=-9 y=7}
-					font = "bombardier_16_black"
+					font = "hoi_16"
 					text = "policy_saga_temp_2"
 					maxWidth = 180
 					maxHeight = 23
@@ -904,7 +904,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_SAGA_POL_level_4_text"
 					position = {x=-9 y=7}
-					font = "bombardier_16_black"
+					font = "hoi_16"
 					text = "policy_saga_temp_4"
 					maxWidth = 180
 					maxHeight = 23
@@ -946,7 +946,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_SAGA_POL_level_4a_text"
 					position = {x=-9 y=7}
-					font = "bombardier_16_black"
+					font = "hoi_16"
 					text = "policy_saga_temp_4a"
 					maxWidth = 180
 					maxHeight = 23
@@ -1059,7 +1059,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_WOM_POL_level_0_text"
 					position = {x=-9 y=7}
-					font = "bombardier_16_black"
+					font = "hoi_16"
 					text = "policy_women_temp_0"
 					maxWidth = 180
 					maxHeight = 23
@@ -1101,7 +1101,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_WOM_POL_level_1_text"
 					position = {x=-9 y=7}
-					font = "bombardier_16_black"
+					font = "hoi_16"
 					text = "policy_women_temp_1"
 					maxWidth = 180
 					maxHeight = 23
@@ -1143,7 +1143,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_WOM_POL_level_2_text"
 					position = {x=-9 y=7}
-					font = "bombardier_16_black"
+					font = "hoi_16"
 					text = "policy_women_temp_2"
 					maxWidth = 180
 					maxHeight = 23
@@ -1185,7 +1185,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_WOM_POL_level_3_text"
 					position = {x=-9 y=7}
-					font = "bombardier_16_black"
+					font = "hoi_16"
 					text = "policy_women_temp_3"
 					maxWidth = 180
 					maxHeight = 23
@@ -1227,7 +1227,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_WOM_POL_level_4_text"
 					position = {x=-9 y=7}
-					font = "bombardier_16_black"
+					font = "hoi_16"
 					text = "policy_women_temp_4"
 					maxWidth = 180
 					maxHeight = 23
@@ -1269,7 +1269,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_WOM_POL_level_4a_text"
 					position = {x=-9 y=7}
-					font = "bombardier_16_black"
+					font = "hoi_16"
 					text = "policy_women_temp_4a"
 					maxWidth = 180
 					maxHeight = 23
@@ -1379,7 +1379,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_MEDIA_POL_level_0_text"
 					position = {x=-9 y=7}
-					font = "bombardier_16_black"
+					font = "hoi_16"
 					text = "policy_media_temp_0"
 					maxWidth = 180
 					maxHeight = 23
@@ -1421,7 +1421,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_MEDIA_POL_level_1_text"
 					position = {x=-9 y=7}
-					font = "bombardier_16_black"
+					font = "hoi_16"
 					text = "policy_media_temp_1"
 					maxWidth = 180
 					maxHeight = 23
@@ -1463,7 +1463,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_MEDIA_POL_level_2_text"
 					position = {x=-9 y=7}
-					font = "bombardier_16_black"
+					font = "hoi_16"
 					text = "policy_media_temp_2"
 					maxWidth = 180
 					maxHeight = 23
@@ -1505,7 +1505,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_MEDIA_POL_level_3_text"
 					position = {x=-9 y=7}
-					font = "bombardier_16_black"
+					font = "hoi_16"
 					text = "policy_media_temp_3"
 					maxWidth = 180
 					maxHeight = 23
@@ -1547,7 +1547,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_MEDIA_POL_level_3a_text"
 					position = {x=-9 y=7}
-					font = "bombardier_16_black"
+					font = "hoi_16"
 					text = "policy_media_temp_3a"
 					maxWidth = 180
 					maxHeight = 23
@@ -1647,7 +1647,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_UNION_POL_level_0_text"
 					position = {x=-9 y=7}
-					font = "bombardier_16_black"
+					font = "hoi_16"
 					text = "policy_union_temp_0"
 					maxWidth = 180
 					maxHeight = 23
@@ -1689,7 +1689,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_UNION_POL_level_1_text"
 					position = {x=-9 y=7}
-					font = "bombardier_16_black"
+					font = "hoi_16"
 					text = "policy_union_temp_1"
 					maxWidth = 180
 					maxHeight = 23
@@ -1731,7 +1731,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_UNION_POL_level_2_text"
 					position = {x=-9 y=7}
-					font = "bombardier_16_black"
+					font = "hoi_16"
 					text = "policy_union_temp_2"
 					maxWidth = 180
 					maxHeight = 23
@@ -1773,7 +1773,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_UNION_POL_level_3_text"
 					position = {x=-9 y=7}
-					font = "bombardier_16_black"
+					font = "hoi_16"
 					text = "policy_union_temp_3"
 					maxWidth = 180
 					maxHeight = 23
@@ -1815,7 +1815,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_UNION_POL_level_4_text"
 					position = {x=-9 y=7}
-					font = "bombardier_16_black"
+					font = "hoi_16"
 					text = "policy_union_temp_4"
 					maxWidth = 180
 					maxHeight = 23
@@ -1920,7 +1920,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_PUB_POL_level_0_text"
 					position = {x=-9 y=7}
-					font = "bombardier_16_black"
+					font = "hoi_16"
 					text = "policy_services_temp_0"
 					maxWidth = 180
 					maxHeight = 23
@@ -1963,7 +1963,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_PUB_POL_level_1_text"
 					position = {x=-9 y=7}
-					font = "bombardier_16_black"
+					font = "hoi_16"
 					text = "policy_services_temp_1"
 					maxWidth = 180
 					maxHeight = 23
@@ -2006,7 +2006,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_PUB_POL_level_2_text"
 					position = {x=-9 y=7}
-					font = "bombardier_16_black"
+					font = "hoi_16"
 					text = "policy_services_temp_2"
 					maxWidth = 180
 					maxHeight = 23
@@ -2049,7 +2049,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_PUB_POL_level_3_text"
 					position = {x=-9 y=7}
-					font = "bombardier_16_black"
+					font = "hoi_16"
 					text = "policy_services_temp_3"
 					maxWidth = 180
 					maxHeight = 23
@@ -2167,7 +2167,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_EDU_POL_level_0_text"
 					position = {x=-9 y=7}
-					font = "bombardier_16_black"
+					font = "hoi_16"
 					text = "policy_education_temp_0"
 					maxWidth = 180
 					maxHeight = 23
@@ -2210,7 +2210,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_EDU_POL_level_1_text"
 					position = {x=-9 y=7}
-					font = "bombardier_16_black"
+					font = "hoi_16"
 					text = "policy_education_temp_1"
 					maxWidth = 180
 					maxHeight = 23
@@ -2253,7 +2253,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_EDU_POL_level_2_text"
 					position = {x=-9 y=7}
-					font = "bombardier_16_black"
+					font = "hoi_16"
 					text = "policy_education_temp_2"
 					maxWidth = 180
 					maxHeight = 23
@@ -2296,7 +2296,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_EDU_POL_level_3_text"
 					position = {x=-9 y=7}
-					font = "bombardier_16_black"
+					font = "hoi_16"
 					text = "policy_education_temp_3"
 					maxWidth = 180
 					maxHeight = 23
@@ -2339,7 +2339,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_EDU_POL_level_4_text"
 					position = {x=-9 y=7}
-					font = "bombardier_16_black"
+					font = "hoi_16"
 					text = "policy_education_temp_4"
 					maxWidth = 180
 					maxHeight = 23
@@ -2468,7 +2468,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_MIL_POL_level_1_text"
 					position = {x=-9 y=7}
-					font = "bombardier_16_black"
+					font = "hoi_16"
 					text = "policy_military_temp_1"
 					maxWidth = 180
 					maxHeight = 23
@@ -2511,7 +2511,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_MIL_POL_level_2_text"
 					position = {x=-9 y=7}
-					font = "bombardier_16_black"
+					font = "hoi_16"
 					text = "policy_military_temp_2"
 					maxWidth = 180
 					maxHeight = 23
@@ -2554,7 +2554,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_MIL_POL_level_3_text"
 					position = {x=-9 y=7}
-					font = "bombardier_16_black"
+					font = "hoi_16"
 					text = "policy_military_temp_3"
 					maxWidth = 180
 					maxHeight = 23
@@ -2597,7 +2597,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_MIL_POL_level_4_text"
 					position = {x=-9 y=7}
-					font = "bombardier_16_black"
+					font = "hoi_16"
 					text = "policy_military_temp_4"
 					maxWidth = 180
 					maxHeight = 23
@@ -2715,7 +2715,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_WEL_POL_level_0_text"
 					position = {x=-9 y=7}
-					font = "bombardier_16_black"
+					font = "hoi_16"
 					text = "policy_welfare_temp_0"
 					maxWidth = 180
 					maxHeight = 23
@@ -2758,7 +2758,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_WEL_POL_level_1_text"
 					position = {x=-9 y=7}
-					font = "bombardier_16_black"
+					font = "hoi_16"
 					text = "policy_welfare_temp_1"
 					maxWidth = 180
 					maxHeight = 23
@@ -2801,7 +2801,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_WEL_POL_level_2_text"
 					position = {x=-9 y=7}
-					font = "bombardier_16_black"
+					font = "hoi_16"
 					text = "policy_welfare_temp_2"
 					maxWidth = 180
 					maxHeight = 23
@@ -2844,7 +2844,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_WEL_POL_level_3_text"
 					position = {x=-9 y=7}
-					font = "bombardier_16_black"
+					font = "hoi_16"
 					text = "policy_welfare_temp_3"
 					maxWidth = 180
 					maxHeight = 23
@@ -2887,7 +2887,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_WEL_POL_level_4_text"
 					position = {x=-9 y=7}
-					font = "bombardier_16_black"
+					font = "hoi_16"
 					text = "policy_welfare_temp_4"
 					maxWidth = 180
 					maxHeight = 23
@@ -2930,7 +2930,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_WEL_POL_level_5_text"
 					position = {x=-9 y=7}
-					font = "bombardier_16_black"
+					font = "hoi_16"
 					text = "policy_welfare_temp_5"
 					maxWidth = 180
 					maxHeight = 23
@@ -3028,7 +3028,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_TAX_POL_level_1_text"
 					position = {x=-9 y=7}
-					font = "bombardier_16_black"
+					font = "hoi_16"
 					text = "policy_taxrate_temp_1"
 					maxWidth = 180
 					maxHeight = 23
@@ -3070,7 +3070,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_TAX_POL_level_2_text"
 					position = {x=-9 y=7}
-					font = "bombardier_16_black"
+					font = "hoi_16"
 					text = "policy_taxrate_temp_2"
 					maxWidth = 180
 					maxHeight = 23
@@ -3112,7 +3112,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_TAX_POL_level_3_text"
 					position = {x=-9 y=7}
-					font = "bombardier_16_black"
+					font = "hoi_16"
 					text = "policy_taxrate_temp_3"
 					maxWidth = 180
 					maxHeight = 23
@@ -3154,7 +3154,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_TAX_POL_level_4_text"
 					position = {x=-9 y=7}
-					font = "bombardier_16_black"
+					font = "hoi_16"
 					text = "policy_taxrate_temp_4"
 					maxWidth = 180
 					maxHeight = 23
@@ -3196,7 +3196,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_TAX_POL_level_5_text"
 					position = {x=-9 y=7}
-					font = "bombardier_16_black"
+					font = "hoi_16"
 					text = "policy_taxrate_temp_5"
 					maxWidth = 180
 					maxHeight = 23
@@ -3273,7 +3273,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_CPI_POL_level_0_text"
 					position = {x=-9 y=7}
-					font = "bombardier_16_black"
+					font = "hoi_16"
 					text = "policy_cpi_temp_0"
 					maxWidth = 180
 					maxHeight = 23
@@ -3316,7 +3316,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_CPI_POL_level_1_text"
 					position = {x=-9 y=7}
-					font = "bombardier_16_black"
+					font = "hoi_16"
 					text = "policy_cpi_temp_1"
 					maxWidth = 180
 					maxHeight = 23
@@ -3359,7 +3359,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_CPI_POL_level_2_text"
 					position = {x=-9 y=7}
-					font = "bombardier_16_black"
+					font = "hoi_16"
 					text = "policy_cpi_temp_2"
 					maxWidth = 180
 					maxHeight = 23
@@ -3402,7 +3402,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_CPI_POL_level_3_text"
 					position = {x=-9 y=7}
-					font = "bombardier_16_black"
+					font = "hoi_16"
 					text = "policy_cpi_temp_3"
 					maxWidth = 180
 					maxHeight = 23
@@ -3445,7 +3445,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_CPI_POL_level_4_text"
 					position = {x=-9 y=7}
-					font = "bombardier_16_black"
+					font = "hoi_16"
 					text = "policy_cpi_temp_4"
 					maxWidth = 180
 					maxHeight = 23
@@ -3488,7 +3488,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_CPI_POL_level_5_text"
 					position = {x=-9 y=7}
-					font = "bombardier_16_black"
+					font = "hoi_16"
 					text = "policy_cpi_temp_5"
 					maxWidth = 180
 					maxHeight = 23
@@ -3621,7 +3621,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_REL_POL_level_0_text"
 					position = {x=-9 y=7}
-					font = "bombardier_16_black"
+					font = "hoi_16"
 					text = "policy_religion_temp_0"
 					maxWidth = 180
 					maxHeight = 23
@@ -3663,7 +3663,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_REL_POL_level_0a_text"
 					position = {x=-9 y=7}
-					font = "bombardier_16_black"
+					font = "hoi_16"
 					text = "policy_religion_temp_0a"
 					maxWidth = 180
 					maxHeight = 23
@@ -3705,7 +3705,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_REL_POL_level_1_text"
 					position = {x=-9 y=7}
-					font = "bombardier_16_black"
+					font = "hoi_16"
 					text = "policy_religion_temp_1"
 					maxWidth = 180
 					maxHeight = 23
@@ -3747,7 +3747,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_REL_POL_level_2_text"
 					position = {x=-9 y=7}
-					font = "bombardier_16_black"
+					font = "hoi_16"
 					text = "policy_religion_temp_2"
 					maxWidth = 180
 					maxHeight = 23
@@ -3789,7 +3789,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_REL_POL_level_3_text"
 					position = {x=-9 y=7}
-					font = "bombardier_16_black"
+					font = "hoi_16"
 					text = "policy_religion_temp_3"
 					maxWidth = 180
 					maxHeight = 23
@@ -3826,7 +3826,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_REL_POL_level_3a_text"
 					position = {x=-9 y=7}
-					font = "bombardier_16_black"
+					font = "hoi_16"
 					text = "policy_religion_temp_3a"
 					maxWidth = 180
 					maxHeight = 23
@@ -3921,7 +3921,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "policy_cpi_level_id"
 				position = { x = 35 y = 50 }
-				font = "bombardier_20"
+				font = "hoi_20"
 				text = "fiscal_gen_balance"
 				maxWidth = 300
 				maxHeight = 20
@@ -3932,7 +3932,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "polic_cpi_level_desc"
 				position = { x = 35 y = 80 }
-				font = "bombardier_20"
+				font = "hoi_20"
 				text = "fiscal_gen_income"
 				maxWidth = 300
 				maxHeight = 20
@@ -3943,7 +3943,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "poli_cpi_level_desc"
 				position = { x = 35 y = 110 }
-				font = "bombardier_20"
+				font = "hoi_20"
 				text = "fiscal_gen_expenses"
 				maxWidth = 300
 				maxHeight = 20
@@ -3954,7 +3954,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "poli_cpi_level_desc2"
 				position = { x = 35 y = 140 }
-				font = "bombardier_20"
+				font = "hoi_20"
 				text = "fiscal_gen_corruption"
 				maxWidth = 300
 				maxHeight = 20
@@ -3965,7 +3965,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "picy_cpi_level_desc"
 				position = { x = 35 y = 170 }
-				font = "bombardier_20"
+				font = "hoi_20"
 				text = "fiscal_gen_GDP"
 				maxWidth = 300
 				maxHeight = 20
@@ -4001,7 +4001,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "policy_corrupton_level_id"
 				position = { x = 35 y = 50 }
-				font = "bombardier_20"
+				font = "hoi_20"
 				text = "fiscal_inc_ind"
 				maxWidth = 300
 				maxHeight = 20
@@ -4012,7 +4012,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "policy_inc_cr_level_desc"
 				position = { x = 35 y = 72 }
-				font = "bombardier_20"
+				font = "hoi_20"
 				text = "fiscal_inc_ref"
 				maxWidth = 300
 				maxHeight = 20
@@ -4023,7 +4023,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "policy_pol_r_level_desc"
 				position = { x = 35 y = 96 }
-				font = "bombardier_20"
+				font = "hoi_20"
 				text = "fiscal_inc_dock"
 				maxWidth = 300
 				maxHeight = 20
@@ -4034,7 +4034,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "policy_stab_leel_desc"
 				position = { x = 35 y = 119 }
-				font = "bombardier_20"
+				font = "hoi_20"
 				text = "fiscal_inc_agri"
 				maxWidth = 300
 				maxHeight = 20
@@ -4045,7 +4045,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "picy_cpi3_level_desc"
 				position = { x = 35 y = 142 }
-				font = "bombardier_20"
+				font = "hoi_20"
 				text = "fiscal_inc_tax"
 				maxWidth = 300
 				maxHeight = 20
@@ -4056,7 +4056,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "policy_enc_lvel_desc"
 				position = { x = 35 y = 165 }
-				font = "bombardier_20"
+				font = "hoi_20"
 				text = "fiscal_inc_office"
 				maxWidth = 300
 				maxHeight = 20
@@ -4067,7 +4067,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "policy_ec_lvel_desc"
 				position = { x = 35 y = 188 }
-				font = "bombardier_20"
+				font = "hoi_20"
 				text = "fiscal_inc_tour"
 				maxWidth = 300
 				maxHeight = 20
@@ -4078,7 +4078,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "policy_ec_lvel_desc2"
 				position = { x = 35 y = 211 }
-				font = "bombardier_20"
+				font = "hoi_20"
 				text = "fiscal_inc_res"
 				maxWidth = 300
 				maxHeight = 20
@@ -4114,7 +4114,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "polic_cpi2_level_desc"
 				position = { x = 35 y = 50 }
-				font = "bombardier_20"
+				font = "hoi_20"
 				text = "fiscal_exp_edu"
 				maxWidth = 300
 				maxHeight = 20
@@ -4125,7 +4125,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "polic_cpi2_level_desc2"
 				position = { x = 35 y = 73 }
-				font = "bombardier_20"
+				font = "hoi_20"
 				text = "fiscal_exp_cpi"
 				maxWidth = 300
 				maxHeight = 20
@@ -4136,7 +4136,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "polic_cpi2_level_desc3"
 				position = { x = 35 y = 96 }
-				font = "bombardier_20"
+				font = "hoi_20"
 				text = "fiscal_exp_insurg"
 				maxWidth = 300
 				maxHeight = 20
@@ -4147,7 +4147,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "monthly_resource_cost"
 				position = { x = 35 y = 119 }
-				font = "bombardier_20"
+				font = "hoi_20"
 				text = "fiscal_exp_imports"
 				maxWidth = 300
 				maxHeight = 20
@@ -4158,7 +4158,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "poli_pub_cost_level_desc"
 				position = { x = 35 y = 142 }
-				font = "bombardier_20"
+				font = "hoi_20"
 				text = "fiscal_exp_pub"
 				maxWidth = 300
 				maxHeight = 20
@@ -4169,7 +4169,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "picy_wel_level_desc"
 				position = { x = 35 y = 165 }
-				font = "bombardier_20"
+				font = "hoi_20"
 				text = "fiscal_exp_welfare"
 				maxWidth = 300
 				maxHeight = 20
@@ -4180,7 +4180,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "monthly_imp_resource_cost"
 				position = { x = 35 y = 188 }
-				font = "bombardier_20"
+				font = "hoi_20"
 				text = "fiscal_exp_health"
 				maxWidth = 300
 				maxHeight = 20
@@ -4191,7 +4191,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "picy_mil_level_desc"
 				position = { x = 35 y = 211 }
-				font = "bombardier_20"
+				font = "hoi_20"
 				text = "fiscal_exp_mil"
 				maxWidth = 300
 				maxHeight = 20
@@ -4227,7 +4227,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "policy_corruption_level_id"
 				position = { x = 35 y = 50 }
-				font = "bombardier_20"
+				font = "hoi_20"
 				text = "fiscal_cor_per"
 				maxWidth = 300
 				maxHeight = 20
@@ -4238,7 +4238,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "policy_inc_cor_level_desc"
 				position = { x = 35 y = 80 }
-				font = "bombardier_20"
+				font = "hoi_20"
 				text = "fiscal_cor_loss"
 				maxWidth = 300
 				maxHeight = 20
@@ -4249,7 +4249,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "policy_pol_cor_level_desc"
 				position = { x = 35 y = 110 }
-				font = "bombardier_20"
+				font = "hoi_20"
 				text = "fiscal_cor_pol"
 				maxWidth = 300
 				maxHeight = 20
@@ -4260,7 +4260,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "policy_stab_level_desc"
 				position = { x = 35 y = 140 }
-				font = "bombardier_20"
+				font = "hoi_20"
 				text = "fiscal_cor_stab"
 				maxWidth = 300
 				maxHeight = 20
@@ -4271,7 +4271,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "policy_enc_level_desc"
 				position = { x = 35 y = 170 }
-				font = "bombardier_20"
+				font = "hoi_20"
 				text = "fiscal_cor_enc"
 				maxWidth = 300
 				maxHeight = 20
@@ -4305,7 +4305,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "total_debt"
 				position = { x = 35 y = 50 }
-				font = "bombardier_20"
+				font = "hoi_20"
 				text = "fiscal_debt_debt"
 				maxWidth = 300
 				maxHeight = 20
@@ -4316,7 +4316,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "monthly_payments"
 				position = { x = 35 y = 80 }
-				font = "bombardier_20"
+				font = "hoi_20"
 				text = "fiscal_debt_pay"
 				maxWidth = 300
 				maxHeight = 20
@@ -4327,7 +4327,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "austerity_level"
 				position = { x = 35 y = 110 }
-				font = "bombardier_20"
+				font = "hoi_20"
 				text = "fiscal_debt_aust"
 				maxWidth = 300
 				maxHeight = 20
@@ -4338,7 +4338,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "default_level"
 				position = { x = 35 y = 140 }
-				font = "bombardier_20"
+				font = "hoi_20"
 				text = "fiscal_debt_default"
 				maxWidth = 300
 				maxHeight = 20

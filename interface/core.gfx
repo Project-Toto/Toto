@@ -755,7 +755,7 @@ bitmapfonts = {
 	bitmapfont = {
 		name = "mapfont_small"
 		path = "gfx/fonts/vic_22_bl"
-		color = 0xff000000	
+		color = 0xff000000
 	}
 	
 	bitmapfont = {
@@ -1484,7 +1484,19 @@ bitmapfonts = {
 			H = { 238 201 35 }
 			T = { 255 255 255 }
 		}
-	}		
+	}
+
+	bitmapfont = {
+		name = "hoi_20"
+		path = "gfx/fonts/hoi_20"
+		color = 0xffffffff
+	}
+
+	bitmapfont = {
+		name = "hoi_30"
+		path = "gfx/fonts/hoi_30"
+		color = 0xffffffff
+	}
 	
 	bitmapfont = {
 		name = "tahoma_60"

@@ -12,6 +12,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/stateview/state_papyrus_bg.dds"
 	}
 	spriteType = {
+		name = "GFX_state_papyrus_bg_1"
+		texturefile = "gfx/interface/stateview/state_papyrus_bg_1.dds"
+	}
+	spriteType = {
 		name = "GFX_state_interactive_map_bg"
 		texturefile = "gfx/interface/stateview/interactive_map/tropical_inland.dds"
 		alwaystransparent = yes

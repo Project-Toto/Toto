@@ -24,7 +24,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "countrystateview"
 		position = { x=-416 y=-569 }
-		show_position = { x=-6 y =-569 }
+		show_position = { x=-6 y =-592 }
 		show_animation_type = decelerated
 		hide_animation_type = accelerated
 		animation_time = 300
@@ -46,22 +46,21 @@ guiTypes = {
 				spriteType = "GFX_state_title_bg"
 				position = { x = 23 y = 23 }
 			}
-			iconType = {
-				name = "cores_bg"
-				spriteType = "GFX_state_plate_bg"
-				position = { x = 23 y = 70 }
-			}
-			iconType = {
-				name = "claims_bg"
-				spriteType = "GFX_state_plate_bg"
-				position = { x = 23 y = 124 }
-			}
+			#iconType = {
+			#	name = "cores_bg"
+			#	spriteType = "GFX_state_plate_bg"
+			#	position = { x = 23 y = 70 }
+			#}
+			#iconType = {
+			#	name = "claims_bg"
+			#	spriteType = "GFX_state_plate_bg"
+			#	position = { x = 23 y = 124 }
+			#}
 			iconType = {
 				name = "population_bg"
-				spriteType = "GFX_state_papyrus_bg"
-				position = { x = 23 y = 180 }
+				spriteType = "GFX_state_papyrus_bg_1"
+				position = { x = 23 y = 70 }
 			}
-
 			instantTextboxType = {
 				name = "state_name"
 				position = { x = 80 y = 24 }
@@ -72,6 +71,14 @@ guiTypes = {
 				maxHeight = 30
 				format = center
 			}
+
+
+
+
+
+
+
+
 			
 			gridBoxType = {
 				name = "state_building_entries"
@@ -123,7 +130,7 @@ guiTypes = {
 				name = "claims"
 				position = { x = 23 y = 126 }
 				textureFile = ""
-				font = "hoi_18mbs"
+				font = "vic_18_black"
 				text = ""
 				maxWidth = 160
 				maxHeight = 30
@@ -141,9 +148,9 @@ guiTypes = {
 			
 			instantTextboxType = {
 				name = "owner"
-				position = { x = 23 y = 72 }
+				position = { x = 23 y = 76 }
 				textureFile = ""
-				font = "hoi_18mbs"
+				font = "vic_18_black"
 				text = ""
 				maxWidth = 160
 				maxHeight = 30
@@ -154,13 +161,13 @@ guiTypes = {
 			buttonType = {
 				name = "owner_flag"
 				quadTextureSprite ="GFX_flag_small2"
-				position = { x= 33 y = 90 }
+				position = { x= 33 y = 94 }
 			}
 			
 			iconType ={
 				name ="owner_flag_border"
 				quadTextureSprite = "GFX_diplo_countrylist_flag_frame"
-				position = { x= 28 y = 86 }
+				position = { x= 28 y = 90 }
 				alwaystransparent = yes
 			}
 			

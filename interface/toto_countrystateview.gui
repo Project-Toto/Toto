@@ -22,7 +22,7 @@ guiTypes = {
 			frame = 1
 
 			buttonText = ""
-			buttonFont = "hoi18mbs"
+			buttonFont = "hoi_18"
 
 			clicksound = "decisions_ui_tab"
 			oversound = "ui_menu_over"
@@ -36,9 +36,9 @@ guiTypes = {
 
 			quadTextureSprite = "GFX_state_interactive_map_market_button"
 			frame = 1
- 
+
 			buttonText = ""
-			buttonFont = "hoi18mbs"
+			buttonFont = "hoi_18"
 
 			clicksound = "decisions_ui_tab"
 			oversound = "ui_menu_over"
@@ -54,7 +54,7 @@ guiTypes = {
 			frame = 1
 
 			buttonText = ""
-			buttonFont = "hoi18mbs"
+			buttonFont = "hoi_18"
 
 			clicksound = "decisions_ui_tab"
 			oversound = "ui_menu_over"
@@ -70,7 +70,7 @@ guiTypes = {
 			frame = 1
 
 			buttonText = ""
-			buttonFont = "hoi18mbs"
+			buttonFont = "hoi_18"
 
 			clicksound = "decisions_ui_tab"
 			oversound = "ui_menu_over"
@@ -86,7 +86,7 @@ guiTypes = {
 			frame = 1
 
 			buttonText = ""
-			buttonFont = "hoi18mbs"
+			buttonFont = "hoi_18"
 
 			clicksound = "decisions_ui_tab"
 			oversound = "ui_menu_over"
