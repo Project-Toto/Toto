@@ -1,44 +1,59 @@
 technologies = {
 
 	#Years
-	@1840 = 2
-	@1845 = 6
-	@1850 = 10
-	@1855 = 12
-	@1860 =	14
-	@1862 = 16
-	@1864 = 18
-	@1865 = 20
-	@1868 = 22
-	@1870 = 24
-	@1872 = 26
-	@1874 = 28
-	@1875 = 30
-	@1876 = 32
-	@1878 = 34
-	@1880 = 36
-	@1882 = 38
-	@1885 = 40
-	@1887 = 42
-	@1890 = 44
-	@1892 = 46
-	@1893 = 48
-	@1895 = 50
-	@1898 = 52
-	@1900 = 54
-	@1902 = 56
-	@1905 = 58
-	@1909 = 60
-	@1912 = 62
-	@1914 = 64
-	@1915 = 66
-	@1916 = 68
-	@1917 = 70
-	@1918 = 72
-	@1920 = 74
-	@1924 = 76
-	@1930 = 78
-	@1936 = 80
+		@1000 = 2
+		@1150 = 6
+		@1400 = 8
+		@1650 = 12
+		@1800 = 16
+		@1820 = 20
+		@1840 = 24
+		@1845 = 28
+		@1850 = 32
+		@1855 = 36
+		@1860 =	40
+		@1862 = 42
+		@1864 = 44
+		@1865 = 46
+		@1868 = 48
+		@1870 = 50
+		@1872 = 52
+		@1874 = 54
+		@1875 = 56
+		@1876 = 58
+		@1878 = 60
+		@1880 = 62
+		@1882 = 64
+		@1885 = 66
+		@1888 = 68
+		@1890 = 70
+		@1892 = 72
+		@1895 = 74
+		@1898 = 76
+		@1900 = 78
+		@1902 = 80
+		@1905 = 82
+		@1909 = 84
+		@1912 = 86
+		@1914 = 88
+		@1915 = 90
+		@1916 = 92
+		@1917 = 94
+		@1918 = 96
+		@1920 = 98
+		@1924 = 100
+		@1930 = 104
+		@1936 = 108
+
+	# General Y-Level Tree Placement
+
+	# 0 - Melee Arms
+	# 2 - Secondaries (Shields, Knives, etc.)
+	# 4 - Main Ranged Arms
+	# 6 - Arms Development
+	# 8 - Uniforms
+	# 10 - Cavalry
+	# 11 - Camels
 
 
 	#General Y-Level Labeling
@@ -58,7 +73,453 @@ technologies = {
 	#26   -   Shock Troops
 
 
-################################
+### Melee Equipment ###
+
+	melee_arms_weapons_0 = {
+		allowed = { always = yes }
+
+		folder = {
+			tech_folder_army_infantry
+			position = { x = @1000 y = 0 }
+		}
+
+		dependencies = {
+			# none
+		}
+
+		path = {
+			leads_to_tech = melee_arms_weapons_1
+		}
+
+		start_year = 1000
+		research_cost = 1
+
+		categories = {
+			infantry_weapons_tech
+			melee_weapons_tech
+			spear_weapons_tech
+		}
+
+		enable_equipments = {
+			melee_arms_equipment_0
+		}
+
+		enable_subunits = {
+			tribal_warrior_levy
+			tribal_warrior
+		}
+
+		supply_consumption_factor = 0.05
+
+		ai_will_do = {
+			base = 100
+		}
+	}
+
+	melee_arms_weapons_1 = {
+		allowed = { always = yes }
+
+		folder = {
+			tech_folder_army_infantry
+			position = { x = @1150 y = 0 }
+		}
+
+		dependencies = {
+			melee_arms_weapons_0 = 1
+		}
+
+		path = {
+			leads_to_tech = melee_arms_weapons_2
+		}
+
+		start_year = 1150
+		research_cost = 1
+
+		categories = {
+			infantry_weapons_tech
+			melee_weapons_tech
+			spear_weapons_tech
+		}
+
+		enable_equipments = {
+			melee_arms_equipment_1
+		}
+
+		supply_consumption_factor = 0.05
+
+		ai_will_do = {
+			base = 100
+		}
+	}
+
+	melee_arms_weapons_2 = {
+		allowed = { always = yes }
+
+		folder = {
+			tech_folder_army_infantry
+			position = { x = @1300 y = 0 }
+		}
+
+		dependencies = {
+			melee_arms_weapons_1 = 1
+		}
+
+		path = {
+			leads_to_tech = melee_arms_weapons_3
+		}
+
+		start_year = 1300
+		research_cost = 2
+
+		categories = {
+			infantry_weapons_tech
+			melee_weapons_tech
+			spear_weapons_tech
+		}
+
+		enable_equipments = {
+			melee_arms_equipment_2
+		}
+
+		supply_consumption_factor = 0.05
+
+		ai_will_do = {
+			base = 100
+		}
+	}
+
+	melee_arms_weapons_3 = {
+		allowed = { always = yes }
+
+		folder = {
+			tech_folder_army_infantry
+			position = { x = @1450 y = 0 }
+		}
+
+		dependencies = {
+			melee_arms_weapons_2 = 1
+		}
+
+		path = {
+			leads_to_tech = melee_arms_weapons_4
+		}
+
+		start_year = 1450
+		research_cost = 3
+
+		categories = {
+			infantry_weapons_tech
+			melee_weapons_tech
+			blade_weapons_tech
+		}
+
+		enable_equipments = {
+			melee_arms_equipment_3
+		}
+
+		supply_consumption_factor = 0.05
+
+		ai_will_do = {
+			base = 100
+		}
+	}
+
+	melee_arms_weapons_4 = {
+		allowed = { always = yes }
+
+		folder = {
+			tech_folder_army_infantry
+			position = { x = @1600 y = 0 }
+		}
+
+		dependencies = {
+			melee_arms_weapons_3 = 1
+		}
+
+		path = {
+			leads_to_tech = melee_arms_weapons_5
+		}
+
+		start_year = 1450
+		research_cost = 3
+
+		categories = {
+			infantry_weapons_tech
+			melee_weapons_tech
+			blade_weapons_tech
+		}
+
+		enable_equipments = {
+			melee_arms_equipment_4
+		}
+
+		supply_consumption_factor = 0.05
+
+		ai_will_do = {
+			base = 100
+		}
+	}
+
+	melee_arms_weapons_5 = {
+		allowed = { always = yes }
+
+		folder = {
+			tech_folder_army_infantry
+			position = { x = @1800 y = 0 }
+		}
+
+		dependencies = {
+			melee_arms_weapons_4 = 1
+		}
+
+		path = {
+			leads_to_tech = melee_arms_weapons_6
+		}
+
+		start_year = 1450
+		research_cost = 3
+
+		categories = {
+			infantry_weapons_tech
+			melee_weapons_tech
+			blade_weapons_tech
+		}
+
+		enable_equipments = {
+			melee_arms_equipment_5
+		}
+
+		supply_consumption_factor = 0.05
+
+		ai_will_do = {
+			base = 100
+		}
+	}
+
+### Ranged Equipment ###
+
+	ranged_arms_weapons_0 = {
+		allowed = { always = yes }
+
+		folder = {
+			tech_folder_army_infantry
+			position = { x = @1000 y = 4 }
+		}
+
+		dependencies = {
+			# none
+		}
+
+		path = {
+			leads_to_tech = ranged_arms_weapons_1
+		}
+
+		start_year = 1000
+		research_cost = 1
+
+		categories = {
+			infantry_weapons_tech
+			ranged_weapons_tech
+			bow_weapons_tech
+		}
+
+		enable_equipments = {
+			ranged_arms_equipment_0
+		}
+
+		enable_subunits = {
+			tribal_warrior_levy
+			tribal_warrior
+		}
+
+		supply_consumption_factor = 0.05
+
+		ai_will_do = {
+			base = 100
+		}
+	}
+
+	ranged_arms_weapons_1 = {
+		allowed = { always = yes }
+
+		folder = {
+			tech_folder_army_infantry
+			position = { x = @1150 y = 4 }
+		}
+
+		dependencies = {
+			ranged_arms_weapons_0 = 1
+		}
+
+		path = {
+			leads_to_tech = ranged_arms_weapons_2
+		}
+
+		start_year = 1150
+		research_cost = 1
+
+		categories = {
+			infantry_weapons_tech
+			ranged_weapons_tech
+			bow_weapons_tech
+		}
+
+		enable_equipments = {
+			ranged_arms_equipment_1
+		}
+
+		supply_consumption_factor = 0.05
+
+		ai_will_do = {
+			base = 100
+		}
+	}
+
+	ranged_arms_weapons_2 = {
+		allowed = { always = yes }
+
+		folder = {
+			tech_folder_army_infantry
+			position = { x = @1300 y = 4 }
+		}
+
+		dependencies = {
+			ranged_arms_weapons_1 = 1
+		}
+
+		path = {
+			leads_to_tech = ranged_arms_weapons_3
+		}
+
+		start_year = 1300
+		research_cost = 2
+
+		categories = {
+			infantry_weapons_tech
+			ranged_weapons_tech
+			bow_weapons_tech
+		}
+
+		enable_equipments = {
+			ranged_arms_equipment_2
+		}
+
+		supply_consumption_factor = 0.05
+
+		ai_will_do = {
+			base = 100
+		}
+	}
+
+	ranged_arms_weapons_3 = {
+		allowed = { always = yes }
+
+		folder = {
+			tech_folder_army_infantry
+			position = { x = @1450 y = 4 }
+		}
+
+		dependencies = {
+			ranged_arms_weapons_2 = 1
+		}
+
+		path = {
+			leads_to_tech = ranged_arms_weapons_4
+		}
+
+		start_year = 1450
+		research_cost = 3
+
+		categories = {
+			infantry_weapons_tech
+			ranged_weapons_tech
+			musket_weapons_tech
+		}
+
+		enable_equipments = {
+			ranged_arms_equipment_3
+		}
+
+		supply_consumption_factor = 0.05
+
+		ai_will_do = {
+			base = 100
+		}
+	}
+
+	ranged_arms_weapons_4 = {
+		allowed = { always = yes }
+
+		folder = {
+			tech_folder_army_infantry
+			position = { x = @1600 y = 4 }
+		}
+
+		dependencies = {
+			ranged_arms_weapons_3 = 1
+		}
+
+		path = {
+			leads_to_tech = ranged_arms_weapons_5
+		}
+
+		start_year = 1450
+		research_cost = 3
+
+		categories = {
+			infantry_weapons_tech
+			ranged_weapons_tech
+			musket_weapons_tech
+		}
+
+		enable_equipments = {
+			ranged_arms_equipment_4
+		}
+
+		supply_consumption_factor = 0.05
+
+		ai_will_do = {
+			base = 100
+		}
+	}
+
+	ranged_arms_weapons_5 = {
+		allowed = { always = yes }
+
+		folder = {
+			tech_folder_army_infantry
+			position = { x = @1800 y = 4 }
+		}
+
+		dependencies = {
+			ranged_arms_weapons_4 = 1
+		}
+
+		path = {
+			leads_to_tech = ranged_arms_weapons_6
+		}
+
+		start_year = 1450
+		research_cost = 3
+
+		categories = {
+			infantry_weapons_tech
+			ranged_weapons_tech
+			musket_weapons_tech
+		}
+
+		enable_equipments = {
+			ranged_arms_equipment_5
+		}
+
+		supply_consumption_factor = 0.05
+
+		ai_will_do = {
+			base = 100
+		}
+	}
+
+
 	#### Main Equipmentfeudal_infantry
 
 	traditional_mixed_arms = {
@@ -775,7 +1236,7 @@ technologies = {
 			}
 			modifier = {
 				factor = 3
-				date > "1887.1.1"
+				date > "1888.1.1"
 			}
 		}
 		ai_research_weights = {
@@ -1667,10 +2128,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1893
+		start_year = 1892
 		folder = {
 			name = tech_folder_army_infantry
-			position = { x = -2 y = @1893}
+			position = { x = -2 y = @1892}
 		}
 
 		categories = {
@@ -3385,10 +3846,10 @@ technologies = {
 	tech_infantry_khaki_camo = {
 
 		research_cost = 1
-		start_year = 1887
+		start_year = 1888
 		folder = {
 			name = tech_folder_army_infantry
-			position = { x = 12 y = @1887}
+			position = { x = 12 y = @1888}
 		}
 
 		category_all_land = {
@@ -3489,7 +3950,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = tech_infantry_uniform_1887
+			leads_to_tech = tech_infantry_uniform_1888
 		}
 
 		categories = {
@@ -3503,13 +3964,13 @@ technologies = {
 		}
 	}
 
-	tech_infantry_uniform_1887 = {
+	tech_infantry_uniform_1888 = {
 
 		research_cost = 1
-		start_year = 1887
+		start_year = 1888
 		folder = {
 			name = tech_folder_army_infantry
-			position = { x = 10 y = @1887}
+			position = { x = 10 y = @1888}
 		}
 
 		category_all_land = {

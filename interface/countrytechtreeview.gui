@@ -1117,21 +1117,20 @@ guiTypes = {
 				hide = yes
 				alwaystransparent = yes
 			}
-
+			gridboxtype = {
+				name = "melee_arms_weapons_0_tree"
+				position = { x = 140 y = 225 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+			gridboxtype = {
+				name = "ranged_arms_weapons_0_tree"
+				position = { x = 140 y = 225 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
 			gridboxtype = {
 				name = "traditional_mixed_arms_tree"
-				position = { x = 140 y = 325 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-			gridboxtype = {
-				name = "tech_early_plasma_refinements_tree"
-				position = { x = 140 y = 325 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-			gridboxtype = {
-				name = "tech_railgun_miniaturisation_tree"
 				position = { x = 140 y = 325 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
@@ -10327,7 +10326,7 @@ guiTypes = {
 	}
 
 	containerWindowType = {
-		name = "tech_folder_army_infantry_small_item"
+		name = "tech_tree_tech_folder_army_infantry_small_item"
 		position = { x = 0 y = 0 }
 		size = { width = 72 height = 72 }
 		clipping = no
@@ -10363,7 +10362,7 @@ guiTypes = {
 	}
 
 	containerWindowType = {
-		name = "tech_folder_army_infantry_item"
+		name = "techtree_tech_folder_army_infantry_item"
 		position = { x = -56 y = -7 }
 		size = { width = 183 height = 84 }
 		clipping = no

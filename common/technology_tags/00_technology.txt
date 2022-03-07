@@ -92,7 +92,7 @@ technology_categories = {
 			bullet_tech
 
 	support_company_tech
-		command_company_tech
+		command_company_tech 
 		siege_company_tech
 		engineer_company_tech
 		recon_company_tech
