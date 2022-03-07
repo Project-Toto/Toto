@@ -3,10 +3,10 @@ characters={
 		name="Thié Yassin Ngoné Jegeñ Fall"
 		portraits={
 			civilian={
-				large="gfx/characters/Africa/african_generic_3.dds"
+				large="gfx/characters/_Africa/Portrait_Africa_Generic_27.dds"
 			}
 			army={
-				large="gfx/characters/Africa/african_generic_3.dds"
+				large="gfx/characters/_Africa/Portrait_Africa_Generic_27.dds"
 			}
 		}
 		country_leader={

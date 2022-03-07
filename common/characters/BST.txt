@@ -3,10 +3,10 @@ characters={
 		name="Hermanus van Wyk"
 		portraits={
 			civilian={
-				large="gfx/characters/Africa/african_generic_5.dds"
+				large="gfx/characters/_Africa/Portrait_Africa_Generic_11.dds"
 			}
 			army={
-				large="gfx/characters/Africa/african_generic_5.dds"
+				large="gfx/characters/_Africa/Portrait_Africa_Generic_11.dds"
 			}
 		}
 		country_leader={

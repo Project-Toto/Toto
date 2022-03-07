@@ -3,10 +3,10 @@ characters={
 		name="Umaru mo Abdul Qaadiri"
 		portraits={
 			civilian={
-				large="gfx/characters/Africa/generic_leader_king_2.png"
+				large="gfx/characters/_Africa/Portrait_Africa_Generic_33.png"
 			}
 			army={
-				large="gfx/characters/Africa/generic_leader_king_2.png"
+				large="gfx/characters/_Africa/Portrait_Africa_Generic_33.png"
 			}
 		}
 		country_leader={

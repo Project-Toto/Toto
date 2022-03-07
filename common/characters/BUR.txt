@@ -3,10 +3,10 @@ characters={
 		name="Mwezi IV Gisabo"
 		portraits={
 			civilian={
-				large="gfx/characters/Africa/generic_leader_traditionalism_council_2.png"
+				large="gfx/characters/_Africa/generic_leader_tribal_council.png"
 			}
 			army={
-				large="gfx/characters/Africa/generic_leader_traditionalism_council_2.png"
+				large="gfx/characters/_Africa/generic_leader_tribal_council.png"
 			}
 		}
 		country_leader={

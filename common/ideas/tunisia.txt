@@ -183,7 +183,7 @@ ideas = {
             }
         
             available = {
-                has_completed_focus = #
+                # has_completed_focus = placeholder
             }
 	    }
 	}

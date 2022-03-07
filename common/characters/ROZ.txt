@@ -3,10 +3,10 @@ characters={
 		name="Changamire Tohwechipi"
 		portraits={
 			civilian={
-				large="gfx/characters/Africa/generic_leader_king_3.png"
+				large="gfx/characters/_Africa/Portrait_Africa_Generic_8.dds"
 			}
 			army={
-				large="gfx/characters/Africa/generic_leader_king_3.png"
+				large="gfx/characters/_Africa/Portrait_Africa_Generic_8.dds"
 			}
 		}
 		country_leader={
