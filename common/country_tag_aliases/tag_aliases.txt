@@ -52,17 +52,17 @@ MOT = {
 	variable = generic_operation_target
 }
 
-SOV = {
-  targets = { RUS }
-	country_score = {
-		base = 0
-	}
-	fallback = RUS
-}
-JAP = {
-	targets = { TES }
-	country_score = {
-		base = 0
-	}
-	fallback = TES
-}
+# SOV = {
+#   targets = { RUS }
+# 	country_score = {
+# 		base = 0
+# 	}
+# 	fallback = RUS
+# }
+# JAP = {
+# 	targets = { TES }
+# 	country_score = {
+# 		base = 0
+# 	}
+# 	fallback = TES
+# }

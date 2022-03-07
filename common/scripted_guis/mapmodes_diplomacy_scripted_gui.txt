@@ -1,34 +1,34 @@
-scripted_gui = {
-	mapmode_diplomacy_other_country = {
-		context_type = country_mapicon
-		mapmode = DEFAULT
+# scripted_gui = {
+# 	mapmode_diplomacy_other_country = {
+# 		context_type = country_mapicon
+# 		mapmode = DEFAULT
 		
-		mapicon_targets = {
-			target_array = global.countries
-			target_trigger = {
-				# check_variable = { global.show_map_icons = 2 }
-				# check_variable = { global.show_country_map_icons = 2 }
-				exists = yes
-				not = { tag = from }
-			}
-		}
+# 		mapicon_targets = {
+# 			target_array = global.countries
+# 			target_trigger = {
+# 				# check_variable = { global.show_map_icons = 2 }
+# 				# check_variable = { global.show_country_map_icons = 2 }
+# 				exists = yes
+# 				not = { tag = from }
+# 			}
+# 		}
 		
-		window_name = "other_country_map_icon"
+# 		window_name = "other_country_map_icon"
 				
-		effects = {
-			duel_click = {
-				root = {
-					set_temp_variable = { c = prev }
-					#duel_with_country = yes
-				}
-			}
-		}
+# 		effects = {
+# 			duel_click = {
+# 				root = {
+# 					set_temp_variable = { c = prev }
+# 					#duel_with_country = yes
+# 				}
+# 			}
+# 		}
 		
-		triggers = {
-			duel_click_enabled = {
-				#$can_attack_to = yes
-			}
-		}
-	}
-}
+# 		triggers = {
+# 			duel_click_enabled = {
+# 				#$can_attack_to = yes
+# 			}
+# 		}
+# 	}
+# }
 
