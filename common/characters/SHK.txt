@@ -3,10 +3,10 @@ characters={
 		name="Nyidok wad Nyakwac"
 		portraits={
 			civilian={
-				large="gfx/characters/Africa/african_generic_14.dds"
+				large="gfx/characters/_Africa/Portrait_Africa_Generic_16.dds"
 			}
 			army={
-				large="gfx/characters/Africa/african_generic_14.dds"
+				large="gfx/characters/_Africa/Portrait_Africa_Generic_16.dds"
 			}
 		}
 		country_leader={

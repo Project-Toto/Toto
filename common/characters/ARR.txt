@@ -3,10 +3,10 @@ characters={
 		name="Sidi Ahmad wuld `Ayda"
 		portraits={
 			civilian={
-				large="gfx/characters/Arabia/Tuareg_Generic_1.png"
+				large="gfx/characters/_Maghreb/Portrait_Arabia_Generic_7.png"
 			}
 			army={
-				large="gfx/characters/Arabia/Tuareg_Generic_1.png"
+				large="gfx/characters/_Maghreb/Portrait_Arabia_Generic_7.png"
 			}
 		}
 		country_leader={

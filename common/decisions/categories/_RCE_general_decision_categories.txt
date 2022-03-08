@@ -24,9 +24,6 @@
 	eoanb_category_economic = {
 		allowed = { always = yes }
 	}
-	SPR_debt_management_category = {
-		allowed = { always = yes }
-	}
 	SPR_colonial_affairs_category = {
 		allowed = { always = yes }
 	}

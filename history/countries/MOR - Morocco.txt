@@ -133,7 +133,7 @@ create_field_marshal = {
 
 create_corps_commander = {
 	name = "Abbas ibn Abd al Rahman"
-	portrait_path = "gfx/leaders/Arabia/generic_leader_sultan_13.dds"
+	portrait_path = "gfx/charactersArabia/generic_leader_sultan_13.dds"
 	id = 2022
 	traits = {
 	cavalry_officer}
@@ -146,7 +146,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Joseph de Saulty"
-	portrait_path = "gfx/leaders/FRA/Portrait_France_Generic_land_5.dds"
+	portrait_path = "gfx/charactersFRA/Portrait_France_Generic_land_5.dds"
 	id = 2024
 	traits = {
 	bearer_of_artillery
@@ -160,7 +160,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Ahmed ibn Abd al Rahman"
-	portrait_path = "gfx/leaders/Arabia/generic_leader_sultan_7.dds"
+	portrait_path = "gfx/charactersArabia/generic_leader_sultan_7.dds"
 	id = 2025
 	traits = { }
 	skill = 1
@@ -172,7 +172,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Mahdi ibn Mohammed"
-	portrait_path = "gfx/leaders/Arabia/generic_leader_sultan_11.dds"
+	portrait_path = "gfx/charactersArabia/generic_leader_sultan_11.dds"
 	id = 2023
 	traits = { }
 	skill = 1

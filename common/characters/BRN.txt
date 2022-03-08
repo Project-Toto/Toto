@@ -3,10 +3,10 @@ characters={
 		name="Sidi Muhammad wuld Muhammad"
 		portraits={
 			civilian={
-				large="gfx/characters/Arabia/generic_leader_sultan_10.png"
+				large="gfx/characters/_Maghreb/Portrait_Arabia_Generic_3.png"
 			}
 			army={
-				large="gfx/characters/Arabia/generic_leader_sultan_10.png"
+				large="gfx/characters/_Maghreb/Portrait_Arabia_Generic_3.png"
 			}
 		}
 		country_leader={

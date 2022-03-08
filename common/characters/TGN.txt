@@ -3,10 +3,10 @@ characters={
 		name="Bakkar ibn Suwaydi Ahmad"
 		portraits={
 			civilian={
-				large="gfx/characters/Africa/generic_islamic_ruler_1.png"
+				large="gfx/characters/_Africa/Portrait_Africa_Generic_15.png"
 			}
 			army={
-				large="gfx/characters/Africa/generic_islamic_ruler_1.png"
+				large="gfx/characters/_Africa/Portrait_Africa_Generic_15.png"
 			}
 		}
 		country_leader={

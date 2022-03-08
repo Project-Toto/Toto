@@ -164,7 +164,7 @@ eoanb_category_economic = {
 
         available = {
 			owns_state = 175
-			175 = { steel_mill > 0 }
+			175 = { building_steel_mill > 0 }
         }
 
         activation = { always = no }

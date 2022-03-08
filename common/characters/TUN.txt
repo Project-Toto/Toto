@@ -17,7 +17,7 @@ characters={
 		}
 		country_leader={
 			desc="POLITICS_MUHAMMAD_II_IBN_AL_HUSAYN"
-			ideology=despotism
+			ideology=traditionalism_absolutism
 			expire="1859.9.20.1"
 			id=-1
 		}
@@ -31,7 +31,7 @@ characters={
 		}
 		country_leader={
 			desc="POLITICS_MUHAMMAD_III_AL_SADIQ"
-			ideology=constit_monarch
+			ideology=traditionalism_parliamentary_monarchy
 			expire="1882.10.27.1"
 			id=-1
 		}

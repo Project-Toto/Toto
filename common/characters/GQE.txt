@@ -1,9 +1,9 @@
 characters={
-	GQE_Adam_Kok_III={
+	GQE_Portrait_Africa_Generic_6={
 		name="Adam Kok III"
 		portraits={
 			civilian={
-				large="gfx/characters/Africa/Adam_Kok_III.png"
+				large="gfx/characters/_Africa/Portrait_Africa_Generic_6.png"
 			}
 		}
 		country_leader={

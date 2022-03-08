@@ -3,7 +3,7 @@ characters={
 		name="Léopold II"
 		portraits={
 			civilian={
-				large="gfx/characters/BEL/Portrait_BEL_Leopold_II.png"
+				large="gfx/characters/BEL/Portrait_BEL_Leopold_II_Saxe_Colberg.png"
 			}
 		}
 		country_leader={

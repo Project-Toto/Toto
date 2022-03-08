@@ -3,10 +3,10 @@ characters={
 		name="Sid Ormar ag Malik"
 		portraits={
 			civilian={
-				large="gfx/characters/Arabia/Tuareg_Generic_2.png"
+				large="gfx/characters/_Maghreb/Portrait_Arabia_Generic_10.png"
 			}
 			army={
-				large="gfx/characters/Arabia/Tuareg_Generic_2.png"
+				large="gfx/characters/_Maghreb/Portrait_Arabia_Generic_10.png"
 			}
 		}
 		country_leader={
@@ -28,7 +28,7 @@ characters={
 		name="Al-Hajj Ahmad ag al-hajj Elbekri"
 		portraits={
 			civilian={
-				large="gfx/characters/Arabia/Tuareg_Generic_3.png"
+				large="gfx/characters/_Maghreb/Portrait_Arabia_Generic_11.png"
 			}
 		}
 		country_leader={

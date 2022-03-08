@@ -3,10 +3,10 @@ characters={
 		name="Muteb II a Cikomb"
 		portraits={
 			civilian={
-				large="gfx/characters/Africa/african_generic_6.dds"
+				large="gfx/characters/_Africa/Portrait_Africa_Generic_16.dds"
 			}
 			army={
-				large="gfx/characters/Africa/african_generic_6.dds"
+				large="gfx/characters/_Africa/Portrait_Africa_Generic_16.dds"
 			}
 		}
 		country_leader={

@@ -3,10 +3,10 @@ characters={
 		name="Woldemichael Solomon"
 		portraits={
 			civilian={
-				large="gfx/characters/Arabia/generic_leader_sultan_5.png"
+				large="gfx/characters/_Maghreb/Portrait_Arabia_Generic_5.png"
 			}
 			army={
-				large="gfx/characters/Arabia/generic_leader_sultan_5.png"
+				large="gfx/characters/_Maghreb/Portrait_Arabia_Generic_5.png"
 			}
 		}
 		country_leader={

@@ -3,10 +3,10 @@ characters={
 		name="Ahmed Yusuf"
 		portraits={
 			civilian={
-				large="gfx/characters/Arabia/generic_leader_sultan_4.png"
+				large="gfx/characters/_Maghreb/Portrait_Arabia_Generic_4.png"
 			}
 			army={
-				large="gfx/characters/Arabia/generic_leader_sultan_4.png"
+				large="gfx/characters/_Maghreb/Portrait_Arabia_Generic_4.png"
 			}
 		}
 		country_leader={

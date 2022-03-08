@@ -3,10 +3,10 @@ characters={
 		name="Kien Mingi VI"
 		portraits={
 			civilian={
-				large="gfx/characters/Africa/african_generic_4.dds"
+				large="gfx/characters/_Africa/Portrait_Africa_Generic_17.dds"
 			}
 			army={
-				large="gfx/characters/Africa/african_generic_4.dds"
+				large="gfx/characters/_Africa/Portrait_Africa_Generic_17.dds"
 			}
 		}
 		country_leader={

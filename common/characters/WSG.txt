@@ -3,10 +3,10 @@ characters={
 		name="Garaad Aul"
 		portraits={
 			civilian={
-				large="gfx/characters/Arabia/generic_leader_sultan_11.png"
+				large="gfx/characters/_Maghreb/Portrait_Arabia_Generic_20.png"
 			}
 			army={
-				large="gfx/characters/Arabia/generic_leader_sultan_11.png"
+				large="gfx/characters/_Maghreb/Portrait_Arabia_Generic_20.png"
 			}
 		}
 		country_leader={

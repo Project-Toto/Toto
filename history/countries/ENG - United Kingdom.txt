@@ -90,7 +90,7 @@
 	create_country_leader = {
 		name = "Henry Temple"
 		desc = "POLITICS_GEORGE_V_DESC"
-		picture = "gfx/leaders/Africa/Portrait_African_Generic_18.dds"
+		picture = "gfx/charactersAfrica/Portrait_African_Generic_18.dds"
 		expire = "1900.1.1"
 		ideology = reformism_parlaimentary_monarchy
 		traits = { }

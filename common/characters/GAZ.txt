@@ -3,10 +3,10 @@ characters={
 		name="Soshangane kaZikode"
 		portraits={
 			civilian={
-				large="gfx/characters/Africa/african_generic_7.dds"
+				large="gfx/characters/_Africa/Portrait_Africa_Generic_18.dds"
 			}
 			army={
-				large="gfx/characters/Africa/african_generic_7.dds"
+				large="gfx/characters/_Africa/Portrait_Africa_Generic_18.dds"
 			}
 		}
 		country_leader={

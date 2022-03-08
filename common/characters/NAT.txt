@@ -3,7 +3,7 @@ characters={
 		name="John Scott"
 		portraits={
 			civilian={
-				large="gfx/characters/Africa/Portrait_NAT_John_Scott.png"
+				large="gfx/characters/_Africa/Portrait_NAT_John_Scott.png"
 			}
 		}
 		country_leader={

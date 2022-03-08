@@ -3,10 +3,10 @@ characters={
 		name="Muhammad wuld `Umar al-Habib"
 		portraits={
 			civilian={
-				large="gfx/characters/Arabia/generic_leader_sultan_2.png"
+				large="gfx/characters/_Maghreb/Portrait_Arabia_Generic_2.png"
 			}
 			army={
-				large="gfx/characters/Arabia/generic_leader_sultan_2.png"
+				large="gfx/characters/_Maghreb/Portrait_Arabia_Generic_2.png"
 			}
 		}
 		country_leader={
