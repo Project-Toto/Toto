@@ -4,12 +4,12 @@
 	oob = "MOM_1857"
 
 	set_convoys = 0
-	
+
 	set_research_slots = 1
 
-	add_ideas = { 
-		#POLITICS 
-			
+	add_ideas = {
+		#POLITICS
+
 		hos_is_leader
 		pre_industrial_era
 		agrarian
@@ -44,13 +44,13 @@
 		#sfund_private_ventures_only
 
 				 #NATIONAL SPIRITS
-		
+
 	AF_T_small_kingdom
 	AFR_transatlantic_supplier
-	
+
 	}
-	
-	#Rivals 
+
+	#Rivals
 		set_variable = { rival_country = GLD.id }
 	#Favored
 	set_variable = { most_favoured_country = OMA.id }
@@ -85,7 +85,7 @@ set_popularities = {
 	create_country_leader = {
 	name = "Abdallah Al-Mazrui"
 	desc = "POLITICS_GEORGE_V_DESC"
-	picture = "gfx/charactersArabia/generic_leader_sultan_2.dds"
+	picture = "gfx/characters/Arabia/generic_leader_sultan_2.dds"
 	expire = "1900.1.1"
 	ideology = despotism
 	traits = {

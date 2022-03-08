@@ -4,12 +4,12 @@
 	oob = "Africa_1857"
 
 	set_convoys = 0
-	
+
 	set_research_slots = 1
 
-	add_ideas = { 
-		#POLITICS 
-			
+	add_ideas = {
+		#POLITICS
+
 		hos_is_leader
 		pre_industrial_era
 		agrarian
@@ -17,7 +17,7 @@
 		absolute_monarchy
 	religion_animist
 	law_army_tribal_basic
-	
+
 		civilian_economy
 		closed_economy
 		one_percent
@@ -45,7 +45,7 @@
 		#sfund_private_ventures_only
 
 				 #NATIONAL SPIRITS
-		
+
 	AF_T_small_kingdom
 	AFR_history_of_colonial_resistance_1
 
@@ -54,10 +54,10 @@
 		 declare_war_on = {
 		target = ROZ
 		type = annex_everything
-	} 
+	}
 
 
-	#Rivals 
+	#Rivals
 		set_variable = { rival_country = ROZ.id }
 
 NDE = {
@@ -102,7 +102,7 @@ set_technology = {
 	create_country_leader = {
 	name = "Mzilikazi Khumalo"
 	desc = "POLITICS_GEORGE_V_DESC"
-	picture = "gfx/charactersAfrica/generic_leader_tribe_1.dds"
+	picture = "gfx/characters/Africa/generic_leader_tribe_1.dds"
 	expire = "1900.1.1"
 	ideology = despotism
 	traits = {

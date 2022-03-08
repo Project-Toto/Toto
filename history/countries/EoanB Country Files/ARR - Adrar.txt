@@ -86,7 +86,7 @@
 	create_country_leader = {
 		name = "Sidi Ahmad wuld `Ayda"
 		desc = "POLITICS_TEMP_DESC"
-		picture = "gfx/charactersAfrica/Portrait_Africa_Generic_1.dds"
+		picture = "gfx/characters/Africa/Portrait_Africa_Generic_1.dds"
 		expire = 1891.12.31
 		ideology = despotism
 	}

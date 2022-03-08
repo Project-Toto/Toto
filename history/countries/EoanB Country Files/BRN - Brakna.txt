@@ -4,12 +4,12 @@
   oob = "Africa_1857"
 
   set_convoys = 0
-  
+
   set_research_slots = 1
 
-  add_ideas = { 
-    #POLITICS 
-      
+  add_ideas = {
+    #POLITICS
+
     hos_is_leader
     pre_industrial_era
     agrarian
@@ -44,12 +44,12 @@
     #sfund_private_ventures_only
 
          #NATIONAL SPIRITS
-    
+
   AF_T_small_kingdom
-    
+
   }
-  
-  #Rivals 
+
+  #Rivals
 	set_variable = { rival_country = FTJ.id }
 
   set_politics = {
@@ -89,7 +89,7 @@ set_popularities = {
   create_country_leader = {
     name = "Sidi Muhammad wuld Muhammad"
     desc = "POLITICS_TEMP_DESC"
-    picture = "gfx/charactersArabia/tuareg_generic_1.dds"
+    picture = "gfx/characters/Arabia/tuareg_generic_1.dds"
     expire = 1891.12.31
     ideology = despotism
   }

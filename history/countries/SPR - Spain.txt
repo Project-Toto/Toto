@@ -85,7 +85,7 @@
 	create_country_leader = {
 		name = "Ramón María Narváez"
 		desc = "POLITICS_GEORGE_V_DESC"
-		picture = "gfx/charactersAfrica/Portrait_African_Generic_18.dds"
+		picture = "gfx/characters/Africa/Portrait_African_Generic_18.dds"
 		expire = "1900.1.1"
 		ideology = traditionalism_parliamentary_monarchy
 		traits = { }

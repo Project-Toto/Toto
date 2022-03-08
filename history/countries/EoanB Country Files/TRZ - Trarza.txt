@@ -5,13 +5,13 @@
 
 	set_convoys = 0
 	add_equipment_to_stockpile = { type = infantry_equipment_rifle_0 amount = 1000 producer = TRZ }
-	add_equipment_to_stockpile = { type = uniform_equipment_0 amount = 1000 producer = TRZ } 
- 
+	add_equipment_to_stockpile = { type = uniform_equipment_0 amount = 1000 producer = TRZ }
+
  set_research_slots = 1
 
-	add_ideas = { 
-		#POLITICS 
-			
+	add_ideas = {
+		#POLITICS
+
 		hos_is_leader
 		pre_industrial_era
 		agrarian
@@ -46,13 +46,13 @@
 		#sfund_private_ventures_only
 
 				 #NATIONAL SPIRITS
-		
+
 	AF_T_small_kingdom
 	AFR_history_of_colonial_resistance
-	
+
 	}
-	
-	#Rivals 
+
+	#Rivals
 	set_variable = { rival_country = SNG.id }
 
 	set_politics = {
@@ -92,7 +92,7 @@ set_popularities = {
 	create_country_leader = {
 		name = "Muhammad wuld `Umar al-Habib "
 		desc = "POLITICS_TEMP_DESC"
-		picture = "gfx/charactersAfrica/African_Generic_13.dds"
+		picture = "gfx/characters/Africa/African_Generic_13.dds"
 		expire = 1891.12.31
 		ideology = despotism
 	}
