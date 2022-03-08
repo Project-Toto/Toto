@@ -1,0 +1,639 @@
+
+technologies = {
+	# General X-Level Tree Placement (Years)
+		@1000 = 2
+		@1150 = 6
+		@1400 = 8
+		@1650 = 12
+		@1800 = 16
+		@1820 = 20
+		@1840 = 24
+		@1845 = 28
+		@1850 = 32
+		@1855 = 36
+		@1860 =	40
+		@1862 = 42
+		@1864 = 44
+		@1865 = 46
+		@1868 = 48
+		@1870 = 50
+		@1872 = 52
+		@1874 = 54
+		@1875 = 56
+		@1876 = 58
+		@1878 = 60
+		@1880 = 62
+		@1882 = 64
+		@1885 = 66
+		@1888 = 68
+		@1890 = 70
+		@1892 = 72
+		@1895 = 74
+		@1898 = 76
+		@1900 = 78
+		@1902 = 80
+		@1905 = 82
+		@1909 = 84
+		@1912 = 86
+		@1914 = 88
+		@1915 = 90
+		@1916 = 92
+		@1917 = 94
+		@1918 = 96
+		@1920 = 98
+		@1924 = 100
+		@1930 = 104
+		@1936 = 108
+
+	# General Y-Level Tree Placement (Types)
+		# 0 - Melee Arms
+		# 2 - Secondaries (Shields, Knives, etc.)
+		# 4 - Main Ranged Arms
+		# 6 - Arms Development
+		# 8 - Uniforms
+		# 10 - Cavalry
+		# 11 - Camels
+
+### Melee Equipment ###
+	melee_arms_weapons_0 = {
+		allowed = { always = yes }
+
+		folder = {
+			tech_folder_army_infantry
+			position = { x = 0 y = 0 }
+		}
+
+		path = {
+			leads_to_tech = melee_arms_weapons_1
+		}
+
+		start_year = 1000
+		research_cost = 1
+
+		categories = {
+			infantry_weapons_tech
+			melee_weapons_tech
+			spear_weapons_tech
+		}
+
+		enable_equipments = {
+			melee_arms_equipment_0
+		}
+
+		enable_subunits = {
+			tribal_warrior_levy
+			tribal_warrior
+		}
+
+		supply_consumption_factor = 0.05
+
+		ai_will_do = {
+			base = 100
+		}
+	}
+
+	melee_arms_weapons_1 = {
+		allowed = { always = yes }
+
+		folder = {
+			tech_folder_army_infantry
+			position = { x = @1150 y = 0 }
+		}
+
+		dependencies = {
+			melee_arms_weapons_0 = 1
+		}
+
+		path = {
+			leads_to_tech = melee_arms_weapons_2
+		}
+
+		start_year = 1150
+		research_cost = 1
+
+		categories = {
+			infantry_weapons_tech
+			melee_weapons_tech
+			spear_weapons_tech
+		}
+
+		enable_equipments = {
+			melee_arms_equipment_1
+		}
+
+		supply_consumption_factor = 0.05
+
+		ai_will_do = {
+			base = 100
+		}
+	}
+
+	melee_arms_weapons_2 = {
+		allowed = { always = yes }
+
+		folder = {
+			tech_folder_army_infantry
+			position = { x = @1300 y = 0 }
+		}
+
+		dependencies = {
+			melee_arms_weapons_1 = 1
+		}
+
+		path = {
+			leads_to_tech = melee_arms_weapons_3
+		}
+
+		start_year = 1300
+		research_cost = 2
+
+		categories = {
+			infantry_weapons_tech
+			melee_weapons_tech
+			spear_weapons_tech
+		}
+
+		enable_equipments = {
+			melee_arms_equipment_2
+		}
+
+		supply_consumption_factor = 0.05
+
+		ai_will_do = {
+			base = 100
+		}
+	}
+
+	melee_arms_weapons_3 = {
+		allowed = { always = yes }
+
+		folder = {
+			tech_folder_army_infantry
+			position = { x = @1450 y = 0 }
+		}
+
+		dependencies = {
+			melee_arms_weapons_2 = 1
+		}
+
+		path = {
+			leads_to_tech = melee_arms_weapons_4
+		}
+
+		start_year = 1450
+		research_cost = 3
+
+		categories = {
+			infantry_weapons_tech
+			melee_weapons_tech
+			blade_weapons_tech
+		}
+
+		enable_equipments = {
+			melee_arms_equipment_3
+		}
+
+		supply_consumption_factor = 0.05
+
+		ai_will_do = {
+			base = 100
+		}
+	}
+
+	melee_arms_weapons_4 = {
+		allowed = { always = yes }
+
+		folder = {
+			tech_folder_army_infantry
+			position = { x = @1600 y = 0 }
+		}
+
+		dependencies = {
+			melee_arms_weapons_3 = 1
+		}
+
+		path = {
+			leads_to_tech = melee_arms_weapons_5
+		}
+
+		start_year = 1450
+		research_cost = 3
+
+		categories = {
+			infantry_weapons_tech
+			melee_weapons_tech
+			blade_weapons_tech
+		}
+
+		enable_equipments = {
+			melee_arms_equipment_4
+		}
+
+		supply_consumption_factor = 0.05
+
+		ai_will_do = {
+			base = 100
+		}
+	}
+
+	melee_arms_weapons_5 = {
+		allowed = { always = yes }
+
+		folder = {
+			tech_folder_army_infantry
+			position = { x = @1800 y = 0 }
+		}
+
+		dependencies = {
+			melee_arms_weapons_4 = 1
+		}
+
+		path = {
+			leads_to_tech = melee_arms_weapons_6
+		}
+
+		start_year = 1450
+		research_cost = 3
+
+		categories = {
+			infantry_weapons_tech
+			melee_weapons_tech
+			blade_weapons_tech
+		}
+
+		enable_equipments = {
+			melee_arms_equipment_5
+		}
+
+		supply_consumption_factor = 0.05
+
+		ai_will_do = {
+			base = 100
+		}
+	}
+
+### Ranged Equipment ###
+
+	ranged_arms_weapons_0 = {
+		allowed = { always = yes }
+
+		folder = {
+			tech_folder_army_infantry
+			position = { x = @1000 y = 4 }
+		}
+
+		dependencies = {
+			# none
+		}
+
+		path = {
+			leads_to_tech = ranged_arms_weapons_1
+		}
+
+		start_year = 1000
+		research_cost = 1
+
+		categories = {
+			infantry_weapons_tech
+			ranged_weapons_tech
+			bow_weapons_tech
+		}
+
+		enable_equipments = {
+			ranged_arms_equipment_0
+		}
+
+		enable_subunits = {
+			tribal_archer_levy
+			tribal_archer
+		}
+
+		supply_consumption_factor = 0.05
+
+		ai_will_do = {
+			base = 100
+		}
+	}
+
+	ranged_arms_weapons_1 = {
+		allowed = { always = yes }
+
+		folder = {
+			tech_folder_army_infantry
+			position = { x = @1150 y = 4 }
+		}
+
+		dependencies = {
+			ranged_arms_weapons_0 = 1
+		}
+
+		path = {
+			leads_to_tech = ranged_arms_weapons_2
+		}
+
+		start_year = 1150
+		research_cost = 1
+
+		categories = {
+			infantry_weapons_tech
+			ranged_weapons_tech
+			bow_weapons_tech
+		}
+
+		enable_equipments = {
+			ranged_arms_equipment_1
+		}
+
+		supply_consumption_factor = 0.05
+
+		ai_will_do = {
+			base = 100
+		}
+	}
+
+	ranged_arms_weapons_2 = {
+		allowed = { always = yes }
+
+		folder = {
+			tech_folder_army_infantry
+			position = { x = @1300 y = 4 }
+		}
+
+		dependencies = {
+			ranged_arms_weapons_1 = 1
+		}
+
+		path = {
+			leads_to_tech = ranged_arms_weapons_3
+		}
+
+		start_year = 1300
+		research_cost = 2
+
+		categories = {
+			infantry_weapons_tech
+			ranged_weapons_tech
+			bow_weapons_tech
+		}
+
+		enable_equipments = {
+			ranged_arms_equipment_2
+		}
+
+		supply_consumption_factor = 0.05
+
+		ai_will_do = {
+			base = 100
+		}
+	}
+
+	ranged_arms_weapons_3 = {
+		allowed = { always = yes }
+
+		folder = {
+			tech_folder_army_infantry
+			position = { x = @1450 y = 4 }
+		}
+
+		dependencies = {
+			ranged_arms_weapons_2 = 1
+		}
+
+		path = {
+			leads_to_tech = ranged_arms_weapons_4
+		}
+
+		start_year = 1450
+		research_cost = 3
+
+		categories = {
+			infantry_weapons_tech
+			ranged_weapons_tech
+			musket_weapons_tech
+		}
+
+		enable_equipments = {
+			ranged_arms_equipment_3
+		}
+
+		supply_consumption_factor = 0.05
+
+		ai_will_do = {
+			base = 100
+		}
+	}
+
+	ranged_arms_weapons_4 = {
+		allowed = { always = yes }
+
+		folder = {
+			tech_folder_army_infantry
+			position = { x = @1600 y = 4 }
+		}
+
+		dependencies = {
+			ranged_arms_weapons_3 = 1
+		}
+
+		path = {
+			leads_to_tech = ranged_arms_weapons_5
+		}
+
+		start_year = 1450
+		research_cost = 3
+
+		categories = {
+			infantry_weapons_tech
+			ranged_weapons_tech
+			musket_weapons_tech
+		}
+
+		enable_equipments = {
+			ranged_arms_equipment_4
+		}
+
+		supply_consumption_factor = 0.05
+
+		ai_will_do = {
+			base = 100
+		}
+	}
+
+	ranged_arms_weapons_5 = {
+		allowed = { always = yes }
+
+		folder = {
+			tech_folder_army_infantry
+			position = { x = @1800 y = 4 }
+		}
+
+		dependencies = {
+			ranged_arms_weapons_4 = 1
+		}
+
+		path = {
+			leads_to_tech = ranged_arms_weapons_6
+		}
+
+		start_year = 1450
+		research_cost = 3
+
+		categories = {
+			infantry_weapons_tech
+			ranged_weapons_tech
+			musket_weapons_tech
+		}
+
+		enable_equipments = {
+			ranged_arms_equipment_5
+		}
+
+		supply_consumption_factor = 0.05
+
+		ai_will_do = {
+			base = 100
+		}
+	}
+
+### Uniform Equipment ###
+
+	uniforms_0 = {
+		allowed = { always = yes }
+
+		folder = {
+			tech_folder_army_infantry
+			position = { x = @1000 y = 8 }
+		}
+
+		dependencies = {
+			# none
+		}
+
+		path = {
+			leads_to_tech = uniforms_1
+		}
+
+		start_year = 1000
+		research_cost = 1
+
+		categories = {
+			utility_weapons_tech
+			uniforms_tech
+		}
+
+		enable_equipments = {
+			uniform_equipment_0
+		}
+
+		supply_consumption_factor = 0.05
+
+		ai_will_do = {
+			base = 100
+		}
+	}
+
+	uniforms_1 = {
+		allowed = { always = yes }
+
+		folder = {
+			tech_folder_army_infantry
+			position = { x = @1300 y = 8 }
+		}
+
+		dependencies = {
+			uniforms_0
+		}
+
+		path = {
+			leads_to_tech = uniforms_2
+		}
+
+		start_year = 1300
+		research_cost = 1
+
+		categories = {
+			utility_weapons_tech
+			uniforms_tech
+		}
+
+		enable_equipments = {
+			uniform_equipment_1
+		}
+
+		supply_consumption_factor = 0.05
+
+		ai_will_do = {
+			base = 100
+		}
+	}
+
+	uniforms_2 = {
+		allowed = { always = yes }
+
+		folder = {
+			tech_folder_army_infantry
+			position = { x = @1600 y = 8 }
+		}
+
+		dependencies = {
+			# none
+		}
+
+		path = {
+			leads_to_tech = uniforms_3
+		}
+
+		start_year = 1000
+		research_cost = 1
+
+		categories = {
+			utility_weapons_tech
+			uniforms_tech
+		}
+
+		enable_equipments = {
+			uniform_equipment_2
+		}
+
+		supply_consumption_factor = 0.05
+
+		ai_will_do = {
+			base = 100
+		}
+	}
+
+	uniforms_3 = {
+		allowed = { always = yes }
+
+		folder = {
+			tech_folder_army_infantry
+			position = { x = @1800 y = 8 }
+		}
+
+		dependencies = {
+			uniforms_2
+		}
+
+		path = {
+			leads_to_tech = uniforms_4
+		}
+
+		start_year = 1800
+		research_cost = 1
+
+		categories = {
+			utility_weapons_tech
+			uniforms_tech
+		}
+
+		enable_equipments = {
+			uniform_equipment_3
+		}
+
+		supply_consumption_factor = 0.05
+
+		ai_will_do = {
+			base = 100
+		}
+	}
+}
