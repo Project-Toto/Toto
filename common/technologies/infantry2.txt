@@ -1,13 +1,14 @@
 
 technologies = {
-	# General X-Level Tree Placement (Years)
+	# General Y-Level Tree Placement (Years)
 		@1000 = 2
 		@1150 = 6
-		@1400 = 8
-		@1650 = 12
-		@1800 = 16
-		@1820 = 20
-		@1840 = 24
+		@1300 = 10
+		@1450 = 14
+		@1600 = 18
+		@1800 = 22
+		@1820 = 26
+		@1840 = 30
 		@1845 = 28
 		@1850 = 32
 		@1855 = 36
@@ -45,7 +46,7 @@ technologies = {
 		@1930 = 104
 		@1936 = 108
 
-	# General Y-Level Tree Placement (Types)
+	# General X-Level Tree Placement (Types)
 		# 0 - Melee Arms
 		# 2 - Secondaries (Shields, Knives, etc.)
 		# 4 - Main Ranged Arms
@@ -56,11 +57,11 @@ technologies = {
 
 ### Melee Equipment ###
 	melee_arms_weapons_0 = {
-		allowed = { always = yes }
+		allow = { always = yes }
 
 		folder = {
-			tech_folder_army_infantry
-			position = { x = 0 y = 0 }
+			name = tech_folder_army_infantry
+			position = { x = 2 y = @1000 }
 		}
 
 		path = {
@@ -93,11 +94,11 @@ technologies = {
 	}
 
 	melee_arms_weapons_1 = {
-		allowed = { always = yes }
+		allow = { always = yes }
 
 		folder = {
-			tech_folder_army_infantry
-			position = { x = @1150 y = 0 }
+			name = tech_folder_army_infantry
+			position = { x = 2 y = @1150 }
 		}
 
 		dependencies = {
@@ -129,11 +130,11 @@ technologies = {
 	}
 
 	melee_arms_weapons_2 = {
-		allowed = { always = yes }
+		allow = { always = yes }
 
 		folder = {
-			tech_folder_army_infantry
-			position = { x = @1300 y = 0 }
+			name = tech_folder_army_infantry
+			position = { x = 2 y = @1300 }
 		}
 
 		dependencies = {
@@ -165,11 +166,11 @@ technologies = {
 	}
 
 	melee_arms_weapons_3 = {
-		allowed = { always = yes }
+		allow = { always = yes }
 
 		folder = {
-			tech_folder_army_infantry
-			position = { x = @1450 y = 0 }
+			name = tech_folder_army_infantry
+			position = { x = 2 y = @1450 }
 		}
 
 		dependencies = {
@@ -201,11 +202,11 @@ technologies = {
 	}
 
 	melee_arms_weapons_4 = {
-		allowed = { always = yes }
+		allow = { always = yes }
 
 		folder = {
-			tech_folder_army_infantry
-			position = { x = @1600 y = 0 }
+			name = tech_folder_army_infantry
+			position = { x = 2 y = @1600 }
 		}
 
 		dependencies = {
@@ -216,7 +217,7 @@ technologies = {
 			leads_to_tech = melee_arms_weapons_5
 		}
 
-		start_year = 1450
+		start_year = 1600
 		research_cost = 3
 
 		categories = {
@@ -237,11 +238,11 @@ technologies = {
 	}
 
 	melee_arms_weapons_5 = {
-		allowed = { always = yes }
+		allow = { always = yes }
 
 		folder = {
-			tech_folder_army_infantry
-			position = { x = @1800 y = 0 }
+			name = tech_folder_army_infantry
+			position = { x = 2 y = @1800 }
 		}
 
 		dependencies = {
@@ -252,7 +253,7 @@ technologies = {
 			leads_to_tech = melee_arms_weapons_6
 		}
 
-		start_year = 1450
+		start_year = 1800
 		research_cost = 3
 
 		categories = {
@@ -275,11 +276,11 @@ technologies = {
 ### Ranged Equipment ###
 
 	ranged_arms_weapons_0 = {
-		allowed = { always = yes }
+		allow = { always = yes }
 
 		folder = {
-			tech_folder_army_infantry
-			position = { x = @1000 y = 4 }
+			name = tech_folder_army_infantry
+			position = { x = 6 y = @1000 }
 		}
 
 		dependencies = {
@@ -316,11 +317,11 @@ technologies = {
 	}
 
 	ranged_arms_weapons_1 = {
-		allowed = { always = yes }
+		allow = { always = yes }
 
 		folder = {
-			tech_folder_army_infantry
-			position = { x = @1150 y = 4 }
+			name = tech_folder_army_infantry
+			position = { x = 6 y = @1150 }
 		}
 
 		dependencies = {
@@ -352,11 +353,11 @@ technologies = {
 	}
 
 	ranged_arms_weapons_2 = {
-		allowed = { always = yes }
+		allow = { always = yes }
 
 		folder = {
-			tech_folder_army_infantry
-			position = { x = @1300 y = 4 }
+			name = tech_folder_army_infantry
+			position = { x = 6 y = @1300 }
 		}
 
 		dependencies = {
@@ -388,11 +389,11 @@ technologies = {
 	}
 
 	ranged_arms_weapons_3 = {
-		allowed = { always = yes }
+		allow = { always = yes }
 
 		folder = {
-			tech_folder_army_infantry
-			position = { x = @1450 y = 4 }
+			name = tech_folder_army_infantry
+			position = { x = 6 y = @1450 }
 		}
 
 		dependencies = {
@@ -424,11 +425,11 @@ technologies = {
 	}
 
 	ranged_arms_weapons_4 = {
-		allowed = { always = yes }
+		allow = { always = yes }
 
 		folder = {
-			tech_folder_army_infantry
-			position = { x = @1600 y = 4 }
+			name = tech_folder_army_infantry
+			position = { x = 6 y = @1600 }
 		}
 
 		dependencies = {
@@ -439,7 +440,7 @@ technologies = {
 			leads_to_tech = ranged_arms_weapons_5
 		}
 
-		start_year = 1450
+		start_year = 1600
 		research_cost = 3
 
 		categories = {
@@ -460,11 +461,11 @@ technologies = {
 	}
 
 	ranged_arms_weapons_5 = {
-		allowed = { always = yes }
+		allow = { always = yes }
 
 		folder = {
-			tech_folder_army_infantry
-			position = { x = @1800 y = 4 }
+			name = tech_folder_army_infantry
+			position = { x = 6 y = @1800 }
 		}
 
 		dependencies = {
@@ -475,7 +476,7 @@ technologies = {
 			leads_to_tech = ranged_arms_weapons_6
 		}
 
-		start_year = 1450
+		start_year = 1800
 		research_cost = 3
 
 		categories = {
@@ -498,15 +499,11 @@ technologies = {
 ### Uniform Equipment ###
 
 	uniforms_0 = {
-		allowed = { always = yes }
+		allow = { always = yes }
 
 		folder = {
-			tech_folder_army_infantry
-			position = { x = @1000 y = 8 }
-		}
-
-		dependencies = {
-			# none
+			name = tech_folder_army_infantry
+			position = { x = 12 y = @1000 }
 		}
 
 		path = {
@@ -533,15 +530,15 @@ technologies = {
 	}
 
 	uniforms_1 = {
-		allowed = { always = yes }
+		allow = { always = yes }
 
 		folder = {
-			tech_folder_army_infantry
-			position = { x = @1300 y = 8 }
+			name = tech_folder_army_infantry
+			position = { x = 12 y = @1300 }
 		}
 
 		dependencies = {
-			uniforms_0
+			uniforms_0 = 1
 		}
 
 		path = {
@@ -568,22 +565,22 @@ technologies = {
 	}
 
 	uniforms_2 = {
-		allowed = { always = yes }
+		allow = { always = yes }
 
 		folder = {
-			tech_folder_army_infantry
-			position = { x = @1600 y = 8 }
+			name = tech_folder_army_infantry
+			position = { x = 12 y = @1600 }
 		}
 
 		dependencies = {
-			# none
+			uniforms_1 = 1
 		}
 
 		path = {
 			leads_to_tech = uniforms_3
 		}
 
-		start_year = 1000
+		start_year = 1600
 		research_cost = 1
 
 		categories = {
@@ -603,15 +600,15 @@ technologies = {
 	}
 
 	uniforms_3 = {
-		allowed = { always = yes }
+		allow = { always = yes }
 
 		folder = {
-			tech_folder_army_infantry
-			position = { x = @1800 y = 8 }
+			name = tech_folder_army_infantry
+			position = { x = 12 y = @1800 }
 		}
 
 		dependencies = {
-			uniforms_2
+			uniforms_2 = 1
 		}
 
 		path = {

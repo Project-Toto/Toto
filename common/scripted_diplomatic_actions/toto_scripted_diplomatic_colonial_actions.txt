@@ -32,7 +32,7 @@ scripted_diplomatic_actions = {
 
 		# reset_recieve_effect = {
 			# idk lol
-		}
+		#}
 
 		can_be_sent = {
 			# Send button disabled if no
@@ -87,7 +87,7 @@ scripted_diplomatic_actions = {
 
 		# reset_recieve_effect = {
 			# idk lol
-		}
+		#}
 
 		can_be_sent = {
 			# Send button disabled if no

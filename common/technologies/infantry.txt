@@ -72,47 +72,6 @@ technologies = {
 	#24   -   Mountaineers
 	#26   -   Shock Troops
 
-
-
-
-	#### Main Equipmentfeudal_infantry
-	melee_arms_weapons = {
-		allowed = { always = yes }
-
-		folder = {
-			tech_folder_army_infantry
-			position = { x = 0 y = 0 }
-		}
-
-		path = {
-			leads_to_tech = melee_arms_weapons_1
-		}
-
-		start_year = 1000
-		research_cost = 1
-
-		categories = {
-			infantry_weapons_tech
-			melee_weapons_tech
-			spear_weapons_tech
-		}
-
-		enable_equipments = {
-			melee_arms_equipment_0
-		}
-
-		enable_subunits = {
-			tribal_warrior_levy
-			tribal_warrior
-		}
-
-		supply_consumption_factor = 0.05
-
-		ai_will_do = {
-			base = 100
-		}
-	}
-
 	traditional_mixed_arms = {
 
 		supply_consumption_factor = 0.05

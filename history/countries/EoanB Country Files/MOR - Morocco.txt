@@ -108,7 +108,7 @@ set_popularities = {
 	create_country_leader = {
 	name = "Abd al Rahman ibn Hisham"
 	desc = "POLITICS_GEORGE_V_DESC"
-	picture = "Portrait_MOR_Abd_al_Rahman_ibn_Hisham.dds"
+	picture = "gfx/characters/MOR/Portrait_MOR_Abd_al_Rahman_ibn_Hisham.dds"
 	expire = "1859.8.28"
 	ideology = despotism
 	traits = {
@@ -118,7 +118,7 @@ set_popularities = {
 
 create_field_marshal = {
 	name = "Abd al Rahman ibn Hisham"
-	picture = "Portrait_MOR_Abd_al_Rahman_ibn_Hisham.dds"
+	picture = "gfx/characters/MOR/Portrait_MOR_Abd_al_Rahman_ibn_Hisham.dds"
 	id = 2020
 	traits = {
 	old_guard }
@@ -145,7 +145,7 @@ create_field_marshal = {
 
 create_corps_commander = {
 	name = "Abbas ibn Abd al Rahman"
-	portrait_path = "gfx/characters/Arabia/generic_leader_sultan_13.dds"
+	portrait_path = "gfx/characters/_Maghreb/Portrait_Arabia_Generic_2.png"
 	id = 2022
 	traits = {
 	cavalry_officer}
@@ -172,7 +172,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Ahmed ibn Abd al Rahman"
-	portrait_path = "gfx/characters/Arabia/generic_leader_sultan_7.dds"
+	portrait_path = "gfx/characters/_Maghreb/Portrait_Arabia_Generic_19.png"
 	id = 2025
 	traits = { }
 	skill = 1

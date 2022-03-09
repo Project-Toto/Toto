@@ -3,17 +3,10 @@ characters={
 		name="Sekeletu"
 		portraits={
 			civilian={
-<<<<<<< Updated upstream
 				large="gfx/characters/_Africa/Portrait_Africa_Generic_14.dds"
 			}
 			army={
 				large="gfx/characters/_Africa/Portrait_Africa_Generic_14.dds"
-=======
-				large="gfx/characters/_Africa/Portrait_Africa_Generic_18.dds"
-			}
-			army={
-				large="gfx/characters/_Africa/Portrait_Africa_Generic_18.dds"
->>>>>>> Stashed changes
 			}
 		}
 		country_leader={

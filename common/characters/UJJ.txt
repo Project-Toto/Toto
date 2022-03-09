@@ -3,11 +3,7 @@ characters={
 		name="Tribal Council"
 		portraits={
 			civilian={
-<<<<<<< Updated upstream
-				large="gfx/characters/_Africa/generic_leader_tribal_council.dds"
-=======
 				large="gfx/characters/_Africa/generic_leader_tribal_council.png"
->>>>>>> Stashed changes
 			}
 		}
 		country_leader={

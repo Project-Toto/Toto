@@ -3,17 +3,10 @@ characters={
 		name="Ahmad al-Raffa ibn Muhammad Guma"
 		portraits={
 			civilian={
-<<<<<<< Updated upstream
-				large="gfx/characters/_Africa/Portrait_Africa_Generic_27.dds"
+				large="gfx/characters/_Africa/Portrait_Africa_Generic_27.png"
 			}
 			army={
-				large="gfx/characters/_Africa/Portrait_Africa_Generic_27.dds"
-=======
-				large="gfx/characters/_Africa/Portrait_Africa_Generic_17.dds"
-			}
-			army={
-				large="gfx/characters/_Africa/Portrait_Africa_Generic_17.dds"
->>>>>>> Stashed changes
+				large="gfx/characters/_Africa/Portrait_Africa_Generic_27.png"
 			}
 		}
 		country_leader={

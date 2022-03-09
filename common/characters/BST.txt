@@ -3,17 +3,10 @@ characters={
 		name="Hermanus van Wyk"
 		portraits={
 			civilian={
-<<<<<<< Updated upstream
 				large="gfx/characters/_Africa/Portrait_Africa_Generic_11.dds"
 			}
 			army={
 				large="gfx/characters/_Africa/Portrait_Africa_Generic_11.dds"
-=======
-				large="gfx/characters/_Africa/Portrait_Africa_Generic_22.dds"
-			}
-			army={
-				large="gfx/characters/_Africa/Portrait_Africa_Generic_22.dds"
->>>>>>> Stashed changes
 			}
 		}
 		country_leader={

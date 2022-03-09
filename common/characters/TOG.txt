@@ -3,17 +3,10 @@ characters={
 		name="Agomegan"
 		portraits={
 			civilian={
-<<<<<<< Updated upstream
 				large="gfx/characters/_Africa/Portrait_Africa_Generic_30.png"
 			}
 			army={
 				large="gfx/characters/_Africa/Portrait_Africa_Generic_30.png"
-=======
-				large="gfx/characters/_Africa/Portrait_Africa_Generic_17.png"
-			}
-			army={
-				large="gfx/characters/_Africa/Portrait_Africa_Generic_17.png"
->>>>>>> Stashed changes
 			}
 		}
 		country_leader={

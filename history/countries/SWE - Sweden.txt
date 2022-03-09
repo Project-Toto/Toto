@@ -85,7 +85,7 @@
 	create_country_leader = {
 		name = "Oscar I"
 		desc = "POLITICS_GEORGE_V_DESC"
-		picture = "gfx/characters/Africa/Portrait_African_Generic_18.dds"
+		picture = "gfx/characters/_Africa/Portrait_Africa_Generic_18.dds"
 		expire = "1900.1.1"
 		ideology = reformism_absolutism
 		traits = { }

@@ -96,7 +96,7 @@ set_popularities = {
 	create_country_leader = {
 	name = "Abd al Rahman ibn Hisham"
 	desc = "POLITICS_GEORGE_V_DESC"
-	picture = "Portrait_MOR_Abd_al_Rahman_ibn_Hisham.dds"
+	picture = "gfx/characters/MOR/Portrait_MOR_Abd_al_Rahman_ibn_Hisham.dds"
 	expire = "1859.8.28"
 	ideology = traditionalism_absolutism
 	traits = {
@@ -106,7 +106,7 @@ set_popularities = {
 
 create_field_marshal = {
 	name = "Abd al Rahman ibn Hisham"
-	picture = "Portrait_MOR_Abd_al_Rahman_ibn_Hisham.dds"
+	picture = "gfx/characters/MOR/Portrait_MOR_Abd_al_Rahman_ibn_Hisham.dds"
 	id = 2020
 	traits = {
 	old_guard }
@@ -119,7 +119,7 @@ create_field_marshal = {
 
 create_field_marshal = {
 	name = "Muhammad Alawite"
-	picture = "Portrait_MOR_Muhammad_ibn_Abderrahmane.dds"
+	picture = "gfx/characters/MOR/Portrait_MOR_Muhammad_ibn_Abderrahmane.dds"
 	id = 2021
 	traits = {
 	trait_cautious
@@ -133,7 +133,7 @@ create_field_marshal = {
 
 create_corps_commander = {
 	name = "Abbas ibn Abd al Rahman"
-	portrait_path = "gfx/characters/Arabia/generic_leader_sultan_13.dds"
+	portrait_path = "gfx/characters/_Maghreb/Portrait_Arabia_Generic_2.png"
 	id = 2022
 	traits = {
 	cavalry_officer}
@@ -144,23 +144,23 @@ create_corps_commander = {
 	logistics_skill = 3
 }
 
-create_corps_commander = {
-	name = "Joseph de Saulty"
-	portrait_path = "gfx/characters/FRA/Portrait_France_Generic_land_5.dds"
-	id = 2024
-	traits = {
-	bearer_of_artillery
-}
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
+# create_corps_commander = {
+# 	name = "Joseph de Saulty"
+# 	portrait_path = "gfx/characters/FRA/Portrait_France_Generic_land_5.dds"
+# 	id = 2024
+# 	traits = {
+# 	bearer_of_artillery
+# }
+# 	skill = 1
+# 	attack_skill = 1
+# 	defense_skill = 1
+# 	planning_skill = 1
+# 	logistics_skill = 1
+# }
 
 create_corps_commander = {
 	name = "Ahmed ibn Abd al Rahman"
-	portrait_path = "gfx/characters/Arabia/generic_leader_sultan_7.dds"
+	portrait_path = "gfx/characters/_Maghreb/Portrait_Arabia_Generic_19.png"
 	id = 2025
 	traits = { }
 	skill = 1
@@ -172,7 +172,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Mahdi ibn Mohammed"
-	portrait_path = "gfx/characters/Arabia/generic_leader_sultan_11.dds"
+	portrait_path = "gfx/characters/_Maghreb/Portrait_Arabia_Generic_17.png"
 	id = 2023
 	traits = { }
 	skill = 1

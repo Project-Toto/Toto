@@ -3,17 +3,10 @@ characters={
 		name="Mamadu Biran Waan"
 		portraits={
 			civilian={
-<<<<<<< Updated upstream
 				large="gfx/characters/_Africa/Portrait_Africa_Generic_28.png"
 			}
 			army={
 				large="gfx/characters/_Africa/Portrait_Africa_Generic_28.png"
-=======
-				large="gfx/characters/_Africa/Portrait_Africa_Generic_32.png"
-			}
-			army={
-				large="gfx/characters/_Africa/Portrait_Africa_Generic_32.png"
->>>>>>> Stashed changes
 			}
 		}
 		country_leader={

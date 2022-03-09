@@ -72,7 +72,7 @@
 			}
 			set_autonomy = {
 				target = LBA
-				autonomous_state = autonomy_eyalet
+				autonomous_state = autonomy_ottoman_eyalet
 				freedom_level = 0.2
 			}
 		}

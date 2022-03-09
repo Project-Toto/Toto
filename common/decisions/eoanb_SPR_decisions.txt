@@ -355,7 +355,7 @@ SPR_debt_management_category = {
 			}
 		}
 	}
-	
+
 	SPR_foreign_debt_repayments_mission = {
 		icon = money
 		allowed = {
@@ -501,7 +501,7 @@ SPR_debt_management_category = {
 		#cost = 25
 		complete_effect = {
 			custom_effect_tooltip = EGY_afr_decrease_debt_1
-			if = { 
+			if = {
 				limit = { check_variable = { var = USA_debt_repayments_level value = 0 compare = greater_than } }
 				USA_foreign_debt_repayments_decrease_by_1 = yes
 			}
@@ -861,7 +861,7 @@ eoanb_category_economic = {
 					owns_state = 319
 					319 = { OWNER = { is_subject_of = ROOT } }
 				}
-				OR = { 
+				OR = {
 					owns_state = 1318
 					1318 = { OWNER = { is_subject_of = ROOT } }
 				}
@@ -875,9 +875,9 @@ eoanb_category_economic = {
 			debt_not_bankrupt_trigger = yes
 			has_country_flag = SPR_develop_right_hispaniola_flag
 		}
-		allowed = { 
+		allowed = {
 			OR = {
-				tag = SPR 
+				tag = SPR
 				tag = DOM
 			}
 		}
@@ -924,7 +924,7 @@ eoanb_category_economic = {
 			#set_country_flag = SPR_right_hispaniola_has_infrastructure_investments_flag
 		}
 	}
-	
+
 	SPR_develop_left_hispaniola_infrastructure_decision = {
 		icon = generic_construction
 		available = {
@@ -934,7 +934,7 @@ eoanb_category_economic = {
 					owns_state = 790
 					790 = { OWNER = { is_subject_of = ROOT } }
 				}
-				OR = { 
+				OR = {
 					owns_state = 318
 					318 = { OWNER = { is_subject_of = ROOT } }
 				}
@@ -948,9 +948,9 @@ eoanb_category_economic = {
 			debt_not_bankrupt_trigger = yes
 			has_country_flag = SPR_develop_left_hispaniola_flag
 		}
-		allowed = { 
+		allowed = {
 			OR = {
-				tag = SPR 
+				tag = SPR
 				tag = DOM
 			}
 		}
@@ -997,7 +997,7 @@ eoanb_category_economic = {
 			#set_country_flag = SPR_right_hispaniola_has_infrastructure_investments_flag
 		}
 	}
-	
+
 	SPR_develop_puerto_rico_infrastructure_decision = {
 		icon = generic_construction
 		available = {
@@ -1017,9 +1017,9 @@ eoanb_category_economic = {
 			debt_not_bankrupt_trigger = yes
 			has_country_flag = SPR_develop_cuba_and_puerto_rico_flag
 		}
-		allowed = { 
+		allowed = {
 			OR = {
-				tag = SPR 
+				tag = SPR
 				tag = DOM
 			}
 		}
@@ -1082,9 +1082,9 @@ eoanb_category_economic = {
 			debt_not_bankrupt_trigger = yes
 			has_country_flag = SPR_develop_cuba_and_puerto_rico_flag
 		}
-		allowed = { 
+		allowed = {
 			OR = {
-				tag = SPR 
+				tag = SPR
 				tag = DOM
 			}
 		}
@@ -1166,9 +1166,9 @@ eoanb_category_economic = {
 			debt_not_bankrupt_trigger = yes
 			has_country_flag = SPR_invest_in_sugar_trade_flag
 		}
-		allowed = { 
+		allowed = {
 			OR = {
-				tag = SPR 
+				tag = SPR
 				tag = DOM
 			}
 		}
@@ -1252,9 +1252,9 @@ eoanb_category_economic = {
 			debt_not_bankrupt_trigger = yes
 			has_country_flag = SPR_expand_tobacco_plantations_flag
 		}
-		allowed = { 
+		allowed = {
 			OR = {
-				tag = SPR 
+				tag = SPR
 				tag = DOM
 			}
 		}
@@ -1330,9 +1330,9 @@ eoanb_category_economic = {
 			debt_not_bankrupt_trigger = yes
 			has_country_flag = SPR_increase_cattle_land_flag
 		}
-		allowed = { 
+		allowed = {
 			OR = {
-				tag = SPR 
+				tag = SPR
 				tag = DOM
 			}
 		}
@@ -1390,7 +1390,7 @@ eoanb_category_economic = {
 			}
 			custom_trigger_tooltip = {
 				tooltip = SPR_cuba_has_infrastructure_investments_trigger
-				OR = { 
+				OR = {
 					315 = { has_state_flag = SPR_cuba_has_infrastructure_investments_flag }
 					1350 = { has_state_flag = SPR_cuba_has_infrastructure_investments_flag }
 				}
@@ -1404,9 +1404,9 @@ eoanb_category_economic = {
 			debt_not_bankrupt_trigger = yes
 			has_country_flag = SPR_increase_cattle_land_flag
 		}
-		allowed = { 
+		allowed = {
 			OR = {
-				tag = SPR 
+				tag = SPR
 				tag = DOM
 			}
 		}
@@ -1491,9 +1491,9 @@ eoanb_category_economic = {
 			debt_not_bankrupt_trigger = yes
 			has_country_flag = SPR_invest_in_dominican_cattle_flag
 		}
-		allowed = { 
+		allowed = {
 			OR = {
-				tag = SPR 
+				tag = SPR
 				tag = DOM
 			}
 		}
@@ -1548,7 +1548,7 @@ eoanb_category_economic = {
 			1318 = { add_colonial_profits_in_state_by_25 = yes }
 		}
 	}
-	
+
 	SPR_invest_sugar_trade_left_hispaniola_decision = {
 		available = {
 			custom_trigger_tooltip = {
@@ -1557,7 +1557,7 @@ eoanb_category_economic = {
 					owns_state = 790
 					790 = { OWNER = { is_subject_of = ROOT } }
 				}
-				OR = { 
+				OR = {
 					owns_state = 318
 					318 = { OWNER = { is_subject_of = ROOT } }
 				}
@@ -1577,15 +1577,15 @@ eoanb_category_economic = {
 		visible = {
 			debt_not_bankrupt_trigger = yes
 			has_country_flag = SPR_invest_in_sugar_trade_left_hispaniola_flag
-			NOT = { 
+			NOT = {
 				1350 = { has_state_flag = SPR_left_hispaniola_has_sugar_trade_investments_flag }
 				315 = { has_state_flag = SPR_left_hispaniola_has_sugar_trade_investments_flag }
 			}
-			
+
 		}
-		allowed = { 
+		allowed = {
 			OR = {
-				tag = SPR 
+				tag = SPR
 				tag = DOM
 			}
 		}
@@ -1668,14 +1668,14 @@ eoanb_category_economic = {
 		visible = {
 			debt_not_bankrupt_trigger = yes
 			has_country_flag = SPR_expand_tobacco_plantations_flag
-			NOT = { 
+			NOT = {
 				1350 = { has_state_flag = SPR_right_hispaniola_has_tobacco_plantation_investments_flag }
 				315 = { has_state_flag = SPR_right_hispaniola_has_tobacco_plantation_investments_flag }
 			}
 		}
-		allowed = { 
+		allowed = {
 			OR = {
-				tag = SPR 
+				tag = SPR
 				tag = DOM
 			}
 		}

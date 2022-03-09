@@ -3,17 +3,10 @@ characters={
 		name="Ghezo"
 		portraits={
 			civilian={
-<<<<<<< Updated upstream
 				large="gfx/characters/_Africa/Portrait_Africa_Generic_33.png"
 			}
 			army={
 				large="gfx/characters/_Africa/Portrait_Africa_Generic_33.png"
-=======
-				large="gfx/characters/_Africa/Portrait_Africa_Generic_36.png"
-			}
-			army={
-				large="gfx/characters/_Africa/Portrait_Africa_Generic_36.png"
->>>>>>> Stashed changes
 			}
 		}
 		country_leader={

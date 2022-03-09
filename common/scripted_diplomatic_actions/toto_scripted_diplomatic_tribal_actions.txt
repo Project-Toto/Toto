@@ -1,58 +1,58 @@
 scripted_diplomatic_actions = {
-  toto_diplomacy_tribal_raid = {
-    allowed = {
-      # Allowed Tags to Use
-    }
-    visible = {
-      # Visible
-    }
-    selectable = {
-      # Selectable
-    }
+	toto_diplomacy_tribal_raid = {
+		allowed = {
+			# Allowed Tags to Use
+		}
+		visible = {
+			# Visible
+		}
+		selectable = {
+			# Selectable
+		}
 
-    requires_acceptance = yes
-    show_acceptance_on_action_button = yes
+		requires_acceptance = yes
+		show_acceptance_on_action_button = yes
 
-    icon = 1
+		icon = 1
 
-    cost = 0
-    command_power = 0
+		cost = 0
+		command_power = 0
 
-    on_sent_effect = {
-      # runs when the action is sent (accepted or rejected)
-    }
+		on_sent_effect = {
+			# runs when the action is sent (accepted or rejected)
+		}
 
-    complete_effect = {
-      # runs when the action is sent (accepted)
-    }
+		complete_effect = {
+			# runs when the action is sent (accepted)
+		}
 
-    reject_effect = {
-      # runs when the action is sent (rejected)
-    }
+		reject_effect = {
+			# runs when the action is sent (rejected)
+		}
 
-    # reset_recieve_effect = {
-      # idk lol
-    }
+		# reset_recieve_effect = {
+			# idk lol
+		#}
 
-    can_be_sent = {
-      # Send button disabled if no
-    }
+		can_be_sent = {
+			# Send button disabled if no
+		}
 
-    can_be_accepted = {
-      # Accept button disabled if no
-    }
+		can_be_accepted = {
+			# Accept button disabled if no
+		}
 
-    # send_scripted_gui = placeholder
+		# send_scripted_gui = placeholder
 
-    send_description = toto_diplomacy_tribal_raid_sent_tt
+		send_description = toto_diplomacy_tribal_raid_sent_tt
 
-    # recieve_scripted_gui = placeholder
+		# recieve_scripted_gui = placeholder
 
-    # recieve_description = toto_diplomacy_tribal_raid_recieved_tt
+		# recieve_description = toto_diplomacy_tribal_raid_recieved_tt
 
 
-    ai_desire = {
-      base = 0
-    }
-  }
+		ai_desire = {
+			base = 0
+		}
+	}
 }
