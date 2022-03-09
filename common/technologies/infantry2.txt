@@ -630,14 +630,14 @@ technologies = {
 
 		folder = {
 			name = tech_folder_army_infantry
-			position = { x = 8 y = @1858 }
+			position = { x = 8 y = @1860 }
 		}
 
 		dependencies = {
 			ranged_arms_subweapons_5_1 = 1
 		}
 
-		start_year = 1858
+		start_year = 1859
 		research_cost = 0.8
 
 		categories = {
