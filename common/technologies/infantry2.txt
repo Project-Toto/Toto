@@ -133,7 +133,7 @@ technologies = {
 
 		folder = {
 			name = tech_folder_army_infantry
-			position = { x = 2 y = @1300 }
+			position = { x = 2 y = @1450 }
 		}
 
 		dependencies = {
@@ -144,7 +144,7 @@ technologies = {
 			leads_to_tech = melee_arms_weapons_3
 		}
 
-		start_year = 1300
+		start_year = 1450
 		research_cost = 2
 
 		categories = {
@@ -169,7 +169,7 @@ technologies = {
 
 		folder = {
 			name = tech_folder_army_infantry
-			position = { x = 2 y = @1450 }
+			position = { x = 2 y = @1600 }
 		}
 
 		dependencies = {
@@ -180,7 +180,7 @@ technologies = {
 			leads_to_tech = melee_arms_weapons_4
 		}
 
-		start_year = 1450
+		start_year = 1600
 		research_cost = 3
 
 		categories = {
@@ -205,7 +205,7 @@ technologies = {
 
 		folder = {
 			name = tech_folder_army_infantry
-			position = { x = 2 y = @1600 }
+			position = { x = 2 y = @1820 }
 		}
 
 		dependencies = {
@@ -216,7 +216,7 @@ technologies = {
 			leads_to_tech = melee_arms_weapons_5
 		}
 
-		start_year = 1600
+		start_year = 1820
 		research_cost = 3
 
 		categories = {
@@ -241,7 +241,7 @@ technologies = {
 
 		folder = {
 			name = tech_folder_army_infantry
-			position = { x = 2 y = @1800 }
+			position = { x = 2 y = @1845 }
 		}
 
 		dependencies = {
@@ -252,7 +252,7 @@ technologies = {
 			leads_to_tech = melee_arms_weapons_6
 		}
 
-		start_year = 1800
+		start_year = 1845
 		research_cost = 3
 
 		categories = {
@@ -320,7 +320,7 @@ technologies = {
 
 		folder = {
 			name = tech_folder_army_infantry
-			position = { x = 6 y = @1150 }
+			position = { x = 6 y = @1300 }
 		}
 
 		dependencies = {
@@ -331,7 +331,7 @@ technologies = {
 			leads_to_tech = ranged_arms_weapons_2
 		}
 
-		start_year = 1150
+		start_year = 1300
 		research_cost = 1
 
 		categories = {
@@ -356,7 +356,7 @@ technologies = {
 
 		folder = {
 			name = tech_folder_army_infantry
-			position = { x = 6 y = @1300 }
+			position = { x = 6 y = @1450 }
 		}
 
 		dependencies = {
@@ -367,7 +367,7 @@ technologies = {
 			leads_to_tech = ranged_arms_weapons_3
 		}
 
-		start_year = 1300
+		start_year = 1450
 		research_cost = 2
 
 		categories = {
@@ -392,7 +392,7 @@ technologies = {
 
 		folder = {
 			name = tech_folder_army_infantry
-			position = { x = 6 y = @1450 }
+			position = { x = 6 y = @1600 }
 		}
 
 		dependencies = {
@@ -403,7 +403,7 @@ technologies = {
 			leads_to_tech = ranged_arms_weapons_4
 		}
 
-		start_year = 1450
+		start_year = 1600
 		research_cost = 3
 
 		categories = {
@@ -428,7 +428,7 @@ technologies = {
 
 		folder = {
 			name = tech_folder_army_infantry
-			position = { x = 6 y = @1600 }
+			position = { x = 6 y = @1800 }
 		}
 
 		dependencies = {
@@ -436,10 +436,13 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = ranged_arms_weapons_5
+			leads_to_tech = ranged_arms_weapons_4_1
+		}
+		path = {
+			leads_to_tech = ranged_arms_subweapons_4
 		}
 
-		start_year = 1600
+		start_year = 1800
 		research_cost = 3
 
 		categories = {
@@ -459,46 +462,7 @@ technologies = {
 		}
 	}
 
-	ranged_arms_weapons_5 = {
-		allow = { always = yes }
-
-		folder = {
-			name = tech_folder_army_infantry
-			position = { x = 6 y = @1800 }
-		}
-
-		dependencies = {
-			ranged_arms_weapons_4 = 1
-		}
-
-		path = {
-			leads_to_tech = ranged_arms_weapons_5_1
-		}
-		path = {
-			leads_to_tech = ranged_arms_subweapons_5
-		}
-
-		start_year = 1800
-		research_cost = 3
-
-		categories = {
-			infantry_weapons_tech
-			ranged_weapons_tech
-			musket_weapons_tech
-		}
-
-		enable_equipments = {
-			ranged_arms_equipment_5
-		}
-
-		supply_consumption_factor = 0.05
-
-		ai_will_do = {
-			base = 100
-		}
-	}
-
-	ranged_arms_weapons_5_1 = {
+	ranged_arms_weapons_4_1 = {
 		allow = { always = yes }
 
 		folder = {
@@ -507,14 +471,14 @@ technologies = {
 		}
 
 		dependencies = {
-			ranged_arms_weapons_5 = 1
+			ranged_arms_weapons_4 = 1
 		}
 
 		path = {
-			leads_to_tech = ranged_arms_weapons_5_2
+			leads_to_tech = ranged_arms_weapons_4_2
 		}
 		path = {
-			leads_to_tech = ranged_arms_subweapons_5_1
+			leads_to_tech = ranged_arms_subweapons_4_1
 		}
 
 		start_year = 1840
@@ -533,7 +497,7 @@ technologies = {
 		}
 	}
 
-	ranged_arms_weapons_5_2 = {
+	ranged_arms_weapons_4_2 = {
 		allow = { always = yes }
 
 		folder = {
@@ -542,11 +506,11 @@ technologies = {
 		}
 
 		dependencies = {
-			ranged_arms_weapons_5_1 = 1
+			ranged_arms_weapons_4_1 = 1
 		}
 
 		path = {
-			leads_to_tech = ranged_arms_weapons_6
+			leads_to_tech = ranged_arms_weapons_5
 		}
 
 		start_year = 1850
@@ -565,7 +529,7 @@ technologies = {
 		}
 	}
 
-	ranged_arms_subweapons_5 = {
+	ranged_arms_subweapons_4 = {
 		allow = { always = yes }
 
 		folder = {
@@ -574,7 +538,7 @@ technologies = {
 		}
 
 		dependencies = {
-			ranged_arms_weapons_5 = 1
+			ranged_arms_weapons_4 = 1
 		}
 
 		start_year = 1820
@@ -593,20 +557,20 @@ technologies = {
 		}
 	}
 
-	ranged_arms_subweapons_5_1 = {
+	ranged_arms_subweapons_4_1 = {
 		allow = { always = yes }
 
 		folder = {
 			name = tech_folder_army_infantry
-			position = { x = 8 y = @1850 }
+			position = { x = 8 y = @1840 }
 		}
 
 		dependencies = {
-			ranged_arms_weapons_5_1 = 1
+			ranged_arms_weapons_4_1 = 1
 		}
 
 		path = {
-			leads_to_tech = ranged_arms_subweapons_5_2
+			leads_to_tech = ranged_arms_subweapons_4_2
 		}
 
 		start_year = 1850
@@ -625,7 +589,7 @@ technologies = {
 		}
 	}
 
-	ranged_arms_subweapons_5_2 = {
+	ranged_arms_subweapons_4_2 = {
 		allow = { always = yes }
 
 		folder = {
@@ -634,7 +598,7 @@ technologies = {
 		}
 
 		dependencies = {
-			ranged_arms_subweapons_5_1 = 1
+			ranged_arms_subweapons_4_1 = 1
 		}
 
 		start_year = 1859
@@ -653,7 +617,7 @@ technologies = {
 		}
 	}
 
-	ranged_arms_weapons_6 = {
+	ranged_arms_weapons_5 = {
 		allow = { always = yes }
 
 		folder = {
@@ -662,11 +626,11 @@ technologies = {
 		}
 
 		dependencies = {
-			ranged_arms_weapons_5_1 = 1
+			ranged_arms_weapons_4_2 = 1
 		}
 
 		path = {
-			leads_to_tech = ranged_arms_weapons_6_1
+			leads_to_tech = ranged_arms_weapons_5_1
 		}
 
 		start_year = 1858
@@ -679,7 +643,78 @@ technologies = {
 		}
 
 		enable_equipments = {
-			ranged_arms_equipment_6	
+			ranged_arms_equipment_5
+		}
+
+		supply_consumption_factor = 0.05
+
+		ai_will_do = {
+			base = 100
+		}
+	}
+
+	ranged_arms_weapons_5_1 = {
+		allow = { always = yes }
+
+		folder = {
+			name = tech_folder_army_infantry
+			position = { x = 6 y = @1863 }
+		}
+
+		dependencies = {
+			ranged_arms_weapons_5 = 1
+		}
+
+		path = {
+			leads_to_tech = ranged_arms_weapons_6
+		}
+
+		start_year = 1863
+		research_cost = 1
+
+		categories = {
+			infantry_weapons_tech
+			ranged_weapons_tech
+			rifle_weapons_tech
+		}
+
+		supply_consumption_factor = 0.05
+
+		ai_will_do = {
+			base = 100
+		}
+	}
+
+	ranged_arms_weapons_6 = {
+		allow = { always = yes }
+
+		folder = {
+			name = tech_folder_army_infantry
+			position = { x = 6 y = @1865 }
+		}
+
+		dependencies = {
+			ranged_arms_weapons_5_1 = 1
+		}
+
+		path = {
+			leads_to_tech = ranged_arms_weapons_6_1
+		}
+		path = {
+			leads_to_tech = ranged_arms_subweapons_6
+		}
+
+		start_year = 1865
+		research_cost = 1
+
+		categories = {
+			infantry_weapons_tech
+			ranged_weapons_tech
+			rifle_weapons_tech
+		}
+
+		enable_equipments = {
+			ranged_arms_equipment_6
 		}
 
 		supply_consumption_factor = 0.05
@@ -694,7 +729,7 @@ technologies = {
 
 		folder = {
 			name = tech_folder_army_infantry
-			position = { x = 6 y = @1863 }
+			position = { x = 6 y = @1868 }
 		}
 
 		dependencies = {
@@ -702,10 +737,70 @@ technologies = {
 		}
 
 		path = {
+			leads_to_tech = ranged_arms_weapons_6_2
+		}
+
+		start_year = 1868
+		research_cost = 1
+
+		categories = {
+			infantry_weapons_tech
+			ranged_weapons_tech
+			rifle_weapons_tech
+		}
+
+		supply_consumption_factor = 0.05
+
+		ai_will_do = {
+			base = 100
+		}
+	}
+
+	ranged_arms_weapons_6_2 = {
+		allow = { always = yes }
+
+		folder = {
+			name = tech_folder_army_infantry
+			position = { x = 6 y = @1873 }
+		}
+
+		dependencies = {
+			ranged_arms_weapons_6_1 = 1
+		}
+
+		path = {
 			leads_to_tech = ranged_arms_weapons_7
 		}
 
-		start_year = 1863
+		start_year = 1872
+		research_cost = 1
+
+		categories = {
+			infantry_weapons_tech
+			ranged_weapons_tech
+			rifle_weapons_tech
+		}
+
+		supply_consumption_factor = 0.05
+
+		ai_will_do = {
+			base = 100
+		}
+	}
+
+	ranged_arms_subweapons_6 = {
+		allow = { always = yes }
+
+		folder = {
+			name = tech_folder_army_infantry
+			position = { x = 8 y = @1873 }
+		}
+
+		dependencies = {
+			ranged_arms_weapons_6 = 1
+		}
+
+		start_year = 1872
 		research_cost = 1
 
 		categories = {
@@ -726,18 +821,21 @@ technologies = {
 
 		folder = {
 			name = tech_folder_army_infantry
-			position = { x = 6 y = @1865 }
+			position = { x = 6 y = @1875 }
 		}
 
 		dependencies = {
-			ranged_arms_weapons_6_1 = 1
+			ranged_arms_weapons_6_2 = 1
 		}
 
 		path = {
 			leads_to_tech = ranged_arms_weapons_7_1
 		}
+		path = {
+			leads_to_tech = ranged_arms_subweapons_7
+		}
 
-		start_year = 1865
+		start_year = 1875
 		research_cost = 1
 
 		categories = {
@@ -762,7 +860,7 @@ technologies = {
 
 		folder = {
 			name = tech_folder_army_infantry
-			position = { x = 6 y = @1868 }
+			position = { x = 6 y = @1878 }
 		}
 
 		dependencies = {
@@ -770,10 +868,10 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = ranged_arms_weapons_7_2
+			leads_to_tech = ranged_arms_weapons_8
 		}
 
-		start_year = 1868
+		start_year = 1878
 		research_cost = 1
 
 		categories = {
@@ -789,23 +887,19 @@ technologies = {
 		}
 	}
 
-	ranged_arms_weapons_7_2 = {
+	ranged_arms_subweapons_7 = {
 		allow = { always = yes }
 
 		folder = {
 			name = tech_folder_army_infantry
-			position = { x = 6 y = @1873 }
+			position = { x = 8 y = @1880 }
 		}
 
 		dependencies = {
-			ranged_arms_weapons_7_1 = 1
+			ranged_arms_weapons_7 = 1
 		}
 
-		path = {
-			leads_to_tech = ranged_arms_weapons_8
-		}
-
-		start_year = 1872
+		start_year = 1880
 		research_cost = 1
 
 		categories = {
@@ -826,18 +920,18 @@ technologies = {
 
 		folder = {
 			name = tech_folder_army_infantry
-			position = { x = 6 y = @1875 }
+			position = { x = 6 y = @1883 }
 		}
 
 		dependencies = {
-			ranged_arms_weapons_7_2 = 1
+			ranged_arms_weapons_7_1 = 1
 		}
 
 		path = {
 			leads_to_tech = ranged_arms_weapons_8_1
 		}
 
-		start_year = 1875
+		start_year = 1883
 		research_cost = 1
 
 		categories = {
@@ -847,7 +941,78 @@ technologies = {
 		}
 
 		enable_equipments = {
-			ranged_arms_equipment_8
+			ranged_arms_equipment_7
+		}
+
+		supply_consumption_factor = 0.05
+
+		ai_will_do = {
+			base = 100
+		}
+	}
+
+	ranged_arms_weapons_8_1 = {
+		allow = { always = yes }
+
+		folder = {
+			name = tech_folder_army_infantry
+			position = { x = 6 y = @1888 }
+		}
+
+		dependencies = {
+			ranged_arms_weapons_8 = 1
+		}
+
+		path = {
+			leads_to_tech = ranged_arms_weapons_9
+		}
+
+		start_year = 1887
+		research_cost = 1
+
+		categories = {
+			infantry_weapons_tech
+			ranged_weapons_tech
+			rifle_weapons_tech
+		}
+
+		supply_consumption_factor = 0.05
+
+		ai_will_do = {
+			base = 100
+		}
+	}
+
+	ranged_arms_weapons_9 = {
+		allow = { always = yes }
+
+		folder = {
+			name = tech_folder_army_infantry
+			position = { x = 6 y = @1890 }
+		}
+
+		dependencies = {
+			ranged_arms_weapons_8_1 = 1
+		}
+
+		path = {
+			leads_to_tech = ranged_arms_weapons_9_1
+		}
+		path = {
+			leads_to_tech = ranged_arms_subweapons_9
+		}
+
+		start_year = 1890
+		research_cost = 1
+
+		categories = {
+			infantry_weapons_tech
+			ranged_weapons_tech
+			rifle_weapons_tech
+		}
+
+		enable_equipments = {
+			ranged_arms_equipment_7
 		}
 
 		supply_consumption_factor = 0.05
@@ -986,6 +1151,421 @@ technologies = {
 
 		enable_equipments = {
 			uniform_equipment_3
+		}
+
+		supply_consumption_factor = 0.05
+
+		ai_will_do = {
+			base = 100
+		}
+	}
+	uniforms_4 = {
+		allow = { always = yes }
+
+		folder = {
+			name = tech_folder_army_infantry
+			position = { x = 12 y = @1840 }
+		}
+
+		dependencies = {
+			uniforms_3 = 1
+		}
+
+		path = {
+			leads_to_tech = uniforms_5
+		}
+		path = {
+			leads_to_tech = uniforms_4_1
+		}
+
+		start_year = 1840
+		research_cost = 1
+
+		categories = {
+			utility_weapons_tech
+			uniforms_tech
+		}
+
+		enable_equipments = {
+			uniform_equipment_4
+		}
+
+		supply_consumption_factor = 0.05
+
+		ai_will_do = {
+			base = 100
+		}
+	}
+	uniforms_4_1 = {
+		allow = { always = yes }
+
+		folder = {
+			name = tech_folder_army_infantry
+			position = { x = 14 y = @1858 }
+		}
+
+		dependencies = {
+			uniforms_4 = 1
+		}
+
+		start_year = 1858
+		research_cost = 1
+
+		categories = {
+			utility_weapons_tech
+			uniforms_tech
+		}
+
+		supply_consumption_factor = 0.05
+
+		ai_will_do = {
+			base = 100
+		}
+	}
+	uniforms_5 = {
+		allow = { always = yes }
+
+		folder = {
+			name = tech_folder_army_infantry
+			position = { x = 12 y = @1865 }
+		}
+
+		dependencies = {
+			uniforms_4 = 1
+		}
+
+		path = {
+			leads_to_tech = uniforms_6
+		}
+		path = {
+			leads_to_tech = uniforms_5_1
+		}
+
+		start_year = 1840
+		research_cost = 1
+
+		categories = {
+			utility_weapons_tech
+			uniforms_tech
+		}
+
+		enable_equipments = {
+			uniform_equipment_5
+		}
+
+		supply_consumption_factor = 0.05
+
+		ai_will_do = {
+			base = 100
+		}
+	}
+	uniforms_5_1 = {
+		allow = { always = yes }
+
+		folder = {
+			name = tech_folder_army_infantry
+			position = { x = 14 y = @1868 }
+		}
+
+		dependencies = {
+			uniforms_5 = 1
+		}
+
+		start_year = 1868
+		research_cost = 1
+
+		categories = {
+			utility_weapons_tech
+			uniforms_tech
+		}
+
+		supply_consumption_factor = 0.05
+
+		ai_will_do = {
+			base = 100
+		}
+	}
+	uniforms_6 = {
+		allow = { always = yes }
+
+		folder = {
+			name = tech_folder_army_infantry
+			position = { x = 12 y = @1873 }
+		}
+
+		dependencies = {
+			uniforms_5 = 1
+		}
+
+		path = {
+			leads_to_tech = uniforms_6_1
+		}
+
+		start_year = 1872
+		research_cost = 1
+
+		categories = {
+			utility_weapons_tech
+			uniforms_tech
+		}
+
+		enable_equipments = {
+			uniform_equipment_6
+		}
+
+		supply_consumption_factor = 0.05
+
+		ai_will_do = {
+			base = 100
+		}
+	}
+	uniforms_6_1 = {
+		allow = { always = yes }
+
+		folder = {
+			name = tech_folder_army_infantry
+			position = { x = 14 y = @1873 }
+		}
+
+		dependencies = {
+			uniforms_6 = 1
+		}
+
+		path = {
+			leads_to_tech = uniforms_7
+		}
+
+		start_year = 1872
+		research_cost = 1
+
+		categories = {
+			utility_weapons_tech
+			uniforms_tech
+		}
+
+		supply_consumption_factor = 0.05
+
+		ai_will_do = {
+			base = 100
+		}
+	}
+	uniforms_7 = {
+		allow = { always = yes }
+
+		folder = {
+			name = tech_folder_army_infantry
+			position = { x = 12 y = @1878 }
+		}
+
+		dependencies = {
+			uniforms_7_1 = 1
+		}
+
+		path = {
+			leads_to_tech = uniforms_8
+		}
+
+		start_year = 1878
+		research_cost = 1
+
+		categories = {
+			utility_weapons_tech
+			uniforms_tech
+		}
+
+		enable_equipments = {
+			uniform_equipment_7
+		}
+
+		supply_consumption_factor = 0.05
+
+		ai_will_do = {
+			base = 100
+		}
+	}
+	uniforms_8 = {
+		allow = { always = yes }
+
+		folder = {
+			name = tech_folder_army_infantry
+			position = { x = 12 y = @1885 }
+		}
+
+		dependencies = {
+			uniforms_7 = 1
+		}
+
+		path = {
+			leads_to_tech = uniforms_9
+		}
+
+		start_year = 1885
+		research_cost = 1
+
+		categories = {
+			utility_weapons_tech
+			uniforms_tech
+		}
+
+		enable_equipments = {
+			uniform_equipment_8
+		}
+
+		supply_consumption_factor = 0.05
+
+		ai_will_do = {
+			base = 100
+		}
+	}
+	uniforms_9 = {
+		allow = { always = yes }
+
+		folder = {
+			name = tech_folder_army_infantry
+			position = { x = 12 y = @1895 }
+		}
+
+		dependencies = {
+			uniforms_8 = 1
+		}
+
+		path = {
+			leads_to_tech = uniforms_10
+		}
+
+		start_year = 1894
+		research_cost = 1
+
+		categories = {
+			utility_weapons_tech
+			uniforms_tech
+		}
+
+		enable_equipments = {
+			uniform_equipment_9
+		}
+
+		supply_consumption_factor = 0.05
+
+		ai_will_do = {
+			base = 100
+		}
+	}
+	uniforms_10 = {
+		allow = { always = yes }
+
+		folder = {
+			name = tech_folder_army_infantry
+			position = { x = 12 y = @1910 }
+		}
+
+		dependencies = {
+			uniforms_9 = 1
+		}
+
+		path = {
+			leads_to_tech = uniforms_10_1
+		}
+		path = {
+			leads_to_tech = uniforms_10_2
+		}
+
+		start_year = 1910
+		research_cost = 1
+
+		categories = {
+			utility_weapons_tech
+			uniforms_tech
+		}
+
+		enable_equipments = {
+			uniform_equipment_10
+		}
+
+		supply_consumption_factor = 0.05
+
+		ai_will_do = {
+			base = 100
+		}
+	}
+	uniforms_10_1 = {
+		allow = { always = yes }
+
+		folder = {
+			name = tech_folder_army_infantry
+			position = { x = 12 y = @1910 }
+		}
+
+		dependencies = {
+			uniforms_10 = 1
+		}
+
+		start_year = 1911
+		research_cost = 1
+
+		categories = {
+			utility_weapons_tech
+			uniforms_tech
+		}
+
+		supply_consumption_factor = 0.05
+
+		ai_will_do = {
+			base = 100
+		}
+	}
+	uniforms_10_2 = {
+		allow = { always = yes }
+
+		folder = {
+			name = tech_folder_army_infantry
+			position = { x = 12 y = @1915 }
+		}
+
+		dependencies = {
+			uniforms_10 = 1
+		}
+
+		path = {
+			leads_to_tech = uniforms_11
+		}
+
+		start_year = 1915
+		research_cost = 1
+
+		categories = {
+			utility_weapons_tech
+			uniforms_tech
+		}
+
+		supply_consumption_factor = 0.05
+
+		ai_will_do = {
+			base = 100
+		}
+	}
+	uniforms_11 = {
+		allow = { always = yes }
+
+		folder = {
+			name = tech_folder_army_infantry
+			position = { x = 12 y = @1925 }
+		}
+
+		dependencies = {
+			uniforms_10_2 = 1
+		}
+
+		start_year = 1925
+		research_cost = 2
+
+		categories = {
+			utility_weapons_tech
+			uniforms_tech
+		}
+
+		enable_equipments = {
+			uniform_equipment_11
 		}
 
 		supply_consumption_factor = 0.05

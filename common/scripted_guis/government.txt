@@ -36,7 +36,7 @@ scripted_gui = {
 					}
 					set_temp_variable = { show = 1 }
 					subtract_from_temp_variable = { show = show_arab_league_main }
-					close_all_windows = yes
+					# close_all_windows = yes
 					set_variable = { show_arab_league_main = show }
 								
 					if = {
@@ -77,7 +77,7 @@ scripted_gui = {
 					}
 					set_temp_variable = { show = 1 }
 					subtract_from_temp_variable = { show = show_usa_congress }
-					close_all_windows = yes
+					# close_all_windows = yes
 					set_variable = { show_usa_congress = show }
 				}
 				if = {
@@ -85,7 +85,7 @@ scripted_gui = {
 						check_variable = { ROOT.country_politics_list^i = 51 }
 					}
 					set_variable = { CPC_PB_GUI_VISIBLE = 1 }
-					close_all_windows = yes
+					# close_all_windows = yes
 				}
 			}
 		}
@@ -819,7 +819,7 @@ scripted_gui = {
 				
 				add_ideas = policy_services_temp_0
 				
-				public_expenditure = yes
+				# public_expenditure = yes
 			}
 			policy_PUB_POL_level_1_click = {
 				if = {
@@ -876,7 +876,7 @@ scripted_gui = {
 				remove_ideas = policy_services_temp_3
 				
 				add_ideas = policy_services_temp_1
-				public_expenditure = yes
+				# public_expenditure = yes
 			}
 			policy_PUB_POL_level_2_click = {
 				if = {
@@ -933,7 +933,7 @@ scripted_gui = {
 				remove_ideas = policy_services_temp_3
 				
 				add_ideas = policy_services_temp_2
-				public_expenditure = yes
+				# public_expenditure = yes
 			}
 			policy_PUB_POL_level_3_click = {
 				if = {
@@ -971,7 +971,7 @@ scripted_gui = {
 				remove_ideas = policy_services_temp_3
 				
 				add_ideas = policy_services_temp_3
-				public_expenditure = yes
+				# public_expenditure = yes
 			}
 		}
 		triggers = {
@@ -1227,7 +1227,7 @@ scripted_gui = {
 				
 				add_ideas = policy_healthcare_temp_0
 				
-				health_expenditure = yes
+				# health_expenditure = yes
 			}
 			policy_HEALTH_POL_level_1_click = {
 				if = {
@@ -1288,7 +1288,7 @@ scripted_gui = {
 				remove_ideas = policy_healthcare_temp_5
 				
 				add_ideas = policy_healthcare_temp_1
-				health_expenditure = yes
+				# health_expenditure = yes
 			}
 			policy_HEALTH_POL_level_2_click = {
 				if = {
@@ -1349,7 +1349,7 @@ scripted_gui = {
 				remove_ideas = policy_healthcare_temp_5
 				
 				add_ideas = policy_healthcare_temp_2
-				health_expenditure = yes
+				# health_expenditure = yes
 			}
 			policy_HEALTH_POL_level_3_click = {
 				if = {
@@ -1410,7 +1410,7 @@ scripted_gui = {
 				remove_ideas = policy_healthcare_temp_5
 				
 				add_ideas = policy_healthcare_temp_3
-				health_expenditure = yes
+				# health_expenditure = yes
 			}
 			policy_HEALTH_POL_level_4_click = {
 				if = {
@@ -1471,7 +1471,7 @@ scripted_gui = {
 				remove_ideas = policy_healthcare_temp_5
 				
 				add_ideas = policy_healthcare_temp_4
-				health_expenditure = yes
+				# health_expenditure = yes
 			}
 			policy_HEALTH_POL_level_5_click = {
 				if = {
@@ -1511,7 +1511,7 @@ scripted_gui = {
 				remove_ideas = policy_healthcare_temp_5
 				
 				add_ideas = policy_healthcare_temp_5
-				health_expenditure = yes
+				# health_expenditure = yes
 			}
 		}
 		triggers = {
@@ -1836,7 +1836,7 @@ scripted_gui = {
 				
 				add_ideas = policy_education_temp_0
 				
-				edu_expenditure = yes
+				# edu_expenditure = yes
 			}
 			policy_EDU_POL_level_1_click = {
 				if = {
@@ -1895,7 +1895,7 @@ scripted_gui = {
 				remove_ideas = policy_education_temp_4
 				
 				add_ideas = policy_education_temp_1
-				edu_expenditure = yes
+				# edu_expenditure = yes
 			}
 			policy_EDU_POL_level_2_click = {
 				if = {
@@ -1954,7 +1954,7 @@ scripted_gui = {
 				remove_ideas = policy_education_temp_4
 				
 				add_ideas = policy_education_temp_2
-				edu_expenditure = yes
+				# edu_expenditure = yes
 			}
 			policy_EDU_POL_level_3_click = {
 				if = {
@@ -2013,7 +2013,7 @@ scripted_gui = {
 				remove_ideas = policy_education_temp_4
 				
 				add_ideas = policy_education_temp_3
-				edu_expenditure = yes
+				# edu_expenditure = yes
 			}
 			policy_EDU_POL_level_4_click = {
 				if = {
@@ -2052,7 +2052,7 @@ scripted_gui = {
 				remove_ideas = policy_education_temp_4
 				
 				add_ideas = policy_education_temp_4
-				edu_expenditure = yes
+				# edu_expenditure = yes
 			}
 		}
 		triggers = {
@@ -2360,7 +2360,7 @@ scripted_gui = {
 				
 				add_ideas = policy_military_temp_1
 				
-				military_expenditure = yes
+				# military_expenditure = yes
 			}
 			policy_MIL_POL_level_2_click = {
 				if = {
@@ -2417,7 +2417,7 @@ scripted_gui = {
 				remove_ideas = policy_military_temp_4
 				
 				add_ideas = policy_military_temp_2
-				military_expenditure = yes
+				# military_expenditure = yes
 			}
 			policy_MIL_POL_level_3_click = {
 				if = {
@@ -2474,7 +2474,7 @@ scripted_gui = {
 				remove_ideas = policy_military_temp_4
 				
 				add_ideas = policy_military_temp_3
-				military_expenditure = yes
+				# military_expenditure = yes
 			}
 			policy_MIL_POL_level_4_click = {
 				if = {
@@ -2512,7 +2512,7 @@ scripted_gui = {
 				remove_ideas = policy_military_temp_4
 				
 				add_ideas = policy_military_temp_4
-				military_expenditure = yes
+				# military_expenditure = yes
 			}
 		}
 		triggers = {
@@ -2749,7 +2749,7 @@ scripted_gui = {
 				remove_ideas = policy_welfare_temp_5
 				
 				add_ideas = policy_welfare_temp_0
-				welfare_expenditure = yes
+				# welfare_expenditure = yes
 				
 			}
 			policy_WEL_POL_level_1_click = {
@@ -2778,7 +2778,7 @@ scripted_gui = {
 				remove_ideas = policy_welfare_temp_5
 				
 				add_ideas = policy_welfare_temp_1
-				welfare_expenditure = yes
+				# welfare_expenditure = yes
 			}
 			policy_WEL_POL_level_2_click = {
 				if = {
@@ -2806,7 +2806,7 @@ scripted_gui = {
 				remove_ideas = policy_welfare_temp_5
 				
 				add_ideas = policy_welfare_temp_2
-				welfare_expenditure = yes
+				# welfare_expenditure = yes
 			}
 			policy_WEL_POL_level_3_click = {
 				if = {
@@ -2834,7 +2834,7 @@ scripted_gui = {
 				remove_ideas = policy_welfare_temp_5
 				
 				add_ideas = policy_welfare_temp_3
-				welfare_expenditure = yes
+				# welfare_expenditure = yes
 			}
 			policy_WEL_POL_level_4_click = {
 				if = {
@@ -2862,7 +2862,7 @@ scripted_gui = {
 				remove_ideas = policy_welfare_temp_5
 				
 				add_ideas = policy_welfare_temp_4
-				welfare_expenditure = yes
+				# welfare_expenditure = yes
 			}
 			policy_WEL_POL_level_5_click = {
 				if = {
@@ -2884,7 +2884,7 @@ scripted_gui = {
 				remove_ideas = policy_welfare_temp_5
 				
 				add_ideas = policy_welfare_temp_5
-				welfare_expenditure = yes
+				# welfare_expenditure = yes
 			}
 		}
 		triggers = {
@@ -3190,7 +3190,7 @@ scripted_gui = {
 				
 				add_ideas = policy_cpi_temp_0
 				
-				cpi_expenditure = yes
+				# cpi_expenditure = yes
 			}
 			policy_CPI_POL_level_1_click = {
 				if = {
@@ -3251,7 +3251,7 @@ scripted_gui = {
 				remove_ideas = policy_cpi_temp_5
 				
 				add_ideas = policy_cpi_temp_1
-				cpi_expenditure = yes
+				# cpi_expenditure = yes
 			}
 			policy_CPI_POL_level_2_click = {
 				if = {
@@ -3312,7 +3312,7 @@ scripted_gui = {
 				remove_ideas = policy_cpi_temp_5
 				
 				add_ideas = policy_cpi_temp_2
-				cpi_expenditure = yes
+				# cpi_expenditure = yes
 			}
 			policy_CPI_POL_level_3_click = {
 				if = {
@@ -3373,7 +3373,7 @@ scripted_gui = {
 				remove_ideas = policy_cpi_temp_5
 				
 				add_ideas = policy_cpi_temp_3
-				cpi_expenditure = yes
+				# cpi_expenditure = yes
 			}
 			policy_CPI_POL_level_4_click = {
 				if = {
@@ -3434,7 +3434,7 @@ scripted_gui = {
 				remove_ideas = policy_cpi_temp_5
 				
 				add_ideas = policy_cpi_temp_4
-				cpi_expenditure = yes
+				# cpi_expenditure = yes
 			}
 			policy_CPI_POL_level_5_click = {
 				if = {
@@ -3474,7 +3474,7 @@ scripted_gui = {
 				remove_ideas = policy_cpi_temp_5
 				
 				add_ideas = policy_cpi_temp_5
-				cpi_expenditure = yes
+				# cpi_expenditure = yes
 			}
 		}
 		triggers = {
@@ -3821,7 +3821,7 @@ scripted_gui = {
 				remove_ideas = policy_taxrate_temp_5
 				
 				add_ideas = policy_taxrate_temp_1
-				tax_rate = yes
+				# tax_rate = yes
 			}
 			
 			policy_TAX_POL_level_2_click = {
@@ -3834,7 +3834,7 @@ scripted_gui = {
 				remove_ideas = policy_taxrate_temp_5
 				
 				add_ideas = policy_taxrate_temp_2
-				tax_rate = yes
+				# tax_rate = yes
 			}
 			policy_TAX_POL_level_3_click = {
 				add_political_power = -450
@@ -3846,7 +3846,7 @@ scripted_gui = {
 				remove_ideas = policy_taxrate_temp_5
 				
 				add_ideas = policy_taxrate_temp_3
-				tax_rate = yes
+				# tax_rate = yes
 			}
 			policy_TAX_POL_level_4_click = {
 				add_political_power = -450
@@ -3858,7 +3858,7 @@ scripted_gui = {
 				remove_ideas = policy_taxrate_temp_5
 				
 				add_ideas = policy_taxrate_temp_4
-				tax_rate = yes
+				# tax_rate = yes
 			}
 			policy_TAX_POL_level_5_click = {
 				add_political_power = -450
@@ -3869,7 +3869,7 @@ scripted_gui = {
 				remove_ideas = policy_taxrate_temp_4
 				remove_ideas = policy_taxrate_temp_5
 				add_ideas = policy_taxrate_temp_5
-				tax_rate = yes
+				# tax_rate = yes
 			}
 		}
 		triggers = {
@@ -3915,9 +3915,6 @@ scripted_gui = {
 			tax_current_effects_header_visible = {
 				check_variable = { policy_legislation = 3 }
 			}
-			#pic33_visible = {
-			#	check_variable = { policy_legislation = 3 } 
-			#}
 			legislation_menu_open_text55_visible = {
 				check_variable = { policy_legislation = 3 } 
 			}
@@ -4049,1712 +4046,6 @@ scripted_gui = {
 					check_variable = { policy_legislation = 3 } 
 					has_idea = policy_taxrate_temp_5
 				}
-		}
-
-		#visible = {
-		#	check_variable = { policy_legislation = 2 } legislation_menu_open_text77
-		#}
-		
-		effects = {
-			policy_SAGA_POL_promotion_reaction_icon_click = {
-				news_event = SAGA_POL.1
-			}
-			policy_SAGA_POL_regression_reaction_icon_click = {
-				news_event = SAGA_POL.2
-			}
-			policy_SAGA_POL_level_0_click = {
-				add_political_power = -300
-				set_variable = { legislation_support = 0 }
-				remove_ideas = policy_saga_temp_1
-				remove_ideas = policy_saga_temp_0
-				remove_ideas = policy_saga_temp_2
-				remove_ideas = policy_saga_temp_3
-				remove_ideas = policy_saga_temp_4
-				remove_ideas = policy_saga_temp_4a
-				
-				add_ideas = policy_saga_temp_0
-				add_timed_idea = {
-					idea = saga_cooldown
-					days = 730
-				}
-			}
-			policy_SAGA_POL_level_1_click = {
-				if = {
-					limit = {
-						has_idea = policy_saga_temp_2
-					}
-					add_timed_idea = {
-						idea = saga_instability_cooldown
-						days = 1095
-					}
-				}
-				add_political_power = -300
-				set_variable = { legislation_support = 0 }
-				remove_ideas = policy_saga_temp_1
-				remove_ideas = policy_saga_temp_0
-				remove_ideas = policy_saga_temp_2
-				remove_ideas = policy_saga_temp_3
-				remove_ideas = policy_saga_temp_4
-				remove_ideas = policy_saga_temp_4a
-				
-				add_ideas = policy_saga_temp_1
-				add_timed_idea = {
-					idea = saga_cooldown
-					days = 730
-				}
-			}
-			policy_SAGA_POL_level_2_click = {
-				if = {
-					limit = {
-						has_idea = policy_saga_temp_4
-					}
-					add_timed_idea = {
-						idea = saga_instability_cooldown
-						days = 180
-					}
-				}
-				add_political_power = -300
-				set_variable = { legislation_support = 0 }
-				remove_ideas = policy_saga_temp_1
-				remove_ideas = policy_saga_temp_0
-				remove_ideas = policy_saga_temp_2
-				remove_ideas = policy_saga_temp_3
-				remove_ideas = policy_saga_temp_4
-				remove_ideas = policy_saga_temp_4a
-				
-				add_ideas = policy_saga_temp_2
-				add_timed_idea = {
-					idea = saga_cooldown
-					days = 730
-				}
-			}
-			policy_SAGA_POL_level_4_click = {
-				add_political_power = -300
-				set_variable = { legislation_support = 0 }
-				remove_ideas = policy_saga_temp_1
-				remove_ideas = policy_saga_temp_0
-				remove_ideas = policy_saga_temp_2
-				remove_ideas = policy_saga_temp_3
-				remove_ideas = policy_saga_temp_4
-				remove_ideas = policy_saga_temp_4a
-				
-				add_ideas = policy_saga_temp_4
-				add_timed_idea = {
-					idea = saga_cooldown
-					days = 730
-				}
-			}
-			policy_SAGA_POL_level_4a_click = {
-				add_political_power = -300
-				set_variable = { legislation_support = 0 }
-				remove_ideas = policy_saga_temp_1
-				remove_ideas = policy_saga_temp_0
-				remove_ideas = policy_saga_temp_2
-				remove_ideas = policy_saga_temp_3
-				remove_ideas = policy_saga_temp_4
-				remove_ideas = policy_saga_temp_4a
-				
-				add_ideas = policy_saga_temp_4a
-				add_timed_idea = {
-					idea = saga_cooldown
-					days = 730
-				}
-			}
-
-		}
-		triggers = {
-			policy_SAGA_POL_level_0_click_enabled = {
-				has_political_power > 289
-				OR = {
-					has_idea = policy_saga_temp_1
-				}
-				NOT = { has_idea = saga_cooldown }
-			}
-			 legislation_menu_open_text77_visible = {
-					check_variable = { policy_legislation = 2 }
-			 }
-				policy_SAGA_POL_level_0_unavailable_visible = {
-					check_variable = { policy_legislation = 2 }
-					OR = {
-						NOT = {
-							has_idea = policy_saga_temp_1
-						}
-						has_idea = saga_cooldown
-					}
-				}
-				policy_SAGA_POL_level_0_unaffordable_visible = {
-					check_variable = { policy_legislation = 2 }
-					NOT = { has_political_power > 289 }
-					OR = {
-						has_idea = policy_saga_temp_1
-					}
-					NOT = { has_idea = saga_cooldown }
-				}
-				policy_SAGA_POL_level_0_completed_visible = {
-					check_variable = { policy_legislation = 2 }
-					has_idea = policy_saga_temp_0
-				}
-			policy_SAGA_POL_level_1_click_enabled = {
-				has_political_power > 289
-				OR = {
-					has_idea = policy_saga_temp_0
-					has_idea = policy_saga_temp_2
-				}
-				NOT = { has_idea = saga_cooldown }
-			}
-				policy_SAGA_POL_level_1_unavailable_visible = {
-					check_variable = { policy_legislation = 2 }
-					OR = {
-						NOT = {
-							has_idea = policy_saga_temp_0
-							has_idea = policy_saga_temp_2
-						}
-						has_idea = saga_cooldown
-					}
-				}
-				policy_SAGA_POL_level_1_unaffordable_visible = {
-					check_variable = { policy_legislation = 2 }
-					NOT = { has_political_power > 289 }
-					OR = {
-						has_idea = policy_saga_temp_0
-						has_idea = policy_saga_temp_2
-					}
-					NOT = { has_idea = saga_cooldown }
-				}
-				policy_SAGA_POL_level_1_completed_visible = {
-					check_variable = { policy_legislation = 2 }
-					has_idea = policy_saga_temp_1
-				}
-				
-			policy_SAGA_POL_level_2_click_enabled = {
-				has_political_power > 289
-				OR = {
-					has_idea = policy_saga_temp_1
-					has_idea = policy_saga_temp_3
-					has_idea = policy_saga_temp_4
-				}
-				NOT = { has_idea = saga_cooldown }
-			}
-				policy_SAGA_POL_level_2_unavailable_visible = {
-					check_variable = { policy_legislation = 2 }
-					OR = {
-						NOT = {
-							has_idea = policy_saga_temp_1
-							has_idea = policy_saga_temp_3
-							has_idea = policy_saga_temp_4
-						}
-						has_idea = saga_cooldown
-					}
-				}
-				policy_SAGA_POL_level_2_unaffordable_visible = {
-					check_variable = { policy_legislation = 2 }
-					NOT = { has_political_power > 289 }
-					OR = {
-						has_idea = policy_saga_temp_1
-						has_idea = policy_saga_temp_3
-						has_idea = policy_saga_temp_4
-					}
-					NOT = { has_idea = saga_cooldown }
-				}
-				policy_SAGA_POL_level_2_completed_visible = {
-					check_variable = { policy_legislation = 2 }
-					has_idea = policy_saga_temp_2
-				}
-			policy_SAGA_POL_level_4_click_enabled = {
-				has_political_power > 289
-				OR = {
-					has_idea = policy_saga_temp_2
-					has_idea = policy_saga_temp_4a
-				}
-				NOT = { has_idea = saga_cooldown }
-			}
-				policy_SAGA_POL_level_4_unavailable_visible = {
-					check_variable = { policy_legislation = 2 }
-					OR = {
-						NOT = {
-							has_idea = policy_saga_temp_2
-							has_idea = policy_saga_temp_4a
-						}
-						has_idea = saga_cooldown
-					}
-				}
-				policy_SAGA_POL_level_4_unaffordable_visible = {
-					check_variable = { policy_legislation = 2 }
-					NOT = { has_political_power > 289 }
-					OR = {
-						has_idea = policy_saga_temp_2
-						has_idea = policy_saga_temp_4a
-					}
-					NOT = { has_idea = saga_cooldown }
-				}
-				policy_SAGA_POL_level_4_completed_visible = {
-					check_variable = { policy_legislation = 2 }
-					has_idea = policy_saga_temp_4
-				}
-			policy_SAGA_POL_level_4a_click_enabled = {
-				has_political_power > 289
-				OR = {
-					has_idea = policy_saga_temp_4
-				}
-				NOT = { has_idea = saga_cooldown }
-			}
-				policy_SAGA_POL_level_4a_unavailable_visible = {
-					check_variable = { policy_legislation = 2 }
-					OR = {
-						NOT = {
-							has_idea = policy_saga_temp_4
-						}
-						has_idea = saga_cooldown
-					}
-				}
-				policy_SAGA_POL_level_4a_unaffordable_visible = {
-					check_variable = { policy_legislation = 2 }
-					NOT = { has_political_power > 289 }
-					OR = {
-						has_idea = policy_saga_temp_4
-					}
-					NOT = { has_idea = saga_cooldown }
-				}
-				policy_SAGA_POL_level_4a_completed_visible = {
-					check_variable = { policy_legislation = 2 }
-					has_idea = policy_saga_temp_4a
-				}
-			
-			policy_SAGA_POL_cooldown_icon_visible = {
-				has_idea = saga_cooldown
-			}
-			policy_SAGA_POL_promotion_reaction_icon_visible = {
-				check_variable = { policy_legislation = 2 }
-				has_idea = saga_reactionary_cooldown
-			}
-			policy_SAGA_POL_regression_reaction_icon_visible = {
-				check_variable = { policy_legislation = 2 }
-				has_idea = saga_instability_cooldown
-			}
-			policy_SAGA_POL_level_0_visible = {
-				check_variable = { policy_legislation = 2 }
-			}
-			policy_SAGA_POL_level_0_text_visible = {
-				check_variable = { policy_legislation = 2 }
-			}
-			policy_SAGA_POL_level_1_visible = {
-				check_variable = { policy_legislation = 2 }
-			}
-			policy_SAGA_POL_level_1_text_visible = {
-				check_variable = { policy_legislation = 2 }
-			}	
-			policy_SAGA_POL_level_2_visible = {
-				check_variable = { policy_legislation = 2 }
-			}
-			policy_SAGA_POL_level_2_text_visible = {
-				check_variable = { policy_legislation = 2 }
-			}
-			policy_SAGA_POL_level_4_visible = {
-				check_variable = { policy_legislation = 2 }
-			}
-			policy_SAGA_POL_level_4_text_visible = {
-				check_variable = { policy_legislation = 2 }
-			}			
-			policy_SAGA_POL_level_4a_visible = {
-				check_variable = { policy_legislation = 2 }
-			}
-			policy_SAGA_POL_level_4a_text_visible = {
-				check_variable = { policy_legislation = 2 }
-			}	
-			policy_SAGA_level_desc_visible = {
-				check_variable = { policy_legislation = 2 }
-			}
-			#pic24_visible = {
-			#	check_variable = { policy_legislation = 2 }
-			#}
-			saga_current_effects_header_visible = {
-				check_variable = { policy_legislation = 2 }
-			}		
-		}
-
-		#visible = {
-		#	check_variable = { policy_legislation = 2 }
-		#}
-
-		effects = {
-			policy_RAC_POL_promotion_reaction_icon_click = {
-				news_event = RAC_POL.1
-			}
-			policy_RAC_POL_regression_reaction_icon_click = {
-				news_event = RAC_POL.2
-			}
-			policy_RAC_POL_level_0_click = {
-				if = {
-					limit = {
-						has_idea = policy_minorities_temp_1
-						has_tech = tech_military_police3
-					}
-					add_timed_idea = {
-						idea = rac_instability_cooldown
-						days = 640
-					}
-					set_country_flag = RAC_POL_1-0
-					clr_country_flag = RAC_POL_2-1
-					clr_country_flag = RAC_POL_3-2
-					add_to_variable = { segregationValue = 0.05 }
-				}
-				else_if = {
-					limit = {
-						has_idea = policy_minorities_temp_1
-					}
-					add_timed_idea = {
-						idea = rac_instability_cooldown
-						days = 1095
-					}
-					set_country_flag = RAC_POL_1-0
-					clr_country_flag = RAC_POL_2-1
-					clr_country_flag = RAC_POL_3-2
-					add_to_variable = { segregationValue = 0.05 }
-				}
-				add_political_power = -450
-				set_variable = { legislation_support = 0 }
-				remove_ideas = policy_minorities_temp_0
-				remove_ideas = policy_minorities_temp_1
-				remove_ideas = policy_minorities_temp_2
-				remove_ideas = policy_minorities_temp_3
-				remove_ideas = policy_minorities_temp_3a
-				
-				add_ideas = policy_minorities_temp_0
-				add_timed_idea = {
-					idea = rac_cooldown
-					days = 1095
-				}
-			}
-			policy_RAC_POL_level_1_click = {
-				if = {
-					limit = {
-						has_idea = policy_minorities_temp_2
-						has_tech = tech_military_police3
-					}
-					add_timed_idea = {
-						idea = rac_instability_cooldown
-						days = 640
-					}
-					clr_country_flag = RAC_POL_1-0
-					set_country_flag = RAC_POL_2-1
-					clr_country_flag = RAC_POL_3-2
-					add_to_variable = { segregationValue = 0.05 }
-				}
-				else_if = {
-					limit = {
-						has_idea = policy_minorities_temp_2
-					}
-					add_timed_idea = {
-						idea = rac_instability_cooldown
-						days = 1095
-					}
-					clr_country_flag = RAC_POL_1-0
-					set_country_flag = RAC_POL_2-1
-					clr_country_flag = RAC_POL_3-2
-					add_to_variable = { segregationValue = 0.05 }
-				}
-				add_political_power = -450
-				set_variable = { legislation_support = 0 }
-				remove_ideas = policy_minorities_temp_0
-				remove_ideas = policy_minorities_temp_1
-				remove_ideas = policy_minorities_temp_2
-				remove_ideas = policy_minorities_temp_3
-				remove_ideas = policy_minorities_temp_3a
-				
-				add_ideas = policy_minorities_temp_1
-				add_timed_idea = {
-					idea = rac_cooldown
-					days = 1095
-				}
-			}
-			policy_RAC_POL_level_2_click = {
-				if = {
-					limit = {
-						has_idea = policy_minorities_temp_3
-						has_tech = tech_military_police3
-					}
-					add_timed_idea = {
-						idea = rac_instability_cooldown
-						days = 365
-					}
-				}
-				else_if = {
-					limit = {
-						has_idea = policy_minorities_temp_3
-					}
-					add_timed_idea = {
-						idea = rac_instability_cooldown
-						days = 1095
-					}
-					clr_country_flag = RAC_POL_1-0
-					clr_country_flag = RAC_POL_2-1
-					set_country_flag = RAC_POL_3-2
-					add_to_variable = { segregationValue = 0.05 }
-				}
-				add_political_power = -450
-				set_variable = { legislation_support = 0 }
-				remove_ideas = policy_minorities_temp_0
-				remove_ideas = policy_minorities_temp_1
-				remove_ideas = policy_minorities_temp_2
-				remove_ideas = policy_minorities_temp_3
-				remove_ideas = policy_minorities_temp_3a
-				
-				add_ideas = policy_minorities_temp_2
-				add_timed_idea = {
-					idea = rac_cooldown
-					days = 1095
-				}
-			}
-			policy_RAC_POL_level_3_click = {
-				add_political_power = -450
-				set_variable = { legislation_support = 0 }
-				remove_ideas = policy_minorities_temp_0
-				remove_ideas = policy_minorities_temp_1
-				remove_ideas = policy_minorities_temp_2
-				remove_ideas = policy_minorities_temp_3
-				remove_ideas = policy_minorities_temp_3a
-				
-				add_ideas = policy_minorities_temp_3
-				add_timed_idea = {
-					idea = rac_cooldown
-					days = 1095
-				}
-			}
-			policy_RAC_POL_level_3a_click = {
-				add_political_power = -450
-				set_variable = { legislation_support = 0 }
-				remove_ideas = policy_minorities_temp_0
-				remove_ideas = policy_minorities_temp_1
-				remove_ideas = policy_minorities_temp_2
-				remove_ideas = policy_minorities_temp_3
-				remove_ideas = policy_minorities_temp_3a
-				
-				add_ideas = policy_minorities_temp_3a
-				add_timed_idea = {
-					idea = rac_cooldown
-					days = 1095
-				}
-			}
-				
-		}
-		triggers = {
-			#pic23_visible = {
-			#	check_variable = { policy_legislation = 2 }
-			#}
-			policy_RAC_level_desc_visible = {
-				check_variable = { policy_legislation = 2 }
-			}
-			legislation_menu_open_text2_visible = {
-				check_variable = { policy_legislation = 2 }
-			}
-			policy_RAC_POL_level_0_visible = {
-				check_variable = { policy_legislation = 2 }
-			}
-			policy_RAC_POL_level_0_text_visible = {
-				check_variable = { policy_legislation = 2 }
-			}
-			policy_RAC_POL_level_1_visible = {
-				check_variable = { policy_legislation = 2 }
-			}
-			policy_RAC_POL_level_1_text_visible = {
-				check_variable = { policy_legislation = 2 }
-			}
-			policy_RAC_POL_level_2_visible = {
-				check_variable = { policy_legislation = 2 }
-			}
-			policy_RAC_POL_level_2_text_visible = {
-				check_variable = { policy_legislation = 2 }
-			}
-			policy_RAC_POL_level_3_visible = {
-				check_variable = { policy_legislation = 2 }
-			}
-			policy_RAC_POL_level_3_text_visible = {
-				check_variable = { policy_legislation = 2 }
-			}
-			policy_RAC_POL_level_3a_visible = {
-				check_variable = { policy_legislation = 2 }
-			}
-			policy_RAC_POL_level_3a_text_visible = {
-				check_variable = { policy_legislation = 2 }
-			}
-
-			policy_RAC_POL_level_0_click_enabled = {
-				has_political_power > 439
-				OR = {
-					has_idea = policy_minorities_temp_1
-				}
-				NOT = { has_idea = rac_cooldown }
-			}
-				policy_RAC_POL_level_0_unavailable_visible = {
-					OR = {
-						NOT = {
-							has_idea = policy_minorities_temp_1
-						}
-						has_idea = rac_cooldown
-					}
-					check_variable = { policy_legislation = 2 }
-				}
-				policy_RAC_POL_level_0_unaffordable_visible = {
-					NOT = { has_political_power > 439 }
-					OR = {
-						has_idea = policy_minorities_temp_1
-					}
-					NOT = { has_idea = rac_cooldown }
-					check_variable = { policy_legislation = 2 }
-				}
-				policy_RAC_POL_level_0_completed_visible = {
-					has_idea = policy_minorities_temp_0
-					check_variable = { policy_legislation = 2 }
-				}
-			policy_RAC_POL_level_1_click_enabled = {
-				has_political_power > 439
-				OR = {
-					has_idea = policy_minorities_temp_0
-					has_idea = policy_minorities_temp_2
-				}
-				NOT = { has_idea = rac_cooldown }
-			}
-				policy_RAC_POL_level_1_unavailable_visible = {
-					OR = {
-						NOT = {
-							has_idea = policy_minorities_temp_0
-							has_idea = policy_minorities_temp_2
-						}
-						has_idea = rac_cooldown
-					}
-					check_variable = { policy_legislation = 2 }
-				}
-				policy_RAC_POL_level_1_unaffordable_visible = {
-					NOT = { has_political_power > 439 }
-					OR = {
-						has_idea = policy_minorities_temp_0
-						has_idea = policy_minorities_temp_2
-					}
-					NOT = { has_idea = rac_cooldown }
-					check_variable = { policy_legislation = 2 }
-				}
-				policy_RAC_POL_level_1_completed_visible = {
-					has_idea = policy_minorities_temp_1
-					check_variable = { policy_legislation = 2 }
-				}
-			policy_RAC_POL_level_2_click_enabled = {
-				has_political_power > 439
-				OR = {
-					has_idea = policy_minorities_temp_1
-					has_idea = policy_minorities_temp_3
-				}
-				NOT = { has_idea = rac_cooldown }
-			}
-				policy_RAC_POL_level_2_unavailable_visible = {
-					OR = {
-						NOT = {
-							has_idea = policy_minorities_temp_1
-							has_idea = policy_minorities_temp_3
-						}
-						has_idea = rac_cooldown
-					}
-					check_variable = { policy_legislation = 2 }
-				}
-				policy_RAC_POL_level_2_unaffordable_visible = {
-					NOT = { has_political_power > 439 }
-					OR = {
-						has_idea = policy_minorities_temp_1
-						has_idea = policy_minorities_temp_3
-					}
-					NOT = { has_idea = rac_cooldown }
-					check_variable = { policy_legislation = 2 }
-				}
-				policy_RAC_POL_level_2_completed_visible = {
-					has_idea = policy_minorities_temp_2
-					check_variable = { policy_legislation = 2 }
-				}
-			policy_RAC_POL_level_3_click_enabled = {
-				has_political_power > 439
-				OR = {
-					has_idea = policy_minorities_temp_2
-					has_idea = policy_minorities_temp_3a
-				}
-				NOT = { has_idea = rac_cooldown }
-			}
-				policy_RAC_POL_level_3_unavailable_visible = {
-					OR = {
-						NOT = {
-							has_idea = policy_minorities_temp_2
-							has_idea = policy_minorities_temp_3a
-						}
-						has_idea = rac_cooldown
-					}
-					check_variable = { policy_legislation = 2 }
-				}
-				policy_RAC_POL_level_3_unaffordable_visible = {
-					NOT = { has_political_power > 439 }
-					OR = {
-						has_idea = policy_minorities_temp_2
-						has_idea = policy_minorities_temp_3a
-					}
-					NOT = { has_idea = rac_cooldown }
-					check_variable = { policy_legislation = 2 }
-				}
-				policy_RAC_POL_level_3_completed_visible = {
-					has_idea = policy_minorities_temp_3
-					check_variable = { policy_legislation = 2 }
-				}
-			policy_RAC_POL_level_3a_click_enabled = {
-				has_political_power > 439
-				OR = {
-					has_idea = policy_minorities_temp_3
-				}
-				NOT = { has_idea = rac_cooldown }
-				
-			}
-				policy_RAC_POL_level_3a_unavailable_visible = {
-					OR = {
-						NOT = {
-							has_idea = policy_minorities_temp_3
-						}
-						has_idea = rac_cooldown
-					}
-					check_variable = { policy_legislation = 2 }
-				}
-				policy_RAC_POL_level_3a_unaffordable_visible = {
-					NOT = { has_political_power > 439 }
-					OR = {
-						has_idea = policy_minorities_temp_3
-					}
-					NOT = { has_idea = rac_cooldown }
-					check_variable = { policy_legislation = 2 }
-				}
-				policy_RAC_POL_level_3a_completed_visible = {
-					has_idea = policy_minorities_temp_3a
-					check_variable = { policy_legislation = 2 }
-				}
-			
-			policy_RAC_POL_cooldown_icon_visible = {
-				has_idea = rac_cooldown
-				check_variable = { policy_legislation = 2 }
-			}
-			policy_RAC_POL_promotion_reaction_icon_visible = {
-				has_idea = rac_reactionary_cooldown
-				check_variable = { policy_legislation = 2 }
-			}
-			policy_RAC_POL_regression_reaction_icon_visible = {
-				has_idea = rac_instability_cooldown
-				check_variable = { policy_legislation = 2 }
-			}
-			policy_RAC_POL_regression_reaction_reduced_icon_visible = {
-				has_idea = rac_instability_cooldown_reduced
-				check_variable = { policy_legislation = 2 }
-			}
-			rac_current_effects_header_visible = {
-				check_variable = { policy_legislation = 2 }
-			}
-		}
-
-		#visible = {
-		#	check_variable = { policy_legislation = 2 }
-		#}
-
-		effects = {
-			policy_WOM_POL_promotion_reaction_icon_click = {
-				news_event = WOM_POL.1
-			}
-			policy_WOM_POL_regression_reaction_icon_click = {
-				news_event = WOM_POL.2
-			}
-			policy_WOM_POL_level_0_click = {
-				add_political_power = -300
-				set_variable = { legislation_support = 0 }
-				remove_ideas = policy_women_temp_1
-				remove_ideas = policy_women_temp_0
-				remove_ideas = policy_women_temp_2
-				remove_ideas = policy_women_temp_3
-				remove_ideas = policy_women_temp_4
-				remove_ideas = policy_women_temp_4a
-				
-				add_ideas = policy_women_temp_1
-				add_timed_idea = {
-					idea = wom_cooldown
-					days = 1095
-				}
-			}
-			policy_WOM_POL_level_1_click = {
-				if = {
-					limit = {
-						has_idea = policy_women_temp_2
-					}
-					add_timed_idea = {
-						idea = wom_instability_cooldown
-						days = 1095
-					}
-				}
-				add_political_power = -300
-				set_variable = { legislation_support = 0 }
-				remove_ideas = policy_women_temp_1
-				remove_ideas = policy_women_temp_0
-				remove_ideas = policy_women_temp_2
-				remove_ideas = policy_women_temp_3
-				remove_ideas = policy_women_temp_4
-				remove_ideas = policy_women_temp_4a
-				
-				add_ideas = policy_women_temp_0
-				add_timed_idea = {
-					idea = wom_cooldown
-					days = 1095
-				}
-			}
-			policy_WOM_POL_level_2_click = {
-				if = {
-					limit = {
-						has_idea = policy_women_temp_3
-					}
-					add_timed_idea = {
-						idea = wom_instability_cooldown
-						days = 1095
-					}
-				}
-				add_political_power = -300
-				set_variable = { legislation_support = 0 }
-				remove_ideas = policy_women_temp_1
-				remove_ideas = policy_women_temp_0
-				remove_ideas = policy_women_temp_2
-				remove_ideas = policy_women_temp_3
-				remove_ideas = policy_women_temp_4
-				remove_ideas = policy_women_temp_4a
-				
-				add_ideas = policy_women_temp_2
-				add_timed_idea = {
-					idea = wom_cooldown
-					days = 1095
-				}
-			}
-			policy_WOM_POL_level_3_click = {
-				if = {
-					limit = {
-						has_idea = policy_women_temp_4
-					}
-					add_timed_idea = {
-						idea = wom_instability_cooldown
-						days = 1095
-					}
-				}
-				add_political_power = -300
-				set_variable = { legislation_support = 0 }
-				remove_ideas = policy_women_temp_1
-				remove_ideas = policy_women_temp_0
-				remove_ideas = policy_women_temp_2
-				remove_ideas = policy_women_temp_3
-				remove_ideas = policy_women_temp_4
-				remove_ideas = policy_women_temp_4a
-				
-				add_ideas = policy_women_temp_3
-				add_timed_idea = {
-					idea = wom_cooldown
-					days = 1095
-				}
-			}
-			policy_WOM_POL_level_4_click = {
-				add_political_power = -300
-				set_variable = { legislation_support = 0 }
-				remove_ideas = policy_women_temp_1
-				remove_ideas = policy_women_temp_0
-				remove_ideas = policy_women_temp_2
-				remove_ideas = policy_women_temp_3
-				remove_ideas = policy_women_temp_4
-				remove_ideas = policy_women_temp_4a
-				
-				add_ideas = policy_women_temp_4
-				add_timed_idea = {
-					idea = wom_cooldown
-					days = 1095
-				}
-			}
-			policy_WOM_POL_level_4a_click = {
-				add_political_power = -300
-				set_variable = { legislation_support = 0 }
-				remove_ideas = policy_women_temp_1
-				remove_ideas = policy_women_temp_0
-				remove_ideas = policy_women_temp_2
-				remove_ideas = policy_women_temp_3
-				remove_ideas = policy_women_temp_4
-				remove_ideas = policy_women_temp_4a
-				
-				add_ideas = policy_women_temp_4a	
-				add_timed_idea = {
-					idea = wom_cooldown
-					days = 1095
-				}
-				
-			}
-		}
-		triggers = {
-			policy_WOM_POL_level_0_click_enabled = {
-				has_political_power > 289
-				OR = {
-					has_idea = policy_women_temp_1
-				}
-				NOT = { has_idea = wom_cooldown }
-			}
-			#0-4a
-			policy_WOM_POL_level_desc_visible = {
-				check_variable = { policy_legislation = 2 }
-			}
-			policy_WOM_POL_level_0_visible = {
-				check_variable = { policy_legislation = 2 }
-			}
-			policy_WOM_POL_level_0_text_visible = {
-				check_variable = { policy_legislation = 2 }
-			}
-			policy_WOM_POL_level_1_visible = {
-				check_variable = { policy_legislation = 2 }
-			}
-			policy_WOM_POL_level_1_text_visible = {
-				check_variable = { policy_legislation = 2 }
-			}
-			policy_WOM_POL_level_2_visible = {
-				check_variable = { policy_legislation = 2 }
-			}
-			policy_WOM_POL_level_2_text_visible = {
-				check_variable = { policy_legislation = 2 }
-			}
-			policy_WOM_POL_level_3_visible = {
-				check_variable = { policy_legislation = 2 }
-			}
-			policy_WOM_POL_level_3_text_visible = {
-				check_variable = { policy_legislation = 2 }
-			}
-			policy_WOM_POL_level_4_visible = {
-				check_variable = { policy_legislation = 2 }
-			}
-			policy_WOM_POL_level_4_text_visible = {
-				check_variable = { policy_legislation = 2 }
-			}
-			policy_WOM_POL_level_4a_visible = {
-				check_variable = { policy_legislation = 2 }
-			}
-			policy_WOM_POL_level_4a_text_visible = {
-				check_variable = { policy_legislation = 2 }
-			}
-			wom_current_effects_header_visible = {
-				check_variable = { policy_legislation = 2 }
-			}
-
-			legislation_menu_open_text48_visible = {
-				check_variable = { policy_legislation = 2 }
-			}
-				policy_WOM_POL_level_0_unavailable_visible = {
-					check_variable = { policy_legislation = 2 }
-					OR = {
-						NOT = {
-							has_idea = policy_women_temp_1
-						}
-						has_idea = wom_cooldown
-					}
-				}
-				policy_WOM_POL_level_0_unaffordable_visible = {
-					check_variable = { policy_legislation = 2 }
-					NOT = { has_political_power > 289 }
-					OR = {
-						has_idea = policy_women_temp_1
-					}
-					NOT = { has_idea = wom_cooldown }
-				}
-				policy_WOM_POL_level_0_completed_visible = {
-					check_variable = { policy_legislation = 2 }
-					has_idea = policy_women_temp_0
-				}
-				
-			policy_WOM_POL_level_1_click_enabled = {
-				has_political_power > 289
-				OR = {
-					has_idea = policy_women_temp_0
-					has_idea = policy_women_temp_2
-				}
-				NOT = { has_idea = wom_cooldown }
-			}
-				policy_WOM_POL_level_1_unavailable_visible = {
-					check_variable = { policy_legislation = 2 }
-					OR = {
-						NOT = {
-							has_idea = policy_women_temp_0
-							has_idea = policy_women_temp_2
-						}
-						has_idea = wom_cooldown
-					}
-				}
-				policy_WOM_POL_level_1_unaffordable_visible = {
-					check_variable = { policy_legislation = 2 }
-					NOT = { has_political_power > 289 }
-					OR = {
-						has_idea = policy_women_temp_0
-						has_idea = policy_women_temp_2
-					}
-					NOT = { has_idea = wom_cooldown }
-				}
-				policy_WOM_POL_level_1_completed_visible = {
-					check_variable = { policy_legislation = 2 }
-					has_idea = policy_women_temp_1
-				}
-			policy_WOM_POL_level_2_click_enabled = {
-				has_political_power > 289
-				OR = {
-					has_idea = policy_women_temp_1
-					has_idea = policy_women_temp_3
-				}
-				NOT = { has_idea = wom_cooldown }
-			}
-				policy_WOM_POL_level_2_unavailable_visible = {
-					check_variable = { policy_legislation = 2 }
-					OR = {
-						NOT = {
-							has_idea = policy_women_temp_1
-							has_idea = policy_women_temp_3
-						}
-						has_idea = wom_cooldown
-					}
-				}
-				policy_WOM_POL_level_2_unaffordable_visible = {
-					check_variable = { policy_legislation = 2 }
-					NOT = { has_political_power > 289 }
-					OR = {
-						has_idea = policy_women_temp_1
-						has_idea = policy_women_temp_3
-					}
-					NOT = { has_idea = wom_cooldown }
-				}
-				policy_WOM_POL_level_2_completed_visible = {
-					check_variable = { policy_legislation = 2 }
-					has_idea = policy_women_temp_2
-				}
-			policy_WOM_POL_level_3_click_enabled = {
-				has_political_power > 289
-				OR = {
-					has_idea = policy_women_temp_2
-					has_idea = policy_women_temp_4
-				}
-				NOT = { has_idea = wom_cooldown }
-			}
-				policy_WOM_POL_level_3_unavailable_visible = {
-					check_variable = { policy_legislation = 2 }
-					OR = {
-						NOT = {
-							has_idea = policy_women_temp_2
-							has_idea = policy_women_temp_4
-						}
-						has_idea = wom_cooldown
-					}
-				}
-				policy_WOM_POL_level_3_unaffordable_visible = {
-					check_variable = { policy_legislation = 2 }
-					NOT = { has_political_power > 289 }
-					OR = {
-						has_idea = policy_women_temp_2
-						has_idea = policy_women_temp_4
-					}
-					NOT = { has_idea = wom_cooldown }
-				}
-				policy_WOM_POL_level_3_completed_visible = {
-					check_variable = { policy_legislation = 2 }
-					has_idea = policy_women_temp_3
-				}
-			policy_WOM_POL_level_4_click_enabled = {
-				has_political_power > 289
-				OR = {
-					has_idea = policy_women_temp_3
-					has_idea = policy_women_temp_4a
-				}
-				NOT = { has_idea = wom_cooldown }
-			}
-				policy_WOM_POL_level_4_unavailable_visible = {
-					check_variable = { policy_legislation = 2 }
-					OR = {
-						NOT = {
-							has_idea = policy_women_temp_3
-							has_idea = policy_women_temp_4a
-						}
-						has_idea = wom_cooldown
-					}
-				}
-				policy_WOM_POL_level_4_unaffordable_visible = {
-					check_variable = { policy_legislation = 2 }
-					NOT = { has_political_power > 289 }
-					OR = {
-						has_idea = policy_women_temp_3
-						has_idea = policy_women_temp_4a
-					}
-					NOT = { has_idea = wom_cooldown }
-				}
-				policy_WOM_POL_level_4_completed_visible = {
-					check_variable = { policy_legislation = 2 }
-					has_idea = policy_women_temp_4
-				}
-			policy_WOM_POL_level_4a_click_enabled = {
-				has_political_power > 289
-				OR = {
-					has_idea = policy_women_temp_4
-				}
-				NOT = { has_idea = wom_cooldown }
-			}
-				policy_WOM_POL_level_4a_unavailable_visible = {
-					check_variable = { policy_legislation = 2 }
-					OR = {
-						NOT = {
-							has_idea = policy_women_temp_4
-						}
-						has_idea = wom_cooldown
-					}
-				}
-				policy_WOM_POL_level_4a_unaffordable_visible = {
-					check_variable = { policy_legislation = 2 }
-					NOT = { has_political_power > 289 }
-					OR = {
-						has_idea = policy_women_temp_4
-					}
-					NOT = { has_idea = wom_cooldown }
-				}
-				policy_WOM_POL_level_4a_completed_visible = {
-					check_variable = { policy_legislation = 2 }
-					has_idea = policy_women_temp_4a
-				}
-			policy_WOM_POL_cooldown_icon_visible = {
-				check_variable = { policy_legislation = 2 }
-				has_idea = wom_cooldown
-			}
-			policy_WOM_POL_promotion_reaction_icon_visible = {
-				check_variable = { policy_legislation = 2 }
-				has_idea = wom_reactionary_cooldown
-			}
-			policy_WOM_POL_regression_reaction_icon_visible = {
-				check_variable = { policy_legislation = 2 }
-				has_idea = wom_instability_cooldown
-			}
-		}
-		#visible = {
-		#	check_variable = { policy_legislation = 2 } 
-		#}
-
-		effects = {
-			policy_UNION_POL_regression_reaction_icon_click = {
-				news_event = UNION_POL.1
-			}
-			policy_UNION_POL_level_0_click = {
-				add_political_power = -450
-				set_variable = { legislation_support = 0 }
-				remove_ideas = policy_union_temp_0
-				remove_ideas = policy_union_temp_1
-				remove_ideas = policy_union_temp_2
-				remove_ideas = policy_union_temp_3
-				remove_ideas = policy_union_temp_4
-				
-				add_ideas = policy_union_temp_0
-				add_timed_idea = {
-					idea = union_cooldown
-					days = 1095
-				}
-				add_timed_idea = {
-					idea = union_instability_cooldown
-					days = 1095
-				}
-			}
-			policy_UNION_POL_level_1_click = {
-				if = {
-					limit = {
-						has_idea = policy_union_temp_2
-					}
-					add_timed_idea = {
-						idea = union_instability_cooldown
-						days = 185
-					}
-				}
-				add_political_power = -150
-				set_variable = { legislation_support = 0 }
-				remove_ideas = policy_union_temp_0
-				remove_ideas = policy_union_temp_1
-				remove_ideas = policy_union_temp_2
-				remove_ideas = policy_union_temp_3
-				remove_ideas = policy_union_temp_4
-				
-				add_ideas = policy_union_temp_1
-				add_timed_idea = {
-					idea = union_cooldown
-					days = 365
-				}
-			}
-			policy_UNION_POL_level_2_click = {
-				add_political_power = -150
-				set_variable = { legislation_support = 0 }
-				remove_ideas = policy_union_temp_0
-				remove_ideas = policy_union_temp_1
-				remove_ideas = policy_union_temp_2
-				remove_ideas = policy_union_temp_3
-				remove_ideas = policy_union_temp_4
-				
-				add_ideas = policy_union_temp_2
-				add_timed_idea = {
-					idea = union_cooldown
-					days = 365
-				}
-			}
-			policy_UNION_POL_level_3_click = {
-				add_political_power = -150
-				set_variable = { legislation_support = 0 }
-				remove_ideas = policy_union_temp_0
-				remove_ideas = policy_union_temp_1
-				remove_ideas = policy_union_temp_2
-				remove_ideas = policy_union_temp_3
-				remove_ideas = policy_union_temp_4
-				
-				add_ideas = policy_union_temp_3
-				add_timed_idea = {
-					idea = union_cooldown
-					days = 365
-				}
-			}
-			policy_UNION_POL_level_4_click = {
-				add_political_power = -150
-				set_variable = { legislation_support = 0 }
-				remove_ideas = policy_union_temp_0
-				remove_ideas = policy_union_temp_1
-				remove_ideas = policy_union_temp_2
-				remove_ideas = policy_union_temp_3
-				remove_ideas = policy_union_temp_4
-				
-				add_ideas = policy_union_temp_3
-				add_timed_idea = {
-					idea = union_cooldown
-					days = 365
-				}
-			}
-		}
-		triggers = {
-			policy_UNION_POL_level_0_click_enabled = {
-				has_political_power > 439
-				OR = {
-					has_idea = policy_union_temp_1
-				}
-				NOT = { has_idea = union_cooldown }
-			}
-			
-			legislation_menu_open_text49_visible = {
-				check_variable = { policy_legislation = 2 } 
-			}
-			#0-5
-			policy_UNION_POL_level_0_visible = {
-				check_variable = { policy_legislation = 2 } 
-			}
-			policy_UNION_POL_level_0_text_visible = {
-				check_variable = { policy_legislation = 2 } 
-			}
-			policy_UNION_POL_level_1_visible = {
-				check_variable = { policy_legislation = 2 } 
-			}
-			policy_UNION_POL_level_1_text_visible = {
-				check_variable = { policy_legislation = 2 } 
-			}
-			policy_UNION_POL_level_2_visible = {
-				check_variable = { policy_legislation = 2 } 
-			}
-			policy_UNION_POL_level_2_text_visible = {
-				check_variable = { policy_legislation = 2 } 
-			}
-			policy_UNION_POL_level_3_visible = {
-				check_variable = { policy_legislation = 2 } 
-			}
-			policy_UNION_POL_level_3_text_visible = {
-				check_variable = { policy_legislation = 2 } 
-			}
-			policy_UNION_POL_level_4_visible = {
-				check_variable = { policy_legislation = 2 } 
-			}
-			policy_UNION_POL_level_4_text_visible = {
-				check_variable = { policy_legislation = 2 } 
-			}
-			union_current_effects_header_visible = {
-				check_variable = { policy_legislation = 2 }
-			}
-
-				policy_UNION_POL_level_0_unavailable_visible = {
-					check_variable = { policy_legislation = 2 } 
-					OR = {
-						NOT = {
-							has_idea = policy_union_temp_1
-						}
-						has_idea = union_cooldown
-					}
-				}
-				policy_UNION_POL_level_0_unaffordable_visible = {
-					check_variable = { policy_legislation = 2 } 
-					NOT = { has_political_power > 439 }
-					OR = {
-						has_idea = policy_union_temp_1
-					}
-					NOT = { has_idea = union_cooldown }
-				}
-				policy_UNION_POL_level_0_completed_visible = {
-					check_variable = { policy_legislation = 2 } 
-					has_idea = policy_union_temp_0
-				}
-			policy_UNION_POL_level_1_click_enabled = {
-				has_political_power > 139
-				OR = {
-					has_idea = policy_union_temp_0
-					has_idea = policy_union_temp_2
-				}
-				NOT = { has_idea = union_cooldown }
-			}
-				policy_UNION_POL_level_1_unavailable_visible = {
-					check_variable = { policy_legislation = 2 } 
-					OR = {
-						NOT = {
-							has_idea = policy_union_temp_0
-							has_idea = policy_union_temp_2
-						}
-						has_idea = union_cooldown
-					}
-				}
-				policy_UNION_POL_level_1_unaffordable_visible = {
-					check_variable = { policy_legislation = 2 } 
-					NOT = { has_political_power > 139 }
-					OR = {
-						has_idea = policy_union_temp_0
-						has_idea = policy_union_temp_2
-					}
-					NOT = { has_idea = union_cooldown }
-				}
-				policy_UNION_POL_level_1_completed_visible = {
-					check_variable = { policy_legislation = 2 } 
-					has_idea = policy_union_temp_1
-				}
-			policy_UNION_POL_level_2_click_enabled = {
-				has_political_power > 139
-				OR = {
-					has_idea = policy_union_temp_1
-					has_idea = policy_union_temp_3
-				}
-				NOT = { has_idea = union_cooldown }
-			}
-				policy_UNION_POL_level_2_unavailable_visible = {
-					check_variable = { policy_legislation = 2 } 
-					OR = {
-						NOT = {
-							has_idea = policy_union_temp_1
-							has_idea = policy_union_temp_3
-						}
-						has_idea = union_cooldown
-					}
-				}
-				policy_UNION_POL_level_2_unaffordable_visible = {
-					check_variable = { policy_legislation = 2 } 
-					NOT = { has_political_power > 139 }
-					OR = {
-						has_idea = policy_union_temp_1
-						has_idea = policy_union_temp_3
-					}
-					NOT = { has_idea = union_cooldown }
-				}
-				policy_UNION_POL_level_2_completed_visible = {
-					check_variable = { policy_legislation = 2 } 
-					has_idea = policy_union_temp_2
-				}
-			policy_UNION_POL_level_3_click_enabled = {
-				has_political_power > 139
-				OR = {
-					has_idea = policy_union_temp_2
-					has_idea = policy_union_temp_3
-				}
-				NOT = { has_idea = union_cooldown }
-			}
-				policy_UNION_POL_level_3_unavailable_visible = {
-					check_variable = { policy_legislation = 2 } 
-					OR = {
-						NOT = {
-							has_idea = policy_union_temp_2
-							has_idea = policy_union_temp_3
-						}
-						has_idea = union_cooldown
-					}
-				}
-				policy_UNION_POL_level_3_unaffordable_visible = {
-					check_variable = { policy_legislation = 2 } 
-					NOT = { has_political_power > 139 }
-					OR = {
-						has_idea = policy_union_temp_2
-						has_idea = policy_union_temp_3
-					}
-					NOT = { has_idea = union_cooldown }
-				}
-				policy_UNION_POL_level_3_completed_visible = {
-					check_variable = { policy_legislation = 2 } 
-					has_idea = policy_union_temp_3
-				}
-			policy_UNION_POL_level_4_click_enabled = {
-				has_political_power > 139
-				OR = {
-					has_idea = policy_union_temp_3
-					has_idea = policy_union_temp_4
-				}
-				NOT = { has_idea = union_cooldown }
-			}
-				policy_UNION_POL_level_4_unavailable_visible = {
-					check_variable = { policy_legislation = 2 } 
-					OR = {
-						NOT = {
-							has_idea = policy_union_temp_3
-							has_idea = policy_union_temp_4
-						}
-						has_idea = union_cooldown
-					}
-				}
-				policy_UNION_POL_level_4_unaffordable_visible = {
-					check_variable = { policy_legislation = 2 } 
-					NOT = { has_political_power > 139 }
-					OR = {
-						has_idea = policy_union_temp_3
-						has_idea = policy_union_temp_4
-					}
-					NOT = { has_idea = union_cooldown }
-				}
-				policy_UNION_POL_level_4_completed_visible = {
-					check_variable = { policy_legislation = 2 } 
-					has_idea = policy_union_temp_3
-				}
-			policy_UNION_POL_cooldown_icon_visible = {
-				check_variable = { policy_legislation = 2 } 
-				has_idea = union_cooldown
-			}
-			policy_UNION_POL_regression_reaction_icon_visible = {
-				check_variable = { policy_legislation = 2 } 
-				has_idea = union_instability_cooldown
-			}
-			policy_UNION_POL_level_desc_visible = {
-				check_variable = { policy_legislation = 2 } 
-			}
-		}
-
-		#visible = {
-		#	check_variable = { policy_legislation = 2 } legislation_menu_open_text66
-		#} 
-
-		effects = {
-			policy_MEDIA_POL_level_0_click = {
-				add_political_power = -300
-				set_variable = { legislation_support = 0 }
-				remove_ideas = policy_media_temp_0
-				remove_ideas = policy_media_temp_1
-				remove_ideas = policy_media_temp_2
-				remove_ideas = policy_media_temp_3
-				remove_ideas = policy_media_temp_3a
-				
-				add_ideas = policy_media_temp_0
-				add_timed_idea = {
-					idea = media_cooldown
-					days = 180
-				}
-			}
-			policy_MEDIA_POL_level_1_click = {
-				add_political_power = -300
-				set_variable = { legislation_support = 0 }
-				remove_ideas = policy_media_temp_0
-				remove_ideas = policy_media_temp_1
-				remove_ideas = policy_media_temp_2
-				remove_ideas = policy_media_temp_3
-				remove_ideas = policy_media_temp_3a
-				
-				add_ideas = policy_media_temp_1
-				add_timed_idea = {
-					idea = media_cooldown
-					days = 180
-				}
-			}
-			policy_MEDIA_POL_level_2_click = {
-				add_political_power = -300
-				set_variable = { legislation_support = 0 }
-				remove_ideas = policy_media_temp_0
-				remove_ideas = policy_media_temp_1
-				remove_ideas = policy_media_temp_2
-				remove_ideas = policy_media_temp_3
-				remove_ideas = policy_media_temp_3a
-				
-				add_ideas = policy_media_temp_2
-				add_timed_idea = {
-					idea = media_cooldown
-					days = 180
-				}
-			}
-			policy_MEDIA_POL_level_3_click = {
-				add_political_power = -300
-				set_variable = { legislation_support = 0 }
-				remove_ideas = policy_media_temp_0
-				remove_ideas = policy_media_temp_1
-				remove_ideas = policy_media_temp_2
-				remove_ideas = policy_media_temp_3
-				remove_ideas = policy_media_temp_3a
-				
-				add_ideas = policy_media_temp_3
-				add_timed_idea = {
-					idea = media_cooldown
-					days = 180
-				}
-			}
-			policy_MEDIA_POL_level_3a_click = {
-				add_political_power = -300
-				set_variable = { legislation_support = 0 }
-				remove_ideas = policy_media_temp_0
-				remove_ideas = policy_media_temp_1
-				remove_ideas = policy_media_temp_2
-				remove_ideas = policy_media_temp_3
-				remove_ideas = policy_media_temp_3a
-				
-				add_ideas = policy_media_temp_3a
-				add_timed_idea = {
-					idea = media_cooldown
-					days = 180
-				}
-			}
-				
-		}
-		triggers = {
-			
-			legislation_menu_open_text66_visible = {
-				check_variable = { policy_legislation = 2 } 
-			}
-			policy_MEDIA_POL_level_0_visible = {
-				check_variable = { policy_legislation = 2 } 
-			}
-			policy_MEDIA_POL_level_0_text_visible = {
-				check_variable = { policy_legislation = 2 } 
-			}
-			policy_MEDIA_POL_level_1_visible = {
-				check_variable = { policy_legislation = 2 } 
-			}
-			policy_MEDIA_POL_level_1_text_visible = {
-				check_variable = { policy_legislation = 2 } 
-			}
-			policy_MEDIA_POL_level_2_visible = {
-				check_variable = { policy_legislation = 2 } 
-			}
-			policy_MEDIA_POL_level_2_text_visible = {
-				check_variable = { policy_legislation = 2 } 
-			}
-			policy_MEDIA_POL_level_3_visible = {
-				check_variable = { policy_legislation = 2 } 
-			}
-			policy_MEDIA_POL_level_3_text_visible = {
-				check_variable = { policy_legislation = 2 } 
-			}
-			policy_MEDIA_POL_level_3a_visible = {
-				check_variable = { policy_legislation = 2 } 
-			}
-			policy_MEDIA_POL_level_3a_text_visible = {
-				check_variable = { policy_legislation = 2 } 
-			}
-			policy_MEDIA_POL_level_3a_text_visible_visible = {
-				check_variable = { policy_legislation = 2 } 
-			}
-			media_current_effects_header_visible = {
-				check_variable = { policy_legislation = 2 }
-			}
-
-			policy_MEDIA_POL_level_0_click_enabled = {
-				has_political_power > 289
-				OR = {
-					has_idea = policy_media_temp_1
-					has_idea = policy_media_temp_2
-				}
-				NOT = { has_idea = media_cooldown }
-				NOT = { has_government = liberal }
-			}
-				policy_MEDIA_POL_level_0_unavailable_visible = {
-					check_variable = { policy_legislation = 2 } 
-					OR = {
-						NOT = {
-							OR = {
-								has_idea = policy_media_temp_1
-								has_idea = policy_media_temp_2
-							}
-						}
-						has_idea = media_cooldown
-						has_government = liberal
-					}
-				}
-				policy_MEDIA_POL_level_0_unaffordable_visible = {
-					check_variable = { policy_legislation = 2 } 
-					NOT = { has_political_power > 289 }
-					OR = {
-						has_idea = policy_media_temp_1
-						has_idea = policy_media_temp_2
-					}
-					NOT = { has_idea = media_cooldown }
-					NOT = { has_government = liberal }
-				}
-				policy_MEDIA_POL_level_0_completed_visible = {
-					check_variable = { policy_legislation = 2 } 
-					has_idea = policy_media_temp_0
-				}
-			policy_MEDIA_POL_level_1_click_enabled = {
-				has_political_power > 289
-				OR = {
-					has_idea = policy_media_temp_0
-					has_idea = policy_media_temp_3
-					has_idea = policy_media_temp_2
-				}
-				NOT = { has_idea = media_cooldown }
-				NOT = { has_government = liberal }
-			}
-				policy_MEDIA_POL_level_1_unavailable_visible = {
-					check_variable = { policy_legislation = 2 } 
-					OR = {
-						NOT = {
-							OR = {
-								has_idea = policy_media_temp_0
-								has_idea = policy_media_temp_3
-								has_idea = policy_media_temp_2
-							}
-						}
-						has_idea = media_cooldown
-						has_government = liberal
-					}
-				}
-				policy_MEDIA_POL_level_1_unaffordable_visible = {
-					check_variable = { policy_legislation = 2 } 
-					NOT = { has_political_power > 289 }
-					OR = {
-						has_idea = policy_media_temp_0
-						has_idea = policy_media_temp_3
-						has_idea = policy_media_temp_2
-					}
-					NOT = { has_idea = media_cooldown }
-					NOT = { has_government = liberal }
-				}
-				policy_MEDIA_POL_level_1_completed_visible = {
-					check_variable = { policy_legislation = 2 } 
-					has_idea = policy_media_temp_1
-				}
-			policy_MEDIA_POL_level_2_click_enabled = {
-				has_political_power > 289
-				OR = {
-					has_idea = policy_media_temp_0
-					has_idea = policy_media_temp_3
-					has_idea = policy_media_temp_1
-				}
-				NOT = { has_idea = media_cooldown }
-				NOT = { has_government = liberal }
-			}
-				policy_MEDIA_POL_level_2_unavailable_visible = {
-					check_variable = { policy_legislation = 2 } 
-					OR = {
-						NOT = {
-							OR = {
-								has_idea = policy_media_temp_0
-								has_idea = policy_media_temp_3
-								has_idea = policy_media_temp_1
-							}
-						}
-						has_idea = media_cooldown
-						has_government = liberal
-					}
-				}
-				policy_MEDIA_POL_level_2_unaffordable_visible = {
-					check_variable = { policy_legislation = 2 } 
-					NOT = { has_political_power > 289 }
-					OR = {
-						has_idea = policy_media_temp_0
-						has_idea = policy_media_temp_3
-						has_idea = policy_media_temp_1
-					}
-					NOT = { has_idea = media_cooldown }
-					NOT = { has_government = liberal }
-				}
-				policy_MEDIA_POL_level_2_completed_visible = {
-					check_variable = { policy_legislation = 2 } 
-					has_idea = policy_media_temp_2
-				}
-			policy_MEDIA_POL_level_3_click_enabled = {
-				has_political_power > 289
-				OR = {
-					has_idea = policy_media_temp_2
-					has_idea = policy_media_temp_1
-					has_idea = policy_media_temp_3a
-					
-					has_government = liberal
-				}
-				NOT = { has_idea = media_cooldown }
-			}
-				policy_MEDIA_POL_level_3_unavailable_visible = {
-					check_variable = { policy_legislation = 2 } 
-					OR = {
-						NOT = {
-							OR = {
-								has_idea = policy_media_temp_1
-								has_idea = policy_media_temp_2
-							}
-						}
-						has_idea = media_cooldown
-						NOT = { has_government = liberal }
-					}
-				}
-				policy_MEDIA_POL_level_3_unaffordable_visible = {
-					check_variable = { policy_legislation = 2 } 
-					NOT = { has_political_power > 289 }
-					OR = {
-						has_idea = policy_media_temp_2
-						has_idea = policy_media_temp_1
-						has_idea = policy_media_temp_3a
-						has_government = liberal
-					}
-					NOT = { has_idea = media_cooldown }
-				}
-				policy_MEDIA_POL_level_3_completed_visible = {
-					check_variable = { policy_legislation = 2 } 
-					has_idea = policy_media_temp_3
-				}
-			policy_MEDIA_POL_level_3a_click_enabled = {
-				has_political_power > 289
-				OR = {
-					has_idea = policy_media_temp_3
-					has_idea = policy_media_temp_2
-					
-					has_government = liberal
-				}
-				NOT = { has_idea = media_cooldown }
-			}
-				policy_MEDIA_POL_level_3a_unavailable_visible = {
-				check_variable = { policy_legislation = 2 } 
-					OR = {
-						NOT = {
-							OR = {
-								has_idea = policy_media_temp_3
-								has_idea = policy_media_temp_2
-							}
-						}
-						has_idea = media_cooldown
-						NOT = { has_government = liberal }
-					}
-				}
-				policy_MEDIA_POL_level_3a_unaffordable_visible = {
-					check_variable = { policy_legislation = 2 } 
-					NOT = { has_political_power > 289 }
-					OR = {
-						has_idea = policy_media_temp_2
-						has_idea = policy_media_temp_3
-						has_government = liberal
-					}
-					NOT = { has_idea = media_cooldown }
-				}
-				policy_MEDIA_POL_level_3a_completed_visible = {
-					check_variable = { policy_legislation = 2 } 
-					has_idea = policy_media_temp_3a
-				}
-			policy_MEDIA_POL_cooldown_icon_visible = {
-				check_variable = { policy_legislation = 2 } 
-				has_idea = media_cooldown
-			}
-			policy_MEDIA_POL_change_reaction_icon_visible = {
-				check_variable = { policy_legislation = 2 } 
-				has_idea = media_cooldown
-			}
-			policy_MEDIA_level_desc_visible = {
-				check_variable = { policy_legislation = 2 } 
-			}
 		}
 	}
 }

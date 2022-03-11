@@ -1,0 +1,18 @@
+culture_global_setup = {
+  culture_european_setup = yes
+  culture_colonial_setup = yes
+  culture_indic_setup = yes
+  culture_afroasiatic_setup = yes
+  culture_nilosaharan_setup = yes
+  culture_nigercongo_setup = yes
+  culture_bantu_setup = yes
+  culture_khosian_setup = yes
+  culture_austronesian_setup = yes
+}
+
+culture_european_setup = {
+  set_variable = { global.british = 1 }
+  set_variable = { global.dutch = 2 }
+  set_variable = { global.waloon = 3 }
+  
+}
