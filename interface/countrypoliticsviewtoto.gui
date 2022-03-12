@@ -70,12 +70,255 @@ guiTypes = {
 			quadTextureSprite ="GFX_tiled_plain_bg"
 		}
 
-		iconType = {
-			name ="production_header_bg2"
-			spriteType = "GFX_Military_Access_Button"
-			position = { x= 5 y = 695 }
-			Orientation = "UPPER_LEFT"
-			alwaystransparent = yes
+		containerWindowType = {
+			name = "army_policy_tab"
+			position = { x = 0 y = 0 }
+			show_position = { x = 0%% y = 0 }
+			show_animation_type = decelerated
+			hide_animation_type = accelerated
+			animation_time = 0
+			size = { width = 320 height = 250 }
+			clipping = yes
+			moveable = no
+			background = {
+				name = "Background2"
+				quadTextureSprite ="GFX_tiled_pol_bg"
+			}
+			instantTextBoxType = {
+				name = "legislation_menu_open_text3"
+				position = { x = 10 y = 15 }
+				font = "hoi_24header"
+				text = "MIL_POL_header"
+				maxWidth = 347
+				maxHeight = 20
+				fixedsize = no
+				format = centre
+				Orientation = "UPPER_LEFT"
+			}
+			containerWindowType = {
+				name = "MIL_POL_level_1_tab"
+				position = { x = 19 y = 50 }
+				buttonType = {
+					name = "policy_MIL_POL_level_1"
+					position = { x = 0 y = 0 }
+					spriteType = "GFX_government_policy_available_button"
+					Orientation = "UPPER_LEFT"
+					clicksound = click_open
+					clicksound = click_default
+					pdx_tooltip = "MIL_POL_1"
+					pdx_tooltip_delayed = "MIL_POL_1_desc_PP"
+				}
+				iconType = {
+					name = "policy_MIL_POL_level_1_unavailable"
+					position = {x=0 y=0}
+					spriteType = "GFX_government_policy_unavailable_button"
+					Orientation = "UPPER_LEFT"
+					pdx_tooltip = "MIL_POL_1"
+				}
+				iconType = {
+					name = "policy_MIL_POL_level_1_completed"
+					position = {x=0 y=0}
+					spriteType = "GFX_government_policy_selected_button"
+					Orientation = "UPPER_LEFT"
+					pdx_tooltip = "MIL_POL_1"
+				}
+				#iconType = {
+				#	name ="MIL_POL_temp_1_icon"
+				#	spriteType = "GFX_MIL_POL_temp_1_icon"
+				#	position = {x=-9 y=0}
+				#}
+				instantTextboxType = {
+					name = "policy_MIL_POL_level_1_text"
+					position = {x=-9 y=7}
+					font = "hoi_16"
+					text = "policy_military_temp_1"
+					maxWidth = 180
+					maxHeight = 23
+					format = center
+					alwaystransparent = yes
+				}
+			}
+			containerWindowType = {
+				name = "MIL_POL_level_2_tab"
+				position = { x = 19 y = 75 }
+				buttonType = {
+					name = "policy_MIL_POL_level_2"
+					position = { x = 0 y = 0 }
+					spriteType = "GFX_government_policy_available_button"
+					Orientation = "UPPER_LEFT"
+					clicksound = click_open
+					clicksound = click_default
+					pdx_tooltip = "MIL_POL_2"
+					pdx_tooltip_delayed = "MIL_POL_2_desc_PP"
+				}
+				iconType = {
+					name = "policy_MIL_POL_level_2_unavailable"
+					position = {x=0 y=0}
+					spriteType = "GFX_government_policy_unavailable_button"
+					Orientation = "UPPER_LEFT"
+					pdx_tooltip = "MIL_POL_2"
+				}
+				iconType = {
+					name = "policy_MIL_POL_level_2_completed"
+					position = {x=0 y=0}
+					spriteType = "GFX_government_policy_selected_button"
+					Orientation = "UPPER_LEFT"
+					pdx_tooltip = "MIL_POL_2"
+				}
+				#iconType = {
+				#	name ="MIL_POL_temp_2_icon"
+				#	spriteType = "GFX_MIL_POL_temp_2_icon"
+				#	position = {x=-9 y=0}
+				#}
+				instantTextboxType = {
+					name = "policy_MIL_POL_level_2_text"
+					position = {x=-9 y=7}
+					font = "hoi_16"
+					text = "policy_military_temp_2"
+					maxWidth = 180
+					maxHeight = 23
+					format = center
+					alwaystransparent = yes
+				}
+			}
+			containerWindowType = {
+				name = "MIL_POL_level_3_tab"
+				position = { x = 19 y = 100 }
+				buttonType = {
+					name = "policy_MIL_POL_level_3"
+					position = { x = 0 y = 0 }
+					spriteType = "GFX_government_policy_available_button"
+					Orientation = "UPPER_LEFT"
+					clicksound = click_open
+					clicksound = click_default
+					pdx_tooltip = "MIL_POL_3"
+					pdx_tooltip_delayed = "MIL_POL_3_desc_PP"
+				}
+				iconType = {
+					name = "policy_MIL_POL_level_3_unavailable"
+					position = {x=0 y=0}
+					spriteType = "GFX_government_policy_unavailable_button"
+					Orientation = "UPPER_LEFT"
+					pdx_tooltip = "MIL_POL_3"
+				}
+				iconType = {
+					name = "policy_MIL_POL_level_3_completed"
+					position = {x=0 y=0}
+					spriteType = "GFX_government_policy_selected_button"
+					Orientation = "UPPER_LEFT"
+					pdx_tooltip = "MIL_POL_3"
+				}
+				#iconType = {
+				#	name ="MIL_POL_temp_3_icon"
+				#	spriteType = "GFX_MIL_POL_temp_3_icon"
+				#	position = {x=-9 y=0}
+				#}
+				instantTextboxType = {
+					name = "policy_MIL_POL_level_3_text"
+					position = {x=-9 y=7}
+					font = "hoi_16"
+					text = "policy_military_temp_3"
+					maxWidth = 180
+					maxHeight = 23
+					format = center
+					alwaystransparent = yes
+				}
+			}
+			containerWindowType = {
+				name = "MIL_POL_level_4_tab"
+				position = { x = 19 y = 125 }
+				buttonType = {
+					name = "policy_MIL_POL_level_4"
+					position = { x = 0 y = 0 }
+					spriteType = "GFX_government_policy_available_button"
+					Orientation = "UPPER_LEFT"
+					clicksound = click_open
+					clicksound = click_default
+					pdx_tooltip = "MIL_POL_4"
+					pdx_tooltip_delayed = "MIL_POL_4_desc_PP"
+				}
+				iconType = {
+					name = "policy_MIL_POL_level_4_unavailable"
+					position = {x=0 y=0}
+					spriteType = "GFX_government_policy_unavailable_button"
+					Orientation = "UPPER_LEFT"
+					pdx_tooltip = "MIL_POL_4"
+				}
+				iconType = {
+					name = "policy_MIL_POL_level_4_completed"
+					position = {x=0 y=0}
+					spriteType = "GFX_government_policy_selected_button"
+					Orientation = "UPPER_LEFT"
+					pdx_tooltip = "MIL_POL_4"
+				}
+				#iconType = {
+				#	name ="MIL_POL_temp_4_icon"
+				#	spriteType = "GFX_MIL_POL_temp_4_icon"
+				#	position = {x=-9 y=0}
+				#}
+				instantTextboxType = {
+					name = "policy_MIL_POL_level_4_text"
+					position = {x=-9 y=7}
+					font = "hoi_16"
+					text = "policy_military_temp_4"
+					maxWidth = 180
+					maxHeight = 23
+					format = center
+					alwaystransparent = yes
+				}
+			}
+			iconType = {
+				name = "policy_military_temp_2_preserved_icon"
+				position = {x=19 y=15}
+				spriteType = "GFX_policy_military_preserved_icon"
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "policy_military_temp_2_preserved_desc"
+			}
+			iconType = {
+				name = "policy_military_temp_3_preserved_icon"
+				position = {x=19 y=15}
+				spriteType = "GFX_policy_military_preserved_icon"
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "policy_military_temp_3_preserved_desc"
+			}
+			iconType = {
+				name = "policy_military_temp_4_preserved_icon"
+				position = {x=19 y=15}
+				spriteType = "GFX_policy_military_preserved_icon"
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "policy_military_temp_4_preserved_desc"
+			}
+			iconType = {
+				name = "policy_military_mil_expansion_cooldown_icon"
+				position = {x=19 y=15}
+				spriteType = "GFX_policy_expansion_cooldown_icon"
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "mil_expansion_cooldown_desc"
+			}
+
+			instantTextBoxType = {
+				name = "policy_military_level_desc"
+				position = { x = 180%% y = 65 }
+				font = "hoi_16mbs"
+				text = [MIL_POLICY_EFFECT]
+				maxWidth = 300
+				maxHeight = 20
+				fixedsize = no
+				format = left
+				Orientation = "UPPER_LEFT"
+			}
+
+			instantTextBoxType = {
+				name = "military_current_effects_header"
+				position = { x = 180%% y = 50 }
+				font = "hoi_16mbs"
+				text = current_effects
+				maxWidth = 300
+				maxHeight = 20
+				fixedsize = no
+				format = left
+				Orientation = "UPPER_LEFT"
+			}
 		}
 
 		containerWindowType = {
@@ -2398,256 +2641,6 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "education_current_effects_header"
-				position = { x = 180%% y = 50 }
-				font = "hoi_16mbs"
-				text = current_effects
-				maxWidth = 300
-				maxHeight = 20
-				fixedsize = no
-				format = left
-				Orientation = "UPPER_LEFT"
-			}
-		}
-		containerWindowType = {
-			name = "army_policy_tab"
-			position = { x = 0 y = 0 }
-			show_position = { x = 0%% y = 0 }
-			show_animation_type = decelerated
-			hide_animation_type = accelerated
-			animation_time = 0
-			size = { width = 320 height = 250 }
-			clipping = yes
-			moveable = no
-			background = {
-				name = "Background2"
-				quadTextureSprite ="GFX_tiled_pol_bg"
-			}
-			instantTextBoxType = {
-				name = "legislation_menu_open_text3"
-				position = { x = 10 y = 15 }
-				font = "hoi_24header"
-				text = "MIL_POL_header"
-				maxWidth = 347
-				maxHeight = 20
-				fixedsize = no
-				format = centre
-				Orientation = "UPPER_LEFT"
-			}
-			containerWindowType = {
-				name = "MIL_POL_level_1_tab"
-				position = { x = 19 y = 50 }
-				buttonType = {
-					name = "policy_MIL_POL_level_1"
-					position = { x = 0 y = 0 }
-					spriteType = "GFX_government_policy_available_button"
-					Orientation = "UPPER_LEFT"
-					clicksound = click_open
-					clicksound = click_default
-					pdx_tooltip = "MIL_POL_1"
-					pdx_tooltip_delayed = "MIL_POL_1_desc_PP"
-				}
-				iconType = {
-					name = "policy_MIL_POL_level_1_unavailable"
-					position = {x=0 y=0}
-					spriteType = "GFX_government_policy_unavailable_button"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "MIL_POL_1"
-				}
-				iconType = {
-					name = "policy_MIL_POL_level_1_completed"
-					position = {x=0 y=0}
-					spriteType = "GFX_government_policy_selected_button"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "MIL_POL_1"
-				}
-				#iconType = {
-				#	name ="MIL_POL_temp_1_icon"
-				#	spriteType = "GFX_MIL_POL_temp_1_icon"
-				#	position = {x=-9 y=0}
-				#}
-				instantTextboxType = {
-					name = "policy_MIL_POL_level_1_text"
-					position = {x=-9 y=7}
-					font = "hoi_16"
-					text = "policy_military_temp_1"
-					maxWidth = 180
-					maxHeight = 23
-					format = center
-					alwaystransparent = yes
-				}
-			}
-			containerWindowType = {
-				name = "MIL_POL_level_2_tab"
-				position = { x = 19 y = 75 }
-				buttonType = {
-					name = "policy_MIL_POL_level_2"
-					position = { x = 0 y = 0 }
-					spriteType = "GFX_government_policy_available_button"
-					Orientation = "UPPER_LEFT"
-					clicksound = click_open
-					clicksound = click_default
-					pdx_tooltip = "MIL_POL_2"
-					pdx_tooltip_delayed = "MIL_POL_2_desc_PP"
-				}
-				iconType = {
-					name = "policy_MIL_POL_level_2_unavailable"
-					position = {x=0 y=0}
-					spriteType = "GFX_government_policy_unavailable_button"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "MIL_POL_2"
-				}
-				iconType = {
-					name = "policy_MIL_POL_level_2_completed"
-					position = {x=0 y=0}
-					spriteType = "GFX_government_policy_selected_button"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "MIL_POL_2"
-				}
-				#iconType = {
-				#	name ="MIL_POL_temp_2_icon"
-				#	spriteType = "GFX_MIL_POL_temp_2_icon"
-				#	position = {x=-9 y=0}
-				#}
-				instantTextboxType = {
-					name = "policy_MIL_POL_level_2_text"
-					position = {x=-9 y=7}
-					font = "hoi_16"
-					text = "policy_military_temp_2"
-					maxWidth = 180
-					maxHeight = 23
-					format = center
-					alwaystransparent = yes
-				}
-			}
-			containerWindowType = {
-				name = "MIL_POL_level_3_tab"
-				position = { x = 19 y = 100 }
-				buttonType = {
-					name = "policy_MIL_POL_level_3"
-					position = { x = 0 y = 0 }
-					spriteType = "GFX_government_policy_available_button"
-					Orientation = "UPPER_LEFT"
-					clicksound = click_open
-					clicksound = click_default
-					pdx_tooltip = "MIL_POL_3"
-					pdx_tooltip_delayed = "MIL_POL_3_desc_PP"
-				}
-				iconType = {
-					name = "policy_MIL_POL_level_3_unavailable"
-					position = {x=0 y=0}
-					spriteType = "GFX_government_policy_unavailable_button"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "MIL_POL_3"
-				}
-				iconType = {
-					name = "policy_MIL_POL_level_3_completed"
-					position = {x=0 y=0}
-					spriteType = "GFX_government_policy_selected_button"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "MIL_POL_3"
-				}
-				#iconType = {
-				#	name ="MIL_POL_temp_3_icon"
-				#	spriteType = "GFX_MIL_POL_temp_3_icon"
-				#	position = {x=-9 y=0}
-				#}
-				instantTextboxType = {
-					name = "policy_MIL_POL_level_3_text"
-					position = {x=-9 y=7}
-					font = "hoi_16"
-					text = "policy_military_temp_3"
-					maxWidth = 180
-					maxHeight = 23
-					format = center
-					alwaystransparent = yes
-				}
-			}
-			containerWindowType = {
-				name = "MIL_POL_level_4_tab"
-				position = { x = 19 y = 125 }
-				buttonType = {
-					name = "policy_MIL_POL_level_4"
-					position = { x = 0 y = 0 }
-					spriteType = "GFX_government_policy_available_button"
-					Orientation = "UPPER_LEFT"
-					clicksound = click_open
-					clicksound = click_default
-					pdx_tooltip = "MIL_POL_4"
-					pdx_tooltip_delayed = "MIL_POL_4_desc_PP"
-				}
-				iconType = {
-					name = "policy_MIL_POL_level_4_unavailable"
-					position = {x=0 y=0}
-					spriteType = "GFX_government_policy_unavailable_button"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "MIL_POL_4"
-				}
-				iconType = {
-					name = "policy_MIL_POL_level_4_completed"
-					position = {x=0 y=0}
-					spriteType = "GFX_government_policy_selected_button"
-					Orientation = "UPPER_LEFT"
-					pdx_tooltip = "MIL_POL_4"
-				}
-				#iconType = {
-				#	name ="MIL_POL_temp_4_icon"
-				#	spriteType = "GFX_MIL_POL_temp_4_icon"
-				#	position = {x=-9 y=0}
-				#}
-				instantTextboxType = {
-					name = "policy_MIL_POL_level_4_text"
-					position = {x=-9 y=7}
-					font = "hoi_16"
-					text = "policy_military_temp_4"
-					maxWidth = 180
-					maxHeight = 23
-					format = center
-					alwaystransparent = yes
-				}
-			}
-			iconType = {
-				name = "policy_military_temp_2_preserved_icon"
-				position = {x=19 y=15}
-				spriteType = "GFX_policy_military_preserved_icon"
-				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "policy_military_temp_2_preserved_desc"
-			}
-			iconType = {
-				name = "policy_military_temp_3_preserved_icon"
-				position = {x=19 y=15}
-				spriteType = "GFX_policy_military_preserved_icon"
-				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "policy_military_temp_3_preserved_desc"
-			}
-			iconType = {
-				name = "policy_military_temp_4_preserved_icon"
-				position = {x=19 y=15}
-				spriteType = "GFX_policy_military_preserved_icon"
-				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "policy_military_temp_4_preserved_desc"
-			}
-			iconType = {
-				name = "policy_military_mil_expansion_cooldown_icon"
-				position = {x=19 y=15}
-				spriteType = "GFX_policy_expansion_cooldown_icon"
-				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "mil_expansion_cooldown_desc"
-			}
-
-			instantTextBoxType = {
-				name = "policy_military_level_desc"
-				position = { x = 180%% y = 65 }
-				font = "hoi_16mbs"
-				text = [MIL_POLICY_EFFECT]
-				maxWidth = 300
-				maxHeight = 20
-				fixedsize = no
-				format = left
-				Orientation = "UPPER_LEFT"
-			}
-
-			instantTextBoxType = {
-				name = "military_current_effects_header"
 				position = { x = 180%% y = 50 }
 				font = "hoi_16mbs"
 				text = current_effects

@@ -18,4 +18,19 @@ spriteTypes = {
 		texturefile = "gfx/interface/country_interface/government_window/policy_button_selected.dds"
 		legacy_lazy_load=no
 	}
+	spriteType = {
+		name = "GFX_regression_reaction_riot_icon"
+		texturefile = "gfx/interface/country_interface/government_window/regression_reaction_riot_icon.dds"
+		legacy_lazy_load=no
+	}
+	spriteType = {
+		name = "GFX_promotion_reaction_riot_icon"
+		texturefile = "gfx/interface/country_interface/government_window/promotion_reaction_riot_icon.dds"
+		legacy_lazy_load=no
+	}
+	spriteType = {
+		name = "GFX_cooldown_icon"
+		texturefile = "gfx/interface/country_interface/government_window/cooldown_icon.dds"
+		legacy_lazy_load=no
+	}
 }

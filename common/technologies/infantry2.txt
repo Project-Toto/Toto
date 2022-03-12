@@ -353,7 +353,7 @@ technologies = {
 	}
 
 	ranged_arms_weapons_1_1 = {
-		allow = { always = yes }
+		#allow = { always = yes }
 
 		folder = {
 			name = tech_folder_army_infantry
@@ -377,9 +377,9 @@ technologies = {
 			bow_weapons_tech
 		}
 
-		category_all_ranged = {
-			soft_attack = 0.05
-		}
+		# category_all_ranged = {
+		# 	soft_attack = 0.05
+		# }
 
 		ai_will_do = {
 			base = 100
