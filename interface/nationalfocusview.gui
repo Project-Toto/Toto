@@ -428,7 +428,7 @@ guiTypes = {
 		buttonType = {
 			name = "bg"
 			quadTextureSprite ="GFX_technology_unavailable_item_bg"
-			position = { x= 5 y = 40 }			
+			position = { x= 5 y = 40 }
 		}
 		
 		buttonType = {
@@ -490,7 +490,7 @@ guiTypes = {
 		buttonType = {
 			name = "bg"
 			quadTextureSprite ="GFX_technology_unavailable_item_bg"
-			position = { x= 5 y = 40 }			
+			position = { x= 5 y = 40 }
 		}
 		
 		buttonType = {

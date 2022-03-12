@@ -4,6 +4,7 @@ technologies = {
 		@1000 = 2
 		@1150 = 6
 		@1300 = 10
+		@1400 = 12
 		@1450 = 14
 		@1600 = 18
 		@1800 = 22
@@ -328,7 +329,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = ranged_arms_weapons_2
+			leads_to_tech = ranged_arms_weapons_1_1
 		}
 
 		start_year = 1300
@@ -351,6 +352,40 @@ technologies = {
 		}
 	}
 
+	ranged_arms_weapons_1_1 = {
+		allow = { always = yes }
+
+		folder = {
+			name = tech_folder_army_infantry
+			position = { x = 6 y = @1400 }
+		}
+
+		dependencies = { 
+			ranged_arms_weapons_1 = 1
+		}
+
+		path = {
+			leads_to_tech = ranged_arms_weapons_2
+		}
+
+		start_year = 1400
+		research_cost = 1
+
+		categories = {
+			infantry_weapons_tech
+			ranged_weapons_tech
+			bow_weapons_tech
+		}
+
+		category_all_ranged = {
+			soft_attack = 0.05
+		}
+
+		ai_will_do = {
+			base = 100
+		}
+	}
+
 	ranged_arms_weapons_2 = {
 		allow = { always = yes }
 
@@ -360,7 +395,7 @@ technologies = {
 		}
 
 		dependencies = {
-			ranged_arms_weapons_1 = 1
+			ranged_arms_weapons_1_1 = 1
 		}
 
 		path = {
@@ -468,7 +503,7 @@ technologies = {
 		folder = {
 			name = tech_folder_army_infantry
 			position = { x = 6 y = @1840 }
-		}
+		} 
 
 		dependencies = {
 			ranged_arms_weapons_4 = 1
@@ -1358,7 +1393,7 @@ technologies = {
 		}
 
 		dependencies = {
-			uniforms_7_1 = 1
+			uniforms_6_1 = 1
 		}
 
 		path = {

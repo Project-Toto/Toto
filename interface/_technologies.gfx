@@ -1,0 +1,39 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_melee_arms_weapons_0_medium"
+		texturefile = "gfx/interface/technologies/infantry/melee_arms_weapons_0.dds"
+	}
+	spriteType = {
+		name = "GFX_melee_arms_weapons_1_medium"
+		texturefile = "gfx/interface/technologies/infantry/melee_arms_weapons_1.dds"
+	} 
+	spriteType = {
+		name = "GFX_melee_arms_weapons_2_medium"
+		texturefile = "gfx/interface/technologies/infantry/melee_arms_weapons_2.dds"
+	}
+	spriteType = {
+		name = "GFX_melee_arms_weapons_3_medium"
+		texturefile = "gfx/interface/technologies/infantry/melee_arms_weapons_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ranged_arms_weapons_0_medium"
+		texturefile = "gfx/interface/technologies/infantry/ranged_arms_weapons_0.dds"
+	}
+	spriteType = {
+		name = "GFX_ranged_arms_weapons_1_medium"
+		texturefile = "gfx/interface/technologies/infantry/ranged_arms_weapons_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ranged_arms_weapons_1_1_medium"
+		texturefile = "gfx/interface/technologies/infantry/ranged_arms_weapons_1_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ranged_arms_weapons_2_medium"
+		texturefile = "gfx/interface/technologies/infantry/ranged_arms_weapons_2.dds"
+	}
+	spriteType = {
+		name = "GFX_ranged_arms_weapons_3_medium"
+		texturefile = "gfx/interface/technologies/infantry/ranged_arms_weapons_3.dds"
+	}
+}
