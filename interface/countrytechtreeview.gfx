@@ -620,7 +620,7 @@ spriteTypes = {
 	
 	frameAnimatedSpriteType = {
 		name = "GFX_technology_naval_doctrine_folder_currently_researching_item_bg"
-		texturefile = "gfx//interface//techtree//tech_doctrine_researching_anim_strip.dds"
+		texturefile = "gfx//interface//techtree//technology_researching_anim_strip.dds"
 		noOfFrames = 9
 		loadType = "INGAME"
 		transparencecheck = yes
@@ -654,7 +654,7 @@ spriteTypes = {
 	
 	frameAnimatedSpriteType = {
 		name = "GFX_technology_air_doctrine_folder_currently_researching_item_bg"
-		texturefile = "gfx//interface//techtree//tech_doctrine_researching_anim_strip.dds"
+		texturefile = "gfx//interface//techtree//technology_researching_anim_strip.dds"
 		noOfFrames = 9
 		loadType = "INGAME"
 		transparencecheck = yes
@@ -693,7 +693,7 @@ spriteTypes = {
 
 	frameAnimatedSpriteType = {
 		name = "GFX_technology_land_doctrine_folder_currently_researching_item_bg"
-		texturefile = "gfx//interface//techtree//tech_doctrine_researching_anim_strip.dds"
+		texturefile = "gfx//interface//techtree//technology_researching_anim_strip.dds"
 		noOfFrames = 9
 		loadType = "INGAME"
 		transparencecheck = yes
@@ -722,7 +722,7 @@ spriteTypes = {
 
 	frameAnimatedSpriteType = {
 		name = "GFX_technology_electronics_folder_currently_researching_item_bg"
-		texturefile = "gfx//interface//techtree//tech_doctrine_researching_anim_strip.dds"
+		texturefile = "gfx//interface//techtree//technology_researching_anim_strip.dds"
 		noOfFrames = 9
 		loadType = "INGAME"
 		transparencecheck = yes
@@ -751,7 +751,7 @@ spriteTypes = {
 
 	frameAnimatedSpriteType = {
 		name = "GFX_technology_industry_folder_currently_researching_item_bg"
-		texturefile = "gfx//interface//techtree//tech_doctrine_researching_anim_strip.dds"
+		texturefile = "gfx//interface//techtree//technology_researching_anim_strip.dds"
 		noOfFrames = 9
 		loadType = "INGAME"
 		transparencecheck = yes
@@ -782,7 +782,7 @@ spriteTypes = {
 
 	frameAnimatedSpriteType = {
 		name = "GFX_technology_naval_folder_small_currently_researching_item_bg"
-		texturefile = "gfx//interface//techtree//tech_doctrine_researching_anim_strip.dds"
+		texturefile = "gfx//interface//techtree//technology_researching_anim_strip.dds"
 		noOfFrames = 9
 		loadType = "INGAME"
 		transparencecheck = yes
@@ -830,7 +830,7 @@ spriteTypes = {
 
 	frameAnimatedSpriteType = {
 		name = "GFX_technology_mtgnavalfolder_small_currently_researching_item_bg"
-		texturefile = "gfx//interface//techtree//tech_doctrine_researching_anim_strip.dds"
+		texturefile = "gfx//interface//techtree//technology_researching_anim_strip.dds"
 		noOfFrames = 9
 		loadType = "INGAME"
 		transparencecheck = yes
@@ -917,7 +917,7 @@ spriteTypes = {
 
 	frameAnimatedSpriteType = {
 		name = "GFX_technology_infantry_folder_small_currently_researching_item_bg"
-		texturefile = "gfx//interface//techtree//tech_doctrine_researching_anim_strip.dds"
+		texturefile = "gfx//interface//techtree//technology_researching_anim_strip.dds"
 		noOfFrames = 9
 		loadType = "INGAME"
 		transparencecheck = yes
@@ -947,7 +947,7 @@ spriteTypes = {
 	
 	frameAnimatedSpriteType = {
 		name = "GFX_technology_artillery_folder_small_currently_researching_item_bg"
-		texturefile = "gfx//interface//techtree//tech_doctrine_researching_anim_strip.dds"
+		texturefile = "gfx//interface//techtree//technology_researching_anim_strip.dds"
 		noOfFrames = 9
 		loadType = "INGAME"
 		transparencecheck = yes
@@ -1421,7 +1421,7 @@ spriteTypes = {
 	
 	frameAnimatedSpriteType = {
 		name = "GFX_technology_aviation_folder_small_currently_researching_item_bg"
-		texturefile = "gfx//interface//techtree//tech_doctrine_researching_anim_strip.dds"
+		texturefile = "gfx//interface//techtree//technology_researching_anim_strip.dds"
 		noOfFrames = 9
 		loadType = "INGAME"
 		transparencecheck = yes
@@ -1460,7 +1460,7 @@ spriteTypes = {
 	
 	frameAnimatedSpriteType = {
 		name = "GFX_technology_armour_folder_small_currently_researching_item_bg"
-		texturefile = "gfx//interface//techtree//tech_doctrine_researching_anim_strip.dds"
+		texturefile = "gfx//interface//techtree//technology_researching_anim_strip.dds"
 		noOfFrames = 9
 		loadType = "INGAME"
 		transparencecheck = yes
@@ -1499,7 +1499,7 @@ spriteTypes = {
 	
 	frameAnimatedSpriteType = {
 		name = "GFX_technology_air_techs_folder_small_currently_researching_item_bg"
-		texturefile = "gfx//interface//techtree//tech_doctrine_researching_anim_strip.dds"
+		texturefile = "gfx//interface//techtree//technology_researching_anim_strip.dds"
 		noOfFrames = 9
 		loadType = "INGAME"
 		transparencecheck = yes
@@ -1538,7 +1538,7 @@ spriteTypes = {
 	
 	frameAnimatedSpriteType = {
 		name = "GFX_technology_projects_folder_small_currently_researching_item_bg"
-		texturefile = "gfx//interface//techtree//tech_doctrine_researching_anim_strip.dds"
+		texturefile = "gfx//interface//techtree//technology_researching_anim_strip.dds"
 		noOfFrames = 9
 		loadType = "INGAME"
 		transparencecheck = yes
@@ -1577,7 +1577,7 @@ spriteTypes = {
 	
 	frameAnimatedSpriteType = {
 		name = "GFX_technology_mechanical_engineering_folder_small_currently_researching_item_bg"
-		texturefile = "gfx//interface//techtree//tech_doctrine_researching_anim_strip.dds"
+		texturefile = "gfx//interface//techtree//technology_researching_anim_strip.dds"
 		noOfFrames = 9
 		loadType = "INGAME"
 		transparencecheck = yes
@@ -1616,7 +1616,7 @@ spriteTypes = {
 	
 	frameAnimatedSpriteType = {
 		name = "GFX_technology_process_engineering_folder_small_currently_researching_item_bg"
-		texturefile = "gfx//interface//techtree//tech_doctrine_researching_anim_strip.dds"
+		texturefile = "gfx//interface//techtree//technology_researching_anim_strip.dds"
 		noOfFrames = 9
 		loadType = "INGAME"
 		transparencecheck = yes
@@ -1655,7 +1655,7 @@ spriteTypes = {
 	
 	frameAnimatedSpriteType = {
 		name = "GFX_technology_biochemistry_folder_small_currently_researching_item_bg"
-		texturefile = "gfx//interface//techtree//tech_doctrine_researching_anim_strip.dds"
+		texturefile = "gfx//interface//techtree//technology_researching_anim_strip.dds"
 		noOfFrames = 9
 		loadType = "INGAME"
 		transparencecheck = yes
@@ -1694,7 +1694,7 @@ spriteTypes = {
 	
 	frameAnimatedSpriteType = {
 		name = "GFX_technology_electronics_devices_folder_small_currently_researching_item_bg"
-		texturefile = "gfx//interface//techtree//tech_doctrine_researching_anim_strip.dds"
+		texturefile = "gfx//interface//techtree//technology_researching_anim_strip.dds"
 		noOfFrames = 9
 		loadType = "INGAME"
 		transparencecheck = yes
@@ -1733,7 +1733,7 @@ spriteTypes = {
 	
 	frameAnimatedSpriteType = {
 		name = "GFX_technology_humanities_folder_small_currently_researching_item_bg"
-		texturefile = "gfx//interface//techtree//tech_doctrine_researching_anim_strip.dds"
+		texturefile = "gfx//interface//techtree//technology_researching_anim_strip.dds"
 		noOfFrames = 9
 		loadType = "INGAME"
 		transparencecheck = yes
@@ -1772,7 +1772,7 @@ spriteTypes = {
 	
 	frameAnimatedSpriteType = {
 		name = "GFX_technology_mtgnavalfolder_small_currently_researching_item_bg"
-		texturefile = "gfx//interface//techtree//tech_doctrine_researching_anim_strip.dds"
+		texturefile = "gfx//interface//techtree//technology_researching_anim_strip.dds"
 		noOfFrames = 9
 		loadType = "INGAME"
 		transparencecheck = yes
@@ -1811,7 +1811,7 @@ spriteTypes = {
 	
 	frameAnimatedSpriteType = {
 		name = "GFX_technology_pre_industrial_folder_small_currently_researching_item_bg"
-		texturefile = "gfx//interface//techtree//tech_doctrine_researching_anim_strip.dds"
+		texturefile = "gfx//interface//techtree//technology_researching_anim_strip.dds"
 		noOfFrames = 9
 		loadType = "INGAME"
 		transparencecheck = yes
