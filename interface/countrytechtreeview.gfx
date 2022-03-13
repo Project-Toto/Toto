@@ -470,27 +470,27 @@ spriteTypes = {
 	
   	spriteType = {
   		name = "GFX_technology_tech_folder_army_infrantry_small_unavailable_item_bg"
-  		textureFile = "gfx//interface//techtree//tech_doctrine_unavailable_item_bg.dds"
+  		textureFile = "gfx//interface//techtree//technology_unavailable_item_bg_small.dds"
   	}
   	
   	spriteType = {
   		name = "GFX_technology_tech_folder_army_infrantry_small_available_item_bg"
-  		textureFile = "gfx//interface//techtree//tech_doctrine_available_item_bg.dds"
+  		textureFile = "gfx//interface//techtree//technology_available_item_bg_small.dds"
   	}
   
   	spriteType = {
   		name = "GFX_technology_tech_folder_army_infrantry_small_researched_item_bg"
-  		textureFile = "gfx//interface//techtree//tech_landdoctrine_researched_item_bg.dds"
+  		textureFile = "gfx//interface//techtree//technology_researched_item_bg_small.dds"
   	}	
   
   	spriteType = {
   		name = "GFX_technology_tech_folder_army_infrantry_small_branch_item_bg"
-  		textureFile = "gfx/interface/techtree/tech_doctrine_branch_item_bg.dds"
+  		textureFile = "gfx/interface/techtree/technology_branch_item_bg_small.dds"
   	}	
   	
   	frameAnimatedSpriteType = {
   		name = "GFX_technology_tech_folder_army_infrantry_small_currently_researching_item_bg"
-  		texturefile = "gfx//interface//techtree//tech_doctrine_researching_anim_strip.dds"
+  		texturefile = "gfx//interface//techtree//technology_researching_anim_strip.dds"
   		noOfFrames = 9
   		loadType = "INGAME"
   		transparencecheck = yes
@@ -502,27 +502,27 @@ spriteTypes = {
   	
   	spriteType = {
   		name = "GFX_technology_tech_folder_army_cavalry_small_unavailable_item_bg"
-  		textureFile = "gfx//interface//techtree//tech_doctrine_unavailable_item_bg.dds"
+  		textureFile = "gfx//interface//techtree//technology_unavailable_item_bg_small.dds"
   	}
   	
   	spriteType = {
   		name = "GFX_technology_tech_folder_army_cavalry_small_available_item_bg"
-  		textureFile = "gfx//interface//techtree//tech_doctrine_available_item_bg.dds"
+  		textureFile = "gfx//interface//techtree//technology_available_item_bg_small.dds"
   	}
   
   	spriteType = {
   		name = "GFX_technology_tech_folder_army_cavalry_small_researched_item_bg"
-  		textureFile = "gfx//interface//techtree//tech_landdoctrine_researched_item_bg.dds"
+  		textureFile = "gfx//interface//techtree//technology_researched_item_bg_small.dds"
   	}	
   
   	spriteType = {
   		name = "GFX_technology_tech_folder_army_cavalry_small_branch_item_bg"
-  		textureFile = "gfx/interface/techtree/tech_doctrine_branch_item_bg.dds"
+  		textureFile = "gfx/interface/techtree/technology_branch_item_bg_small.dds"
   	}	
   	
   	frameAnimatedSpriteType = {
   		name = "GFX_technology_tech_folder_army_cavalry_small_currently_researching_item_bg"
-  		texturefile = "gfx//interface//techtree//tech_doctrine_researching_anim_strip.dds"
+  		texturefile = "gfx//interface//techtree//technology_researching_anim_strip.dds"
   		noOfFrames = 9
   		loadType = "INGAME"
   		transparencecheck = yes
@@ -534,27 +534,27 @@ spriteTypes = {
   	
   	spriteType = {
   		name = "GFX_technology_tech_folder_army_artillery_small_unavailable_item_bg"
-  		textureFile = "gfx//interface//techtree//tech_doctrine_unavailable_item_bg.dds"
+  		textureFile = "gfx//interface//techtree//technology_unavailable_item_bg_small.dds"
   	}
   	
   	spriteType = {
   		name = "GFX_technology_tech_folder_army_artillery_small_available_item_bg"
-  		textureFile = "gfx//interface//techtree//tech_doctrine_available_item_bg.dds"
+  		textureFile = "gfx//interface//techtree//technology_available_item_bg_small.dds"
   	}
   
   	spriteType = {
   		name = "GFX_technology_tech_folder_army_artillery_small_researched_item_bg"
-  		textureFile = "gfx//interface//techtree//tech_landdoctrine_researched_item_bg.dds"
+  		textureFile = "gfx//interface//techtree//technology_researched_item_bg_small.dds"
   	}	
   
   	spriteType = {
   		name = "GFX_technology_tech_folder_army_artillery_small_branch_item_bg"
-  		textureFile = "gfx/interface/techtree/tech_doctrine_branch_item_bg.dds"
+  		textureFile = "gfx/interface/techtree/technology_branch_item_bg_small.dds"
   	}	
   	
   	frameAnimatedSpriteType = {
   		name = "GFX_technology_tech_folder_army_artillery_small_currently_researching_item_bg"
-  		texturefile = "gfx//interface//techtree//tech_doctrine_researching_anim_strip.dds"
+  		texturefile = "gfx//interface//techtree//technology_researching_anim_strip.dds"
   		noOfFrames = 9
   		loadType = "INGAME"
   		transparencecheck = yes
@@ -566,27 +566,27 @@ spriteTypes = {
   	
   	spriteType = {
   		name = "GFX_technology_tech_folder_army_armor_small_unavailable_item_bg"
-  		textureFile = "gfx//interface//techtree//tech_doctrine_unavailable_item_bg.dds"
+  		textureFile = "gfx//interface//techtree//technology_unavailable_item_bg_small.dds"
   	}
   	
   	spriteType = {
   		name = "GFX_technology_tech_folder_army_armor_small_available_item_bg"
-  		textureFile = "gfx//interface//techtree//tech_doctrine_available_item_bg.dds"
+  		textureFile = "gfx//interface//techtree//technology_available_item_bg_small.dds"
   	}
   
   	spriteType = {
   		name = "GFX_technology_tech_folder_army_armor_small_researched_item_bg"
-  		textureFile = "gfx//interface//techtree//tech_landdoctrine_researched_item_bg.dds"
+  		textureFile = "gfx//interface//techtree//technology_researched_item_bg_small.dds"
   	}	
   
   	spriteType = {
   		name = "GFX_technology_tech_folder_army_armor_small_branch_item_bg"
-  		textureFile = "gfx/interface/techtree/tech_doctrine_branch_item_bg.dds"
+  		textureFile = "gfx/interface/techtree/technology_branch_item_bg_small.dds"
   	}	
   	
   	frameAnimatedSpriteType = {
   		name = "GFX_technology_tech_folder_army_armor_small_currently_researching_item_bg"
-  		texturefile = "gfx//interface//techtree//tech_doctrine_researching_anim_strip.dds"
+  		texturefile = "gfx//interface//techtree//technology_researching_anim_strip.dds"
   		noOfFrames = 9
   		loadType = "INGAME"
   		transparencecheck = yes
