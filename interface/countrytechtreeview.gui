@@ -9604,7 +9604,7 @@ guiTypes = {
 
 		background = {
 			name = "bg"
-			quadTextureSprite = "GFX_technology_unavailable_item_bg"
+			quadTextureSprite = "GFX_technology_tech_folder_army_infantry_small_unavailable_item_bg"
 		}
 
 		iconType = {

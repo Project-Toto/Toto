@@ -9,9 +9,10 @@ state={
 	}
 
 	provinces={
-		5440 5593 6002 6150 6784 9097 9108 9118 9139 9159 
+		5440 5593 6002 6784 9097 9108 9139 9159 12346 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
 	state_category=town
+	local_supplies=0.000
 }

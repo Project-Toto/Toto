@@ -469,27 +469,27 @@ spriteTypes = {
 	# Army
 	
   	spriteType = {
-  		name = "GFX_technology_tech_folder_army_infrantry_small_unavailable_item_bg"
+  		name = "GFX_technology_tech_folder_army_infantry_small_unavailable_item_bg"
   		textureFile = "gfx//interface//techtree//technology_unavailable_item_bg_small.dds"
   	}
   	
   	spriteType = {
-  		name = "GFX_technology_tech_folder_army_infrantry_small_available_item_bg"
+  		name = "GFX_technology_tech_folder_army_infantry_small_available_item_bg"
   		textureFile = "gfx//interface//techtree//technology_available_item_bg_small.dds"
   	}
   
   	spriteType = {
-  		name = "GFX_technology_tech_folder_army_infrantry_small_researched_item_bg"
+  		name = "GFX_technology_tech_folder_army_infantry_small_researched_item_bg"
   		textureFile = "gfx//interface//techtree//technology_researched_item_bg_small.dds"
   	}	
   
   	spriteType = {
-  		name = "GFX_technology_tech_folder_army_infrantry_small_branch_item_bg"
+  		name = "GFX_technology_tech_folder_army_infantry_small_branch_item_bg"
   		textureFile = "gfx/interface/techtree/technology_branch_item_bg_small.dds"
   	}	
   	
   	frameAnimatedSpriteType = {
-  		name = "GFX_technology_tech_folder_army_infrantry_small_currently_researching_item_bg"
+  		name = "GFX_technology_tech_folder_army_infantry_small_currently_researching_item_bg"
   		texturefile = "gfx//interface//techtree//technology_researching_anim_strip.dds"
   		noOfFrames = 9
   		loadType = "INGAME"
