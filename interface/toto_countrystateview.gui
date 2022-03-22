@@ -4,22 +4,92 @@
 guiTypes = {
 	containerWindowType = {
 		name = "state_interactive_map"
-		position = { x = 190 y = 80 }
-		size = { height = 240 width = 240 }
+		position = { x = 185 y = 70 }
+		size = { height = 225 width = 295 }
 
 		background = {
 			name = "state_interactive_map_bg"
 			position = { x = 0 y = 0 }
-			spriteType = "GFX_state_interactive_map_bg"
+			spriteType = "GFX_tiled_decisions_bg_small_paper"
+			frame = 1
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "interactive_map"
+			position = { x = 9 y = 12 }
+			spriteType = "GFX_state_interactive_map"
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "interactive_map_frame"
+			position = { x = 5 y = 8 }
+			spriteType = "GFX_state_interactive_map_frame"
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "interactive_map_button_frame"
+			position = { x = 200 y = 8 }
+			spriteType = "GFX_state_interactive_map_button_frame"
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "state_interactive_capital_location"
+			position = { x = 53 y = 30 }
+			spriteType = "GFX_state_interactive_map_location_highlight"
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "state_interactive_temple_location"
+			position = { x = 88 y = 70 }
+			spriteType = "GFX_state_interactive_map_location_highlight"
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "state_interactive_barracks_location"
+			position = { x = 120 y = 118 }
+			spriteType = "GFX_state_interactive_map_location_highlight"
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "state_interactive_workshop_location"
+			position = { x = 120 y = 100 }
+			spriteType = "GFX_state_interactive_map_location_highlight"
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "state_interactive_market_location"
+			position = { x = 125 y = 38 }
+			spriteType = "GFX_state_interactive_map_location_highlight"
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "state_interactive_port_location"
+			position = { x = 180 y = 38 }
+			spriteType = "GFX_state_interactive_map_location_highlight"
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "state_interactive_commons_location"
+			position = { x = 130 y = 48 }
+			spriteType = "GFX_state_interactive_map_location_highlight"
 			alwaystransparent = yes
 		}
 
 		buttonType = {
-			name = "state_interactive_commons_button"
-			position = { x = 80 y = 60 }
+			name = "state_interactive_capital_button"
+			position = { x = 208 y = 15 }
 
-			quadTextureSprite = "GFX_state_interactive_map_commons_button"
-			frame = 1
+			quadTextureSprite = "GFX_state_interactive_map_capital_button"
+			frame = "[?ROOT.state_interactive_capital_button_var]"
 
 			buttonText = ""
 			buttonFont = "hoi_18"
@@ -27,15 +97,15 @@ guiTypes = {
 			clicksound = "decisions_ui_tab"
 			oversound = "ui_menu_over"
 
-			pdx_tooltip = "state_menu_state_interactive_commons_button_tt"
-			pdx_tooltip_delayed = "state_menu_state_interactive_commons_button_tt_delayed"
+			pdx_tooltip = "state_menu_state_interactive_capital_button_tt"
+			pdx_tooltip_delayed = "state_menu_state_interactive_capital_button_tt_delayed"
 		}
 		buttonType = {
-			name = "state_interactive_market_button"
-			position = { x = 60 y = 150 }
+			name = "state_interactive_office_button"
+			position = { x = 208 y = 15 }
 
-			quadTextureSprite = "GFX_state_interactive_map_market_button"
-			frame = 1
+			quadTextureSprite = "GFX_state_interactive_map_office_button"
+			frame = "[?ROOT.state_interactive_office_button_var]"
 
 			buttonText = ""
 			buttonFont = "hoi_18"
@@ -43,15 +113,31 @@ guiTypes = {
 			clicksound = "decisions_ui_tab"
 			oversound = "ui_menu_over"
 
-			pdx_tooltip = "state_menu_state_interactive_market_button_tt"
-			pdx_tooltip_delayed = "state_menu_state_interactive_market_button_tt_delayed"
+			pdx_tooltip = "state_menu_state_interactive_office_button_tt"
+			pdx_tooltip_delayed = "state_menu_state_interactive_office_button_tt_delayed"
+		}
+		buttonType = {
+			name = "state_interactive_temple_button"
+			position = { x = 247 y = 15 }
+
+			quadTextureSprite = "GFX_state_interactive_map_temple_button"
+			frame = "[?ROOT.state_interactive_temple_button_var]"
+
+			buttonText = ""
+			buttonFont = "hoi_18"
+
+			clicksound = "decisions_ui_tab"
+			oversound = "ui_menu_over"
+
+			pdx_tooltip = "state_menu_state_interactive_temple_button_tt"
+			pdx_tooltip_delayed = "state_menu_state_interactive_temple_button_tt_delayed"
 		}
 		buttonType = {
 			name = "state_interactive_barracks_button"
-			position = { x = 160 y = 160 }
+			position = { x = 208 y = 55 }
 
 			quadTextureSprite = "GFX_state_interactive_map_barracks_button"
-			frame = 1
+			frame = "[?ROOT.state_interactive_barracks_button_var]"
 
 			buttonText = ""
 			buttonFont = "hoi_18"
@@ -63,11 +149,11 @@ guiTypes = {
 			pdx_tooltip_delayed = "state_menu_state_interactive_barracks_button_tt_delayed"
 		}
 		buttonType = {
-			name = "state_interactive_capital_button"
-			position = { x = 10 y = 40 }
+			name = "state_interactive_market_button"
+			position = { x = 208 y = 95 }
 
-			quadTextureSprite = "GFX_state_interactive_map_capital_button"
-			frame = 1
+			quadTextureSprite = "GFX_state_interactive_map_market_button"
+			frame = "[?ROOT.state_interactive_market_button_var]"
 
 			buttonText = ""
 			buttonFont = "hoi_18"
@@ -75,15 +161,31 @@ guiTypes = {
 			clicksound = "decisions_ui_tab"
 			oversound = "ui_menu_over"
 
-			pdx_tooltip = "state_menu_state_interactive_capital_button_tt"
-			pdx_tooltip_delayed = "state_menu_state_interactive_capital_button_tt_delayed"
+			pdx_tooltip = "state_menu_state_interactive_market_button_tt"
+			pdx_tooltip_delayed = "state_menu_state_interactive_market_button_tt_delayed"
 		}
-    buttonType = {
+		buttonType = {
+			name = "state_interactive_port_button"
+			position = { x = 247 y = 95 }
+
+			quadTextureSprite = "GFX_state_interactive_map_port_button"
+			frame = "[?ROOT.state_interactive_port_button_var]"
+
+			buttonText = ""
+			buttonFont = "hoi_18"
+
+			clicksound = "decisions_ui_tab"
+			oversound = "ui_menu_over"
+
+			pdx_tooltip = "state_menu_state_interactive_port_button_tt"
+			pdx_tooltip_delayed = "state_menu_state_interactive_port_button_tt_delayed"
+		}
+		buttonType = {
 			name = "state_interactive_workshop_button"
-			position = { x = 180 y = 80 }
+			position = { x = 247 y = 55 }
 
 			quadTextureSprite = "GFX_state_interactive_map_workshop_button"
-			frame = 1
+			frame = "[?ROOT.state_interactive_workshop_button_var]"
 
 			buttonText = ""
 			buttonFont = "hoi_18"
@@ -93,5 +195,21 @@ guiTypes = {
 
 			pdx_tooltip = "state_menu_state_interactive_workshop_button_tt"
 			pdx_tooltip_delayed = "state_menu_state_interactive_workshop_button_tt_delayed"
+		}
+		buttonType = {
+			name = "state_interactive_commons_button"
+			position = { x = 208 y = 135 }
+
+			quadTextureSprite = "GFX_state_interactive_map_commons_button"
+			frame = "[?ROOT.state_interactive_commons_button_var]"
+
+			buttonText = ""
+			buttonFont = "hoi_18"
+
+			clicksound = "decisions_ui_tab"
+			oversound = "ui_menu_over"
+
+			pdx_tooltip = "state_menu_state_interactive_commons_button_tt"
+			pdx_tooltip_delayed = "state_menu_state_interactive_commons_button_tt_delayed"
 		}
 }

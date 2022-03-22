@@ -513,7 +513,7 @@ afr_state_setup_scripted_effect= {
 		#		}
 		#	}
 		#	set_state_flag = AFR_islamic_frontier_ribat
-		#	set_state_flag = SKT_islamic_frontier_ribat
+		#	set_state_flag = AFR_islamic_frontier_ribat
 		#}
 	}
 }
