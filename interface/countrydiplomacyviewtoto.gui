@@ -1,0 +1,73 @@
+guiTypes = {
+	containerWindowType = {
+		name = "country_diplomacy_view_container"
+		position = { x = 0 y = 0 }
+
+		containerWindowType = {
+			name = "diplomatic_relations_window"
+			position = { x = 16 y = 100 }
+
+			containerWindowType = {
+				name = "diplomatic_relations_sphereing_window"
+				position = { x = 0 y = 4 }
+
+				iconType = {
+					name = "diplomatic_relations_icon_bg"
+					spriteType = "GFX_diplo_relations_bg"
+					position = { x = 2 y = 2 }
+				}
+
+				iconType = {
+					name = "diplomatic_relations_sphereing_icon"
+					spriteType = "GFX_relation_truce"
+					position = { x = 6 y = 6 }
+				}
+
+				overlappingElementsBoxType = {
+					name = "diplomatic_relations_sphereing_grid"
+					position = { x = 66 y = 4 }
+					size = { x = 170 y = 32 }
+					
+					format = left
+					spacing = 1
+				}
+			}
+			containerWindowType = {
+				name = "diplomatic_relations_sphered_by_window"
+				position = { x = 0 y = 4 }
+
+				iconType = {
+					name = "diplomatic_relations_icon_bg"
+					spriteType = "GFX_diplo_relations_bg"
+					position = { x = 2 y = 2 }
+				}
+
+				iconType = {
+					name = "diplomatic_relations_sphered_by_icon"
+					spriteType = "GFX_relation_truce"
+					position = { x = 6 y = 6 }
+				}
+
+				overlappingElementsBoxType = {
+					name = "diplomatic_relations_sphered_by_grid"
+					position = { x = 66 y = 4 }
+					size = { x = 170 y = 32 }
+					
+					format = left
+					spacing = 1
+				}
+			}
+			windowType = {
+				name = "diplomacy_country_list_relation_entry"
+				position = { x = 0 y = 0 }
+				size = { x = 34 y = 34 }
+
+				guiButtonType = {
+					name = "icon"
+					quadTextureSprite = "GFX_relation_unknown"
+					position = { x = 1 y = 1 }
+				}
+			}
+		}
+	}
+}

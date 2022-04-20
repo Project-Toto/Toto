@@ -1,0 +1,28 @@
+scripted_gui = {
+	country_diplomacy_view = {
+		window_name = "country_diplomacy_view_container"
+		parent_window_token = selected_country_window
+
+		context_type = selected_country_context
+
+		visible = { always = yes }
+
+		properties = {
+
+		}
+
+		effects = {
+
+		}
+
+		dynamic_lists = {
+			diplomatic_relations_sphereing_grid = {
+				array = diplomatic_relations_sphereing
+				entry_container = diplomacy_country_list_relation_entry
+			}
+		}
+
+		properties = {
+		}
+	}
+}

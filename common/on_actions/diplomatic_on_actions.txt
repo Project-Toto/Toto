@@ -1,0 +1,60 @@
+on_actions = {
+	on_annex = {
+		effect = {
+			FROM = {
+				for_each_scope_loop = {
+					array = diplomatic_relations_embargoing
+					remove_from_array = {
+						array = diplomatic_relations_embargoed_by
+						value = PREV.id
+					}
+				}
+				clear_array = diplomatic_relations_embargoing
+				for_each_scope_loop = {
+					array = diplomatic_relations_embargoed_by
+					remove_from_array = {
+						array = diplomatic_relations_embargoing
+						value = PREV.id
+					}
+				}
+				clear_array = diplomatic_relations_embargoed_by
+				
+				for_each_scope_loop = {
+					array = diplomatic_relations_coalitioning
+					remove_from_array = {
+						array = diplomatic_relations_coalitioned_by
+						value = PREV.id
+					}
+				}
+				clear_array = diplomatic_relations_coalitioning
+				for_each_scope_loop = {
+					array = diplomatic_relations_coalitioned_by
+					remove_from_array = {
+						array = diplomatic_relations_coalitioning
+						value = PREV.id
+					}
+				}
+				clear_array = diplomatic_relations_coalitioned_by
+
+				for_each_scope_loop = {
+					array = diplomatic_relations_sphereing
+					remove_from_array = {
+						array = diplomatic_relations_sphered_by
+						value = PREV.id
+					}
+				}
+				clear_array = diplomatic_relations_sphereing
+				for_each_scope_loop = {
+					array = diplomatic_relations_sphered_by
+					remove_from_array = {
+						array = diplomatic_relations_sphereing
+						value = PREV.id
+					}
+				}
+				clear_array = diplomatic_relations_sphered_by
+			}
+		}
+	}
+}
+						 
+	
