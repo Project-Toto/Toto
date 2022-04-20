@@ -10,7 +10,7 @@ scripted_diplomatic_actions = {
 			# Selectable
 		}
 
-		requires_acceptance = yes
+		requires_acceptance = no
 		show_acceptance_on_action_button = yes
 
 		icon = 1
@@ -19,11 +19,23 @@ scripted_diplomatic_actions = {
 		command_power = 0
 
 		on_sent_effect = {
+
 			# runs when the action is sent (accepted or rejected)
 		}
 
 		complete_effect = {
-			# runs when the action is sent (accepted)
+			add_to_array = {
+				array = diplomatic_relations_sphereing
+				value = FROM.id
+				tooltip = diplomatic_relations_sphereing_tt
+			}
+			FROM = {
+				add_to_array = {
+					array = diplomatic_relations_sphered_by
+					value = ROOT.id
+					tooltip = diplomatic_relations_sphered_by_tt
+				}
+			}
 		}
 
 		reject_effect = {
@@ -51,7 +63,7 @@ scripted_diplomatic_actions = {
 		# recieve_description = toto_diplomacy_colonial_offer_protectorate_recieved_tt
 
 		ai_desire = {
-			base = 0
+			base = 100
 		}
 	}
 	toto_diplomacy_colonial_relinquish_protectorate = {

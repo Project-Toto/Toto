@@ -89,7 +89,7 @@ guiTypes = {
 			position = { x = 208 y = 15 }
 
 			quadTextureSprite = "GFX_state_interactive_map_capital_button"
-			frame = "[?ROOT.state_interactive_capital_button_var]"
+			#frame = "[?ROOT.state_interactive_capital_button_var]"
 
 			buttonText = ""
 			buttonFont = "hoi_18"
@@ -105,7 +105,7 @@ guiTypes = {
 			position = { x = 208 y = 15 }
 
 			quadTextureSprite = "GFX_state_interactive_map_office_button"
-			frame = "[?ROOT.state_interactive_office_button_var]"
+			#frame = "[?ROOT.state_interactive_office_button_var]"
 
 			buttonText = ""
 			buttonFont = "hoi_18"
@@ -121,7 +121,7 @@ guiTypes = {
 			position = { x = 247 y = 15 }
 
 			quadTextureSprite = "GFX_state_interactive_map_temple_button"
-			frame = "[?ROOT.state_interactive_temple_button_var]"
+			#frame = "[?ROOT.state_interactive_temple_button_var]"
 
 			buttonText = ""
 			buttonFont = "hoi_18"
@@ -137,7 +137,7 @@ guiTypes = {
 			position = { x = 208 y = 55 }
 
 			quadTextureSprite = "GFX_state_interactive_map_barracks_button"
-			frame = "[?ROOT.state_interactive_barracks_button_var]"
+			#frame = "[?ROOT.state_interactive_barracks_button_var]"
 
 			buttonText = ""
 			buttonFont = "hoi_18"
@@ -153,7 +153,7 @@ guiTypes = {
 			position = { x = 208 y = 95 }
 
 			quadTextureSprite = "GFX_state_interactive_map_market_button"
-			frame = "[?ROOT.state_interactive_market_button_var]"
+			#frame = "[?ROOT.state_interactive_market_button_var]"
 
 			buttonText = ""
 			buttonFont = "hoi_18"
@@ -169,7 +169,7 @@ guiTypes = {
 			position = { x = 247 y = 95 }
 
 			quadTextureSprite = "GFX_state_interactive_map_port_button"
-			frame = "[?ROOT.state_interactive_port_button_var]"
+			#frame = "[?ROOT.state_interactive_port_button_var]"
 
 			buttonText = ""
 			buttonFont = "hoi_18"
@@ -185,7 +185,7 @@ guiTypes = {
 			position = { x = 247 y = 55 }
 
 			quadTextureSprite = "GFX_state_interactive_map_workshop_button"
-			frame = "[?ROOT.state_interactive_workshop_button_var]"
+			#frame = "[?ROOT.state_interactive_workshop_button_var]"
 
 			buttonText = ""
 			buttonFont = "hoi_18"
@@ -201,7 +201,7 @@ guiTypes = {
 			position = { x = 208 y = 135 }
 
 			quadTextureSprite = "GFX_state_interactive_map_commons_button"
-			frame = "[?ROOT.state_interactive_commons_button_var]"
+			#frame = "[?ROOT.state_interactive_commons_button_var]"
 
 			buttonText = ""
 			buttonFont = "hoi_18"

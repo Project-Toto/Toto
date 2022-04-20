@@ -1,0 +1,6 @@
+﻿l_english:
+ TOTO_DIPLOMACY_COLONIAL_OFFER_PROTECTORATE_TITLE: "Offer Protectorate"
+ TOTO_DIPLOMACY_COLONIAL_OFFER_PROTECTORATE_ACTION_DESC: "Invite [FROM.GetNameWithFlag] to Our Sphere!"
+ toto_diplomacy_colonial_offer_protectorate_sent_tt: "$TOTO_DIPLOMACY_COLONIAL_OFFER_PROTECTORATE_ACTION_DESC$"
+ diplomatic_relations_sphereing_tt: "[ROOT.GetNameWithFlag] invites [FROM.GetNameWithFlag] to Sphere"
+ diplomatic_relations_sphered_by_tt: "[FROM.GetNameWithFlag] joins sphere of [ROOT.GEtNameWithFlag]"

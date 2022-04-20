@@ -6,7 +6,12 @@ scripted_gui = {
 		context_type = selected_state_context
 
 		visible = {
-			is_controlled_by = ROOT
+			CONTROLLER = {
+				OR = {
+					tag = ROOT
+					is_subject_of = ROOT
+				}
+			}
 		}
 
 		properties = {
