@@ -1,0 +1,21 @@
+has_intelligence_in_state = {
+	OR = {
+		is_owned_by = ROOT
+		is_controlled_by = ROOT
+		OWNER = {
+			is_ally_with = ROOT
+		}
+		CONTROLLER = {
+			is_ally_with = ROOT
+		}
+		any_neighbor_state = {
+			is_owned_by = ROOT
+			is_controlled_by = ROOT
+		}
+	}
+}
+#so for example if im running an effect checking if the state's owner is subject of ROOT then i would do this right
+#if = {
+#	limit = { ROOT = { has_subject = PREV.OWNER } }
+#	# blah
+#}

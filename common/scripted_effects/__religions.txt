@@ -1,0 +1,111 @@
+initialize_alkebulan_religions = {
+	# Religions
+		set_variable = {
+			var = global.religion_catholicism
+			value = token:religion_catholicism
+		}
+		set_variable = {
+			var = global.religion_protestantism
+			value = token:religion_protestantism
+		}
+		set_variable = {
+			var = global.religion_orthodoxy
+			value = token:religion_orthodoxy
+		}
+		set_variable = {
+			var = global.religion_coptic
+			value = token:religion_coptic
+		}
+		set_variable = {
+			var = global.religion_armenian
+			value = token:religion_armenian
+		}
+		set_variable = {
+			var = global.religion_sunni
+			value = token:religion_sunni
+		}
+		set_variable = {
+			var = global.religion_shia
+			value = token:religion_shia
+		}
+		set_variable = {
+			var = global.religion_ibadi
+			value = token:religion_ibadi
+		}
+		set_variable = {
+			var = global.religion_druzism
+			value = token:religion_druzism
+		}
+		set_variable = {
+			var = global.religion_judaism
+			value = token:religion_judaism
+		}
+		set_variable = {
+			var = global.religion_yazidism
+			value = global.religion_yazidism
+		}
+		set_variable = {
+			var = global.religion_yarsanism
+			value = token:religion_yarsanism
+		}
+		set_variable = {
+			var = global.religion_zoroastrianism
+			value = token:religion_zoroastrianism
+		}
+
+		add_to_array = {
+			array = global.religion_family_christian_array
+			value = global.religion_catholicism
+		}
+		add_to_array = {
+			array = global.religion_family_christian_array
+			value = global.religion_protestantism
+		}
+		add_to_array = {
+			array = global.religion_family_christian_array
+			value = global.religion_orthodoxy
+		}
+		add_to_array = {
+			array = global.religion_family_christian_array
+			value = global.religion_coptic
+		}
+		add_to_array = {
+			array = global.religion_family_christian_array
+			value = global.religion_armenian
+		}
+
+		add_to_array = {
+			array = global.religion_family_islamic_array
+			value = global.religion_sunni
+		}
+		add_to_array = {
+			array = global.religion_family_islamic_array
+			value = global.religion_shia
+		}
+		add_to_array = {
+			array = global.religion_family_islamic_array
+			value = global.religion_ibadi
+		}
+
+		add_to_array = {
+			array = global.religion_family_other_abrahamic_array
+			value = global.religion_druzism
+		}
+		add_to_array = {
+			array = global.religion_family_other_abrahamic_array
+			value = global.religion_judaism
+		}
+
+		add_to_array = {
+			array = global.religion_family_iranian_array
+			value = global.religion_yazidism
+		}
+		add_to_array = {
+			array = global.religion_family_iranian_array
+			value = global.religion_yarsanism
+		}
+		add_to_array = {
+			array = global.religion_family_iranian_array
+			value = global.religion_zoroastrian
+		}
+}

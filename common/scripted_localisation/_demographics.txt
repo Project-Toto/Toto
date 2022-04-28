@@ -1,0 +1,238 @@
+defined_text = {
+	name = GetReligionName
+	text = {
+		localization_key = "[?v.GetTokenLocalizedKey]"
+	}
+}
+defined_text = {
+	name = GetReligionAdj
+	text = {
+		localization_key = "[?v.GetTokenKey]_adj"
+	}
+}
+defined_text = {
+	name = GetReligionDesc
+	text = {
+		localization_key = "[?v.GetTokenKey]_desc"
+	}
+}
+defined_text = {
+	name = GetReligionIcon
+	text = {
+		localization_key = "GFX_[?v.GetTokenKey]"
+	}
+}
+defined_text ={
+	name = GetReligionIdeaIcon
+	text = {
+		localization_key = "GFX_idea_[?v.GetTokenKey]"
+	}
+}
+defined_text = {
+	name = GetReligionTextIcon
+	text = {
+		localization_key = "GFX_[?v.GetTokenKey]_TextIcon"
+	}
+}
+
+defined_text = {
+	name = GetLanguageName
+	text = {
+		localization_key = "[?v.GetTokenLocalizedKey]"
+	}
+}
+defined_text = {
+	name = GetLanguageAdj
+	text = {
+		localization_key = "[?v.GetTokenKey]_adj"
+	}
+}
+defined_text = {
+	name = GetLanguageDesc
+	text = {
+		localization_key = "[?v.GetTokenKey]_desc"
+	}
+}
+defined_text = {
+	name = GetLanguageIcon
+	text = {
+		localization_key = "GFX_[?v.GetTokenKey]"
+	}
+}
+defined_text ={
+	name = GetLanguageIdeaIcon
+	text = {
+		localization_key = "GFX_idea_[?v.GetTokenKey]"
+	}
+}
+defined_text = {
+	name = GetLanguageTextIcon
+	text = {
+		localization_key = "GFX_[?v.GetTokenKey]_TextIcon"
+	}
+}
+
+
+
+defined_text = {
+	name = GetNationalReligionName
+	text = {
+		localization_key = "[?national_religion^0.GetTokenLocalizedKey]"
+	}
+}
+defined_text = {
+	name = GetNationalReligionAdj
+	text = {
+		localization_key = "[?national_religion^0.GetTokenKey]_adj"
+	}
+}
+defined_text = {
+	name = GetNationalReligionDesc
+	text = {
+		localization_key = "[?national_religion^0.GetTokenKey]_desc"
+	}
+}
+defined_text = {
+	name = GetNationalReligionIcon
+	text = {
+		localization_key = "GFX_[?national_religion^0.GetTokenKey]"
+	}
+}
+defined_text ={
+	name = GetNationalReligionIdeaIcon
+	text = {
+		localization_key = "GFX_idea_[?national_religion^0.GetTokenKey]"
+	}
+}
+defined_text = {
+	name = GetNationalReligionTextIcon
+	text = {
+		localization_key = "GFX_[?national_religion^0.GetTokenKey]_TextIcon"
+	}
+}
+
+defined_text = {
+	name = GetNationalLanguageName
+	text = {
+		localization_key = "[?national_language^0.GetTokenLocalizedKey]"
+	}
+}
+defined_text = {
+	name = GetNationalLanguageAdj
+	text = {
+		localization_key = "[?national_language^0.GetTokenKey]_adj"
+	}
+}
+defined_text = {
+	name = GetNationalLanguageDesc
+	text = {
+		localization_key = "[?national_language^0.GetTokenKey]_desc"
+	}
+}
+defined_text = {
+	name = GetNationalLanguageIcon
+	text = {
+		localization_key = "GFX_[?national_language^0.GetTokenKey]"
+	}
+}
+defined_text ={
+	name = GetNationalLanguageIdeaIcon
+	text = {
+		localization_key = "GFX_idea_[?national_language^0.GetTokenKey]"
+	}
+}
+defined_text = {
+	name = GetNationalLanguageTextIcon
+	text = {
+		localization_key = "GFX_[?national_language^0.GetTokenKey]_TextIcon"
+	}
+}
+
+
+defined_text = {
+	name = GetReligionFamily
+	text = {
+		trigger = {
+			is_in_array = {
+				array = global.religion_family_christian_array
+				value = v
+			}
+		}
+		localization_key = religion_family_christian
+	}
+	text = {
+		trigger = {
+			is_in_array = {
+				array = global.religion_family_islamic_array
+				value = v
+			}
+		}
+		localization_key = religion_family_islamic
+	}
+	text = {
+		trigger = {
+			is_in_array = {
+				array = global.religion_family_other_abrahamic_array
+				value = v
+			}
+		}
+		localization_key = religion_family_other_abrahamic
+	}
+	text = {
+		trigger = {
+			is_in_array = {
+				array = global.religion_family_saharan_array
+				value = v
+			}
+		}
+		localization_key = religion_family_saharan
+	}
+	text = {
+		trigger = {
+			is_in_array = {
+				array = global.religion_family_west_african_array
+				value = v
+			}
+		}
+		localization_key = religion_family_west_african
+	}
+	text = {
+		trigger = {
+			is_in_array = {
+				array = global.religion_family_central_african_array
+				value = v
+			}
+		}
+		localization_key = religion_central_african_family
+	}
+	text = {
+		trigger = {
+			is_in_array = {
+				array = global.religion_hornic_family_array
+				value = v
+			}
+		}
+		localization_key = religion_hornic_family
+	}
+	text = {
+		trigger = {
+			is_in_array = {
+				array = global.religion_bantu_family_array
+				value = v
+			}
+		}
+		localization_key = religion_bantu_family
+	}
+	text = {
+		trigger = {
+			is_in_array = {
+				array = global.religion_pagan_family_array
+				value = v
+			}
+		}
+		localization_key = religion_pagan_family
+	}
+	text = {
+		localization_key = religion_no_family
+	}
+}
