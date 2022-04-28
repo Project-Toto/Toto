@@ -1,0 +1,118 @@
+defined_text = {
+	name = GetReligionName
+	text = {
+		localization_key = "[?v.GetTokenLocalizedKey]"
+	}
+}
+defined_text = {
+	name = GetReligionAdj
+	text = {
+		localization_key = "[?v.GetTokenKey]_adj"
+	}
+}
+defined_text = {
+	name = GetReligionDesc
+	text = {
+		localization_key = "[?v.GetTokenKey]_desc"
+	}
+}
+defined_text = {
+	name = GetReligionIcon
+	text = {
+		localization_key = "GFX_[?v.GetTokenKey]"
+	}
+}
+defined_text ={
+	name = GetReligionIdeaIcon
+	text = {
+		localization_key = "GFX_idea_[?v.GetTokenKey]"
+	}
+}
+defined_text = {
+	name = GetReligionTextIcon
+	text = {
+		localization_key = "GFX_[?v.GetTokenKey]_TextIcon"
+	}
+}
+defined_text = {
+	name = GetReligionNameWithTextIcon
+	text = {
+		localization_key = "[?v.GetReligionTextIcon] [?vGetReligionName]"
+	}
+}
+defined_text = {
+	name = GetReligionColorIcon
+	text = {
+		localization_key = "GFX_[?v.GetTokenKey]_ColorIcon"
+	}
+}
+
+defined_text = {
+	name = GetReligionFamily
+	text = {
+		trigger = {
+			is_in_array = {
+				array = global.religion_family_christian_array
+				value = v
+			}
+		}
+		localization_key = religion_family_christian
+	}
+	text = {
+		trigger = {
+			is_in_array = {
+				array = global.religion_family_islamic_array
+				value = v
+			}
+		}
+		localization_key = religion_family_islamic
+	}
+	text = {
+		trigger = {
+			is_in_array = {
+				array = global.religion_family_other_abrahamic_array
+				value = v
+			}
+		}
+		localization_key = religion_family_other_abrahamic
+	}
+	text = {
+		trigger = {
+			is_in_array = {
+				array = global.religion_family_west_african_array
+				value = v
+			}
+		}
+		localization_key = religion_family_west_african
+	}
+	text = {
+		trigger = {
+			is_in_array = {
+				array = global.religion_family_central_african_array
+				value = v
+			}
+		}
+		localization_key = religion_central_african_family
+	}
+	text = {
+		trigger = {
+			is_in_array = {
+				array = global.religion_hornic_family_array
+				value = v
+			}
+		}
+		localization_key = religion_hornic_family
+	}
+	text = {
+		trigger = {
+			is_in_array = {
+				array = global.religion_bantu_family_array
+				value = v
+			}
+		}
+		localization_key = religion_bantu_family
+	}
+	text = {
+		localization_key = religion_no_family
+	}
+}

@@ -17,6 +17,14 @@ idea_categories = {
 		ledger = hidden
 	}
 
+	religions = {
+		hidden = yes
+	}
+
+	languages = {
+		hidden = yes
+	}
+
 	law_country_defines = {
 		slot = law_country_power
 		slot = law_country_religion
@@ -191,22 +199,20 @@ idea_categories = {
 		ledger = hidden
 		slot = air_force_command_spirit
 	}
-
-
-	# law_country_laws = {
-	# 	slot = economy
-	# 	slot = trade_laws
-	# 	slot = mobilization_laws
-	# 	slot = economic_mobilization
-	# 	slot = land_property
-
-	# 	cost = 999
-	# 	removal_cost = 0
-
-	# 	ledger = civilian
-	# }
 }
-	#
+		# law_country_laws = {
+		# 	slot = economy
+		# 	slot = trade_laws
+		# 	slot = mobilization_laws
+		# 	slot = economic_mobilization
+		# 	slot = land_property
+
+		# 	cost = 999
+		# 	removal_cost = 0
+
+		# 	ledger = civilian
+		# }
+		#
 		# government = {
 		# 	slot = gov_structure
 		# 	slot = constitution

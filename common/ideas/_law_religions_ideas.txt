@@ -1,0 +1,217 @@
+ideas = {
+	religions = {
+		religion_catholicism = {
+			allowed = { always = no }
+
+			picture = religion_catholicism
+		}
+		religion_protestantism = {
+			allowed = { always = no }
+
+			picture = religion_protestantism
+		}
+		religion_orthodoxy = {
+			allowed = { always = no }
+
+			picture = religion_orthodoxy
+		}
+		religion_coptic = {
+			allowed = { always = no }
+
+			picture = religion_coptic
+		}
+		religion_armenian = {
+			allowed = { always = no }
+
+			picture = religion_armenian
+		}
+		
+		religion_sunni = {
+			allowed = { always = no }
+
+			picture = religion_sunni
+		}
+		religion_shia = {
+			allowed = { always = no }
+
+			picture = religion_shia
+		}
+		religion_ibadi = {
+			allowed = { always = no }
+
+			picture = religion_ibadi
+		}
+
+		religion_druzism = {
+			allowed = { always = no }
+
+			picture = religion_druzism
+		}
+		religion_judaism = {
+			allowed = { always = no }
+
+			picture = religion_judaism
+		}
+
+		religion_yazidism = {
+			allowed = { always = no }
+
+			picture = religion_yazidism
+		}
+		religion_yarsanism = {
+			allowed = { always = no }
+
+			picture = religion_yarsanism
+		}
+		religion_zoroastrianism = {
+			allowed = { always = no }
+
+			picture = religion_zoroastrianism
+		}
+
+		religion_dogon = {
+			allowed = { always = no }
+
+			picture = religion_dogon
+		}
+		religion_serer = {
+			allowed = { always = no }
+			
+			picture = religion_serer
+		}
+		religion_abosom = {
+			allowed = { always = no }
+
+			picture = religion_abosom
+		}
+		religion_vodun = {
+			allowed = { always = no }
+
+			picture = religion_vodun
+		}
+		religion_isese = {
+			allowed = { always = no }
+
+			picture = religion_isese
+		}
+		religion_odinala = {
+			allowed = { always = no }
+
+			picture = religion_odinala
+		}
+		religion_maguzanci = {
+			allowed = { always = no }
+
+			picture = religion_maguzanci
+		}
+		religion_abwoi = {
+			allowed = { always = no }
+
+			picture = religion_abwoi
+		}
+
+		religion_lotuko = {
+			allowed = { always = no }
+
+			picture = religion_lotuko
+		}
+		religion_dinka = {
+			allowed = { always = no }
+
+			picture = religion_dinka
+		}
+		religion_kalenjin = {
+			allowed = { always = no }
+
+			picture = religion_kalenjin
+		}
+
+		religion_waaqism = {
+			allowed = { always = no }
+			
+			picture = religion_waaqism
+		}
+		religion_maasai = {
+			allowed = { always = no }
+
+			picture = religion_maasai
+		}
+
+		religion_bushongo = {
+			allowed = { always = no }
+
+			picture = religion_bushongo
+		}
+		religion_lugbara = {
+			allowed = { always = no }
+
+			picture = religion_lugbara
+		}
+		religion_baluba = {
+			allowed = { always = no }
+
+			picture = religion_baluba
+		}
+		religion_mbuti = {
+			allowed = { always = no }
+
+			picture = religion_mbuti
+		}
+		religion_gikuyu = {
+			allowed = { always = no }
+
+			picture = religion_gikuyu
+		}
+		religion_lozi = {
+			allowed = { always = no }
+
+			picture = religion_lozi
+		}
+		religion_tumbuka = {
+			allowed =  { always = no }
+
+			picture = religion_tumbuka
+		}
+		religion_zulu = {
+			allowed = { always = no }
+
+			picture = religion_saan
+		}
+
+		religion_shetwani = {
+			allowed = { always = no }
+
+			picture = religion_shetwani
+		}
+		religion_badimo = {
+			allowed = { always = no }
+
+			picture = religion_badimo
+		}
+		religion_saan = {
+			allowed = { always = no }
+
+			picture = religion_saan
+		}
+		religion_fomba_gasy = {
+			allowed = { always = no }
+
+			picture = religion_fomba_gasy
+		}
+		religion_hinduism = {
+			allowed = { always = no }
+
+			picture = religion_hinduism
+		}
+
+		religion_other_animist = {
+			allowed = { always = no }
+
+			picture = religion_other_animist
+		}
+		religion_other_spiritualist = {
+			allowq = { always = no }
+			picture = religion_other_spiritualist
+		}
+	}
+}
