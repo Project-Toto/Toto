@@ -209,12 +209,12 @@ initialize_alkebulan_religions = {
 			value = global.religion_bushongo
 		}
 		set_variable = {
-			var = global.religion_lugbara
-			value = token:religion_lugbara
+			var = global.religion_lugbar
+			value = token:religion_lugbar
 		}
 		add_to_array = {
 			array = global.religions_array
-			value = global.religion_lugbara
+			value = global.religion_lugbar
 		}
 		set_variable = {
 			var = global.religion_baluba
@@ -364,5 +364,79 @@ initialize_alkebulan_religions = {
 			value = global.religion_zoroastrian
 		}
 
-		add_to_
+		add_to_array = {
+			array = global.religion_family_west_african_array
+			value = global.religion_dogon
+		}
+		add_to_array = {
+			array = global.religion_family_west_african_array
+			value = global.religion_serer
+		}
+		add_to_array = {
+			array = global.religion_family_west_african_array
+			value = global.religion_abosom
+		}
+		add_to_array = {
+			array = global.religion_family_west_african_array
+			value = global.religion_vodun
+		}
+		add_to_array = {
+			array = global.religion_family_west_african_array
+			value = global.religion_isese
+		}
+		add_to_array = {
+			array = global.religion_family_west_african_array
+			value = global.religion_odinala
+		}
+		add_to_array = {
+			array = global.religion_family_west_african_array
+			value = global.religion_maguzanci
+		}
+		add_to_array = {
+			array = global.religion_family_west_african_array
+			value = global.religion_abwoi
+		}
+
+		add_to_array = {
+			array = global.religion_family_hornic_array
+			value = global.religion_waaqism
+		}
+		add_to_array = {
+			array = global.religion_family_hornic_array
+			value = global.religion_maasai
+		}
+
+		add_to_array  ={
+			array = global.religion_family_bantu_array
+			value = global.religion_bushongo
+		}
+		add_to_array  ={
+			array = global.religion_family_bantu_array
+			value = global.religion_lugbar
+		}
+		add_to_array  ={
+			array = global.religion_family_bantu_array
+			value = global.religion_baluba
+		}
+		add_to_array  ={
+			array = global.religion_family_bantu_array
+			value = global.religion_mbuti
+		}
+		add_to_array  ={
+			array = global.religion_family_bantu_array
+			value = global.religion_gikuyu
+		}
+		add_to_array  ={
+			array = global.religion_family_bantu_array
+			value = global.religion_lozi
+		}
+		add_to_array  ={
+			array = global.religion_family_bantu_array
+			value = global.religion_tumbuka
+		}
+		add_to_array  ={
+			array = global.religion_family_bantu_array
+			value = global.religion_zulu
+		}
+		
 }

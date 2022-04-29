@@ -53,15 +53,15 @@ ideas = {
 			picture = religion_judaism
 		}
 
-		religion_yazidism = {
-			allowed = { always = no }
-
-			picture = religion_yazidism
-		}
 		religion_yarsanism = {
 			allowed = { always = no }
 
 			picture = religion_yarsanism
+		}
+		religion_yazidism = {
+			allowed = { always = no }
+
+			picture = religion_yazidism
 		}
 		religion_zoroastrianism = {
 			allowed = { always = no }
@@ -142,10 +142,10 @@ ideas = {
 
 			picture = religion_bushongo
 		}
-		religion_lugbara = {
+		religion_lugbar = {
 			allowed = { always = no }
 
-			picture = religion_lugbara
+			picture = religion_lugbar
 		}
 		religion_baluba = {
 			allowed = { always = no }
@@ -175,7 +175,7 @@ ideas = {
 		religion_zulu = {
 			allowed = { always = no }
 
-			picture = religion_saan
+			picture = religion_zulu
 		}
 
 		religion_shetwani = {

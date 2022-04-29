@@ -79,6 +79,15 @@ defined_text = {
 	text = {
 		trigger = {
 			is_in_array = {
+				array = global.religion_family_iranian_array
+				value = v
+			}
+		}
+		localization_key = religion_family_iranian
+	}
+	text = {
+		trigger = {
+			is_in_array = {
 				array = global.religion_family_west_african_array
 				value = v
 			}
@@ -88,16 +97,7 @@ defined_text = {
 	text = {
 		trigger = {
 			is_in_array = {
-				array = global.religion_family_central_african_array
-				value = v
-			}
-		}
-		localization_key = religion_central_african_family
-	}
-	text = {
-		trigger = {
-			is_in_array = {
-				array = global.religion_hornic_family_array
+				array = global.religion_family_hornic_array
 				value = v
 			}
 		}
