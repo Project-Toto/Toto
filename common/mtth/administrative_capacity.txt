@@ -5,8 +5,7 @@ administrative_capacity_used = {
 			var = administrative_capacity_used_temp
 			value = 0			
 		}
-		for_each_scope_loop = {
-			array = owned_states
+		all_owned_states = {
 			set_temp_variable = {
 				var = modifier@local_administrative_capacity_temp
 				value = local_administrative_capacity

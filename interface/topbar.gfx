@@ -19,7 +19,7 @@ spriteTypes = {
 		texturefile = "gfx//interface//manpower_icon.dds"
 	}
 
-	spriteType = {
+		spriteType = {
 		name = "GFX_unity_icon"
 		texturefile = "gfx//interface//unity_icon.dds"
 	}
