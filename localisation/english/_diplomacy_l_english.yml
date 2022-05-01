@@ -1,0 +1,3 @@
+﻿l_english:
+ sphere_member_none: "None"
+ sphere_member_iterate: "[?sphere_member_array^sphere_member_temp.GetNameWithFlag], [GetSphereIterate]"

@@ -137,3 +137,6 @@
  religion_other_animist: "§YOther Animist§!"
  religion_other_animist_adj: "Animist"
  religion_other_animist_desc: ""
+#
+ accepted_religion_none: "None"
+ accepted_religion_iterate: "[?accepted_religion_array^accepted_religion_temp.GetTokenLocalizedKey], [GetAcceptedReligionIterate]"

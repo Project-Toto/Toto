@@ -116,3 +116,49 @@ defined_text = {
 		localization_key = religion_no_family
 	}
 }
+
+defined_text = {
+	name = GetPrimaryReligion
+	text = {
+		localization_key = primary_religion
+	}
+}
+defined_text = {
+	name = GetAcceptedReligion
+	text = {
+		trigger = {
+			check_variable = {
+				var = accepted_religion_array^num
+				value = 0
+				compare = greater_than
+			}
+		}
+		localization_key = accepted_religion_none
+	}
+	text = {
+		trigger = {
+			set_temp_variable = {
+				var = accepted_religion_temp
+				value = 0
+			}
+		}
+		localization_key = accepted_religion_iterate
+	}
+}
+defined_text = {
+	name = GetAcceptedReligionIterate
+	text = {
+		trigger = {
+			add_to_temp_variable = {
+				var = accepted_religion_temp
+				value = 1
+			}
+			check_variable = {
+				var = accepted_religion_array^num
+				value = accepted_religion_temp
+				compare = lesser_than
+			}
+		}
+		localization_key = accepted_religion_iterate
+	}
+}

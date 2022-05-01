@@ -1,0 +1,42 @@
+defined_text = {
+	name = GetSphereList
+	text = {
+		trigger = {
+			check_variable = {
+				var = sphere_member_array^num
+				value = 0
+				compare = greater_than
+			}
+		}
+		localization_key = sphere_member_none
+	}
+	text = {
+		trigger = {
+			set_temp_variable = {
+				var = sphere_member_temp
+				value = 0
+			}
+		}
+		localization_key = sphere_member_iterate
+	}
+}
+defined_text = {
+	name = GetSphereIterate
+	text = {
+		trigger = {
+			add_to_temp_variable = {
+				var = sphere_member_temp
+				value = 1
+			}
+			check_variable = {
+				var = sphere_member_array^num
+				value = sphere_member_temp
+				compare = lesser_than
+			}
+		}
+		localization_key = sphere_member_iterate
+	}
+}
+
+sphere_member_none: "None"
+sphere_member_iterate: "[?sphere_member_array^sphere_member_temp.GetNameWithFlag], [GetSphereIterate]"
