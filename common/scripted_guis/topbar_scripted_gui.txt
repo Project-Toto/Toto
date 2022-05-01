@@ -27,11 +27,45 @@ scripted_gui = {
 		visible = { always = yes }
 		effects = { }
 	}
-	bottom_bar = {
+	ledger_option = {
 		context_type = player_context
-		window_name = "alkebulan_bottom_bar_container"
+		window_name = "ledger_option_container"
 		parent_window_token = top_bar
 		visible = { always = yes }
-		effects = { }
+		effects = {
+			ledger_open_button_click = {
+				set_country_flag = country_view_ledger_flag
+			}
+		}
 	}
+	ledger_window = {
+		context_type = player_context
+		window_name = "ledger_container"
+		parent_window_token = top_bar
+
+		visible = {
+			has_country_flag = country_view_ledger_flag
+		}
+
+		properties = {
+			country_flag_icon = {
+				image = "[THIS.GetFlag]"
+			}
+		}
+
+		effects = {
+			close_button_click = {
+				clr_country_flag = country_view_ledger_flag
+			}
+		}
+
+		dynamic_lists = {
+			ledger_list_countries_summary = {
+				array = global.ranked_countries_array
+				entry_container = ledger_list_countries_summary_item
+				change_scope = yes
+			}
+		}
+	}
+
 }

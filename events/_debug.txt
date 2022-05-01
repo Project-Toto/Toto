@@ -67,6 +67,10 @@ country_event = {
 
 	option = {
 		name = prestige.1.a
-		drop_cosmetic_tag = yes
+		#drop_cosmetic_tag = yes
+		add_to_array = {
+			array = global.ranked_countries_array
+			value = THIS.id
+		}
 	}
 }

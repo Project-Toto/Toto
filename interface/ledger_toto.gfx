@@ -1,0 +1,43 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ledger_open_button"
+		texturefile = "gfx/interface/ledger/ledger_open_button.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_ledger_background"
+		textureFile = "gfx/interface/ledger/ledger_background.dds"
+	}
+	spriteType = {
+		name = "GFX_ledger_background_frame"
+		textureFile = "gfx/interface/ledger/ledger_background_frame.dds"
+	}
+	spriteType = {
+		name = "GFX_ledger_header_background"
+		textureFile = "gfx/interface/ledger/ledger_header_background.dds"
+	}
+	spriteType = {
+		name = "GFX_ledger_list_background"
+		textureFile = "gfx/interface/ledger/ledger_list_background.dds"
+	}
+	spriteType = {
+		name = "GFX_ledger_list_frame"
+		textureFile = "gfx/interface/ledger/ledger_list_frame.dds"
+	}
+	spriteType = {
+		name = "GFX_ledger_list_header"
+		textureFile = "gfx/interface/ledger/ledger_list_header.dds"
+	}
+	spriteType = {
+		name = "GFX_ledger_title"
+		textureFile = "gfx/interface/ledger/ledger_title.dds"
+	}
+	spriteType = {
+		name = "GFX_flag_medium_gold_frame"
+		textureFile = "gfx/interface/flag_medium_gold_frame.dds"
+	}
+	spriteType = {
+		name = "GFX_flag_medium_frame"
+		textureFile = "gfx/interface/flag_medium_frame.dds"
+	}
+}

@@ -1,0 +1,120 @@
+guiTypes = {
+	containerWindowType = {
+		name = "ledger_option_container"
+
+		position = { x = -74 y = -275 }
+		size = { width = 314 height = 31 }
+		orientation = lower_RIGHT
+
+		buttonType = {
+			name = "ledger_open_button"
+			spriteType = "GFX_ledger_open_button"
+			position = { x = 0 y = 0 }
+		}
+		instantTextBoxType = {
+			name = "ledger_open_text"
+			position = { x = 16 y = 12 }
+			text = "Ledger"
+			font = vic_18
+			maxHeight = 20
+			maxWidth = 120
+
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "ledger_container"
+
+		position = { x = 0 y = 0 }
+		size = { width = 1108 height = 720 }
+		moveable = yes
+		orientation = CENTER
+		origo = center
+
+		# Background
+
+			background = {
+				name = "Background"
+				spriteType = "GFX_ledger_background"
+				#alwaysTransparent = yes
+			}
+			background = {
+				name = "Background"
+				spriteType = "GFX_ledger_background"
+				alwaysTransparent = yes
+			}
+			background = {
+				name = "Background"
+				spriteType = "GFX_ledger_background_frame"
+				alwaysTransparent = yes
+			}
+		# Header
+			iconType = {
+				name = "ledger_header_background"
+				spriteType = "GFX_ledger_header_background"
+				position = { x = 9 y = 8 }
+				alwaysTransparent = yes
+			}
+			iconType = {
+				name = "ledger_title_background"
+				spriteType = "GFX_ledger_title"
+				position = { x = 40 y = 52 }
+				alwaysTransparent = yes
+			}
+			instantTextBoxType = {
+				name = "ledger_title"
+				position = { x = 40 y = 80 }
+				format = center
+				maxHeight = 40
+				maxWidth = 120
+
+				text = "Title"
+				font = vic_36
+			}
+			buttonType = {
+				name = "close_button"
+				spriteType = "GFX_closebutton_1"
+				position = { x = -44 y = 13 }
+				orientation = upper_right
+			}
+		# List
+			iconType = {
+				name = "ledger_list_background"
+				spriteType = "GFX_ledger_list_background"
+				position = { x = 20 y = 240 }
+				alwaysTransparent = yes
+			}
+			iconType = {
+				name = "ledger_list_frame"
+				spriteType = "GFX_ledger_list_frame"
+				position = { x = 9 y = 177 }
+				alwaysTransparent = yes
+			}
+			iconType = {
+				name = "ledger_list_header"
+				spriteType = "GFX_ledger_list_header"
+				position = { x = 12 y = 180 }
+				alwaysTransparent = yes
+			}
+		# Grids
+			gridboxtype = {
+				name = "ledger_list_countries_summary"
+				position = { x = 12 y = 240 }
+				size = { height = 300 width = 1040 }
+			}
+	}
+	containerWindowType = {
+		name = "ledger_list_countries_summary_item"
+		position = { x = 2 y = 2 }
+
+		iconType = {
+			name = "country_flag_icon"
+			spriteType = "GFX_flag_medium"
+			position = { x = 10 y = 10 }
+		}
+		iconType = {
+			name = "country_flag_frame"
+			spriteType = "GFX_flag_medium_gold_frame"
+		}
+	}
+}

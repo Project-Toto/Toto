@@ -52,21 +52,21 @@ guiTypes = {
 					name = "diplomatic_relations_sphered_by_grid"
 					size = { width = 170 height = 32 }
 					
-					format = left
+					#format = left
 					spacing = 1
 				}
 			}
-			containerWindowType = {
-				name = "diplomacy_country_list_relation_entry2"
-				position = { x = 0 y = 0 }
-				size = { x = 34 y = 34 }
+			#containerWindowType = {
+			#	name = "diplomacy_country_list_relation_entry2"
+			#	position = { x = 0 y = 0 }
+			#	size = { width = 34 height = 34 }
 
-				guiButtonType = {
-					name = "icon"
-					quadTextureSprite = "GFX_relation_unknown"
-					position = { x = 1 y = 1 }
-				}
-			}
+			#	buttonType = {
+			#		name = "icon"
+			#		quadTextureSprite = "GFX_relation_unknown"
+			#		position = { x = 1 y = 1 }
+			#	}
+			#}
 		}
 	}
 }
