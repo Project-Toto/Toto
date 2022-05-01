@@ -59,7 +59,7 @@ guiTypes = {
 		iconType = {
 			name ="map_modes_bg"
 			spriteType = "GFX_map_modes_bg"
-			position = { x=549 y = 0 }
+			position = { x=544 y = -40 }
 		}
 
 		iconType = {
@@ -70,7 +70,7 @@ guiTypes = {
 		
 		buttonType = {
 			name = "open_find_view_button"
-			position = { x=590 y=0 }
+			position = { x=594 y=4 }
 			quadTextureSprite ="GFX_find_screen_button"
 			pdx_tooltip = "SEARCH"
 			shortcut = "f"
@@ -81,7 +81,7 @@ guiTypes = {
 		# All Map Modes button
 		buttonType = {
 			name = "mapmodes_all"
-			position = { x=564 y=11 }
+			position = { x=564 y=12 }
 			quadTextureSprite ="GFX_mapmode_button_all"
 			shortcut = "ctrl+F1"
 			pdx_tooltip = "MAPMODE_ALL"

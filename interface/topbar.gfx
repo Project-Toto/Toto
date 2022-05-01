@@ -19,7 +19,7 @@ spriteTypes = {
 		texturefile = "gfx//interface//manpower_icon.dds"
 	}
 
-		spriteType = {
+	spriteType = {
 		name = "GFX_unity_icon"
 		texturefile = "gfx//interface//unity_icon.dds"
 	}
@@ -201,7 +201,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_world_tension_icon_big_strip"
 		texturefile = "gfx//interface//world_tension_icon_big_strip.dds"
-		noOfFrames = 10		
+		noOfFrames = 10
 	}
 	
 	frameAnimatedSpriteType = {
@@ -215,7 +215,7 @@ spriteTypes = {
 		alwaystransparent = yes
 		effectFile = "gfx/FX/buttonstate_blendframes.lua"
 	}	
-	
+
 	spriteType = {
 		name = "GFX_date_pause_button_bg"
 		texturefile = "gfx//interface//date_pause_button_bg.dds"

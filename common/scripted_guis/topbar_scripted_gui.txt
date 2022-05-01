@@ -27,4 +27,11 @@ scripted_gui = {
 		visible = { always = yes }
 		effects = { }
 	}
+	bottom_bar = {
+		context_type = player_context
+		window_name = "alkebulan_bottom_bar_container"
+		parent_window_token = top_bar
+		visible = { always = yes }
+		effects = { }
+	}
 }
