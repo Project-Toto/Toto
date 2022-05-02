@@ -1,84 +1,11 @@
-# modifiers used in static_modifiers needs to be predefined here
-
-# Terrain
-	state_arability = {
-		color_type = good
-		value_type = percentage
-		precision = 1
-		category = state
-	}
-
-	state_arability_modify = {
-		color_type = good
-		value_type = percentage
-		precision = 1
-		category = state
-	}
-
-	state_arability_factor = {
-		color_type = good
-		value_type = percentage
-		precision = 0
-		category = state
-	}
-
-	state_habitability = {
-		color_type = good
-		value_type = percentage
-		precision = 1
-		category = state
-	}
-
-	state_habitability_modify = {
-		color_type = good
-		value_type = percentage
-		precision = 1
-		category = state
-	}
-
-	state_habitability_factor = {
-		color_type = good
-		value_type = percentage
-		precision = 0
-		category = state
-	}
-
-	state_sandstorm_chance = {
-		color_type = bad
-		value_type = percentage
-		precision = 1
-		category = state
-	}
-
-	 state_drought_chance = {
-		color_type = bad
-		value_type = percentage
-		precision = 1
-		category = state
-	}
-
-	 state_heavy_rain_chance = {
-		color_type = bad
-		value_type = percentage
-		precision = 1
-		category = state
-	}
-
-	 state_monsoon_chance = {
-		color_type = bad
-		value_type = percentage
-		precision = 1
-		category = state
-	}
-
 # Population
-	state_happiness = {
+	local_happiness_modifier = {
 		color_type = good
 		value_type = number
 		precision = 0
 		category = state
 	}
-	state_happiness_modify = {
+	local_happiness_factor = {
 		color_type = good
 		value_type = number
 		precision = 0

@@ -4,13 +4,23 @@
 		value_type = number
 		precision = 2
 		category = country
-		category = state
 	}
 	arability_factor = {
 		color_type = neutral
 		value_type = percentage
 		precision = 1
 		category = country
+	}
+	local_arability_modifier = {
+		color_type = neutral
+		value_type = number
+		precision = 2
+		category = state
+	}
+	local_arability_factor = {
+		color_type = neutral
+		value_type = percentage
+		precision = 1
 		category = state
 	}
 # Habitability
@@ -19,45 +29,55 @@
 		value_type = number
 		precision = 2
 		category = country
-		category = state
 	}
 	habitability_factor = {
 		color_type = neutral
 		value_type = percentage
 		precision = 1
 		category = country
+	}
+	local_habitability_modifier = {
+		color_type = neutral
+		value_type = number
+		precision = 2
+		category = state
+	}
+	local_habitability_factor = {
+		color_type = neutral
+		value_type = percentage
+		precision = 1
 		category = state
 	}
 # Sandstorm Chance
-	sandstorm_chance_factor = {
+	local_sandstorm_chance_factor = {
 		color_type = bad
 		value_type = percentage
 		precision = 1
 		category = state
 	}
 # Drought Chance
-	drought_chance_factor = {
-		color_type = bad
-		value_type = percentage
-		precision = 1
-		category = state
-	}
-# Heavy Rain Chance
-	heavy_rain_chance_factor = {
-		color_type = bad
-		value_type = percentage
-		precision = 1
-		category = state
-	}
-# Monsoon Chance
-	monsoon_chance_factor = {
+	local_drought_chance_factor = {
 		color_type = bad
 		value_type = percentage
 		precision = 1
 		category = state
 	}
 # Flood Chance
-	flood_chance_factor = {
+	local_heavy_rain_factor = {
+		color_type = bad
+		value_type = percentage
+		precision = 1
+		category = state
+	}
+# Monsoon Chance
+	local_monsoon_chance_factor = {
+		color_type = bad
+		value_type = percentage
+		precision = 1
+		category = state
+	}
+# Flood Chance
+	local_flood_chance_factor = {
 		color_type = bad
 		value_type = percentage
 		precision = 1

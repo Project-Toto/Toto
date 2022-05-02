@@ -1,0 +1,40 @@
+# Bureaucracy
+	bureaucracy_modifier = {
+		color_type = good
+		value_type = number
+		precision = 2
+		category = country
+	}
+	bureaucracy_factor = {
+		color_type = good
+		value_type = percentage
+		precision = 1
+		category = state
+	}
+	local_bureaucracy_modifier = {
+		color_type = good
+		value_type = number
+		precision = 2
+		category = country
+	}
+	local_bureaucracy_factor = {
+		color_type = good
+		value_type = percentage
+		precision = 1
+		category = state
+	}
+# Bureaucracy Capacity
+	bureaucracy_capacity_modifier = {
+		color_type = good
+		value_type = number
+		precision = 2
+		category = country
+	}
+	bureaucracy_capacity_factor = {
+		color_type = good
+		value_type = percentage
+		precision = 1
+		category = state
+	}
+# Administrative Efficiency
+# Assimilation Efficiency

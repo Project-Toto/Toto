@@ -1,2 +1,35 @@
 ﻿l_english:
- 
+# Bureaucracy
+ bureaucracy_modifier: "Bureaucracy Modifier"
+ bureaucracy_factor: "Bureaucracy Factor"
+ local_bureaucracy_modifier: "Local Bureaucracy Modifier"
+ local_bureaucracy_factor: "Local Bureaucracy Factor"
+ bureaucracy_capacity_modifier: "Bureaucracy Capacity Modifier"
+ bureaucracy_capacity_factor: "Bureaucracy Capacity Factor"
+# Prestige
+ prestige_achievement_modifier: "Achievement Prestige Modifier"
+ prestige_humanities_modifier: "Humanities Prestige Modifier"
+ prestige_humanities_factor: "Humanities Prestige Factor"
+ prestige_innovation_modifier: "Innovation Prestige Modifer"
+ prestige_innovation_factor: "Innovation Prestige Factor"
+ prestige_economy_modifier: "Economic Prestige Modifier"
+ prestige_economy_factor: "Economic Prestige Factor"
+ prestige_military_modifier: "Military Prestige Modifier"
+ prestige_military_factor: "Military Prestige Factor"
+ prestige_empire_modifier: "Empire Prestige Modifier"
+ prestige_empire_factor: "Empire Prestige Factor"
+# Climate/Weather
+ arability_modifier: "Arability Modifier"
+ arability_factor: "Arability Factor"
+ local_arability_modifier: "Local Arability Modifier"
+ local_arability_factor: "Local Arability Modifer"
+ habitability_modifier: "Habitability Modifier"
+ habitability_factor: "Habitability Factor"
+ local_habitability_modifier: "Local Habitability Modifier"
+ local_habitability_factor: "Local Habitability Factor"
+ local_sandstorm_chance_factor: "Local Sandstorm Chance Factor"
+ local_drought_chance_factor: "Local Drought Chance Factor"
+ local_heavy_rain_chance_factor: "Local Heavy Rain Chance Factor"
+ local_monsoon_chance_factor: "Local Monsoon Chance Factor"
+ local_flood_chance_factor: "Local Flood Chance Factor"
+
