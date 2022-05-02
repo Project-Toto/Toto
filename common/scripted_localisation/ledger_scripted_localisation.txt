@@ -1,0 +1,51 @@
+defined_text = {
+	name = "GetLedgerGlobalEnabled"
+	text = {
+		trigger = {
+			NOT = {
+				has_country_flag = country_view_ledger_national_flag
+				has_country_flag = country_view_ledger_misc_flag
+			}
+		}
+		localization_key = ledger_page_on
+	}
+	text = {
+		localization_key = ledger_page_off
+	}
+}
+defined_text = {
+	name = "GetLedgerNationalEnabled"
+	text = {
+		trigger = {
+			has_country_flag = country_view_ledger_national_flag	
+		}
+		localization_key = ledger_page_on
+	}
+	text = {
+		localization_key = ledger_page_off
+	}
+}
+defined_text = {
+	name = "GetLedgerMiscEnabled"
+	text = {
+		trigger = {
+			has_country_flag = country_view_ledger_misc_flag	
+		}
+		localization_key = ledger_page_on
+	}
+	text = {
+		localization_key = ledger_page_off
+	}
+}
+defined_text = {
+	name = "GetLedgerGlobalSummaryEnabled"
+	text = {
+		trigger = {
+			has_country_flag = country_view_ledger_country_summary_flag
+		}
+		localization_key = ledger_page_on
+	}
+	text = {
+		localization_key = ledger_page_off
+	}
+}

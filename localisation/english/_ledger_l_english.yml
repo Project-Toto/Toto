@@ -1,0 +1,35 @@
+﻿l_english:
+ ledger_title: "Ledger"
+
+ ledger_global_button_title: "£global_texticon [GetLedgerGlobalEnabled]Global§!"
+ ledger_national_button_title: "£national_texticon [GetLedgerNationalEnabled]National§!"
+ ledger_misc_button_title: "£misc_texticon [GetLedgerMiscEnabled]Misc.§!"
+
+ ledger_global_summary_button: "£list_texticon [GetLedgerGlobalSummaryEnabled]Summary§!"
+ ledger_global_summary_button_delayed: ""
+ ledger_global_prestige_button: "£prestige_texticon [GetLedgerGlobalPrestigeEnabled]Prestige§!"
+ ledger_global_prestige_button_delayed: ""
+ ledger_global_demographics_button: "£pops_texticon [GetLedgerGlobalDemographicsEnabled]Demographics§!"
+
+ ledger_global_politics_button: "£diplomacy_texticon [GetLedgerGlobalPoliticsEnabled]Politics§!"
+ ledger_global_politics_button_delayed: ""
+ ledger_global_stability_button: "£stability_texticon [GetLedgerGlobalStabilityEnabled]Stability§!"
+ ledger_global_stability_button_delayed: ""
+ ledger_global_policies_button: "£policies_texticon [GetLedgerGlobalPoliciesEnabled]Policies§!"
+ ledger_global_policies_button_delayed: ""
+
+ ledger_global_economics_button: "£prosperity_texticon [GetLedgerGlobalEconomicEnabled]Economics§!"
+ ledger_global_economics_button_delayed: ""
+ ledger_global_military_button: "£army_texticon [GetLedgerGlobalMilitaryEnabled]Military§!"
+ ledger_global_military_button_delayed: ""
+ ledger_global_military_2_button: "£navy_texticon [GetLedgerGlobalMilitary2Enabled]Military 2§!
+ ledger_global_military_2_button_delayed: ""
+
+ ledger_national_summary_button: "£list_texticon [GetLedgerNationalSummaryEnabled]Summary§!"
+ ledger_national_summary_button_delayed: ""
+
+ ledger_misc_world_powers_button: "£war_support_texticon [GetLedgerMiscWorldPowersEnabled]World Powers§!"
+ ledger_misc_world_powers_button_delayed: ""
+
+ ledger_page_on: "§Y"
+ ledger_page_off: "§W"
