@@ -11,7 +11,7 @@ defined_text = {
 	}
 	text = {
 		localization_key = ledger_page_off
-	}
+	} 
 }
 defined_text = {
 	name = "GetLedgerNationalEnabled"

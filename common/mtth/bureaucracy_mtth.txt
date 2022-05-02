@@ -1,0 +1,53 @@
+bureaucracy = {
+	base = 0
+	modifier = {
+		set_temp_variable = {
+			var = bureaucracy_temp
+			value = 0			
+		}
+		all_owned_state = {
+			set_temp_variable = {
+				var = bureaucracy_capacity_temp
+				value = modifier@local_bureaucracy_capacity
+			}
+			if = {
+				limit = {
+					NOT = { is_core_of = PREV }
+				}
+				mutiply_temp_variable = {
+					var = local_bureaucracy_capacity_temp
+					value = 0.4
+				}
+			}
+			add_to_temp_variable = {
+				var = bureaucracy_temp
+				value = local_bureaucracy_temp
+			}
+		}
+		add = bureaucracy_temp
+	}
+}
+bureaucracy_overcapacity = {
+	base = 0
+	modifier = {
+		set_temp_variable = {
+			var = bureaucracy_overcapacity_temp
+			value = bureaucracy
+		}
+		divide_temp_variable = {
+			var = bureaucracy_overcapacity_temp
+			value = modifier@bureaucracy_capacity
+		}
+		subtract_from_temp_variable = {
+			var = bureaucracy_overcapacity_temp
+			value = 1
+		}
+		clamp_temp_variable = {
+			var = bureaucracy_overcapacity_temp
+			min = 0
+			max = 5
+		}
+		add = bureaucracy_overcapacity_temp
+	}
+}
+		

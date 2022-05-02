@@ -60,7 +60,7 @@ scripted_gui = {
 		}
 
 		dynamic_lists = {
-			ledger_list_countries_summary = {
+			ledger_list_global_summary = {
 				array = global.ranked_countries_array
 				entry_container = ledger_list_countries_summary_item
 				change_scope = yes

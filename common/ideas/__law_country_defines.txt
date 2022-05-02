@@ -1214,7 +1214,8 @@ ideas = {
 			picture = lawicon_red
 
 			modifier = {
-				custom_modifier_tooltip = law_country_military_modern_prestige_modifier # 1.15
+				prestige_military_factor = 0.35
+
 				command_power_gain = 0.225
 				experience_loss_factor = 0.55
 				land_reinforce_rate = 1.00
@@ -1234,6 +1235,8 @@ ideas = {
 			picture = lawicon_red
 
 			modifier = {
+				prestige_military_factor = 0.20
+
 				command_power_gain = 0.175
 				experience_loss_factor = 0.6
 				land_reinforce_rate = 0.95
@@ -1253,7 +1256,8 @@ ideas = {
 			picture = lawicon_red
 
 			modifier = {
-				custom_modifier_tooltip = law_country_military_traditional_prestige_modifier # 0.925
+				prestige_military_factor = 0.10
+
 				command_power_gain = 0.15
 				experience_loss_factor = 0.7
 				land_reinforce_rate = 0.90
@@ -1271,7 +1275,8 @@ ideas = {
 			picture = lawicon_red
 
 			modifier = {
-				custom_modifier_tooltip = law_army_tribal_improved_prestige_modifier # 0.80
+				prestige_military_factor = -0.05
+
 				command_power_gain = 0.125
 				experience_loss_factor = 0.8
 				land_reinforce_rate = 0.85
@@ -1289,7 +1294,8 @@ ideas = {
 			picture = lawicon_red
 
 			modifier = {
-				custom_modifier_tooltip = law_army_tribal_improved_prestige_modifier # 0.80
+				prestige_military_factor = -0.225
+
 				command_power_gain = 0.125
 				experience_loss_factor = 0.8
 				land_reinforce_rate = 0.85
@@ -1306,7 +1312,8 @@ ideas = {
 			picture = lawicon_red
 
 			modifier = {
-				custom_modifier_tooltip = law_army_tribal_basic_prestige_modifier # 0.65
+				prestige_military_factor = -0.40
+
 				command_power_gain = 0.10
 				experience_loss_factor = 1.0
 				land_reinforce_rate = 0.85
