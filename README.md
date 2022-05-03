@@ -14,7 +14,7 @@
 [youtube-link]: https://www.youtube.com/channel/UCR6n-pjZ4ain9hhUESuhZNw
 
 [discord-badge]: https://img.shields.io/static/v1?label=Discord&message=Chat&color=blue&logo=discord
-[discord-link]: https://discord.gg/VgufEME
+[discord-link]: https://discord.gg/gpYAAFe33U
 
 <hr>
 
@@ -23,7 +23,7 @@
 * [Installation/Download](#installing-the-mod)
 * [Usage](#usage)
 * [Troubleshooting](#troubleshooting)
-* [Join the Discussion](#meet-the-team;-join-the-discussion)
+* [Join the Discussion](#join-the-team;-join-the-discussion)
 
 <hr>
 
@@ -43,17 +43,17 @@ Here's a useful installation video by one of our lead developers:
 
 ### Links from the Video 
 * <a href="https://desktop.github.com/">Github Desktop App: https://desktop.github.com/</a>
-* <a href="https://github.com/team-eoanb/EoaNB">Github Repo URL: https://github.com/team-eoanb/EoaNB</a>
+* <a href="https://github.com/Project-Toto/Toto">Github Repo URL: https://github.com/Project-Toto/Toto</a>
 
 <hr>
 
 ## Usage
 
-**Project Toto: Empires of the Soudan** is a currently in alpha-stage development and is not expected to be playable.
+**Alkebulan: Empires of the Soudan** is a currently in alpha-stage development and is not expected to be playable.
 
 If you would like to work on the mod but do not wish to apply for the team, you are free to fork the repository and modify it, and redistribute it for private use. Content of EoaNB is licensed under the `GNU General Public License 3.0`, which means you have to alert users you are redistributing a modified, unofficial version of EoaNB.
 
-We do not tolerate using content developed for EoaNB for other purposes. Any other source doing such things without our explicit permision and/or are claiming ownership/profiting from our work may be liable to legal disputes.
+We do not tolerate using content developed for Alkebulan for other purposes. Any other source doing such things without our explicit permision and/or are claiming ownership/profiting from our work may be liable to legal disputes.
 
 <hr>
 
@@ -61,7 +61,7 @@ We do not tolerate using content developed for EoaNB for other purposes. Any oth
 
 Have more questions, comments or feedback? You can contact us by joining our discord:
 
-<a href="https://discord.gg/VgufEME">- Discord Link: https://discord.gg/VgufEME</a>
+<a href="https://discord.gg/gpYAAFe33U">- Discord Link: https://discord.gg/gpYAAFe33U</a>
 
 <hr>
 
@@ -70,4 +70,4 @@ Have more questions, comments or feedback? You can contact us by joining our dis
 Direct Message Vanadium#8665 on Discord
 
 ### Rules for Developers
-- Current General Development for EoS shall be pushed onto the `main` branch.
+- Current General Development for Alkebulan shall be pushed onto the `main` branch.
