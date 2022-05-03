@@ -51,7 +51,7 @@ Here's a useful installation video by one of our lead developers:
 
 **Alkebulan: Empires of the Soudan** is a currently in alpha-stage development and is not expected to be playable.
 
-If you would like to work on the mod but do not wish to apply for the team, you are free to fork the repository and modify it, and redistribute it for private use. Content of EoaNB is licensed under the `GNU General Public License 3.0`, which means you have to alert users you are redistributing a modified, unofficial version of EoaNB.
+If you would like to work on the mod but do not wish to apply for the team, you are free to fork the repository and modify it, and redistribute it for private use. Content of Alkebulan is licensed under the `GNU General Public License 3.0`, which means you have to alert users you are redistributing a modified, unofficial version of Alkebulan.
 
 We do not tolerate using content developed for Alkebulan for other purposes. Any other source doing such things without our explicit permision and/or are claiming ownership/profiting from our work may be liable to legal disputes.
 
