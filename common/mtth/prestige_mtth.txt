@@ -126,17 +126,17 @@ prestige_military = {
 		add = prestige_military_air
 	}
 	modifier = {
-		set_temp_variable = {
-			var = prestige_modifier
+		set_variable = {
+			var = prestige_military_subjects
 			value = 0
 		}
 		all_subject_countries = {
-			add_to_temp_variable = {
-				var = prestige_modifier
+			add_to_variable = {
+				var = prestige_military_subjects
 				value = mtth:prestige_military
 			}
 		}
-		add = prestige_modifier
+		add = prestige_military_subjects
 	}
 	modifier = {
 		is_subject = yes
@@ -160,7 +160,24 @@ prestige_empire = {
 		add = modifier@prestige_empire_modifier
 	}
 	modifier = {
-		add = mtth:bureaucracy
+		set_variable = {
+			var = prestige_empire_bureaucracy
+			value = mtth:bureaucracy
+		}
+		add = prestige_empire_bureaucracy
+	}
+	modifier = {
+		set_variable = {
+			var = prestige_empire_subjects
+			value = 0
+		}
+		all_subject_countries = {
+			add_to_variable = {
+				var = prestige_empire_subjects
+				value = mtth:prestige_empire
+			}
+		}
+		add = prestige_empire_subjects
 	}
 	modifier = {
 		set_temp_variable = {
