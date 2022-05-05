@@ -48,9 +48,55 @@ scripted_gui = {
 		}
 
 		properties = {
+			ledger_list_global_summary_visible = {
+				has_country_flag = country_view_ledger_global_summary_flag
+			}
+			ledger_list_global_prestige_visible = {
+				has_country_flag = country_view_ledger_global_prestige_flag
+			}
+			ledger_list_global_demographics = {
+				has_country_flag = country_view_ledger_global_demographics_flag
+			}
+			ledger_list_global_stability = {
+				has_country_flag = country_view_ledger_global_stability_flag
+			}
+			ledger_list_global_policies = {
+				has_country_flag = country_view_ledger_global_policies_flag
+			}
+			ledger_list_global_economics = {
+				has_country_flag = country_view_ledger_global_economics_flag
+			}
+			ledger_list_global_military = {
+				has_country_flag = country_view_ledger_global_military_flag
+			}
+			ledger_list_global_military_2 = {
+				has_country_flag = country_view_ledger_global_military_2_flag
+			}
+
+			ledger_list_national_summary = {
+				has_country_flag = country_view_ledger_national_summary_flag
+			}
+			ledger_list_misc_world_powers = {
+				has_country_flag = country_view_ledger_misc_world_powers_flag
+			}
+
+
 			country_flag_icon = {
 				image = "[THIS.GetFlag]"
 			}
+			country_religion_icon = {
+				image = "[THIS.GetNationalReligionIcon]"
+			}
+			#country_language_icon = {
+			#	image = "[THIS.GetNationalLanguageIcon]"
+			#}
+			
+			country_religion_icon = {
+				image = "[THIS.state_culture_array]"
+			}
+			#country_language_icon = {
+			#	image = "[THIS.GetNationalLanguageIcon]"
+			#}
 		}
 
 		effects = {
@@ -61,10 +107,56 @@ scripted_gui = {
 
 		dynamic_lists = {
 			ledger_list_global_summary = {
-				array = global.ranked_countries_array
-				entry_container = ledger_list_countries_summary_item
+				array = global.prestige_total_ranking_scope_array
+				entry_container = ledger_list_global_summary_item
 				change_scope = yes
 			}
+			ledger_list_global_prestige = {
+				array = global.prestige_total_ranking_scope_array
+				entry_container = ledger_list_global_prestige_item
+				change_scope = yes
+			}
+			ledger_list_global_demographics = {
+				array = global.prestige_total_ranking_scope_array
+				entry_container = ledger_list_global_demographics_item
+				change_scope = yes
+			}
+			ledger_list_global_stability = {
+				array = global.prestige_total_ranking_scope_array
+				entry_container = ledger_list_global_stability_item
+				change_scope = yes
+			}
+			ledger_list_global_policies = {
+				array = global.prestige_total_ranking_scope_array
+				entry_container = ledger_list_global_policies_item
+				change_scope = yes
+			}
+			ledger_list_global_economics = {
+				array = global.prestige_total_ranking_scope_array
+				entry_container = ledger_list_global_economics_item
+				change_scope = yes
+			}
+			ledger_list_global_military = {
+				array = global.prestige_total_ranking_scope_array
+				entry_container = ledger_list_global_military_item
+				change_scope = yes
+			}
+			ledger_list_global_military_2 = {
+				array = global.prestige_total_ranking_scope_array
+				entry_container = ledger_list_global_military_2_item
+				change_scope = yes
+			}
+
+			ledger_list_national_summary = {
+				array = global.bureaucracy_total_ranked_states_scope_array
+				entry_container = ledger_list_national_summary_item
+				change_scope = yes
+			}
+			ledger_list_misc_world_powers = {
+				array = global.colonial_total_ranked_powers_scope_array
+				entry_container = ledger_list_misc_world_powers_item
+			}
+
 		}
 	}
 

@@ -164,6 +164,10 @@ prestige_empire = {
 			var = prestige_empire_bureaucracy
 			value = mtth:bureaucracy
 		}
+		multiply_variable = {
+			var = prestige_empire_bureaucracy
+			value = 0.2
+		}
 		add = prestige_empire_bureaucracy
 	}
 	modifier = {

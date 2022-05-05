@@ -18,11 +18,11 @@
  ledger_global_policies_button: "£policies_texticon [GetLedgerGlobalPoliciesEnabled]Policies§!"
  ledger_global_policies_button_delayed: ""
 
- ledger_global_economics_button: "£prosperity_texticon [GetLedgerGlobalEconomicEnabled]Economics§!"
+ ledger_global_economics_button: "£prosperity_texticon [GetLedgerGlobalEconomicsEnabled]Economics§!"
  ledger_global_economics_button_delayed: ""
  ledger_global_military_button: "£army_texticon [GetLedgerGlobalMilitaryEnabled]Military§!"
  ledger_global_military_button_delayed: ""
- ledger_global_military_2_button: "£navy_texticon [GetLedgerGlobalMilitary2Enabled]Military 2§!
+ ledger_global_military_2_button: "£navy_texticon [GetLedgerGlobalMilitary2Enabled]Military 2§!"
  ledger_global_military_2_button_delayed: ""
 
  ledger_national_summary_button: "£list_texticon [GetLedgerNationalSummaryEnabled]Summary§!"

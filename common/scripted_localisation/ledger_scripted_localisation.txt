@@ -41,7 +41,115 @@ defined_text = {
 	name = "GetLedgerGlobalSummaryEnabled"
 	text = {
 		trigger = {
-			has_country_flag = country_view_ledger_country_summary_flag
+			has_country_flag = country_view_ledger_global_summary_flag
+		}
+		localization_key = ledger_page_on
+	}
+	text = {
+		localization_key = ledger_page_off
+	}
+}
+defined_text = {
+	name = "GetLedgerGlobalPrestigeEnabled"
+	text = {
+		trigger = {
+			has_country_flag = country_view_ledger_global_prestige_flag
+		}
+		localization_key = ledger_page_on
+	}
+	text = {
+		localization_key = ledger_page_off
+	}
+}
+defined_text = {
+	name = "GetLedgerGlobalDemographicsEnabled"
+	text = {
+		trigger = {
+			has_country_flag = country_view_ledger_global_demographics_flag
+		}
+		localization_key = ledger_page_on
+	}
+	text = {
+		localization_key = ledger_page_off
+	}
+}
+defined_text = {
+	name = "GetLedgerGlobalStabilityEnabled"
+	text = {
+		trigger = {
+			has_country_flag = country_view_ledger_global_stability_flag
+		}
+		localization_key = ledger_page_on
+	}
+	text = {
+		localization_key = ledger_page_off
+	}
+}
+defined_text = {
+	name = "GetLedgerGlobalPoliciesEnabled"
+	text = {
+		trigger = {
+			has_country_flag = country_view_ledger_global_policies_flag
+		}
+		localization_key = ledger_page_on
+	}
+	text = {
+		localization_key = ledger_page_off
+	}
+}
+defined_text = {
+	name = "GetLedgerGlobalEconomicsEnabled"
+	text = {
+		trigger = {
+			has_country_flag = country_view_ledger_global_economics_flag
+		}
+		localization_key = ledger_page_on
+	}
+	text = {
+		localization_key = ledger_page_off
+	}
+}
+defined_text = {
+	name = "GetLedgerGlobalMilitaryEnabled"
+	text = {
+		trigger = {
+			has_country_flag = country_view_ledger_global_military_flag
+		}
+		localization_key = ledger_page_on
+	}
+	text = {
+		localization_key = ledger_page_off
+	}
+}
+defined_text = {
+	name = "GetLedgerGlobalMilitary2Enabled"
+	text = {
+		trigger = {
+			has_country_flag = country_view_ledger_global_military_2_flag
+		}
+		localization_key = ledger_page_on
+	}
+	text = {
+		localization_key = ledger_page_off
+	}
+}
+defined_text = {
+	name = "GetLedgerNationalSummaryEnabled"
+	text = {
+		trigger = {
+			has_country_flag = country_view_ledger_national_summary_flag
+		}
+		localization_key = ledger_page_on
+	}
+	text = {
+		localization_key = ledger_page_off
+	}
+}
+defined_text = {
+	name = "GetLedgerMiscWorldPowersEnabled"
+	text = {
+		trigger = {
+			has_country_flag = country_view_ledger_misc_world_powers_flag
 		}
 		localization_key = ledger_page_on
 	}
