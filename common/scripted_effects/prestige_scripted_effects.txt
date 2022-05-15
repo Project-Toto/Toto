@@ -1,38 +1,46 @@
 prestige_total_calculate = {
 	clear_array = global.prestige_total_ranking_scope_array
 	clear_array = global.prestige_total_ranking_score_array
-	every_country = {
+	SKT = {
 		# Calculate
 			set_variable = {
 				var = prestige_total
 				value = mtth:prestige_total
 			}
-			log = "[THIS.GetTag] [?mtth:prestige_total]"
+			log = "[THIS.GetTag] prestige_total [?mtth:prestige_total]"
 			set_variable = {
 				var = prestige_achievement
 				value = mtth:prestige_achievement
 			}
+			log = "[THIS.GetTag] prestige_achievement: [?mtth:prestige_achievements]"
 			set_variable = {
 				var = prestige_humanities
 				value = mtth:prestige_humanities
 			}
+			log = "[THIS.GetTag] prestige_humanities: [?mtth:prestige_humanities]"
 			set_variable = {
 				var = prestige_innovation
 				value = mtth:prestige_innovation
 			}
+				value = mtth:prestige_innovation
+			log = "[THIS.GetTag] prestige_innovation: [?mtth:prestige_innovation]"
 			set_variable = {
 				var = prestige_economy
 				value = mtth:prestige_economy
 			}
+			log = "[THIS.GetTag] prestige_economy: [?mtth:prestige_economy]"
 			set_variable = {
 				var = prestige_military
 				value = mtth:prestige_military
 			}
+			log = "[THIS.GetTag] prestige_military: [?mtth:prestige_military]"
 			set_variable = {
 				var = prestige_empire
 				value = mtth:prestige_empire
 			}
-		# Sort	
+			log = "[THIS.GetTag] prestige_empire: [?mtth:prestige_empire]"
+				log = "[THIS.GetTag] bureaucracy: [?mtth:bureaucracy]"
+		# Sort
 
 			for_each_loop = {
 				array = global.prestige_total_ranking_score_array

@@ -155,7 +155,7 @@ prestige_military = {
 	}
 }
 prestige_empire = {
-	base = 0
+	base = 1
 	modifier = {
 		add = modifier@prestige_empire_modifier
 	}
@@ -170,18 +170,21 @@ prestige_empire = {
 		}
 		add = prestige_empire_bureaucracy
 	}
+	# modifier = {
+	# 	set_temp_variable = {
+	# 		var = prestige_empire_subjects
+	# 		value = 0
+	# 	}
+	# 	all_subject_countries = {
+	# 		add_to_temp_variable = {
+	# 			var = prestige_empire_subjects
+	# 			value = mtth:prestige_empire
+	# 		}
+	# 	}
+	# 	add = prestige_empire_subjects
+	# }
 	modifier = {
-		set_temp_variable = {
-			var = prestige_empire_subjects
-			value = 0
-		}
-		all_subject_countries = {
-			add_to_temp_variable = {
-				var = prestige_empire_subjects
-				value = mtth:prestige_empire
-			}
-		}
-		add = prestige_empire_subjects
+		add = -1
 	}
 	modifier = {
 		set_temp_variable = {
@@ -190,7 +193,7 @@ prestige_empire = {
 		}
 		add_to_temp_variable = {
 			var = prestige_factor
-			add = 1
+			value = 1
 		}
 		factor = prestige_factor
 	}

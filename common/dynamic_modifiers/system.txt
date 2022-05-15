@@ -1,7 +1,7 @@
 alkebulan_state_modifier = {
 	enable = { always = yes }
 
-	icon = decision_tun_revolt
+	icon = "GFX_goal_focus_imperialism"
 
 	local_bureaucracy_modifier = local_bureaucracy_var
 }

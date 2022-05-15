@@ -1,0 +1,13 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			EUR = {
+				every_state = {
+					add_dynamic_modifier = {
+						modifier = alkebulan_state_modifier
+					}
+				}
+			}
+		}
+	}
+}

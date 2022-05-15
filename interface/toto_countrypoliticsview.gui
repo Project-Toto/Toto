@@ -5,7 +5,7 @@ guiTypes = {
     name = "government_reform_screen"
     position = { x = 100 y = 100 }
     size = { width = 400 height = 300 }
-    
+
     background = {
 			name = "Background"
 			quadTextureSprite = "GFX_tiled_plain_bg2"
@@ -61,7 +61,7 @@ guiTypes = {
 			format = left
 			Orientation = "UPPER_LEFT"
 		}
-	  
+
 	  buttonType = {
 	    name = "toto_politics_government_reform_one_unorganized_tribal_button"
 	    position = { x = 10 y = 40 }
