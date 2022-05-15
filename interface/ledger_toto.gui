@@ -104,8 +104,13 @@ guiTypes = {
 			}
 	}
 	containerWindowType = {
-		name = "ledger_list_countries_summary_item"
+		name = "ledger_list_global_summary_item"
 		position = { x = 2 y = 2 }
+		size = { height = 81 width = 1046 }
+
+		background = {
+			spriteType = "GFX_ledger_item_background"
+		}
 
 		iconType = {
 			name = "country_flag_icon"

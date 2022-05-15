@@ -7,6 +7,7 @@ prestige_total_calculate = {
 				var = prestige_total
 				value = mtth:prestige_total
 			}
+			log = "[THIS.GetTag] [?mtth:prestige_total]"
 			set_variable = {
 				var = prestige_achievement
 				value = mtth:prestige_achievement

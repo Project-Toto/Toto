@@ -2,29 +2,38 @@ bureaucracy = {
 	base = 0
 	modifier = {
 		set_temp_variable = {
-			var = bureaucracy_temp
-			value = 0			
+			var = bureaucracy_modifier_temp
+			value = 0
 		}
 		all_owned_state = {
 			set_temp_variable = {
-				var = bureaucracy_capacity_temp
-				value = modifier@local_bureaucracy_capacity
+				var = local_bureaucracy_modifier_temp
+				value = modifier@local_bureaucracy_modifier
 			}
 			if = {
 				limit = {
 					NOT = { is_core_of = PREV }
 				}
-				mutiply_temp_variable = {
-					var = local_bureaucracy_capacity_temp
+				multiply_temp_variable = {
+					var = local_bureaucracy_modifier_temp
 					value = 0.4
 				}
 			}
 			add_to_temp_variable = {
-				var = bureaucracy_temp
-				value = local_bureaucracy_temp
+				var = bureaucracy_modifier_temp
+				value = local_bureaucracy_modifier_temp
 			}
 		}
-		add = bureaucracy_temp
+		add = bureaucracy_modifier_temp
+	}
+}
+bureaucracy_capacity = {
+	base = 10
+	modifier = {
+		add = modifier@bureaucracy_capacity_modifier
+	}
+	modifier = {
+		factor = modifier@bureaucracy_capacity_factor
 	}
 }
 bureaucracy_overcapacity = {
@@ -32,11 +41,11 @@ bureaucracy_overcapacity = {
 	modifier = {
 		set_temp_variable = {
 			var = bureaucracy_overcapacity_temp
-			value = bureaucracy
+			value = mtth:bureaucracy
 		}
 		divide_temp_variable = {
 			var = bureaucracy_overcapacity_temp
-			value = modifier@bureaucracy_capacity
+			value = mtth:bureaucracy_capacity
 		}
 		subtract_from_temp_variable = {
 			var = bureaucracy_overcapacity_temp
@@ -50,4 +59,3 @@ bureaucracy_overcapacity = {
 		add = bureaucracy_overcapacity_temp
 	}
 }
-		

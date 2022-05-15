@@ -6,6 +6,7 @@ state={
 	history={
 		owner = SKT
 
+		set_variable = { local_bureaucracy_var = 3 }
 	}
 
 	provinces={

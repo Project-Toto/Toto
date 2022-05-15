@@ -1,0 +1,7 @@
+alkebulan_state_modifier = {
+	enable = { always = yes }
+
+	icon = decision_tun_revolt
+
+	local_bureaucracy_modifier = local_bureaucracy_var
+}

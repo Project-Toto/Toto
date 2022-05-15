@@ -1,5 +1,5 @@
 prestige_total = {
-	base = 0
+	base = 5
 	modifier = {
 		add = mtth:prestige_achievement
 	}
@@ -24,17 +24,17 @@ prestige_achievement = {
 	modifier = {
 		add = modifier@prestige_achievement_modifier
 	}
-	modifier = {
-		set_temp_variable = {
-			var = prestige_factor
-			value = modifier@prestige_achievement_factor
-		}
-		add_to_temp_variable = {
-			var = prestige_factor
-			add = 1
-		}
-		factor = prestige_factor
-	}
+	# modifier = {
+	# 	set_temp_variable = {
+	# 		var = prestige_factor
+	# 		value = modifier@prestige_achievement_factor
+	# 	}
+	# 	add_to_temp_variable = {
+	# 		var = prestige_factor
+	# 		add = 1
+	# 	}
+	# 	factor = prestige_factor
+	# }
 }
 prestige_humanities = {
 	base = 0
@@ -93,45 +93,45 @@ prestige_military = {
 		add = modifier@prestige_military_modifier
 	}
 	modifier = {
-		set_variable = {
+		set_temp_variable = {
 			var = prestige_military_battalions
 			value = num_battalions
 		}
-		multiply_variable = {
+		multiply_temp_variable = {
 			var = prestige_military_battalions
 			value = 0.1
 		}
 		add = prestige_military_battalions
 	}
 	modifier = {
-		set_variable = {
+		set_temp_variable = {
 			var = prestige_military_ships
 			value = num_ships
 		}
-		multiply_variable = {
+		multiply_temp_variable = {
 			add = prestige_military_ships
 			value = 0.25
 		}
 		add = prestige_military_ships
 	}
 	modifier = {
-		set_variable = {
+		set_temp_variable = {
 			var = prestige_military_air
 			value = num_deployed_planes
 		}
-		multiply_variable = {
+		multiply_temp_variable = {
 			var = prestige_military_air
 			value = 0.04
 		}
 		add = prestige_military_air
 	}
 	modifier = {
-		set_variable = {
+		set_temp_variable = {
 			var = prestige_military_subjects
 			value = 0
 		}
 		all_subject_countries = {
-			add_to_variable = {
+			add_to_temp_variable = {
 				var = prestige_military_subjects
 				value = mtth:prestige_military
 			}
@@ -160,23 +160,23 @@ prestige_empire = {
 		add = modifier@prestige_empire_modifier
 	}
 	modifier = {
-		set_variable = {
+		set_temp_variable = {
 			var = prestige_empire_bureaucracy
 			value = mtth:bureaucracy
 		}
-		multiply_variable = {
+		multiply_temp_variable = {
 			var = prestige_empire_bureaucracy
 			value = 0.2
 		}
 		add = prestige_empire_bureaucracy
 	}
 	modifier = {
-		set_variable = {
+		set_temp_variable = {
 			var = prestige_empire_subjects
 			value = 0
 		}
 		all_subject_countries = {
-			add_to_variable = {
+			add_to_temp_variable = {
 				var = prestige_empire_subjects
 				value = mtth:prestige_empire
 			}

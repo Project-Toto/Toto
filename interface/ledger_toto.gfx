@@ -40,4 +40,8 @@ spriteTypes = {
 		name = "GFX_flag_medium_frame"
 		textureFile = "gfx/interface/flag_medium_frame.dds"
 	}
+	spriteType = {
+		name = "GFX_ledger_item_background"
+		textureFile = "gfx/interface/ledger/ledger_item_background.dds"
+	}
 }

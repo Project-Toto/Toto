@@ -1,8 +1,11 @@
 on_actions = {
-	on_startup = {
+	on_startup_EUR = {
 		effect = {
-			EUR = {
-				prestige_global_total_update = yes
+			prestige_global_total_update = yes
+			every_state = {
+				add_dynamic_modifier = {
+					modifier = alkebulan_state_modifier
+				}
 			}
 		}
 	}

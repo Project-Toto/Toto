@@ -130,7 +130,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_MIL_POL_level_1_text"
 					position = {x=-9 y=7}
-					font = "hoi_16"
+					font = "hoi_16mbs"
 					text = "policy_military_temp_1"
 					maxWidth = 180
 					maxHeight = 23
@@ -173,7 +173,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_MIL_POL_level_2_text"
 					position = {x=-9 y=7}
-					font = "hoi_16"
+					font = "hoi_16mbs"
 					text = "policy_military_temp_2"
 					maxWidth = 180
 					maxHeight = 23
@@ -216,7 +216,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_MIL_POL_level_3_text"
 					position = {x=-9 y=7}
-					font = "hoi_16"
+					font = "hoi_16mbs"
 					text = "policy_military_temp_3"
 					maxWidth = 180
 					maxHeight = 23
@@ -259,7 +259,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_MIL_POL_level_4_text"
 					position = {x=-9 y=7}
-					font = "hoi_16"
+					font = "hoi_16mbs"
 					text = "policy_military_temp_4"
 					maxWidth = 180
 					maxHeight = 23
@@ -381,7 +381,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_HEALTH_POL_level_0_text"
 					position = {x=-9 y=7}
-					font = "hoi_16"
+					font = "hoi_16mbs"
 					text = "policy_healthcare_temp_0"
 					maxWidth = 180
 					maxHeight = 23
@@ -424,7 +424,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_HEALTH_POL_level_1_text"
 					position = {x=-9 y=7}
-					font = "hoi_16"
+					font = "hoi_16mbs"
 					text = "policy_healthcare_temp_1"
 					maxWidth = 180
 					maxHeight = 23
@@ -467,7 +467,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_HEALTH_POL_level_2_text"
 					position = {x=-9 y=7}
-					font = "hoi_16"
+					font = "hoi_16mbs"
 					text = "policy_healthcare_temp_2"
 					maxWidth = 180
 					maxHeight = 23
@@ -510,7 +510,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_HEALTH_POL_level_3_text"
 					position = {x=-9 y=7}
-					font = "hoi_16"
+					font = "hoi_16mbs"
 					text = "policy_healthcare_temp_3"
 					maxWidth = 180
 					maxHeight = 23
@@ -553,7 +553,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_HEALTH_POL_level_4_text"
 					position = {x=-9 y=7}
-					font = "hoi_16"
+					font = "hoi_16mbs"
 					text = "policy_healthcare_temp_4"
 					maxWidth = 180
 					maxHeight = 23
@@ -596,7 +596,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_HEALTH_POL_level_5_text"
 					position = {x=-9 y=7}
-					font = "hoi_16"
+					font = "hoi_16mbs"
 					text = "policy_healthcare_temp_5"
 					maxWidth = 180
 					maxHeight = 23
@@ -733,7 +733,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_RAC_POL_level_0_text"
 					position = {x=-9 y=7}
-					font = "hoi_16"
+					font = "hoi_16mbs"
 					text = "policy_minorities_temp_0"
 					maxWidth = 180
 					maxHeight = 23
@@ -775,7 +775,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_RAC_POL_level_1_text"
 					position = {x=-9 y=7}
-					font = "hoi_16"
+					font = "hoi_16mbs"
 					text = "policy_minorities_temp_1"
 					maxWidth = 180
 					maxHeight = 23
@@ -817,7 +817,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_RAC_POL_level_2_text"
 					position = {x=-9 y=7}
-					font = "hoi_16"
+					font = "hoi_16mbs"
 					text = "policy_minorities_temp_2"
 					maxWidth = 180
 					maxHeight = 23
@@ -859,7 +859,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_RAC_POL_level_3_text"
 					position = {x=-9 y=7}
-					font = "hoi_16"
+					font = "hoi_16mbs"
 					text = "policy_minorities_temp_3"
 					maxWidth = 180
 					maxHeight = 23
@@ -901,7 +901,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_RAC_POL_level_3a_text"
 					position = {x=-9 y=7}
-					font = "hoi_16"
+					font = "hoi_16mbs"
 					text = "policy_minorities_temp_3a"
 					maxWidth = 180
 					maxHeight = 23
@@ -1021,7 +1021,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_SAGA_POL_level_0_text"
 					position = {x=-9 y=7}
-					font = "hoi_16"
+					font = "hoi_16mbs"
 					text = "policy_saga_temp_0"
 					maxWidth = 180
 					maxHeight = 23
@@ -1063,7 +1063,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_SAGA_POL_level_1_text"
 					position = {x=-9 y=7}
-					font = "hoi_16"
+					font = "hoi_16mbs"
 					text = "policy_saga_temp_1"
 					maxWidth = 180
 					maxHeight = 23
@@ -1105,7 +1105,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_SAGA_POL_level_2_text"
 					position = {x=-9 y=7}
-					font = "hoi_16"
+					font = "hoi_16mbs"
 					text = "policy_saga_temp_2"
 					maxWidth = 180
 					maxHeight = 23
@@ -1147,7 +1147,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_SAGA_POL_level_4_text"
 					position = {x=-9 y=7}
-					font = "hoi_16"
+					font = "hoi_16mbs"
 					text = "policy_saga_temp_4"
 					maxWidth = 180
 					maxHeight = 23
@@ -1189,7 +1189,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_SAGA_POL_level_4a_text"
 					position = {x=-9 y=7}
-					font = "hoi_16"
+					font = "hoi_16mbs"
 					text = "policy_saga_temp_4a"
 					maxWidth = 180
 					maxHeight = 23
@@ -1302,7 +1302,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_WOM_POL_level_0_text"
 					position = {x=-9 y=7}
-					font = "hoi_16"
+					font = "hoi_16mbs"
 					text = "policy_women_temp_0"
 					maxWidth = 180
 					maxHeight = 23
@@ -1344,7 +1344,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_WOM_POL_level_1_text"
 					position = {x=-9 y=7}
-					font = "hoi_16"
+					font = "hoi_16mbs"
 					text = "policy_women_temp_1"
 					maxWidth = 180
 					maxHeight = 23
@@ -1386,7 +1386,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_WOM_POL_level_2_text"
 					position = {x=-9 y=7}
-					font = "hoi_16"
+					font = "hoi_16mbs"
 					text = "policy_women_temp_2"
 					maxWidth = 180
 					maxHeight = 23
@@ -1428,7 +1428,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_WOM_POL_level_3_text"
 					position = {x=-9 y=7}
-					font = "hoi_16"
+					font = "hoi_16mbs"
 					text = "policy_women_temp_3"
 					maxWidth = 180
 					maxHeight = 23
@@ -1470,7 +1470,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_WOM_POL_level_4_text"
 					position = {x=-9 y=7}
-					font = "hoi_16"
+					font = "hoi_16mbs"
 					text = "policy_women_temp_4"
 					maxWidth = 180
 					maxHeight = 23
@@ -1512,7 +1512,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_WOM_POL_level_4a_text"
 					position = {x=-9 y=7}
-					font = "hoi_16"
+					font = "hoi_16mbs"
 					text = "policy_women_temp_4a"
 					maxWidth = 180
 					maxHeight = 23
@@ -1622,7 +1622,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_MEDIA_POL_level_0_text"
 					position = {x=-9 y=7}
-					font = "hoi_16"
+					font = "hoi_16mbs"
 					text = "policy_media_temp_0"
 					maxWidth = 180
 					maxHeight = 23
@@ -1664,7 +1664,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_MEDIA_POL_level_1_text"
 					position = {x=-9 y=7}
-					font = "hoi_16"
+					font = "hoi_16mbs"
 					text = "policy_media_temp_1"
 					maxWidth = 180
 					maxHeight = 23
@@ -1706,7 +1706,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_MEDIA_POL_level_2_text"
 					position = {x=-9 y=7}
-					font = "hoi_16"
+					font = "hoi_16mbs"
 					text = "policy_media_temp_2"
 					maxWidth = 180
 					maxHeight = 23
@@ -1748,7 +1748,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_MEDIA_POL_level_3_text"
 					position = {x=-9 y=7}
-					font = "hoi_16"
+					font = "hoi_16mbs"
 					text = "policy_media_temp_3"
 					maxWidth = 180
 					maxHeight = 23
@@ -1790,7 +1790,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_MEDIA_POL_level_3a_text"
 					position = {x=-9 y=7}
-					font = "hoi_16"
+					font = "hoi_16mbs"
 					text = "policy_media_temp_3a"
 					maxWidth = 180
 					maxHeight = 23
@@ -1890,7 +1890,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_UNION_POL_level_0_text"
 					position = {x=-9 y=7}
-					font = "hoi_16"
+					font = "hoi_16mbs"
 					text = "policy_union_temp_0"
 					maxWidth = 180
 					maxHeight = 23
@@ -1932,7 +1932,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_UNION_POL_level_1_text"
 					position = {x=-9 y=7}
-					font = "hoi_16"
+					font = "hoi_16mbs"
 					text = "policy_union_temp_1"
 					maxWidth = 180
 					maxHeight = 23
@@ -1974,7 +1974,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_UNION_POL_level_2_text"
 					position = {x=-9 y=7}
-					font = "hoi_16"
+					font = "hoi_16mbs"
 					text = "policy_union_temp_2"
 					maxWidth = 180
 					maxHeight = 23
@@ -2016,7 +2016,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_UNION_POL_level_3_text"
 					position = {x=-9 y=7}
-					font = "hoi_16"
+					font = "hoi_16mbs"
 					text = "policy_union_temp_3"
 					maxWidth = 180
 					maxHeight = 23
@@ -2058,7 +2058,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_UNION_POL_level_4_text"
 					position = {x=-9 y=7}
-					font = "hoi_16"
+					font = "hoi_16mbs"
 					text = "policy_union_temp_4"
 					maxWidth = 180
 					maxHeight = 23
@@ -2163,7 +2163,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_PUB_POL_level_0_text"
 					position = {x=-9 y=7}
-					font = "hoi_16"
+					font = "hoi_16mbs"
 					text = "policy_services_temp_0"
 					maxWidth = 180
 					maxHeight = 23
@@ -2206,7 +2206,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_PUB_POL_level_1_text"
 					position = {x=-9 y=7}
-					font = "hoi_16"
+					font = "hoi_16mbs"
 					text = "policy_services_temp_1"
 					maxWidth = 180
 					maxHeight = 23
@@ -2249,7 +2249,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_PUB_POL_level_2_text"
 					position = {x=-9 y=7}
-					font = "hoi_16"
+					font = "hoi_16mbs"
 					text = "policy_services_temp_2"
 					maxWidth = 180
 					maxHeight = 23
@@ -2292,7 +2292,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_PUB_POL_level_3_text"
 					position = {x=-9 y=7}
-					font = "hoi_16"
+					font = "hoi_16mbs"
 					text = "policy_services_temp_3"
 					maxWidth = 180
 					maxHeight = 23
@@ -2410,7 +2410,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_EDU_POL_level_0_text"
 					position = {x=-9 y=7}
-					font = "hoi_16"
+					font = "hoi_16mbs"
 					text = "policy_education_temp_0"
 					maxWidth = 180
 					maxHeight = 23
@@ -2453,7 +2453,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_EDU_POL_level_1_text"
 					position = {x=-9 y=7}
-					font = "hoi_16"
+					font = "hoi_16mbs"
 					text = "policy_education_temp_1"
 					maxWidth = 180
 					maxHeight = 23
@@ -2496,7 +2496,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_EDU_POL_level_2_text"
 					position = {x=-9 y=7}
-					font = "hoi_16"
+					font = "hoi_16mbs"
 					text = "policy_education_temp_2"
 					maxWidth = 180
 					maxHeight = 23
@@ -2539,7 +2539,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_EDU_POL_level_3_text"
 					position = {x=-9 y=7}
-					font = "hoi_16"
+					font = "hoi_16mbs"
 					text = "policy_education_temp_3"
 					maxWidth = 180
 					maxHeight = 23
@@ -2582,7 +2582,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_EDU_POL_level_4_text"
 					position = {x=-9 y=7}
-					font = "hoi_16"
+					font = "hoi_16mbs"
 					text = "policy_education_temp_4"
 					maxWidth = 180
 					maxHeight = 23
@@ -2708,7 +2708,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_WEL_POL_level_0_text"
 					position = {x=-9 y=7}
-					font = "hoi_16"
+					font = "hoi_16mbs"
 					text = "policy_welfare_temp_0"
 					maxWidth = 180
 					maxHeight = 23
@@ -2751,7 +2751,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_WEL_POL_level_1_text"
 					position = {x=-9 y=7}
-					font = "hoi_16"
+					font = "hoi_16mbs"
 					text = "policy_welfare_temp_1"
 					maxWidth = 180
 					maxHeight = 23
@@ -2794,7 +2794,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_WEL_POL_level_2_text"
 					position = {x=-9 y=7}
-					font = "hoi_16"
+					font = "hoi_16mbs"
 					text = "policy_welfare_temp_2"
 					maxWidth = 180
 					maxHeight = 23
@@ -2837,7 +2837,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_WEL_POL_level_3_text"
 					position = {x=-9 y=7}
-					font = "hoi_16"
+					font = "hoi_16mbs"
 					text = "policy_welfare_temp_3"
 					maxWidth = 180
 					maxHeight = 23
@@ -2880,7 +2880,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_WEL_POL_level_4_text"
 					position = {x=-9 y=7}
-					font = "hoi_16"
+					font = "hoi_16mbs"
 					text = "policy_welfare_temp_4"
 					maxWidth = 180
 					maxHeight = 23
@@ -2923,7 +2923,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_WEL_POL_level_5_text"
 					position = {x=-9 y=7}
-					font = "hoi_16"
+					font = "hoi_16mbs"
 					text = "policy_welfare_temp_5"
 					maxWidth = 180
 					maxHeight = 23
@@ -3021,7 +3021,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_TAX_POL_level_1_text"
 					position = {x=-9 y=7}
-					font = "hoi_16"
+					font = "hoi_16mbs"
 					text = "policy_taxrate_temp_1"
 					maxWidth = 180
 					maxHeight = 23
@@ -3063,7 +3063,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_TAX_POL_level_2_text"
 					position = {x=-9 y=7}
-					font = "hoi_16"
+					font = "hoi_16mbs"
 					text = "policy_taxrate_temp_2"
 					maxWidth = 180
 					maxHeight = 23
@@ -3105,7 +3105,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_TAX_POL_level_3_text"
 					position = {x=-9 y=7}
-					font = "hoi_16"
+					font = "hoi_16mbs"
 					text = "policy_taxrate_temp_3"
 					maxWidth = 180
 					maxHeight = 23
@@ -3147,7 +3147,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_TAX_POL_level_4_text"
 					position = {x=-9 y=7}
-					font = "hoi_16"
+					font = "hoi_16mbs"
 					text = "policy_taxrate_temp_4"
 					maxWidth = 180
 					maxHeight = 23
@@ -3189,7 +3189,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_TAX_POL_level_5_text"
 					position = {x=-9 y=7}
-					font = "hoi_16"
+					font = "hoi_16mbs"
 					text = "policy_taxrate_temp_5"
 					maxWidth = 180
 					maxHeight = 23
@@ -3266,7 +3266,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_CPI_POL_level_0_text"
 					position = {x=-9 y=7}
-					font = "hoi_16"
+					font = "hoi_16mbs"
 					text = "policy_cpi_temp_0"
 					maxWidth = 180
 					maxHeight = 23
@@ -3309,7 +3309,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_CPI_POL_level_1_text"
 					position = {x=-9 y=7}
-					font = "hoi_16"
+					font = "hoi_16mbs"
 					text = "policy_cpi_temp_1"
 					maxWidth = 180
 					maxHeight = 23
@@ -3352,7 +3352,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_CPI_POL_level_2_text"
 					position = {x=-9 y=7}
-					font = "hoi_16"
+					font = "hoi_16mbs"
 					text = "policy_cpi_temp_2"
 					maxWidth = 180
 					maxHeight = 23
@@ -3395,7 +3395,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_CPI_POL_level_3_text"
 					position = {x=-9 y=7}
-					font = "hoi_16"
+					font = "hoi_16mbs"
 					text = "policy_cpi_temp_3"
 					maxWidth = 180
 					maxHeight = 23
@@ -3438,7 +3438,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_CPI_POL_level_4_text"
 					position = {x=-9 y=7}
-					font = "hoi_16"
+					font = "hoi_16mbs"
 					text = "policy_cpi_temp_4"
 					maxWidth = 180
 					maxHeight = 23
@@ -3481,7 +3481,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_CPI_POL_level_5_text"
 					position = {x=-9 y=7}
-					font = "hoi_16"
+					font = "hoi_16mbs"
 					text = "policy_cpi_temp_5"
 					maxWidth = 180
 					maxHeight = 23
@@ -3614,7 +3614,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_REL_POL_level_0_text"
 					position = {x=-9 y=7}
-					font = "hoi_16"
+					font = "hoi_16mbs"
 					text = "policy_religion_temp_0"
 					maxWidth = 180
 					maxHeight = 23
@@ -3656,7 +3656,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_REL_POL_level_0a_text"
 					position = {x=-9 y=7}
-					font = "hoi_16"
+					font = "hoi_16mbs"
 					text = "policy_religion_temp_0a"
 					maxWidth = 180
 					maxHeight = 23
@@ -3698,7 +3698,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_REL_POL_level_1_text"
 					position = {x=-9 y=7}
-					font = "hoi_16"
+					font = "hoi_16mbs"
 					text = "policy_religion_temp_1"
 					maxWidth = 180
 					maxHeight = 23
@@ -3740,7 +3740,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_REL_POL_level_2_text"
 					position = {x=-9 y=7}
-					font = "hoi_16"
+					font = "hoi_16mbs"
 					text = "policy_religion_temp_2"
 					maxWidth = 180
 					maxHeight = 23
@@ -3782,7 +3782,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_REL_POL_level_3_text"
 					position = {x=-9 y=7}
-					font = "hoi_16"
+					font = "hoi_16mbs"
 					text = "policy_religion_temp_3"
 					maxWidth = 180
 					maxHeight = 23
@@ -3819,7 +3819,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "policy_REL_POL_level_3a_text"
 					position = {x=-9 y=7}
-					font = "hoi_16"
+					font = "hoi_16mbs"
 					text = "policy_religion_temp_3a"
 					maxWidth = 180
 					maxHeight = 23

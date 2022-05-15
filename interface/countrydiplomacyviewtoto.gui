@@ -28,7 +28,7 @@ guiTypes = {
 					position = { x = 66 y = 4 }
 					size = { x = 170 y = 32 }
 					
-					format = left
+					#format = left
 					spacing = 1
 				}
 			}
