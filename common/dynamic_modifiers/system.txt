@@ -1,7 +1,11 @@
 alkebulan_state_modifier = {
 	enable = { always = yes }
 
-	icon = "GFX_goal_focus_imperialism"
+	icon = "GFX_modifiers_generic_state_statistics"
 
 	local_bureaucracy_modifier = local_bureaucracy_var
+	local_happiness_modifier = local_happiness_var
+	local_autonomy_modifier = local_autonomy_var
+	local_loyalty_modifier = local_loyalty_var
+	local_prosperity_modifier = local_prosperity_var
 }

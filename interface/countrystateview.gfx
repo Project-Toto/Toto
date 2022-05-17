@@ -647,4 +647,9 @@ spriteTypes = {
 		textureFile = "gfx/interface/state_modifiers/modifiers_SOV_capital_of_the_tsars.dds"
 	}
 
+
+	spriteType = {
+		name = "GFX_modifiers_generic_state_statistics"
+		textureFile = "gfx/interface/stateview/state_statistics_icon.dds"
+	}
 }
