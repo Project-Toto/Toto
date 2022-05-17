@@ -42,6 +42,7 @@ scripted_gui = {
 		context_type = player_context
 		window_name = "ledger_container"
 		parent_window_token = top_bar
+		dirty = global.month
 
 		visible = {
 			has_country_flag = country_view_ledger_flag

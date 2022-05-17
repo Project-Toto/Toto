@@ -12,4 +12,7 @@ national_population_k = {
 			}
 		}
 	}
+	modifier = {
+		add = -1
+	}
 }
