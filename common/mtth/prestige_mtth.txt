@@ -1,5 +1,5 @@
 prestige_total = {
-	base = 5
+	base = 1
 	modifier = {
 		add = mtth:prestige_achievement
 	}
@@ -18,28 +18,37 @@ prestige_total = {
 	modifier = {
 		add = mtth:prestige_empire
 	}
+	modifier = {
+		add = -1
+	}
 }
 prestige_achievement = {
-	base = 0
+	base = 1
 	modifier = {
 		add = modifier@prestige_achievement_modifier
 	}
-	# modifier = {
-	# 	set_temp_variable = {
-	# 		var = prestige_factor
-	# 		value = modifier@prestige_achievement_factor
-	# 	}
-	# 	add_to_temp_variable = {
-	# 		var = prestige_factor
-	# 		add = 1
-	# 	}
-	# 	factor = prestige_factor
-	# }
+	modifier = {
+		add = -1
+	}
+	modifier = {
+		set_temp_variable = {
+			var = prestige_factor
+			value = modifier@prestige_achievement_factor
+		}
+		add_to_temp_variable = {
+			var = prestige_factor
+			add = 1
+		}
+		factor = prestige_factor
+	}
 }
 prestige_humanities = {
-	base = 0
+	base = 1
 	modifier = {
 		add = modifier@prestige_humanities_modifier
+	}
+	modifier = {
+		add = -1
 	}
 	modifier = {
 		set_temp_variable = {
@@ -54,9 +63,12 @@ prestige_humanities = {
 	}
 }
 prestige_innovation = {
-	base = 0
+	base = 1
 	modifier = {
 		add = modifier@prestige_innovation_modifier
+	}
+	modifier = {
+		add = -1
 	}
 	modifier = {
 		set_temp_variable = {
@@ -71,9 +83,12 @@ prestige_innovation = {
 	}
 }
 prestige_economy = {
-	base = 0
+	base = 1
 	modifier = {
 		add = modifier@prestige_economy_modifier
+	}
+	modifier = {
+		add = -1
 	}
 	modifier = {
 		set_temp_variable = {
@@ -88,7 +103,7 @@ prestige_economy = {
 	}
 }
 prestige_military = {
-	base = 0
+	base = 1
 	modifier = {
 		add = modifier@prestige_military_modifier
 	}
@@ -139,6 +154,9 @@ prestige_military = {
 		add = prestige_military_subjects
 	}
 	modifier = {
+		add = -1
+	}
+	modifier = {
 		is_subject = yes
 		factor = 0.5
 	}
@@ -170,19 +188,19 @@ prestige_empire = {
 		}
 		add = prestige_empire_bureaucracy
 	}
-	# modifier = {
-	# 	set_temp_variable = {
-	# 		var = prestige_empire_subjects
-	# 		value = 0
-	# 	}
-	# 	all_subject_countries = {
-	# 		add_to_temp_variable = {
-	# 			var = prestige_empire_subjects
-	# 			value = mtth:prestige_empire
-	# 		}
-	# 	}
-	# 	add = prestige_empire_subjects
-	# }
+	modifier = {
+		set_temp_variable = {
+			var = prestige_empire_subjects
+			value = 0
+		}
+		all_subject_countries = {
+			add_to_temp_variable = {
+				var = prestige_empire_subjects
+				value = mtth:prestige_empire
+			}
+		}
+		add = prestige_empire_subjects
+	}
 	modifier = {
 		add = -1
 	}

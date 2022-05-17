@@ -1,5 +1,5 @@
 bureaucracy = {
-	base = 0
+	base = 1
 	modifier = {
 		set_temp_variable = {
 			var = bureaucracy_modifier_temp
@@ -26,18 +26,24 @@ bureaucracy = {
 		}
 		add = bureaucracy_modifier_temp
 	}
+	modifier = {
+		add = -1
+	}
 }
 bureaucracy_capacity = {
-	base = 10
+	base = 20
 	modifier = {
 		add = modifier@bureaucracy_capacity_modifier
+	}
+	modifier = {
+		add = -1
 	}
 	modifier = {
 		factor = modifier@bureaucracy_capacity_factor
 	}
 }
 bureaucracy_overcapacity = {
-	base = 0
+	base = 1
 	modifier = {
 		set_temp_variable = {
 			var = bureaucracy_overcapacity_temp
@@ -57,5 +63,8 @@ bureaucracy_overcapacity = {
 			max = 5
 		}
 		add = bureaucracy_overcapacity_temp
+	}
+	modifier = {
+		add = -1
 	}
 }
