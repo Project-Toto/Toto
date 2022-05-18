@@ -78,5 +78,13 @@ prestige_global_total_calculate = {
 				var = prestige_rank
 				value = ii
 			}
+			set_variable = {
+				var = prestige_rank_mod
+				value = ii
+			}
+			modulo_variable = {
+				var = prestige_rank_mod
+				value = 10
+			}
 		}
 }
