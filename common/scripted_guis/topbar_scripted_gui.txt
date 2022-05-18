@@ -3,7 +3,7 @@ scripted_gui = {
 		context_type = player_context
 		window_name = "country_power_container"
 		parent_window_token = top_bar
-		dirty = global.day
+		#dirty = global.day
 		visible = { always = yes }
 		effects = { }
 	}
@@ -11,7 +11,7 @@ scripted_gui = {
 		context_type = player_context
 		window_name = "prosperity_container"
 		parent_window_token = top_bar
-		dirty = global.day
+		#dirty = global.day
 		visible = { always = yes }
 		effects = { }
 	}
@@ -19,7 +19,7 @@ scripted_gui = {
 		context_type = player_context
 		window_name = "legitimacy_container"
 		parent_window_token = top_bar
-		dirty = global.day
+		#dirty = global.day
 		visible = { always = yes }
 		effects = { }
 	}
@@ -27,7 +27,7 @@ scripted_gui = {
 		context_type = player_context
 		window_name = "administrative_capacity_container"
 		parent_window_token = top_bar
-		dirty = global.day
+		#dirty = global.day
 		visible = { always = yes }
 		effects = { }
 	}
@@ -38,7 +38,13 @@ scripted_gui = {
 		visible = { always = yes }
 		effects = {
 			ledger_open_button_click = {
-				set_country_flag = country_view_ledger_flag
+				if = {
+					limit = { has_country_flag = country_view_ledger_flag }
+					clr_country_flag = country_view_ledger_flag
+				}
+				else = {
+					set_country_flag = country_view_ledger_flag
+				}
 			}
 		}
 	}
@@ -54,7 +60,7 @@ scripted_gui = {
 
 		properties = {
 			ledger_list_global_summary_visible = {
-				has_country_flag = country_view_ledger_global_summary_flag
+				#has_country_flag = country_view_ledger_global_summary_flag
 			}
 			ledger_list_global_prestige_visible = {
 				has_country_flag = country_view_ledger_global_prestige_flag
@@ -107,6 +113,29 @@ scripted_gui = {
 		effects = {
 			close_button_click = {
 				clr_country_flag = country_view_ledger_flag
+			}
+			country_flag_icon_click = {
+				1 = {
+					log = "[?THIS]"
+				}
+				2 = {
+					log = "[?THIS]"
+				}
+				capital_scope = {
+					set_variable = {
+						ROOT.goto_state_var = THIS
+					}
+					add_to_variable = {
+						ROOT.goto_state_var = 1073741.824
+					}
+					multiply_variable = {
+						ROOT.goto_state_var = 1000
+					}
+				}
+				ROOT = {
+					goto_state = var:goto_state_var
+					clear_variable = goto_state_var
+				}
 			}
 		}
 

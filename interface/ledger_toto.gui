@@ -76,6 +76,9 @@ guiTypes = {
 				spriteType = "GFX_closebutton_1"
 				position = { x = -44 y = 13 }
 				orientation = upper_right
+				clicksound = click_close
+				shortcut = "ESCAPE"
+				pdx_tooltip = "CLOSE"
 			}
 		# List
 			iconType = {
@@ -97,29 +100,54 @@ guiTypes = {
 				alwaysTransparent = yes
 			}
 		# Grids
-			gridboxtype = {
-				name = "ledger_list_countries_summary"
-				position = { x = 12 y = 240 }
-				size = { height = 300 width = 1040 }
+			containerWindowType = {
+				name = "ledger_list_window"
+				position = { x = 24 y = 248 }
+				size = { width = 1075 height = 450 }
+				margin = { top = -4 }
+
+				background = {
+					spriteType = "GFX_ledger_list_background_2"
+				}
+
+				gridboxtype = {
+					name = "ledger_list_global_summary"
+					position = { x = 0 y = 0 }
+					size = { height = 360 width = 1040 }
+
+					slotsize = { width = 1040 height = 68 }
+					add_horizontal = no
+				}
+				verticalScrollbar = "right_vertical_slider"
 			}
 	}
 	containerWindowType = {
 		name = "ledger_list_global_summary_item"
-		position = { x = 2 y = 2 }
+		position = { x = 2 y = 0 }
 		size = { height = 81 width = 1046 }
 
 		background = {
 			spriteType = "GFX_ledger_item_background"
 		}
+		background = {
+			spriteType = "GFX_ledger_item_background"
+			alwaysTransparent = yes
+		}
 
-		iconType = {
+		buttonType = {
 			name = "country_flag_icon"
 			spriteType = "GFX_flag_medium"
-			position = { x = 10 y = 10 }
+			position = { x = 20 y = 20 }
+			buttonFont = "hoi_16mbs"
+			text = "[THIS.GetName]"
+			pdx_tooltip = ledger_country_flag_tt
+			pdx_tooltip_delayed = ledger_country_flag_tt_delayed
 		}
 		iconType = {
 			name = "country_flag_frame"
-			spriteType = "GFX_flag_medium_gold_frame"
+			spriteType = "GFX_flag_large_gold_frame"
+			alwaystransparent = yes
+			position = { x = 16 y = 16 }
 		}
 	}
 }

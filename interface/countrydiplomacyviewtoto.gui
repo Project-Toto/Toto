@@ -52,8 +52,8 @@ guiTypes = {
 					name = "diplomatic_relations_sphered_by_grid"
 					size = { width = 170 height = 32 }
 					
-					format = left
-					#spacing = 1
+					#format = left
+					spacing = 100
 				}
 			}
 			#containerWindowType = {

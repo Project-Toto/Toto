@@ -9,7 +9,7 @@ country_event = {
 
 	option = {
 		name = prestige.1.a
-		prestige_global_total_update = yes
+		prestige_global_total_calculate = yes
 	}
 }
 country_event = {
@@ -69,7 +69,7 @@ country_event = {
 		name = prestige.1.a
 		#drop_cosmetic_tag = yes
 		add_to_array = {
-			array = global.ranked_countries_array
+			array = global.prestige_total_ranking_scope_array
 			value = THIS.id
 		}
 	}

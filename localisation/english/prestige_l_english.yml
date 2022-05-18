@@ -1,4 +1,8 @@
 ﻿l_english:
+ CURRENT_COUNTRY_POWER:0 "[ROOT.GetNationalPowerTextIcon]  [?ROOT.prestige_rank][ROOT.GetNationalPrestigeAdjective] ([?ROOT.prestige_total])"
+ COUNTRY_POWER:0 "§C[ROOT.GetNameDef]§! is the §Y[?ROOT.prestige_rank][ROOT.GetNationalPrestigeAdjective] Power§! with §Y[?ROOT.prestige_total] Prestige§!.\n \nThis score is derived from: [ROOT.GetNationalPrestigeTotalDisplayAchievement][GetNationalPrestigeTotalDisplayHumanities][GetNationalPrestigeTotalDisplayInnovation][GetNationalPrestigeTotalDisplayEconomy][GetNationalPrestigeTotalDisplayEmpire][GetNationalPrestigeTotalDisplayMilitary][GetNationalPrestigeTotalDisplaySubject]"
+ COUNTRY_POWER_DELAYED:0 "§YPrestige§! is the accumulated respect and affluence a country has gathered on the world stage via five metrics, §YAchievement§!, §YScience§!, §YEconomy§!, §YEmpire§! and §YMilitary§!. It is used as a weight of influence for varying mechanics including Authority, Trade, Colonialism and more.\n\n§CSubject Nations§! will contribute §Y50%§! of their §YEmpire§! and §YMilitary§! Prestige to their Overlord."
+
 # Scripted Localisation
  prestige_country_adjective_st: "st"
  prestige_country_adjective_nd: "nd"

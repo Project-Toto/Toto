@@ -21,6 +21,10 @@ spriteTypes = {
 		textureFile = "gfx/interface/ledger/ledger_list_background.dds"
 	}
 	spriteType = {
+		name = "GFX_ledger_list_background_2"
+		textureFile = "gfx/interface/ledger/ledger_list_background_2.dds"
+	}
+	spriteType = {
 		name = "GFX_ledger_list_frame"
 		textureFile = "gfx/interface/ledger/ledger_list_frame.dds"
 	}
@@ -39,6 +43,14 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_flag_medium_frame"
 		textureFile = "gfx/interface/flag_medium_frame.dds"
+	}
+	spriteType = {
+		name = "GFX_flag_large_gold_frame"
+		textureFile = "gfx/interface/flag_large_gold_frame.dds"
+	}
+	spriteType = {
+		name = "GFX_flag_large_frame"
+		textureFile = "gfx/interface/flag_large_frame.dds"
 	}
 	spriteType = {
 		name = "GFX_ledger_item_background"

@@ -1,6 +1,7 @@
 prestige_global_total_calculate = {
 	clear_array = global.prestige_total_ranking_scope_array
 	clear_array = global.prestige_total_ranking_score_array
+
 	every_country = {
 		# Calculate
 			set_variable = {
@@ -12,7 +13,7 @@ prestige_global_total_calculate = {
 				var = prestige_achievement
 				value = mtth:prestige_achievement
 			}
-			log = "[THIS.GetTag] prestige_achievement: [?mtth:prestige_achievements]"
+			log = "[THIS.GetTag] prestige_achievement: [?mtth:prestige_achievement]"
 			set_variable = {
 				var = prestige_humanities
 				value = mtth:prestige_humanities
@@ -22,7 +23,6 @@ prestige_global_total_calculate = {
 				var = prestige_innovation
 				value = mtth:prestige_innovation
 			}
-				value = mtth:prestige_innovation
 			log = "[THIS.GetTag] prestige_innovation: [?mtth:prestige_innovation]"
 			set_variable = {
 				var = prestige_economy
@@ -47,6 +47,7 @@ prestige_global_total_calculate = {
 				index = ii
 				value = vv
 				break = bb
+
 				if = {
 					limit = {
 						check_variable = {
@@ -61,30 +62,87 @@ prestige_global_total_calculate = {
 					add_to_array = {
 						array = global.prestige_total_ranking_scope_array
 						value = THIS.id
+						index = ii
 					}
 					set_temp_variable = {
 						bb = 1
 					}
 				}
 			}
+			if = {
+				limit = {
+					check_variable = {
+						bb = 0
+					}
+				}
+				add_to_array = {
+					array = global.prestige_total_ranking_score_array
+					value = prestige_total
+				}
+				add_to_array = {
+					array = global.prestige_total_ranking_scope_array
+					value = THIS.id
+				}
+			}
+
+			while_loop_effect = {
+				limit = {
+					check_temp_variable = {
+						prestige_rank_iterate < 400
+					}
+				}
+				if = {
+					limit = {
+						check_variable = {
+							global.prestige_total_ranking_score_array^prestige_rank_iterate < THIS.prestige_total
+						}
+						log = "current rank [?prestige_rank_iterate]"
+						set_temp_variable = { b = 1 }
+					}
+				}
+
+				add_to_temp_variable = {
+					var = prestige_rank_iterate
+					value = 1
+				}
+			}
+			log = "Adding [THIS.GetID] to [?prestige_rank_iterate]"
+			add_to_array = {
+				array = global.prestige_total_ranking_scope_array
+				value = THIS.id
+				index = prestige_rank_iterate
+			}
+			add_to_array = {
+				array = global.prestige_total_ranking_score_array
+				value = prestige_total
+				index = prestige_rank_iterate
+			}
 	}
 	# Populate
+	EUR = {
+		set_temp_variable = {
+			var = prestige_rank_temp
+			value = 1
+		}
 		for_each_scope_loop = {
 			array = global.prestige_total_ranking_scope_array
-			index = ii
-			break = bb
 
 			set_variable = {
 				var = prestige_rank
-				value = ii
+				value = prestige_rank_temp
 			}
 			set_variable = {
 				var = prestige_rank_mod
-				value = ii
+				value = prestige_rank_temp
 			}
 			modulo_variable = {
 				var = prestige_rank_mod
 				value = 10
 			}
+			add_to_temp_variable = {
+				var = prestige_rank_temp
+				value = 1
+			}
 		}
+	}
 }

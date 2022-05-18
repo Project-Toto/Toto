@@ -1,5 +1,5 @@
 prestige_total = {
-	base = 1
+	base = 5
 	modifier = {
 		add = mtth:prestige_achievement
 	}
@@ -29,17 +29,6 @@ prestige_achievement = {
 	}
 	modifier = {
 		add = -1
-	}
-	modifier = {
-		set_temp_variable = {
-			var = prestige_factor
-			value = modifier@prestige_achievement_factor
-		}
-		add_to_temp_variable = {
-			var = prestige_factor
-			add = 1
-		}
-		factor = prestige_factor
 	}
 }
 prestige_humanities = {
