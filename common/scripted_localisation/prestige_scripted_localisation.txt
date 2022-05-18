@@ -4,43 +4,63 @@ defined_text = {
 		trigger = {
 			OR = {
 				check_variable = {
-					var = prestige_country_total_rank
+					var = prestige_rank
 					value = 11
 					compare = equals
 				}
 				check_variable = {
-					var = prestige_country_total_rank
+					var = prestige_rank
 					value = 12
 					compare = equals
 				}
 				check_variable = {
-					var = prestige_country_total_rank
+					var = prestige_rank
 					value = 111
 					compare = equals
 				}
 				check_variable = {
-					var = prestige_country_total_rank
+					var = prestige_rank
 					value = 112
 					compare = equals
 				}
 				check_variable = {
-					var = prestige_country_total_rank
+					var = prestige_rank
 					value = 211
 					compare = equals
 				}
 				check_variable = {
-					var = prestige_country_total_rank
+					var = prestige_rank
 					value = 212
 					compare = equals
 				}
 				check_variable = {
-					var = prestige_country_total_rank
+					var = prestige_rank
 					value = 311
 					compare = equals
 				}
 				check_variable = {
-					var = prestige_country_total_rank
+					var = prestige_rank
 					value = 312
+					compare = equals
+				}
+				check_variable = {
+					var = prestige_rank
+					value = 411
+					compare = equals
+				}
+				check_variable = {
+					var = prestige_rank
+					value = 412
+					compare = equals
+				}
+				check_variable = {
+					var = prestige_rank
+					value = 511
+					compare = equals
+				}
+				check_variable = {
+					var = prestige_rank
+					value = 512
 					compare = equals
 				}
 			}
@@ -50,7 +70,7 @@ defined_text = {
 	text = {
 		trigger = {
 			check_variable = {
-				var = prestige_country_total_rank_mod
+				var = prestige_rank_mod
 				value = 1
 				compare = equals
 			}
@@ -60,7 +80,7 @@ defined_text = {
 	text = {
 		trigger = {
 			check_variable = {
-				var = prestige_country_total_rank_mod
+				var = prestige_rank_mod
 				value = 2
 				compare = equals
 			}
@@ -70,7 +90,7 @@ defined_text = {
 	text = {
 		trigger = {
 			check_variable = {
-				var = prestige_country_total_rank_mod
+				var = prestige_rank_mod
 				value = 3
 				compare = equals
 			}
@@ -95,42 +115,63 @@ defined_text = {
 	}
 }
 defined_text = {
-	name = GetNationalPrestigeTotalDisplayScience
+	name = GetNationalPrestigeTotalDisplayHumanities
 	text = {
 		trigger = {
 			check_variable = {
-				var = prestige_tech
+				var = prestige_humanities
 				value = 0
 				compare = greater_than
 			}
 		}
-		localization_key = prestige_country_total_display_science
+		localization_key = prestige_country_total_display_humanities
 	}
 }
 defined_text = {
-	name = GetNationalPrestigeTotalDisplayScienceInventions
-	text = {
-		trigger = {
-			check_variable = {
-				var = prestige_tech_inventions
-				value = 0
-				compare = greater_than
-			}
+	name = GetNationalPrestigeTotalDisplayHumanitiesInstitutions
+	trigger = {
+		check_variable = {
+			var = modifier@prestige_humanities_institutions_modifier
+			value = 0
+			compare = greater_than
 		}
-		localization_key = prestige_country_total_display_science_inventions
 	}
 }
 defined_text = {
-	name = GetNationalPrestigeTotalDisplayScienceTechnologies
+	name = GetNationalPrestigeTotalDisplayHumanitiesInstitutions
+	text = {
+		check_variable = {
+			var = prestige_humanities_institutions
+			value = 0
+			compare = greater_than
+		}
+	}
+	localization_key = prestige_country_total_display_humanities_institutions
+}
+defined_text = {
+	name = GetNationalPrestigeTotalDisplayInnovation
 	text = {
 		trigger = {
 			check_variable = {
-				var = prestige_tech_research
+				var = prestige_innovation
 				value = 0
 				compare = greater_than
 			}
 		}
-		localization_key = prestige_country_total_display_science_technologies
+		localization_key = prestige_country_total_display_innovation
+	}
+}
+defined_text = {
+	name = GetNationalPrestigeTotalDisplayInnovationInventions
+	text = {
+		trigger = {
+			check_variable = {
+				var = prestige_innovation_inventions
+				value = 0
+				compare = greater_than
+			}
+		}
+		localization_key = prestige_country_total_display_innovation_inventions
 	}
 }
 defined_text = {
@@ -189,25 +230,25 @@ defined_text = {
 	name = GetNationalPrestigeTotalDisplayEmpireRank
 	text = {
 		trigger = {
-			has_idea = law_country_power_irrelevant
+			is_irrelevant_power = yes
 		}
 		localization_key = prestige_country_total_display_empire_rank_irrelevant
 	}
 	text = {
 		trigger = {
-			has_idea = law_country_power_minor
+			has_idea = is_minor_power = yes
 		}
 		localization_key = prestige_country_total_display_empire_rank_minor
 	}
 	text = {
 		trigger = {
-			has_idea = law_country_power_secondary
+			is_secondary_power = yes
 		}
 		localization_key = prestige_country_total_display_empire_rank_secondary
 	}
 	text = {
 		trigger = {
-			has_idea = law_country_power_great
+			is_great_power = yes
 		}
 		localization_key = prestige_country_total_display_empire_rank_great
 	}

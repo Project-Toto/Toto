@@ -1,7 +1,7 @@
-prestige_total_calculate = {
+prestige_global_total_calculate = {
 	clear_array = global.prestige_total_ranking_scope_array
 	clear_array = global.prestige_total_ranking_score_array
-	SKT = {
+	every_country = {
 		# Calculate
 			set_variable = {
 				var = prestige_total
@@ -39,7 +39,7 @@ prestige_total_calculate = {
 				value = mtth:prestige_empire
 			}
 			log = "[THIS.GetTag] prestige_empire: [?mtth:prestige_empire]"
-				log = "[THIS.GetTag] bureaucracy: [?mtth:bureaucracy]"
+			log = "[THIS.GetTag] bureaucracy: [?mtth:bureaucracy]"
 		# Sort
 
 			for_each_loop = {

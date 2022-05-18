@@ -70,67 +70,46 @@ is_possible_colonizer = {
 	}
 }
 
-is_great_power_eligible = {
-	# custom_trigger_tooltip = {
-	# 	tooltip = is_great_power_eligible_tt
-		is_puppet = no
-		OR = {
-			is_possible_colonizer = yes
-			check_variable = { max_manpower_k > 25000 }
-			AND = {
-				check_variable = { max_manpower_k > 20000 }
-				check_variable = {  num_owned_controlled_states > 10 }
-			}
-			AND = {
-				check_variable = { max_manpower_k > 10000 }
-				check_variable = {  num_owned_controlled_states > 20 }
-			}
-			check_variable = { num_owned_controlled_states > 30 }
-		}
-	# }
+is_great_power = {
+	check_variable = {
+		prestige_rank < 9
+		tooltip = prestige_rank_top_8
+	}
+	hidden_trigger = {
+		has_variable = prestige_rank
+		is_subject = no
+	}
 }
 
-is_secondary_power_eligible = {
-	# custom_trigger_tooltip = {
-	# 	tooltip = is_secondary_power_eligible_tt
-		OR = {
-			check_variable = { max_manpower_k > 12500 }
-			AND = {
-				check_variable = { max_manpower_k > 7500 }
-				check_variable = { num_owned_controlled_states > 8 }
-			}
-			AND = {
-				check_variable = { max_manpower_k > 5000 }
-				check_variable = { num_owned_controlled_states > 10 }
-			}
-			check_variable = { num_owned_controlled_states > 15 }
+is_secondary_power = {
+	check_variable = {
+		prestige_rank < 17
+		tooltip = prestige_rank_secondary
+	}
+	hidden_trigger = {
+		check_variable = {
+			prestige_rank > 8
 		}
-	# }
+		is_subject = no
+	}
 }
 
-is_minor_power_eligible = {
-	# custom_trigger_tooltip = {
-	# 	tooltip = is_minor_power_eligible_tt
-		OR = {
-			check_variable = { max_manpower_k > 5000 }
-			AND = {
-				check_variable = { max_manpower_k > 2500 }
-				check_variable = { num_owned_controlled_states > 5 }
-			}
-			AND = {
-				check_variable = { max_manpower_k > 1750 }
-				check_variable = { num_owned_controlled_states > 8 }
-			}
-			check_variable = { num_owned_controlled_states > 10 }
-		}
-	# }
+is_minor_power = {
+	check_variable = {
+		prestige_rank < 25
+		tooltip = prestige_rank_minor
+	}
+	hidden_trigger = {
+		NOT = { is_great_power = yes }
+		NOT = { is_secondary_power = yes }
+	}
 }
 
-is_irrelevant_power_eligible = {
-	# custom_trigger_tooltip = {
-	# 	tooltip = is_irrelevant_power_eligible_tt
-		always = yes
-	# }
+is_irrelevant_power = {
+	check_variable = {
+		prestige_rank > 24
+		tooltip = prestige_rank_irrelevant
+	}
 }
 
 toto_enabled_autonomy = {

@@ -3,6 +3,7 @@ scripted_gui = {
 		context_type = player_context
 		window_name = "country_power_container"
 		parent_window_token = top_bar
+		dirty = global.day
 		visible = { always = yes }
 		effects = { }
 	}
@@ -10,6 +11,7 @@ scripted_gui = {
 		context_type = player_context
 		window_name = "prosperity_container"
 		parent_window_token = top_bar
+		dirty = global.day
 		visible = { always = yes }
 		effects = { }
 	}
@@ -17,6 +19,7 @@ scripted_gui = {
 		context_type = player_context
 		window_name = "legitimacy_container"
 		parent_window_token = top_bar
+		dirty = global.day
 		visible = { always = yes }
 		effects = { }
 	}
@@ -24,6 +27,7 @@ scripted_gui = {
 		context_type = player_context
 		window_name = "administrative_capacity_container"
 		parent_window_token = top_bar
+		dirty = global.day
 		visible = { always = yes }
 		effects = { }
 	}
