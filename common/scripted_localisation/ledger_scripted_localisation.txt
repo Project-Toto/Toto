@@ -1,3 +1,10 @@
+GetLedgerPageTitle = {
+	name = "GetLedgerPageTitle"
+	text = {
+		localization_key = ledger_page_global_summary_title
+	}
+}
+
 defined_text = {
 	name = "GetLedgerGlobalEnabled"
 	text = {

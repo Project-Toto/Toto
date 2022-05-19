@@ -1,0 +1,25 @@
+
+colonial_empire_americas = {
+	enable = { always = yes }
+	icon = "GFX_goal_focus_imperialism"
+
+	prestige_empire_modifier = colonial_empire_americas_var
+}
+colonial_empire_india = {
+	enable = { always = yes }
+	icon = "GFX_goal_focus_imperialism"
+
+	prestige_empire_modifier = colonial_empire_india_var
+}
+colonial_empire_asia = {
+	enable = { always = yes }
+	icon = "GFX_goal_focus_imperialism"
+
+	prestige_empire_modifier = colonial_empire_asia_var
+}
+colonial_empire_europe = {
+	enable = { always = yes }
+	icon = "GFX_goal_focus_imperialism"
+
+	prestige_empire_modifier = colonial_empire_europe_var
+}

@@ -74,3 +74,18 @@ country_event = {
 		}
 	}
 }
+country_event = {
+	id = prestige.5
+
+	is_triggered_only = yes
+
+	option = {
+		name = prestige.5.a
+		trigger = { is_great_power = yes }
+
+	}
+	option = {
+		name = prestige.5.a
+
+	}
+}

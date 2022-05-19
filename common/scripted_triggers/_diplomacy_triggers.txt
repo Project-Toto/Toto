@@ -47,6 +47,21 @@ is_player_tag = {
 	}
 }
 
+is_system_tag = {
+	if = {
+		limit = {
+			OR = {
+				tag = TES
+				tag = EUR
+			}
+		}
+		always = yes
+	}
+	else = {
+		always = no
+	}
+}
+
 is_possible_colonizer = {
 	custom_trigger_tooltip = {
 		tooltip = is_possible_colonizer_tt
@@ -73,18 +88,18 @@ is_possible_colonizer = {
 is_great_power = {
 	check_variable = {
 		prestige_rank < 9
-		tooltip = prestige_rank_top_8
+		#tooltip = prestige_rank_top_8
 	}
-	hidden_trigger = {
-		has_variable = prestige_rank
-		is_subject = no
-	}
+	# hidden_trigger = {
+	# 	has_variable = prestige_rank
+	# 	is_subject = no
+	# }
 }
 
 is_secondary_power = {
 	check_variable = {
 		prestige_rank < 17
-		tooltip = prestige_rank_secondary
+		#tooltip = prestige_rank_secondary
 	}
 	hidden_trigger = {
 		check_variable = {
@@ -97,7 +112,7 @@ is_secondary_power = {
 is_minor_power = {
 	check_variable = {
 		prestige_rank < 25
-		tooltip = prestige_rank_minor
+		#tooltip = prestige_rank_minor
 	}
 	hidden_trigger = {
 		NOT = { is_great_power = yes }
@@ -108,7 +123,7 @@ is_minor_power = {
 is_irrelevant_power = {
 	check_variable = {
 		prestige_rank > 24
-		tooltip = prestige_rank_irrelevant
+		#tooltip = prestige_rank_irrelevant
 	}
 }
 

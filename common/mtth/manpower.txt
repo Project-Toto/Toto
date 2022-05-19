@@ -1,0 +1,27 @@
+manpower_capacity = {
+	base = 100
+	modifier = {
+		add = modifier@manpower_capacity_modifier
+	}
+	modifier = {
+		factor = modifier@manpower_capacity_factor
+	}
+}
+manpower_gain = {
+	base = 5
+	modifier = {
+		add = modifier@manpower_gain_modifier
+	}
+	modifier = {
+		add = modifier@manpower_gain_factor
+	}
+}
+battalion_capacity = {
+	base = 3
+	modifier = {
+		add = modifier@battalion_capacity_modifier
+	}
+	modifier = {
+		add = modifier@battalion_capacity_factor
+	}
+}

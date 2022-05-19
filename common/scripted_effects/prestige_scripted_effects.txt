@@ -3,6 +3,9 @@ prestige_global_total_calculate = {
 	clear_array = global.prestige_total_ranking_score_array
 
 	every_country = {
+		limit = {
+			is_system_tag = no
+		}
 		# Calculate
 			set_variable = {
 				var = prestige_total

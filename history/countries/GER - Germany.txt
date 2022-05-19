@@ -45,6 +45,31 @@
 
 	}
 
+	set_variable = {
+		colonial_empire_europe_var = 195
+	}
+	add_dynamic_modifier = {
+		modifier = colonial_empire_europe
+	}
+	set_variable = {
+		colonial_empire_americas_var = 0
+	}
+	add_dynamic_modifier = {
+		modifier = colonial_empire_americas
+	}
+	set_variable = {
+		colonial_empire_india_var = 0
+	}
+	add_dynamic_modifier = {
+		modifier = colonial_empire_india
+	}
+	set_variable = {
+		colonial_empire_asia_var = 0
+	}
+	add_dynamic_modifier = {
+		modifier = colonial_empire_asia
+	}
+
 # Diplomacy
 	set_variable = { var = rival_country value = RUS.id }
 	# set_variable = { var = most_favoured_country value = SKT.id }

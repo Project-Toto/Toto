@@ -1,0 +1,37 @@
+# Bureaucracy
+	manpower_capacity_modifier = {
+		color_type = good
+		value_type = number
+		precision = 2
+		category = country
+	}
+	manpower_capacity_factor = {
+		color_type = good
+		value_type = percentage
+		precision = 1
+		category = country
+	}
+	manpower_gain_modifier = {
+		color_type = good
+		value_type = number
+		precision = 2
+		category = country
+	}
+	manpower_gain_factor = {
+		color_type = good
+		value_type = percentage
+		precision = 1
+		category = country
+	}
+	battalion_capacity_modifier = {
+		color_type = good
+		value_type = number
+		precision = 2
+		category = country
+	}
+	battalion_capacity_factor = {
+		color_type = good
+		value_type = percentage
+		precision = 1
+		category = country
+	}

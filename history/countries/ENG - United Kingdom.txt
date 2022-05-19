@@ -46,6 +46,31 @@
 		ENG_idea_imperialism_perpetual_maritime_truce
 	}
 
+	set_variable = {
+		colonial_empire_europe_var = 230
+	}
+	add_dynamic_modifier = {
+		modifier = colonial_empire_europe
+	}
+	set_variable = {
+		colonial_empire_americas_var = 20
+	}
+	add_dynamic_modifier = {
+		modifier = colonial_empire_americas
+	}
+	set_variable = {
+		colonial_empire_india_var = 360
+	}
+	add_dynamic_modifier = {
+		modifier = colonial_empire_india
+	}
+	set_variable = {
+		colonial_empire_asia_var = 4
+	}
+	add_dynamic_modifier = {
+		modifier = colonial_empire_asia
+	}
+
 # Diplomacy
 	set_variable = { var = rival_country value = FRA.id }
 	# set_variable = { var = most_favoured_country value = SKT.id }

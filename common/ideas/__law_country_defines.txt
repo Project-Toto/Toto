@@ -8,7 +8,7 @@ ideas = {
 			allowed = { always = yes }
 
 			available = {
-				is_great_power_eligible = yes
+				is_great_power = yes
 			}
 			level = 3
 			cancel_if_invalid = no
@@ -26,7 +26,7 @@ ideas = {
 				NOT = {
 					has_idea = law_country_power_great
 				}
-				is_secondary_power_eligible = yes
+				is_secondary_power = yes
 			}
 			cancel_if_invalid = no
 			modifier = {
@@ -46,7 +46,7 @@ ideas = {
 						has_idea = law_country_power_great
 					}
 				}
-				is_minor_power_eligible = yes
+				is_minor_power = yes
 			}
 			cancel_if_invalid = no
 			modifier = {

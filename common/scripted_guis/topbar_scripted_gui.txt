@@ -59,59 +59,11 @@ scripted_gui = {
 		}
 
 		properties = {
-			ledger_list_global_summary_visible = {
-				#has_country_flag = country_view_ledger_global_summary_flag
-			}
-			ledger_list_global_prestige_visible = {
-				has_country_flag = country_view_ledger_global_prestige_flag
-			}
-			ledger_list_global_demographics = {
-				has_country_flag = country_view_ledger_global_demographics_flag
-			}
-			ledger_list_global_stability = {
-				has_country_flag = country_view_ledger_global_stability_flag
-			}
-			ledger_list_global_policies = {
-				has_country_flag = country_view_ledger_global_policies_flag
-			}
-			ledger_list_global_economics = {
-				has_country_flag = country_view_ledger_global_economics_flag
-			}
-			ledger_list_global_military = {
-				has_country_flag = country_view_ledger_global_military_flag
-			}
-			ledger_list_global_military_2 = {
-				has_country_flag = country_view_ledger_global_military_2_flag
-			}
-
-			ledger_list_national_summary = {
-				has_country_flag = country_view_ledger_national_summary_flag
-			}
-			ledger_list_misc_world_powers = {
-				has_country_flag = country_view_ledger_misc_world_powers_flag
-			}
-
-
 			country_flag_icon = {
 				image = "[THIS.GetFlag]"
 			}
-			country_flag_great_frame_visible = {
-				is_great_power = yes
-			}
-			country_flag_normal_frame_visible = {
-				is_great_power = no
-			}
-			country_flag_player_icon = {
-				is_ai = no
-			}
-			country_flag_overlord_icon_visible = {
-				is_subject = yes
-			}
 			country_flag_overlord_icon = {
-				image = "[?THIS.OVERLORD.GetSmallFlag]"
-			}
-			country_flag_overlord_frame_visible = {
-				is_subject = yes
+				image = "[?THIS.OVERLORD.GetFlag]"
 			}
 			country_religion_icon = {
 				image = "[THIS.GetNationalReligionIcon]"
@@ -119,13 +71,66 @@ scripted_gui = {
 			#country_language_icon = {
 			#	image = "[THIS.GetNationalLanguageIcon]"
 			#}
-			
-			country_religion_icon = {
+
+			country_culture_icon = {
 				image = "[THIS.state_culture_array]"
 			}
 			#country_language_icon = {
 			#	image = "[THIS.GetNationalLanguageIcon]"
 			#}
+		}
+
+		triggers = {
+			ledger_list_global_header_visible = {
+				has_country_flag = country_view_ledger_global_summary_flag
+			}
+			ledger_list_global_summary_visible = {
+				has_country_flag = country_view_ledger_global_summary_flag
+			}
+			ledger_list_global_prestige_visible = {
+				has_country_flag = country_view_ledger_global_prestige_flag
+			}
+			ledger_list_global_demographics_visible = {
+				has_country_flag = country_view_ledger_global_demographics_flag
+			}
+			ledger_list_global_stability_visible = {
+				has_country_flag = country_view_ledger_global_stability_flag
+			}
+			ledger_list_global_policies_visible = {
+				has_country_flag = country_view_ledger_global_policies_flag
+			}
+			ledger_list_global_economics_visible = {
+				has_country_flag = country_view_ledger_global_economics_flag
+			}
+			ledger_list_global_military_visible = {
+				has_country_flag = country_view_ledger_global_military_flag
+			}
+			ledger_list_global_military_2_visible = {
+				has_country_flag = country_view_ledger_global_military_2_flag
+			}
+
+			ledger_list_national_summary_visible = {
+				has_country_flag = country_view_ledger_national_summary_flag
+			}
+			ledger_list_misc_world_powers_visible = {
+				has_country_flag = country_view_ledger_misc_world_powers_flag
+			}
+
+			country_flag_great_frame_visible = {
+				THIS = { is_great_power = yes }
+			}
+			country_flag_normal_frame_visible = {
+				THIS = { is_great_power = no }
+			}
+			country_flag_player_icon_visible = {
+				THIS = { is_ai = no }
+			}
+			country_flag_overlord_icon_visible = {
+				THIS = { is_subject = yes }
+			}
+			country_flag_overlord_frame_visible = {
+				THIS = { is_subject = yes }
+			}
 		}
 
 		effects = {
