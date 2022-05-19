@@ -56,4 +56,8 @@ spriteTypes = {
 		name = "GFX_ledger_item_background"
 		textureFile = "gfx/interface/ledger/ledger_item_background.dds"
 	}
+	spriteType = {
+		name = "GFX_ledger_player_icon"
+		textureFile = "gfx/interface/ledger/player_icon.dds"
+	}
 }

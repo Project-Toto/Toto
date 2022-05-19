@@ -2,66 +2,18 @@ defined_text = {
 	name = GetNationalPrestigeAdjective
 	text = {
 		trigger = {
+			set_temp_variable = {
+				prestige_rank_mod2 = prestige_rank_mod
+			}
+			modulo_temp_variable = {
+				prestige_rank_mod2 = 100
+			}
 			OR = {
-				check_variable = {
-					var = prestige_rank
-					value = 11
-					compare = equals
+				check_temp_variable = {
+					prestige_rank_mod2 = 11
 				}
-				check_variable = {
-					var = prestige_rank
-					value = 12
-					compare = equals
-				}
-				check_variable = {
-					var = prestige_rank
-					value = 111
-					compare = equals
-				}
-				check_variable = {
-					var = prestige_rank
-					value = 112
-					compare = equals
-				}
-				check_variable = {
-					var = prestige_rank
-					value = 211
-					compare = equals
-				}
-				check_variable = {
-					var = prestige_rank
-					value = 212
-					compare = equals
-				}
-				check_variable = {
-					var = prestige_rank
-					value = 311
-					compare = equals
-				}
-				check_variable = {
-					var = prestige_rank
-					value = 312
-					compare = equals
-				}
-				check_variable = {
-					var = prestige_rank
-					value = 411
-					compare = equals
-				}
-				check_variable = {
-					var = prestige_rank
-					value = 412
-					compare = equals
-				}
-				check_variable = {
-					var = prestige_rank
-					value = 511
-					compare = equals
-				}
-				check_variable = {
-					var = prestige_rank
-					value = 512
-					compare = equals
+				check_temp_variable = {
+					prestige_rank_mod2 = 12
 				}
 			}
 		}

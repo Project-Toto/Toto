@@ -134,6 +134,13 @@ guiTypes = {
 			alwaysTransparent = yes
 		}
 
+		instantTextBoxType = {
+			name = "country_prestige_rank"
+			position = { x = 4 y = 26 }
+			font = "hoi_16mbs"
+			text = "[?ROOT.prestige_rank]"
+		}
+
 		buttonType = {
 			name = "country_flag_icon"
 			spriteType = "GFX_flag_medium"
@@ -144,10 +151,29 @@ guiTypes = {
 			pdx_tooltip_delayed = ledger_country_flag_tt_delayed
 		}
 		iconType = {
-			name = "country_flag_frame"
+			name = "country_flag_great_frame"
 			spriteType = "GFX_flag_large_gold_frame"
 			alwaystransparent = yes
 			position = { x = 16 y = 16 }
 		}
+		iconType = {
+			name = "country_flag_normal_frame"
+			spriteType = "GFX_flag_large_frame"
+			alwaystransparent = yes
+			position = { x = 16 y = 16 }
+		}
+
+		iconType = {
+			name = "country_flag_player_icon"
+			spriteType = "GFX_ledger_player_icon"
+			position = { x = 8 y = 34 }
+		}
+
+		buttonType = {
+			name = "country_flag_overlord_icon"
+			spriteType = "GFX_flag_small"
+			position = { x = 50 y = 34 }
+		}
+
 	}
 }
