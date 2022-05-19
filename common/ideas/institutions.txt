@@ -1,0 +1,158 @@
+ideas = {
+	hidden_ideas = {
+		institutions_currency = {
+			allowed = { always = no }
+			
+			modifier = {
+				prestige_humanities_modifier = 0.02
+			}
+		}
+		institution_calendar = {
+			allowed = { always = no }
+
+			modifier = {
+				prestige_humanities_modifier = 0.02
+			}
+		}
+		institution_conscription = {
+			allowed = { always = no }
+
+			modifier = {
+				prestige_humanities_modifier = 0.02
+			}
+		}
+		institution_feudalism = {
+			allowed = { always = no }
+
+			modifier = {
+				prestige_humanities_modifier = 0.02
+			}
+		}
+		institution_public_education = {
+			allowed = { always = no }
+
+			modifier = {
+				prestige_humanities_modifier = 0.02
+			}
+		}
+		institution_universities = {
+			allowed = { always = no }
+
+			modifier = {
+				prestige_humanities_modifier = 0.02
+			}
+		}
+		institution_banking = {
+			allowed = { always = no }
+
+			modifier = {
+				prestige_humanities_modifier = 0.02
+			}
+		}
+		institution_nationalism = {
+			allowed = { always = no }
+
+			modifier = {
+				prestige_humanities_modifier = 0.02
+			}
+		}
+		institution_imperialism = {
+			allowed = { always = no }
+
+			modifier = {
+				prestige_humanities_modifier = 0.02
+			}
+		}
+		institution_abolitionism = {
+			allowed = { always = no }
+
+			modifier = {
+				prestige_humanities_modifier = 0.02
+			}
+		}
+		institution_industrialization = {
+			allowed = { always = no }
+
+			modifier = {
+				prestige_humanities_modifier = 0.02
+			}
+		}
+		institution_workday = {
+			allowed = { always = no }
+
+			modifier = {
+				prestige_humanities_modifier = 0.02
+			}
+		}
+		institution_scientific_method = {
+			allowed = { always = no }
+
+			modifier = {
+				prestige_humanities_modifier = 0.02
+			}
+		}
+		institution_assemblization = {
+			allowed = { always = no }
+
+			modifier = {
+				prestige_humanities_modifier = 0.02
+			}
+		}
+		institution_capitalism = {
+			allowed = { always = no }
+
+			modifier = {
+				prestige_humanities_modifier = 0.02
+			}
+		}
+		institution_gold_standard = {
+			allowed = { always = no }
+
+			modifier = {
+				prestige_humanities_modifier = 0.02
+			}
+		}
+		institution_patentization = {
+			allowed = { always = no }
+
+			modifier = {
+				prestige_humanities_modifier = 0.02
+			}
+		}
+		institution_egaliterianism = {
+			allowed = { always = no }
+
+			modifier = {
+				prestige_humanities_modifier = 0.02
+			}
+		}
+		institution_divine_right = {
+			allowed = { always = no }
+
+			modifier = {
+				prestige_humanities_modifier = 0.02
+			}
+		}
+		institution_republicanism = {
+			allowed = { always = no }
+
+			modifier = {
+				prestige_humanities_modifier = 0.02
+			}
+		}
+		institution_socialism = {
+			allowed = { always = no }
+
+			modifier = {
+				prestige_humanities_modifier = 0.02
+			}
+		}
+		institution_electrification = {
+			allowed = { always = no }
+
+			modifier = {
+				prestige_humanities_modifier = 0.02
+			}
+		}
+	}
+}

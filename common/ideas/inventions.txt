@@ -1,82 +1,343 @@
 ideas = {
-  hidden_ideas = {
-    invention_gunpowder = {
-      allowed = { always = no }
-      
-      modifier = {
-        prestige_innovation_factor = 0.02
-      }
-      
-      equipment_bonus = {
-        ranged_arms_equipment = {
-          instant = yes
-          soft_attack = 0.1
-        }
-      }
-      
-      research_bonus = {
-        ranged_weapons_tech = 2.00
-      }
-      on_add = {
-        set_country_flag = invented_gunpowder
-      }
-    }
-    invention_napoleonic_doctrine = {
-      allowed = { always = no }
-      
-      modifier = {
-        prestige_innovation_factor = 0.02
-      }
-      
-      equipment_bonus = {
-      
-      }
-      
-      research_bonus = {
-      
-      }
-      
-      on_add = {
-        set_country_flag = invented_napoleonic_doctrine
-      }
-    }
-    invention_field_fortifications = {
-      allowed = { always = no }
-      
-      modifier = {
-      
-      }
-      
-      equipment_bonus = {
-      
-      }
-      
-      research_bonus = {
-      
-      }
-      
-      on_add = {
-        set_country_flag = invented_field_fortification
-      }
-    }
-    invention_steam_engine = {
-      allowed = { always = no }
-      
-      modifier = {
-      
-      }
-      
-      equipment_bonus = {
-      
-      }
-      
-      research_bonus = {
-      
-      }
-      
-      on_add = {
-        set_country_flag = invented_steam_engine
-      }
-    }
-  }
+	hidden_ideas = {
+		invention_compound_microscope = {
+			allowed = { always = no }
+
+			modifier = {
+				prestige_innovation_factor = 0.02
+			}
+		}
+		invention_microscope = {
+			allowed = { always = no }
+
+			modifier = {
+				prestige_innovation_factor = 0.02
+			}
+		}
+		invention_pencil = {
+			allowed = { always = no }
+
+			modifier = {
+				prestige_innovation_factor = 0.02
+			}
+		}
+		invention_thermometer = {
+			allowed = { always = no }
+
+			modifier = {
+				prestige_innovation_factor = 0.02
+			}
+		}
+		invention_compass = {
+			allowed = { always = no }
+
+			modifier = {
+				prestige_innovation_factor = 0.02
+			}
+		}
+		invention_eyeglasses = {
+			allowed = { always = no }
+
+			modifier = {
+				prestige_innovation_factor = 0.02
+			}
+		}
+		invention_paper = {
+			allowed = { always = no }
+
+			modifier = {
+				prestige_innovation_factor = 0.02
+			}
+		}
+		invention_barometer = {
+			allowed = { always = no }
+
+			modifier = {
+				prestige_innovation_factor = 0.02
+			}
+		}
+		invention_telescope = {
+			allowed = { always = no }
+
+			modifier = {
+				prestige_innovation_factor = 0.02
+			}
+		}
+		invention_battery = {
+			allowed = { always = no }
+
+			modifier = {
+				prestige_innovation_factor = 0.02
+			}
+		}
+		invention_cotton_gin = {
+			allowed = { always = no }
+			
+			modifier = {
+				prestige_innovation_factor = 0.02
+			}
+		}
+		invention_incandescent_light_bulb = {
+			allowed = { always = no }
+
+			modifier = {
+				prestige_innovation_factor = 0.02
+			}
+		}
+		invention_adhesives = {
+			allowed = { always = no }
+
+			modifier = {
+				prestige_innovation_factor = 0.02
+			}
+		}
+		invention_airplane = {
+			allowed = { always = no }
+
+			modifier = {
+				prestige_innovation_factor = 0.02
+			}
+		}
+		invention_firearm = {
+			allowed = { always = no }
+
+			modifier = {
+				prestige_innovation_factor = 0.02
+			}
+		}
+		invention_bandages = {
+			allowed = { always = no }
+
+			modifier = {
+				prestige_innovation_factor = 0.02
+			}
+		}
+		invention_printing_press = {
+			allowed = { always = no }
+
+			modifier = {
+				prestige_innovation_factor = 0.02
+			}
+		}
+		invention_steam_engine = {
+			allowed = { always = no }
+
+			modifier = {
+				prestige_innovation_factor = 0.02
+			}
+		}
+		invention_steel = {
+			allowed = { always = no }
+			
+			modifier = {
+				prestige_innovation_factor = 0.02
+			}
+		}
+		invention_antibiotics = {
+			allowed = { always = no }
+
+			modifier = {
+				prestige_innovation_factor = 0.02
+			}
+		}
+		invention_automobile = {
+			allowed = { always = no }
+
+			modifier = {
+				prestige_innovation_factor = 0.02
+			}
+		}
+		invention_telegraph = {
+			allowed = { always = no }
+
+			modifier = {
+				prestige_innovation_factor = 0.02
+			}
+		}
+		invention_radio = {
+			allowed = { always = no }
+
+			modifier = {
+				prestige_innovation_factor = 0.02
+			}
+		}
+		invention_radar = {
+			allowed = { always = no }
+
+			modifier = {
+				prestige_innovation_factor = 0.02
+			}
+		}
+		invention_mechanical_clock = {
+			allowed = { always = no }
+
+			modifier = {
+				prestige_innovation_factor = 0.02
+			}
+		}
+		invention_equestrian_riding = {
+			allowed = { always = no }
+
+			modifier = {
+				prestige_innovation_factor = 0.02
+			}
+		}
+		invention_periodic_table = {
+			allowed = { always = no }
+
+			modifier = {
+				prestige_innovation_factor = 0.02
+			}
+		}
+		invention_camera = {
+			allowed = { always = no }
+
+			modifier = {
+				prestige_innovation_factor = 0.02
+			}
+		}
+		invention_canned_food = {
+			allowed = { always = no }
+
+			modifier = {
+				prestige_innovation_factor = 0.02
+			}
+		}
+		invention_pasteurization = {
+			allowed = { always = no }
+
+			modifier = {
+				prestige_innovation_factor = 0.02
+			}
+		}
+		invention_nitroglycerin = {
+			allowed = { always = no }
+
+			modifier = {
+				prestige_innovation_factor = 0.02
+			}
+		}
+		invention_artificial_fertilizer = {
+			allowed = { always = no }
+
+			modifier = {
+				prestige_innovation_factor = 0.02
+			}
+		}
+		invention_vaccination = {
+			allowed = { always = no }
+
+			modifier = {
+				prestige_innovation_factor = 0.02
+			}
+		}
+
+		invention_gunpowder = {
+			allowed = { always = no }
+			
+			modifier = {
+				prestige_innovation_factor = 0.02
+			}
+			
+			equipment_bonus = {
+				ranged_arms_equipment = {
+					instant = yes
+					soft_attack = 0.1
+				}
+			}
+			
+			research_bonus = {
+				ranged_weapons_tech = 2.00
+			}
+			on_add = {
+				add_to_array = {
+					array = discovered_inventions_array
+					value = token:invention_gunpowder
+				}
+				add_to_array = {
+					array = discovered_inventions_dates_array
+					value = global.date
+				}
+				if = {
+					limit = {
+						NOT = {
+							is_in_array = {
+								array = global.first_discovered_inventions_array
+								value = token:invention_gunpower
+							}
+						}
+					}
+					add_to_array = {
+						array = global.first_discovered_inventions_array
+						value = token:invention_gunpowder
+					}
+					add_to_array = {
+						array = global.first_discovered_inventions_country_array
+						value = THIS.id
+					}
+					add_to_array = {
+						array = global.first_discovered_inventions_country_array
+						value = global.date
+					}
+				}
+			}
+		}
+		invention_napoleonic_doctrine = {
+			allowed = { always = no }
+			
+			modifier = {
+				prestige_innovation_factor = 0.02
+			}
+			
+			equipment_bonus = {
+			
+			}
+			
+			research_bonus = {
+			
+			}
+			
+			on_add = {
+				set_country_flag = invented_napoleonic_doctrine
+			}
+		}
+		invention_field_fortifications = {
+			allowed = { always = no }
+			
+			modifier = {
+			
+			}
+			
+			equipment_bonus = {
+			
+			}
+			
+			research_bonus = {
+			
+			}
+			
+			on_add = {
+				set_country_flag = invented_field_fortification
+			}
+		}
+		invention_steam_engine = {
+			allowed = { always = no }
+			
+			modifier = {
+			
+			}
+			
+			equipment_bonus = {
+			
+			}
+			
+			research_bonus = {
+			
+			}
+			
+			on_add = {
+				set_country_flag = invented_steam_engine
+			}
+		}
+	}
 }
