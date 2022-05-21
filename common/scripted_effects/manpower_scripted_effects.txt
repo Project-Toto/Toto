@@ -1,0 +1,28 @@
+manpower_global_total_calculate = {
+	every_country = {
+		set_variable = {
+			var = battalion_capacity
+			value = mtth:battalion_capacity
+		}
+		set_variable = {
+			var = manpower_capacity_k
+			value = mtth:manpower_capacity
+		}
+		divide_by_variable = {
+			var = manpower_capacity_k
+			value = 1000
+		}
+		set_variable = {
+			var = bureaucracy
+			value = mtth:bureaucracy
+		}
+		set_variable = {
+			var = bureaucracy_capacity
+			value = mtth:bureaucracy_capacity
+		}
+		set_variable = {
+			var = bureaucracy_overcapacity
+			value = mtth:bureaucracy_capacity
+		}
+	}
+}

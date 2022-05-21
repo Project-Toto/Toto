@@ -1,9 +1,10 @@
 ideas = {
 	country = {
 		EUR_idea_imperialism_oversea_colonies = {
-
+			picture = FRA_la_deluge
 		}
 		ENG_idea_imperialism_perpetual_maritime_truce = {
+			picture = generic_the_london_naval_treaty
 		}
 	}
 }

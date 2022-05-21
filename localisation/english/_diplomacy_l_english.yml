@@ -3,7 +3,7 @@
  sphere_member_iterate: "[?sphere_member_array^sphere_member_temp.GetNameWithFlag], [GetSphereIterate]"
 
 
- colonial_empire_europe: "[ROOT.GetAdjective] Europe"
- colonial_empire_india: "[ROOT.GetAdjective] India"
- colonial_empire_asia: "[ROOT.GetAdjective] Asia"
- colonial_empire_americas: "[ROOT.GetAdjective] Americas"
+ colonial_empire_europe: "Europe"
+ colonial_empire_india: "India"
+ colonial_empire_asia: "Asia"
+ colonial_empire_americas: "Americas"

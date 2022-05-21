@@ -1,4 +1,39 @@
 # Focus Icons are 85x72
 spriteTypes = {
-
+	spriteType = {
+		name = "GFX_focus_continent_africa"
+		texturefile = "gfx/interface/goals/regions/focus_continent_africa.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_continent_asia"
+		texturefile = "gfx/interface/goals/regions/focus_continent_asia.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_continent_east_europe"
+		texturefile = "gfx/interface/goals/regions/focus_continent_east_europe.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_continent_india"
+		texturefile = "gfx/interface/goals/regions/focus_continent_india.dds"
+	}
+	spriteType = {
+		name = "GFX_Focus_Continent_middle_east"
+		texturefile = "gfx/interface/goals/regions/Focus_Continent_middle_east.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_continent_north_america"
+		texturefile = "gfx/interface/goals/regions/focus_continent_north_america.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_continent_oceania"
+		texturefile = "gfx/interface/goals/regions/focus_continent_oceania.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_continent_south_america"
+		texturefile = "gfx/interface/goals/regions/focus_continent_south_america.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_continent_west_europe"
+		texturefile = "gfx/interface/goals/regions/focus_continent_west_europe.dds"
+	}
 }

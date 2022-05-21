@@ -248,6 +248,8 @@ guiTypes = {
 			format = center
 			text = "country_prestige_rank_tt"
 			maxWidth = 40
+			pdx_tooltip = "country_prestige_rank_tt"
+			pdx_tooltip_delayed = "CURRENT_COUNTRY_POWER"
 		}
 		instantTextBoxType = {
 			name = "country_name"
@@ -257,6 +259,8 @@ guiTypes = {
 			text = "[THIS.GetName]"
 			maxWidth = 200
 			maxHeight = 32
+			pdx_tooltip = "[THIS.GetName]"
+			pdx_tooltip_delayed = "[THIS.GetNameDef]"
 		}
 		instantTextBoxType = {
 			name = "country_prestige"
@@ -266,6 +270,8 @@ guiTypes = {
 			text = "[?THIS.prestige_total]"
 			maxWidth = 70
 			maxHeight = 20
+			pdx_tooltip = "[?THIS.prestige_total]"
+			pdx_tooltip_delayed = "COUNTRY_POWER_DELAYED"
 		}
 		instantTextBoxType = {
 			name = "country_ideology"
@@ -281,7 +287,7 @@ guiTypes = {
 			position = { x = 591 y = 30 }
 			font = "hoi_20mbs"
 			format = right
-			text = "[?THIS.num_battalions]/[?THIS.mtth:battalion_capacity]"
+			text = "[?num_battalions]/[?THIS.battalion_capacity]"
 			maxWidth = 80
 			maxHeight = 20
 		}
@@ -290,7 +296,7 @@ guiTypes = {
 			position = { x = 674 y = 30 }
 			font = "hoi_20mbs"
 			format = right
-			text = "[?THIS.manpower]/[?THIS.mtth:manpower_capacity]"
+			text = "[?THIS.manpower_k|1]k/[?THIS.manpower_capacity_k|1]k"
 			maxWidth = 140
 			maxHeight = 20
 		}
@@ -308,7 +314,7 @@ guiTypes = {
 			position = { x = 920 y = 30 }
 			font = "hoi_20mbs"
 			format = right
-			text = "[?THIS.mtth:bureaucracy]/[?THIS.mtth:bureaucracy_capacity]"
+			text = "[?THIS.bureaucracy]/[?THIS.bureaucracy_capacity]"
 			maxWidth = 100
 			maxHeight = 20
 		}

@@ -1,0 +1,79 @@
+defined_text = {
+	name = GetDisplayManpower
+	text = {
+		trigger = {
+			check_variable = {
+				var = manpower_k
+				value < 1000
+			}
+		}
+		localization_key = "country_manpower_under_1M"
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = manpower_k
+				value > 999.999
+			}
+			set_temp_variable = {
+				var = manpower_temp
+				value = manpower_k
+			}
+			divide_temp_variable = {
+				var = manpower_temp
+				value = 1000
+			}
+		}
+		localization_key = "country_manpower_over_1M"
+	}
+}
+defined_text = {
+	name = GetDisplayManpowerCapacity
+	text = {
+		trigger = {
+			check_variable = {
+				var = manpower_k
+				value < 10
+			}
+			set_temp_variable = {
+				var = manpower_temp
+				value = manpower_capacity_k
+			}
+			multiply_temp_variable = {
+				var = manpower_temp
+				value = 1000
+			}
+		}
+		localization_key = "country_manpower_under_10k"
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = manpower_capacity_k
+				value > 999.9
+			}
+			set_temp_variable = {
+				var = manpower_temp
+				value = manpower_capacity_k
+			}
+			divide_temp_variable = {
+				var = manpower_temp
+				value = 1000
+			}
+		}
+		localization_key = "country_manpower_over_1M"
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = manpower_capacity_k
+				value > 9.999
+			}
+			check_variable = {
+				var = manpower_capacity_k
+				value < 1000
+			}
+		}
+		localization_key = "country_manpower_under_1M"
+	}
+}
