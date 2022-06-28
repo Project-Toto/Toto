@@ -8,7 +8,7 @@ eoanb_category_formables = {
 			has_war = no
 			custom_trigger_tooltip = {
 				tooltip = eoanb_decision_formable_united_states_of_africa_trigger
-				check_variable = { num_controlled_states > 100 }
+				check_variable = { num_controlled_states > 20 }
 			}
 
 			owns_state = 270
