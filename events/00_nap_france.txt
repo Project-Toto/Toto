@@ -22,7 +22,7 @@ country_event = { #Batto_sfez_dead
 		hidden_effect = {
     add_ideas = { TUN_FRA_ENG_trades_go_down }
     add_political_power = -25
-    decrease_ps_by_one = yes
+    #decrease_ps_by_one = yes
 	}
 }
   option = {

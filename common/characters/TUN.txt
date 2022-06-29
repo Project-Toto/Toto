@@ -3,7 +3,7 @@ characters={
 		name="Muhammad II ibn al-Husayn"
 		portraits={
 			civilian={
-				large="GFX_Portrait_TUN_Muhammad_II_ibn_al_Husayn"
+				large="gfx/characters/TUN/Portrait_TUN_Muhammad_II_ibn_al_Husayn.png"
 			}
 		}
 		field_marshal={
@@ -26,7 +26,7 @@ characters={
 		name="Muhammad III al-Sadiq"
 		portraits={
 			civilian={
-				large="GFX_Portrait_TUN_Muhammad_III_al_sadiq"
+				large="gfx/characters/TUN/Portrait_TUN_Muhammad_III_al_sadiq"
 			}
 		}
 		country_leader={
