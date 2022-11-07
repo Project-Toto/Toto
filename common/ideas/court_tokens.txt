@@ -1,0 +1,43 @@
+ideas = {
+	court_tokens = {
+		court_position_1 = { allowed = { always = no }
+		court_position_2 = { allowed = { always = no }
+		court_position_3 = { allowed = { always = no }
+		court_position_4 = { allowed = { always = no }
+		court_position_5 = { allowed = { always = no }
+		court_position_6 = { allowed = { always = no }
+		court_position_7 = { allowed = { always = no }
+		court_position_8 = { allowed = { always = no }
+		court_position_9 = { allowed = { always = no }
+		court_position_10 = { allowed = { always = no }
+		court_position_11 = { allowed = { always = no }
+	}
+	affiliation_tokens = {
+		affiliation_royalists = { allowed = { always = no }
+		affiliation_pretender = { allowed = { always = no }
+		affiliation_aristocrats = { allowed = { always = no }
+		affiliation_oligarchs = { allowed = { always = no }
+		affiliation_fundamentalists = { allowed = { always = no }
+		affiliation_stratocrats = { allowed = { always = no }
+		affiliation_capitalists = { allowed = { always = no }
+		affiliation_unionists = { allowed = { always = no }
+		affiliation_imperialists = { allowed = { always = no }
+		affiliation_slave_traders = { allowed = { always = no }
+		affiliation_liberals = { allowed = { always = no }
+	}
+	occupation_tokens = {
+
+
+	}
+	personality_tokens = {
+
+
+	}
+	goal_tokens = {
+
+
+	}
+	name_tokens = {
+
+	}
+}

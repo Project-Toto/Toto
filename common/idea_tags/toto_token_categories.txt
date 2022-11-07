@@ -1,0 +1,61 @@
+idea_categories = {
+	court_tokens = {
+		hidden = yes
+
+		cost = 0
+		removal_cost = -1
+		ledger = hidden
+	}
+	affiliation_tokens = {
+		hidden = yes
+
+		cost = 0
+		removal_cost = -1
+		ledger = hidden
+	}
+	occupation_tokens = {
+		hidden = yes
+
+		cost = 0
+		removal_cost = -1
+		ledger = hidden
+	}
+	personality_tokens = {
+		hidden = yes
+
+		cost = 0
+		removal_cost = -1
+		ledger = hidden
+	}
+	goal_tokens = {
+		hidden = yes
+
+		cost = 0
+		removal_cost = -1
+		ledger = hidden
+	}
+	name_tokens = {
+		hidden = yes
+
+		cost = 0
+		removal_cost = -1
+		ledger = hidden
+	}
+
+	institution_tokens = {
+		hidden = yes
+
+		cost = 0
+		removal_cost = -1
+		ledger = hidden
+	}
+	institution_desc_tokens = {
+		hidden = yes
+
+		cost = 0
+		removal_cost = -1
+		ledger = hidden
+	}
+
+
+}
