@@ -27,7 +27,7 @@ idea_categories = {
 		removal_cost = -1
 		ledger = hidden
 	}
-	goal_tokens = {
+	ambition_tokens = {
 		hidden = yes
 
 		cost = 0
@@ -35,6 +35,20 @@ idea_categories = {
 		ledger = hidden
 	}
 	name_tokens = {
+		hidden = yes
+
+		cost = 0
+		removal_cost = -1
+		ledger = hidden
+	}
+	portrait_tokens = {
+		hidden = yes
+
+		cost = 0
+		removal_cost = -1
+		ledger = hidden
+	}
+	plot_tokens = {
 		hidden = yes
 
 		cost = 0

@@ -1,20 +1,36 @@
 ideas = {
-	court_tokens = {
-		court_position_1 = { allowed = { always = no }
-		court_position_2 = { allowed = { always = no }
-		court_position_3 = { allowed = { always = no }
-		court_position_4 = { allowed = { always = no }
-		court_position_5 = { allowed = { always = no }
-		court_position_6 = { allowed = { always = no }
-		court_position_7 = { allowed = { always = no }
-		court_position_8 = { allowed = { always = no }
-		court_position_9 = { allowed = { always = no }
-		court_position_10 = { allowed = { always = no }
-		court_position_11 = { allowed = { always = no }
+	court_character_tokens = {
+		court_character_00 = { allowed = { always = no }
+		court_character_01 = { allowed = { always = no }
+		court_character_03 = { allowed = { always = no }
+		court_character_02 = { allowed = { always = no }
+		court_character_03 = { allowed = { always = no }
+		court_character_04 = { allowed = { always = no }
+		court_character_05 = { allowed = { always = no }
+		court_character_06 = { allowed = { always = no }
+		court_character_07 = { allowed = { always = no }
+		court_character_08 = { allowed = { always = no }
+		court_character_09 = { allowed = { always = no }
+		court_character_10 = { allowed = { always = no }
+		court_character_11 = { allowed = { always = no }
+		court_character_12 = { allowed = { always = no }
+		court_character_13 = { allowed = { always = no }
+		court_character_14 = { allowed = { always = no }
+		court_character_15 = { allowed = { always = no }
+		court_character_16 = { allowed = { always = no }
+		court_character_17 = { allowed = { always = no }
+		court_character_18 = { allowed = { always = no }
+		court_character_19 = { allowed = { always = no }
+		court_character_20 = { allowed = { always = no }
+		court_character_21 = { allowed = { always = no }
+		court_character_22 = { allowed = { always = no }
+		court_character_23 = { allowed = { always = no }
+		court_character_24 = { allowed = { always = no }
+		court_character_25 = { allowed = { always = no }
 	}
 	affiliation_tokens = {
 		affiliation_royalists = { allowed = { always = no }
-		affiliation_pretender = { allowed = { always = no }
+		affiliation_pretenders = { allowed = { always = no }
 		affiliation_aristocrats = { allowed = { always = no }
 		affiliation_oligarchs = { allowed = { always = no }
 		affiliation_fundamentalists = { allowed = { always = no }
@@ -33,11 +49,20 @@ ideas = {
 
 
 	}
-	goal_tokens = {
+	ambition_tokens = {
 
 
 	}
 	name_tokens = {
+
+
+	}
+	portrait_tokens = {
+
+
+	}
+	plot_tokens = {
+
 
 	}
 }

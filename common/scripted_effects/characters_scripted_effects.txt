@@ -1,0 +1,152 @@
+create_court_character = {
+	# Seek ID
+		for_each_loop = {
+			array = global.cc_possible_characters_array
+			value = vv
+
+			if = {
+				limit = {
+					NOT = {
+						is_in_array = {
+							array = cc_characters_array
+							value = vv
+						}
+					}
+				}
+				set_temp_variable = {
+					var = cc_id_temp
+					value = vv
+				}
+				set_temp_variable = {
+					var = break
+					value = 1
+				}
+			}
+		}
+	#
+	# Create Court Character
+		if = {
+			limit = {
+				check_variable = {
+					var = cc_id_temp
+					value = 0
+					compare = greater_than
+				}
+			}
+			# State
+				if = {
+					limit = {
+						check_variable = {
+							var = cc_state_temp
+							value = 0
+							compare = equals_to
+						}
+					}
+					random_owned_controlled_state = {
+						set_temp_variable = {
+							var = cc_state_temp
+							value = THIS.id
+						}
+					}
+				}
+				set_variable = {
+					var = state@var:cc_id_temp
+					value = cc_state_temp
+				}
+				
+			#
+			# Culture
+				if = {
+					limit = {
+						check_variable = {
+							var = cc_culture_temp
+							value = 0
+							compare = equals_to
+						}
+					}
+					set_temp_variable = {
+						var = cc_culture_temp
+						value = var:cc_state_temp.state_culture
+					}
+				}
+				set_variable = {
+					var = culture@var:cc_id_temp
+					value = cc_culture_temp
+				}
+			#
+			# Religion
+				if = {
+					limit = {
+						check_variable = {
+							var = cc_religion_temp
+							value = 0
+							compare = equals_to
+						}
+					}
+					set_temp_variable = {
+						var = cc_religion_temp
+						value = var:cc_state_temp.state_religion
+					}
+				}
+				set_variable = {
+					var = religion@var:cc_id_temp
+					value = cc_religion_temp
+				}
+			#
+			# Age
+				if = {
+					limit = {
+						check_variable = {
+							var = cc_age_temp
+							value = 0
+							compare = equals_to
+						}
+					}
+					randomize_temp_variable = {
+						var = cc_age_temp
+						min = 15
+						max = 45
+					}
+					round_temp_variable = cc_age_temp
+				}
+				set_variable = {
+					var = culture@var:cc_id_temp
+					value = cc_culture_temp
+				}
+			#
+			
+		}
+
+	#
+	# Nevermind
+		else = {
+			log = "[THIS.GetID] ~ ERROR MAX CC LIMIT"
+		}
+	#
+	# Clean
+		clear_variable = cc_id_temp
+
+		clear_variable = cc_first_name_temp
+		clear_variable = cc_middle_name_temp
+		clear_variable = cc_last_name_temp
+		
+		clear_variable = cc_affiliation_temp
+		clear_variable = cc_occupation_temp
+		clear_variable = cc_strength_temp
+		clear_variable = cc_loyalty_temp
+
+		clear_variable = cc_age_temp
+		clear_variable = cc_personality_temp
+		clear_variable = cc_state_temp
+		clear_variable = cc_culture_temp
+		clear_variable = cc_religion_temp
+
+		clear_variable = cc_portrait_temp
+
+		clear_variable = cc_ambition__temp
+
+		clear_variable = cc_plot_temp
+		clear_variable = cc_plot_progress_temp
+		clear_variable = cc_plot_hidden_temp
+	#
+}

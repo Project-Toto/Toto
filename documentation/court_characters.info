@@ -1,0 +1,35 @@
+# Court Character Documentation
+# attribute = <type - default>
+
+# set_temp_variable = { cc_<attribute>_temp = <value> }
+# generate_court_character = yes
+
+court_character = {
+	first_name = <name_token - name_empty>
+	middle_name = <name_token - name_empty>
+	last_name = <name_token - name_empty>
+	
+	affiliation = <affiliation_token - affilation_none>
+	occupation = <occupation_token - occupation_none>
+	strength = <float - 0.000>
+	loyalty = <float - 0.000>
+
+	age = <integer - 0>
+	personality = <personality_token - personality_none>
+	state = <integer - 0>
+	culture = <culture_token - culture_none>
+	religion = <religon_token - religion_none>
+
+	portrait = <portrait_token - portrait_none>
+	
+	ambition = <ambition_token - ambition_none>
+	
+	plot = <plot_token - plot_none>
+	plot_target = <target - ROOT>
+	plot_progress = <float - 0.000>
+	plot_hidden = <boolean - 0>
+
+	mission = <mission_token - mission_none>
+	mission_target = <target - ROOT>
+	mission_progress = <float - 0.000>
+}
