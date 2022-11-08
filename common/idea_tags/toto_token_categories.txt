@@ -1,5 +1,33 @@
 idea_categories = {
-	court_tokens = {
+	court_character_tokens = {
+		hidden = yes
+
+		cost = 0
+		removal_cost = -1
+		ledger = hidden
+	}
+	name_tokens = {
+		hidden = yes
+
+		cost = 0
+		removal_cost = -1
+		ledger = hidden
+	}
+	culture_tokens = {
+		hidden = yes
+
+		cost = 0
+		removal_cost = -1
+		ledger = hidden
+	}
+	religion_tokens = {
+		hidden = yes
+
+		cost = 0
+		removal_cost = -1
+		ledger = hidden
+	}
+	portrait_tokens = {
 		hidden = yes
 
 		cost = 0
@@ -34,14 +62,7 @@ idea_categories = {
 		removal_cost = -1
 		ledger = hidden
 	}
-	name_tokens = {
-		hidden = yes
-
-		cost = 0
-		removal_cost = -1
-		ledger = hidden
-	}
-	portrait_tokens = {
+	mission_tokens = {
 		hidden = yes
 
 		cost = 0

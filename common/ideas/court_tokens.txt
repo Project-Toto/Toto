@@ -1,67 +1,95 @@
 ideas = {
 	court_character_tokens = {
-		court_character_00 = { allowed = { always = no }
-		court_character_01 = { allowed = { always = no }
-		court_character_03 = { allowed = { always = no }
-		court_character_02 = { allowed = { always = no }
-		court_character_03 = { allowed = { always = no }
-		court_character_04 = { allowed = { always = no }
-		court_character_05 = { allowed = { always = no }
-		court_character_06 = { allowed = { always = no }
-		court_character_07 = { allowed = { always = no }
-		court_character_08 = { allowed = { always = no }
-		court_character_09 = { allowed = { always = no }
-		court_character_10 = { allowed = { always = no }
-		court_character_11 = { allowed = { always = no }
-		court_character_12 = { allowed = { always = no }
-		court_character_13 = { allowed = { always = no }
-		court_character_14 = { allowed = { always = no }
-		court_character_15 = { allowed = { always = no }
-		court_character_16 = { allowed = { always = no }
-		court_character_17 = { allowed = { always = no }
-		court_character_18 = { allowed = { always = no }
-		court_character_19 = { allowed = { always = no }
-		court_character_20 = { allowed = { always = no }
-		court_character_21 = { allowed = { always = no }
-		court_character_22 = { allowed = { always = no }
-		court_character_23 = { allowed = { always = no }
-		court_character_24 = { allowed = { always = no }
-		court_character_25 = { allowed = { always = no }
+		court_character_00 = { allowed = { always = no } }
+		court_character_01 = { allowed = { always = no } }
+		court_character_03 = { allowed = { always = no } }
+		court_character_02 = { allowed = { always = no } }
+		court_character_03 = { allowed = { always = no } }
+		court_character_04 = { allowed = { always = no } }
+		court_character_05 = { allowed = { always = no } }
+		court_character_06 = { allowed = { always = no } }
+		court_character_07 = { allowed = { always = no } }
+		court_character_08 = { allowed = { always = no } }
+		court_character_09 = { allowed = { always = no } }
+		court_character_10 = { allowed = { always = no } }
+		court_character_11 = { allowed = { always = no } }
+		court_character_12 = { allowed = { always = no } }
+		court_character_13 = { allowed = { always = no } }
+		court_character_14 = { allowed = { always = no } }
+		court_character_15 = { allowed = { always = no } }
+		court_character_16 = { allowed = { always = no } }
+		court_character_17 = { allowed = { always = no } }
+		court_character_18 = { allowed = { always = no } }
+		court_character_19 = { allowed = { always = no } }
+		court_character_20 = { allowed = { always = no } }
+		court_character_21 = { allowed = { always = no } }
+		court_character_22 = { allowed = { always = no } }
+		court_character_23 = { allowed = { always = no } }
+		court_character_24 = { allowed = { always = no } }
+		court_character_25 = { allowed = { always = no } }
 	}
 	affiliation_tokens = {
-		affiliation_royalists = { allowed = { always = no }
-		affiliation_pretenders = { allowed = { always = no }
-		affiliation_aristocrats = { allowed = { always = no }
-		affiliation_oligarchs = { allowed = { always = no }
-		affiliation_fundamentalists = { allowed = { always = no }
-		affiliation_stratocrats = { allowed = { always = no }
-		affiliation_capitalists = { allowed = { always = no }
-		affiliation_unionists = { allowed = { always = no }
-		affiliation_imperialists = { allowed = { always = no }
-		affiliation_slave_traders = { allowed = { always = no }
-		affiliation_liberals = { allowed = { always = no }
+		affiliation_none = { allowed = { always = no } }
+		affiliation_royalists = { allowed = { always = no } }
+		affiliation_pretenders = { allowed = { always = no } }
+		affiliation_aristocrats = { allowed = { always = no } }
+		affiliation_oligarchs = { allowed = { always = no } }
+		affiliation_fundamentalists = { allowed = { always = no } }
+		affiliation_stratocrats = { allowed = { always = no } }
+		affiliation_capitalists = { allowed = { always = no } }
+		affiliation_unionists = { allowed = { always = no } }
+		affiliation_imperialists = { allowed = { always = no } }
+		affiliation_slave_traders = { allowed = { always = no } }
+		affiliation_liberals = { allowed = { always = no } }
 	}
 	occupation_tokens = {
-
-
+		occupation_none = { allowed = { always = no } }
+		occupation_tribal_elder = { allowed = { always = no } }
+		occupation_court_advisor = { allowed = { always = no } }
+		occupation_treasurer = { allowed = { always = no } }
+		occupation_general = { allowed = { always = no } }
+		occupation_merchant = { allowed = { always = no } }
+		occupation_religious_leader = { allowed = { always = no } }
 	}
 	personality_tokens = {
-
-
+		personality_none = { allowed = { always = no } }
+		personality_greedy = { allowed = { always = no } }
+		personality_ambitious = { allowed = { always = no } }
+		personality_cautious = { allowed = { always = no } }
+		personality_autocrat = { allowed = { always = no } }
+		personality_slothful = { allowed = { always = no } }
+		personality_righteous = { allowed = { always = no } }
+		personality_pious = { allowed = { always = no } }
 	}
 	ambition_tokens = {
-
-
+		ambition_none = { allowed = { always = no } }
+		ambition_conquest = { allowed = { always = no } }
+		ambition_conversion = { allowed = { always = no } }
+		ambition_reform = { allowed = { always = no } }
+		ambition_slavery = { allowed = { always = no } }
 	}
-	name_tokens = {
-
-
+	mission_tokens = {
+		mission_convert_religion = { allowed = { always = no } }
+		mission_convert_culture = { allowed = { always = no } }
+		mission_promote_loyalty = { allowed = { always = no } }
+		mission_incite_rebellion = { allowed = { always = no } }
+		mission_root_corruption = { allowed = { always = no } }
+		mission_tribal_raid = { allowed = { always = no } }
+		mission_slave_raid = { allowed = { always = no } }
+		mission_colonial_expansion = { allowed = { always = no } }
+	}
+	plot_tokens = {
+		plot_assassinate_character = { allowed = { always = no } }
+		plot_seek_independence = { allowed = { always = no } }
+		plot_instigate_coup = { allowed = { always = no } }
+		plot_embezzle_funds = { allowed = { always = no } }
+		plot_promote_pretender = { allowed = { always = no } }
 	}
 	portrait_tokens = {
 
 
 	}
-	plot_tokens = {
+	name_tokens = {
 
 
 	}

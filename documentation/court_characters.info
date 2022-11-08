@@ -5,31 +5,32 @@
 # generate_court_character = yes
 
 court_character = {
-	first_name = <name_token - name_empty>
-	middle_name = <name_token - name_empty>
-	last_name = <name_token - name_empty>
-	
-	affiliation = <affiliation_token - affilation_none>
-	occupation = <occupation_token - occupation_none>
-	strength = <float - 0.000>
-	loyalty = <float - 0.000>
+	first_name = <name_token>
+	middle_name = <name_token>
+	last_name = <name_token>
 
-	age = <integer - 0>
-	personality = <personality_token - personality_none>
-	state = <integer - 0>
-	culture = <culture_token - culture_none>
-	religion = <religon_token - religion_none>
+	age = <integer>
+	state = <target_scope>
+	culture = <culture_token>
+	religion = <religion_token>
 
-	portrait = <portrait_token - portrait_none>
-	
-	ambition = <ambition_token - ambition_none>
-	
-	plot = <plot_token - plot_none>
-	plot_target = <target - ROOT>
-	plot_progress = <float - 0.000>
-	plot_hidden = <boolean - 0>
+	portrait = <portrait_token>
 
-	mission = <mission_token - mission_none>
-	mission_target = <target - ROOT>
-	mission_progress = <float - 0.000>
+	affiliation = <affiliation_token>
+	occupation = <occupation_token>
+	influence = <integer>
+	loyalty = <integer>
+
+	personality = <personality_token>
+	ambition = <ambition_token>
+
+
+	mission = <mission_token>
+	mission_target = <target_scope>
+	mission_progress = <float>
+
+	plot = <plot_token>
+	plot_target = <target_scope>
+	plot_progress = <float>
+	plot_hidden = <boolean>
 }
