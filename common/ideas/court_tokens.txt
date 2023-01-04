@@ -41,25 +41,69 @@ ideas = {
 		affiliation_imperialists = { allowed = { always = no } }
 		affiliation_slave_traders = { allowed = { always = no } }
 		affiliation_liberals = { allowed = { always = no } }
+		affiliation_nationalists = { allowed = { always = no } }
+		affiliation_traditionalists = { allowed = { always = no } }
 	}
 	occupation_tokens = {
 		occupation_none = { allowed = { always = no } }
-		occupation_tribal_elder = { allowed = { always = no } }
-		occupation_court_advisor = { allowed = { always = no } }
+
+		occupation_heir = { allowed = { always = no } }
+
+		occupation_theologian = { allowed = { always = no } }
+		occupation_inquisitor = { allowed = { always = no } }
+		
+		occupation_artist = { allowed = { always = no } }
+		occupation_philosopher = { allowed = { always = no } }
+
 		occupation_treasurer = { allowed = { always = no } }
-		occupation_general = { allowed = { always = no } }
+		occupation_auditor = { allowed = { always = no } }
+		occupation_bureaucrat = { allowed = { always = no } }
+		occupation_minister = { allowed = { always = no } }
+		occupation_governor = { allowed = { always = no } }
+
+		occupation_diplomat = { allowed = { always = no } }
+		occupation_statesman = { allowed = { always = no } }
+		occupation_spymaster = { allowed = { always = no } }
+
+		occupation_admiral = { allowed = { always = no } }
+		occupation_naval_reformer = { allowed = { always = no } }
+
 		occupation_merchant = { allowed = { always = no } }
-		occupation_religious_leader = { allowed = { always = no } }
+		occupation_investor = { allowed = { always = no } }
+		occupation_labor_leader = { allowed = { always = no } }
+
+		occupation_general = { allowed = { always = no } }
+		occupation_warlord = { allowed = { always = no } }
+		occupation_royal_guard = { allowed = { always = no } }
+		occupation_army_reformer = { allowed = { always = no } }
+		occupation_logistics_commander = { allowed = { always = no } }
 	}
 	personality_tokens = {
 		personality_none = { allowed = { always = no } }
-		personality_greedy = { allowed = { always = no } }
-		personality_ambitious = { allowed = { always = no } }
-		personality_cautious = { allowed = { always = no } }
-		personality_autocrat = { allowed = { always = no } }
-		personality_slothful = { allowed = { always = no } }
+
+		personality_tyrant = { allowed = { always = no } }
 		personality_righteous = { allowed = { always = no } }
+
+		personality_calm = { allowed = { always = no } }
+		personality_wrathful = { allowed = { always = no } }
+
+		personality_greedy = { allowed = { always = no } }
+		personality_benevolent = { allowed = { always = no } }
+
+		personality_ambitious = { allowed = { always = no } }
+		personality_content = { allowed = { always = no } }
+
+		personality_diligent = { allowed = { always = no } }
+		personality_slothful = { allowed = { always = no } }
+
 		personality_pious = { allowed = { always = no } }
+		personality_cynical = { allowed = { always = no } }
+
+		personality_arrogant = { allowed = { always = no } }
+		personality_humble = { allowed = { always = no } }
+
+		personality_reticcent = { allowed = { always = no } }
+		personality_gregarious = { allowed = { always = no } }
 	}
 	ambition_tokens = {
 		ambition_none = { allowed = { always = no } }
@@ -67,6 +111,8 @@ ideas = {
 		ambition_conversion = { allowed = { always = no } }
 		ambition_reform = { allowed = { always = no } }
 		ambition_slavery = { allowed = { always = no } }
+		ambition_liberty = { allowed = { always = no } }
+		ambition_power = { allowed = { always = no } }
 	}
 	mission_tokens = {
 		mission_convert_religion = { allowed = { always = no } }
@@ -84,13 +130,104 @@ ideas = {
 		plot_instigate_coup = { allowed = { always = no } }
 		plot_embezzle_funds = { allowed = { always = no } }
 		plot_promote_pretender = { allowed = { always = no } }
+		plot_abduction = { allowed = { always = no } }
+	}
+	sex = {
+		sex_male = { allowed = { always = no } }
+		sex_female = { allowed = { always = no } }
 	}
 	portrait_tokens = {
+		portrait_germanic_male_portrait_0 = { allowed = { always = no } }
+		portrait_germanic_male_portrait_1 = { allowed = { always = no } }
+		portrait_germanic_male_portrait_2 = { allowed = { always = no } }
+		portrait_germanic_male_portrait_3 = { allowed = { always = no } }
+		portrait_germanic_male_portrait_4 = { allowed = { always = no } }
+		portrait_germanic_male_portrait_5 = { allowed = { always = no } }
+		portrait_germanic_male_portrait_6 = { allowed = { always = no } }
+		portrait_germanic_male_portrait_7 = { allowed = { always = no } }
+		portrait_germanic_male_portrait_8 = { allowed = { always = no } }
+		portrait_germanic_male_portrait_9 = { allowed = { always = no } }
+		
+		portrait_germanic_female_portrait_0 = { allowed = { always = no } }
+		portrait_germanic_female_portrait_1 = { allowed = { always = no } }
+		portrait_germanic_female_portrait_2 = { allowed = { always = no } }
 
+		portrait_latin_male_portrait_0 = { allowed = { always = no } }
+		portrait_latin_male_portrait_1 = { allowed = { always = no } }
+		portrait_latin_male_portrait_2 = { allowed = { always = no } }
+		portrait_latin_male_portrait_3 = { allowed = { always = no } }
+		portrait_latin_male_portrait_4 = { allowed = { always = no } }
+		portrait_latin_male_portrait_5 = { allowed = { always = no } }
+		portrait_latin_male_portrait_6 = { allowed = { always = no } }
+		portrait_latin_male_portrait_7 = { allowed = { always = no } }
+		portrait_latin_male_portrait_8 = { allowed = { always = no } }
+		portrait_latin_male_portrait_9 = { allowed = { always = no } }
+		
+		portrait_latin_female_portrait_0 = { allowed = { always = no } }
+		portrait_latin_female_portrait_1 = { allowed = { always = no } }
+		portrait_latin_female_portrait_2 = { allowed = { always = no } }
 
+		portrait_arab_male_portrait_0 = { allowed = { always = no } }
+		portrait_arab_male_portrait_1 = { allowed = { always = no } }
+		portrait_arab_male_portrait_2 = { allowed = { always = no } }
+		portrait_arab_male_portrait_3 = { allowed = { always = no } }
+		portrait_arab_male_portrait_4 = { allowed = { always = no } }
+		portrait_arab_male_portrait_5 = { allowed = { always = no } }
+		portrait_arab_male_portrait_6 = { allowed = { always = no } }
+		portrait_arab_male_portrait_7 = { allowed = { always = no } }
+		portrait_arab_male_portrait_8 = { allowed = { always = no } }
+		portrait_arab_male_portrait_9 = { allowed = { always = no } }
+		
+		portrait_arab_female_portrait_0 = { allowed = { always = no } }
+		portrait_arab_female_portrait_1 = { allowed = { always = no } }
+		portrait_arab_female_portrait_2 = { allowed = { always = no } }
+	
+		portrait_jewish_male_portrait_0 = { allowed = { always = no } }
+		portrait_jewish_male_portrait_1 = { allowed = { always = no } }
+		portrait_jewish_male_portrait_2 = { allowed = { always = no } }
+		portrait_jewish_male_portrait_3 = { allowed = { always = no } }
+		portrait_jewish_male_portrait_4 = { allowed = { always = no } }
+		portrait_jewish_male_portrait_5 = { allowed = { always = no } }
+		portrait_jewish_male_portrait_6 = { allowed = { always = no } }
+		portrait_jewish_male_portrait_7 = { allowed = { always = no } }
+		portrait_jewish_male_portrait_8 = { allowed = { always = no } }
+		portrait_jewish_male_portrait_9 = { allowed = { always = no } }
+		
+		portrait_jewish_female_portrait_0 = { allowed = { always = no } }
+		portrait_jewish_female_portrait_1 = { allowed = { always = no } }
+		portrait_jewish_female_portrait_2 = { allowed = { always = no } }
+
+		portrait_african_male_portrait_0 = { allowed = { always = no } }
+		portrait_african_male_portrait_1 = { allowed = { always = no } }
+		portrait_african_male_portrait_2 = { allowed = { always = no } }
+		portrait_african_male_portrait_3 = { allowed = { always = no } }
+		portrait_african_male_portrait_4 = { allowed = { always = no } }
+		portrait_african_male_portrait_5 = { allowed = { always = no } }
+		portrait_african_male_portrait_6 = { allowed = { always = no } }
+		portrait_african_male_portrait_7 = { allowed = { always = no } }
+		portrait_african_male_portrait_8 = { allowed = { always = no } }
+		portrait_african_male_portrait_9 = { allowed = { always = no } }
+		portrait_african_male_portrait_10 = { allowed = { always = no } }
+		portrait_african_male_portrait_11 = { allowed = { always = no } }
+		portrait_african_male_portrait_12 = { allowed = { always = no } }
+		portrait_african_male_portrait_13 = { allowed = { always = no } }
+		portrait_african_male_portrait_14 = { allowed = { always = no } }
+		portrait_african_male_portrait_15 = { allowed = { always = no } }
+		portrait_african_male_portrait_16 = { allowed = { always = no } }
+		portrait_african_male_portrait_17 = { allowed = { always = no } }
+		portrait_african_male_portrait_18 = { allowed = { always = no } }
+		portrait_african_male_portrait_19 = { allowed = { always = no } }
+		
+		portrait_african_female_portrait_0 = { allowed = { always = no } }
+		portrait_african_female_portrait_1 = { allowed = { always = no } }
+		portrait_african_female_portrait_2 = { allowed = { always = no } }
+		portrait_african_female_portrait_3 = { allowed = { always = no } }
+		portrait_african_female_portrait_4 = { allowed = { always = no } }
+		portrait_african_female_portrait_5 = { allowed = { always = no } }
 	}
 	name_tokens = {
+		name_john = { allowed = { always = no } }
 
-
+		name_smith = { allowed = { always = no } }
 	}
 }

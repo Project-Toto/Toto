@@ -3,6 +3,7 @@ create_court_character = {
 		for_each_loop = {
 			array = global.cc_possible_characters_array
 			value = vv
+			break = bb
 
 			if = {
 				limit = {
@@ -18,7 +19,7 @@ create_court_character = {
 					value = vv
 				}
 				set_temp_variable = {
-					var = break
+					var = bb
 					value = 1
 				}
 			}
@@ -39,7 +40,7 @@ create_court_character = {
 						check_variable = {
 							var = cc_state_temp
 							value = 0
-							compare = equals_to
+							compare = equals
 						}
 					}
 					random_owned_controlled_state = {
@@ -52,8 +53,7 @@ create_court_character = {
 				set_variable = {
 					var = state@var:cc_id_temp
 					value = cc_state_temp
-				}
-				
+				}			
 			#
 			# Culture
 				if = {
@@ -61,7 +61,7 @@ create_court_character = {
 						check_variable = {
 							var = cc_culture_temp
 							value = 0
-							compare = equals_to
+							compare = equals
 						}
 					}
 					set_temp_variable = {
@@ -80,7 +80,7 @@ create_court_character = {
 						check_variable = {
 							var = cc_religion_temp
 							value = 0
-							compare = equals_to
+							compare = equals
 						}
 					}
 					set_temp_variable = {
@@ -99,22 +99,83 @@ create_court_character = {
 						check_variable = {
 							var = cc_age_temp
 							value = 0
-							compare = equals_to
+							compare = equals
 						}
 					}
 					randomize_temp_variable = {
 						var = cc_age_temp
-						min = 15
-						max = 45
+						min = 13
+						max = 55
 					}
 					round_temp_variable = cc_age_temp
 				}
 				set_variable = {
-					var = culture@var:cc_id_temp
-					value = cc_culture_temp
+					var = age@var:cc_id_temp
+					value = cc_age_temp
 				}
 			#
-			
+			# Sex
+				if = {
+					limit = {
+						check_variable = {
+							var = cc_sex_temp
+							value = 0
+							compare = equals
+						}
+					}
+					if = {
+						limit = { has_ideas = matriarchal_society }
+						set_variable = {
+							var = sex@var:cc_id_temp
+							value = token:
+						}
+					}
+				}
+			#
+			# Name
+				if = {
+					limit = {
+						check_variable = {
+							var = cc_first_name_temp
+							value = 0
+							compare = equals
+						}
+					}
+					create_court_character_first_name = yes
+				}
+				set_variable = {
+					var = first_name@var:cc_id_temp
+					value = cc_first_name_temp
+				}
+				if = {
+					limit = {
+						check_variable = {
+							var = cc_middle_name_temp
+							value = 0
+							compare = equals
+						}
+					}
+					create_court_character_middle_name = yes
+				}
+				set_variable = {
+					var = middle_name@var:cc_id_temp
+					value = cc_middle_name_temp
+				}
+				if = {
+					limit = {
+						check_variable = {
+							var = cc_last_name_temp
+							value = 0
+							compare = equals
+						}
+					}
+					create_court_character_last_name = yes
+				}
+				set_variable = {
+					var = last_name@var:cc_id_temp
+					value = cc_last_name_temp
+				}
+			#
 		}
 
 	#
@@ -135,6 +196,7 @@ create_court_character = {
 		clear_variable = cc_strength_temp
 		clear_variable = cc_loyalty_temp
 
+		clear_variable = cc_sex_temp
 		clear_variable = cc_age_temp
 		clear_variable = cc_personality_temp
 		clear_variable = cc_state_temp
