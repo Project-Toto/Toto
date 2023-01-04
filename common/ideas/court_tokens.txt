@@ -49,28 +49,30 @@ ideas = {
 
 		occupation_heir = { allowed = { always = no } }
 
-		occupation_theologian = { allowed = { always = no } }
 		occupation_inquisitor = { allowed = { always = no } }
+		occupation_theologian = { allowed = { always = no } }
 		
 		occupation_artist = { allowed = { always = no } }
 		occupation_philosopher = { allowed = { always = no } }
 
-		occupation_treasurer = { allowed = { always = no } }
 		occupation_auditor = { allowed = { always = no } }
 		occupation_bureaucrat = { allowed = { always = no } }
-		occupation_minister = { allowed = { always = no } }
 		occupation_governor = { allowed = { always = no } }
+		occupation_minister = { allowed = { always = no } }
+		occupation_treasurer = { allowed = { always = no } }
 
 		occupation_diplomat = { allowed = { always = no } }
-		occupation_statesman = { allowed = { always = no } }
 		occupation_spymaster = { allowed = { always = no } }
+		occupation_statesman = { allowed = { always = no } }
+		occupation_translator = { allowed = { always = no } }
 
 		occupation_admiral = { allowed = { always = no } }
 		occupation_naval_reformer = { allowed = { always = no } }
 
-		occupation_merchant = { allowed = { always = no } }
 		occupation_investor = { allowed = { always = no } }
 		occupation_labor_leader = { allowed = { always = no } }
+		occupation_merchant = { allowed = { always = no } }
+		occupation_smuggler = { allowed = { always = no } }
 
 		occupation_general = { allowed = { always = no } }
 		occupation_warlord = { allowed = { always = no } }
@@ -102,7 +104,7 @@ ideas = {
 		personality_arrogant = { allowed = { always = no } }
 		personality_humble = { allowed = { always = no } }
 
-		personality_reticcent = { allowed = { always = no } }
+		personality_reticent = { allowed = { always = no } }
 		personality_gregarious = { allowed = { always = no } }
 	}
 	ambition_tokens = {
@@ -113,16 +115,20 @@ ideas = {
 		ambition_slavery = { allowed = { always = no } }
 		ambition_liberty = { allowed = { always = no } }
 		ambition_power = { allowed = { always = no } }
+		ambition_wealth = { allowed = { always = no } }
 	}
 	mission_tokens = {
-		mission_convert_religion = { allowed = { always = no } }
-		mission_convert_culture = { allowed = { always = no } }
+		mission_promote_religion = { allowed = { always = no } }
+		mission_promote_culture = { allowed = { always = no } }
 		mission_promote_loyalty = { allowed = { always = no } }
 		mission_incite_rebellion = { allowed = { always = no } }
 		mission_root_corruption = { allowed = { always = no } }
 		mission_tribal_raid = { allowed = { always = no } }
 		mission_slave_raid = { allowed = { always = no } }
+		mission_investigate_region = { allowed = { always = no } }
 		mission_colonial_expansion = { allowed = { always = no } }
+		mission_improve_relations = { allowed = { always = no } }
+		mission_jihad = { allowed = { always = no } }
 	}
 	plot_tokens = {
 		plot_assassinate_character = { allowed = { always = no } }
@@ -130,7 +136,6 @@ ideas = {
 		plot_instigate_coup = { allowed = { always = no } }
 		plot_embezzle_funds = { allowed = { always = no } }
 		plot_promote_pretender = { allowed = { always = no } }
-		plot_abduction = { allowed = { always = no } }
 	}
 	sex = {
 		sex_male = { allowed = { always = no } }
