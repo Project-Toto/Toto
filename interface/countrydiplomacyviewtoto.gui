@@ -53,7 +53,7 @@ guiTypes = {
 					size = { width = 170 height = 32 }
 					
 					#format = left
-					spacing = 100
+					# spacing = 100
 				}
 			}
 			#containerWindowType = {
