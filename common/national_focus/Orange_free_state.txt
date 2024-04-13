@@ -434,7 +434,7 @@ focus_tree = {
 			random_owned_controlled_state = {
 				limit = {
 					NOT ={
-						state = 1149
+						state = 730
 					}
 					free_building_slots = {
 						building = industrial_complex
@@ -493,7 +493,7 @@ focus_tree = {
 			random_owned_controlled_state = {
 				limit = {
 					NOT ={
-						state = 1149
+						state = 730
 					}
 					free_building_slots = {
 						building = arms_factory
@@ -624,7 +624,7 @@ focus_tree = {
 			random_owned_controlled_state = {
 				limit = {
 					NOT ={
-						state = 1149
+						state = 730
 					}
 					free_building_slots = {
 						building = industrial_complex
@@ -757,9 +757,9 @@ focus_tree = {
 			}
 			if = {
 				limit = {
-					owns_state = 1147
+					owns_state = 730
 				}
-				1147={
+				730={
 					add_building_construction = {
 						type = infrastructure
 						level = 1
@@ -1362,7 +1362,7 @@ focus_tree = {
 			random_owned_controlled_state = {
 				limit = {
 					NOT ={
-						state = 1149
+						state = 730
 					}
 				}
 				add_extra_state_shared_building_slots = 1
@@ -1387,7 +1387,7 @@ focus_tree = {
 			random_owned_controlled_state = {
 				limit = {
 					NOT ={
-						state = 1149
+						state = 730
 					}
 				}
 				add_extra_state_shared_building_slots = 1
@@ -1803,19 +1803,19 @@ focus_tree = {
 		completion_reward = {
 			if = {
 				limit = {
-					1140 = {
+					737 = {
 						is_fully_controlled_by = OFS
 					}
 				}
-				add_state_core = 1140
+				add_state_core = 737
 			}
 			if = {
 				limit = {
-					1141 = {
+					736 = {
 						is_fully_controlled_by = OFS
 					}
 				}
-				add_state_core = 1141
+				add_state_core = 736
 			}
 		}
 	}
@@ -1857,35 +1857,11 @@ focus_tree = {
 		completion_reward = {
 			if = {
 				limit = {
-					1142 = {
+					736 = {
 						is_fully_controlled_by = OFS
 					}
 				}
-				add_state_core = 1142
-			}
-			if = {
-				limit = {
-					1143 = {
-						is_fully_controlled_by = OFS
-					}
-				}
-				add_state_core = 1143
-			}
-			if = {
-				limit = {
-					1144 = {
-						is_fully_controlled_by = OFS
-					}
-				}
-				add_state_core = 1144
-			}
-			if = {
-				limit = {
-					275 = {
-						is_fully_controlled_by = OFS
-					}
-				}
-				add_state_core = 275
+				add_state_core = 736
 			}
 		}
 	}
@@ -1902,15 +1878,13 @@ focus_tree = {
 		available_if_capitulated = no
 		allow_branch = {
 			OR = {
-				owns_state = 1142
-				owns_state = 1143
+				owns_state = 746
 				always = yes
 			}
 		}
 		available={
 			OR = {
-				owns_state = 1142
-				owns_state = 1143
+				owns_state = 736
 			}
 		}
 		ai_will_do = {
@@ -1933,11 +1907,11 @@ focus_tree = {
 		#allow_branch = {
 		#	OR = {
 		#		owns_state = 841
-		#		owns_state = 1143
+		#		owns_state = 736
 		#	}
 		#}
 		available={
-			owns_state = 1142
+			owns_state = 736
 			841={
 				owner = {
 					NOT = {
@@ -1974,7 +1948,7 @@ focus_tree = {
 		}
 		available_if_capitulated = no
 		available={
-			owns_state = 1143
+			owns_state = 736
 		}
 		ai_will_do = {
 			factor = 1
@@ -2006,7 +1980,7 @@ focus_tree = {
 		#allow_branch = {
 		#	OR = {
 		#		owns_state = 841
-		#		owns_state = 1143
+		#		owns_state = 736
 		#	}
 		#}
 		available={
@@ -2072,7 +2046,7 @@ focus_tree = {
 		#allow_branch = {
 		#	OR = {
 		#		owns_state = 841
-		#		owns_state = 1143
+		#		owns_state = 736
 		#	}
 		#}
 		available={
@@ -2126,7 +2100,7 @@ focus_tree = {
 		#allow_branch = {
 		#	OR = {
 		#		owns_state = 841
-		#		owns_state = 1143
+		#		owns_state = 736
 		#	}
 		#}
 		available={
@@ -2181,7 +2155,7 @@ focus_tree = {
 		#allow_branch = {
 		#	OR = {
 		#		owns_state = 841
-		#		owns_state = 1143
+		#		owns_state = 736
 		#	}
 		#}
 		available={
@@ -2263,7 +2237,7 @@ focus_tree = {
 	#	#allow_branch = {
 	#	#	OR = {
 	#	#		owns_state = 841
-	#	#		owns_state = 1143
+	#	#		owns_state = 736
 	#	#	}
 	#	#}
 	#	available={
