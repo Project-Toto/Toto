@@ -2401,8 +2401,8 @@ eoanb_category_politics_foreign={
 		timeout_effect = {
 			finalize_border_war = {
 				defender_win = yes
-				attacker = 36
-				defender = 45
+				attacker = 294
+				defender = 1196
 			}
 		}
 	}

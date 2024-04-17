@@ -374,7 +374,7 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
-			add_state_core = 45
+			add_state_core = 1196
 		}
 		prerequisite = {
 			focus = oma_vic_our_colonial_strength
@@ -382,7 +382,7 @@ focus_tree = {
 		bypass={
 			OR={
 				MAH = {is_subject_of = ROOT}
-				owns_state = 45
+				owns_state = 1196
 			}
 		}
 		available={

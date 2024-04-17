@@ -100,8 +100,8 @@
 		}
 		ofs_campbell_diamonds = {
 			allowed = {
-				owns_state = 730
-				730={
+				owns_state = 1149
+				1149={
 					has_state_flag = campbell_diamonds
 				}
 			}
@@ -116,8 +116,8 @@
 		}
 		ofs_national_campbell_diamonds = {
 			allowed = {
-				owns_state = 730
-				730={
+				owns_state = 1149
+				1149={
 					has_state_flag = campbell_diamonds
 				}
 			}
