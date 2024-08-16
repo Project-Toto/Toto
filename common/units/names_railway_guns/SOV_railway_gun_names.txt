@@ -1,5 +1,5 @@
 ﻿SOV_RG_HISTORICAL = {
-	for_countries = { RUS }
+	for_countries = { SOV RUS }
 
 	type = railway_gun
 	

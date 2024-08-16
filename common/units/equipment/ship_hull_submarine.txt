@@ -10,7 +10,7 @@ equipments = {
 		group_by = archetype
 		alias = submarine
 		priority = 1900
-
+		
 		upgrades = {
 			ship_reliability_upgrade
 			sub_engine_upgrade
@@ -28,23 +28,23 @@ equipments = {
 				allowed_module_categories = { ship_engine_submarine }
 			}
 		}
-
+		
 		default_modules = {
 			fixed_ship_torpedo_slot = empty
 			fixed_ship_engine_slot = ship_engine_steam_screw_sub
 		}
-
+		
 		lg_armor_piercing = 0
 		lg_attack = 0
-
+		
 		hg_armor_piercing = 0
 		hg_attack = 0
-
+		
 		torpedo_attack = 0
 		sub_attack = 0
-
+		
 		anti_air_attack = 0
-
+		
 		armor_value = 0
 
 		
@@ -54,22 +54,22 @@ equipments = {
 		sub_visibility = 40
 		naval_speed = 0
 		reliability = 0.40
-
+		
 		naval_range = 450
-
+		
 		max_strength = 4
-
+		
 		fuel_consumption = 0
-
+		
 		build_cost_ic = 300
 		resources = {
 			wood = 1
-			resource_iron = 1
+			iron = 1
 		}
-
+		
 		manpower = 80
 	}
-
+	
 	ship_hull_submarine_0 = {
 		year = 1868
 		visual_level = 0
@@ -101,7 +101,7 @@ equipments = {
 			fixed_ship_engine_slot = ship_engine_steam_screw_sub_2
 			rear_1_custom_slot = empty
 		}
-
+		
 		armor_value = 0
 
 		
@@ -111,18 +111,18 @@ equipments = {
 		sub_visibility = 30
 		naval_speed = 0
 		reliability = 0.55
-
+		
 		naval_range = 750
-
+		
 		max_strength = 5
-
+		
 		fuel_consumption = 0
-
+		
 		build_cost_ic = 350
 		resources = {
-			resource_steel = 1
+			steel = 1
 		}
-
+		
 		manpower = 100
 	}
 	ship_hull_submarine_2 = {
@@ -140,7 +140,7 @@ equipments = {
 		default_modules = {
 			fixed_ship_engine_slot = ship_engine_steam_turbines_sub_1
 		}
-
+		
 		armor_value = 0
 
 		
@@ -150,18 +150,18 @@ equipments = {
 		sub_visibility = 25
 		naval_speed = 0
 		reliability = 0.60
-
+		
 		naval_range = 900
-
+		
 		max_strength = 6
-
+		
 		fuel_consumption = 0
-
+		
 		build_cost_ic = 375
 		resources = {
-			resource_steel = 1
+			steel = 1
 		}
-
+		
 		manpower = 110
 	}
 	ship_hull_submarine_3 = {
@@ -179,7 +179,7 @@ equipments = {
 		default_modules = {
 			fixed_ship_engine_slot = ship_engine_steam_turbines_sub_2
 		}
-
+		
 		armor_value = 0
 
 		
@@ -189,18 +189,18 @@ equipments = {
 		sub_visibility = 22
 		naval_speed = 0
 		reliability = 0.60
-
+		
 		naval_range = 1200
-
+		
 		max_strength = 7
-
+		
 		fuel_consumption = 0
-
+		
 		build_cost_ic = 425
 		resources = {
-			resource_steel = 1
+			steel = 1
 		}
-
+		
 		manpower = 120
 	}
 	ship_hull_submarine_4 = {
@@ -221,25 +221,25 @@ equipments = {
 		
 		armor_value = 1
 
-
+		
 		surface_detection = 15
 		sub_detection = 0
 		surface_visibility = 1
 		sub_visibility = 20
 		naval_speed = 0
 		reliability = 0.60
-
+		
 		naval_range = 1350
-
+		
 		max_strength = 8
-
+		
 		fuel_consumption = 0
-
+		
 		build_cost_ic = 475
 		resources = {
-			resource_steel = 1
+			steel = 1
 		}
-
+		
 		manpower = 125
 	}
 	ship_hull_submarine_5 = {
@@ -259,24 +259,24 @@ equipments = {
 		}
 		
 		armor_value = 1
-
-
+		
+		
 		surface_detection = 16
 		sub_detection = 0
 		surface_visibility = 1
 		sub_visibility = 18
 		naval_speed = 0
 		reliability = 0.60
-
+		
 		naval_range = 1475
-
+		
 		max_strength = 9
-
+		
 		fuel_consumption = 0
-
+		
 		build_cost_ic = 525
 		resources = {
-			resource_steel = 1
+			steel = 1
 		}
 		
 		manpower = 135
@@ -298,24 +298,24 @@ equipments = {
 		}
 		
 		armor_value = 1
-
-
+		
+		
 		surface_detection = 17
 		sub_detection = 0
 		surface_visibility = 1
 		sub_visibility = 17
 		naval_speed = 0
 		reliability = 0.60
-
+		
 		naval_range = 1600
-
+		
 		max_strength = 9
-
+		
 		fuel_consumption = 0
-
+		
 		build_cost_ic = 575
 		resources = {
-			resource_steel = 1
+			steel = 1
 		}
 		
 		manpower = 145
@@ -351,14 +351,15 @@ equipments = {
 		max_strength = 9
 		
 		fuel_consumption = 0
-
+		
 		build_cost_ic = 615
 		resources = {
-			resource_steel = 1
+			steel = 1
+			chromium = 1
 		}
 		
 		manpower = 155
-	}
+	}	
 	ship_hull_submarine_8 = {
 		year = 1944
 		archetype = ship_hull_submarine
@@ -390,14 +391,15 @@ equipments = {
 		max_strength = 10
 		
 		fuel_consumption = 0
-
+		
 		build_cost_ic = 650
 		resources = {
-			resource_steel = 2
+			steel = 2
+			chromium = 1
 		}
 		
 		manpower = 160
-	}
+	}	
 	ship_hull_submarine_9 = {
 		year = 1950
 		archetype = ship_hull_submarine
@@ -425,16 +427,17 @@ equipments = {
 		reliability = 0.70
 		
 		naval_range = 2450
-
+		
 		max_strength = 10
-
+		
 		fuel_consumption = 0
-
+		
 		build_cost_ic = 725
 		resources = {
-			resource_steel = 2
+			steel = 2
+			chromium = 1
 		}
-
+		
 		manpower = 165
 	}
 	ship_hull_submarine_10 = {
@@ -455,23 +458,24 @@ equipments = {
 		
 		armor_value = 3
 		
-
+		
 		surface_detection = 22
 		sub_detection = 0
 		surface_visibility = 1
 		sub_visibility = 13
 		naval_speed = 0
 		reliability = 0.70
-
+		
 		naval_range = 2600
-
+		
 		max_strength = 11
-
+		
 		fuel_consumption = 0
-
+		
 		build_cost_ic = 775
 		resources = {
-			resource_steel = 2
+			steel = 2
+			chromium = 1
 		}
 		
 		manpower = 165
@@ -507,14 +511,15 @@ equipments = {
 		max_strength = 11
 		
 		fuel_consumption = 0
-
+		
 		build_cost_ic = 825
 		resources = {
-			resource_steel = 2
+			steel = 2
+			chromium = 2
 		}
 		
 		manpower = 170
-	}
+	}	
 	ship_hull_submarine_12 = {
 		year = 1980
 		archetype = ship_hull_submarine
@@ -549,11 +554,12 @@ equipments = {
 		
 		build_cost_ic = 915
 		resources = {
-			resource_steel = 3
+			steel = 3
+			chromium = 2
 		}
 		
 		manpower = 190
-	}
+	}	
 	ship_hull_submarine_13 = {
 		year = 1990
 		archetype = ship_hull_submarine
@@ -572,27 +578,28 @@ equipments = {
 		
 		armor_value = 4
 		
-
+		
 		surface_detection = 3
 		sub_detection = 0
 		surface_visibility = 1
 		sub_visibility = 10
 		naval_speed = 0
 		reliability = 0.80
-
+		
 		naval_range = 3300
-
+		
 		max_strength = 13
-
+		
 		fuel_consumption = 0
-
+		
 		build_cost_ic = 1000
 		resources = {
-			resource_steel = 3
+			steel = 3
+			chromium = 2
 		}
 		
 		manpower = 175
-	}
+	}	
 	ship_hull_submarine_14 = {
 		year = 2000
 		archetype = ship_hull_submarine
@@ -610,28 +617,29 @@ equipments = {
 		}
 		
 		armor_value = 5
-
-
+		
+		
 		surface_detection = 3
 		sub_detection = 0
 		surface_visibility = 1
 		sub_visibility = 10
 		naval_speed = 0
 		reliability = 0.85
-
+		
 		naval_range = 3600
-
+		
 		max_strength = 13
-
+		
 		fuel_consumption = 0
-
+		
 		build_cost_ic = 1150
 		resources = {
-			resource_steel = 3
+			steel = 3
+			chromium = 2
 		}
 		
 		manpower = 175
-	}
+	}	
 	ship_hull_submarine_15 = {
 		year = 2010
 		archetype = ship_hull_submarine
@@ -649,28 +657,29 @@ equipments = {
 		}
 		
 		armor_value = 5
-
-
+		
+		
 		surface_detection = 4
 		sub_detection = 0
 		surface_visibility = 1
 		sub_visibility = 8
 		naval_speed = 0
 		reliability = 0.85
-
+		
 		naval_range = 3900
-
+		
 		max_strength = 14
-
+		
 		fuel_consumption = 0
-
+		
 		build_cost_ic = 1225
 		resources = {
-			resource_steel = 3
+			steel = 3
+			chromium = 3
 		}
 		
 		manpower = 135
-	}
+	}	
 	ship_hull_submarine_16 = {
 		year = 2020
 		archetype = ship_hull_submarine
@@ -688,28 +697,29 @@ equipments = {
 		}
 		
 		armor_value = 5
-
-
+		
+		
 		surface_detection = 5
 		sub_detection = 0
 		surface_visibility = 1
 		sub_visibility = 8
 		naval_speed = 0
 		reliability = 0.85
-
+		
 		naval_range = 4100
-
+		
 		max_strength = 14
-
+		
 		fuel_consumption = 0
-
+		
 		build_cost_ic = 1350
 		resources = {
-			resource_steel = 2
+			steel = 2
+			chromium = 3
 		}
 		
 		manpower = 130
-	}
+	}	
 	ship_hull_submarine_17 = {
 		year = 2030
 		archetype = ship_hull_submarine
@@ -727,26 +737,27 @@ equipments = {
 		}
 		
 		armor_value = 5
-
-
+		
+		
 		surface_detection = 5
 		sub_detection = 0
 		surface_visibility = 1
 		sub_visibility = 7
 		naval_speed = 0
 		reliability = 0.90
-
+		
 		naval_range = 4700
-
+		
 		max_strength = 14
-
+		
 		fuel_consumption = 0
-
+		
 		build_cost_ic = 1380
 		resources = {
-			resource_steel = 2
+			steel = 2
+			chromium = 3
 		}
-
+		
 		manpower = 115
 	}
 	ship_hull_submarine_18 = {
@@ -766,28 +777,29 @@ equipments = {
 		}
 		
 		armor_value = 5
-
-
+		
+		
 		surface_detection = 5
 		sub_detection = 0
 		surface_visibility = 1
 		sub_visibility = 7
 		naval_speed = 0
 		reliability = 0.95
-
+		
 		naval_range = 5100
-
+		
 		max_strength = 15
-
+		
 		fuel_consumption = 0
-
+		
 		build_cost_ic = 1500
 		resources = {
-			resource_steel = 2
+			steel = 2
+			chromium = 3
 		}
 		
 		manpower = 100
-	}
+	}	
 	
 	ship_hull_coastal_submarine = {
 		year = 1900
@@ -799,7 +811,7 @@ equipments = {
 		group_by = archetype
 		alias = coastal_submarine
 		priority = 1900
-
+		
 		upgrades = {
 			ship_reliability_upgrade
 			sub_engine_upgrade
@@ -822,39 +834,39 @@ equipments = {
 			fixed_ship_torpedo_slot = empty
 			fixed_ship_engine_slot = ship_engine_oil_turbines_sub_1
 		}
-
+		
 		lg_armor_piercing = 0
 		lg_attack = 0
-
+		
 		hg_armor_piercing = 0
 		hg_attack = 0
-
+		
 		torpedo_attack = 0
 		sub_attack = 0
-
+		
 		anti_air_attack = 0
-
+		
 		armor_value = 0
 
-
+		
 		surface_detection = 15
 		sub_detection = 0
 		surface_visibility = 1
 		sub_visibility = 20
 		naval_speed = 0
 		reliability = 0.70
-
+		
 		naval_range = 450
-
+		
 		max_strength = 6
-
+		
 		fuel_consumption = 0
-
+		
 		build_cost_ic = 325
 		resources = {
-			resource_steel = 1
+			steel = 1
 		}
-
+		
 		manpower = 100
 	}
 	ship_hull_coastal_submarine_0 = {
@@ -862,7 +874,7 @@ equipments = {
 		visual_level = 0
 		archetype = ship_hull_coastal_submarine
 		priority = 1900
-
+		
 		module_slots = inherit
 	}
 

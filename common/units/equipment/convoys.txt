@@ -12,13 +12,6 @@ equipments = {
 		sprite = convoy
 		
 		interface_category = interface_category_other_ships
-
-		upgrades = { 
-			ship_armor_upgrade
-			ship_reliability_upgrade
-			ship_gun_upgrade
-			ship_engine_upgrade
-		}
 		
 		# Unused by convoys
 		surface_detection = 10
@@ -33,9 +26,9 @@ equipments = {
 		surface_visibility = 12
 
 		torpedo_attack = 0
-		lg_attack = 0.05
-		naval_speed = 10
-		max_strength = 25
+		lg_attack = 0.5
+		naval_speed = 6
+		max_strength = 15
 		max_organisation = 25
 		anti_air_attack = 0
 
@@ -44,11 +37,12 @@ equipments = {
         lend_lease_cost = 0
 		
 		# (Describes combat behaviour - hidden stat)
-		offensive_weapons = no
+		offensive_weapons = yes
 		
 		build_cost_ic = 75
 		resources = {
-			resource_wood = 1
+			wood = 1
+			textiles = 1
 		}
 	}
 
@@ -86,9 +80,9 @@ equipments = {
 		surface_visibility = 11
 
 		torpedo_attack = 0
-		lg_attack = 0.1
-		naval_speed = 11
-		max_strength = 35
+		lg_attack = 1.0
+		naval_speed = 9
+		max_strength = 25
 		max_organisation = 30
 		anti_air_attack = 0
 
@@ -97,11 +91,14 @@ equipments = {
         lend_lease_cost = 0
 		
 		# (Describes combat behaviour - hidden stat)
-		offensive_weapons = no
+		offensive_weapons = yes
 		
 		build_cost_ic = 90
 		resources = {
-			resource_steel = 1
+			iron = 1
+			coal = 1
+			textiles = 1
+			wood = 1
 		}
 	}
 	
@@ -119,16 +116,16 @@ equipments = {
 		surface_detection = 10
 		sub_detection = 0
 
-		fuel_consumption = 0.05
+		fuel_consumption = 0.075
 
 		# Combat abilities
-		lg_armor_piercing = 0.3
+		lg_armor_piercing = 0.5
 		armor_value = 0
 		reliability = 0.8
 		surface_visibility = 10
 
 		torpedo_attack = 0
-		lg_attack = 0.15
+		lg_attack = 2.0
 		naval_speed = 12
 		max_strength = 40
 		max_organisation = 30
@@ -139,11 +136,14 @@ equipments = {
         lend_lease_cost = 0
 		
 		# (Describes combat behaviour - hidden stat)
-		offensive_weapons = no
+		offensive_weapons = yes
 		
 		build_cost_ic = 100
 		resources = {
-			resource_steel = 1
+			steel = 2
+			coal = 1
 		}
 	}
+
+	#add more convoys, ship technology did not top out in 1916, another version every 15y is only fair, 1930 is last triple expansion variant, 1945 variant is steam turbine variant, 1960 is diesel variant, 1975 . . ., profit!
 }

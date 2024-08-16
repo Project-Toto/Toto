@@ -4,25 +4,28 @@ sub_units = {
 		sprite = light_plane
 		priority = 1
 		active = yes
-		type = { fighter }
+		type = { scout_plane }
 		need = { balloon_equipment = 1 }
-		categories = { category_all_fighter }
+		land_air_wing_size = 10
+		categories = { category_scout_plane }
 	}
 
 	zeppelin = {
-		sprite = heavy_plane
+		sprite = light_plane
 		priority = 1
 		active = yes
 		type = { strategic_bomber }
 		need = { zeppelin_equipment = 1 }
+		land_air_wing_size = 10
 	}
 	fighter = {
 		sprite = light_plane
 		priority = 1
 		active = yes
 		type = { fighter }
-		need = { fighter_equipment = 1 }
-		categories = { category_all_fighter }
+		need = { small_plane_airframe  = 1 }
+		categories = { category_fighter }
+		land_air_wing_size = 20
 	}
 	
 	scout_plane = {
@@ -30,8 +33,9 @@ sub_units = {
 		priority = 1
 		active = yes
 		type = { scout_plane }
-		need = { scout_plane_equipment = 1 }
-		categories = { category_all_balloons }
+		need = { medium_plane_scout_plane_airframe = 1 }
+		categories = { category_scout_plane }
+		land_air_wing_size = 10
 	}
 
 	cv_fighter = {
@@ -40,7 +44,9 @@ sub_units = {
 		active = yes
 		type = { fighter }
 		need = { cv_fighter_equipment = 1 }
-		categories = { category_all_fighter }
+		categories = { category_fighter }
+		land_air_wing_size = 20
+		carrier_air_wing_size = 10
 	}
 	
 	heavy_fighter = {
@@ -49,7 +55,27 @@ sub_units = {
 		active = yes
 		type = { fighter }
 		need = { heavy_fighter_equipment = 1 }
-		categories = { category_all_fighter }
+		categories = { category_heavy_fighter }
+		land_air_wing_size = 20
+	}
+
+	jet_fighter = {
+		sprite = jet_plane
+		priority = 1
+		active = yes
+		type = { fighter }
+		need = { jet_fighter_equipment = 1 }
+		categories = { category_fighter }
+		land_air_wing_size = 20
+	}
+	multirole_fighter = {
+		sprite = jet_plane
+		priority = 1
+		active = yes
+		type = { fighter cas }
+		need = { multirole_fighter_equipment = 1 }
+		categories = { category_fighter }
+		land_air_wing_size = 20
 	}
 	
 	cas = {
@@ -58,7 +84,8 @@ sub_units = {
 		active = yes
 		type = { cas }
 		need = { CAS_equipment = 1 }
-		categories = { category_all_close_air }
+		categories = { category_cas }
+		land_air_wing_size = 20
 	}
 
 	cv_cas = {
@@ -67,8 +94,21 @@ sub_units = {
 		active = yes
 		type = { cas }
 		need = { cv_CAS_equipment = 1 }
-		categories = { category_all_close_air }
+		categories = { category_cas }
+		land_air_wing_size = 20
+		carrier_air_wing_size = 10
 	}
+	
+	jet_cas = {
+		sprite = light_plane
+		priority = 2
+		active = yes
+		type = { cas }
+		need = { jet_cas_equipment = 1 }
+		categories = { category_cas }
+		land_air_wing_size = 20
+	}
+	
 	
 	nav_bomber = {
 		sprite = light_plane
@@ -76,7 +116,8 @@ sub_units = {
 		active = yes
 		type = { naval_bomber }
 		need = { nav_bomber_equipment = 1 }
-		categories = { category_all_nav_bomber }
+		categories = { category_nav_bomber }
+		land_air_wing_size = 20
 	}
 
 	cv_nav_bomber = {
@@ -85,7 +126,9 @@ sub_units = {
 		active = yes
 		type = { naval_bomber }
 		need = { cv_nav_bomber_equipment = 1 }
-		categories = { category_all_nav_bomber }
+		categories = { category_nav_bomber }
+		land_air_wing_size = 20
+		carrier_air_wing_size = 10
 	}
 	
 	
@@ -95,8 +138,20 @@ sub_units = {
 		active = yes
 		type = { tactical_bomber }
 		need = { tac_bomber_equipment = 1 }
-		categories = { category_all_tac_bomber }
+		categories = { category_tac_bomber }
+		land_air_wing_size = 20
 	}
+	
+	jet_tac_bomber = {
+		sprite = medium_plane
+		priority = 4
+		active = yes
+		type = { tactical_bomber }
+		need = { jet_tac_bomber_equipment = 1 }
+		categories = { category_tac_bomber }
+		land_air_wing_size = 20
+	}
+
 
 	strat_bomber = {
 		sprite = heavy_plane
@@ -104,7 +159,18 @@ sub_units = {
 		active = yes
 		type = { strategic_bomber }
 		need = { strat_bomber_equipment = 1 }
-		categories = { category_all_strat_bomber }
+		categories = { category_strat_bomber }
+		land_air_wing_size = 20
+	}
+
+	jet_strat_bomber = {
+		sprite = heavy_plane
+		priority = 5
+		active = yes
+		type = { strategic_bomber }
+		need = { jet_strat_bomber_equipment = 1 }
+		categories = { category_strat_bomber }
+		land_air_wing_size = 20
 	}
 	
 	transport_plane = {
@@ -113,6 +179,7 @@ sub_units = {
 		active = yes
 		type = { air_transport }
 		need = { transport_plane_equipment = 1 }
+		land_air_wing_size = 10
 	}
 
 	rocket_interceptor = {
@@ -121,6 +188,7 @@ sub_units = {
 		active = yes
 		type = { interceptor }
 		need = { rocket_interceptor_equipment = 1 }
+		land_air_wing_size = 10
 	}
 	guided_missile = {
 		sprite = missile_default
@@ -128,6 +196,7 @@ sub_units = {
 		active = yes
 		type = { missile }
 		need = { guided_missile_equipment = 1 }
+		land_air_wing_size = 10
 	}
 	icbm = {
 		sprite = missile_default
@@ -135,6 +204,7 @@ sub_units = {
 		active = yes
 		type = { missile }
 		need = { icbm_equipment = 1 }
+		land_air_wing_size = 10
 	}
 	suicide_craft = {
 		sprite = light_plane
@@ -142,5 +212,6 @@ sub_units = {
 		active = yes
 		type = { suicide }
 		need = { suicide_craft_equipment = 1 }
+		land_air_wing_size = 10
 	}
 }

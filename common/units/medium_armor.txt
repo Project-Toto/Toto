@@ -1,6 +1,7 @@
 sub_units = {
 
 	medium_armor = {
+		abbreviation = "MTK"
 		sprite = "medium_armor"
 		map_icon_category = armored
 		priority = 2502
@@ -14,15 +15,15 @@ sub_units = {
 		group = armor
 		
 		categories = {
+			category_tanks
 			category_all_armor
-			category_all_frontline
-			category_all_land
+			category_army
 		}
 
 		combat_width = 2
 
 		need = {
-			medium_tank_equipment = 50
+			medium_tank_chassis = 50
 		}
 		manpower = 500
 		max_organisation = 10
@@ -35,6 +36,11 @@ sub_units = {
 		#Tanks are awesome
 		# soft_attack = 0.5
 
+		plains = {
+		    attack = 0.2
+			movement = 0.2
+			
+		}
 		forest = {
 		    attack = -0.3
 			movement = -0.4

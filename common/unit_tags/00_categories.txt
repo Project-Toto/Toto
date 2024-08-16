@@ -1,48 +1,68 @@
 sub_unit_categories = {
-	category_nomadic
-	category_tribal
-	category_feudal
-	category_modern
-
-	category_levy
-
+	##### Generic #####
+	category_army
+	category_front_line
 	category_all_infantry
-	category_all_land
+	category_all_armor
 
-	category_all_frontline
-		category_all_warriors
-		category_all_light_infantry
+
+	###### Infantry ########
+	category_victorian_infantry
+	category_industrial_infantry
+	category_great_war_infantry
+	category_modern_infantry
+	category_Atomic_era_infantry
+	category_information_era_infantry
+	category_digital_era_infantry
+	category_futuristic_infantry
+	category_feudal_infantry
+	category_Tribal_infantry
+	category_light_infantry
+	category_pa_division
+
+	####### Cavalry #####
+	category_Tribal_cavalry
+	category_cavalry
+	category_camelry
+	category_ranged_cavalry
+	category_victorian_cavalry
+	category_victorian_ranged_cavalry
+
+	##### Artillery ##########
 	
-	category_all_mobile
-		category_all_calvary
-		category_all_armor
-		category_all_auto
-		category_all_train
+	category_rocket_artillery
+	category_line_artillery
+	category_artillery
 
-	category_all_backline
-		category_all_ranged
-		category_all_ranged_cavalry
-		category_all_artillery
+	###### Tanks ########
+	category_tanks
 
-	category_all_support
-		category_all_scout
 
-	category_all_special_forces
-		category_all_marines
-		category_all_mountaineer
-		category_all_camelry
+	####### Support Companys ######
+	category_support_battalions
+	category_recon
 
-	category_all_air
-		category_all_balloons
-		category_all_fighter
-		category_all_close_air
-		category_all_bomber
-		category_all_nav_bomber
-		category_all_tac_bomber
-		category_all_strat_bomber
+	###### Planes #######
+	category_fighter
+	category_scout_plane
+	category_heavy_fighter
+	category_cas
+	category_nav_bomber
+	category_tac_bomber
+	category_strat_bomber
+	category_balloons
+	category_space_capable_aircraft
+	
 
-	category_all_sea
-		category_all_transport
-		category_all_frigate
-		category_all_galley
+	####### Special Forces #######
+	category_special_forces
+	
+
+	
+	category_robots
+	category_walkers
+
+	
+
+	
 }

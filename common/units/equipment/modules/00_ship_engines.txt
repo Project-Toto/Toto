@@ -2,101 +2,480 @@ equipment_modules = {
 
 	#Propulsion
 	
-		
-	ship_engine_sail_0 = {
-		category = ship_engine_sail
+################sails###############		
+	ship_engine_sail_screen_0 = {#2 mast sails
+		category = ship_engine_sail_screen
 		sfx = sfx_ui_sd_module_engine
 		
 		add_stats = {
-			naval_speed = 6
+			naval_speed = 8
 			fuel_consumption = 0
 			build_cost_ic = 80
+			naval_range = 2200
 		}
 		
 		build_cost_resources = {
-			fabric = 1
+			fiber = 3
 		}
 		
 		multiply_stats = {
-			naval_range = 2.60
 			reliability = -0.05
+			fuel_consumption = -0.45
 		}
 		
 		can_convert_from = {
-			module_category = ship_engine_sail
+			module_category = ship_engine_sail_screen
 			convert_cost_ic = 180
 		}
 
 	}
 	
-	ship_engine_sail_1 = {
-		category = ship_engine_sail
+	ship_engine_sail_screen_1 = {#3 mast sails
+		category = ship_engine_sail_screen
+		parent = ship_engine_sail_screen_0
+		sfx = sfx_ui_sd_module_engine
+		
+		add_stats = {
+			naval_speed = 9
+			fuel_consumption = 0
+			build_cost_ic = 100
+			naval_range = 2500
+		}
+		
+		build_cost_resources = {
+			textiles = 1
+			fiber = 2
+		}
+		
+		multiply_stats = {
+			reliability = -0.05
+			fuel_consumption = -0.45
+		}
+		
+		can_convert_from = {
+			module_category = ship_engine_sail_screen
+			convert_cost_ic = 200
+		}
+		
+		can_convert_from = {
+			module = ship_engine_sail_screen_0
+			convert_cost_ic = 30
+		}
+
+	}
+	
+	ship_engine_sail_screen_2 = {#4 mast sails
+		category = ship_engine_sail_screen
+		parent = ship_engine_sail_screen_1
+		sfx = sfx_ui_sd_module_engine
+		
+		add_stats = {
+			naval_speed = 9.5
+			fuel_consumption = 0
+			build_cost_ic = 130
+			naval_range = 2750
+		}
+		
+		build_cost_resources = {
+			textiles = 2
+			fiber = 1
+		}
+		
+		multiply_stats = {
+			#naval_range = 2.60
+			reliability = -0.05
+			fuel_consumption = -0.45
+		}
+		
+		can_convert_from = {
+			module_category = ship_engine_sail_screen
+			convert_cost_ic = 230
+		}
+		
+		can_convert_from = {
+			module = ship_engine_sail_screen_1
+			convert_cost_ic = 30
+		}
+
+	}
+
+	ship_engine_sail_gunboat_0 = {#2 mast sails
+		category = ship_engine_sail_gunboat
+		sfx = sfx_ui_sd_module_engine
+		
+		add_stats = {
+			naval_speed = 7.5
+			fuel_consumption = 0
+			build_cost_ic = 200
+			naval_range = 4500
+		}
+		
+		build_cost_resources = {
+			textiles = 1
+			fiber = 3
+		}
+		
+		multiply_stats = {
+			reliability = -0.05
+			fuel_consumption = -0.45
+		}
+		
+		can_convert_from = {
+			module_category = ship_engine_sail_gunboat
+			convert_cost_ic = 180
+		}
+
+	}
+	
+	ship_engine_sail_gunboat_1 = {#3 mast sails
+		category = ship_engine_sail_gunboat
+		parent = ship_engine_sail_gunboat_0
+		sfx = sfx_ui_sd_module_engine
+		
+		add_stats = {
+			naval_speed = 8.5
+			fuel_consumption = 0
+			build_cost_ic = 250
+			naval_range = 5000
+		}
+		
+		build_cost_resources = {
+			textiles = 2
+			fiber = 1
+		}
+		
+		multiply_stats = {
+			reliability = -0.05
+			fuel_consumption = -0.45
+		}
+		
+		can_convert_from = {
+			module_category = ship_engine_sail_gunboat
+			convert_cost_ic = 200
+		}
+		
+		can_convert_from = {
+			module = ship_engine_sail_gunboat_0
+			convert_cost_ic = 30
+		}
+
+	}
+	
+	ship_engine_sail_gunboat_2 = {#4 mast sails
+		category = ship_engine_sail_gunboat
+		parent = ship_engine_sail_gunboat_1
+		sfx = sfx_ui_sd_module_engine
+		
+		add_stats = {
+			naval_speed = 9
+			fuel_consumption = 0
+			build_cost_ic = 320
+			naval_range = 5500
+		}
+		
+		build_cost_resources = {
+			textiles = 3
+		}
+		
+		multiply_stats = {
+			#naval_range = 2.60
+			reliability = -0.05
+			fuel_consumption = -0.45
+		}
+		
+		can_convert_from = {
+			module_category = ship_engine_sail_gunboat
+			convert_cost_ic = 230
+		}
+		
+		can_convert_from = {
+			module = ship_engine_sail_gunboat_1
+			convert_cost_ic = 30
+		}
+
+	}
+
+	ship_engine_sail_frigate_0 = {#2 mast sails
+		category = ship_engine_sail_frigate
+		sfx = sfx_ui_sd_module_engine
+		
+		add_stats = {
+			naval_speed = 6.5
+			fuel_consumption = 0
+			build_cost_ic = 480
+			naval_range = 11500
+		}
+		
+		build_cost_resources = {
+			textiles = 3
+			fiber = 3
+		}
+		
+		multiply_stats = {
+			reliability = -0.05
+			fuel_consumption = -0.45
+		}
+		
+		can_convert_from = {
+			module_category = ship_engine_sail_frigate
+			convert_cost_ic = 180
+		}
+
+	}
+	
+	ship_engine_sail_frigate_1 = {#3 mast sails
+		category = ship_engine_sail_frigate
+		parent = ship_engine_sail_frigate_0
+		sfx = sfx_ui_sd_module_engine
+		
+		add_stats = {
+			naval_speed = 7.5
+			fuel_consumption = 0
+			build_cost_ic = 600
+			naval_range = 13000
+		}
+		
+		build_cost_resources = {
+			textiles = 4
+
+		}
+		
+		multiply_stats = {
+			reliability = -0.05
+			fuel_consumption = -0.45
+		}
+		
+		can_convert_from = {
+			module_category = ship_engine_sail_frigate
+			convert_cost_ic = 200
+		}
+		
+		can_convert_from = {
+			module = ship_engine_sail_frigate_0
+			convert_cost_ic = 30
+		}
+
+	}
+	
+	ship_engine_sail_frigate_2 = {#4 mast sails
+		category = ship_engine_sail_frigate
+		parent = ship_engine_sail_frigate_1
+		sfx = sfx_ui_sd_module_engine
+		
+		add_stats = {
+			naval_speed = 8.5
+			fuel_consumption = 0
+			build_cost_ic = 780
+			naval_range = 14500
+		}
+		
+		build_cost_resources = {
+			textiles = 4
+			fiber = 3
+		}
+		
+		multiply_stats = {
+			#naval_range = 2.60
+			reliability = -0.05
+			fuel_consumption = -0.45
+		}
+		
+		can_convert_from = {
+			module_category = ship_engine_sail_frigate
+			convert_cost_ic = 230
+		}
+		
+		can_convert_from = {
+			module = ship_engine_sail_frigate_1
+			convert_cost_ic = 30
+		}
+
+	}
+
+	ship_engine_sail_capital_0 = {#2 mast sails
+		category = ship_engine_sail_capital
+		sfx = sfx_ui_sd_module_engine
+		
+		add_stats = {
+			naval_speed = 6
+			fuel_consumption = 0
+			build_cost_ic = 800
+			naval_range = 14500
+		}
+		
+		build_cost_resources = {
+			textiles = 3
+			fiber = 1
+		}
+		
+		multiply_stats = {
+			reliability = -0.05
+			fuel_consumption = -0.45
+		}
+		
+		can_convert_from = {
+			module_category = ship_engine_sail_capital
+			convert_cost_ic = 180
+		}
+
+	}
+	
+	ship_engine_sail_capital_1 = {#3 mast sails
+		category = ship_engine_sail_capital
+		parent = ship_engine_sail_capital_0
 		sfx = sfx_ui_sd_module_engine
 		
 		add_stats = {
 			naval_speed = 7
 			fuel_consumption = 0
-			build_cost_ic = 100
+			build_cost_ic = 1000
+			naval_range = 16500
 		}
 		
 		build_cost_resources = {
-			fabric = 1
+			textiles = 4
+			fiber = 2
 		}
 		
 		multiply_stats = {
-			naval_range = 2.60
 			reliability = -0.05
+			fuel_consumption = -0.45
 		}
 		
 		can_convert_from = {
-			module_category = ship_engine_sail
+			module_category = ship_engine_sail_capital
 			convert_cost_ic = 200
 		}
 		
 		can_convert_from = {
-			module = ship_engine_sail_0
+			module = ship_engine_sail_capital_0
 			convert_cost_ic = 30
 		}
 
 	}
 	
-	ship_engine_sail_2 = {
-		category = ship_engine_sail
+	ship_engine_sail_capital_2 = {#4 mast sails
+		category = ship_engine_sail_capital
+		parent = ship_engine_sail_capital_1
 		sfx = sfx_ui_sd_module_engine
 		
 		add_stats = {
 			naval_speed = 8
 			fuel_consumption = 0
-			build_cost_ic = 130
+			build_cost_ic = 1300
+			naval_range = 18500
 		}
 		
 		build_cost_resources = {
-			fabric = 2
+			textiles = 5
+			fiber = 2
 		}
 		
 		multiply_stats = {
-			naval_range = 2.60
+			#naval_range = 2.60
 			reliability = -0.05
+			fuel_consumption = -0.45
 		}
 		
 		can_convert_from = {
-			module_category = ship_engine_sail
+			module_category = ship_engine_sail_capital
 			convert_cost_ic = 230
 		}
 		
 		can_convert_from = {
-			module = ship_engine_sail_1
+			module = ship_engine_sail_capital_1
 			convert_cost_ic = 30
 		}
 
 	}
-	
+
+	ship_engine_sail_ironclad_0 = {#2 mast sails
+		category = ship_engine_sail_ironclad
+		sfx = sfx_ui_sd_module_engine
+		
+		add_stats = {
+			#naval_speed = 6
+			fuel_consumption = 0
+			build_cost_ic = 800
+			#naval_range = 14500
+		}
+		
+		build_cost_resources = {
+			textiles = 2
+		}
+		
+		multiply_stats = {
+			reliability = -0.05
+			fuel_consumption = -0.45
+			naval_speed = 1.0
+			naval_range = 2.0
+		}
+		
+		can_convert_from = {
+			module_category = ship_engine_sail_capital
+			convert_cost_ic = 180
+		}
+
+	}
+
+	ship_engine_sail_cruiser_0 = {#late auxiliary 2 mast sails
+		category = ship_engine_sail_auxiliary_cruiser
+		sfx = sfx_ui_sd_module_engine
+		
+		add_stats = {
+			naval_speed = 2
+			build_cost_ic = 500
+		}
+		
+		build_cost_resources = {
+			textiles = 1
+		}
+		
+		multiply_stats = {
+			naval_range = 0.2
+			reliability = 0.05
+			fuel_consumption = -0.075
+		}
+		
+		can_convert_from = {
+			module_category = ship_engine_sail_auxiliary_cruiser
+			convert_cost_ic = 400
+		}
+
+	}
+
+	ship_engine_sail_cruiser_1 = {#late auxiliary 3 mast sails
+		category = ship_engine_sail_auxiliary_cruiser
+		sfx = sfx_ui_sd_module_engine
+		
+		add_stats = {
+			naval_speed = 3.25
+			build_cost_ic = 800
+		}
+		
+		build_cost_resources = {
+			textiles = 2
+		}
+		
+		multiply_stats = {
+			naval_range = 0.325
+			reliability = 0.04
+			fuel_consumption = -0.1
+		}
+		
+		can_convert_from = {
+			module_category = ship_engine_sail_auxiliary_cruiser
+			convert_cost_ic = 400
+		}
+	}
+
+############primitives#############	
 	ship_engine_primitive_sails_0 = {
 		category = ship_engine_primitive_sails
 		sfx = sfx_ui_sd_module_engine
 		
 		add_stats = {
-			naval_speed = 8
+			naval_speed = 5
 			fuel_consumption = 0
 			build_cost_ic = 25
 		}
@@ -144,93 +523,1529 @@ equipment_modules = {
 			convert_cost_ic = 10
 		}
 	}
-	
-	#gunboats
-	ship_engine_paddle_gunboat = {
-		category = ship_engine_gunboat
+##################################
+	# naval_speed = 28                        # Max Speed - maximum speed in kilometres per hour of the ship, higher means faster in combat and contributes to evasion
+	# lg_armor_piercing = 12                  # Light gun armor piercing - Determines how much armor ship's light gun attack can pierce
+	# lg_attack = 18                          # Light gun attack - How much damage the ship does with light guns (more effective against screens)
+	# hg_armor_piercing = 25                  # Heavy gun armor piercing - Determines how much armor ship's heavy gun attack can pierce
+	# hg_attack = 12                          # Heavy gun attack - How much damage the ship does with heavy guns (more effective against capitals and carriers)
+	# torpedo_attack = 1                      # Torpedo attack - How much damage we can do when using the ship's torpedos (more effective against capitals and carriers)
+	# anti_air_attack = 5                     # Anti-air - How much anti-air firepower the ship carries for shooting down enemy planes
+	# surface_detection = 12                  # Surface detection - Ability to detect surface vessels
+	# sub_attack = 10                         # Anti-submarine attack - How much damage this ship deals to enemy submarines using depth charges
+	# sub_detection = 5                       # Sub detection - Ability to detect submarines
+	# surface_visibility = 25                 # Surface Visibility - How easy to find this ship is (lower is better)
+	# sub_visibility = 20                     # Sub Visibility - How easy it is to detect this submarine (lower is better)
+	# naval_range = 3000                      # Naval Range - max distance in kilometres the ship can travel from it's nearest Naval Base
+	# port_capacity_usage = 1                 # Port capacity usage - How much room the ship requires in port
+	# search_and_destroy_coordination = 0.1
+	# convoy_raiding_coordination = 0.1
+
+
+#############Screens (corvettes and such)#####################
+	ship_engine_paddle_screen_0 = { #aux engine range
+		category = ship_engine_screen
 		sfx = sfx_ui_sd_module_engine
 		
 		add_stats = {
-			naval_speed = 6
+			naval_speed = 11.5
+			fuel_consumption = 0.1
+			build_cost_ic = 130
+			naval_range = 500
+		}
+		
+		build_cost_resources = {
+			iron = 1
+			steel = 1
+		}
+		
+		multiply_stats = {
+			naval_range = -0.36
+			reliability = -0.1
+			naval_speed = -0.54
+			lg_attack = -0.25
+			hg_attack = -0.25
+		}
+		
+		can_convert_from = {
+			module_category = ship_engine_screen
+			convert_cost_ic = 260
+		}
+
+	}
+
+	ship_engine_paddle_screen_1 = { #aux engine
+		category = ship_engine_screen
+		sfx = sfx_ui_sd_module_engine
+		
+		add_stats = {
+			naval_speed = 11.5
+			fuel_consumption = 0.1
+			build_cost_ic = 130
+			naval_range = 500
+		}
+		
+		build_cost_resources = {
+			iron = 1
+			steel = 1
+		}
+		
+		multiply_stats = {
+			naval_range = -0.45
+			reliability = -0.1
+			naval_speed = -0.45
+			lg_attack = -0.25
+			hg_attack = -0.25
+		}
+		
+		can_convert_from = {
+			module_category = ship_engine_screen
+			convert_cost_ic = 260
+		}
+
+	}
+
+	ship_engine_paddle_screen_2 = { #aux engine speed
+		category = ship_engine_screen
+		sfx = sfx_ui_sd_module_engine
+		
+		add_stats = {
+			naval_speed = 11.5
+			fuel_consumption = 0.1
+			build_cost_ic = 130
+			naval_range = 500
+		}
+		
+		build_cost_resources = {
+			iron = 1
+			steel = 1
+		}
+		
+		multiply_stats = {
+			naval_range = -0.54
+			reliability = -0.1
+			naval_speed = -0.36
+			lg_attack = -0.25
+			hg_attack = -0.25
+		}
+		
+		can_convert_from = {
+			module_category = ship_engine_screen
+			convert_cost_ic = 260
+		}
+
+	}
+
+	ship_engine_steam_screw_screen_0 = {#screw engine range
+		category = ship_engine_screen
+		parent = ship_engine_paddle_screen_0
+		sfx = sfx_ui_sd_module_engine
+		
+		add_stats = {
+			naval_speed = 13
+			fuel_consumption = 0.15
+			build_cost_ic = 200
+			naval_range = 600
+		}
+		
+		build_cost_resources = {
+			iron = 2
+			steel = 2
+		}
+		
+		multiply_stats = {
+			naval_range = -0.28
+			reliability = -0.075
+			naval_speed = -0.42
+		}
+		
+		can_convert_from = {
+			module_category = ship_engine_screen
+			convert_cost_ic = 270
+		}
+		
+		can_convert_from = {
+			module = ship_engine_paddle_screen_0
+			convert_cost_ic = 300
+		}
+		
+		can_convert_from = {
+			module = ship_engine_paddle_screen_1
+			convert_cost_ic = 300
+		}
+
+		can_convert_from = {
+			module = ship_engine_paddle_screen_2
+			convert_cost_ic = 300
+		}
+	}
+
+	ship_engine_steam_screw_screen_1 = {#screw engine
+		category = ship_engine_screen
+		parent = ship_engine_paddle_screen_1
+		sfx = sfx_ui_sd_module_engine
+		
+		add_stats = {
+			naval_speed = 13
+			fuel_consumption = 0.15
+			build_cost_ic = 200
+			naval_range = 600
+		}
+		
+		build_cost_resources = {
+			iron = 2
+			steel = 2
+		}
+		
+		multiply_stats = {
+			naval_range = -0.35
+			reliability = -0.075
+			naval_speed = -0.35
+		}
+		
+		can_convert_from = {
+			module_category = ship_engine_screen
+			convert_cost_ic = 270
+		}
+		
+		can_convert_from = {
+			module = ship_engine_paddle_screen_0
+			convert_cost_ic = 300
+		}
+		
+		can_convert_from = {
+			module = ship_engine_paddle_screen_1
+			convert_cost_ic = 300
+		}
+
+		can_convert_from = {
+			module = ship_engine_paddle_screen_2
+			convert_cost_ic = 300
+		}
+	}
+
+	ship_engine_steam_screw_screen_2 = {#screw engine speed
+		category = ship_engine_screen
+		parent = ship_engine_paddle_screen_2
+		sfx = sfx_ui_sd_module_engine
+		
+		add_stats = {
+			naval_speed = 13
+			fuel_consumption = 0.15
+			build_cost_ic = 200
+			naval_range = 600
+		}
+		
+		build_cost_resources = {
+			iron = 2
+			steel = 2
+		}
+		
+		multiply_stats = {
+			naval_range = -0.42
+			reliability = -0.075
+			naval_speed = -0.28
+		}
+		
+		can_convert_from = {
+			module_category = ship_engine_screen
+			convert_cost_ic = 270
+		}
+
+		can_convert_from = {
+			module = ship_engine_paddle_screen_0
+			convert_cost_ic = 300
+		}
+		
+		can_convert_from = {
+			module = ship_engine_paddle_screen_1
+			convert_cost_ic = 300
+		}
+
+		can_convert_from = {
+			module = ship_engine_paddle_screen_2
+			convert_cost_ic = 300
+		}
+	}
+
+	ship_engine_steam_screw_screen_3 = {#screw 2 engine range
+		category = ship_engine_screen
+		parent = ship_engine_steam_screw_screen_0
+		sfx = sfx_ui_sd_module_engine
+		
+		add_stats = {
+			naval_speed = 14
+			fuel_consumption = 0.25
+			build_cost_ic = 325
+			naval_range = 750
+		}
+		
+		build_cost_resources = {
+			machinery = 1
+		}
+		
+		multiply_stats = {
+			naval_range = -0.2
+			reliability = -0.05
+			naval_speed = -0.3
+		}
+		
+		can_convert_from = {
+			module_category = ship_engine_screen
+			convert_cost_ic = 400
+		}
+
+		can_convert_from = {
+			module = ship_engine_screw_screen_0
+			convert_cost_ic = 150
+		}
+		
+		can_convert_from = {
+			module = ship_engine_screw_screen_1
+			convert_cost_ic = 150
+		}
+
+		can_convert_from = {
+			module = ship_engine_screw_screen_2
+			convert_cost_ic = 150
+		}
+
+	}
+
+	ship_engine_steam_screw_screen_4 = {#screw 2 engine
+		category = ship_engine_screen
+		parent = ship_engine_steam_screw_screen_1
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			naval_speed = 14
+			fuel_consumption = 0.25
+			build_cost_ic = 325
+			naval_range = 750
+		}
+		
+		build_cost_resources = {
+			machinery = 1
+		}
+		
+		multiply_stats = {
+			naval_range = -0.25
+			reliability = -0.05
+			naval_speed = -0.25
+		}
+		
+		can_convert_from = {
+			module_category = ship_engine_screen
+			convert_cost_ic = 400
+		}
+
+		can_convert_from = {
+			module = ship_engine_screw_screen_0
+			convert_cost_ic = 150
+		}
+		
+		can_convert_from = {
+			module = ship_engine_screw_screen_1
+			convert_cost_ic = 150
+		}
+
+		can_convert_from = {
+			module = ship_engine_screw_screen_2
+			convert_cost_ic = 150
+		}
+
+	}
+
+	ship_engine_steam_screw_screen_5 = {#screw 2 engine speed
+		category = ship_engine_screen
+		parent = ship_engine_steam_screw_screen_2
+		sfx = sfx_ui_sd_module_engine
+		
+		add_stats = {
+			naval_speed = 14
+			fuel_consumption = 0.25
+			build_cost_ic = 750
+		}
+		
+		build_cost_resources = {
+			machinery = 1
+		}
+		
+		multiply_stats = {
+			naval_range = -0.3
+			naval_speed = -0.2
+			reliability = -0.05
+		}
+		
+		can_convert_from = {
+			module_category = ship_engine_screen
+			convert_cost_ic = 300
+		}
+		
+		can_convert_from = {
+			module = ship_engine_steam_screw_screen_1
+			convert_cost_ic = 500
+		}
+
+	}
+
+	ship_engine_steam_screw_screen_6 = {#screw 3 engine range
+		category = ship_engine_screen
+		parent = ship_engine_steam_screw_screen_3
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			naval_speed = 15.25
+			fuel_consumption = 0.35
+			build_cost_ic = 425
+			naval_range = 925
+		}
+		
+		build_cost_resources = {
+			machinery = 1
+			iron = 1
+			steel = 1
+		}
+		
+		multiply_stats = {
+			naval_range = -0.128
+			reliability = -0.025
+			naval_speed = -0.232
+		}
+		
+		can_convert_from = {
+			module_category = ship_engine_screen
+			convert_cost_ic = 450
+		}
+
+		can_convert_from = {
+			module = ship_engine_screw_screen_0
+			convert_cost_ic = 175
+		}
+		
+		can_convert_from = {
+			module = ship_engine_screw_screen_1
+			convert_cost_ic = 175
+		}
+
+		can_convert_from = {
+			module = ship_engine_screw_screen_2
+			convert_cost_ic = 175
+		}
+
+		can_convert_from = {
+			module = ship_engine_screw_screen_3
+			convert_cost_ic = 100
+		}
+		
+		can_convert_from = {
+			module = ship_engine_screw_screen_4
+			convert_cost_ic = 100
+		}
+
+		can_convert_from = {
+			module = ship_engine_screw_screen_5
+			convert_cost_ic = 100
+		}
+	}
+
+	ship_engine_steam_screw_screen_7 = {#screw 3 engine #fire tube boiler
+		category = ship_engine_screen
+		parent = ship_engine_steam_screw_screen_4
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			naval_speed = 15.25
+			fuel_consumption = 0.35
+			build_cost_ic = 425
+			naval_range = 925
+		}
+		
+		build_cost_resources = {
+			machinery = 1
+			iron = 1
+			steel = 1
+		}
+		
+		multiply_stats = {
+			naval_range = -0.16
+			reliability = -0.025
+			naval_speed = -0.20
+		}
+		
+		can_convert_from = {
+			module_category = ship_engine_screen
+			convert_cost_ic = 450
+		}
+
+		can_convert_from = {
+			module = ship_engine_screw_screen_0
+			convert_cost_ic = 175
+		}
+		
+		can_convert_from = {
+			module = ship_engine_screw_screen_1
+			convert_cost_ic = 175
+		}
+
+		can_convert_from = {
+			module = ship_engine_screw_screen_2
+			convert_cost_ic = 175
+		}
+
+		can_convert_from = {
+			module = ship_engine_screw_screen_3
+			convert_cost_ic = 100
+		}
+		
+		can_convert_from = {
+			module = ship_engine_screw_screen_4
+			convert_cost_ic = 100
+		}
+
+		can_convert_from = {
+			module = ship_engine_screw_screen_5
+			convert_cost_ic = 100
+		}
+	}
+
+	ship_engine_steam_screw_screen_8 = {#screw 3 engine speed
+		category = ship_engine_screen
+		parent = ship_engine_steam_screw_screen_5
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			naval_speed = 15.25
+			fuel_consumption = 0.35
+			build_cost_ic = 425
+			naval_range = 925
+		}
+		
+		build_cost_resources = {
+			machinery = 1
+			iron = 1
+			steel = 1
+		}
+		
+		multiply_stats = {
+			naval_range = -0.192
+			reliability = -0.025
+			naval_speed = -0.168
+		}
+		
+		can_convert_from = {
+			module_category = ship_engine_screen
+			convert_cost_ic = 450
+		}
+
+		can_convert_from = {
+			module = ship_engine_screw_screen_0
+			convert_cost_ic = 175
+		}
+		
+		can_convert_from = {
+			module = ship_engine_screw_screen_1
+			convert_cost_ic = 175
+		}
+
+		can_convert_from = {
+			module = ship_engine_screw_screen_2
+			convert_cost_ic = 175
+		}
+
+		can_convert_from = {
+			module = ship_engine_screw_screen_3
+			convert_cost_ic = 100
+		}
+		
+		can_convert_from = {
+			module = ship_engine_screw_screen_4
+			convert_cost_ic = 100
+		}
+
+		can_convert_from = {
+			module = ship_engine_screw_screen_5
+			convert_cost_ic = 100
+		}
+	}
+
+	ship_engine_steam_turbines_screen_1 = {
+		category = ship_engine_screen
+		parent = ship_engine_steam_screw_screen_6
+		sfx = sfx_ui_sd_module_engine
+		
+		add_stats = {
+			naval_speed = 15
 			fuel_consumption = 0
-			build_cost_ic = 120
+			build_cost_ic = 325
+			naval_range = 250
 		}
 		
 		build_cost_resources = {
 			coal = 1
-		} 
+		}
 		
 		multiply_stats = {
-			naval_speed = 0.15
+			naval_range = -0.3
+			reliability = -0.05
+			naval_speed = -0.2
+		}
+		
+		can_convert_from = {
+			module_category = ship_engine_screen
+			convert_cost_ic = 400
+		}
+
+		can_convert_from = {
+			module = ship_engine_screw_screen_0
+			convert_cost_ic = 150
+		}
+		
+		can_convert_from = {
+			module = ship_engine_screw_screen_1
+			convert_cost_ic = 150
+		}
+
+		can_convert_from = {
+			module = ship_engine_screw_screen_2
+			convert_cost_ic = 150
+		}
+
+	}
+
+	ship_engine_steam_turbines_screen_2 = {
+		category = ship_engine_screen
+		sfx = sfx_ui_sd_module_engine
+		
+		add_stats = {
+			naval_speed = 19
+			fuel_consumption = 0
+			build_cost_ic = 80
+		}
+		
+		build_cost_resources = {
+			coal = 1
+		}
+		
+		multiply_stats = {
+			naval_range = 0.05
+			naval_speed = 0.05
 			reliability = -0.1
+		}
+		
+		can_convert_from = {
+			module_category = ship_engine_screen
+			convert_cost_ic = 280
+		}
+
+	}
+
+	ship_engine_oil_turbines_screen_1 = {
+		category = ship_engine_screen
+		sfx = sfx_ui_sd_module_engine
+		
+		add_stats = {
+			naval_speed = 22
+			fuel_consumption = 6
+			build_cost_ic = 100
+		}
+		
+		multiply_stats = {
+			naval_range = 0.1
+			naval_speed = 0.1
+			reliability = -0.1
+		}
+		
+		can_convert_from = {
+			module_category = ship_engine_screen
+			convert_cost_ic = 300
+		}
+		
+		can_convert_from = {
+			module = ship_engine_destroyer_1
+			convert_cost_ic = 25
+		}
+
+	}
+
+	ship_engine_oil_turbines_screen_2 = {
+		category = ship_engine_screen
+		sfx = sfx_ui_sd_module_engine
+		
+		add_stats = {
+			naval_speed = 24.5
+			fuel_consumption = 6
+			build_cost_ic = 110
+		}
+		
+		multiply_stats = {
+			naval_range = 0.1
+			naval_speed = 0.1
+			reliability = -0.05
+		}
+		
+		can_convert_from = {
+			module_category = ship_engine_screen
+			convert_cost_ic = 310
+		}
+		
+		can_convert_from = {
+			module = ship_engine_oil_turbines_screen_1
+			convert_cost_ic = 25
+		}
+
+	}
+
+	ship_engine_oil_turbines_screen_3 = {
+		category = ship_engine_screen
+		sfx = sfx_ui_sd_module_engine
+		
+		add_stats = {
+			naval_speed = 26
+			fuel_consumption = 7
+			build_cost_ic = 120
+		}
+		
+		multiply_stats = {
+			naval_range = 0.15
+			naval_speed = 0.1
+			reliability = -0.05
+		}
+		
+		can_convert_from = {
+			module_category = ship_engine_screen
+			convert_cost_ic = 320
+		}
+		
+		can_convert_from = {
+			module = ship_engine_oil_turbines_screen_2
+			convert_cost_ic = 25
+		}
+
+	}
+
+	ship_engine_oil_turbines_screen_4 = {
+		category = ship_engine_screen
+		sfx = sfx_ui_sd_module_engine
+		
+		add_stats = {
+			naval_speed = 27
+			fuel_consumption = 7
+			build_cost_ic = 125
+		}
+		
+		multiply_stats = {
+			naval_range = 0.2
+			naval_speed = 0.125
+			reliability = -0.05
+		}
+		
+		can_convert_from = {
+			module_category = ship_engine_screen
+			convert_cost_ic = 320
+		}
+		
+		can_convert_from = {
+			module = ship_engine_oil_turbines_screen_3
+			convert_cost_ic = 25
+		}
+
+	}
+
+	ship_engine_diesel_screen_1 = {
+		category = ship_engine_screen
+		sfx = sfx_ui_sd_module_engine
+		
+		add_stats = {
+			naval_speed = 28
+			fuel_consumption = 7
+			build_cost_ic = 130
+		}
+		
+		multiply_stats = {
+			naval_range = 0.25
+			naval_speed = 0.15
+			reliability = -0.05
+		}
+		
+		can_convert_from = {
+			module_category = ship_engine_screen
+			convert_cost_ic = 320
+		}
+		
+		can_convert_from = {
+			module = ship_engine_oil_turbines_screen_4
+			convert_cost_ic = 25
+		}
+
+	}
+
+	ship_engine_diesel_screen_2 = {
+		category = ship_engine_screen
+		sfx = sfx_ui_sd_module_engine
+		
+		add_stats = {
+			naval_speed = 29
+			fuel_consumption = 7
+			build_cost_ic = 135
+		}
+		
+		multiply_stats = {
+			naval_range = 0.3
+			naval_speed = 0.175
+			reliability = -0.05
+		}
+		
+		can_convert_from = {
+			module_category = ship_engine_screen
+			convert_cost_ic = 320
+		}
+		
+		can_convert_from = {
+			module = ship_engine_diesel_screen_1
+			convert_cost_ic = 25
+		}
+
+	}
+
+	ship_engine_diesel_screen_3 = {
+		category = ship_engine_screen
+		sfx = sfx_ui_sd_module_engine
+		
+		add_stats = {
+			naval_speed = 30
+			fuel_consumption = 7
+			build_cost_ic = 140
+		}
+		
+		multiply_stats = {
+			naval_range = 0.35
+			naval_speed = 0.2
+			reliability = -0.05
+		}
+		
+		can_convert_from = {
+			module_category = ship_engine_screen
+			convert_cost_ic = 320
+		}
+		
+		can_convert_from = {
+			module = ship_engine_diesel_screen_2
+			convert_cost_ic = 25
+		}
+
+	}
+
+	ship_engine_diesel_screen_4 = {
+		category = ship_engine_screen
+		sfx = sfx_ui_sd_module_engine
+		
+		add_stats = {
+			naval_speed = 31
+			fuel_consumption = 7
+			build_cost_ic = 145
+		}
+		
+		multiply_stats = {
+			naval_range = 0.4
+			naval_speed = 0.225
+			reliability = -0.05
+		}
+		
+		can_convert_from = {
+			module_category = ship_engine_screen
+			convert_cost_ic = 320
+		}
+		
+		can_convert_from = {
+			module = ship_engine_diesel_screen_3
+			convert_cost_ic = 25
+		}
+
+	}
+
+	ship_engine_hybrid_screen_1 = {
+		category = ship_engine_screen
+		sfx = sfx_ui_sd_module_engine
+		
+		add_stats = {
+			naval_speed = 32
+			fuel_consumption = 7
+			build_cost_ic = 150
+		}
+		
+		multiply_stats = {
+			naval_range = 0.45
+			naval_speed = 0.250
+			reliability = -0.05
+		}
+		
+		can_convert_from = {
+			module_category = ship_engine_screen
+			convert_cost_ic = 320
+		}
+		
+		can_convert_from = {
+			module = ship_engine_diesel_screen_4
+			convert_cost_ic = 25
+		}
+
+	}
+
+	ship_engine_hybrid_screen_2 = {
+		category = ship_engine_screen
+		sfx = sfx_ui_sd_module_engine
+		
+		add_stats = {
+			naval_speed = 33
+			fuel_consumption = 7
+			build_cost_ic = 155
+		}
+		
+		multiply_stats = {
+			naval_range = 0.5
+			naval_speed = 0.275
+			reliability = -0.05
+		}
+		
+		can_convert_from = {
+			module_category = ship_engine_screen
+			convert_cost_ic = 320
+		}
+		
+		can_convert_from = {
+			module = ship_engine_hybrid_screen_1
+			convert_cost_ic = 25
+		}
+
+	}
+
+	ship_engine_fusion_screen_1 = {
+		category = ship_engine_screen
+		sfx = sfx_ui_sd_module_engine
+		
+		add_stats = {
+			naval_speed = 34
+			fuel_consumption = 7
+			build_cost_ic = 160
+		}
+		
+		multiply_stats = {
+			naval_range = 0.55
+			naval_speed = 0.3
+			reliability = -0.05
+		}
+		
+		can_convert_from = {
+			module_category = ship_engine_screen
+			convert_cost_ic = 320
+		}
+		
+		can_convert_from = {
+			module = ship_engine_hybrid_screen_1
+			convert_cost_ic = 25
+		}
+
+	}
+
+	ship_engine_fusion_screen_2 = {
+		category = ship_engine_screen
+		sfx = sfx_ui_sd_module_engine
+		
+		add_stats = {
+			naval_speed = 35
+			fuel_consumption = 7
+			build_cost_ic = 165
+		}
+		
+		multiply_stats = {
+			naval_range = 0.6
+			naval_speed = 0.325
+			reliability = -0.05
+		}
+		
+		can_convert_from = {
+			module_category = ship_engine_screen
+			convert_cost_ic = 320
+		}
+		
+		can_convert_from = {
+			module = ship_engine_fusion_screen_1
+			convert_cost_ic = 25
+		}
+
+	}
+
+	ship_engine_fusion_screen_3 = {
+		category = ship_engine_screen
+		sfx = sfx_ui_sd_module_engine
+		
+		add_stats = {
+			naval_speed = 36
+			fuel_consumption = 7
+			build_cost_ic = 170
+		}
+		
+		multiply_stats = {
+			naval_range = 0.65
+			naval_speed = 0.35
+			reliability = -0.05
+		}
+		
+		can_convert_from = {
+			module_category = ship_engine_screen
+			convert_cost_ic = 320
+		}
+		
+		can_convert_from = {
+			module = ship_engine_fusion_screen_2
+			convert_cost_ic = 25
+		}
+
+	}
+		
+#############gunboats###############
+
+	ship_engine_paddle_gunboat_0 = { #aux engine range
+		category = ship_engine_gunboat
+		sfx = sfx_ui_sd_module_engine
+		
+		add_stats = {
+			naval_speed = 10.75
+			fuel_consumption = 0.15
+			build_cost_ic = 320
+			naval_range = 1000
+		}
+		
+		build_cost_resources = {
+			machinery = 1
+			iron = 1
+		}
+		
+		multiply_stats = {
+			naval_range = -0.36
+			reliability = -0.1
+			naval_speed = -0.54
+			lg_attack = -0.25
+			hg_attack = -0.25
 		}
 		
 		can_convert_from = {
 			module_category = ship_engine_gunboat
-			convert_cost_ic = 220
+			convert_cost_ic = 640
 		}
 
 	}
-	ship_engine_steam_screw_gunboat = {
+
+	ship_engine_paddle_gunboat = { #aux engine
 		category = ship_engine_gunboat
 		sfx = sfx_ui_sd_module_engine
 		
 		add_stats = {
-			naval_speed = 9
-			fuel_consumption = 0
-			build_cost_ic = 150
+			naval_speed = 10.75
+			fuel_consumption = 0.15
+			build_cost_ic = 320
+			naval_range = 1000
 		}
 		
 		build_cost_resources = {
-			coal = 1
-		}
+			machinery = 1
+			iron = 1
+		} 
 		
 		multiply_stats = {
-			naval_speed = 0.15
+			naval_range = -0.45
 			reliability = -0.1
+			naval_speed = -0.45
+			lg_attack = -0.25
+			hg_attack = -0.25
 		}
 		
 		can_convert_from = {
-			module_category = ship_engine_gunboat #from ANY gunboat engine
-			convert_cost_ic = 250
-		}
-		
-		can_convert_from = {
-			module = ship_engine_paddle_gunboat #from specific gunboat engine
-			convert_cost_ic = 40
+			module_category = ship_engine_gunboat
+			convert_cost_ic = 640
 		}
 
 	}
-	ship_engine_steam_screw_gunboat_2 = {
+
+	ship_engine_paddle_gunboat_2 = { #aux engine speed
 		category = ship_engine_gunboat
 		sfx = sfx_ui_sd_module_engine
 		
 		add_stats = {
-			naval_speed = 10
-			fuel_consumption = 0
-			build_cost_ic = 190
+			naval_speed = 10.75
+			fuel_consumption = 0.15
+			build_cost_ic = 320
+			naval_range = 1000
 		}
 		
 		build_cost_resources = {
-			coal = 1
+			machinery = 1
+			iron = 1
 		}
 		
 		multiply_stats = {
-			naval_speed = 0.15
+			naval_range = -0.54
 			reliability = -0.1
+			naval_speed = -0.36
+			lg_attack = -0.25
+			hg_attack = -0.25
 		}
 		
 		can_convert_from = {
-			module_category = ship_engine_gunboat #from ANY gunboat engine
-			convert_cost_ic = 290
-		}
-		
-		can_convert_from = {
-			module = ship_engine_steam_screw_gunboat #from specific gunboat engine
-			convert_cost_ic = 50
+			module_category = ship_engine_gunboat
+			convert_cost_ic = 640
 		}
 
 	}
+
+	ship_engine_steam_screw_gunboat_0 = { #aux engine 2 range
+		category = ship_engine_gunboat
+		parent = ship_engine_paddle_gunboat_0
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			naval_speed = 11.25
+			fuel_consumption = 0.225
+			build_cost_ic = 490
+			naval_range = 1200
+		}
+		
+		build_cost_resources = {
+			machinery = 1
+		}
+		
+		multiply_stats = {
+			naval_range = -0.28
+			reliability = -0.075
+			naval_speed = -0.42
+		}
+		
+		can_convert_from = {
+			module_category = ship_engine_gunboat
+			convert_cost_ic = 400
+		}
+
+		can_convert_from = {
+			module = ship_engine_paddle_gunboat_0
+			convert_cost_ic = 735
+		}
+
+		can_convert_from = {
+			module = ship_engine_paddle_gunboat
+			convert_cost_ic = 735
+		}
+
+		can_convert_from = {
+			module = ship_engine_paddle_gunboat_2
+			convert_cost_ic = 735
+		}
+
+	}
+
+	ship_engine_steam_screw_gunboat = { #aux engine 2
+		category = ship_engine_gunboat
+		parent = ship_engine_paddle_gunboat
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			naval_speed = 11.25
+			fuel_consumption = 0.225
+			build_cost_ic = 490
+			naval_range = 1200
+		}
+		
+		build_cost_resources = {
+			machinery = 1
+		}
+		
+		multiply_stats = {
+			naval_range = -0.35
+			reliability = -0.075
+			naval_speed = -0.35
+		}
+		
+		can_convert_from = {
+			module_category = ship_engine_gunboat
+			convert_cost_ic = 400
+		}
+
+		can_convert_from = {
+			module = ship_engine_paddle_gunboat_0
+			convert_cost_ic = 735
+		}
+
+		can_convert_from = {
+			module = ship_engine_paddle_gunboat
+			convert_cost_ic = 735
+		}
+
+		can_convert_from = {
+			module = ship_engine_paddle_gunboat_2
+			convert_cost_ic = 735
+		}
+
+	}
+
+	ship_engine_steam_screw_gunboat_2 = { #aux engine 2 speed
+		category = ship_engine_gunboat
+		parent = ship_engine_paddle_gunboat_2
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			naval_speed = 11.25
+			fuel_consumption = 0.225
+			build_cost_ic = 490
+			naval_range = 1200
+		}
+		
+		build_cost_resources = {
+			machinery = 1
+		}
+		
+		multiply_stats = {
+			naval_range = -0.42
+			reliability = -0.075
+			naval_speed = -0.28
+		}
+		
+		can_convert_from = {
+			module_category = ship_engine_gunboat
+			convert_cost_ic = 400
+		}
+
+		can_convert_from = {
+			module = ship_engine_paddle_gunboat_0
+			convert_cost_ic = 735
+		}
+
+		can_convert_from = {
+			module = ship_engine_paddle_gunboat
+			convert_cost_ic = 735
+		}
+
+		can_convert_from = {
+			module = ship_engine_paddle_gunboat_2
+			convert_cost_ic = 735
+		}
+
+	}
+
+	ship_engine_steam_screw_gunboat_3 = { #Double-Expansion Aux Engine Range
+		category = ship_engine_gunboat
+		parent = ship_engine_steam_screw_gunboat_0
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			naval_speed = 12.25
+			fuel_consumption = 0.375
+			build_cost_ic = 795
+			naval_range = 1500
+		}
+		
+		build_cost_resources = {
+			machinery = 1
+			iron = 2
+			steel = 2
+		}
+		
+		multiply_stats = {
+			naval_range = -0.2
+			reliability = -0.05
+			naval_speed = -0.3
+		}
+		
+		can_convert_from = {
+			module_category = ship_engine_gunboat
+			convert_cost_ic = 450
+		}
+
+		can_convert_from = {
+			module = ship_engine_steam_screw_gunboat_0
+			convert_cost_ic = 365
+		}
+
+		can_convert_from = {
+			module = ship_engine_steam_screw_gunboat
+			convert_cost_ic = 365
+		}
+
+		can_convert_from = {
+			module = ship_engine_steam_screw_gunboat_2
+			convert_cost_ic = 365
+		}
+
+	}
+
+	ship_engine_steam_screw_gunboat_4 = { #Double-Expansion Aux Engine
+		category = ship_engine_gunboat
+		parent = ship_engine_steam_screw_gunboat
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			naval_speed = 12
+			fuel_consumption = 0.375
+			build_cost_ic = 795
+			naval_range = 1500
+		}
+		
+		build_cost_resources = {
+			machinery = 1
+			iron = 2
+			steel = 2
+		}
+		
+		multiply_stats = {
+			naval_range = -0.25
+			reliability = -0.05
+			naval_speed = -0.25
+		}
+		
+		can_convert_from = {
+			module_category = ship_engine_gunboat
+			convert_cost_ic = 450
+		}
+
+		can_convert_from = {
+			module = ship_engine_steam_screw_gunboat_0
+			convert_cost_ic = 365
+		}
+
+		can_convert_from = {
+			module = ship_engine_steam_screw_gunboat
+			convert_cost_ic = 365
+		}
+
+		can_convert_from = {
+			module = ship_engine_steam_screw_gunboat_2
+			convert_cost_ic = 365
+		}
+
+	}
+
+	ship_engine_steam_screw_gunboat_5 = { #Double-Expansion Aux Engine Speed
+		category = ship_engine_gunboat
+		parent = ship_engine_steam_screw_gunboat_2
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			naval_speed = 12
+			fuel_consumption = 0.375
+			build_cost_ic = 795
+			naval_range = 1500
+		}
+		
+		build_cost_resources = {
+			machinery = 1
+			iron = 2
+			steel = 2
+		}
+		
+		multiply_stats = {
+			naval_range = -0.3
+			reliability = -0.05
+			naval_speed = -0.2
+		}
+		
+		can_convert_from = {
+			module_category = ship_engine_gunboat
+			convert_cost_ic = 450
+		}
+
+		can_convert_from = {
+			module = ship_engine_steam_screw_gunboat_0
+			convert_cost_ic = 365
+		}
+
+		can_convert_from = {
+			module = ship_engine_steam_screw_gunboat
+			convert_cost_ic = 365
+		}
+
+		can_convert_from = {
+			module = ship_engine_steam_screw_gunboat_2
+			convert_cost_ic = 365
+		}
+
+	}
+
+	ship_engine_steam_screw_gunboat_6 = { #Fire Tube Boilers Range
+		category = ship_engine_gunboat
+		parent = ship_engine_steam_screw_gunboat_3
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			naval_speed = 13
+			fuel_consumption = 0.535
+			build_cost_ic = 1040
+			naval_range = 1850
+		}
+		
+		build_cost_resources = {
+			coal = 2
+		}
+		
+		multiply_stats = {
+			naval_range = -0.128
+			reliability = -0.025
+			naval_speed = -0.232
+		}
+		
+		can_convert_from = {
+			module_category = ship_engine_gunboat
+			convert_cost_ic = 750
+		}
+
+		can_convert_from = {
+			module = ship_engine_screw_gunboat_0
+			convert_cost_ic = 429
+		}
+		
+		can_convert_from = {
+			module = ship_engine_screw_gunboat_1
+			convert_cost_ic = 429
+		}
+
+		can_convert_from = {
+			module = ship_engine_screw_gunboat_2
+			convert_cost_ic = 429
+		}
+
+		can_convert_from = {
+			module = ship_engine_screw_gunboat_3
+			convert_cost_ic = 245
+		}
+		
+		can_convert_from = {
+			module = ship_engine_screw_gunboat_4
+			convert_cost_ic = 245
+		}
+
+		can_convert_from = {
+			module = ship_engine_screw_gunboat_5
+			convert_cost_ic = 245
+		}
+
+	}
+
+	ship_engine_steam_screw_gunboat_7 = { #Fire Tube Boilers
+		category = ship_engine_gunboat
+		parent = ship_engine_steam_screw_gunboat_4
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			naval_speed = 13
+			fuel_consumption = 0.535
+			build_cost_ic = 1040
+			naval_range = 1850
+		}
+		
+		build_cost_resources = {
+			coal = 2
+		}
+		
+		multiply_stats = {
+			naval_range = -0.16
+			reliability = -0.025
+			naval_speed = -0.20
+		}
+		
+		can_convert_from = {
+			module_category = ship_engine_gunboat
+			convert_cost_ic = 750
+		}
+
+		can_convert_from = {
+			module = ship_engine_screw_gunboat_0
+			convert_cost_ic = 429
+		}
+		
+		can_convert_from = {
+			module = ship_engine_screw_gunboat_1
+			convert_cost_ic = 429
+		}
+
+		can_convert_from = {
+			module = ship_engine_screw_gunboat_2
+			convert_cost_ic = 429
+		}
+
+		can_convert_from = {
+			module = ship_engine_screw_gunboat_3
+			convert_cost_ic = 245
+		}
+		
+		can_convert_from = {
+			module = ship_engine_screw_gunboat_4
+			convert_cost_ic = 245
+		}
+
+		can_convert_from = {
+			module = ship_engine_screw_gunboat_5
+			convert_cost_ic = 245
+		}
+
+	}
+
+	ship_engine_steam_screw_gunboat_8 = { #Fire Tube Boilers Speed
+		category = ship_engine_gunboat
+		parent = ship_engine_steam_screw_gunboat_5
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			naval_speed = 13
+			fuel_consumption = 0.535
+			build_cost_ic = 1040
+			naval_range = 1850
+		}
+		
+		build_cost_resources = {
+			coal = 2
+		}
+		
+		multiply_stats = {
+			naval_range = -0.128
+			reliability = -0.025
+			naval_speed = -0.232
+		}
+		
+		can_convert_from = {
+			module_category = ship_engine_gunboat
+			convert_cost_ic = 750
+		}
+
+		can_convert_from = {
+			module = ship_engine_screw_gunboat_0
+			convert_cost_ic = 429
+		}
+		
+		can_convert_from = {
+			module = ship_engine_screw_gunboat_1
+			convert_cost_ic = 429
+		}
+
+		can_convert_from = {
+			module = ship_engine_screw_gunboat_2
+			convert_cost_ic = 429
+		}
+
+		can_convert_from = {
+			module = ship_engine_screw_gunboat_3
+			convert_cost_ic = 245
+		}
+		
+		can_convert_from = {
+			module = ship_engine_screw_gunboat_4
+			convert_cost_ic = 245
+		}
+
+		can_convert_from = {
+			module = ship_engine_screw_gunboat_5
+			convert_cost_ic = 245
+		}
+
+	}
+
 	ship_engine_steam_turbines_gunboat_1 = {
 		category = ship_engine_gunboat
 		sfx = sfx_ui_sd_module_engine
@@ -256,11 +2071,12 @@ equipment_modules = {
 		}
 		
 		can_convert_from = {
-			module = ship_engine_steam_screw_gunboat_2 #from specific gunboat engine
+			module = ship_engine_steam_screw_gunboat_4 #from specific gunboat engine
 			convert_cost_ic = 70
 		}
 
 	}
+
 	ship_engine_steam_turbines_gunboat_2 = {
 		category = ship_engine_gunboat
 		sfx = sfx_ui_sd_module_engine
@@ -291,6 +2107,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_oil_turbines_gunboat_1 = {
 		category = ship_engine_gunboat
 		sfx = sfx_ui_sd_module_engine
@@ -317,6 +2134,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_oil_turbines_gunboat_2 = {
 		category = ship_engine_gunboat
 		sfx = sfx_ui_sd_module_engine
@@ -343,6 +2161,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_oil_turbines_gunboat_3 = {
 		category = ship_engine_gunboat
 		sfx = sfx_ui_sd_module_engine
@@ -369,6 +2188,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_oil_turbines_gunboat_4 = {
 		category = ship_engine_gunboat
 		sfx = sfx_ui_sd_module_engine
@@ -395,6 +2215,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_diesel_gunboat_1 = {
 		category = ship_engine_gunboat
 		sfx = sfx_ui_sd_module_engine
@@ -421,6 +2242,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_diesel_gunboat_2 = {
 		category = ship_engine_gunboat
 		sfx = sfx_ui_sd_module_engine
@@ -447,6 +2269,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_diesel_gunboat_3 = {
 		category = ship_engine_gunboat
 		sfx = sfx_ui_sd_module_engine
@@ -473,6 +2296,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_diesel_gunboat_4 = {
 		category = ship_engine_gunboat
 		sfx = sfx_ui_sd_module_engine
@@ -499,6 +2323,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_hybrid_gunboat_1 = {
 		category = ship_engine_gunboat
 		sfx = sfx_ui_sd_module_engine
@@ -525,6 +2350,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_hybrid_gunboat_2 = {
 		category = ship_engine_gunboat
 		sfx = sfx_ui_sd_module_engine
@@ -551,6 +2377,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_fusion_gunboat_1 = {
 		category = ship_engine_gunboat
 		sfx = sfx_ui_sd_module_engine
@@ -577,6 +2404,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_fusion_gunboat_2 = {
 		category = ship_engine_gunboat
 		sfx = sfx_ui_sd_module_engine
@@ -603,6 +2431,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_fusion_gunboat_3 = {
 		category = ship_engine_gunboat
 		sfx = sfx_ui_sd_module_engine
@@ -629,14 +2458,15 @@ equipment_modules = {
 		}
 
 	}
-	
-	#monitors
+
+###############monitors###################
+
 	ship_engine_paddle_monitor = {
 		category = ship_engine_monitor
 		sfx = sfx_ui_sd_module_engine
 		
 		add_stats = {
-			naval_speed = 12
+			naval_speed = 10
 			fuel_consumption = 0
 			build_cost_ic = 100
 		}
@@ -647,7 +2477,6 @@ equipment_modules = {
 		
 		multiply_stats = {
 			naval_range = 0.1
-			naval_speed = 0.1
 			reliability = -0.1
 		}
 		
@@ -657,6 +2486,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_steam_screw_monitor = {
 		category = ship_engine_monitor
 		sfx = sfx_ui_sd_module_engine
@@ -673,7 +2503,6 @@ equipment_modules = {
 		
 		multiply_stats = {
 			naval_range = 0.1
-			naval_speed = 0.1
 			reliability = -0.1
 		}
 		
@@ -688,6 +2517,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_steam_screw_monitor_2 = {
 		category = ship_engine_monitor
 		sfx = sfx_ui_sd_module_engine
@@ -719,6 +2549,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_steam_turbines_monitor_1 = {
 		category = ship_engine_monitor
 		sfx = sfx_ui_sd_module_engine
@@ -746,6 +2577,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_steam_turbines_monitor_2 = {
 		category = ship_engine_monitor
 		sfx = sfx_ui_sd_module_engine
@@ -773,6 +2605,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_oil_turbines_monitor_1 = {
 		category = ship_engine_monitor
 		sfx = sfx_ui_sd_module_engine
@@ -800,6 +2633,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_oil_turbines_monitor_2 = {
 		category = ship_engine_monitor
 		sfx = sfx_ui_sd_module_engine
@@ -827,6 +2661,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_oil_turbines_monitor_3 = {
 		category = ship_engine_monitor
 		sfx = sfx_ui_sd_module_engine
@@ -854,6 +2689,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_oil_turbines_monitor_4 = {
 		category = ship_engine_monitor
 		sfx = sfx_ui_sd_module_engine
@@ -881,6 +2717,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_diesel_monitor_1 = {
 		category = ship_engine_monitor
 		sfx = sfx_ui_sd_module_engine
@@ -908,6 +2745,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_diesel_monitor_2 = {
 		category = ship_engine_monitor
 		sfx = sfx_ui_sd_module_engine
@@ -935,6 +2773,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_diesel_monitor_3 = {
 		category = ship_engine_monitor
 		sfx = sfx_ui_sd_module_engine
@@ -962,6 +2801,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_diesel_monitor_4 = {
 		category = ship_engine_monitor
 		sfx = sfx_ui_sd_module_engine
@@ -989,6 +2829,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_hybrid_monitor_1 = {
 		category = ship_engine_monitor
 		sfx = sfx_ui_sd_module_engine
@@ -1016,6 +2857,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_hybrid_monitor_2 = {
 		category = ship_engine_monitor
 		sfx = sfx_ui_sd_module_engine
@@ -1043,6 +2885,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_fusion_monitor_1 = {
 		category = ship_engine_monitor
 		sfx = sfx_ui_sd_module_engine
@@ -1070,6 +2913,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_fusion_monitor_2 = {
 		category = ship_engine_monitor
 		sfx = sfx_ui_sd_module_engine
@@ -1097,6 +2941,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_fusion_monitor_3 = {
 		category = ship_engine_monitor
 		sfx = sfx_ui_sd_module_engine
@@ -1125,599 +2970,564 @@ equipment_modules = {
 
 	}
 	
-	
-	ship_engine_paddle_screen = {
-		category = ship_engine_screen
-		sfx = sfx_ui_sd_module_engine
-		
-		add_stats = {
-			naval_speed = 24
-			fuel_consumption = 0
-			build_cost_ic = 60
-		}
-		
-		build_cost_resources = {
-			coal = 1
-		}
-		
-		multiply_stats = {
-			naval_range = 0.05
-			naval_speed = 0.1
-			reliability = -0.1
-		}
-		
-		can_convert_from = {
-			module_category = ship_engine_screen
-			convert_cost_ic = 260
-		}
+##############cruisers, including frigate##################
 
-	}
-	ship_engine_steam_screw_screen = {
-		category = ship_engine_screen
-		sfx = sfx_ui_sd_module_engine
-		
-		add_stats = {
-			naval_speed = 28
-			fuel_consumption = 0
-			build_cost_ic = 70
-		}
-		
-		build_cost_resources = {
-			coal = 1
-		}
-		
-		multiply_stats = {
-			naval_range = 0.05
-			naval_speed = 0.1
-			reliability = -0.05
-		}
-		
-		can_convert_from = {
-			module_category = ship_engine_screen
-			convert_cost_ic = 270
-		}
-		
-		can_convert_from = {
-			module = ship_engine_paddle_screen
-			convert_cost_ic = 20
-		}
-
-	}
-	ship_engine_steam_screw_screen_2 = {
-		category = ship_engine_screen
-		sfx = sfx_ui_sd_module_engine
-		
-		add_stats = {
-			naval_speed = 31
-			fuel_consumption = 0
-			build_cost_ic = 80
-		}
-		
-		build_cost_resources = {
-			coal = 1
-		}
-		
-		multiply_stats = {
-			naval_range = 0.1
-			naval_speed = 0.1
-			reliability = -0.05
-		}
-		
-		can_convert_from = {
-			module_category = ship_engine_screen
-			convert_cost_ic = 280
-		}
-		
-		can_convert_from = {
-			module = ship_engine_steam_screw_screen
-			convert_cost_ic = 20
-		}
-
-	}
-	ship_engine_steam_turbines_screen_1 = {
-		category = ship_engine_screen
-		sfx = sfx_ui_sd_module_engine
-		
-		add_stats = {
-			naval_speed = 40
-			fuel_consumption = 0
-			build_cost_ic = 110
-		}
-		
-		build_cost_resources = {
-			coal = 1
-		}
-		
-		multiply_stats = {
-			naval_range = 0.175
-			naval_speed = 0.2
-			reliability = -0.05
-		}
-		
-		can_convert_from = {
-			module_category = ship_engine_screen
-			convert_cost_ic = 310
-		}
-		
-		can_convert_from = {
-			module = ship_engine_steam_screw_screen_2
-			convert_cost_ic = 20
-		}
-
-	}
-	ship_engine_steam_turbines_screen_2 = {
-		category = ship_engine_screen
-		sfx = sfx_ui_sd_module_engine
-		
-		add_stats = {
-			naval_speed = 19
-			fuel_consumption = 0
-			build_cost_ic = 80
-		}
-		
-		build_cost_resources = {
-			coal = 1
-		}
-		
-		multiply_stats = {
-			naval_range = 0.05
-			naval_speed = 0.05
-			reliability = -0.1
-		}
-		
-		can_convert_from = {
-			module_category = ship_engine_screen
-			convert_cost_ic = 280
-		}
-
-	}
-	ship_engine_oil_turbines_screen_1 = {
-		category = ship_engine_screen
-		sfx = sfx_ui_sd_module_engine
-		
-		add_stats = {
-			naval_speed = 22
-			fuel_consumption = 6
-			build_cost_ic = 100
-		}
-		
-		multiply_stats = {
-			naval_range = 0.1
-			naval_speed = 0.1
-			reliability = -0.1
-		}
-		
-		can_convert_from = {
-			module_category = ship_engine_screen
-			convert_cost_ic = 300
-		}
-		
-		can_convert_from = {
-			module = ship_engine_destroyer_1
-			convert_cost_ic = 25
-		}
-
-	}
-	ship_engine_oil_turbines_screen_2 = {
-		category = ship_engine_screen
-		sfx = sfx_ui_sd_module_engine
-		
-		add_stats = {
-			naval_speed = 24.5
-			fuel_consumption = 6
-			build_cost_ic = 110
-		}
-		
-		multiply_stats = {
-			naval_range = 0.1
-			naval_speed = 0.1
-			reliability = -0.05
-		}
-		
-		can_convert_from = {
-			module_category = ship_engine_screen
-			convert_cost_ic = 310
-		}
-		
-		can_convert_from = {
-			module = ship_engine_oil_turbines_screen_1
-			convert_cost_ic = 25
-		}
-
-	}
-	ship_engine_oil_turbines_screen_3 = {
-		category = ship_engine_screen
-		sfx = sfx_ui_sd_module_engine
-		
-		add_stats = {
-			naval_speed = 26
-			fuel_consumption = 7
-			build_cost_ic = 120
-		}
-		
-		multiply_stats = {
-			naval_range = 0.15
-			naval_speed = 0.1
-			reliability = -0.05
-		}
-		
-		can_convert_from = {
-			module_category = ship_engine_screen
-			convert_cost_ic = 320
-		}
-		
-		can_convert_from = {
-			module = ship_engine_oil_turbines_screen_2
-			convert_cost_ic = 25
-		}
-
-	}
-	ship_engine_oil_turbines_screen_4 = {
-		category = ship_engine_screen
-		sfx = sfx_ui_sd_module_engine
-		
-		add_stats = {
-			naval_speed = 27
-			fuel_consumption = 7
-			build_cost_ic = 125
-		}
-		
-		multiply_stats = {
-			naval_range = 0.2
-			naval_speed = 0.125
-			reliability = -0.05
-		}
-		
-		can_convert_from = {
-			module_category = ship_engine_screen
-			convert_cost_ic = 320
-		}
-		
-		can_convert_from = {
-			module = ship_engine_oil_turbines_screen_3
-			convert_cost_ic = 25
-		}
-
-	}
-	ship_engine_diesel_screen_1 = {
-		category = ship_engine_screen
-		sfx = sfx_ui_sd_module_engine
-		
-		add_stats = {
-			naval_speed = 28
-			fuel_consumption = 7
-			build_cost_ic = 130
-		}
-		
-		multiply_stats = {
-			naval_range = 0.25
-			naval_speed = 0.15
-			reliability = -0.05
-		}
-		
-		can_convert_from = {
-			module_category = ship_engine_screen
-			convert_cost_ic = 320
-		}
-		
-		can_convert_from = {
-			module = ship_engine_oil_turbines_screen_4
-			convert_cost_ic = 25
-		}
-
-	}
-	ship_engine_diesel_screen_2 = {
-		category = ship_engine_screen
-		sfx = sfx_ui_sd_module_engine
-		
-		add_stats = {
-			naval_speed = 29
-			fuel_consumption = 7
-			build_cost_ic = 135
-		}
-		
-		multiply_stats = {
-			naval_range = 0.3
-			naval_speed = 0.175
-			reliability = -0.05
-		}
-		
-		can_convert_from = {
-			module_category = ship_engine_screen
-			convert_cost_ic = 320
-		}
-		
-		can_convert_from = {
-			module = ship_engine_diesel_screen_1
-			convert_cost_ic = 25
-		}
-
-	}
-	ship_engine_diesel_screen_3 = {
-		category = ship_engine_screen
-		sfx = sfx_ui_sd_module_engine
-		
-		add_stats = {
-			naval_speed = 30
-			fuel_consumption = 7
-			build_cost_ic = 140
-		}
-		
-		multiply_stats = {
-			naval_range = 0.35
-			naval_speed = 0.2
-			reliability = -0.05
-		}
-		
-		can_convert_from = {
-			module_category = ship_engine_screen
-			convert_cost_ic = 320
-		}
-		
-		can_convert_from = {
-			module = ship_engine_diesel_screen_2
-			convert_cost_ic = 25
-		}
-
-	}
-	ship_engine_diesel_screen_4 = {
-		category = ship_engine_screen
-		sfx = sfx_ui_sd_module_engine
-		
-		add_stats = {
-			naval_speed = 31
-			fuel_consumption = 7
-			build_cost_ic = 145
-		}
-		
-		multiply_stats = {
-			naval_range = 0.4
-			naval_speed = 0.225
-			reliability = -0.05
-		}
-		
-		can_convert_from = {
-			module_category = ship_engine_screen
-			convert_cost_ic = 320
-		}
-		
-		can_convert_from = {
-			module = ship_engine_diesel_screen_3
-			convert_cost_ic = 25
-		}
-
-	}
-	ship_engine_hybrid_screen_1 = {
-		category = ship_engine_screen
-		sfx = sfx_ui_sd_module_engine
-		
-		add_stats = {
-			naval_speed = 32
-			fuel_consumption = 7
-			build_cost_ic = 150
-		}
-		
-		multiply_stats = {
-			naval_range = 0.45
-			naval_speed = 0.250
-			reliability = -0.05
-		}
-		
-		can_convert_from = {
-			module_category = ship_engine_screen
-			convert_cost_ic = 320
-		}
-		
-		can_convert_from = {
-			module = ship_engine_diesel_screen_4
-			convert_cost_ic = 25
-		}
-
-	}
-	ship_engine_hybrid_screen_2 = {
-		category = ship_engine_screen
-		sfx = sfx_ui_sd_module_engine
-		
-		add_stats = {
-			naval_speed = 33
-			fuel_consumption = 7
-			build_cost_ic = 155
-		}
-		
-		multiply_stats = {
-			naval_range = 0.5
-			naval_speed = 0.275
-			reliability = -0.05
-		}
-		
-		can_convert_from = {
-			module_category = ship_engine_screen
-			convert_cost_ic = 320
-		}
-		
-		can_convert_from = {
-			module = ship_engine_hybrid_screen_1
-			convert_cost_ic = 25
-		}
-
-	}
-	ship_engine_fusion_screen_1 = {
-		category = ship_engine_screen
-		sfx = sfx_ui_sd_module_engine
-		
-		add_stats = {
-			naval_speed = 34
-			fuel_consumption = 7
-			build_cost_ic = 160
-		}
-		
-		multiply_stats = {
-			naval_range = 0.55
-			naval_speed = 0.3
-			reliability = -0.05
-		}
-		
-		can_convert_from = {
-			module_category = ship_engine_screen
-			convert_cost_ic = 320
-		}
-		
-		can_convert_from = {
-			module = ship_engine_hybrid_screen_1
-			convert_cost_ic = 25
-		}
-
-	}
-	ship_engine_fusion_screen_2 = {
-		category = ship_engine_screen
-		sfx = sfx_ui_sd_module_engine
-		
-		add_stats = {
-			naval_speed = 35
-			fuel_consumption = 7
-			build_cost_ic = 165
-		}
-		
-		multiply_stats = {
-			naval_range = 0.6
-			naval_speed = 0.325
-			reliability = -0.05
-		}
-		
-		can_convert_from = {
-			module_category = ship_engine_screen
-			convert_cost_ic = 320
-		}
-		
-		can_convert_from = {
-			module = ship_engine_fusion_screen_1
-			convert_cost_ic = 25
-		}
-
-	}
-	ship_engine_fusion_screen_3 = {
-		category = ship_engine_screen
-		sfx = sfx_ui_sd_module_engine
-		
-		add_stats = {
-			naval_speed = 36
-			fuel_consumption = 7
-			build_cost_ic = 170
-		}
-		
-		multiply_stats = {
-			naval_range = 0.65
-			naval_speed = 0.35
-			reliability = -0.05
-		}
-		
-		can_convert_from = {
-			module_category = ship_engine_screen
-			convert_cost_ic = 320
-		}
-		
-		can_convert_from = {
-			module = ship_engine_fusion_screen_2
-			convert_cost_ic = 25
-		}
-
-	}
-	
-	
-	ship_engine_paddle_cruiser = {
+	ship_engine_paddle_cruiser_0 = { #aux engine range
 		category = ship_engine_cruiser
 		sfx = sfx_ui_sd_module_engine
 		
 		add_stats = {
-			naval_speed = 24
-			fuel_consumption = 0
-			build_cost_ic = 60
+			naval_speed = 9.75
+			fuel_consumption = 0.35
+			build_cost_ic = 700
+			naval_range = 2500
 		}
 		
 		build_cost_resources = {
-			coal = 1
+			machinery = 1
+			steel = 1
 		}
 		
 		multiply_stats = {
-			naval_range = 0.05
-			naval_speed = 0.1
+			naval_range = -0.36
 			reliability = -0.1
+			naval_speed = -0.54
+			lg_attack = -0.25
+			hg_attack = -0.25
 		}
 		
 		can_convert_from = {
 			module_category = ship_engine_cruiser
-			convert_cost_ic = 260
+			convert_cost_ic = 1400
 		}
 
 	}
-	ship_engine_steam_screw_cruiser = {
+
+	ship_engine_paddle_cruiser_1 = { #aux engine
 		category = ship_engine_cruiser
 		sfx = sfx_ui_sd_module_engine
 		
 		add_stats = {
-			naval_speed = 28
-			fuel_consumption = 0
-			build_cost_ic = 70
+			naval_speed = 9.75
+			fuel_consumption = 0.35
+			build_cost_ic = 700
+			naval_range = 2500
 		}
 		
 		build_cost_resources = {
-			coal = 1
+			machinery = 1
+			steel = 1
 		}
 		
 		multiply_stats = {
-			naval_range = 0.05
-			naval_speed = 0.1
-			reliability = -0.05
+			naval_range = -0.45
+			reliability = -0.1
+			naval_speed = -0.45
+			lg_attack = -0.25
+			hg_attack = -0.25
 		}
 		
 		can_convert_from = {
 			module_category = ship_engine_cruiser
-			convert_cost_ic = 270
-		}
-		
-		can_convert_from = {
-			module = ship_engine_paddle_cruiser
-			convert_cost_ic = 20
+			convert_cost_ic = 1400
 		}
 
 	}
-	ship_engine_steam_screw_cruiser_2 = {
+
+	ship_engine_paddle_cruiser_2 = { #aux engine speed
 		category = ship_engine_cruiser
 		sfx = sfx_ui_sd_module_engine
 		
 		add_stats = {
-			naval_speed = 31
-			fuel_consumption = 0
-			build_cost_ic = 80
+			naval_speed = 9.75
+			fuel_consumption = 0.35
+			build_cost_ic = 700
+			naval_range = 2500
 		}
 		
 		build_cost_resources = {
-			coal = 1
+			machinery = 1
+			steel = 1
 		}
 		
 		multiply_stats = {
-			naval_range = 0.1
-			naval_speed = 0.1
-			reliability = -0.05
+			naval_range = -0.54
+			reliability = -0.1
+			naval_speed = -0.36
+			lg_attack = -0.25
+			hg_attack = -0.25
 		}
 		
 		can_convert_from = {
 			module_category = ship_engine_cruiser
-			convert_cost_ic = 280
+			convert_cost_ic = 1400
+		}
+
+	}
+	##################
+
+	ship_engine_steam_screw_cruiser_0 = { #aux engine range
+		category = ship_engine_cruiser
+		parent = ship_engine_paddle_cruiser_0
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			naval_speed = 10.25
+			fuel_consumption = 0.5
+			build_cost_ic = 1075
+			naval_range = 3000
 		}
 		
+		build_cost_resources = {
+			machinery = 1
+			iron = 2
+			steel = 2
+		}
+		
+		multiply_stats = {
+			naval_range = -0.28
+			reliability = -0.075
+			naval_speed = -0.42
+		}
+		
+		can_convert_from = {
+			module_category = ship_engine_cruiser
+			convert_cost_ic = 1250
+		}
+
+		can_convert_from = {
+			module = ship_engine_paddle_cruiser_0
+			convert_cost_ic = 1600
+		}
+
+		can_convert_from = {
+			module = ship_engine_paddle_cruiser_1
+			convert_cost_ic = 1600
+		}
+
+		can_convert_from = {
+			module = ship_engine_paddle_cruiser_2
+			convert_cost_ic = 1600
+		}
+
+	}
+
+	ship_engine_steam_screw_cruiser = { #aux engine
+		category = ship_engine_cruiser
+		parent = ship_engine_paddle_cruiser_1
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			naval_speed = 10.25
+			fuel_consumption = 0.5
+			build_cost_ic = 1075
+			naval_range = 3000
+		}
+		
+		build_cost_resources = {
+			machinery = 1
+			iron = 2
+			steel = 2
+		}
+		
+		multiply_stats = {
+			naval_range = -0.35
+			reliability = -0.075
+			naval_speed = -0.35
+		}
+		
+		can_convert_from = {
+			module_category = ship_engine_cruiser
+			convert_cost_ic = 1250
+		}
+
+		can_convert_from = {
+			module = ship_engine_paddle_cruiser_0
+			convert_cost_ic = 1600
+		}
+
+		can_convert_from = {
+			module = ship_engine_paddle_cruiser_1
+			convert_cost_ic = 1600
+		}
+
+		can_convert_from = {
+			module = ship_engine_paddle_cruiser_2
+			convert_cost_ic = 1600
+		}
+
+	}
+
+	ship_engine_steam_screw_cruiser_2 = { #aux engine speed
+		category = ship_engine_cruiser
+		parent = ship_engine_paddle_cruiser_2
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			naval_speed = 10.25
+			fuel_consumption = 0.5
+			build_cost_ic = 1075
+			naval_range = 3000
+		}
+		
+		build_cost_resources = {
+			machinery = 1
+			iron = 2
+			steel = 2
+		}
+		
+		multiply_stats = {
+			naval_range = -0.42
+			reliability = -0.075
+			naval_speed = -0.28
+		}
+		
+		can_convert_from = {
+			module_category = ship_engine_cruiser
+			convert_cost_ic = 1250
+		}
+
+		can_convert_from = {
+			module = ship_engine_paddle_cruiser_0
+			convert_cost_ic = 1600
+		}
+
+		can_convert_from = {
+			module = ship_engine_paddle_cruiser_1
+			convert_cost_ic = 1600
+		}
+
+		can_convert_from = {
+			module = ship_engine_paddle_cruiser_2
+			convert_cost_ic = 1600
+		}
+
+	}
+
+	ship_engine_steam_screw_cruiser_3 = { #aux engine range
+		category = ship_engine_cruiser
+		parent = ship_engine_steam_screw_cruiser_0
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			naval_speed = 10.75
+			fuel_consumption = 0.835
+			build_cost_ic = 1750
+			naval_range = 3750
+		}
+		
+		build_cost_resources = {
+			machinery = 2
+			iron = 1
+			steel = 1
+		}
+		
+		multiply_stats = {
+			naval_range = -0.2
+			reliability = -0.05
+			naval_speed = -0.3
+		}
+		
+		can_convert_from = {
+			module_category = ship_engine_cruiser
+			convert_cost_ic = 2250
+		}
+
+		can_convert_from = {
+			module = ship_engine_steam_screw_cruiser_0
+			convert_cost_ic = 810
+		}
+
 		can_convert_from = {
 			module = ship_engine_steam_screw_cruiser
-			convert_cost_ic = 20
+			convert_cost_ic = 810
+		}
+
+		can_convert_from = {
+			module = ship_engine_steam_screw_cruiser_2
+			convert_cost_ic = 810
 		}
 
 	}
+
+	ship_engine_steam_screw_cruiser_4 = { #aux engine
+		category = ship_engine_cruiser
+		parent = ship_engine_steam_screw_cruiser
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			naval_speed = 10.75
+			fuel_consumption = 0.835
+			build_cost_ic = 1750
+			naval_range = 3750
+		}
+		
+		build_cost_resources = {
+			machinery = 2
+			iron = 1
+			steel = 1
+		}
+		
+		multiply_stats = {
+			naval_range = -0.25
+			reliability = -0.05
+			naval_speed = -0.25
+		}
+		
+		can_convert_from = {
+			module_category = ship_engine_cruiser
+			convert_cost_ic = 2250
+		}
+
+		can_convert_from = {
+			module = ship_engine_steam_screw_cruiser_0
+			convert_cost_ic = 810
+		}
+
+		can_convert_from = {
+			module = ship_engine_steam_screw_cruiser
+			convert_cost_ic = 810
+		}
+
+		can_convert_from = {
+			module = ship_engine_steam_screw_cruiser_2
+			convert_cost_ic = 810
+		}
+
+	}
+
+	ship_engine_steam_screw_cruiser_5 = { #aux engine speed
+		category = ship_engine_cruiser
+		parent = ship_engine_steam_screw_cruiser_2
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			naval_speed = 10.75
+			fuel_consumption = 0.835
+			build_cost_ic = 1750
+			naval_range = 3750
+		}
+		
+		build_cost_resources = {
+			machinery = 2
+			iron = 1
+			steel = 1
+		}
+		
+		multiply_stats = {
+			naval_range = -0.3
+			reliability = -0.05
+			naval_speed = -0.2
+		}
+		
+		can_convert_from = {
+			module_category = ship_engine_cruiser
+			convert_cost_ic = 2250
+		}
+
+		can_convert_from = {
+			module = ship_engine_steam_screw_cruiser_0
+			convert_cost_ic = 810
+		}
+
+		can_convert_from = {
+			module = ship_engine_steam_screw_cruiser
+			convert_cost_ic = 810
+		}
+
+		can_convert_from = {
+			module = ship_engine_steam_screw_cruiser_2
+			convert_cost_ic = 810
+		}
+
+	}
+
+	ship_engine_steam_screw_cruiser_6 = {#screw 3 engine #fire tube boiler range
+		category = ship_engine_cruiser
+		parent = ship_engine_steam_screw_cruiser_3
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			naval_speed = 11.5
+			fuel_consumption = 1.169
+			build_cost_ic = 2290
+			naval_range = 4625
+		}
+		
+		build_cost_resources = {
+			machinery = 2
+			iron = 2
+			steel = 3
+		}
+		
+		multiply_stats = {
+			naval_range = -0.128
+			reliability = -0.025
+			naval_speed = -0.232
+		}
+		
+		can_convert_from = {
+			module_category = ship_engine_cruiser
+			convert_cost_ic = 1675
+		}
+
+		can_convert_from = {
+			module = ship_engine_screw_cruiser_0
+			convert_cost_ic = 945
+		}
+		
+		can_convert_from = {
+			module = ship_engine_screw_cruiser_1
+			convert_cost_ic = 945
+		}
+
+		can_convert_from = {
+			module = ship_engine_screw_cruiser_2
+			convert_cost_ic = 945
+		}
+
+		can_convert_from = {
+			module = ship_engine_screw_cruiser_3
+			convert_cost_ic = 540
+		}
+		
+		can_convert_from = {
+			module = ship_engine_screw_cruiser_4
+			convert_cost_ic = 540
+		}
+
+		can_convert_from = {
+			module = ship_engine_screw_cruiser_5
+			convert_cost_ic = 540
+		}
+	}
+
+	ship_engine_steam_screw_cruiser_7 = {#screw 3 engine #fire tube boiler
+		category = ship_engine_cruiser
+		parent = ship_engine_steam_screw_cruiser_4
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			naval_speed = 11.5
+			fuel_consumption = 1.169
+			build_cost_ic = 2290
+			naval_range = 4625
+		}
+		
+		build_cost_resources = {
+			machinery = 2
+			iron = 2
+			steel = 3
+		}
+		
+		multiply_stats = {
+			naval_range = -0.16
+			reliability = -0.025
+			naval_speed = -0.20
+		}
+		
+		can_convert_from = {
+			module_category = ship_engine_cruiser
+			convert_cost_ic = 1675
+		}
+
+		can_convert_from = {
+			module = ship_engine_screw_cruiser_0
+			convert_cost_ic = 945
+		}
+		
+		can_convert_from = {
+			module = ship_engine_screw_cruiser_1
+			convert_cost_ic = 945
+		}
+
+		can_convert_from = {
+			module = ship_engine_screw_cruiser_2
+			convert_cost_ic = 945
+		}
+
+		can_convert_from = {
+			module = ship_engine_screw_cruiser_3
+			convert_cost_ic = 540
+		}
+		
+		can_convert_from = {
+			module = ship_engine_screw_cruiser_4
+			convert_cost_ic = 540
+		}
+
+		can_convert_from = {
+			module = ship_engine_screw_cruiser_5
+			convert_cost_ic = 540
+		}
+	}
+
+	ship_engine_steam_screw_cruiser_8 = {#screw 3 engine #fire tube boiler speed
+		category = ship_engine_cruiser
+		parent = ship_engine_steam_screw_cruiser_5
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			naval_speed = 11.5
+			fuel_consumption = 1.169
+			build_cost_ic = 2290
+			naval_range = 4625
+		}
+		
+		build_cost_resources = {
+			machinery = 2
+			iron = 2
+			steel = 3
+		}
+		
+		multiply_stats = {
+			naval_range = -0.192
+			reliability = -0.025
+			naval_speed = -0.168
+		}
+		
+		can_convert_from = {
+			module_category = ship_engine_cruiser
+			convert_cost_ic = 1675
+		}
+
+		can_convert_from = {
+			module = ship_engine_screw_cruiser_0
+			convert_cost_ic = 945
+		}
+		
+		can_convert_from = {
+			module = ship_engine_screw_cruiser_1
+			convert_cost_ic = 945
+		}
+
+		can_convert_from = {
+			module = ship_engine_screw_cruiser_2
+			convert_cost_ic = 945
+		}
+
+		can_convert_from = {
+			module = ship_engine_screw_cruiser_3
+			convert_cost_ic = 540
+		}
+		
+		can_convert_from = {
+			module = ship_engine_screw_cruiser_4
+			convert_cost_ic = 540
+		}
+
+		can_convert_from = {
+			module = ship_engine_screw_cruiser_5
+			convert_cost_ic = 540
+		}
+	}
+
 	ship_engine_steam_turbines_cruiser_1 = {
 		category = ship_engine_cruiser
 		sfx = sfx_ui_sd_module_engine
 		
 		add_stats = {
-			naval_speed = 40
+			naval_speed = 17
 			fuel_consumption = 0
 			build_cost_ic = 110
 		}
@@ -1738,11 +3548,12 @@ equipment_modules = {
 		}
 		
 		can_convert_from = {
-			module = ship_engine_steam_screw_cruiser_2
+			module = ship_engine_steam_screw_cruiser_4
 			convert_cost_ic = 20
 		}
 
 	}
+
 	ship_engine_steam_turbines_cruiser_2 = {
 		category = ship_engine_cruiser
 		sfx = sfx_ui_sd_module_engine
@@ -1769,6 +3580,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_oil_turbines_cruiser_1 = {
 		category = ship_engine_cruiser
 		sfx = sfx_ui_sd_module_engine
@@ -1796,6 +3608,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_oil_turbines_cruiser_2 = {
 		category = ship_engine_cruiser
 		sfx = sfx_ui_sd_module_engine
@@ -1823,6 +3636,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_oil_turbines_cruiser_3 = {
 		category = ship_engine_cruiser
 		sfx = sfx_ui_sd_module_engine
@@ -1850,6 +3664,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_oil_turbines_cruiser_4 = {
 		category = ship_engine_cruiser
 		sfx = sfx_ui_sd_module_engine
@@ -1877,6 +3692,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_diesel_cruiser_1 = {
 		category = ship_engine_cruiser
 		sfx = sfx_ui_sd_module_engine
@@ -1904,6 +3720,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_diesel_cruiser_2 = {
 		category = ship_engine_cruiser
 		sfx = sfx_ui_sd_module_engine
@@ -1931,6 +3748,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_diesel_cruiser_3 = {
 		category = ship_engine_cruiser
 		sfx = sfx_ui_sd_module_engine
@@ -1958,6 +3776,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_diesel_cruiser_4 = {
 		category = ship_engine_cruiser
 		sfx = sfx_ui_sd_module_engine
@@ -1985,6 +3804,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_hybrid_cruiser_1 = {
 		category = ship_engine_cruiser
 		sfx = sfx_ui_sd_module_engine
@@ -2012,6 +3832,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_hybrid_cruiser_2 = {
 		category = ship_engine_cruiser
 		sfx = sfx_ui_sd_module_engine
@@ -2039,6 +3860,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_fusion_cruiser_1 = {
 		category = ship_engine_cruiser
 		sfx = sfx_ui_sd_module_engine
@@ -2066,6 +3888,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_fusion_cruiser_2 = {
 		category = ship_engine_cruiser
 		sfx = sfx_ui_sd_module_engine
@@ -2093,6 +3916,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_fusion_cruiser_3 = {
 		category = ship_engine_cruiser
 		sfx = sfx_ui_sd_module_engine
@@ -2121,100 +3945,1576 @@ equipment_modules = {
 
 	}
 	
-	ship_engine_paddle_capital = {
+##########capitals, including lineship###############
+
+	ship_engine_paddle_capital_0 = { #aux engine range
 		category = ship_engine_capital
 		sfx = sfx_ui_sd_module_engine
-		
+
 		add_stats = {
-			naval_speed = 24
-			fuel_consumption = 0
-			build_cost_ic = 60
+			naval_speed = 9
+			fuel_consumption = 0.65
+			build_cost_ic = 1300
+			naval_range = 3200
 		}
 		
 		build_cost_resources = {
-			coal = 1
+			machinery = 1
+			iron = 1
+			steel = 1
 		}
 		
 		multiply_stats = {
-			naval_range = 0.05
-			naval_speed = 0.1
+			naval_range = -0.36
 			reliability = -0.1
+			naval_speed = -0.54
+			lg_attack = -0.25
+			hg_attack = -0.25
 		}
 		
 		can_convert_from = {
 			module_category = ship_engine_capital
-			convert_cost_ic = 260
+			convert_cost_ic = 1250
 		}
 
 	}
-	ship_engine_steam_screw_capital = {
+
+	ship_engine_paddle_capital_1 = { #aux engine
 		category = ship_engine_capital
 		sfx = sfx_ui_sd_module_engine
-		
+
 		add_stats = {
-			naval_speed = 28
-			fuel_consumption = 0
-			build_cost_ic = 70
+			naval_speed = 9
+			fuel_consumption = 0.65
+			build_cost_ic = 1300
+			naval_range = 3200
 		}
 		
 		build_cost_resources = {
-			coal = 1
+			machinery = 1
+			iron = 1
+			steel = 1
 		}
 		
 		multiply_stats = {
-			naval_range = 0.05
-			naval_speed = 0.1
-			reliability = -0.05
+			naval_range = -0.45
+			reliability = -0.1
+			naval_speed = -0.45
+			lg_attack = -0.25
+			hg_attack = -0.25
 		}
 		
 		can_convert_from = {
 			module_category = ship_engine_capital
-			convert_cost_ic = 270
-		}
-		
-		can_convert_from = {
-			module = ship_engine_paddle_capital
-			convert_cost_ic = 20
+			convert_cost_ic = 1250
 		}
 
 	}
-	ship_engine_steam_screw_capital_2 = {
+
+	ship_engine_paddle_capital_2 = { #aux engine speed
 		category = ship_engine_capital
 		sfx = sfx_ui_sd_module_engine
-		
+
 		add_stats = {
-			naval_speed = 31
-			fuel_consumption = 0
-			build_cost_ic = 80
+			naval_speed = 9
+			fuel_consumption = 0.65
+			build_cost_ic = 1300
+			naval_range = 3200
 		}
 		
 		build_cost_resources = {
-			coal = 1
+			machinery = 1
+			iron = 1
+			steel = 1
 		}
 		
 		multiply_stats = {
-			naval_range = 0.1
-			naval_speed = 0.1
-			reliability = -0.05
+			naval_range = -0.54
+			reliability = -0.1
+			naval_speed = -0.36
+			lg_attack = -0.25
+			hg_attack = -0.25
 		}
 		
 		can_convert_from = {
 			module_category = ship_engine_capital
-			convert_cost_ic = 280
+			convert_cost_ic = 1250
+		}
+
+	}
+
+	ship_capital_paddle_engine_boost_10 = {
+		category = capital_engine_boost_series_0
+		#parent = 
+		#sfx = 
+
+		add_stats = {
+			naval_speed = 0.8
+		}
+
+		multiply_stats = {
+			naval_speed = -0.01
+			fuel_consumption = 0.0275
+			naval_range = -0.02
+			build_cost_ic = 0.01
+		}
+	}
+
+	ship_capital_paddle_engine_boost_11 = {
+		category = capital_engine_boost_series_0
+		#parent = 
+		#sfx = 
+
+		add_stats = {
+			naval_speed = 1.6
+		}
+
+		multiply_stats = {
+			naval_speed = -0.02
+			fuel_consumption = 0.055
+			naval_range = -0.04
+			build_cost_ic = 0.02
+		}
+	}
+
+	ship_capital_paddle_engine_boost_12 = {
+		category = capital_engine_boost_series_0
+		#parent = 
+		#sfx = 
+
+		add_stats = {
+			naval_speed = 2.4000000000000004
+		}
+
+		multiply_stats = {
+			naval_speed = -0.03
+			fuel_consumption = 0.0825
+			naval_range = -0.06
+			build_cost_ic = 0.03
+		}
+	}
+
+	ship_capital_paddle_engine_boost_13 = {
+		category = capital_engine_boost_series_0
+		#parent = 
+		#sfx = 
+
+		add_stats = {
+			naval_speed = 3.2
+		}
+
+		multiply_stats = {
+			naval_speed = -0.04
+			fuel_consumption = 0.11
+			naval_range = -0.08
+			build_cost_ic = 0.04
+		}
+	}
+
+	ship_capital_paddle_engine_boost_14 = {
+		category = capital_engine_boost_series_0
+		#parent = 
+		#sfx = 
+
+		add_stats = {
+			naval_speed = 4.0
+		}
+
+		multiply_stats = {
+			naval_speed = -0.05
+			fuel_consumption = 0.1375
+			naval_range = -0.1
+			build_cost_ic = 0.05
+		}
+	}
+
+	ship_capital_paddle_engine_boost_15 = {
+		category = capital_engine_boost_series_0
+		#parent = 
+		#sfx = 
+
+		add_stats = {
+			naval_speed = 4.800000000000001
+		}
+
+		multiply_stats = {
+			naval_speed = -0.06
+			fuel_consumption = 0.165
+			naval_range = -0.12
+			build_cost_ic = 0.06
+		}
+	}
+
+	ship_capital_paddle_engine_boost_16 = {
+		category = capital_engine_boost_series_0
+		#parent = 
+		#sfx = 
+
+		add_stats = {
+			naval_speed = 5.6000000000000005
+		}
+
+		multiply_stats = {
+			naval_speed = -0.07
+			fuel_consumption = 0.1925
+			naval_range = -0.14
+			build_cost_ic = 0.07
+		}
+	}
+
+	ship_capital_paddle_engine_boost_17 = {
+		category = capital_engine_boost_series_0
+		#parent = 
+		#sfx = 
+
+		add_stats = {
+			naval_speed = 6.4
+		}
+
+		multiply_stats = {
+			naval_speed = -0.08
+			fuel_consumption = 0.22
+			naval_range = -0.16
+			build_cost_ic = 0.08
+		}
+	}
+
+	ship_capital_paddle_engine_boost_18 = {
+		category = capital_engine_boost_series_0
+		#parent = 
+		#sfx = 
+
+		add_stats = {
+			naval_speed = 7.2
+		}
+
+		multiply_stats = {
+			naval_speed = -0.09
+			fuel_consumption = 0.2475
+			naval_range = -0.18
+			build_cost_ic = 0.09
+		}
+	}
+
+	ship_capital_paddle_engine_boost_19 = {
+		category = capital_engine_boost_series_0
+		#parent = 
+		#sfx = 
+
+		add_stats = {
+			naval_speed = 8.0
+		}
+
+		multiply_stats = {
+			naval_speed = -0.1
+			fuel_consumption = 0.275
+			naval_range = -0.2
+			build_cost_ic = 0.1
+		}
+	}
+
+	ship_capital_paddle_engine_boost_20 = {
+		category = capital_engine_boost_series_0
+		#parent = 
+		#sfx = 
+
+		add_stats = {
+			naval_speed = 8.8
+		}
+
+		multiply_stats = {
+			naval_speed = -0.11
+			fuel_consumption = 0.3025
+			naval_range = -0.22
+			build_cost_ic = 0.11
+		}
+	}
+
+	ship_capital_paddle_engine_boost_21 = {
+		category = capital_engine_boost_series_0
+		#parent = 
+		#sfx = 
+
+		add_stats = {
+			naval_speed = 9.600000000000001
+		}
+
+		multiply_stats = {
+			naval_speed = -0.12
+			fuel_consumption = 0.33
+			naval_range = -0.24
+			build_cost_ic = 0.12
+		}
+	}
+
+	ship_capital_paddle_engine_boost_22 = {
+		category = capital_engine_boost_series_0
+		#parent = 
+		#sfx = 
+
+		add_stats = {
+			naval_speed = 10.4
+		}
+
+		multiply_stats = {
+			naval_speed = -0.13
+			fuel_consumption = 0.3575
+			naval_range = -0.26
+			build_cost_ic = 0.13
+		}
+	}
+
+	ship_capital_paddle_engine_boost_23 = {
+		category = capital_engine_boost_series_0
+		#parent = 
+		#sfx = 
+
+		add_stats = {
+			naval_speed = 11.200000000000001
+		}
+
+		multiply_stats = {
+			naval_speed = -0.14
+			fuel_consumption = 0.385
+			naval_range = -0.28
+			build_cost_ic = 0.14
+		}
+	}
+
+	ship_capital_paddle_engine_boost_24 = {
+		category = capital_engine_boost_series_0
+		#parent = 
+		#sfx = 
+
+		add_stats = {
+			naval_speed = 12.0
+		}
+
+		multiply_stats = {
+			naval_speed = -0.15
+			fuel_consumption = 0.4125
+			naval_range = -0.3
+			build_cost_ic = 0.15
+		}
+	}
+
+	ship_capital_paddle_engine_boost_25 = {
+		category = capital_engine_boost_series_0
+		#parent = 
+		#sfx = 
+
+		add_stats = {
+			naval_speed = 12.8
+		}
+
+		multiply_stats = {
+			naval_speed = -0.16
+			fuel_consumption = 0.44
+			naval_range = -0.32
+			build_cost_ic = 0.16
+		}
+	}
+
+	ship_capital_paddle_engine_boost_26 = {
+		category = capital_engine_boost_series_0
+		#parent = 
+		#sfx = 
+
+		add_stats = {
+			naval_speed = 13.600000000000001
+		}
+
+		multiply_stats = {
+			naval_speed = -0.17
+			fuel_consumption = 0.4675
+			naval_range = -0.34
+			build_cost_ic = 0.17
+		}
+	}
+
+	ship_capital_paddle_engine_boost_27 = {
+		category = capital_engine_boost_series_0
+		#parent = 
+		#sfx = 
+
+		add_stats = {
+			naval_speed = 14.4
+		}
+
+		multiply_stats = {
+			naval_speed = -0.18
+			fuel_consumption = 0.495
+			naval_range = -0.36
+			build_cost_ic = 0.18
+		}
+	}
+
+	ship_capital_paddle_engine_boost_28 = {
+		category = capital_engine_boost_series_0
+		#parent = 
+		#sfx = 
+
+		add_stats = {
+			naval_speed = 15.200000000000001
+		}
+
+		multiply_stats = {
+			naval_speed = -0.19
+			fuel_consumption = 0.5225
+			naval_range = -0.38
+			build_cost_ic = 0.19
+		}
+	}
+
+	ship_capital_paddle_engine_boost_29 = {
+		category = capital_engine_boost_series_0
+		#parent = 
+		#sfx = 
+
+		add_stats = {
+			naval_speed = 16.0
+		}
+
+		multiply_stats = {
+			naval_speed = -0.2
+			fuel_consumption = 0.55
+			naval_range = -0.4
+			build_cost_ic = 0.2
+		}
+	}
+	
+	ship_engine_steam_screw_capital_0 = { #single expansion range variant
+		category = ship_engine_capital
+		parent = ship_engine_paddle_capital_0
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			naval_speed = 9.25
+			fuel_consumption = 0.975
+			build_cost_ic = 2000
+			naval_range = 3840
 		}
 		
+		build_cost_resources = {
+			machinery = 2
+		}
+		
+		multiply_stats = {
+			naval_range = -0.28
+			reliability = -0.075
+			naval_speed = -0.42
+		}
+		
+		can_convert_from = {
+			module_category = ship_engine_capital
+			convert_cost_ic = 2500
+		}
+
+		can_convert_from = {
+			module = ship_engine_paddle_capital_0
+			convert_cost_ic = 3000
+		}
+
+		can_convert_from = {
+			module = ship_engine_paddle_capital_1
+			convert_cost_ic = 3000
+		}
+
+		can_convert_from = {
+			module = ship_engine_paddle_capital_2
+			convert_cost_ic = 3000
+		}
+
+	}
+
+	ship_engine_steam_screw_capital = { #single expansion variant
+		category = ship_engine_capital
+		parent = ship_engine_paddle_capital_1
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			naval_speed = 9.25
+			fuel_consumption = 0.975
+			build_cost_ic = 2000
+			naval_range = 3840
+		}
+		
+		build_cost_resources = {
+			machinery = 2
+		}
+		
+		multiply_stats = {
+			naval_range = -0.35
+			reliability = -0.075
+			naval_speed = -0.35
+		}
+		
+		can_convert_from = {
+			module_category = ship_engine_capital
+			convert_cost_ic = 2500
+		}
+
+		can_convert_from = {
+			module = ship_engine_paddle_capital_0
+			convert_cost_ic = 3000
+		}
+
+		can_convert_from = {
+			module = ship_engine_paddle_capital_1
+			convert_cost_ic = 3000
+		}
+
+		can_convert_from = {
+			module = ship_engine_paddle_capital_2
+			convert_cost_ic = 3000
+		}
+
+	}
+
+	ship_engine_steam_screw_capital_2 = { #single expansion speed variant
+		category = ship_engine_capital
+		parent = ship_engine_paddle_capital_2
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			naval_speed = 9.25
+			fuel_consumption = 0.975
+			build_cost_ic = 2000
+			naval_range = 3840
+		}
+		
+		build_cost_resources = {
+			machinery = 2
+		}
+		
+		multiply_stats = {
+			naval_range = -0.42
+			reliability = -0.075
+			naval_speed = -0.28
+		}
+		
+		can_convert_from = {
+			module_category = ship_engine_capital
+			convert_cost_ic = 2500
+		}
+
+		can_convert_from = {
+			module = ship_engine_paddle_capital_0
+			convert_cost_ic = 3000
+		}
+
+		can_convert_from = {
+			module = ship_engine_paddle_capital_1
+			convert_cost_ic = 3000
+		}
+
+		can_convert_from = {
+			module = ship_engine_paddle_capital_2
+			convert_cost_ic = 3000
+		}
+
+	}
+
+	ship_capital_single_exp_boost_10 = {
+		category = capital_engine_boost_series_1
+		parent = ship_capital_paddle_engine_boost_10
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			naval_speed = 0.9
+		}
+
+		multiply_stats = {
+			naval_speed = -0.012
+			fuel_consumption = 0.0225
+			naval_range = -0.0175
+			build_cost_ic = 0.01
+		}
+	}
+
+	ship_capital_single_exp_boost_11 = {
+		category = capital_engine_boost_series_1
+		parent = ship_capital_paddle_engine_boost_11
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			naval_speed = 1.8
+		}
+
+		multiply_stats = {
+			naval_speed = -0.024
+			fuel_consumption = 0.045
+			naval_range = -0.035
+			build_cost_ic = 0.02
+		}
+	}
+
+	ship_capital_single_exp_boost_12 = {
+		category = capital_engine_boost_series_1
+		parent = ship_capital_paddle_engine_boost_12
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			naval_speed = 2.7
+		}
+
+		multiply_stats = {
+			naval_speed = -0.036000000000000004
+			fuel_consumption = 0.0675
+			naval_range = -0.052500000000000005
+			build_cost_ic = 0.03
+		}
+	}
+
+	ship_capital_single_exp_boost_13 = {
+		category = capital_engine_boost_series_1
+		parent = ship_capital_paddle_engine_boost_13
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			naval_speed = 3.6
+		}
+
+		multiply_stats = {
+			naval_speed = -0.048
+			fuel_consumption = 0.09
+			naval_range = -0.07
+			build_cost_ic = 0.04
+		}
+	}
+
+	ship_capital_single_exp_boost_14 = {
+		category = capital_engine_boost_series_1
+		parent = ship_capital_paddle_engine_boost_14
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			naval_speed = 4.5
+		}
+
+		multiply_stats = {
+			naval_speed = -0.06
+			fuel_consumption = 0.11249999999999999
+			naval_range = -0.08750000000000001
+			build_cost_ic = 0.05
+		}
+	}
+
+	ship_capital_single_exp_boost_15 = {
+		category = capital_engine_boost_series_1
+		parent = ship_capital_paddle_engine_boost_15
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			naval_speed = 5.4
+		}
+
+		multiply_stats = {
+			naval_speed = -0.07200000000000001
+			fuel_consumption = 0.135
+			naval_range = -0.10500000000000001
+			build_cost_ic = 0.06
+		}
+	}
+
+	ship_capital_single_exp_boost_16 = {
+		category = capital_engine_boost_series_1
+		parent = ship_capital_paddle_engine_boost_16
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			naval_speed = 6.3
+		}
+
+		multiply_stats = {
+			naval_speed = -0.084
+			fuel_consumption = 0.1575
+			naval_range = -0.12250000000000001
+			build_cost_ic = 0.07
+		}
+	}
+
+	ship_capital_single_exp_boost_17 = {
+		category = capital_engine_boost_series_1
+		parent = ship_capital_paddle_engine_boost_17
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			naval_speed = 7.2
+		}
+
+		multiply_stats = {
+			naval_speed = -0.096
+			fuel_consumption = 0.18
+			naval_range = -0.14
+			build_cost_ic = 0.08
+		}
+	}
+
+	ship_capital_single_exp_boost_18 = {
+		category = capital_engine_boost_series_1
+		parent = ship_capital_paddle_engine_boost_18
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			naval_speed = 8.1
+		}
+
+		multiply_stats = {
+			naval_speed = -0.108
+			fuel_consumption = 0.20249999999999999
+			naval_range = -0.15750000000000003
+			build_cost_ic = 0.09
+		}
+	}
+
+	ship_capital_single_exp_boost_19 = {
+		category = capital_engine_boost_series_1
+		parent = ship_capital_paddle_engine_boost_19
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			naval_speed = 9.0
+		}
+
+		multiply_stats = {
+			naval_speed = -0.12
+			fuel_consumption = 0.22499999999999998
+			naval_range = -0.17500000000000002
+			build_cost_ic = 0.1
+		}
+	}
+
+	ship_capital_single_exp_boost_20 = {
+		category = capital_engine_boost_series_1
+		parent = ship_capital_paddle_engine_boost_20
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			naval_speed = 9.9
+		}
+
+		multiply_stats = {
+			naval_speed = -0.132
+			fuel_consumption = 0.2475
+			naval_range = -0.1925
+			build_cost_ic = 0.11
+		}
+	}
+
+	ship_capital_single_exp_boost_21 = {
+		category = capital_engine_boost_series_1
+		parent = ship_capital_paddle_engine_boost_21
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			naval_speed = 10.8
+		}
+
+		multiply_stats = {
+			naval_speed = -0.14400000000000002
+			fuel_consumption = 0.27
+			naval_range = -0.21000000000000002
+			build_cost_ic = 0.12
+		}
+	}
+
+	ship_capital_single_exp_boost_22 = {
+		category = capital_engine_boost_series_1
+		parent = ship_capital_paddle_engine_boost_22
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			naval_speed = 11.700000000000001
+		}
+
+		multiply_stats = {
+			naval_speed = -0.156
+			fuel_consumption = 0.2925
+			naval_range = -0.22750000000000004
+			build_cost_ic = 0.13
+		}
+	}
+
+	ship_capital_single_exp_boost_23 = {
+		category = capital_engine_boost_series_1
+		parent = ship_capital_paddle_engine_boost_23
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			naval_speed = 12.6
+		}
+
+		multiply_stats = {
+			naval_speed = -0.168
+			fuel_consumption = 0.315
+			naval_range = -0.24500000000000002
+			build_cost_ic = 0.14
+		}
+	}
+
+	ship_capital_single_exp_boost_24 = {
+		category = capital_engine_boost_series_1
+		parent = ship_capital_paddle_engine_boost_24
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			naval_speed = 13.5
+		}
+
+		multiply_stats = {
+			naval_speed = -0.18
+			fuel_consumption = 0.33749999999999997
+			naval_range = -0.2625
+			build_cost_ic = 0.15
+		}
+	}
+
+	ship_capital_single_exp_boost_25 = {
+		category = capital_engine_boost_series_1
+		parent = ship_capital_paddle_engine_boost_25
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			naval_speed = 14.4
+		}
+
+		multiply_stats = {
+			naval_speed = -0.192
+			fuel_consumption = 0.36
+			naval_range = -0.28
+			build_cost_ic = 0.16
+		}
+	}
+
+	ship_capital_single_exp_boost_26 = {
+		category = capital_engine_boost_series_1
+		parent = ship_capital_paddle_engine_boost_26
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			naval_speed = 15.3
+		}
+
+		multiply_stats = {
+			naval_speed = -0.20400000000000001
+			fuel_consumption = 0.3825
+			naval_range = -0.29750000000000004
+			build_cost_ic = 0.17
+		}
+	}
+
+	ship_capital_single_exp_boost_27 = {
+		category = capital_engine_boost_series_1
+		parent = ship_capital_paddle_engine_boost_27
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			naval_speed = 16.2
+		}
+
+		multiply_stats = {
+			naval_speed = -0.216
+			fuel_consumption = 0.40499999999999997
+			naval_range = -0.31500000000000006
+			build_cost_ic = 0.18
+		}
+	}
+
+	ship_capital_single_exp_boost_28 = {
+		category = capital_engine_boost_series_1
+		parent = ship_capital_paddle_engine_boost_28
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			naval_speed = 17.1
+		}
+
+		multiply_stats = {
+			naval_speed = -0.228
+			fuel_consumption = 0.4275
+			naval_range = -0.3325
+			build_cost_ic = 0.19
+		}
+	}
+
+	ship_capital_single_exp_boost_29 = {
+		category = capital_engine_boost_series_1
+		parent = ship_capital_paddle_engine_boost_29
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			naval_speed = 18.0
+		}
+
+		multiply_stats = {
+			naval_speed = -0.24
+			fuel_consumption = 0.44999999999999996
+			naval_range = -0.35000000000000003
+			build_cost_ic = 0.2
+		}
+	}
+	
+	ship_engine_steam_screw_capital_3 = { #double expansion range variant
+		category = ship_engine_capital
+		parent = ship_engine_steam_screw_capital_0
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			naval_speed = 9.5
+			fuel_consumption = 1.625
+			build_cost_ic = 3250
+			naval_range = 4800
+		}
+		
+		build_cost_resources = {
+			machinery = 3
+		}
+		
+		multiply_stats = {
+			naval_range = -0.2
+			reliability = -0.05
+			naval_speed = -0.3
+		}
+		
+		can_convert_from = {
+			module_category = ship_engine_capital
+			convert_cost_ic = 3500
+		}
+
+		can_convert_from = {
+			module = ship_engine_steam_screw_capital_0
+			convert_cost_ic = 1500
+		}
+
 		can_convert_from = {
 			module = ship_engine_steam_screw_capital
-			convert_cost_ic = 20
+			convert_cost_ic = 1500
+		}
+
+		can_convert_from = {
+			module = ship_engine_steam_screw_capital_2
+			convert_cost_ic = 1500
 		}
 
 	}
+
+	ship_engine_steam_screw_capital_4 = { #double expansion variant
+		category = ship_engine_capital
+		parent = ship_engine_steam_screw_capital
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			naval_speed = 9.5
+			fuel_consumption = 1.625
+			build_cost_ic = 3250
+			naval_range = 4800
+		}
+		
+		build_cost_resources = {
+			machinery = 3
+		}
+		
+		multiply_stats = {
+			naval_range = -0.25
+			reliability = -0.05
+			naval_speed = -0.25
+		}
+		
+		can_convert_from = {
+			module_category = ship_engine_capital
+			convert_cost_ic = 3500
+		}
+
+		can_convert_from = {
+			module = ship_engine_steam_screw_capital_0
+			convert_cost_ic = 1500
+		}
+
+		can_convert_from = {
+			module = ship_engine_steam_screw_capital
+			convert_cost_ic = 1500
+		}
+
+		can_convert_from = {
+			module = ship_engine_steam_screw_capital_2
+			convert_cost_ic = 1500
+		}
+
+	}
+
+	ship_engine_steam_screw_capital_5 = { #double expansion speed variant
+		category = ship_engine_capital
+		parent = ship_engine_steam_screw_capital_2
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			naval_speed = 9.5
+			fuel_consumption = 1.625
+			build_cost_ic = 3250
+			naval_range = 4800
+		}
+		
+		build_cost_resources = {
+			machinery = 3
+		}
+		
+		multiply_stats = {
+			naval_range = -0.3
+			reliability = -0.05
+			naval_speed = -0.2
+		}
+		
+		can_convert_from = {
+			module_category = ship_engine_capital
+			convert_cost_ic = 3500
+		}
+
+		can_convert_from = {
+			module = ship_engine_steam_screw_capital_0
+			convert_cost_ic = 1500
+		}
+
+		can_convert_from = {
+			module = ship_engine_steam_screw_capital
+			convert_cost_ic = 1500
+		}
+
+		can_convert_from = {
+			module = ship_engine_steam_screw_capital_2
+			convert_cost_ic = 1500
+		}
+
+	}
+
+	###########module line for increased engine power for capital ships###################
+	ship_capital_engine_boost_10 = {
+		category = capital_engine_boost_series_2
+		#parent = 
+		#sfx = 
+
+		add_stats = {
+			naval_speed = 1
+		}
+
+		multiply_stats = {
+			naval_speed = -0.014
+			fuel_consumption = 0.02
+			naval_range = -0.015
+			build_cost_ic = 0.01
+		}
+	}
+
+	ship_capital_engine_boost_11 = {
+		category = capital_engine_boost_series_2
+		#parent = 
+		#sfx = 
+
+		add_stats = {
+			naval_speed = 2
+		}
+
+		multiply_stats = {
+			naval_speed = -0.028
+			fuel_consumption = 0.04
+			naval_range = -0.03
+			build_cost_ic = 0.02
+		}
+	}
+
+	ship_capital_engine_boost_12 = {
+		category = capital_engine_boost_series_2
+		#parent = 
+		#sfx = 
+
+		add_stats = {
+			naval_speed = 3
+		}
+
+		multiply_stats = {
+			naval_speed = -0.042
+			fuel_consumption = 0.06
+			naval_range = -0.045
+			build_cost_ic = 0.03
+		}
+	}
+
+	ship_capital_engine_boost_13 = {
+		category = capital_engine_boost_series_2
+		#parent = 
+		#sfx = 
+
+		add_stats = {
+			naval_speed = 4
+		}
+
+		multiply_stats = {
+			naval_speed = -0.056
+			fuel_consumption = 0.08
+			naval_range = -0.06
+			build_cost_ic = 0.04
+		}
+	}
+
+	ship_capital_engine_boost_14 = {
+		category = capital_engine_boost_series_2
+		#parent = 
+		#sfx = 
+
+		add_stats = {
+			naval_speed = 5
+		}
+
+		multiply_stats = {
+			naval_speed = -0.07
+			fuel_consumption = 0.1
+			naval_range = -0.075
+			build_cost_ic = 0.05
+		}
+	}
+
+	ship_capital_engine_boost_15 = {
+		category = capital_engine_boost_series_2
+		#parent = 
+		#sfx = 
+
+		add_stats = {
+			naval_speed = 6
+		}
+
+		multiply_stats = {
+			naval_speed = -0.084
+			fuel_consumption = 0.12
+			naval_range = -0.09
+			build_cost_ic = 0.06
+		}
+	}
+
+	ship_capital_engine_boost_16 = {
+		category = capital_engine_boost_series_2
+		#parent = 
+		#sfx = 
+
+		add_stats = {
+			naval_speed = 7
+		}
+
+		multiply_stats = {
+			naval_speed = -0.098
+			fuel_consumption = 0.14
+			naval_range = -0.105
+			build_cost_ic = 0.07
+		}
+	}
+
+	ship_capital_engine_boost_17 = {
+		category = capital_engine_boost_series_2
+		#parent = 
+		#sfx = 
+
+		add_stats = {
+			naval_speed = 8
+		}
+
+		multiply_stats = {
+			naval_speed = -0.112
+			fuel_consumption = 0.16
+			naval_range = -0.12
+			build_cost_ic = 0.08
+		}
+	}
+
+	ship_capital_engine_boost_18 = {
+		category = capital_engine_boost_series_2
+		#parent = 
+		#sfx = 
+
+		add_stats = {
+			naval_speed = 9
+		}
+
+		multiply_stats = {
+			naval_speed = -0.126
+			fuel_consumption = 0.18
+			naval_range = -0.135
+			build_cost_ic = 0.09
+		}
+	}
+
+	ship_capital_engine_boost_19 = {
+		category = capital_engine_boost_series_2
+		#parent = 
+		#sfx = 
+
+		add_stats = {
+			naval_speed = 10
+		}
+
+		multiply_stats = {
+			naval_speed = -0.14
+			fuel_consumption = 0.2
+			naval_range = -0.15
+			build_cost_ic = 0.1
+		}
+	}
+
+	ship_capital_engine_boost_20 = {
+		category = capital_engine_boost_series_2
+		#parent = 
+		#sfx = 
+
+		add_stats = {
+			naval_speed = 11
+		}
+
+		multiply_stats = {
+			naval_speed = -0.154
+			fuel_consumption = 0.22
+			naval_range = -0.16499999999999998
+			build_cost_ic = 0.11
+		}
+	}
+
+	ship_capital_engine_boost_21 = {
+		category = capital_engine_boost_series_2
+		#parent = 
+		#sfx = 
+
+		add_stats = {
+			naval_speed = 12
+		}
+
+		multiply_stats = {
+			naval_speed = -0.168
+			fuel_consumption = 0.24
+			naval_range = -0.18
+			build_cost_ic = 0.12
+		}
+	}
+
+	ship_capital_engine_boost_22 = {
+		category = capital_engine_boost_series_2
+		#parent = 
+		#sfx = 
+
+		add_stats = {
+			naval_speed = 13
+		}
+
+		multiply_stats = {
+			naval_speed = -0.182
+			fuel_consumption = 0.26
+			naval_range = -0.195
+			build_cost_ic = 0.13
+		}
+	}
+
+	ship_capital_engine_boost_23 = {
+		category = capital_engine_boost_series_2
+		#parent = 
+		#sfx = 
+
+		add_stats = {
+			naval_speed = 14
+		}
+
+		multiply_stats = {
+			naval_speed = -0.196
+			fuel_consumption = 0.28
+			naval_range = -0.21
+			build_cost_ic = 0.14
+		}
+	}
+
+	ship_capital_engine_boost_24 = {
+		category = capital_engine_boost_series_2
+		#parent = 
+		#sfx = 
+
+		add_stats = {
+			naval_speed = 15
+		}
+
+		multiply_stats = {
+			naval_speed = -0.21
+			fuel_consumption = 0.3
+			naval_range = -0.22499999999999998
+			build_cost_ic = 0.15
+		}
+	}
+
+	ship_capital_engine_boost_25 = {
+		category = capital_engine_boost_series_2
+		#parent = 
+		#sfx = 
+
+		add_stats = {
+			naval_speed = 16
+		}
+
+		multiply_stats = {
+			naval_speed = -0.224
+			fuel_consumption = 0.32
+			naval_range = -0.24
+			build_cost_ic = 0.16
+		}
+	}
+
+	ship_capital_engine_boost_26 = {
+		category = capital_engine_boost_series_2
+		#parent = 
+		#sfx = 
+
+		add_stats = {
+			naval_speed = 17
+		}
+
+		multiply_stats = {
+			naval_speed = -0.23800000000000002
+			fuel_consumption = 0.34
+			naval_range = -0.255
+			build_cost_ic = 0.17
+		}
+	}
+
+	ship_capital_engine_boost_27 = {
+		category = capital_engine_boost_series_2
+		#parent = 
+		#sfx = 
+
+		add_stats = {
+			naval_speed = 18
+		}
+
+		multiply_stats = {
+			naval_speed = -0.252
+			fuel_consumption = 0.36
+			naval_range = -0.27
+			build_cost_ic = 0.18
+		}
+	}
+
+	ship_capital_engine_boost_28 = {
+		category = capital_engine_boost_series_2
+		#parent = 
+		#sfx = 
+
+		add_stats = {
+			naval_speed = 19
+		}
+
+		multiply_stats = {
+			naval_speed = -0.266
+			fuel_consumption = 0.38
+			naval_range = -0.285
+			build_cost_ic = 0.19
+		}
+	}
+
+	ship_capital_engine_boost_29 = {
+		category = capital_engine_boost_series_2
+		#parent = 
+		#sfx = 
+
+		add_stats = {
+			naval_speed = 20
+		}
+
+		multiply_stats = {
+			naval_speed = -0.28
+			fuel_consumption = 0.4
+			naval_range = -0.3
+			build_cost_ic = 0.2
+		}
+	}
+
+	ship_engine_steam_screw_capital_6 = {#screw 3 engine #fire tube boiler range
+		category = ship_engine_capital
+		parent = ship_engine_steam_screw_capital_3
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			naval_speed = 10
+			fuel_consumption = 2.275
+			build_cost_ic = 4250
+			naval_range = 5920
+		}
+		
+		build_cost_resources = {
+			machinery = 3
+			iron = 2
+			steel = 2
+		}
+		
+		multiply_stats = {
+			naval_range = -0.128
+			reliability = -0.025
+			naval_speed = -0.232
+		}
+		
+		can_convert_from = {
+			module_category = ship_engine_cruiser
+			convert_cost_ic = 3200
+		}
+
+		can_convert_from = {
+			module = ship_engine_screw_cruiser_0
+			convert_cost_ic = 1750
+		}
+		
+		can_convert_from = {
+			module = ship_engine_screw_cruiser_1
+			convert_cost_ic = 1750
+		}
+
+		can_convert_from = {
+			module = ship_engine_screw_cruiser_2
+			convert_cost_ic = 1750
+		}
+
+		can_convert_from = {
+			module = ship_engine_screw_cruiser_3
+			convert_cost_ic = 1000
+		}
+		
+		can_convert_from = {
+			module = ship_engine_screw_cruiser_4
+			convert_cost_ic = 1000
+		}
+
+		can_convert_from = {
+			module = ship_engine_screw_cruiser_5
+			convert_cost_ic = 1000
+		}
+	}
+
+	ship_engine_steam_screw_capital_7 = {#screw 3 engine #fire tube boiler
+		category = ship_engine_capital
+		parent = ship_engine_steam_screw_capital_4
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			naval_speed = 10
+			fuel_consumption = 2.275
+			build_cost_ic = 4250
+			naval_range = 5920
+		}
+		
+		build_cost_resources = {
+			machinery = 3
+			iron = 2
+			steel = 2
+		}
+		
+		multiply_stats = {
+			naval_range = -0.16
+			reliability = -0.025
+			naval_speed = -0.20
+		}
+		
+		can_convert_from = {
+			module_category = ship_engine_cruiser
+			convert_cost_ic = 3200
+		}
+
+		can_convert_from = {
+			module = ship_engine_screw_cruiser_0
+			convert_cost_ic = 1750
+		}
+		
+		can_convert_from = {
+			module = ship_engine_screw_cruiser_1
+			convert_cost_ic = 1750
+		}
+
+		can_convert_from = {
+			module = ship_engine_screw_cruiser_2
+			convert_cost_ic = 1750
+		}
+
+		can_convert_from = {
+			module = ship_engine_screw_cruiser_3
+			convert_cost_ic = 1000
+		}
+		
+		can_convert_from = {
+			module = ship_engine_screw_cruiser_4
+			convert_cost_ic = 1000
+		}
+
+		can_convert_from = {
+			module = ship_engine_screw_cruiser_5
+			convert_cost_ic = 1000
+		}
+	}
+
+	ship_engine_steam_screw_capital_8 = {#screw 3 engine #fire tube boiler speed
+		category = ship_engine_capital
+		parent = ship_engine_steam_screw_capital_5
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			naval_speed = 10
+			fuel_consumption = 2.275
+			build_cost_ic = 4250
+			naval_range = 5920
+		}
+		
+		build_cost_resources = {
+			machinery = 3
+			iron = 2
+			steel = 2
+		}
+		
+		multiply_stats = {
+			naval_range = -0.192
+			reliability = -0.025
+			naval_speed = -0.168
+		}
+		
+		can_convert_from = {
+			module_category = ship_engine_cruiser
+			convert_cost_ic = 3200
+		}
+
+		can_convert_from = {
+			module = ship_engine_screw_cruiser_0
+			convert_cost_ic = 1750
+		}
+		
+		can_convert_from = {
+			module = ship_engine_screw_cruiser_1
+			convert_cost_ic = 1750
+		}
+
+		can_convert_from = {
+			module = ship_engine_screw_cruiser_2
+			convert_cost_ic = 1750
+		}
+
+		can_convert_from = {
+			module = ship_engine_screw_cruiser_3
+			convert_cost_ic = 1000
+		}
+		
+		can_convert_from = {
+			module = ship_engine_screw_cruiser_4
+			convert_cost_ic = 1000
+		}
+
+		can_convert_from = {
+			module = ship_engine_screw_cruiser_5
+			convert_cost_ic = 1000
+		}
+	}
+
 	ship_engine_steam_turbines_capital_1 = {
 		category = ship_engine_capital
 		sfx = sfx_ui_sd_module_engine
 		
 		add_stats = {
-			naval_speed = 40
+			naval_speed = 18
+			naval_range = 4800
 			fuel_consumption = 0
 			build_cost_ic = 110
 		}
@@ -2235,11 +5535,12 @@ equipment_modules = {
 		}
 		
 		can_convert_from = {
-			module = ship_engine_steam_screw_capital_2
+			module = ship_engine_steam_screw_capital_4
 			convert_cost_ic = 20
 		}
 
 	}
+
 	ship_engine_steam_turbines_capital_2 = {
 		category = ship_engine_capital
 		sfx = sfx_ui_sd_module_engine
@@ -2266,6 +5567,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_oil_turbines_capital_1 = {
 		category = ship_engine_capital
 		sfx = sfx_ui_sd_module_engine
@@ -2293,6 +5595,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_oil_turbines_capital_2 = {
 		category = ship_engine_capital
 		sfx = sfx_ui_sd_module_engine
@@ -2320,6 +5623,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_oil_turbines_capital_3 = {
 		category = ship_engine_capital
 		sfx = sfx_ui_sd_module_engine
@@ -2347,6 +5651,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_oil_turbines_capital_4 = {
 		category = ship_engine_capital
 		sfx = sfx_ui_sd_module_engine
@@ -2374,6 +5679,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_diesel_capital_1 = {
 		category = ship_engine_capital
 		sfx = sfx_ui_sd_module_engine
@@ -2401,6 +5707,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_diesel_capital_2 = {
 		category = ship_engine_capital
 		sfx = sfx_ui_sd_module_engine
@@ -2428,6 +5735,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_diesel_capital_3 = {
 		category = ship_engine_capital
 		sfx = sfx_ui_sd_module_engine
@@ -2455,6 +5763,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_diesel_capital_4 = {
 		category = ship_engine_capital
 		sfx = sfx_ui_sd_module_engine
@@ -2482,6 +5791,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_hybrid_capital_1 = {
 		category = ship_engine_capital
 		sfx = sfx_ui_sd_module_engine
@@ -2509,6 +5819,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_hybrid_capital_2 = {
 		category = ship_engine_capital
 		sfx = sfx_ui_sd_module_engine
@@ -2536,6 +5847,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_fusion_capital_1 = {
 		category = ship_engine_capital
 		sfx = sfx_ui_sd_module_engine
@@ -2563,6 +5875,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_fusion_capital_2 = {
 		category = ship_engine_capital
 		sfx = sfx_ui_sd_module_engine
@@ -2590,6 +5903,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_fusion_capital_3 = {
 		category = ship_engine_capital
 		sfx = sfx_ui_sd_module_engine
@@ -2618,6 +5932,7 @@ equipment_modules = {
 
 	}
 	
+###############carriers full stop###############
 	ship_engine_paddle_carrier = {
 		category = ship_engine_carrier
 		sfx = sfx_ui_sd_module_engine
@@ -2634,7 +5949,6 @@ equipment_modules = {
 		
 		multiply_stats = {
 			naval_range = 0.05
-			naval_speed = 0.1
 			reliability = -0.1
 		}
 		
@@ -2644,6 +5958,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_steam_screw_carrier = {
 		category = ship_engine_carrier
 		sfx = sfx_ui_sd_module_engine
@@ -2660,7 +5975,6 @@ equipment_modules = {
 		
 		multiply_stats = {
 			naval_range = 0.05
-			naval_speed = 0.1
 			reliability = -0.05
 		}
 		
@@ -2675,12 +5989,13 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_steam_screw_carrier_2 = {
 		category = ship_engine_carrier
 		sfx = sfx_ui_sd_module_engine
 		
 		add_stats = {
-			naval_speed = 31
+			naval_speed = 15
 			fuel_consumption = 0
 			build_cost_ic = 80
 		}
@@ -2706,6 +6021,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_steam_turbines_carrier_1 = {
 		category = ship_engine_carrier
 		sfx = sfx_ui_sd_module_engine
@@ -2737,6 +6053,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_steam_turbines_carrier_2 = {
 		category = ship_engine_carrier
 		sfx = sfx_ui_sd_module_engine
@@ -2763,6 +6080,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_oil_turbines_carrier_1 = {
 		category = ship_engine_carrier
 		sfx = sfx_ui_sd_module_engine
@@ -2790,6 +6108,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_oil_turbines_carrier_2 = {
 		category = ship_engine_carrier
 		sfx = sfx_ui_sd_module_engine
@@ -2817,6 +6136,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_oil_turbines_carrier_3 = {
 		category = ship_engine_carrier
 		sfx = sfx_ui_sd_module_engine
@@ -2844,6 +6164,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_oil_turbines_carrier_4 = {
 		category = ship_engine_carrier
 		sfx = sfx_ui_sd_module_engine
@@ -2871,6 +6192,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_diesel_carrier_1 = {
 		category = ship_engine_carrier
 		sfx = sfx_ui_sd_module_engine
@@ -2898,6 +6220,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_diesel_carrier_2 = {
 		category = ship_engine_carrier
 		sfx = sfx_ui_sd_module_engine
@@ -2925,6 +6248,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_diesel_carrier_3 = {
 		category = ship_engine_carrier
 		sfx = sfx_ui_sd_module_engine
@@ -2952,6 +6276,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_diesel_carrier_4 = {
 		category = ship_engine_carrier
 		sfx = sfx_ui_sd_module_engine
@@ -2979,6 +6304,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_hybrid_carrier_1 = {
 		category = ship_engine_carrier
 		sfx = sfx_ui_sd_module_engine
@@ -3006,6 +6332,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_hybrid_carrier_2 = {
 		category = ship_engine_carrier
 		sfx = sfx_ui_sd_module_engine
@@ -3033,6 +6360,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_fusion_carrier_1 = {
 		category = ship_engine_carrier
 		sfx = sfx_ui_sd_module_engine
@@ -3060,6 +6388,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_fusion_carrier_2 = {
 		category = ship_engine_carrier
 		sfx = sfx_ui_sd_module_engine
@@ -3087,6 +6416,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_fusion_carrier_3 = {
 		category = ship_engine_carrier
 		sfx = sfx_ui_sd_module_engine
@@ -3115,6 +6445,7 @@ equipment_modules = {
 
 	}
 	
+###############Subs##################
 	ship_engine_steam_screw_sub = {
 		category = ship_engine_submarine
 		sfx = sfx_ui_sd_module_engine
@@ -3146,6 +6477,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_steam_screw_sub_2 = {
 		category = ship_engine_submarine
 		sfx = sfx_ui_sd_module_engine
@@ -3177,6 +6509,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_steam_turbines_sub_1 = {
 		category = ship_engine_submarine
 		sfx = sfx_ui_sd_module_engine
@@ -3208,6 +6541,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_steam_turbines_sub_2 = {
 		category = ship_engine_submarine
 		sfx = sfx_ui_sd_module_engine
@@ -3234,6 +6568,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_oil_turbines_sub_1 = {
 		category = ship_engine_submarine
 		sfx = sfx_ui_sd_module_engine
@@ -3261,6 +6596,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_oil_turbines_sub_2 = {
 		category = ship_engine_submarine
 		sfx = sfx_ui_sd_module_engine
@@ -3288,6 +6624,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_oil_turbines_sub_3 = {
 		category = ship_engine_submarine
 		sfx = sfx_ui_sd_module_engine
@@ -3315,6 +6652,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_oil_turbines_sub_4 = {
 		category = ship_engine_submarine
 		sfx = sfx_ui_sd_module_engine
@@ -3342,6 +6680,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_diesel_sub_1 = {
 		category = ship_engine_submarine
 		sfx = sfx_ui_sd_module_engine
@@ -3369,6 +6708,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_diesel_sub_2 = {
 		category = ship_engine_submarine
 		sfx = sfx_ui_sd_module_engine
@@ -3396,6 +6736,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_diesel_sub_3 = {
 		category = ship_engine_submarine
 		sfx = sfx_ui_sd_module_engine
@@ -3423,6 +6764,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_diesel_sub_4 = {
 		category = ship_engine_submarine
 		sfx = sfx_ui_sd_module_engine
@@ -3450,6 +6792,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_hybrid_sub_1 = {
 		category = ship_engine_submarine
 		sfx = sfx_ui_sd_module_engine
@@ -3477,6 +6820,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_hybrid_sub_2 = {
 		category = ship_engine_submarine
 		sfx = sfx_ui_sd_module_engine
@@ -3504,6 +6848,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_fusion_sub_1 = {
 		category = ship_engine_submarine
 		sfx = sfx_ui_sd_module_engine
@@ -3531,6 +6876,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_fusion_sub_2 = {
 		category = ship_engine_submarine
 		sfx = sfx_ui_sd_module_engine
@@ -3558,6 +6904,7 @@ equipment_modules = {
 		}
 
 	}
+
 	ship_engine_fusion_sub_3 = {
 		category = ship_engine_submarine
 		sfx = sfx_ui_sd_module_engine
@@ -3585,8 +6932,5 @@ equipment_modules = {
 		}
 
 	}
-	
-	
-	
 	
 }

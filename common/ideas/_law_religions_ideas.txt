@@ -210,7 +210,7 @@ ideas = {
 			picture = religion_other_animist
 		}
 		religion_other_spiritualist = {
-			allowq = { always = no }
+			allowed = { always = no }
 			picture = religion_other_spiritualist
 		}
 	}

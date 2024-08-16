@@ -1,6 +1,6 @@
 equipments = {
 
-	armor_equipment_steam_car = {
+	steam_car_equipment = {
 		year = 1880
 
 		is_archetype = yes
@@ -31,14 +31,15 @@ equipments = {
 		
 		build_cost_ic = 90
 		resources = {
-			resource_steel = 3
-			resource_coal = 2
+			steel = 3
+			coal = 2
+			machinery = 1
 		}
 	}
 	
-	armor_equipment_steam_car_0 = {
+	steam_car_equipment_0 = {
 		year = 1880
-		archetype = armor_equipment_steam_car
+		archetype = steam_car_equipment
 		priority = 5
 		visual_level = 0
 	}

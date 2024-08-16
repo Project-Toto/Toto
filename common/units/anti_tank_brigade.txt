@@ -15,9 +15,9 @@ sub_units = {
 		group = infantry
 		
 		categories = {
-			category_all_frontline
-			category_all_land
-			category_all_artillery
+			category_front_line
+			category_army
+			category_line_artillery
 		}		
 		
 		combat_width = 1
@@ -85,15 +85,15 @@ sub_units = {
 		group = mobile
 		
 		categories = {
-			category_all_frontline
-			category_all_land
-			category_all_artillery
-		}
+			category_front_line
+			category_army
+			category_line_artillery
+		}		
 		
 		combat_width = 1
 		transport = motorized_equipment
 		need = {
-			anti_tank_equipment = 36
+			field_artillery_equipment = 36
 			motorized_equipment = 50
 		}
 		manpower = 500

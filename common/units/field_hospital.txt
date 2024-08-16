@@ -14,8 +14,8 @@ sub_units = {
 		group = support
 		
 		categories = {
-			category_all_support
-			category_all_land
+			category_support_battalions
+			category_army
 		}
 
 	

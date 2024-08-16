@@ -134,7 +134,7 @@ technologies = {
 
 	navigable_balloons = {
 
-		air_air_superiority_defence_factor = 0.02
+		air_superiority_efficiency = 0.02
 
 		research_cost = 1.5
 		start_year = 1870
@@ -168,7 +168,7 @@ technologies = {
 
 	early_zeppelin_designs = {
 
-		air_strategic_bomber_agility_factor = 0.04
+		air_superiority_efficiency = 0.04
 
 		enable_building = {
 			building = air_base
@@ -208,7 +208,7 @@ technologies = {
 
 	zeppelin_prototypes = {
 
-		air_air_superiority_defence_factor = 0.02
+		air_superiority_efficiency = 0.02
 
 		research_cost = 2
 		start_year = 1885
@@ -402,10 +402,10 @@ technologies = {
 
 	early_aileron_control_system = {
 
-		air_air_superiority_agility_factor = 0.06
-		air_interception_agility_factor = 0.06
-		air_close_air_support_agility_factor = 0.03
-		air_strategic_bomber_agility_factor = 0.03
+		air_superiority_efficiency = 0.06
+		air_intercept_efficiency = 0.06
+		air_superiority_efficiency = 0.03
+		air_superiority_efficiency = 0.03
 
 		research_cost = 1.5
 		start_year = 1865
@@ -770,10 +770,10 @@ technologies = {
 	}
 	pratical_aileron_control_surfaces = {
 
-		air_air_superiority_agility_factor = 0.06
-		air_interception_agility_factor = 0.06
-		air_close_air_support_agility_factor = 0.03
-		air_strategic_bomber_agility_factor = 0.03
+		air_superiority_efficiency = 0.06
+		air_intercept_efficiency = 0.06
+		air_superiority_efficiency = 0.03
+		air_superiority_efficiency = 0.03
 
 		research_cost = 1.5
 		start_year = 1915
@@ -804,7 +804,7 @@ technologies = {
 	}
 	synchronization_gear = {
 
-		air_air_superiority_attack_factor = 0.06
+		air_superiority_efficiency = 0.06
 
 		research_cost = 1.5
 		start_year = 1915
@@ -831,7 +831,7 @@ technologies = {
 	}
 	metal_body_prototypes = {
 
-		air_air_superiority_defence_factor = 0.05
+		air_superiority_efficiency = 0.05
 
 		research_cost = 1.5
 		start_year = 1910
@@ -858,7 +858,7 @@ technologies = {
 	}
 	full_metal_construcion = {
 
-		air_air_superiority_defence_factor = 0.05
+		air_superiority_efficiency = 0.05
 
 		research_cost = 1.5
 		start_year = 1917

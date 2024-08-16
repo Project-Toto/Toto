@@ -1,5 +1,5 @@
 equipments = {
-
+	
 	ship_hull_carrier = {
 		year = 1914
 
@@ -11,12 +11,12 @@ equipments = {
 		interface_category = interface_category_capital_ships
 		alias = carrier
 		priority = 1900
-
+		
 		upgrades = {
 			ship_deckspace_upgrade
 			carrier_armor_upgrade
 			ship_engine_upgrade
-			ship_reliability_upgrade
+			ship_reliability_upgrade			
 		}
 
 		module_slots = {
@@ -52,12 +52,12 @@ equipments = {
 				}
 			}
 		}
-
+		
 		module_count_limit = {
 			category = ship_deck_space
 			count < 4
 		}
-
+		
 		default_modules = {
 			fixed_ship_deck_slot_1 = ship_deck_space_0
 			fixed_ship_deck_slot_2 = empty
@@ -66,50 +66,51 @@ equipments = {
 			fixed_ship_secondaries_slot = empty
 			front_1_custom_slot = empty
 		}
-
+		
 		lg_armor_piercing = 0
 		lg_attack = 0
-
+		
 		hg_armor_piercing = 0
 		hg_attack = 0
-
+		
 		torpedo_attack = 0
 		sub_attack = 0
-
+		
 		anti_air_attack = 0
-
+		
 		armor_value = 0
-
+		
 		surface_detection = 20
 		sub_detection = 0
 		surface_visibility = 40
 		naval_speed = 0
 		reliability = 0.65
-
+		
 		naval_range = 1600
-
+		
 		max_strength = 100
 
 		fuel_consumption = 0
 		
 		offensive_weapons = no
-
+		
 		build_cost_ic = 5000
 		resources = {
-			resource_iron = 4
-			resource_steel = 2
+			iron = 4
+			steel = 2
+			chromium = 1
 		}
-
+		
 		manpower = 2750
 	}
-
+	
 	ship_hull_carrier_0 = {
 		year = 1914
 		visual_level = 0
 		archetype = ship_hull_carrier
 		priority = 1900
-
-
+		
+		
 		module_slots = inherit
 	}
 	
@@ -128,11 +129,11 @@ equipments = {
 			fixed_ship_secondaries_slot = inherit
 			front_1_custom_slot = inherit
 		}
-
+		
 		default_modules = {
 			fixed_ship_engine_slot = ship_engine_oil_turbines_carrier_1
 		}
-
+		
 		armor_value = 0
 		
 		surface_detection = 20
@@ -142,20 +143,21 @@ equipments = {
 		reliability = 0.7
 		
 		naval_range = 2000
-
+		
 		max_strength = 120
 
 		fuel_consumption = 0
 		
 		build_cost_ic = 5750
 		resources = {
-			resource_iron = 3
-			resource_steel = 3
+			iron = 3
+			steel = 3
+			chromium = 1
 		}
-
+		
 		manpower = 3000
 	}
-
+	
 	ship_hull_carrier_2 = {
 		year = 1922
 		visual_level = 0
@@ -183,17 +185,18 @@ equipments = {
 		surface_visibility = 42
 		naval_speed = 0
 		reliability = 0.7
-
+		
 		naval_range = 2250
-
+		
 		max_strength = 125
 
 		fuel_consumption = 0
 		
 		build_cost_ic = 6000
 		resources = {
-			resource_iron = 3
-			resource_steel = 3
+			iron = 3
+			steel = 3
+			chromium = 1
 		}
 		
 		manpower = 3100
@@ -237,22 +240,23 @@ equipments = {
 		}
 		
 		armor_value = 1
-
+		
 		surface_detection = 22
 		sub_detection = 0
 		surface_visibility = 45
 		naval_speed = 0
 		reliability = 0.72
-
+		
 		naval_range = 2450
-
+		
 		max_strength = 130
 
 		fuel_consumption = 0
 		
 		build_cost_ic = 6250
 		resources = {
-			resource_steel = 4
+			steel = 4
+			chromium = 2
 		}
 	}
 	
@@ -294,23 +298,24 @@ equipments = {
 		}
 		
 		armor_value = 1
-
+		
 		surface_detection = 22
 		sub_detection = 0
 		surface_visibility = 45
 		naval_speed = 0
 		reliability = 0.72
-
+		
 		naval_range = 2450
-
+		
 		max_strength = 130
 
 		fuel_consumption = 0
 		
 		build_cost_ic = 6150
 		resources = {
-			resource_iron = 3
-			resource_steel = 3
+			iron = 3
+			steel = 3
+			chromium = 1
 		}
 		
 		manpower = 3350
@@ -371,17 +376,18 @@ equipments = {
 		reliability = 0.75
 		
 		naval_range = 2700
-
+		
 		max_strength = 140
 
 		fuel_consumption = 0
 		
 		build_cost_ic = 6450
 		resources = {
-			resource_iron = 3
-			resource_steel = 3
+			iron = 3
+			steel = 3
+			chromium = 2
 		}
-
+		
 		manpower = 3600
 	}
 
@@ -416,17 +422,18 @@ equipments = {
 		reliability = 0.75
 		
 		naval_range = 2900
-
+		
 		max_strength = 145
 
 		fuel_consumption = 0
 		
 		build_cost_ic = 6650
 		resources = {
-			resource_iron = 3
-			resource_steel = 3
+			iron = 3
+			steel = 3
+			chromium = 2
 		}
-
+		
 		manpower = 3600
 	}
 
@@ -491,10 +498,11 @@ equipments = {
 		
 		build_cost_ic = 6850
 		resources = {
-			resource_iron = 3
-			resource_steel = 3
+			iron = 3
+			steel = 3
+			chromium = 3
 		}
-
+		
 		manpower = 3775
 	}
 
@@ -521,7 +529,7 @@ equipments = {
 		}
 		
 		armor_value = 4
-
+		
 		surface_detection = 30
 		sub_detection = 0
 		surface_visibility = 54
@@ -533,13 +541,14 @@ equipments = {
 		max_strength = 160
 
 		fuel_consumption = 0
-
+		
 		build_cost_ic = 7850
 		resources = {
-			resource_iron = 3
-			resource_steel = 4
+			iron = 3
+			steel = 4
+			chromium = 3
 		}
-
+		
 		manpower = 3875
 	}
 
@@ -564,9 +573,9 @@ equipments = {
 		default_modules = {
 			fixed_ship_engine_slot = ship_engine_oil_turbines_carrier_1
 		}
-
+		
 		armor_value = 5
-
+		
 		surface_detection = 32
 		sub_detection = 0
 		surface_visibility = 56
@@ -578,13 +587,14 @@ equipments = {
 		max_strength = 165
 
 		fuel_consumption = 0
-
+		
 		build_cost_ic = 8650
 		resources = {
-			resource_iron = 3
-			resource_steel = 4
+			iron = 3
+			steel = 4
+			chromium = 3
 		}
-
+		
 		manpower = 3900
 	}
 
@@ -617,19 +627,20 @@ equipments = {
 		surface_visibility = 56
 		naval_speed = 0
 		reliability = 0.90
-
+		
 		naval_range = 4800
-
+		
 		max_strength = 170
 
 		fuel_consumption = 0
-
+		
 		build_cost_ic = 9000
 		resources = {
-			resource_iron = 3
-			resource_steel = 4
+			iron = 3
+			steel = 4
+			chromium = 3
 		}
-
+		
 		manpower = 3900
 	}
 
@@ -656,28 +667,29 @@ equipments = {
 		}
 		
 		armor_value = 6
-
+		
 		surface_detection = 34
 		sub_detection = 0
 		surface_visibility = 58
 		naval_speed = 0
 		reliability = 0.90
-
+		
 		naval_range = 5200
-
+		
 		max_strength = 180
 
 		fuel_consumption = 0
-
+		
 		build_cost_ic = 9100
 		resources = {
-			resource_iron = 3
-			resource_steel = 4
+			iron = 3
+			steel = 4
+			chromium = 3
 		}
 		
 		manpower = 3910
-	}
-
+	}	
+	
 	ship_hull_carrier_11 = {
 		year = 2005
 		visual_level = 0
@@ -701,23 +713,24 @@ equipments = {
 		}
 		
 		armor_value = 6
-
+		
 		surface_detection = 34
 		sub_detection = 0
 		surface_visibility = 58
 		naval_speed = 0
 		reliability = 0.90
-
+		
 		naval_range = 5550
-
+		
 		max_strength = 185
 
 		fuel_consumption = 0
 		
 		build_cost_ic = 9300
 		resources = {
-			resource_iron = 3
-			resource_steel = 4
+			iron = 3
+			steel = 4
+			chromium = 4
 		}
 		
 		manpower = 3880
@@ -746,25 +759,26 @@ equipments = {
 		}
 		
 		armor_value = 7
-
+		
 		surface_detection = 34
 		sub_detection = 0
 		surface_visibility = 58
 		naval_speed = 0
 		reliability = 0.95
-
+		
 		naval_range = 5900
-
+		
 		max_strength = 170
 
 		fuel_consumption = 0
 		
 		build_cost_ic = 9600
 		resources = {
-			resource_iron = 3
-			resource_steel = 4
+			iron = 3
+			steel = 4
+			chromium = 3
 		}
-
+		
 		manpower = 3820
 	}
 
@@ -791,23 +805,24 @@ equipments = {
 		}
 		
 		armor_value = 8
-
+		
 		surface_detection = 36
 		sub_detection = 0
 		surface_visibility = 58
 		naval_speed = 0
 		reliability = 0.95
-
+		
 		naval_range = 6200
-
+		
 		max_strength = 180
 
 		fuel_consumption = 0
-
+		
 		build_cost_ic = 10600
 		resources = {
-			resource_iron = 3
-			resource_steel = 4
+			iron = 3
+			steel = 4
+			chromium = 3
 		}
 		
 		manpower = 3775
@@ -836,23 +851,24 @@ equipments = {
 		}
 		
 		armor_value = 10
-
+		
 		surface_detection = 36
 		sub_detection = 0
 		surface_visibility = 58
 		naval_speed = 0
 		reliability = 0.95
-
+		
 		naval_range = 6600
-
+		
 		max_strength = 190
 
 		fuel_consumption = 0
 		
 		build_cost_ic = 12500
 		resources = {
-			resource_iron = 4
-			resource_steel = 4
+			iron = 4
+			steel = 4
+			chromium = 3
 		}
 		
 		manpower = 3790
@@ -878,27 +894,28 @@ equipments = {
 		default_modules = {
 			fixed_ship_engine_slot = ship_engine_oil_turbines_carrier_1
 		}
-
+		
 		armor_value = 11
-
+		
 		surface_detection = 36
 		sub_detection = 0
 		surface_visibility = 58
 		naval_speed = 0
 		reliability = 0.95
-
+		
 		naval_range = 7000
-
+		
 		max_strength = 200
 
 		fuel_consumption = 0
-
+		
 		build_cost_ic = 14000
 		resources = {
-			resource_iron = 4
-			resource_steel = 4
+			iron = 4
+			steel = 4
+			chromium = 3
 		}
-
+		
 		manpower = 3790
-	}
+	}	
 }

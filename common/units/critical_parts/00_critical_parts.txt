@@ -42,6 +42,18 @@ critical_parts = {
 		damage_instance_per_added_module = 1
 		max_damage_instance = -1
 	}
+
+	damaged_medium_guns = {
+		icon = "GFX_default_critical_damage_icons"
+		frame = 2
+		stat_penalties = {
+			lg_attack = -0.25
+			hg_attack = -0.25
+		}
+		base_damage_instance = 1
+		damage_instance_per_added_module = 1
+		max_damage_instance = -1
+	}
 	
 	damaged_light_guns = {
 		icon = "GFX_default_critical_damage_icons"
@@ -89,7 +101,6 @@ critical_parts = {
 		str_damage_multiplier = 10
 		org_damage_multiplier = 10
 	}
-	
 
 	on_fire = {
 		icon = "GFX_default_critical_damage_icons"
@@ -102,6 +113,19 @@ critical_parts = {
 		org_damage_multiplier = 2
 	}
 
+	broken_paddle_wheel = {
+		#icon = 
+		#frame = 
+
+		modifier = {
+			naval_retreat_chance = -0.45
+			naval_speed_factor = -0.45
+		}
+		chance = 0.5
+		base_damage_instance = 1
+		max_damage_instance = 2
+	}
+
 	broken_propeller = {
 		icon = "GFX_default_critical_damage_icons"
 		frame = 7
@@ -112,6 +136,7 @@ critical_parts = {
 		org_damage_multiplier = 0.5
 		str_damage_multiplier = 0.5
 	}
+
 	rudder_jammed = {
 		icon = "GFX_default_critical_damage_icons"
 		frame = 7
@@ -123,6 +148,7 @@ critical_parts = {
 		org_damage_multiplier = 0.25
 		str_damage_multiplier = 0.25
 	}
+
 	ballast_tanks_inoperable = {
 		icon = "GFX_default_critical_damage_icons"
 		frame = 7
@@ -132,5 +158,42 @@ critical_parts = {
 		
 		org_damage_multiplier = 0.25
 		str_damage_multiplier = 0.25
+	}
+
+	dismasted_2x = {
+		#icon = 
+		#frame = 
+
+		modifier = {
+			naval_retreat_chance = -0.45
+			naval_speed_factor = -0.45
+		}
+		chance = 0.5
+		base_damage_instance = 1
+		max_damage_instance = 2
+	}
+	dismasted_3x = {
+		#icon = 
+		#frame = 
+
+		modifier = {
+			naval_retreat_chance = -0.3
+			naval_speed_factor = -0.3
+		}
+		chance = 0.5
+		base_damage_instance = 1
+		max_damage_instance = 3
+	}
+	dismasted_4x = {
+		#icon = 
+		#frame = 
+
+		modifier = {
+			naval_retreat_chance = -0.225
+			naval_speed_factor = -0.225
+		}
+		chance = 0.5
+		base_damage_instance = 1
+		max_damage_instance = 4
 	}
 }

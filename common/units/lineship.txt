@@ -1,6 +1,6 @@
 sub_units = {
 	lineship = {
-		sprite = battleship#lineship #to be created
+		sprite = lineship 
 		map_icon_category = ship
 		priority = 15
 		active = yes
@@ -14,6 +14,6 @@ sub_units = {
 		critical_parts = { destroyed_ammo_storage broken_propeller on_fire rudder_jammed}
 		critical_part_damage_chance_mult = 1
 		
-		hit_profile_mult = 1.0
+		hit_profile_mult = 1.2
 	}
 }

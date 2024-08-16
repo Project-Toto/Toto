@@ -15,8 +15,8 @@ sub_units = {
 		group = mobile
 		
 		categories = {
-			category_all_frontline
-			category_all_land
+			category_front_line
+			category_army
 		}
 
 
@@ -82,8 +82,8 @@ sub_units = {
 		group = mobile
 		
 		categories = {
-			category_all_frontline
-			category_all_land
+			category_front_line
+			category_army
 		}
 
 

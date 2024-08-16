@@ -1,0 +1,184 @@
+equipments = {
+	#archetype
+	train_equipment = {
+		year = 1910
+
+		is_archetype = yes
+		is_buildable = no
+		active = no
+		type = train
+		picture = archetype_train
+		group_by = archetype
+		sprite = train
+
+		interface_category = interface_category_land
+
+		armor_value = 0 # HP = BASE_TRAIN_HP + armor_value
+
+		build_cost_ic = 70
+		resources = {
+			steel = 1
+			machinery = 1
+		}
+		fuel_consumption = 0.1
+	}
+	train_equipment_0 = {
+		year = 1800
+
+		archetype = train_equipment
+		type = {
+			train
+		}
+
+		armor_value = 0 # HP = BASE_TRAIN_HP + armor_value
+
+		priority = 10
+
+		build_cost_ic = 200
+		resources = {
+			iron = 5
+			steel = 2
+			machinery = 1
+			coal = 10
+		}
+		fuel_consumption = 0.04
+	}
+	train_equipment_1 = {
+		year = 1860
+
+		archetype = train_equipment
+		parent = train_equipment_0
+		type = {
+			train
+		}
+
+		armor_value = 0 # HP = BASE_TRAIN_HP + armor_value
+
+		priority = 10
+
+		build_cost_ic = 160
+		resources = {
+			iron = 6
+			steel = 4
+			machinery = 1
+			coal = 10
+		}
+		fuel_consumption = 0.06
+	}
+	train_equipment_2 = {
+		year = 1885
+
+		archetype = train_equipment
+		parent = train_equipment_1
+		type = {
+			train
+		}
+		priority = 20
+
+		build_cost_ic = 140
+		resources = {
+			iron = 2
+			steel = 6
+			machinery = 2
+			coal = 10
+		}
+		fuel_consumption = 0.08
+	}
+	train_equipment_3 = {
+		year = 1905
+		archetype = train_equipment
+		parent = train_equipment_2
+		type = {
+			train
+		}
+		priority = 30
+		build_cost_ic = 120
+		resources = {
+			steel = 8
+			machinery = 2
+			coal = 10
+		}
+		fuel_consumption = 0.1
+	}
+	train_equipment_4 = {
+		year = 1925
+
+		archetype = train_equipment
+		parent = train_equipment_3
+		type = {
+			train
+		}
+
+		armor_value = 0 # HP = BASE_TRAIN_HP + armor_value
+
+		priority = 10
+
+		build_cost_ic = 105
+		resources = {
+			steel = 8
+			machinery = 3
+			oil = 10
+		}
+		fuel_consumption = 0.15
+	}
+	train_equipment_5 = {
+		year = 1950
+
+		archetype = train_equipment
+		type = {
+			train
+		}
+
+		armor_value = 0 # HP = BASE_TRAIN_HP + armor_value
+
+		priority = 10
+
+		build_cost_ic = 85
+		resources = {
+			steel = 10
+			machinery = 3
+			oil = 10
+		}
+		fuel_consumption = 0.2
+	}
+	train_equipment_6 = {
+		year = 1975
+
+		archetype = train_equipment
+		type = {
+			train
+		}
+
+		armor_value = 0 # HP = BASE_TRAIN_HP + armor_value
+
+		priority = 10
+
+		build_cost_ic = 70
+		resources = {
+			steel = 10
+			machinery = 4
+			electricity = 5
+		}
+		fuel_consumption = 0.25
+	}
+	train_equipment_7 = {
+		year = 2000
+
+		archetype = train_equipment
+		type = {
+			train
+		}
+
+		armor_value = 2 # HP = BASE_TRAIN_HP + armor_value
+
+		priority = 10
+
+		build_cost_ic = 60
+		resources = {
+			composites = 10
+			machinery = 4
+			electricity = 10
+		}
+		fuel_consumption = 0.3
+	}
+}

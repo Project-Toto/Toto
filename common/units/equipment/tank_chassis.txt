@@ -5,6 +5,11 @@ equipments = {
 		is_archetype = yes
 		is_buildable = no
 
+		can_be_produced = {
+			NOT = {
+				has_idea = BUL_army_restrictions
+			}
+		}
 
 		picture = archetype_light_tank_equipment
 		type = armor
@@ -163,10 +168,10 @@ equipments = {
 		priority = 2000
 		module_slots = inherit
 
-		upgrades = {
-			# tank_nsb_engine_upgrade
-			# tank_nsb_engine_upgrade
-		}
+		# upgrades = {
+		# 	tank_nsb_engine_upgrade
+		# 	tank_nsb_armor_upgrade
+		# }
 	}
 
 	light_tank_chassis_1 = {
@@ -223,6 +228,11 @@ equipments = {
 		year = 1922
 		is_archetype = yes
 		is_buildable = no
+		can_be_produced = {
+			NOT = {
+				has_idea = BUL_army_restrictions
+			}
+		}
 		picture = archetype_medium_tank_equipment
 		type = armor
 		group_by = archetype
@@ -377,10 +387,10 @@ equipments = {
 		archetype = medium_tank_chassis
 		priority = 2000
 		module_slots = inherit
-		upgrades = {
-			# tank_nsb_engine_upgrade
-			# tank_nsb_engine_upgrade
-		}
+		# upgrades = {
+		# 	tank_nsb_engine_upgrade
+		# 	tank_nsb_armor_upgrade
+		# }
 		maximum_speed = 4.5
 		build_cost_ic = 2
 		reliability = 0.75
@@ -438,6 +448,11 @@ equipments = {
 		year = 1922
 		is_archetype = yes
 		is_buildable = no
+		can_be_produced = {
+			NOT = {
+				has_idea = BUL_army_restrictions
+			}
+		}
 		picture = archetype_heavy_tank_equipment
 		type = armor
 		group_by = archetype
@@ -592,10 +607,10 @@ equipments = {
 		archetype = heavy_tank_chassis
 		priority = 2000
 		module_slots = inherit
-		upgrades = {
-			# tank_nsb_engine_upgrade
-			# tank_nsb_engine_upgrade
-		}
+		# upgrades = {
+		# 	tank_nsb_engine_upgrade
+		# 	tank_nsb_armor_upgrade
+		# }
 		maximum_speed = 3.5
 		build_cost_ic = 5
 		reliability = 1
@@ -651,6 +666,11 @@ equipments = {
 		year = 1948
 		is_archetype = yes
 		is_buildable = no
+		can_be_produced = {
+			NOT = {
+				has_idea = BUL_army_restrictions
+			}
+		}
 		picture = archetype_modern_tank_equipment
 		type = armor
 		group_by = archetype
@@ -804,16 +824,21 @@ equipments = {
 		priority = 2000
 		module_slots = inherit
 
-		upgrades = {
-			# tank_nsb_engine_upgrade
-			# tank_nsb_engine_upgrade
-		}
+		# upgrades = {
+		# 	tank_nsb_engine_upgrade
+		# 	tank_nsb_armor_upgrade
+		# }
 	}
 
 	super_heavy_tank_chassis = {
 		year = 1948
 		is_archetype = yes
 		is_buildable = no
+		can_be_produced = {
+			NOT = {
+				has_idea = BUL_army_restrictions
+			}
+		}
 		picture = archetype_super_heavy_tank_equipment
 		type = armor
 		group_by = archetype
@@ -969,16 +994,21 @@ equipments = {
 		archetype = super_heavy_tank_chassis
 		priority = 2000
 		module_slots = inherit
-		upgrades = {
-			# tank_nsb_engine_upgrade
-			# tank_nsb_engine_upgrade
-		}
+		# upgrades = {
+		# 	tank_nsb_engine_upgrade
+		# 	tank_nsb_armor_upgrade
+		# }
 	}
 
 	amphibious_tank_chassis = {
 		year = 1936
 		is_archetype = yes
 		is_buildable = no
+		can_be_produced = {
+			NOT = {
+				has_idea = BUL_army_restrictions
+			}
+		}
 		picture = archetype_amphibious_tank_equipment
 		type = armor
 		group_by = archetype
@@ -1126,10 +1156,10 @@ equipments = {
 		year = 1940
 		archetype = amphibious_tank_chassis
 		priority = 2000
-		upgrades = {
-			# tank_nsb_engine_upgrade
-			# tank_nsb_engine_upgrade
-		}
+		# upgrades = {
+		# 	tank_nsb_engine_upgrade
+		# 	tank_nsb_armor_upgrade
+		# }
 		module_slots = inherit
 	}
 
