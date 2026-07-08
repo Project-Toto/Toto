@@ -6,6 +6,7 @@ tags={
 picture="thumbnail.png"
 version="0.1.3 Medina"
 replace_path="common/abilities"
+replace_path="common/ai_equipment"
 replace_path="common/ai_focuses"
 replace_path="common/ai_peace"
 replace_path="common/ai_strategy"
